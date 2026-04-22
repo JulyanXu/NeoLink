@@ -1,0 +1,108 @@
+{
+  "categories": [
+    {
+      "key": "shipment",
+      "label": "周期性储能出货量",
+      "description": "月度、季度、年度储能系统与电池出货数据，保留统计口径、样本范围、同比和环比。"
+    },
+    {
+      "key": "cellPrice",
+      "label": "电芯价格",
+      "description": "储能电芯、动力电芯及关键规格报价，区分含税、账期、交付地、容量段和样本数量。"
+    },
+    {
+      "key": "export",
+      "label": "储能电池出口环比",
+      "description": "海关、企业披露及第三方口径下的出口量、出口额、目的地和产品结构变化。"
+    },
+    {
+      "key": "company",
+      "label": "重大企业布局",
+      "description": "产能扩张、海外基地、供应链绑定、客户合作、并购、定增和战略转型。"
+    },
+    {
+      "key": "safety",
+      "label": "安全事故",
+      "description": "储能电站、电池系统、工厂和运输环节事故，必须优先引用官方通报或监管文件。"
+    },
+    {
+      "key": "legal",
+      "label": "法律纠纷",
+      "description": "专利、合同、质量、应收账款、证券监管和劳动争议等新能源企业相关案件。"
+    },
+    {
+      "key": "project",
+      "label": "项目开工",
+      "description": "备案、环评、招标、开工、并网、投运等项目生命周期节点。"
+    },
+    {
+      "key": "product",
+      "label": "新产品业态",
+      "description": "工商业储能、构网型储能、光储充、户储、虚拟电厂和电力交易等应用创新。"
+    },
+    {
+      "key": "giant",
+      "label": "行业巨头动作",
+      "description": "头部电池、逆变器、能源、电力和科技公司在新能源市场的关键动作。"
+    },
+    {
+      "key": "ipo",
+      "label": "新能源企业 IPO",
+      "description": "辅导、受理、问询、注册、上市、募投项目和审核关注点。"
+    },
+    {
+      "key": "policy",
+      "label": "政府动作及政策",
+      "description": "国家部委、地方政府、能源主管部门、工信和发改系统政策、征求意见和执行细则。"
+    },
+    {
+      "key": "tender",
+      "label": "招标公示",
+      "description": "储能、电池、光储充、EPC 和运维招标、中标候选人、报价和交付要求。"
+    },
+    {
+      "key": "materials",
+      "label": "锂电主材价格趋势",
+      "description": "碳酸锂、磷酸铁锂、负极、隔膜、电解液、铜箔等主材价格与库存变化。"
+    }
+  ],
+  "priorities": [
+    {
+      "key": "high",
+      "label": "高",
+      "definition": "影响行业定价、供需、监管、资本市场或头部企业战略，必须进入当日简报。"
+    },
+    {
+      "key": "medium",
+      "label": "中",
+      "definition": "对区域、细分赛道或单一公司有明确影响，进入常规更新。"
+    },
+    {
+      "key": "low",
+      "label": "低",
+      "definition": "信息有记录价值，但暂不构成主要市场变化。"
+    }
+  ],
+  "impacts": [
+    {
+      "key": "bullish",
+      "label": "利多"
+    },
+    {
+      "key": "bearish",
+      "label": "利空"
+    },
+    {
+      "key": "neutral",
+      "label": "中性"
+    },
+    {
+      "key": "mixed",
+      "label": "分化"
+    },
+    {
+      "key": "watch",
+      "label": "观察"
+    }
+  ]
+}

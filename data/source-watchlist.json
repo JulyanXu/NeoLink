@@ -1,0 +1,227 @@
+{
+  "purpose": "Hermes agent 每日采集和人工复核的来源清单。这里记录来源类型、权威等级和合规要求，不在仓库中保存账号、Cookie、API key 或付费数据凭据。",
+  "cadence": "每日工作日上午更新，重大事故、政策、资本市场事件和价格异常可随时插入。",
+  "sourceTiers": [
+    {
+      "tier": "一、政府及监管机构",
+      "authority": "权威、免费、核心数据源",
+      "defaultReliability": "primary",
+      "sources": [
+        {
+          "name": "国家能源局",
+          "categories": ["policy", "shipment", "project", "product", "tender"],
+          "examples": ["能源数据", "月度发电装机", "发电量", "可再生能源并网", "绿证交易", "行业报告", "中国可再生能源发展报告"],
+          "requiredFields": ["栏目或文件名", "发布日期", "统计周期", "统计口径", "原文链接"]
+        },
+        {
+          "name": "国家发展改革委",
+          "categories": ["policy", "project", "tender"],
+          "examples": ["产业政策", "规划", "项目核准", "备案信息", "价格机制"],
+          "requiredFields": ["发布机关", "文号或标题", "发布日期", "适用地区", "执行日期", "原文链接"]
+        },
+        {
+          "name": "工业和信息化部",
+          "categories": ["shipment", "materials", "cellPrice", "company", "policy"],
+          "examples": ["新能源汽车", "动力电池", "储能电池", "光伏制造", "行业运行数据", "公告名单"],
+          "requiredFields": ["栏目或文件名", "统计周期", "品类", "同比或环比", "原文链接"]
+        },
+        {
+          "name": "国家统计局",
+          "categories": ["shipment", "materials", "policy"],
+          "examples": ["能源生产消费", "工业产值", "固定资产投资", "宏观经济数据"],
+          "requiredFields": ["指标名称", "统计周期", "单位", "口径", "原文链接"]
+        },
+        {
+          "name": "地方政府平台",
+          "categories": ["policy", "project", "tender", "safety"],
+          "examples": ["省发改委", "省能源局", "自然资源厅", "生态环境厅", "项目备案", "用地公示", "环评公示"],
+          "requiredFields": ["地区", "发布部门", "项目名称", "公示阶段", "发布日期", "原文链接"]
+        },
+        {
+          "name": "各省电力交易中心",
+          "categories": ["product", "policy", "project"],
+          "examples": ["电力市场交易数据", "电价", "新能源消纳", "辅助服务", "现货市场"],
+          "requiredFields": ["省份", "市场类型", "交易周期", "电价或电量口径", "原文链接"]
+        },
+        {
+          "name": "政务信用与公示平台",
+          "categories": ["company", "legal", "tender"],
+          "examples": ["国家企业信用信息公示系统", "中国招标投标公共服务平台", "企业工商", "资质", "异常", "处罚", "新能源项目招标采购"],
+          "requiredFields": ["企业或项目主体", "公示类型", "发布时间", "处罚或招标编号", "原文链接"]
+        }
+      ]
+    },
+    {
+      "tier": "二、行业协会与第三方研究机构",
+      "authority": "行业统计、白皮书、路线图和企业排名",
+      "defaultReliability": "secondary",
+      "sources": [
+        {
+          "name": "行业协会",
+          "categories": ["shipment", "export", "materials", "cellPrice", "policy", "product"],
+          "examples": ["中国光伏行业协会CPIA", "中国风能协会CWEA", "中国能源研究会", "中国电动汽车充电基础设施促进联盟", "白皮书", "产量", "装机", "进出口", "技术路线图"],
+          "requiredFields": ["协会名称", "报告或公告名称", "统计周期", "指标口径", "发布日期", "原文链接或报告名称"]
+        },
+        {
+          "name": "国际组织",
+          "categories": ["export", "shipment", "policy", "product"],
+          "examples": ["国际能源署IEA", "国际可再生能源署IRENA", "全球市场报告", "技术路线图", "政策数据库"],
+          "requiredFields": ["机构名称", "报告名称", "国家或地区", "统计周期", "数据口径", "报告链接"]
+        },
+        {
+          "name": "第三方咨询机构",
+          "categories": ["shipment", "materials", "cellPrice", "company", "product"],
+          "examples": ["GGII高工锂电", "CINNO Research", "中电联", "赛迪", "艾瑞", "年度报告", "季度报告", "细分市场数据", "企业排名"],
+          "requiredFields": ["机构名称", "报告名称", "授权状态", "统计样本", "指标口径", "发布时间"]
+        }
+      ]
+    },
+    {
+      "tier": "三、企业公开信息",
+      "authority": "公司一手披露和可交叉验证的经营线索",
+      "defaultReliability": "primary-or-lead",
+      "sources": [
+        {
+          "name": "上市公司披露",
+          "categories": ["company", "giant", "ipo", "project", "legal"],
+          "examples": ["巨潮资讯网", "上交所", "深交所", "定期报告", "临时公告", "投资者关系活动记录", "ESG报告"],
+          "requiredFields": ["证券代码", "公司名称", "公告名称", "公告日期", "业务指标", "公告链接"]
+        },
+        {
+          "name": "企业自有渠道",
+          "categories": ["company", "product", "project", "giant"],
+          "examples": ["官网", "公众号", "新闻稿", "投资者关系页面", "ESG报告", "新品发布会"],
+          "requiredFields": ["企业名称", "发布渠道", "发布时间", "事件类型", "原文链接"]
+        },
+        {
+          "name": "非上市企业公开线索",
+          "categories": ["company", "project", "legal", "product"],
+          "examples": ["工商年报", "招投标", "专利", "国知局", "新闻稿", "招聘信息"],
+          "requiredFields": ["企业名称", "线索类型", "公开来源", "发布时间", "可核验事实点", "原文链接"]
+        }
+      ]
+    },
+    {
+      "tier": "四、专业数据库与媒体平台",
+      "authority": "覆盖面补充、价格与国际供需信息，需核对版权/API授权",
+      "defaultReliability": "secondary-or-licensed",
+      "sources": [
+        {
+          "name": "电力与能源媒体",
+          "categories": ["policy", "project", "tender", "product", "company", "safety"],
+          "examples": ["北极星电力网", "北极星储能网", "中国能源报", "能源世界", "国际能源网", "财新", "第一财经新能源板块"],
+          "requiredFields": ["媒体名称", "作者或栏目", "发布时间", "事件主体", "原文链接", "二次核验来源"]
+        },
+        {
+          "name": "财经媒体与证券媒体",
+          "categories": ["company", "giant", "ipo", "legal", "policy"],
+          "examples": ["财联社", "证券时报", "上海证券报", "中国证券报", "21世纪经济报道", "第一财经", "界面新闻", "澎湃新闻", "36氪"],
+          "requiredFields": ["媒体名称", "记者或栏目", "发布时间", "涉及主体", "原文链接", "是否可由公告或监管文件复核"]
+        },
+        {
+          "name": "新能源与储能行业媒体",
+          "categories": ["shipment", "company", "project", "product", "tender", "safety"],
+          "examples": ["中国储能网", "储能与电力市场", "高工储能", "高工锂电", "起点锂电", "电池中国"],
+          "requiredFields": ["媒体名称", "发布时间", "事件主体", "项目或产品口径", "引用数据来源", "原文链接"]
+        },
+        {
+          "name": "商业数据平台",
+          "categories": ["company", "legal", "materials", "cellPrice", "export"],
+          "examples": ["天眼查", "企查查", "BloombergNEF", "S&P Global", "ICIS", "国际价格", "国际供需", "企业多维信息"],
+          "requiredFields": ["平台名称", "授权状态", "数据字段", "统计周期", "导出或引用权限", "数据时间"]
+        }
+      ]
+    },
+    {
+      "tier": "五、合规一手信息",
+      "authority": "授权合作、调研和公开场景采集",
+      "defaultReliability": "primary-if-documented",
+      "sources": [
+        {
+          "name": "官方授权与合作",
+          "categories": ["shipment", "materials", "cellPrice", "company", "product"],
+          "examples": ["协会授权", "企业授权", "数据公司授权", "数据使用协议", "官方开放API", "电力交易API", "气象数据API"],
+          "requiredFields": ["授权方", "协议或授权范围", "可发布字段", "使用期限", "引用格式"]
+        },
+        {
+          "name": "合规调研与用户贡献",
+          "categories": ["company", "product", "project", "safety"],
+          "examples": ["行业访谈", "问卷调研", "用户投稿", "爆料", "匿名自愿反馈"],
+          "requiredFields": ["采集方式", "同意状态", "匿名化状态", "审核人", "可公开事实点"]
+        },
+        {
+          "name": "公共场景采集",
+          "categories": ["product", "company", "project"],
+          "examples": ["展会", "发布会", "公开资料", "公开演讲", "社交媒体公开言论"],
+          "requiredFields": ["活动名称", "公开资料名称", "发布时间或举办时间", "可引用范围", "来源链接或资料名称"]
+        }
+      ]
+    }
+  ],
+  "legacySources": [
+    {
+      "name": "招投标与项目公告",
+      "categories": ["tender", "project"],
+      "examples": ["公共资源交易平台", "央国企电子商务平台", "业主单位公告", "EPC 与设备招标平台"],
+      "requiredFields": ["项目名称", "规模", "业主", "地区", "截止时间", "中标候选人或中标价"]
+    }
+  ],
+  "verificationRules": [
+    "优先使用一手来源：政府/监管文件、交易所披露、企业公告、法院/招标/海关文件、正式授权数据。",
+    "媒体报道可以进入线索池，但正式情报优先寻找公告、监管文件、企业原文、交易所披露或权威数据库进行二次核验。",
+    "行业媒体发布的出货量、价格、排名、预测类数据，必须保留数据机构名称、授权状态和统计口径；无法确认口径时标记为跟踪中。",
+    "社交媒体、论坛、群聊截图和投资者互动只作为线索，不作为单一事实来源。",
+    "安全事故、法律纠纷和IPO审核进展必须优先引用官方通报、法院/监管/交易所文件或企业公告。",
+    "商业数据库和付费报告只记录可公开引用的结论，不得把未经授权的数据表、截图、账号权限或接口结果写入仓库。"
+  ],
+  "legalRedLines": [
+    "禁止黑客、破解、绕过登录、绕过付费墙、爬虫暴力攻击或抓取非公开接口。",
+    "禁止购买、传播或使用涉密数据、个人隐私数据和非法来源数据。",
+    "必须注明来源，不篡改数据，不移除版权信息。",
+    "必须遵守《著作权法》《网络安全法》《数据安全法》和个人信息保护相关要求。",
+    "商业发布前必须核对平台版权、API授权和数据使用协议。",
+    "用户投稿、爆料和调研数据必须自愿、匿名化、可撤回，并经人工审核后发布。"
+  ],
+  "complianceTier": {
+    "tier": "六、法律红线",
+    "authority": "必须遵守的采集、引用、发布边界",
+    "rules": [
+      "禁止黑客、破解、绕过登录、绕过付费墙、爬虫暴力攻击或抓取非公开接口。",
+      "禁止购买、传播或使用涉密数据、个人隐私数据和非法来源数据。",
+      "必须注明来源，不篡改数据，不移除版权信息。",
+      "必须遵守《著作权法》《网络安全法》《数据安全法》和个人信息保护相关要求。",
+      "商业发布前必须核对平台版权、API授权和数据使用协议。",
+      "用户投稿、爆料和调研数据必须自愿、匿名化、可撤回，并经人工审核后发布。"
+    ]
+  },
+  "apiCandidates": [
+    {
+      "name": "AKShare 广期所碳酸锂期货数据",
+      "type": "python-library",
+      "categories": ["materials"],
+      "authorization": "open-source-wrapper-check-upstream-terms",
+      "notes": "可用于接入广州期货交易所碳酸锂期货行情；现货报价仍需SMM、Mysteel等授权数据源交叉校验。"
+    },
+    {
+      "name": "交易所公告页面",
+      "type": "public-web",
+      "categories": ["ipo", "company"],
+      "authorization": "public-page",
+      "notes": "深交所、上交所公告可作为IPO、上市、再融资、债券发行等资本市场事件的低频维护来源。"
+    },
+    {
+      "name": "国家能源局、工信部、国家统计局公开网页",
+      "type": "public-web",
+      "categories": ["policy", "shipment", "project", "product", "materials"],
+      "authorization": "public-page",
+      "notes": "适合政策、装机规模、行业运行、项目进展等已核验信息。建议Hermes每日搜索并保留原文链接。"
+    },
+    {
+      "name": "授权商业数据库API",
+      "type": "licensed-api",
+      "categories": ["cellPrice", "materials", "company", "export"],
+      "authorization": "contract-required",
+      "notes": "仅在签订数据使用协议后接入；不要在仓库提交密钥、账号、Cookie或原始导出表。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "news": {
+    "id": "YYYYMMDD-category-short-slug",
+    "date": "YYYY-MM-DD",
+    "category": "shipment",
+    "priority": "medium",
+    "impact": "watch",
+    "region": "全国",
+    "title": "一句话事实标题",
+    "summary": "说明事件、统计口径、来源属性、影响和下一步观察点。第三方咨询或媒体转引必须注明授权状态和待复核事项。",
+    "source": "来源名称",
+    "sourceUrl": "https://example.com/source",
+    "status": "跟踪中",
+    "tags": ["储能电池", "出货量"]
+  },
+  "signal": {
+    "label": "指标名",
+    "value": "展示值",
+    "change": "变化说明",
+    "direction": "up",
+    "note": "统计口径、周期和来源",
+    "series": [1, 2, 3, 4]
+  },
+  "sourceWindow": {
+    "type": "第三方咨询",
+    "title": "授权报告与企业排名窗口",
+    "summary": "公开页可作为线索，完整报告和细分数据需授权。",
+    "cadence": "每日检索 + 授权台账复核",
+    "access": "公开页线索/付费报告需授权",
+    "entries": [
+      {
+        "name": "来源名称",
+        "window": "抓取窗口和授权要求",
+        "url": "https://example.com/"
+      }
+    ]
+  },
+  "companyTracker": {
+    "type": "3C电池",
+    "title": "YYYY榜单名称",
+    "basis": "来源、统计口径、授权限制和替换规则。",
+    "companies": [
+      {
+        "rank": "01",
+        "name": "企业名称",
+        "logoUrl": "assets/logos/company.png",
+        "logoText": "备用文字",
+        "focus": "每日公开信息抓取重点",
+        "source": "官网/交易所/工商",
+        "url": "https://example.com/"
+      }
+    ]
+  }
+}

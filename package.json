@@ -1,0 +1,14 @@
+{
+  "name": "neolink-energy-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "add:news": "node scripts/add-news.mjs",
+    "validate:content": "node scripts/validate-content.mjs",
+    "generate": "node scripts/generate-site.mjs",
+    "check": "npm run validate:content && node --check app.js && node --check scripts/add-news.mjs && node --check scripts/generate-site.mjs && node --check scripts/validate-content.mjs",
+    "build": "npm run check && npm run generate"
+  }
+}

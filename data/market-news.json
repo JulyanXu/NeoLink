@@ -1,0 +1,917 @@
+{
+  "generatedAt": "2026-04-22T11:50:00+08:00",
+  "signals": [
+    {
+      "label": "3月规上发电量",
+      "value": "8025亿千瓦时",
+      "change": "+1.8%",
+      "direction": "up",
+      "note": "国家统计局2026年3月份能源生产情况口径",
+      "series": [7188, 7310, 7685, 7790, 7950, 8025]
+    },
+    {
+      "label": "绿证核发量",
+      "value": "9.3亿个",
+      "change": "2026年1月",
+      "direction": "up",
+      "note": "国家能源局新闻发布会披露，交易量约6.6亿个",
+      "series": [1.2, 2.6, 4.1, 5.8, 7.4, 9.3]
+    },
+    {
+      "label": "港股储能 IPO 热度",
+      "value": "1102.05倍",
+      "change": "公开发售认购",
+      "direction": "up",
+      "note": "思格新能港股公开发售认购倍数，新浪财经披露配发结果",
+      "series": [12, 46, 120, 310, 780, 1102]
+    },
+    {
+      "label": "新型储能累计装机",
+      "value": "1.36亿千瓦",
+      "change": "+84%",
+      "direction": "up",
+      "note": "截至2025年底，国家能源局口径；容量为3.51亿千瓦时",
+      "series": [3, 7, 17, 31, 74, 136]
+    }
+  ],
+  "watchlist": [
+    {
+      "name": "港股新能源 IPO 再定价",
+      "reason": "思格新能高倍数认购与电池新能源赴港上市升温，需要同步跟踪港交所披露易、财经媒体、企业招股书和上市后成交表现。"
+    },
+    {
+      "name": "动储电池反内卷监管",
+      "reason": "工信部等部门已召开动力和储能电池行业座谈会，后续重点看产能预警、质量管理、价格竞争治理和地方配套执行。"
+    },
+    {
+      "name": "电池新能源 IPO 项目质量",
+      "reason": "电池网/新浪财经梳理显示，一季度电池新能源企业 IPO 与赴港递表密集，但审核更关注研发、盈利、全球化和产能消化能力。"
+    },
+    {
+      "name": "装机高增长后的收益兑现",
+      "reason": "国家能源局口径显示新型储能装机继续快速增长，仍需交叉跟踪电力交易中心、招投标、辅助服务收益和地方政策。"
+    }
+  ],
+  "sourceWindows": [
+    {
+      "type": "政府及监管机构",
+      "title": "权威数据与政策窗口",
+      "summary": "用于锁定能源生产、装机、绿证、电价机制、行业运行、项目备案、处罚和招投标等一手信息。",
+      "cadence": "每日检索",
+      "access": "公开网页提取",
+      "entries": [
+        {
+          "name": "国家统计局能源生产",
+          "window": "能源生产、发电量、工业运行宏观口径",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963324.html"
+        },
+        {
+          "name": "国家能源局发布会",
+          "window": "新型储能装机、绿证交易、能源数据",
+          "url": "https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html"
+        },
+        {
+          "name": "工信部行业运行与公告",
+          "window": "动力电池、储能电池、光伏制造、质量监管",
+          "url": "https://wap.miit.gov.cn/xwdt/gxdt/sjdt/art/2026/art_562c3b035c254d458dd7e74ddb8318c0.html"
+        }
+      ]
+    },
+    {
+      "type": "行业协会与第三方研究机构",
+      "title": "协会统计与研究窗口",
+      "summary": "用于补齐白皮书、技术路线、充电基础设施、电力供需、光伏和风电行业统计，第三方数据需标注口径和授权状态。",
+      "cadence": "每日检索 + 周报复核",
+      "access": "公开网页/报告页提取",
+      "entries": [
+        {
+          "name": "中国电力企业联合会",
+          "window": "电力供需、发用电、装机和新能源消纳",
+          "url": "https://www.cec.org.cn/detail/index.html?3-337342"
+        },
+        {
+          "name": "中国光伏行业协会 CPIA",
+          "window": "光伏制造、装机、出口、技术路线图和行业白皮书",
+          "url": "https://www.chinapv.org.cn/"
+        },
+        {
+          "name": "中国风能协会 CWEA",
+          "window": "风电装机、产业报告、技术路线和政策观察",
+          "url": "https://www.cwea.org.cn/"
+        },
+        {
+          "name": "中国能源研究会",
+          "window": "能源转型、储能、综合能源研究和会议报告",
+          "url": "https://www.cers.org.cn/"
+        },
+        {
+          "name": "中国充电联盟",
+          "window": "公共充电桩、换电站、月度运行数据",
+          "url": "https://www.evcipa.org.cn/"
+        },
+        {
+          "name": "国际能源署 IEA",
+          "window": "全球可再生能源、储能、政策与市场报告",
+          "url": "https://www.iea.org/"
+        },
+        {
+          "name": "国际可再生能源署 IRENA",
+          "window": "全球可再生能源装机、投资、成本和转型报告",
+          "url": "https://www.irena.org/"
+        }
+      ]
+    },
+    {
+      "type": "第三方咨询",
+      "title": "授权报告与企业排名窗口",
+      "summary": "用于跟踪年度/季度报告、细分市场数据、企业排名、价格与出货口径。公开新闻页可提取摘要；完整报告、数据库、排名明细和商业再发布必须取得正规授权。",
+      "cadence": "每日检索 + 授权台账复核",
+      "access": "公开页线索/付费报告需授权",
+      "entries": [
+        {
+          "name": "GGII 高工锂电",
+          "window": "锂电、动力电池、储能电池、材料、出货和企业排名；商业数据需授权",
+          "url": "https://www.gg-lb.com/"
+        },
+        {
+          "name": "CINNO Research",
+          "window": "光伏、显示、半导体、新能源材料和供应链研究；报告引用需确认版权",
+          "url": "https://www.cinno.com.cn/"
+        },
+        {
+          "name": "中国电力企业联合会",
+          "window": "电力供需、装机、用电量、发电量和行业预测；优先找原始报告页",
+          "url": "https://www.cec.org.cn/"
+        },
+        {
+          "name": "赛迪顾问",
+          "window": "新能源制造、区域产业、园区和企业竞争力研究；完整报告需授权",
+          "url": "https://www.ccidconsulting.com/"
+        },
+        {
+          "name": "艾瑞咨询",
+          "window": "新能源消费、出行、数字化和产业研究；转载和商用需核对授权",
+          "url": "https://www.iresearch.com.cn/"
+        }
+      ]
+    },
+    {
+      "type": "企业公开信息",
+      "title": "公告、年报与企业窗口",
+      "summary": "用于核验上市公司产能、出货、募投、海外布局、ESG、投资者关系和非上市企业公开线索。",
+      "cadence": "交易日检索",
+      "access": "公开网页/公告 PDF 提取",
+      "entries": [
+        {
+          "name": "巨潮资讯公告检索",
+          "window": "A股年报、临时公告、投资者关系记录",
+          "url": "https://www.cninfo.com.cn/new/index"
+        },
+        {
+          "name": "港交所披露易",
+          "window": "H股 IPO、招股书、配发结果、上市文件",
+          "url": "https://www.hkexnews.hk/"
+        },
+        {
+          "name": "上交所公告",
+          "window": "科创板/主板新能源企业公告、问询和再融资",
+          "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/"
+        },
+        {
+          "name": "深交所公告",
+          "window": "创业板/主板新能源企业公告、互动易和监管信息",
+          "url": "https://www.szse.cn/disclosure/listed/notice/index.html"
+        },
+        {
+          "name": "国家企业信用信息公示系统",
+          "window": "非上市企业工商年报、异常、处罚和股权线索",
+          "url": "https://www.gsxt.gov.cn/"
+        },
+        {
+          "name": "国家知识产权局",
+          "window": "电池、储能系统、BMS、材料和工艺专利线索",
+          "url": "https://www.cnipa.gov.cn/"
+        },
+        {
+          "name": "中国招标投标公共服务平台",
+          "window": "非上市企业参与项目、设备采购和中标线索",
+          "url": "https://www.cebpubservice.com/"
+        },
+        {
+          "name": "企业官网/新闻稿",
+          "window": "产品发布、基地投产、客户合作和ESG报告",
+          "url": "https://www.catl.com/"
+        }
+      ]
+    },
+    {
+      "type": "专业数据库与媒体平台",
+      "title": "媒体、价格与项目线索窗口",
+      "summary": "用于扩大覆盖面，抓取项目招标、价格周评、事故线索、行业巨头动作和财经事件，再回溯到公告或监管原文复核。",
+      "cadence": "每日检索 + 异常插入",
+      "access": "公开网页提取/授权数据",
+      "entries": [
+        {
+          "name": "北极星储能网",
+          "window": "储能项目、招中标、EPC与系统采购线索",
+          "url": "https://chuneng.bjx.com.cn/"
+        },
+        {
+          "name": "中国能源报",
+          "window": "能源政策、企业动作、行业观察",
+          "url": "https://cnenergynews.cn/"
+        },
+        {
+          "name": "第一财经新能源",
+          "window": "资本市场、公司财务和产业趋势",
+          "url": "https://www.yicai.com/"
+        }
+      ]
+    }
+  ],
+  "companyTrackers": [
+    {
+      "type": "储能电池",
+      "title": "CNESA DataLink 2024全球市场储能电池出货 Top10 中国企业",
+      "basis": "CNESA DataLink 全球储能数据库经经济观察网公开发布；不含基站/数据中心备电类电池。每日抓取企业官网、公告、招投标、ESG和投资者关系线索。",
+      "companies": [
+        {
+          "rank": "01",
+          "name": "宁德时代",
+          "focus": "储能电芯、系统集成、海外订单、年报与季报",
+          "source": "官网/巨潮",
+          "url": "https://www.catl.com/"
+        },
+        {
+          "rank": "02",
+          "name": "亿纬储能",
+          "focus": "储能电池出货、海外基地、定期报告和投资者记录",
+          "source": "官网/巨潮",
+          "url": "https://www.evebattery.com/"
+        },
+        {
+          "rank": "03",
+          "name": "海辰储能",
+          "focus": "储能电芯、长时储能、海外产能与客户签约",
+          "source": "官网/新闻",
+          "url": "https://www.hithium.com/"
+        },
+        {
+          "rank": "04",
+          "name": "比亚迪",
+          "focus": "储能系统、刀片电池、海外项目和财报披露",
+          "source": "官网/公告",
+          "url": "https://www.bydenergy.com/"
+        },
+        {
+          "rank": "05",
+          "name": "瑞浦兰钧",
+          "focus": "储能电芯、动力电池、港股公告和产能建设",
+          "source": "官网/港交所",
+          "url": "https://www.reptbattero.com/"
+        },
+        {
+          "rank": "06",
+          "name": "中创新航",
+          "focus": "储能与动力电池、港股公告、客户和扩产",
+          "source": "官网/港交所",
+          "url": "https://www.calb-tech.com/"
+        },
+        {
+          "rank": "07",
+          "name": "远景动力",
+          "focus": "储能电芯、海外工厂、零碳产业园和客户合作",
+          "source": "官网/新闻",
+          "url": "https://www.envision-aesc.com/"
+        },
+        {
+          "rank": "08",
+          "name": "楚能新能源",
+          "focus": "储能电池、产能爬坡、工商和招投标线索",
+          "source": "官网/工商",
+          "url": "https://www.cornexbattery.com/"
+        },
+        {
+          "rank": "09",
+          "name": "力神电池",
+          "focus": "储能电池、动力电池、国资背景和公开项目线索",
+          "source": "官网/工商",
+          "url": "https://en.lishen.com.cn/"
+        },
+        {
+          "rank": "10",
+          "name": "赣锋锂电",
+          "logoUrl": "assets/logos/ganfeng-lienergy.png",
+          "focus": "储能电池、固态电池、锂资源协同和公告",
+          "source": "官网/公告",
+          "url": "https://www.ganfengbattery.com/index_en.html"
+        }
+      ]
+    },
+    {
+      "type": "动力电池",
+      "title": "2025全球动力电池装车 Top10 企业",
+      "basis": "SNE Research 2025全球EV电池装车量数据经 CnEVPost 公开转引。每日抓取企业公告、官网新闻、ESG、投资者关系和监管披露。",
+      "companies": [
+        {
+          "rank": "01",
+          "name": "宁德时代",
+          "focus": "动力电池装车、客户结构、海外基地和财报",
+          "source": "官网/巨潮",
+          "url": "https://www.catl.com/"
+        },
+        {
+          "rank": "02",
+          "name": "比亚迪",
+          "focus": "动力电池装车、弗迪电池、整车销量和公告",
+          "source": "官网/公告",
+          "url": "https://www.byd.com/"
+        },
+        {
+          "rank": "03",
+          "name": "LG Energy Solution",
+          "focus": "全球客户、北美工厂、财报和ESG",
+          "source": "官网/IR",
+          "url": "https://www.lgensol.com/"
+        },
+        {
+          "rank": "04",
+          "name": "中创新航",
+          "focus": "动力电池装车、港股公告、客户和产能",
+          "source": "官网/港交所",
+          "url": "https://www.calb-tech.com/"
+        },
+        {
+          "rank": "05",
+          "name": "国轩高科",
+          "focus": "动力电池装车、海外产能、客户和定期报告",
+          "source": "官网/巨潮",
+          "url": "https://www.gotion.com.cn/"
+        },
+        {
+          "rank": "06",
+          "name": "SK On",
+          "focus": "全球电池客户、美国/欧洲产能和集团公告",
+          "source": "官网/IR",
+          "url": "https://www.sk-on.com/"
+        },
+        {
+          "rank": "07",
+          "name": "Panasonic Energy",
+          "focus": "北美圆柱电池、客户供货和财务披露",
+          "source": "官网/IR",
+          "url": "https://www.panasonic.com/global/energy/"
+        },
+        {
+          "rank": "08",
+          "name": "亿纬锂能",
+          "focus": "动力与储能电池、海外工厂、公告和投资者记录",
+          "source": "官网/巨潮",
+          "url": "https://www.evebattery.com/"
+        },
+        {
+          "rank": "09",
+          "name": "Samsung SDI",
+          "focus": "动力电池客户、产能、财报和可持续披露",
+          "source": "官网/IR",
+          "url": "https://www.samsungsdi.com/"
+        },
+        {
+          "rank": "10",
+          "name": "蜂巢能源",
+          "logoUrl": "assets/logos/svolt.png",
+          "focus": "短刀电池、客户装车、IPO/融资和工商线索",
+          "source": "官网/工商",
+          "url": "https://www.svolt.cn/"
+        }
+      ]
+    },
+    {
+      "type": "3C电池",
+      "title": "2025中国3C锂电池 Top10 企业跟踪榜",
+      "basis": "公开页面可核验的是SPIR/起点锂电发布的2025中国3C锂电池营收TOP10；出货量明细和更细口径需购买报告或取得授权后替换。",
+      "companies": [
+        {
+          "rank": "01",
+          "name": "ATL 新能源科技",
+          "logoUrl": "assets/logos/atl.png",
+          "logoText": "ATL",
+          "focus": "消费电子锂电、手机/笔电客户、产能和官网新闻",
+          "source": "官网/报告",
+          "url": "https://www.atlbattery.com/"
+        },
+        {
+          "rank": "02",
+          "name": "珠海冠宇",
+          "logoUrl": "assets/logos/cosmx.png",
+          "logoText": "冠宇",
+          "focus": "消费类电池、动力电池、年报和客户结构",
+          "source": "官网/上交所",
+          "url": "https://www.cosmx.com/"
+        },
+        {
+          "rank": "03",
+          "name": "亿纬锂能",
+          "logoText": "EVE",
+          "focus": "消费电池、动力储能、公告和投资者关系",
+          "source": "官网/巨潮",
+          "url": "https://www.evebattery.com/"
+        },
+        {
+          "rank": "04",
+          "name": "欣旺达",
+          "logoText": "欣旺达",
+          "focus": "消费类电池、动力电池、储能和定期报告",
+          "source": "官网/巨潮",
+          "url": "https://www.sunwoda.com/"
+        },
+        {
+          "rank": "05",
+          "name": "比亚迪",
+          "logoText": "BYD",
+          "focus": "3C电池、动力电池、储能和企业公告",
+          "source": "官网/公告",
+          "url": "https://www.byd.com/"
+        },
+        {
+          "rank": "06",
+          "name": "蔚蓝锂芯",
+          "logoUrl": "assets/logos/azure.svg",
+          "logoText": "蔚蓝",
+          "focus": "圆柱电池、消费类应用、公告和产能线索",
+          "source": "官网/巨潮",
+          "url": "https://www.azurecorp.com/"
+        },
+        {
+          "rank": "07",
+          "name": "豪鹏科技",
+          "logoText": "豪鹏",
+          "focus": "消费类电池、储能电池、年报和客户线索",
+          "source": "官网/巨潮",
+          "url": "https://www.highpowertech.com/"
+        },
+        {
+          "rank": "08",
+          "name": "新能安",
+          "logoUrl": "assets/logos/ampace.png",
+          "logoText": "AMP",
+          "focus": "消费电子、电动工具、轻型动力和储能场景",
+          "source": "官网/新闻",
+          "url": "https://www.ampace.com/"
+        },
+        {
+          "rank": "09",
+          "name": "鹏辉能源",
+          "logoText": "鹏辉",
+          "focus": "消费电池、储能电池、互动易和定期报告",
+          "source": "官网/巨潮",
+          "url": "https://www.greatpower.net/"
+        },
+        {
+          "rank": "10",
+          "name": "维科技术",
+          "logoText": "维科",
+          "focus": "消费类锂电、产业链布局、公告和经营变化",
+          "source": "官网/上交所",
+          "url": "https://www.veken-tech.com/"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "20260304-shipment-spir-3c-battery-top10",
+      "date": "2026-03-04",
+      "category": "shipment",
+      "priority": "medium",
+      "impact": "watch",
+      "region": "全国",
+      "title": "SPIR发布2025中国3C锂电池营收TOP10，作为3C电池出货跟踪企业池",
+      "summary": "公开转载信息显示，SPIR起点研究发布2025中国3C锂电池营收TOP10榜单，ATL、珠海冠宇、亿纬锂能、欣旺达、比亚迪、蔚蓝锂芯、豪鹏科技、新能安、鹏辉能源、维科技术入榜。该公开页面为营收口径；若要展示3C电池出货量明细，需购买报告或取得授权后替换。",
+      "source": "搜狐 / 起点锂电 SPIR",
+      "sourceUrl": "https://m.sohu.com/a/992277262_491253",
+      "status": "跟踪中",
+      "tags": ["3C电池", "消费锂电", "SPIR", "企业排名", "授权数据"]
+    },
+    {
+      "id": "20260417-product-esie2026-cnesa-leading-globally",
+      "date": "2026-04-17",
+      "category": "product",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "CNESA白皮书：截至2025年底中国新型储能累计装机占全球51.9%，ESIE 2026释放产业领跑信号",
+      "summary": "国家能源局转载报道，第十四届储能国际峰会暨展览会（ESIE 2026）期间，CNESA发布的《储能产业研究白皮书2026》指出，截至2025年底中国新型储能累计装机144.7GW，首次占全球市场半数以上（51.9%）。2025年新增投运规模66.4GW/189.5GWh，功率和能量规模分别同比增长约52%和73%，连续四年全球首位。同期，政策指挥棒从强制配储转向市场化用储，2026年1月发改委、能源局首次在国家层面建立电网侧独立新型储能容量电价机制，为储能电站提供稳定收益预期，兴业证券等机构认为行业将凭政策、刚需、经济性三重红利提速增长。",
+      "source": "国家能源局 / CNESA",
+      "sourceUrl": "https://www.nea.gov.cn/20260417/a6ef89bc89eb4814872959c4b10fd731/c.html",
+      "status": "已核验",
+      "tags": ["ESIE2026", "CNESA", "新型储能", "全球领先", "装机", "容量电价"]
+    },
+    {
+      "id": "20260409-safety-ndrc-major-hazard-determination",
+      "date": "2026-04-09",
+      "category": "safety",
+      "priority": "high",
+      "impact": "watch",
+      "region": "政府",
+      "title": "发改委发布电力重大事故隐患判定标准，储能电站90天倒计时开始",
+      "summary": "4月9日，国家发改委发布《电力重大事故隐患判定标准及治理监督管理规定》（41号文），针对储能电站明确了重大隐患判定标准，并要求并入220千伏以上电网的储能电站在规定时间内完成整改。该标准被誉为储能行业最严安全新规，业内分析认为将推动行业从规模扩张转向安全提质，淘汰低质量产能。",
+      "source": "国家发改委",
+      "sourceUrl": "https://news.qq.com/rain/a/20260417A030O200",
+      "status": "已核验",
+      "tags": ["安全", "发改委", "储能电站", "重大隐患", "标准"]
+    },
+    {
+      "id": "20260401-export-lithium-battery-janfeb-2026-up46",
+      "date": "2026-04-01",
+      "category": "export",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "乘联分会：2026年1至2月锂电池出口142亿美元，同比增长46%",
+      "summary": "乘联分会秘书长崔东树披露，2026年1至2月中国锂电池出口142亿美元，同比增长46%；出口数量92.6万吨，同比增长63%；出口均价1.53万美元/吨，同比下降10%，但较2024年降幅（22%）明显收窄。主要出口目的地为欧盟（占比约43%，同比增长69%）和东南亚，对美出口下降34%至14亿美元。商务部数据同步确认，一季度电动汽车、锂电池、光伏产品出口增长50.7%。",
+      "source": "乘联分会 / 崔东树",
+      "sourceUrl": "https://news.qq.com/rain/a/20260401A06G7900",
+      "status": "已核验",
+      "tags": ["锂电池出口", "新三样", "欧盟", "同比增长", "崔东树"]
+    },
+    {
+      "id": "20260416-company-esie2026-large-cell-aidc-launches",
+      "date": "2026-04-16",
+      "category": "company",
+      "priority": "high",
+      "impact": "watch",
+      "region": "全国",
+      "title": "ESIE 2026展会：鹏辉、楚能、中创新航、亿纬等发布587Ah以上大电芯，宁德时代推出AIDC储能钠电池",
+      "summary": "第十四届储能国际峰会上，多家电池企业发布大容量储能电芯新品：鹏辉能源发布587Ah风鹏电芯和6.25MWh系统方案；楚能发布588Ah电芯与6.25MWh系统；中创新航发布392/588/661Ah三款长循环储能电芯；亿纬锂能全球首发6.9MWh储能系统并与5家企业签约超50GWh；宁德时代展出覆盖AIDC全场景的储能钠离子电池。InfoLink预计2026年500Ah+电芯在大储市场渗透率将接近15%。",
+      "source": "国信证券 / ESIE2026",
+      "sourceUrl": "https://www.fxbaogao.com/detail/5337125",
+      "status": "跟踪中",
+      "tags": ["大电芯", "500Ah+", "AIDC", "宁德时代", "鹏辉能源", "楚能", "亿纬锂能", "储能系统"]
+    },
+    {
+      "id": "20260420-materials-lithium-carbonate-price-176k",
+      "date": "2026-04-20",
+      "category": "materials",
+      "priority": "high",
+      "impact": "watch",
+      "region": "全国",
+      "title": "碳酸锂期货主力合约LC2605收于17.62万元/吨，现货报价涨至约16.8至17.2万元/吨",
+      "summary": "4月20日，广期所电池级碳酸锂期货主力合约LC2605收盘报176220元/吨，LC2606收于177100元/吨。现货市场上，SMM电池级碳酸锂报价涨至16.7至17.2万元/吨，优质矿报价约16.8至17.2万元/吨。津巴布韦锂矿出口禁令已解除首批配额，影响有待观察；下游铁锂企业开工维持满产，部分四月排产小幅增加。多家机构预期2026年全年碳酸锂维持紧平衡，价格中枢较2025年抬升超过15%。",
+      "source": "上海有色网 SMM / 广期所",
+      "sourceUrl": "https://www.chemall.com.cn/news/show-247217.html",
+      "status": "跟踪中",
+      "tags": ["碳酸锂", "价格", "广期所", "期货", "SMM"]
+    },
+    {
+      "id": "20260412-safety-france-storage-fire",
+      "date": "2026-04-12",
+      "category": "safety",
+      "priority": "medium",
+      "impact": "bearish",
+      "region": "海外",
+      "title": "法国Saucats锂电池储能集装箱起火，消防员干预一天一夜控制火势",
+      "summary": "据上海有色网引用SMM报道，当地时间4月12日，法国Saucats一个锂电池储能集装箱发生起火事故，经过消防员一天一夜干预火势才得到控制，未发生火灾蔓延和人员伤亡。英国某采用特斯拉Megapack系统的储能电站3月14日亦发生热失控事故，约15MWh容量损毁。频发的海外储能事故对国内储能出口和安全管理提出警示。",
+      "source": "上海有色网 SMM",
+      "sourceUrl": "https://news.smm.cn/live/detail/102351079",
+      "status": "待核验",
+      "tags": ["储能安全", "储能事故", "法国", "锂电池", "热失控"]
+    },
+    {
+      "id": "20260416-ipo-sigenergy-listed-1102x-oversubscribe",
+      "date": "2026-04-16",
+      "category": "ipo",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "香港",
+      "title": "思格新能正式登陆港交所，发行价324.2港元首日涨超80%，市值突破1400亿港元",
+      "summary": "思格新能源（06656.HK）4月16日正式在港交所主板挂牌，发行价324.2港元/股，开盘大涨近80%至580港元/股以上，市值突破1400亿港元。公开数据显示，思格新能IPO公开发售获1102.05倍超额认购，创2026年港股最高认购纪录；基石投资者包括淡马锡、高瓴、瑞银、高盛等21家机构，合计认购约2.8亿美元（约占49.8%）。公司从成立到上市不足4年，刷新中国企业港股IPO最快纪录，上市首日市值约800亿港元。",
+      "source": "新浪财经 / 港交所",
+      "sourceUrl": "https://k.sina.com.cn/article_7857201856_1d45362c001904e5hi.html",
+      "status": "已核验",
+      "tags": ["思格新能", "06656", "港交所", "IPO", "储能", "淡马锡", "高瓴"]
+    },
+    {
+      "id": "20260410-export-ministry-new-three-exports-up50pct",
+      "date": "2026-04-10",
+      "category": "export",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "商务部确认：一季度电动汽车、锂电池、光伏产品出口增长50.7%",
+      "summary": "商务部专题新闻发布会介绍，2026年以来中国出口商品呈现竞智逐新特点，高技术、高附加值、绿色低碳产品引领效果明显。电动汽车、锂电池、光伏产品新三样出口增长50.7%，成为拉动外贸增长重要引擎。跨境电商、保税维修等新业态展现蓬勃生机。新兴市场与传统市场协同发力，对共建一带一路国家进出口增长20%，对东盟、欧盟分别增长20.3%、19.9%。",
+      "source": "商务部 / 央视新闻",
+      "sourceUrl": "https://finance.sina.com.cn/jjxw/2026-04-10/doc-inhtzhty0248600.shtml",
+      "status": "已核验",
+      "tags": ["新三样", "锂电池出口", "商务部", "一带一路", "外贸"]
+    },
+    {
+      "id": "20260204-shipment-sne-global-ev-battery-2025",
+      "date": "2026-02-04",
+      "category": "shipment",
+      "priority": "high",
+      "impact": "watch",
+      "region": "全球",
+      "title": "SNE Research口径：2025年全球动力电池装车量1187GWh，宁德时代、比亚迪居前二",
+      "summary": "CnEVPost转引SNE Research数据称，2025年全球EV动力电池装车量达到1187GWh，同比增长31.7%；宁德时代、比亚迪、LG新能源、中创新航、国轩高科、SK On、Panasonic、亿纬锂能、Samsung SDI、蜂巢能源位列前十。该条作为动力电池前十企业公开信息抓取基准。",
+      "source": "CnEVPost / SNE Research",
+      "sourceUrl": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/",
+      "status": "跟踪中",
+      "tags": ["动力电池", "SNE Research", "装车量", "前十企业", "全球"]
+    },
+    {
+      "id": "20250117-shipment-cnesa-storage-battery-top10",
+      "date": "2025-01-17",
+      "category": "shipment",
+      "priority": "medium",
+      "impact": "watch",
+      "region": "全球",
+      "title": "CNESA DataLink发布2024年度全球市场储能电池中国企业出货量TOP10",
+      "summary": "经济观察网报道，CNESA DataLink全球储能数据库发布2024年度储能数据，中国企业全球市场储能电池出货量TOP10为宁德时代、亿纬储能、海辰储能、比亚迪、瑞浦兰钧、中创新航、远景动力、楚能新能源、力神、赣锋锂电。该榜单不含基站/数据中心备电类电池，适合作为储能电池前十企业公开信息抓取基准。",
+      "source": "经济观察网 / CNESA DataLink",
+      "sourceUrl": "https://www.eeo.com.cn/2025/0117/707035.shtml",
+      "status": "跟踪中",
+      "tags": ["储能电池", "CNESA DataLink", "出货量", "前十企业", "中国企业"]
+    },
+    {
+      "id": "20250912-shipment-ggii-battery-h1-2025",
+      "date": "2025-09-12",
+      "category": "shipment",
+      "priority": "medium",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "GGII口径：2025年上半年中国锂电池出货776GWh，储能电池增速高于动力电池",
+      "summary": "新浪财经报道引述高工产业研究院(GGII)数据，2025年上半年中国锂电池出货量776GWh，同比增长68%；其中动力电池、储能电池出货量分别为477GWh、265GWh，同比分别增长49%、128%。该条归入第三方咨询机构窗口，商业使用需核对GGII授权。",
+      "source": "新浪财经 / GGII",
+      "sourceUrl": "https://finance.sina.com.cn/money/smjj/smdt/2025-09-12/doc-infqfwzh9259415.shtml",
+      "status": "跟踪中",
+      "tags": ["GGII", "高工锂电", "锂电池", "储能电池", "动力电池"]
+    },
+    {
+      "id": "20260416-shipment-nbs-energy-production-march",
+      "date": "2026-04-16",
+      "category": "shipment",
+      "priority": "high",
+      "impact": "neutral",
+      "region": "全国",
+      "title": "国家统计局披露3月份规上工业发电量8025亿千瓦时",
+      "summary": "国家统计局发布2026年3月份能源生产情况，规模以上工业发电量8025亿千瓦时，同比增长1.8%。该口径用于跟踪宏观电力需求与新能源消纳背景，后续应与国家能源局装机、电力交易中心成交和中电联供需报告交叉使用。",
+      "source": "国家统计局",
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963324.html",
+      "status": "已核验",
+      "tags": ["国家统计局", "能源生产", "发电量", "宏观数据"]
+    },
+    {
+      "id": "20260202-research-cec-power-supply-demand-2026",
+      "date": "2026-02-02",
+      "category": "policy",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "中电联预计2026年新能源新增装机有望超过3亿千瓦",
+      "summary": "中国能源报报道中电联《2025—2026年度全国电力供需形势分析预测报告》称，2026年全年新增发电装机有望超过4亿千瓦，其中新增新能源发电装机有望超过3亿千瓦，太阳能发电装机规模有望首次超过煤电。该条归入协会/研究机构窗口，需继续寻找报告全文或中电联原始发布页复核。",
+      "source": "中国能源报 / 中电联",
+      "sourceUrl": "https://www.cnenergynews.cn/article/4QDaJYIuws5",
+      "status": "跟踪中",
+      "tags": ["中电联", "中国能源报", "电力供需", "新能源装机", "太阳能"]
+    },
+    {
+      "id": "20260415-company-catl-q1-report",
+      "date": "2026-04-15",
+      "category": "giant",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "企业公开信息",
+      "title": "宁德时代2026年一季度营收1291.31亿元，归母净利润207.38亿元",
+      "summary": "宁德时代官网披露2026年第一季度报告，公司实现营业收入1291.31亿元，同比增长52.45%；归属于上市公司股东的净利润207.38亿元，同比增长48.52%。该条来自企业公开披露文件，可作为电池龙头景气度和后续储能电池需求验证入口。",
+      "source": "宁德时代公告",
+      "sourceUrl": "https://www.catl.com/uploads/1/file/public/202604/20260415213228_0fxgc0dcvb.pdf",
+      "status": "已核验",
+      "tags": ["宁德时代", "一季报", "电池龙头", "企业公告"]
+    },
+    {
+      "id": "20260130-product-nea-green-certificate-january",
+      "date": "2026-01-30",
+      "category": "product",
+      "priority": "medium",
+      "impact": "watch",
+      "region": "全国",
+      "title": "国家能源局披露1月绿证核发9.3亿个、交易6.6亿个",
+      "summary": "国家能源局新闻发布会披露，2026年1月共核发绿证9.3亿个，交易绿证约6.6亿个；截至1月底，全国累计核发绿证约72亿个，累计交易绿证约13.8亿个。该信息进入政府监管窗口，用于跟踪绿电消费、可再生能源环境权益和企业ESG披露。",
+      "source": "国家能源局",
+      "sourceUrl": "https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html",
+      "status": "已核验",
+      "tags": ["绿证", "可再生能源", "国家能源局", "ESG"]
+    },
+    {
+      "id": "20260417-ipo-sina-battery-new-energy-capital-market",
+      "date": "2026-04-17",
+      "category": "ipo",
+      "priority": "high",
+      "impact": "watch",
+      "region": "资本市场",
+      "title": "财经媒体梳理一季度电池新能源 IPO 回暖，赴港上市热度提升",
+      "summary": "新浪财经转载电池网文章称，一季度电池新能源企业在A股、港股两地资本市场动作密集：思格新能4月16日在港交所主板挂牌；璞泰来、欣旺达、鹏辉能源、星源材质、亿纬锂能等企业出现赴港递表或H股规划线索。该条作为媒体汇总入口，后续需回溯港交所、交易所和企业公告原文。",
+      "source": "新浪财经 / 电池网",
+      "sourceUrl": "https://finance.sina.com.cn/roll/2026-04-17/doc-inhuutze6562819.shtml",
+      "status": "跟踪中",
+      "tags": ["IPO", "港股", "A+H", "电池网", "资本市场"]
+    },
+    {
+      "id": "20260415-ipo-sina-sigenergy-allotment",
+      "date": "2026-04-15",
+      "category": "ipo",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "香港",
+      "title": "思格新能港股公开发售获1102.05倍认购，最终发售价324.2港元",
+      "summary": "新浪财经披露，思格新能(06656)全球发售1357.39万股H股，香港公开发售占10%，国际发售占90%；最终发售价为每股324.2港元，全球发售净筹约41.9亿港元，每手100股，预期4月16日在联交所开始买卖。",
+      "source": "新浪财经",
+      "sourceUrl": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-04-15/doc-inhurayw7683126.shtml",
+      "status": "跟踪中",
+      "tags": ["思格新能", "06656", "港交所", "储能", "公开发售"]
+    },
+    {
+      "id": "20260416-ipo-cfbond-sigenergy-listing",
+      "date": "2026-04-16",
+      "category": "ipo",
+      "priority": "medium",
+      "impact": "watch",
+      "region": "香港",
+      "title": "中国财富网跟踪思格新能上市首日表现线索",
+      "summary": "中国财富网对思格新能港股上市进行跟踪，可作为上市后二级市场表现的补充渠道。该类信息后续应与港交所公告、公司披露和行情数据共同校验。",
+      "source": "中国财富网",
+      "sourceUrl": "https://www.cfbond.com/2026/04/16/991202895.html",
+      "status": "跟踪中",
+      "tags": ["上市首日", "港股", "储能", "市场表现"]
+    },
+    {
+      "id": "20260109-policy-miit-battery-meeting",
+      "date": "2026-01-09",
+      "category": "policy",
+      "priority": "high",
+      "impact": "watch",
+      "region": "政府",
+      "title": "四部门召开动力和储能电池行业座谈会，强调规范竞争与质量管理",
+      "summary": "工信部信息显示，2026年1月7日，工信部电子信息司、装备工业一司、市场监管总局质量监督司、国家能源局能源节约和科技装备司组织召开动力和储能电池行业座谈会，要求聚焦全产业链协同，规范行业竞争秩序，推动创新突破，加强产品质量管理，扩大高水平供给。",
+      "source": "工业和信息化部",
+      "sourceUrl": "https://wap.miit.gov.cn/xwdt/gxdt/sjdt/art/2026/art_562c3b035c254d458dd7e74ddb8318c0.html",
+      "status": "已核验",
+      "tags": ["工信部", "储能电池", "动力电池", "反内卷", "质量管理"]
+    },
+    {
+      "id": "20251205-policy-miit-battery-carbon-footprint",
+      "date": "2025-12-05",
+      "category": "policy",
+      "priority": "medium",
+      "impact": "watch",
+      "region": "政府",
+      "title": "工信部征集工业产品碳足迹核算规则标准，覆盖动力及储能电池",
+      "summary": "工信部办公厅组织征集工业产品碳足迹核算规则标准项目，目录中包含动力及储能电池方向。该信息适合纳入出口、ESG、欧盟电池法规和海外客户准入的长期跟踪线索。",
+      "source": "工业和信息化部",
+      "sourceUrl": "https://wap.miit.gov.cn/jgsj/zbys/wjfb/art/2025/art_dacd2a024fbf46a08c306d293942347d.html",
+      "status": "已核验",
+      "tags": ["碳足迹", "储能电池", "标准", "出口", "ESG"]
+    },
+    {
+      "id": "20260410-shipment-nea-storage-2030",
+      "date": "2026-04-10",
+      "category": "shipment",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "我国新型储能规模2030年预计超过3.7亿千瓦",
+      "summary": "国家能源局转载信息显示，2025年我国新型储能新增装机0.66亿千瓦，同比增长51.9%；截至2025年底累计装机1.36亿千瓦，较2024年底增长84%。白皮书预计2030年累计装机超过3.7亿千瓦，平均时长提升至约3.5小时。",
+      "source": "国家能源局",
+      "sourceUrl": "https://www.nea.gov.cn/20260410/fe421f319b644ac8aaad55422907bf6a/c.html",
+      "status": "已核验",
+      "tags": ["新型储能", "装机", "2030", "长时储能"]
+    },
+    {
+      "id": "20260130-shipment-nea-storage-2025-review",
+      "date": "2026-01-30",
+      "category": "shipment",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "国家能源局披露2025年底新型储能装机1.36亿千瓦/3.51亿千瓦时",
+      "summary": "国家能源局新闻发布会介绍，截至2025年底，全国已建成投运新型储能装机规模达到1.36亿千瓦/3.51亿千瓦时，与“十三五”末相比增长超40倍，较2024年底增长84%。",
+      "source": "国家能源局",
+      "sourceUrl": "https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html",
+      "status": "已核验",
+      "tags": ["新型储能", "装机", "容量", "新闻发布会"]
+    },
+    {
+      "id": "20251024-project-zhidan-200mw-storage",
+      "date": "2025-10-24",
+      "category": "project",
+      "priority": "medium",
+      "impact": "bullish",
+      "region": "陕西",
+      "title": "志丹县200MW/600MWh构网型独立储能项目开工",
+      "summary": "国家能源局西北监管局行业信息显示，志丹县200MW/600MWh构网型独立储能项目于10月16日开工，概算总投资8.1亿元，规划40套5MW/15MWh储能单元并配套110kV升压站。",
+      "source": "国家能源局西北监管局",
+      "sourceUrl": "https://xbj.nea.gov.cn/dtyw/hyxx/202510/t20251024_289366.html",
+      "status": "已核验",
+      "tags": ["构网型储能", "独立储能", "开工", "陕西"]
+    },
+    {
+      "id": "20250912-policy-storage-scale-action",
+      "date": "2025-09-12",
+      "category": "policy",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "政府",
+      "title": "发改委、国家能源局印发新型储能规模化建设专项行动方案",
+      "summary": "《新型储能规模化建设专项行动方案（2025—2027年）》提出，到2027年全国新型储能装机规模达到1.8亿千瓦以上，带动项目直接投资约2500亿元，并推动新型储能作为独立或联合主体参与电力市场。",
+      "source": "国家能源局",
+      "sourceUrl": "https://www.nea.gov.cn/20250912/73455a1a61b248d4aef65cc124631398/c.html",
+      "status": "已核验",
+      "tags": ["政策", "发改委", "国家能源局", "容量电价", "电力市场"]
+    },
+    {
+      "id": "20250613-shipment-miit-lithium-output",
+      "date": "2025-06-13",
+      "category": "shipment",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "2025年1-4月全国锂电池总产量超过473GWh",
+      "summary": "工信部披露，2025年1-4月全国锂电池总产量超过473GWh，同比增长68%；其中储能型锂电池产量超过110GWh，新能源汽车用动力型锂电池装车量约184GWh。",
+      "source": "工业和信息化部",
+      "sourceUrl": "https://www.miit.gov.cn/gyhxxhb/jgsj/dzxxs/dzjc/art/2025/art_d39a290e42b542b7a9a688355c52c768.html",
+      "status": "已核验",
+      "tags": ["锂电池", "储能电池", "动力电池", "产量"]
+    },
+    {
+      "id": "20250613-export-miit-lithium-export",
+      "date": "2025-06-13",
+      "category": "export",
+      "priority": "medium",
+      "impact": "bullish",
+      "region": "全国",
+      "title": "2025年1-4月全国锂电池出口总额1554亿元",
+      "summary": "工信部2025年1-4月锂电池行业运行情况显示，全国锂电池出口总额达到1554亿元，同比增长25%。该指标可作为出口景气度入口，后续需按海关编码、目的地和储能/动力用途拆分。",
+      "source": "工业和信息化部",
+      "sourceUrl": "https://www.miit.gov.cn/gyhxxhb/jgsj/dzxxs/dzjc/art/2025/art_d39a290e42b542b7a9a688355c52c768.html",
+      "status": "已核验",
+      "tags": ["出口", "锂电池", "同比", "海关口径"]
+    },
+    {
+      "id": "20250613-materials-miit-lithium-materials",
+      "date": "2025-06-13",
+      "category": "materials",
+      "priority": "medium",
+      "impact": "mixed",
+      "region": "产业链",
+      "title": "工信部披露锂电主材产量增长与碳酸锂均价",
+      "summary": "2025年1-4月，正极材料、负极材料、隔膜、电解液产量分别约115万吨、76万吨、80亿平方米、47万吨，同比均超过40%；电池级碳酸锂产量27万吨，同比增长60%，均价7.4万元/吨。",
+      "source": "工业和信息化部",
+      "sourceUrl": "https://www.miit.gov.cn/gyhxxhb/jgsj/dzxxs/dzjc/art/2025/art_d39a290e42b542b7a9a688355c52c768.html",
+      "status": "已核验",
+      "tags": ["碳酸锂", "正极", "负极", "隔膜", "电解液"]
+    },
+    {
+      "id": "20250605-ipo-szse-uugreenpower",
+      "date": "2025-06-05",
+      "category": "ipo",
+      "priority": "medium",
+      "impact": "watch",
+      "region": "资本市场",
+      "title": "优优绿能登陆创业板，聚焦新能源汽车直流充电设备核心部件",
+      "summary": "深交所信息显示，优优绿能（301590）于2025年6月5日登陆创业板，公开发行1050万股，发行价89.60元/股，募集资金9.41亿元；公司主营新能源汽车直流充电设备核心部件。",
+      "source": "深圳证券交易所",
+      "sourceUrl": "https://www.szse.cn/aboutus/trends/news/t20250605_613908.html",
+      "status": "已核验",
+      "tags": ["IPO", "创业板", "新能源汽车", "充电设备"]
+    },
+    {
+      "id": "20250221-policy-storage-manufacturing",
+      "date": "2025-02-21",
+      "category": "policy",
+      "priority": "high",
+      "impact": "bullish",
+      "region": "政府",
+      "title": "8部门行动方案推动新型储能制造业高质量发展",
+      "summary": "国家能源局转载信息显示，工信部等8部门印发《新型储能制造业高质量发展行动方案》，提出到2027年全链条国际竞争优势凸显，并鼓励建立新型储能电池安全风险评估体系。",
+      "source": "国家能源局",
+      "sourceUrl": "https://www.nea.gov.cn/20250221/3f8e98b87d0b4ffd841bb5bfbbeb91c9/c.html",
+      "status": "已核验",
+      "tags": ["制造业", "储能电池", "安全评估", "工信部"]
+    },
+    {
+      "id": "20241126-product-hunan-storage-market",
+      "date": "2024-11-26",
+      "category": "product",
+      "priority": "medium",
+      "impact": "bullish",
+      "region": "湖南",
+      "title": "湖南通过调峰辅助服务市场促进新型储能收益形成",
+      "summary": "湖南能源监管办信息显示，2024年1-10月湖南新型储能在调峰辅助服务市场获得收益1.3亿元，提供调峰电量5.69亿千瓦时，调峰度电收益0.228元/千瓦时。",
+      "source": "国家能源局",
+      "sourceUrl": "https://www.nea.gov.cn/2024-11/26/c_1310787361.htm",
+      "status": "已核验",
+      "tags": ["辅助服务", "调峰", "商业模式", "湖南"]
+    }
+  ]
+}

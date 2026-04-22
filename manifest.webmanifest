@@ -1,0 +1,17 @@
+{
+  "name": "NeoLink 新能源市场情报",
+  "short_name": "NeoLink",
+  "description": "每日更新新能源、储能、锂电、政策、招标与资本市场情报。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#0f8a5f",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

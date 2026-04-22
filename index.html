@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NeoLink 新能源市场情报</title>
+    <meta
+      name="description"
+      content="每日更新新能源、储能、锂电与政策招标市场情报的行业网站。"
+    />
+    <meta property="og:title" content="NeoLink 新能源市场情报" />
+    <meta
+      property="og:description"
+      content="每日更新储能、锂电、政策、招标、IPO 与新能源企业动态。"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0f8a5f" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preload" href="assets/hero-energy-day.jpg?v=20260421-day" as="image" />
+    <link rel="preload" href="assets/hero-energy-cg.jpg?v=20260421-night" as="image" />
+    <link rel="alternate" href="rss.xml" type="application/rss+xml" title="NeoLink 每日简报" />
+    <script>
+      try {
+        if (localStorage.getItem("neolink-theme") === "dark") {
+          document.documentElement.classList.add("dark");
+        }
+      } catch {}
+    </script>
+    <link rel="stylesheet" href="styles.css?v=20260422-ambient" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="ambient-scene" aria-hidden="true">
+        <span class="sun-bloom bloom-a"></span>
+        <span class="sun-bloom bloom-b"></span>
+        <span class="night-bud bud-a"></span>
+        <span class="night-bud bud-b"></span>
+        <span class="leaf-drift leaf-a"></span>
+        <span class="leaf-drift leaf-b"></span>
+        <span class="leaf-drift leaf-c"></span>
+        <span class="firefly firefly-a"></span>
+        <span class="firefly firefly-b"></span>
+        <span class="firefly firefly-c"></span>
+        <span class="energy-ribbon ribbon-a"></span>
+        <span class="energy-ribbon ribbon-b"></span>
+        <span class="ambient-vine vine-left"></span>
+        <span class="ambient-vine vine-right"></span>
+        <span class="star-field stars-a"></span>
+        <span class="star-field stars-b"></span>
+      </div>
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="NeoLink 首页">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>
+            <strong>NeoLink</strong>
+            <small>新能源市场情报</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="主要导航">
+          <a href="#pulse">市场脉搏</a>
+          <a href="#feed">每日简报</a>
+          <a href="#watchlist">重点监控</a>
+          <a href="#sources">信息源</a>
+          <a href="#companies">企业跟踪</a>
+          <a href="#method">更新机制</a>
+        </nav>
+        <button class="icon-button" id="themeToggle" type="button" aria-label="切换深浅色">
+          ◐
+        </button>
+      </header>
+
+      <main>
+        <section class="workspace" id="pulse">
+          <div class="hero-stage">
+            <div class="workspace-head">
+              <div>
+                <p class="eyebrow">Daily Energy Intelligence</p>
+                <h1>新能源市场每日更新台</h1>
+                <p class="scope">
+                  覆盖储能出货、电芯价格、出口环比、企业布局、<br class="scope-break" />安全事故、法律纠纷、项目开工、IPO、<br class="scope-break" />政策招标与锂电主材趋势。
+                </p>
+              </div>
+              <div class="freshness" aria-label="页面与数据更新时间">
+                <span>最近更新</span>
+                <strong id="generatedAt">读取中</strong>
+                <small id="articleCount">0 条情报</small>
+              </div>
+            </div>
+
+            <div class="control-strip" aria-label="情报筛选">
+              <label class="search-box">
+                <span>检索</span>
+                <input id="searchInput" type="search" placeholder="输入公司、政策、价格、项目或地区" />
+              </label>
+              <label class="select-box">
+                <span>分类</span>
+                <select id="categorySelect">
+                  <option value="all">全部分类</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="signal-grid" id="signalGrid" aria-label="关键市场指标"></div>
+        </section>
+
+        <section class="two-column">
+          <section class="feed" id="feed" aria-labelledby="feedTitle">
+            <div class="section-title">
+              <div>
+                <p class="eyebrow">Briefing Feed</p>
+                <h2 id="feedTitle">每日简报</h2>
+              </div>
+              <div class="view-tabs" role="tablist" aria-label="时间范围">
+                <button class="active" type="button" data-range="all">全部</button>
+                <button type="button" data-range="today">今日</button>
+                <button type="button" data-range="week">7 日</button>
+              </div>
+            </div>
+            <div class="feed-list" id="feedList"></div>
+            <p class="empty-state" id="emptyState" hidden>没有匹配的情报，换一个关键词或分类。</p>
+          </section>
+
+          <aside class="side-rail" id="watchlist">
+            <section class="rail-section">
+              <p class="eyebrow">Watchlist</p>
+              <h2>重点监控</h2>
+              <div class="watch-list" id="watchList"></div>
+            </section>
+            <section class="rail-section">
+              <p class="eyebrow">Risk Desk</p>
+              <h2>风险事件</h2>
+              <div class="risk-list" id="riskList"></div>
+            </section>
+          </aside>
+        </section>
+
+        <section class="source-board" id="sources" aria-labelledby="sourcesTitle">
+          <div class="section-title">
+            <div>
+              <p class="eyebrow">Source Windows</p>
+              <h2 id="sourcesTitle">信息源窗口</h2>
+            </div>
+            <p class="source-board-note">
+              没有公开 API 的来源按公开网页定位；商业报告、企业排名和细分数据必须核对授权。
+            </p>
+          </div>
+          <div class="source-window-grid" id="sourceWindows"></div>
+        </section>
+
+        <section class="company-board" id="companies" aria-labelledby="companiesTitle">
+          <div class="section-title">
+            <div>
+              <p class="eyebrow">Company Trackers</p>
+              <h2 id="companiesTitle">出货排行企业公开信息</h2>
+            </div>
+            <p class="source-board-note">
+              重点关注储能电池、动力电池出货或装车排行前十企业，抓取年报、公告、官网、ESG 与投资者关系页面。
+            </p>
+          </div>
+          <div class="company-tracker-grid" id="companyTrackers"></div>
+        </section>
+
+        <section class="method" id="method">
+          <div>
+            <p class="eyebrow">Update System</p>
+            <h2>每日更新机制</h2>
+            <p>
+              先以结构化 JSON 维护内容，后续可接入采集脚本、人工审核台或 CMS。每条情报保留来源、影响方向、优先级、分类与核验状态，方便持续扩展。
+            </p>
+          </div>
+          <ol class="method-steps">
+            <li>
+              <span>01</span>
+              <strong>采集</strong>
+              <p>从公告、招标平台、海关数据、交易报价、企业新闻与监管文件汇总线索。</p>
+            </li>
+            <li>
+              <span>02</span>
+              <strong>核验</strong>
+              <p>记录来源链接、时间、主体、地区与影响，未核验内容不进入正式简报。</p>
+            </li>
+            <li>
+              <span>03</span>
+              <strong>发布</strong>
+              <p>更新 `data/market-news.json` 后页面自动刷新分类、指标、风险和简报列表。</p>
+            </li>
+          </ol>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js?v=20260422-ambient" type="module"></script>
+  </body>
+</html>
