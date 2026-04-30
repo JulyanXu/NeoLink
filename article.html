@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoLink 信息详情</title>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <script>
+      (() => {
+        const saved = localStorage.getItem("neolink-theme");
+        const system = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = saved || system;
+      })();
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="article-page">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <a class="brand" href="./index.html" aria-label="NeoLink 首页">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <strong>NeoLink</strong>
+        </a>
+
+        <nav class="side-nav">
+          <a class="nav-item" href="./index.html" data-section="dashboard">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg>
+            总览
+          </a>
+          <a class="nav-item active" href="./news-more.html?section=latest" data-section="news">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>
+            内容索引
+          </a>
+          <a class="nav-item" href="./enterprise-map.html" data-section="trend">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V7l8-4 8 4v14M8 21v-4h8v4M8 10h1m3 0h1m3 0h1"/></svg>
+            企业图谱
+          </a>
+        </nav>
+
+        <section class="promo-card" aria-label="NeoLink 品牌卡片">
+          <img src="./Logo.png" alt="" />
+          <div>
+            <strong>Connect the Battery World</strong>
+            <span>Link the Future</span>
+          </div>
+        </section>
+      </aside>
+
+      <main class="workspace article-workspace">
+        <header class="more-header panel">
+          <div>
+            <a class="back-link" href="./news-more.html?section=latest">返回内容索引</a>
+            <h1 class="more-title">信息详情</h1>
+            <p class="more-subtitle">站内保留摘要、结构化要点和来源记录；原文链接作为出处与复核入口。</p>
+          </div>
+          <button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false">
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V2m0 20v-2m8-8h2M2 12h2m14.1-6.1 1.4-1.4M4.5 19.5l1.4-1.4m0-12.2L4.5 4.5m15 15-1.4-1.4M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/></svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.4A8 8 0 0 1 8.6 4 8.6 8.6 0 1 0 20 15.4z"/></svg>
+            <span>浅色</span>
+          </button>
+        </header>
+
+        <article class="article-card panel">
+          <div class="article-meta signal-meta"></div>
+          <h2 class="article-title"></h2>
+          <p class="article-summary"></p>
+          <div class="article-actions"></div>
+        </article>
+
+        <section class="article-detail-layout">
+          <div class="article-main-column">
+            <section class="panel article-body-card">
+              <div class="article-block-head">
+                <span>正文</span>
+                <h2>内容正文</h2>
+              </div>
+              <div class="article-body"></div>
+            </section>
+
+            <section class="panel related-section">
+              <div class="article-block-head">
+                <span>延伸</span>
+                <h2>相关信息</h2>
+              </div>
+              <div class="related-list"></div>
+            </section>
+          </div>
+
+          <aside class="article-side-column" aria-label="文章辅助信息">
+            <article class="panel article-section article-keypoint-panel">
+              <div class="article-block-head">
+                <span>要点</span>
+                <h2>关键要点</h2>
+              </div>
+              <div class="article-keypoints" aria-label="关键要点"></div>
+            </article>
+
+            <article class="panel article-section">
+              <div class="article-block-head">
+                <span>字段</span>
+                <h2>结构化字段</h2>
+              </div>
+              <ul class="article-facts"></ul>
+            </article>
+
+            <article class="panel article-section">
+              <div class="article-block-head">
+                <span>维护</span>
+                <h2>来源与维护</h2>
+              </div>
+              <dl class="article-source"></dl>
+            </article>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data/feed.js"></script>
+    <script src="./article.js"></script>
+  </body>
+</html>

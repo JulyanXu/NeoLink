@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoLink 新能源产业日报</title>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <script>
+      (() => {
+        const saved = localStorage.getItem("neolink-theme");
+        const system = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = saved || system;
+      })();
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <a class="brand" href="./index.html" aria-label="NeoLink 首页">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <strong>NeoLink</strong>
+        </a>
+
+        <nav class="side-nav">
+          <a class="nav-item active" href="./index.html" data-section="dashboard">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg>
+            总览
+          </a>
+          <a class="nav-item" href="./news-more.html?section=latest" data-section="news">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>
+            内容索引
+          </a>
+          <a class="nav-item" href="./enterprise-map.html" data-section="trend">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V7l8-4 8 4v14M8 21v-4h8v4M8 10h1m3 0h1m3 0h1M8 14h1m3 0h1m3 0h1"/></svg>
+            企业图谱
+          </a>
+        </nav>
+
+        <section class="promo-card" aria-label="NeoLink 品牌卡片">
+          <img src="./Logo.png" alt="" />
+          <div>
+            <strong>Connect the Battery World</strong>
+            <span>Link the Future</span>
+          </div>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="hero">
+          <div class="hero-visual" aria-hidden="true">
+            <div class="sun"></div>
+            <div class="ridge ridge-back"></div>
+            <div class="ridge ridge-front"></div>
+            <div class="solar solar-a"></div>
+            <div class="solar solar-b"></div>
+            <div class="battery-unit">
+              <span></span>
+              <b>ENERGY<br />STORAGE</b>
+            </div>
+            <div class="turbine turbine-a"><i></i></div>
+            <div class="turbine turbine-b"><i></i></div>
+            <div class="turbine turbine-c"><i></i></div>
+          </div>
+          <div class="mobile-brandbar">
+            <a class="brand mobile-brand" href="#" aria-label="NeoLink 首页">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <strong>NeoLink</strong>
+            </a>
+            <button class="mobile-menu" type="button" aria-label="菜单">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h14"/></svg>
+            </button>
+          </div>
+          <div class="topbar">
+            <label class="search">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.3-4.3M10.8 18a7.2 7.2 0 1 1 0-14.4 7.2 7.2 0 0 1 0 14.4z"/></svg>
+              <input type="search" placeholder="搜索企业、项目、价格、政策..." />
+            </label>
+            <button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false">
+              <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V2m0 20v-2m8-8h2M2 12h2m14.1-6.1 1.4-1.4M4.5 19.5l1.4-1.4m0-12.2L4.5 4.5m15 15-1.4-1.4M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/></svg>
+              <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.4A8 8 0 0 1 8.6 4 8.6 8.6 0 1 0 20 15.4z"/></svg>
+              <span>浅色</span>
+            </button>
+          </div>
+          <div class="hero-title">
+            <h1>NeoLink 新能源产业日报</h1>
+            <p><span></span>2026年4月29日　更新 21:30 (GMT+8)</p>
+          </div>
+        </header>
+
+        <div class="mobile-section-head">
+          <h2>Key Indicators</h2>
+          <button type="button">More</button>
+        </div>
+        <section class="metric-grid" aria-label="核心指标">
+          <article class="metric-card">
+            <div class="card-head">
+              <div>
+                <h2>储能出货量（全球）</h2>
+                <p>2026年3月</p>
+              </div>
+            </div>
+            <strong>20.35 <span>GWh</span></strong>
+            <p class="delta up">环比 +18.7%</p>
+            <div class="bar-chart" aria-label="储能出货柱状趋势图">
+              <i style="height:44%"></i><i style="height:36%"></i><i style="height:48%"></i><i style="height:58%"></i><i style="height:41%"></i><i style="height:35%"></i><i style="height:49%"></i><i style="height:67%"></i><i style="height:39%"></i><i style="height:46%"></i><i style="height:55%"></i><i style="height:72%"></i><i style="height:86%"></i>
+            </div>
+          </article>
+
+          <article class="metric-card">
+            <div class="card-head">
+              <div>
+                <h2>储能电芯均价</h2>
+                <p>280Ah 方形磷酸铁锂</p>
+              </div>
+            </div>
+            <strong>0.34 <span>元/Wh</span></strong>
+            <p class="delta down">环比 -2.1%</p>
+            <svg class="sparkline green" viewBox="0 0 260 86" role="img" aria-label="电芯价格下降折线图">
+              <path d="M4 61 L25 45 L45 48 L66 34 L88 42 L109 39 L130 54 L151 63 L172 50 L193 37 L214 43 L236 35 L256 23"/>
+            </svg>
+          </article>
+
+          <article class="metric-card">
+            <div class="card-head">
+              <div>
+                <h2>锂电出口环比</h2>
+                <p>电池及储能系统</p>
+              </div>
+            </div>
+            <strong>+23.6 <span>%</span></strong>
+            <p class="delta up">出口金额 52.4 亿美元</p>
+            <svg class="sparkline violet" viewBox="0 0 260 86" role="img" aria-label="出口环比折线图">
+              <path d="M4 60 L25 49 L46 52 L67 43 L88 64 L109 38 L130 44 L151 31 L172 20 L193 35 L214 27 L235 36 L256 18"/>
+            </svg>
+          </article>
+
+          <article class="metric-card">
+            <div class="card-head">
+              <div>
+                <h2>锂电主材指数</h2>
+                <p>综合价格指数</p>
+              </div>
+            </div>
+            <strong>128.7</strong>
+            <p class="delta down">环比 -1.3%</p>
+            <svg class="sparkline orange" viewBox="0 0 260 86" role="img" aria-label="主材指数折线图">
+              <path d="M4 37 L25 46 L46 61 L67 42 L88 31 L109 66 L130 52 L151 34 L172 21 L193 29 L214 36 L235 20 L256 12"/>
+            </svg>
+          </article>
+        </section>
+
+        <section class="mobile-modules mobile-only panel">
+          <div class="panel-title">
+            <h2>Market Modules</h2>
+          </div>
+          <div class="module-grid">
+            <button type="button"><span class="blue">企</span>Enterprise<br />Layout</button>
+            <button type="button"><span class="red">火</span>Safety<br />Incidents</button>
+            <button type="button"><span class="violet">文</span>Legal<br />Disputes</button>
+            <button type="button"><span class="green">建</span>Project<br />Commencements</button>
+            <button type="button"><span class="blue">IPO</span>IPO<br />Updates</button>
+            <button type="button"><span class="orange">标</span>Policies &<br />Tenders</button>
+            <button type="button"><span class="green">材</span>Lithium Battery<br />Materials Trends</button>
+            <button type="button"><span class="violet">出</span>Export<br />MoM</button>
+            <button type="button"><span class="slate">•••</span>More<br />Insights</button>
+          </div>
+        </section>
+
+        <section class="mobile-hot mobile-only panel">
+          <div class="panel-title">
+            <h2>Hot Topics</h2>
+            <a class="more-link" href="./news-more.html?section=headlines">更多</a>
+          </div>
+          <div class="topic-tabs" aria-label="热点分类">
+            <button class="active" type="button">Enterprise</button>
+            <button type="button">Safety</button>
+            <button type="button">Legal</button>
+            <button type="button">Projects</button>
+            <button type="button">IPO</button>
+          </div>
+          <ul class="company-list">
+            <li><b>CATL</b><span>宁德时代与地方政府签署战略合作</span><time>05-20</time></li>
+            <li><b>BYD</b><span>比亚迪 20GWh 电池工厂扩产</span><time>05-20</time></li>
+            <li><b>EVE</b><span>亿纬锂能成立储能系统合资公司</span><time>05-19</time></li>
+            <li><b>Gotion</b><span>国轩高科海外电池工厂开工</span><time>05-19</time></li>
+            <li><b>CALB</b><span>中创新航与地方政府达成合作</span><time>05-18</time></li>
+          </ul>
+        </section>
+
+        <section class="mobile-latest mobile-only panel">
+          <div class="panel-title">
+            <h2>Latest Updates</h2>
+            <a class="more-link" href="./news-more.html?section=latest">更多</a>
+          </div>
+          <ul class="latest-list">
+            <li><span class="doc"></span><b>NDRC: 新型储能高质量发展征求意见</b><time>05-20</time></li>
+            <li><span class="doc"></span><b>华储科技提交主板 IPO 申请</b><time>05-20</time></li>
+            <li><span class="fire"></span><b>甘肃储能电站火情</b><em>Major</em><time>05-19</time></li>
+            <li><span class="plant"></span><b>10GWh 动力电池项目签约四川</b><time>05-19</time></li>
+            <li><span class="plant"></span><b>碳酸锂价格延续下行</b><time>05-18</time></li>
+          </ul>
+        </section>
+
+        <section class="mobile-heatmap mobile-only panel">
+          <div class="panel-title">
+            <h2>Market Heatmap</h2>
+            <button type="button">More</button>
+          </div>
+          <div class="heatmap-grid">
+            <div class="heat green big">Energy Storage<br /><strong>+2.35%</strong></div>
+            <div class="heat green">Power Battery<br /><strong>+1.48%</strong></div>
+            <div class="heat mint">Materials<br /><strong>+0.72%</strong></div>
+            <div class="heat red">Lithium Carbonate<br /><strong>-1.23%</strong></div>
+            <div class="heat rose">Cobalt<br /><strong>-0.65%</strong></div>
+            <div class="heat rose">Nickel<br /><strong>-0.28%</strong></div>
+          </div>
+        </section>
+
+        <section class="content-grid">
+          <div class="portal-main">
+            <article class="panel headline-panel">
+              <div class="panel-title">
+                <h2>今日头条</h2>
+                <a class="more-link" href="./news-more.html?section=headlines">更多</a>
+              </div>
+              <div class="headline-layout">
+                <div class="headline-main"></div>
+                <ul class="headline-list" aria-label="次级头条"></ul>
+              </div>
+            </article>
+
+            <article class="panel latest-panel">
+              <div class="panel-title">
+                <h2>最新新闻</h2>
+                <a class="more-link" href="./news-more.html?section=latest">更多</a>
+              </div>
+              <div class="news-tabs" aria-label="新闻筛选">
+                <button class="active" type="button">全部</button>
+                <button type="button">数据</button>
+                <button type="button">政策</button>
+                <button type="button">招投标</button>
+                <button type="button">项目</button>
+                <button type="button">企业</button>
+                <button type="button">价格</button>
+                <button type="button">安全</button>
+                <button type="button">IPO</button>
+                <button type="button">出口</button>
+                <button type="button">法律</button>
+              </div>
+              <ul class="latest-news-list" aria-label="最新新闻列表"></ul>
+            </article>
+          </div>
+
+          <aside class="portal-sidebar">
+          <article class="panel utility-panel">
+            <section>
+              <h2>快速数据</h2>
+              <ul class="quick-metrics"></ul>
+            </section>
+            <section>
+              <h2>频道入口</h2>
+              <div class="channel-tags">
+                <button type="button">政策</button>
+                <button type="button">招投标</button>
+                <button type="button">项目</button>
+                <button type="button">企业</button>
+                <button type="button">价格</button>
+                <button type="button">安全</button>
+                <button type="button">IPO</button>
+              </div>
+            </section>
+          </article>
+
+          <article class="panel materials-panel">
+            <div class="panel-title">
+              <h2>材料与价格</h2>
+              <button type="button">更多</button>
+            </div>
+            <div class="materials-grid">
+              <div><h3>碳酸锂</h3><p>112,500 <span>元/吨</span></p><small class="down">-1.2%</small><svg viewBox="0 0 120 40"><path d="M2 18 14 20 26 31 38 15 50 17 62 12 74 18 86 10 98 14 118 8"/></svg></div>
+              <div><h3>磷酸铁锂</h3><p>36,800 <span>元/吨</span></p><small class="down">-0.8%</small><svg viewBox="0 0 120 40"><path d="M2 20 14 14 26 16 38 26 50 13 62 16 74 9 86 14 98 11 118 19"/></svg></div>
+              <div><h3>三元材料 523</h3><p>159,500 <span>元/吨</span></p><small class="down">-1.5%</small><svg viewBox="0 0 120 40"><path d="M2 17 14 18 26 26 38 13 50 18 62 12 74 9 86 15 98 13 118 20"/></svg></div>
+              <div><h3>负极石墨</h3><p>42,000 <span>元/吨</span></p><small class="down">-1.5%</small><svg viewBox="0 0 120 40"><path d="M2 19 14 23 26 12 38 25 50 18 62 17 74 10 86 14 98 12 118 22"/></svg></div>
+              <div><h3>电解液</h3><p>21,000 <span>元/吨</span></p><small class="up">+0.5%</small><svg class="redline" viewBox="0 0 120 40"><path d="M2 31 14 12 26 25 38 17 50 20 62 8 74 15 86 6 98 20 118 22"/></svg></div>
+              <div><h3>隔膜</h3><p>1.35 <span>元/㎡</span></p><small class="down">-0.7%</small><svg viewBox="0 0 120 40"><path d="M2 17 14 23 26 12 38 19 50 15 62 27 74 14 86 22 98 18 118 24"/></svg></div>
+            </div>
+          </article>
+
+          <aside class="map-card">
+            <div>
+              <h2>全球新能源产业地图</h2>
+              <button type="button">Explore Now</button>
+            </div>
+            <div class="globe" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </aside>
+          </aside>
+        </section>
+
+        <section class="mobile-promo mobile-only">
+          <img src="./Logo.png" alt="" />
+          <div>
+            <strong>Connect the Battery World</strong>
+            <span>Link the Future</span>
+          </div>
+          <button type="button" aria-label="查看详情">›</button>
+        </section>
+
+        <footer>
+          <span>© 2026 NeoLink. All rights reserved.</span>
+          <nav aria-label="页脚链接">
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+          </nav>
+        </footer>
+
+        <nav class="mobile-tabbar" aria-label="移动端底部导航">
+          <button class="active" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg>首页</button>
+          <button type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 20V10m6 10V4m6 16v-7"/></svg>数据</button>
+          <button type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>动态</button>
+          <button type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6zM9 12h6M9 16h5"/></svg>研报</button>
+          <button type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5 14.3 9l4.9.7-3.6 3.5.9 4.9L12 15.8l-4.5 2.3.9-4.9L4.8 9.7 9.7 9z"/></svg>关注</button>
+        </nav>
+      </main>
+    </div>
+    <script src="./data/feed.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

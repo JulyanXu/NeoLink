@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoLink 企业图谱</title>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <script>
+      (() => {
+        const saved = localStorage.getItem("neolink-theme");
+        const system = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = saved || system;
+      })();
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="enterprise-map-page">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <a class="brand" href="./index.html" aria-label="NeoLink 首页">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <strong>NeoLink</strong>
+        </a>
+
+        <nav class="side-nav">
+          <a class="nav-item" href="./index.html" data-section="dashboard">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg>
+            总览
+          </a>
+          <a class="nav-item" href="./news-more.html?section=latest" data-section="news">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>
+            内容索引
+          </a>
+          <a class="nav-item active" href="./enterprise-map.html" data-section="trend">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 18h4m6 0h4M7 16V8m10 8v-4M9 8h6m-3 0v8M7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm10 4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm-5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
+            企业图谱
+          </a>
+        </nav>
+
+        <section class="promo-card" aria-label="NeoLink 品牌卡片">
+          <img src="./Logo.png" alt="" />
+          <div>
+            <strong>连接储能产业世界</strong>
+            <span>共赴零碳未来</span>
+          </div>
+        </section>
+      </aside>
+
+      <main class="workspace graph-workspace">
+        <header class="graph-header">
+          <div>
+            <h1>企业图谱</h1>
+            <p>追踪储能、动力、3C 电池制造商与赛道交集</p>
+          </div>
+          <div class="graph-actions">
+            <label class="search graph-search">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.3-4.3M10.8 18a7.2 7.2 0 1 1 0-14.4 7.2 7.2 0 0 1 0 14.4z"/></svg>
+              <input class="graph-search-input" type="search" placeholder="搜索企业、榜单、国家、地区..." />
+            </label>
+            <button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false">
+              <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V2m0 20v-2m8-8h2M2 12h2m14.1-6.1 1.4-1.4M4.5 19.5l1.4-1.4m0-12.2L4.5 4.5m15 15-1.4-1.4M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/></svg>
+              <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.4A8 8 0 0 1 8.6 4 8.6 8.6 0 1 0 20 15.4z"/></svg>
+              <span>浅色</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="graph-toolbar" aria-label="图谱筛选">
+          <button class="active" type="button" data-relation="all">全部关系</button>
+          <button type="button" data-relation="storage">储能同榜</button>
+          <button type="button" data-relation="power">动力同榜</button>
+          <button type="button" data-relation="consumer">3C同榜</button>
+          <button type="button" data-relation="overlap">赛道交集</button>
+        </section>
+
+        <section class="graph-stage">
+          <article class="graph-canvas panel" aria-label="企业关系图谱">
+            <div class="graph-bg" aria-hidden="true"></div>
+            <div class="graph-content">
+              <svg class="edge-layer" viewBox="0 0 1000 650" preserveAspectRatio="none" aria-hidden="true"></svg>
+              <div class="node-layer"></div>
+            </div>
+
+            <div class="minimap" aria-label="图谱缩略图">
+              <div class="minimap-viewport"></div>
+            </div>
+
+            <div class="zoom-rail" aria-label="缩放控制">
+              <button type="button" data-zoom="in" aria-label="放大图谱">+</button>
+              <button type="button" data-zoom="out" aria-label="缩小图谱">−</button>
+              <button type="button" data-zoom="fit" aria-label="适配图谱">⤢</button>
+            </div>
+
+            <div class="graph-legend" aria-label="关系图例">
+              <button type="button" data-legend="storage"><i class="edge-sample storage"></i>储能同榜</button>
+              <button type="button" data-legend="power"><i class="edge-sample power"></i>动力同榜</button>
+              <button type="button" data-legend="consumer"><i class="edge-sample consumer"></i>3C同榜</button>
+              <button type="button" data-legend="overlap"><i class="edge-sample overlap"></i>赛道交集</button>
+            </div>
+
+            <div class="node-filters" aria-label="节点类型">
+              <button class="active" type="button" data-type="all">全部</button>
+              <button type="button" data-type="storage">储能电池</button>
+              <button type="button" data-type="power">动力电池</button>
+              <button type="button" data-type="consumer">3C电池</button>
+              <button type="button" data-type="multi">多赛道</button>
+              <button type="button" data-type="global">日韩企业</button>
+            </div>
+          </article>
+
+          <aside class="company-panel panel" aria-live="polite">
+            <div class="company-head">
+              <div class="company-logo">CATL</div>
+              <div>
+                <h2 class="company-name">宁德时代新能源科技股份有限公司</h2>
+                <p class="company-subtitle">电芯企业 · 深交所上市 · 沪深300</p>
+              </div>
+            </div>
+
+            <div class="company-stats">
+              <div><span>企业类型</span><strong class="stat-type">电芯企业</strong></div>
+              <div><span>上市状态</span><strong class="stat-listing">深交所上市</strong></div>
+              <div><span>总部/区域</span><strong class="stat-region">福建宁德</strong></div>
+              <div><span>关联关系</span><strong class="stat-links">12 条</strong></div>
+            </div>
+
+            <section>
+              <h3>主营范围</h3>
+              <p class="company-business">动力电池系统、储能电池系统、电池材料及回收利用。</p>
+            </section>
+
+            <section>
+              <h3>企业标签</h3>
+              <div class="company-tags">
+                <span>动力电池龙头</span><span>储能电池市占领先</span><span>全球化布局</span>
+              </div>
+            </section>
+
+            <section>
+              <h3>关联项目</h3>
+              <ul class="project-briefs">
+                <li><b>福建宁德储能产业基地项目</b><span>福建 宁德 · 100GWh · 在建</span></li>
+                <li><b>广东肇庆储能电池生产基地</b><span>广东 肇庆 · 30GWh · 在建</span></li>
+                <li><b>德国图林根工厂扩产项目</b><span>德国 图林根 · 14GWh · 在建</span></li>
+              </ul>
+            </section>
+
+            <section>
+              <h3>信息索引</h3>
+              <ul class="company-news">
+                <li><span></span><b>发布年度报告，储能业务收入继续增长</b><time>04-23</time></li>
+                <li><span></span><b>与 NextEra Energy 签署储能合作协议</b><time>04-22</time></li>
+                <li><span></span><b>钠离子电池产品进入量产验证阶段</b><time>04-20</time></li>
+              </ul>
+            </section>
+
+            <section>
+              <h3>风险索引</h3>
+              <ul class="risk-briefs">
+                <li class="risk-red"><b>专利纠纷</b><span>与中创新航专利侵权纠纷案件</span></li>
+                <li class="risk-amber"><b>经营风险</b><span>子公司股权被冻结 1 笔，金额 1.23 亿元</span></li>
+              </ul>
+            </section>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data/enterprise-map-db.js"></script>
+    <script src="./enterprise-map.js"></script>
+  </body>
+</html>

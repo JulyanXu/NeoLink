@@ -1,0 +1,4300 @@
+{
+  "generated_at": "2026-04-26T15:56:22.438Z",
+  "base_url": "https://www.ditan.com",
+  "visited_list_pages": 88,
+  "discovered_articles": 2799,
+  "fetched_articles": 2798,
+  "source_extracted": 2792,
+  "source_missing": 6,
+  "failed_articles": 1,
+  "source_stats": [
+    {
+      "source": "上海气候周",
+      "count": 142
+    },
+    {
+      "source": "环球零碳",
+      "count": 95
+    },
+    {
+      "source": "国家能源局",
+      "count": 78
+    },
+    {
+      "source": "新华社",
+      "count": 70
+    },
+    {
+      "source": "生态环境部",
+      "count": 69
+    },
+    {
+      "source": "中国储能网",
+      "count": 63
+    },
+    {
+      "source": "工信部",
+      "count": 44
+    },
+    {
+      "source": "北极星储能网",
+      "count": 36
+    },
+    {
+      "source": "国家发改委",
+      "count": 34
+    },
+    {
+      "source": "中国新闻网",
+      "count": 32
+    },
+    {
+      "source": "本站",
+      "count": 31
+    },
+    {
+      "source": "新华网",
+      "count": 28
+    },
+    {
+      "source": "中国电力报",
+      "count": 27
+    },
+    {
+      "source": "中国招标投标公共服务平台",
+      "count": 26
+    },
+    {
+      "source": "国家电网报",
+      "count": 25
+    },
+    {
+      "source": "全国公共资源交易平台",
+      "count": 25
+    },
+    {
+      "source": "绿研所",
+      "count": 23
+    },
+    {
+      "source": "北极星太阳能光伏网",
+      "count": 22
+    },
+    {
+      "source": "北极星风力发电网",
+      "count": 21
+    },
+    {
+      "source": "鄂尔多斯煤炭网",
+      "count": 21
+    },
+    {
+      "source": "国家发展改革委",
+      "count": 20
+    },
+    {
+      "source": "人民日报",
+      "count": 15
+    },
+    {
+      "source": "中国节能协会碳中和专业委员会",
+      "count": 15
+    },
+    {
+      "source": "北极星输配电网",
+      "count": 14
+    },
+    {
+      "source": "国家能源集团",
+      "count": 14
+    },
+    {
+      "source": "科技日报",
+      "count": 14
+    },
+    {
+      "source": "财联社",
+      "count": 13
+    },
+    {
+      "source": "国际能源小数据",
+      "count": 13
+    },
+    {
+      "source": "上海市生态环境局",
+      "count": 13
+    },
+    {
+      "source": "中国环境报",
+      "count": 13
+    },
+    {
+      "source": "中国环境APP",
+      "count": 13
+    },
+    {
+      "source": "上海市人民政府",
+      "count": 12
+    },
+    {
+      "source": "央视新闻客户端",
+      "count": 12
+    },
+    {
+      "source": "中国能源报",
+      "count": 12
+    },
+    {
+      "source": "中国政府网",
+      "count": 12
+    },
+    {
+      "source": "央视新闻",
+      "count": 11
+    },
+    {
+      "source": "易碳家",
+      "count": 11
+    },
+    {
+      "source": "财政部",
+      "count": 10
+    },
+    {
+      "source": "低碳网",
+      "count": 10
+    },
+    {
+      "source": "国际能源网",
+      "count": 10
+    },
+    {
+      "source": "山西省能源局",
+      "count": 10
+    },
+    {
+      "source": "北极星电力网",
+      "count": 9
+    },
+    {
+      "source": "能源界",
+      "count": 9
+    },
+    {
+      "source": "中国政府采购网",
+      "count": 9
+    },
+    {
+      "source": "第一财经",
+      "count": 8
+    },
+    {
+      "source": "国家电投",
+      "count": 8
+    },
+    {
+      "source": "环球时报",
+      "count": 8
+    },
+    {
+      "source": "内蒙古自治区能源局",
+      "count": 8
+    },
+    {
+      "source": "新京报",
+      "count": 8
+    },
+    {
+      "source": "21世纪经济报道",
+      "count": 7
+    },
+    {
+      "source": "贵州省能源局",
+      "count": 7
+    },
+    {
+      "source": "国务院",
+      "count": 7
+    },
+    {
+      "source": "千瓦科技",
+      "count": 7
+    },
+    {
+      "source": "商务部",
+      "count": 7
+    },
+    {
+      "source": "上海市发展和改革委员会",
+      "count": 7
+    },
+    {
+      "source": "浙江省人民政府",
+      "count": 7
+    },
+    {
+      "source": "北极星氢能网",
+      "count": 6
+    },
+    {
+      "source": "国家能源局华中监管局",
+      "count": 6
+    },
+    {
+      "source": "界面新闻",
+      "count": 6
+    },
+    {
+      "source": "生态中国网",
+      "count": 6
+    },
+    {
+      "source": "市场监管总局",
+      "count": 6
+    },
+    {
+      "source": "未提取到来源",
+      "count": 6
+    },
+    {
+      "source": "中国电建",
+      "count": 6
+    },
+    {
+      "source": "北极星售电网",
+      "count": 5
+    },
+    {
+      "source": "北极星水处理网",
+      "count": 5
+    },
+    {
+      "source": "大唐集团",
+      "count": 5
+    },
+    {
+      "source": "福建电力交易中心",
+      "count": 5
+    },
+    {
+      "source": "福建省发展和改革委员会",
+      "count": 5
+    },
+    {
+      "source": "广西壮族自治区发展和改革委员会",
+      "count": 5
+    },
+    {
+      "source": "广西壮族自治区人民政府",
+      "count": 5
+    },
+    {
+      "source": "河北省工业和信息化厅",
+      "count": 5
+    },
+    {
+      "source": "湖南省发展和改革委员会",
+      "count": 5
+    },
+    {
+      "source": "华能集团",
+      "count": 5
+    },
+    {
+      "source": "环球网",
+      "count": 5
+    },
+    {
+      "source": "老汪聊碳中和",
+      "count": 5
+    },
+    {
+      "source": "联合国",
+      "count": 5
+    },
+    {
+      "source": "南方电网公司",
+      "count": 5
+    },
+    {
+      "source": "青海省发展和改革委员会",
+      "count": 5
+    },
+    {
+      "source": "人民网",
+      "count": 5
+    },
+    {
+      "source": "山西省人民政府",
+      "count": 5
+    },
+    {
+      "source": "云南省人民政府",
+      "count": 5
+    },
+    {
+      "source": "浙江电力交易中心",
+      "count": 5
+    },
+    {
+      "source": "中国华能",
+      "count": 5
+    },
+    {
+      "source": "中国能源观察",
+      "count": 5
+    },
+    {
+      "source": "中国能源网",
+      "count": 5
+    },
+    {
+      "source": "中国石化",
+      "count": 5
+    },
+    {
+      "source": "中国石油报",
+      "count": 5
+    },
+    {
+      "source": "中核集团",
+      "count": 5
+    },
+    {
+      "source": "中华人民共和国生态环境部",
+      "count": 5
+    },
+    {
+      "source": "北极星碳管家网",
+      "count": 4
+    },
+    {
+      "source": "北京市发改委",
+      "count": 4
+    },
+    {
+      "source": "北京市发展和改革委员会",
+      "count": 4
+    },
+    {
+      "source": "北京市人民政府",
+      "count": 4
+    },
+    {
+      "source": "电网头条",
+      "count": 4
+    },
+    {
+      "source": "国家统计局",
+      "count": 4
+    },
+    {
+      "source": "国资委",
+      "count": 4
+    },
+    {
+      "source": "湖北省生态环境厅",
+      "count": 4
+    },
+    {
+      "source": "吉林省能源局",
+      "count": 4
+    },
+    {
+      "source": "金融界",
+      "count": 4
+    },
+    {
+      "source": "辽宁省发改委",
+      "count": 4
+    },
+    {
+      "source": "每日经济新闻",
+      "count": 4
+    },
+    {
+      "source": "南方电网",
+      "count": 4
+    },
+    {
+      "source": "南方电网报",
+      "count": 4
+    },
+    {
+      "source": "南方能源观察",
+      "count": 4
+    },
+    {
+      "source": "南网50Hz",
+      "count": 4
+    },
+    {
+      "source": "内蒙古电力集团",
+      "count": 4
+    },
+    {
+      "source": "澎湃新闻",
+      "count": 4
+    },
+    {
+      "source": "青海省人民政府",
+      "count": 4
+    },
+    {
+      "source": "山东省能源局",
+      "count": 4
+    },
+    {
+      "source": "山东省人民政府",
+      "count": 4
+    },
+    {
+      "source": "上海经信委",
+      "count": 4
+    },
+    {
+      "source": "四川省经济和信息化厅",
+      "count": 4
+    },
+    {
+      "source": "碳课公众号",
+      "count": 4
+    },
+    {
+      "source": "碳视角",
+      "count": 4
+    },
+    {
+      "source": "浙电e家",
+      "count": 4
+    },
+    {
+      "source": "浙江省发展改革委",
+      "count": 4
+    },
+    {
+      "source": "证券时报",
+      "count": 4
+    },
+    {
+      "source": "中关村储能产业技术联盟",
+      "count": 4
+    },
+    {
+      "source": "中国电力企业管理",
+      "count": 4
+    },
+    {
+      "source": "中国经济网",
+      "count": 4
+    },
+    {
+      "source": "中国证券报",
+      "count": 4
+    },
+    {
+      "source": "中能传媒研究院",
+      "count": 4
+    },
+    {
+      "source": "北极星环保网",
+      "count": 3
+    },
+    {
+      "source": "北京市经济和信息化局",
+      "count": 3
+    },
+    {
+      "source": "北京市生态环境局",
+      "count": 3
+    },
+    {
+      "source": "常州市人民政府",
+      "count": 3
+    },
+    {
+      "source": "抽水蓄能行业分会",
+      "count": 3
+    },
+    {
+      "source": "电池工业网",
+      "count": 3
+    },
+    {
+      "source": "电联新媒",
+      "count": 3
+    },
+    {
+      "source": "风能专委会CWEA",
+      "count": 3
+    },
+    {
+      "source": "高工储能",
+      "count": 3
+    },
+    {
+      "source": "高工锂电",
+      "count": 3
+    },
+    {
+      "source": "工业和信息化部",
+      "count": 3
+    },
+    {
+      "source": "观察者网",
+      "count": 3
+    },
+    {
+      "source": "光储星球",
+      "count": 3
+    },
+    {
+      "source": "广东省发展改革委",
+      "count": 3
+    },
+    {
+      "source": "广东省能源局",
+      "count": 3
+    },
+    {
+      "source": "广西壮族自治区财政厅",
+      "count": 3
+    },
+    {
+      "source": "广州硕信展览有限公司",
+      "count": 3
+    },
+    {
+      "source": "贵州省发展和改革委员会",
+      "count": 3
+    },
+    {
+      "source": "贵州省生态环境厅",
+      "count": 3
+    },
+    {
+      "source": "国际能源网编译",
+      "count": 3
+    },
+    {
+      "source": "国家发展和改革委员会",
+      "count": 3
+    },
+    {
+      "source": "国家能源之声",
+      "count": 3
+    },
+    {
+      "source": "国家认监委",
+      "count": 3
+    },
+    {
+      "source": "国投集团电子采购平台",
+      "count": 3
+    },
+    {
+      "source": "国网新能源云",
+      "count": 3
+    },
+    {
+      "source": "海南电力交易中心",
+      "count": 3
+    },
+    {
+      "source": "河北省发改委",
+      "count": 3
+    },
+    {
+      "source": "河南省人民政府",
+      "count": 3
+    },
+    {
+      "source": "黑龙江省发展和改革委员会",
+      "count": 3
+    },
+    {
+      "source": "湖北省人民政府",
+      "count": 3
+    },
+    {
+      "source": "湖南省发改委",
+      "count": 3
+    },
+    {
+      "source": "华润集团",
+      "count": 3
+    },
+    {
+      "source": "江西省发展改革委",
+      "count": 3
+    },
+    {
+      "source": "江西省发展和改革委员会",
+      "count": 3
+    },
+    {
+      "source": "经济日报",
+      "count": 3
+    },
+    {
+      "source": "辽宁省人民政府",
+      "count": 3
+    },
+    {
+      "source": "内蒙古自治区人民政府",
+      "count": 3
+    },
+    {
+      "source": "能源新媒",
+      "count": 3
+    },
+    {
+      "source": "宁夏发改委",
+      "count": 3
+    },
+    {
+      "source": "宁夏回族自治区发展改革委",
+      "count": 3
+    },
+    {
+      "source": "宁夏回族自治区生态环境厅",
+      "count": 3
+    },
+    {
+      "source": "欧洲海上风电",
+      "count": 3
+    },
+    {
+      "source": "三峡小微",
+      "count": 3
+    },
+    {
+      "source": "山东省生态环境厅",
+      "count": 3
+    },
+    {
+      "source": "山西省发展和改革委员会",
+      "count": 3
+    },
+    {
+      "source": "陕西省发展和改革委员会",
+      "count": 3
+    },
+    {
+      "source": "上观新闻",
+      "count": 3
+    },
+    {
+      "source": "上海环境能源交易所",
+      "count": 3
+    },
+    {
+      "source": "上海节能宣传",
+      "count": 3
+    },
+    {
+      "source": "上海市发展改革委",
+      "count": 3
+    },
+    {
+      "source": "上海市经济和信息化委员会",
+      "count": 3
+    },
+    {
+      "source": "四川省人民政府",
+      "count": 3
+    },
+    {
+      "source": "四川省住房和城乡建设厅",
+      "count": 3
+    },
+    {
+      "source": "索比光伏网",
+      "count": 3
+    },
+    {
+      "source": "碳排放权交易信息中心",
+      "count": 3
+    },
+    {
+      "source": "外交部",
+      "count": 3
+    },
+    {
+      "source": "威海市人民政府",
+      "count": 3
+    },
+    {
+      "source": "吴静文笔记",
+      "count": 3
+    },
+    {
+      "source": "央广网",
+      "count": 3
+    },
+    {
+      "source": "央视网",
+      "count": 3
+    },
+    {
+      "source": "云南省能源局",
+      "count": 3
+    },
+    {
+      "source": "浙江省发改委",
+      "count": 3
+    },
+    {
+      "source": "浙江省发展和改革委员会",
+      "count": 3
+    },
+    {
+      "source": "真锂研究",
+      "count": 3
+    },
+    {
+      "source": "证券日报",
+      "count": 3
+    },
+    {
+      "source": "中国核协",
+      "count": 3
+    },
+    {
+      "source": "中国环境",
+      "count": 3
+    },
+    {
+      "source": "中国环境网",
+      "count": 3
+    },
+    {
+      "source": "中国科学报",
+      "count": 3
+    },
+    {
+      "source": "中国气象局",
+      "count": 3
+    },
+    {
+      "source": "中国石化报",
+      "count": 3
+    },
+    {
+      "source": "中环报",
+      "count": 3
+    },
+    {
+      "source": "中新网",
+      "count": 3
+    },
+    {
+      "source": "住房城乡建设部办公厅",
+      "count": 3
+    },
+    {
+      "source": "36碳",
+      "count": 2
+    },
+    {
+      "source": "北京市发展和改革委",
+      "count": 2
+    },
+    {
+      "source": "毕节市人民政府",
+      "count": 2
+    },
+    {
+      "source": "财经十一人",
+      "count": 2
+    },
+    {
+      "source": "财经头条",
+      "count": 2
+    },
+    {
+      "source": "参考消息",
+      "count": 2
+    },
+    {
+      "source": "产业观察者",
+      "count": 2
+    },
+    {
+      "source": "重庆市发改委",
+      "count": 2
+    },
+    {
+      "source": "重庆市生态环境局",
+      "count": 2
+    },
+    {
+      "source": "电池中国",
+      "count": 2
+    },
+    {
+      "source": "东方风电",
+      "count": 2
+    },
+    {
+      "source": "封面新闻",
+      "count": 2
+    },
+    {
+      "source": "甘肃省发展和改革委员会",
+      "count": 2
+    },
+    {
+      "source": "甘肃省人民政府",
+      "count": 2
+    },
+    {
+      "source": "光明日报",
+      "count": 2
+    },
+    {
+      "source": "广东省发改委",
+      "count": 2
+    },
+    {
+      "source": "广东省人民政府",
+      "count": 2
+    },
+    {
+      "source": "广州市工业和信息化局",
+      "count": 2
+    },
+    {
+      "source": "硅业分会",
+      "count": 2
+    },
+    {
+      "source": "贵州省发展改革委",
+      "count": 2
+    },
+    {
+      "source": "贵州省工业和信息化厅",
+      "count": 2
+    },
+    {
+      "source": "国管局",
+      "count": 2
+    },
+    {
+      "source": "国家电网公司",
+      "count": 2
+    },
+    {
+      "source": "国家能源局西北监管局",
+      "count": 2
+    },
+    {
+      "source": "国家能源招标网",
+      "count": 2
+    },
+    {
+      "source": "国家原子能机构",
+      "count": 2
+    },
+    {
+      "source": "国投电力",
+      "count": 2
+    },
+    {
+      "source": "海盐县发改局",
+      "count": 2
+    },
+    {
+      "source": "河北省人民政府",
+      "count": 2
+    },
+    {
+      "source": "河北省招标投标公共服务平台",
+      "count": 2
+    },
+    {
+      "source": "河南省发改委",
+      "count": 2
+    },
+    {
+      "source": "河南省公共资源交易中心",
+      "count": 2
+    },
+    {
+      "source": "湖北省发改委",
+      "count": 2
+    },
+    {
+      "source": "湖南省人民政府",
+      "count": 2
+    },
+    {
+      "source": "环球零碳公众号",
+      "count": 2
+    },
+    {
+      "source": "江苏能监办",
+      "count": 2
+    },
+    {
+      "source": "江苏省人民政府",
+      "count": 2
+    },
+    {
+      "source": "江苏省生态环境厅",
+      "count": 2
+    },
+    {
+      "source": "江西省人民政府",
+      "count": 2
+    },
+    {
+      "source": "金风科技",
+      "count": 2
+    },
+    {
+      "source": "金台资讯",
+      "count": 2
+    },
+    {
+      "source": "经济观察网",
+      "count": 2
+    },
+    {
+      "source": "科创板日报",
+      "count": 2
+    },
+    {
+      "source": "朗新研究所",
+      "count": 2
+    },
+    {
+      "source": "亮报",
+      "count": 2
+    },
+    {
+      "source": "辽宁省工业和信息化厅",
+      "count": 2
+    },
+    {
+      "source": "龙船风电网",
+      "count": 2
+    },
+    {
+      "source": "路透社",
+      "count": 2
+    },
+    {
+      "source": "绿技金创",
+      "count": 2
+    },
+    {
+      "source": "洛阳市工业和信息化局",
+      "count": 2
+    },
+    {
+      "source": "南网储能",
+      "count": 2
+    },
+    {
+      "source": "内蒙古人民政府",
+      "count": 2
+    },
+    {
+      "source": "内蒙古自治区工业和信息化厅",
+      "count": 2
+    },
+    {
+      "source": "宁夏自治区发改委",
+      "count": 2
+    },
+    {
+      "source": "青海省发改委",
+      "count": 2
+    },
+    {
+      "source": "全球氢能网",
+      "count": 2
+    },
+    {
+      "source": "泉州市人民政府",
+      "count": 2
+    },
+    {
+      "source": "山东省发展和改革委员会",
+      "count": 2
+    },
+    {
+      "source": "山西省国资委",
+      "count": 2
+    },
+    {
+      "source": "上海发布",
+      "count": 2
+    },
+    {
+      "source": "上海市发改委",
+      "count": 2
+    },
+    {
+      "source": "上海市经济信息化委",
+      "count": 2
+    },
+    {
+      "source": "上海市经信委",
+      "count": 2
+    },
+    {
+      "source": "深圳特区报",
+      "count": 2
+    },
+    {
+      "source": "沈阳市人民政府",
+      "count": 2
+    },
+    {
+      "source": "生态环境部应对气候变化司",
+      "count": 2
+    },
+    {
+      "source": "双碳情报",
+      "count": 2
+    },
+    {
+      "source": "四川发改委",
+      "count": 2
+    },
+    {
+      "source": "四川省发改委",
+      "count": 2
+    },
+    {
+      "source": "四川省发展和改革委员会",
+      "count": 2
+    },
+    {
+      "source": "四川省工信厅",
+      "count": 2
+    },
+    {
+      "source": "四川省公共资源交易信息网",
+      "count": 2
+    },
+    {
+      "source": "四川省生态环境厅",
+      "count": 2
+    },
+    {
+      "source": "乌拉特中旗人民政府",
+      "count": 2
+    },
+    {
+      "source": "无锡市人民政府",
+      "count": 2
+    },
+    {
+      "source": "欣旺达储能",
+      "count": 2
+    },
+    {
+      "source": "新浪财经",
+      "count": 2
+    },
+    {
+      "source": "新民晚报",
+      "count": 2
+    },
+    {
+      "source": "云南省国资委",
+      "count": 2
+    },
+    {
+      "source": "浙江能源监管办",
+      "count": 2
+    },
+    {
+      "source": "浙江省生态环境厅",
+      "count": 2
+    },
+    {
+      "source": "证券时报网",
+      "count": 2
+    },
+    {
+      "source": "知乎",
+      "count": 2
+    },
+    {
+      "source": "智通财经",
+      "count": 2
+    },
+    {
+      "source": "中共三亚市委",
+      "count": 2
+    },
+    {
+      "source": "中国核能行业协会",
+      "count": 2
+    },
+    {
+      "source": "中国华电集团有限公司",
+      "count": 2
+    },
+    {
+      "source": "中国绿色时报",
+      "count": 2
+    },
+    {
+      "source": "中国能建",
+      "count": 2
+    },
+    {
+      "source": "中国人大网",
+      "count": 2
+    },
+    {
+      "source": "中国石油新闻中心",
+      "count": 2
+    },
+    {
+      "source": "中核智库",
+      "count": 2
+    },
+    {
+      "source": "中华人民共和国国家发展和改革委员会",
+      "count": 2
+    },
+    {
+      "source": "中新经纬",
+      "count": 2
+    },
+    {
+      "source": "中新社",
+      "count": 2
+    },
+    {
+      "source": "住建部",
+      "count": 2
+    },
+    {
+      "source": "筑文说易公众号",
+      "count": 2
+    },
+    {
+      "source": "自然资源部",
+      "count": 2
+    },
+    {
+      "source": "CLEANdata",
+      "count": 2
+    },
+    {
+      "source": "IT之家",
+      "count": 2
+    },
+    {
+      "source": "rfi",
+      "count": 2
+    },
+    {
+      "source": "“科技创新”绘就中国式现代化图景 中国科技第一展——高交会11月深圳举行",
+      "count": 1
+    },
+    {
+      "source": "《巴黎协定》全文",
+      "count": 1
+    },
+    {
+      "source": "《风能》",
+      "count": 1
+    },
+    {
+      "source": "《学习时报》",
+      "count": 1
+    },
+    {
+      "source": "《中国石油企业》2025年第9期",
+      "count": 1
+    },
+    {
+      "source": "2024第3届海南国际电子商务博览会暨海南国际跨境电商贸易展览会邀 请 函",
+      "count": 1
+    },
+    {
+      "source": "2024年海南跨博会暨海南国际光储充产业博览会",
+      "count": 1
+    },
+    {
+      "source": "2024深圳国际生态环境监测产业博览会",
+      "count": 1
+    },
+    {
+      "source": "2024中国（宁波）智慧能源产业博览会邀请函",
+      "count": 1
+    },
+    {
+      "source": "2025亚洲供热展 2025第20届亚洲供热暖通、热水、烘干、干燥及热泵产业博览会",
+      "count": 1
+    },
+    {
+      "source": "2025中国国际电力产业博览会暨绿色能源装备博览会",
+      "count": 1
+    },
+    {
+      "source": "3060碳达峰碳中和",
+      "count": 1
+    },
+    {
+      "source": "3S中际联合",
+      "count": 1
+    },
+    {
+      "source": "9.25-2025粤港澳大湾区智慧停车及超级充电桩展览会",
+      "count": 1
+    },
+    {
+      "source": "阿拉善公共资源交易网",
+      "count": 1
+    },
+    {
+      "source": "阿拉善盟能源局",
+      "count": 1
+    },
+    {
+      "source": "阿勒泰新闻网",
+      "count": 1
+    },
+    {
+      "source": "安徽电力交易中心",
+      "count": 1
+    },
+    {
+      "source": "安徽省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "安徽省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "安徽省国资委",
+      "count": 1
+    },
+    {
+      "source": "安徽省人民政府",
+      "count": 1
+    },
+    {
+      "source": "安徽省生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "安徽省住房城乡建设厅",
+      "count": 1
+    },
+    {
+      "source": "安庆市公共资源交易中心",
+      "count": 1
+    },
+    {
+      "source": "鞍钢智慧招投标平台",
+      "count": 1
+    },
+    {
+      "source": "巴中市巴州区人民政府",
+      "count": 1
+    },
+    {
+      "source": "巴中市人民政府",
+      "count": 1
+    },
+    {
+      "source": "拜登拨款63亿美元推进重工业碳中和",
+      "count": 1
+    },
+    {
+      "source": "蚌埠市公共资源交易中心",
+      "count": 1
+    },
+    {
+      "source": "保时捷",
+      "count": 1
+    },
+    {
+      "source": "北方清洁能源博览会",
+      "count": 1
+    },
+    {
+      "source": "北海市人民政府",
+      "count": 1
+    },
+    {
+      "source": "北极星电池网",
+      "count": 1
+    },
+    {
+      "source": "北极星电力软件网",
+      "count": 1
+    },
+    {
+      "source": "北极星固废网",
+      "count": 1
+    },
+    {
+      "source": "北极星能源网",
+      "count": 1
+    },
+    {
+      "source": "​北极星售电网",
+      "count": 1
+    },
+    {
+      "source": "北极星太阳能光伏网（翻译）",
+      "count": 1
+    },
+    {
+      "source": "北极星太阳能光伏网翻译",
+      "count": 1
+    },
+    {
+      "source": "北极星碳管家",
+      "count": 1
+    },
+    {
+      "source": "北京发改委",
+      "count": 1
+    },
+    {
+      "source": "北京经济技术开发区",
+      "count": 1
+    },
+    {
+      "source": "北京经济技术开发区管理委员会",
+      "count": 1
+    },
+    {
+      "source": "北京绿色交易网",
+      "count": 1
+    },
+    {
+      "source": "北京青年报记者",
+      "count": 1
+    },
+    {
+      "source": "北京日报",
+      "count": 1
+    },
+    {
+      "source": "北京日报客户端",
+      "count": 1
+    },
+    {
+      "source": "北京生态环境",
+      "count": 1
+    },
+    {
+      "source": "北京市朝阳区发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "北京市城市管理委员会",
+      "count": 1
+    },
+    {
+      "source": "北京市发改委发",
+      "count": 1
+    },
+    {
+      "source": "北京市发展改革委",
+      "count": 1
+    },
+    {
+      "source": "北京市丰台区发展改革委",
+      "count": 1
+    },
+    {
+      "source": "北京市交通委员会",
+      "count": 1
+    },
+    {
+      "source": "北京市可再生能源开发利用条例实施方案：鼓励和支持开展跨区域绿电直接交易",
+      "count": 1
+    },
+    {
+      "source": "北京市门头沟区科学技术委员会",
+      "count": 1
+    },
+    {
+      "source": "北京市人大常委会",
+      "count": 1
+    },
+    {
+      "source": "北京市人民政府办公厅",
+      "count": 1
+    },
+    {
+      "source": "北京市政府",
+      "count": 1
+    },
+    {
+      "source": "北京延庆区政府",
+      "count": 1
+    },
+    {
+      "source": "贝壳财经",
+      "count": 1
+    },
+    {
+      "source": "滨州市公共资源交易中心",
+      "count": 1
+    },
+    {
+      "source": "滨州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "兵团发展改革委",
+      "count": 1
+    },
+    {
+      "source": "亳州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "不断突破，第三届EESA储能展圆满收官！2025再相聚！",
+      "count": 1
+    },
+    {
+      "source": "采购招投标服务平台",
+      "count": 1
+    },
+    {
+      "source": "采招网",
+      "count": 1
+    },
+    {
+      "source": "常熟市人民政府",
+      "count": 1
+    },
+    {
+      "source": "常州市武进区人民政府",
+      "count": 1
+    },
+    {
+      "source": "常州市政府办公室",
+      "count": 1
+    },
+    {
+      "source": "厂务技术专栏",
+      "count": 1
+    },
+    {
+      "source": "潮州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "辰于公司",
+      "count": 1
+    },
+    {
+      "source": "成都日报",
+      "count": 1
+    },
+    {
+      "source": "成都商报红星新闻",
+      "count": 1
+    },
+    {
+      "source": "成都市财政",
+      "count": 1
+    },
+    {
+      "source": "成都市经济和信息化局",
+      "count": 1
+    },
+    {
+      "source": "成都市经信网",
+      "count": 1
+    },
+    {
+      "source": "成都市人民政府",
+      "count": 1
+    },
+    {
+      "source": "重庆交通开投集团",
+      "count": 1
+    },
+    {
+      "source": "重庆经信委",
+      "count": 1
+    },
+    {
+      "source": "重庆市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "重庆市公共资源交易网",
+      "count": 1
+    },
+    {
+      "source": "重庆市经信委",
+      "count": 1
+    },
+    {
+      "source": "重庆市南川区人民政府",
+      "count": 1
+    },
+    {
+      "source": "重庆市荣昌区发展和改革委",
+      "count": 1
+    },
+    {
+      "source": "重庆市潼南区人民政府",
+      "count": 1
+    },
+    {
+      "source": "重庆市渝中区人民政府",
+      "count": 1
+    },
+    {
+      "source": "重庆水务环境集团",
+      "count": 1
+    },
+    {
+      "source": "崇明区人民政府",
+      "count": 1
+    },
+    {
+      "source": "储能热榜",
+      "count": 1
+    },
+    {
+      "source": "储能头条",
+      "count": 1
+    },
+    {
+      "source": "楚雄州人民政府",
+      "count": 1
+    },
+    {
+      "source": "大理州政府",
+      "count": 1
+    },
+    {
+      "source": "大连发布",
+      "count": 1
+    },
+    {
+      "source": "大连市发改委",
+      "count": 1
+    },
+    {
+      "source": "大唐电子商务平台",
+      "count": 1
+    },
+    {
+      "source": "大洋网",
+      "count": 1
+    },
+    {
+      "source": "大众网",
+      "count": 1
+    },
+    {
+      "source": "倒计时10天 | NEAS CHINA 2024最全展商阵容+论坛合集重磅揭幕，建议收藏→",
+      "count": 1
+    },
+    {
+      "source": "倒计时9天 | 聚“链”成势，“圳”当其时 ！NEAS CHINA 2024大湾区展精彩亮点抢先看！",
+      "count": 1
+    },
+    {
+      "source": "德阳市生态环境局",
+      "count": 1
+    },
+    {
+      "source": "第17届广州住博会将升级为世界住博会，2025展位预定火热开启",
+      "count": 1
+    },
+    {
+      "source": "第二十六届高交会暨绿色能源装备及新型电力设备展览会抢占新商机",
+      "count": 1
+    },
+    {
+      "source": "第三届 EESA 储能",
+      "count": 1
+    },
+    {
+      "source": "第三届EESA储能展即将开幕，议程干货满满、嘉宾阵容强大，速来围观！",
+      "count": 1
+    },
+    {
+      "source": "第四师·可克达拉市",
+      "count": 1
+    },
+    {
+      "source": "电池网",
+      "count": 1
+    },
+    {
+      "source": "电动知家",
+      "count": 1
+    },
+    {
+      "source": "电力法律观察",
+      "count": 1
+    },
+    {
+      "source": "电力能源互联网",
+      "count": 1
+    },
+    {
+      "source": "电线电缆网",
+      "count": 1
+    },
+    {
+      "source": "东北能源监管局",
+      "count": 1
+    },
+    {
+      "source": "东驰能源",
+      "count": 1
+    },
+    {
+      "source": "东方财富网",
+      "count": 1
+    },
+    {
+      "source": "东方电气",
+      "count": 1
+    },
+    {
+      "source": "东方电气集团",
+      "count": 1
+    },
+    {
+      "source": "东方日升新能源",
+      "count": 1
+    },
+    {
+      "source": "东方网",
+      "count": 1
+    },
+    {
+      "source": "东莞市发展和改革局",
+      "count": 1
+    },
+    {
+      "source": "东南网",
+      "count": 1
+    },
+    {
+      "source": "东营市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "洞头区人民政府",
+      "count": 1
+    },
+    {
+      "source": "都昌县人民政府",
+      "count": 1
+    },
+    {
+      "source": "俄罗斯卫星通讯社",
+      "count": 1
+    },
+    {
+      "source": "鄂尔多斯人民政府",
+      "count": 1
+    },
+    {
+      "source": "鄂尔多斯市能源局",
+      "count": 1
+    },
+    {
+      "source": "鄂尔多斯市生态环境局",
+      "count": 1
+    },
+    {
+      "source": "恩平市人民政府",
+      "count": 1
+    },
+    {
+      "source": "二连浩特市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "发改委",
+      "count": 1
+    },
+    {
+      "source": "法制日报",
+      "count": 1
+    },
+    {
+      "source": "防城港核电",
+      "count": 1
+    },
+    {
+      "source": "丰台生态环境直通车",
+      "count": 1
+    },
+    {
+      "source": "风电世界",
+      "count": 1
+    },
+    {
+      "source": "风芒能源",
+      "count": 1
+    },
+    {
+      "source": "凤凰网财经",
+      "count": 1
+    },
+    {
+      "source": "凤凰网科技",
+      "count": 1
+    },
+    {
+      "source": "福建生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "福建省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "福建省生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "福田区人民政府",
+      "count": 1
+    },
+    {
+      "source": "福州市电子招投标交易系统",
+      "count": 1
+    },
+    {
+      "source": "福州市工业和信息化局",
+      "count": 1
+    },
+    {
+      "source": "福州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "阜阳市发展改革委",
+      "count": 1
+    },
+    {
+      "source": "盖世汽车",
+      "count": 1
+    },
+    {
+      "source": "甘肃能监办",
+      "count": 1
+    },
+    {
+      "source": "甘肃省发展改革委",
+      "count": 1
+    },
+    {
+      "source": "甘肃省工信厅",
+      "count": 1
+    },
+    {
+      "source": "甘肃省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "甘肃省人民政府网",
+      "count": 1
+    },
+    {
+      "source": "甘孜州发改委",
+      "count": 1
+    },
+    {
+      "source": "工业和信息化部规划司",
+      "count": 1
+    },
+    {
+      "source": "固原市人民政府",
+      "count": 1
+    },
+    {
+      "source": "关于印发电子信息制造业2023—2024年稳增长行动方案的通知",
+      "count": 1
+    },
+    {
+      "source": "观点网",
+      "count": 1
+    },
+    {
+      "source": "光大环保能源沅江有限公司",
+      "count": 1
+    },
+    {
+      "source": "光大环境研究院",
+      "count": 1
+    },
+    {
+      "source": "光大未来",
+      "count": 1
+    },
+    {
+      "source": "光伏资讯",
+      "count": 1
+    },
+    {
+      "source": "光明网",
+      "count": 1
+    },
+    {
+      "source": "广东北展国际展览集团",
+      "count": 1
+    },
+    {
+      "source": "广东生态环境",
+      "count": 1
+    },
+    {
+      "source": "广东省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "广东省工信厅",
+      "count": 1
+    },
+    {
+      "source": "广东省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "广东省公共资源交易平台（江门市）",
+      "count": 1
+    },
+    {
+      "source": "广东省生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "广东省通信管理局",
+      "count": 1
+    },
+    {
+      "source": "广东省住建厅",
+      "count": 1
+    },
+    {
+      "source": "广西电力交易中心",
+      "count": 1
+    },
+    {
+      "source": "广西人大网",
+      "count": 1
+    },
+    {
+      "source": "广西省人民政府",
+      "count": 1
+    },
+    {
+      "source": "广西招标投标公共服务平台",
+      "count": 1
+    },
+    {
+      "source": "广西自治区工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "广元市生态环境局",
+      "count": 1
+    },
+    {
+      "source": "广州公共资源交易中心",
+      "count": 1
+    },
+    {
+      "source": "广州南沙开发区管委会办公室",
+      "count": 1
+    },
+    {
+      "source": "广州市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "广州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "广州文船重工有限公司",
+      "count": 1
+    },
+    {
+      "source": "贵阳市人民政府",
+      "count": 1
+    },
+    {
+      "source": "贵阳网",
+      "count": 1
+    },
+    {
+      "source": "贵州日报",
+      "count": 1
+    },
+    {
+      "source": "贵州省大数据发展管理局",
+      "count": 1
+    },
+    {
+      "source": "贵州省发改委",
+      "count": 1
+    },
+    {
+      "source": "贵州省发展和改革委",
+      "count": 1
+    },
+    {
+      "source": "贵州省林业局",
+      "count": 1
+    },
+    {
+      "source": "贵州省人民政府",
+      "count": 1
+    },
+    {
+      "source": "贵州省住房城乡建设厅",
+      "count": 1
+    },
+    {
+      "source": "郭莎莎",
+      "count": 1
+    },
+    {
+      "source": "国际核工程",
+      "count": 1
+    },
+    {
+      "source": "国际金融报",
+      "count": 1
+    },
+    {
+      "source": "国际能源网综合报道",
+      "count": 1
+    },
+    {
+      "source": "国际商报",
+      "count": 1
+    },
+    {
+      "source": "国家标准化管理委员会",
+      "count": 1
+    },
+    {
+      "source": "国家财政部",
+      "count": 1
+    },
+    {
+      "source": "国家地理中文网",
+      "count": 1
+    },
+    {
+      "source": "国家电力投资集团有限公司",
+      "count": 1
+    },
+    {
+      "source": "国家电投集团中央研究院",
+      "count": 1
+    },
+    {
+      "source": "国家电投氢能科技",
+      "count": 1
+    },
+    {
+      "source": "国家电投中央研究院",
+      "count": 1
+    },
+    {
+      "source": "国家电网",
+      "count": 1
+    },
+    {
+      "source": "国家电网公司西北分部",
+      "count": 1
+    },
+    {
+      "source": "国家矿山安全监察局",
+      "count": 1
+    },
+    {
+      "source": "国家矿山安全监察局云南局",
+      "count": 1
+    },
+    {
+      "source": "国家林草局资源司",
+      "count": 1
+    },
+    {
+      "source": "国家林业和草原局",
+      "count": 1
+    },
+    {
+      "source": "国家能源集团广西公司",
+      "count": 1
+    },
+    {
+      "source": "国家能源局南方监管局",
+      "count": 1
+    },
+    {
+      "source": "国家能源局山西监管办",
+      "count": 1
+    },
+    {
+      "source": "国家能源局新闻发布会",
+      "count": 1
+    },
+    {
+      "source": "国家能源局云南监管办",
+      "count": 1
+    },
+    {
+      "source": "国家能源局云南监管办公室",
+      "count": 1
+    },
+    {
+      "source": "国家能源局浙江监管办",
+      "count": 1
+    },
+    {
+      "source": "国家气候战略中心",
+      "count": 1
+    },
+    {
+      "source": "国家生态环境部",
+      "count": 1
+    },
+    {
+      "source": "国家石油天然气管网集团有限公司",
+      "count": 1
+    },
+    {
+      "source": "国家市场监管总局",
+      "count": 1
+    },
+    {
+      "source": "国家铁路局",
+      "count": 1
+    },
+    {
+      "source": "国家应对气候变化战略研究和国际合作中心",
+      "count": 1
+    },
+    {
+      "source": "国能新疆煤制气之声",
+      "count": 1
+    },
+    {
+      "source": "国是直通车",
+      "count": 1
+    },
+    {
+      "source": "国投电子招标",
+      "count": 1
+    },
+    {
+      "source": "国投集团电子采购集团",
+      "count": 1
+    },
+    {
+      "source": "国网甘肃电力",
+      "count": 1
+    },
+    {
+      "source": "国网江苏省电力有限公司",
+      "count": 1
+    },
+    {
+      "source": "​国网能源研究院",
+      "count": 1
+    },
+    {
+      "source": "国新网",
+      "count": 1
+    },
+    {
+      "source": "国资智库",
+      "count": 1
+    },
+    {
+      "source": "海辰储能 HiTHIUM",
+      "count": 1
+    },
+    {
+      "source": "海东新闻",
+      "count": 1
+    },
+    {
+      "source": "海南发改委",
+      "count": 1
+    },
+    {
+      "source": "海南跨博会",
+      "count": 1
+    },
+    {
+      "source": "海南日报",
+      "count": 1
+    },
+    {
+      "source": "海南省发改委",
+      "count": 1
+    },
+    {
+      "source": "海南省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "海南省政府采购行业协会",
+      "count": 1
+    },
+    {
+      "source": "海上能源网",
+      "count": 1
+    },
+    {
+      "source": "海湾镇生态办",
+      "count": 1
+    },
+    {
+      "source": "海望氢能",
+      "count": 1
+    },
+    {
+      "source": "杭州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "杭州市政府",
+      "count": 1
+    },
+    {
+      "source": "和讯网",
+      "count": 1
+    },
+    {
+      "source": "河北港口集团",
+      "count": 1
+    },
+    {
+      "source": "河北省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "河北省人民政府关",
+      "count": 1
+    },
+    {
+      "source": "河北省生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "河北省政府",
+      "count": 1
+    },
+    {
+      "source": "河南环境厅",
+      "count": 1
+    },
+    {
+      "source": "河南省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "河南省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "河南省交通运输厅",
+      "count": 1
+    },
+    {
+      "source": "河南省能源局",
+      "count": 1
+    },
+    {
+      "source": "河南省生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "河南省周口市川汇区人民政府",
+      "count": 1
+    },
+    {
+      "source": "河南郑州航空港发展和统计局",
+      "count": 1
+    },
+    {
+      "source": "黑龙江省发展改革委",
+      "count": 1
+    },
+    {
+      "source": "红星新闻",
+      "count": 1
+    },
+    {
+      "source": "呼和浩特市人民政府",
+      "count": 1
+    },
+    {
+      "source": "呼伦贝尔市科技局",
+      "count": 1
+    },
+    {
+      "source": "湖北生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "湖北省发展改革委",
+      "count": 1
+    },
+    {
+      "source": "湖北省公共资源交易电子服务系统",
+      "count": 1
+    },
+    {
+      "source": "湖北省能源局",
+      "count": 1
+    },
+    {
+      "source": "湖南省林业局",
+      "count": 1
+    },
+    {
+      "source": "湖南省生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "湖州市发改委",
+      "count": 1
+    },
+    {
+      "source": "华北电力设计院有限公司",
+      "count": 1
+    },
+    {
+      "source": "华北能监局",
+      "count": 1
+    },
+    {
+      "source": "华电集团电子商务平台",
+      "count": 1
+    },
+    {
+      "source": "华电能建",
+      "count": 1
+    },
+    {
+      "source": "华东勘测设计研究院",
+      "count": 1
+    },
+    {
+      "source": "华东能源监管局",
+      "count": 1
+    },
+    {
+      "source": "华尔街见闻",
+      "count": 1
+    },
+    {
+      "source": "华尔街日报",
+      "count": 1
+    },
+    {
+      "source": "华能电子商务平台",
+      "count": 1
+    },
+    {
+      "source": "华润电力",
+      "count": 1
+    },
+    {
+      "source": "华润电力重能新疆公司",
+      "count": 1
+    },
+    {
+      "source": "华声在线",
+      "count": 1
+    },
+    {
+      "source": "华为数字能源",
+      "count": 1
+    },
+    {
+      "source": "华夏时报",
+      "count": 1
+    },
+    {
+      "source": "环保在线",
+      "count": 1
+    },
+    {
+      "source": "环球零碳研究中心",
+      "count": 1
+    },
+    {
+      "source": "环球时报-环球网",
+      "count": 1
+    },
+    {
+      "source": "环球市场播报",
+      "count": 1
+    },
+    {
+      "source": "黄师傅说电",
+      "count": 1
+    },
+    {
+      "source": "黄师傅说电公众号",
+      "count": 1
+    },
+    {
+      "source": "激活出海澎湃“向新力”，侨交会2024（迪拜）智能科技展盛大启幕",
+      "count": 1
+    },
+    {
+      "source": "吉林省发改委",
+      "count": 1
+    },
+    {
+      "source": "吉林省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "吉林省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "吉林省人民政府",
+      "count": 1
+    },
+    {
+      "source": "建德市人民政府",
+      "count": 1
+    },
+    {
+      "source": "江门市发展和改革局",
+      "count": 1
+    },
+    {
+      "source": "江门市应急管理局",
+      "count": 1
+    },
+    {
+      "source": "江山市发展和改革局",
+      "count": 1
+    },
+    {
+      "source": "江苏南京：积极培育储能与氢能等未来产业，争创国家未来产业先导区",
+      "count": 1
+    },
+    {
+      "source": "江苏省发展改革委",
+      "count": 1
+    },
+    {
+      "source": "江苏省国资委",
+      "count": 1
+    },
+    {
+      "source": "江苏省科技厅",
+      "count": 1
+    },
+    {
+      "source": "江苏省政府办公厅",
+      "count": 1
+    },
+    {
+      "source": "江苏镇江市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "江西电力交易中心",
+      "count": 1
+    },
+    {
+      "source": "江西赣锋锂电科技股份有限公司",
+      "count": 1
+    },
+    {
+      "source": "江西省发改委",
+      "count": 1
+    },
+    {
+      "source": "江西省工业和信息化",
+      "count": 1
+    },
+    {
+      "source": "江西省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "江西省能源局",
+      "count": 1
+    },
+    {
+      "source": "江西省商务厅",
+      "count": 1
+    },
+    {
+      "source": "江西省生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "江西省市场监管局",
+      "count": 1
+    },
+    {
+      "source": "江西省统计局",
+      "count": 1
+    },
+    {
+      "source": "江西省住房和城乡建设厅",
+      "count": 1
+    },
+    {
+      "source": "节能改造能源管理碳核查碳交易",
+      "count": 1
+    },
+    {
+      "source": "解放日报·",
+      "count": 1
+    },
+    {
+      "source": "金风服务",
+      "count": 1
+    },
+    {
+      "source": "晋城市人民政府",
+      "count": 1
+    },
+    {
+      "source": "经济观察报",
+      "count": 1
+    },
+    {
+      "source": "荆门市政府",
+      "count": 1
+    },
+    {
+      "source": "巨力索具股份有限公司",
+      "count": 1
+    },
+    {
+      "source": "巨仁企业服务中心",
+      "count": 1
+    },
+    {
+      "source": "聚合储能",
+      "count": 1
+    },
+    {
+      "source": "聚焦襄垣",
+      "count": 1
+    },
+    {
+      "source": "聚势同行，以质致远，侨交会2024（迪拜）智能科技展圆满收官",
+      "count": 1
+    },
+    {
+      "source": "开封市新宋风建设投资有限公司",
+      "count": 1
+    },
+    {
+      "source": "凯里市人民政府",
+      "count": 1
+    },
+    {
+      "source": "科技部",
+      "count": 1
+    },
+    {
+      "source": "科技领导者聚首GTLC，低碳足球赛展现绿色激情",
+      "count": 1
+    },
+    {
+      "source": "科技日报 云南省林草局",
+      "count": 1
+    },
+    {
+      "source": "科技司",
+      "count": 1
+    },
+    {
+      "source": "可胜技术Cosin Solar",
+      "count": 1
+    },
+    {
+      "source": "昆明市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "昆明市人民政府",
+      "count": 1
+    },
+    {
+      "source": "昆山市市政府",
+      "count": 1
+    },
+    {
+      "source": "郎溪县人民政府",
+      "count": 1
+    },
+    {
+      "source": "朗新研究院",
+      "count": 1
+    },
+    {
+      "source": "李高任生态环境部副部长",
+      "count": 1
+    },
+    {
+      "source": "连云港海事局",
+      "count": 1
+    },
+    {
+      "source": "连云港市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "连云港市人民政府",
+      "count": 1
+    },
+    {
+      "source": "联合国网站",
+      "count": 1
+    },
+    {
+      "source": "联合国新闻",
+      "count": 1
+    },
+    {
+      "source": "联合早报",
+      "count": 1
+    },
+    {
+      "source": "辽宁省发展改革委",
+      "count": 1
+    },
+    {
+      "source": "辽宁省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "临沧市人民政府",
+      "count": 1
+    },
+    {
+      "source": "临港集团",
+      "count": 1
+    },
+    {
+      "source": "临港区管委会",
+      "count": 1
+    },
+    {
+      "source": "灵武市人民政府",
+      "count": 1
+    },
+    {
+      "source": "零碳知识局",
+      "count": 1
+    },
+    {
+      "source": "柳州市发改委",
+      "count": 1
+    },
+    {
+      "source": "六部门发布光伏组件综合利用指导意见",
+      "count": 1
+    },
+    {
+      "source": "六盘水市水城区人民政府",
+      "count": 1
+    },
+    {
+      "source": "绿创碳和",
+      "count": 1
+    },
+    {
+      "source": "绿地金创",
+      "count": 1
+    },
+    {
+      "source": "绿色碳生态，智储创时代！第四届EESA储能展邀您参与！",
+      "count": 1
+    },
+    {
+      "source": "锚定中东乘势出海，侨交会迪拜展吹响集结号",
+      "count": 1
+    },
+    {
+      "source": "美国木材工业和森林碳信用计划可以共存吗？",
+      "count": 1
+    },
+    {
+      "source": "木垒零距离",
+      "count": 1
+    },
+    {
+      "source": "南充市生态环境局",
+      "count": 1
+    },
+    {
+      "source": "南方财经全媒体",
+      "count": 1
+    },
+    {
+      "source": "南方都市报",
+      "count": 1
+    },
+    {
+      "source": "南方能源监管局",
+      "count": 1
+    },
+    {
+      "source": "南京市人民政府",
+      "count": 1
+    },
+    {
+      "source": "南京首笔“生态贷”落地浦口，破解环保企业融资难题",
+      "count": 1
+    },
+    {
+      "source": "内蒙古电力交易中心",
+      "count": 1
+    },
+    {
+      "source": "内蒙古华电新能源",
+      "count": 1
+    },
+    {
+      "source": "内蒙古科技厅",
+      "count": 1
+    },
+    {
+      "source": "内蒙古人大",
+      "count": 1
+    },
+    {
+      "source": "内蒙古日报",
+      "count": 1
+    },
+    {
+      "source": "能建国际集团",
+      "count": 1
+    },
+    {
+      "source": "能建龙投",
+      "count": 1
+    },
+    {
+      "source": "能源局",
+      "count": 1
+    },
+    {
+      "source": "能源评论",
+      "count": 1
+    },
+    {
+      "source": "能源评论·首席能源观",
+      "count": 1
+    },
+    {
+      "source": "能源评论•首席能源观",
+      "count": 1
+    },
+    {
+      "source": "能源评论杂志",
+      "count": 1
+    },
+    {
+      "source": "能源情报",
+      "count": 1
+    },
+    {
+      "source": "能源网",
+      "count": 1
+    },
+    {
+      "source": "能源需求侧管理",
+      "count": 1
+    },
+    {
+      "source": "能源与气候管理ECM",
+      "count": 1
+    },
+    {
+      "source": "宁波市能源局",
+      "count": 1
+    },
+    {
+      "source": "宁夏电力交易中心",
+      "count": 1
+    },
+    {
+      "source": "宁夏回族自治区人民政府",
+      "count": 1
+    },
+    {
+      "source": "宁夏银川市人民政府",
+      "count": 1
+    },
+    {
+      "source": "欧冶云商股份有限公司",
+      "count": 1
+    },
+    {
+      "source": "欧洲时报",
+      "count": 1
+    },
+    {
+      "source": "盘锦市人民政府",
+      "count": 1
+    },
+    {
+      "source": "澎湃记者",
+      "count": 1
+    },
+    {
+      "source": "澎湃新闻、中央人民政府",
+      "count": 1
+    },
+    {
+      "source": "澎湃新闻·澎湃号·政务",
+      "count": 1
+    },
+    {
+      "source": "期货日报",
+      "count": 1
+    },
+    {
+      "source": "期货日报网",
+      "count": 1
+    },
+    {
+      "source": "企查查",
+      "count": 1
+    },
+    {
+      "source": "起点锂电",
+      "count": 1
+    },
+    {
+      "source": "气候变化与规则",
+      "count": 1
+    },
+    {
+      "source": "千瓦科技官网",
+      "count": 1
+    },
+    {
+      "source": "黔西南州发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "黔西南州人民政府",
+      "count": 1
+    },
+    {
+      "source": "秦山核电",
+      "count": 1
+    },
+    {
+      "source": "青岛市工业和信息化局",
+      "count": 1
+    },
+    {
+      "source": "青岛市公共资源交易电子服务系统",
+      "count": 1
+    },
+    {
+      "source": "青岛市住房和城乡建设局",
+      "count": 1
+    },
+    {
+      "source": "青岛西海岸发布",
+      "count": 1
+    },
+    {
+      "source": "青海电力交易中心",
+      "count": 1
+    },
+    {
+      "source": "青海省发展改革委",
+      "count": 1
+    },
+    {
+      "source": "青海省科学技术厅",
+      "count": 1
+    },
+    {
+      "source": "青海省能源局",
+      "count": 1
+    },
+    {
+      "source": "青海省商务厅",
+      "count": 1
+    },
+    {
+      "source": "青海省推动工业绿色转型实施方案",
+      "count": 1
+    },
+    {
+      "source": "青海市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "清华大学能源环境经济研究所",
+      "count": 1
+    },
+    {
+      "source": "清远市政府",
+      "count": 1
+    },
+    {
+      "source": "求是网",
+      "count": 1
+    },
+    {
+      "source": "全国风力发电标准化技术委员会",
+      "count": 1
+    },
+    {
+      "source": "全国工商联",
+      "count": 1
+    },
+    {
+      "source": "全国公共资源交易中心",
+      "count": 1
+    },
+    {
+      "source": "全球能源互联网发展合作组织",
+      "count": 1
+    },
+    {
+      "source": "全应科技",
+      "count": 1
+    },
+    {
+      "source": "人民日报客户端",
+      "count": 1
+    },
+    {
+      "source": "人民日报客户端、新华社河北雄安新区",
+      "count": 1
+    },
+    {
+      "source": "人民网-国际频道",
+      "count": 1
+    },
+    {
+      "source": "人民政协报、生态环境部",
+      "count": 1
+    },
+    {
+      "source": "人民政协网",
+      "count": 1
+    },
+    {
+      "source": "日经中文网",
+      "count": 1
+    },
+    {
+      "source": "融安县发展和改革局",
+      "count": 1
+    },
+    {
+      "source": "塞尔维亚与斯洛文尼亚开启核能合作探讨，能源变革可期",
+      "count": 1
+    },
+    {
+      "source": "赛逸（上海）会展有限公司",
+      "count": 1
+    },
+    {
+      "source": "三明市公共资源交易网",
+      "count": 1
+    },
+    {
+      "source": "三峡集团",
+      "count": 1
+    },
+    {
+      "source": "三峡建工",
+      "count": 1
+    },
+    {
+      "source": "沙漠掘进",
+      "count": 1
+    },
+    {
+      "source": "厦门发改委",
+      "count": 1
+    },
+    {
+      "source": "厦门市人民政府",
+      "count": 1
+    },
+    {
+      "source": "山东能监办",
+      "count": 1
+    },
+    {
+      "source": "山东省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "山东省人民政府新闻办公室",
+      "count": 1
+    },
+    {
+      "source": "山东省统计局",
+      "count": 1
+    },
+    {
+      "source": "山西省发改委",
+      "count": 1
+    },
+    {
+      "source": "山西省发展改革委",
+      "count": 1
+    },
+    {
+      "source": "山西省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "山西省市场监督管理局",
+      "count": 1
+    },
+    {
+      "source": "山西省住房和城乡建设厅",
+      "count": 1
+    },
+    {
+      "source": "山西新点招投标交易平台",
+      "count": 1
+    },
+    {
+      "source": "山西招标采购服务平台",
+      "count": 1
+    },
+    {
+      "source": "陕工信发〔2024〕104号",
+      "count": 1
+    },
+    {
+      "source": "陕煤集团",
+      "count": 1
+    },
+    {
+      "source": "陕西电力交易中心",
+      "count": 1
+    },
+    {
+      "source": "陕西发展改革",
+      "count": 1
+    },
+    {
+      "source": "陕西发展改革委",
+      "count": 1
+    },
+    {
+      "source": "陕西省发改委",
+      "count": 1
+    },
+    {
+      "source": "陕西省人民政府",
+      "count": 1
+    },
+    {
+      "source": "汕头市发展和改革局",
+      "count": 1
+    },
+    {
+      "source": "商洛日报",
+      "count": 1
+    },
+    {
+      "source": "上观",
+      "count": 1
+    },
+    {
+      "source": "上海宝山",
+      "count": 1
+    },
+    {
+      "source": "上海成套院",
+      "count": 1
+    },
+    {
+      "source": "上海电气",
+      "count": 1
+    },
+    {
+      "source": "上海电气风电集团",
+      "count": 1
+    },
+    {
+      "source": "上海发展改革",
+      "count": 1
+    },
+    {
+      "source": "上海奉贤区人民政府",
+      "count": 1
+    },
+    {
+      "source": "上海海湾国家森林公园",
+      "count": 1
+    },
+    {
+      "source": "上海环境",
+      "count": 1
+    },
+    {
+      "source": "上海交通大学碳中和发展研究院",
+      "count": 1
+    },
+    {
+      "source": "上海决策者经济顾问股份有限公司",
+      "count": 1
+    },
+    {
+      "source": "上海申能",
+      "count": 1
+    },
+    {
+      "source": "上海市海洋局",
+      "count": 1
+    },
+    {
+      "source": "上海市虹口区人民政府",
+      "count": 1
+    },
+    {
+      "source": "上海市黄浦区人民政府",
+      "count": 1
+    },
+    {
+      "source": "上海市交通委员会",
+      "count": 1
+    },
+    {
+      "source": "上海市金山区人民政府",
+      "count": 1
+    },
+    {
+      "source": "上海市科学技术委员会",
+      "count": 1
+    },
+    {
+      "source": "上海市浦东新区发展和改革委",
+      "count": 1
+    },
+    {
+      "source": "上海市浦东新区发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "上海市普陀区人民政府",
+      "count": 1
+    },
+    {
+      "source": "上海市青浦区人民政府",
+      "count": 1
+    },
+    {
+      "source": "上海市人大常委会",
+      "count": 1
+    },
+    {
+      "source": "​上海市生态环境局",
+      "count": 1
+    },
+    {
+      "source": "上海市水务局",
+      "count": 1
+    },
+    {
+      "source": "上海市杨浦区人民政府",
+      "count": 1
+    },
+    {
+      "source": "上海市住房和城乡建设管理委员会",
+      "count": 1
+    },
+    {
+      "source": "上海有色网",
+      "count": 1
+    },
+    {
+      "source": "上海有色网信息科技股份有限公司",
+      "count": 1
+    },
+    {
+      "source": "上海证券报",
+      "count": 1
+    },
+    {
+      "source": "上海证券报·中国证券网",
+      "count": 1
+    },
+    {
+      "source": "上能电气",
+      "count": 1
+    },
+    {
+      "source": "绍兴市柯桥区人民政府",
+      "count": 1
+    },
+    {
+      "source": "深能北控",
+      "count": 1
+    },
+    {
+      "source": "深圳能源",
+      "count": 1
+    },
+    {
+      "source": "深圳商报",
+      "count": 1
+    },
+    {
+      "source": "深圳生态环境局",
+      "count": 1
+    },
+    {
+      "source": "深圳市工业和信息化局",
+      "count": 1
+    },
+    {
+      "source": "深圳市科技创新局",
+      "count": 1
+    },
+    {
+      "source": "深圳市人民政府",
+      "count": 1
+    },
+    {
+      "source": "深圳市生态环境",
+      "count": 1
+    },
+    {
+      "source": "深圳市生态环境局",
+      "count": 1
+    },
+    {
+      "source": "沈阳生态环境",
+      "count": 1
+    },
+    {
+      "source": "沈阳市工业和信息化局",
+      "count": 1
+    },
+    {
+      "source": "生态环境",
+      "count": 1
+    },
+    {
+      "source": "生态环境部 交通运输部",
+      "count": 1
+    },
+    {
+      "source": "生态环境部办公厅",
+      "count": 1
+    },
+    {
+      "source": "生态环境部环境规划院",
+      "count": 1
+    },
+    {
+      "source": "石岛湾核电",
+      "count": 1
+    },
+    {
+      "source": "世纪能源网",
+      "count": 1
+    },
+    {
+      "source": "世纪新能源网",
+      "count": 1
+    },
+    {
+      "source": "世界经济论坛微信公众号",
+      "count": 1
+    },
+    {
+      "source": "世界农化网",
+      "count": 1
+    },
+    {
+      "source": "世界政经科技论坛",
+      "count": 1
+    },
+    {
+      "source": "世展网",
+      "count": 1
+    },
+    {
+      "source": "视知产研院",
+      "count": 1
+    },
+    {
+      "source": "首都之窗",
+      "count": 1
+    },
+    {
+      "source": "首席能源观",
+      "count": 1
+    },
+    {
+      "source": "双碳战略联盟",
+      "count": 1
+    },
+    {
+      "source": "水电十六局",
+      "count": 1
+    },
+    {
+      "source": "水务科技博览会",
+      "count": 1
+    },
+    {
+      "source": "硕电汇",
+      "count": 1
+    },
+    {
+      "source": "四川技能大赛—2024年四川省工业和信息化技术技能大赛（电力监控系统网络 安全管理赛项）圆满闭幕",
+      "count": 1
+    },
+    {
+      "source": "四川经济和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "四川日报",
+      "count": 1
+    },
+    {
+      "source": "四川生态环境",
+      "count": 1
+    },
+    {
+      "source": "四川省节能低碳协会",
+      "count": 1
+    },
+    {
+      "source": "四川省商务厅",
+      "count": 1
+    },
+    {
+      "source": "四川省循环经济协会",
+      "count": 1
+    },
+    {
+      "source": "四川省自然资源厅",
+      "count": 1
+    },
+    {
+      "source": "四川在线",
+      "count": 1
+    },
+    {
+      "source": "搜狐",
+      "count": 1
+    },
+    {
+      "source": "搜狐网",
+      "count": 1
+    },
+    {
+      "source": "苏州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "索比氢能网",
+      "count": 1
+    },
+    {
+      "source": "塔河宣传",
+      "count": 1
+    },
+    {
+      "source": "台海网",
+      "count": 1
+    },
+    {
+      "source": "台山市人民政府",
+      "count": 1
+    },
+    {
+      "source": "太仓市人民政府",
+      "count": 1
+    },
+    {
+      "source": "太平洋网络",
+      "count": 1
+    },
+    {
+      "source": "泰安市发改委",
+      "count": 1
+    },
+    {
+      "source": "碳道",
+      "count": 1
+    },
+    {
+      "source": "碳管家",
+      "count": 1
+    },
+    {
+      "source": "碳减派",
+      "count": 1
+    },
+    {
+      "source": "碳界",
+      "count": 1
+    },
+    {
+      "source": "碳界公众号",
+      "count": 1
+    },
+    {
+      "source": "碳排放交易网",
+      "count": 1
+    },
+    {
+      "source": "碳排放权登记结算(武汉)有限责任公司",
+      "count": 1
+    },
+    {
+      "source": "碳中宝",
+      "count": 1
+    },
+    {
+      "source": "碳中和学习与实践",
+      "count": 1
+    },
+    {
+      "source": "唐山市工业和信息化局",
+      "count": 1
+    },
+    {
+      "source": "天工e招",
+      "count": 1
+    },
+    {
+      "source": "天合光能",
+      "count": 1
+    },
+    {
+      "source": "天合元氢",
+      "count": 1
+    },
+    {
+      "source": "天津国际智能阀门泵业展览会邀请函",
+      "count": 1
+    },
+    {
+      "source": "天津市发展改革委",
+      "count": 1
+    },
+    {
+      "source": "天津市机关事务管理局",
+      "count": 1
+    },
+    {
+      "source": "天津市南开区人民政府",
+      "count": 1
+    },
+    {
+      "source": "天津市人民政府",
+      "count": 1
+    },
+    {
+      "source": "天津市生态环境局",
+      "count": 1
+    },
+    {
+      "source": "天津市政府",
+      "count": 1
+    },
+    {
+      "source": "天源环保",
+      "count": 1
+    },
+    {
+      "source": "通辽市人民政府",
+      "count": 1
+    },
+    {
+      "source": "通向碳中和",
+      "count": 1
+    },
+    {
+      "source": "突发！欧盟撤回反漂绿立法，“碳中和”",
+      "count": 1
+    },
+    {
+      "source": "屯留经济技术开发区",
+      "count": 1
+    },
+    {
+      "source": "维度系列",
+      "count": 1
+    },
+    {
+      "source": "温岭市人民政府",
+      "count": 1
+    },
+    {
+      "source": "温州发布",
+      "count": 1
+    },
+    {
+      "source": "温州市发改委",
+      "count": 1
+    },
+    {
+      "source": "文汇",
+      "count": 1
+    },
+    {
+      "source": "沃太能源",
+      "count": 1
+    },
+    {
+      "source": "乌兰察布市政府",
+      "count": 1
+    },
+    {
+      "source": "乌兹别克斯坦泽拉夫善风电EPC项目部",
+      "count": 1
+    },
+    {
+      "source": "无锡高新区管委会",
+      "count": 1
+    },
+    {
+      "source": "无锡市人民政府办公室",
+      "count": 1
+    },
+    {
+      "source": "西安发布",
+      "count": 1
+    },
+    {
+      "source": "西安发改委",
+      "count": 1
+    },
+    {
+      "source": "西安市发改委",
+      "count": 1
+    },
+    {
+      "source": "西安市公共资源交易中心",
+      "count": 1
+    },
+    {
+      "source": "西安市人民政府",
+      "count": 1
+    },
+    {
+      "source": "西藏开发投资集团有限公司",
+      "count": 1
+    },
+    {
+      "source": "西省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "咸宁市人民政府",
+      "count": 1
+    },
+    {
+      "source": "现代快报",
+      "count": 1
+    },
+    {
+      "source": "襄阳市公共资源电子交易平台",
+      "count": 1
+    },
+    {
+      "source": "襄阳市人民政府",
+      "count": 1
+    },
+    {
+      "source": "襄阳晚报",
+      "count": 1
+    },
+    {
+      "source": "消费日报网",
+      "count": 1
+    },
+    {
+      "source": "萧山区人民政府",
+      "count": 1
+    },
+    {
+      "source": "孝感市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "新华财经",
+      "count": 1
+    },
+    {
+      "source": "新华社、VOA、生态环境部、参考消息、中国政府网",
+      "count": 1
+    },
+    {
+      "source": "新华社客户端",
+      "count": 1
+    },
+    {
+      "source": "新疆电建",
+      "count": 1
+    },
+    {
+      "source": "新疆电视台",
+      "count": 1
+    },
+    {
+      "source": "新疆维吾尔自治区生态环境厅",
+      "count": 1
+    },
+    {
+      "source": "新疆新华水电",
+      "count": 1
+    },
+    {
+      "source": "新绛县人民政府",
+      "count": 1
+    },
+    {
+      "source": "新京报零碳研究院",
+      "count": 1
+    },
+    {
+      "source": "新浪网",
+      "count": 1
+    },
+    {
+      "source": "新密市人民政府",
+      "count": 1
+    },
+    {
+      "source": "新能源采编",
+      "count": 1
+    },
+    {
+      "source": "新能源网",
+      "count": 1
+    },
+    {
+      "source": "新吴区建设工程安全质量监督站",
+      "count": 1
+    },
+    {
+      "source": "信阳市电子招标投标公共服务平台",
+      "count": 1
+    },
+    {
+      "source": "信语南水北调",
+      "count": 1
+    },
+    {
+      "source": "烟台市工业和信息化局",
+      "count": 1
+    },
+    {
+      "source": "烟台市人民政府",
+      "count": 1
+    },
+    {
+      "source": "盐城市人民政府",
+      "count": 1
+    },
+    {
+      "source": "央视财经",
+      "count": 1
+    },
+    {
+      "source": "央视新闻网",
+      "count": 1
+    },
+    {
+      "source": "羊城晚报",
+      "count": 1
+    },
+    {
+      "source": "阳春市人民政府",
+      "count": 1
+    },
+    {
+      "source": "阳光采购服务平台",
+      "count": 1
+    },
+    {
+      "source": "洋县人民政府",
+      "count": 1
+    },
+    {
+      "source": "邀请函--2025世界太阳能光伏暨储能产业博览会（广州光伏展）",
+      "count": 1
+    },
+    {
+      "source": "一汽解放",
+      "count": 1
+    },
+    {
+      "source": "亿华通",
+      "count": 1
+    },
+    {
+      "source": "亿通国际",
+      "count": 1
+    },
+    {
+      "source": "易车讯",
+      "count": 1
+    },
+    {
+      "source": "应对极端天气，如何加固能源安全“防护网”?",
+      "count": 1
+    },
+    {
+      "source": "营口市工信局",
+      "count": 1
+    },
+    {
+      "source": "赢科储能",
+      "count": 1
+    },
+    {
+      "source": "永福股份",
+      "count": 1
+    },
+    {
+      "source": "友绿网",
+      "count": 1
+    },
+    {
+      "source": "柚子的能源碎碎念",
+      "count": 1
+    },
+    {
+      "source": "远景储能",
+      "count": 1
+    },
+    {
+      "source": "远景科技集团",
+      "count": 1
+    },
+    {
+      "source": "越通社",
+      "count": 1
+    },
+    {
+      "source": "云南发改委",
+      "count": 1
+    },
+    {
+      "source": "云南能监办",
+      "count": 1
+    },
+    {
+      "source": "云南人大",
+      "count": 1
+    },
+    {
+      "source": "云南日报",
+      "count": 1
+    },
+    {
+      "source": "云南省财政厅",
+      "count": 1
+    },
+    {
+      "source": "云南省发改委",
+      "count": 1
+    },
+    {
+      "source": "云南省发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "云南省工业和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "云南省人民政府办公厅",
+      "count": 1
+    },
+    {
+      "source": "云南印发 2026 电网优先发电计划 西电东送 1533 亿千瓦时",
+      "count": 1
+    },
+    {
+      "source": "云深处",
+      "count": 1
+    },
+    {
+      "source": "在和之洲-工程公司 山东院",
+      "count": 1
+    },
+    {
+      "source": "展会邀请函-侨交会（迪拜）智能科技展",
+      "count": 1
+    },
+    {
+      "source": "漳州市发改委",
+      "count": 1
+    },
+    {
+      "source": "漳州市工信局",
+      "count": 1
+    },
+    {
+      "source": "漳州市工业和信息化局",
+      "count": 1
+    },
+    {
+      "source": "漳州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "长江日报",
+      "count": 1
+    },
+    {
+      "source": "长江商报",
+      "count": 1
+    },
+    {
+      "source": "长沙晚报",
+      "count": 1
+    },
+    {
+      "source": "浙江发改",
+      "count": 1
+    },
+    {
+      "source": "浙江省财政厅",
+      "count": 1
+    },
+    {
+      "source": "浙江省经济和信息化厅",
+      "count": 1
+    },
+    {
+      "source": "浙江省经信厅",
+      "count": 1
+    },
+    {
+      "source": "浙江省可持续发展研究会",
+      "count": 1
+    },
+    {
+      "source": "浙江省政府采购网",
+      "count": 1
+    },
+    {
+      "source": "浙能科环",
+      "count": 1
+    },
+    {
+      "source": "正泰电源",
+      "count": 1
+    },
+    {
+      "source": "证监会",
+      "count": 1
+    },
+    {
+      "source": "郑州市发展和改革委员会",
+      "count": 1
+    },
+    {
+      "source": "郑州市工业和信息化局",
+      "count": 1
+    },
+    {
+      "source": "郑州市人民政府",
+      "count": 1
+    },
+    {
+      "source": "政府网",
+      "count": 1
+    },
+    {
+      "source": "中车能源",
+      "count": 1
+    },
+    {
+      "source": "中船海装",
+      "count": 1
+    },
+    {
+      "source": "中电联法律分会",
+      "count": 1
+    },
+    {
+      "source": "中工汽车网",
+      "count": 1
+    },
+    {
+      "source": "中工网",
+      "count": 1
+    },
+    {
+      "source": "中共中央办公厅、国务院办公厅",
+      "count": 1
+    },
+    {
+      "source": "中关村在线",
+      "count": 1
+    },
+    {
+      "source": "中广核能源国际",
+      "count": 1
+    },
+    {
+      "source": "中国报道",
+      "count": 1
+    },
+    {
+      "source": "中国电建湖北工程公司、四川院、上海电建公司",
+      "count": 1
+    },
+    {
+      "source": "中国电建集团",
+      "count": 1
+    },
+    {
+      "source": "中国电建阳光采购网官网",
+      "count": 1
+    },
+    {
+      "source": "中国电力招标网",
+      "count": 1
+    },
+    {
+      "source": "中国电气装备",
+      "count": 1
+    },
+    {
+      "source": "中国电信",
+      "count": 1
+    },
+    {
+      "source": "中国电子技术标准化研究院",
+      "count": 1
+    },
+    {
+      "source": "中国钢铁工业协会",
+      "count": 1
+    },
+    {
+      "source": "中国工业报",
+      "count": 1
+    },
+    {
+      "source": "中国国际发展知识中心",
+      "count": 1
+    },
+    {
+      "source": "中国海洋石油集团",
+      "count": 1
+    },
+    {
+      "source": "中国核电",
+      "count": 1
+    },
+    {
+      "source": "中国核工业",
+      "count": 1
+    },
+    {
+      "source": "中国核工业集团有限公司电子采购平",
+      "count": 1
+    },
+    {
+      "source": "中国化学城投公司",
+      "count": 1
+    },
+    {
+      "source": "中国环保产业协会",
+      "count": 1
+    },
+    {
+      "source": "中国环境 APP",
+      "count": 1
+    },
+    {
+      "source": "中国环境科学研究院",
+      "count": 1
+    },
+    {
+      "source": "中国环境科学研究院减污降碳协同创新中心",
+      "count": 1
+    },
+    {
+      "source": "中国基金报",
+      "count": 1
+    },
+    {
+      "source": "中国家电网",
+      "count": 1
+    },
+    {
+      "source": "中国建材报",
+      "count": 1
+    },
+    {
+      "source": "中国建材信息总网",
+      "count": 1
+    },
+    {
+      "source": "中国经济导报、中国发展网",
+      "count": 1
+    },
+    {
+      "source": "中国经济时报",
+      "count": 1
+    },
+    {
+      "source": "中国经济周刊",
+      "count": 1
+    },
+    {
+      "source": "中国科技新闻网",
+      "count": 1
+    },
+    {
+      "source": "中国科学院院刊",
+      "count": 1
+    },
+    {
+      "source": "中国矿业网",
+      "count": 1
+    },
+    {
+      "source": "中国能建城市发展公司",
+      "count": 1
+    },
+    {
+      "source": "中国能建电子采购平台",
+      "count": 1
+    },
+    {
+      "source": "中国能建中电工程",
+      "count": 1
+    },
+    {
+      "source": "中国能源新闻网",
+      "count": 1
+    },
+    {
+      "source": "中国气象报社",
+      "count": 1
+    },
+    {
+      "source": "中国汽车报",
+      "count": 1
+    },
+    {
+      "source": "中国汽车动力电池产业创新联盟",
+      "count": 1
+    },
+    {
+      "source": "中国青年报",
+      "count": 1
+    },
+    {
+      "source": "中国青年网",
+      "count": 1
+    },
+    {
+      "source": "中国人民银行",
+      "count": 1
+    },
+    {
+      "source": "中国人民银行广东省分行",
+      "count": 1
+    },
+    {
+      "source": "中国日报",
+      "count": 1
+    },
+    {
+      "source": "中国日报网",
+      "count": 1
+    },
+    {
+      "source": "中国三峡建工",
+      "count": 1
+    },
+    {
+      "source": "中国商报",
+      "count": 1
+    },
+    {
+      "source": "中国社会科学报",
+      "count": 1
+    },
+    {
+      "source": "中国社会科学网",
+      "count": 1
+    },
+    {
+      "source": "中国石化 等",
+      "count": 1
+    },
+    {
+      "source": "中国石油",
+      "count": 1
+    },
+    {
+      "source": "中国石油工程建设有限公司采购招标中心",
+      "count": 1
+    },
+    {
+      "source": "中国石油天然气集团",
+      "count": 1
+    },
+    {
+      "source": "中国食品报",
+      "count": 1
+    },
+    {
+      "source": "中国市政中南院",
+      "count": 1
+    },
+    {
+      "source": "中国铁建港航局",
+      "count": 1
+    },
+    {
+      "source": "中国西电集团",
+      "count": 1
+    },
+    {
+      "source": "中国新闻周刊",
+      "count": 1
+    },
+    {
+      "source": "中国雄安",
+      "count": 1
+    },
+    {
+      "source": "中国雄安官网",
+      "count": 1
+    },
+    {
+      "source": "中国银行保险网",
+      "count": 1
+    },
+    {
+      "source": "中国证券监督管理委员会",
+      "count": 1
+    },
+    {
+      "source": "中国证券网",
+      "count": 1
+    },
+    {
+      "source": "中国中化",
+      "count": 1
+    },
+    {
+      "source": "中国中煤能源集团",
+      "count": 1
+    },
+    {
+      "source": "中国资源循环集团",
+      "count": 1
+    },
+    {
+      "source": "中海石油气电集团",
+      "count": 1
+    },
+    {
+      "source": "中核二四",
+      "count": 1
+    },
+    {
+      "source": "中华人民共和国工业和信息化部门",
+      "count": 1
+    },
+    {
+      "source": "中华人民共和国中央人民政府",
+      "count": 1
+    },
+    {
+      "source": "中基电科电子招投标交易平",
+      "count": 1
+    },
+    {
+      "source": "中际联合",
+      "count": 1
+    },
+    {
+      "source": "中林数科",
+      "count": 1
+    },
+    {
+      "source": "中铝集团电子招投标平台",
+      "count": 1
+    },
+    {
+      "source": "中汽协",
+      "count": 1
+    },
+    {
+      "source": "中山市人民政府",
+      "count": 1
+    },
+    {
+      "source": "中石化碳科公司微信公众号",
+      "count": 1
+    },
+    {
+      "source": "中时新闻网",
+      "count": 1
+    },
+    {
+      "source": "中央广电总台国际在线",
+      "count": 1
+    },
+    {
+      "source": "中原区人民政府",
+      "count": 1
+    },
+    {
+      "source": "株洲市石峰区人民政府",
+      "count": 1
+    },
+    {
+      "source": "珠海市发展和改革局",
+      "count": 1
+    },
+    {
+      "source": "珠海市住建局",
+      "count": 1
+    },
+    {
+      "source": "主碳索未来 TL CARBON公众号",
+      "count": 1
+    },
+    {
+      "source": "专家解读︱多维融合 集成破局 新能源高质量发展新路径",
+      "count": 1
+    },
+    {
+      "source": "卓越鲁电",
+      "count": 1
+    },
+    {
+      "source": "资管中国",
+      "count": 1
+    },
+    {
+      "source": "资阳市司法局",
+      "count": 1
+    },
+    {
+      "source": "资源节约和环境保护处",
+      "count": 1
+    },
+    {
+      "source": "自然系列",
+      "count": 1
+    },
+    {
+      "source": "走进电力市场公众号",
+      "count": 1
+    },
+    {
+      "source": "遵义市人民政府",
+      "count": 1
+    },
+    {
+      "source": "AI出海 立足中东 服务全球，第十六届国际民间交流圆桌会成功举办",
+      "count": 1
+    },
+    {
+      "source": "APCIC亚太碳中和创新示范社区",
+      "count": 1
+    },
+    {
+      "source": "arabianbusiness、中国新闻网",
+      "count": 1
+    },
+    {
+      "source": "BNEF",
+      "count": 1
+    },
+    {
+      "source": "CD秦淮数据集团",
+      "count": 1
+    },
+    {
+      "source": "CESA储能财经观察",
+      "count": 1
+    },
+    {
+      "source": "CIPIE四川电力展",
+      "count": 1
+    },
+    {
+      "source": "climate",
+      "count": 1
+    },
+    {
+      "source": "ESG Today",
+      "count": 1
+    },
+    {
+      "source": "ESG商业观",
+      "count": 1
+    },
+    {
+      "source": "gessey",
+      "count": 1
+    },
+    {
+      "source": "GFC绿色工厂圈",
+      "count": 1
+    },
+    {
+      "source": "H的碳中和",
+      "count": 1
+    },
+    {
+      "source": "i金山",
+      "count": 1
+    },
+    {
+      "source": "InfoLink Consulting",
+      "count": 1
+    },
+    {
+      "source": "SOLARZOOM光储亿家",
+      "count": 1
+    }
+  ]
+}

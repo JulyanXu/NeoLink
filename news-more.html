@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoLink 内容索引</title>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <script>
+      (() => {
+        const saved = localStorage.getItem("neolink-theme");
+        const system = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = saved || system;
+      })();
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="news-more-page">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <a class="brand" href="./index.html" aria-label="NeoLink 首页">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <strong>NeoLink</strong>
+        </a>
+
+        <nav class="side-nav">
+          <a class="nav-item" href="./index.html" data-section="dashboard">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg>
+            总览
+          </a>
+          <a class="nav-item active" href="./news-more.html?section=latest" data-section="news">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>
+            内容索引
+          </a>
+          <a class="nav-item" href="./enterprise-map.html" data-section="trend">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V7l8-4 8 4v14M8 21v-4h8v4M8 10h1m3 0h1m3 0h1"/></svg>
+            企业图谱
+          </a>
+        </nav>
+
+        <section class="promo-card" aria-label="NeoLink 品牌卡片">
+          <img src="./Logo.png" alt="" />
+          <div>
+            <strong>Connect the Battery World</strong>
+            <span>Link the Future</span>
+          </div>
+        </section>
+      </aside>
+
+      <main class="workspace more-workspace">
+        <header class="more-header panel">
+          <div>
+            <a class="back-link" href="./index.html">返回总览</a>
+            <h1 class="more-title">内容索引</h1>
+            <p class="more-subtitle">展示站内摘要、结构化索引和来源备份入口，降低原平台链接失效对阅读的影响。</p>
+          </div>
+          <button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false">
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V2m0 20v-2m8-8h2M2 12h2m14.1-6.1 1.4-1.4M4.5 19.5l1.4-1.4m0-12.2L4.5 4.5m15 15-1.4-1.4M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/></svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.4A8 8 0 0 1 8.6 4 8.6 8.6 0 1 0 20 15.4z"/></svg>
+            <span>浅色</span>
+          </button>
+        </header>
+
+        <section class="more-switch panel" aria-label="内容类型">
+          <a href="./news-more.html?section=headlines" data-section-link="headlines">今日头条</a>
+          <a href="./news-more.html?section=latest" data-section-link="latest">最新新闻</a>
+        </section>
+
+        <section class="more-filters panel" aria-label="分类筛选" hidden></section>
+
+        <section class="more-list" aria-label="内容列表"></section>
+      </main>
+    </div>
+
+    <script src="./data/feed.js"></script>
+    <script src="./news-more.js"></script>
+  </body>
+</html>

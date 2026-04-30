@@ -1,0 +1,79 @@
+[
+  {
+    "account_id": "gg-storage",
+    "account_name": "高工储能",
+    "title": "储能电芯价格进入低位修复期，314Ah 产品成为项目招标主流",
+    "url": "https://weixin.sogou.com/weixin?type=2&query=%E9%AB%98%E5%B7%A5%E5%82%A8%E8%83%BD%20314Ah%20%E5%82%A8%E8%83%BD%E7%94%B5%E8%8A%AF",
+    "publish_time": "2026-04-26T08:20:00+08:00",
+    "digest": "跟踪储能电芯报价、项目招标规格和头部厂商供给变化。",
+    "category": "market",
+    "topics": ["储能电芯", "价格", "招标"],
+    "source": "wechat_index"
+  },
+  {
+    "account_id": "bjx-storage",
+    "account_name": "北极星储能网",
+    "title": "多地发布独立储能项目招标，容量租赁和共享储能模式升温",
+    "url": "https://chuneng.bjx.com.cn/",
+    "publish_time": "2026-04-26T07:45:00+08:00",
+    "digest": "索引项目招标、并网要求、容量租赁等政策与项目动态。",
+    "category": "policy",
+    "topics": ["政策招标", "独立储能", "共享储能"],
+    "source": "site_index"
+  },
+  {
+    "account_id": "cnesa",
+    "account_name": "中关村储能",
+    "title": "新型储能项目规模化推进，产业链协同与安全标准受关注",
+    "url": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%85%B3%E6%9D%91%E5%82%A8%E8%83%BD%20%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD",
+    "publish_time": "2026-04-25T18:30:00+08:00",
+    "digest": "关注新型储能建设、行业标准、示范项目和安全治理。",
+    "category": "project",
+    "topics": ["新型储能", "项目开工", "安全标准"],
+    "source": "wechat_index"
+  },
+  {
+    "account_id": "storage-power-market",
+    "account_name": "储能与电力市场",
+    "title": "现货市场推进下，工商业储能收益模型继续分化",
+    "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%82%A8%E8%83%BD%E4%B8%8E%E7%94%B5%E5%8A%9B%E5%B8%82%E5%9C%BA%20%E5%B7%A5%E5%95%86%E4%B8%9A%E5%82%A8%E8%83%BD",
+    "publish_time": "2026-04-25T16:40:00+08:00",
+    "digest": "索引电力现货、峰谷价差、用户侧储能收益测算相关内容。",
+    "category": "market",
+    "topics": ["电力市场", "工商业储能", "收益模型"],
+    "source": "wechat_index"
+  },
+  {
+    "account_id": "storage-leader",
+    "account_name": "储能领跑者联盟",
+    "title": "储能系统集成企业海外布局提速，欧洲和中东项目热度提升",
+    "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%82%A8%E8%83%BD%E9%A2%86%E8%B7%91%E8%80%85%E8%81%94%E7%9B%9F%20%E6%B5%B7%E5%A4%96%E5%82%A8%E8%83%BD",
+    "publish_time": "2026-04-25T11:10:00+08:00",
+    "digest": "跟踪储能企业出海、产能基地、系统集成订单与渠道合作。",
+    "category": "enterprise",
+    "topics": ["企业布局", "海外项目", "系统集成"],
+    "source": "wechat_index"
+  },
+  {
+    "account_id": "new-storage-innovation",
+    "account_name": "国家新型储能创新中心",
+    "title": "液冷储能系统安全测试与标准验证平台进入联合调试阶段",
+    "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%9B%BD%E5%AE%B6%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%E5%88%9B%E6%96%B0%E4%B8%AD%E5%BF%83%20%E6%B6%B2%E5%86%B7%E5%82%A8%E8%83%BD",
+    "publish_time": "2026-04-24T14:00:00+08:00",
+    "digest": "关注新型储能技术验证、系统安全、测试平台与行业标准。",
+    "category": "project",
+    "topics": ["技术验证", "安全测试", "液冷储能"],
+    "source": "wechat_index"
+  },
+  {
+    "account_id": "gg-storage",
+    "account_name": "高工储能",
+    "title": "储能电芯价格进入低位修复期，314Ah 产品成为项目招标主流",
+    "url": "https://weixin.sogou.com/weixin?type=2&query=%E9%AB%98%E5%B7%A5%E5%82%A8%E8%83%BD%20314Ah%20%E5%82%A8%E8%83%BD%E7%94%B5%E8%8A%AF",
+    "publish_time": "2026-04-26T08:20:00+08:00",
+    "digest": "重复候选，用于验证 unique_article_id 幂等去重。",
+    "category": "market",
+    "topics": ["储能电芯", "价格", "招标"],
+    "source": "wechat_index"
+  }
+]
