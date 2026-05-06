@@ -90,6 +90,21 @@ const displayDate = (value) => {
 const feedYear = Number((window.NEOLINK_FEED?.generated_at || "").slice(0, 4)) || new Date().getFullYear();
 const feedMonthDay = (window.NEOLINK_FEED?.generated_at || "").slice(5, 10);
 
+const formatGeneratedMeta = (value) => {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  const day = date.toLocaleDateString("zh-CN", { year: "numeric", month: "long", day: "numeric" });
+  const time = date.toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", hour12: false });
+  return `${day}　更新 ${time} (GMT+8)`;
+};
+
+const renderPageTimestamps = () => {
+  const generatedAt = window.NEOLINK_FEED?.generated_at;
+  const heroMeta = document.querySelector(".hero-title p");
+  if (!generatedAt || !heroMeta) return;
+  heroMeta.innerHTML = `<span></span>${escapeHtml(formatGeneratedMeta(generatedAt))}`;
+};
+
 const dateValue = (item = {}) => {
   const value = item.date || item.as_of || item.publish_time || item.updated_at || "";
   if (!value) return 0;
@@ -289,6 +304,7 @@ const renderSectionContent = () => {
   const sections = window.NEOLINK_FEED?.sections;
   if (!sections) return;
 
+  renderPageTimestamps();
   renderFocusList(sections);
   renderHeadline(sections);
   renderLatestNews(sections);

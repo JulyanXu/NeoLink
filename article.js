@@ -108,41 +108,43 @@ const factRows = (item) => [
   ["原文", item.original_url ? "已记录微信原文链接" : ""],
 ].filter(([, value]) => value);
 
+const sourceUrl = (item) => item.original_url || item.url || "";
+
 const categoryGuidance = (item) => {
   const category = item.category || item.type || item.severity || "";
   if (/政策|安全|监管|标准/.test(category)) {
     return {
       meaning: "这类信息主要影响储能项目准入、并网运行、安全合规和后续监管口径。",
-      tracking: "后续应继续跟踪配套细则、地方落地文件、企业整改要求和监管问责案例。",
+      tracking: "配套细则、地方落地文件、企业整改要求和监管问责案例会影响实际执行。",
     };
   }
   if (/数据|价格|材料|出口/.test(category)) {
     return {
-      meaning: "这类信息适合进入趋势指标库，用于观察供需变化、价格拐点和产业景气度。",
-      tracking: "后续应补充连续时间序列、统计口径、样本范围和与其他专业数据源的交叉校验。",
+      meaning: "这类信息用于观察供需变化、价格拐点和产业景气度。",
+      tracking: "连续时间序列、统计口径、样本范围和专业数据源差异会影响结论。",
     };
   }
   if (/招投标|项目/.test(category)) {
     return {
       meaning: "这类信息反映储能项目需求释放、应用场景变化和区域建设节奏。",
-      tracking: "后续应回溯招标公告、中标候选人、业主单位、容量规模、技术路线和投运进度。",
+      tracking: "招标公告、中标候选人、业主单位、容量规模、技术路线和投运进度是项目判断的关键字段。",
     };
   }
   if (/企业|IPO/.test(category)) {
     return {
       meaning: "这类信息反映企业产能、订单、资本动作和竞争格局变化。",
-      tracking: "后续应跟踪公告原文、财报、招股书、产能兑现、客户结构和海外合规风险。",
+      tracking: "公告原文、财报、招股书、产能兑现、客户结构和海外合规风险会影响企业判断。",
     };
   }
   if (/法律|纠纷|诉讼|专利/.test(category)) {
     return {
       meaning: "这类信息反映锂电与储能企业在专利、技术秘密、合同履约等方面的风险暴露。",
-      tracking: "后续应优先补充法院公告、裁判文书、交易所问询和企业公告，避免只依赖媒体线索。",
+      tracking: "法院公告、裁判文书、交易所问询和企业公告通常比媒体线索更适合作为判断依据。",
     };
   }
   return {
-    meaning: "这条信息已被收入 NeoLink 内容库，作为新能源产业日报的可追溯信息节点。",
-    tracking: "后续应补充更多来源、时间序列和结构化字段，便于进入专题页或图谱关系库。",
+    meaning: "这条信息是新能源产业日报中的可追溯信息节点。",
+    tracking: "来源、时间序列和结构化字段越完整，越便于读者判断事件价值。",
   };
 };
 
@@ -157,11 +159,11 @@ const buildArticleParagraphs = (item, summary) => {
   const sourceText = `${item.source || "来源未标注"}${date ? `在 ${date}` : ""}发布或披露了这条${category}信息。`;
 
   return [
-    `${sourceText}NeoLink 已将其收入站内信息页，保留标题、摘要、来源、日期和原始链接，避免原平台链接失效后站内完全丢失线索。`,
+    `${sourceText}站内已保留标题、摘要、来源、日期、正文整理和来源链接，读者可优先阅读本页内容。`,
     summary,
     valueText || guide.meaning,
     valueText ? guide.meaning : guide.tracking,
-    valueText ? guide.tracking : "原文链接仍作为复核入口保留；如原文失效，后续维护时应寻找官方公告、交易所披露、企业公告或可信镜像来源补充。",
+    valueText ? guide.tracking : "来源链接作为出处保留；若来源失效，仍应优先参考官方公告、交易所披露、企业公告或可信镜像来源。",
   ].filter(Boolean);
 };
 
@@ -181,14 +183,89 @@ const buildKeyPoints = (item, summary) => {
   return points;
 };
 
+const htmlBody = (item) => item.clean_html || item.body_html || item.content_html || item.article_html || "";
+
+const isSafeUrl = (value, allowDataImage = false) => {
+  if (!value) return false;
+  const trimmed = String(value).trim();
+  if (allowDataImage && /^data:image\/(?:png|jpe?g|gif|webp);base64,/i.test(trimmed)) return true;
+  return /^(https?:)?\/\//i.test(trimmed) || /^\.{0,2}\//.test(trimmed);
+};
+
+const sanitizeArticleHtml = (html) => {
+  const template = document.createElement("template");
+  template.innerHTML = String(html || "");
+  const allowedTags = new Set([
+    "P", "BR", "STRONG", "B", "EM", "I", "U", "S", "A", "IMG",
+    "H2", "H3", "H4", "UL", "OL", "LI", "BLOCKQUOTE", "FIGURE", "FIGCAPTION",
+    "SECTION", "DIV", "SPAN", "TABLE", "THEAD", "TBODY", "TR", "TH", "TD", "HR",
+  ]);
+  const dropTags = new Set(["SCRIPT", "STYLE", "IFRAME", "OBJECT", "EMBED", "FORM", "INPUT", "BUTTON", "TEXTAREA", "SELECT", "LINK", "META"]);
+  const walker = document.createTreeWalker(template.content, NodeFilter.SHOW_ELEMENT);
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+
+  nodes.forEach((originalNode) => {
+    let node = originalNode;
+    if (dropTags.has(node.tagName)) {
+      node.remove();
+      return;
+    }
+    if (!allowedTags.has(node.tagName)) {
+      while (node.firstChild) node.parentNode.insertBefore(node.firstChild, node);
+      node.remove();
+      return;
+    }
+
+    if (node.tagName === "IMG") {
+      const lazySrc = node.getAttribute("src") || node.getAttribute("data-src") || node.getAttribute("data-original");
+      if (lazySrc) node.setAttribute("src", lazySrc);
+    }
+
+    [...node.attributes].forEach((attr) => {
+      const name = attr.name.toLowerCase();
+      const value = attr.value;
+      const keep = (
+        (node.tagName === "A" && name === "href" && isSafeUrl(value))
+        || (node.tagName === "IMG" && ["src", "alt", "title"].includes(name))
+        || (["TH", "TD"].includes(node.tagName) && ["colspan", "rowspan"].includes(name))
+      );
+      if (!keep) node.removeAttribute(attr.name);
+    });
+
+    if (node.tagName === "A") {
+      node.target = "_blank";
+      node.rel = "noreferrer";
+    }
+    if (node.tagName === "IMG") {
+      const src = node.getAttribute("src");
+      if (!isSafeUrl(src, true)) {
+        node.remove();
+        return;
+      }
+      node.setAttribute("src", src);
+      node.loading = "lazy";
+      node.referrerPolicy = "no-referrer";
+      if (!node.alt) node.alt = "正文图片";
+    }
+  });
+
+  return template.innerHTML;
+};
+
 const renderBody = (item, summary) => {
-  const paragraphs = buildArticleParagraphs(item, summary);
+  const inlineHtml = sanitizeArticleHtml(htmlBody(item));
   const keyPoints = buildKeyPoints(item, summary);
-  document.querySelector(".article-body").innerHTML = `
-    <div class="article-prose">
-      ${paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
-    </div>
-  `;
+  if (inlineHtml.trim()) {
+    document.querySelector(".article-body").innerHTML = `<div class="article-prose article-html">${inlineHtml}</div>`;
+  } else {
+    const paragraphs = buildArticleParagraphs(item, summary);
+    document.querySelector(".article-body").innerHTML = `
+      <div class="article-prose">
+        ${paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+      </div>
+    `;
+  }
   document.querySelector(".article-keypoints").innerHTML = keyPoints.map((point) => `
     <span>${escapeHtml(point)}</span>
   `).join("");
@@ -220,7 +297,7 @@ const renderRelated = (currentItem, allItems) => {
 const renderArticle = (item) => {
   const credibility = getCredibility(item);
   const title = itemTitle(item);
-  const summary = item.summary || item.methodology || item.spec || "该条信息目前只保留索引字段，后续由 Hermes 补充摘要和结构化提取结果。";
+  const summary = item.summary || item.methodology || item.spec || "该条信息目前只保留基础索引字段，站内正文会根据来源、分类和结构化字段生成。";
 
   document.title = `NeoLink | ${title}`;
   document.querySelector(".article-meta").innerHTML = `
@@ -232,8 +309,8 @@ const renderArticle = (item) => {
   document.querySelector(".article-title").textContent = title;
   document.querySelector(".article-summary").textContent = summary;
   document.querySelector(".article-actions").innerHTML = `
-    ${item.original_url ? `<a class="primary-action" href="${escapeHtml(item.original_url)}" target="_blank" rel="noreferrer">打开原文</a>` : item.url ? `<a class="primary-action" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">打开原文</a>` : ""}
-    <a class="secondary-action" href="./news-more.html?section=latest">返回列表</a>
+    <a class="primary-action" href="./news-more.html?section=latest">返回列表</a>
+    ${sourceUrl(item) ? `<a class="secondary-action" href="${escapeHtml(sourceUrl(item))}" target="_blank" rel="noreferrer">来源链接</a>` : ""}
   `;
 
   document.querySelector(".article-facts").innerHTML = factRows(item).map(([label, value]) => `
@@ -244,12 +321,12 @@ const renderArticle = (item) => {
   renderRelated(item, items);
 
   document.querySelector(".article-source").innerHTML = `
-    <dt>站内保留内容</dt>
-    <dd>标题、来源、日期、摘要、正文段落、结构化要点、分类、数值口径和原文 URL。</dd>
+    <dt>站内正文</dt>
+    <dd>正文优先采用站内重写和结构化整理，覆盖事件背景、核心事实、数据口径、产业影响和关键风险，降低读者跳转原文的必要性。</dd>
     <dt>版权边界</dt>
-    <dd>第三方媒体内容默认只保留摘要与结构化信息；官方公开文件可按需要补充更完整的政策摘录。</dd>
-    <dt>维护建议</dt>
-    <dd>若原文链接失效，保留当前站内摘要，同时由 Hermes 标记 source_status=失效并尝试寻找官方或镜像来源。</dd>
+    <dd>第三方媒体和公众号内容不整篇照搬；页面保留事实性改写、必要短摘、图片信息和来源链接。官方公开文件可保留更完整摘录。</dd>
+    <dt>来源链接</dt>
+    <dd>${sourceUrl(item) ? `<a href="${escapeHtml(sourceUrl(item))}" target="_blank" rel="noreferrer">${escapeHtml(sourceUrl(item))}</a>` : "暂无公开来源链接。"}</dd>
   `;
 };
 

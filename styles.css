@@ -1457,11 +1457,17 @@ footer {
 footer nav {
   display: flex;
   gap: 18px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 footer a {
   color: inherit;
   text-decoration: none;
+}
+
+footer a[href*="beian.miit.gov.cn"] {
+  color: #51617c;
 }
 
 .mobile-only,
@@ -2080,7 +2086,20 @@ footer a {
   }
 
   footer {
-    display: none;
+    height: auto;
+    margin: 18px 16px 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  footer nav {
+    justify-content: center;
+    gap: 10px 14px;
   }
 
   .mobile-tabbar {
@@ -2936,6 +2955,86 @@ footer a {
   padding-left: 14px;
   border-left: 3px solid rgba(43, 127, 255, 0.42);
   color: var(--muted);
+}
+
+.article-html {
+  gap: 16px;
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.article-html > * {
+  margin: 0;
+}
+
+.article-html p,
+.article-html li,
+.article-html blockquote,
+.article-html td,
+.article-html th {
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.article-html blockquote {
+  padding: 12px 14px;
+  border-left: 3px solid rgba(43, 127, 255, 0.42);
+  border-radius: 12px;
+  background: var(--panel-soft);
+  color: var(--muted);
+}
+
+.article-html h2,
+.article-html h3,
+.article-html h4 {
+  margin-top: 10px;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.article-html ul,
+.article-html ol {
+  padding-left: 22px;
+}
+
+.article-html img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 8px auto;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(120, 145, 180, 0.12);
+  box-shadow: 0 14px 32px rgba(17, 35, 68, 0.12);
+}
+
+.article-html figure {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.article-html figcaption {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.article-html table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.article-html th,
+.article-html td {
+  padding: 10px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.36);
 }
 
 .article-keypoints {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NeoLink 内容索引</title>
-    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="icon" type="image/png" sizes="256x256" href="./favicon.png?v=202605061033" />
     <script>
       (() => {
         const saved = localStorage.getItem("neolink-theme");
@@ -12,7 +12,7 @@
         document.documentElement.dataset.theme = saved || system;
       })();
     </script>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=202605061020" />
   </head>
   <body class="news-more-page">
     <div class="app-shell">
@@ -68,10 +68,21 @@
         <section class="more-filters panel" aria-label="分类筛选" hidden></section>
 
         <section class="more-list" aria-label="内容列表"></section>
+
+        <footer>
+          <span>© 2026 NeoLink. All rights reserved.</span>
+          <nav aria-label="页脚链接">
+            <a href="./index.html">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备2026052106号</a>
+          </nav>
+        </footer>
       </main>
     </div>
 
-    <script src="./data/feed.js"></script>
-    <script src="./news-more.js"></script>
+    <script src="./data/feed.js?v=202605060942"></script>
+    <script src="./news-more.js?v=202605061020"></script>
   </body>
 </html>

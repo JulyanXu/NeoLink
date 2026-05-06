@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NeoLink 信息详情</title>
-    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="icon" type="image/png" sizes="256x256" href="./favicon.png?v=202605061033" />
     <script>
       (() => {
         const saved = localStorage.getItem("neolink-theme");
@@ -12,7 +12,7 @@
         document.documentElement.dataset.theme = saved || system;
       })();
     </script>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=202605061020" />
   </head>
   <body class="article-page">
     <div class="app-shell">
@@ -72,7 +72,7 @@
             <section class="panel article-body-card">
               <div class="article-block-head">
                 <span>正文</span>
-                <h2>内容正文</h2>
+                <h2>站内正文</h2>
               </div>
               <div class="article-body"></div>
             </section>
@@ -105,17 +105,28 @@
 
             <article class="panel article-section">
               <div class="article-block-head">
-                <span>维护</span>
-                <h2>来源与维护</h2>
+                <span>出处</span>
+                <h2>来源记录</h2>
               </div>
               <dl class="article-source"></dl>
             </article>
           </aside>
         </section>
+
+        <footer>
+          <span>© 2026 NeoLink. All rights reserved.</span>
+          <nav aria-label="页脚链接">
+            <a href="./index.html">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备2026052106号</a>
+          </nav>
+        </footer>
       </main>
     </div>
 
-    <script src="./data/feed.js"></script>
-    <script src="./article.js"></script>
+    <script src="./data/feed.js?v=202605060942"></script>
+    <script src="./article.js?v=202605061020"></script>
   </body>
 </html>
