@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">NeoLink AI infographic example</title>
+  <desc id="desc">A sample AI-generated text and visual infographic for energy storage market intelligence.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#061b3f"/>
+      <stop offset=".56" stop-color="#092b59"/>
+      <stop offset="1" stop-color="#0d5a74"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop offset="0" stop-color="#38d39f"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" rx="36" fill="#f6fbff"/>
+  <rect x="54" y="48" width="1092" height="524" rx="32" fill="url(#panel)"/>
+  <circle cx="978" cy="154" r="138" fill="#1e87ff" opacity=".16"/>
+  <circle cx="282" cy="482" r="170" fill="#38d39f" opacity=".13"/>
+  <text x="96" y="110" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="850">AI 图文信息图示例</text>
+  <text x="96" y="150" fill="#b9d2ef" font-family="Inter, Arial, sans-serif" font-size="17">结构化新闻 + 指标数据 + 生图模型提示词，可生成日报封面、产业卡片和社媒长图。</text>
+
+  <g transform="translate(96 206)">
+    <rect width="300" height="260" rx="26" fill="#0d376a" stroke="#245b94"/>
+    <text x="28" y="50" fill="#7ee0bc" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">核心指标</text>
+    <text x="28" y="102" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="850">8 GWh</text>
+    <text x="28" y="132" fill="#b9d2ef" font-family="Inter, Arial, sans-serif" font-size="15">大型基地外送配储规模</text>
+    <rect x="28" y="168" width="244" height="42" rx="12" fill="#123f75"/>
+    <rect x="28" y="168" width="168" height="42" rx="12" fill="url(#green)"/>
+    <text x="28" y="238" fill="#b9d2ef" font-family="Inter, Arial, sans-serif" font-size="14">项目 · 招标 · 政策 · 企业布局</text>
+  </g>
+
+  <g transform="translate(450 206)">
+    <rect width="300" height="260" rx="26" fill="#ffffff" opacity=".98"/>
+    <text x="28" y="50" fill="#0c2457" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="850">图文提示词</text>
+    <text x="28" y="88" fill="#56708c" font-family="Inter, Arial, sans-serif" font-size="14">根据正文生成一张 16:9 信息图：</text>
+    <rect x="28" y="116" width="244" height="24" rx="12" fill="#edf5ff"/>
+    <rect x="28" y="154" width="218" height="24" rx="12" fill="#e9f7f0"/>
+    <rect x="28" y="192" width="232" height="24" rx="12" fill="#fff1df"/>
+    <text x="44" y="134" fill="#257dff" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">能源基地 + 储能电站</text>
+    <text x="44" y="172" fill="#1a9f72" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">突出规模、区域、技术路线</text>
+    <text x="44" y="210" fill="#d36a10" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">保留来源与发布时间</text>
+  </g>
+
+  <g transform="translate(804 186)" filter="url(#glow)">
+    <rect width="276" height="300" rx="28" fill="#071f49" stroke="#2875bd"/>
+    <rect x="28" y="28" width="220" height="110" rx="22" fill="#103e74"/>
+    <path d="M52 116c38-66 84-58 116-22 24 26 44 16 66-28" fill="none" stroke="#58a6ff" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="203" cy="66" r="20" fill="#38d39f"/>
+    <text x="28" y="180" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="850">储能项目速览</text>
+    <text x="28" y="214" fill="#b9d2ef" font-family="Inter, Arial, sans-serif" font-size="14">图像模型输出示意</text>
+    <rect x="28" y="240" width="96" height="30" rx="15" fill="#38d39f"/>
+    <rect x="136" y="240" width="86" height="30" rx="15" fill="#1f5f9a"/>
+    <text x="52" y="260" fill="#062049" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="850">GWh</text>
+    <text x="158" y="260" fill="#d6e9ff" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="850">BESS</text>
+  </g>
+</svg>
