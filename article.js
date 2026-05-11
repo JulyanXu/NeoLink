@@ -114,7 +114,7 @@ const categoryGuidance = (item) => {
   const category = item.category || item.type || item.severity || "";
   if (/政策|安全|监管|标准/.test(category)) {
     return {
-      meaning: "这类信息主要影响储能项目准入、并网运行、安全合规和后续监管口径。",
+      meaning: "这类信息主要影响储能项目准入、并网运行、安全合规和监管执行口径。",
       tracking: "配套细则、地方落地文件、企业整改要求和监管问责案例会影响实际执行。",
     };
   }
@@ -144,7 +144,7 @@ const categoryGuidance = (item) => {
   }
   return {
     meaning: "这条信息是新能源产业日报中的可追溯信息节点。",
-    tracking: "来源、时间序列和结构化字段越完整，越便于读者判断事件价值。",
+    tracking: "来源、时间序列和核心字段越完整，越便于读者判断事件价值。",
   };
 };
 
@@ -282,7 +282,7 @@ const renderRelated = (currentItem, allItems) => {
   if (!list) return;
 
   if (!related.length) {
-    list.innerHTML = `<p class="empty-related">暂未找到同类信息，后续采集后会自动补齐。</p>`;
+    list.innerHTML = `<p class="empty-related">暂未找到同类信息，更新后会自动补齐。</p>`;
     return;
   }
 
@@ -297,7 +297,7 @@ const renderRelated = (currentItem, allItems) => {
 const renderArticle = (item) => {
   const credibility = getCredibility(item);
   const title = itemTitle(item);
-  const summary = item.summary || item.methodology || item.spec || "该条信息目前只保留基础索引字段，站内正文会根据来源、分类和结构化字段生成。";
+  const summary = item.summary || item.methodology || item.spec || "该条信息目前只保留基础索引字段，站内正文会根据来源、分类和核心字段生成。";
 
   document.title = `NeoLink | ${title}`;
   document.querySelector(".article-meta").innerHTML = `
