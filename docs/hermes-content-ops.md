@@ -22,9 +22,10 @@ https://github.com/JulyanXu/NeoLink
 
 ## 1. Hermes 维护目标
 
-Hermes 负责让 NeoLink 每天保持可读、可追溯、可复核：
+Hermes 负责让 NeoLink 保持可读、可追溯、可复核：
 
-- 每日更新首页时间、今日头条、最新新闻、核心指标和材料趋势。
+- 每小时执行一次信息检查与刷新，覆盖首页时间、今日头条、最新新闻、核心指标、材料趋势，以及 MarketTrend 行情与舆情数据。
+- 只有底层内容或数据发生变化时，才更新前台可见的内容时间；无可信新增信息时记录为 no-change 检查，不硬刷时间戳。
 - 站内详情页优先承载可读正文，降低用户跳转原文的必要性。
 - 每条信息必须保留来源、日期、摘要、正文、关键要点和来源链接。
 - 指标类内容必须保留数据口径、`as_of` 和来源。
@@ -137,11 +138,24 @@ materials
 
 其他 section 可以作为结构化储备，不要为了“填满页面”硬塞低质量内容。
 
-## 4. 每日更新 SOP
+## 4. 小时级更新 SOP
 
-### 4.1 更新时间
+### 4.1 更新频率与时间
 
-每天更新 `data/feed.js`：
+调度频率：
+
+```text
+每小时执行一次
+```
+
+每次运行必须尝试更新：
+
+```text
+NeoLink 主站：headlines、latest、metrics、materials、正文详情、来源索引
+MarketTrend：四大主材行情、个股行情、舆情证据、关键词、情绪趋势
+```
+
+只有当 `data/feed.js` 的可见内容发生变化时，才更新：
 
 ```js
 generated_at: "YYYY-MM-DDTHH:mm:00+08:00"
@@ -152,6 +166,8 @@ generated_at: "YYYY-MM-DDTHH:mm:00+08:00"
 ```html
 2026年5月7日　更新 08:41 (GMT+8)
 ```
+
+如果本小时没有可信新增数据，不要改 `generated_at` 和首页静态时间；维护日志记录为 no-change。
 
 ### 4.2 更新 feed 缓存版本
 
@@ -173,7 +189,7 @@ article.html
 
 ### 4.3 更新首页兜底移动端列表
 
-`index.html` 内有部分静态兜底列表，实际 JS 加载后会由 `data/feed.js` 覆盖，但为了弱网和首屏一致，更新当天内容时也应同步改：
+`index.html` 内有部分静态兜底列表，实际 JS 加载后会由 `data/feed.js` 覆盖，但为了弱网和首屏一致，更新内容时也应同步改：
 
 ```text
 移动端 Hot Topics 兜底列表
@@ -419,7 +435,7 @@ IPO 状态：优先交易所、证监会、港交所、公司招股书。
 
 ## 7. 推荐搜索任务
 
-每日扫描关键词：
+每小时扫描关键词：
 
 ```text
 新型储能 招标 中标
@@ -536,7 +552,7 @@ http://127.0.0.1:8080/enterprise-map.html
 
 验收点：
 
-- 首页日期为当天更新时间。
+- 首页日期为最近一次有内容变化的更新时间；如果最近一次小时任务无新增可信数据，不应硬刷首页时间。
 - 今日头条和最新新闻不是空白。
 - 标题点击进入 `article.html`。
 - 详情页有站内正文、关键要点、结构化字段、来源记录。
@@ -591,7 +607,7 @@ curl -fsSI 'http://neolink.asia/data/feed.js?v=YYYYMMDDHHMM'
 
 ```bash
 git add index.html news-more.html article.html data/feed.js
-git commit -m "Update daily content for YYYY-MM-DD"
+git commit -m "Update content for YYYY-MM-DD HH:mm"
 git push origin main
 ```
 
@@ -682,20 +698,22 @@ Hermes 每次更新前，先输出候选清单供写入层使用：
 你是 NeoLink 内容运维 agent。
 
 目标：
-每天维护 NeoLink 新能源产业情报站的首页、最新新闻、今日头条、核心指标、材料趋势和站内详情页数据。
+每小时维护 NeoLink 新能源产业情报站的首页、最新新闻、今日头条、核心指标、材料趋势、站内详情页数据，以及 MarketTrend 行情与舆情索引。
 
 执行规则：
-1. 每天更新 data/feed.js 的 generated_at。
-2. 更新 index.html、news-more.html、article.html 中 data/feed.js 的版本号。
-3. 每天选择 4 条左右 headlines，20-40 条 latest。
-4. 信息优先使用官方、交易所、企业公告、专业数据源；行业媒体只作为线索。
-5. 每条内容必须包含 source/category/title/summary/date/url/body/key_points。
-6. 指标必须包含 source/as_of/methodology。
-7. 公众号文章可用网页快照提取 clean_text/clean_html，但前台不展示“网页快照”按钮。
-8. 第三方媒体和公众号内容不得未授权整篇原样复制；可做事实改写、结构化摘要、必要短摘、图片信息和来源记录。
-9. 前台正文不得出现“待核/已核/Hermes/入库/运维/后续应/项目库”等后台词。
-10. 写入后运行 node --check，并本地或线上回读验证。
-11. 部署后提交 Git 并推送 origin main。
+1. 每小时执行一次候选信息检查与数据刷新。
+2. 只有内容或数据实际变化时，才更新 data/feed.js 的 generated_at。
+3. 更新 index.html、news-more.html、article.html 中 data/feed.js 的版本号。
+4. 每次有变化时选择 4 条左右 headlines，20-40 条 latest。
+5. MarketTrend 的行情、个股、舆情证据、关键词和趋势每小时尝试刷新一次；无可信数据变化时记录 no-change，不伪造行情。
+6. 信息优先使用官方、交易所、企业公告、专业数据源；行业媒体只作为线索。
+7. 每条内容必须包含 source/category/title/summary/date/url/body/key_points。
+8. 指标必须包含 source/as_of/methodology。
+9. 公众号文章可用网页快照提取 clean_text/clean_html，但前台不展示“网页快照”按钮。
+10. 第三方媒体和公众号内容不得未授权整篇原样复制；可做事实改写、结构化摘要、必要短摘、图片信息和来源记录。
+11. 前台正文不得出现“待核/已核/Hermes/入库/运维/后续应/项目库”等后台词。
+12. 写入后运行 node --check，并本地或线上回读验证。
+13. 部署后提交 Git 并推送 origin main。
 ```
 
 ## 14. 最近一次人工更新口径参考
@@ -709,4 +727,4 @@ InfoLink：314Ah 方形铁锂储能电芯均价 0.365 元/Wh。
 北极星储能网：首页项目/政策线索，内蒙古 2GW/8GWh、河北 2h 增容 4h。
 ```
 
-该口径可作为后续每日更新的模板：先找高频更新源，再用专业价格源补指标，最后用行业门户补项目和企业线索。
+该口径可作为后续小时级更新的模板：先找高频更新源，再用专业价格源补指标，最后用行业门户补项目和企业线索。
