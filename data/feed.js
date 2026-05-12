@@ -1,8 +1,211 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-05-13T05:05:00+08:00",
-  "note": "05:05严格小时任务：已重新读取NeoLink与MarketTrend线上入口并主动搜索国内+海外公开来源；新增SMM电池级碳酸锂公开行情200000元/吨、价格指数200390元/吨；新增中国储能网/新浪财经招中标动态，宁夏0.6GW/1.2GWh储能系统采购因有效投标人不足3家流标；新增BNEF/ESN全球储能展望，2026年非抽蓄储能新增预测158GW/459GWh。MarketTrend同步刷新锂盐指数、舆情证据和关键词；不做无内容纯时间刷新。",
+  "generated_at": "2026-05-13T07:00:00+08:00",
+  "note": "07:00严格小时任务：已重新尝试读取NeoLink与MarketTrend线上入口（HTTPS仍EOF并保存快照），并主动搜索国内+海外公开来源；新增中国能建7GWh储能电芯集采低价0.34元/Wh、Alsym/Juniper美国500MWh钠离子储能合作、印度IndiGrid 180MW/360MWh独立储能投运、瑞浦兰钧/Energy Vault美国3GWh BESS供应协议及河南中州水务4.3MW/14.16MWh用户侧储能招标。MarketTrend同步刷新电芯价格竞争、非锂路线、海外项目和供应协议证据，不做无内容纯时间刷新。",
   "sections": {
     "headlines": [
+      {
+        "source": "Energy-Storage.news / REPT Battero / Energy Vault",
+        "source_type": "海外行业媒体/供应协议",
+        "account_name": "Energy-Storage.news",
+        "category": "企业",
+        "title": "瑞浦兰钧与Energy Vault签署美国3GWh BESS供应协议，海外储能订单继续向中国电芯厂集中",
+        "summary": "Energy-Storage.news 5月12日新闻列表显示，REPT Battero与Energy Vault在美国达成3GWh BESS供应协议。该线索延续中国储能电芯和系统供应商进入美国项目供应链的趋势，需以后续合同交付、合规与本土化要求为准。",
+        "body": [
+          "Energy-Storage.news将该事项列为5月12日海外储能新闻，标题披露协议规模为3GWh，合作方为REPT Battero与Energy Vault。",
+          "若协议按计划履行，将为瑞浦兰钧海外BESS供货增加大规模订单证据。",
+          "美国储能供应链仍受本土化、税收抵免与合规政策影响，项目交付节奏需以后续公告为准。"
+        ],
+        "key_points": [
+          "协议规模：3GWh BESS。",
+          "合作方：REPT Battero与Energy Vault。",
+          "市场：美国。",
+          "关注点：海外交付与美国本土合规要求。"
+        ],
+        "value": "3",
+        "unit": "GWh",
+        "delta": "美国BESS供应协议",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/rept-battero-signs-agreement-in-us-to-supply-3gwh-of-bess-to-energy-vault/",
+        "clean_html": "<p>Energy-Storage.news 5月12日新闻列表披露，REPT Battero与Energy Vault在美国签署3GWh BESS供应协议。</p><p>该线索显示中国储能供应商继续争取海外大规模BESS订单，后续仍需跟踪交付和合规要求。</p>",
+        "caption": "瑞浦兰钧3GWh美国BESS协议",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "ESS News / IndiGrid / GUVNL",
+        "source_type": "海外行业媒体/项目投运",
+        "account_name": "ESS News",
+        "category": "海外项目",
+        "title": "印度IndiGrid投运古吉拉特180MW/360MWh独立储能项目，采用BOO模式服务峰荷与新能源消纳",
+        "summary": "ESS News 5月12日报道，IndiGrid宣布其位于印度古吉拉特邦的180MW/360MWh独立电池储能系统投运。项目由IndiGrid与EnerGrid联合开发，Gujarat Urja Vikas Nigam Ltd为购电/承购方，采用建设-拥有-运营模式，将用于峰荷管理和可再生能源并网平衡。",
+        "body": [
+          "项目规模为180MW/360MWh，是印度较大的单址独立公用事业级BESS之一。",
+          "项目通过竞争性招标获得，采用BOO模式开发，GUVNL为承购方，技术支持方包括AmpereHour Energy。",
+          "该项目将服务古吉拉特邦峰荷管理与新能源消纳，对印度独立储能商业模式形成新增参考。"
+        ],
+        "key_points": [
+          "规模：180MW/360MWh。",
+          "地点：印度古吉拉特邦。",
+          "模式：BOO，GUVNL承购。",
+          "用途：峰荷管理与可再生能源并网平衡。"
+        ],
+        "value": "360",
+        "unit": "MWh",
+        "delta": "独立储能投运",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/india-powers-up-one-of-its-largest-standalone-battery-energy-storage-system/",
+        "clean_html": "<p>IndiGrid宣布印度古吉拉特邦180MW/360MWh独立BESS投运，项目采用BOO模式，由GUVNL作为承购方。</p><p>项目用于峰荷管理和可再生能源整合，是印度大型独立储能商业模式的重要样本。</p>",
+        "caption": "印度360MWh独立储能投运",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "Energy-Storage.news / ESS News / Alsym Energy / Juniper Energy",
+        "source_type": "海外行业媒体/企业战略合作",
+        "account_name": "Energy-Storage.news",
+        "category": "技术",
+        "title": "Alsym与Juniper将在加州等高温地区部署500MWh钠离子储能，主打被动冷却与热安全",
+        "summary": "Energy-Storage.news与ESS News 5月12日报道，美国钠离子电池企业Alsym Energy与可再生能源开发商Juniper Energy达成500MWh战略合作，拟在加州莫哈韦沙漠及其他高温地区部署Na-Series钠离子BESS。双方强调该路线面向高温场景、降低主动冷却需求，并宣称设计上避免热失控风险。",
+        "body": [
+          "合作规模为500MWh，部署区域以加州及其他高温地区为主，ESS News称莫哈韦沙漠项目是合作重点之一。",
+          "Alsym的Na-Series钠离子方案被定位为高温环境下的替代路线，目标是减少冷却系统能耗和复杂度。",
+          "该项目为非锂路线在美国储能场景中的新增商业化证据，但实际成本、寿命和并网表现仍需以后续项目交付数据验证。"
+        ],
+        "key_points": [
+          "合作规模：500MWh。",
+          "技术路线：钠离子BESS。",
+          "应用场景：加州及高温地区。",
+          "卖点：被动冷却、热安全与本土供应链税收抵免潜力。"
+        ],
+        "value": "500",
+        "unit": "MWh",
+        "delta": "钠离子战略合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
+        "clean_html": "<p>Alsym Energy与Juniper Energy达成500MWh钠离子储能战略合作，计划在加州及其他高温地区部署Na-Series BESS。</p><p>该项目为非锂储能路线在美国高温应用场景中的新增商业化样本。</p>",
+        "caption": "美国500MWh钠离子储能合作",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "ESS News / 中国能建集采线索",
+        "source_type": "海外行业媒体/国内电芯集采价格整理",
+        "account_name": "ESS News",
+        "category": "价格",
+        "title": "中国能建7GWh储能电芯集采低价至0.34元/Wh，314Ah与500Ah两类电芯报价分化",
+        "summary": "ESS News 5月12日报道，中国能建7GWh储能电芯采购中，314Ah及以上电芯标包入围报价区间约0.34-0.394元/Wh，其中融捷能源0.34元/Wh、双登0.3449元/Wh、德赛与中创新航0.365元/Wh、亿纬0.394元/Wh；500Ah及以上电芯标包报价约0.360-0.383元/Wh，显示储能大电芯采购价格继续围绕低成本与大容量路线竞争。",
+        "body": [
+          "报道披露，本次中国能建储能电芯采购总量为7GWh，分为314Ah及以上和500Ah及以上两类标包。",
+          "314Ah及以上电芯标包中，融捷能源报价0.34元/Wh，双登集团0.3449元/Wh，德赛电池和中创新航均为0.365元/Wh，亿纬锂能为0.394元/Wh。",
+          "500Ah及以上标包中，鹏程无限报价0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh；该口径来自媒体对采购结果的整理，具体成交与履约以采购方公告为准。"
+        ],
+        "key_points": [
+          "总采购规模：7GWh储能电芯。",
+          "314Ah+低价：0.34元/Wh。",
+          "500Ah+报价区间：约0.360-0.383元/Wh。",
+          "反映储能电芯价格竞争和大容量电芯路线切换。"
+        ],
+        "value": "0.34",
+        "unit": "元/Wh低价",
+        "delta": "7GWh集采",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "clean_html": "<p>ESS News整理中国能建7GWh储能电芯采购结果：314Ah及以上标包低价约0.34元/Wh，500Ah及以上标包低价约0.360元/Wh。</p><p>该价格口径显示储能电芯采购继续在低成本和大容量路线之间竞争，具体成交与履约仍以采购方公告为准。</p>",
+        "caption": "中国能建7GWh电芯集采低价",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "储能中国网 / 首钢集团矿业公司",
+        "source_type": "国内行业媒体/中标结果公告",
+        "account_name": "储能中国网",
+        "category": "招投标",
+        "title": "首钢矿业水厂铁矿320MWh储能电站项目中标，辽宁宏成供电承担投资建设运维",
+        "summary": "储能中国网5月11日报道，首钢集团有限公司矿业公司发布水厂铁矿建设储能电站项目中标结果公告，中标单位为辽宁宏成供电有限公司。其投标充放电功率80MW、储能系统电池容量320MWh、招标人收益分成比例17%；项目采用能源管理服务模式，由投标人负责总体投资、建设施工、整体设计、电网接入和运维。",
+        "body": [
+          "中标结果公告显示，辽宁宏成供电有限公司为中标单位，投标充放电功率80MW、储能系统电池容量320MWh，招标人收益分成比例17%。",
+          "项目最低要求为储能系统电池容量120MWh、最低充放电功率40MW、最低招标人收益分成比例5%。",
+          "招标范围包括总体投资、建设施工、整体设计、电网接入、运维，并通过峰谷/峰平价差为招标人提供能源管理服务。"
+        ],
+        "key_points": [
+          "中标单位：辽宁宏成供电有限公司。",
+          "投标规模：80MW/320MWh。",
+          "收益分成比例：17%。",
+          "商业模式：投标人投资建设运维，能源管理服务。"
+        ],
+        "value": "320",
+        "unit": "MWh",
+        "delta": "中标结果/EMC",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13383.html",
+        "clean_html": "<p>首钢矿业水厂铁矿建设储能电站项目中标结果公告显示，辽宁宏成供电有限公司中标，投标规模80MW/320MWh。</p><p>项目采用能源管理服务模式，由投标人负责投资、建设、电网接入和运维，招标人按节能效益比例支付能源管理费用。</p>",
+        "caption": "首钢矿业320MWh储能中标",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "储能中国网 / 中节能风力发电",
+        "source_type": "国内行业媒体/设备采购招标",
+        "account_name": "储能中国网",
+        "category": "招投标",
+        "title": "中节能甘肃马鬃山300MW/1200MWh独立储能一期启动250MW/1000MWh设备采购",
+        "summary": "储能中国网5月11日报道，中节能甘肃马鬃山300MW/1200MWh独立储能项目一期储能设备采购公开招标。项目位于甘肃省酒泉市肃北蒙古族自治县马鬃山镇饮马峡村，本期招标配置250MW/1000MWh跟网型电化学储能系统设备，要求电池容量不少于1000MWh，并预留二期50MW/200MWh接入接口及系统冗余。",
+        "body": [
+          "项目规划总规模300MW/1200MWh，本期储能电站招标配置容量250MW/1000MWh，拟采用磷酸铁锂电化学储能设备。",
+          "采购内容包括250MW/1000MWh跟网型电化学储能系统设备、吊具及相关技术服务，含五年质保期。",
+          "公告要求预留并满足二期50MW/200MWh储能设备整体接入接口及系统冗余，项目位于甘肃酒泉肃北马鬃山镇饮马峡村。"
+        ],
+        "key_points": [
+          "规划总规模：300MW/1200MWh。",
+          "一期招标：250MW/1000MWh。",
+          "技术路线：磷酸铁锂、跟网型电化学储能。",
+          "预留二期：50MW/200MWh。"
+        ],
+        "value": "1000",
+        "unit": "MWh一期采购",
+        "delta": "规划总规模1200MWh",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13381.html",
+        "clean_html": "<p>中节能甘肃马鬃山300MW/1200MWh独立储能项目一期启动设备采购，招标配置250MW/1000MWh。</p><p>采购范围为跟网型电化学储能系统设备及相关技术服务，采用磷酸铁锂方案，并预留二期50MW/200MWh接口。</p>",
+        "caption": "中节能甘肃一期1000MWh采购",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Ford Energy",
+        "source_type": "海外行业媒体/企业制造布局",
+        "account_name": "Energy-Storage.news",
+        "category": "海外市场",
+        "title": "Ford正式推出美国固定式储能子公司Ford Energy，5.45MWh DC block计划2027年交付",
+        "summary": "Energy-Storage.news 5月12日报道，Ford Motor Company正式推出固定式储能子公司Ford Energy。其旗舰产品Ford Energy DC block为20英尺ISO集装箱化BESS，采用512Ah LFP电芯，提供2小时和4小时配置，单台额定能量5.45MWh、约43.5吨；Ford称该产品年制造能力目标20GWh，首批交付计划于2027年末开始。",
+        "body": [
+          "Ford Energy将在肯塔基Glendale投资约20亿美元建设磷酸铁锂方形电芯和DC BESS箱体生产线，并在密歇根布局住宅储能产线。",
+          "旗舰产品DC block是20英尺ISO集装箱化BESS，围绕512Ah LFP电芯设计，提供2小时和4小时配置，单台5.45MWh。",
+          "报道将该布局放在美国FEOC/PFE规则和本土供应链重构背景下，提示美国BESS供应链本土化竞争升温。"
+        ],
+        "key_points": [
+          "子公司：Ford Energy。",
+          "产品：20英尺DC block，5.45MWh/台。",
+          "电芯：512Ah LFP，2小时/4小时配置。",
+          "制造目标：年产20GWh，2027年末开始交付。"
+        ],
+        "value": "20",
+        "unit": "GWh年产能目标",
+        "delta": "2027年末交付",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/ford-officially-launches-us-stationary-energy-storage-subsidiary-deliveries-to-begin-in-2027/",
+        "clean_html": "<p>Ford正式推出固定式储能子公司Ford Energy，旗舰产品DC block为20英尺集装箱化BESS，采用512Ah LFP电芯，单台5.45MWh。</p><p>Ford称该产品年制造能力目标20GWh，计划2027年末开始交付，符合美国本土储能供应链重构趋势。</p>",
+        "caption": "Ford Energy固定式储能布局",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
       {
         "source": "SMM上海有色",
         "source_type": "专业价格源/公开行情页",
@@ -909,6 +1112,267 @@ window.NEOLINK_FEED = {
       }
     ],
     "latest": [
+      {
+        "source": "ESS News / 中国能建集采线索",
+        "source_type": "海外行业媒体/国内电芯集采价格整理",
+        "account_name": "ESS News",
+        "category": "价格",
+        "title": "中国能建7GWh储能电芯集采低价至0.34元/Wh，314Ah与500Ah两类电芯报价分化",
+        "summary": "ESS News 5月12日报道，中国能建7GWh储能电芯采购中，314Ah及以上电芯标包入围报价区间约0.34-0.394元/Wh，其中融捷能源0.34元/Wh、双登0.3449元/Wh、德赛与中创新航0.365元/Wh、亿纬0.394元/Wh；500Ah及以上电芯标包报价约0.360-0.383元/Wh，显示储能大电芯采购价格继续围绕低成本与大容量路线竞争。",
+        "body": [
+          "报道披露，本次中国能建储能电芯采购总量为7GWh，分为314Ah及以上和500Ah及以上两类标包。",
+          "314Ah及以上电芯标包中，融捷能源报价0.34元/Wh，双登集团0.3449元/Wh，德赛电池和中创新航均为0.365元/Wh，亿纬锂能为0.394元/Wh。",
+          "500Ah及以上标包中，鹏程无限报价0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh；该口径来自媒体对采购结果的整理，具体成交与履约以采购方公告为准。"
+        ],
+        "key_points": [
+          "总采购规模：7GWh储能电芯。",
+          "314Ah+低价：0.34元/Wh。",
+          "500Ah+报价区间：约0.360-0.383元/Wh。",
+          "反映储能电芯价格竞争和大容量电芯路线切换。"
+        ],
+        "value": "0.34",
+        "unit": "元/Wh低价",
+        "delta": "7GWh集采",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "clean_html": "<p>ESS News整理中国能建7GWh储能电芯采购结果：314Ah及以上标包低价约0.34元/Wh，500Ah及以上标包低价约0.360元/Wh。</p><p>该价格口径显示储能电芯采购继续在低成本和大容量路线之间竞争，具体成交与履约仍以采购方公告为准。</p>",
+        "caption": "中国能建7GWh电芯集采低价",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "ESS News / IndiGrid / GUVNL",
+        "source_type": "海外行业媒体/项目投运",
+        "account_name": "ESS News",
+        "category": "海外项目",
+        "title": "印度IndiGrid投运古吉拉特180MW/360MWh独立储能项目，采用BOO模式服务峰荷与新能源消纳",
+        "summary": "ESS News 5月12日报道，IndiGrid宣布其位于印度古吉拉特邦的180MW/360MWh独立电池储能系统投运。项目由IndiGrid与EnerGrid联合开发，Gujarat Urja Vikas Nigam Ltd为购电/承购方，采用建设-拥有-运营模式，将用于峰荷管理和可再生能源并网平衡。",
+        "body": [
+          "项目规模为180MW/360MWh，是印度较大的单址独立公用事业级BESS之一。",
+          "项目通过竞争性招标获得，采用BOO模式开发，GUVNL为承购方，技术支持方包括AmpereHour Energy。",
+          "该项目将服务古吉拉特邦峰荷管理与新能源消纳，对印度独立储能商业模式形成新增参考。"
+        ],
+        "key_points": [
+          "规模：180MW/360MWh。",
+          "地点：印度古吉拉特邦。",
+          "模式：BOO，GUVNL承购。",
+          "用途：峰荷管理与可再生能源并网平衡。"
+        ],
+        "value": "360",
+        "unit": "MWh",
+        "delta": "独立储能投运",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/india-powers-up-one-of-its-largest-standalone-battery-energy-storage-system/",
+        "clean_html": "<p>IndiGrid宣布印度古吉拉特邦180MW/360MWh独立BESS投运，项目采用BOO模式，由GUVNL作为承购方。</p><p>项目用于峰荷管理和可再生能源整合，是印度大型独立储能商业模式的重要样本。</p>",
+        "caption": "印度360MWh独立储能投运",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "Energy-Storage.news / REPT Battero / Energy Vault",
+        "source_type": "海外行业媒体/供应协议",
+        "account_name": "Energy-Storage.news",
+        "category": "企业",
+        "title": "瑞浦兰钧与Energy Vault签署美国3GWh BESS供应协议，海外储能订单继续向中国电芯厂集中",
+        "summary": "Energy-Storage.news 5月12日新闻列表显示，REPT Battero与Energy Vault在美国达成3GWh BESS供应协议。该线索延续中国储能电芯和系统供应商进入美国项目供应链的趋势，需以后续合同交付、合规与本土化要求为准。",
+        "body": [
+          "Energy-Storage.news将该事项列为5月12日海外储能新闻，标题披露协议规模为3GWh，合作方为REPT Battero与Energy Vault。",
+          "若协议按计划履行，将为瑞浦兰钧海外BESS供货增加大规模订单证据。",
+          "美国储能供应链仍受本土化、税收抵免与合规政策影响，项目交付节奏需以后续公告为准。"
+        ],
+        "key_points": [
+          "协议规模：3GWh BESS。",
+          "合作方：REPT Battero与Energy Vault。",
+          "市场：美国。",
+          "关注点：海外交付与美国本土合规要求。"
+        ],
+        "value": "3",
+        "unit": "GWh",
+        "delta": "美国BESS供应协议",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/rept-battero-signs-agreement-in-us-to-supply-3gwh-of-bess-to-energy-vault/",
+        "clean_html": "<p>Energy-Storage.news 5月12日新闻列表披露，REPT Battero与Energy Vault在美国签署3GWh BESS供应协议。</p><p>该线索显示中国储能供应商继续争取海外大规模BESS订单，后续仍需跟踪交付和合规要求。</p>",
+        "caption": "瑞浦兰钧3GWh美国BESS协议",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "储能网 / 河南水投绿色能源",
+        "source_type": "国内行业媒体/EPC招标",
+        "account_name": "储能网",
+        "category": "招投标",
+        "title": "河南中州水务用户侧储能项目EPC招标，合计4.3MW/14.16MWh",
+        "summary": "储能网搜索结果显示，5月12日河南水投绿色能源开发有限公司中州水务用户侧储能项目工程EPC总承包招标公告发布，项目覆盖许昌襄城县、驻马店新蔡县、鹤壁浚县等场景，合计规模约4.3MW/14.16MWh。该项目体量不大，但可作为用户侧储能需求继续扩散的样本。",
+        "body": [
+          "公告线索显示，中州水务用户侧储能项目工程EPC总承包于5月12日发布，合计规模约4.3MW/14.16MWh。",
+          "项目地点涉及河南省许昌市襄城县、驻马店市新蔡县、鹤壁市浚县等水务用能场景。",
+          "该项目属于用户侧储能招标，单体规模低于大型独立储能，但反映工商业和公共设施侧削峰填谷、需量管理需求仍在释放。"
+        ],
+        "key_points": [
+          "招标规模：4.3MW/14.16MWh。",
+          "场景：水务用户侧储能。",
+          "地点：河南多地。",
+          "性质：EPC总承包招标。"
+        ],
+        "value": "14.16",
+        "unit": "MWh",
+        "delta": "用户侧EPC招标",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.chu21.com/html/chunengy-44774.shtml",
+        "clean_html": "<p>河南中州水务用户侧储能项目EPC总承包招标发布，合计规模约4.3MW/14.16MWh。</p><p>项目覆盖河南多地水务用能场景，是用户侧储能需求扩散的新增样本。</p>",
+        "caption": "河南水务用户侧储能招标",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "储能中国网 / 中节能风力发电",
+        "source_type": "国内行业媒体/设备采购招标",
+        "account_name": "储能中国网",
+        "category": "招投标",
+        "title": "中节能甘肃马鬃山300MW/1200MWh独立储能一期启动250MW/1000MWh设备采购",
+        "summary": "储能中国网5月11日报道，中节能甘肃马鬃山300MW/1200MWh独立储能项目一期储能设备采购公开招标。项目位于甘肃省酒泉市肃北蒙古族自治县马鬃山镇饮马峡村，本期招标配置250MW/1000MWh跟网型电化学储能系统设备，要求电池容量不少于1000MWh，并预留二期50MW/200MWh接入接口及系统冗余。",
+        "body": [
+          "项目规划总规模300MW/1200MWh，本期储能电站招标配置容量250MW/1000MWh，拟采用磷酸铁锂电化学储能设备。",
+          "采购内容包括250MW/1000MWh跟网型电化学储能系统设备、吊具及相关技术服务，含五年质保期。",
+          "公告要求预留并满足二期50MW/200MWh储能设备整体接入接口及系统冗余，项目位于甘肃酒泉肃北马鬃山镇饮马峡村。"
+        ],
+        "key_points": [
+          "规划总规模：300MW/1200MWh。",
+          "一期招标：250MW/1000MWh。",
+          "技术路线：磷酸铁锂、跟网型电化学储能。",
+          "预留二期：50MW/200MWh。"
+        ],
+        "value": "1000",
+        "unit": "MWh一期采购",
+        "delta": "规划总规模1200MWh",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13381.html",
+        "clean_html": "<p>中节能甘肃马鬃山300MW/1200MWh独立储能项目一期启动设备采购，招标配置250MW/1000MWh。</p><p>采购范围为跟网型电化学储能系统设备及相关技术服务，采用磷酸铁锂方案，并预留二期50MW/200MWh接口。</p>",
+        "caption": "中节能甘肃一期1000MWh采购",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "储能中国网 / 临汾恒源新能源",
+        "source_type": "国内行业媒体/EPC招标",
+        "account_name": "储能中国网",
+        "category": "项目",
+        "title": "山西临汾曲沃县恒源200MW/400MWh混合储能电站工程总承包招标，总投资5.3亿元",
+        "summary": "储能中国网5月11日报道，临汾恒源新能源有限公司曲沃县恒源200MW/400MWh储能电站建设项目发布工程总承包招标公告。项目位于山西临汾市曲沃县，总占地约43.55亩，建设独立混合储能项目，配套220kV升压站、综合楼、辅助用房和220kV送出线路等，总投资约5.3亿元。",
+        "body": [
+          "项目建设规模为200MW/400MWh，类型为独立混合储能电站。",
+          "配套设施包括一座220kV升压站、综合楼、辅助用房及220kV送出线路等。",
+          "公告披露项目总占地面积约43.55亩，总投资53000万元；当前处于工程总承包招标阶段。"
+        ],
+        "key_points": [
+          "规模：200MW/400MWh。",
+          "地点：山西临汾市曲沃县。",
+          "总投资：5.3亿元。",
+          "配套：220kV升压站及送出线路。"
+        ],
+        "value": "400",
+        "unit": "MWh",
+        "delta": "EPC招标/总投资5.3亿元",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13384.html",
+        "clean_html": "<p>临汾恒源新能源曲沃县恒源200MW/400MWh储能电站建设项目发布工程总承包招标公告。</p><p>项目总占地约43.55亩，总投资约5.3亿元，配套220kV升压站、综合楼、辅助用房和送出线路。</p>",
+        "caption": "临汾曲沃400MWh混合储能",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Ford Energy",
+        "source_type": "海外行业媒体/企业制造布局",
+        "account_name": "Energy-Storage.news",
+        "category": "海外市场",
+        "title": "Ford正式推出美国固定式储能子公司Ford Energy，5.45MWh DC block计划2027年交付",
+        "summary": "Energy-Storage.news 5月12日报道，Ford Motor Company正式推出固定式储能子公司Ford Energy。其旗舰产品Ford Energy DC block为20英尺ISO集装箱化BESS，采用512Ah LFP电芯，提供2小时和4小时配置，单台额定能量5.45MWh、约43.5吨；Ford称该产品年制造能力目标20GWh，首批交付计划于2027年末开始。",
+        "body": [
+          "Ford Energy将在肯塔基Glendale投资约20亿美元建设磷酸铁锂方形电芯和DC BESS箱体生产线，并在密歇根布局住宅储能产线。",
+          "旗舰产品DC block是20英尺ISO集装箱化BESS，围绕512Ah LFP电芯设计，提供2小时和4小时配置，单台5.45MWh。",
+          "报道将该布局放在美国FEOC/PFE规则和本土供应链重构背景下，提示美国BESS供应链本土化竞争升温。"
+        ],
+        "key_points": [
+          "子公司：Ford Energy。",
+          "产品：20英尺DC block，5.45MWh/台。",
+          "电芯：512Ah LFP，2小时/4小时配置。",
+          "制造目标：年产20GWh，2027年末开始交付。"
+        ],
+        "value": "20",
+        "unit": "GWh年产能目标",
+        "delta": "2027年末交付",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/ford-officially-launches-us-stationary-energy-storage-subsidiary-deliveries-to-begin-in-2027/",
+        "clean_html": "<p>Ford正式推出固定式储能子公司Ford Energy，旗舰产品DC block为20英尺集装箱化BESS，采用512Ah LFP电芯，单台5.45MWh。</p><p>Ford称该产品年制造能力目标20GWh，计划2027年末开始交付，符合美国本土储能供应链重构趋势。</p>",
+        "caption": "Ford Energy固定式储能布局",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Meralco PowerGen / CATL / SUMEC",
+        "source_type": "海外行业媒体/项目投运",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "菲律宾Meralco PowerGen投运宿务25MW/56.44MWh CATL储能项目一期，总项目约49MW",
+        "summary": "Energy-Storage.news 5月12日报道，Meralco旗下Meralco PowerGen Corporation宣布其菲律宾宿务Toledo 25MW/56.44MWh BESS完成送电和启用。该项目为Visayas地区首个2小时储能项目，供应商包括CATL和EPC伙伴SUMEC；本次投运为两期项目的第一期，全部建成后输出功率约49MW。",
+        "body": [
+          "MGEN宣布Toledo 25MW/56.44MWh BESS完成energisation and switch-on，项目位于菲律宾宿务省Toledo。",
+          "项目合作方包括土地业主Carmen Copper、BESS供应商CATL和EPC伙伴SUMEC Complete Equipment and Engineering。",
+          "项目将服务菲律宾WESM批发电力现货市场，强化Visayas电网灵活性；全部两期建成后输出功率为49MW。"
+        ],
+        "key_points": [
+          "一期投运：25MW/56.44MWh。",
+          "地点：菲律宾宿务Toledo。",
+          "供应链：CATL供应BESS，SUMEC为EPC伙伴。",
+          "总项目输出：约49MW。"
+        ],
+        "value": "56.44",
+        "unit": "MWh一期",
+        "delta": "总项目约49MW",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/meralco-powergen-corp-brings-online-first-phase-of-100mwh-catl-battery-project-in-cebu-philippines/",
+        "clean_html": "<p>Meralco PowerGen在菲律宾宿务Toledo启用25MW/56.44MWh BESS，一期项目为Visayas地区首个2小时储能项目。</p><p>项目供应商包括CATL，EPC伙伴为SUMEC，全部两期建成后输出功率约49MW。</p>",
+        "caption": "菲律宾CATL储能一期投运",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / BayWa r.e. / Kyon Energy / Terra One",
+        "source_type": "海外行业媒体/欧洲项目运维与建设",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "BayWa r.e.获得德国Alfeld 137MW/282MWh BESS八年资产运维合同，Terra One 15MW/30MWh项目NTP",
+        "summary": "Energy-Storage.news 5月12日报道，BayWa r.e.获得德国Lower Saxony Alfeld 137MW/282MWh BESS八年资产运营服务合同。该项目由Kyon Energy开发建设、Scale Fund长期持有，BayWa称其Q3上线后将是德国最大运营BESS之一。同文还披露Terra One在Visbek 15MW/30MWh BESS完成融资并向EPC伙伴发出开工通知，计划2026年四季度商运。",
+        "body": [
+          "BayWa r.e.资产运营部门获得Alfeld 137MW/282MWh BESS八年服务合同，服务覆盖系统健康、性能和安全相关数据分析等。",
+          "Alfeld项目位于德国Lower Saxony，由Kyon Energy开发建设，长期业主为丹麦投资者Scale Fund，计划2026年三季度上线。",
+          "Terra One的Visbek 15MW/30MWh项目也位于Lower Saxony，已获得非追索项目融资并向EPC伙伴发出NTP，计划2026年四季度商运。"
+        ],
+        "key_points": [
+          "Alfeld规模：137MW/282MWh。",
+          "合同：BayWa r.e.八年资产运维服务。",
+          "开发/业主：Kyon Energy / Scale Fund。",
+          "Terra One Visbek：15MW/30MWh，2026Q4商运计划。"
+        ],
+        "value": "282",
+        "unit": "MWh",
+        "delta": "八年运维合同",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/baywa-r-e-to-manage-germanys-largest-bess-smaller-projects-move-to-construction/",
+        "clean_html": "<p>BayWa r.e.获得德国Lower Saxony Alfeld 137MW/282MWh BESS八年资产运营服务合同，项目计划2026年三季度上线。</p><p>同文披露Terra One Visbek 15MW/30MWh BESS完成融资并发出开工通知，计划2026年四季度商运。</p>",
+        "caption": "德国BESS运维与建设更新",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
       {
         "source": "SMM上海有色",
         "source_type": "专业价格源/公开行情页",
@@ -3770,6 +4234,151 @@ window.NEOLINK_FEED = {
     ],
     "enterprise": [
       {
+        "source": "Energy-Storage.news / ESS News / Alsym Energy / Juniper Energy",
+        "source_type": "海外行业媒体/企业战略合作",
+        "account_name": "Energy-Storage.news",
+        "category": "技术",
+        "title": "Alsym与Juniper将在加州等高温地区部署500MWh钠离子储能，主打被动冷却与热安全",
+        "summary": "Energy-Storage.news与ESS News 5月12日报道，美国钠离子电池企业Alsym Energy与可再生能源开发商Juniper Energy达成500MWh战略合作，拟在加州莫哈韦沙漠及其他高温地区部署Na-Series钠离子BESS。双方强调该路线面向高温场景、降低主动冷却需求，并宣称设计上避免热失控风险。",
+        "body": [
+          "合作规模为500MWh，部署区域以加州及其他高温地区为主，ESS News称莫哈韦沙漠项目是合作重点之一。",
+          "Alsym的Na-Series钠离子方案被定位为高温环境下的替代路线，目标是减少冷却系统能耗和复杂度。",
+          "该项目为非锂路线在美国储能场景中的新增商业化证据，但实际成本、寿命和并网表现仍需以后续项目交付数据验证。"
+        ],
+        "key_points": [
+          "合作规模：500MWh。",
+          "技术路线：钠离子BESS。",
+          "应用场景：加州及高温地区。",
+          "卖点：被动冷却、热安全与本土供应链税收抵免潜力。"
+        ],
+        "value": "500",
+        "unit": "MWh",
+        "delta": "钠离子战略合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
+        "clean_html": "<p>Alsym Energy与Juniper Energy达成500MWh钠离子储能战略合作，计划在加州及其他高温地区部署Na-Series BESS。</p><p>该项目为非锂储能路线在美国高温应用场景中的新增商业化样本。</p>",
+        "caption": "美国500MWh钠离子储能合作",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "Energy-Storage.news / REPT Battero / Energy Vault",
+        "source_type": "海外行业媒体/供应协议",
+        "account_name": "Energy-Storage.news",
+        "category": "企业",
+        "title": "瑞浦兰钧与Energy Vault签署美国3GWh BESS供应协议，海外储能订单继续向中国电芯厂集中",
+        "summary": "Energy-Storage.news 5月12日新闻列表显示，REPT Battero与Energy Vault在美国达成3GWh BESS供应协议。该线索延续中国储能电芯和系统供应商进入美国项目供应链的趋势，需以后续合同交付、合规与本土化要求为准。",
+        "body": [
+          "Energy-Storage.news将该事项列为5月12日海外储能新闻，标题披露协议规模为3GWh，合作方为REPT Battero与Energy Vault。",
+          "若协议按计划履行，将为瑞浦兰钧海外BESS供货增加大规模订单证据。",
+          "美国储能供应链仍受本土化、税收抵免与合规政策影响，项目交付节奏需以后续公告为准。"
+        ],
+        "key_points": [
+          "协议规模：3GWh BESS。",
+          "合作方：REPT Battero与Energy Vault。",
+          "市场：美国。",
+          "关注点：海外交付与美国本土合规要求。"
+        ],
+        "value": "3",
+        "unit": "GWh",
+        "delta": "美国BESS供应协议",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/rept-battero-signs-agreement-in-us-to-supply-3gwh-of-bess-to-energy-vault/",
+        "clean_html": "<p>Energy-Storage.news 5月12日新闻列表披露，REPT Battero与Energy Vault在美国签署3GWh BESS供应协议。</p><p>该线索显示中国储能供应商继续争取海外大规模BESS订单，后续仍需跟踪交付和合规要求。</p>",
+        "caption": "瑞浦兰钧3GWh美国BESS协议",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "Energy-Storage.news / BayWa r.e. / Kyon Energy / Terra One",
+        "source_type": "海外行业媒体/欧洲项目运维与建设",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "BayWa r.e.获得德国Alfeld 137MW/282MWh BESS八年资产运维合同，Terra One 15MW/30MWh项目NTP",
+        "summary": "Energy-Storage.news 5月12日报道，BayWa r.e.获得德国Lower Saxony Alfeld 137MW/282MWh BESS八年资产运营服务合同。该项目由Kyon Energy开发建设、Scale Fund长期持有，BayWa称其Q3上线后将是德国最大运营BESS之一。同文还披露Terra One在Visbek 15MW/30MWh BESS完成融资并向EPC伙伴发出开工通知，计划2026年四季度商运。",
+        "body": [
+          "BayWa r.e.资产运营部门获得Alfeld 137MW/282MWh BESS八年服务合同，服务覆盖系统健康、性能和安全相关数据分析等。",
+          "Alfeld项目位于德国Lower Saxony，由Kyon Energy开发建设，长期业主为丹麦投资者Scale Fund，计划2026年三季度上线。",
+          "Terra One的Visbek 15MW/30MWh项目也位于Lower Saxony，已获得非追索项目融资并向EPC伙伴发出NTP，计划2026年四季度商运。"
+        ],
+        "key_points": [
+          "Alfeld规模：137MW/282MWh。",
+          "合同：BayWa r.e.八年资产运维服务。",
+          "开发/业主：Kyon Energy / Scale Fund。",
+          "Terra One Visbek：15MW/30MWh，2026Q4商运计划。"
+        ],
+        "value": "282",
+        "unit": "MWh",
+        "delta": "八年运维合同",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/baywa-r-e-to-manage-germanys-largest-bess-smaller-projects-move-to-construction/",
+        "clean_html": "<p>BayWa r.e.获得德国Lower Saxony Alfeld 137MW/282MWh BESS八年资产运营服务合同，项目计划2026年三季度上线。</p><p>同文披露Terra One Visbek 15MW/30MWh BESS完成融资并发出开工通知，计划2026年四季度商运。</p>",
+        "caption": "德国BESS运维与建设更新",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Meralco PowerGen / CATL / SUMEC",
+        "source_type": "海外行业媒体/项目投运",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "菲律宾Meralco PowerGen投运宿务25MW/56.44MWh CATL储能项目一期，总项目约49MW",
+        "summary": "Energy-Storage.news 5月12日报道，Meralco旗下Meralco PowerGen Corporation宣布其菲律宾宿务Toledo 25MW/56.44MWh BESS完成送电和启用。该项目为Visayas地区首个2小时储能项目，供应商包括CATL和EPC伙伴SUMEC；本次投运为两期项目的第一期，全部建成后输出功率约49MW。",
+        "body": [
+          "MGEN宣布Toledo 25MW/56.44MWh BESS完成energisation and switch-on，项目位于菲律宾宿务省Toledo。",
+          "项目合作方包括土地业主Carmen Copper、BESS供应商CATL和EPC伙伴SUMEC Complete Equipment and Engineering。",
+          "项目将服务菲律宾WESM批发电力现货市场，强化Visayas电网灵活性；全部两期建成后输出功率为49MW。"
+        ],
+        "key_points": [
+          "一期投运：25MW/56.44MWh。",
+          "地点：菲律宾宿务Toledo。",
+          "供应链：CATL供应BESS，SUMEC为EPC伙伴。",
+          "总项目输出：约49MW。"
+        ],
+        "value": "56.44",
+        "unit": "MWh一期",
+        "delta": "总项目约49MW",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/meralco-powergen-corp-brings-online-first-phase-of-100mwh-catl-battery-project-in-cebu-philippines/",
+        "clean_html": "<p>Meralco PowerGen在菲律宾宿务Toledo启用25MW/56.44MWh BESS，一期项目为Visayas地区首个2小时储能项目。</p><p>项目供应商包括CATL，EPC伙伴为SUMEC，全部两期建成后输出功率约49MW。</p>",
+        "caption": "菲律宾CATL储能一期投运",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Ford Energy",
+        "source_type": "海外行业媒体/企业制造布局",
+        "account_name": "Energy-Storage.news",
+        "category": "海外市场",
+        "title": "Ford正式推出美国固定式储能子公司Ford Energy，5.45MWh DC block计划2027年交付",
+        "summary": "Energy-Storage.news 5月12日报道，Ford Motor Company正式推出固定式储能子公司Ford Energy。其旗舰产品Ford Energy DC block为20英尺ISO集装箱化BESS，采用512Ah LFP电芯，提供2小时和4小时配置，单台额定能量5.45MWh、约43.5吨；Ford称该产品年制造能力目标20GWh，首批交付计划于2027年末开始。",
+        "body": [
+          "Ford Energy将在肯塔基Glendale投资约20亿美元建设磷酸铁锂方形电芯和DC BESS箱体生产线，并在密歇根布局住宅储能产线。",
+          "旗舰产品DC block是20英尺ISO集装箱化BESS，围绕512Ah LFP电芯设计，提供2小时和4小时配置，单台5.45MWh。",
+          "报道将该布局放在美国FEOC/PFE规则和本土供应链重构背景下，提示美国BESS供应链本土化竞争升温。"
+        ],
+        "key_points": [
+          "子公司：Ford Energy。",
+          "产品：20英尺DC block，5.45MWh/台。",
+          "电芯：512Ah LFP，2小时/4小时配置。",
+          "制造目标：年产20GWh，2027年末开始交付。"
+        ],
+        "value": "20",
+        "unit": "GWh年产能目标",
+        "delta": "2027年末交付",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/ford-officially-launches-us-stationary-energy-storage-subsidiary-deliveries-to-begin-in-2027/",
+        "clean_html": "<p>Ford正式推出固定式储能子公司Ford Energy，旗舰产品DC block为20英尺集装箱化BESS，采用512Ah LFP电芯，单台5.45MWh。</p><p>Ford称该产品年制造能力目标20GWh，计划2027年末开始交付，符合美国本土储能供应链重构趋势。</p>",
+        "caption": "Ford Energy固定式储能布局",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
         "source": "Energy-Storage.news / BloombergNEF",
         "source_type": "海外行业媒体/专业研究机构预测",
         "account_name": "Energy-Storage.news",
@@ -4242,6 +4851,180 @@ window.NEOLINK_FEED = {
       }
     ],
     "project": [
+      {
+        "source": "储能网 / 河南水投绿色能源",
+        "source_type": "国内行业媒体/EPC招标",
+        "account_name": "储能网",
+        "category": "招投标",
+        "title": "河南中州水务用户侧储能项目EPC招标，合计4.3MW/14.16MWh",
+        "summary": "储能网搜索结果显示，5月12日河南水投绿色能源开发有限公司中州水务用户侧储能项目工程EPC总承包招标公告发布，项目覆盖许昌襄城县、驻马店新蔡县、鹤壁浚县等场景，合计规模约4.3MW/14.16MWh。该项目体量不大，但可作为用户侧储能需求继续扩散的样本。",
+        "body": [
+          "公告线索显示，中州水务用户侧储能项目工程EPC总承包于5月12日发布，合计规模约4.3MW/14.16MWh。",
+          "项目地点涉及河南省许昌市襄城县、驻马店市新蔡县、鹤壁市浚县等水务用能场景。",
+          "该项目属于用户侧储能招标，单体规模低于大型独立储能，但反映工商业和公共设施侧削峰填谷、需量管理需求仍在释放。"
+        ],
+        "key_points": [
+          "招标规模：4.3MW/14.16MWh。",
+          "场景：水务用户侧储能。",
+          "地点：河南多地。",
+          "性质：EPC总承包招标。"
+        ],
+        "value": "14.16",
+        "unit": "MWh",
+        "delta": "用户侧EPC招标",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.chu21.com/html/chunengy-44774.shtml",
+        "clean_html": "<p>河南中州水务用户侧储能项目EPC总承包招标发布，合计规模约4.3MW/14.16MWh。</p><p>项目覆盖河南多地水务用能场景，是用户侧储能需求扩散的新增样本。</p>",
+        "caption": "河南水务用户侧储能招标",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "ESS News / IndiGrid / GUVNL",
+        "source_type": "海外行业媒体/项目投运",
+        "account_name": "ESS News",
+        "category": "海外项目",
+        "title": "印度IndiGrid投运古吉拉特180MW/360MWh独立储能项目，采用BOO模式服务峰荷与新能源消纳",
+        "summary": "ESS News 5月12日报道，IndiGrid宣布其位于印度古吉拉特邦的180MW/360MWh独立电池储能系统投运。项目由IndiGrid与EnerGrid联合开发，Gujarat Urja Vikas Nigam Ltd为购电/承购方，采用建设-拥有-运营模式，将用于峰荷管理和可再生能源并网平衡。",
+        "body": [
+          "项目规模为180MW/360MWh，是印度较大的单址独立公用事业级BESS之一。",
+          "项目通过竞争性招标获得，采用BOO模式开发，GUVNL为承购方，技术支持方包括AmpereHour Energy。",
+          "该项目将服务古吉拉特邦峰荷管理与新能源消纳，对印度独立储能商业模式形成新增参考。"
+        ],
+        "key_points": [
+          "规模：180MW/360MWh。",
+          "地点：印度古吉拉特邦。",
+          "模式：BOO，GUVNL承购。",
+          "用途：峰荷管理与可再生能源并网平衡。"
+        ],
+        "value": "360",
+        "unit": "MWh",
+        "delta": "独立储能投运",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/india-powers-up-one-of-its-largest-standalone-battery-energy-storage-system/",
+        "clean_html": "<p>IndiGrid宣布印度古吉拉特邦180MW/360MWh独立BESS投运，项目采用BOO模式，由GUVNL作为承购方。</p><p>项目用于峰荷管理和可再生能源整合，是印度大型独立储能商业模式的重要样本。</p>",
+        "caption": "印度360MWh独立储能投运",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "Energy-Storage.news / BayWa r.e. / Kyon Energy / Terra One",
+        "source_type": "海外行业媒体/欧洲项目运维与建设",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "BayWa r.e.获得德国Alfeld 137MW/282MWh BESS八年资产运维合同，Terra One 15MW/30MWh项目NTP",
+        "summary": "Energy-Storage.news 5月12日报道，BayWa r.e.获得德国Lower Saxony Alfeld 137MW/282MWh BESS八年资产运营服务合同。该项目由Kyon Energy开发建设、Scale Fund长期持有，BayWa称其Q3上线后将是德国最大运营BESS之一。同文还披露Terra One在Visbek 15MW/30MWh BESS完成融资并向EPC伙伴发出开工通知，计划2026年四季度商运。",
+        "body": [
+          "BayWa r.e.资产运营部门获得Alfeld 137MW/282MWh BESS八年服务合同，服务覆盖系统健康、性能和安全相关数据分析等。",
+          "Alfeld项目位于德国Lower Saxony，由Kyon Energy开发建设，长期业主为丹麦投资者Scale Fund，计划2026年三季度上线。",
+          "Terra One的Visbek 15MW/30MWh项目也位于Lower Saxony，已获得非追索项目融资并向EPC伙伴发出NTP，计划2026年四季度商运。"
+        ],
+        "key_points": [
+          "Alfeld规模：137MW/282MWh。",
+          "合同：BayWa r.e.八年资产运维服务。",
+          "开发/业主：Kyon Energy / Scale Fund。",
+          "Terra One Visbek：15MW/30MWh，2026Q4商运计划。"
+        ],
+        "value": "282",
+        "unit": "MWh",
+        "delta": "八年运维合同",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/baywa-r-e-to-manage-germanys-largest-bess-smaller-projects-move-to-construction/",
+        "clean_html": "<p>BayWa r.e.获得德国Lower Saxony Alfeld 137MW/282MWh BESS八年资产运营服务合同，项目计划2026年三季度上线。</p><p>同文披露Terra One Visbek 15MW/30MWh BESS完成融资并发出开工通知，计划2026年四季度商运。</p>",
+        "caption": "德国BESS运维与建设更新",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Meralco PowerGen / CATL / SUMEC",
+        "source_type": "海外行业媒体/项目投运",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "菲律宾Meralco PowerGen投运宿务25MW/56.44MWh CATL储能项目一期，总项目约49MW",
+        "summary": "Energy-Storage.news 5月12日报道，Meralco旗下Meralco PowerGen Corporation宣布其菲律宾宿务Toledo 25MW/56.44MWh BESS完成送电和启用。该项目为Visayas地区首个2小时储能项目，供应商包括CATL和EPC伙伴SUMEC；本次投运为两期项目的第一期，全部建成后输出功率约49MW。",
+        "body": [
+          "MGEN宣布Toledo 25MW/56.44MWh BESS完成energisation and switch-on，项目位于菲律宾宿务省Toledo。",
+          "项目合作方包括土地业主Carmen Copper、BESS供应商CATL和EPC伙伴SUMEC Complete Equipment and Engineering。",
+          "项目将服务菲律宾WESM批发电力现货市场，强化Visayas电网灵活性；全部两期建成后输出功率为49MW。"
+        ],
+        "key_points": [
+          "一期投运：25MW/56.44MWh。",
+          "地点：菲律宾宿务Toledo。",
+          "供应链：CATL供应BESS，SUMEC为EPC伙伴。",
+          "总项目输出：约49MW。"
+        ],
+        "value": "56.44",
+        "unit": "MWh一期",
+        "delta": "总项目约49MW",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/meralco-powergen-corp-brings-online-first-phase-of-100mwh-catl-battery-project-in-cebu-philippines/",
+        "clean_html": "<p>Meralco PowerGen在菲律宾宿务Toledo启用25MW/56.44MWh BESS，一期项目为Visayas地区首个2小时储能项目。</p><p>项目供应商包括CATL，EPC伙伴为SUMEC，全部两期建成后输出功率约49MW。</p>",
+        "caption": "菲律宾CATL储能一期投运",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "储能中国网 / 中节能风力发电",
+        "source_type": "国内行业媒体/设备采购招标",
+        "account_name": "储能中国网",
+        "category": "招投标",
+        "title": "中节能甘肃马鬃山300MW/1200MWh独立储能一期启动250MW/1000MWh设备采购",
+        "summary": "储能中国网5月11日报道，中节能甘肃马鬃山300MW/1200MWh独立储能项目一期储能设备采购公开招标。项目位于甘肃省酒泉市肃北蒙古族自治县马鬃山镇饮马峡村，本期招标配置250MW/1000MWh跟网型电化学储能系统设备，要求电池容量不少于1000MWh，并预留二期50MW/200MWh接入接口及系统冗余。",
+        "body": [
+          "项目规划总规模300MW/1200MWh，本期储能电站招标配置容量250MW/1000MWh，拟采用磷酸铁锂电化学储能设备。",
+          "采购内容包括250MW/1000MWh跟网型电化学储能系统设备、吊具及相关技术服务，含五年质保期。",
+          "公告要求预留并满足二期50MW/200MWh储能设备整体接入接口及系统冗余，项目位于甘肃酒泉肃北马鬃山镇饮马峡村。"
+        ],
+        "key_points": [
+          "规划总规模：300MW/1200MWh。",
+          "一期招标：250MW/1000MWh。",
+          "技术路线：磷酸铁锂、跟网型电化学储能。",
+          "预留二期：50MW/200MWh。"
+        ],
+        "value": "1000",
+        "unit": "MWh一期采购",
+        "delta": "规划总规模1200MWh",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13381.html",
+        "clean_html": "<p>中节能甘肃马鬃山300MW/1200MWh独立储能项目一期启动设备采购，招标配置250MW/1000MWh。</p><p>采购范围为跟网型电化学储能系统设备及相关技术服务，采用磷酸铁锂方案，并预留二期50MW/200MWh接口。</p>",
+        "caption": "中节能甘肃一期1000MWh采购",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "储能中国网 / 临汾恒源新能源",
+        "source_type": "国内行业媒体/EPC招标",
+        "account_name": "储能中国网",
+        "category": "项目",
+        "title": "山西临汾曲沃县恒源200MW/400MWh混合储能电站工程总承包招标，总投资5.3亿元",
+        "summary": "储能中国网5月11日报道，临汾恒源新能源有限公司曲沃县恒源200MW/400MWh储能电站建设项目发布工程总承包招标公告。项目位于山西临汾市曲沃县，总占地约43.55亩，建设独立混合储能项目，配套220kV升压站、综合楼、辅助用房和220kV送出线路等，总投资约5.3亿元。",
+        "body": [
+          "项目建设规模为200MW/400MWh，类型为独立混合储能电站。",
+          "配套设施包括一座220kV升压站、综合楼、辅助用房及220kV送出线路等。",
+          "公告披露项目总占地面积约43.55亩，总投资53000万元；当前处于工程总承包招标阶段。"
+        ],
+        "key_points": [
+          "规模：200MW/400MWh。",
+          "地点：山西临汾市曲沃县。",
+          "总投资：5.3亿元。",
+          "配套：220kV升压站及送出线路。"
+        ],
+        "value": "400",
+        "unit": "MWh",
+        "delta": "EPC招标/总投资5.3亿元",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13384.html",
+        "clean_html": "<p>临汾恒源新能源曲沃县恒源200MW/400MWh储能电站建设项目发布工程总承包招标公告。</p><p>项目总占地约43.55亩，总投资约5.3亿元，配套220kV升压站、综合楼、辅助用房和送出线路。</p>",
+        "caption": "临汾曲沃400MWh混合储能",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
       {
         "source": "新浪财经 / 中国储能网",
         "source_type": "国内财经转载/行业门户招投标动态",
@@ -4786,6 +5569,93 @@ window.NEOLINK_FEED = {
       }
     ],
     "policy": [
+      {
+        "source": "储能网 / 河南水投绿色能源",
+        "source_type": "国内行业媒体/EPC招标",
+        "account_name": "储能网",
+        "category": "招投标",
+        "title": "河南中州水务用户侧储能项目EPC招标，合计4.3MW/14.16MWh",
+        "summary": "储能网搜索结果显示，5月12日河南水投绿色能源开发有限公司中州水务用户侧储能项目工程EPC总承包招标公告发布，项目覆盖许昌襄城县、驻马店新蔡县、鹤壁浚县等场景，合计规模约4.3MW/14.16MWh。该项目体量不大，但可作为用户侧储能需求继续扩散的样本。",
+        "body": [
+          "公告线索显示，中州水务用户侧储能项目工程EPC总承包于5月12日发布，合计规模约4.3MW/14.16MWh。",
+          "项目地点涉及河南省许昌市襄城县、驻马店市新蔡县、鹤壁市浚县等水务用能场景。",
+          "该项目属于用户侧储能招标，单体规模低于大型独立储能，但反映工商业和公共设施侧削峰填谷、需量管理需求仍在释放。"
+        ],
+        "key_points": [
+          "招标规模：4.3MW/14.16MWh。",
+          "场景：水务用户侧储能。",
+          "地点：河南多地。",
+          "性质：EPC总承包招标。"
+        ],
+        "value": "14.16",
+        "unit": "MWh",
+        "delta": "用户侧EPC招标",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.chu21.com/html/chunengy-44774.shtml",
+        "clean_html": "<p>河南中州水务用户侧储能项目EPC总承包招标发布，合计规模约4.3MW/14.16MWh。</p><p>项目覆盖河南多地水务用能场景，是用户侧储能需求扩散的新增样本。</p>",
+        "caption": "河南水务用户侧储能招标",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "source": "储能中国网 / 中节能风力发电",
+        "source_type": "国内行业媒体/设备采购招标",
+        "account_name": "储能中国网",
+        "category": "招投标",
+        "title": "中节能甘肃马鬃山300MW/1200MWh独立储能一期启动250MW/1000MWh设备采购",
+        "summary": "储能中国网5月11日报道，中节能甘肃马鬃山300MW/1200MWh独立储能项目一期储能设备采购公开招标。项目位于甘肃省酒泉市肃北蒙古族自治县马鬃山镇饮马峡村，本期招标配置250MW/1000MWh跟网型电化学储能系统设备，要求电池容量不少于1000MWh，并预留二期50MW/200MWh接入接口及系统冗余。",
+        "body": [
+          "项目规划总规模300MW/1200MWh，本期储能电站招标配置容量250MW/1000MWh，拟采用磷酸铁锂电化学储能设备。",
+          "采购内容包括250MW/1000MWh跟网型电化学储能系统设备、吊具及相关技术服务，含五年质保期。",
+          "公告要求预留并满足二期50MW/200MWh储能设备整体接入接口及系统冗余，项目位于甘肃酒泉肃北马鬃山镇饮马峡村。"
+        ],
+        "key_points": [
+          "规划总规模：300MW/1200MWh。",
+          "一期招标：250MW/1000MWh。",
+          "技术路线：磷酸铁锂、跟网型电化学储能。",
+          "预留二期：50MW/200MWh。"
+        ],
+        "value": "1000",
+        "unit": "MWh一期采购",
+        "delta": "规划总规模1200MWh",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13381.html",
+        "clean_html": "<p>中节能甘肃马鬃山300MW/1200MWh独立储能项目一期启动设备采购，招标配置250MW/1000MWh。</p><p>采购范围为跟网型电化学储能系统设备及相关技术服务，采用磷酸铁锂方案，并预留二期50MW/200MWh接口。</p>",
+        "caption": "中节能甘肃一期1000MWh采购",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "source": "储能中国网 / 首钢集团矿业公司",
+        "source_type": "国内行业媒体/中标结果公告",
+        "account_name": "储能中国网",
+        "category": "招投标",
+        "title": "首钢矿业水厂铁矿320MWh储能电站项目中标，辽宁宏成供电承担投资建设运维",
+        "summary": "储能中国网5月11日报道，首钢集团有限公司矿业公司发布水厂铁矿建设储能电站项目中标结果公告，中标单位为辽宁宏成供电有限公司。其投标充放电功率80MW、储能系统电池容量320MWh、招标人收益分成比例17%；项目采用能源管理服务模式，由投标人负责总体投资、建设施工、整体设计、电网接入和运维。",
+        "body": [
+          "中标结果公告显示，辽宁宏成供电有限公司为中标单位，投标充放电功率80MW、储能系统电池容量320MWh，招标人收益分成比例17%。",
+          "项目最低要求为储能系统电池容量120MWh、最低充放电功率40MW、最低招标人收益分成比例5%。",
+          "招标范围包括总体投资、建设施工、整体设计、电网接入、运维，并通过峰谷/峰平价差为招标人提供能源管理服务。"
+        ],
+        "key_points": [
+          "中标单位：辽宁宏成供电有限公司。",
+          "投标规模：80MW/320MWh。",
+          "收益分成比例：17%。",
+          "商业模式：投标人投资建设运维，能源管理服务。"
+        ],
+        "value": "320",
+        "unit": "MWh",
+        "delta": "中标结果/EMC",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13383.html",
+        "clean_html": "<p>首钢矿业水厂铁矿建设储能电站项目中标结果公告显示，辽宁宏成供电有限公司中标，投标规模80MW/320MWh。</p><p>项目采用能源管理服务模式，由投标人负责投资、建设、电网接入和运维，招标人按节能效益比例支付能源管理费用。</p>",
+        "caption": "首钢矿业320MWh储能中标",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
       {
         "source": "新浪财经 / 中国储能网",
         "source_type": "国内财经转载/行业门户招投标动态",
@@ -5500,6 +6370,97 @@ window.NEOLINK_FEED = {
     ],
     "metrics": [
       {
+        "title": "瑞浦兰钧Energy Vault美国BESS协议",
+        "source": "Energy-Storage.news",
+        "value": "3",
+        "unit": "GWh",
+        "delta": "供应协议",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/rept-battero-signs-agreement-in-us-to-supply-3gwh-of-bess-to-energy-vault/",
+        "summary": "Energy-Storage.news新闻列表披露REPT Battero与Energy Vault签署美国3GWh BESS供应协议。",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "title": "印度IndiGrid古吉拉特独立储能",
+        "source": "ESS News / IndiGrid",
+        "value": "360",
+        "unit": "MWh",
+        "delta": "180MW投运",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/india-powers-up-one-of-its-largest-standalone-battery-energy-storage-system/",
+        "summary": "IndiGrid投运180MW/360MWh独立储能项目，服务古吉拉特峰荷管理和新能源消纳。",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "title": "中国能建7GWh储能电芯集采低价",
+        "source": "ESS News / 中国能建集采线索",
+        "value": "0.34",
+        "unit": "元/Wh",
+        "delta": "314Ah+最低报价",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "summary": "ESS News整理显示中国能建7GWh储能电芯采购中314Ah+标包低价约0.34元/Wh，500Ah+标包低价约0.360元/Wh。",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
+      },
+      {
+        "title": "德国Alfeld BESS资产运维合同规模",
+        "source": "Energy-Storage.news / BayWa r.e.",
+        "value": "282",
+        "unit": "MWh",
+        "delta": "137MW/282MWh",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/baywa-r-e-to-manage-germanys-largest-bess-smaller-projects-move-to-construction/",
+        "summary": "BayWa r.e.获得Alfeld 137MW/282MWh BESS八年资产运营服务合同。",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "title": "菲律宾Meralco宿务CATL储能一期",
+        "source": "Energy-Storage.news / Meralco / CATL",
+        "value": "56.44",
+        "unit": "MWh",
+        "delta": "25MW一期投运",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/meralco-powergen-corp-brings-online-first-phase-of-100mwh-catl-battery-project-in-cebu-philippines/",
+        "summary": "菲律宾宿务Toledo 25MW/56.44MWh BESS启用，CATL为BESS供应商，SUMEC为EPC伙伴。",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "title": "Ford Energy DC block制造能力目标",
+        "source": "Energy-Storage.news / Ford Energy",
+        "value": "20",
+        "unit": "GWh/年",
+        "delta": "单台5.45MWh",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/ford-officially-launches-us-stationary-energy-storage-subsidiary-deliveries-to-begin-in-2027/",
+        "summary": "Ford Energy计划推出5.45MWh DC block，称年制造能力目标20GWh，2027年末开始交付。",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
+        "title": "中节能甘肃马鬃山一期储能设备采购",
+        "source": "储能中国网 / 中节能风力发电",
+        "value": "1000",
+        "unit": "MWh",
+        "delta": "规划总规模1200MWh",
+        "direction": "up",
+        "date": "05-11",
+        "as_of": "2026-05-11",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13381.html",
+        "summary": "一期招标250MW/1000MWh跟网型磷酸铁锂储能系统设备，预留二期50MW/200MWh。",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
+      },
+      {
         "title": "宁夏储能系统采购流标规模",
         "source": "中国储能网 / 新浪财经",
         "value": "1200",
@@ -5565,17 +6526,17 @@ window.NEOLINK_FEED = {
         "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
-        "title": "Alsym加州钠离子BESS合作",
-        "source": "Energy-Storage.news",
+        "title": "Alsym/Juniper钠离子储能合作",
+        "source": "Energy-Storage.news / ESS News",
         "value": "500",
         "unit": "MWh",
-        "delta": "钠离子路线",
+        "delta": "高温地区部署",
         "direction": "up",
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
-        "summary": "Alsym与Juniper计划在加州部署500MWh钠离子BESS。",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "summary": "Alsym与Juniper计划在加州等高温地区部署500MWh钠离子BESS。",
+        "methodology": "07:00严格小时任务：HTTPS重新读取NeoLink首页与MarketTrend入口，443仍返回SSL EOF；已保存入口失败快照。主动搜索国内碳索储能/新浪财经招中标线索、SMM公开行情页，以及海外Energy-Storage.news与ESS News公开新闻；只写入搜索结果可见且可追溯的来源、日期、规模和价格口径，不以纯刷新时间冒充更新。"
       },
       {
         "title": "远景加拿大风储合作规模",
@@ -5617,17 +6578,17 @@ window.NEOLINK_FEED = {
         "methodology": "03:02抓取时代储能网项目页；按签约阶段、容量和配套升压站字段记录。"
       },
       {
-        "title": "首钢矿业用户侧储能中标容量",
-        "source": "储能中国网/首钢矿业",
+        "title": "首钢矿业水厂铁矿储能中标规模",
+        "source": "储能中国网 / 首钢集团矿业公司",
         "value": "320",
         "unit": "MWh",
-        "delta": "80MW/320MWh、收益分成17%",
+        "delta": "80MW/320MWh",
         "direction": "up",
         "date": "05-11",
         "as_of": "2026-05-11",
         "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13383.html",
-        "summary": "首钢矿业水厂铁矿储能电站项目中标结果显示，辽宁宏成供电中标，投标容量80MW/320MWh。",
-        "methodology": "01:04抓取储能中国网项目页；按中标结果公告和候选投标字段记录。"
+        "summary": "辽宁宏成供电有限公司中标首钢矿业水厂铁矿储能电站项目，投标规模80MW/320MWh。",
+        "methodology": "06:00严格小时任务：HTTP重新读取NeoLink首页与MarketTrend入口；HTTPS仍出现EOF，已保存HTTP入口快照。主动搜索并抓取国内储能中国网/时代储能网页面、SMM公开行情页，以及海外Energy-Storage.news新闻列表和正文；本轮只写入可见来源字段，不把旧日期或截断线索伪装成当日新闻。"
       },
       {
         "title": "昔阳氢储独立储能EPC候选规模",
