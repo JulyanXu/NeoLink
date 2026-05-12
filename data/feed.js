@@ -1,8 +1,66 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-05-13T01:04:00+08:00",
-  "note": "01:04严格小时任务：已重新读取 NeoLink 与 MarketTrend HTTP 线上入口，HTTPS 在本 runner 仍返回 SSL EOF；同时主动检索国内+海外公开来源，保存储能中国网、Energy-Storage.news、SMM/Metal 页面快照。本轮新增国内储能招中标/招标可信项目：河北燕赵沽源300MW/600MWh设备中标（中车株洲所、0.516元/Wh）、首钢矿业水厂铁矿320MWh用户侧储能中标、山西昔阳氢储300MW/600MWh EPC候选。海外检索复核Energy-Storage.news/Rept、ESS News、SMM英文/Metal公开页，未将旧日期海外线索伪装为新新闻；所有新增项目/指标保留 source、as_of、methodology、url 字段。",
+  "generated_at": "2026-05-13T04:04:00+08:00",
+  "note": "04:04严格小时任务：HTTP重新读取NeoLink与MarketTrend入口成功；web_extract对目标站仍受内部网络策略限制，因此使用urllib抓取Energy-Storage.news与新浪财经/华泰期货公开页并保存raw/clean快照。国内新增华泰期货/SMM碳酸锂交叉验证：LC2609收205020元/吨，SMM电池级碳酸锂191500–199000元/吨，库存102673吨；海外新增远景加拿大300MW风储合作、Alsym加州500MWh钠离子BESS合作、BW ESS澳洲700MW项目EPBC评估提交。所有新增新闻/行情/指标保留source、as_of、methodology、url字段，不做无内容纯时间刷新。",
   "sections": {
     "headlines": [
+      {
+        "source": "新浪财经 / 华泰期货 / SMM",
+        "source_type": "国内财经媒体/期货研究/专业价格源",
+        "account_name": "华泰期货研究院",
+        "category": "材料行情",
+        "title": "华泰期货复核SMM：5月11日电池级碳酸锂191500–199000元/吨，期货LC2609收205020元/吨",
+        "summary": "新浪财经5月12日发布华泰期货报告：5月11日碳酸锂主力LC2609收于205020元/吨，较结算价+3.51%；SMM电池级碳酸锂报价191500–199000元/吨、工业级187500–194000元/吨，均较前一日+1250元/吨；SMM现货库存102673吨，环比-920吨。该条用于交叉验证5月12日站内碳酸锂强势行情，不覆盖更高频SMM快照口径。",
+        "body": [
+          "期货：2026-05-11碳酸锂主力合约2609开于196560元/吨，收于205020元/吨，收盘较结算价+3.51%。",
+          "现货：根据报告引用SMM数据，电池级碳酸锂191500–199000元/吨，工业级187500–194000元/吨，均较前一日+1250元/吨。",
+          "库存：SMM现货库存102673吨，环比-920吨，其中冶炼厂18795吨、下游40568吨、其他43310吨。"
+        ],
+        "key_points": [
+          "LC2609收盘：205020元/吨。",
+          "电池级碳酸锂：191500–199000元/吨。",
+          "SMM库存：102673吨，环比-920吨。",
+          "报告发布时间：2026-05-12 11:03。"
+        ],
+        "value": "205020",
+        "unit": "元/吨",
+        "delta": "+3.51%",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
+        "clean_html": "<p>华泰期货报告称，5月11日碳酸锂LC2609收于205020元/吨，SMM电池级碳酸锂报价191500–199000元/吨。</p><p>SMM现货库存102673吨，环比减少920吨；该条用于交叉验证锂盐强势行情。</p>",
+        "caption": "华泰/SMM碳酸锂交叉验证",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "时代储能网 / 诚创公司",
+        "source_type": "国内行业媒体/企业签约",
+        "account_name": "时代储能网",
+        "category": "项目",
+        "title": "广西崇左临空经济协同区300MW/600MWh集中共享新型储能项目签约",
+        "summary": "时代储能网5月7日发布诚创公司线索，广西崇左临空经济协同区集中共享新型储能项目签约。项目由诚创方能公司、东方国开公司、鑫晟项目公司等推进，总占地约44亩，建设规模300MW/600MWh，同步配套220kV升压站；建成后将以独立主体参与广西电力市场，提供现货电能量供应、调频、事故备用等辅助服务。",
+        "body": [
+          "项目地点为广西崇左临空经济协同区，定位为集中共享新型储能项目。",
+          "公开字段披露建设规模300MW/600MWh，总占地约44亩，并配套220kV升压站。",
+          "项目建成后拟以独立主体参与广西电力市场，提供现货电能量供应、调频和事故备用等服务；当前为签约阶段，未等同于开工或并网。"
+        ],
+        "key_points": [
+          "规模：300MW/600MWh。",
+          "配套：220kV升压站。",
+          "模式：独立主体参与广西电力市场。",
+          "状态：签约，非并网。"
+        ],
+        "value": "600",
+        "unit": "MWh",
+        "delta": "签约/集中共享储能",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-07",
+        "url": "https://eraes.com.cn/newsinfo/9058259.html",
+        "clean_html": "<p>时代储能网转引诚创公司消息，广西崇左临空经济协同区集中共享新型储能项目完成签约。</p><p>项目规模300MW/600MWh，占地约44亩，配套220kV升压站；建成后拟参与广西电力市场现货和辅助服务。</p>",
+        "caption": "崇左600MWh集中共享储能",
+        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段入库，未将签约状态推断为开工或投运。"
+      },
       {
         "source_type": "国内行业媒体/招投标公开信息",
         "account_name": "储能中国网",
@@ -761,9 +819,183 @@ window.NEOLINK_FEED = {
         "as_of": "2026-04-24",
         "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
         "clean_html": "<p>Energy-Storage.News 报道，国新办一季度进出口发布会披露，中国 2026 年一季度电池出口 84.1GWh，其中约三分之一为固定式储能用途，累计储能电池出口约 27.3GWh。</p>\\n<p>海关总署在发布会上表示，发电、输变电设备和储能系统等涉电产品出口均实现两位数同比增长；机电产品出口 4.34 万亿元，同比增长 18.3%，占出口总额 63.4%。</p>\\n<p>绿色产品中，电动汽车出口同比增长 77.5%，锂电池出口同比增长 50.4%，风电机组及零部件出口同比增长 45.2%。该数据可与海关出口金额、CABIA 月度 GWh 口径共同验证储能出口景气度。</p>"
+      },
+      {
+        "source": "Energy-Storage.news / Envision Energy / Cape Breton China Corp.",
+        "source_type": "海外行业媒体/企业合作",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "远景能源拟在加拿大新斯科舍开发300MW风储混合项目",
+        "summary": "Energy-Storage.news 5月12日报道，远景能源与加拿大Cape Breton China Corp.签署战略合作协议，计划在新斯科舍Sydney探索300MW风电+电池储能混合项目；合作还覆盖风电、储能、未来能源系统和净零工业园相关培训。该项目仍处探索/合作阶段，未等同于并网或最终投资决定。",
+        "body": [
+          "双方于5月11日宣布签署战略合作，计划开发300MW混合风电和BESS项目。",
+          "项目地点为加拿大新斯科舍Sydney，旨在增强区域电网灵活性和稳定性。",
+          "报道明确为exploring/plans阶段，未披露储能时长、供应设备或FID。"
+        ],
+        "key_points": [
+          "规模：300MW风储混合项目。",
+          "主体：Envision Energy与Cape Breton China Corp.。",
+          "地区：加拿大新斯科舍Sydney。",
+          "状态：战略合作/探索阶段。"
+        ],
+        "value": "300",
+        "unit": "MW",
+        "delta": "海外风储合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
+        "clean_html": "<p>Energy-Storage.news报道，远景能源与Cape Breton China Corp.签署战略合作，计划在加拿大新斯科舍探索300MW风储混合项目。</p>",
+        "caption": "远景加拿大300MW风储",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       }
     ],
     "latest": [
+      {
+        "source": "Energy-Storage.news / BW ESS",
+        "source_type": "海外行业媒体/项目审批",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW电池储能项目",
+        "summary": "Energy-Storage.news 5月12日报道，BW ESS已将Bannaby BESS提交澳大利亚EPBC法案进行环境评估。项目位于新南威尔士Upper Lachlan Shire、Taralga以东约18公里，规划功率700MW，占地约68公顷；报道未披露储能时长。",
+        "body": [
+          "Bannaby BESS规划功率700MW，位于新南威尔士Upper Lachlan Shire。",
+          "项目占地约68公顷，当前为EPBC环境评估提交阶段。",
+          "报道提到新南威尔士2030年储能需求被上调至56GWh，作为澳洲需求背景。"
+        ],
+        "key_points": [
+          "规模：700MW。",
+          "地点：澳大利亚新南威尔士。",
+          "状态：EPBC环境评估提交。",
+          "时长：未披露。"
+        ],
+        "value": "700",
+        "unit": "MW",
+        "delta": "环境评估提交",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/bw-ess-submits-700mw-bannaby-battery-storage-project-in-nsw-to-australias-epbc-act/",
+        "clean_html": "<p>Energy-Storage.news报道，BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW BESS环境评估。</p>",
+        "caption": "澳洲Bannaby 700MW BESS",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Alsym Energy / Juniper Energy",
+        "source_type": "海外行业媒体/钠离子储能合作",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "Alsym Energy与Juniper Energy宣布加州500MWh钠离子储能战略合作",
+        "summary": "Energy-Storage.news 5月12日报道，美国钠离子电池初创公司Alsym Energy与加州可再生能源开发商Juniper Energy宣布500MWh战略合作，计划在加州部署Alsym钠离子BESS，重点面向莫哈韦沙漠等高温区域。该条用于跟踪非锂路线在高温储能场景的商业化进展。",
+        "body": [
+          "合作规模为500MWh钠离子BESS。",
+          "部署区域包括加州莫哈韦沙漠及其他高温地区。",
+          "Alsym称钠离子方案可在最高50°C环境温度下运行，仍需后续项目落地验证。"
+        ],
+        "key_points": [
+          "规模：500MWh。",
+          "路线：钠离子BESS。",
+          "场景：加州高温地区。",
+          "主体：Alsym Energy与Juniper Energy。"
+        ],
+        "value": "500",
+        "unit": "MWh",
+        "delta": "钠离子储能合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
+        "clean_html": "<p>Energy-Storage.news报道，Alsym Energy与Juniper Energy宣布在加州部署500MWh钠离子BESS战略合作，重点面向高温区域。</p>",
+        "caption": "加州500MWh钠电储能",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Envision Energy / Cape Breton China Corp.",
+        "source_type": "海外行业媒体/企业合作",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "远景能源拟在加拿大新斯科舍开发300MW风储混合项目",
+        "summary": "Energy-Storage.news 5月12日报道，远景能源与加拿大Cape Breton China Corp.签署战略合作协议，计划在新斯科舍Sydney探索300MW风电+电池储能混合项目；合作还覆盖风电、储能、未来能源系统和净零工业园相关培训。该项目仍处探索/合作阶段，未等同于并网或最终投资决定。",
+        "body": [
+          "双方于5月11日宣布签署战略合作，计划开发300MW混合风电和BESS项目。",
+          "项目地点为加拿大新斯科舍Sydney，旨在增强区域电网灵活性和稳定性。",
+          "报道明确为exploring/plans阶段，未披露储能时长、供应设备或FID。"
+        ],
+        "key_points": [
+          "规模：300MW风储混合项目。",
+          "主体：Envision Energy与Cape Breton China Corp.。",
+          "地区：加拿大新斯科舍Sydney。",
+          "状态：战略合作/探索阶段。"
+        ],
+        "value": "300",
+        "unit": "MW",
+        "delta": "海外风储合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
+        "clean_html": "<p>Energy-Storage.news报道，远景能源与Cape Breton China Corp.签署战略合作，计划在加拿大新斯科舍探索300MW风储混合项目。</p>",
+        "caption": "远景加拿大300MW风储",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "新浪财经 / 华泰期货 / SMM",
+        "source_type": "国内财经媒体/期货研究/专业价格源",
+        "account_name": "华泰期货研究院",
+        "category": "材料行情",
+        "title": "华泰期货复核SMM：5月11日电池级碳酸锂191500–199000元/吨，期货LC2609收205020元/吨",
+        "summary": "新浪财经5月12日发布华泰期货报告：5月11日碳酸锂主力LC2609收于205020元/吨，较结算价+3.51%；SMM电池级碳酸锂报价191500–199000元/吨、工业级187500–194000元/吨，均较前一日+1250元/吨；SMM现货库存102673吨，环比-920吨。该条用于交叉验证5月12日站内碳酸锂强势行情，不覆盖更高频SMM快照口径。",
+        "body": [
+          "期货：2026-05-11碳酸锂主力合约2609开于196560元/吨，收于205020元/吨，收盘较结算价+3.51%。",
+          "现货：根据报告引用SMM数据，电池级碳酸锂191500–199000元/吨，工业级187500–194000元/吨，均较前一日+1250元/吨。",
+          "库存：SMM现货库存102673吨，环比-920吨，其中冶炼厂18795吨、下游40568吨、其他43310吨。"
+        ],
+        "key_points": [
+          "LC2609收盘：205020元/吨。",
+          "电池级碳酸锂：191500–199000元/吨。",
+          "SMM库存：102673吨，环比-920吨。",
+          "报告发布时间：2026-05-12 11:03。"
+        ],
+        "value": "205020",
+        "unit": "元/吨",
+        "delta": "+3.51%",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
+        "clean_html": "<p>华泰期货报告称，5月11日碳酸锂LC2609收于205020元/吨，SMM电池级碳酸锂报价191500–199000元/吨。</p><p>SMM现货库存102673吨，环比减少920吨；该条用于交叉验证锂盐强势行情。</p>",
+        "caption": "华泰/SMM碳酸锂交叉验证",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "时代储能网 / 诚创公司",
+        "source_type": "国内行业媒体/企业签约",
+        "account_name": "时代储能网",
+        "category": "项目",
+        "title": "广西崇左临空经济协同区300MW/600MWh集中共享新型储能项目签约",
+        "summary": "时代储能网5月7日发布诚创公司线索，广西崇左临空经济协同区集中共享新型储能项目签约。项目由诚创方能公司、东方国开公司、鑫晟项目公司等推进，总占地约44亩，建设规模300MW/600MWh，同步配套220kV升压站；建成后将以独立主体参与广西电力市场，提供现货电能量供应、调频、事故备用等辅助服务。",
+        "body": [
+          "项目地点为广西崇左临空经济协同区，定位为集中共享新型储能项目。",
+          "公开字段披露建设规模300MW/600MWh，总占地约44亩，并配套220kV升压站。",
+          "项目建成后拟以独立主体参与广西电力市场，提供现货电能量供应、调频和事故备用等服务；当前为签约阶段，未等同于开工或并网。"
+        ],
+        "key_points": [
+          "规模：300MW/600MWh。",
+          "配套：220kV升压站。",
+          "模式：独立主体参与广西电力市场。",
+          "状态：签约，非并网。"
+        ],
+        "value": "600",
+        "unit": "MWh",
+        "delta": "签约/集中共享储能",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-07",
+        "url": "https://eraes.com.cn/newsinfo/9058259.html",
+        "clean_html": "<p>时代储能网转引诚创公司消息，广西崇左临空经济协同区集中共享新型储能项目完成签约。</p><p>项目规模300MW/600MWh，占地约44亩，配套220kV升压站；建成后拟参与广西电力市场现货和辅助服务。</p>",
+        "caption": "崇左600MWh集中共享储能",
+        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段入库，未将签约状态推断为开工或投运。"
+      },
       {
         "source_type": "国内行业媒体/招投标公开信息",
         "account_name": "储能中国网",
@@ -910,33 +1142,33 @@ window.NEOLINK_FEED = {
         "methodology": "00:06抓取Energy-Storage.news公开页；该来源发布日期为2026-02-24，作为海外需求背景与情绪证据，不标记为5月新发生事件。"
       },
       {
-        "source": "时代储能网 / 央视 / 湖北长阳项目线索",
-        "source_type": "国内行业媒体/示范项目",
+        "source": "时代储能网 / 鲁信能源",
+        "source_type": "国内行业媒体/工商业储能并网",
         "account_name": "时代储能网",
         "category": "项目",
-        "title": "鄂西首个大型电网侧全钒液流储能项目获央视关注：50MW/200MWh",
-        "summary": "时代储能网5月12日列表显示，湖北长阳龙舟坪镇50MW/200MWh全钒液流新型储能电站项目获央视关注。摘要称该项目是湖北省新型储能电站试点示范项目、鄂西地区首个大型电网侧全钒液流电池储能项目，并将与清江抽水蓄能形成“抽蓄+电化学储能”互补格局。",
+        "title": "鲁信能源首个工商业用户侧储能项目并网运行",
+        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运维、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
         "body": [
-          "项目位于湖北省宜昌市长阳经济开发区，规划装机容量50MW/200MWh，采用全钒液流电池技术。",
-          "公开摘要称项目可通过“低谷充电、高峰放电”实现电力资源调控，并与宜昌清江抽水蓄能电站形成互补。",
-          "该条对非锂长时储能、钒液流电池及电网侧示范项目具有信息价值，站内归入项目/技术路线。"
+          "5月11日，鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
+          "该项目为鲁信能源首个工商业用户侧储能试点项目，体现工商业场景从项目线索走向投运。",
+          "公开列表未披露容量和投资额，站内仅记录并网状态、参与主体和应用场景。"
         ],
         "key_points": [
-          "规模：50MW/200MWh。",
-          "技术路线：全钒液流电池。",
-          "属性：湖北省新型储能试点示范、鄂西首个大型电网侧全钒液流项目。",
-          "应用：低谷充电、高峰放电，与抽蓄互补。"
+          "主体：山东鲁信能源投资管理股份有限公司。",
+          "场景：工商业用户侧储能。",
+          "状态：5月11日正式并网运行。",
+          "披露限制：未见容量和单价字段。"
         ],
-        "value": "200",
-        "unit": "MWh",
-        "delta": "示范项目",
+        "value": "1",
+        "unit": "个并网试点",
+        "delta": "首个工商业用户侧项目",
         "direction": "up",
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>湖北长阳龙舟坪镇50MW/200MWh全钒液流新型储能电站项目获央视关注；项目位于宜昌长阳经济开发区，采用全钒液流电池技术。</p><p>该项目与清江抽水蓄能形成“抽蓄+电化学储能”互补格局，作为长时储能技术路线线索入库。</p>",
-        "caption": "全钒液流示范项目",
-        "methodology": "00:06抓取Eraes公开列表页，抽取项目地点、规模、技术路线和示范属性；待官方项目详情继续复核。"
+        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
+        "caption": "鲁信工商业储能并网",
+        "methodology": "03:02抓取时代储能网招投标/产业动态列表；仅抽取列表披露的并网时间、主体和场景，未推断容量、价格或收益。"
       },
       {
         "source": "时代储能网 / 亿纬锂能 / 印度GNEPL",
@@ -3393,33 +3625,62 @@ window.NEOLINK_FEED = {
     ],
     "enterprise": [
       {
-        "source": "时代储能网 / 亿纬锂能 / 印度GNEPL",
-        "source_type": "国内行业媒体/海外订单合作",
-        "account_name": "时代储能网",
-        "category": "企业",
-        "title": "亿纬锂能与印度GNEPL签约8GWh订单，五年合作目标60GWh",
-        "summary": "时代储能网5月12日列表显示，亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。该线索显示中国储能电池企业在印度及东南亚周边市场继续推进长期供货合作，对储能电芯出海和LFP供应链情绪偏正面；具体产品、价格和交付节奏仍需等待公司公告或项目合同细节。",
+        "source": "Energy-Storage.news / Envision Energy / Cape Breton China Corp.",
+        "source_type": "海外行业媒体/企业合作",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "远景能源拟在加拿大新斯科舍开发300MW风储混合项目",
+        "summary": "Energy-Storage.news 5月12日报道，远景能源与加拿大Cape Breton China Corp.签署战略合作协议，计划在新斯科舍Sydney探索300MW风电+电池储能混合项目；合作还覆盖风电、储能、未来能源系统和净零工业园相关培训。该项目仍处探索/合作阶段，未等同于并网或最终投资决定。",
         "body": [
-          "Eraes页面标题为“亿纬锂能×印度GNEPL | 签约8GWh订单，五年60GWh合作，共筑东南…”，发布时间为2026-05-12。",
-          "可抽取的核心量化字段为8GWh订单和五年60GWh合作目标，合作方为印度GNEPL。",
-          "因列表摘要截断，未将60GWh等同于已锁定交付或收入确认；站内按海外合作/订单线索处理。"
+          "双方于5月11日宣布签署战略合作，计划开发300MW混合风电和BESS项目。",
+          "项目地点为加拿大新斯科舍Sydney，旨在增强区域电网灵活性和稳定性。",
+          "报道明确为exploring/plans阶段，未披露储能时长、供应设备或FID。"
         ],
         "key_points": [
-          "签约订单：8GWh。",
-          "五年合作目标：60GWh。",
-          "合作方：印度GNEPL。",
-          "情绪影响：储能电芯出口/海外需求偏正面。"
+          "规模：300MW风储混合项目。",
+          "主体：Envision Energy与Cape Breton China Corp.。",
+          "地区：加拿大新斯科舍Sydney。",
+          "状态：战略合作/探索阶段。"
         ],
-        "value": "8",
-        "unit": "GWh订单",
-        "delta": "五年60GWh合作目标",
+        "value": "300",
+        "unit": "MW",
+        "delta": "海外风储合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
+        "clean_html": "<p>Energy-Storage.news报道，远景能源与Cape Breton China Corp.签署战略合作，计划在加拿大新斯科舍探索300MW风储混合项目。</p>",
+        "caption": "远景加拿大300MW风储",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "时代储能网 / 鲁信能源",
+        "source_type": "国内行业媒体/工商业储能并网",
+        "account_name": "时代储能网",
+        "category": "项目",
+        "title": "鲁信能源首个工商业用户侧储能项目并网运行",
+        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运维、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
+        "body": [
+          "5月11日，鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
+          "该项目为鲁信能源首个工商业用户侧储能试点项目，体现工商业场景从项目线索走向投运。",
+          "公开列表未披露容量和投资额，站内仅记录并网状态、参与主体和应用场景。"
+        ],
+        "key_points": [
+          "主体：山东鲁信能源投资管理股份有限公司。",
+          "场景：工商业用户侧储能。",
+          "状态：5月11日正式并网运行。",
+          "披露限制：未见容量和单价字段。"
+        ],
+        "value": "1",
+        "unit": "个并网试点",
+        "delta": "首个工商业用户侧项目",
         "direction": "up",
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。</p><p>当前公开列表未披露价格、产品型号和确认收入节奏，按海外订单合作线索入库。</p>",
-        "caption": "亿纬锂能印度合作",
-        "methodology": "00:06抓取Eraes公开列表页，抽取订单规模、合作目标和合作方；以列表公开字段为准，未推断交易价格。"
+        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
+        "caption": "鲁信工商业储能并网",
+        "methodology": "03:02抓取时代储能网招投标/产业动态列表；仅抽取列表披露的并网时间、主体和场景，未推断容量、价格或收益。"
       },
       {
         "source": "时代储能网 / Eraes 招投标与产业动态",
@@ -3808,6 +4069,122 @@ window.NEOLINK_FEED = {
     ],
     "project": [
       {
+        "source": "Energy-Storage.news / BW ESS",
+        "source_type": "海外行业媒体/项目审批",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW电池储能项目",
+        "summary": "Energy-Storage.news 5月12日报道，BW ESS已将Bannaby BESS提交澳大利亚EPBC法案进行环境评估。项目位于新南威尔士Upper Lachlan Shire、Taralga以东约18公里，规划功率700MW，占地约68公顷；报道未披露储能时长。",
+        "body": [
+          "Bannaby BESS规划功率700MW，位于新南威尔士Upper Lachlan Shire。",
+          "项目占地约68公顷，当前为EPBC环境评估提交阶段。",
+          "报道提到新南威尔士2030年储能需求被上调至56GWh，作为澳洲需求背景。"
+        ],
+        "key_points": [
+          "规模：700MW。",
+          "地点：澳大利亚新南威尔士。",
+          "状态：EPBC环境评估提交。",
+          "时长：未披露。"
+        ],
+        "value": "700",
+        "unit": "MW",
+        "delta": "环境评估提交",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/bw-ess-submits-700mw-bannaby-battery-storage-project-in-nsw-to-australias-epbc-act/",
+        "clean_html": "<p>Energy-Storage.news报道，BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW BESS环境评估。</p>",
+        "caption": "澳洲Bannaby 700MW BESS",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Alsym Energy / Juniper Energy",
+        "source_type": "海外行业媒体/钠离子储能合作",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "Alsym Energy与Juniper Energy宣布加州500MWh钠离子储能战略合作",
+        "summary": "Energy-Storage.news 5月12日报道，美国钠离子电池初创公司Alsym Energy与加州可再生能源开发商Juniper Energy宣布500MWh战略合作，计划在加州部署Alsym钠离子BESS，重点面向莫哈韦沙漠等高温区域。该条用于跟踪非锂路线在高温储能场景的商业化进展。",
+        "body": [
+          "合作规模为500MWh钠离子BESS。",
+          "部署区域包括加州莫哈韦沙漠及其他高温地区。",
+          "Alsym称钠离子方案可在最高50°C环境温度下运行，仍需后续项目落地验证。"
+        ],
+        "key_points": [
+          "规模：500MWh。",
+          "路线：钠离子BESS。",
+          "场景：加州高温地区。",
+          "主体：Alsym Energy与Juniper Energy。"
+        ],
+        "value": "500",
+        "unit": "MWh",
+        "delta": "钠离子储能合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
+        "clean_html": "<p>Energy-Storage.news报道，Alsym Energy与Juniper Energy宣布在加州部署500MWh钠离子BESS战略合作，重点面向高温区域。</p>",
+        "caption": "加州500MWh钠电储能",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / Envision Energy / Cape Breton China Corp.",
+        "source_type": "海外行业媒体/企业合作",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "远景能源拟在加拿大新斯科舍开发300MW风储混合项目",
+        "summary": "Energy-Storage.news 5月12日报道，远景能源与加拿大Cape Breton China Corp.签署战略合作协议，计划在新斯科舍Sydney探索300MW风电+电池储能混合项目；合作还覆盖风电、储能、未来能源系统和净零工业园相关培训。该项目仍处探索/合作阶段，未等同于并网或最终投资决定。",
+        "body": [
+          "双方于5月11日宣布签署战略合作，计划开发300MW混合风电和BESS项目。",
+          "项目地点为加拿大新斯科舍Sydney，旨在增强区域电网灵活性和稳定性。",
+          "报道明确为exploring/plans阶段，未披露储能时长、供应设备或FID。"
+        ],
+        "key_points": [
+          "规模：300MW风储混合项目。",
+          "主体：Envision Energy与Cape Breton China Corp.。",
+          "地区：加拿大新斯科舍Sydney。",
+          "状态：战略合作/探索阶段。"
+        ],
+        "value": "300",
+        "unit": "MW",
+        "delta": "海外风储合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
+        "clean_html": "<p>Energy-Storage.news报道，远景能源与Cape Breton China Corp.签署战略合作，计划在加拿大新斯科舍探索300MW风储混合项目。</p>",
+        "caption": "远景加拿大300MW风储",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "时代储能网 / 诚创公司",
+        "source_type": "国内行业媒体/企业签约",
+        "account_name": "时代储能网",
+        "category": "项目",
+        "title": "广西崇左临空经济协同区300MW/600MWh集中共享新型储能项目签约",
+        "summary": "时代储能网5月7日发布诚创公司线索，广西崇左临空经济协同区集中共享新型储能项目签约。项目由诚创方能公司、东方国开公司、鑫晟项目公司等推进，总占地约44亩，建设规模300MW/600MWh，同步配套220kV升压站；建成后将以独立主体参与广西电力市场，提供现货电能量供应、调频、事故备用等辅助服务。",
+        "body": [
+          "项目地点为广西崇左临空经济协同区，定位为集中共享新型储能项目。",
+          "公开字段披露建设规模300MW/600MWh，总占地约44亩，并配套220kV升压站。",
+          "项目建成后拟以独立主体参与广西电力市场，提供现货电能量供应、调频和事故备用等服务；当前为签约阶段，未等同于开工或并网。"
+        ],
+        "key_points": [
+          "规模：300MW/600MWh。",
+          "配套：220kV升压站。",
+          "模式：独立主体参与广西电力市场。",
+          "状态：签约，非并网。"
+        ],
+        "value": "600",
+        "unit": "MWh",
+        "delta": "签约/集中共享储能",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-07",
+        "url": "https://eraes.com.cn/newsinfo/9058259.html",
+        "clean_html": "<p>时代储能网转引诚创公司消息，广西崇左临空经济协同区集中共享新型储能项目完成签约。</p><p>项目规模300MW/600MWh，占地约44亩，配套220kV升压站；建成后拟参与广西电力市场现货和辅助服务。</p>",
+        "caption": "崇左600MWh集中共享储能",
+        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段入库，未将签约状态推断为开工或投运。"
+      },
+      {
         "source_type": "国内行业媒体/招投标公开信息",
         "account_name": "储能中国网",
         "category": "项目",
@@ -3895,33 +4272,33 @@ window.NEOLINK_FEED = {
         "methodology": "01:04抓取储能中国网项目页并保存原始HTML；以中标结果公示、候选公示报价和项目规模字段为准，未推断未披露设备型号。"
       },
       {
-        "source": "时代储能网 / 央视 / 湖北长阳项目线索",
-        "source_type": "国内行业媒体/示范项目",
+        "source": "时代储能网 / 鲁信能源",
+        "source_type": "国内行业媒体/工商业储能并网",
         "account_name": "时代储能网",
         "category": "项目",
-        "title": "鄂西首个大型电网侧全钒液流储能项目获央视关注：50MW/200MWh",
-        "summary": "时代储能网5月12日列表显示，湖北长阳龙舟坪镇50MW/200MWh全钒液流新型储能电站项目获央视关注。摘要称该项目是湖北省新型储能电站试点示范项目、鄂西地区首个大型电网侧全钒液流电池储能项目，并将与清江抽水蓄能形成“抽蓄+电化学储能”互补格局。",
+        "title": "鲁信能源首个工商业用户侧储能项目并网运行",
+        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运维、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
         "body": [
-          "项目位于湖北省宜昌市长阳经济开发区，规划装机容量50MW/200MWh，采用全钒液流电池技术。",
-          "公开摘要称项目可通过“低谷充电、高峰放电”实现电力资源调控，并与宜昌清江抽水蓄能电站形成互补。",
-          "该条对非锂长时储能、钒液流电池及电网侧示范项目具有信息价值，站内归入项目/技术路线。"
+          "5月11日，鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
+          "该项目为鲁信能源首个工商业用户侧储能试点项目，体现工商业场景从项目线索走向投运。",
+          "公开列表未披露容量和投资额，站内仅记录并网状态、参与主体和应用场景。"
         ],
         "key_points": [
-          "规模：50MW/200MWh。",
-          "技术路线：全钒液流电池。",
-          "属性：湖北省新型储能试点示范、鄂西首个大型电网侧全钒液流项目。",
-          "应用：低谷充电、高峰放电，与抽蓄互补。"
+          "主体：山东鲁信能源投资管理股份有限公司。",
+          "场景：工商业用户侧储能。",
+          "状态：5月11日正式并网运行。",
+          "披露限制：未见容量和单价字段。"
         ],
-        "value": "200",
-        "unit": "MWh",
-        "delta": "示范项目",
+        "value": "1",
+        "unit": "个并网试点",
+        "delta": "首个工商业用户侧项目",
         "direction": "up",
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>湖北长阳龙舟坪镇50MW/200MWh全钒液流新型储能电站项目获央视关注；项目位于宜昌长阳经济开发区，采用全钒液流电池技术。</p><p>该项目与清江抽水蓄能形成“抽蓄+电化学储能”互补格局，作为长时储能技术路线线索入库。</p>",
-        "caption": "全钒液流示范项目",
-        "methodology": "00:06抓取Eraes公开列表页，抽取项目地点、规模、技术路线和示范属性；待官方项目详情继续复核。"
+        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
+        "caption": "鲁信工商业储能并网",
+        "methodology": "03:02抓取时代储能网招投标/产业动态列表；仅抽取列表披露的并网时间、主体和场景，未推断容量、价格或收益。"
       },
       {
         "source": "时代储能网 / SERMATEC 赛唯数字能源",
@@ -4207,6 +4584,35 @@ window.NEOLINK_FEED = {
     ],
     "policy": [
       {
+        "source": "Energy-Storage.news / BW ESS",
+        "source_type": "海外行业媒体/项目审批",
+        "account_name": "Energy-Storage.news",
+        "category": "海外项目",
+        "title": "BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW电池储能项目",
+        "summary": "Energy-Storage.news 5月12日报道，BW ESS已将Bannaby BESS提交澳大利亚EPBC法案进行环境评估。项目位于新南威尔士Upper Lachlan Shire、Taralga以东约18公里，规划功率700MW，占地约68公顷；报道未披露储能时长。",
+        "body": [
+          "Bannaby BESS规划功率700MW，位于新南威尔士Upper Lachlan Shire。",
+          "项目占地约68公顷，当前为EPBC环境评估提交阶段。",
+          "报道提到新南威尔士2030年储能需求被上调至56GWh，作为澳洲需求背景。"
+        ],
+        "key_points": [
+          "规模：700MW。",
+          "地点：澳大利亚新南威尔士。",
+          "状态：EPBC环境评估提交。",
+          "时长：未披露。"
+        ],
+        "value": "700",
+        "unit": "MW",
+        "delta": "环境评估提交",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/bw-ess-submits-700mw-bannaby-battery-storage-project-in-nsw-to-australias-epbc-act/",
+        "clean_html": "<p>Energy-Storage.news报道，BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW BESS环境评估。</p>",
+        "caption": "澳洲Bannaby 700MW BESS",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
         "source": "SMM 上海有色 / Shanghai Metals Market",
         "source_type": "专业数据机构/产业榜单调研",
         "account_name": "SMM",
@@ -4303,6 +4709,35 @@ window.NEOLINK_FEED = {
       }
     ],
     "materials": [
+      {
+        "source": "新浪财经 / 华泰期货 / SMM",
+        "source_type": "国内财经媒体/期货研究/专业价格源",
+        "account_name": "华泰期货研究院",
+        "category": "材料行情",
+        "title": "华泰期货复核SMM：5月11日电池级碳酸锂191500–199000元/吨，期货LC2609收205020元/吨",
+        "summary": "新浪财经5月12日发布华泰期货报告：5月11日碳酸锂主力LC2609收于205020元/吨，较结算价+3.51%；SMM电池级碳酸锂报价191500–199000元/吨、工业级187500–194000元/吨，均较前一日+1250元/吨；SMM现货库存102673吨，环比-920吨。该条用于交叉验证5月12日站内碳酸锂强势行情，不覆盖更高频SMM快照口径。",
+        "body": [
+          "期货：2026-05-11碳酸锂主力合约2609开于196560元/吨，收于205020元/吨，收盘较结算价+3.51%。",
+          "现货：根据报告引用SMM数据，电池级碳酸锂191500–199000元/吨，工业级187500–194000元/吨，均较前一日+1250元/吨。",
+          "库存：SMM现货库存102673吨，环比-920吨，其中冶炼厂18795吨、下游40568吨、其他43310吨。"
+        ],
+        "key_points": [
+          "LC2609收盘：205020元/吨。",
+          "电池级碳酸锂：191500–199000元/吨。",
+          "SMM库存：102673吨，环比-920吨。",
+          "报告发布时间：2026-05-12 11:03。"
+        ],
+        "value": "205020",
+        "unit": "元/吨",
+        "delta": "+3.51%",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
+        "clean_html": "<p>华泰期货报告称，5月11日碳酸锂LC2609收于205020元/吨，SMM电池级碳酸锂报价191500–199000元/吨。</p><p>SMM现货库存102673吨，环比减少920吨；该条用于交叉验证锂盐强势行情。</p>",
+        "caption": "华泰/SMM碳酸锂交叉验证",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
       {
         "source": "Benchmark Mineral Intelligence",
         "source_type": "海外价格机构/方法口径",
@@ -4804,6 +5239,71 @@ window.NEOLINK_FEED = {
     ],
     "metrics": [
       {
+        "title": "BW ESS Bannaby项目功率",
+        "source": "Energy-Storage.news",
+        "value": "700",
+        "unit": "MW",
+        "delta": "EPBC评估提交",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/bw-ess-submits-700mw-bannaby-battery-storage-project-in-nsw-to-australias-epbc-act/",
+        "summary": "BW ESS向澳大利亚EPBC提交新南威尔士700MW Bannaby BESS项目。",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "title": "Alsym加州钠离子BESS合作",
+        "source": "Energy-Storage.news",
+        "value": "500",
+        "unit": "MWh",
+        "delta": "钠离子路线",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
+        "summary": "Alsym与Juniper计划在加州部署500MWh钠离子BESS。",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "title": "远景加拿大风储合作规模",
+        "source": "Energy-Storage.news",
+        "value": "300",
+        "unit": "MW",
+        "delta": "战略合作",
+        "direction": "up",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
+        "summary": "远景能源与Cape Breton China Corp.计划探索300MW风储混合项目。",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "title": "SMM碳酸锂现货库存",
+        "source": "华泰期货 / SMM",
+        "value": "102673",
+        "unit": "吨",
+        "delta": "环比-920吨",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
+        "summary": "SMM现货库存102673吨，其中冶炼厂18795吨、下游40568吨、其他43310吨。",
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "title": "崇左临空集中共享储能签约规模",
+        "source": "时代储能网/诚创公司",
+        "value": "600",
+        "unit": "MWh",
+        "delta": "300MW/600MWh，配套220kV升压站",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-07",
+        "url": "https://eraes.com.cn/newsinfo/9058259.html",
+        "summary": "广西崇左临空经济协同区集中共享新型储能项目签约，公开规模300MW/600MWh，占地约44亩。",
+        "methodology": "03:02抓取时代储能网项目页；按签约阶段、容量和配套升压站字段入库。"
+      },
+      {
         "title": "首钢矿业用户侧储能中标容量",
         "source": "储能中国网/首钢矿业",
         "value": "320",
@@ -4843,17 +5343,17 @@ window.NEOLINK_FEED = {
         "methodology": "01:04抓取储能中国网项目页；按公示规模与报价折算口径入库。"
       },
       {
-        "title": "海善储能制造项目规划产能",
-        "source": "Eraes 5月12日",
-        "value": "15",
-        "unit": "GWh",
-        "delta": "总投资20亿元",
+        "title": "鲁信能源工商业用户侧储能试点",
+        "source": "时代储能网/鲁信能源",
+        "value": "1",
+        "unit": "个并网项目",
+        "delta": "首个用户侧储能试点并网",
         "direction": "up",
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "summary": "内蒙古海善储能15GWh储能智能制造产业项目开工，总投资20亿元。",
-        "methodology": "Eraes公开列表页抽取；按产能线索处理。"
+        "summary": "鲁信能源首个工商业用户侧储能项目于5月11日并网运行，公开列表未披露容量。",
+        "methodology": "03:02抓取时代储能网列表；仅按公开并网状态和主体入库，不推断规模。"
       },
       {
         "title": "亿纬锂能印度GNEPL订单",
