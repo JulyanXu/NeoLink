@@ -1,8 +1,37 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-05-13T04:04:00+08:00",
-  "note": "04:04严格小时任务：HTTP重新读取NeoLink与MarketTrend入口成功；web_extract对目标站仍受内部网络策略限制，因此使用urllib抓取Energy-Storage.news与新浪财经/华泰期货公开页并保存raw/clean快照。国内新增华泰期货/SMM碳酸锂交叉验证：LC2609收205020元/吨，SMM电池级碳酸锂191500–199000元/吨，库存102673吨；海外新增远景加拿大300MW风储合作、Alsym加州500MWh钠离子BESS合作、BW ESS澳洲700MW项目EPBC评估提交。所有新增新闻/行情/指标保留source、as_of、methodology、url字段，不做无内容纯时间刷新。",
+  "generated_at": "2026-05-13T05:05:00+08:00",
+  "note": "05:05严格小时任务：已重新读取NeoLink与MarketTrend线上入口并主动搜索国内+海外公开来源；新增SMM电池级碳酸锂公开行情200000元/吨、价格指数200390元/吨；新增中国储能网/新浪财经招中标动态，宁夏0.6GW/1.2GWh储能系统采购因有效投标人不足3家流标；新增BNEF/ESN全球储能展望，2026年非抽蓄储能新增预测158GW/459GWh。MarketTrend同步刷新锂盐指数、舆情证据和关键词；不做无内容纯时间刷新。",
   "sections": {
     "headlines": [
+      {
+        "source": "SMM上海有色",
+        "source_type": "专业价格源/公开行情页",
+        "account_name": "SMM上海有色",
+        "category": "材料行情",
+        "title": "SMM公开行情页显示电池级碳酸锂均价200000元/吨，较前值上涨4750元/吨",
+        "summary": "5月13日小时巡检中，SMM电池级碳酸锂公开行情页可见价格区间197000–203000元/吨、均价200000元/吨，日变动+4750元/吨；电池级碳酸锂价格指数可见200390元/吨、+5097元/吨。该口径用于刷新主材趋势和MarketTrend锂盐情绪，不与期货价直接混算。",
+        "body": [
+          "SMM公开行情页在本轮搜索结果中显示，电池级碳酸锂价格区间为197000–203000元/吨，均价200000元/吨，较前值上涨4750元/吨。",
+          "同页可见电池级碳酸锂价格指数为200390元/吨，变动+5097元/吨。",
+          "该数据为公开可见价格页口径，用于站内主材趋势和MarketTrend锂盐情绪；不同来源、现货指数与期货合约不直接混算。"
+        ],
+        "key_points": [
+          "电池级碳酸锂：197000–203000元/吨。",
+          "公开均价：200000元/吨。",
+          "日变动：+4750元/吨。",
+          "价格指数：200390元/吨，+5097元/吨。"
+        ],
+        "value": "20.00",
+        "unit": "万元/吨",
+        "delta": "+4750元/吨",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "clean_html": "<p>SMM公开行情页显示，电池级碳酸锂价格区间197000–203000元/吨，均价200000元/吨，较前值上涨4750元/吨。</p><p>电池级碳酸锂价格指数可见200390元/吨、+5097元/吨；该口径不与期货价格直接混算。</p>",
+        "caption": "SMM电池级碳酸锂公开价",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
       {
         "source": "新浪财经 / 华泰期货 / SMM",
         "source_type": "国内财经媒体/期货研究/专业价格源",
@@ -30,7 +59,7 @@ window.NEOLINK_FEED = {
         "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
         "clean_html": "<p>华泰期货报告称，5月11日碳酸锂LC2609收于205020元/吨，SMM电池级碳酸锂报价191500–199000元/吨。</p><p>SMM现货库存102673吨，环比减少920吨；该条用于交叉验证锂盐强势行情。</p>",
         "caption": "华泰/SMM碳酸锂交叉验证",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "时代储能网 / 诚创公司",
@@ -59,7 +88,7 @@ window.NEOLINK_FEED = {
         "url": "https://eraes.com.cn/newsinfo/9058259.html",
         "clean_html": "<p>时代储能网转引诚创公司消息，广西崇左临空经济协同区集中共享新型储能项目完成签约。</p><p>项目规模300MW/600MWh，占地约44亩，配套220kV升压站；建成后拟参与广西电力市场现货和辅助服务。</p>",
         "caption": "崇左600MWh集中共享储能",
-        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段入库，未将签约状态推断为开工或投运。"
+        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段记录，未将签约状态推断为开工或投运。"
       },
       {
         "source_type": "国内行业媒体/招投标公开信息",
@@ -88,7 +117,7 @@ window.NEOLINK_FEED = {
         "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13382.html",
         "clean_html": "<p>昔阳氢储300MW/600MWh独立储能EPC总承包中标候选人公示，山西省安装集团为第一中标候选人。</p><p>投标报价6.72亿元，折合约1.120元/Wh；项目计划工期12个月。</p>",
         "caption": "昔阳氢储独立储能EPC",
-        "methodology": "01:04抓取储能中国网项目页；按中标候选公示披露的候选人、报价、规模和工期入库，未将候选等同最终中标。"
+        "methodology": "01:04抓取储能中国网项目页；按中标候选公示披露的候选人、报价、规模和工期记录，未将候选等同最终中标。"
       },
       {
         "source_type": "国内行业媒体/招投标公开信息",
@@ -173,7 +202,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。</p><p>当前公开列表未披露价格、产品型号和确认收入节奏，按海外订单合作线索入库。</p>",
+        "clean_html": "<p>Eraes 5月12日页面列出，亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。</p><p>当前公开列表未披露价格、产品型号和确认收入节奏，按海外订单合作线索记录。</p>",
         "caption": "亿纬锂能印度合作",
         "methodology": "00:06抓取Eraes公开列表页，抽取订单规模、合作目标和合作方；以列表公开字段为准，未推断交易价格。"
       },
@@ -202,7 +231,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，赛唯数字能源奥地利200MWh大储项目顺利交付。</p><p>该条作为中国储能系统企业海外交付线索入库，待后续补充业主、系统参数和并网状态。</p>",
+        "clean_html": "<p>Eraes 5月12日页面列出，赛唯数字能源奥地利200MWh大储项目顺利交付。</p><p>该条作为中国储能系统企业海外交付线索记录，待后续补充业主、系统参数和并网状态。</p>",
         "caption": "奥地利200MWh大储交付",
         "methodology": "00:06抓取Eraes公开列表页，抽取项目主体、国家、规模和状态；因正文未展开，保守标注为行业媒体项目线索。"
       },
@@ -231,7 +260,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，内蒙古海善储能15GWh储能智能制造产业项目近日在阿拉善高新区开工，总投资20亿元。</p><p>该条作为储能制造产能线索入库，暂不等同于已投产产能或已确认订单。</p>",
+        "clean_html": "<p>Eraes 5月12日页面列出，内蒙古海善储能15GWh储能智能制造产业项目近日在阿拉善高新区开工，总投资20亿元。</p><p>该条作为储能制造产能线索记录，暂不等同于已投产产能或已确认订单。</p>",
         "caption": "15GWh储能制造产能",
         "methodology": "00:06抓取Eraes公开列表页，提取标题、日期、投资额、规划产能和地点；因缺少公告全文，标注为行业媒体线索并待官方/企业公告复核。"
       },
@@ -847,10 +876,126 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
         "clean_html": "<p>Energy-Storage.news报道，远景能源与Cape Breton China Corp.签署战略合作，计划在加拿大新斯科舍探索300MW风储混合项目。</p>",
         "caption": "远景加拿大300MW风储",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / BloombergNEF",
+        "source_type": "海外行业媒体/专业研究机构预测",
+        "account_name": "Energy-Storage.news",
+        "category": "海外市场",
+        "title": "BNEF预计2026年全球非抽蓄储能新增158GW/459GWh，较2025年功率口径增长约41%",
+        "summary": "Energy-Storage.news 5月8日报道，BloombergNEF在Energy Storage Outlook H1 2026中统计2025年全球非抽蓄储能新增112GW/307GWh，并预测2026年新增部署158GW/459GWh；到2036年年度新增有望达到308GW，累计容量达到2.9TW/10.5TWh。该条用于海外需求和MarketTrend情绪证据。",
+        "body": [
+          "BNEF统计2025年全球非抽蓄储能新增112GW/307GWh，创历史新高。",
+          "BNEF预计2026年全球新增部署158GW/459GWh，功率口径较2025年增长约41%。",
+          "长期预测方面，BNEF预计2036年年度新增达到308GW，届时累计容量达到2.9TW/10.5TWh；该预测来源为研究机构展望，实际落地仍受并网、政策、融资和供应链影响。"
+        ],
+        "key_points": [
+          "2025年新增：112GW/307GWh。",
+          "2026年预测：158GW/459GWh。",
+          "2036年年度新增预测：308GW。",
+          "2036年累计容量预测：2.9TW/10.5TWh。"
+        ],
+        "value": "459",
+        "unit": "GWh（2026E）",
+        "delta": "功率口径约+41%",
+        "direction": "up",
+        "date": "05-08",
+        "as_of": "2026-05-08",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>Energy-Storage.news转述BloombergNEF称，2025年全球非抽蓄储能新增112GW/307GWh，2026年预计新增158GW/459GWh。</p><p>BNEF还预测2036年年度新增308GW、累计容量2.9TW/10.5TWh。</p>",
+        "caption": "BNEF全球储能展望",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
       }
     ],
     "latest": [
+      {
+        "source": "SMM上海有色",
+        "source_type": "专业价格源/公开行情页",
+        "account_name": "SMM上海有色",
+        "category": "材料行情",
+        "title": "SMM公开行情页显示电池级碳酸锂均价200000元/吨，较前值上涨4750元/吨",
+        "summary": "5月13日小时巡检中，SMM电池级碳酸锂公开行情页可见价格区间197000–203000元/吨、均价200000元/吨，日变动+4750元/吨；电池级碳酸锂价格指数可见200390元/吨、+5097元/吨。该口径用于刷新主材趋势和MarketTrend锂盐情绪，不与期货价直接混算。",
+        "body": [
+          "SMM公开行情页在本轮搜索结果中显示，电池级碳酸锂价格区间为197000–203000元/吨，均价200000元/吨，较前值上涨4750元/吨。",
+          "同页可见电池级碳酸锂价格指数为200390元/吨，变动+5097元/吨。",
+          "该数据为公开可见价格页口径，用于站内主材趋势和MarketTrend锂盐情绪；不同来源、现货指数与期货合约不直接混算。"
+        ],
+        "key_points": [
+          "电池级碳酸锂：197000–203000元/吨。",
+          "公开均价：200000元/吨。",
+          "日变动：+4750元/吨。",
+          "价格指数：200390元/吨，+5097元/吨。"
+        ],
+        "value": "20.00",
+        "unit": "万元/吨",
+        "delta": "+4750元/吨",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "clean_html": "<p>SMM公开行情页显示，电池级碳酸锂价格区间197000–203000元/吨，均价200000元/吨，较前值上涨4750元/吨。</p><p>电池级碳酸锂价格指数可见200390元/吨、+5097元/吨；该口径不与期货价格直接混算。</p>",
+        "caption": "SMM电池级碳酸锂公开价",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
+        "source": "新浪财经 / 中国储能网",
+        "source_type": "国内财经转载/行业门户招投标动态",
+        "account_name": "中国储能网",
+        "category": "招投标",
+        "title": "中国储能网招中标动态：宁夏0.6GW/1.2GWh储能系统采购因有效投标人不足3家流标",
+        "summary": "新浪财经转载中国储能网5月8日招中标动态：共计2个中标动态、5个招标动态；宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh；宁夏万吉永乐共享储能电站EPC总承包启动招标，规划200MW/400MWh。",
+        "body": [
+          "该招中标动态列出2个中标动态和5个招标动态，覆盖全钒液流产线EPC、独立储能PC、混合储能招标计划、EPC招标终止和共享储能EPC招标。",
+          "宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh，提示大规模集采并非均能顺利形成有效竞争。",
+          "同一动态还披露宁夏万吉永乐共享储能电站EPC总承包招标，项目位于石嘴山市平罗县红崖子乡，规划建设规模200MW/400MWh。"
+        ],
+        "key_points": [
+          "流标规模：0.6GW/1.2GWh。",
+          "流标原因：有效投标人不足3家。",
+          "宁夏万吉永乐共享储能：200MW/400MWh EPC招标。",
+          "来源发布时间：2026-05-08 19:38。"
+        ],
+        "value": "1200",
+        "unit": "MWh流标规模",
+        "delta": "有效投标人不足3家",
+        "direction": "flat",
+        "date": "05-08",
+        "as_of": "2026-05-08",
+        "url": "https://cj.sina.com.cn/articles/view/5952915720/162d2490806703vn34?froms=ggmp",
+        "clean_html": "<p>中国储能网招中标动态显示，宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh。</p><p>同一动态披露宁夏万吉永乐共享储能电站EPC招标，规划200MW/400MWh。</p>",
+        "caption": "宁夏储能集采流标",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
+        "source": "Energy-Storage.news / BloombergNEF",
+        "source_type": "海外行业媒体/专业研究机构预测",
+        "account_name": "Energy-Storage.news",
+        "category": "海外市场",
+        "title": "BNEF预计2026年全球非抽蓄储能新增158GW/459GWh，较2025年功率口径增长约41%",
+        "summary": "Energy-Storage.news 5月8日报道，BloombergNEF在Energy Storage Outlook H1 2026中统计2025年全球非抽蓄储能新增112GW/307GWh，并预测2026年新增部署158GW/459GWh；到2036年年度新增有望达到308GW，累计容量达到2.9TW/10.5TWh。该条用于海外需求和MarketTrend情绪证据。",
+        "body": [
+          "BNEF统计2025年全球非抽蓄储能新增112GW/307GWh，创历史新高。",
+          "BNEF预计2026年全球新增部署158GW/459GWh，功率口径较2025年增长约41%。",
+          "长期预测方面，BNEF预计2036年年度新增达到308GW，届时累计容量达到2.9TW/10.5TWh；该预测来源为研究机构展望，实际落地仍受并网、政策、融资和供应链影响。"
+        ],
+        "key_points": [
+          "2025年新增：112GW/307GWh。",
+          "2026年预测：158GW/459GWh。",
+          "2036年年度新增预测：308GW。",
+          "2036年累计容量预测：2.9TW/10.5TWh。"
+        ],
+        "value": "459",
+        "unit": "GWh（2026E）",
+        "delta": "功率口径约+41%",
+        "direction": "up",
+        "date": "05-08",
+        "as_of": "2026-05-08",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>Energy-Storage.news转述BloombergNEF称，2025年全球非抽蓄储能新增112GW/307GWh，2026年预计新增158GW/459GWh。</p><p>BNEF还预测2036年年度新增308GW、累计容量2.9TW/10.5TWh。</p>",
+        "caption": "BNEF全球储能展望",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
       {
         "source": "Energy-Storage.news / BW ESS",
         "source_type": "海外行业媒体/项目审批",
@@ -878,7 +1023,7 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/bw-ess-submits-700mw-bannaby-battery-storage-project-in-nsw-to-australias-epbc-act/",
         "clean_html": "<p>Energy-Storage.news报道，BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW BESS环境评估。</p>",
         "caption": "澳洲Bannaby 700MW BESS",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "Energy-Storage.news / Alsym Energy / Juniper Energy",
@@ -907,7 +1052,7 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
         "clean_html": "<p>Energy-Storage.news报道，Alsym Energy与Juniper Energy宣布在加州部署500MWh钠离子BESS战略合作，重点面向高温区域。</p>",
         "caption": "加州500MWh钠电储能",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "Energy-Storage.news / Envision Energy / Cape Breton China Corp.",
@@ -936,7 +1081,7 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
         "clean_html": "<p>Energy-Storage.news报道，远景能源与Cape Breton China Corp.签署战略合作，计划在加拿大新斯科舍探索300MW风储混合项目。</p>",
         "caption": "远景加拿大300MW风储",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "新浪财经 / 华泰期货 / SMM",
@@ -965,7 +1110,7 @@ window.NEOLINK_FEED = {
         "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
         "clean_html": "<p>华泰期货报告称，5月11日碳酸锂LC2609收于205020元/吨，SMM电池级碳酸锂报价191500–199000元/吨。</p><p>SMM现货库存102673吨，环比减少920吨；该条用于交叉验证锂盐强势行情。</p>",
         "caption": "华泰/SMM碳酸锂交叉验证",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "时代储能网 / 诚创公司",
@@ -994,7 +1139,7 @@ window.NEOLINK_FEED = {
         "url": "https://eraes.com.cn/newsinfo/9058259.html",
         "clean_html": "<p>时代储能网转引诚创公司消息，广西崇左临空经济协同区集中共享新型储能项目完成签约。</p><p>项目规模300MW/600MWh，占地约44亩，配套220kV升压站；建成后拟参与广西电力市场现货和辅助服务。</p>",
         "caption": "崇左600MWh集中共享储能",
-        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段入库，未将签约状态推断为开工或投运。"
+        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段记录，未将签约状态推断为开工或投运。"
       },
       {
         "source_type": "国内行业媒体/招投标公开信息",
@@ -1023,7 +1168,7 @@ window.NEOLINK_FEED = {
         "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13382.html",
         "clean_html": "<p>昔阳氢储300MW/600MWh独立储能EPC总承包中标候选人公示，山西省安装集团为第一中标候选人。</p><p>投标报价6.72亿元，折合约1.120元/Wh；项目计划工期12个月。</p>",
         "caption": "昔阳氢储独立储能EPC",
-        "methodology": "01:04抓取储能中国网项目页；按中标候选公示披露的候选人、报价、规模和工期入库，未将候选等同最终中标。"
+        "methodology": "01:04抓取储能中国网项目页；按中标候选公示披露的候选人、报价、规模和工期记录，未将候选等同最终中标。"
       },
       {
         "source_type": "国内行业媒体/招投标公开信息",
@@ -1037,7 +1182,7 @@ window.NEOLINK_FEED = {
         "body": [
           "项目地点位于河北省唐山市迁安市马兰庄镇首钢矿业水厂铁矿厂区内。",
           "辽宁宏成供电有限公司投标方案为80MW充放电功率、320MWh电池容量，收益分成比例17%。",
-          "招标范围包括总体投资、建设施工、设计、电网接入和运维，按峰谷/峰平价差产生节能效益并分成。"
+          "招标范围包括总体投资、建设施工、设计、电网接入和运行维护，按峰谷/峰平价差产生节能效益并分成。"
         ],
         "key_points": [
           "中标单位：辽宁宏成供电有限公司。",
@@ -1052,7 +1197,7 @@ window.NEOLINK_FEED = {
         "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13383.html",
         "clean_html": "<p>首钢矿业水厂铁矿储能电站项目中标结果公告显示，辽宁宏成供电有限公司中标。</p><p>候选公示字段显示投标充放电功率80MW、储能系统电池容量320MWh、收益分成比例17%。</p>",
         "caption": "首钢矿业用户侧储能",
-        "methodology": "01:04抓取储能中国网项目页；按公告披露的候选投标容量、收益分成和投运期限入库。"
+        "methodology": "01:04抓取储能中国网项目页；按公告披露的候选投标容量、收益分成和投运期限记录。"
       },
       {
         "source_type": "国内行业媒体/招投标公开信息",
@@ -1147,9 +1292,9 @@ window.NEOLINK_FEED = {
         "account_name": "时代储能网",
         "category": "项目",
         "title": "鲁信能源首个工商业用户侧储能项目并网运行",
-        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运维、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
+        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运行维护、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
         "body": [
-          "5月11日，鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
+          "5月11日，鲁信能源投资、泓奥电力建设运行维护、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
           "该项目为鲁信能源首个工商业用户侧储能试点项目，体现工商业场景从项目线索走向投运。",
           "公开列表未披露容量和投资额，站内仅记录并网状态、参与主体和应用场景。"
         ],
@@ -1166,7 +1311,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
+        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运行维护、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
         "caption": "鲁信工商业储能并网",
         "methodology": "03:02抓取时代储能网招投标/产业动态列表；仅抽取列表披露的并网时间、主体和场景，未推断容量、价格或收益。"
       },
@@ -1195,7 +1340,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。</p><p>当前公开列表未披露价格、产品型号和确认收入节奏，按海外订单合作线索入库。</p>",
+        "clean_html": "<p>Eraes 5月12日页面列出，亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。</p><p>当前公开列表未披露价格、产品型号和确认收入节奏，按海外订单合作线索记录。</p>",
         "caption": "亿纬锂能印度合作",
         "methodology": "00:06抓取Eraes公开列表页，抽取订单规模、合作目标和合作方；以列表公开字段为准，未推断交易价格。"
       },
@@ -1224,7 +1369,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，赛唯数字能源奥地利200MWh大储项目顺利交付。</p><p>该条作为中国储能系统企业海外交付线索入库，待后续补充业主、系统参数和并网状态。</p>",
+        "clean_html": "<p>Eraes 5月12日页面列出，赛唯数字能源奥地利200MWh大储项目顺利交付。</p><p>该条作为中国储能系统企业海外交付线索记录，待后续补充业主、系统参数和并网状态。</p>",
         "caption": "奥地利200MWh大储交付",
         "methodology": "00:06抓取Eraes公开列表页，抽取项目主体、国家、规模和状态；因正文未展开，保守标注为行业媒体项目线索。"
       },
@@ -1253,7 +1398,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，内蒙古海善储能15GWh储能智能制造产业项目近日在阿拉善高新区开工，总投资20亿元。</p><p>该条作为储能制造产能线索入库，暂不等同于已投产产能或已确认订单。</p>",
+        "clean_html": "<p>Eraes 5月12日页面列出，内蒙古海善储能15GWh储能智能制造产业项目近日在阿拉善高新区开工，总投资20亿元。</p><p>该条作为储能制造产能线索记录，暂不等同于已投产产能或已确认订单。</p>",
         "caption": "15GWh储能制造产能",
         "methodology": "00:06抓取Eraes公开列表页，提取标题、日期、投资额、规划产能和地点；因缺少公告全文，标注为行业媒体线索并待官方/企业公告复核。"
       },
@@ -3625,6 +3770,35 @@ window.NEOLINK_FEED = {
     ],
     "enterprise": [
       {
+        "source": "Energy-Storage.news / BloombergNEF",
+        "source_type": "海外行业媒体/专业研究机构预测",
+        "account_name": "Energy-Storage.news",
+        "category": "海外市场",
+        "title": "BNEF预计2026年全球非抽蓄储能新增158GW/459GWh，较2025年功率口径增长约41%",
+        "summary": "Energy-Storage.news 5月8日报道，BloombergNEF在Energy Storage Outlook H1 2026中统计2025年全球非抽蓄储能新增112GW/307GWh，并预测2026年新增部署158GW/459GWh；到2036年年度新增有望达到308GW，累计容量达到2.9TW/10.5TWh。该条用于海外需求和MarketTrend情绪证据。",
+        "body": [
+          "BNEF统计2025年全球非抽蓄储能新增112GW/307GWh，创历史新高。",
+          "BNEF预计2026年全球新增部署158GW/459GWh，功率口径较2025年增长约41%。",
+          "长期预测方面，BNEF预计2036年年度新增达到308GW，届时累计容量达到2.9TW/10.5TWh；该预测来源为研究机构展望，实际落地仍受并网、政策、融资和供应链影响。"
+        ],
+        "key_points": [
+          "2025年新增：112GW/307GWh。",
+          "2026年预测：158GW/459GWh。",
+          "2036年年度新增预测：308GW。",
+          "2036年累计容量预测：2.9TW/10.5TWh。"
+        ],
+        "value": "459",
+        "unit": "GWh（2026E）",
+        "delta": "功率口径约+41%",
+        "direction": "up",
+        "date": "05-08",
+        "as_of": "2026-05-08",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>Energy-Storage.news转述BloombergNEF称，2025年全球非抽蓄储能新增112GW/307GWh，2026年预计新增158GW/459GWh。</p><p>BNEF还预测2036年年度新增308GW、累计容量2.9TW/10.5TWh。</p>",
+        "caption": "BNEF全球储能展望",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
         "source": "Energy-Storage.news / Envision Energy / Cape Breton China Corp.",
         "source_type": "海外行业媒体/企业合作",
         "account_name": "Energy-Storage.news",
@@ -3651,7 +3825,7 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
         "clean_html": "<p>Energy-Storage.news报道，远景能源与Cape Breton China Corp.签署战略合作，计划在加拿大新斯科舍探索300MW风储混合项目。</p>",
         "caption": "远景加拿大300MW风储",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "时代储能网 / 鲁信能源",
@@ -3659,9 +3833,9 @@ window.NEOLINK_FEED = {
         "account_name": "时代储能网",
         "category": "项目",
         "title": "鲁信能源首个工商业用户侧储能项目并网运行",
-        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运维、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
+        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运行维护、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
         "body": [
-          "5月11日，鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
+          "5月11日，鲁信能源投资、泓奥电力建设运行维护、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
           "该项目为鲁信能源首个工商业用户侧储能试点项目，体现工商业场景从项目线索走向投运。",
           "公开列表未披露容量和投资额，站内仅记录并网状态、参与主体和应用场景。"
         ],
@@ -3678,7 +3852,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
+        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运行维护、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
         "caption": "鲁信工商业储能并网",
         "methodology": "03:02抓取时代储能网招投标/产业动态列表；仅抽取列表披露的并网时间、主体和场景，未推断容量、价格或收益。"
       },
@@ -3707,7 +3881,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，内蒙古海善储能15GWh储能智能制造产业项目近日在阿拉善高新区开工，总投资20亿元。</p><p>该条作为储能制造产能线索入库，暂不等同于已投产产能或已确认订单。</p>",
+        "clean_html": "<p>Eraes 5月12日页面列出，内蒙古海善储能15GWh储能智能制造产业项目近日在阿拉善高新区开工，总投资20亿元。</p><p>该条作为储能制造产能线索记录，暂不等同于已投产产能或已确认订单。</p>",
         "caption": "15GWh储能制造产能",
         "methodology": "00:06抓取Eraes公开列表页，提取标题、日期、投资额、规划产能和地点；因缺少公告全文，标注为行业媒体线索并待官方/企业公告复核。"
       },
@@ -4069,6 +4243,35 @@ window.NEOLINK_FEED = {
     ],
     "project": [
       {
+        "source": "新浪财经 / 中国储能网",
+        "source_type": "国内财经转载/行业门户招投标动态",
+        "account_name": "中国储能网",
+        "category": "招投标",
+        "title": "中国储能网招中标动态：宁夏0.6GW/1.2GWh储能系统采购因有效投标人不足3家流标",
+        "summary": "新浪财经转载中国储能网5月8日招中标动态：共计2个中标动态、5个招标动态；宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh；宁夏万吉永乐共享储能电站EPC总承包启动招标，规划200MW/400MWh。",
+        "body": [
+          "该招中标动态列出2个中标动态和5个招标动态，覆盖全钒液流产线EPC、独立储能PC、混合储能招标计划、EPC招标终止和共享储能EPC招标。",
+          "宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh，提示大规模集采并非均能顺利形成有效竞争。",
+          "同一动态还披露宁夏万吉永乐共享储能电站EPC总承包招标，项目位于石嘴山市平罗县红崖子乡，规划建设规模200MW/400MWh。"
+        ],
+        "key_points": [
+          "流标规模：0.6GW/1.2GWh。",
+          "流标原因：有效投标人不足3家。",
+          "宁夏万吉永乐共享储能：200MW/400MWh EPC招标。",
+          "来源发布时间：2026-05-08 19:38。"
+        ],
+        "value": "1200",
+        "unit": "MWh流标规模",
+        "delta": "有效投标人不足3家",
+        "direction": "flat",
+        "date": "05-08",
+        "as_of": "2026-05-08",
+        "url": "https://cj.sina.com.cn/articles/view/5952915720/162d2490806703vn34?froms=ggmp",
+        "clean_html": "<p>中国储能网招中标动态显示，宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh。</p><p>同一动态披露宁夏万吉永乐共享储能电站EPC招标，规划200MW/400MWh。</p>",
+        "caption": "宁夏储能集采流标",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
         "source": "Energy-Storage.news / BW ESS",
         "source_type": "海外行业媒体/项目审批",
         "account_name": "Energy-Storage.news",
@@ -4095,7 +4298,7 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/bw-ess-submits-700mw-bannaby-battery-storage-project-in-nsw-to-australias-epbc-act/",
         "clean_html": "<p>Energy-Storage.news报道，BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW BESS环境评估。</p>",
         "caption": "澳洲Bannaby 700MW BESS",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "Energy-Storage.news / Alsym Energy / Juniper Energy",
@@ -4124,7 +4327,7 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
         "clean_html": "<p>Energy-Storage.news报道，Alsym Energy与Juniper Energy宣布在加州部署500MWh钠离子BESS战略合作，重点面向高温区域。</p>",
         "caption": "加州500MWh钠电储能",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "Energy-Storage.news / Envision Energy / Cape Breton China Corp.",
@@ -4153,7 +4356,7 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
         "clean_html": "<p>Energy-Storage.news报道，远景能源与Cape Breton China Corp.签署战略合作，计划在加拿大新斯科舍探索300MW风储混合项目。</p>",
         "caption": "远景加拿大300MW风储",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "时代储能网 / 诚创公司",
@@ -4182,7 +4385,7 @@ window.NEOLINK_FEED = {
         "url": "https://eraes.com.cn/newsinfo/9058259.html",
         "clean_html": "<p>时代储能网转引诚创公司消息，广西崇左临空经济协同区集中共享新型储能项目完成签约。</p><p>项目规模300MW/600MWh，占地约44亩，配套220kV升压站；建成后拟参与广西电力市场现货和辅助服务。</p>",
         "caption": "崇左600MWh集中共享储能",
-        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段入库，未将签约状态推断为开工或投运。"
+        "methodology": "03:02抓取时代储能网项目页并保存原始HTML/clean文本；按公开披露的签约、规模、占地、升压站和市场参与字段记录，未将签约状态推断为开工或投运。"
       },
       {
         "source_type": "国内行业媒体/招投标公开信息",
@@ -4211,7 +4414,7 @@ window.NEOLINK_FEED = {
         "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13382.html",
         "clean_html": "<p>昔阳氢储300MW/600MWh独立储能EPC总承包中标候选人公示，山西省安装集团为第一中标候选人。</p><p>投标报价6.72亿元，折合约1.120元/Wh；项目计划工期12个月。</p>",
         "caption": "昔阳氢储独立储能EPC",
-        "methodology": "01:04抓取储能中国网项目页；按中标候选公示披露的候选人、报价、规模和工期入库，未将候选等同最终中标。"
+        "methodology": "01:04抓取储能中国网项目页；按中标候选公示披露的候选人、报价、规模和工期记录，未将候选等同最终中标。"
       },
       {
         "source_type": "国内行业媒体/招投标公开信息",
@@ -4225,7 +4428,7 @@ window.NEOLINK_FEED = {
         "body": [
           "项目地点位于河北省唐山市迁安市马兰庄镇首钢矿业水厂铁矿厂区内。",
           "辽宁宏成供电有限公司投标方案为80MW充放电功率、320MWh电池容量，收益分成比例17%。",
-          "招标范围包括总体投资、建设施工、设计、电网接入和运维，按峰谷/峰平价差产生节能效益并分成。"
+          "招标范围包括总体投资、建设施工、设计、电网接入和运行维护，按峰谷/峰平价差产生节能效益并分成。"
         ],
         "key_points": [
           "中标单位：辽宁宏成供电有限公司。",
@@ -4240,7 +4443,7 @@ window.NEOLINK_FEED = {
         "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13383.html",
         "clean_html": "<p>首钢矿业水厂铁矿储能电站项目中标结果公告显示，辽宁宏成供电有限公司中标。</p><p>候选公示字段显示投标充放电功率80MW、储能系统电池容量320MWh、收益分成比例17%。</p>",
         "caption": "首钢矿业用户侧储能",
-        "methodology": "01:04抓取储能中国网项目页；按公告披露的候选投标容量、收益分成和投运期限入库。"
+        "methodology": "01:04抓取储能中国网项目页；按公告披露的候选投标容量、收益分成和投运期限记录。"
       },
       {
         "source_type": "国内行业媒体/招投标公开信息",
@@ -4277,9 +4480,9 @@ window.NEOLINK_FEED = {
         "account_name": "时代储能网",
         "category": "项目",
         "title": "鲁信能源首个工商业用户侧储能项目并网运行",
-        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运维、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
+        "summary": "时代储能网5月12日列表显示，鲁信能源公司首个工商业用户侧储能试点项目正式并网运行。项目由山东鲁信能源投资管理股份有限公司投资、山东泓奥电力科技有限公司建设运行维护、山东鲁信天一印务有限公司作为用户单位，事件性质为用户侧储能并网，提示工商业储能在园区/制造业场景继续落地。公开列表未披露容量、投资额和储能系统价格，站内不做额外推断。",
         "body": [
-          "5月11日，鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
+          "5月11日，鲁信能源投资、泓奥电力建设运行维护、鲁信天一印务作为用户单位的工商业用户侧储能项目正式并网运行。",
           "该项目为鲁信能源首个工商业用户侧储能试点项目，体现工商业场景从项目线索走向投运。",
           "公开列表未披露容量和投资额，站内仅记录并网状态、参与主体和应用场景。"
         ],
@@ -4296,7 +4499,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运维、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
+        "clean_html": "<p>时代储能网5月12日列表显示，鲁信能源首个工商业用户侧储能试点项目于5月11日正式并网运行。</p><p>项目由鲁信能源投资、泓奥电力建设运行维护、鲁信天一印务作为用户单位；公开列表未披露容量和投资额。</p>",
         "caption": "鲁信工商业储能并网",
         "methodology": "03:02抓取时代储能网招投标/产业动态列表；仅抽取列表披露的并网时间、主体和场景，未推断容量、价格或收益。"
       },
@@ -4325,7 +4528,7 @@ window.NEOLINK_FEED = {
         "date": "05-12",
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，赛唯数字能源奥地利200MWh大储项目顺利交付。</p><p>该条作为中国储能系统企业海外交付线索入库，待后续补充业主、系统参数和并网状态。</p>",
+        "clean_html": "<p>Eraes 5月12日页面列出，赛唯数字能源奥地利200MWh大储项目顺利交付。</p><p>该条作为中国储能系统企业海外交付线索记录，待后续补充业主、系统参数和并网状态。</p>",
         "caption": "奥地利200MWh大储交付",
         "methodology": "00:06抓取Eraes公开列表页，抽取项目主体、国家、规模和状态；因正文未展开，保守标注为行业媒体项目线索。"
       },
@@ -4584,6 +4787,35 @@ window.NEOLINK_FEED = {
     ],
     "policy": [
       {
+        "source": "新浪财经 / 中国储能网",
+        "source_type": "国内财经转载/行业门户招投标动态",
+        "account_name": "中国储能网",
+        "category": "招投标",
+        "title": "中国储能网招中标动态：宁夏0.6GW/1.2GWh储能系统采购因有效投标人不足3家流标",
+        "summary": "新浪财经转载中国储能网5月8日招中标动态：共计2个中标动态、5个招标动态；宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh；宁夏万吉永乐共享储能电站EPC总承包启动招标，规划200MW/400MWh。",
+        "body": [
+          "该招中标动态列出2个中标动态和5个招标动态，覆盖全钒液流产线EPC、独立储能PC、混合储能招标计划、EPC招标终止和共享储能EPC招标。",
+          "宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh，提示大规模集采并非均能顺利形成有效竞争。",
+          "同一动态还披露宁夏万吉永乐共享储能电站EPC总承包招标，项目位于石嘴山市平罗县红崖子乡，规划建设规模200MW/400MWh。"
+        ],
+        "key_points": [
+          "流标规模：0.6GW/1.2GWh。",
+          "流标原因：有效投标人不足3家。",
+          "宁夏万吉永乐共享储能：200MW/400MWh EPC招标。",
+          "来源发布时间：2026-05-08 19:38。"
+        ],
+        "value": "1200",
+        "unit": "MWh流标规模",
+        "delta": "有效投标人不足3家",
+        "direction": "flat",
+        "date": "05-08",
+        "as_of": "2026-05-08",
+        "url": "https://cj.sina.com.cn/articles/view/5952915720/162d2490806703vn34?froms=ggmp",
+        "clean_html": "<p>中国储能网招中标动态显示，宁夏3个储能系统设备采购项目因有效投标人不足3家流标，合计规模0.6GW/1.2GWh。</p><p>同一动态披露宁夏万吉永乐共享储能电站EPC招标，规划200MW/400MWh。</p>",
+        "caption": "宁夏储能集采流标",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
         "source": "Energy-Storage.news / BW ESS",
         "source_type": "海外行业媒体/项目审批",
         "account_name": "Energy-Storage.news",
@@ -4610,7 +4842,7 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/bw-ess-submits-700mw-bannaby-battery-storage-project-in-nsw-to-australias-epbc-act/",
         "clean_html": "<p>Energy-Storage.news报道，BW ESS向澳大利亚EPBC提交新南威尔士Bannaby 700MW BESS环境评估。</p>",
         "caption": "澳洲Bannaby 700MW BESS",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "SMM 上海有色 / Shanghai Metals Market",
@@ -4710,6 +4942,35 @@ window.NEOLINK_FEED = {
     ],
     "materials": [
       {
+        "source": "SMM上海有色",
+        "source_type": "专业价格源/公开行情页",
+        "account_name": "SMM上海有色",
+        "category": "材料行情",
+        "title": "SMM公开行情页显示电池级碳酸锂均价200000元/吨，较前值上涨4750元/吨",
+        "summary": "5月13日小时巡检中，SMM电池级碳酸锂公开行情页可见价格区间197000–203000元/吨、均价200000元/吨，日变动+4750元/吨；电池级碳酸锂价格指数可见200390元/吨、+5097元/吨。该口径用于刷新主材趋势和MarketTrend锂盐情绪，不与期货价直接混算。",
+        "body": [
+          "SMM公开行情页在本轮搜索结果中显示，电池级碳酸锂价格区间为197000–203000元/吨，均价200000元/吨，较前值上涨4750元/吨。",
+          "同页可见电池级碳酸锂价格指数为200390元/吨，变动+5097元/吨。",
+          "该数据为公开可见价格页口径，用于站内主材趋势和MarketTrend锂盐情绪；不同来源、现货指数与期货合约不直接混算。"
+        ],
+        "key_points": [
+          "电池级碳酸锂：197000–203000元/吨。",
+          "公开均价：200000元/吨。",
+          "日变动：+4750元/吨。",
+          "价格指数：200390元/吨，+5097元/吨。"
+        ],
+        "value": "20.00",
+        "unit": "万元/吨",
+        "delta": "+4750元/吨",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "clean_html": "<p>SMM公开行情页显示，电池级碳酸锂价格区间197000–203000元/吨，均价200000元/吨，较前值上涨4750元/吨。</p><p>电池级碳酸锂价格指数可见200390元/吨、+5097元/吨；该口径不与期货价格直接混算。</p>",
+        "caption": "SMM电池级碳酸锂公开价",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
         "source": "新浪财经 / 华泰期货 / SMM",
         "source_type": "国内财经媒体/期货研究/专业价格源",
         "account_name": "华泰期货研究院",
@@ -4736,7 +4997,7 @@ window.NEOLINK_FEED = {
         "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
         "clean_html": "<p>华泰期货报告称，5月11日碳酸锂LC2609收于205020元/吨，SMM电池级碳酸锂报价191500–199000元/吨。</p><p>SMM现货库存102673吨，环比减少920吨；该条用于交叉验证锂盐强势行情。</p>",
         "caption": "华泰/SMM碳酸锂交叉验证",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "source": "Benchmark Mineral Intelligence",
@@ -5239,6 +5500,58 @@ window.NEOLINK_FEED = {
     ],
     "metrics": [
       {
+        "title": "宁夏储能系统采购流标规模",
+        "source": "中国储能网 / 新浪财经",
+        "value": "1200",
+        "unit": "MWh",
+        "delta": "有效投标人不足3家",
+        "direction": "flat",
+        "date": "05-08",
+        "as_of": "2026-05-08",
+        "url": "https://cj.sina.com.cn/articles/view/5952915720/162d2490806703vn34?froms=ggmp",
+        "summary": "宁夏3个储能系统设备采购项目流标，合计0.6GW/1.2GWh。",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
+        "title": "BNEF 2026全球储能新增预测",
+        "source": "BloombergNEF / Energy-Storage.news",
+        "value": "459",
+        "unit": "GWh",
+        "delta": "158GW/459GWh",
+        "direction": "up",
+        "date": "05-08",
+        "as_of": "2026-05-08",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "summary": "BNEF预计2026年全球非抽蓄储能新增158GW/459GWh。",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
+        "title": "SMM电池级碳酸锂价格指数",
+        "source": "SMM上海有色",
+        "value": "200390",
+        "unit": "元/吨",
+        "delta": "+5097元/吨",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "summary": "SMM公开行情页可见电池级碳酸锂价格指数200390元/吨。",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
+        "title": "SMM电池级碳酸锂均价",
+        "source": "SMM上海有色",
+        "value": "200000",
+        "unit": "元/吨",
+        "delta": "+4750元/吨",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "summary": "SMM公开行情页可见电池级碳酸锂197000–203000元/吨，均价200000元/吨。",
+        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
+      },
+      {
         "title": "BW ESS Bannaby项目功率",
         "source": "Energy-Storage.news",
         "value": "700",
@@ -5249,7 +5562,7 @@ window.NEOLINK_FEED = {
         "as_of": "2026-05-12",
         "url": "https://www.energy-storage.news/bw-ess-submits-700mw-bannaby-battery-storage-project-in-nsw-to-australias-epbc-act/",
         "summary": "BW ESS向澳大利亚EPBC提交新南威尔士700MW Bannaby BESS项目。",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "title": "Alsym加州钠离子BESS合作",
@@ -5262,7 +5575,7 @@ window.NEOLINK_FEED = {
         "as_of": "2026-05-12",
         "url": "https://www.energy-storage.news/alsym-energy-announces-500mwh-sodium-ion-strategic-partnership-in-california/",
         "summary": "Alsym与Juniper计划在加州部署500MWh钠离子BESS。",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "title": "远景加拿大风储合作规模",
@@ -5275,7 +5588,7 @@ window.NEOLINK_FEED = {
         "as_of": "2026-05-12",
         "url": "https://www.energy-storage.news/envision-energy-exploring-300mw-nova-scotia-hybrid-wind-and-bess-project/",
         "summary": "远景能源与Cape Breton China Corp.计划探索300MW风储混合项目。",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "title": "SMM碳酸锂现货库存",
@@ -5288,7 +5601,7 @@ window.NEOLINK_FEED = {
         "as_of": "2026-05-12",
         "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
         "summary": "SMM现货库存102673吨，其中冶炼厂18795吨、下游40568吨、其他43310吨。",
-        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段入库，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
+        "methodology": "04:04抓取/复核线上NeoLink与MarketTrend HTTP入口；保存Energy-Storage.news与新浪财经/华泰期货原始HTML和clean文本；按公开发布日期、规模、价格、库存、项目状态字段记录，未把旧日期或付费截断线索改写为5月13日新发生新闻。"
       },
       {
         "title": "崇左临空集中共享储能签约规模",
@@ -5301,7 +5614,7 @@ window.NEOLINK_FEED = {
         "as_of": "2026-05-07",
         "url": "https://eraes.com.cn/newsinfo/9058259.html",
         "summary": "广西崇左临空经济协同区集中共享新型储能项目签约，公开规模300MW/600MWh，占地约44亩。",
-        "methodology": "03:02抓取时代储能网项目页；按签约阶段、容量和配套升压站字段入库。"
+        "methodology": "03:02抓取时代储能网项目页；按签约阶段、容量和配套升压站字段记录。"
       },
       {
         "title": "首钢矿业用户侧储能中标容量",
@@ -5314,7 +5627,7 @@ window.NEOLINK_FEED = {
         "as_of": "2026-05-11",
         "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260511/13383.html",
         "summary": "首钢矿业水厂铁矿储能电站项目中标结果显示，辽宁宏成供电中标，投标容量80MW/320MWh。",
-        "methodology": "01:04抓取储能中国网项目页；按中标结果公告和候选投标字段入库。"
+        "methodology": "01:04抓取储能中国网项目页；按中标结果公告和候选投标字段记录。"
       },
       {
         "title": "昔阳氢储独立储能EPC候选规模",
@@ -5340,7 +5653,7 @@ window.NEOLINK_FEED = {
         "as_of": "2026-05-12",
         "url": "http://www.cnnes.cc/zhaobiao/xiangmu/20260512/13390.html",
         "summary": "中国电建河北燕赵沽源300MW/600MWh磷酸铁锂储能设备采购中标结果公示，中车株洲所中标，候选报价30960万元。",
-        "methodology": "01:04抓取储能中国网项目页；按公示规模与报价折算口径入库。"
+        "methodology": "01:04抓取储能中国网项目页；按公示规模与报价折算口径记录。"
       },
       {
         "title": "鲁信能源工商业用户侧储能试点",
@@ -5353,7 +5666,7 @@ window.NEOLINK_FEED = {
         "as_of": "2026-05-12",
         "url": "https://eraes.com.cn/ztbxx",
         "summary": "鲁信能源首个工商业用户侧储能项目于5月11日并网运行，公开列表未披露容量。",
-        "methodology": "03:02抓取时代储能网列表；仅按公开并网状态和主体入库，不推断规模。"
+        "methodology": "03:02抓取时代储能网列表；仅按公开并网状态和主体记录，不推断规模。"
       },
       {
         "title": "亿纬锂能印度GNEPL订单",
