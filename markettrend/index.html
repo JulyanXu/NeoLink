@@ -6,13 +6,47 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>NeoLink 主材行情与舆情索引</title>
       <link rel="icon" type="image/png" sizes="256x256" href="./favicon.png" />
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
+      <style>
+        html,
+        body {
+          min-height: 100%;
+          margin: 0;
+          background: #090b0f;
+        }
+
+        #root {
+          min-height: calc(100vh - 44px);
+        }
+
+        .icp-footer {
+          min-height: 44px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-top: 1px solid rgba(255, 255, 255, 0.08);
+          background: #090b0f;
+          color: #71717a;
+          font: 12px/1.5 ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        .icp-footer a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        .icp-footer a:hover {
+          color: #a1a1aa;
+        }
+      </style>
       <script type="module" crossorigin src="./assets/index-C_QYCi2A.js"></script>
       <link rel="stylesheet" crossorigin href="./assets/index-BIhaHXT0.css">
     </head>
 
     <body>
       <div id="root"></div>
+      <footer class="icp-footer">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备2026052106号-1</a>
+      </footer>
     </body>
   </html>
   
