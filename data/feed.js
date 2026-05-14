@@ -1,8 +1,248 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-05-14T10:00:00+08:00",
-  "note": "10:00严格小时刷新：HTTP重新读回NeoLink首页与MarketTrend入口成功，并重新检索国内+海外公开来源；新增Energy-Storage.news关于中国一季度储能电池出口27.3GWh的海外需求证据、Sina/中国储能网关于4月24日-5月8日储能招标36.77GWh与系统中标均价上行的国内项目/价格证据，同时用ess-news复核中储科技7GWh电芯框采海外披露口径。",
+  "generated_at": "2026-05-14T17:00:00+08:00",
+  "note": "17:00严格小时刷新：重新爬取NeoLink与MarketTrend入口并主动检索国内+海外公开来源。新增/更新SMM碳酸锂日报（电池级19.8-20.3万元/吨、期货收201960元/吨）、国际储能网1-4月储能采招165.71GWh统计，以及Energy-Storage.news关于短期BESS价格上行压力的海外证据。",
   "sections": {
     "headlines": [
+      {
+        "source": "新浪财经 / 市场资讯 / SMM",
+        "source_type": "国内财经媒体/期货日报与SMM现货口径",
+        "account_name": "新浪财经期货 / SMM",
+        "category": "行情",
+        "title": "碳酸锂日报：SMM电池级碳酸锂19.8-20.3万元/吨，主力合约收201960元/吨",
+        "summary": "新浪财经5月14日10:13发布碳酸锂日报称，5月13日碳酸锂主力合约2609收于201960元/吨，较昨日结算价变化-1.87%；按SMM现货报价，电池级碳酸锂198000-203000元/吨、较前一交易日上调500元/吨，工业级碳酸锂194000-198000元/吨、同样上调500元/吨。文章同时披露SMM周度碳酸锂总产量25894吨、现货库存102673吨，认为五月整体预计紧平衡，储能项目对锂价变化响应仍有时滞。",
+        "body": [
+          "期货口径：5月13日碳酸锂主力合约2609收于201960元/吨，日内收盘较昨日结算价变化-1.87%，成交425885手、持仓519507手。",
+          "现货口径：SMM电池级碳酸锂报价198000-203000元/吨，较前一交易日上调500元/吨；工业级碳酸锂报价194000-198000元/吨，较前一交易日上调500元/吨。",
+          "供需库存：SMM周度碳酸锂总产量25894吨，现货库存102673吨、环比减少920吨；百川数据显示磷酸铁锂产量环比增加4.82%。",
+          "储能传导：文章判断储能需求彰显韧性，但储能新项目对当前锂价上涨响应存在时滞，下半年储能需求仍需验证。"
+        ],
+        "key_points": [
+          "电池级碳酸锂198000-203000元/吨，日变动+500元/吨。",
+          "碳酸锂2609合约收201960元/吨，日变动-1.87%。",
+          "SMM周度总产量25894吨，现货库存102673吨。",
+          "储能项目对锂价上涨响应仍有时滞。"
+        ],
+        "value": "20.05",
+        "unit": "万元/吨 SMM电池级均价",
+        "delta": "+500元/吨；期货-1.87%",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-14/doc-inhxvpqq8843262.shtml",
+        "clean_html": "<p>新浪财经碳酸锂日报称，5月13日碳酸锂2609合约收于201960元/吨，日变动-1.87%。</p><p>按SMM现货报价，电池级碳酸锂198000-203000元/吨，较前一交易日上调500元/吨；工业级碳酸锂194000-198000元/吨，同样上调500元/吨。</p><p>SMM周度总产量25894吨，现货库存102673吨；文章提示储能项目对当前锂价上涨响应仍有时滞。</p>",
+        "caption": "SMM碳酸锂日报",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "国际储能网 / 储能头条",
+        "source_type": "国内行业门户/公开招投标统计",
+        "account_name": "国际储能网 / 储能头条",
+        "category": "招投标",
+        "title": "2026年1-4月储能采招40.37GW/165.71GWh，4小时系统均价0.5189元/Wh",
+        "summary": "国际储能网5月14日发布储能头条不完全统计，2026年1-4月国内储能市场完成334次储能采招，公开可追踪规模40.37GW/165.71GWh，其中储能系统7.07GW/51.01GWh、EPC 33.31GW/87.91GWh。4月4小时磷酸铁锂储能系统中标单价0.496-0.5489元/Wh，均价0.5189元/Wh；磷酸铁锂路线占采招需求93.44%。",
+        "body": [
+          "总量：1-4月共完成334次储能采招，公开可追踪规模40.37GW/165.71GWh，统计剔除重复招标项目且不含集采未分配份额。",
+          "结构：储能系统采购7.07GW/51.01GWh，EPC规模33.31GW/87.91GWh；集采招标60.96GWh，占比36.79%，独立储能98.31GWh，占比59.33%。",
+          "价格：4月4小时磷酸铁锂储能系统中标单价0.496-0.5489元/Wh，均价0.5189元/Wh；4小时EPC均价0.9149元/Wh，较3月上涨2.35%。",
+          "格局：储能系统中标规模中，中车株洲所、比亚迪、融和元储、亨通储能、远景能源等居前；技术路线中磷酸铁锂占比93.44%。"
+        ],
+        "key_points": [
+          "1-4月储能采招40.37GW/165.71GWh。",
+          "储能系统7.07GW/51.01GWh，EPC 33.31GW/87.91GWh。",
+          "4月4小时系统均价0.5189元/Wh。",
+          "磷酸铁锂路线占采招需求93.44%。"
+        ],
+        "value": "165.71",
+        "unit": "GWh 1-4月采招规模",
+        "delta": "4h系统均价0.5189元/Wh",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://mchuneng.in-en.com/html/chunengy-54167.shtml",
+        "clean_html": "<p>国际储能网发布储能头条统计，2026年1-4月国内储能市场完成334次采招，公开可追踪规模40.37GW/165.71GWh。</p><p>其中储能系统7.07GW/51.01GWh，EPC 33.31GW/87.91GWh；4月4小时磷酸铁锂储能系统均价0.5189元/Wh。</p><p>磷酸铁锂路线占采招需求93.44%，中车株洲所、比亚迪、融和元储等系统中标规模居前。</p>",
+        "caption": "1-4月储能采招统计",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "Energy-Storage.news / Solar Media Energy Storage Summit 2026",
+        "source_type": "海外行业媒体/峰会访谈与价格趋势分析",
+        "account_name": "Energy-Storage.news",
+        "category": "市场",
+        "title": "Energy-Storage.news：锂价三倍、出口退税取消与供应链扰动或推升短期BESS价格",
+        "summary": "Energy-Storage.news报道，2024-2025年锂电BESS交钥匙价格显著下降，但2026年短期可能因碳酸锂价格约三倍上涨、中国电池出口退税取消、地缘冲突造成的供应链与能源价格扰动而止跌回升。文章称中国BESS招标价格已开始上行，同时提示锂碳酸盐约占BESS成本5%，长期技术迭代仍可能继续改善系统成本。",
+        "body": [
+          "价格背景：2024和2025年BESS价格因中国供应商竞争和技术成熟持续下降，但报道判断短期趋势可能放缓或反转。",
+          "成本变量：文章列出碳酸锂价格三倍上涨、中国年末取消电池出口增值税退税、战争导致能源价格和供应链扰动等因素。",
+          "中国信号：Energy-Storage.news称中国BESS招标价格已经开始上行，锂碳酸盐约占BESS成本5%。",
+          "长期判断：受访行业人士认为短期价格上行与长期技术继续推进并不矛盾，储能系统技术仍会继续移动成本边界。"
+        ],
+        "key_points": [
+          "BESS短期价格可能止跌回升。",
+          "碳酸锂价格上涨与出口退税取消是关键变量。",
+          "锂碳酸盐约占BESS成本5%。",
+          "中国BESS招标价格已出现上行迹象。"
+        ],
+        "value": "5",
+        "unit": "% 锂碳酸盐约占BESS成本",
+        "delta": "短期价格上行压力",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "clean_html": "<p>Energy-Storage.news报道称，BESS交钥匙价格在2024-2025年显著下降后，短期可能因碳酸锂价格上涨、出口退税取消和供应链扰动而止跌回升。</p><p>文章称中国BESS招标价格已开始上行，锂碳酸盐约占BESS成本5%。</p><p>长期看，技术迭代仍可能继续改善系统成本边界。</p>",
+        "caption": "海外BESS价格趋势",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "上海证券报 / 新浪财经 / CIBF 2026",
+        "source_type": "国内财经媒体/产业会议现场报道",
+        "account_name": "上海证券报·中国证券网",
+        "category": "技术",
+        "title": "CIBF 2026：储能电池未来5年迎机遇，4小时储能电池价格已低于500元/kWh",
+        "summary": "新浪财经转载上海证券报5月14日报道，CIBF 2026主论坛上，多位产业界与学界人士围绕储能、固态电池和AI研发展开讨论。欧阳明高称，4小时储能电池价格已经低于500元/kWh，未来储能电池将围绕超大容量、超长寿命、超低成本、长时储能演进：容量从300Ah向3000Ah，循环寿命从5000次向15000次，日历寿命从15年向25年，储能时长从2小时向10小时发展。",
+        "body": [
+          "需求判断：报道称储能已从新能源配套环节逐步演变为独立大产业方向，今后5年储能电池将遇巨大机遇期。",
+          "技术路径：储能电池将向3000Ah、单体超过10kWh、15000次循环、25年日历寿命和10小时长时储能演进。",
+          "价格口径：当前4小时储能电池价格已低于500元/kWh；成本目标是每循环储能度电成本向0.1元发展。",
+          "路线分化：比亚迪廉玉波判断储能领域磷酸铁锂与钠离子电池将形成互补，固态/半固态优先落地高能量密度场景。"
+        ],
+        "key_points": [
+          "4小时储能电池价格低于500元/kWh。",
+          "储能电池容量从300Ah向3000Ah演进。",
+          "循环寿命目标从5000次向15000次。",
+          "储能时长从2小时向10小时发展。"
+        ],
+        "value": "500",
+        "unit": "元/kWh以下 4h储能电池价格",
+        "delta": "未来5年机遇期",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvihs8854339.shtml",
+        "clean_html": "<p>CIBF 2026主论坛讨论储能、固态电池和AI研发。欧阳明高称4小时储能电池价格已低于500元/kWh。</p><p>未来储能电池将向3000Ah、15000次循环、25年寿命和10小时长时储能演进。</p><p>比亚迪廉玉波认为储能领域磷酸铁锂与钠离子电池将形成互补。</p>",
+        "caption": "CIBF储能电池路线研判",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "快科技 / 新浪财经 / 全球BESS集成商排名",
+        "source_type": "国内科技媒体转载/全球储能系统出货排名线索",
+        "account_name": "快科技 / 新浪财经",
+        "category": "企业",
+        "title": "比亚迪2025年BESS出货超60GWh，超越特斯拉登顶全球电池储能系统集成商",
+        "summary": "新浪财经5月14日报道，2025年比亚迪全球电池储能系统（BESS）出货量超60GWh，市占率13%，超过特斯拉46.7GWh、10%的市占率，成为全球最大BESS集成商。报道还称2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh，全球前十储能集成商中中国企业占8席。",
+        "body": [
+          "排名变化：比亚迪超越特斯拉，终结特斯拉2023-2024年连续榜首。",
+          "出货口径：比亚迪2025年全球储能系统出货超60GWh，市占率13%；特斯拉46.7GWh，市占率10%。",
+          "行业规模：2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh。",
+          "产品支撑：比亚迪浩瀚储能系统标准版14.5MWh，报道提到已落地沙特12.5GWh项目。"
+        ],
+        "key_points": [
+          "比亚迪BESS出货超60GWh。",
+          "市占率13%，特斯拉10%。",
+          "全球BESS装机约315GWh，同比+51%。",
+          "中国企业占全球前十集成商8席。"
+        ],
+        "value": "60",
+        "unit": "GWh BESS出货量以上",
+        "delta": "全球市占率13%",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvpqq8823796.shtml",
+        "clean_html": "<p>报道称2025年比亚迪BESS出货超60GWh，市占率13%，超过特斯拉46.7GWh。</p><p>2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh。</p><p>全球前十储能集成商中中国企业占8席。</p>",
+        "caption": "比亚迪登顶BESS集成商",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "新华财经 / 中国证券报 / 新浪财经 / 上海钢联",
+        "source_type": "国内财经媒体/现货价格与产业调研",
+        "account_name": "新华财经 / 中国证券报",
+        "category": "行情",
+        "title": "电池级碳酸锂现货均价重返20.14万元/吨，储能需求与供给扰动共同推升看涨情绪",
+        "summary": "新浪财经5月14日转载中国证券报/新华财经调研称，5月13日上海钢联数据显示电池级碳酸锂现货均价达20.14万元/吨，自4月29日以来上涨2.63万元/吨，单日上涨1900元/吨。报道将涨价归因于津巴布韦锂矿出口、宜春锂云母换证等供给扰动，以及动力和储能电池需求共振；中信证券研报预计供需利好有望推动锂价未来2-3个月上涨至25万元/吨。",
+        "body": [
+          "现货价格：5月13日电池级碳酸锂现货均价20.14万元/吨，较4月29日上涨2.63万元/吨。",
+          "供给扰动：津巴布韦锂矿出口恢复进度低于预期，宜春锂云母矿5-6月换证停产预期升温。",
+          "需求支撑：储能市场需求被锂盐企业视为动力电池之外的第二增长曲线，亿纬锂能称储能电池订单排到明年。",
+          "研判口径：中信证券预计未来2-3个月供需共振有望推动锂价上涨至25万元/吨。"
+        ],
+        "key_points": [
+          "电池级碳酸锂均价20.14万元/吨。",
+          "4月29日以来上涨2.63万元/吨。",
+          "5月13日单日上涨1900元/吨。",
+          "中信证券展望2-3个月25万元/吨。"
+        ],
+        "value": "20.14",
+        "unit": "万元/吨 电池级碳酸锂均价",
+        "delta": "较4月29日+2.63万元/吨",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/money/bond/2026-05-14/doc-inhxvihq0208284.shtml",
+        "clean_html": "<p>上海钢联数据显示，5月13日电池级碳酸锂现货均价达20.14万元/吨，自4月29日以来上涨2.63万元/吨。</p><p>报道将涨价归因于津巴布韦锂矿出口、宜春锂云母换证等供给扰动，以及动力和储能电池需求共振。</p><p>中信证券预计未来2-3个月供需共振有望推动锂价上涨至25万元/吨。</p>",
+        "caption": "碳酸锂重返20万元/吨",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "PR Newswire Asia / ess-news / 宁德时代×海博思创",
+        "source_type": "企业新闻稿/海外行业媒体交叉验证",
+        "account_name": "PR Newswire Asia / ess-news",
+        "category": "技术",
+        "title": "宁德时代与海博思创落地3年60GWh储能钠离子电池战略合作",
+        "summary": "PR Newswire Asia 5月7日中文稿披露，宁德时代与海博思创在4月27日签署储能钠离子电池战略合作协议，双方达成3年合计60GWh钠离子电池订单合作；ess-news英文稿亦称其为全球最大钠离子电池订单之一。该线索说明在锂价上行、储能项目成本承压背景下，钠离子路线正从展会/样品进入GWh级商业交付验证期。",
+        "body": [
+          "订单规模：双方宣布3年合计60GWh储能钠离子电池合作，海博思创成为宁德时代首个储能钠电战略合作伙伴。",
+          "技术含义：报道提到钠离子电池与现有锂电池平台兼容，面向电网侧、用户侧、工商业储能等场景，强调低温、安全和成本优势。",
+          "产业影响：在储能电芯和碳酸锂价格上行周期，钠电大单提升非锂路线的商业化可见度，并可能改变系统集成商供应链议价结构。",
+          "验证口径：企业新闻稿与海外行业媒体报道相互印证；具体交付节奏、系统集成表现和收入贡献仍需后续项目并网/财报确认。"
+        ],
+        "key_points": [
+          "3年60GWh钠离子电池合作。",
+          "海博思创为宁德时代首个储能钠电战略合作伙伴。",
+          "面向电网侧、用户侧和工商业储能。",
+          "非锂路线商业化进入GWh级验证。"
+        ],
+        "value": "60",
+        "unit": "GWh 钠离子电池订单",
+        "delta": "3年合作框架",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-07",
+        "url": "https://www.prnasia.com/story/532133-1.shtml",
+        "clean_html": "<p>PR Newswire Asia中文稿称，宁德时代与海博思创签署储能钠离子电池战略合作协议，双方达成3年60GWh订单合作。</p><p>ess-news英文稿对该订单进行海外复核，称其是钠离子电池商业化的重要节点。</p><p>该线索用于跟踪非锂路线对储能系统成本和供应链格局的影响。</p>",
+        "caption": "储能钠电60GWh合作",
+        "methodology": "11:00严格小时刷新：已尝试重新读取NeoLink首页与MarketTrend入口；web_extract继续因private/internal network阻断，curl HTTPS返回SSL_ERROR_SYSCALL并保存失败headers。随后主动搜索国内+海外公开来源，保存PR Newswire Asia与Energy-Storage.news raw快照，SMM页面因308重定向/访问限制记录错误；仅因新增/复核到可信钠电订单与储能价格传导证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "SMM / 上海有色网新能源",
+        "source_type": "国内材料与储能价格分析",
+        "account_name": "SMM新能源",
+        "category": "行情",
+        "title": "SMM：锂价突破20万元/吨后，储能价格传导进入观察期",
+        "summary": "SMM公开搜索摘要显示，在锂价突破20万元/吨后，国内多数4小时储能系统报价约0.52元/Wh，对应314Ah储能铁锂电芯价格约0.35元/Wh；该价格锚定的碳酸锂价格约15万元/吨左右。若碳酸锂维持高位，储能电芯和系统报价的成本传导压力仍会继续显性化。",
+        "body": [
+          "价格锚：SMM称当前国内大部分4h储能系统报价约0.52元/Wh，对应314Ah储能铁锂电芯约0.35元/Wh。",
+          "成本锚：上述报价大致锚定碳酸锂约15万元/吨，而近期现货/盘面已突破20万元/吨附近。",
+          "产业含义：若高锂价持续，电芯厂库存红利消耗后，储能系统价格存在继续向下游传导的压力。",
+          "限制说明：SMM正文抓取在本轮因重定向/访问限制未完整读取，采用公开搜索摘要作为行情线索，后续需继续跟踪SMM正式数值页。"
+        ],
+        "key_points": [
+          "4h储能系统报价约0.52元/Wh。",
+          "314Ah储能铁锂电芯约0.35元/Wh。",
+          "报价锚定碳酸锂约15万元/吨。",
+          "20万元/吨锂价下成本传导待观察。"
+        ],
+        "value": "0.52",
+        "unit": "元/Wh 4h储能系统报价",
+        "delta": "成本锚约15万元/吨碳酸锂",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://new-energy.smm.cn/h5/content/14042/103897284",
+        "clean_html": "<p>SMM公开摘要称，锂价突破20万元/吨后，国内多数4小时储能系统报价约0.52元/Wh。</p><p>对应314Ah储能铁锂电芯约0.35元/Wh，该价格锚定碳酸锂约15万元/吨。</p><p>若高锂价持续，储能系统价格传导压力仍需跟踪。</p>",
+        "caption": "储能价格传导观察",
+        "methodology": "11:00严格小时刷新：已尝试重新读取NeoLink首页与MarketTrend入口；web_extract继续因private/internal network阻断，curl HTTPS返回SSL_ERROR_SYSCALL并保存失败headers。随后主动搜索国内+海外公开来源，保存PR Newswire Asia与Energy-Storage.news raw快照，SMM页面因308重定向/访问限制记录错误；仅因新增/复核到可信钠电订单与储能价格传导证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
       {
         "source": "Energy-Storage.news / 中国电池出口数据线索",
         "source_type": "海外行业媒体/中国储能电池出口统计线索",
@@ -304,36 +544,6 @@ window.NEOLINK_FEED = {
         "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
       },
       {
-        "source": "Energy-Storage.news / Energy Storage Summit 2026 interviews",
-        "source_type": "海外行业媒体/BESS价格与供应链",
-        "account_name": "Energy-Storage.news",
-        "category": "数据",
-        "title": "Energy-Storage.news：BESS价格短期或回升，碳酸锂与出口退税变化共同扰动报价",
-        "summary": "Energy-Storage.news 5月13日报道称，过去几年BESS交钥匙价格因中国供应商竞争和技术成熟持续下行，但短期可能因全球供应链扰动、能源价格上涨、碳酸锂价格从约6.5万元/吨升至15万-16万元/吨，以及中国取消电池出口增值税退税而出现回升。受访企业认为这会推高欧洲等市场电池项目报价，但长期技术进步仍会继续“移动价格目标线”。",
-        "body": [
-          "价格趋势：BESS价格在2024、2025年显著下降，但短期下行趋势可能放缓甚至反转。",
-          "原料扰动：文中提到碳酸锂由约RMB65,000/吨升至RMB150,000-160,000/吨，虽低于2022年峰值但已影响项目报价。",
-          "政策扰动：中国取消电池出口增值税退税，被欧洲开发商视为推高当地电池项目价格的因素。",
-          "长期判断：受访者认为电池技术仍会长期拉低相对成本，但价格下降不会是直线。"
-        ],
-        "key_points": [
-          "碳酸锂：约6.5万元/吨升至15万-16万元/吨。",
-          "成本：BESS短期价格可能回升。",
-          "政策：中国电池出口退税取消影响欧洲项目报价。",
-          "长期：技术进步仍支撑成本曲线下移。"
-        ],
-        "value": "150000-160000",
-        "unit": "元/吨 碳酸锂区间",
-        "delta": "短期价格回升",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
-        "clean_html": "<p>价格趋势：BESS价格在2024、2025年显著下降，但短期下行趋势可能放缓甚至反转。</p><p>原料扰动：文中提到碳酸锂由约RMB65,000/吨升至RMB150,000-160,000/吨，虽低于2022年峰值但已影响项目报价。</p><p>政策扰动：中国取消电池出口增值税退税，被欧洲开发商视为推高当地电池项目价格的因素。</p>",
-        "caption": "BESS价格短期回升证据",
-        "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
         "source": "Energy-Storage.news / Spearmint / Polaris / Clearway",
         "source_type": "海外行业媒体/美国BESS项目进展",
         "account_name": "Energy-Storage.news",
@@ -572,159 +782,279 @@ window.NEOLINK_FEED = {
         "clean_html": "<p>5月11日碳酸锂2609合约突破20万元/吨，5月12日最高20.88万元/吨。</p><p>较近一年前5.84万元/吨低位上涨超过250%，较年初上涨近70%。</p>",
         "caption": "碳酸锂突破20万元",
         "methodology": "13:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口；HTTPS仍返回LibreSSL SSL_ERROR_SYSCALL，已保存失败headers/空快照；同时主动搜索国内+海外公开来源，并抓取/保存新浪财经/证券时报、SMM储能专区、Energy-Storage.news、Benchmark Mineral Intelligence公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "新浪财经 / 易方达 / 中信证券 / SMM",
-        "source_type": "国内财经媒体/储能订单与ETF行情",
-        "account_name": "新浪财经",
-        "category": "项目",
-        "title": "亿纬锂能与印度GNEPL签署8GWh储能大电池订单，五年潜在合作60GWh",
-        "summary": "新浪财经5月13日报道，储能电池ETF易方达盘中涨近2%；消息面提到亿纬锂能近日与印度能源企业GNEPL正式签署8GWh储能大电池订单，并规划未来五年潜在合作规模达60GWh。文章同时引用中信证券/SMM口径：4月国内碳酸锂需求14.0万吨，上周库存环比降低920吨至10.3万吨，冶炼厂库存1.9万吨。",
-        "body": [
-          "亿纬锂能与印度GNEPL签署8GWh储能大电池订单。",
-          "双方规划未来五年潜在合作规模60GWh。",
-          "SMM口径：4月国内碳酸锂需求14.0万吨，上周库存10.3万吨、环比-920吨。",
-          "中信证券预计未来2—3个月锂盐供应偏紧，需跟踪价格向下游传导。"
-        ],
-        "key_points": [
-          "订单：8GWh储能大电池。",
-          "远期合作：五年潜在60GWh。",
-          "需求：4月国内碳酸锂需求14.0万吨。",
-          "库存：10.3万吨，环比-920吨。"
-        ],
-        "value": "8",
-        "unit": "GWh签约订单",
-        "delta": "60GWh五年潜在合作",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://finance.sina.com.cn/jjxw/2026-05-13/doc-inhxtkrt4630588.shtml",
-        "clean_html": "<p>亿纬锂能与印度GNEPL签署8GWh储能大电池订单。</p><p>双方规划未来五年潜在合作规模60GWh。</p>",
-        "caption": "亿纬印度储能订单",
-        "methodology": "13:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口；HTTPS仍返回LibreSSL SSL_ERROR_SYSCALL，已保存失败headers/空快照；同时主动搜索国内+海外公开来源，并抓取/保存新浪财经/证券时报、SMM储能专区、Energy-Storage.news、Benchmark Mineral Intelligence公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "上海有色网SMM储能专区",
-        "source_type": "国内现货行情/储能材料价格",
-        "account_name": "SMM",
-        "category": "价格",
-        "title": "SMM储能专区：5月12日电池级碳酸锂197000-203000元/吨，均价200000元/吨",
-        "summary": "SMM储能专区公开页面显示，5月12日电池级碳酸锂Li₂CO₃≥99.5%报价197000-203000元/吨，均价200000元/吨，日涨4750元/吨；储能型280Ah方形磷酸铁锂电池周度报价0.309-0.356元/Wh，均价0.3325元/Wh；5MWh直流侧储能电池预制舱0.41-0.49元/Wh，均价0.45元/Wh、涨0.0005。",
-        "body": [
-          "电池级碳酸锂：197000-203000元/吨，均价200000元/吨，涨4750，日期05-12。",
-          "储能型280Ah方形磷酸铁锂电池：0.309-0.356元/Wh，均价0.3325元/Wh，日期05-08。",
-          "5MWh直流侧储能电池预制舱：0.41-0.49元/Wh，均价0.45元/Wh，涨0.0005，日期05-08。",
-          "该条作为MarketTrend价格表和成本传导证据，不替代付费终端逐笔报价。"
-        ],
-        "key_points": [
-          "碳酸锂均价：200000元/吨，+4750。",
-          "储能电芯：0.3325元/Wh。",
-          "5MWh预制舱：0.45元/Wh，+0.0005。",
-          "来源：SMM储能专区公开页面。"
-        ],
-        "value": "200000",
-        "unit": "元/吨现货均价",
-        "delta": "+4750",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>电池级碳酸锂：197000-203000元/吨，均价200000元/吨，涨4750，日期05-12。</p><p>储能型280Ah方形磷酸铁锂电池：0.309-0.356元/Wh，均价0.3325元/Wh，日期05-08。</p>",
-        "caption": "SMM储能材料价格",
-        "methodology": "13:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口；HTTPS仍返回LibreSSL SSL_ERROR_SYSCALL，已保存失败headers/空快照；同时主动搜索国内+海外公开来源，并抓取/保存新浪财经/证券时报、SMM储能专区、Energy-Storage.news、Benchmark Mineral Intelligence公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "Energy-Storage.news / Spearmint Energy",
-        "source_type": "海外行业媒体/项目融资",
-        "account_name": "Energy-Storage.news",
-        "category": "融资",
-        "title": "Spearmint Energy为德州两个BESS项目获得2.5亿美元融资，总规模400MWh",
-        "summary": "Energy-Storage.news公开页面显示，Spearmint Energy为美国德州Tierra Seca和Seven Flags两个电池储能项目取得2.5亿美元融资，两项目合计400MWh；每个项目均为100MW/200MWh，采用Sungrow BESS单元。融资包括建设转长期贷款、税收权益桥贷及税收权益承诺。",
-        "body": [
-          "融资额：2.5亿美元。",
-          "项目：Texas Del Rio的Tierra Seca BESS和Laredo的Seven Flags BESS。",
-          "规模：两个项目合计400MWh，每个100MW/200MWh。",
-          "意义：美国ERCOT市场仍可获得储能项目融资，但税收权益和关税风险需同步跟踪。"
-        ],
-        "key_points": [
-          "融资：US$250 million。",
-          "规模：400MWh，两个100MW/200MWh项目。",
-          "区域：美国德州/ERCOT。",
-          "设备：页面图片说明为Sungrow BESS单元。"
-        ],
-        "value": "250",
-        "unit": "百万美元融资",
-        "delta": "400MWh",
-        "direction": "up",
-        "date": "04-17",
-        "as_of": "2025-04-17",
-        "url": "https://www.energy-storage.news/spearmint-energy-secures-us250-million-for-two-texas-bess-totalling-400mwh/",
-        "clean_html": "<p>融资额：2.5亿美元。</p><p>项目：Texas Del Rio的Tierra Seca BESS和Laredo的Seven Flags BESS。</p>",
-        "caption": "德州BESS融资",
-        "methodology": "13:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口；HTTPS仍返回LibreSSL SSL_ERROR_SYSCALL，已保存失败headers/空快照；同时主动搜索国内+海外公开来源，并抓取/保存新浪财经/证券时报、SMM储能专区、Energy-Storage.news、Benchmark Mineral Intelligence公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "Benchmark Mineral Intelligence",
-        "source_type": "海外研究机构/供需与价格指数",
-        "account_name": "Benchmark",
-        "category": "研报",
-        "title": "Benchmark：美国BESS电芯需求到2028年前仍高于北美本土产能",
-        "summary": "Benchmark Mineral Intelligence公开页称，美国LFP储能电芯需求预计到2028年前仍将高于北美生产商供应，即使有关税推动本土制造，进口仍将继续。页面同时展示指数：Lithium Carbonate Index 404.38、涨6.07%；Lithium Hydroxide Index 328.09、涨3.51%；Lithium ion Batteries Index 74.53、涨4.53%。",
-        "body": [
-          "美国LFP BESS电芯需求预计到2028年前高于北美供应。",
-          "Benchmark认为关税虽刺激本土生产，但短期仍难完全替代进口。",
-          "页面指数显示Lithium Carbonate Index 404.38，涨6.07%。",
-          "该条用于海外供应链/关税风险索引，不作为单一成交价格。"
-        ],
-        "key_points": [
-          "供需：美国BESS电芯需求>北美产能，持续至2028年前。",
-          "关税：未能阻止进口继续。",
-          "锂价指数：Lithium Carbonate Index 404.38，+6.07%。",
-          "用途：海外供应链风险证据。"
-        ],
-        "value": "2028",
-        "unit": "年前供应缺口",
-        "delta": "Li2CO3指数+6.07%",
-        "direction": "up",
-        "date": "03-02",
-        "as_of": "2026-03-02",
-        "url": "https://source.benchmarkminerals.com/article/us-bess-cell-demand-outstripping-north-american-production-until-2028-despite-tariffs",
-        "clean_html": "<p>美国LFP BESS电芯需求预计到2028年前高于北美供应。</p><p>Benchmark认为关税虽刺激本土生产，但短期仍难完全替代进口。</p>",
-        "caption": "美国BESS电芯缺口",
-        "methodology": "13:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口；HTTPS仍返回LibreSSL SSL_ERROR_SYSCALL，已保存失败headers/空快照；同时主动搜索国内+海外公开来源，并抓取/保存新浪财经/证券时报、SMM储能专区、Energy-Storage.news、Benchmark Mineral Intelligence公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "新浪财经 / 华泰期货 / SMM",
-        "source_type": "国内财经媒体/期货研究与SMM现货口径",
-        "account_name": "华泰期货",
-        "category": "价格",
-        "title": "华泰期货：5月11日碳酸锂2609收205020元/吨，SMM电碳191500-199000元/吨",
-        "summary": "华泰期货经新浪财经发布5月11日碳酸锂市场跟踪：LC2609收于205020元/吨，涨3.51%；SMM电池级碳酸锂现货报价191500-199000元/吨，较前一交易日上调1250元/吨；现货库存102673吨、环比-920吨。该口径支持MarketTrend继续标注锂盐高位震荡与储能材料成本上行压力。",
-        "body": [
-          "LC2609收205020元/吨，日涨3.51%。",
-          "SMM电池级碳酸锂报价191500-199000元/吨，日涨1250元/吨。",
-          "SMM现货库存102673吨，环比-920吨。",
-          "华泰提示短期价格高位震荡，关注供给变动和下游备货节奏。"
-        ],
-        "key_points": [
-          "期货：LC2609收205020元/吨，涨3.51%。",
-          "现货：电池级碳酸锂191500-199000元/吨，日涨1250元/吨。",
-          "库存：102673吨，环比减少920吨。",
-          "研判：短期高位震荡，供给扰动与5月锂电排产支撑情绪。"
-        ],
-        "value": "205020",
-        "unit": "元/吨期货收盘",
-        "delta": "+3.51%",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-12/doc-inhxqzkr8473861.shtml",
-        "clean_html": "<p>LC2609收205020元/吨，日涨3.51%。</p><p>SMM电池级碳酸锂报价191500-199000元/吨，日涨1250元/吨。</p>",
-        "caption": "碳酸锂期现继续高位",
-        "methodology": "12:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口；HTTPS仍返回LibreSSL SSL_ERROR_SYSCALL/EOF，HTTP入口成功保存快照。主动搜索国内+海外公开来源，并抓取新浪财经/华泰期货、南网储能中标公示、Energy-Storage.news 2026储能报告、SMM公开碳酸锂页面快照。仅写入可见来源、日期、价格/规模/方法字段，不以纯刷新时间冒充更新。"
       }
     ],
     "latest": [
+      {
+        "source": "新浪财经 / 市场资讯 / SMM",
+        "source_type": "国内财经媒体/期货日报与SMM现货口径",
+        "account_name": "新浪财经期货 / SMM",
+        "category": "行情",
+        "title": "碳酸锂日报：SMM电池级碳酸锂19.8-20.3万元/吨，主力合约收201960元/吨",
+        "summary": "新浪财经5月14日10:13发布碳酸锂日报称，5月13日碳酸锂主力合约2609收于201960元/吨，较昨日结算价变化-1.87%；按SMM现货报价，电池级碳酸锂198000-203000元/吨、较前一交易日上调500元/吨，工业级碳酸锂194000-198000元/吨、同样上调500元/吨。文章同时披露SMM周度碳酸锂总产量25894吨、现货库存102673吨，认为五月整体预计紧平衡，储能项目对锂价变化响应仍有时滞。",
+        "body": [
+          "期货口径：5月13日碳酸锂主力合约2609收于201960元/吨，日内收盘较昨日结算价变化-1.87%，成交425885手、持仓519507手。",
+          "现货口径：SMM电池级碳酸锂报价198000-203000元/吨，较前一交易日上调500元/吨；工业级碳酸锂报价194000-198000元/吨，较前一交易日上调500元/吨。",
+          "供需库存：SMM周度碳酸锂总产量25894吨，现货库存102673吨、环比减少920吨；百川数据显示磷酸铁锂产量环比增加4.82%。",
+          "储能传导：文章判断储能需求彰显韧性，但储能新项目对当前锂价上涨响应存在时滞，下半年储能需求仍需验证。"
+        ],
+        "key_points": [
+          "电池级碳酸锂198000-203000元/吨，日变动+500元/吨。",
+          "碳酸锂2609合约收201960元/吨，日变动-1.87%。",
+          "SMM周度总产量25894吨，现货库存102673吨。",
+          "储能项目对锂价上涨响应仍有时滞。"
+        ],
+        "value": "20.05",
+        "unit": "万元/吨 SMM电池级均价",
+        "delta": "+500元/吨；期货-1.87%",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-14/doc-inhxvpqq8843262.shtml",
+        "clean_html": "<p>新浪财经碳酸锂日报称，5月13日碳酸锂2609合约收于201960元/吨，日变动-1.87%。</p><p>按SMM现货报价，电池级碳酸锂198000-203000元/吨，较前一交易日上调500元/吨；工业级碳酸锂194000-198000元/吨，同样上调500元/吨。</p><p>SMM周度总产量25894吨，现货库存102673吨；文章提示储能项目对当前锂价上涨响应仍有时滞。</p>",
+        "caption": "SMM碳酸锂日报",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "国际储能网 / 储能头条",
+        "source_type": "国内行业门户/公开招投标统计",
+        "account_name": "国际储能网 / 储能头条",
+        "category": "招投标",
+        "title": "2026年1-4月储能采招40.37GW/165.71GWh，4小时系统均价0.5189元/Wh",
+        "summary": "国际储能网5月14日发布储能头条不完全统计，2026年1-4月国内储能市场完成334次储能采招，公开可追踪规模40.37GW/165.71GWh，其中储能系统7.07GW/51.01GWh、EPC 33.31GW/87.91GWh。4月4小时磷酸铁锂储能系统中标单价0.496-0.5489元/Wh，均价0.5189元/Wh；磷酸铁锂路线占采招需求93.44%。",
+        "body": [
+          "总量：1-4月共完成334次储能采招，公开可追踪规模40.37GW/165.71GWh，统计剔除重复招标项目且不含集采未分配份额。",
+          "结构：储能系统采购7.07GW/51.01GWh，EPC规模33.31GW/87.91GWh；集采招标60.96GWh，占比36.79%，独立储能98.31GWh，占比59.33%。",
+          "价格：4月4小时磷酸铁锂储能系统中标单价0.496-0.5489元/Wh，均价0.5189元/Wh；4小时EPC均价0.9149元/Wh，较3月上涨2.35%。",
+          "格局：储能系统中标规模中，中车株洲所、比亚迪、融和元储、亨通储能、远景能源等居前；技术路线中磷酸铁锂占比93.44%。"
+        ],
+        "key_points": [
+          "1-4月储能采招40.37GW/165.71GWh。",
+          "储能系统7.07GW/51.01GWh，EPC 33.31GW/87.91GWh。",
+          "4月4小时系统均价0.5189元/Wh。",
+          "磷酸铁锂路线占采招需求93.44%。"
+        ],
+        "value": "165.71",
+        "unit": "GWh 1-4月采招规模",
+        "delta": "4h系统均价0.5189元/Wh",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://mchuneng.in-en.com/html/chunengy-54167.shtml",
+        "clean_html": "<p>国际储能网发布储能头条统计，2026年1-4月国内储能市场完成334次采招，公开可追踪规模40.37GW/165.71GWh。</p><p>其中储能系统7.07GW/51.01GWh，EPC 33.31GW/87.91GWh；4月4小时磷酸铁锂储能系统均价0.5189元/Wh。</p><p>磷酸铁锂路线占采招需求93.44%，中车株洲所、比亚迪、融和元储等系统中标规模居前。</p>",
+        "caption": "1-4月储能采招统计",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "Energy-Storage.news / Solar Media Energy Storage Summit 2026",
+        "source_type": "海外行业媒体/峰会访谈与价格趋势分析",
+        "account_name": "Energy-Storage.news",
+        "category": "市场",
+        "title": "Energy-Storage.news：锂价三倍、出口退税取消与供应链扰动或推升短期BESS价格",
+        "summary": "Energy-Storage.news报道，2024-2025年锂电BESS交钥匙价格显著下降，但2026年短期可能因碳酸锂价格约三倍上涨、中国电池出口退税取消、地缘冲突造成的供应链与能源价格扰动而止跌回升。文章称中国BESS招标价格已开始上行，同时提示锂碳酸盐约占BESS成本5%，长期技术迭代仍可能继续改善系统成本。",
+        "body": [
+          "价格背景：2024和2025年BESS价格因中国供应商竞争和技术成熟持续下降，但报道判断短期趋势可能放缓或反转。",
+          "成本变量：文章列出碳酸锂价格三倍上涨、中国年末取消电池出口增值税退税、战争导致能源价格和供应链扰动等因素。",
+          "中国信号：Energy-Storage.news称中国BESS招标价格已经开始上行，锂碳酸盐约占BESS成本5%。",
+          "长期判断：受访行业人士认为短期价格上行与长期技术继续推进并不矛盾，储能系统技术仍会继续移动成本边界。"
+        ],
+        "key_points": [
+          "BESS短期价格可能止跌回升。",
+          "碳酸锂价格上涨与出口退税取消是关键变量。",
+          "锂碳酸盐约占BESS成本5%。",
+          "中国BESS招标价格已出现上行迹象。"
+        ],
+        "value": "5",
+        "unit": "% 锂碳酸盐约占BESS成本",
+        "delta": "短期价格上行压力",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "clean_html": "<p>Energy-Storage.news报道称，BESS交钥匙价格在2024-2025年显著下降后，短期可能因碳酸锂价格上涨、出口退税取消和供应链扰动而止跌回升。</p><p>文章称中国BESS招标价格已开始上行，锂碳酸盐约占BESS成本5%。</p><p>长期看，技术迭代仍可能继续改善系统成本边界。</p>",
+        "caption": "海外BESS价格趋势",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "上海证券报 / 新浪财经 / CIBF 2026",
+        "source_type": "国内财经媒体/产业会议现场报道",
+        "account_name": "上海证券报·中国证券网",
+        "category": "技术",
+        "title": "CIBF 2026：储能电池未来5年迎机遇，4小时储能电池价格已低于500元/kWh",
+        "summary": "新浪财经转载上海证券报5月14日报道，CIBF 2026主论坛上，多位产业界与学界人士围绕储能、固态电池和AI研发展开讨论。欧阳明高称，4小时储能电池价格已经低于500元/kWh，未来储能电池将围绕超大容量、超长寿命、超低成本、长时储能演进：容量从300Ah向3000Ah，循环寿命从5000次向15000次，日历寿命从15年向25年，储能时长从2小时向10小时发展。",
+        "body": [
+          "需求判断：报道称储能已从新能源配套环节逐步演变为独立大产业方向，今后5年储能电池将遇巨大机遇期。",
+          "技术路径：储能电池将向3000Ah、单体超过10kWh、15000次循环、25年日历寿命和10小时长时储能演进。",
+          "价格口径：当前4小时储能电池价格已低于500元/kWh；成本目标是每循环储能度电成本向0.1元发展。",
+          "路线分化：比亚迪廉玉波判断储能领域磷酸铁锂与钠离子电池将形成互补，固态/半固态优先落地高能量密度场景。"
+        ],
+        "key_points": [
+          "4小时储能电池价格低于500元/kWh。",
+          "储能电池容量从300Ah向3000Ah演进。",
+          "循环寿命目标从5000次向15000次。",
+          "储能时长从2小时向10小时发展。"
+        ],
+        "value": "500",
+        "unit": "元/kWh以下 4h储能电池价格",
+        "delta": "未来5年机遇期",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvihs8854339.shtml",
+        "clean_html": "<p>CIBF 2026主论坛讨论储能、固态电池和AI研发。欧阳明高称4小时储能电池价格已低于500元/kWh。</p><p>未来储能电池将向3000Ah、15000次循环、25年寿命和10小时长时储能演进。</p><p>比亚迪廉玉波认为储能领域磷酸铁锂与钠离子电池将形成互补。</p>",
+        "caption": "CIBF储能电池路线研判",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "快科技 / 新浪财经 / 全球BESS集成商排名",
+        "source_type": "国内科技媒体转载/全球储能系统出货排名线索",
+        "account_name": "快科技 / 新浪财经",
+        "category": "企业",
+        "title": "比亚迪2025年BESS出货超60GWh，超越特斯拉登顶全球电池储能系统集成商",
+        "summary": "新浪财经5月14日报道，2025年比亚迪全球电池储能系统（BESS）出货量超60GWh，市占率13%，超过特斯拉46.7GWh、10%的市占率，成为全球最大BESS集成商。报道还称2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh，全球前十储能集成商中中国企业占8席。",
+        "body": [
+          "排名变化：比亚迪超越特斯拉，终结特斯拉2023-2024年连续榜首。",
+          "出货口径：比亚迪2025年全球储能系统出货超60GWh，市占率13%；特斯拉46.7GWh，市占率10%。",
+          "行业规模：2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh。",
+          "产品支撑：比亚迪浩瀚储能系统标准版14.5MWh，报道提到已落地沙特12.5GWh项目。"
+        ],
+        "key_points": [
+          "比亚迪BESS出货超60GWh。",
+          "市占率13%，特斯拉10%。",
+          "全球BESS装机约315GWh，同比+51%。",
+          "中国企业占全球前十集成商8席。"
+        ],
+        "value": "60",
+        "unit": "GWh BESS出货量以上",
+        "delta": "全球市占率13%",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvpqq8823796.shtml",
+        "clean_html": "<p>报道称2025年比亚迪BESS出货超60GWh，市占率13%，超过特斯拉46.7GWh。</p><p>2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh。</p><p>全球前十储能集成商中中国企业占8席。</p>",
+        "caption": "比亚迪登顶BESS集成商",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "新华财经 / 中国证券报 / 新浪财经 / 上海钢联",
+        "source_type": "国内财经媒体/现货价格与产业调研",
+        "account_name": "新华财经 / 中国证券报",
+        "category": "行情",
+        "title": "电池级碳酸锂现货均价重返20.14万元/吨，储能需求与供给扰动共同推升看涨情绪",
+        "summary": "新浪财经5月14日转载中国证券报/新华财经调研称，5月13日上海钢联数据显示电池级碳酸锂现货均价达20.14万元/吨，自4月29日以来上涨2.63万元/吨，单日上涨1900元/吨。报道将涨价归因于津巴布韦锂矿出口、宜春锂云母换证等供给扰动，以及动力和储能电池需求共振；中信证券研报预计供需利好有望推动锂价未来2-3个月上涨至25万元/吨。",
+        "body": [
+          "现货价格：5月13日电池级碳酸锂现货均价20.14万元/吨，较4月29日上涨2.63万元/吨。",
+          "供给扰动：津巴布韦锂矿出口恢复进度低于预期，宜春锂云母矿5-6月换证停产预期升温。",
+          "需求支撑：储能市场需求被锂盐企业视为动力电池之外的第二增长曲线，亿纬锂能称储能电池订单排到明年。",
+          "研判口径：中信证券预计未来2-3个月供需共振有望推动锂价上涨至25万元/吨。"
+        ],
+        "key_points": [
+          "电池级碳酸锂均价20.14万元/吨。",
+          "4月29日以来上涨2.63万元/吨。",
+          "5月13日单日上涨1900元/吨。",
+          "中信证券展望2-3个月25万元/吨。"
+        ],
+        "value": "20.14",
+        "unit": "万元/吨 电池级碳酸锂均价",
+        "delta": "较4月29日+2.63万元/吨",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/money/bond/2026-05-14/doc-inhxvihq0208284.shtml",
+        "clean_html": "<p>上海钢联数据显示，5月13日电池级碳酸锂现货均价达20.14万元/吨，自4月29日以来上涨2.63万元/吨。</p><p>报道将涨价归因于津巴布韦锂矿出口、宜春锂云母换证等供给扰动，以及动力和储能电池需求共振。</p><p>中信证券预计未来2-3个月供需共振有望推动锂价上涨至25万元/吨。</p>",
+        "caption": "碳酸锂重返20万元/吨",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "Energy-Storage.news / North Dakota PSC / NextEra Energy Resources",
+        "source_type": "海外行业媒体/监管许可项目证据",
+        "account_name": "Energy-Storage.news",
+        "category": "海外",
+        "title": "NextEra北达科他100MW/400MWh BESS获站址兼容证书，投资约1.286亿美元",
+        "summary": "Energy-Storage.news报道，North Dakota Public Service Commission批准Northern Divide Energy Storage建设100MW/400MWh电池储能系统的Certificate of Site Compatibility。项目由NextEra Energy Resources运营，投资约1.286亿美元，计划2026年开工、2026年12月商业运营，预计安装约129个BESS集装箱和43套PCS。",
+        "body": [
+          "项目规模：100MW/400MWh，位于北达科他州Burke County。",
+          "投资与进度：投资约1.286亿美元，计划今年开工并于2026年12月商业运营。",
+          "设备口径：报道提到LG品牌锂离子电池、约129个BESS containers和43套PCS。",
+          "验证意义：海外项目许可继续证明美国公用事业侧储能需求，但该文部分内容需订阅，已使用可见公开段落。"
+        ],
+        "key_points": [
+          "100MW/400MWh BESS。",
+          "投资约1.286亿美元。",
+          "预计2026年12月商业运营。",
+          "约129个BESS集装箱、43套PCS。"
+        ],
+        "value": "400",
+        "unit": "MWh 项目容量",
+        "delta": "投资约1.286亿美元",
+        "direction": "up",
+        "date": "04-07",
+        "as_of": "2026-04-07",
+        "url": "https://www.energy-storage.news/north-dakota-approves-certificate-of-site-compatibility-for-400mwh-bess-from-nextera-energy-resources/",
+        "clean_html": "<p>North Dakota PSC批准Northern Divide Energy Storage建设100MW/400MWh BESS的站址兼容证书。</p><p>项目由NextEra Energy Resources运营，投资约1.286亿美元，预计2026年12月商业运营。</p><p>公开段落披露约129个BESS集装箱和43套PCS。</p>",
+        "caption": "NextEra 400MWh项目获批",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "PR Newswire Asia / ess-news / 宁德时代×海博思创",
+        "source_type": "企业新闻稿/海外行业媒体交叉验证",
+        "account_name": "PR Newswire Asia / ess-news",
+        "category": "技术",
+        "title": "宁德时代与海博思创落地3年60GWh储能钠离子电池战略合作",
+        "summary": "PR Newswire Asia 5月7日中文稿披露，宁德时代与海博思创在4月27日签署储能钠离子电池战略合作协议，双方达成3年合计60GWh钠离子电池订单合作；ess-news英文稿亦称其为全球最大钠离子电池订单之一。该线索说明在锂价上行、储能项目成本承压背景下，钠离子路线正从展会/样品进入GWh级商业交付验证期。",
+        "body": [
+          "订单规模：双方宣布3年合计60GWh储能钠离子电池合作，海博思创成为宁德时代首个储能钠电战略合作伙伴。",
+          "技术含义：报道提到钠离子电池与现有锂电池平台兼容，面向电网侧、用户侧、工商业储能等场景，强调低温、安全和成本优势。",
+          "产业影响：在储能电芯和碳酸锂价格上行周期，钠电大单提升非锂路线的商业化可见度，并可能改变系统集成商供应链议价结构。",
+          "验证口径：企业新闻稿与海外行业媒体报道相互印证；具体交付节奏、系统集成表现和收入贡献仍需后续项目并网/财报确认。"
+        ],
+        "key_points": [
+          "3年60GWh钠离子电池合作。",
+          "海博思创为宁德时代首个储能钠电战略合作伙伴。",
+          "面向电网侧、用户侧和工商业储能。",
+          "非锂路线商业化进入GWh级验证。"
+        ],
+        "value": "60",
+        "unit": "GWh 钠离子电池订单",
+        "delta": "3年合作框架",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-07",
+        "url": "https://www.prnasia.com/story/532133-1.shtml",
+        "clean_html": "<p>PR Newswire Asia中文稿称，宁德时代与海博思创签署储能钠离子电池战略合作协议，双方达成3年60GWh订单合作。</p><p>ess-news英文稿对该订单进行海外复核，称其是钠离子电池商业化的重要节点。</p><p>该线索用于跟踪非锂路线对储能系统成本和供应链格局的影响。</p>",
+        "caption": "储能钠电60GWh合作",
+        "methodology": "11:00严格小时刷新：已尝试重新读取NeoLink首页与MarketTrend入口；web_extract继续因private/internal network阻断，curl HTTPS返回SSL_ERROR_SYSCALL并保存失败headers。随后主动搜索国内+海外公开来源，保存PR Newswire Asia与Energy-Storage.news raw快照，SMM页面因308重定向/访问限制记录错误；仅因新增/复核到可信钠电订单与储能价格传导证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "SMM / 上海有色网新能源",
+        "source_type": "国内材料与储能价格分析",
+        "account_name": "SMM新能源",
+        "category": "行情",
+        "title": "SMM：锂价突破20万元/吨后，储能价格传导进入观察期",
+        "summary": "SMM公开搜索摘要显示，在锂价突破20万元/吨后，国内多数4小时储能系统报价约0.52元/Wh，对应314Ah储能铁锂电芯价格约0.35元/Wh；该价格锚定的碳酸锂价格约15万元/吨左右。若碳酸锂维持高位，储能电芯和系统报价的成本传导压力仍会继续显性化。",
+        "body": [
+          "价格锚：SMM称当前国内大部分4h储能系统报价约0.52元/Wh，对应314Ah储能铁锂电芯约0.35元/Wh。",
+          "成本锚：上述报价大致锚定碳酸锂约15万元/吨，而近期现货/盘面已突破20万元/吨附近。",
+          "产业含义：若高锂价持续，电芯厂库存红利消耗后，储能系统价格存在继续向下游传导的压力。",
+          "限制说明：SMM正文抓取在本轮因重定向/访问限制未完整读取，采用公开搜索摘要作为行情线索，后续需继续跟踪SMM正式数值页。"
+        ],
+        "key_points": [
+          "4h储能系统报价约0.52元/Wh。",
+          "314Ah储能铁锂电芯约0.35元/Wh。",
+          "报价锚定碳酸锂约15万元/吨。",
+          "20万元/吨锂价下成本传导待观察。"
+        ],
+        "value": "0.52",
+        "unit": "元/Wh 4h储能系统报价",
+        "delta": "成本锚约15万元/吨碳酸锂",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://new-energy.smm.cn/h5/content/14042/103897284",
+        "clean_html": "<p>SMM公开摘要称，锂价突破20万元/吨后，国内多数4小时储能系统报价约0.52元/Wh。</p><p>对应314Ah储能铁锂电芯约0.35元/Wh，该价格锚定碳酸锂约15万元/吨。</p><p>若高锂价持续，储能系统价格传导压力仍需跟踪。</p>",
+        "caption": "储能价格传导观察",
+        "methodology": "11:00严格小时刷新：已尝试重新读取NeoLink首页与MarketTrend入口；web_extract继续因private/internal network阻断，curl HTTPS返回SSL_ERROR_SYSCALL并保存失败headers。随后主动搜索国内+海外公开来源，保存PR Newswire Asia与Energy-Storage.news raw快照，SMM页面因308重定向/访问限制记录错误；仅因新增/复核到可信钠电订单与储能价格传导证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
       {
         "source": "Energy-Storage.news / 中国电池出口数据线索",
         "source_type": "海外行业媒体/中国储能电池出口统计线索",
@@ -1053,36 +1383,6 @@ window.NEOLINK_FEED = {
         "url": "https://finance.sina.com.cn/jjxw/2026-05-13/doc-inhxtvfh0747538.shtml",
         "clean_html": "<p>产线切换：储能电芯正在从314Ah向587Ah等大容量规格切换，改造旧线不一定具备成本优势。</p><p>供给约束：新产线建设与良率爬坡需要时间，短期供给弹性偏低，结构性紧缺可能持续更久。</p><p>招标门槛：业内建议电网侧招标优先采用500Ah以上大容量高安全电芯，用标准抑制落后产能。</p>",
         "caption": "大容量储能电芯结构缺口",
-        "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "Energy-Storage.news / Energy Storage Summit 2026 interviews",
-        "source_type": "海外行业媒体/BESS价格与供应链",
-        "account_name": "Energy-Storage.news",
-        "category": "数据",
-        "title": "Energy-Storage.news：BESS价格短期或回升，碳酸锂与出口退税变化共同扰动报价",
-        "summary": "Energy-Storage.news 5月13日报道称，过去几年BESS交钥匙价格因中国供应商竞争和技术成熟持续下行，但短期可能因全球供应链扰动、能源价格上涨、碳酸锂价格从约6.5万元/吨升至15万-16万元/吨，以及中国取消电池出口增值税退税而出现回升。受访企业认为这会推高欧洲等市场电池项目报价，但长期技术进步仍会继续“移动价格目标线”。",
-        "body": [
-          "价格趋势：BESS价格在2024、2025年显著下降，但短期下行趋势可能放缓甚至反转。",
-          "原料扰动：文中提到碳酸锂由约RMB65,000/吨升至RMB150,000-160,000/吨，虽低于2022年峰值但已影响项目报价。",
-          "政策扰动：中国取消电池出口增值税退税，被欧洲开发商视为推高当地电池项目价格的因素。",
-          "长期判断：受访者认为电池技术仍会长期拉低相对成本，但价格下降不会是直线。"
-        ],
-        "key_points": [
-          "碳酸锂：约6.5万元/吨升至15万-16万元/吨。",
-          "成本：BESS短期价格可能回升。",
-          "政策：中国电池出口退税取消影响欧洲项目报价。",
-          "长期：技术进步仍支撑成本曲线下移。"
-        ],
-        "value": "150000-160000",
-        "unit": "元/吨 碳酸锂区间",
-        "delta": "短期价格回升",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
-        "clean_html": "<p>价格趋势：BESS价格在2024、2025年显著下降，但短期下行趋势可能放缓甚至反转。</p><p>原料扰动：文中提到碳酸锂由约RMB65,000/吨升至RMB150,000-160,000/吨，虽低于2022年峰值但已影响项目报价。</p><p>政策扰动：中国取消电池出口增值税退税，被欧洲开发商视为推高当地电池项目价格的因素。</p>",
-        "caption": "BESS价格短期回升证据",
         "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
       },
       {
@@ -1562,35 +1862,6 @@ window.NEOLINK_FEED = {
         "url": "https://finance.sina.com.cn/roll/2026-05-12/doc-inhxqzkm1379250.shtml",
         "clean_html": "<p>EVTank等机构白皮书口径显示，2025年全球储能锂离子电池出货量为651.5GWh，同比增长76.2%。</p><p>新浪财经转载的研究整理还引用InfoLink数据库，显示中国储能电池企业在全球市场份额中占据主要位置。</p>",
         "caption": "全球储能锂电池出货",
-        "methodology": "08:00严格小时任务：已重新尝试读取NeoLink首页与MarketTrend入口，HTTPS仍返回SSL EOF；主动搜索国内+海外公开来源，并抓取Energy-Storage.news、时代储能网、新浪财经、SMM与InfoLink公开页面快照。只写入可见来源字段和可复核数字，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "时代储能网 / 中国汽车动力电池产业创新联盟",
-        "source_type": "国内行业门户/协会数据",
-        "account_name": "时代储能网",
-        "category": "数据",
-        "title": "4月我国储能电池销量55.2GWh，同比增75.5%；动力和储能电池合计出口31.7GWh",
-        "summary": "时代储能网5月12日根据中国汽车动力电池产业创新联盟数据整理：2026年4月我国动力和储能电池销量合计164.2GWh，同比增39.0%；其中储能电池销量55.2GWh，同比增75.5%；动力和储能电池合计出口31.7GWh，同比增42.0%。",
-        "body": [
-          "中国汽车动力电池产业创新联盟公布，2026年4月我国动力和储能电池销量合计164.2GWh，环比下降6.2%，同比增长39.0%。",
-          "其中储能电池销量55.2GWh，占总销量33.6%，环比下降8.5%，同比增长75.5%。",
-          "同期动力和储能电池合计出口31.7GWh，同比增长42.0%，反映中国电池出口仍保持较高增速。"
-        ],
-        "key_points": [
-          "4月储能电池销量：55.2GWh。",
-          "储能电池同比：+75.5%。",
-          "动力+储能电池出口：31.7GWh。",
-          "出口同比：+42.0%。"
-        ],
-        "value": "55.2",
-        "unit": "GWh",
-        "delta": "+75.5%",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://eraes.com.cn/sjtj",
-        "clean_html": "<p>中国汽车动力电池产业创新联盟数据显示，2026年4月我国储能电池销量55.2GWh，同比增长75.5%。</p><p>同期动力和储能电池合计出口31.7GWh，同比增长42.0%。</p>",
-        "caption": "4月中国储能电池销量",
         "methodology": "08:00严格小时任务：已重新尝试读取NeoLink首页与MarketTrend入口，HTTPS仍返回SSL EOF；主动搜索国内+海外公开来源，并抓取Energy-Storage.news、时代储能网、新浪财经、SMM与InfoLink公开页面快照。只写入可见来源字段和可复核数字，不以纯刷新时间冒充更新。"
       },
       {
@@ -2232,93 +2503,6 @@ window.NEOLINK_FEED = {
         "methodology": "03:02抓取时代储能网招投标/产业动态列表；仅抽取列表披露的并网时间、主体和场景，未推断容量、价格或收益。"
       },
       {
-        "source": "时代储能网 / 亿纬锂能 / 印度GNEPL",
-        "source_type": "国内行业媒体/海外订单合作",
-        "account_name": "时代储能网",
-        "category": "企业",
-        "title": "亿纬锂能与印度GNEPL签约8GWh订单，五年合作目标60GWh",
-        "summary": "时代储能网5月12日列表显示，亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。该线索显示中国储能电池企业在印度及东南亚周边市场继续推进长期供货合作，对储能电芯出海和LFP供应链情绪偏正面；具体产品、价格和交付节奏仍需等待公司公告或项目合同细节。",
-        "body": [
-          "Eraes页面标题为“亿纬锂能×印度GNEPL | 签约8GWh订单，五年60GWh合作，共筑东南…”，发布时间为2026-05-12。",
-          "可抽取的核心量化字段为8GWh订单和五年60GWh合作目标，合作方为印度GNEPL。",
-          "因列表摘要截断，未将60GWh等同于已锁定交付或收入确认；站内按海外合作/订单线索处理。"
-        ],
-        "key_points": [
-          "签约订单：8GWh。",
-          "五年合作目标：60GWh。",
-          "合作方：印度GNEPL。",
-          "情绪影响：储能电芯出口/海外需求偏正面。"
-        ],
-        "value": "8",
-        "unit": "GWh订单",
-        "delta": "五年60GWh合作目标",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。</p><p>当前公开列表未披露价格、产品型号和确认收入节奏，按海外订单合作线索记录。</p>",
-        "caption": "亿纬锂能印度合作",
-        "methodology": "00:06抓取Eraes公开列表页，抽取订单规模、合作目标和合作方；以列表公开字段为准，未推断交易价格。"
-      },
-      {
-        "source": "时代储能网 / SERMATEC 赛唯数字能源",
-        "source_type": "国内行业媒体/海外项目交付",
-        "account_name": "时代储能网",
-        "category": "项目",
-        "title": "赛唯数字能源奥地利200MWh大储项目顺利交付",
-        "summary": "时代储能网5月12日列表显示，赛唯数字能源奥地利200MWh大储项目顺利交付。公开摘要称，在全球能源转型和新型电力系统加速构建背景下，储能成为新能源消纳和电网稳定的重要基础设施；赛唯自2023年起同步布局工商业储能与大型储能两条赛道。",
-        "body": [
-          "本轮抓取Eraes公开页发现“200MWh！赛唯奥地利大储项目顺利交付！”条目，发布时间为2026-05-12。",
-          "该项目属于中国储能系统企业海外大储交付线索，规模为200MWh，地区为奥地利。",
-          "当前公开列表未给出业主、并网日期、系统单价和技术参数，站内按海外项目交付线索记录，并列为MarketTrend出海情绪证据。"
-        ],
-        "key_points": [
-          "海外项目：奥地利大储。",
-          "规模：200MWh。",
-          "主体：赛唯数字能源。",
-          "状态：公开列表称“顺利交付”。"
-        ],
-        "value": "200",
-        "unit": "MWh",
-        "delta": "海外交付",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，赛唯数字能源奥地利200MWh大储项目顺利交付。</p><p>该条作为中国储能系统企业海外交付线索记录，待后续补充业主、系统参数和并网状态。</p>",
-        "caption": "奥地利200MWh大储交付",
-        "methodology": "00:06抓取Eraes公开列表页，抽取项目主体、国家、规模和状态；因正文未展开，保守标注为行业媒体项目线索。"
-      },
-      {
-        "source": "时代储能网 / Eraes 招投标与产业动态",
-        "source_type": "国内行业媒体/企业项目动态",
-        "account_name": "时代储能网",
-        "category": "企业",
-        "title": "内蒙古海善储能15GWh储能智能制造产业项目开工，总投资20亿元",
-        "summary": "时代储能网5月12日列表显示，内蒙古海善储能15GWh储能智能制造产业项目近日在阿拉善高新区举行开工仪式，项目总投资20亿元。该项目指向储能电池/系统制造端新增产能，需继续跟踪地方政府或企业后续披露的产线构成、投产节奏和订单绑定情况。",
-        "body": [
-          "本轮抓取Eraes招投标与产业动态页，页面列出“总投资20亿元，内蒙古海善储能15GWh储能智能制造产业项目开工”，发布时间为2026-05-12。",
-          "可核字段包括：地点为阿拉善高新区、总投资20亿元、规划口径15GWh、事件为项目开工。",
-          "该条属于制造产能/地方产业项目线索，当前未在公开页直接披露细分产品、达产时间和客户订单，因此站内按企业/产能动态处理，不等同于已形成有效出货。"
-        ],
-        "key_points": [
-          "15GWh储能智能制造项目开工。",
-          "总投资20亿元。",
-          "地点：内蒙古阿拉善高新区。",
-          "待跟踪：产品结构、达产节奏、订单绑定。"
-        ],
-        "value": "15",
-        "unit": "GWh规划产能",
-        "delta": "项目开工",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，内蒙古海善储能15GWh储能智能制造产业项目近日在阿拉善高新区开工，总投资20亿元。</p><p>该条作为储能制造产能线索记录，暂不等同于已投产产能或已确认订单。</p>",
-        "caption": "15GWh储能制造产能",
-        "methodology": "00:06抓取Eraes公开列表页，提取标题、日期、投资额、规划产能和地点；因缺少公告全文，标注为行业媒体线索并待官方/企业公告复核。"
-      },
-      {
         "source": "Discovery Alert / 中国314Ah储能电芯公开价格追踪",
         "source_type": "海外行业解读/价格区间二次证据",
         "account_name": "Discovery Alert",
@@ -2605,116 +2789,6 @@ window.NEOLINK_FEED = {
         "clean_html": "<p>SMM 新能源电解液现货价格页 5 月 12 日公开行情显示，碳酸甲乙酯 EMC（电池级送到成交价）7200–7500 元/吨、均价 7350 元/吨，碳酸二乙酯 DEC 9200–9600 元/吨、均价 9400 元/吨，均较上一口径持平。</p>\n<p>同页显示磷酸铁锂用电解液 24900–29500 元/吨、均价 27200 元/吨、涨跌 0；该条用于补齐 MarketTrend 电解液链条，不替代付费终端报价。</p>",
         "caption": "SMM新能源",
         "methodology": "SMM 新能源电解液现货价格公开页；取页面显示价格范围、均价、涨跌和日期。"
-      },
-      {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "材料",
-        "title": "SMM：电池级碳酸锂最新价194000元/吨，LFP同步升至65175元/吨",
-        "summary": "SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨、日涨3500元/吨，磷酸铁锂65175元/吨、日涨855元/吨；电解液28950元/吨持平，锂盐反弹仍向正极材料链传导。",
-        "body": [
-          "SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨，较上一口径上涨3500元/吨；磷酸铁锂最新价65175元/吨，日涨855元/吨。",
-          "同一公开表中，电解液最新价28950元/吨，涨跌为0；SMM电池级氢氧化锂指数178818元/吨，日涨3571元/吨。",
-          "本轮将此前站内20万元/吨口径更新为19:30检索到的公开快照，保留来源、时间和方法字段；行情仅作站内跟踪，不替代付费终端。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：194000元/吨，日涨3500元/吨。",
-          "磷酸铁锂：65175元/吨，日涨855元/吨。",
-          "电解液：28950元/吨，持平。",
-          "SMM电池级氢氧化锂指数：178818元/吨，日涨3571元/吨。"
-        ],
-        "value": "194000",
-        "unit": "元/吨",
-        "delta": "+3500",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨，较上一口径上涨3500元/吨；磷酸铁锂最新价65175元/吨，日涨855元/吨。</p>\n<p>同一公开表中，电解液最新价28950元/吨，涨跌为0；SMM电池级氢氧化锂指数178818元/吨，日涨3571元/吨。</p>\n<p>本轮将此前站内20万元/吨口径更新为19:30检索到的公开快照，保留来源、时间和方法字段；行情仅作站内跟踪，不替代付费终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM新能源频道公开行情表；取19:30检索快照中页面显示最新价与涨跌值。"
-      },
-      {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "材料",
-        "title": "SMM电池级碳酸锂指数升至 200390元/吨，日涨 5097元/吨",
-        "summary": "SMM 新能源频道公开行情表 5 月 12 日抓取显示，SMM 电池级碳酸锂指数为 200390 元/吨，涨跌 5097 元/吨（+2.61%），高于此前站内 5 月 8 日 MMLC/SMM 口径。",
-        "body": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，SMM 电池级碳酸锂指数为 200390 元/吨，涨跌 5097 元/吨（+2.61%），高于此前站内 5 月 8 日 MMLC/SMM 口径。",
-          "本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。"
-        ],
-        "key_points": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，SMM 电池级碳酸锂指数为 200390 元/吨，涨跌 5097 元/吨（+2.61%），高于此前站内 5 月 8 日 MMLC/SMM 口径。",
-          "来源：SMM新能源频道公开行情表。",
-          "时间：2026-05-12 16:04 +08:00 抓取。"
-        ],
-        "value": "200390",
-        "unit": "元/吨",
-        "delta": "+5097元/吨",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM 新能源频道公开行情表 5 月 12 日抓取显示，SMM 电池级碳酸锂指数为 200390 元/吨，涨跌 5097 元/吨（+2.61%），高于此前站内 5 月 8 日 MMLC/SMM 口径。</p>\n<p>本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM 新能源频道公开行情表；取页面显示最新价与涨跌值。"
-      },
-      {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "材料",
-        "title": "SMM：工业级碳酸锂最新价 195500元/吨，日涨 4750元/吨",
-        "summary": "SMM 新能源频道公开行情表 5 月 12 日抓取显示，工业级碳酸锂最新价 195500 元/吨，涨跌 4750 元/吨（+2.49%），工业级与电池级同步上行。",
-        "body": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，工业级碳酸锂最新价 195500 元/吨，涨跌 4750 元/吨（+2.49%），工业级与电池级同步上行。",
-          "本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。"
-        ],
-        "key_points": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，工业级碳酸锂最新价 195500 元/吨，涨跌 4750 元/吨（+2.49%），工业级与电池级同步上行。",
-          "来源：SMM新能源频道公开行情表。",
-          "时间：2026-05-12 16:04 +08:00 抓取。"
-        ],
-        "value": "195500",
-        "unit": "元/吨",
-        "delta": "+4750元/吨",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM 新能源频道公开行情表 5 月 12 日抓取显示，工业级碳酸锂最新价 195500 元/吨，涨跌 4750 元/吨（+2.49%），工业级与电池级同步上行。</p>\n<p>本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM 新能源频道公开行情表；取页面显示最新价与涨跌值。"
-      },
-      {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "材料",
-        "title": "SMM：磷酸铁锂最新价 66635元/吨，日涨 1155元/吨",
-        "summary": "SMM 新能源频道公开行情表 5 月 12 日抓取显示，磷酸铁锂最新价 66635 元/吨，涨跌 1155 元/吨（+1.76%），反映正极材料成本端受锂盐上行传导。",
-        "body": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，磷酸铁锂最新价 66635 元/吨，涨跌 1155 元/吨（+1.76%），反映正极材料成本端受锂盐上行传导。",
-          "本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。"
-        ],
-        "key_points": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，磷酸铁锂最新价 66635 元/吨，涨跌 1155 元/吨（+1.76%），反映正极材料成本端受锂盐上行传导。",
-          "来源：SMM新能源频道公开行情表。",
-          "时间：2026-05-12 16:04 +08:00 抓取。"
-        ],
-        "value": "66635",
-        "unit": "元/吨",
-        "delta": "+1155元/吨",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM 新能源频道公开行情表 5 月 12 日抓取显示，磷酸铁锂最新价 66635 元/吨，涨跌 1155 元/吨（+1.76%），反映正极材料成本端受锂盐上行传导。</p>\n<p>本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM 新能源频道公开行情表；取页面显示最新价与涨跌值。"
       },
       {
         "source": "SMM 上海有色网",
@@ -3968,30 +4042,6 @@ window.NEOLINK_FEED = {
         "url": "https://cn.solarbe.com/news/20260507/50022637.html"
       },
       {
-        "source": "SMM 上海有色",
-        "source_type": "专业价格源",
-        "account_name": "SMM 上海有色",
-        "category": "价格",
-        "title": "SMM 新能源价格页显示电池级碳酸锂报价 187500 元/吨",
-        "summary": "SMM 新能源价格页抓取信息显示，电池级碳酸锂报价为 187500 元/吨，变动 10500 元/吨，涨幅约 5.93%。",
-        "body": [
-          "SMM 新能源频道今日可见价格信息显示，电池级碳酸锂报价为 187500 元/吨，较前值变动 10500 元/吨，页面给出的涨幅约为 5.93%。",
-          "碳酸锂价格上行会影响磷酸铁锂电芯、储能系统和材料企业利润判断，但价格传导通常存在合同周期、库存成本、客户议价和产品结构差异。",
-          "该数据属于专业价格页可见快照，可用于首页指标和材料趋势卡片；读者应结合连续日度或周度时间序列观察，避免用单日价格替代趋势判断。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：187500 元/吨。",
-          "页面显示变动：+10500 元/吨，约 +5.93%。",
-          "价格上行会影响储能电芯成本和材料链盈利判断。"
-        ],
-        "value": "18.75",
-        "unit": "万元/吨",
-        "delta": "+5.93%",
-        "direction": "up",
-        "date": "05-07",
-        "url": "https://newenergy.smm.cn/"
-      },
-      {
         "source": "InfoLink Consulting",
         "source_type": "专业数据/周度价格",
         "account_name": "InfoLink Consulting",
@@ -4490,58 +4540,69 @@ window.NEOLINK_FEED = {
         "snapshot_url": "https://www.meipian.cn/5l2j7ifa",
         "original_url": "https://mp.weixin.qq.com/s/C8U5EbFrjmbB5vt9g0TGqA",
         "url": "https://www.meipian.cn/5l2j7ifa"
-      },
-      {
-        "source": "储能与电力市场",
-        "source_type": "公众号/会议报道同步内容",
-        "account_name": "储能与电力市场",
-        "category": "政策",
-        "title": "储能行业 2025 年回顾与 2026 年展望大会举办",
-        "summary": "储能与电力市场联合主办的行业会议聚焦 2026 储能趋势、电力市场机制、重点区域应用、绿电直连和投融资模式。",
-        "body": [
-          "由储能与电力市场等机构联合主办的“储能行业 2025 年回顾与 2026 年展望”大会在北京举办，议题集中在储能行业从政策驱动转向市场化价值创造。",
-          "公开报道提到，2026 年国家首次将新型储能列为新兴支柱产业，“储能+”进入深度融合阶段，算电协同、零碳园区、虚拟电厂等新业态正在成为重要场景。",
-          "会议关注电力市场与储能参与机制、重点区域储能应用、我国储能政策全景梳理、绿电直连和储能投融资模式等方向，反映行业对市场化收益的关注度提升。",
-          "会议观点与官方政策层级不同，读者应区分行业研讨观点和正式政策文件。"
-        ],
-        "key_points": [
-          "主题：储能行业 2025 回顾与 2026 展望。",
-          "重点：市场化、算电协同、零碳园区、虚拟电厂、绿电直连。",
-          "会议主题集中在电力市场与储能政策观察。",
-          "会议观点需与官方政策文件分层展示。"
-        ],
-        "date": "03-21",
-        "url": "https://www.cinn.cn/yc/2026/03-21/qkNpnNMr.html"
-      },
-      {
-        "source": "高工储能",
-        "source_type": "微信公众号文章",
-        "account_name": "高工储能",
-        "category": "企业",
-        "title": "订单爆单、产能告急 2026 户用储能“狂飙”",
-        "summary": "高工储能文章提到，2026 年户用储能订单、产能、海外需求和产品演进共同升温，豪鹏科技、锦浪科技、艾罗能源、麦田能源等企业被重点提及。",
-        "body": [
-          "高工储能文章认为，户用储能在 2026 年进入高景气阶段，订单增长、储能电芯产能缺口、海外政策补贴和居民侧备电需求共同推动行业升温。",
-          "文章把户储从过去的辅助性赛道，重新定位为新能源产业链中增长确定性较强的细分方向。其判断基础包括海外成熟市场需求恢复、新兴市场需求爆发，以及家庭侧能源安全需求提升。",
-          "企业层面，文章重点提到豪鹏科技、锦浪科技、艾罗能源、麦田能源、鹏辉能源等参与者。豪鹏科技被描述为订单增长较快，并规划储能电芯和钢壳叠片电池产能；艾罗能源通过澳大利亚渠道合作锁定户储市场；锦浪科技和麦田能源则分别围绕系统产品、逆变器和海外市场推进布局。",
-          "市场层面，文章将欧洲、澳大利亚、英国、乌克兰、荷兰、匈牙利、波兰以及中东列为重要区域。驱动因素包括光伏配储、补贴政策、能源安全、停电备电、动态电价和电网稳定性需求。",
-          "数据层面，文章引用高工产研 GGII 统计，2025 年全球户用储能锂电池出货量约 55GWh，较 2024 年 26GWh 同比增长超过 111%。该数据反映户储需求扩张，具体统计边界以 GGII 正式报告口径为准。",
-          "趋势层面，文章总结出三条方向：100Ah 与 314Ah 电芯共同服务不同系统需求，供应链属地化生产加速，以及产品向更大容量、更高集成度和更高安全性演进。"
-        ],
-        "key_points": [
-          "主题：2026 年户用储能需求、订单和产能同步升温。",
-          "企业：豪鹏科技、锦浪科技、艾罗能源、麦田能源、鹏辉能源等被重点提及。",
-          "数据：文章引用 GGII 口径称 2025 年全球户储锂电池出货约 55GWh。",
-          "趋势：100Ah/314Ah 电芯、属地化生产、大容量与高集成度持续演进。"
-        ],
-        "capture_status": "已收录正文",
-        "date": "03-08",
-        "snapshot_url": "https://www.meipian.cn/5kknpc1g",
-        "original_url": "https://mp.weixin.qq.com/s/1rbwOxwe6HxEZlQKSwTSVg",
-        "url": "https://www.meipian.cn/5kknpc1g"
       }
     ],
     "enterprise": [
+      {
+        "source": "快科技 / 新浪财经 / 全球BESS集成商排名",
+        "source_type": "国内科技媒体转载/全球储能系统出货排名线索",
+        "account_name": "快科技 / 新浪财经",
+        "category": "企业",
+        "title": "比亚迪2025年BESS出货超60GWh，超越特斯拉登顶全球电池储能系统集成商",
+        "summary": "新浪财经5月14日报道，2025年比亚迪全球电池储能系统（BESS）出货量超60GWh，市占率13%，超过特斯拉46.7GWh、10%的市占率，成为全球最大BESS集成商。报道还称2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh，全球前十储能集成商中中国企业占8席。",
+        "body": [
+          "排名变化：比亚迪超越特斯拉，终结特斯拉2023-2024年连续榜首。",
+          "出货口径：比亚迪2025年全球储能系统出货超60GWh，市占率13%；特斯拉46.7GWh，市占率10%。",
+          "行业规模：2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh。",
+          "产品支撑：比亚迪浩瀚储能系统标准版14.5MWh，报道提到已落地沙特12.5GWh项目。"
+        ],
+        "key_points": [
+          "比亚迪BESS出货超60GWh。",
+          "市占率13%，特斯拉10%。",
+          "全球BESS装机约315GWh，同比+51%。",
+          "中国企业占全球前十集成商8席。"
+        ],
+        "value": "60",
+        "unit": "GWh BESS出货量以上",
+        "delta": "全球市占率13%",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvpqq8823796.shtml",
+        "clean_html": "<p>报道称2025年比亚迪BESS出货超60GWh，市占率13%，超过特斯拉46.7GWh。</p><p>2025年全球BESS装机约315GWh、同比增长51%，固定式储能电芯出货突破600GWh。</p><p>全球前十储能集成商中中国企业占8席。</p>",
+        "caption": "比亚迪登顶BESS集成商",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "PR Newswire Asia / ess-news / 宁德时代×海博思创",
+        "source_type": "企业新闻稿/海外行业媒体交叉验证",
+        "account_name": "PR Newswire Asia / ess-news",
+        "category": "技术",
+        "title": "宁德时代与海博思创落地3年60GWh储能钠离子电池战略合作",
+        "summary": "PR Newswire Asia 5月7日中文稿披露，宁德时代与海博思创在4月27日签署储能钠离子电池战略合作协议，双方达成3年合计60GWh钠离子电池订单合作；ess-news英文稿亦称其为全球最大钠离子电池订单之一。该线索说明在锂价上行、储能项目成本承压背景下，钠离子路线正从展会/样品进入GWh级商业交付验证期。",
+        "body": [
+          "订单规模：双方宣布3年合计60GWh储能钠离子电池合作，海博思创成为宁德时代首个储能钠电战略合作伙伴。",
+          "技术含义：报道提到钠离子电池与现有锂电池平台兼容，面向电网侧、用户侧、工商业储能等场景，强调低温、安全和成本优势。",
+          "产业影响：在储能电芯和碳酸锂价格上行周期，钠电大单提升非锂路线的商业化可见度，并可能改变系统集成商供应链议价结构。",
+          "验证口径：企业新闻稿与海外行业媒体报道相互印证；具体交付节奏、系统集成表现和收入贡献仍需后续项目并网/财报确认。"
+        ],
+        "key_points": [
+          "3年60GWh钠离子电池合作。",
+          "海博思创为宁德时代首个储能钠电战略合作伙伴。",
+          "面向电网侧、用户侧和工商业储能。",
+          "非锂路线商业化进入GWh级验证。"
+        ],
+        "value": "60",
+        "unit": "GWh 钠离子电池订单",
+        "delta": "3年合作框架",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-07",
+        "url": "https://www.prnasia.com/story/532133-1.shtml",
+        "clean_html": "<p>PR Newswire Asia中文稿称，宁德时代与海博思创签署储能钠离子电池战略合作协议，双方达成3年60GWh订单合作。</p><p>ess-news英文稿对该订单进行海外复核，称其是钠离子电池商业化的重要节点。</p><p>该线索用于跟踪非锂路线对储能系统成本和供应链格局的影响。</p>",
+        "caption": "储能钠电60GWh合作",
+        "methodology": "11:00严格小时刷新：已尝试重新读取NeoLink首页与MarketTrend入口；web_extract继续因private/internal network阻断，curl HTTPS返回SSL_ERROR_SYSCALL并保存失败headers。随后主动搜索国内+海外公开来源，保存PR Newswire Asia与Energy-Storage.news raw快照，SMM页面因308重定向/访问限制记录错误；仅因新增/复核到可信钠电订单与储能价格传导证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
       {
         "source": "新浪财经 / IPO日报 / 艾罗能源年报解读",
         "source_type": "国内财经媒体/上市公司经营与行业风险线索",
@@ -5422,6 +5483,66 @@ window.NEOLINK_FEED = {
     ],
     "project": [
       {
+        "source": "国际储能网 / 储能头条",
+        "source_type": "国内行业门户/公开招投标统计",
+        "account_name": "国际储能网 / 储能头条",
+        "category": "招投标",
+        "title": "2026年1-4月储能采招40.37GW/165.71GWh，4小时系统均价0.5189元/Wh",
+        "summary": "国际储能网5月14日发布储能头条不完全统计，2026年1-4月国内储能市场完成334次储能采招，公开可追踪规模40.37GW/165.71GWh，其中储能系统7.07GW/51.01GWh、EPC 33.31GW/87.91GWh。4月4小时磷酸铁锂储能系统中标单价0.496-0.5489元/Wh，均价0.5189元/Wh；磷酸铁锂路线占采招需求93.44%。",
+        "body": [
+          "总量：1-4月共完成334次储能采招，公开可追踪规模40.37GW/165.71GWh，统计剔除重复招标项目且不含集采未分配份额。",
+          "结构：储能系统采购7.07GW/51.01GWh，EPC规模33.31GW/87.91GWh；集采招标60.96GWh，占比36.79%，独立储能98.31GWh，占比59.33%。",
+          "价格：4月4小时磷酸铁锂储能系统中标单价0.496-0.5489元/Wh，均价0.5189元/Wh；4小时EPC均价0.9149元/Wh，较3月上涨2.35%。",
+          "格局：储能系统中标规模中，中车株洲所、比亚迪、融和元储、亨通储能、远景能源等居前；技术路线中磷酸铁锂占比93.44%。"
+        ],
+        "key_points": [
+          "1-4月储能采招40.37GW/165.71GWh。",
+          "储能系统7.07GW/51.01GWh，EPC 33.31GW/87.91GWh。",
+          "4月4小时系统均价0.5189元/Wh。",
+          "磷酸铁锂路线占采招需求93.44%。"
+        ],
+        "value": "165.71",
+        "unit": "GWh 1-4月采招规模",
+        "delta": "4h系统均价0.5189元/Wh",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://mchuneng.in-en.com/html/chunengy-54167.shtml",
+        "clean_html": "<p>国际储能网发布储能头条统计，2026年1-4月国内储能市场完成334次采招，公开可追踪规模40.37GW/165.71GWh。</p><p>其中储能系统7.07GW/51.01GWh，EPC 33.31GW/87.91GWh；4月4小时磷酸铁锂储能系统均价0.5189元/Wh。</p><p>磷酸铁锂路线占采招需求93.44%，中车株洲所、比亚迪、融和元储等系统中标规模居前。</p>",
+        "caption": "1-4月储能采招统计",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "Energy-Storage.news / North Dakota PSC / NextEra Energy Resources",
+        "source_type": "海外行业媒体/监管许可项目证据",
+        "account_name": "Energy-Storage.news",
+        "category": "海外",
+        "title": "NextEra北达科他100MW/400MWh BESS获站址兼容证书，投资约1.286亿美元",
+        "summary": "Energy-Storage.news报道，North Dakota Public Service Commission批准Northern Divide Energy Storage建设100MW/400MWh电池储能系统的Certificate of Site Compatibility。项目由NextEra Energy Resources运营，投资约1.286亿美元，计划2026年开工、2026年12月商业运营，预计安装约129个BESS集装箱和43套PCS。",
+        "body": [
+          "项目规模：100MW/400MWh，位于北达科他州Burke County。",
+          "投资与进度：投资约1.286亿美元，计划今年开工并于2026年12月商业运营。",
+          "设备口径：报道提到LG品牌锂离子电池、约129个BESS containers和43套PCS。",
+          "验证意义：海外项目许可继续证明美国公用事业侧储能需求，但该文部分内容需订阅，已使用可见公开段落。"
+        ],
+        "key_points": [
+          "100MW/400MWh BESS。",
+          "投资约1.286亿美元。",
+          "预计2026年12月商业运营。",
+          "约129个BESS集装箱、43套PCS。"
+        ],
+        "value": "400",
+        "unit": "MWh 项目容量",
+        "delta": "投资约1.286亿美元",
+        "direction": "up",
+        "date": "04-07",
+        "as_of": "2026-04-07",
+        "url": "https://www.energy-storage.news/north-dakota-approves-certificate-of-site-compatibility-for-400mwh-bess-from-nextera-energy-resources/",
+        "clean_html": "<p>North Dakota PSC批准Northern Divide Energy Storage建设100MW/400MWh BESS的站址兼容证书。</p><p>项目由NextEra Energy Resources运营，投资约1.286亿美元，预计2026年12月商业运营。</p><p>公开段落披露约129个BESS集装箱和43套PCS。</p>",
+        "caption": "NextEra 400MWh项目获批",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
         "source": "新浪财经 / 中国储能网 / CESA储能应用分会产业数据库",
         "source_type": "国内行业媒体转载/储能招投标与价格统计",
         "account_name": "新浪财经",
@@ -6036,35 +6157,6 @@ window.NEOLINK_FEED = {
         "methodology": "03:02抓取时代储能网招投标/产业动态列表；仅抽取列表披露的并网时间、主体和场景，未推断容量、价格或收益。"
       },
       {
-        "source": "时代储能网 / SERMATEC 赛唯数字能源",
-        "source_type": "国内行业媒体/海外项目交付",
-        "account_name": "时代储能网",
-        "category": "项目",
-        "title": "赛唯数字能源奥地利200MWh大储项目顺利交付",
-        "summary": "时代储能网5月12日列表显示，赛唯数字能源奥地利200MWh大储项目顺利交付。公开摘要称，在全球能源转型和新型电力系统加速构建背景下，储能成为新能源消纳和电网稳定的重要基础设施；赛唯自2023年起同步布局工商业储能与大型储能两条赛道。",
-        "body": [
-          "本轮抓取Eraes公开页发现“200MWh！赛唯奥地利大储项目顺利交付！”条目，发布时间为2026-05-12。",
-          "该项目属于中国储能系统企业海外大储交付线索，规模为200MWh，地区为奥地利。",
-          "当前公开列表未给出业主、并网日期、系统单价和技术参数，站内按海外项目交付线索记录，并列为MarketTrend出海情绪证据。"
-        ],
-        "key_points": [
-          "海外项目：奥地利大储。",
-          "规模：200MWh。",
-          "主体：赛唯数字能源。",
-          "状态：公开列表称“顺利交付”。"
-        ],
-        "value": "200",
-        "unit": "MWh",
-        "delta": "海外交付",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://eraes.com.cn/ztbxx",
-        "clean_html": "<p>Eraes 5月12日页面列出，赛唯数字能源奥地利200MWh大储项目顺利交付。</p><p>该条作为中国储能系统企业海外交付线索记录，待后续补充业主、系统参数和并网状态。</p>",
-        "caption": "奥地利200MWh大储交付",
-        "methodology": "00:06抓取Eraes公开列表页，抽取项目主体、国家、规模和状态；因正文未展开，保守标注为行业媒体项目线索。"
-      },
-      {
         "source": "ESS News / 华电电子商务平台公开信息",
         "source_type": "国际行业媒体/央企采购平台线索",
         "account_name": "ESS News",
@@ -6651,6 +6743,186 @@ window.NEOLINK_FEED = {
     ],
     "materials": [
       {
+        "source": "新浪财经 / 市场资讯 / SMM",
+        "source_type": "国内财经媒体/期货日报与SMM现货口径",
+        "account_name": "新浪财经期货 / SMM",
+        "category": "行情",
+        "title": "碳酸锂日报：SMM电池级碳酸锂19.8-20.3万元/吨，主力合约收201960元/吨",
+        "summary": "新浪财经5月14日10:13发布碳酸锂日报称，5月13日碳酸锂主力合约2609收于201960元/吨，较昨日结算价变化-1.87%；按SMM现货报价，电池级碳酸锂198000-203000元/吨、较前一交易日上调500元/吨，工业级碳酸锂194000-198000元/吨、同样上调500元/吨。文章同时披露SMM周度碳酸锂总产量25894吨、现货库存102673吨，认为五月整体预计紧平衡，储能项目对锂价变化响应仍有时滞。",
+        "body": [
+          "期货口径：5月13日碳酸锂主力合约2609收于201960元/吨，日内收盘较昨日结算价变化-1.87%，成交425885手、持仓519507手。",
+          "现货口径：SMM电池级碳酸锂报价198000-203000元/吨，较前一交易日上调500元/吨；工业级碳酸锂报价194000-198000元/吨，较前一交易日上调500元/吨。",
+          "供需库存：SMM周度碳酸锂总产量25894吨，现货库存102673吨、环比减少920吨；百川数据显示磷酸铁锂产量环比增加4.82%。",
+          "储能传导：文章判断储能需求彰显韧性，但储能新项目对当前锂价上涨响应存在时滞，下半年储能需求仍需验证。"
+        ],
+        "key_points": [
+          "电池级碳酸锂198000-203000元/吨，日变动+500元/吨。",
+          "碳酸锂2609合约收201960元/吨，日变动-1.87%。",
+          "SMM周度总产量25894吨，现货库存102673吨。",
+          "储能项目对锂价上涨响应仍有时滞。"
+        ],
+        "value": "20.05",
+        "unit": "万元/吨 SMM电池级均价",
+        "delta": "+500元/吨；期货-1.87%",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-14/doc-inhxvpqq8843262.shtml",
+        "clean_html": "<p>新浪财经碳酸锂日报称，5月13日碳酸锂2609合约收于201960元/吨，日变动-1.87%。</p><p>按SMM现货报价，电池级碳酸锂198000-203000元/吨，较前一交易日上调500元/吨；工业级碳酸锂194000-198000元/吨，同样上调500元/吨。</p><p>SMM周度总产量25894吨，现货库存102673吨；文章提示储能项目对当前锂价上涨响应仍有时滞。</p>",
+        "caption": "SMM碳酸锂日报",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "Energy-Storage.news / Solar Media Energy Storage Summit 2026",
+        "source_type": "海外行业媒体/峰会访谈与价格趋势分析",
+        "account_name": "Energy-Storage.news",
+        "category": "市场",
+        "title": "Energy-Storage.news：锂价三倍、出口退税取消与供应链扰动或推升短期BESS价格",
+        "summary": "Energy-Storage.news报道，2024-2025年锂电BESS交钥匙价格显著下降，但2026年短期可能因碳酸锂价格约三倍上涨、中国电池出口退税取消、地缘冲突造成的供应链与能源价格扰动而止跌回升。文章称中国BESS招标价格已开始上行，同时提示锂碳酸盐约占BESS成本5%，长期技术迭代仍可能继续改善系统成本。",
+        "body": [
+          "价格背景：2024和2025年BESS价格因中国供应商竞争和技术成熟持续下降，但报道判断短期趋势可能放缓或反转。",
+          "成本变量：文章列出碳酸锂价格三倍上涨、中国年末取消电池出口增值税退税、战争导致能源价格和供应链扰动等因素。",
+          "中国信号：Energy-Storage.news称中国BESS招标价格已经开始上行，锂碳酸盐约占BESS成本5%。",
+          "长期判断：受访行业人士认为短期价格上行与长期技术继续推进并不矛盾，储能系统技术仍会继续移动成本边界。"
+        ],
+        "key_points": [
+          "BESS短期价格可能止跌回升。",
+          "碳酸锂价格上涨与出口退税取消是关键变量。",
+          "锂碳酸盐约占BESS成本5%。",
+          "中国BESS招标价格已出现上行迹象。"
+        ],
+        "value": "5",
+        "unit": "% 锂碳酸盐约占BESS成本",
+        "delta": "短期价格上行压力",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "clean_html": "<p>Energy-Storage.news报道称，BESS交钥匙价格在2024-2025年显著下降后，短期可能因碳酸锂价格上涨、出口退税取消和供应链扰动而止跌回升。</p><p>文章称中国BESS招标价格已开始上行，锂碳酸盐约占BESS成本5%。</p><p>长期看，技术迭代仍可能继续改善系统成本边界。</p>",
+        "caption": "海外BESS价格趋势",
+        "methodology": "17:00严格小时刷新：已重新抓取NeoLink首页与MarketTrend入口并保存live_index_1700/live_markettrend_1700快照；主动检索国内+海外公开来源，抓取新浪财经、证券日报、Energy-Storage.news和国际储能网公开页面并生成clean文本。仅因新增/复核到可信行情、招投标和海外BESS价格证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "新华财经 / 中国证券报 / 新浪财经 / 上海钢联",
+        "source_type": "国内财经媒体/现货价格与产业调研",
+        "account_name": "新华财经 / 中国证券报",
+        "category": "行情",
+        "title": "电池级碳酸锂现货均价重返20.14万元/吨，储能需求与供给扰动共同推升看涨情绪",
+        "summary": "新浪财经5月14日转载中国证券报/新华财经调研称，5月13日上海钢联数据显示电池级碳酸锂现货均价达20.14万元/吨，自4月29日以来上涨2.63万元/吨，单日上涨1900元/吨。报道将涨价归因于津巴布韦锂矿出口、宜春锂云母换证等供给扰动，以及动力和储能电池需求共振；中信证券研报预计供需利好有望推动锂价未来2-3个月上涨至25万元/吨。",
+        "body": [
+          "现货价格：5月13日电池级碳酸锂现货均价20.14万元/吨，较4月29日上涨2.63万元/吨。",
+          "供给扰动：津巴布韦锂矿出口恢复进度低于预期，宜春锂云母矿5-6月换证停产预期升温。",
+          "需求支撑：储能市场需求被锂盐企业视为动力电池之外的第二增长曲线，亿纬锂能称储能电池订单排到明年。",
+          "研判口径：中信证券预计未来2-3个月供需共振有望推动锂价上涨至25万元/吨。"
+        ],
+        "key_points": [
+          "电池级碳酸锂均价20.14万元/吨。",
+          "4月29日以来上涨2.63万元/吨。",
+          "5月13日单日上涨1900元/吨。",
+          "中信证券展望2-3个月25万元/吨。"
+        ],
+        "value": "20.14",
+        "unit": "万元/吨 电池级碳酸锂均价",
+        "delta": "较4月29日+2.63万元/吨",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/money/bond/2026-05-14/doc-inhxvihq0208284.shtml",
+        "clean_html": "<p>上海钢联数据显示，5月13日电池级碳酸锂现货均价达20.14万元/吨，自4月29日以来上涨2.63万元/吨。</p><p>报道将涨价归因于津巴布韦锂矿出口、宜春锂云母换证等供给扰动，以及动力和储能电池需求共振。</p><p>中信证券预计未来2-3个月供需共振有望推动锂价上涨至25万元/吨。</p>",
+        "caption": "碳酸锂重返20万元/吨",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "上海证券报 / 新浪财经 / CIBF 2026",
+        "source_type": "国内财经媒体/产业会议现场报道",
+        "account_name": "上海证券报·中国证券网",
+        "category": "技术",
+        "title": "CIBF 2026：储能电池未来5年迎机遇，4小时储能电池价格已低于500元/kWh",
+        "summary": "新浪财经转载上海证券报5月14日报道，CIBF 2026主论坛上，多位产业界与学界人士围绕储能、固态电池和AI研发展开讨论。欧阳明高称，4小时储能电池价格已经低于500元/kWh，未来储能电池将围绕超大容量、超长寿命、超低成本、长时储能演进：容量从300Ah向3000Ah，循环寿命从5000次向15000次，日历寿命从15年向25年，储能时长从2小时向10小时发展。",
+        "body": [
+          "需求判断：报道称储能已从新能源配套环节逐步演变为独立大产业方向，今后5年储能电池将遇巨大机遇期。",
+          "技术路径：储能电池将向3000Ah、单体超过10kWh、15000次循环、25年日历寿命和10小时长时储能演进。",
+          "价格口径：当前4小时储能电池价格已低于500元/kWh；成本目标是每循环储能度电成本向0.1元发展。",
+          "路线分化：比亚迪廉玉波判断储能领域磷酸铁锂与钠离子电池将形成互补，固态/半固态优先落地高能量密度场景。"
+        ],
+        "key_points": [
+          "4小时储能电池价格低于500元/kWh。",
+          "储能电池容量从300Ah向3000Ah演进。",
+          "循环寿命目标从5000次向15000次。",
+          "储能时长从2小时向10小时发展。"
+        ],
+        "value": "500",
+        "unit": "元/kWh以下 4h储能电池价格",
+        "delta": "未来5年机遇期",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvihs8854339.shtml",
+        "clean_html": "<p>CIBF 2026主论坛讨论储能、固态电池和AI研发。欧阳明高称4小时储能电池价格已低于500元/kWh。</p><p>未来储能电池将向3000Ah、15000次循环、25年寿命和10小时长时储能演进。</p><p>比亚迪廉玉波认为储能领域磷酸铁锂与钠离子电池将形成互补。</p>",
+        "caption": "CIBF储能电池路线研判",
+        "methodology": "13:00严格小时刷新：本轮已重新抓取NeoLink首页与MarketTrend入口，HTTP读回成功并保存live_index_1300/live_markettrend_1300 raw快照；web_extract对目标站点继续报private/internal network，已改用urllib抓取新浪财经、Energy-Storage.news公开页面并生成clean文本。主动搜索国内+海外公开来源，仅因新增/复核到可信新闻、价格和项目证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "SMM / 上海有色网新能源",
+        "source_type": "国内材料与储能价格分析",
+        "account_name": "SMM新能源",
+        "category": "行情",
+        "title": "SMM：锂价突破20万元/吨后，储能价格传导进入观察期",
+        "summary": "SMM公开搜索摘要显示，在锂价突破20万元/吨后，国内多数4小时储能系统报价约0.52元/Wh，对应314Ah储能铁锂电芯价格约0.35元/Wh；该价格锚定的碳酸锂价格约15万元/吨左右。若碳酸锂维持高位，储能电芯和系统报价的成本传导压力仍会继续显性化。",
+        "body": [
+          "价格锚：SMM称当前国内大部分4h储能系统报价约0.52元/Wh，对应314Ah储能铁锂电芯约0.35元/Wh。",
+          "成本锚：上述报价大致锚定碳酸锂约15万元/吨，而近期现货/盘面已突破20万元/吨附近。",
+          "产业含义：若高锂价持续，电芯厂库存红利消耗后，储能系统价格存在继续向下游传导的压力。",
+          "限制说明：SMM正文抓取在本轮因重定向/访问限制未完整读取，采用公开搜索摘要作为行情线索，后续需继续跟踪SMM正式数值页。"
+        ],
+        "key_points": [
+          "4h储能系统报价约0.52元/Wh。",
+          "314Ah储能铁锂电芯约0.35元/Wh。",
+          "报价锚定碳酸锂约15万元/吨。",
+          "20万元/吨锂价下成本传导待观察。"
+        ],
+        "value": "0.52",
+        "unit": "元/Wh 4h储能系统报价",
+        "delta": "成本锚约15万元/吨碳酸锂",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-14",
+        "url": "https://new-energy.smm.cn/h5/content/14042/103897284",
+        "clean_html": "<p>SMM公开摘要称，锂价突破20万元/吨后，国内多数4小时储能系统报价约0.52元/Wh。</p><p>对应314Ah储能铁锂电芯约0.35元/Wh，该价格锚定碳酸锂约15万元/吨。</p><p>若高锂价持续，储能系统价格传导压力仍需跟踪。</p>",
+        "caption": "储能价格传导观察",
+        "methodology": "11:00严格小时刷新：已尝试重新读取NeoLink首页与MarketTrend入口；web_extract继续因private/internal network阻断，curl HTTPS返回SSL_ERROR_SYSCALL并保存失败headers。随后主动搜索国内+海外公开来源，保存PR Newswire Asia与Energy-Storage.news raw快照，SMM页面因308重定向/访问限制记录错误；仅因新增/复核到可信钠电订单与储能价格传导证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
+        "source": "PR Newswire Asia / ess-news / 宁德时代×海博思创",
+        "source_type": "企业新闻稿/海外行业媒体交叉验证",
+        "account_name": "PR Newswire Asia / ess-news",
+        "category": "技术",
+        "title": "宁德时代与海博思创落地3年60GWh储能钠离子电池战略合作",
+        "summary": "PR Newswire Asia 5月7日中文稿披露，宁德时代与海博思创在4月27日签署储能钠离子电池战略合作协议，双方达成3年合计60GWh钠离子电池订单合作；ess-news英文稿亦称其为全球最大钠离子电池订单之一。该线索说明在锂价上行、储能项目成本承压背景下，钠离子路线正从展会/样品进入GWh级商业交付验证期。",
+        "body": [
+          "订单规模：双方宣布3年合计60GWh储能钠离子电池合作，海博思创成为宁德时代首个储能钠电战略合作伙伴。",
+          "技术含义：报道提到钠离子电池与现有锂电池平台兼容，面向电网侧、用户侧、工商业储能等场景，强调低温、安全和成本优势。",
+          "产业影响：在储能电芯和碳酸锂价格上行周期，钠电大单提升非锂路线的商业化可见度，并可能改变系统集成商供应链议价结构。",
+          "验证口径：企业新闻稿与海外行业媒体报道相互印证；具体交付节奏、系统集成表现和收入贡献仍需后续项目并网/财报确认。"
+        ],
+        "key_points": [
+          "3年60GWh钠离子电池合作。",
+          "海博思创为宁德时代首个储能钠电战略合作伙伴。",
+          "面向电网侧、用户侧和工商业储能。",
+          "非锂路线商业化进入GWh级验证。"
+        ],
+        "value": "60",
+        "unit": "GWh 钠离子电池订单",
+        "delta": "3年合作框架",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-07",
+        "url": "https://www.prnasia.com/story/532133-1.shtml",
+        "clean_html": "<p>PR Newswire Asia中文稿称，宁德时代与海博思创签署储能钠离子电池战略合作协议，双方达成3年60GWh订单合作。</p><p>ess-news英文稿对该订单进行海外复核，称其是钠离子电池商业化的重要节点。</p><p>该线索用于跟踪非锂路线对储能系统成本和供应链格局的影响。</p>",
+        "caption": "储能钠电60GWh合作",
+        "methodology": "11:00严格小时刷新：已尝试重新读取NeoLink首页与MarketTrend入口；web_extract继续因private/internal network阻断，curl HTTPS返回SSL_ERROR_SYSCALL并保存失败headers。随后主动搜索国内+海外公开来源，保存PR Newswire Asia与Energy-Storage.news raw快照，SMM页面因308重定向/访问限制记录错误；仅因新增/复核到可信钠电订单与储能价格传导证据才更新可见内容，保留source/as_of/methodology/url字段。"
+      },
+      {
         "source": "新浪财经 / 中国储能网 / CESA储能应用分会产业数据库",
         "source_type": "国内行业媒体转载/储能招投标与价格统计",
         "account_name": "新浪财经",
@@ -6774,18 +7046,6 @@ window.NEOLINK_FEED = {
         "change": "+2.43%"
       },
       {
-        "name": "磷酸铁锂",
-        "spec": "SMM新能源公开行情页可见价",
-        "value": "6.6635",
-        "unit": "万元/吨",
-        "change": "+1.76%",
-        "direction": "up",
-        "source": "SMM上海有色",
-        "as_of": "2026-05-14",
-        "url": "https://newenergy.smm.cn/",
-        "methodology": "公开行情页可见价格；规格以SMM页面为准。"
-      },
-      {
         "source": "新浪财经 / 界面新闻 / 储能电芯扩产潮",
         "source_type": "国内财经媒体/储能电芯产能与技术迭代",
         "account_name": "新浪财经",
@@ -6813,36 +7073,6 @@ window.NEOLINK_FEED = {
         "url": "https://finance.sina.com.cn/jjxw/2026-05-13/doc-inhxtvfh0747538.shtml",
         "clean_html": "<p>产线切换：储能电芯正在从314Ah向587Ah等大容量规格切换，改造旧线不一定具备成本优势。</p><p>供给约束：新产线建设与良率爬坡需要时间，短期供给弹性偏低，结构性紧缺可能持续更久。</p><p>招标门槛：业内建议电网侧招标优先采用500Ah以上大容量高安全电芯，用标准抑制落后产能。</p>",
         "caption": "大容量储能电芯结构缺口",
-        "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "Energy-Storage.news / Energy Storage Summit 2026 interviews",
-        "source_type": "海外行业媒体/BESS价格与供应链",
-        "account_name": "Energy-Storage.news",
-        "category": "数据",
-        "title": "Energy-Storage.news：BESS价格短期或回升，碳酸锂与出口退税变化共同扰动报价",
-        "summary": "Energy-Storage.news 5月13日报道称，过去几年BESS交钥匙价格因中国供应商竞争和技术成熟持续下行，但短期可能因全球供应链扰动、能源价格上涨、碳酸锂价格从约6.5万元/吨升至15万-16万元/吨，以及中国取消电池出口增值税退税而出现回升。受访企业认为这会推高欧洲等市场电池项目报价，但长期技术进步仍会继续“移动价格目标线”。",
-        "body": [
-          "价格趋势：BESS价格在2024、2025年显著下降，但短期下行趋势可能放缓甚至反转。",
-          "原料扰动：文中提到碳酸锂由约RMB65,000/吨升至RMB150,000-160,000/吨，虽低于2022年峰值但已影响项目报价。",
-          "政策扰动：中国取消电池出口增值税退税，被欧洲开发商视为推高当地电池项目价格的因素。",
-          "长期判断：受访者认为电池技术仍会长期拉低相对成本，但价格下降不会是直线。"
-        ],
-        "key_points": [
-          "碳酸锂：约6.5万元/吨升至15万-16万元/吨。",
-          "成本：BESS短期价格可能回升。",
-          "政策：中国电池出口退税取消影响欧洲项目报价。",
-          "长期：技术进步仍支撑成本曲线下移。"
-        ],
-        "value": "150000-160000",
-        "unit": "元/吨 碳酸锂区间",
-        "delta": "短期价格回升",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
-        "clean_html": "<p>价格趋势：BESS价格在2024、2025年显著下降，但短期下行趋势可能放缓甚至反转。</p><p>原料扰动：文中提到碳酸锂由约RMB65,000/吨升至RMB150,000-160,000/吨，虽低于2022年峰值但已影响项目报价。</p><p>政策扰动：中国取消电池出口增值税退税，被欧洲开发商视为推高当地电池项目价格的因素。</p>",
-        "caption": "BESS价格短期回升证据",
         "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
       },
       {
@@ -7375,116 +7605,6 @@ window.NEOLINK_FEED = {
         "methodology": "SMM 新能源电解液现货价格公开页；取页面显示价格范围、均价、涨跌和日期。"
       },
       {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "材料",
-        "title": "SMM：电池级碳酸锂最新价194000元/吨，LFP同步升至65175元/吨",
-        "summary": "SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨、日涨3500元/吨，磷酸铁锂65175元/吨、日涨855元/吨；电解液28950元/吨持平，锂盐反弹仍向正极材料链传导。",
-        "body": [
-          "SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨，较上一口径上涨3500元/吨；磷酸铁锂最新价65175元/吨，日涨855元/吨。",
-          "同一公开表中，电解液最新价28950元/吨，涨跌为0；SMM电池级氢氧化锂指数178818元/吨，日涨3571元/吨。",
-          "本轮将此前站内20万元/吨口径更新为19:30检索到的公开快照，保留来源、时间和方法字段；行情仅作站内跟踪，不替代付费终端。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：194000元/吨，日涨3500元/吨。",
-          "磷酸铁锂：65175元/吨，日涨855元/吨。",
-          "电解液：28950元/吨，持平。",
-          "SMM电池级氢氧化锂指数：178818元/吨，日涨3571元/吨。"
-        ],
-        "value": "194000",
-        "unit": "元/吨",
-        "delta": "+3500",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨，较上一口径上涨3500元/吨；磷酸铁锂最新价65175元/吨，日涨855元/吨。</p>\n<p>同一公开表中，电解液最新价28950元/吨，涨跌为0；SMM电池级氢氧化锂指数178818元/吨，日涨3571元/吨。</p>\n<p>本轮将此前站内20万元/吨口径更新为19:30检索到的公开快照，保留来源、时间和方法字段；行情仅作站内跟踪，不替代付费终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM新能源频道公开行情表；取19:30检索快照中页面显示最新价与涨跌值。"
-      },
-      {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "材料",
-        "title": "SMM电池级碳酸锂指数升至 200390元/吨，日涨 5097元/吨",
-        "summary": "SMM 新能源频道公开行情表 5 月 12 日抓取显示，SMM 电池级碳酸锂指数为 200390 元/吨，涨跌 5097 元/吨（+2.61%），高于此前站内 5 月 8 日 MMLC/SMM 口径。",
-        "body": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，SMM 电池级碳酸锂指数为 200390 元/吨，涨跌 5097 元/吨（+2.61%），高于此前站内 5 月 8 日 MMLC/SMM 口径。",
-          "本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。"
-        ],
-        "key_points": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，SMM 电池级碳酸锂指数为 200390 元/吨，涨跌 5097 元/吨（+2.61%），高于此前站内 5 月 8 日 MMLC/SMM 口径。",
-          "来源：SMM新能源频道公开行情表。",
-          "时间：2026-05-12 16:04 +08:00 抓取。"
-        ],
-        "value": "200390",
-        "unit": "元/吨",
-        "delta": "+5097元/吨",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM 新能源频道公开行情表 5 月 12 日抓取显示，SMM 电池级碳酸锂指数为 200390 元/吨，涨跌 5097 元/吨（+2.61%），高于此前站内 5 月 8 日 MMLC/SMM 口径。</p>\n<p>本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM 新能源频道公开行情表；取页面显示最新价与涨跌值。"
-      },
-      {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "材料",
-        "title": "SMM：工业级碳酸锂最新价 195500元/吨，日涨 4750元/吨",
-        "summary": "SMM 新能源频道公开行情表 5 月 12 日抓取显示，工业级碳酸锂最新价 195500 元/吨，涨跌 4750 元/吨（+2.49%），工业级与电池级同步上行。",
-        "body": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，工业级碳酸锂最新价 195500 元/吨，涨跌 4750 元/吨（+2.49%），工业级与电池级同步上行。",
-          "本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。"
-        ],
-        "key_points": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，工业级碳酸锂最新价 195500 元/吨，涨跌 4750 元/吨（+2.49%），工业级与电池级同步上行。",
-          "来源：SMM新能源频道公开行情表。",
-          "时间：2026-05-12 16:04 +08:00 抓取。"
-        ],
-        "value": "195500",
-        "unit": "元/吨",
-        "delta": "+4750元/吨",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM 新能源频道公开行情表 5 月 12 日抓取显示，工业级碳酸锂最新价 195500 元/吨，涨跌 4750 元/吨（+2.49%），工业级与电池级同步上行。</p>\n<p>本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM 新能源频道公开行情表；取页面显示最新价与涨跌值。"
-      },
-      {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "材料",
-        "title": "SMM：磷酸铁锂最新价 66635元/吨，日涨 1155元/吨",
-        "summary": "SMM 新能源频道公开行情表 5 月 12 日抓取显示，磷酸铁锂最新价 66635 元/吨，涨跌 1155 元/吨（+1.76%），反映正极材料成本端受锂盐上行传导。",
-        "body": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，磷酸铁锂最新价 66635 元/吨，涨跌 1155 元/吨（+1.76%），反映正极材料成本端受锂盐上行传导。",
-          "本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。"
-        ],
-        "key_points": [
-          "SMM 新能源频道公开行情表 5 月 12 日抓取显示，磷酸铁锂最新价 66635 元/吨，涨跌 1155 元/吨（+1.76%），反映正极材料成本端受锂盐上行传导。",
-          "来源：SMM新能源频道公开行情表。",
-          "时间：2026-05-12 16:04 +08:00 抓取。"
-        ],
-        "value": "66635",
-        "unit": "元/吨",
-        "delta": "+1155元/吨",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM 新能源频道公开行情表 5 月 12 日抓取显示，磷酸铁锂最新价 66635 元/吨，涨跌 1155 元/吨（+1.76%），反映正极材料成本端受锂盐上行传导。</p>\n<p>本轮使用 SMM 新能源频道公开行情表抓取结果；保留来源、时间和口径，仅作为站内行情跟踪，不替代付费数据终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM 新能源频道公开行情表；取页面显示最新价与涨跌值。"
-      },
-      {
         "name": "电池级硫酸锰",
         "spec": "SMM 锰化合物，电池级",
         "value": "7690",
@@ -7564,66 +7684,117 @@ window.NEOLINK_FEED = {
         "category": "价格",
         "methodology": "方形磷酸铁锂储能电芯 314Ah，国内近 20 家主流电芯厂含税成交价；InfoLink 每周三公告",
         "as_of": "2026-05-06"
-      },
-      {
-        "name": "280Ah 储能电芯",
-        "spec": "方形磷酸铁锂，InfoLink 05-06",
-        "value": "0.370",
-        "unit": "元/Wh",
-        "change": "持平",
-        "direction": "down",
-        "date": "05-06",
-        "source": "InfoLink Consulting",
-        "url": "https://www.infolink-group.com/spot-price-energy-storage/cn/",
-        "title": "280Ah 方形磷酸铁锂储能电芯均价 0.370 元/Wh",
-        "summary": "InfoLink 5 月 6 日储能现货价格显示，280Ah 方形磷酸铁锂储能电芯均价为 0.370 元/Wh，周度持平。",
-        "body": [
-          "InfoLink 5 月 6 日价格页显示，280Ah 方形磷酸铁锂储能电芯国内含税均价为 0.370 元/Wh，价格区间为 0.340-0.400 元/Wh。"
-        ],
-        "category": "价格",
-        "as_of": "2026-05-06",
-        "methodology": "方形磷酸铁锂，InfoLink 05-06"
-      },
-      {
-        "name": "100Ah 储能电芯",
-        "spec": "长循环方形铁锂，InfoLink 05-06",
-        "value": "0.450",
-        "unit": "元/Wh",
-        "change": "+0.6%",
-        "direction": "up",
-        "date": "05-06",
-        "source": "InfoLink Consulting",
-        "url": "https://www.infolink-group.com/spot-price-energy-storage/cn/",
-        "title": "100Ah 方形磷酸铁锂储能电芯均价 0.450 元/Wh",
-        "summary": "InfoLink 5 月 6 日储能现货价格显示，100Ah 方形磷酸铁锂储能电芯均价为 0.450 元/Wh，周度上涨 0.6%。",
-        "body": [
-          "InfoLink 5 月 6 日价格页显示，100Ah 方形磷酸铁锂储能电芯国内含税均价为 0.450 元/Wh，价格区间为 0.425-0.475 元/Wh，样本以长循环规格为主。"
-        ],
-        "category": "价格",
-        "as_of": "2026-05-06",
-        "methodology": "长循环方形铁锂，InfoLink 05-06"
-      },
-      {
-        "name": "直流侧液冷集装箱",
-        "spec": "2h 储能系统，InfoLink 05-06",
-        "value": "0.49",
-        "unit": "元/Wh",
-        "change": "持平",
-        "direction": "down",
-        "date": "05-06",
-        "source": "InfoLink Consulting",
-        "url": "https://www.infolink-group.com/spot-price-energy-storage/cn/",
-        "title": "直流侧液冷集装箱 2h 储能系统均价 0.49 元/Wh",
-        "summary": "InfoLink 5 月 6 日储能系统价格显示，直流侧液冷集装箱 2h 均价为 0.49 元/Wh。",
-        "body": [
-          "InfoLink 5 月 6 日价格页显示，直流侧液冷集装箱 2h 储能系统国内均价为 0.49 元/Wh，价格区间为 0.45-0.53 元/Wh。"
-        ],
-        "category": "价格",
-        "as_of": "2026-05-06",
-        "methodology": "2h 储能系统，InfoLink 05-06"
       }
     ],
     "metrics": [
+      {
+        "title": "SMM电池级碳酸锂",
+        "value": "20.05",
+        "unit": "万元/吨",
+        "caption": "198000-203000元/吨",
+        "delta": "+500元/吨；期货-1.87%",
+        "direction": "up",
+        "source": "新浪财经 / 市场资讯 / SMM",
+        "as_of": "2026-05-13",
+        "methodology": "新浪财经碳酸锂日报引用SMM现货报价、SMM周度产量/库存与期货主力合约收盘。",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-05-14/doc-inhxvpqq8843262.shtml"
+      },
+      {
+        "title": "1-4月储能采招",
+        "value": "165.71",
+        "unit": "GWh",
+        "caption": "国际储能网/储能头条",
+        "delta": "40.37GW",
+        "direction": "up",
+        "source": "国际储能网 / 储能头条",
+        "as_of": "2026-05-14",
+        "methodology": "公开招投标不完全统计，剔除重复招标项目，不含集采未分配份额。",
+        "url": "https://mchuneng.in-en.com/html/chunengy-54167.shtml"
+      },
+      {
+        "title": "BESS锂盐成本占比",
+        "value": "5",
+        "unit": "%",
+        "caption": "Energy-Storage.news",
+        "delta": "短期价格上行压力",
+        "direction": "up",
+        "source": "Energy-Storage.news / Solar Media Energy Storage Summit 2026",
+        "as_of": "2026-05-14",
+        "methodology": "海外行业媒体基于Energy Storage Summit 2026访谈和供应链因素的价格趋势分析。",
+        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/"
+      },
+      {
+        "title": "4h储能电池价格",
+        "value": "<500",
+        "unit": "元/kWh",
+        "caption": "CIBF/欧阳明高",
+        "delta": "未来5年机遇期",
+        "direction": "up",
+        "source": "上海证券报 / 新浪财经 / CIBF 2026",
+        "as_of": "2026-05-14",
+        "methodology": "新浪财经转载上海证券报CIBF 2026论坛报道，跟踪储能电池技术路线与成本目标。",
+        "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvihs8854339.shtml"
+      },
+      {
+        "title": "比亚迪BESS出货",
+        "value": ">60",
+        "unit": "GWh",
+        "caption": "2025全球第一",
+        "delta": "市占率13%",
+        "direction": "up",
+        "source": "快科技 / 新浪财经 / 全球BESS集成商排名",
+        "as_of": "2026-05-14",
+        "methodology": "新浪财经/快科技转载的全球BESS集成商排名线索，需继续跟踪第三方榜单原始出处。",
+        "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvpqq8823796.shtml"
+      },
+      {
+        "title": "电池级碳酸锂",
+        "value": "20.14",
+        "unit": "万元/吨",
+        "caption": "上海钢联 5月13日",
+        "delta": "+2.63万元/吨 vs 4月29日",
+        "direction": "up",
+        "source": "新华财经 / 中国证券报 / 新浪财经 / 上海钢联",
+        "as_of": "2026-05-13",
+        "methodology": "中国证券报/新华财经引用上海钢联现货均价，并结合供给扰动和储能需求调研。",
+        "url": "https://finance.sina.com.cn/money/bond/2026-05-14/doc-inhxvihq0208284.shtml"
+      },
+      {
+        "title": "NextEra北达科他BESS",
+        "value": "400",
+        "unit": "MWh",
+        "caption": "站址兼容证书获批",
+        "delta": "投资1.286亿美元",
+        "direction": "up",
+        "source": "Energy-Storage.news / North Dakota PSC / NextEra Energy Resources",
+        "as_of": "2026-04-07",
+        "methodology": "Energy-Storage.news公开段落与NDPSC许可口径，部分正文订阅受限。",
+        "url": "https://www.energy-storage.news/north-dakota-approves-certificate-of-site-compatibility-for-400mwh-bess-from-nextera-energy-resources/"
+      },
+      {
+        "title": "储能钠电订单",
+        "value": "60",
+        "unit": "GWh",
+        "caption": "宁德时代×海博思创",
+        "delta": "3年合作",
+        "direction": "up",
+        "source": "PR Newswire Asia / ess-news / 宁德时代×海博思创",
+        "as_of": "2026-05-07",
+        "methodology": "PR Newswire Asia中文稿与ess-news英文报道交叉验证，跟踪钠离子电池GWh级商业化。",
+        "url": "https://www.prnasia.com/story/532133-1.shtml"
+      },
+      {
+        "title": "4h储能系统报价",
+        "value": "0.52",
+        "unit": "元/Wh",
+        "caption": "SMM公开摘要",
+        "delta": "314Ah电芯约0.35元/Wh",
+        "direction": "up",
+        "source": "SMM / 上海有色网新能源",
+        "as_of": "2026-05-14",
+        "methodology": "SMM公开摘要口径；正文抓取受限，作为价格传导观察线索，后续继续复核。",
+        "url": "https://new-energy.smm.cn/h5/content/14042/103897284"
+      },
       {
         "title": "中国Q1储能电池出口",
         "value": "27.3",
@@ -7808,36 +7979,6 @@ window.NEOLINK_FEED = {
         "url": "https://finance.sina.com.cn/jjxw/2026-05-13/doc-inhxtvfh0747538.shtml",
         "clean_html": "<p>产线切换：储能电芯正在从314Ah向587Ah等大容量规格切换，改造旧线不一定具备成本优势。</p><p>供给约束：新产线建设与良率爬坡需要时间，短期供给弹性偏低，结构性紧缺可能持续更久。</p><p>招标门槛：业内建议电网侧招标优先采用500Ah以上大容量高安全电芯，用标准抑制落后产能。</p>",
         "caption": "大容量储能电芯结构缺口",
-        "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "Energy-Storage.news / Energy Storage Summit 2026 interviews",
-        "source_type": "海外行业媒体/BESS价格与供应链",
-        "account_name": "Energy-Storage.news",
-        "category": "数据",
-        "title": "Energy-Storage.news：BESS价格短期或回升，碳酸锂与出口退税变化共同扰动报价",
-        "summary": "Energy-Storage.news 5月13日报道称，过去几年BESS交钥匙价格因中国供应商竞争和技术成熟持续下行，但短期可能因全球供应链扰动、能源价格上涨、碳酸锂价格从约6.5万元/吨升至15万-16万元/吨，以及中国取消电池出口增值税退税而出现回升。受访企业认为这会推高欧洲等市场电池项目报价，但长期技术进步仍会继续“移动价格目标线”。",
-        "body": [
-          "价格趋势：BESS价格在2024、2025年显著下降，但短期下行趋势可能放缓甚至反转。",
-          "原料扰动：文中提到碳酸锂由约RMB65,000/吨升至RMB150,000-160,000/吨，虽低于2022年峰值但已影响项目报价。",
-          "政策扰动：中国取消电池出口增值税退税，被欧洲开发商视为推高当地电池项目价格的因素。",
-          "长期判断：受访者认为电池技术仍会长期拉低相对成本，但价格下降不会是直线。"
-        ],
-        "key_points": [
-          "碳酸锂：约6.5万元/吨升至15万-16万元/吨。",
-          "成本：BESS短期价格可能回升。",
-          "政策：中国电池出口退税取消影响欧洲项目报价。",
-          "长期：技术进步仍支撑成本曲线下移。"
-        ],
-        "value": "150000-160000",
-        "unit": "元/吨 碳酸锂区间",
-        "delta": "短期价格回升",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
-        "clean_html": "<p>价格趋势：BESS价格在2024、2025年显著下降，但短期下行趋势可能放缓甚至反转。</p><p>原料扰动：文中提到碳酸锂由约RMB65,000/吨升至RMB150,000-160,000/吨，虽低于2022年峰值但已影响项目报价。</p><p>政策扰动：中国取消电池出口增值税退税，被欧洲开发商视为推高当地电池项目价格的因素。</p>",
-        "caption": "BESS价格短期回升证据",
         "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
       },
       {
@@ -8170,35 +8311,6 @@ window.NEOLINK_FEED = {
         "methodology": "08:00严格小时任务：已重新尝试读取NeoLink首页与MarketTrend入口，HTTPS仍返回SSL EOF；主动搜索国内+海外公开来源，并抓取Energy-Storage.news、时代储能网、新浪财经、SMM与InfoLink公开页面快照。只写入可见来源字段和可复核数字，不以纯刷新时间冒充更新。"
       },
       {
-        "source": "时代储能网 / 中国电池工业协会储能分会",
-        "source_type": "国内行业门户/协会数据",
-        "account_name": "时代储能网",
-        "category": "数据",
-        "title": "4月储能招标规模",
-        "summary": "4月储能招标44.24GWh、中标18.88GWh，锂电EPC中标均价0.950元/Wh。",
-        "body": [
-          "中国汽车动力电池产业创新联盟公布，2026年4月我国动力和储能电池销量合计164.2GWh，环比下降6.2%，同比增长39.0%。",
-          "其中储能电池销量55.2GWh，占总销量33.6%，环比下降8.5%，同比增长75.5%。",
-          "同期动力和储能电池合计出口31.7GWh，同比增长42.0%，反映中国电池出口仍保持较高增速。"
-        ],
-        "key_points": [
-          "4月储能电池销量：55.2GWh。",
-          "储能电池同比：+75.5%。",
-          "动力+储能电池出口：31.7GWh。",
-          "出口同比：+42.0%。"
-        ],
-        "value": "44.24",
-        "unit": "GWh",
-        "delta": "中标18.88GWh",
-        "direction": "up",
-        "date": "05-07",
-        "as_of": "2026-05-07",
-        "url": "https://eraes.com.cn/sjtj",
-        "clean_html": "<p>中国汽车动力电池产业创新联盟数据显示，2026年4月我国储能电池销量55.2GWh，同比增长75.5%。</p><p>同期动力和储能电池合计出口31.7GWh，同比增长42.0%。</p>",
-        "caption": "4月中国储能电池销量",
-        "methodology": "08:00严格小时任务：已重新尝试读取NeoLink首页与MarketTrend入口，HTTPS仍返回SSL EOF；主动搜索国内+海外公开来源，并抓取Energy-Storage.news、时代储能网、新浪财经、SMM与InfoLink公开页面快照。只写入可见来源字段和可复核数字，不以纯刷新时间冒充更新。"
-      },
-      {
         "title": "瑞浦兰钧Energy Vault美国BESS协议",
         "source": "Energy-Storage.news",
         "value": "3",
@@ -8332,19 +8444,6 @@ window.NEOLINK_FEED = {
         "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
       },
       {
-        "title": "SMM电池级碳酸锂均价",
-        "source": "SMM上海有色",
-        "value": "200000",
-        "unit": "元/吨",
-        "delta": "+4750元/吨",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
-        "summary": "SMM公开行情页可见电池级碳酸锂197000–203000元/吨，均价200000元/吨。",
-        "methodology": "05:05严格小时任务：HTTP重新读取NeoLink与MarketTrend入口；web_extract对目标站仍受内部网络策略限制，改用urllib抓取并保存新浪财经/中国储能网、SMM行情页、Energy-Storage.news公开页raw/clean快照；国内外公开来源均主动搜索，本轮只按可见字段写入，不把旧日期信息伪装成当日新闻。"
-      },
-      {
         "title": "BW ESS Bannaby项目功率",
         "source": "Energy-Storage.news",
         "value": "700",
@@ -8462,19 +8561,6 @@ window.NEOLINK_FEED = {
         "methodology": "03:02抓取时代储能网列表；仅按公开并网状态和主体记录，不推断规模。"
       },
       {
-        "title": "亿纬锂能印度GNEPL订单",
-        "source": "Eraes 5月12日",
-        "value": "8",
-        "unit": "GWh",
-        "delta": "五年60GWh合作目标",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://eraes.com.cn/ztbxx",
-        "summary": "Eraes列表显示亿纬锂能与印度GNEPL签约8GWh订单，并提出五年60GWh合作口径。",
-        "methodology": "Eraes公开列表页抽取；待公司公告复核产品、价格和交付节奏。"
-      },
-      {
         "title": "BESS电池需求增速",
         "source": "Benchmark 2025年前9月",
         "value": "+36%",
@@ -8499,64 +8585,6 @@ window.NEOLINK_FEED = {
         "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
         "summary": "SEIA预计美国2026年BESS新增部署35GW/70GWh，2030年年度新增超过47GW/110GWh。",
         "methodology": "Energy-Storage.news公开页转述SEIA与Benchmark报告；作为海外需求背景，不作为5月新事件。"
-      },
-      {
-        "source": "Benchmark Mineral Intelligence",
-        "source_type": "海外价格机构/方法口径",
-        "account_name": "Benchmark",
-        "category": "行情",
-        "title": "Benchmark推出314Ah LFP BESS电芯价格评估，称BESS电芯通常较EV电芯折价10%–15%",
-        "summary": "Benchmark Mineral Intelligence 2025年11月6日宣布推出314Ah LFP储能电芯价格评估。文章称，2025年前九个月BESS电池需求同比增长36%，在总电池需求中的占比由16%升至17%；BESS用LFP电芯通常较EV用LFP电芯折价10%–15%，行业自2023年以来快速从280Ah切换到314Ah规格。",
-        "body": [
-          "Benchmark称，314Ah LFP BESS电芯价格评估加入其Battery Cell Price Assessment，用于提供电芯价格、供需预测和成本分析。",
-          "文章提到，2025年前九个月BESS电池需求在主要需求段中同比增速最高，为36%，占总电池需求17%。",
-          "BESS用LFP电芯较EV用LFP电芯通常折价10%–15%；314Ah规格自2023年以来快速替代280Ah，虽单位kWh制造成本更低，但因性能和需求更强仍相对280Ah存在溢价。"
-        ],
-        "key_points": [
-          "Benchmark新增314Ah LFP BESS价格评估。",
-          "2025年前九个月BESS电池需求同比+36%。",
-          "BESS用LFP电芯通常较EV用LFP电芯折价10%–15%。",
-          "行业规格从280Ah向314Ah切换。"
-        ],
-        "value": "10%–15%",
-        "unit": "BESS相对EV电芯折价",
-        "delta": "314Ah价格方法口径",
-        "direction": "neutral",
-        "date": "11-06",
-        "as_of": "2025-11-06",
-        "url": "https://source.benchmarkminerals.com/article/benchmark-launches-314ah-lfp-bess-price-amid-global-storage-market-surge",
-        "clean_html": "<p>Benchmark 2025年11月6日宣布推出314Ah LFP BESS电芯价格评估，并称BESS电芯需求在2025年前九个月同比增长36%。</p><p>文章指出，BESS用LFP电芯通常较EV用LFP电芯折价10%–15%，行业从280Ah向314Ah规格切换。</p>",
-        "caption": "314Ah BESS价格评估",
-        "methodology": "00:06抓取Benchmark公开页；来源日期为2025-11-06，作为价格方法和行业背景补充，不作为本轮新闻时点。"
-      },
-      {
-        "source": "Energy-Storage.news / SEIA / Benchmark Mineral Intelligence",
-        "source_type": "海外行业媒体/协会报告",
-        "account_name": "Energy-Storage.news",
-        "category": "指标",
-        "title": "SEIA预计美国2026年BESS新增部署35GW/70GWh，2030年年装机超110GWh",
-        "summary": "Energy-Storage.news 2月24日报道，SEIA与Benchmark发布的Energy Storage Market Outlook预计，美国2026年电池储能系统部署将达到35GW/70GWh，其中公用事业级20.2GW/62.4GWh，表后市场14.8GW/7.3GWh；到2030年，美国年度新增装机预计超过47GW/110GWh，累计公用事业级BESS接近500GWh。",
-        "body": [
-          "SEIA报告称，美国2025年BESS安装超过28GW/57GWh，同比增加29%。",
-          "2026年预测为35GW/70GWh，其中公用事业级20.2GW/62.4GWh，表后市场14.8GW/7.3GWh，涉及约252亿美元资本投资。",
-          "到2030年，SEIA预计美国年度安装超过47GW/110GWh，累计公用事业级BESS接近500GWh；该条用于MarketTrend海外需求情绪和储能电芯需求背景，不作为中国价格口径。"
-        ],
-        "key_points": [
-          "2025年美国BESS：超过28GW/57GWh，同比+29%。",
-          "2026年预测：35GW/70GWh。",
-          "公用事业级：20.2GW/62.4GWh；表后市场：14.8GW/7.3GWh。",
-          "2030年年装机：超过47GW/110GWh。"
-        ],
-        "value": "70",
-        "unit": "GWh（2026E）",
-        "delta": "同比继续增长",
-        "direction": "up",
-        "date": "02-24",
-        "as_of": "2026-02-24",
-        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
-        "clean_html": "<p>Energy-Storage.news转述SEIA与Benchmark报告称，美国2026年BESS部署预计达到35GW/70GWh，2025年安装超过28GW/57GWh。</p><p>报告还预计2030年美国年度安装超过47GW/110GWh，累计公用事业级BESS接近500GWh。</p>",
-        "caption": "美国BESS需求预测",
-        "methodology": "00:06抓取Energy-Storage.news公开页；该来源发布日期为2026-02-24，作为海外需求背景与情绪证据，不标记为5月新发生事件。"
       },
       {
         "title": "ABF/Lion LFP承购支持规模",
@@ -8724,35 +8752,6 @@ window.NEOLINK_FEED = {
         "clean_html": "<p>SMM 新能源电解液现货价格页 5 月 12 日公开行情显示，碳酸甲乙酯 EMC（电池级送到成交价）7200–7500 元/吨、均价 7350 元/吨，碳酸二乙酯 DEC 9200–9600 元/吨、均价 9400 元/吨，均较上一口径持平。</p>\n<p>同页显示磷酸铁锂用电解液 24900–29500 元/吨、均价 27200 元/吨、涨跌 0；该条用于补齐 MarketTrend 电解液链条，不替代付费终端报价。</p>",
         "caption": "SMM新能源",
         "methodology": "SMM 新能源电解液现货价格公开页；取页面显示价格范围、均价、涨跌和日期。"
-      },
-      {
-        "source": "SMM 上海有色网",
-        "source_type": "专业价格源/公开行情页",
-        "account_name": "SMM新能源",
-        "category": "行情",
-        "title": "SMM：电池级碳酸锂最新价194000元/吨，LFP同步升至65175元/吨",
-        "summary": "SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨、日涨3500元/吨，磷酸铁锂65175元/吨、日涨855元/吨；电解液28950元/吨持平，锂盐反弹仍向正极材料链传导。",
-        "body": [
-          "SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨，较上一口径上涨3500元/吨；磷酸铁锂最新价65175元/吨，日涨855元/吨。",
-          "同一公开表中，电解液最新价28950元/吨，涨跌为0；SMM电池级氢氧化锂指数178818元/吨，日涨3571元/吨。",
-          "本轮将此前站内20万元/吨口径更新为19:30检索到的公开快照，保留来源、时间和方法字段；行情仅作站内跟踪，不替代付费终端。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：194000元/吨，日涨3500元/吨。",
-          "磷酸铁锂：65175元/吨，日涨855元/吨。",
-          "电解液：28950元/吨，持平。",
-          "SMM电池级氢氧化锂指数：178818元/吨，日涨3571元/吨。"
-        ],
-        "value": "194000",
-        "unit": "元/吨",
-        "delta": "+3500",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://newenergy.smm.cn/",
-        "clean_html": "<p>SMM新能源频道公开行情快照显示，电池级碳酸锂最新价194000元/吨，较上一口径上涨3500元/吨；磷酸铁锂最新价65175元/吨，日涨855元/吨。</p>\n<p>同一公开表中，电解液最新价28950元/吨，涨跌为0；SMM电池级氢氧化锂指数178818元/吨，日涨3571元/吨。</p>\n<p>本轮将此前站内20万元/吨口径更新为19:30检索到的公开快照，保留来源、时间和方法字段；行情仅作站内跟踪，不替代付费终端。</p>",
-        "caption": "SMM新能源",
-        "methodology": "SMM新能源频道公开行情表；取19:30检索快照中页面显示最新价与涨跌值。"
       },
       {
         "source": "CNESA / 中节能太阳能股份有限公司运营公告",
