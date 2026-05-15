@@ -2689,6 +2689,331 @@ footer a[href*="beian.miit.gov.cn"] {
   border-color: #ff8a2a;
 }
 
+/* Enterprise 3D graph workspace */
+.graph-stage-3d {
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(720px, 1fr) minmax(340px, 390px);
+  gap: 14px;
+  align-items: stretch;
+}
+
+.filter-group {
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-group button,
+.graph-control {
+  min-height: 36px;
+  padding: 0 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  background: var(--control-bg);
+  font-size: 12px;
+  font-weight: 850;
+  box-shadow: 0 8px 20px rgba(37, 75, 122, 0.06);
+}
+
+.filter-group button.active,
+.graph-control.active {
+  color: #075f46;
+  border-color: rgba(24, 170, 103, 0.34);
+  background: rgba(24, 170, 103, 0.12);
+}
+
+.graph-stage-3d .graph-canvas {
+  min-height: 650px;
+  height: calc(100vh - 212px);
+  max-height: 790px;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  padding: 0;
+  background:
+    linear-gradient(90deg, rgba(44, 63, 94, 0.08) 1px, transparent 1px) 0 0 / 52px 52px,
+    linear-gradient(rgba(44, 63, 94, 0.07) 1px, transparent 1px) 0 0 / 52px 52px,
+    linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(235, 244, 252, 0.78));
+  overflow: hidden;
+}
+
+.graph-status {
+  position: relative;
+  z-index: 4;
+  min-height: 48px;
+  padding: 14px 16px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.graph-count {
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.graph-viewport {
+  position: relative;
+  min-height: 0;
+  margin: 0 14px 14px;
+  border: 1px solid rgba(108, 132, 165, 0.22);
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.48), rgba(227, 236, 247, 0.4)),
+    rgba(241, 246, 251, 0.72);
+  overflow: hidden;
+}
+
+.graph-webgl,
+.graph-label-layer,
+.graph-fallback {
+  position: absolute;
+  inset: 0;
+}
+
+.graph-webgl {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.graph-label-layer {
+  pointer-events: none;
+  z-index: 3;
+}
+
+.graph-node-label {
+  position: absolute;
+  max-width: 118px;
+  transform: translate(-50%, calc(-100% - 14px));
+  border: 1px solid rgba(55, 76, 108, 0.18);
+  border-radius: 8px;
+  padding: 5px 7px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 24px rgba(31, 92, 172, 0.12);
+  pointer-events: auto;
+  text-align: left;
+}
+
+.graph-node-label strong,
+.graph-node-label span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.graph-node-label strong {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.graph-node-label span {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.graph-node-label.selected {
+  border-color: rgba(43, 127, 255, 0.5);
+  box-shadow: 0 16px 34px rgba(43, 127, 255, 0.22);
+}
+
+.graph-stage-3d .graph-legend {
+  left: 28px;
+  bottom: 28px;
+  width: min(620px, calc(100% - 112px));
+  padding: 9px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px 14px;
+  border-radius: 8px;
+}
+
+.graph-stage-3d .graph-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.graph-stage-3d .graph-legend i {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--legend-color);
+}
+
+.camera-controls {
+  position: absolute;
+  z-index: 5;
+  right: 28px;
+  bottom: 28px;
+  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.camera-controls button {
+  width: 38px;
+  height: 36px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  background: transparent;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.camera-controls button:last-child {
+  border-bottom: 0;
+}
+
+.graph-fallback {
+  z-index: 4;
+  padding: 16px;
+  overflow: auto;
+  background: rgba(248, 251, 255, 0.92);
+}
+
+.fallback-note {
+  margin-bottom: 14px;
+  padding: 12px;
+  border: 1px solid rgba(43, 127, 255, 0.18);
+  border-radius: 8px;
+  color: var(--ink);
+  background: rgba(43, 127, 255, 0.08);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.fallback-node-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+}
+
+.fallback-node-grid button {
+  min-height: 56px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: var(--ink);
+  background: var(--panel);
+  text-align: left;
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.fallback-node-grid span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.graph-stage-3d .company-panel {
+  height: calc(100vh - 212px);
+  min-height: 650px;
+  max-height: 790px;
+  padding: 16px;
+  overflow: auto;
+}
+
+.panel-empty {
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.node-detail-list,
+.node-relation-list,
+.node-source-list {
+  display: grid;
+  gap: 9px;
+}
+
+.node-detail-list li,
+.node-relation-list li,
+.node-source-list li {
+  min-width: 0;
+}
+
+.node-detail-list b,
+.node-source-list a {
+  display: block;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.node-detail-list span,
+.node-source-list span {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.node-relation-list button {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 10px;
+  color: var(--ink);
+  background: var(--panel-soft);
+  text-align: left;
+}
+
+.node-relation-list b,
+.node-relation-list span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.node-relation-list span {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+:root[data-theme="dark"] .graph-stage-3d .graph-canvas {
+  background:
+    linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px) 0 0 / 52px 52px,
+    linear-gradient(rgba(148, 163, 184, 0.07) 1px, transparent 1px) 0 0 / 52px 52px,
+    linear-gradient(135deg, rgba(17, 24, 39, 0.92), rgba(20, 28, 42, 0.94));
+}
+
+:root[data-theme="dark"] .graph-viewport {
+  background: rgba(8, 13, 23, 0.68);
+}
+
+:root[data-theme="dark"] .graph-node-label,
+:root[data-theme="dark"] .camera-controls,
+:root[data-theme="dark"] .graph-fallback {
+  background: rgba(15, 23, 42, 0.82);
+}
+
 .more-workspace {
   gap: 12px;
 }
@@ -3246,6 +3571,23 @@ footer a[href*="beian.miit.gov.cn"] {
     width: 100%;
   }
 
+  .enterprise-map-page .graph-search {
+    height: 42px;
+    padding: 0 14px;
+    justify-content: flex-start;
+    border-radius: 999px;
+  }
+
+  .enterprise-map-page .graph-search input {
+    position: static;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    pointer-events: auto;
+    flex: 1 1 auto;
+    padding: 0;
+  }
+
   .more-header {
     display: grid;
   }
@@ -3312,4 +3654,43 @@ footer a[href*="beian.miit.gov.cn"] {
     grid-template-columns: 52px minmax(0, 1fr);
   }
 
+}
+
+@media (max-width: 900px) {
+  .graph-stage-3d {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .graph-stage-3d .graph-canvas {
+    min-height: 520px;
+    height: 58vh;
+  }
+
+  .graph-stage-3d .company-panel {
+    min-height: 0;
+    height: auto;
+    max-height: none;
+  }
+
+  .filter-group {
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+  }
+
+  .graph-node-label {
+    max-width: 98px;
+  }
+
+  .graph-stage-3d .graph-legend {
+    left: 14px;
+    bottom: 14px;
+    width: calc(100% - 78px);
+    max-height: 88px;
+    overflow: auto;
+  }
+
+  .camera-controls {
+    right: 14px;
+    bottom: 14px;
+  }
 }
