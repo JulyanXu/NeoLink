@@ -1,8 +1,229 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-05-16T05:00:00+08:00",
-  "note": "05:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍SSL EOF失败并保存0字节headers，HTTP入口成功返回并保存live快照。主动搜索国内+海外公开来源；国内侧新增国家能源局《新型储能电站建设工程质量监督大纲》通知/政策解读，覆盖100MW及以上电源侧、电网侧电化学与压缩空气储能质监；海外侧新增Energy-Storage.news全球4月大型BESS投运4.5GW/12.8GWh、SoftBank日本非锂电池与BESS制造业务、Alsym/Juniper加州500MWh钠离子合作。",
+  "generated_at": "2026-05-16T12:00:00+08:00",
+  "note": "12:00严格小时刷新：已重新爬取NeoLink首页与MarketTrend入口，并主动搜索国内+海外公开来源。新增InfoLink 5月13日储能现货行情：电池级碳酸锂19.0-20.0万元/吨、均价19.5万元/吨，环比+12.7%；314Ah储能电芯均价0.373元/Wh，280Ah均价0.375元/Wh，100Ah均价0.453元/Wh；系统侧2h直流均价0.49元/Wh、2h交流均价0.58元/Wh。补录ESS News/InfoLink关于中国314Ah储能电芯半年上涨约22%的海外证据链。国内侧复核SMM锂电快讯与碳索储能500Ah+专题，未发现比上述价格数据更晚的公开碳酸锂报价。",
   "sections": {
     "headlines": [
+      {
+        "source": "InfoLink Consulting",
+        "source_type": "产业咨询/储能现货行情",
+        "account_name": "InfoLink Consulting",
+        "category": "价格",
+        "title": "InfoLink：锂价触及20万元关口，314Ah储能电芯均价升至0.373元/Wh",
+        "summary": "InfoLink 5月13日储能现货价格评述显示，近一周电池级碳酸锂现货价格区间为19.0-20.0万元/吨，均价19.5万元/吨，环比上涨12.7%；SC6锂辉石精矿均价2800美元/吨，环比上涨12.4%。中国磷酸铁锂储能电芯报价继续上移：100Ah均价0.453元/Wh，280Ah均价0.375元/Wh，314Ah均价0.373元/Wh；系统价格暂稳，2h直流液冷集装箱均价0.49元/Wh，2h交流液冷集装箱均价0.58元/Wh。",
+        "body": [
+          "电池级碳酸锂现货价格19.0-20.0万元/吨，均价19.5万元/吨，环比+12.7%。",
+          "中国锂辉石精矿SC6（CIF）均价2800美元/吨，环比+12.4%。",
+          "100Ah/280Ah/314Ah储能电芯均价分别为0.453、0.375、0.373元/Wh。",
+          "系统端价格暂稳：2h直流液冷集装箱均价0.49元/Wh，2h交流液冷集装箱均价0.58元/Wh，4h交流均价0.52元/Wh。",
+          "InfoLink提示，5月7日中储科技7GWh采购报价反映15-17万元/吨碳酸锂成本区间，若按当前20万元/吨附近原料价履约，电芯实际成交与履约价格可能继续上行。"
+        ],
+        "key_points": [
+          "碳酸锂均价19.5万元/吨，周环比+12.7%。",
+          "314Ah储能电芯均价0.373元/Wh。",
+          "280Ah储能电芯均价0.375元/Wh。",
+          "2h直流储能系统均价0.49元/Wh，系统价暂稳。"
+        ],
+        "value": "19.5",
+        "unit": "万元/吨 电池级碳酸锂均价",
+        "delta": "环比+12.7%；314Ah电芯均价0.373元/Wh",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://www.infolink-group.com/energy-article/tw/ess-spot-price-20260513",
+        "clean_html": "<p>InfoLink称近一周电池级碳酸锂现货价格19.0-20.0万元/吨，均价19.5万元/吨，环比上涨12.7%。</p><p>中国磷酸铁锂储能电芯报价继续上移，314Ah均价0.373元/Wh；储能系统价格整体维持平稳。</p>",
+        "caption": "锂价冲高但系统报价暂稳",
+        "methodology": "12:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动搜索国内SMM/碳索储能/电池中国与海外InfoLink/ESS News/Energy-Storage.news等公开来源；抓取保存InfoLink、碳索储能、SMM、ESS News原始HTML。本轮只写入可核验且此前未入库的新行情/新闻，不做单纯时间刷新。",
+        "history": [
+          {
+            "label": "碳酸锂均价万元/吨",
+            "value": 19.5
+          },
+          {
+            "label": "碳酸锂周环比%",
+            "value": 12.7
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.373
+          },
+          {
+            "label": "2h直流系统元/Wh",
+            "value": 0.49
+          }
+        ]
+      },
+      {
+        "source": "ESS News / InfoLink Consulting",
+        "source_type": "海外产业媒体/咨询数据转引",
+        "account_name": "ESS News",
+        "category": "价格",
+        "title": "ESS News：4月中国314Ah储能电芯均价0.365元/Wh，较去年10月上涨约22%",
+        "summary": "ESS News 4月22日转引InfoLink称，中国公用事业级储能电芯市场在过去6个月反转上行，主流314Ah磷酸铁锂储能电芯均价从2025年10月底的0.300元/Wh升至2026年4月20日的0.365元/Wh，涨幅约22%，当时价格区间已扩大至0.335-0.395元/Wh；280Ah电芯均价同期从0.298元/Wh升至0.370元/Wh；2h直流侧液冷ESS均价由2025年10月的0.41元/Wh升至2026年4月的0.49元/Wh。",
+        "body": [
+          "主流314Ah LFP储能电芯均价半年内从0.300元/Wh升至0.365元/Wh，涨幅约22%。",
+          "314Ah现货区间扩大至0.335-0.395元/Wh，部分框架采购报价在1月下旬已超过0.40元/Wh。",
+          "280Ah储能电芯均价从0.298元/Wh升至0.370元/Wh。",
+          "两小时直流侧液冷ESS均价从0.41元/Wh升至0.49元/Wh，成本传导已延伸到系统侧。"
+        ],
+        "key_points": [
+          "314Ah均价半年约+22%。",
+          "4月20日314Ah均价0.365元/Wh。",
+          "280Ah均价0.370元/Wh。",
+          "2h直流ESS均价0.49元/Wh。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah储能电芯均价",
+        "delta": "较2025年10月底0.300元/Wh约+22%",
+        "direction": "up",
+        "date": "04-22",
+        "as_of": "2026-04-22",
+        "url": "https://www.ess-news.com/2026/04/22/chinas-314-ah-storage-cell-prices-climb-more-than-20-in-six-months/",
+        "clean_html": "<p>ESS News转引InfoLink称，中国314Ah储能电芯均价从2025年10月底0.300元/Wh升至2026年4月20日0.365元/Wh。</p><p>同期2h直流侧液冷ESS均价从0.41元/Wh升至0.49元/Wh。</p>",
+        "caption": "314Ah电芯价格半年反转上行",
+        "methodology": "12:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动搜索国内SMM/碳索储能/电池中国与海外InfoLink/ESS News/Energy-Storage.news等公开来源；抓取保存InfoLink、碳索储能、SMM、ESS News原始HTML。本轮只写入可核验且此前未入库的新行情/新闻，不做单纯时间刷新。",
+        "history": [
+          {
+            "label": "2025-10 314Ah元/Wh",
+            "value": 0.3
+          },
+          {
+            "label": "2026-04 314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "涨幅%",
+            "value": 22
+          },
+          {
+            "label": "2h直流ESS元/Wh",
+            "value": 0.49
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.news / EnerVenue / Towngas",
+        "source_type": "海外产业媒体/新型电池试点",
+        "account_name": "Energy-Storage.news",
+        "category": "海外",
+        "title": "EnerVenue在中国常州金坛为Towngas试点“3万次循环”镍氢BESS",
+        "summary": "Energy-Storage.news报道，镍氢电池公司EnerVenue宣布将在中国常州金坛部署试点BESS，业主与运营方为香港中华煤气（Towngas）。项目用于整合现场可再生能源发电与电动巴士充电站，采用EnerVenue约两米长的Energy Storage Vessel（ESV）及Energy Racks。公司称其近期3亿美元融资将支持常州制造运营扩张。",
+        "body": [
+          "项目地点位于中国常州金坛，业主/运营方为Towngas。",
+          "技术路线为镍氢电池ESV与Energy Racks，宣传循环寿命约3万次。",
+          "应用场景为现场可再生能源发电叠加电动巴士充电站。",
+          "该项目为非锂路线在中国工商业/交通能源场景中的示范样本。"
+        ],
+        "key_points": [
+          "镍氢BESS中国试点。",
+          "宣传循环寿命3万次。",
+          "Towngas拥有并运营。",
+          "场景：可再生能源+电动巴士充电。"
+        ],
+        "value": "30000",
+        "unit": "次循环宣称",
+        "delta": "3亿美元融资支持常州制造扩张",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://www.energy-storage.news/enervenue-piloting-30000-cycle-nickel-hydrogen-bess-in-china/",
+        "clean_html": "<p>Energy-Storage.news报道称，EnerVenue将在中国常州金坛为Towngas部署镍氢BESS试点，采用Energy Storage Vessel与Energy Racks。</p><p>项目用于整合现场可再生能源发电和电动巴士充电站；公司称其3亿美元融资将支持常州制造扩张。</p>",
+        "caption": "非锂长寿命储能路线示范",
+        "methodology": "11:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存0字节headers，HTTP入口成功保存live快照。主动检索国内SMM/证券时报/华尔街见闻与海外Energy-Storage.news/ESS News等公开来源；抓取保存SMM、ESS News、Energy-Storage.news原始HTML及清洗文本；仅写入本轮可核验且此前未入库的新信息。",
+        "history": [
+          {
+            "label": "宣称循环次数",
+            "value": 30000
+          },
+          {
+            "label": "融资百万美元",
+            "value": 300
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.news / 中国海关总署",
+        "source_type": "海外产业媒体/官方数据转引",
+        "account_name": "Energy-Storage.news",
+        "category": "数据",
+        "title": "中国一季度储能电池出口27.3GWh，占电池出口约三分之一，同比增长15%",
+        "summary": "Energy-Storage.news转引国新办/海关总署一季度外贸发布会数据：中国2026年一季度电池出口84.1GWh，其中储能电池27.3GWh，占全部电池出口约32.4%，同比增长15.0%；3月动力与储能电池合计出口36.1GWh，环比增长51.0%、同比增长57.1%。",
+        "body": [
+          "海关总署发布会数据显示，一季度中国动力和储能电池合计出口84.1GWh，同比增长36.7%。",
+          "其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。",
+          "3月动力和储能电池合计出口36.1GWh，环比增长51.0%、同比增长57.1%。"
+        ],
+        "key_points": [
+          "Q1储能电池出口27.3GWh。",
+          "占全部电池出口32.4%。",
+          "Q1动力+储能电池合计出口84.1GWh，同比+36.7%。"
+        ],
+        "value": "27.3",
+        "unit": "GWh Q1储能电池出口",
+        "delta": "同比+15.0%；占32.4%",
+        "direction": "up",
+        "date": "04-24",
+        "as_of": "2026-04-24",
+        "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "clean_html": "<p>Energy-Storage.news转引中国海关总署发布会数据称，2026年一季度中国储能电池出口27.3GWh，占全部电池出口约32.4%。</p><p>同期动力与储能电池合计出口84.1GWh，同比增长36.7%。</p>",
+        "caption": "中国储能电池出口保持双位数增长",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "储能电池出口GWh",
+            "value": 27.3
+          },
+          {
+            "label": "占比%",
+            "value": 32.4
+          },
+          {
+            "label": "同比%",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "source": "新浪财经 / 储能网",
+        "source_type": "国内产业媒体/招中标动态",
+        "account_name": "储能网",
+        "category": "项目",
+        "title": "吉林延边100MW/400MWh构网型共享储能EPC中标候选单价0.7890-0.8208元/Wh，宁夏500MW/1.2GWh同步公示",
+        "summary": "新浪财经转储能网5月13日报道，吉林延边中储汪清100MW/400MWh构网型共享储能电站EPC总承包中标候选人公示，三家候选报价折合0.7890-0.8208元/Wh；同日宁夏3个电网侧/独立/共享储能项目EPC候选公示，合计500MW/1,200MWh，第一中标候选人为中国电建集团吉林省电力勘测设计院有限公司，投标总价约11.60亿元。",
+        "body": [
+          "吉林延边项目装机100MW/400MWh，含80台预制舱式磷酸铁锂电池储能单元、20台PCS和220kV升压站。",
+          "第一中标候选人为中国电建集团重庆工程有限公司，投标报价32062.7296万元，约0.8016元/Wh；第二、第三候选分别约0.7890元/Wh和0.8208元/Wh。",
+          "宁夏3个项目招标建设规模合计500MW/1200MWh，第一中标候选人均为中国电建集团吉林省电力勘测设计院有限公司，投标总价约11.60亿元。"
+        ],
+        "key_points": [
+          "100MW/400MWh构网型项目EPC候选报价区间0.7890-0.8208元/Wh。",
+          "宁夏三项目合计500MW/1.2GWh进入EPC中标候选阶段。",
+          "国内独立/共享储能EPC单价继续成为项目经济性观察指标。"
+        ],
+        "value": "0.7890-0.8208",
+        "unit": "元/Wh EPC候选单价",
+        "delta": "吉林延边100MW/400MWh；宁夏500MW/1.2GWh",
+        "direction": "neutral",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxtkrq9359887.shtml",
+        "clean_html": "<p>新浪财经转储能网报道称，吉林延边中储汪清100MW/400MWh构网型共享储能电站EPC中标候选人公示，候选报价折合0.7890-0.8208元/Wh。</p><p>宁夏3个电网侧、独立及共享储能项目EPC候选同步公示，合计500MW/1.2GWh。</p>",
+        "caption": "国内构网型储能EPC价格样本",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "吉林项目MWh",
+            "value": 400
+          },
+          {
+            "label": "宁夏合计MWh",
+            "value": 1200
+          },
+          {
+            "label": "最低EPC元/Wh",
+            "value": 0.789
+          }
+        ]
+      },
       {
         "source": "国家能源局",
         "source_type": "官方政策文件/政策解读",
@@ -612,56 +833,6 @@ window.NEOLINK_FEED = {
           {
             "label": "SMM库存万吨",
             "value": 10.35
-          }
-        ]
-      },
-      {
-        "source": "Energy-Storage.news / 中国国务院新闻办海关总署发布会",
-        "source_type": "海外产业媒体/官方海关口径转引",
-        "account_name": "Energy-Storage.news",
-        "category": "出口",
-        "title": "中国Q1储能电池出口27.3GWh，占电池出口约三分之一；3月电池出口36.1GWh",
-        "summary": "Energy-Storage.news 4月24日报道援引中国国务院新闻办海关总署一季度进出口发布会：2026年一季度中国动力和储能电池出口合计84.1GWh，同比增长36.7%；其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。3月单月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。该口径为海外英文媒体对官方海关发布会的公开转引，可用于验证中国储能产业链出口韧性和海外需求。",
-        "body": [
-          "官方口径来源：国务院新闻办举行海关总署一季度进出口表现发布会，海关总署副署长王军、统计分析司司长吕大良介绍数据。",
-          "总量口径：2026年一季度中国动力和储能电池出口合计84.1GWh，同比增长36.7%。",
-          "储能口径：储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。",
-          "月度节奏：3月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。",
-          "产业含义：在314Ah电芯报价上行、海外BESS价格压力和中国供应链出海并存的背景下，Q1出口数据说明海外项目仍在吸收中国储能电池供给。"
-        ],
-        "key_points": [
-          "Q1动力+储能电池出口84.1GWh，同比+36.7%。",
-          "Q1储能电池出口27.3GWh，占全部电池出口32.4%。",
-          "Q1储能电池出口同比+15.0%。",
-          "3月动力+储能电池出口36.1GWh，环比+51.0%、同比+57.1%。",
-          "数据来自海外媒体转引国务院新闻办/海关总署发布会，适合纳入出口与海外需求跟踪。"
-        ],
-        "value": "27.3",
-        "unit": "GWh Q1储能电池出口",
-        "delta": "占电池出口32.4%；同比+15.0%",
-        "direction": "up",
-        "date": "04-24",
-        "as_of": "2026-04-24",
-        "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
-        "clean_html": "<p>Energy-Storage.news 4月24日报道，中国一季度动力和储能电池出口合计84.1GWh，同比增长36.7%；其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。</p><p>3月单月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。报道援引国务院新闻办海关总署一季度进出口发布会。</p>",
-        "caption": "中国储能电池出口口径",
-        "methodology": "12:00小时刷新主动检索海外公开来源，抓取Energy-Storage.news页面并本地保存HTML与clean文本；采用报道内对国务院新闻办/海关总署发布会的GWh、同比、占比和月度出口口径，不外推未披露市场份额。",
-        "history": [
-          {
-            "label": "Q1总电池出口GWh",
-            "value": 84.1
-          },
-          {
-            "label": "Q1储能电池出口GWh",
-            "value": 27.3
-          },
-          {
-            "label": "储能占比%",
-            "value": 32.4
-          },
-          {
-            "label": "储能同比%",
-            "value": 15
           }
         ]
       },
@@ -1611,6 +1782,312 @@ window.NEOLINK_FEED = {
       }
     ],
     "latest": [
+      {
+        "source": "InfoLink Consulting",
+        "source_type": "产业咨询/储能现货行情",
+        "account_name": "InfoLink Consulting",
+        "category": "价格",
+        "title": "InfoLink：锂价触及20万元关口，314Ah储能电芯均价升至0.373元/Wh",
+        "summary": "InfoLink 5月13日储能现货价格评述显示，近一周电池级碳酸锂现货价格区间为19.0-20.0万元/吨，均价19.5万元/吨，环比上涨12.7%；SC6锂辉石精矿均价2800美元/吨，环比上涨12.4%。中国磷酸铁锂储能电芯报价继续上移：100Ah均价0.453元/Wh，280Ah均价0.375元/Wh，314Ah均价0.373元/Wh；系统价格暂稳，2h直流液冷集装箱均价0.49元/Wh，2h交流液冷集装箱均价0.58元/Wh。",
+        "body": [
+          "电池级碳酸锂现货价格19.0-20.0万元/吨，均价19.5万元/吨，环比+12.7%。",
+          "中国锂辉石精矿SC6（CIF）均价2800美元/吨，环比+12.4%。",
+          "100Ah/280Ah/314Ah储能电芯均价分别为0.453、0.375、0.373元/Wh。",
+          "系统端价格暂稳：2h直流液冷集装箱均价0.49元/Wh，2h交流液冷集装箱均价0.58元/Wh，4h交流均价0.52元/Wh。",
+          "InfoLink提示，5月7日中储科技7GWh采购报价反映15-17万元/吨碳酸锂成本区间，若按当前20万元/吨附近原料价履约，电芯实际成交与履约价格可能继续上行。"
+        ],
+        "key_points": [
+          "碳酸锂均价19.5万元/吨，周环比+12.7%。",
+          "314Ah储能电芯均价0.373元/Wh。",
+          "280Ah储能电芯均价0.375元/Wh。",
+          "2h直流储能系统均价0.49元/Wh，系统价暂稳。"
+        ],
+        "value": "19.5",
+        "unit": "万元/吨 电池级碳酸锂均价",
+        "delta": "环比+12.7%；314Ah电芯均价0.373元/Wh",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://www.infolink-group.com/energy-article/tw/ess-spot-price-20260513",
+        "clean_html": "<p>InfoLink称近一周电池级碳酸锂现货价格19.0-20.0万元/吨，均价19.5万元/吨，环比上涨12.7%。</p><p>中国磷酸铁锂储能电芯报价继续上移，314Ah均价0.373元/Wh；储能系统价格整体维持平稳。</p>",
+        "caption": "锂价冲高但系统报价暂稳",
+        "methodology": "12:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动搜索国内SMM/碳索储能/电池中国与海外InfoLink/ESS News/Energy-Storage.news等公开来源；抓取保存InfoLink、碳索储能、SMM、ESS News原始HTML。本轮只写入可核验且此前未入库的新行情/新闻，不做单纯时间刷新。",
+        "history": [
+          {
+            "label": "碳酸锂均价万元/吨",
+            "value": 19.5
+          },
+          {
+            "label": "碳酸锂周环比%",
+            "value": 12.7
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.373
+          },
+          {
+            "label": "2h直流系统元/Wh",
+            "value": 0.49
+          }
+        ]
+      },
+      {
+        "source": "ESS News / InfoLink Consulting",
+        "source_type": "海外产业媒体/咨询数据转引",
+        "account_name": "ESS News",
+        "category": "价格",
+        "title": "ESS News：4月中国314Ah储能电芯均价0.365元/Wh，较去年10月上涨约22%",
+        "summary": "ESS News 4月22日转引InfoLink称，中国公用事业级储能电芯市场在过去6个月反转上行，主流314Ah磷酸铁锂储能电芯均价从2025年10月底的0.300元/Wh升至2026年4月20日的0.365元/Wh，涨幅约22%，当时价格区间已扩大至0.335-0.395元/Wh；280Ah电芯均价同期从0.298元/Wh升至0.370元/Wh；2h直流侧液冷ESS均价由2025年10月的0.41元/Wh升至2026年4月的0.49元/Wh。",
+        "body": [
+          "主流314Ah LFP储能电芯均价半年内从0.300元/Wh升至0.365元/Wh，涨幅约22%。",
+          "314Ah现货区间扩大至0.335-0.395元/Wh，部分框架采购报价在1月下旬已超过0.40元/Wh。",
+          "280Ah储能电芯均价从0.298元/Wh升至0.370元/Wh。",
+          "两小时直流侧液冷ESS均价从0.41元/Wh升至0.49元/Wh，成本传导已延伸到系统侧。"
+        ],
+        "key_points": [
+          "314Ah均价半年约+22%。",
+          "4月20日314Ah均价0.365元/Wh。",
+          "280Ah均价0.370元/Wh。",
+          "2h直流ESS均价0.49元/Wh。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah储能电芯均价",
+        "delta": "较2025年10月底0.300元/Wh约+22%",
+        "direction": "up",
+        "date": "04-22",
+        "as_of": "2026-04-22",
+        "url": "https://www.ess-news.com/2026/04/22/chinas-314-ah-storage-cell-prices-climb-more-than-20-in-six-months/",
+        "clean_html": "<p>ESS News转引InfoLink称，中国314Ah储能电芯均价从2025年10月底0.300元/Wh升至2026年4月20日0.365元/Wh。</p><p>同期2h直流侧液冷ESS均价从0.41元/Wh升至0.49元/Wh。</p>",
+        "caption": "314Ah电芯价格半年反转上行",
+        "methodology": "12:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动搜索国内SMM/碳索储能/电池中国与海外InfoLink/ESS News/Energy-Storage.news等公开来源；抓取保存InfoLink、碳索储能、SMM、ESS News原始HTML。本轮只写入可核验且此前未入库的新行情/新闻，不做单纯时间刷新。",
+        "history": [
+          {
+            "label": "2025-10 314Ah元/Wh",
+            "value": 0.3
+          },
+          {
+            "label": "2026-04 314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "涨幅%",
+            "value": 22
+          },
+          {
+            "label": "2h直流ESS元/Wh",
+            "value": 0.49
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.news / EnerVenue / Towngas",
+        "source_type": "海外产业媒体/新型电池试点",
+        "account_name": "Energy-Storage.news",
+        "category": "海外",
+        "title": "EnerVenue在中国常州金坛为Towngas试点“3万次循环”镍氢BESS",
+        "summary": "Energy-Storage.news报道，镍氢电池公司EnerVenue宣布将在中国常州金坛部署试点BESS，业主与运营方为香港中华煤气（Towngas）。项目用于整合现场可再生能源发电与电动巴士充电站，采用EnerVenue约两米长的Energy Storage Vessel（ESV）及Energy Racks。公司称其近期3亿美元融资将支持常州制造运营扩张。",
+        "body": [
+          "项目地点位于中国常州金坛，业主/运营方为Towngas。",
+          "技术路线为镍氢电池ESV与Energy Racks，宣传循环寿命约3万次。",
+          "应用场景为现场可再生能源发电叠加电动巴士充电站。",
+          "该项目为非锂路线在中国工商业/交通能源场景中的示范样本。"
+        ],
+        "key_points": [
+          "镍氢BESS中国试点。",
+          "宣传循环寿命3万次。",
+          "Towngas拥有并运营。",
+          "场景：可再生能源+电动巴士充电。"
+        ],
+        "value": "30000",
+        "unit": "次循环宣称",
+        "delta": "3亿美元融资支持常州制造扩张",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://www.energy-storage.news/enervenue-piloting-30000-cycle-nickel-hydrogen-bess-in-china/",
+        "clean_html": "<p>Energy-Storage.news报道称，EnerVenue将在中国常州金坛为Towngas部署镍氢BESS试点，采用Energy Storage Vessel与Energy Racks。</p><p>项目用于整合现场可再生能源发电和电动巴士充电站；公司称其3亿美元融资将支持常州制造扩张。</p>",
+        "caption": "非锂长寿命储能路线示范",
+        "methodology": "11:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存0字节headers，HTTP入口成功保存live快照。主动检索国内SMM/证券时报/华尔街见闻与海外Energy-Storage.news/ESS News等公开来源；抓取保存SMM、ESS News、Energy-Storage.news原始HTML及清洗文本；仅写入本轮可核验且此前未入库的新信息。",
+        "history": [
+          {
+            "label": "宣称循环次数",
+            "value": 30000
+          },
+          {
+            "label": "融资百万美元",
+            "value": 300
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.news / 中国海关总署",
+        "source_type": "海外产业媒体/官方数据转引",
+        "account_name": "Energy-Storage.news",
+        "category": "数据",
+        "title": "中国一季度储能电池出口27.3GWh，占电池出口约三分之一，同比增长15%",
+        "summary": "Energy-Storage.news转引国新办/海关总署一季度外贸发布会数据：中国2026年一季度电池出口84.1GWh，其中储能电池27.3GWh，占全部电池出口约32.4%，同比增长15.0%；3月动力与储能电池合计出口36.1GWh，环比增长51.0%、同比增长57.1%。",
+        "body": [
+          "海关总署发布会数据显示，一季度中国动力和储能电池合计出口84.1GWh，同比增长36.7%。",
+          "其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。",
+          "3月动力和储能电池合计出口36.1GWh，环比增长51.0%、同比增长57.1%。"
+        ],
+        "key_points": [
+          "Q1储能电池出口27.3GWh。",
+          "占全部电池出口32.4%。",
+          "Q1动力+储能电池合计出口84.1GWh，同比+36.7%。"
+        ],
+        "value": "27.3",
+        "unit": "GWh Q1储能电池出口",
+        "delta": "同比+15.0%；占32.4%",
+        "direction": "up",
+        "date": "04-24",
+        "as_of": "2026-04-24",
+        "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "clean_html": "<p>Energy-Storage.news转引中国海关总署发布会数据称，2026年一季度中国储能电池出口27.3GWh，占全部电池出口约32.4%。</p><p>同期动力与储能电池合计出口84.1GWh，同比增长36.7%。</p>",
+        "caption": "中国储能电池出口保持双位数增长",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "储能电池出口GWh",
+            "value": 27.3
+          },
+          {
+            "label": "占比%",
+            "value": 32.4
+          },
+          {
+            "label": "同比%",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "source": "ESS News / OCCTO",
+        "source_type": "海外产业媒体/容量市场拍卖",
+        "account_name": "ESS News",
+        "category": "市场",
+        "title": "日本长期脱碳电源拍卖授予1.25GW电池储能，锂电551MW、非锂699MW",
+        "summary": "ESS News 5月15日报道，日本第三轮长期脱碳电源拍卖中，电池储能获得1.25GW、19个项目；其中锂离子电池储能551MW，非锂电池储能699MW。电池储能约占脱碳类别中标容量近30%，但受储能时长新规影响，投标量明显下降。",
+        "body": [
+          "日本长期脱碳电源拍卖本轮电池储能中标1.25GW、19个项目。",
+          "锂离子电池储能获得551MW，非锂电池储能获得699MW。",
+          "报道指出电池储能约占脱碳类别中标容量近30%，较上一轮1.37GW小幅下降。"
+        ],
+        "key_points": [
+          "日本LTDA电池储能中标1.25GW。",
+          "非锂电池储能699MW，高于锂电551MW。",
+          "新储能时长规则导致投标量下降但中标容量仍较强。"
+        ],
+        "value": "1.25",
+        "unit": "GW日本电池储能中标",
+        "delta": "19个项目；非锂699MW",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.ess-news.com/2026/05/15/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "clean_html": "<p>ESS News报道称，日本最新长期脱碳电源拍卖授予电池储能1.25GW容量，覆盖19个项目。</p><p>其中锂离子电池储能551MW，非锂电池储能699MW，显示日本容量机制继续支持多技术储能。</p>",
+        "caption": "日本容量市场继续给储能明确收入锚",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "总中标GW",
+            "value": 1.25
+          },
+          {
+            "label": "锂电MW",
+            "value": 551
+          },
+          {
+            "label": "非锂MW",
+            "value": 699
+          }
+        ]
+      },
+      {
+        "source": "ESS News / EVE Energy / Godawari New Energy",
+        "source_type": "海外产业媒体/电芯订单",
+        "account_name": "ESS News",
+        "category": "海外",
+        "title": "亿纬锂能获印度Godawari 8GWh储能电芯订单，五年合作潜在扩至60GWh",
+        "summary": "ESS News 5月15日报道，EVE Energy与Godawari New Energy Private Ltd.签署8GWh大容量储能电池订单，供应628Ah LFP储能电芯；合作可能在未来五年扩展至60GWh，用于印度本土BESS制造平台。",
+        "body": [
+          "订单规模为8GWh，产品为EVE 628Ah大容量储能电芯。",
+          "客户Godawari New Energy正在推进印度本土BESS制造平台，前期协议指向20GWh制造项目第一阶段。",
+          "报道称双方合作五年潜在规模可达60GWh，反映印度储能供应链本地化对中国大电芯的需求。"
+        ],
+        "key_points": [
+          "8GWh确定订单。",
+          "628Ah LFP储能电芯。",
+          "潜在五年合作60GWh。",
+          "印度储能制造本地化加速。"
+        ],
+        "value": "8",
+        "unit": "GWh确定储能电芯订单",
+        "delta": "潜在60GWh五年合作",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.ess-news.com/2026/05/15/eve-energy-lands-8-gwh-india-storage-cell-order-60-gwh-tie-up-possible/",
+        "clean_html": "<p>ESS News报道称，EVE Energy签署8GWh印度储能电芯订单，供应628Ah LFP电芯。</p><p>合作对象Godawari New Energy正在建设印度本土BESS制造平台，双方合作五年潜在规模可达60GWh。</p>",
+        "caption": "印度储能供应链本地化带动中国大电芯订单",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "确定订单GWh",
+            "value": 8
+          },
+          {
+            "label": "潜在合作GWh",
+            "value": 60
+          },
+          {
+            "label": "电芯Ah",
+            "value": 628
+          }
+        ]
+      },
+      {
+        "source": "新浪财经 / 储能网",
+        "source_type": "国内产业媒体/招中标动态",
+        "account_name": "储能网",
+        "category": "项目",
+        "title": "吉林延边100MW/400MWh构网型共享储能EPC中标候选单价0.7890-0.8208元/Wh，宁夏500MW/1.2GWh同步公示",
+        "summary": "新浪财经转储能网5月13日报道，吉林延边中储汪清100MW/400MWh构网型共享储能电站EPC总承包中标候选人公示，三家候选报价折合0.7890-0.8208元/Wh；同日宁夏3个电网侧/独立/共享储能项目EPC候选公示，合计500MW/1,200MWh，第一中标候选人为中国电建集团吉林省电力勘测设计院有限公司，投标总价约11.60亿元。",
+        "body": [
+          "吉林延边项目装机100MW/400MWh，含80台预制舱式磷酸铁锂电池储能单元、20台PCS和220kV升压站。",
+          "第一中标候选人为中国电建集团重庆工程有限公司，投标报价32062.7296万元，约0.8016元/Wh；第二、第三候选分别约0.7890元/Wh和0.8208元/Wh。",
+          "宁夏3个项目招标建设规模合计500MW/1200MWh，第一中标候选人均为中国电建集团吉林省电力勘测设计院有限公司，投标总价约11.60亿元。"
+        ],
+        "key_points": [
+          "100MW/400MWh构网型项目EPC候选报价区间0.7890-0.8208元/Wh。",
+          "宁夏三项目合计500MW/1.2GWh进入EPC中标候选阶段。",
+          "国内独立/共享储能EPC单价继续成为项目经济性观察指标。"
+        ],
+        "value": "0.7890-0.8208",
+        "unit": "元/Wh EPC候选单价",
+        "delta": "吉林延边100MW/400MWh；宁夏500MW/1.2GWh",
+        "direction": "neutral",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxtkrq9359887.shtml",
+        "clean_html": "<p>新浪财经转储能网报道称，吉林延边中储汪清100MW/400MWh构网型共享储能电站EPC中标候选人公示，候选报价折合0.7890-0.8208元/Wh。</p><p>宁夏3个电网侧、独立及共享储能项目EPC候选同步公示，合计500MW/1.2GWh。</p>",
+        "caption": "国内构网型储能EPC价格样本",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "吉林项目MWh",
+            "value": 400
+          },
+          {
+            "label": "宁夏合计MWh",
+            "value": 1200
+          },
+          {
+            "label": "最低EPC元/Wh",
+            "value": 0.789
+          }
+        ]
+      },
       {
         "source": "国家能源局",
         "source_type": "官方政策文件/政策解读",
@@ -2866,56 +3343,6 @@ window.NEOLINK_FEED = {
           {
             "label": "长期技术降本",
             "value": 1
-          }
-        ]
-      },
-      {
-        "source": "Energy-Storage.news / 中国国务院新闻办海关总署发布会",
-        "source_type": "海外产业媒体/官方海关口径转引",
-        "account_name": "Energy-Storage.news",
-        "category": "出口",
-        "title": "中国Q1储能电池出口27.3GWh，占电池出口约三分之一；3月电池出口36.1GWh",
-        "summary": "Energy-Storage.news 4月24日报道援引中国国务院新闻办海关总署一季度进出口发布会：2026年一季度中国动力和储能电池出口合计84.1GWh，同比增长36.7%；其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。3月单月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。该口径为海外英文媒体对官方海关发布会的公开转引，可用于验证中国储能产业链出口韧性和海外需求。",
-        "body": [
-          "官方口径来源：国务院新闻办举行海关总署一季度进出口表现发布会，海关总署副署长王军、统计分析司司长吕大良介绍数据。",
-          "总量口径：2026年一季度中国动力和储能电池出口合计84.1GWh，同比增长36.7%。",
-          "储能口径：储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。",
-          "月度节奏：3月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。",
-          "产业含义：在314Ah电芯报价上行、海外BESS价格压力和中国供应链出海并存的背景下，Q1出口数据说明海外项目仍在吸收中国储能电池供给。"
-        ],
-        "key_points": [
-          "Q1动力+储能电池出口84.1GWh，同比+36.7%。",
-          "Q1储能电池出口27.3GWh，占全部电池出口32.4%。",
-          "Q1储能电池出口同比+15.0%。",
-          "3月动力+储能电池出口36.1GWh，环比+51.0%、同比+57.1%。",
-          "数据来自海外媒体转引国务院新闻办/海关总署发布会，适合纳入出口与海外需求跟踪。"
-        ],
-        "value": "27.3",
-        "unit": "GWh Q1储能电池出口",
-        "delta": "占电池出口32.4%；同比+15.0%",
-        "direction": "up",
-        "date": "04-24",
-        "as_of": "2026-04-24",
-        "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
-        "clean_html": "<p>Energy-Storage.news 4月24日报道，中国一季度动力和储能电池出口合计84.1GWh，同比增长36.7%；其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。</p><p>3月单月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。报道援引国务院新闻办海关总署一季度进出口发布会。</p>",
-        "caption": "中国储能电池出口口径",
-        "methodology": "12:00小时刷新主动检索海外公开来源，抓取Energy-Storage.news页面并本地保存HTML与clean文本；采用报道内对国务院新闻办/海关总署发布会的GWh、同比、占比和月度出口口径，不外推未披露市场份额。",
-        "history": [
-          {
-            "label": "Q1总电池出口GWh",
-            "value": 84.1
-          },
-          {
-            "label": "Q1储能电池出口GWh",
-            "value": 27.3
-          },
-          {
-            "label": "储能占比%",
-            "value": 32.4
-          },
-          {
-            "label": "储能同比%",
-            "value": 15
           }
         ]
       },
@@ -7709,6 +8136,48 @@ window.NEOLINK_FEED = {
     ],
     "project": [
       {
+        "source": "新浪财经 / 储能网",
+        "source_type": "国内产业媒体/招中标动态",
+        "account_name": "储能网",
+        "category": "项目",
+        "title": "吉林延边100MW/400MWh构网型共享储能EPC中标候选单价0.7890-0.8208元/Wh，宁夏500MW/1.2GWh同步公示",
+        "summary": "新浪财经转储能网5月13日报道，吉林延边中储汪清100MW/400MWh构网型共享储能电站EPC总承包中标候选人公示，三家候选报价折合0.7890-0.8208元/Wh；同日宁夏3个电网侧/独立/共享储能项目EPC候选公示，合计500MW/1,200MWh，第一中标候选人为中国电建集团吉林省电力勘测设计院有限公司，投标总价约11.60亿元。",
+        "body": [
+          "吉林延边项目装机100MW/400MWh，含80台预制舱式磷酸铁锂电池储能单元、20台PCS和220kV升压站。",
+          "第一中标候选人为中国电建集团重庆工程有限公司，投标报价32062.7296万元，约0.8016元/Wh；第二、第三候选分别约0.7890元/Wh和0.8208元/Wh。",
+          "宁夏3个项目招标建设规模合计500MW/1200MWh，第一中标候选人均为中国电建集团吉林省电力勘测设计院有限公司，投标总价约11.60亿元。"
+        ],
+        "key_points": [
+          "100MW/400MWh构网型项目EPC候选报价区间0.7890-0.8208元/Wh。",
+          "宁夏三项目合计500MW/1.2GWh进入EPC中标候选阶段。",
+          "国内独立/共享储能EPC单价继续成为项目经济性观察指标。"
+        ],
+        "value": "0.7890-0.8208",
+        "unit": "元/Wh EPC候选单价",
+        "delta": "吉林延边100MW/400MWh；宁夏500MW/1.2GWh",
+        "direction": "neutral",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxtkrq9359887.shtml",
+        "clean_html": "<p>新浪财经转储能网报道称，吉林延边中储汪清100MW/400MWh构网型共享储能电站EPC中标候选人公示，候选报价折合0.7890-0.8208元/Wh。</p><p>宁夏3个电网侧、独立及共享储能项目EPC候选同步公示，合计500MW/1.2GWh。</p>",
+        "caption": "国内构网型储能EPC价格样本",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "吉林项目MWh",
+            "value": 400
+          },
+          {
+            "label": "宁夏合计MWh",
+            "value": 1200
+          },
+          {
+            "label": "最低EPC元/Wh",
+            "value": 0.789
+          }
+        ]
+      },
+      {
         "source": "新浪财经 / 电池工业网 / 宿迁经开区管委会",
         "source_type": "国内行业媒体/地方环评与项目建设线索",
         "account_name": "电池工业网 / 新浪财经",
@@ -9216,6 +9685,103 @@ window.NEOLINK_FEED = {
     ],
     "materials": [
       {
+        "source": "InfoLink Consulting",
+        "source_type": "产业咨询/储能现货行情",
+        "account_name": "InfoLink Consulting",
+        "category": "价格",
+        "title": "InfoLink：锂价触及20万元关口，314Ah储能电芯均价升至0.373元/Wh",
+        "summary": "InfoLink 5月13日储能现货价格评述显示，近一周电池级碳酸锂现货价格区间为19.0-20.0万元/吨，均价19.5万元/吨，环比上涨12.7%；SC6锂辉石精矿均价2800美元/吨，环比上涨12.4%。中国磷酸铁锂储能电芯报价继续上移：100Ah均价0.453元/Wh，280Ah均价0.375元/Wh，314Ah均价0.373元/Wh；系统价格暂稳，2h直流液冷集装箱均价0.49元/Wh，2h交流液冷集装箱均价0.58元/Wh。",
+        "body": [
+          "电池级碳酸锂现货价格19.0-20.0万元/吨，均价19.5万元/吨，环比+12.7%。",
+          "中国锂辉石精矿SC6（CIF）均价2800美元/吨，环比+12.4%。",
+          "100Ah/280Ah/314Ah储能电芯均价分别为0.453、0.375、0.373元/Wh。",
+          "系统端价格暂稳：2h直流液冷集装箱均价0.49元/Wh，2h交流液冷集装箱均价0.58元/Wh，4h交流均价0.52元/Wh。",
+          "InfoLink提示，5月7日中储科技7GWh采购报价反映15-17万元/吨碳酸锂成本区间，若按当前20万元/吨附近原料价履约，电芯实际成交与履约价格可能继续上行。"
+        ],
+        "key_points": [
+          "碳酸锂均价19.5万元/吨，周环比+12.7%。",
+          "314Ah储能电芯均价0.373元/Wh。",
+          "280Ah储能电芯均价0.375元/Wh。",
+          "2h直流储能系统均价0.49元/Wh，系统价暂稳。"
+        ],
+        "value": "19.5",
+        "unit": "万元/吨 电池级碳酸锂均价",
+        "delta": "环比+12.7%；314Ah电芯均价0.373元/Wh",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://www.infolink-group.com/energy-article/tw/ess-spot-price-20260513",
+        "clean_html": "<p>InfoLink称近一周电池级碳酸锂现货价格19.0-20.0万元/吨，均价19.5万元/吨，环比上涨12.7%。</p><p>中国磷酸铁锂储能电芯报价继续上移，314Ah均价0.373元/Wh；储能系统价格整体维持平稳。</p>",
+        "caption": "锂价冲高但系统报价暂稳",
+        "methodology": "12:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动搜索国内SMM/碳索储能/电池中国与海外InfoLink/ESS News/Energy-Storage.news等公开来源；抓取保存InfoLink、碳索储能、SMM、ESS News原始HTML。本轮只写入可核验且此前未入库的新行情/新闻，不做单纯时间刷新。",
+        "history": [
+          {
+            "label": "碳酸锂均价万元/吨",
+            "value": 19.5
+          },
+          {
+            "label": "碳酸锂周环比%",
+            "value": 12.7
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.373
+          },
+          {
+            "label": "2h直流系统元/Wh",
+            "value": 0.49
+          }
+        ]
+      },
+      {
+        "source": "ESS News / InfoLink Consulting",
+        "source_type": "海外产业媒体/咨询数据转引",
+        "account_name": "ESS News",
+        "category": "价格",
+        "title": "ESS News：4月中国314Ah储能电芯均价0.365元/Wh，较去年10月上涨约22%",
+        "summary": "ESS News 4月22日转引InfoLink称，中国公用事业级储能电芯市场在过去6个月反转上行，主流314Ah磷酸铁锂储能电芯均价从2025年10月底的0.300元/Wh升至2026年4月20日的0.365元/Wh，涨幅约22%，当时价格区间已扩大至0.335-0.395元/Wh；280Ah电芯均价同期从0.298元/Wh升至0.370元/Wh；2h直流侧液冷ESS均价由2025年10月的0.41元/Wh升至2026年4月的0.49元/Wh。",
+        "body": [
+          "主流314Ah LFP储能电芯均价半年内从0.300元/Wh升至0.365元/Wh，涨幅约22%。",
+          "314Ah现货区间扩大至0.335-0.395元/Wh，部分框架采购报价在1月下旬已超过0.40元/Wh。",
+          "280Ah储能电芯均价从0.298元/Wh升至0.370元/Wh。",
+          "两小时直流侧液冷ESS均价从0.41元/Wh升至0.49元/Wh，成本传导已延伸到系统侧。"
+        ],
+        "key_points": [
+          "314Ah均价半年约+22%。",
+          "4月20日314Ah均价0.365元/Wh。",
+          "280Ah均价0.370元/Wh。",
+          "2h直流ESS均价0.49元/Wh。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah储能电芯均价",
+        "delta": "较2025年10月底0.300元/Wh约+22%",
+        "direction": "up",
+        "date": "04-22",
+        "as_of": "2026-04-22",
+        "url": "https://www.ess-news.com/2026/04/22/chinas-314-ah-storage-cell-prices-climb-more-than-20-in-six-months/",
+        "clean_html": "<p>ESS News转引InfoLink称，中国314Ah储能电芯均价从2025年10月底0.300元/Wh升至2026年4月20日0.365元/Wh。</p><p>同期2h直流侧液冷ESS均价从0.41元/Wh升至0.49元/Wh。</p>",
+        "caption": "314Ah电芯价格半年反转上行",
+        "methodology": "12:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动搜索国内SMM/碳索储能/电池中国与海外InfoLink/ESS News/Energy-Storage.news等公开来源；抓取保存InfoLink、碳索储能、SMM、ESS News原始HTML。本轮只写入可核验且此前未入库的新行情/新闻，不做单纯时间刷新。",
+        "history": [
+          {
+            "label": "2025-10 314Ah元/Wh",
+            "value": 0.3
+          },
+          {
+            "label": "2026-04 314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "涨幅%",
+            "value": 22
+          },
+          {
+            "label": "2h直流ESS元/Wh",
+            "value": 0.49
+          }
+        ]
+      },
+      {
         "source": "上海有色网SMM",
         "source_type": "专业价格数据源",
         "account_name": "SMM",
@@ -10432,6 +10998,187 @@ window.NEOLINK_FEED = {
     ],
     "metrics": [
       {
+        "source": "InfoLink Consulting",
+        "source_type": "产业咨询/储能现货行情",
+        "account_name": "InfoLink Consulting",
+        "category": "价格",
+        "title": "InfoLink：锂价触及20万元关口，314Ah储能电芯均价升至0.373元/Wh",
+        "summary": "InfoLink 5月13日储能现货价格评述显示，近一周电池级碳酸锂现货价格区间为19.0-20.0万元/吨，均价19.5万元/吨，环比上涨12.7%；SC6锂辉石精矿均价2800美元/吨，环比上涨12.4%。中国磷酸铁锂储能电芯报价继续上移：100Ah均价0.453元/Wh，280Ah均价0.375元/Wh，314Ah均价0.373元/Wh；系统价格暂稳，2h直流液冷集装箱均价0.49元/Wh，2h交流液冷集装箱均价0.58元/Wh。",
+        "body": [
+          "电池级碳酸锂现货价格19.0-20.0万元/吨，均价19.5万元/吨，环比+12.7%。",
+          "中国锂辉石精矿SC6（CIF）均价2800美元/吨，环比+12.4%。",
+          "100Ah/280Ah/314Ah储能电芯均价分别为0.453、0.375、0.373元/Wh。",
+          "系统端价格暂稳：2h直流液冷集装箱均价0.49元/Wh，2h交流液冷集装箱均价0.58元/Wh，4h交流均价0.52元/Wh。",
+          "InfoLink提示，5月7日中储科技7GWh采购报价反映15-17万元/吨碳酸锂成本区间，若按当前20万元/吨附近原料价履约，电芯实际成交与履约价格可能继续上行。"
+        ],
+        "key_points": [
+          "碳酸锂均价19.5万元/吨，周环比+12.7%。",
+          "314Ah储能电芯均价0.373元/Wh。",
+          "280Ah储能电芯均价0.375元/Wh。",
+          "2h直流储能系统均价0.49元/Wh，系统价暂稳。"
+        ],
+        "value": "19.5",
+        "unit": "万元/吨 电池级碳酸锂均价",
+        "delta": "环比+12.7%；314Ah电芯均价0.373元/Wh",
+        "direction": "up",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://www.infolink-group.com/energy-article/tw/ess-spot-price-20260513",
+        "clean_html": "<p>InfoLink称近一周电池级碳酸锂现货价格19.0-20.0万元/吨，均价19.5万元/吨，环比上涨12.7%。</p><p>中国磷酸铁锂储能电芯报价继续上移，314Ah均价0.373元/Wh；储能系统价格整体维持平稳。</p>",
+        "caption": "锂价冲高但系统报价暂稳",
+        "methodology": "12:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动搜索国内SMM/碳索储能/电池中国与海外InfoLink/ESS News/Energy-Storage.news等公开来源；抓取保存InfoLink、碳索储能、SMM、ESS News原始HTML。本轮只写入可核验且此前未入库的新行情/新闻，不做单纯时间刷新。",
+        "history": [
+          {
+            "label": "碳酸锂均价万元/吨",
+            "value": 19.5
+          },
+          {
+            "label": "碳酸锂周环比%",
+            "value": 12.7
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.373
+          },
+          {
+            "label": "2h直流系统元/Wh",
+            "value": 0.49
+          }
+        ]
+      },
+      {
+        "source": "ESS News / InfoLink Consulting",
+        "source_type": "海外产业媒体/咨询数据转引",
+        "account_name": "ESS News",
+        "category": "价格",
+        "title": "ESS News：4月中国314Ah储能电芯均价0.365元/Wh，较去年10月上涨约22%",
+        "summary": "ESS News 4月22日转引InfoLink称，中国公用事业级储能电芯市场在过去6个月反转上行，主流314Ah磷酸铁锂储能电芯均价从2025年10月底的0.300元/Wh升至2026年4月20日的0.365元/Wh，涨幅约22%，当时价格区间已扩大至0.335-0.395元/Wh；280Ah电芯均价同期从0.298元/Wh升至0.370元/Wh；2h直流侧液冷ESS均价由2025年10月的0.41元/Wh升至2026年4月的0.49元/Wh。",
+        "body": [
+          "主流314Ah LFP储能电芯均价半年内从0.300元/Wh升至0.365元/Wh，涨幅约22%。",
+          "314Ah现货区间扩大至0.335-0.395元/Wh，部分框架采购报价在1月下旬已超过0.40元/Wh。",
+          "280Ah储能电芯均价从0.298元/Wh升至0.370元/Wh。",
+          "两小时直流侧液冷ESS均价从0.41元/Wh升至0.49元/Wh，成本传导已延伸到系统侧。"
+        ],
+        "key_points": [
+          "314Ah均价半年约+22%。",
+          "4月20日314Ah均价0.365元/Wh。",
+          "280Ah均价0.370元/Wh。",
+          "2h直流ESS均价0.49元/Wh。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah储能电芯均价",
+        "delta": "较2025年10月底0.300元/Wh约+22%",
+        "direction": "up",
+        "date": "04-22",
+        "as_of": "2026-04-22",
+        "url": "https://www.ess-news.com/2026/04/22/chinas-314-ah-storage-cell-prices-climb-more-than-20-in-six-months/",
+        "clean_html": "<p>ESS News转引InfoLink称，中国314Ah储能电芯均价从2025年10月底0.300元/Wh升至2026年4月20日0.365元/Wh。</p><p>同期2h直流侧液冷ESS均价从0.41元/Wh升至0.49元/Wh。</p>",
+        "caption": "314Ah电芯价格半年反转上行",
+        "methodology": "12:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动搜索国内SMM/碳索储能/电池中国与海外InfoLink/ESS News/Energy-Storage.news等公开来源；抓取保存InfoLink、碳索储能、SMM、ESS News原始HTML。本轮只写入可核验且此前未入库的新行情/新闻，不做单纯时间刷新。",
+        "history": [
+          {
+            "label": "2025-10 314Ah元/Wh",
+            "value": 0.3
+          },
+          {
+            "label": "2026-04 314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "涨幅%",
+            "value": 22
+          },
+          {
+            "label": "2h直流ESS元/Wh",
+            "value": 0.49
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.news / 中国海关总署",
+        "source_type": "海外产业媒体/官方数据转引",
+        "account_name": "Energy-Storage.news",
+        "category": "数据",
+        "title": "中国一季度储能电池出口27.3GWh，占电池出口约三分之一，同比增长15%",
+        "summary": "Energy-Storage.news转引国新办/海关总署一季度外贸发布会数据：中国2026年一季度电池出口84.1GWh，其中储能电池27.3GWh，占全部电池出口约32.4%，同比增长15.0%；3月动力与储能电池合计出口36.1GWh，环比增长51.0%、同比增长57.1%。",
+        "body": [
+          "海关总署发布会数据显示，一季度中国动力和储能电池合计出口84.1GWh，同比增长36.7%。",
+          "其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。",
+          "3月动力和储能电池合计出口36.1GWh，环比增长51.0%、同比增长57.1%。"
+        ],
+        "key_points": [
+          "Q1储能电池出口27.3GWh。",
+          "占全部电池出口32.4%。",
+          "Q1动力+储能电池合计出口84.1GWh，同比+36.7%。"
+        ],
+        "value": "27.3",
+        "unit": "GWh Q1储能电池出口",
+        "delta": "同比+15.0%；占32.4%",
+        "direction": "up",
+        "date": "04-24",
+        "as_of": "2026-04-24",
+        "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "clean_html": "<p>Energy-Storage.news转引中国海关总署发布会数据称，2026年一季度中国储能电池出口27.3GWh，占全部电池出口约32.4%。</p><p>同期动力与储能电池合计出口84.1GWh，同比增长36.7%。</p>",
+        "caption": "中国储能电池出口保持双位数增长",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "储能电池出口GWh",
+            "value": 27.3
+          },
+          {
+            "label": "占比%",
+            "value": 32.4
+          },
+          {
+            "label": "同比%",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "source": "新浪财经 / 储能网",
+        "source_type": "国内产业媒体/招中标动态",
+        "account_name": "储能网",
+        "category": "项目",
+        "title": "吉林延边100MW/400MWh构网型共享储能EPC中标候选单价0.7890-0.8208元/Wh，宁夏500MW/1.2GWh同步公示",
+        "summary": "新浪财经转储能网5月13日报道，吉林延边中储汪清100MW/400MWh构网型共享储能电站EPC总承包中标候选人公示，三家候选报价折合0.7890-0.8208元/Wh；同日宁夏3个电网侧/独立/共享储能项目EPC候选公示，合计500MW/1,200MWh，第一中标候选人为中国电建集团吉林省电力勘测设计院有限公司，投标总价约11.60亿元。",
+        "body": [
+          "吉林延边项目装机100MW/400MWh，含80台预制舱式磷酸铁锂电池储能单元、20台PCS和220kV升压站。",
+          "第一中标候选人为中国电建集团重庆工程有限公司，投标报价32062.7296万元，约0.8016元/Wh；第二、第三候选分别约0.7890元/Wh和0.8208元/Wh。",
+          "宁夏3个项目招标建设规模合计500MW/1200MWh，第一中标候选人均为中国电建集团吉林省电力勘测设计院有限公司，投标总价约11.60亿元。"
+        ],
+        "key_points": [
+          "100MW/400MWh构网型项目EPC候选报价区间0.7890-0.8208元/Wh。",
+          "宁夏三项目合计500MW/1.2GWh进入EPC中标候选阶段。",
+          "国内独立/共享储能EPC单价继续成为项目经济性观察指标。"
+        ],
+        "value": "0.7890-0.8208",
+        "unit": "元/Wh EPC候选单价",
+        "delta": "吉林延边100MW/400MWh；宁夏500MW/1.2GWh",
+        "direction": "neutral",
+        "date": "05-13",
+        "as_of": "2026-05-13",
+        "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxtkrq9359887.shtml",
+        "clean_html": "<p>新浪财经转储能网报道称，吉林延边中储汪清100MW/400MWh构网型共享储能电站EPC中标候选人公示，候选报价折合0.7890-0.8208元/Wh。</p><p>宁夏3个电网侧、独立及共享储能项目EPC候选同步公示，合计500MW/1.2GWh。</p>",
+        "caption": "国内构网型储能EPC价格样本",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "吉林项目MWh",
+            "value": 400
+          },
+          {
+            "label": "宁夏合计MWh",
+            "value": 1200
+          },
+          {
+            "label": "最低EPC元/Wh",
+            "value": 0.789
+          }
+        ]
+      },
+      {
         "source": "国家能源局",
         "source_type": "官方政策文件/政策解读",
         "account_name": "国家能源局",
@@ -11310,36 +12057,6 @@ window.NEOLINK_FEED = {
           {
             "label": "SMM库存万吨",
             "value": 10.35
-          }
-        ]
-      },
-      {
-        "title": "Q1中国储能电池出口",
-        "value": "27.3",
-        "unit": "GWh",
-        "caption": "Energy-Storage.news转引海关总署发布会",
-        "delta": "占电池出口32.4%；同比+15.0%",
-        "direction": "up",
-        "source": "Energy-Storage.news / 中国国务院新闻办海关总署发布会",
-        "as_of": "2026-04-24",
-        "methodology": "采用Energy-Storage.news对国务院新闻办海关总署一季度进出口发布会的转引口径：Q1动力+储能电池出口84.1GWh，其中储能27.3GWh。",
-        "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
-        "history": [
-          {
-            "label": "Q1总电池出口GWh",
-            "value": 84.1
-          },
-          {
-            "label": "Q1储能电池出口GWh",
-            "value": 27.3
-          },
-          {
-            "label": "储能占比%",
-            "value": 32.4
-          },
-          {
-            "label": "储能同比%",
-            "value": 15
           }
         ]
       },
@@ -13027,6 +13744,173 @@ window.NEOLINK_FEED = {
     ],
     "overseas": [
       {
+        "source": "Energy-Storage.news / EnerVenue / Towngas",
+        "source_type": "海外产业媒体/新型电池试点",
+        "account_name": "Energy-Storage.news",
+        "category": "海外",
+        "title": "EnerVenue在中国常州金坛为Towngas试点“3万次循环”镍氢BESS",
+        "summary": "Energy-Storage.news报道，镍氢电池公司EnerVenue宣布将在中国常州金坛部署试点BESS，业主与运营方为香港中华煤气（Towngas）。项目用于整合现场可再生能源发电与电动巴士充电站，采用EnerVenue约两米长的Energy Storage Vessel（ESV）及Energy Racks。公司称其近期3亿美元融资将支持常州制造运营扩张。",
+        "body": [
+          "项目地点位于中国常州金坛，业主/运营方为Towngas。",
+          "技术路线为镍氢电池ESV与Energy Racks，宣传循环寿命约3万次。",
+          "应用场景为现场可再生能源发电叠加电动巴士充电站。",
+          "该项目为非锂路线在中国工商业/交通能源场景中的示范样本。"
+        ],
+        "key_points": [
+          "镍氢BESS中国试点。",
+          "宣传循环寿命3万次。",
+          "Towngas拥有并运营。",
+          "场景：可再生能源+电动巴士充电。"
+        ],
+        "value": "30000",
+        "unit": "次循环宣称",
+        "delta": "3亿美元融资支持常州制造扩张",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://www.energy-storage.news/enervenue-piloting-30000-cycle-nickel-hydrogen-bess-in-china/",
+        "clean_html": "<p>Energy-Storage.news报道称，EnerVenue将在中国常州金坛为Towngas部署镍氢BESS试点，采用Energy Storage Vessel与Energy Racks。</p><p>项目用于整合现场可再生能源发电和电动巴士充电站；公司称其3亿美元融资将支持常州制造扩张。</p>",
+        "caption": "非锂长寿命储能路线示范",
+        "methodology": "11:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存0字节headers，HTTP入口成功保存live快照。主动检索国内SMM/证券时报/华尔街见闻与海外Energy-Storage.news/ESS News等公开来源；抓取保存SMM、ESS News、Energy-Storage.news原始HTML及清洗文本；仅写入本轮可核验且此前未入库的新信息。",
+        "history": [
+          {
+            "label": "宣称循环次数",
+            "value": 30000
+          },
+          {
+            "label": "融资百万美元",
+            "value": 300
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.news / 中国海关总署",
+        "source_type": "海外产业媒体/官方数据转引",
+        "account_name": "Energy-Storage.news",
+        "category": "数据",
+        "title": "中国一季度储能电池出口27.3GWh，占电池出口约三分之一，同比增长15%",
+        "summary": "Energy-Storage.news转引国新办/海关总署一季度外贸发布会数据：中国2026年一季度电池出口84.1GWh，其中储能电池27.3GWh，占全部电池出口约32.4%，同比增长15.0%；3月动力与储能电池合计出口36.1GWh，环比增长51.0%、同比增长57.1%。",
+        "body": [
+          "海关总署发布会数据显示，一季度中国动力和储能电池合计出口84.1GWh，同比增长36.7%。",
+          "其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。",
+          "3月动力和储能电池合计出口36.1GWh，环比增长51.0%、同比增长57.1%。"
+        ],
+        "key_points": [
+          "Q1储能电池出口27.3GWh。",
+          "占全部电池出口32.4%。",
+          "Q1动力+储能电池合计出口84.1GWh，同比+36.7%。"
+        ],
+        "value": "27.3",
+        "unit": "GWh Q1储能电池出口",
+        "delta": "同比+15.0%；占32.4%",
+        "direction": "up",
+        "date": "04-24",
+        "as_of": "2026-04-24",
+        "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "clean_html": "<p>Energy-Storage.news转引中国海关总署发布会数据称，2026年一季度中国储能电池出口27.3GWh，占全部电池出口约32.4%。</p><p>同期动力与储能电池合计出口84.1GWh，同比增长36.7%。</p>",
+        "caption": "中国储能电池出口保持双位数增长",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "储能电池出口GWh",
+            "value": 27.3
+          },
+          {
+            "label": "占比%",
+            "value": 32.4
+          },
+          {
+            "label": "同比%",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "source": "ESS News / OCCTO",
+        "source_type": "海外产业媒体/容量市场拍卖",
+        "account_name": "ESS News",
+        "category": "市场",
+        "title": "日本长期脱碳电源拍卖授予1.25GW电池储能，锂电551MW、非锂699MW",
+        "summary": "ESS News 5月15日报道，日本第三轮长期脱碳电源拍卖中，电池储能获得1.25GW、19个项目；其中锂离子电池储能551MW，非锂电池储能699MW。电池储能约占脱碳类别中标容量近30%，但受储能时长新规影响，投标量明显下降。",
+        "body": [
+          "日本长期脱碳电源拍卖本轮电池储能中标1.25GW、19个项目。",
+          "锂离子电池储能获得551MW，非锂电池储能获得699MW。",
+          "报道指出电池储能约占脱碳类别中标容量近30%，较上一轮1.37GW小幅下降。"
+        ],
+        "key_points": [
+          "日本LTDA电池储能中标1.25GW。",
+          "非锂电池储能699MW，高于锂电551MW。",
+          "新储能时长规则导致投标量下降但中标容量仍较强。"
+        ],
+        "value": "1.25",
+        "unit": "GW日本电池储能中标",
+        "delta": "19个项目；非锂699MW",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.ess-news.com/2026/05/15/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "clean_html": "<p>ESS News报道称，日本最新长期脱碳电源拍卖授予电池储能1.25GW容量，覆盖19个项目。</p><p>其中锂离子电池储能551MW，非锂电池储能699MW，显示日本容量机制继续支持多技术储能。</p>",
+        "caption": "日本容量市场继续给储能明确收入锚",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "总中标GW",
+            "value": 1.25
+          },
+          {
+            "label": "锂电MW",
+            "value": 551
+          },
+          {
+            "label": "非锂MW",
+            "value": 699
+          }
+        ]
+      },
+      {
+        "source": "ESS News / EVE Energy / Godawari New Energy",
+        "source_type": "海外产业媒体/电芯订单",
+        "account_name": "ESS News",
+        "category": "海外",
+        "title": "亿纬锂能获印度Godawari 8GWh储能电芯订单，五年合作潜在扩至60GWh",
+        "summary": "ESS News 5月15日报道，EVE Energy与Godawari New Energy Private Ltd.签署8GWh大容量储能电池订单，供应628Ah LFP储能电芯；合作可能在未来五年扩展至60GWh，用于印度本土BESS制造平台。",
+        "body": [
+          "订单规模为8GWh，产品为EVE 628Ah大容量储能电芯。",
+          "客户Godawari New Energy正在推进印度本土BESS制造平台，前期协议指向20GWh制造项目第一阶段。",
+          "报道称双方合作五年潜在规模可达60GWh，反映印度储能供应链本地化对中国大电芯的需求。"
+        ],
+        "key_points": [
+          "8GWh确定订单。",
+          "628Ah LFP储能电芯。",
+          "潜在五年合作60GWh。",
+          "印度储能制造本地化加速。"
+        ],
+        "value": "8",
+        "unit": "GWh确定储能电芯订单",
+        "delta": "潜在60GWh五年合作",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.ess-news.com/2026/05/15/eve-energy-lands-8-gwh-india-storage-cell-order-60-gwh-tie-up-possible/",
+        "clean_html": "<p>ESS News报道称，EVE Energy签署8GWh印度储能电芯订单，供应628Ah LFP电芯。</p><p>合作对象Godawari New Energy正在建设印度本土BESS制造平台，双方合作五年潜在规模可达60GWh。</p>",
+        "caption": "印度储能供应链本地化带动中国大电芯订单",
+        "methodology": "10:00严格小时刷新：重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF并保存错误留痕，HTTP入口成功保存live快照。主动检索国内招中标/价格与海外BESS公开来源，并抓取保存新浪财经、Energy-Storage.news、ESS News原始HTML与clean文本；仅把本轮可核验且此前未入库的公开信息写入。",
+        "history": [
+          {
+            "label": "确定订单GWh",
+            "value": 8
+          },
+          {
+            "label": "潜在合作GWh",
+            "value": 60
+          },
+          {
+            "label": "电芯Ah",
+            "value": 628
+          }
+        ]
+      },
+      {
         "source": "Energy-Storage.news",
         "source_type": "海外产业媒体/全球投运数据",
         "account_name": "Energy-Storage.news",
@@ -13726,56 +14610,6 @@ window.NEOLINK_FEED = {
         ]
       },
       {
-        "source": "Energy-Storage.news / 中国国务院新闻办海关总署发布会",
-        "source_type": "海外产业媒体/官方海关口径转引",
-        "account_name": "Energy-Storage.news",
-        "category": "出口",
-        "title": "中国Q1储能电池出口27.3GWh，占电池出口约三分之一；3月电池出口36.1GWh",
-        "summary": "Energy-Storage.news 4月24日报道援引中国国务院新闻办海关总署一季度进出口发布会：2026年一季度中国动力和储能电池出口合计84.1GWh，同比增长36.7%；其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。3月单月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。该口径为海外英文媒体对官方海关发布会的公开转引，可用于验证中国储能产业链出口韧性和海外需求。",
-        "body": [
-          "官方口径来源：国务院新闻办举行海关总署一季度进出口表现发布会，海关总署副署长王军、统计分析司司长吕大良介绍数据。",
-          "总量口径：2026年一季度中国动力和储能电池出口合计84.1GWh，同比增长36.7%。",
-          "储能口径：储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。",
-          "月度节奏：3月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。",
-          "产业含义：在314Ah电芯报价上行、海外BESS价格压力和中国供应链出海并存的背景下，Q1出口数据说明海外项目仍在吸收中国储能电池供给。"
-        ],
-        "key_points": [
-          "Q1动力+储能电池出口84.1GWh，同比+36.7%。",
-          "Q1储能电池出口27.3GWh，占全部电池出口32.4%。",
-          "Q1储能电池出口同比+15.0%。",
-          "3月动力+储能电池出口36.1GWh，环比+51.0%、同比+57.1%。",
-          "数据来自海外媒体转引国务院新闻办/海关总署发布会，适合纳入出口与海外需求跟踪。"
-        ],
-        "value": "27.3",
-        "unit": "GWh Q1储能电池出口",
-        "delta": "占电池出口32.4%；同比+15.0%",
-        "direction": "up",
-        "date": "04-24",
-        "as_of": "2026-04-24",
-        "url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
-        "clean_html": "<p>Energy-Storage.news 4月24日报道，中国一季度动力和储能电池出口合计84.1GWh，同比增长36.7%；其中储能电池出口27.3GWh，占全部电池出口32.4%，同比增长15.0%。</p><p>3月单月动力和储能电池出口36.1GWh，环比增长51.0%、同比增长57.1%。报道援引国务院新闻办海关总署一季度进出口发布会。</p>",
-        "caption": "中国储能电池出口口径",
-        "methodology": "12:00小时刷新主动检索海外公开来源，抓取Energy-Storage.news页面并本地保存HTML与clean文本；采用报道内对国务院新闻办/海关总署发布会的GWh、同比、占比和月度出口口径，不外推未披露市场份额。",
-        "history": [
-          {
-            "label": "Q1总电池出口GWh",
-            "value": 84.1
-          },
-          {
-            "label": "Q1储能电池出口GWh",
-            "value": 27.3
-          },
-          {
-            "label": "储能占比%",
-            "value": 32.4
-          },
-          {
-            "label": "储能同比%",
-            "value": 15
-          }
-        ]
-      },
-      {
         "source": "Energy-Storage.news / BloombergNEF",
         "source_type": "海外产业媒体/研究机构预测",
         "account_name": "BloombergNEF Energy Storage Outlook H1 2026",
@@ -13886,5 +14720,5 @@ window.NEOLINK_FEED = {
       }
     ]
   },
-  "checked_at": "2026-05-16T05:00:00+08:00"
+  "checked_at": "2026-05-16T12:00:00+08:00"
 };
