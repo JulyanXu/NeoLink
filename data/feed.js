@@ -1,8 +1,308 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-05-17T10:00:00+08:00",
-  "note": "10:00内容刷新：本轮严格重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF，HTTP首页和MarketTrend入口均返回200并落盘。同步主动搜索国内与海外公开来源并保存DoNews、SMM、Fastmarkets、Energy-Storage.News、ING Think等原始页面。新增可信信息：SMM新能源产业博览会资料称2026-2030年全球储能需求CAGR约24%，2030年约1900GWh，储能在锂电需求占比预计由2026年30%升至2030年39%；Fastmarkets在ESS 2026报道中指出2026年锂价波动开始制造BESS成本不确定性，现货碳酸锂约半年上涨约250%，行业对套保仍处早期；ING Think提示美国储能增长虽强但供应链短板仍在，2026年美国电池包名义制造能力约79GWh、电芯约22GWh，若非中国部件需求提升可能推高价格。MarketTrend同步刷新行情证据、热点词、情绪趋势与来源索引，保留source/as_of/methodology/url字段。",
+  "generated_at": "2026-05-17T16:00:00+08:00",
+  "note": "16:00内容刷新：本轮严格重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF/curl 000，HTTP首页与MarketTrend入口返回200并保存快照。主动搜索国内与海外公开来源，国内覆盖SMM/北极星储能、SMM锂电价格与储能电芯关键词页，海外覆盖Benchmark、Energy-Storage.News、SEIA和InfoLink公开页，并保存6个原始页面。新增可信信息包括：Benchmark统计欧洲2026年一季度公用事业级储能新增投运超过6.5GWh、较2025年一季度翻倍且3月贡献超过半数；SEIA首份储能专项报告预计美国2026年BESS部署增至70GWh；Jupiter Power在马萨诸塞州Everett的700MW/2800MWh Trimount BESS获州级批准；InfoLink 4月储能价格页显示314Ah方形铁锂储能电芯均价0.365元/Wh、280Ah均价0.370元/Wh，500Ah+报价大体与314Ah一致。MarketTrend同步刷新欧洲/美国部署、项目审批和电芯价格证据，保留source/as_of/methodology/url字段。",
   "sections": {
     "headlines": [
+      {
+        "source": "Energy-Storage.News / SEIA",
+        "source_type": "海外行业协会报告/行业媒体",
+        "account_name": "SEIA",
+        "category": "海外",
+        "title": "SEIA首份储能专项报告预计美国2026年BESS部署增至70GWh",
+        "summary": "Energy-Storage.News报道，Solar Energy Industries Association在首份储能专项报告中预计，美国2026年电池储能系统部署量将增至70GWh。该口径用于观察美国并网、数据中心和供应链本土化需求。",
+        "body": [
+          "SEIA将2026年美国BESS部署量预期提高至70GWh，说明美国储能市场仍是全球增量核心区域。",
+          "报告口径来自行业协会专项报告，经Energy-Storage.News报道，可作为市场规模与情绪证据。",
+          "美国项目落地仍受并网、政策、关税和本土供应链约束影响，实际投运节奏需继续以项目公告和并网数据为准。"
+        ],
+        "key_points": [
+          "SEIA预计美国2026年BESS部署量70GWh。",
+          "这是SEIA首份储能专项报告披露的行业口径。",
+          "该数据支撑美国大储和电芯需求仍处高景气判断。"
+        ],
+        "value": "70",
+        "unit": "GWh 美国2026E BESS部署",
+        "delta": "行业协会专项报告口径",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
+        "clean_html": "<p>Energy-Storage.News报道，SEIA首份储能专项报告预计美国2026年BESS部署量将增至70GWh。</p>",
+        "caption": "美国大储部署预期继续支撑海外需求",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面标题与正文可见的SEIA 70GWh报告口径。",
+        "history": [
+          {
+            "label": "2026E美国BESS GWh",
+            "value": 70
+          }
+        ]
+      },
+      {
+        "source": "Benchmark Mineral Intelligence",
+        "source_type": "海外专业数据源",
+        "account_name": "Benchmark",
+        "category": "海外",
+        "title": "Benchmark：欧洲2026年一季度公用事业级储能新增投运超过6.5GWh",
+        "summary": "Benchmark公开页面显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍；其中3月贡献超过半数，单月新增容量超过2023年全年。Benchmark称2023年跟踪到90个公用事业级项目投运，而2026年一季度已达75个。",
+        "body": [
+          "欧洲公用事业级储能在2026年一季度进入快速投运阶段，新增容量超过6.5GWh。",
+          "3月投运容量超过季度总量的一半，并超过欧洲2023年全年投运容量，反映项目从并网排队进入交付兑现。",
+          "该数据属于Benchmark公开摘要口径，适合用于跟踪欧洲并网级储能需求和锂电材料需求强度。"
+        ],
+        "key_points": [
+          "2026年一季度欧洲公用事业级储能新增投运超过6.5GWh。",
+          "较2025年一季度翻倍。",
+          "3月贡献超过半数，且单月超过2023年全年容量。",
+          "2026年一季度投运项目75个，对比2023年全年90个。"
+        ],
+        "value": "6.5+",
+        "unit": "GWh 欧洲Q1公用事业级储能投运",
+        "delta": "同比翻倍；3月超过季度一半",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://source.benchmarkminerals.com/article/europe-has-record-quarter-for-energy-storage",
+        "clean_html": "<p>Benchmark公开摘要显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍，3月贡献超过半数。</p>",
+        "caption": "欧洲大储从项目储备进入投运兑现期",
+        "methodology": "16:00小时抓取Benchmark原始HTML并提取公开摘要；采用页面可见投运容量、同比表述和项目数量。",
+        "history": [
+          {
+            "label": "Q1新增GWh",
+            "value": 6.5
+          },
+          {
+            "label": "2026Q1项目数",
+            "value": 75
+          },
+          {
+            "label": "2023项目数",
+            "value": 90
+          }
+        ]
+      },
+      {
+        "source": "SMM / 北极星储能网",
+        "source_type": "国内行业媒体/招标信息",
+        "account_name": "中节能",
+        "category": "项目",
+        "title": "中节能三个项目启动342.5MW/1.355GWh储能系统招标",
+        "summary": "SMM转载北极星储能网信息显示，中节能发布三个独立项目储能设备招标，总规模342.5MW/1355MWh。最大项目为甘肃马鬃山300MW/1200MWh独立储能项目一期设备采购，本期配置250MW/1000MWh；另有内蒙古察右前旗/兴和县75MW/300MWh配储、河北邢台两风电项目17.5MW/55MWh配储。",
+        "body": [
+          "甘肃马鬃山项目要求2026年7月30日前交付设备。",
+          "内蒙古项目为500MW风电按15%、4小时配置电化学储能。",
+          "三个项目均采用磷酸铁锂电化学储能设备，体现央企招标对大容量长时配置的持续需求。"
+        ],
+        "key_points": [
+          "总规模342.5MW/1355MWh。",
+          "甘肃马鬃山一期250MW/1000MWh。",
+          "内蒙古察右前旗/兴和县75MW/300MWh。",
+          "河北邢台两个风电项目17.5MW/55MWh。"
+        ],
+        "value": "342.5/1355",
+        "unit": "MW/MWh",
+        "delta": "央企三个项目储能系统设备招标",
+        "direction": "up",
+        "date": "04-30",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103889940",
+        "clean_html": "<p>SMM/北极星储能网披露，中节能三个项目储能系统招标总规模342.5MW/1355MWh，其中甘肃马鬃山一期250MW/1000MWh。</p>",
+        "caption": "国内央企大容量储能设备采购继续释放",
+        "methodology": "14:00抓取SMM原始HTML，采用页面可见招标规模、项目拆分和交付要求。",
+        "history": [
+          {
+            "label": "总MW",
+            "value": 342.5
+          },
+          {
+            "label": "总MWh",
+            "value": 1355
+          },
+          {
+            "label": "马鬃山MWh",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "source": "储能中国网 / 楚能新能源",
+        "source_type": "国内行业媒体/企业披露",
+        "account_name": "楚能新能源",
+        "category": "企业",
+        "title": "楚能CIBF期间5连签，累计储能电池订单达50GWh",
+        "summary": "储能中国网5月15日转载楚能新能源信息：CIBF 2026期间，楚能新能源与中车株洲所、科陆电子、卧龙储能、库博能源、古瑞瓦特五家企业签署合作协议，涉及648Ah、588Ah、314Ah及100Ah户储专用电池，累计订单达50GWh。其中中车株洲所合作总量25GWh，科陆电子10GWh，卧龙储能、库博能源、古瑞瓦特各5GWh。",
+        "body": [
+          "签约覆盖大型储能和海外户储场景，588Ah大容量电池进入规模化落地。",
+          "合作伙伴覆盖储能系统集成、户储设备、预制舱和电力装备。",
+          "国内与海外市场同步推进，显示大容量储能电芯订单继续集中于头部产能。"
+        ],
+        "key_points": [
+          "累计订单50GWh。",
+          "中车株洲所25GWh、科陆电子10GWh。",
+          "卧龙储能、库博能源、古瑞瓦特各5GWh。",
+          "产品覆盖648Ah、588Ah、314Ah和100Ah户储电池。"
+        ],
+        "value": "50",
+        "unit": "GWh储能电池订单",
+        "delta": "CIBF集中签约；588Ah规模化商用",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-17",
+        "url": "http://cnnes.cc/qiye/20260515/13411.html",
+        "clean_html": "<p>楚能新能源CIBF期间与五家企业签署累计50GWh储能电池订单，产品覆盖648Ah、588Ah、314Ah和100Ah户储电池。</p>",
+        "caption": "储能电芯订单向大容量和头部企业继续集中",
+        "methodology": "12:00小时抓取储能中国网原始HTML，采用页面可见签约对象、容量和产品型号。",
+        "history": [
+          {
+            "label": "累计GWh",
+            "value": 50
+          },
+          {
+            "label": "中车株洲所GWh",
+            "value": 25
+          },
+          {
+            "label": "科陆电子GWh",
+            "value": 10
+          },
+          {
+            "label": "其他三家各GWh",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "source": "储能中国网",
+        "source_type": "国内行业媒体/招标信息",
+        "account_name": "储能中国网",
+        "category": "项目",
+        "title": "内蒙古乌兰察布1GW/6GWh电化学储能电站启动设备招标",
+        "summary": "储能中国网项目招标列表显示，5月14日乌兰察布1000MW/6000MWh电化学储能电站发布设备采购招标公告，招标人为察哈尔右翼中旗聚辉新能源有限公司，建设地点位于内蒙古自治区乌兰察布市。该项目时长约6小时，是本轮检索到的国内大容量长时储能设备招标线索。",
+        "body": [
+          "列表同页还显示安徽200MW/400MWh集中式储能EPC招标、甘肃武山200MW/800MWh中标候选等项目。",
+          "1GW/6GWh招标强化国内长时储能和大基地配储需求信号。",
+          "该条作为招标线索入库，后续需跟踪正式招标公告和中标结果。"
+        ],
+        "key_points": [
+          "规模1000MW/6000MWh。",
+          "设备采购招标公告日期5月14日。",
+          "招标人为察哈尔右翼中旗聚辉新能源有限公司。",
+          "项目位于内蒙古乌兰察布。"
+        ],
+        "value": "1000/6000",
+        "unit": "MW/MWh",
+        "delta": "约6小时长时储能设备招标",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-17",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/",
+        "clean_html": "<p>储能中国网项目招标列表显示，乌兰察布1000MW/6000MWh电化学储能电站发布设备采购招标公告。</p>",
+        "caption": "国内大基地长时储能招标规模继续放大",
+        "methodology": "12:00小时抓取储能中国网项目招标列表，采用列表可见规模、日期、招标人和地点字段。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 1000
+          },
+          {
+            "label": "容量MWh",
+            "value": 6000
+          },
+          {
+            "label": "时长h",
+            "value": 6
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外储能行业媒体",
+        "account_name": "Energy-Storage.News",
+        "category": "海外",
+        "title": "德国EnBW 100MWh开工、Noveria 1GWh签并网建设协议",
+        "summary": "Energy-Storage.News 4月22日报道，EnBW已在德国Marbach传统电厂场址启动100MW/100MWh BESS建设，计划2026年底投运；Noveria Energy与输电系统运营商TenneT签署250MW/1000MWh项目的电网连接和建设协议，计划2028年初接入。EnBW德国BESS开发组合约1.8GWh。",
+        "body": [
+          "德国成为欧洲最活跃的并网级BESS市场之一。",
+          "Marbach项目将短时锂电储能与未来氢能燃机容量形成组合。",
+          "Noveria项目代表德国4小时大储项目从排队进入并网建设协议阶段。"
+        ],
+        "key_points": [
+          "EnBW Marbach项目100MW/100MWh，计划2026年底投运。",
+          "Noveria/TenneT项目250MW/1000MWh，计划2028年初接入。",
+          "EnBW德国BESS组合约1.8GWh。",
+          "德国并网级储能建设与电力交易机会继续吸引投资。"
+        ],
+        "value": "1.1",
+        "unit": "GWh两项目合计",
+        "delta": "德国并网级BESS推进至施工/并网协议",
+        "direction": "up",
+        "date": "04-22",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/enbw-and-noveria-advance-construction-on-1-and-4-hour-bess-projects-in-germany/",
+        "clean_html": "<p>Energy-Storage.News报道，EnBW德国100MW/100MWh项目开工，Noveria与TenneT签署250MW/1000MWh项目电网连接和建设协议。</p>",
+        "caption": "德国并网级BESS从项目储备进入施工和并网协议兑现期",
+        "methodology": "12:00小时抓取Energy-Storage.News原始HTML，采用页面可见项目容量、时间表和主体。",
+        "history": [
+          {
+            "label": "EnBW MWh",
+            "value": 100
+          },
+          {
+            "label": "Noveria MWh",
+            "value": 1000
+          },
+          {
+            "label": "EnBW组合GWh",
+            "value": 1.8
+          }
+        ]
+      },
+      {
+        "source": "pv magazine / Modo Energy",
+        "source_type": "海外光储媒体/市场模型",
+        "account_name": "pv magazine",
+        "category": "海外",
+        "title": "pv magazine：德国长时BESS融资要求60%-80%合约化收入，2030年或超15GW",
+        "summary": "pv magazine 5月7日报道，BlackRock支持的Akaysha Energy认为，德国公用事业级BESS项目要获得项目债，贷款方通常要求60%-80%收入先行合约化；Modo Energy模型预计德国2030年并网级BESS将超过15GW。文章还指出德国2025年电池收入约8.5万欧元/MW，较英国高60%。",
+        "body": [
+          "德国批发电力市场流动性和波动性正在吸引长时储能投资。",
+          "结构化offtake产品有助于将部分商户收入转化为可融资现金流。",
+          "但德国并网申请规模高、接入规则收紧，项目增长仍取决于电网和监管演进。"
+        ],
+        "key_points": [
+          "贷款方通常要求60%-80%合约化收入。",
+          "Modo预计德国2030年并网级BESS超过15GW。",
+          "2025年德国电池收入约8.5万欧元/MW，较英国高60%。",
+          "并网申请曾超过720GW，接入约束上升。"
+        ],
+        "value": "15+",
+        "unit": "GW 2030E德国并网级BESS",
+        "delta": "融资门槛：60%-80%合约化收入",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-17",
+        "url": "https://www.pv-magazine.com/2026/05/07/longer-duration-bess-finds-footing-in-germanys-toll-market/",
+        "clean_html": "<p>pv magazine称德国长时BESS项目融资通常需要60%-80%合约化收入，Modo预计2030年德国并网级BESS超过15GW。</p>",
+        "caption": "欧洲大储从容量建设转向可融资收入结构竞争",
+        "methodology": "11:00小时搜索并抓取pv magazine原始HTML；采用页面可见Akaysha和Modo Energy表述。",
+        "history": [
+          {
+            "label": "合约收入下限%",
+            "value": 60
+          },
+          {
+            "label": "合约收入上限%",
+            "value": 80
+          },
+          {
+            "label": "2030德国BESS GW",
+            "value": 15
+          },
+          {
+            "label": "德国收入EUR/MW",
+            "value": 85000
+          }
+        ]
+      },
       {
         "source": "上海有色网 SMM",
         "source_type": "国内专业数据/会议资料",
@@ -3981,6 +4281,443 @@ window.NEOLINK_FEED = {
     ],
     "latest": [
       {
+        "source": "InfoLink Consulting",
+        "source_type": "海外/中文专业价格源",
+        "account_name": "InfoLink",
+        "category": "价格",
+        "title": "InfoLink：314Ah储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh",
+        "summary": "InfoLink 4月20日储能价格公开页显示，LFP方形储能电芯价格较前期持平：100Ah均价0.448元/Wh，280Ah均价0.370元/Wh，314Ah均价0.365元/Wh；新签订单主流价格维持在0.350元/Wh以上，500Ah+大容量电芯报价大体与314Ah一致。",
+        "body": [
+          "InfoLink称锂价维持高位区间波动，但中国BESS系统价格整体稳定，前期电芯涨价带来的成本传导已在系统层面体现。",
+          "314Ah电芯公开均价0.365元/Wh，280Ah均价0.370元/Wh，新签订单主流价格普遍维持在0.350元/Wh以上。",
+          "500Ah以上大容量电芯报价与314Ah产品大体一致，说明电芯迭代并未立即带来显著价格折让。"
+        ],
+        "key_points": [
+          "314Ah储能电芯均价0.365元/Wh。",
+          "280Ah储能电芯均价0.370元/Wh。",
+          "100Ah均价0.448元/Wh。",
+          "新签订单主流价格维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah储能电芯均价",
+        "delta": "较前期持平；新签订单主流>0.350元/Wh",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink公开页显示，314Ah方形铁锂储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh，100Ah均价0.448元/Wh。</p>",
+        "caption": "储能电芯涨价后进入高位持稳阶段",
+        "methodology": "16:00小时抓取InfoLink公开HTML；采用页面可见LFP方形储能电芯价格区间、均价和文字说明。",
+        "history": [
+          {
+            "label": "100Ah元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "新签订单下限元/Wh",
+            "value": 0.35
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Jupiter Power",
+        "source_type": "海外储能行业媒体/项目审批",
+        "account_name": "Jupiter Power",
+        "category": "项目",
+        "title": "Jupiter Power 700MW/2.8GWh马萨诸塞州Trimount BESS获州级批准",
+        "summary": "Energy-Storage.News报道，Jupiter Power位于美国马萨诸塞州Everett的Trimount电池储能项目获Massachusetts Energy Facilities Siting Board最终批准，项目规模700MW/2800MWh，位于原ExxonMobil场址再开发区域。",
+        "body": [
+          "Trimount项目计划以700MW/2800MWh电池储能替代原化石能源基础设施场址的一部分功能。",
+          "项目位于Everett、Middlesex County，报道披露州级选址委员会已在2月27日作出最终决定。",
+          "该项目显示美国东北部在用地再开发、电网可靠性和清洁能源目标下继续推动大型储能。"
+        ],
+        "key_points": [
+          "项目规模700MW/2800MWh。",
+          "Massachusetts EFSB已作出最终批准。",
+          "项目位于Everett原ExxonMobil场址再开发区域。",
+          "Jupiter Power为项目开发主体。"
+        ],
+        "value": "700/2800",
+        "unit": "MW/MWh",
+        "delta": "美国东北部大型BESS审批推进",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/jupiter-power-receives-approval-for-2-8gwh-massachusetts-bess/",
+        "clean_html": "<p>Jupiter Power在马萨诸塞州Everett的700MW/2800MWh Trimount BESS获州级批准，项目位于原ExxonMobil场址再开发区域。</p>",
+        "caption": "美国东北部大型独立储能审批加速",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面可见项目容量、地点、审批主体和日期。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 700
+          },
+          {
+            "label": "容量MWh",
+            "value": 2800
+          },
+          {
+            "label": "时长h",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / SEIA",
+        "source_type": "海外行业协会报告/行业媒体",
+        "account_name": "SEIA",
+        "category": "海外",
+        "title": "SEIA首份储能专项报告预计美国2026年BESS部署增至70GWh",
+        "summary": "Energy-Storage.News报道，Solar Energy Industries Association在首份储能专项报告中预计，美国2026年电池储能系统部署量将增至70GWh。该口径用于观察美国并网、数据中心和供应链本土化需求。",
+        "body": [
+          "SEIA将2026年美国BESS部署量预期提高至70GWh，说明美国储能市场仍是全球增量核心区域。",
+          "报告口径来自行业协会专项报告，经Energy-Storage.News报道，可作为市场规模与情绪证据。",
+          "美国项目落地仍受并网、政策、关税和本土供应链约束影响，实际投运节奏需继续以项目公告和并网数据为准。"
+        ],
+        "key_points": [
+          "SEIA预计美国2026年BESS部署量70GWh。",
+          "这是SEIA首份储能专项报告披露的行业口径。",
+          "该数据支撑美国大储和电芯需求仍处高景气判断。"
+        ],
+        "value": "70",
+        "unit": "GWh 美国2026E BESS部署",
+        "delta": "行业协会专项报告口径",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
+        "clean_html": "<p>Energy-Storage.News报道，SEIA首份储能专项报告预计美国2026年BESS部署量将增至70GWh。</p>",
+        "caption": "美国大储部署预期继续支撑海外需求",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面标题与正文可见的SEIA 70GWh报告口径。",
+        "history": [
+          {
+            "label": "2026E美国BESS GWh",
+            "value": 70
+          }
+        ]
+      },
+      {
+        "source": "Benchmark Mineral Intelligence",
+        "source_type": "海外专业数据源",
+        "account_name": "Benchmark",
+        "category": "海外",
+        "title": "Benchmark：欧洲2026年一季度公用事业级储能新增投运超过6.5GWh",
+        "summary": "Benchmark公开页面显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍；其中3月贡献超过半数，单月新增容量超过2023年全年。Benchmark称2023年跟踪到90个公用事业级项目投运，而2026年一季度已达75个。",
+        "body": [
+          "欧洲公用事业级储能在2026年一季度进入快速投运阶段，新增容量超过6.5GWh。",
+          "3月投运容量超过季度总量的一半，并超过欧洲2023年全年投运容量，反映项目从并网排队进入交付兑现。",
+          "该数据属于Benchmark公开摘要口径，适合用于跟踪欧洲并网级储能需求和锂电材料需求强度。"
+        ],
+        "key_points": [
+          "2026年一季度欧洲公用事业级储能新增投运超过6.5GWh。",
+          "较2025年一季度翻倍。",
+          "3月贡献超过半数，且单月超过2023年全年容量。",
+          "2026年一季度投运项目75个，对比2023年全年90个。"
+        ],
+        "value": "6.5+",
+        "unit": "GWh 欧洲Q1公用事业级储能投运",
+        "delta": "同比翻倍；3月超过季度一半",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://source.benchmarkminerals.com/article/europe-has-record-quarter-for-energy-storage",
+        "clean_html": "<p>Benchmark公开摘要显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍，3月贡献超过半数。</p>",
+        "caption": "欧洲大储从项目储备进入投运兑现期",
+        "methodology": "16:00小时抓取Benchmark原始HTML并提取公开摘要；采用页面可见投运容量、同比表述和项目数量。",
+        "history": [
+          {
+            "label": "Q1新增GWh",
+            "value": 6.5
+          },
+          {
+            "label": "2026Q1项目数",
+            "value": 75
+          },
+          {
+            "label": "2023项目数",
+            "value": 90
+          }
+        ]
+      },
+      {
+        "source": "SMM / 北极星储能网",
+        "source_type": "国内行业媒体/招标信息",
+        "account_name": "中节能",
+        "category": "项目",
+        "title": "中节能三个项目启动342.5MW/1.355GWh储能系统招标",
+        "summary": "SMM转载北极星储能网信息显示，中节能发布三个独立项目储能设备招标，总规模342.5MW/1355MWh。最大项目为甘肃马鬃山300MW/1200MWh独立储能项目一期设备采购，本期配置250MW/1000MWh；另有内蒙古察右前旗/兴和县75MW/300MWh配储、河北邢台两风电项目17.5MW/55MWh配储。",
+        "body": [
+          "甘肃马鬃山项目要求2026年7月30日前交付设备。",
+          "内蒙古项目为500MW风电按15%、4小时配置电化学储能。",
+          "三个项目均采用磷酸铁锂电化学储能设备，体现央企招标对大容量长时配置的持续需求。"
+        ],
+        "key_points": [
+          "总规模342.5MW/1355MWh。",
+          "甘肃马鬃山一期250MW/1000MWh。",
+          "内蒙古察右前旗/兴和县75MW/300MWh。",
+          "河北邢台两个风电项目17.5MW/55MWh。"
+        ],
+        "value": "342.5/1355",
+        "unit": "MW/MWh",
+        "delta": "央企三个项目储能系统设备招标",
+        "direction": "up",
+        "date": "04-30",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103889940",
+        "clean_html": "<p>SMM/北极星储能网披露，中节能三个项目储能系统招标总规模342.5MW/1355MWh，其中甘肃马鬃山一期250MW/1000MWh。</p>",
+        "caption": "国内央企大容量储能设备采购继续释放",
+        "methodology": "14:00抓取SMM原始HTML，采用页面可见招标规模、项目拆分和交付要求。",
+        "history": [
+          {
+            "label": "总MW",
+            "value": 342.5
+          },
+          {
+            "label": "总MWh",
+            "value": 1355
+          },
+          {
+            "label": "马鬃山MWh",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "source": "储能中国网 / 楚能新能源",
+        "source_type": "国内行业媒体/企业披露",
+        "account_name": "楚能新能源",
+        "category": "企业",
+        "title": "楚能CIBF期间5连签，累计储能电池订单达50GWh",
+        "summary": "储能中国网5月15日转载楚能新能源信息：CIBF 2026期间，楚能新能源与中车株洲所、科陆电子、卧龙储能、库博能源、古瑞瓦特五家企业签署合作协议，涉及648Ah、588Ah、314Ah及100Ah户储专用电池，累计订单达50GWh。其中中车株洲所合作总量25GWh，科陆电子10GWh，卧龙储能、库博能源、古瑞瓦特各5GWh。",
+        "body": [
+          "签约覆盖大型储能和海外户储场景，588Ah大容量电池进入规模化落地。",
+          "合作伙伴覆盖储能系统集成、户储设备、预制舱和电力装备。",
+          "国内与海外市场同步推进，显示大容量储能电芯订单继续集中于头部产能。"
+        ],
+        "key_points": [
+          "累计订单50GWh。",
+          "中车株洲所25GWh、科陆电子10GWh。",
+          "卧龙储能、库博能源、古瑞瓦特各5GWh。",
+          "产品覆盖648Ah、588Ah、314Ah和100Ah户储电池。"
+        ],
+        "value": "50",
+        "unit": "GWh储能电池订单",
+        "delta": "CIBF集中签约；588Ah规模化商用",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-17",
+        "url": "http://cnnes.cc/qiye/20260515/13411.html",
+        "clean_html": "<p>楚能新能源CIBF期间与五家企业签署累计50GWh储能电池订单，产品覆盖648Ah、588Ah、314Ah和100Ah户储电池。</p>",
+        "caption": "储能电芯订单向大容量和头部企业继续集中",
+        "methodology": "12:00小时抓取储能中国网原始HTML，采用页面可见签约对象、容量和产品型号。",
+        "history": [
+          {
+            "label": "累计GWh",
+            "value": 50
+          },
+          {
+            "label": "中车株洲所GWh",
+            "value": 25
+          },
+          {
+            "label": "科陆电子GWh",
+            "value": 10
+          },
+          {
+            "label": "其他三家各GWh",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "source": "储能中国网",
+        "source_type": "国内行业媒体/招标信息",
+        "account_name": "储能中国网",
+        "category": "项目",
+        "title": "内蒙古乌兰察布1GW/6GWh电化学储能电站启动设备招标",
+        "summary": "储能中国网项目招标列表显示，5月14日乌兰察布1000MW/6000MWh电化学储能电站发布设备采购招标公告，招标人为察哈尔右翼中旗聚辉新能源有限公司，建设地点位于内蒙古自治区乌兰察布市。该项目时长约6小时，是本轮检索到的国内大容量长时储能设备招标线索。",
+        "body": [
+          "列表同页还显示安徽200MW/400MWh集中式储能EPC招标、甘肃武山200MW/800MWh中标候选等项目。",
+          "1GW/6GWh招标强化国内长时储能和大基地配储需求信号。",
+          "该条作为招标线索入库，后续需跟踪正式招标公告和中标结果。"
+        ],
+        "key_points": [
+          "规模1000MW/6000MWh。",
+          "设备采购招标公告日期5月14日。",
+          "招标人为察哈尔右翼中旗聚辉新能源有限公司。",
+          "项目位于内蒙古乌兰察布。"
+        ],
+        "value": "1000/6000",
+        "unit": "MW/MWh",
+        "delta": "约6小时长时储能设备招标",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-17",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/",
+        "clean_html": "<p>储能中国网项目招标列表显示，乌兰察布1000MW/6000MWh电化学储能电站发布设备采购招标公告。</p>",
+        "caption": "国内大基地长时储能招标规模继续放大",
+        "methodology": "12:00小时抓取储能中国网项目招标列表，采用列表可见规模、日期、招标人和地点字段。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 1000
+          },
+          {
+            "label": "容量MWh",
+            "value": 6000
+          },
+          {
+            "label": "时长h",
+            "value": 6
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外储能行业媒体",
+        "account_name": "Energy-Storage.News",
+        "category": "海外",
+        "title": "德国EnBW 100MWh开工、Noveria 1GWh签并网建设协议",
+        "summary": "Energy-Storage.News 4月22日报道，EnBW已在德国Marbach传统电厂场址启动100MW/100MWh BESS建设，计划2026年底投运；Noveria Energy与输电系统运营商TenneT签署250MW/1000MWh项目的电网连接和建设协议，计划2028年初接入。EnBW德国BESS开发组合约1.8GWh。",
+        "body": [
+          "德国成为欧洲最活跃的并网级BESS市场之一。",
+          "Marbach项目将短时锂电储能与未来氢能燃机容量形成组合。",
+          "Noveria项目代表德国4小时大储项目从排队进入并网建设协议阶段。"
+        ],
+        "key_points": [
+          "EnBW Marbach项目100MW/100MWh，计划2026年底投运。",
+          "Noveria/TenneT项目250MW/1000MWh，计划2028年初接入。",
+          "EnBW德国BESS组合约1.8GWh。",
+          "德国并网级储能建设与电力交易机会继续吸引投资。"
+        ],
+        "value": "1.1",
+        "unit": "GWh两项目合计",
+        "delta": "德国并网级BESS推进至施工/并网协议",
+        "direction": "up",
+        "date": "04-22",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/enbw-and-noveria-advance-construction-on-1-and-4-hour-bess-projects-in-germany/",
+        "clean_html": "<p>Energy-Storage.News报道，EnBW德国100MW/100MWh项目开工，Noveria与TenneT签署250MW/1000MWh项目电网连接和建设协议。</p>",
+        "caption": "德国并网级BESS从项目储备进入施工和并网协议兑现期",
+        "methodology": "12:00小时抓取Energy-Storage.News原始HTML，采用页面可见项目容量、时间表和主体。",
+        "history": [
+          {
+            "label": "EnBW MWh",
+            "value": 100
+          },
+          {
+            "label": "Noveria MWh",
+            "value": 1000
+          },
+          {
+            "label": "EnBW组合GWh",
+            "value": 1.8
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / MUFG",
+        "source_type": "海外储能行业媒体/项目融资",
+        "account_name": "esVolta",
+        "category": "海外",
+        "title": "esVolta获1.396亿美元融资推进德州150MW/300MWh Boxcar储能",
+        "summary": "Energy-Storage.News 3月26日报道，esVolta已为德州Boxcar储能项目完成1.396亿美元项目融资，贷款方为MUFG Bank。项目位于达拉斯东北部Wylie，规划150MW/300MWh，面向ERCOT市场，预计2027年投运；项目已取得一名大型企业客户的长期offtake协议。",
+        "body": [
+          "融资结构包括建设贷款、税收权益过桥贷款、信用证和长期贷款。",
+          "Boxcar投运后，esVolta在德州五个项目合计储能容量将达到1.56GWh。",
+          "长期offtake协议为项目融资提供收入确定性。"
+        ],
+        "key_points": [
+          "融资金额1.396亿美元。",
+          "项目规模150MW/300MWh。",
+          "预计2027年投运。",
+          "esVolta德州组合将达1.56GWh。"
+        ],
+        "value": "139.6",
+        "unit": "百万美元融资",
+        "delta": "长期offtake支撑ERCOT项目可融资性",
+        "direction": "up",
+        "date": "03-26",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/esvolta-secures-us140-million-financing-for-300mwh-texas-battery-storage-project/",
+        "clean_html": "<p>esVolta为德州150MW/300MWh Boxcar储能项目完成1.396亿美元融资，项目预计2027年投运并取得长期offtake协议。</p>",
+        "caption": "美国ERCOT储能融资继续依赖长期收入协议增强可融资性",
+        "methodology": "12:00小时抓取Energy-Storage.News原始HTML，采用页面可见融资金额、容量、投运时间和offtake信息。",
+        "history": [
+          {
+            "label": "融资百万美元",
+            "value": 139.6
+          },
+          {
+            "label": "功率MW",
+            "value": 150
+          },
+          {
+            "label": "容量MWh",
+            "value": 300
+          },
+          {
+            "label": "组合GWh",
+            "value": 1.56
+          }
+        ]
+      },
+      {
+        "source": "pv magazine / Modo Energy",
+        "source_type": "海外光储媒体/市场模型",
+        "account_name": "pv magazine",
+        "category": "海外",
+        "title": "pv magazine：德国长时BESS融资要求60%-80%合约化收入，2030年或超15GW",
+        "summary": "pv magazine 5月7日报道，BlackRock支持的Akaysha Energy认为，德国公用事业级BESS项目要获得项目债，贷款方通常要求60%-80%收入先行合约化；Modo Energy模型预计德国2030年并网级BESS将超过15GW。文章还指出德国2025年电池收入约8.5万欧元/MW，较英国高60%。",
+        "body": [
+          "德国批发电力市场流动性和波动性正在吸引长时储能投资。",
+          "结构化offtake产品有助于将部分商户收入转化为可融资现金流。",
+          "但德国并网申请规模高、接入规则收紧，项目增长仍取决于电网和监管演进。"
+        ],
+        "key_points": [
+          "贷款方通常要求60%-80%合约化收入。",
+          "Modo预计德国2030年并网级BESS超过15GW。",
+          "2025年德国电池收入约8.5万欧元/MW，较英国高60%。",
+          "并网申请曾超过720GW，接入约束上升。"
+        ],
+        "value": "15+",
+        "unit": "GW 2030E德国并网级BESS",
+        "delta": "融资门槛：60%-80%合约化收入",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-17",
+        "url": "https://www.pv-magazine.com/2026/05/07/longer-duration-bess-finds-footing-in-germanys-toll-market/",
+        "clean_html": "<p>pv magazine称德国长时BESS项目融资通常需要60%-80%合约化收入，Modo预计2030年德国并网级BESS超过15GW。</p>",
+        "caption": "欧洲大储从容量建设转向可融资收入结构竞争",
+        "methodology": "11:00小时搜索并抓取pv magazine原始HTML；采用页面可见Akaysha和Modo Energy表述。",
+        "history": [
+          {
+            "label": "合约收入下限%",
+            "value": 60
+          },
+          {
+            "label": "合约收入上限%",
+            "value": 80
+          },
+          {
+            "label": "2030德国BESS GW",
+            "value": 15
+          },
+          {
+            "label": "德国收入EUR/MW",
+            "value": 85000
+          }
+        ]
+      },
+      {
         "source": "上海有色网 SMM",
         "source_type": "国内专业数据/会议资料",
         "account_name": "SMM",
@@ -5355,53 +6092,6 @@ window.NEOLINK_FEED = {
           {
             "label": "314Ah电芯中标元/Wh",
             "value": 0.34
-          }
-        ]
-      },
-      {
-        "source": "InfoLink Consulting",
-        "source_type": "海外价格与供应链跟踪",
-        "account_name": "InfoLink",
-        "category": "行情",
-        "title": "InfoLink：碳酸锂高位区间震荡，中国BESS价格在电芯涨价传导后仍基本稳定",
-        "summary": "InfoLink 4月20日储能价格链更新称，碳酸锂近期维持高位区间震荡，主力期货大致在16万-17.5万元/吨；SC6锂辉石均价2350美元/吨，较前周上涨5.4%。尽管电芯价格前期上涨已向系统端传导，中国BESS价格仍保持稳定。",
-        "body": [
-          "InfoLink称碳酸锂价格近期处于较高区间震荡，期货主力合约大致运行在16万-17.5万元/吨。",
-          "锂辉石精矿SC6 CIF均价为2350美元/吨，较前周上涨5.4%，矿端偏紧对锂盐价格形成支撑。",
-          "下游方面，中国BESS价格在前期电芯涨价向系统端传导后仍保持稳定；若供给约束缓解，后续价格中枢可能下移。"
-        ],
-        "key_points": [
-          "碳酸锂期货约16万-17.5万元/吨。",
-          "SC6均价2350美元/吨。",
-          "SC6周涨5.4%。",
-          "中国BESS系统价格仍基本稳定。"
-        ],
-        "value": "16-17.5",
-        "unit": "万元/吨 碳酸锂期货主力区间",
-        "delta": "SC6均价2350美元/吨，周涨5.4%；BESS价格稳定",
-        "direction": "flat",
-        "date": "04-20",
-        "as_of": "2026-05-17",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "clean_html": "<p>InfoLink称碳酸锂价格维持高位区间震荡，期货主力大致在16万-17.5万元/吨。</p><p>SC6锂辉石均价2350美元/吨、周涨5.4%；中国BESS价格在电芯涨价传导后仍保持稳定。</p>",
-        "caption": "碳酸锂高位震荡但BESS价格暂稳",
-        "methodology": "01:00小时刷新抓取InfoLink原始HTML；采用页面可见更新时间、期货区间、SC6均价、周变化和BESS系统价格判断。",
-        "history": [
-          {
-            "label": "碳酸锂低位万元/吨",
-            "value": 16
-          },
-          {
-            "label": "碳酸锂高位万元/吨",
-            "value": 17.5
-          },
-          {
-            "label": "SC6美元/吨",
-            "value": 2350
-          },
-          {
-            "label": "SC6周涨%",
-            "value": 5.4
           }
         ]
       },
@@ -8477,50 +9167,6 @@ window.NEOLINK_FEED = {
         ]
       },
       {
-        "source": "InfoLink Consulting",
-        "source_type": "海外价格与供应链研究机构",
-        "account_name": "InfoLink",
-        "category": "海外行情",
-        "title": "InfoLink：锂盐高位震荡，储能电芯与BESS价格暂稳，成本传导仍在系统端消化",
-        "summary": "InfoLink在4月储能现货价格评论中指出，锂矿供应偏紧对碳酸锂价格形成支撑，锂盐价格维持高位区间震荡；但在盐湖、回收和出口增加的支撑下，锂盐现货尚未完全收紧。中国BESS价格整体保持稳定，前期电芯涨价的成本传导仍在系统层面消化。该判断与国内锂价上行、储能项目报价动态联动共同构成“上游先动、系统端滞后传导”的价格链条。",
-        "body": [
-          "上游口径：InfoLink称锂矿供应偏紧对碳酸锂价格支撑强于锂盐基本面压力。",
-          "价格判断：碳酸锂价格短期预计维持高位区间震荡，上行空间受供应恢复约束。",
-          "系统口径：中国BESS价格保持稳定，前期电芯涨价的成本传导继续在系统端消化。",
-          "产业含义：当前不应简单把锂价上涨等同于BESS即时报价上调，需观察314Ah电芯、系统集成和项目报价有效期。"
-        ],
-        "key_points": [
-          "锂矿偏紧支撑碳酸锂高位区间震荡。",
-          "锂盐现货尚未完全收紧，供应恢复可能限制上行。",
-          "中国BESS价格暂稳，电芯成本传导仍在系统端消化。",
-          "与国内招标价格结合，显示上游涨价到终端报价存在时滞。"
-        ],
-        "value": "stable",
-        "unit": "BESS价格判断",
-        "delta": "锂盐高位；系统端滞后传导",
-        "direction": "flat",
-        "date": "04-20",
-        "as_of": "2026-04-20",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "clean_html": "<p>InfoLink称锂矿供应偏紧支撑碳酸锂价格高位区间震荡，但锂盐现货尚未完全收紧。</p><p>中国BESS价格保持稳定，前期电芯涨价的成本传导仍在系统层面消化。</p>",
-        "caption": "海外价格机构对BESS传导时滞的判断",
-        "methodology": "14:00小时刷新主动检索海外公开来源，curl抓取InfoLink储能现货价格评论；采用其价格趋势定性判断，不替代企业报价或项目成交价。",
-        "history": [
-          {
-            "label": "锂盐高位",
-            "value": 1
-          },
-          {
-            "label": "BESS暂稳",
-            "value": 1
-          },
-          {
-            "label": "传导时滞",
-            "value": 1
-          }
-        ]
-      },
-      {
         "source": "新浪财经 / 期货日报 / SMM",
         "source_type": "国内财经媒体/期货与现货库存数据",
         "account_name": "期货日报",
@@ -10288,35 +10934,6 @@ window.NEOLINK_FEED = {
         "clean_html": "<p>Benchmark 2025年11月6日宣布推出314Ah LFP BESS电芯价格评估，并称BESS电芯需求在2025年前九个月同比增长36%。</p><p>文章指出，BESS用LFP电芯通常较EV用LFP电芯折价10%–15%，行业从280Ah向314Ah规格切换。</p>",
         "caption": "314Ah BESS价格评估",
         "methodology": "00:06抓取Benchmark公开页；来源日期为2025-11-06，作为价格方法和行业背景补充，不作为本轮新闻时点。"
-      },
-      {
-        "source": "Energy-Storage.news / SEIA / Benchmark Mineral Intelligence",
-        "source_type": "海外行业媒体/协会报告",
-        "account_name": "Energy-Storage.news",
-        "category": "指标",
-        "title": "SEIA预计美国2026年BESS新增部署35GW/70GWh，2030年年装机超110GWh",
-        "summary": "Energy-Storage.news 2月24日报道，SEIA与Benchmark发布的Energy Storage Market Outlook预计，美国2026年电池储能系统部署将达到35GW/70GWh，其中公用事业级20.2GW/62.4GWh，表后市场14.8GW/7.3GWh；到2030年，美国年度新增装机预计超过47GW/110GWh，累计公用事业级BESS接近500GWh。",
-        "body": [
-          "SEIA报告称，美国2025年BESS安装超过28GW/57GWh，同比增加29%。",
-          "2026年预测为35GW/70GWh，其中公用事业级20.2GW/62.4GWh，表后市场14.8GW/7.3GWh，涉及约252亿美元资本投资。",
-          "到2030年，SEIA预计美国年度安装超过47GW/110GWh，累计公用事业级BESS接近500GWh；该条用于MarketTrend海外需求情绪和储能电芯需求背景，不作为中国价格口径。"
-        ],
-        "key_points": [
-          "2025年美国BESS：超过28GW/57GWh，同比+29%。",
-          "2026年预测：35GW/70GWh。",
-          "公用事业级：20.2GW/62.4GWh；表后市场：14.8GW/7.3GWh。",
-          "2030年年装机：超过47GW/110GWh。"
-        ],
-        "value": "70",
-        "unit": "GWh（2026E）",
-        "delta": "同比继续增长",
-        "direction": "up",
-        "date": "02-24",
-        "as_of": "2026-02-24",
-        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
-        "clean_html": "<p>Energy-Storage.news转述SEIA与Benchmark报告称，美国2026年BESS部署预计达到35GW/70GWh，2025年安装超过28GW/57GWh。</p><p>报告还预计2030年美国年度安装超过47GW/110GWh，累计公用事业级BESS接近500GWh。</p>",
-        "caption": "美国BESS需求预测",
-        "methodology": "00:06抓取Energy-Storage.news公开页；该来源发布日期为2026-02-24，作为海外需求背景与情绪证据，不标记为5月新发生事件。"
       },
       {
         "source": "Discovery Alert / 中国314Ah储能电芯公开价格追踪",
@@ -12334,6 +12951,53 @@ window.NEOLINK_FEED = {
     ],
     "enterprise": [
       {
+        "source": "储能中国网 / 楚能新能源",
+        "source_type": "国内行业媒体/企业披露",
+        "account_name": "楚能新能源",
+        "category": "企业",
+        "title": "楚能CIBF期间5连签，累计储能电池订单达50GWh",
+        "summary": "储能中国网5月15日转载楚能新能源信息：CIBF 2026期间，楚能新能源与中车株洲所、科陆电子、卧龙储能、库博能源、古瑞瓦特五家企业签署合作协议，涉及648Ah、588Ah、314Ah及100Ah户储专用电池，累计订单达50GWh。其中中车株洲所合作总量25GWh，科陆电子10GWh，卧龙储能、库博能源、古瑞瓦特各5GWh。",
+        "body": [
+          "签约覆盖大型储能和海外户储场景，588Ah大容量电池进入规模化落地。",
+          "合作伙伴覆盖储能系统集成、户储设备、预制舱和电力装备。",
+          "国内与海外市场同步推进，显示大容量储能电芯订单继续集中于头部产能。"
+        ],
+        "key_points": [
+          "累计订单50GWh。",
+          "中车株洲所25GWh、科陆电子10GWh。",
+          "卧龙储能、库博能源、古瑞瓦特各5GWh。",
+          "产品覆盖648Ah、588Ah、314Ah和100Ah户储电池。"
+        ],
+        "value": "50",
+        "unit": "GWh储能电池订单",
+        "delta": "CIBF集中签约；588Ah规模化商用",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-17",
+        "url": "http://cnnes.cc/qiye/20260515/13411.html",
+        "clean_html": "<p>楚能新能源CIBF期间与五家企业签署累计50GWh储能电池订单，产品覆盖648Ah、588Ah、314Ah和100Ah户储电池。</p>",
+        "caption": "储能电芯订单向大容量和头部企业继续集中",
+        "methodology": "12:00小时抓取储能中国网原始HTML，采用页面可见签约对象、容量和产品型号。",
+        "history": [
+          {
+            "label": "累计GWh",
+            "value": 50
+          },
+          {
+            "label": "中车株洲所GWh",
+            "value": 25
+          },
+          {
+            "label": "科陆电子GWh",
+            "value": 10
+          },
+          {
+            "label": "其他三家各GWh",
+            "value": 5
+          }
+        ]
+      },
+      {
         "source": "Energy-Storage.News / LG Energy Solution",
         "source_type": "海外公司产能报道",
         "account_name": "LG Energy Solution",
@@ -13870,6 +14534,135 @@ window.NEOLINK_FEED = {
       }
     ],
     "project": [
+      {
+        "source": "Energy-Storage.News / Jupiter Power",
+        "source_type": "海外储能行业媒体/项目审批",
+        "account_name": "Jupiter Power",
+        "category": "项目",
+        "title": "Jupiter Power 700MW/2.8GWh马萨诸塞州Trimount BESS获州级批准",
+        "summary": "Energy-Storage.News报道，Jupiter Power位于美国马萨诸塞州Everett的Trimount电池储能项目获Massachusetts Energy Facilities Siting Board最终批准，项目规模700MW/2800MWh，位于原ExxonMobil场址再开发区域。",
+        "body": [
+          "Trimount项目计划以700MW/2800MWh电池储能替代原化石能源基础设施场址的一部分功能。",
+          "项目位于Everett、Middlesex County，报道披露州级选址委员会已在2月27日作出最终决定。",
+          "该项目显示美国东北部在用地再开发、电网可靠性和清洁能源目标下继续推动大型储能。"
+        ],
+        "key_points": [
+          "项目规模700MW/2800MWh。",
+          "Massachusetts EFSB已作出最终批准。",
+          "项目位于Everett原ExxonMobil场址再开发区域。",
+          "Jupiter Power为项目开发主体。"
+        ],
+        "value": "700/2800",
+        "unit": "MW/MWh",
+        "delta": "美国东北部大型BESS审批推进",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/jupiter-power-receives-approval-for-2-8gwh-massachusetts-bess/",
+        "clean_html": "<p>Jupiter Power在马萨诸塞州Everett的700MW/2800MWh Trimount BESS获州级批准，项目位于原ExxonMobil场址再开发区域。</p>",
+        "caption": "美国东北部大型独立储能审批加速",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面可见项目容量、地点、审批主体和日期。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 700
+          },
+          {
+            "label": "容量MWh",
+            "value": 2800
+          },
+          {
+            "label": "时长h",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "source": "SMM / 北极星储能网",
+        "source_type": "国内行业媒体/招标信息",
+        "account_name": "中节能",
+        "category": "项目",
+        "title": "中节能三个项目启动342.5MW/1.355GWh储能系统招标",
+        "summary": "SMM转载北极星储能网信息显示，中节能发布三个独立项目储能设备招标，总规模342.5MW/1355MWh。最大项目为甘肃马鬃山300MW/1200MWh独立储能项目一期设备采购，本期配置250MW/1000MWh；另有内蒙古察右前旗/兴和县75MW/300MWh配储、河北邢台两风电项目17.5MW/55MWh配储。",
+        "body": [
+          "甘肃马鬃山项目要求2026年7月30日前交付设备。",
+          "内蒙古项目为500MW风电按15%、4小时配置电化学储能。",
+          "三个项目均采用磷酸铁锂电化学储能设备，体现央企招标对大容量长时配置的持续需求。"
+        ],
+        "key_points": [
+          "总规模342.5MW/1355MWh。",
+          "甘肃马鬃山一期250MW/1000MWh。",
+          "内蒙古察右前旗/兴和县75MW/300MWh。",
+          "河北邢台两个风电项目17.5MW/55MWh。"
+        ],
+        "value": "342.5/1355",
+        "unit": "MW/MWh",
+        "delta": "央企三个项目储能系统设备招标",
+        "direction": "up",
+        "date": "04-30",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103889940",
+        "clean_html": "<p>SMM/北极星储能网披露，中节能三个项目储能系统招标总规模342.5MW/1355MWh，其中甘肃马鬃山一期250MW/1000MWh。</p>",
+        "caption": "国内央企大容量储能设备采购继续释放",
+        "methodology": "14:00抓取SMM原始HTML，采用页面可见招标规模、项目拆分和交付要求。",
+        "history": [
+          {
+            "label": "总MW",
+            "value": 342.5
+          },
+          {
+            "label": "总MWh",
+            "value": 1355
+          },
+          {
+            "label": "马鬃山MWh",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "source": "储能中国网",
+        "source_type": "国内行业媒体/招标信息",
+        "account_name": "储能中国网",
+        "category": "项目",
+        "title": "内蒙古乌兰察布1GW/6GWh电化学储能电站启动设备招标",
+        "summary": "储能中国网项目招标列表显示，5月14日乌兰察布1000MW/6000MWh电化学储能电站发布设备采购招标公告，招标人为察哈尔右翼中旗聚辉新能源有限公司，建设地点位于内蒙古自治区乌兰察布市。该项目时长约6小时，是本轮检索到的国内大容量长时储能设备招标线索。",
+        "body": [
+          "列表同页还显示安徽200MW/400MWh集中式储能EPC招标、甘肃武山200MW/800MWh中标候选等项目。",
+          "1GW/6GWh招标强化国内长时储能和大基地配储需求信号。",
+          "该条作为招标线索入库，后续需跟踪正式招标公告和中标结果。"
+        ],
+        "key_points": [
+          "规模1000MW/6000MWh。",
+          "设备采购招标公告日期5月14日。",
+          "招标人为察哈尔右翼中旗聚辉新能源有限公司。",
+          "项目位于内蒙古乌兰察布。"
+        ],
+        "value": "1000/6000",
+        "unit": "MW/MWh",
+        "delta": "约6小时长时储能设备招标",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-17",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/",
+        "clean_html": "<p>储能中国网项目招标列表显示，乌兰察布1000MW/6000MWh电化学储能电站发布设备采购招标公告。</p>",
+        "caption": "国内大基地长时储能招标规模继续放大",
+        "methodology": "12:00小时抓取储能中国网项目招标列表，采用列表可见规模、日期、招标人和地点字段。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 1000
+          },
+          {
+            "label": "容量MWh",
+            "value": 6000
+          },
+          {
+            "label": "时长h",
+            "value": 6
+          }
+        ]
+      },
       {
         "source": "碳索储能网",
         "source_type": "国内行业媒体汇总",
@@ -15870,6 +16663,130 @@ window.NEOLINK_FEED = {
     ],
     "materials": [
       {
+        "source": "Energy-Storage.News / SEIA",
+        "source_type": "海外行业协会报告/行业媒体",
+        "account_name": "SEIA",
+        "category": "海外",
+        "title": "SEIA首份储能专项报告预计美国2026年BESS部署增至70GWh",
+        "summary": "Energy-Storage.News报道，Solar Energy Industries Association在首份储能专项报告中预计，美国2026年电池储能系统部署量将增至70GWh。该口径用于观察美国并网、数据中心和供应链本土化需求。",
+        "body": [
+          "SEIA将2026年美国BESS部署量预期提高至70GWh，说明美国储能市场仍是全球增量核心区域。",
+          "报告口径来自行业协会专项报告，经Energy-Storage.News报道，可作为市场规模与情绪证据。",
+          "美国项目落地仍受并网、政策、关税和本土供应链约束影响，实际投运节奏需继续以项目公告和并网数据为准。"
+        ],
+        "key_points": [
+          "SEIA预计美国2026年BESS部署量70GWh。",
+          "这是SEIA首份储能专项报告披露的行业口径。",
+          "该数据支撑美国大储和电芯需求仍处高景气判断。"
+        ],
+        "value": "70",
+        "unit": "GWh 美国2026E BESS部署",
+        "delta": "行业协会专项报告口径",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
+        "clean_html": "<p>Energy-Storage.News报道，SEIA首份储能专项报告预计美国2026年BESS部署量将增至70GWh。</p>",
+        "caption": "美国大储部署预期继续支撑海外需求",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面标题与正文可见的SEIA 70GWh报告口径。",
+        "history": [
+          {
+            "label": "2026E美国BESS GWh",
+            "value": 70
+          }
+        ]
+      },
+      {
+        "source": "Benchmark Mineral Intelligence",
+        "source_type": "海外专业数据源",
+        "account_name": "Benchmark",
+        "category": "海外",
+        "title": "Benchmark：欧洲2026年一季度公用事业级储能新增投运超过6.5GWh",
+        "summary": "Benchmark公开页面显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍；其中3月贡献超过半数，单月新增容量超过2023年全年。Benchmark称2023年跟踪到90个公用事业级项目投运，而2026年一季度已达75个。",
+        "body": [
+          "欧洲公用事业级储能在2026年一季度进入快速投运阶段，新增容量超过6.5GWh。",
+          "3月投运容量超过季度总量的一半，并超过欧洲2023年全年投运容量，反映项目从并网排队进入交付兑现。",
+          "该数据属于Benchmark公开摘要口径，适合用于跟踪欧洲并网级储能需求和锂电材料需求强度。"
+        ],
+        "key_points": [
+          "2026年一季度欧洲公用事业级储能新增投运超过6.5GWh。",
+          "较2025年一季度翻倍。",
+          "3月贡献超过半数，且单月超过2023年全年容量。",
+          "2026年一季度投运项目75个，对比2023年全年90个。"
+        ],
+        "value": "6.5+",
+        "unit": "GWh 欧洲Q1公用事业级储能投运",
+        "delta": "同比翻倍；3月超过季度一半",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://source.benchmarkminerals.com/article/europe-has-record-quarter-for-energy-storage",
+        "clean_html": "<p>Benchmark公开摘要显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍，3月贡献超过半数。</p>",
+        "caption": "欧洲大储从项目储备进入投运兑现期",
+        "methodology": "16:00小时抓取Benchmark原始HTML并提取公开摘要；采用页面可见投运容量、同比表述和项目数量。",
+        "history": [
+          {
+            "label": "Q1新增GWh",
+            "value": 6.5
+          },
+          {
+            "label": "2026Q1项目数",
+            "value": 75
+          },
+          {
+            "label": "2023项目数",
+            "value": 90
+          }
+        ]
+      },
+      {
+        "source": "InfoLink Consulting",
+        "source_type": "海外/中文专业价格源",
+        "account_name": "InfoLink",
+        "category": "价格",
+        "title": "InfoLink：314Ah储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh",
+        "summary": "InfoLink 4月20日储能价格公开页显示，LFP方形储能电芯价格较前期持平：100Ah均价0.448元/Wh，280Ah均价0.370元/Wh，314Ah均价0.365元/Wh；新签订单主流价格维持在0.350元/Wh以上，500Ah+大容量电芯报价大体与314Ah一致。",
+        "body": [
+          "InfoLink称锂价维持高位区间波动，但中国BESS系统价格整体稳定，前期电芯涨价带来的成本传导已在系统层面体现。",
+          "314Ah电芯公开均价0.365元/Wh，280Ah均价0.370元/Wh，新签订单主流价格普遍维持在0.350元/Wh以上。",
+          "500Ah以上大容量电芯报价与314Ah产品大体一致，说明电芯迭代并未立即带来显著价格折让。"
+        ],
+        "key_points": [
+          "314Ah储能电芯均价0.365元/Wh。",
+          "280Ah储能电芯均价0.370元/Wh。",
+          "100Ah均价0.448元/Wh。",
+          "新签订单主流价格维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah储能电芯均价",
+        "delta": "较前期持平；新签订单主流>0.350元/Wh",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink公开页显示，314Ah方形铁锂储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh，100Ah均价0.448元/Wh。</p>",
+        "caption": "储能电芯涨价后进入高位持稳阶段",
+        "methodology": "16:00小时抓取InfoLink公开HTML；采用页面可见LFP方形储能电芯价格区间、均价和文字说明。",
+        "history": [
+          {
+            "label": "100Ah元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "新签订单下限元/Wh",
+            "value": 0.35
+          }
+        ]
+      },
+      {
         "source": "上海有色网 SMM",
         "source_type": "国内专业数据/会议资料",
         "account_name": "SMM",
@@ -17766,6 +18683,281 @@ window.NEOLINK_FEED = {
     ],
     "metrics": [
       {
+        "source": "InfoLink Consulting",
+        "source_type": "海外/中文专业价格源",
+        "account_name": "InfoLink",
+        "category": "价格",
+        "title": "314Ah储能电芯",
+        "summary": "InfoLink 4月20日储能价格公开页显示，LFP方形储能电芯价格较前期持平：100Ah均价0.448元/Wh，280Ah均价0.370元/Wh，314Ah均价0.365元/Wh；新签订单主流价格维持在0.350元/Wh以上，500Ah+大容量电芯报价大体与314Ah一致。",
+        "body": [
+          "InfoLink称锂价维持高位区间波动，但中国BESS系统价格整体稳定，前期电芯涨价带来的成本传导已在系统层面体现。",
+          "314Ah电芯公开均价0.365元/Wh，280Ah均价0.370元/Wh，新签订单主流价格普遍维持在0.350元/Wh以上。",
+          "500Ah以上大容量电芯报价与314Ah产品大体一致，说明电芯迭代并未立即带来显著价格折让。"
+        ],
+        "key_points": [
+          "314Ah储能电芯均价0.365元/Wh。",
+          "280Ah储能电芯均价0.370元/Wh。",
+          "100Ah均价0.448元/Wh。",
+          "新签订单主流价格维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh",
+        "delta": "较前期持平；新签订单主流>0.350元/Wh",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink公开页显示，314Ah方形铁锂储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh，100Ah均价0.448元/Wh。</p>",
+        "caption": "储能电芯涨价后进入高位持稳阶段",
+        "methodology": "16:00小时抓取InfoLink公开HTML；采用页面可见LFP方形储能电芯价格区间、均价和文字说明。",
+        "history": [
+          {
+            "label": "100Ah元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "新签订单下限元/Wh",
+            "value": 0.35
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Jupiter Power",
+        "source_type": "海外储能行业媒体/项目审批",
+        "account_name": "Jupiter Power",
+        "category": "项目",
+        "title": "Trimount BESS审批",
+        "summary": "Energy-Storage.News报道，Jupiter Power位于美国马萨诸塞州Everett的Trimount电池储能项目获Massachusetts Energy Facilities Siting Board最终批准，项目规模700MW/2800MWh，位于原ExxonMobil场址再开发区域。",
+        "body": [
+          "Trimount项目计划以700MW/2800MWh电池储能替代原化石能源基础设施场址的一部分功能。",
+          "项目位于Everett、Middlesex County，报道披露州级选址委员会已在2月27日作出最终决定。",
+          "该项目显示美国东北部在用地再开发、电网可靠性和清洁能源目标下继续推动大型储能。"
+        ],
+        "key_points": [
+          "项目规模700MW/2800MWh。",
+          "Massachusetts EFSB已作出最终批准。",
+          "项目位于Everett原ExxonMobil场址再开发区域。",
+          "Jupiter Power为项目开发主体。"
+        ],
+        "value": "2.8",
+        "unit": "GWh",
+        "delta": "美国东北部大型BESS审批推进",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/jupiter-power-receives-approval-for-2-8gwh-massachusetts-bess/",
+        "clean_html": "<p>Jupiter Power在马萨诸塞州Everett的700MW/2800MWh Trimount BESS获州级批准，项目位于原ExxonMobil场址再开发区域。</p>",
+        "caption": "美国东北部大型独立储能审批加速",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面可见项目容量、地点、审批主体和日期。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 700
+          },
+          {
+            "label": "容量MWh",
+            "value": 2800
+          },
+          {
+            "label": "时长h",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "source": "SEIA / Energy-Storage.News",
+        "source_type": "海外行业协会报告/行业媒体",
+        "account_name": "SEIA",
+        "category": "海外",
+        "title": "美国2026E BESS部署",
+        "summary": "Energy-Storage.News报道，Solar Energy Industries Association在首份储能专项报告中预计，美国2026年电池储能系统部署量将增至70GWh。该口径用于观察美国并网、数据中心和供应链本土化需求。",
+        "body": [
+          "SEIA将2026年美国BESS部署量预期提高至70GWh，说明美国储能市场仍是全球增量核心区域。",
+          "报告口径来自行业协会专项报告，经Energy-Storage.News报道，可作为市场规模与情绪证据。",
+          "美国项目落地仍受并网、政策、关税和本土供应链约束影响，实际投运节奏需继续以项目公告和并网数据为准。"
+        ],
+        "key_points": [
+          "SEIA预计美国2026年BESS部署量70GWh。",
+          "这是SEIA首份储能专项报告披露的行业口径。",
+          "该数据支撑美国大储和电芯需求仍处高景气判断。"
+        ],
+        "value": "70",
+        "unit": "GWh",
+        "delta": "行业协会专项报告口径",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
+        "clean_html": "<p>Energy-Storage.News报道，SEIA首份储能专项报告预计美国2026年BESS部署量将增至70GWh。</p>",
+        "caption": "美国大储部署预期继续支撑海外需求",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面标题与正文可见的SEIA 70GWh报告口径。",
+        "history": [
+          {
+            "label": "2026E美国BESS GWh",
+            "value": 70
+          }
+        ]
+      },
+      {
+        "source": "Benchmark Mineral Intelligence",
+        "source_type": "海外专业数据源",
+        "account_name": "Benchmark",
+        "category": "海外",
+        "title": "欧洲Q1大储投运",
+        "summary": "Benchmark公开页面显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍；其中3月贡献超过半数，单月新增容量超过2023年全年。Benchmark称2023年跟踪到90个公用事业级项目投运，而2026年一季度已达75个。",
+        "body": [
+          "欧洲公用事业级储能在2026年一季度进入快速投运阶段，新增容量超过6.5GWh。",
+          "3月投运容量超过季度总量的一半，并超过欧洲2023年全年投运容量，反映项目从并网排队进入交付兑现。",
+          "该数据属于Benchmark公开摘要口径，适合用于跟踪欧洲并网级储能需求和锂电材料需求强度。"
+        ],
+        "key_points": [
+          "2026年一季度欧洲公用事业级储能新增投运超过6.5GWh。",
+          "较2025年一季度翻倍。",
+          "3月贡献超过半数，且单月超过2023年全年容量。",
+          "2026年一季度投运项目75个，对比2023年全年90个。"
+        ],
+        "value": "6.5+",
+        "unit": "GWh",
+        "delta": "同比翻倍；3月超过季度一半",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://source.benchmarkminerals.com/article/europe-has-record-quarter-for-energy-storage",
+        "clean_html": "<p>Benchmark公开摘要显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍，3月贡献超过半数。</p>",
+        "caption": "欧洲大储从项目储备进入投运兑现期",
+        "methodology": "16:00小时抓取Benchmark原始HTML并提取公开摘要；采用页面可见投运容量、同比表述和项目数量。",
+        "history": [
+          {
+            "label": "Q1新增GWh",
+            "value": 6.5
+          },
+          {
+            "label": "2026Q1项目数",
+            "value": 75
+          },
+          {
+            "label": "2023项目数",
+            "value": 90
+          }
+        ]
+      },
+      {
+        "label": "全球4月大型BESS投运",
+        "value": "4.5GW/12.8GWh",
+        "delta": "中国2.5GW/7.2GWh",
+        "source": "Energy-Storage.News / Benchmark Mineral Intelligence",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/nearly-13gwh-of-grid-scale-bess-deployed-globally-in-april/",
+        "methodology": "14:00新增，采用ESN页面可见Benchmark月度部署数据"
+      },
+      {
+        "label": "Zelestra智利Aurora BESS",
+        "value": "1GWh",
+        "delta": "配套220MW太阳能，项目已送电",
+        "source": "Energy-Storage.News / Zelestra",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/zelestra-energises-1gwh-hybrid-bess-project-in-chile/",
+        "methodology": "14:00新增，采用ESN页面项目容量和配套光伏规模"
+      },
+      {
+        "label": "中节能储能系统招标",
+        "value": "342.5MW/1355MWh",
+        "delta": "甘肃马鬃山一期250MW/1000MWh",
+        "source": "SMM / 北极星储能网",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103889940",
+        "methodology": "14:00新增，采用SMM页面可见招标规模"
+      },
+      {
+        "label": "第73期储能招中标",
+        "value": "招标4.21GWh / 中标6.81GWh",
+        "delta": "锂电EPC均价1.124元/Wh，系统设备0.820元/Wh",
+        "source": "时代储能网",
+        "as_of": "2026-05-17",
+        "url": "https://eraes.com.cn/newsinfo/9065446.html",
+        "methodology": "14:00新增，采用周报公开统计口径"
+      },
+      {
+        "label": "瑞浦兰钧印尼基地",
+        "value": "8GWh",
+        "delta": "锂离子电芯与BESS制造设施开业",
+        "source": "Energy-Storage.News / Rept Battero",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "methodology": "14:00新增，采用ESN页面可见规划产能和基地信息"
+      },
+      {
+        "label": "楚能CIBF储能电池订单",
+        "value": "50GWh",
+        "delta": "中车株洲所25GWh、科陆10GWh",
+        "source": "储能中国网 / 楚能新能源",
+        "as_of": "2026-05-17",
+        "url": "http://cnnes.cc/qiye/20260515/13411.html",
+        "methodology": "12:00新增，采用储能中国网页面可见签约容量"
+      },
+      {
+        "label": "乌兰察布电化学储能设备招标",
+        "value": "1000MW/6000MWh",
+        "delta": "约6小时长时储能",
+        "source": "储能中国网",
+        "as_of": "2026-05-17",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/",
+        "methodology": "12:00新增，采用项目招标列表可见规模"
+      },
+      {
+        "label": "德国EnBW/Noveria推进项目",
+        "value": "1.1GWh",
+        "delta": "100MWh开工 + 1000MWh并网建设协议",
+        "source": "Energy-Storage.News",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/enbw-and-noveria-advance-construction-on-1-and-4-hour-bess-projects-in-germany/",
+        "methodology": "12:00新增，采用Energy-Storage.News页面项目容量"
+      },
+      {
+        "label": "esVolta Boxcar融资",
+        "value": "1.396亿美元",
+        "delta": "150MW/300MWh，2027投运",
+        "source": "Energy-Storage.News / MUFG",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/esvolta-secures-us140-million-financing-for-300mwh-texas-battery-storage-project/",
+        "methodology": "12:00新增，采用Energy-Storage.News页面融资金额和容量"
+      },
+      {
+        "label": "InfoLink电池级碳酸锂均价",
+        "value": "17.3万元/吨",
+        "delta": "环比+3.6%",
+        "source": "InfoLink Consulting",
+        "as_of": "2026-05-17",
+        "url": "https://www.infolink-group.com/energy-article/cn/ess-spot-price-20260506",
+        "methodology": "11:00新增，采用InfoLink页面可见现货价格"
+      },
+      {
+        "label": "314Ah储能电芯均价",
+        "value": "0.368元/Wh",
+        "delta": "环比+0.7%",
+        "source": "InfoLink Consulting",
+        "as_of": "2026-05-17",
+        "url": "https://www.infolink-group.com/energy-article/cn/ess-spot-price-20260506",
+        "methodology": "11:00新增，采用InfoLink页面可见含税均价"
+      },
+      {
+        "label": "德国2030并网级BESS预测",
+        "value": "15GW+",
+        "delta": "项目债通常需60%-80%合约化收入",
+        "source": "pv magazine / Modo Energy",
+        "as_of": "2026-05-17",
+        "url": "https://www.pv-magazine.com/2026/05/07/longer-duration-bess-finds-footing-in-germanys-toll-market/",
+        "methodology": "11:00新增，采用pv magazine页面引用Modo模型与Akaysha表述"
+      },
+      {
         "label": "2030全球储能需求预测",
         "value": "1900GWh",
         "delta": "SMM：2026-2030 CAGR约24%",
@@ -18657,53 +19849,6 @@ window.NEOLINK_FEED = {
           {
             "label": "314Ah电芯中标元/Wh",
             "value": 0.34
-          }
-        ]
-      },
-      {
-        "source": "InfoLink Consulting",
-        "source_type": "海外价格与供应链跟踪",
-        "account_name": "InfoLink",
-        "category": "行情",
-        "title": "InfoLink：碳酸锂高位区间震荡，中国BESS价格在电芯涨价传导后仍基本稳定",
-        "summary": "InfoLink 4月20日储能价格链更新称，碳酸锂近期维持高位区间震荡，主力期货大致在16万-17.5万元/吨；SC6锂辉石均价2350美元/吨，较前周上涨5.4%。尽管电芯价格前期上涨已向系统端传导，中国BESS价格仍保持稳定。",
-        "body": [
-          "InfoLink称碳酸锂价格近期处于较高区间震荡，期货主力合约大致运行在16万-17.5万元/吨。",
-          "锂辉石精矿SC6 CIF均价为2350美元/吨，较前周上涨5.4%，矿端偏紧对锂盐价格形成支撑。",
-          "下游方面，中国BESS价格在前期电芯涨价向系统端传导后仍保持稳定；若供给约束缓解，后续价格中枢可能下移。"
-        ],
-        "key_points": [
-          "碳酸锂期货约16万-17.5万元/吨。",
-          "SC6均价2350美元/吨。",
-          "SC6周涨5.4%。",
-          "中国BESS系统价格仍基本稳定。"
-        ],
-        "value": "16-17.5",
-        "unit": "万元/吨 碳酸锂期货主力区间",
-        "delta": "SC6均价2350美元/吨，周涨5.4%；BESS价格稳定",
-        "direction": "flat",
-        "date": "04-20",
-        "as_of": "2026-05-17",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "clean_html": "<p>InfoLink称碳酸锂价格维持高位区间震荡，期货主力大致在16万-17.5万元/吨。</p><p>SC6锂辉石均价2350美元/吨、周涨5.4%；中国BESS价格在电芯涨价传导后仍保持稳定。</p>",
-        "caption": "碳酸锂高位震荡但BESS价格暂稳",
-        "methodology": "01:00小时刷新抓取InfoLink原始HTML；采用页面可见更新时间、期货区间、SC6均价、周变化和BESS系统价格判断。",
-        "history": [
-          {
-            "label": "碳酸锂低位万元/吨",
-            "value": 16
-          },
-          {
-            "label": "碳酸锂高位万元/吨",
-            "value": 17.5
-          },
-          {
-            "label": "SC6美元/吨",
-            "value": 2350
-          },
-          {
-            "label": "SC6周涨%",
-            "value": 5.4
           }
         ]
       },
@@ -21111,32 +22256,6 @@ window.NEOLINK_FEED = {
         ]
       },
       {
-        "title": "BESS价格传导时滞",
-        "value": "stable",
-        "unit": "趋势",
-        "caption": "InfoLink储能现货价格评论",
-        "delta": "锂盐高位但BESS暂稳",
-        "direction": "flat",
-        "source": "InfoLink Consulting",
-        "as_of": "2026-04-20",
-        "methodology": "14:00小时刷新主动检索海外公开来源，curl抓取InfoLink储能现货价格评论；采用其价格趋势定性判断，不替代企业报价或项目成交价。",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "history": [
-          {
-            "label": "锂盐高位",
-            "value": 1
-          },
-          {
-            "label": "BESS暂稳",
-            "value": 1
-          },
-          {
-            "label": "传导时滞",
-            "value": 1
-          }
-        ]
-      },
-      {
         "title": "储能周度中标规模",
         "value": "6.81",
         "unit": "GWh",
@@ -22069,19 +23188,6 @@ window.NEOLINK_FEED = {
         "url": "https://source.benchmarkminerals.com/article/benchmark-launches-314ah-lfp-bess-price-amid-global-storage-market-surge",
         "summary": "Benchmark称2025年前九个月BESS电池需求同比增长36%，总电池需求占比从16%升至17%。",
         "methodology": "Benchmark公开页抓取，补充314Ah价格评估方法口径。"
-      },
-      {
-        "title": "美国BESS新增部署预测",
-        "source": "SEIA/Benchmark 2026E",
-        "value": "70",
-        "unit": "GWh",
-        "delta": "35GW/70GWh",
-        "direction": "up",
-        "date": "02-24",
-        "as_of": "2026-02-24",
-        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
-        "summary": "SEIA预计美国2026年BESS新增部署35GW/70GWh，2030年年度新增超过47GW/110GWh。",
-        "methodology": "Energy-Storage.news公开页转述SEIA与Benchmark报告；作为海外需求背景，不作为5月新事件。"
       },
       {
         "title": "ABF/Lion LFP承购支持规模",
@@ -23531,6 +24637,263 @@ window.NEOLINK_FEED = {
       }
     ],
     "overseas": [
+      {
+        "source": "Energy-Storage.News / Jupiter Power",
+        "source_type": "海外储能行业媒体/项目审批",
+        "account_name": "Jupiter Power",
+        "category": "项目",
+        "title": "Jupiter Power 700MW/2.8GWh马萨诸塞州Trimount BESS获州级批准",
+        "summary": "Energy-Storage.News报道，Jupiter Power位于美国马萨诸塞州Everett的Trimount电池储能项目获Massachusetts Energy Facilities Siting Board最终批准，项目规模700MW/2800MWh，位于原ExxonMobil场址再开发区域。",
+        "body": [
+          "Trimount项目计划以700MW/2800MWh电池储能替代原化石能源基础设施场址的一部分功能。",
+          "项目位于Everett、Middlesex County，报道披露州级选址委员会已在2月27日作出最终决定。",
+          "该项目显示美国东北部在用地再开发、电网可靠性和清洁能源目标下继续推动大型储能。"
+        ],
+        "key_points": [
+          "项目规模700MW/2800MWh。",
+          "Massachusetts EFSB已作出最终批准。",
+          "项目位于Everett原ExxonMobil场址再开发区域。",
+          "Jupiter Power为项目开发主体。"
+        ],
+        "value": "700/2800",
+        "unit": "MW/MWh",
+        "delta": "美国东北部大型BESS审批推进",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/jupiter-power-receives-approval-for-2-8gwh-massachusetts-bess/",
+        "clean_html": "<p>Jupiter Power在马萨诸塞州Everett的700MW/2800MWh Trimount BESS获州级批准，项目位于原ExxonMobil场址再开发区域。</p>",
+        "caption": "美国东北部大型独立储能审批加速",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面可见项目容量、地点、审批主体和日期。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 700
+          },
+          {
+            "label": "容量MWh",
+            "value": 2800
+          },
+          {
+            "label": "时长h",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / SEIA",
+        "source_type": "海外行业协会报告/行业媒体",
+        "account_name": "SEIA",
+        "category": "海外",
+        "title": "SEIA首份储能专项报告预计美国2026年BESS部署增至70GWh",
+        "summary": "Energy-Storage.News报道，Solar Energy Industries Association在首份储能专项报告中预计，美国2026年电池储能系统部署量将增至70GWh。该口径用于观察美国并网、数据中心和供应链本土化需求。",
+        "body": [
+          "SEIA将2026年美国BESS部署量预期提高至70GWh，说明美国储能市场仍是全球增量核心区域。",
+          "报告口径来自行业协会专项报告，经Energy-Storage.News报道，可作为市场规模与情绪证据。",
+          "美国项目落地仍受并网、政策、关税和本土供应链约束影响，实际投运节奏需继续以项目公告和并网数据为准。"
+        ],
+        "key_points": [
+          "SEIA预计美国2026年BESS部署量70GWh。",
+          "这是SEIA首份储能专项报告披露的行业口径。",
+          "该数据支撑美国大储和电芯需求仍处高景气判断。"
+        ],
+        "value": "70",
+        "unit": "GWh 美国2026E BESS部署",
+        "delta": "行业协会专项报告口径",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
+        "clean_html": "<p>Energy-Storage.News报道，SEIA首份储能专项报告预计美国2026年BESS部署量将增至70GWh。</p>",
+        "caption": "美国大储部署预期继续支撑海外需求",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面标题与正文可见的SEIA 70GWh报告口径。",
+        "history": [
+          {
+            "label": "2026E美国BESS GWh",
+            "value": 70
+          }
+        ]
+      },
+      {
+        "source": "Benchmark Mineral Intelligence",
+        "source_type": "海外专业数据源",
+        "account_name": "Benchmark",
+        "category": "海外",
+        "title": "Benchmark：欧洲2026年一季度公用事业级储能新增投运超过6.5GWh",
+        "summary": "Benchmark公开页面显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍；其中3月贡献超过半数，单月新增容量超过2023年全年。Benchmark称2023年跟踪到90个公用事业级项目投运，而2026年一季度已达75个。",
+        "body": [
+          "欧洲公用事业级储能在2026年一季度进入快速投运阶段，新增容量超过6.5GWh。",
+          "3月投运容量超过季度总量的一半，并超过欧洲2023年全年投运容量，反映项目从并网排队进入交付兑现。",
+          "该数据属于Benchmark公开摘要口径，适合用于跟踪欧洲并网级储能需求和锂电材料需求强度。"
+        ],
+        "key_points": [
+          "2026年一季度欧洲公用事业级储能新增投运超过6.5GWh。",
+          "较2025年一季度翻倍。",
+          "3月贡献超过半数，且单月超过2023年全年容量。",
+          "2026年一季度投运项目75个，对比2023年全年90个。"
+        ],
+        "value": "6.5+",
+        "unit": "GWh 欧洲Q1公用事业级储能投运",
+        "delta": "同比翻倍；3月超过季度一半",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://source.benchmarkminerals.com/article/europe-has-record-quarter-for-energy-storage",
+        "clean_html": "<p>Benchmark公开摘要显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍，3月贡献超过半数。</p>",
+        "caption": "欧洲大储从项目储备进入投运兑现期",
+        "methodology": "16:00小时抓取Benchmark原始HTML并提取公开摘要；采用页面可见投运容量、同比表述和项目数量。",
+        "history": [
+          {
+            "label": "Q1新增GWh",
+            "value": 6.5
+          },
+          {
+            "label": "2026Q1项目数",
+            "value": 75
+          },
+          {
+            "label": "2023项目数",
+            "value": 90
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外储能行业媒体",
+        "account_name": "Energy-Storage.News",
+        "category": "海外",
+        "title": "德国EnBW 100MWh开工、Noveria 1GWh签并网建设协议",
+        "summary": "Energy-Storage.News 4月22日报道，EnBW已在德国Marbach传统电厂场址启动100MW/100MWh BESS建设，计划2026年底投运；Noveria Energy与输电系统运营商TenneT签署250MW/1000MWh项目的电网连接和建设协议，计划2028年初接入。EnBW德国BESS开发组合约1.8GWh。",
+        "body": [
+          "德国成为欧洲最活跃的并网级BESS市场之一。",
+          "Marbach项目将短时锂电储能与未来氢能燃机容量形成组合。",
+          "Noveria项目代表德国4小时大储项目从排队进入并网建设协议阶段。"
+        ],
+        "key_points": [
+          "EnBW Marbach项目100MW/100MWh，计划2026年底投运。",
+          "Noveria/TenneT项目250MW/1000MWh，计划2028年初接入。",
+          "EnBW德国BESS组合约1.8GWh。",
+          "德国并网级储能建设与电力交易机会继续吸引投资。"
+        ],
+        "value": "1.1",
+        "unit": "GWh两项目合计",
+        "delta": "德国并网级BESS推进至施工/并网协议",
+        "direction": "up",
+        "date": "04-22",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/enbw-and-noveria-advance-construction-on-1-and-4-hour-bess-projects-in-germany/",
+        "clean_html": "<p>Energy-Storage.News报道，EnBW德国100MW/100MWh项目开工，Noveria与TenneT签署250MW/1000MWh项目电网连接和建设协议。</p>",
+        "caption": "德国并网级BESS从项目储备进入施工和并网协议兑现期",
+        "methodology": "12:00小时抓取Energy-Storage.News原始HTML，采用页面可见项目容量、时间表和主体。",
+        "history": [
+          {
+            "label": "EnBW MWh",
+            "value": 100
+          },
+          {
+            "label": "Noveria MWh",
+            "value": 1000
+          },
+          {
+            "label": "EnBW组合GWh",
+            "value": 1.8
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / MUFG",
+        "source_type": "海外储能行业媒体/项目融资",
+        "account_name": "esVolta",
+        "category": "海外",
+        "title": "esVolta获1.396亿美元融资推进德州150MW/300MWh Boxcar储能",
+        "summary": "Energy-Storage.News 3月26日报道，esVolta已为德州Boxcar储能项目完成1.396亿美元项目融资，贷款方为MUFG Bank。项目位于达拉斯东北部Wylie，规划150MW/300MWh，面向ERCOT市场，预计2027年投运；项目已取得一名大型企业客户的长期offtake协议。",
+        "body": [
+          "融资结构包括建设贷款、税收权益过桥贷款、信用证和长期贷款。",
+          "Boxcar投运后，esVolta在德州五个项目合计储能容量将达到1.56GWh。",
+          "长期offtake协议为项目融资提供收入确定性。"
+        ],
+        "key_points": [
+          "融资金额1.396亿美元。",
+          "项目规模150MW/300MWh。",
+          "预计2027年投运。",
+          "esVolta德州组合将达1.56GWh。"
+        ],
+        "value": "139.6",
+        "unit": "百万美元融资",
+        "delta": "长期offtake支撑ERCOT项目可融资性",
+        "direction": "up",
+        "date": "03-26",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/esvolta-secures-us140-million-financing-for-300mwh-texas-battery-storage-project/",
+        "clean_html": "<p>esVolta为德州150MW/300MWh Boxcar储能项目完成1.396亿美元融资，项目预计2027年投运并取得长期offtake协议。</p>",
+        "caption": "美国ERCOT储能融资继续依赖长期收入协议增强可融资性",
+        "methodology": "12:00小时抓取Energy-Storage.News原始HTML，采用页面可见融资金额、容量、投运时间和offtake信息。",
+        "history": [
+          {
+            "label": "融资百万美元",
+            "value": 139.6
+          },
+          {
+            "label": "功率MW",
+            "value": 150
+          },
+          {
+            "label": "容量MWh",
+            "value": 300
+          },
+          {
+            "label": "组合GWh",
+            "value": 1.56
+          }
+        ]
+      },
+      {
+        "source": "pv magazine / Modo Energy",
+        "source_type": "海外光储媒体/市场模型",
+        "account_name": "pv magazine",
+        "category": "海外",
+        "title": "pv magazine：德国长时BESS融资要求60%-80%合约化收入，2030年或超15GW",
+        "summary": "pv magazine 5月7日报道，BlackRock支持的Akaysha Energy认为，德国公用事业级BESS项目要获得项目债，贷款方通常要求60%-80%收入先行合约化；Modo Energy模型预计德国2030年并网级BESS将超过15GW。文章还指出德国2025年电池收入约8.5万欧元/MW，较英国高60%。",
+        "body": [
+          "德国批发电力市场流动性和波动性正在吸引长时储能投资。",
+          "结构化offtake产品有助于将部分商户收入转化为可融资现金流。",
+          "但德国并网申请规模高、接入规则收紧，项目增长仍取决于电网和监管演进。"
+        ],
+        "key_points": [
+          "贷款方通常要求60%-80%合约化收入。",
+          "Modo预计德国2030年并网级BESS超过15GW。",
+          "2025年德国电池收入约8.5万欧元/MW，较英国高60%。",
+          "并网申请曾超过720GW，接入约束上升。"
+        ],
+        "value": "15+",
+        "unit": "GW 2030E德国并网级BESS",
+        "delta": "融资门槛：60%-80%合约化收入",
+        "direction": "up",
+        "date": "05-07",
+        "as_of": "2026-05-17",
+        "url": "https://www.pv-magazine.com/2026/05/07/longer-duration-bess-finds-footing-in-germanys-toll-market/",
+        "clean_html": "<p>pv magazine称德国长时BESS项目融资通常需要60%-80%合约化收入，Modo预计2030年德国并网级BESS超过15GW。</p>",
+        "caption": "欧洲大储从容量建设转向可融资收入结构竞争",
+        "methodology": "11:00小时搜索并抓取pv magazine原始HTML；采用页面可见Akaysha和Modo Energy表述。",
+        "history": [
+          {
+            "label": "合约收入下限%",
+            "value": 60
+          },
+          {
+            "label": "合约收入上限%",
+            "value": 80
+          },
+          {
+            "label": "2030德国BESS GW",
+            "value": 15
+          },
+          {
+            "label": "德国收入EUR/MW",
+            "value": 85000
+          }
+        ]
+      },
       {
         "source": "ING Think / SEIA",
         "source_type": "海外金融机构研究/行业协会数据",
@@ -26359,6 +27722,310 @@ window.NEOLINK_FEED = {
     ],
     "market": [
       {
+        "source": "InfoLink Consulting",
+        "source_type": "海外/中文专业价格源",
+        "account_name": "InfoLink",
+        "category": "价格",
+        "title": "InfoLink：314Ah储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh",
+        "summary": "InfoLink 4月20日储能价格公开页显示，LFP方形储能电芯价格较前期持平：100Ah均价0.448元/Wh，280Ah均价0.370元/Wh，314Ah均价0.365元/Wh；新签订单主流价格维持在0.350元/Wh以上，500Ah+大容量电芯报价大体与314Ah一致。",
+        "body": [
+          "InfoLink称锂价维持高位区间波动，但中国BESS系统价格整体稳定，前期电芯涨价带来的成本传导已在系统层面体现。",
+          "314Ah电芯公开均价0.365元/Wh，280Ah均价0.370元/Wh，新签订单主流价格普遍维持在0.350元/Wh以上。",
+          "500Ah以上大容量电芯报价与314Ah产品大体一致，说明电芯迭代并未立即带来显著价格折让。"
+        ],
+        "key_points": [
+          "314Ah储能电芯均价0.365元/Wh。",
+          "280Ah储能电芯均价0.370元/Wh。",
+          "100Ah均价0.448元/Wh。",
+          "新签订单主流价格维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah储能电芯均价",
+        "delta": "较前期持平；新签订单主流>0.350元/Wh",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink公开页显示，314Ah方形铁锂储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh，100Ah均价0.448元/Wh。</p>",
+        "caption": "储能电芯涨价后进入高位持稳阶段",
+        "methodology": "16:00小时抓取InfoLink公开HTML；采用页面可见LFP方形储能电芯价格区间、均价和文字说明。",
+        "history": [
+          {
+            "label": "100Ah元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "新签订单下限元/Wh",
+            "value": 0.35
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Jupiter Power",
+        "source_type": "海外储能行业媒体/项目审批",
+        "account_name": "Jupiter Power",
+        "category": "项目",
+        "title": "Jupiter Power 700MW/2.8GWh马萨诸塞州Trimount BESS获州级批准",
+        "summary": "Energy-Storage.News报道，Jupiter Power位于美国马萨诸塞州Everett的Trimount电池储能项目获Massachusetts Energy Facilities Siting Board最终批准，项目规模700MW/2800MWh，位于原ExxonMobil场址再开发区域。",
+        "body": [
+          "Trimount项目计划以700MW/2800MWh电池储能替代原化石能源基础设施场址的一部分功能。",
+          "项目位于Everett、Middlesex County，报道披露州级选址委员会已在2月27日作出最终决定。",
+          "该项目显示美国东北部在用地再开发、电网可靠性和清洁能源目标下继续推动大型储能。"
+        ],
+        "key_points": [
+          "项目规模700MW/2800MWh。",
+          "Massachusetts EFSB已作出最终批准。",
+          "项目位于Everett原ExxonMobil场址再开发区域。",
+          "Jupiter Power为项目开发主体。"
+        ],
+        "value": "700/2800",
+        "unit": "MW/MWh",
+        "delta": "美国东北部大型BESS审批推进",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/jupiter-power-receives-approval-for-2-8gwh-massachusetts-bess/",
+        "clean_html": "<p>Jupiter Power在马萨诸塞州Everett的700MW/2800MWh Trimount BESS获州级批准，项目位于原ExxonMobil场址再开发区域。</p>",
+        "caption": "美国东北部大型独立储能审批加速",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面可见项目容量、地点、审批主体和日期。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 700
+          },
+          {
+            "label": "容量MWh",
+            "value": 2800
+          },
+          {
+            "label": "时长h",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / SEIA",
+        "source_type": "海外行业协会报告/行业媒体",
+        "account_name": "SEIA",
+        "category": "海外",
+        "title": "SEIA首份储能专项报告预计美国2026年BESS部署增至70GWh",
+        "summary": "Energy-Storage.News报道，Solar Energy Industries Association在首份储能专项报告中预计，美国2026年电池储能系统部署量将增至70GWh。该口径用于观察美国并网、数据中心和供应链本土化需求。",
+        "body": [
+          "SEIA将2026年美国BESS部署量预期提高至70GWh，说明美国储能市场仍是全球增量核心区域。",
+          "报告口径来自行业协会专项报告，经Energy-Storage.News报道，可作为市场规模与情绪证据。",
+          "美国项目落地仍受并网、政策、关税和本土供应链约束影响，实际投运节奏需继续以项目公告和并网数据为准。"
+        ],
+        "key_points": [
+          "SEIA预计美国2026年BESS部署量70GWh。",
+          "这是SEIA首份储能专项报告披露的行业口径。",
+          "该数据支撑美国大储和电芯需求仍处高景气判断。"
+        ],
+        "value": "70",
+        "unit": "GWh 美国2026E BESS部署",
+        "delta": "行业协会专项报告口径",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
+        "clean_html": "<p>Energy-Storage.News报道，SEIA首份储能专项报告预计美国2026年BESS部署量将增至70GWh。</p>",
+        "caption": "美国大储部署预期继续支撑海外需求",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面标题与正文可见的SEIA 70GWh报告口径。",
+        "history": [
+          {
+            "label": "2026E美国BESS GWh",
+            "value": 70
+          }
+        ]
+      },
+      {
+        "source": "Benchmark Mineral Intelligence",
+        "source_type": "海外专业数据源",
+        "account_name": "Benchmark",
+        "category": "海外",
+        "title": "Benchmark：欧洲2026年一季度公用事业级储能新增投运超过6.5GWh",
+        "summary": "Benchmark公开页面显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍；其中3月贡献超过半数，单月新增容量超过2023年全年。Benchmark称2023年跟踪到90个公用事业级项目投运，而2026年一季度已达75个。",
+        "body": [
+          "欧洲公用事业级储能在2026年一季度进入快速投运阶段，新增容量超过6.5GWh。",
+          "3月投运容量超过季度总量的一半，并超过欧洲2023年全年投运容量，反映项目从并网排队进入交付兑现。",
+          "该数据属于Benchmark公开摘要口径，适合用于跟踪欧洲并网级储能需求和锂电材料需求强度。"
+        ],
+        "key_points": [
+          "2026年一季度欧洲公用事业级储能新增投运超过6.5GWh。",
+          "较2025年一季度翻倍。",
+          "3月贡献超过半数，且单月超过2023年全年容量。",
+          "2026年一季度投运项目75个，对比2023年全年90个。"
+        ],
+        "value": "6.5+",
+        "unit": "GWh 欧洲Q1公用事业级储能投运",
+        "delta": "同比翻倍；3月超过季度一半",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://source.benchmarkminerals.com/article/europe-has-record-quarter-for-energy-storage",
+        "clean_html": "<p>Benchmark公开摘要显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍，3月贡献超过半数。</p>",
+        "caption": "欧洲大储从项目储备进入投运兑现期",
+        "methodology": "16:00小时抓取Benchmark原始HTML并提取公开摘要；采用页面可见投运容量、同比表述和项目数量。",
+        "history": [
+          {
+            "label": "Q1新增GWh",
+            "value": 6.5
+          },
+          {
+            "label": "2026Q1项目数",
+            "value": 75
+          },
+          {
+            "label": "2023项目数",
+            "value": 90
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Benchmark Mineral Intelligence",
+        "source_type": "海外储能行业媒体/市场统计",
+        "account_name": "Benchmark Mineral Intelligence",
+        "category": "行情",
+        "title": "4月全球大型BESS投运4.5GW/12.8GWh，中国贡献7.2GWh",
+        "summary": "Energy-Storage.News 5月14日引用Benchmark Mineral Intelligence月度数据称，4月全球大型BESS新增投运4.5GW/12.8GWh。中国继续主导，当月投运2.5GW/7.2GWh，约占全球能量规模过半；亚洲其他地区也有647MW/1,765MWh投运。",
+        "body": [
+          "该数据为全球储能部署节奏提供月度高频证据。",
+          "中国4月投运7.2GWh，占全球12.8GWh的约56%。",
+          "亚洲和南美为当月表现较强的区域，支撑全球BESS需求判断。"
+        ],
+        "key_points": [
+          "全球4月大型BESS投运4.5GW/12.8GWh。",
+          "中国投运2.5GW/7.2GWh。",
+          "亚洲其他地区647MW/1,765MWh。",
+          "数据源为Benchmark Mineral Intelligence，ESN 5月14日报道。"
+        ],
+        "value": "12.8",
+        "unit": "GWh全球4月大型BESS投运",
+        "delta": "中国贡献7.2GWh",
+        "direction": "up",
+        "date": "05-14",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/nearly-13gwh-of-grid-scale-bess-deployed-globally-in-april/",
+        "clean_html": "<p>Benchmark/ESN数据显示，2026年4月全球大型BESS投运4.5GW/12.8GWh，其中中国为2.5GW/7.2GWh。</p>",
+        "caption": "全球BESS月度投运保持高位，中国仍为最大增量来源",
+        "methodology": "14:00抓取Energy-Storage.News原始HTML，采用页面可见Benchmark月度部署数据。",
+        "history": [
+          {
+            "label": "全球GWh",
+            "value": 12.8
+          },
+          {
+            "label": "全球GW",
+            "value": 4.5
+          },
+          {
+            "label": "中国GWh",
+            "value": 7.2
+          },
+          {
+            "label": "中国GW",
+            "value": 2.5
+          }
+        ]
+      },
+      {
+        "source": "时代储能网 / 中国电池工业协会储能分会",
+        "source_type": "国内行业媒体/招中标统计",
+        "account_name": "时代储能网",
+        "category": "行情",
+        "title": "第73期储能招中标：5月1-10日招标4.21GWh、中标6.81GWh",
+        "summary": "时代储能网第73期招中标周报显示，2026年5月1-10日公开储能招中标项目34个，招标20个合计1.80GW/4.21GWh，中标规模6.81GWh；锂电储能EPC中标单价区间0.878-1.406元/Wh，均价1.124元/Wh；储能系统设备采购有效样本单价0.820元/Wh。另披露内蒙古中电储能314Ah电芯采购中标价0.34元/Wh。",
+        "body": [
+          "甘肃、吉林、宁夏位列招标规模TOP区域。",
+          "宁夏同心县300MW/1200MWh共享储能EPC以0.878元/Wh成为样本低价。",
+          "314Ah电芯采购0.34元/Wh为电芯价格观察提供可验证招标口径。"
+        ],
+        "key_points": [
+          "招标1.80GW/4.21GWh。",
+          "中标6.81GWh。",
+          "锂电EPC均价1.124元/Wh。",
+          "系统设备样本0.820元/Wh，314Ah电芯中标0.34元/Wh。"
+        ],
+        "value": "4.21/6.81",
+        "unit": "GWh招标/中标",
+        "delta": "EPC均价1.124元/Wh",
+        "direction": "neutral",
+        "date": "05-13",
+        "as_of": "2026-05-17",
+        "url": "https://eraes.com.cn/newsinfo/9065446.html",
+        "clean_html": "<p>时代储能网第73期周报显示，5月1-10日储能招标4.21GWh、中标6.81GWh，锂电EPC均价1.124元/Wh，系统设备样本0.820元/Wh。</p>",
+        "caption": "招中标高频数据验证储能系统价格与项目规模",
+        "methodology": "14:00抓取时代储能网原始HTML，采用周报标题及正文可见招标、中标、EPC和设备单价。",
+        "history": [
+          {
+            "label": "招标GWh",
+            "value": 4.21
+          },
+          {
+            "label": "中标GWh",
+            "value": 6.81
+          },
+          {
+            "label": "EPC元/Wh",
+            "value": 1.124
+          },
+          {
+            "label": "系统设备元/Wh",
+            "value": 0.82
+          },
+          {
+            "label": "314Ah电芯元/Wh",
+            "value": 0.34
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外储能行业媒体",
+        "account_name": "Energy-Storage.News",
+        "category": "行情",
+        "title": "Energy-Storage.News：锂价三倍上涨与退税变化推动BESS短期涨价风险",
+        "summary": "Energy-Storage.News在ESS 2026后报道，BESS价格短期可能上行。文章称，2025和2024年BESS价格曾因中国供应商竞争和技术成熟显著下降，但美国-伊朗战争造成的供应链扰动与能源价格上涨、碳酸锂价格约三倍上涨，以及中国年底取消电池增值税出口退税，使市场开始讨论价格趋势逆转。",
+        "body": [
+          "报道指出，中国BESS招标价格已开始抬头。",
+          "碳酸锂约占锂离子BESS成本的5%，但快速波动会改变系统集成商报价和项目锁价风险。",
+          "长期看，技术进步仍可能继续降低成本，但短期供应链和政策变量偏负面。"
+        ],
+        "key_points": [
+          "BESS短期价格可能上行。",
+          "碳酸锂价格约三倍上涨。",
+          "中国电池出口退税取消被列为价格上行因素。",
+          "中国BESS招标价格已开始抬头。"
+        ],
+        "value": "3x",
+        "unit": "碳酸锂价格涨幅表述",
+        "delta": "短期BESS价格上行风险",
+        "direction": "up",
+        "date": "2026",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "clean_html": "<p>Energy-Storage.News称，锂价三倍上涨、能源价格和退税变化使BESS短期价格面临上行风险。</p>",
+        "caption": "海外媒体开始从项目端确认BESS涨价预期",
+        "methodology": "11:00小时搜索并抓取Energy-Storage.News原始HTML；采用页面可见价格趋势、政策和成本表述。",
+        "history": [
+          {
+            "label": "碳酸锂涨幅倍数",
+            "value": 3
+          },
+          {
+            "label": "锂盐成本占BESS%",
+            "value": 5
+          }
+        ]
+      },
+      {
         "source": "Fastmarkets",
         "source_type": "海外大宗商品/价格媒体",
         "account_name": "Fastmarkets",
@@ -26894,56 +28561,266 @@ window.NEOLINK_FEED = {
             "value": 0.52
           }
         ]
-      },
-      {
-        "source": "InfoLink Consulting",
-        "source_type": "海外价格与供应链跟踪",
-        "account_name": "InfoLink",
-        "category": "行情",
-        "title": "InfoLink：碳酸锂高位区间震荡，中国BESS价格在电芯涨价传导后仍基本稳定",
-        "summary": "InfoLink 4月20日储能价格链更新称，碳酸锂近期维持高位区间震荡，主力期货大致在16万-17.5万元/吨；SC6锂辉石均价2350美元/吨，较前周上涨5.4%。尽管电芯价格前期上涨已向系统端传导，中国BESS价格仍保持稳定。",
-        "body": [
-          "InfoLink称碳酸锂价格近期处于较高区间震荡，期货主力合约大致运行在16万-17.5万元/吨。",
-          "锂辉石精矿SC6 CIF均价为2350美元/吨，较前周上涨5.4%，矿端偏紧对锂盐价格形成支撑。",
-          "下游方面，中国BESS价格在前期电芯涨价向系统端传导后仍保持稳定；若供给约束缓解，后续价格中枢可能下移。"
-        ],
-        "key_points": [
-          "碳酸锂期货约16万-17.5万元/吨。",
-          "SC6均价2350美元/吨。",
-          "SC6周涨5.4%。",
-          "中国BESS系统价格仍基本稳定。"
-        ],
-        "value": "16-17.5",
-        "unit": "万元/吨 碳酸锂期货主力区间",
-        "delta": "SC6均价2350美元/吨，周涨5.4%；BESS价格稳定",
-        "direction": "flat",
-        "date": "04-20",
-        "as_of": "2026-05-17",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "clean_html": "<p>InfoLink称碳酸锂价格维持高位区间震荡，期货主力大致在16万-17.5万元/吨。</p><p>SC6锂辉石均价2350美元/吨、周涨5.4%；中国BESS价格在电芯涨价传导后仍保持稳定。</p>",
-        "caption": "碳酸锂高位震荡但BESS价格暂稳",
-        "methodology": "01:00小时刷新抓取InfoLink原始HTML；采用页面可见更新时间、期货区间、SC6均价、周变化和BESS系统价格判断。",
-        "history": [
-          {
-            "label": "碳酸锂低位万元/吨",
-            "value": 16
-          },
-          {
-            "label": "碳酸锂高位万元/吨",
-            "value": 17.5
-          },
-          {
-            "label": "SC6美元/吨",
-            "value": 2350
-          },
-          {
-            "label": "SC6周涨%",
-            "value": 5.4
-          }
-        ]
       }
     ],
     "sentiment": [
+      {
+        "source": "InfoLink Consulting",
+        "source_type": "海外/中文专业价格源",
+        "account_name": "InfoLink",
+        "category": "价格",
+        "title": "InfoLink：314Ah储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh",
+        "summary": "InfoLink 4月20日储能价格公开页显示，LFP方形储能电芯价格较前期持平：100Ah均价0.448元/Wh，280Ah均价0.370元/Wh，314Ah均价0.365元/Wh；新签订单主流价格维持在0.350元/Wh以上，500Ah+大容量电芯报价大体与314Ah一致。",
+        "body": [
+          "InfoLink称锂价维持高位区间波动，但中国BESS系统价格整体稳定，前期电芯涨价带来的成本传导已在系统层面体现。",
+          "314Ah电芯公开均价0.365元/Wh，280Ah均价0.370元/Wh，新签订单主流价格普遍维持在0.350元/Wh以上。",
+          "500Ah以上大容量电芯报价与314Ah产品大体一致，说明电芯迭代并未立即带来显著价格折让。"
+        ],
+        "key_points": [
+          "314Ah储能电芯均价0.365元/Wh。",
+          "280Ah储能电芯均价0.370元/Wh。",
+          "100Ah均价0.448元/Wh。",
+          "新签订单主流价格维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah储能电芯均价",
+        "delta": "较前期持平；新签订单主流>0.350元/Wh",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink公开页显示，314Ah方形铁锂储能电芯均价0.365元/Wh，280Ah均价0.370元/Wh，100Ah均价0.448元/Wh。</p>",
+        "caption": "储能电芯涨价后进入高位持稳阶段",
+        "methodology": "16:00小时抓取InfoLink公开HTML；采用页面可见LFP方形储能电芯价格区间、均价和文字说明。",
+        "history": [
+          {
+            "label": "100Ah元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "新签订单下限元/Wh",
+            "value": 0.35
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Jupiter Power",
+        "source_type": "海外储能行业媒体/项目审批",
+        "account_name": "Jupiter Power",
+        "category": "项目",
+        "title": "Jupiter Power 700MW/2.8GWh马萨诸塞州Trimount BESS获州级批准",
+        "summary": "Energy-Storage.News报道，Jupiter Power位于美国马萨诸塞州Everett的Trimount电池储能项目获Massachusetts Energy Facilities Siting Board最终批准，项目规模700MW/2800MWh，位于原ExxonMobil场址再开发区域。",
+        "body": [
+          "Trimount项目计划以700MW/2800MWh电池储能替代原化石能源基础设施场址的一部分功能。",
+          "项目位于Everett、Middlesex County，报道披露州级选址委员会已在2月27日作出最终决定。",
+          "该项目显示美国东北部在用地再开发、电网可靠性和清洁能源目标下继续推动大型储能。"
+        ],
+        "key_points": [
+          "项目规模700MW/2800MWh。",
+          "Massachusetts EFSB已作出最终批准。",
+          "项目位于Everett原ExxonMobil场址再开发区域。",
+          "Jupiter Power为项目开发主体。"
+        ],
+        "value": "700/2800",
+        "unit": "MW/MWh",
+        "delta": "美国东北部大型BESS审批推进",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/jupiter-power-receives-approval-for-2-8gwh-massachusetts-bess/",
+        "clean_html": "<p>Jupiter Power在马萨诸塞州Everett的700MW/2800MWh Trimount BESS获州级批准，项目位于原ExxonMobil场址再开发区域。</p>",
+        "caption": "美国东北部大型独立储能审批加速",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面可见项目容量、地点、审批主体和日期。",
+        "history": [
+          {
+            "label": "功率MW",
+            "value": 700
+          },
+          {
+            "label": "容量MWh",
+            "value": 2800
+          },
+          {
+            "label": "时长h",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / SEIA",
+        "source_type": "海外行业协会报告/行业媒体",
+        "account_name": "SEIA",
+        "category": "海外",
+        "title": "SEIA首份储能专项报告预计美国2026年BESS部署增至70GWh",
+        "summary": "Energy-Storage.News报道，Solar Energy Industries Association在首份储能专项报告中预计，美国2026年电池储能系统部署量将增至70GWh。该口径用于观察美国并网、数据中心和供应链本土化需求。",
+        "body": [
+          "SEIA将2026年美国BESS部署量预期提高至70GWh，说明美国储能市场仍是全球增量核心区域。",
+          "报告口径来自行业协会专项报告，经Energy-Storage.News报道，可作为市场规模与情绪证据。",
+          "美国项目落地仍受并网、政策、关税和本土供应链约束影响，实际投运节奏需继续以项目公告和并网数据为准。"
+        ],
+        "key_points": [
+          "SEIA预计美国2026年BESS部署量70GWh。",
+          "这是SEIA首份储能专项报告披露的行业口径。",
+          "该数据支撑美国大储和电芯需求仍处高景气判断。"
+        ],
+        "value": "70",
+        "unit": "GWh 美国2026E BESS部署",
+        "delta": "行业协会专项报告口径",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/us-bess-deployments-to-increase-to-70gwh-this-year-seia-says-in-first-sector-dedicated-report/",
+        "clean_html": "<p>Energy-Storage.News报道，SEIA首份储能专项报告预计美国2026年BESS部署量将增至70GWh。</p>",
+        "caption": "美国大储部署预期继续支撑海外需求",
+        "methodology": "16:00小时抓取Energy-Storage.News原始HTML；采用页面标题与正文可见的SEIA 70GWh报告口径。",
+        "history": [
+          {
+            "label": "2026E美国BESS GWh",
+            "value": 70
+          }
+        ]
+      },
+      {
+        "source": "Benchmark Mineral Intelligence",
+        "source_type": "海外专业数据源",
+        "account_name": "Benchmark",
+        "category": "海外",
+        "title": "Benchmark：欧洲2026年一季度公用事业级储能新增投运超过6.5GWh",
+        "summary": "Benchmark公开页面显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍；其中3月贡献超过半数，单月新增容量超过2023年全年。Benchmark称2023年跟踪到90个公用事业级项目投运，而2026年一季度已达75个。",
+        "body": [
+          "欧洲公用事业级储能在2026年一季度进入快速投运阶段，新增容量超过6.5GWh。",
+          "3月投运容量超过季度总量的一半，并超过欧洲2023年全年投运容量，反映项目从并网排队进入交付兑现。",
+          "该数据属于Benchmark公开摘要口径，适合用于跟踪欧洲并网级储能需求和锂电材料需求强度。"
+        ],
+        "key_points": [
+          "2026年一季度欧洲公用事业级储能新增投运超过6.5GWh。",
+          "较2025年一季度翻倍。",
+          "3月贡献超过半数，且单月超过2023年全年容量。",
+          "2026年一季度投运项目75个，对比2023年全年90个。"
+        ],
+        "value": "6.5+",
+        "unit": "GWh 欧洲Q1公用事业级储能投运",
+        "delta": "同比翻倍；3月超过季度一半",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://source.benchmarkminerals.com/article/europe-has-record-quarter-for-energy-storage",
+        "clean_html": "<p>Benchmark公开摘要显示，欧洲2026年一季度公用事业级储能新增投运超过6.5GWh，较2025年一季度翻倍，3月贡献超过半数。</p>",
+        "caption": "欧洲大储从项目储备进入投运兑现期",
+        "methodology": "16:00小时抓取Benchmark原始HTML并提取公开摘要；采用页面可见投运容量、同比表述和项目数量。",
+        "history": [
+          {
+            "label": "Q1新增GWh",
+            "value": 6.5
+          },
+          {
+            "label": "2026Q1项目数",
+            "value": 75
+          },
+          {
+            "label": "2023项目数",
+            "value": 90
+          }
+        ]
+      },
+      {
+        "label": "全球投运景气",
+        "score": 82,
+        "summary": "4月全球大型BESS投运12.8GWh且中国贡献7.2GWh，月度部署保持高位。",
+        "source": "Energy-Storage.News / Benchmark",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/nearly-13gwh-of-grid-scale-bess-deployed-globally-in-april/",
+        "methodology": "14:00新增证据"
+      },
+      {
+        "label": "拉美储能兑现",
+        "score": 78,
+        "summary": "Zelestra智利1GWh BESS送电显示拉美GWh级光储项目进入运行阶段。",
+        "source": "Energy-Storage.News / Zelestra",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/zelestra-energises-1gwh-hybrid-bess-project-in-chile/",
+        "methodology": "14:00新增证据"
+      },
+      {
+        "label": "国内招标与价格",
+        "score": 70,
+        "summary": "中节能1.355GWh设备招标和时代储能网周报显示项目需求仍强，但EPC均价已显著高于此前低价区间。",
+        "source": "SMM / 时代储能网",
+        "as_of": "2026-05-17",
+        "url": "https://eraes.com.cn/newsinfo/9065446.html",
+        "methodology": "14:00新增证据"
+      },
+      {
+        "label": "海外制造本地化",
+        "score": 73,
+        "summary": "瑞浦兰钧印尼8GWh基地开业，显示中国储能供应链继续向东南亚本地化。",
+        "source": "Energy-Storage.News / Rept Battero",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "methodology": "14:00新增证据"
+      },
+      {
+        "label": "电芯订单景气",
+        "score": 78,
+        "summary": "楚能50GWh集中签约强化大容量储能电芯需求，订单向头部企业集中。",
+        "source": "储能中国网 / 楚能新能源",
+        "as_of": "2026-05-17",
+        "url": "http://cnnes.cc/qiye/20260515/13411.html",
+        "methodology": "12:00新增证据"
+      },
+      {
+        "label": "长时储能招标",
+        "score": 74,
+        "summary": "乌兰察布1GW/6GWh设备招标与德国1GWh并网协议共同指向长时储能项目放量。",
+        "source": "储能中国网 / Energy-Storage.News",
+        "as_of": "2026-05-17",
+        "url": "http://www.cnnes.cc/zhaobiao/xiangmu/",
+        "methodology": "12:00新增证据"
+      },
+      {
+        "label": "海外项目融资",
+        "score": 67,
+        "summary": "esVolta德州300MWh项目获得MUFG融资，长期offtake继续成为美国BESS可融资性关键。",
+        "source": "Energy-Storage.News",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/esvolta-secures-us140-million-financing-for-300mwh-texas-battery-storage-project/",
+        "methodology": "12:00新增证据"
+      },
+      {
+        "label": "国内价格传导",
+        "score": 72,
+        "summary": "InfoLink显示锂盐、314Ah电芯和4小时系统价格同步偏强，电芯向系统端传导增强。",
+        "source": "InfoLink Consulting",
+        "as_of": "2026-05-17",
+        "url": "https://www.infolink-group.com/energy-article/cn/ess-spot-price-20260506",
+        "methodology": "11:00新增证据"
+      },
+      {
+        "label": "BESS成本风险",
+        "score": 32,
+        "summary": "Energy-Storage.News称锂价三倍上涨、能源价格与退税变化可能推高短期BESS价格。",
+        "source": "Energy-Storage.News",
+        "as_of": "2026-05-17",
+        "url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "methodology": "11:00新增证据"
+      },
+      {
+        "label": "欧洲长时储能融资",
+        "score": 64,
+        "summary": "德国长时BESS机会增强，但融资更看重60%-80%合约化收入与并网可得性。",
+        "source": "pv magazine / Modo Energy",
+        "as_of": "2026-05-17",
+        "url": "https://www.pv-magazine.com/2026/05/07/longer-duration-bess-finds-footing-in-germanys-toll-market/",
+        "methodology": "11:00新增证据"
+      },
       {
         "label": "需求预期",
         "score": 86,
@@ -27792,55 +29669,8 @@ window.NEOLINK_FEED = {
             "value": 0.52
           }
         ]
-      },
-      {
-        "source": "InfoLink Consulting",
-        "source_type": "海外价格与供应链跟踪",
-        "account_name": "InfoLink",
-        "category": "行情",
-        "title": "InfoLink：碳酸锂高位区间震荡，中国BESS价格在电芯涨价传导后仍基本稳定",
-        "summary": "InfoLink 4月20日储能价格链更新称，碳酸锂近期维持高位区间震荡，主力期货大致在16万-17.5万元/吨；SC6锂辉石均价2350美元/吨，较前周上涨5.4%。尽管电芯价格前期上涨已向系统端传导，中国BESS价格仍保持稳定。",
-        "body": [
-          "InfoLink称碳酸锂价格近期处于较高区间震荡，期货主力合约大致运行在16万-17.5万元/吨。",
-          "锂辉石精矿SC6 CIF均价为2350美元/吨，较前周上涨5.4%，矿端偏紧对锂盐价格形成支撑。",
-          "下游方面，中国BESS价格在前期电芯涨价向系统端传导后仍保持稳定；若供给约束缓解，后续价格中枢可能下移。"
-        ],
-        "key_points": [
-          "碳酸锂期货约16万-17.5万元/吨。",
-          "SC6均价2350美元/吨。",
-          "SC6周涨5.4%。",
-          "中国BESS系统价格仍基本稳定。"
-        ],
-        "value": "16-17.5",
-        "unit": "万元/吨 碳酸锂期货主力区间",
-        "delta": "SC6均价2350美元/吨，周涨5.4%；BESS价格稳定",
-        "direction": "flat",
-        "date": "04-20",
-        "as_of": "2026-05-17",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "clean_html": "<p>InfoLink称碳酸锂价格维持高位区间震荡，期货主力大致在16万-17.5万元/吨。</p><p>SC6锂辉石均价2350美元/吨、周涨5.4%；中国BESS价格在电芯涨价传导后仍保持稳定。</p>",
-        "caption": "碳酸锂高位震荡但BESS价格暂稳",
-        "methodology": "01:00小时刷新抓取InfoLink原始HTML；采用页面可见更新时间、期货区间、SC6均价、周变化和BESS系统价格判断。",
-        "history": [
-          {
-            "label": "碳酸锂低位万元/吨",
-            "value": 16
-          },
-          {
-            "label": "碳酸锂高位万元/吨",
-            "value": 17.5
-          },
-          {
-            "label": "SC6美元/吨",
-            "value": 2350
-          },
-          {
-            "label": "SC6周涨%",
-            "value": 5.4
-          }
-        ]
       }
     ]
   },
-  "checked_at": "2026-05-17T10:00:00+08:00"
+  "checked_at": "2026-05-17T16:00:00+08:00"
 };
