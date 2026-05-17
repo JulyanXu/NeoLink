@@ -1,8 +1,137 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-05-17T08:00:00+08:00",
-  "note": "08:00内容刷新：本轮已重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF，HTTP首页与MarketTrend均返回200并落盘。同步主动搜索国内与海外公开来源，并抓取新浪财经/DoNews、Energy-Storage.News等原始页面。新增可信信息：DoNews 5月11日报道电池级碳酸锂逼近20万元/吨，2026年以来全国超200个大型储能项目被砍，至少6GWh项目废标中止，并列举陕西铜川、宁夏通久、内蒙古能源集团项目弃标/暂停案例；新浪财经同主题文章披露锂价上涨对储能IRR与动态联动报价的冲击；Energy-Storage.News 4月15日报道美国BESS退化风险在实际运营中显性化，典型电网级电池首十年容量衰减20-30%，商户市场高循环使项目估值面临数千万美元影响；Energy-Storage.News 2月11日德国大型电池储能监管议程称德国已并网约24GWh储能、同比+22%，但>1MWh大型储能仅约3.5GWh，2026年并网/费用/市场规则成为关键。MarketTrend同步刷新行情证据、热点词、情绪趋势与来源索引，保留source/as_of/methodology/url字段。",
+  "generated_at": "2026-05-17T10:00:00+08:00",
+  "note": "10:00内容刷新：本轮严格重新抓取NeoLink首页与MarketTrend入口；HTTPS仍为SSL EOF，HTTP首页和MarketTrend入口均返回200并落盘。同步主动搜索国内与海外公开来源并保存DoNews、SMM、Fastmarkets、Energy-Storage.News、ING Think等原始页面。新增可信信息：SMM新能源产业博览会资料称2026-2030年全球储能需求CAGR约24%，2030年约1900GWh，储能在锂电需求占比预计由2026年30%升至2030年39%；Fastmarkets在ESS 2026报道中指出2026年锂价波动开始制造BESS成本不确定性，现货碳酸锂约半年上涨约250%，行业对套保仍处早期；ING Think提示美国储能增长虽强但供应链短板仍在，2026年美国电池包名义制造能力约79GWh、电芯约22GWh，若非中国部件需求提升可能推高价格。MarketTrend同步刷新行情证据、热点词、情绪趋势与来源索引，保留source/as_of/methodology/url字段。",
   "sections": {
     "headlines": [
+      {
+        "source": "上海有色网 SMM",
+        "source_type": "国内专业数据/会议资料",
+        "account_name": "SMM",
+        "category": "需求",
+        "title": "SMM：2026-2030年全球储能需求CAGR约24%，2030年约1900GWh",
+        "summary": "SMM在2026新能源产业博览会电力市场及能源转型论坛资料中称，2026-2030年全球储能市场需求将逐年攀升，复合年均增长率约24%，2030年全球储能市场需求预计约1900GWh；储能在锂电需求中的占比预计由2026年30%提升至2030年约39%。",
+        "body": [
+          "SMM称全球储能主要增长区域仍集中于中国、美国和欧洲，中东、澳大利亚和东南亚等新兴地区释放大储需求。",
+          "SMM预计2026-2030年全球锂离子电池产量CAGR约17%，储能市场成为锂离子电池重要增长极。",
+          "资料同时提示储能原材料供需变化，例如磷酸铁锂、硫磺、电解液等材料约束。"
+        ],
+        "key_points": [
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球储能需求预计约1900GWh。",
+          "储能在锂电需求占比由2026年30%升至2030年约39%。",
+          "主增量区域：中国、美国、欧洲；中东、澳洲、东南亚释放大储需求。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030E全球储能需求",
+        "delta": "2026-2030 CAGR约24%；锂电需求占比30%→39%",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103872130",
+        "clean_html": "<p>SMM预计2026-2030年全球储能需求CAGR约24%，2030年约1900GWh，储能在锂电需求中的占比升至约39%。</p>",
+        "caption": "长期需求上修继续支撑电芯、材料和海外大储链条景气",
+        "methodology": "10:00小时搜索并抓取SMM原始HTML；采用页面可见会议资料、CAGR、2030需求量和占比预测。",
+        "history": [
+          {
+            "label": "2026占比%",
+            "value": 30
+          },
+          {
+            "label": "2030占比%",
+            "value": 39
+          },
+          {
+            "label": "CAGR%",
+            "value": 24
+          },
+          {
+            "label": "2030需求GWh",
+            "value": 1900
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外大宗商品/价格媒体",
+        "account_name": "Fastmarkets",
+        "category": "行情",
+        "title": "Fastmarkets：锂价波动制造BESS成本不确定性，套保仍处早期",
+        "summary": "Fastmarkets在ESS 2026报道中称，2026年锂价上涨开始给电池储能系统制造商和开发商带来成本压力。受访者指出，过去约六个月碳酸锂现货价格上涨约250%，但BESS市场参与者对锂价风险套保仍处探索早期。",
+        "body": [
+          "Fastmarkets报道强调，低锂价时期BESS系统价格对锂盐波动不敏感，但2026年价格快速反弹改变了成本假设。",
+          "垂直一体化电芯厂商相对更能吸收涨价，而项目开发商和系统集成商面临更高报价不确定性。",
+          "该证据与国内废标、动态联动报价信号相互印证。"
+        ],
+        "key_points": [
+          "碳酸锂现货约六个月上涨约250%。",
+          "BESS制造商和开发商面临成本不确定性。",
+          "锂价套保仍处探索早期。",
+          "垂直一体化电芯厂商具备更强成本吸收能力。"
+        ],
+        "value": "250",
+        "unit": "% 约六个月锂价涨幅表述",
+        "delta": "BESS成本压力上升；套保早期",
+        "direction": "up",
+        "date": "02-25",
+        "as_of": "2026-05-17",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "clean_html": "<p>Fastmarkets报道，锂价快速波动正使BESS成本不确定性上升，而行业套保工具和实践仍处早期。</p>",
+        "caption": "海外BESS开始把锂价波动纳入项目成本与采购风险管理",
+        "methodology": "10:00小时搜索并抓取Fastmarkets原始HTML；采用页面可见会议报道与受访者表述。",
+        "history": [
+          {
+            "label": "锂价涨幅%",
+            "value": 250
+          },
+          {
+            "label": "会议年份",
+            "value": 2026
+          }
+        ]
+      },
+      {
+        "source": "ING Think / SEIA",
+        "source_type": "海外金融机构研究/行业协会数据",
+        "account_name": "ING Think",
+        "category": "海外",
+        "title": "ING：美国BESS增长强劲但供应链短板明显，2026电池包79GWh、电芯22GWh",
+        "summary": "ING Think关于美国电池储能的分析称，2026年美国BESS增长势头强，但长期增长需要技术创新和成本下降。SEIA估算美国2026年电池包名义制造能力约79GWh，而电芯能力仅约22GWh，显示上游短板；若市场提高非中国部件需求，价格可能上行。",
+        "body": [
+          "ING认为，美国BESS市场受税收抵免和本土制造政策支撑，但供应链本土化仍不完整。",
+          "文章引用SEIA数据：美国2026年电池包制造能力79GWh、电芯制造能力22GWh。",
+          "若政策或买方偏好提升非中国组件需求，可能带来短期价格压力。"
+        ],
+        "key_points": [
+          "美国2026年电池包名义制造能力约79GWh。",
+          "美国2026年电芯制造能力约22GWh。",
+          "电芯能力显著低于pack能力，上游缺口明显。",
+          "非中国部件需求上升可能推高BESS价格。"
+        ],
+        "value": "79/22",
+        "unit": "GWh pack/cell能力",
+        "delta": "电芯约为pack能力28%",
+        "direction": "mixed",
+        "date": "2026",
+        "as_of": "2026-05-17",
+        "url": "https://think.ing.com/articles/us-battery-storage-needs-innovation-for-long-term-growth/",
+        "clean_html": "<p>ING Think提示，美国BESS增长强劲，但电池包与电芯本土制造能力不匹配，供应链与政策要求可能推高成本。</p>",
+        "caption": "美国储能本土制造短板可能成为海外订单与价格的重要变量",
+        "methodology": "10:00小时搜索并抓取ING Think原始HTML；采用页面可见SEIA制造能力估算与政策分析。",
+        "history": [
+          {
+            "label": "pack GWh",
+            "value": 79
+          },
+          {
+            "label": "cell GWh",
+            "value": 22
+          },
+          {
+            "label": "cell/pack %",
+            "value": 28
+          }
+        ]
+      },
       {
         "source": "Energy-Storage.News",
         "source_type": "海外行业媒体/监管分析",
@@ -3851,6 +3980,135 @@ window.NEOLINK_FEED = {
       }
     ],
     "latest": [
+      {
+        "source": "上海有色网 SMM",
+        "source_type": "国内专业数据/会议资料",
+        "account_name": "SMM",
+        "category": "需求",
+        "title": "SMM：2026-2030年全球储能需求CAGR约24%，2030年约1900GWh",
+        "summary": "SMM在2026新能源产业博览会电力市场及能源转型论坛资料中称，2026-2030年全球储能市场需求将逐年攀升，复合年均增长率约24%，2030年全球储能市场需求预计约1900GWh；储能在锂电需求中的占比预计由2026年30%提升至2030年约39%。",
+        "body": [
+          "SMM称全球储能主要增长区域仍集中于中国、美国和欧洲，中东、澳大利亚和东南亚等新兴地区释放大储需求。",
+          "SMM预计2026-2030年全球锂离子电池产量CAGR约17%，储能市场成为锂离子电池重要增长极。",
+          "资料同时提示储能原材料供需变化，例如磷酸铁锂、硫磺、电解液等材料约束。"
+        ],
+        "key_points": [
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球储能需求预计约1900GWh。",
+          "储能在锂电需求占比由2026年30%升至2030年约39%。",
+          "主增量区域：中国、美国、欧洲；中东、澳洲、东南亚释放大储需求。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030E全球储能需求",
+        "delta": "2026-2030 CAGR约24%；锂电需求占比30%→39%",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103872130",
+        "clean_html": "<p>SMM预计2026-2030年全球储能需求CAGR约24%，2030年约1900GWh，储能在锂电需求中的占比升至约39%。</p>",
+        "caption": "长期需求上修继续支撑电芯、材料和海外大储链条景气",
+        "methodology": "10:00小时搜索并抓取SMM原始HTML；采用页面可见会议资料、CAGR、2030需求量和占比预测。",
+        "history": [
+          {
+            "label": "2026占比%",
+            "value": 30
+          },
+          {
+            "label": "2030占比%",
+            "value": 39
+          },
+          {
+            "label": "CAGR%",
+            "value": 24
+          },
+          {
+            "label": "2030需求GWh",
+            "value": 1900
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外大宗商品/价格媒体",
+        "account_name": "Fastmarkets",
+        "category": "行情",
+        "title": "Fastmarkets：锂价波动制造BESS成本不确定性，套保仍处早期",
+        "summary": "Fastmarkets在ESS 2026报道中称，2026年锂价上涨开始给电池储能系统制造商和开发商带来成本压力。受访者指出，过去约六个月碳酸锂现货价格上涨约250%，但BESS市场参与者对锂价风险套保仍处探索早期。",
+        "body": [
+          "Fastmarkets报道强调，低锂价时期BESS系统价格对锂盐波动不敏感，但2026年价格快速反弹改变了成本假设。",
+          "垂直一体化电芯厂商相对更能吸收涨价，而项目开发商和系统集成商面临更高报价不确定性。",
+          "该证据与国内废标、动态联动报价信号相互印证。"
+        ],
+        "key_points": [
+          "碳酸锂现货约六个月上涨约250%。",
+          "BESS制造商和开发商面临成本不确定性。",
+          "锂价套保仍处探索早期。",
+          "垂直一体化电芯厂商具备更强成本吸收能力。"
+        ],
+        "value": "250",
+        "unit": "% 约六个月锂价涨幅表述",
+        "delta": "BESS成本压力上升；套保早期",
+        "direction": "up",
+        "date": "02-25",
+        "as_of": "2026-05-17",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "clean_html": "<p>Fastmarkets报道，锂价快速波动正使BESS成本不确定性上升，而行业套保工具和实践仍处早期。</p>",
+        "caption": "海外BESS开始把锂价波动纳入项目成本与采购风险管理",
+        "methodology": "10:00小时搜索并抓取Fastmarkets原始HTML；采用页面可见会议报道与受访者表述。",
+        "history": [
+          {
+            "label": "锂价涨幅%",
+            "value": 250
+          },
+          {
+            "label": "会议年份",
+            "value": 2026
+          }
+        ]
+      },
+      {
+        "source": "ING Think / SEIA",
+        "source_type": "海外金融机构研究/行业协会数据",
+        "account_name": "ING Think",
+        "category": "海外",
+        "title": "ING：美国BESS增长强劲但供应链短板明显，2026电池包79GWh、电芯22GWh",
+        "summary": "ING Think关于美国电池储能的分析称，2026年美国BESS增长势头强，但长期增长需要技术创新和成本下降。SEIA估算美国2026年电池包名义制造能力约79GWh，而电芯能力仅约22GWh，显示上游短板；若市场提高非中国部件需求，价格可能上行。",
+        "body": [
+          "ING认为，美国BESS市场受税收抵免和本土制造政策支撑，但供应链本土化仍不完整。",
+          "文章引用SEIA数据：美国2026年电池包制造能力79GWh、电芯制造能力22GWh。",
+          "若政策或买方偏好提升非中国组件需求，可能带来短期价格压力。"
+        ],
+        "key_points": [
+          "美国2026年电池包名义制造能力约79GWh。",
+          "美国2026年电芯制造能力约22GWh。",
+          "电芯能力显著低于pack能力，上游缺口明显。",
+          "非中国部件需求上升可能推高BESS价格。"
+        ],
+        "value": "79/22",
+        "unit": "GWh pack/cell能力",
+        "delta": "电芯约为pack能力28%",
+        "direction": "mixed",
+        "date": "2026",
+        "as_of": "2026-05-17",
+        "url": "https://think.ing.com/articles/us-battery-storage-needs-innovation-for-long-term-growth/",
+        "clean_html": "<p>ING Think提示，美国BESS增长强劲，但电池包与电芯本土制造能力不匹配，供应链与政策要求可能推高成本。</p>",
+        "caption": "美国储能本土制造短板可能成为海外订单与价格的重要变量",
+        "methodology": "10:00小时搜索并抓取ING Think原始HTML；采用页面可见SEIA制造能力估算与政策分析。",
+        "history": [
+          {
+            "label": "pack GWh",
+            "value": 79
+          },
+          {
+            "label": "cell GWh",
+            "value": 22
+          },
+          {
+            "label": "cell/pack %",
+            "value": 28
+          }
+        ]
+      },
       {
         "source": "Energy-Storage.News",
         "source_type": "海外行业媒体/监管分析",
@@ -15612,6 +15870,92 @@ window.NEOLINK_FEED = {
     ],
     "materials": [
       {
+        "source": "上海有色网 SMM",
+        "source_type": "国内专业数据/会议资料",
+        "account_name": "SMM",
+        "category": "需求",
+        "title": "SMM：2026-2030年全球储能需求CAGR约24%，2030年约1900GWh",
+        "summary": "SMM在2026新能源产业博览会电力市场及能源转型论坛资料中称，2026-2030年全球储能市场需求将逐年攀升，复合年均增长率约24%，2030年全球储能市场需求预计约1900GWh；储能在锂电需求中的占比预计由2026年30%提升至2030年约39%。",
+        "body": [
+          "SMM称全球储能主要增长区域仍集中于中国、美国和欧洲，中东、澳大利亚和东南亚等新兴地区释放大储需求。",
+          "SMM预计2026-2030年全球锂离子电池产量CAGR约17%，储能市场成为锂离子电池重要增长极。",
+          "资料同时提示储能原材料供需变化，例如磷酸铁锂、硫磺、电解液等材料约束。"
+        ],
+        "key_points": [
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球储能需求预计约1900GWh。",
+          "储能在锂电需求占比由2026年30%升至2030年约39%。",
+          "主增量区域：中国、美国、欧洲；中东、澳洲、东南亚释放大储需求。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030E全球储能需求",
+        "delta": "2026-2030 CAGR约24%；锂电需求占比30%→39%",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103872130",
+        "clean_html": "<p>SMM预计2026-2030年全球储能需求CAGR约24%，2030年约1900GWh，储能在锂电需求中的占比升至约39%。</p>",
+        "caption": "长期需求上修继续支撑电芯、材料和海外大储链条景气",
+        "methodology": "10:00小时搜索并抓取SMM原始HTML；采用页面可见会议资料、CAGR、2030需求量和占比预测。",
+        "history": [
+          {
+            "label": "2026占比%",
+            "value": 30
+          },
+          {
+            "label": "2030占比%",
+            "value": 39
+          },
+          {
+            "label": "CAGR%",
+            "value": 24
+          },
+          {
+            "label": "2030需求GWh",
+            "value": 1900
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外大宗商品/价格媒体",
+        "account_name": "Fastmarkets",
+        "category": "行情",
+        "title": "Fastmarkets：锂价波动制造BESS成本不确定性，套保仍处早期",
+        "summary": "Fastmarkets在ESS 2026报道中称，2026年锂价上涨开始给电池储能系统制造商和开发商带来成本压力。受访者指出，过去约六个月碳酸锂现货价格上涨约250%，但BESS市场参与者对锂价风险套保仍处探索早期。",
+        "body": [
+          "Fastmarkets报道强调，低锂价时期BESS系统价格对锂盐波动不敏感，但2026年价格快速反弹改变了成本假设。",
+          "垂直一体化电芯厂商相对更能吸收涨价，而项目开发商和系统集成商面临更高报价不确定性。",
+          "该证据与国内废标、动态联动报价信号相互印证。"
+        ],
+        "key_points": [
+          "碳酸锂现货约六个月上涨约250%。",
+          "BESS制造商和开发商面临成本不确定性。",
+          "锂价套保仍处探索早期。",
+          "垂直一体化电芯厂商具备更强成本吸收能力。"
+        ],
+        "value": "250",
+        "unit": "% 约六个月锂价涨幅表述",
+        "delta": "BESS成本压力上升；套保早期",
+        "direction": "up",
+        "date": "02-25",
+        "as_of": "2026-05-17",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "clean_html": "<p>Fastmarkets报道，锂价快速波动正使BESS成本不确定性上升，而行业套保工具和实践仍处早期。</p>",
+        "caption": "海外BESS开始把锂价波动纳入项目成本与采购风险管理",
+        "methodology": "10:00小时搜索并抓取Fastmarkets原始HTML；采用页面可见会议报道与受访者表述。",
+        "history": [
+          {
+            "label": "锂价涨幅%",
+            "value": 250
+          },
+          {
+            "label": "会议年份",
+            "value": 2026
+          }
+        ]
+      },
+      {
         "source": "DoNews / 新浪财经",
         "source_type": "国内财经媒体交叉报道",
         "account_name": "DoNews / 新浪财经",
@@ -17421,6 +17765,33 @@ window.NEOLINK_FEED = {
       }
     ],
     "metrics": [
+      {
+        "label": "2030全球储能需求预测",
+        "value": "1900GWh",
+        "delta": "SMM：2026-2030 CAGR约24%",
+        "source": "SMM",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103872130",
+        "methodology": "10:00新增，采用SMM页面可见会议资料"
+      },
+      {
+        "label": "美国BESS制造能力缺口",
+        "value": "79/22GWh",
+        "delta": "pack/cell，SEIA via ING",
+        "source": "ING Think / SEIA",
+        "as_of": "2026-05-17",
+        "url": "https://think.ing.com/articles/us-battery-storage-needs-innovation-for-long-term-growth/",
+        "methodology": "10:00新增，采用ING页面引用SEIA估算"
+      },
+      {
+        "label": "锂价波动压力",
+        "value": "+250%",
+        "delta": "Fastmarkets受访者称约六个月现货涨幅",
+        "source": "Fastmarkets",
+        "as_of": "2026-05-17",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "methodology": "10:00新增，采用Fastmarkets会议报道"
+      },
       {
         "source": "Energy-Storage.News",
         "source_type": "海外行业媒体/监管分析",
@@ -23161,6 +23532,88 @@ window.NEOLINK_FEED = {
     ],
     "overseas": [
       {
+        "source": "ING Think / SEIA",
+        "source_type": "海外金融机构研究/行业协会数据",
+        "account_name": "ING Think",
+        "category": "海外",
+        "title": "ING：美国BESS增长强劲但供应链短板明显，2026电池包79GWh、电芯22GWh",
+        "summary": "ING Think关于美国电池储能的分析称，2026年美国BESS增长势头强，但长期增长需要技术创新和成本下降。SEIA估算美国2026年电池包名义制造能力约79GWh，而电芯能力仅约22GWh，显示上游短板；若市场提高非中国部件需求，价格可能上行。",
+        "body": [
+          "ING认为，美国BESS市场受税收抵免和本土制造政策支撑，但供应链本土化仍不完整。",
+          "文章引用SEIA数据：美国2026年电池包制造能力79GWh、电芯制造能力22GWh。",
+          "若政策或买方偏好提升非中国组件需求，可能带来短期价格压力。"
+        ],
+        "key_points": [
+          "美国2026年电池包名义制造能力约79GWh。",
+          "美国2026年电芯制造能力约22GWh。",
+          "电芯能力显著低于pack能力，上游缺口明显。",
+          "非中国部件需求上升可能推高BESS价格。"
+        ],
+        "value": "79/22",
+        "unit": "GWh pack/cell能力",
+        "delta": "电芯约为pack能力28%",
+        "direction": "mixed",
+        "date": "2026",
+        "as_of": "2026-05-17",
+        "url": "https://think.ing.com/articles/us-battery-storage-needs-innovation-for-long-term-growth/",
+        "clean_html": "<p>ING Think提示，美国BESS增长强劲，但电池包与电芯本土制造能力不匹配，供应链与政策要求可能推高成本。</p>",
+        "caption": "美国储能本土制造短板可能成为海外订单与价格的重要变量",
+        "methodology": "10:00小时搜索并抓取ING Think原始HTML；采用页面可见SEIA制造能力估算与政策分析。",
+        "history": [
+          {
+            "label": "pack GWh",
+            "value": 79
+          },
+          {
+            "label": "cell GWh",
+            "value": 22
+          },
+          {
+            "label": "cell/pack %",
+            "value": 28
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外大宗商品/价格媒体",
+        "account_name": "Fastmarkets",
+        "category": "行情",
+        "title": "Fastmarkets：锂价波动制造BESS成本不确定性，套保仍处早期",
+        "summary": "Fastmarkets在ESS 2026报道中称，2026年锂价上涨开始给电池储能系统制造商和开发商带来成本压力。受访者指出，过去约六个月碳酸锂现货价格上涨约250%，但BESS市场参与者对锂价风险套保仍处探索早期。",
+        "body": [
+          "Fastmarkets报道强调，低锂价时期BESS系统价格对锂盐波动不敏感，但2026年价格快速反弹改变了成本假设。",
+          "垂直一体化电芯厂商相对更能吸收涨价，而项目开发商和系统集成商面临更高报价不确定性。",
+          "该证据与国内废标、动态联动报价信号相互印证。"
+        ],
+        "key_points": [
+          "碳酸锂现货约六个月上涨约250%。",
+          "BESS制造商和开发商面临成本不确定性。",
+          "锂价套保仍处探索早期。",
+          "垂直一体化电芯厂商具备更强成本吸收能力。"
+        ],
+        "value": "250",
+        "unit": "% 约六个月锂价涨幅表述",
+        "delta": "BESS成本压力上升；套保早期",
+        "direction": "up",
+        "date": "02-25",
+        "as_of": "2026-05-17",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "clean_html": "<p>Fastmarkets报道，锂价快速波动正使BESS成本不确定性上升，而行业套保工具和实践仍处早期。</p>",
+        "caption": "海外BESS开始把锂价波动纳入项目成本与采购风险管理",
+        "methodology": "10:00小时搜索并抓取Fastmarkets原始HTML；采用页面可见会议报道与受访者表述。",
+        "history": [
+          {
+            "label": "锂价涨幅%",
+            "value": 250
+          },
+          {
+            "label": "会议年份",
+            "value": 2026
+          }
+        ]
+      },
+      {
         "source": "Energy-Storage.News",
         "source_type": "海外行业媒体/监管分析",
         "account_name": "Energy-Storage.News",
@@ -25906,6 +26359,92 @@ window.NEOLINK_FEED = {
     ],
     "market": [
       {
+        "source": "Fastmarkets",
+        "source_type": "海外大宗商品/价格媒体",
+        "account_name": "Fastmarkets",
+        "category": "行情",
+        "title": "Fastmarkets：锂价波动制造BESS成本不确定性，套保仍处早期",
+        "summary": "Fastmarkets在ESS 2026报道中称，2026年锂价上涨开始给电池储能系统制造商和开发商带来成本压力。受访者指出，过去约六个月碳酸锂现货价格上涨约250%，但BESS市场参与者对锂价风险套保仍处探索早期。",
+        "body": [
+          "Fastmarkets报道强调，低锂价时期BESS系统价格对锂盐波动不敏感，但2026年价格快速反弹改变了成本假设。",
+          "垂直一体化电芯厂商相对更能吸收涨价，而项目开发商和系统集成商面临更高报价不确定性。",
+          "该证据与国内废标、动态联动报价信号相互印证。"
+        ],
+        "key_points": [
+          "碳酸锂现货约六个月上涨约250%。",
+          "BESS制造商和开发商面临成本不确定性。",
+          "锂价套保仍处探索早期。",
+          "垂直一体化电芯厂商具备更强成本吸收能力。"
+        ],
+        "value": "250",
+        "unit": "% 约六个月锂价涨幅表述",
+        "delta": "BESS成本压力上升；套保早期",
+        "direction": "up",
+        "date": "02-25",
+        "as_of": "2026-05-17",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "clean_html": "<p>Fastmarkets报道，锂价快速波动正使BESS成本不确定性上升，而行业套保工具和实践仍处早期。</p>",
+        "caption": "海外BESS开始把锂价波动纳入项目成本与采购风险管理",
+        "methodology": "10:00小时搜索并抓取Fastmarkets原始HTML；采用页面可见会议报道与受访者表述。",
+        "history": [
+          {
+            "label": "锂价涨幅%",
+            "value": 250
+          },
+          {
+            "label": "会议年份",
+            "value": 2026
+          }
+        ]
+      },
+      {
+        "source": "上海有色网 SMM",
+        "source_type": "国内专业数据/会议资料",
+        "account_name": "SMM",
+        "category": "需求",
+        "title": "SMM：2026-2030年全球储能需求CAGR约24%，2030年约1900GWh",
+        "summary": "SMM在2026新能源产业博览会电力市场及能源转型论坛资料中称，2026-2030年全球储能市场需求将逐年攀升，复合年均增长率约24%，2030年全球储能市场需求预计约1900GWh；储能在锂电需求中的占比预计由2026年30%提升至2030年约39%。",
+        "body": [
+          "SMM称全球储能主要增长区域仍集中于中国、美国和欧洲，中东、澳大利亚和东南亚等新兴地区释放大储需求。",
+          "SMM预计2026-2030年全球锂离子电池产量CAGR约17%，储能市场成为锂离子电池重要增长极。",
+          "资料同时提示储能原材料供需变化，例如磷酸铁锂、硫磺、电解液等材料约束。"
+        ],
+        "key_points": [
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球储能需求预计约1900GWh。",
+          "储能在锂电需求占比由2026年30%升至2030年约39%。",
+          "主增量区域：中国、美国、欧洲；中东、澳洲、东南亚释放大储需求。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030E全球储能需求",
+        "delta": "2026-2030 CAGR约24%；锂电需求占比30%→39%",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103872130",
+        "clean_html": "<p>SMM预计2026-2030年全球储能需求CAGR约24%，2030年约1900GWh，储能在锂电需求中的占比升至约39%。</p>",
+        "caption": "长期需求上修继续支撑电芯、材料和海外大储链条景气",
+        "methodology": "10:00小时搜索并抓取SMM原始HTML；采用页面可见会议资料、CAGR、2030需求量和占比预测。",
+        "history": [
+          {
+            "label": "2026占比%",
+            "value": 30
+          },
+          {
+            "label": "2030占比%",
+            "value": 39
+          },
+          {
+            "label": "CAGR%",
+            "value": 24
+          },
+          {
+            "label": "2030需求GWh",
+            "value": 1900
+          }
+        ]
+      },
+      {
         "source": "DoNews / 新浪财经",
         "source_type": "国内财经媒体交叉报道",
         "account_name": "DoNews / 新浪财经",
@@ -26405,6 +26944,33 @@ window.NEOLINK_FEED = {
       }
     ],
     "sentiment": [
+      {
+        "label": "需求预期",
+        "score": 86,
+        "summary": "SMM将2030全球储能需求上看到约1900GWh，长期景气偏正面。",
+        "source": "SMM",
+        "as_of": "2026-05-17",
+        "url": "https://news.smm.cn/news/103872130",
+        "methodology": "10:00新增证据"
+      },
+      {
+        "label": "成本风险",
+        "score": 34,
+        "summary": "Fastmarkets与国内废标信号共同显示锂价波动推升BESS成本与履约风险。",
+        "source": "Fastmarkets / DoNews",
+        "as_of": "2026-05-17",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "methodology": "10:00新增证据"
+      },
+      {
+        "label": "海外供应链",
+        "score": 58,
+        "summary": "美国储能增长强但电芯本土能力不足，订单机会与成本风险并存。",
+        "source": "ING Think / SEIA",
+        "as_of": "2026-05-17",
+        "url": "https://think.ing.com/articles/us-battery-storage-needs-innovation-for-long-term-growth/",
+        "methodology": "10:00新增证据"
+      },
       {
         "source": "Energy-Storage.News",
         "source_type": "海外行业媒体/监管分析",
@@ -27276,5 +27842,5 @@ window.NEOLINK_FEED = {
       }
     ]
   },
-  "checked_at": "2026-05-17T07:00:00+08:00"
+  "checked_at": "2026-05-17T10:00:00+08:00"
 };
