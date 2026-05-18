@@ -1,8 +1,481 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-18T11:00:00+08:00",
-  "note": "11:00严格刷新：已重新读取NeoLink首页与MarketTrend入口，HTTP首页和/markettrend/均返回200并保存HTML与sha256，HTTPS在当前执行环境仍为SSL_ERROR_SYSCALL。本轮主动搜索国内+海外公开来源并读取原文：新增碳索储能5月16日周报（44条招标、59条中标、亿纬印度8GWh订单、容量补偿政策）和PV Tech中东Masdar/EWEC超30GW光伏+超8GW储能合作框架；SMM新能源频道同步复查，未发现较10:00更可信的新储能价格周评。",
+  "generated_at": "2026-05-18T15:00:00+08:00",
+  "note": "15:00严格刷新：已重新抓取NeoLink首页与MarketTrend入口；主动搜索国内+海外公开来源并抓取SMM、国际储能网、Solarbe、Modo、Energy-Storage.News多篇海外BESS文章。行情方面复核SMM 05-18电池级碳酸锂均价191500元/吨、日跌500元/吨，280Ah储能电芯仍为05-15周价0.334元/Wh；国内继续保留储能头条5月18日周事迹为综合证据，新增海外Synergy西澳500MW/2400MWh Collie投运和英国Matrix/BW ESS超2.2GWh融资/优化进展。",
   "sections": {
     "headlines": [
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外融资与承购/优化新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "英国超2.2GWh BESS推进：Matrix为Eccles获2.45亿英镑融资，BW ESS Hams Hall引入EDF优化",
+        "summary": "Energy-Storage.News报道，英国多个大型BESS取得融资和市场化进展：Matrix Renewables为苏格兰Eccles 500MW/1,000MWh两小时BESS完成2.45亿英镑项目融资，并由EDF提供route-to-market/优化服务、Tesla担任EPC；BW ESS的Hams Hall一期350MW/1,243MWh项目也与EDF合作优化。",
+        "body": [
+          "这条新闻的价值不只在容量，而在“融资+承购/优化+EPC”三要素同时清晰，说明英国储能资产的银行可融资性继续改善。",
+          "两个项目合计超过2.2GWh，覆盖苏格兰和英格兰中部电网节点，对英国频率服务、批发价差和容量市场收入形成新增供给。",
+          "本轮把该条作为海外资本市场增量，和Modo美国BESS资本市场报告相互印证。"
+        ],
+        "key_points": [
+          "Matrix Eccles：500MW/1,000MWh，项目融资2.45亿英镑。",
+          "EDF为Matrix Eccles提供优化/route-to-market服务，Tesla担任EPC。",
+          "BW ESS Hams Hall一期：350MW/1,243MWh，并引入EDF优化。",
+          "两项容量合计约2,243MWh。"
+        ],
+        "value": "2243",
+        "unit": "MWh 英国BESS容量",
+        "delta": "Matrix融资£245m；EDF优化Hams Hall",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/matrix-renewables-bw-ess-secure-finance-and-offtake-for-over-2-2gwh-of-uk-bess/",
+        "clean_html": "<p>Energy-Storage.News称Matrix Renewables和BW ESS在英国合计推进超过2.2GWh BESS，Matrix Eccles获2.45亿英镑融资，Hams Hall引入EDF优化。</p>",
+        "caption": "海外融资：英国BESS项目从容量公告进入融资和优化合约落地",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 1e4ece587a697c20edb1a9237ddec324f7994d704b70b14b153a4f89ea4f15c8；采用公开摘要中的容量、融资额、优化方和EPC字段。",
+        "history": [
+          {
+            "label": "Eccles功率 MW",
+            "value": 500
+          },
+          {
+            "label": "Eccles容量 MWh",
+            "value": 1000
+          },
+          {
+            "label": "Eccles融资 百万英镑",
+            "value": 245
+          },
+          {
+            "label": "Hams Hall功率 MW",
+            "value": 350
+          },
+          {
+            "label": "Hams Hall容量 MWh",
+            "value": 1243
+          },
+          {
+            "label": "合计容量 MWh",
+            "value": 2243
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外项目投运新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "澳大利亚最大运营BESS投运：Synergy完成500MW/2,400MWh Collie Battery，CATL供货",
+        "summary": "Energy-Storage.News 5月18日报道，西澳州有能源公司Synergy完成Collie Battery Energy Storage System，规模500MW/2,400MWh，成为澳大利亚最大运营电池储能系统；报道称项目容量从早前2,000MWh口径提升至2,400MWh。",
+        "body": [
+          "该项目超过Waratah Super Battery 1,680MWh、Eraring Battery Stage 1 1,770MWh以及Neoen Collie Battery 2,200MWh等澳大利亚大型项目。",
+          "对NeoLink判断的意义：澳大利亚大储从审批和建设新闻进入超2GWh级并网投运阶段，供应链中CATL等中国电池企业继续参与海外大型项目。",
+          "本轮使用搜索结果摘要和实时抓取页面留档；若后续公开更多商业条款，再补充EPC、优化商和收益结构。"
+        ],
+        "key_points": [
+          "项目规模：500MW/2,400MWh。",
+          "业主：西澳州有能源公司Synergy；电池供应相关标题提及CATL-powered。",
+          "地点：Western Australia, Collie；状态：completed / operational。",
+          "容量口径较此前2,000MWh媒体说法上调到2,400MWh。"
+        ],
+        "value": "2400",
+        "unit": "MWh 运营BESS容量",
+        "delta": "澳大利亚最大运营BESS；500MW功率",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/australias-largest-operational-bess-synergy-completes-catl-powered-2400mwh-collie-battery/",
+        "clean_html": "<p>Energy-Storage.News报道称，Synergy完成西澳Collie 500MW/2,400MWh BESS，成为澳大利亚最大运营电池储能系统。</p>",
+        "caption": "海外投运：澳大利亚进入2GWh级运营BESS阶段",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 e902c147df4619e780d7fa8b0fc7425f9c9351cd5e1dbcb68c5b24655d6c919a；采用Energy-Storage.News题名与搜索摘要中公开字段，未臆造融资或电价条款。",
+        "history": [
+          {
+            "label": "功率 MW",
+            "value": 500
+          },
+          {
+            "label": "容量 MWh",
+            "value": 2400
+          },
+          {
+            "label": "此前报道容量 MWh",
+            "value": 2000
+          },
+          {
+            "label": "Waratah Super Battery MWh",
+            "value": 1680
+          },
+          {
+            "label": "Eraring Battery Stage 1 MWh",
+            "value": 1770
+          },
+          {
+            "label": "Neoen Collie Battery MWh",
+            "value": 2200
+          }
+        ]
+      },
+      {
+        "source": "储能头条 / 国际储能网",
+        "source_type": "国内储能周事迹/政策、订单、招中标汇总",
+        "account_name": "储能头条",
+        "category": "周度综述",
+        "title": "储能头条5月18日周事迹：4月储能电池销量55.2GWh，同比+75.5%，国内外项目密集披露",
+        "summary": "15:00复查5月18日储能周事迹：4月动力和储能电池合计销量164.2GWh，其中储能电池55.2GWh、同比+75.5%；同文列出楚能50GWh签约、亿纬印度8GWh订单、宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh等项目线索。",
+        "body": [
+          "该来源把政策、招中标、出海订单、并网和产销数据合并呈现，本轮保留其作为国内综合证据源。",
+          "重点变化仍集中在大容量项目招采和容量电价/质量监管，而不是单一电芯报价。",
+          "海外出海线索包括乌克兰15MWh、波黑135MWh、智利300MW/1200MWh和印度8GWh订单。"
+        ],
+        "key_points": [
+          "4月储能电池销量55.2GWh，同比+75.5%；1-4月储能电池累计销量200.4GWh，同比+100.4%。",
+          "楚能与五家企业累计签约50GWh；亿纬锂能与印度GNEPL签署8GWh订单。",
+          "宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh设备采购继续提示国内大储需求。"
+        ],
+        "value": "55.2",
+        "unit": "GWh 4月储能电池销量",
+        "delta": "同比+75.5%；1-4月累计200.4GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://chuneng.in-en.com/html/chunengy-54481.shtml",
+        "clean_html": "<p>储能头条5月18日周事迹显示，4月储能电池销量55.2GWh，同比+75.5%；国内大储招采与海外订单同步活跃。</p>",
+        "caption": "国内综合：产销、项目和出海订单同向放量",
+        "methodology": "15:00国内公开来源复查；HTTP 200 sha256 be69658625ff2f489ca7eccc1035727d371116ec66c2108629bba186e5c8c8a1；按原文列举项目、订单和产销数据摘录，未把转载内容当作单一官方统计。",
+        "history": [
+          {
+            "label": "4月动力+储能电池销量 GWh",
+            "value": 164.2
+          },
+          {
+            "label": "4月储能电池销量 GWh",
+            "value": 55.2
+          },
+          {
+            "label": "1-4月储能电池累计销量 GWh",
+            "value": 200.4
+          },
+          {
+            "label": "楚能签约规模 GWh",
+            "value": 50
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "乌兰察布项目 MWh",
+            "value": 6000
+          }
+        ]
+      },
+      {
+        "source": "上海有色网 SMM 储能专区",
+        "source_type": "公开行情表/锂电与储能材料价格",
+        "account_name": "SMM",
+        "category": "行情价格",
+        "title": "SMM 15:00复核：电池级碳酸锂均价19.15万元/吨，280Ah储能电芯仍为0.334元/Wh周价",
+        "summary": "15:00重新抓取SMM储能专区；公开行情仍显示05-18电池级碳酸锂187000-196000元/吨、均价191500元/吨、日跌500元/吨；储能型280Ah方形LFP电芯仍为05-15周度报价0.312-0.356元/Wh、均价0.334元/Wh。",
+        "body": [
+          "本轮继续使用SMM实时页面而非搜索摘要，避免把05-15缓存值误当成最新行情。",
+          "直流侧储能电池预制舱：3.44/3.72MWh均价0.44元/Wh，5MWh均价0.4525元/Wh，日期均为05-15。",
+          "集中式PCS 1725kW报价0.062-0.068元/W，均价0.065元/W，日期05-15。"
+        ],
+        "key_points": [
+          "电池级碳酸锂：187000-196000元/吨，均价191500元/吨，日跌500元/吨，日期05-18。",
+          "储能型280Ah方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，日期05-15。",
+          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh，日期05-15。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "-500元/吨；280Ah储能电芯0.334元/Wh",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM储能专区公开表显示：05-18电池级碳酸锂均价191500元/吨、日跌500元/吨；05-15储能型280Ah方形LFP电芯均价0.334元/Wh。</p>",
+        "caption": "行情复核：锂盐日度小跌，储能电芯周价未日更",
+        "methodology": "15:00国内公开行情复核；HTTP 200 sha256 66549759a3fa5f2e1d4b0ac132fd4fa7f0906807e2ecbd1b9608f61b08b0b8a1；逐项摘录SMM公开表，不把锂盐日度价格外推为电芯报价。",
+        "history": [
+          {
+            "label": "电池级碳酸锂低值 元/吨",
+            "value": 187000
+          },
+          {
+            "label": "电池级碳酸锂高值 元/吨",
+            "value": 196000
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "日变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯均价 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "5MWh预制舱均价 元/Wh",
+            "value": 0.4525
+          }
+        ]
+      },
+      {
+        "source": "Modo Energy",
+        "source_type": "海外BESS资本市场季度报告",
+        "account_name": "Modo Energy",
+        "category": "海外市场",
+        "title": "Modo Energy：美国BESS一季度公开交易17笔、2.4GW，交易数量环比增长42%",
+        "summary": "Modo Energy Q1 2026美国BESS资本市场报告显示，一季度公开披露BESS交易17笔，高于2025年四季度12笔，环比+42%；合计增加2.4GW容量，包含8笔融资、7笔并购和2笔股权投资。ERCOT以10笔交易领先，CAISO和NYISO各3笔；较大融资案例包括TransGrid Energy亚利桑那Atlas VIII项目382MW，项目债务6.56亿美元，并属更大12亿美元组合的一部分。",
+        "body": [
+          "海外融资信号对NeoLink的意义在于：美国储能资产已从单个项目公告转入更规范的资本市场跟踪，融资、并购、税收抵免转让和tax equity共同决定项目落地速度。",
+          "报告显示ERCOT仍是交易最活跃市场，但CAISO和NYISO也有交易，说明储能资本正在从得州套利市场扩散到容量和清洁能源政策支持更强的区域。",
+          "本轮仅采用报告摘要中的公开字段；对Atlas VIII容量按Modo摘要的382MW记录，避免把12亿美元组合误读为单一BESS项目价值。"
+        ],
+        "key_points": [
+          "Q1 2026美国BESS公开交易17笔，较Q4 2025的12笔增加42%。",
+          "合计新增2.4GW容量；结构为8笔融资、7笔M&A、2笔股权投资。",
+          "ERCOT 10笔居首，CAISO和NYISO各3笔。",
+          "TransGrid Energy Atlas VIII：382MW，项目债务6.56亿美元，属12亿美元组合的一部分。"
+        ],
+        "value": "17",
+        "unit": "笔 Q1美国BESS公开交易",
+        "delta": "环比+42%；新增2.4GW",
+        "direction": "up",
+        "date": "Q1-2026",
+        "as_of": "2026-05-18",
+        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "clean_html": "<p>Modo Energy称Q1 2026美国BESS公开交易17笔、2.4GW，交易数量较上一季度增长42%。</p>",
+        "caption": "海外资本：美国BESS融资和并购重新升温",
+        "methodology": "14:00海外公开来源搜索；Modo页面HTTP 200，sha256 d12e01a9329dbae98749c7b5af4667779543d2d6e59046c696f9cfe79b559dd1；抽取报告摘要中的交易数量、容量、市场分布和融资案例。",
+        "history": [
+          {
+            "label": "公开交易 笔",
+            "value": 17
+          },
+          {
+            "label": "新增容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "融资 笔",
+            "value": 8
+          },
+          {
+            "label": "M&A 笔",
+            "value": 7
+          },
+          {
+            "label": "股权投资 笔",
+            "value": 2
+          },
+          {
+            "label": "Atlas VIII债务融资 百万美元",
+            "value": 656
+          }
+        ]
+      },
+      {
+        "source": "碳索储能网 / Solarbe",
+        "source_type": "国内储能周报/招中标、政策、企业动态",
+        "account_name": "碳索储能",
+        "category": "招中标",
+        "title": "碳索储能周报：本期44条招标、59条中标，吉林/陕西独立储能容量电价成为政策焦点",
+        "summary": "碳索储能5月16日周报显示，本期汇总44条项目招标和59条项目中标；企业端包括亿纬锂能印度8GWh订单、比亚迪储能与Corvus Energy海事电池合作、海辰储能谈AIDC成为储能最大增量；政策端包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西容量电价征求意见。",
+        "body": [
+          "该周报与5月18日储能头条清单相互印证：国内储能从单纯项目规模竞争转向“项目招标+容量补偿+并网质量监督”三条线同时推进。",
+          "吉林政策以煤电容量电价330元/千瓦·年为基础按顶峰能力折算，陕西征求意见稿提出165元/kW·年并按6小时折算，均指向独立储能现金流可预期性。",
+          "周报还列出华北区域新型储能并网运行管理征求意见，非计划停运、脱网容量比例等被纳入考核，提示项目开发不能只看低价中标。"
+        ],
+        "key_points": [
+          "本期周报：44条项目招标、59条项目中标。",
+          "吉林独立储能容量补偿以330元/千瓦·年为基础按顶峰能力折算。",
+          "陕西征求意见稿提出电网侧独立新型储能容量电价165元/kW·年，按6小时折算。",
+          "国家能源局质量监督大纲覆盖100MW及以上电化学储能、压缩空气储能电站。"
+        ],
+        "value": "44/59",
+        "unit": "条 招标/中标",
+        "delta": "容量补偿与质量监督同步升温",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://cn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能周报汇总44条招标、59条中标，并跟踪吉林、陕西独立储能容量电价及国家能源局质量监督大纲。</p>",
+        "caption": "招中标周报：数量扩张后，容量电价和质量考核开始定价风险",
+        "methodology": "14:00国内公开来源搜索并抓取；碳索储能页面HTTP 200，sha256 8038ca391062605c13ed8054a7dd8ab77a9ab480ce76b1b131c5643ff039a09f；用移动页作交叉抓取以备可读性校验。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "吉林容量电价基准 元/kW年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW年",
+            "value": 165
+          },
+          {
+            "label": "质量监督适用门槛 MW",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Lydian Energy",
+        "source_type": "海外项目融资/BESS PPA",
+        "account_name": "Energy-Storage.News",
+        "category": "海外项目",
+        "title": "Lydian Energy获6.89亿美元融资，覆盖美国150MW/733MWh Faraday BESS等项目",
+        "summary": "Energy-Storage.News报道，IPP Lydian Energy获得6.89亿美元全栈融资，用于美国新墨西哥、得州和犹他州的两个光伏项目及一个BESS项目；其中Faraday BESS一期位于犹他州，规模150MW/733MWh，并有长期PPA支持。",
+        "body": [
+          "该项目的核心信号是：美国大储项目融资仍依赖长期PPA、税收抵免过桥贷款和银团贷款组合，融资结构比单纯设备订单更能反映项目可银行化程度。",
+          "融资由CIBC与MUFG支持，结构包括construction-to-term loan、tax credit bridge loan、co-investment bridge loan和letter of credit facility。",
+          "报道还提到Lydian此前在得州完成3个BESS项目的2.33亿美元项目融资，并披露其太阳能与储能组合约18个项目、总容量4.4GW。"
+        ],
+        "key_points": [
+          "融资金额：6.89亿美元，覆盖两个光伏项目和一个BESS项目。",
+          "Faraday BESS Phase 1：150MW/733MWh，位于犹他州，有长期PPA支持。",
+          "融资银行包括CIBC与MUFG，结构包含税收抵免过桥贷款等。",
+          "Lydian声称其太阳能+储能项目组合总计18个、4.4GW。"
+        ],
+        "value": "733",
+        "unit": "MWh Faraday BESS一期",
+        "delta": "融资6.89亿美元；组合4.4GW",
+        "direction": "up",
+        "date": "02-18",
+        "as_of": "2026-02-18",
+        "url": "https://www.energy-storage.news/lydian-energy-secures-us689-million-for-three-us-bess-and-solar-projects/",
+        "clean_html": "<p>Lydian Energy获得6.89亿美元融资，覆盖美国两个光伏项目和一个BESS项目；Faraday BESS一期规模150MW/733MWh。</p>",
+        "caption": "海外融资：美国BESS项目以PPA和税抵贷款支撑可银行化",
+        "methodology": "13:00海外公开来源搜索；Energy-Storage.News页面HTTP 200，sha256 52d913a579b777cb6190770d6b2aeda7687a82f32810aaa8442038a9be01f8b2；抽取融资金额、项目规模、PPA和融资结构字段。",
+        "history": [
+          {
+            "label": "融资金额 百万美元",
+            "value": 689
+          },
+          {
+            "label": "Faraday功率 MW",
+            "value": 150
+          },
+          {
+            "label": "Faraday容量 MWh",
+            "value": 733
+          },
+          {
+            "label": "Lydian组合 GW",
+            "value": 4.4
+          }
+        ]
+      },
+      {
+        "source": "中国储能网 / CESA储能应用分会，经新浪财经转载",
+        "source_type": "国内招中标月度统计/公开媒体转载",
+        "account_name": "中国储能网",
+        "category": "招中标",
+        "title": "CESA统计：4月储能新增招标27.2GW/85.3GWh，月度容量再创新高",
+        "summary": "中国储能网援引CESA储能应用分会统计称，2026年4月国内新型储能EPC/PC、系统、电芯新增招标合计27.2GW/85.3GWh，同比增长132%；其中EPC/PC 21.1GW/58.6GWh，系统6GW/23.7GWh，电芯3GWh。宁夏、内蒙古、山西新增招标均超过10GWh，4小时及以上长时储能容量占比约52.97%。",
+        "body": [
+          "这条线索对NeoLink的意义在于：国内大储招标强度已经从单个项目驱动转向月度总量刷新，且长时储能、混合储能和非锂技术路线在招标端同步抬升。",
+          "4月明确时长的项目中，2h储能15.94GW/31.89GWh，4h及以上9.3GW/38.74GWh；长时储能按容量已超过2h储能。",
+          "文章还列出17个GWh级储能招标项目，以及昆明安宁350MW/1750MWh压缩空气储能、托里县200MW/1600MWh氢储能调峰等非典型锂电项目，提示技术路线正在扩散。"
+        ],
+        "key_points": [
+          "4月国内储能新增招标27.2GW/85.3GWh，同比+132%，创月度新高。",
+          "EPC/PC招标58.6GWh，占比68.7%；系统招标23.7GWh，电芯招标3GWh。",
+          "宁夏15.49GWh居首，内蒙古11.21GWh、山西10.89GWh均超过10GWh。",
+          "4h及以上长时储能38.74GWh，按容量占52.97%；混合储能总规模3GW/6.7GWh。"
+        ],
+        "value": "85.3",
+        "unit": "GWh 4月新增招标容量",
+        "delta": "同比+132%；EPC/PC占68.7%",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
+        "clean_html": "<p>CESA储能应用分会统计：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比增长132%，宁夏、内蒙古、山西招标容量均超过10GWh。</p>",
+        "caption": "4月国内储能招标容量再破纪录",
+        "methodology": "13:00国内公开来源搜索；新浪转载页面HTTP 200，sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21；交叉检查CNESA搜索页和时代储能网首页均包含相关5月中旬招中标线索。",
+        "history": [
+          {
+            "label": "新增招标容量 GWh",
+            "value": 85.3
+          },
+          {
+            "label": "新增招标功率 GW",
+            "value": 27.2
+          },
+          {
+            "label": "EPC/PC容量 GWh",
+            "value": 58.6
+          },
+          {
+            "label": "系统容量 GWh",
+            "value": 23.7
+          },
+          {
+            "label": "电芯容量 GWh",
+            "value": 3
+          },
+          {
+            "label": "长时储能容量 GWh",
+            "value": 38.74
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / AEMO / Transgrid",
+        "source_type": "海外电网运行规划/构网型储能",
+        "account_name": "Energy-Storage.News",
+        "category": "海外政策",
+        "title": "AEMO将构网型BESS列为2026优先行动，Transgrid拟在新南威尔士部署5GW",
+        "summary": "Energy-Storage.News报道，澳大利亚能源市场运营机构AEMO在FY2026工程路线图中将构网型电池储能列为NEM与SWIS优先行动；同时Transgrid在新南威尔士系统强度方案中筛选超过100个候选方案，组合纳入5GW构网型BESS和10台同步调相机，目标到2032/33形成电网“heartbeat”。",
+        "body": [
+          "该线索的关键不是单个电站中标，而是电网运营方把构网型储能从示范资产推向系统级规划资产；这会提高对PCS控制、惯量/短路比支撑和并网模型验证的要求。",
+          "Transgrid方案称构网型BESS预计提供新南威尔士近半系统强度需求，和同步调相机共同服务高比例新能源电网。",
+          "对中国储能出口企业的含义是：海外大储招标将更重视grid-forming能力、并网仿真、长期性能担保和电网服务收入模型，而不只是$/kWh硬件报价。"
+        ],
+        "key_points": [
+          "AEMO FY2026优先行动覆盖NEM与SWIS，核心包括构网型BESS和分布式能源资源。",
+          "Transgrid评估超过100个系统强度候选方案后，组合选择5GW构网型BESS与10台同步调相机。",
+          "新南威尔士目标时间为2032/33；构网型BESS预计承担近半系统强度需求。",
+          "该消息强化“海外大储从能量套利走向电网稳定服务”的趋势。"
+        ],
+        "value": "5",
+        "unit": "GW 构网型BESS规划",
+        "delta": "另配10台同步调相机；目标2032/33",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.energy-storage.news/aemo-sets-grid-forming-bess-as-a-priority-action-for-2026-set-to-form-the-heartbeat-of-new-south-wales/",
+        "clean_html": "<p>AEMO将构网型BESS列为2026优先行动；Transgrid规划5GW构网型BESS和10台同步调相机以满足新南威尔士系统强度需求。</p>",
+        "caption": "澳洲电网：构网型储能进入系统级规划",
+        "methodology": "12:00海外公开来源检查；页面HTTP 200，sha256 55d41ff796204d9da6fba57890d25ce6a7ca1dca738f37abfd69d9777d9f0a8c；抽取AEMO FY2026优先行动、Transgrid PACR规划容量、同步调相机数量和目标年份。",
+        "history": [
+          {
+            "label": "构网型BESS GW",
+            "value": 5
+          },
+          {
+            "label": "同步调相机 台",
+            "value": 10
+          },
+          {
+            "label": "候选方案 个+",
+            "value": 100
+          },
+          {
+            "label": "目标年份",
+            "value": 2032
+          }
+        ]
+      },
       {
         "source": "PV Tech / Masdar / EWEC",
         "source_type": "海外企业与公用事业合作框架",
@@ -336,62 +809,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM 储能专区",
-        "source_type": "国内公开行情/储能电池与系统报价",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM储能报价：5月15日电池级碳酸锂19.2万元/吨，280Ah储能电芯0.334元/Wh",
-        "summary": "SMM储能专区公开报价显示，2026-05-15电池级碳酸锂188000-196000元/吨、均价192000元/吨、日跌3000元/吨；储能型280Ah方形磷酸铁锂电池0.312-0.356元/Wh、均价0.334元/Wh、周涨0.0015元/Wh；314Ah储能型电芯均价0.3565元/Wh；5MWh直流侧储能电池预制舱均价0.4525元/Wh，集中式PCS 1725kW均价0.065元/W。",
-        "body": [
-          "本轮重新抓取SMM储能专区并解压HTML，补入5月15日可核验公开行情，替换上一轮5月14日碳酸锂快照。",
-          "原料端电池级碳酸锂均价降至192000元/吨，但储能电芯周度均价小幅上行，显示电芯报价仍受交付、规格和需求结构影响。",
-          "系统侧5MWh直流侧预制舱均价0.4525元/Wh、1725kW集中式PCS均价0.065元/W，可作为MarketTrend当日系统报价锚点。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：188000-196000元/吨，均价192000元/吨，日跌3000元/吨，日期05-15。",
-          "280Ah储能型方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，周涨0.0015元/Wh。",
-          "314Ah储能型方形LFP电芯：0.332-0.381元/Wh，均价0.3565元/Wh。",
-          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh。",
-          "集中式PCS 1725kW：0.062-0.068元/W，均价0.065元/W。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；280Ah储能电芯均价0.334元/Wh",
-        "direction": "mixed",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能专区显示，2026-05-15电池级碳酸锂均价192000元/吨，280Ah储能型方形磷酸铁锂电芯均价0.334元/Wh，5MWh直流侧储能电池预制舱均价0.4525元/Wh。</p>",
-        "caption": "SMM 5月15日：碳酸锂下行，储能电芯与5MWh预制舱报价上行",
-        "methodology": "08:00主动国内检索并抓取SMM储能专区HTML（gzip原始sha256 b2560b0e6c043bb64de632607c1fa33e307be505a14f56ad858622b4876b7ba4）；解压后抽取报价表，保留报价日期而非抓取时间。",
-        "history": [
-          {
-            "label": "碳酸锂均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "碳酸锂日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "280Ah电芯均价 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "314Ah电芯均价 元/Wh",
-            "value": 0.3565
-          },
-          {
-            "label": "5MWh预制舱均价 元/Wh",
-            "value": 0.4525
-          },
-          {
-            "label": "1725kW PCS均价 元/W",
-            "value": 0.065
-          }
-        ]
-      },
-      {
         "source": "新浪财经 / 中国储能网 / CESA储能应用分会产业数据库",
         "source_type": "国内招投标/储能系统与电芯价格",
         "account_name": "新浪财经",
@@ -608,58 +1025,6 @@ window.NEOLINK_FEED= {
           {
             "label": "CIF均价 美元/千克",
             "value": 22.3
-          }
-        ]
-      },
-      {
-        "source": "Modo Energy",
-        "source_type": "海外资本市场报告/美国BESS交易",
-        "account_name": "Modo Energy",
-        "category": "海外市场",
-        "title": "Modo：美国BESS一季度公开交易数环比增42%，新增2.4GW容量",
-        "summary": "Modo Energy《U.S. BESS Capital Markets Report - Q1 2026》显示，美国公开披露的BESS交易活动一季度环比增加42%，共跟踪17笔交易（上季度12笔），新增2.4GW容量，结构包括8笔融资、7笔并购和2笔股权投资；ERCOT以10笔交易领先，CAISO和NYISO各3笔。报告还提到TransGrid Energy 382MW Atlas VIII项目的6.56亿美元项目债务融资。",
-        "body": [
-          "海外资本市场侧，本轮补入美国BESS交易活跃度指标：Q1交易数从12笔增至17笔，环比+42%。",
-          "2.4GW新增容量来自融资、并购与股权投资，说明资金不只投向新建，也在重组和资产交易中流动。",
-          "ERCOT占10笔交易，继续是美国储能资产估值和收益结构观察的核心市场。"
-        ],
-        "key_points": [
-          "Q1 2026公开BESS交易：17笔。",
-          "环比增幅：42%（Q4 2025为12笔）。",
-          "新增容量：2.4GW。",
-          "交易结构：8笔融资、7笔并购、2笔股权投资。",
-          "区域：ERCOT 10笔，CAISO与NYISO各3笔。"
-        ],
-        "value": "17",
-        "unit": "笔 美国BESS交易",
-        "delta": "+42% QoQ；新增2.4GW",
-        "direction": "up",
-        "date": "05-01",
-        "as_of": "2026-05-01",
-        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
-        "clean_html": "<p>Modo Energy称，美国BESS Q1 2026公开交易数环比增长42%至17笔，新增2.4GW容量，ERCOT以10笔交易领先。</p>",
-        "caption": "美国BESS资本市场回暖：Q1交易+42%，新增2.4GW",
-        "methodology": "07:00主动海外检索并抓取Modo Energy报告HTML（sha256 857b55422f4e60197d33cce3d298e15063b4836c55a63df0c18c4fdbce41f980）；抽取交易笔数、环比、容量、交易结构和市场分布。",
-        "history": [
-          {
-            "label": "Q1交易数",
-            "value": 17
-          },
-          {
-            "label": "Q4交易数",
-            "value": 12
-          },
-          {
-            "label": "环比增幅 %",
-            "value": 42
-          },
-          {
-            "label": "新增容量 GW",
-            "value": 2.4
-          },
-          {
-            "label": "ERCOT交易数",
-            "value": 10
           }
         ]
       },
@@ -1684,58 +2049,6 @@ window.NEOLINK_FEED= {
           {
             "label": "2026E BESS出货 GWh",
             "value": 600
-          }
-        ]
-      },
-      {
-        "source": "新浪财经 / 中国储能网 / CESA储能应用分会",
-        "source_type": "国内财经媒体转载/协会统计",
-        "account_name": "中国储能网 / CESA储能应用分会",
-        "category": "招中标",
-        "title": "CESA：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比+132%",
-        "summary": "新浪财经5月15日转载中国储能网文章，引用CESA储能应用分会统计：2026年4月国内新型储能新增招标项目387个，EPC/PC（含设备）、储能系统、储能电芯合计27.2GW/85.3GWh，同比增长132%，再创月度新高。EPC/PC新增招标21.1GW/58.6GWh，系统招标6GW/23.7GWh，电芯招标3GWh；4小时及以上长时储能容量38.74GWh，占时长明确项目容量52.97%。",
-        "body": [
-          "4月新增招标前三省份为宁夏、内蒙古、山西，新增招标容量均超过10GWh；宁夏以5.68GW/15.49GWh居首。",
-          "电网侧项目是主力：应用场景明确项目中电网侧23.78GW/64.28GWh，占容量87.3%。",
-          "LFP仍为主流技术路线，文中称4月磷酸铁锂电池储能新增招标23.72GW/76.4GWh；混合储能、飞轮、钠电和压缩空气等路线也在放量。"
-        ],
-        "key_points": [
-          "新增招标387个。",
-          "合计27.2GW/85.3GWh，同比+132%。",
-          "EPC/PC招标58.6GWh，系统招标23.7GWh，电芯招标3GWh。",
-          "4小时及以上长时储能38.74GWh，占52.97%。",
-          "电网侧容量64.28GWh，占87.3%。"
-        ],
-        "value": "85.3",
-        "unit": "GWh 2026年4月国内储能新增招标容量",
-        "delta": "+132% YoY；长时储能容量占52.97%",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
-        "clean_html": "<p>CESA统计2026年4月国内新型储能新增招标387个，合计27.2GW/85.3GWh，同比+132%，长时储能容量占52.97%。</p>",
-        "caption": "国内储能招标月度规模再创新高，电网侧和长时储能占比抬升",
-        "methodology": "23:00抓取新浪财经转载页原始HTML（sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21），采用文中CESA统计的项目数、功率/容量、同比、场景和时长占比。",
-        "history": [
-          {
-            "label": "新增容量 GWh",
-            "value": 85.3
-          },
-          {
-            "label": "新增功率 GW",
-            "value": 27.2
-          },
-          {
-            "label": "项目数",
-            "value": 387
-          },
-          {
-            "label": "长时容量占比 %",
-            "value": 52.97
-          },
-          {
-            "label": "电网侧容量 GWh",
-            "value": 64.28
           }
         ]
       },
@@ -5688,189 +6001,521 @@ window.NEOLINK_FEED= {
         "clean_html": "<p>保加利亚：Enery的Nova Zagora BESS规模150MW/601.8MWh，3月开始商业运行，包含120个5.015MWh集装箱。</p><p>光储项目：Rezolv的St George Solar Park包含225MW光伏和90MW/240MWh储能。</p><p>区域扩散：摩尔多瓦60MWh项目投运、北马其顿200MWh项目开工，罗马尼亚200MW/400MWh项目获得融资。</p>",
         "caption": "中东欧BESS项目进展",
         "methodology": "06:00严格小时刷新：本轮已尝试抓取NeoLink首页与MarketTrend入口并保存连接异常记录；同时主动搜索国内和海外公开来源，抓取并保存时代储能网、Energy-Storage.news、SMM新能源公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段。"
-      },
-      {
-        "source": "新浪财经 / 界面新闻 / 储能电芯扩产潮",
-        "source_type": "国内财经媒体/储能电芯产能与技术迭代",
-        "account_name": "新浪财经",
-        "category": "技术",
-        "title": "储能电芯扩产潮：500Ah+大容量电芯切换造成阶段性结构缺口",
-        "summary": "新浪财经5月13日转载界面新闻报道，储能电芯产线正从314Ah向587Ah等大容量方向切换；由于老产线改造成本高、新产线建设和产能爬坡需要周期，行业出现“老线停了、新线还没顶上来”的阶段性结构缺口。报道称，电网侧招标若明确优先采用500Ah以上大容量高安全电芯，将进一步推高技术门槛，并把低水平重复建设产能挡在市场之外。",
-        "body": [
-          "产线切换：储能电芯正在从314Ah向587Ah等大容量规格切换，改造旧线不一定具备成本优势。",
-          "供给约束：新产线建设与良率爬坡需要时间，短期供给弹性偏低，结构性紧缺可能持续更久。",
-          "招标门槛：业内建议电网侧招标优先采用500Ah以上大容量高安全电芯，用标准抑制落后产能。",
-          "产业含义：不是简单扩产利好，核心变量转为大电芯良率、交付能力与安全认证。"
-        ],
-        "key_points": [
-          "技术：314Ah向500Ah+/587Ah切换。",
-          "供给：老线停、新线爬坡带来结构性缺口。",
-          "招标：500Ah以上电芯或成为电网侧门槛。",
-          "风险：低水平扩产与后续洗牌并存。"
-        ],
-        "value": "500+",
-        "unit": "Ah 招标优先门槛",
-        "delta": "587Ah切换",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://finance.sina.com.cn/jjxw/2026-05-13/doc-inhxtvfh0747538.shtml",
-        "clean_html": "<p>产线切换：储能电芯正在从314Ah向587Ah等大容量规格切换，改造旧线不一定具备成本优势。</p><p>供给约束：新产线建设与良率爬坡需要时间，短期供给弹性偏低，结构性紧缺可能持续更久。</p><p>招标门槛：业内建议电网侧招标优先采用500Ah以上大容量高安全电芯，用标准抑制落后产能。</p>",
-        "caption": "大容量储能电芯结构缺口",
-        "methodology": "23:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口并保存线上快照；同时主动搜索国内+海外公开来源，抓取并保存新浪财经与Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "Energy-Storage.news / Spearmint / Polaris / Clearway",
-        "source_type": "海外行业媒体/美国BESS项目进展",
-        "account_name": "Energy-Storage.news",
-        "category": "项目",
-        "title": "Energy-Storage.news美国项目汇总：Spearmint德州400MWh投运，Clearway犹他1,280MWh上线",
-        "summary": "Energy-Storage.news 5月13日美国项目汇总显示，Spearmint Energy在德州Del Rio与Laredo的Tierra Seca、Seven Flags两座100MW/200MWh BESS已于2025年12月底投运并完成近6个月运行；Clearway Energy Group犹他Honeycomb Energy Centre已上线，规模320MW/1,280MWh；Polaris在波多黎各两个35.7MW BESS标准报价协议获得FOMB批准。该条用于补充海外大储并网与美国区域需求证据。",
-        "body": [
-          "Spearmint两座德州BESS均为100MW/200MWh，合计400MWh，采用Sungrow PowerTitan 2.0平台。",
-          "Clearway犹他Honeycomb Energy Centre规模320MW/1,280MWh，属于美国西部新增并网大储项目。",
-          "Polaris波多黎各SO1协议包含两个35.7MW项目，总容量71.4MW，服务于ASAP储能加速计划。",
-          "美国项目端仍在持续推进，需同步关注关税、税收权益、FOMB/PREB等审批条件。"
-        ],
-        "key_points": [
-          "德州：400MWh BESS已商业运行。",
-          "犹他：320MW/1,280MWh项目上线。",
-          "波多黎各：71.4MW BESS协议获FOMB批准。",
-          "设备：德州项目使用Sungrow PowerTitan 2.0。"
-        ],
-        "value": "1280",
-        "unit": "MWh 犹他项目规模",
-        "delta": "德州400MWh投运",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://www.energy-storage.news/us-roundup-bess-project-updates-from-spearmint-polaris-and-clearway-in-texas-puerto-rico-and-utah/",
-        "clean_html": "<p>Spearmint两座德州BESS均为100MW/200MWh，合计400MWh，采用Sungrow PowerTitan 2.0平台。</p><p>Clearway犹他Honeycomb Energy Centre规模320MW/1,280MWh，属于美国西部新增并网大储项目。</p><p>Polaris波多黎各SO1协议包含两个35.7MW项目，总容量71.4MW，服务于ASAP储能加速计划。</p>",
-        "caption": "美国BESS并网进展",
-        "methodology": "22:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口，HTTP入口可读并保存快照；同时主动搜索国内+海外公开来源，抓取/保存Energy-Storage.news与新浪财经公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "新浪财经 / 市场资讯 / 海外储能专家交流",
-        "source_type": "国内财经媒体/海外储能专家访谈",
-        "account_name": "新浪财经",
-        "category": "数据",
-        "title": "海外储能专家交流：2026年中国新增储能或300GWh、美国70-75GWh，欧洲30GWh",
-        "summary": "新浪财经5月13日19:08刊发海外储能专家交流纪要，给出区域需求口径：2025年美国新增储能50GWh、2026年预计70-75GWh；中国2025年新增189GWh、2026年预计300GWh；欧洲2025年15GWh、2026年预计30GWh；澳洲2025年7GWh、2026年预计10GWh。纪要同时称一季度海外储能签单约75GWh，同比有所下滑，但出货同比大幅增长。",
-        "body": [
-          "区域预测：2026年中国新增储能约300GWh，美国70-75GWh，欧洲30GWh，澳洲10GWh。",
-          "驱动因素包括美国安全港项目、中国电力市场交易政策、欧洲/东南亚能源自主需求。",
-          "一季度海外储能签单约75GWh，受退税调整、产品涨价和谈判周期拉长影响同比下滑。",
-          "该来源为专家访谈纪要，属于市场预期口径，不等同于官方装机统计。"
-        ],
-        "key_points": [
-          "2026需求预测：中国300GWh。",
-          "2026美国预测：70-75GWh。",
-          "2026欧洲预测：30GWh。",
-          "一季度海外签单：约75GWh。"
-        ],
-        "value": "300",
-        "unit": "GWh 中国2026预测新增",
-        "delta": "美国70-75GWh",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://finance.sina.com.cn/roll/2026-05-13/doc-inhxufva0609812.shtml",
-        "clean_html": "<p>区域预测：2026年中国新增储能约300GWh，美国70-75GWh，欧洲30GWh，澳洲10GWh。</p><p>驱动因素包括美国安全港项目、中国电力市场交易政策、欧洲/东南亚能源自主需求。</p><p>一季度海外储能签单约75GWh，受退税调整、产品涨价和谈判周期拉长影响同比下滑。</p>",
-        "caption": "海外储能需求预测",
-        "methodology": "22:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口，HTTP入口可读并保存快照；同时主动搜索国内+海外公开来源，抓取/保存Energy-Storage.news与新浪财经公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "新浪财经 / 界面新闻 / 储能电池ETF广发",
-        "source_type": "国内财经媒体/政策与大容量电芯主题",
-        "account_name": "新浪财经",
-        "category": "技术",
-        "title": "算电协同政策与500Ah+电芯主题升温：2026年大容量储能电芯或加速替代314Ah",
-        "summary": "新浪财经5月13日12:23转载界面新闻称，四部门《关于促进人工智能与能源双向赋能的行动方案》强调算力设施低碳转型与绿电直连；文章同时援引业内反馈称500Ah+储能电芯将在2026年迎来爆发式增长，取代314Ah产品并可能在2027年成为主流。该条补充AI算力、绿电直连与电芯规格迭代对储能需求和供应链的主题证据。",
-        "body": [
-          "政策线索：四部门行动方案提出“绿电供给—高效用能—碳排放管控”协同，强调算力设施低碳转型与绿电直连。",
-          "技术线索：500Ah+储能电芯迭代速度超预期，2026年或爆发式增长。",
-          "产业链线索：亿纬锂能与印度GNEPL 8GWh订单、五年潜在60GWh合作被再次引用。",
-          "行情线索：截至10:41，储能电池ETF广发上涨1.98%，国证新能源电池指数上涨1.87%。"
-        ],
-        "key_points": [
-          "政策：AI与能源双向赋能、绿电直连。",
-          "技术：500Ah+电芯或替代314Ah。",
-          "订单：亿纬印度8GWh/五年60GWh再获市场引用。",
-          "行情：储能电池ETF广发盘中+1.98%。"
-        ],
-        "value": "500+",
-        "unit": "Ah 大容量电芯主题",
-        "delta": "2027或成主流",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://finance.sina.com.cn/jjxw/2026-05-13/doc-inhxtkrn0924670.shtml",
-        "clean_html": "<p>政策线索：四部门行动方案提出“绿电供给—高效用能—碳排放管控”协同，强调算力设施低碳转型与绿电直连。</p><p>技术线索：500Ah+储能电芯迭代速度超预期，2026年或爆发式增长。</p><p>产业链线索：亿纬锂能与印度GNEPL 8GWh订单、五年潜在60GWh合作被再次引用。</p>",
-        "caption": "算电协同与500Ah电芯",
-        "methodology": "22:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口，HTTP入口可读并保存快照；同时主动搜索国内+海外公开来源，抓取/保存Energy-Storage.news与新浪财经公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "Energy-Storage.news / White House tariff statement analysis",
-        "source_type": "海外行业媒体/贸易政策与BESS成本",
-        "account_name": "Energy-Storage.news",
-        "category": "政策",
-        "title": "Energy-Storage.news：中美90天关税暂停后，BESS有效关税降至约60%",
-        "summary": "Energy-Storage.news 5月13日公开报道称，中美宣布90天暂停部分高额对等关税；美国对中国商品关税从145%降至30%，按其测算，中国来源BESS或储能电池当前有效关税约40.9%，2026年1月1日起约58.4%。该变化显著缓和美国BESS采购的短期成本压力，但58%上下的有效税负仍会影响项目报价、交付节奏与非中国供应链溢价。",
-        "body": [
-          "中美宣布90天关税暂停，期限至7月1日。",
-          "美国对中国商品关税从145%降至30%。",
-          "Energy-Storage.news测算BESS/储能电池当前有效关税约40.9%，2026年1月起约58.4%。",
-          "影响：美国储能项目短期采购压力缓和，但关税和FEOC仍是供应链风险。"
-        ],
-        "key_points": [
-          "贸易：90天暂停部分高额关税。",
-          "BESS税负：当前约40.9%，2026年约58.4%。",
-          "成本：短期下修，长期仍偏高。",
-          "风险：政策窗口到7月1日。"
-        ],
-        "value": "58.4",
-        "unit": "% 2026有效关税",
-        "delta": "当前约40.9%",
-        "direction": "down",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://www.energy-storage.news/us-and-china-put-90-day-pause-on-tariffs-effective-duty-on-bess-falls-to-c-60/",
-        "clean_html": "<p>中美宣布90天关税暂停，期限至7月1日。</p><p>美国对中国商品关税从145%降至30%。</p>",
-        "caption": "BESS关税暂停窗口",
-        "methodology": "16:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口，HTTP入口可读并保存快照；同时主动搜索国内+海外公开来源，并抓取/保存DoNews、Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。"
-      },
-      {
-        "source": "新浪财经 / 巨丰投顾 / 海关出口与产业链梳理",
-        "source_type": "国内财经媒体/锂电产业链与出口需求跟踪",
-        "account_name": "新浪财经",
-        "category": "出口",
-        "title": "海内外需求高增：一季度国内锂离子蓄电池出口金额同比增幅超50%，欧盟稳居第一、东盟升至第二",
-        "summary": "新浪财经5月13日转载产业链梳理称，储能出口成为锂电池产业链核心增长引擎；一季度国内锂离子蓄电池出口金额同比增幅超50%，出口结构持续优化，欧盟仍为第一大出口市场，东盟快速跃升为第二大出口区域，且储能电池出口增速大幅高于动力电池。文章同时列示5月8日前后电池级碳酸锂19.33万元/吨、近两周+11.67%，储能型磷酸铁锂6.44万元/吨、近两周+12.59%，方形磷酸铁锂电芯均价0.35元/Wh、近两周+2.94%。",
-        "body": [
-          "一季度国内锂离子蓄电池出口金额同比增幅超50%。",
-          "欧盟稳居第一大出口市场，东盟快速跃升为第二大出口区域。",
-          "截至5月8日，电池级碳酸锂均价19.33万元/吨，近两周+11.67%。",
-          "储能型磷酸铁锂6.44万元/吨、近两周+12.59%；方形磷酸铁锂电芯均价0.35元/Wh、近两周+2.94%。"
-        ],
-        "key_points": [
-          "出口：锂离子蓄电池出口金额同比+50%以上。",
-          "区域：欧盟第一、东盟第二。",
-          "材料：储能型LFP两周+12.59%。",
-          "电芯：方形LFP电芯0.35元/Wh，两周+2.94%。"
-        ],
-        "value": "50",
-        "unit": "%+ 出口金额同比",
-        "delta": "东盟升至第二大出口区域",
-        "direction": "up",
-        "date": "05-13",
-        "as_of": "2026-05-13",
-        "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxsxzx4718288.shtml",
-        "caption": "锂电出口高增",
-        "methodology": "14:00严格小时任务：已重新爬取NeoLink首页与MarketTrend入口；HTTPS仍LibreSSL SSL_ERROR_SYSCALL但HTTP入口成功保存；同时主动搜索国内+海外公开来源，并抓取/保存新浪财经、SMM、Energy-Storage.news公开页面。仅在新增可信新闻、行情或证据时更新可见内容，保留来源、时间、价格/规模/方法字段，不以纯刷新时间冒充更新。",
-        "clean_html": "<p>一季度国内锂离子蓄电池出口金额同比增幅超50%。</p><p>欧盟稳居第一大出口市场，东盟快速跃升为第二大出口区域。</p>"
       }
     ],
     "latest": [
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外融资与承购/优化新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "英国超2.2GWh BESS推进：Matrix为Eccles获2.45亿英镑融资，BW ESS Hams Hall引入EDF优化",
+        "summary": "Energy-Storage.News报道，英国多个大型BESS取得融资和市场化进展：Matrix Renewables为苏格兰Eccles 500MW/1,000MWh两小时BESS完成2.45亿英镑项目融资，并由EDF提供route-to-market/优化服务、Tesla担任EPC；BW ESS的Hams Hall一期350MW/1,243MWh项目也与EDF合作优化。",
+        "body": [
+          "这条新闻的价值不只在容量，而在“融资+承购/优化+EPC”三要素同时清晰，说明英国储能资产的银行可融资性继续改善。",
+          "两个项目合计超过2.2GWh，覆盖苏格兰和英格兰中部电网节点，对英国频率服务、批发价差和容量市场收入形成新增供给。",
+          "本轮把该条作为海外资本市场增量，和Modo美国BESS资本市场报告相互印证。"
+        ],
+        "key_points": [
+          "Matrix Eccles：500MW/1,000MWh，项目融资2.45亿英镑。",
+          "EDF为Matrix Eccles提供优化/route-to-market服务，Tesla担任EPC。",
+          "BW ESS Hams Hall一期：350MW/1,243MWh，并引入EDF优化。",
+          "两项容量合计约2,243MWh。"
+        ],
+        "value": "2243",
+        "unit": "MWh 英国BESS容量",
+        "delta": "Matrix融资£245m；EDF优化Hams Hall",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/matrix-renewables-bw-ess-secure-finance-and-offtake-for-over-2-2gwh-of-uk-bess/",
+        "clean_html": "<p>Energy-Storage.News称Matrix Renewables和BW ESS在英国合计推进超过2.2GWh BESS，Matrix Eccles获2.45亿英镑融资，Hams Hall引入EDF优化。</p>",
+        "caption": "海外融资：英国BESS项目从容量公告进入融资和优化合约落地",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 1e4ece587a697c20edb1a9237ddec324f7994d704b70b14b153a4f89ea4f15c8；采用公开摘要中的容量、融资额、优化方和EPC字段。",
+        "history": [
+          {
+            "label": "Eccles功率 MW",
+            "value": 500
+          },
+          {
+            "label": "Eccles容量 MWh",
+            "value": 1000
+          },
+          {
+            "label": "Eccles融资 百万英镑",
+            "value": 245
+          },
+          {
+            "label": "Hams Hall功率 MW",
+            "value": 350
+          },
+          {
+            "label": "Hams Hall容量 MWh",
+            "value": 1243
+          },
+          {
+            "label": "合计容量 MWh",
+            "value": 2243
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外项目投运新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "澳大利亚最大运营BESS投运：Synergy完成500MW/2,400MWh Collie Battery，CATL供货",
+        "summary": "Energy-Storage.News 5月18日报道，西澳州有能源公司Synergy完成Collie Battery Energy Storage System，规模500MW/2,400MWh，成为澳大利亚最大运营电池储能系统；报道称项目容量从早前2,000MWh口径提升至2,400MWh。",
+        "body": [
+          "该项目超过Waratah Super Battery 1,680MWh、Eraring Battery Stage 1 1,770MWh以及Neoen Collie Battery 2,200MWh等澳大利亚大型项目。",
+          "对NeoLink判断的意义：澳大利亚大储从审批和建设新闻进入超2GWh级并网投运阶段，供应链中CATL等中国电池企业继续参与海外大型项目。",
+          "本轮使用搜索结果摘要和实时抓取页面留档；若后续公开更多商业条款，再补充EPC、优化商和收益结构。"
+        ],
+        "key_points": [
+          "项目规模：500MW/2,400MWh。",
+          "业主：西澳州有能源公司Synergy；电池供应相关标题提及CATL-powered。",
+          "地点：Western Australia, Collie；状态：completed / operational。",
+          "容量口径较此前2,000MWh媒体说法上调到2,400MWh。"
+        ],
+        "value": "2400",
+        "unit": "MWh 运营BESS容量",
+        "delta": "澳大利亚最大运营BESS；500MW功率",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/australias-largest-operational-bess-synergy-completes-catl-powered-2400mwh-collie-battery/",
+        "clean_html": "<p>Energy-Storage.News报道称，Synergy完成西澳Collie 500MW/2,400MWh BESS，成为澳大利亚最大运营电池储能系统。</p>",
+        "caption": "海外投运：澳大利亚进入2GWh级运营BESS阶段",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 e902c147df4619e780d7fa8b0fc7425f9c9351cd5e1dbcb68c5b24655d6c919a；采用Energy-Storage.News题名与搜索摘要中公开字段，未臆造融资或电价条款。",
+        "history": [
+          {
+            "label": "功率 MW",
+            "value": 500
+          },
+          {
+            "label": "容量 MWh",
+            "value": 2400
+          },
+          {
+            "label": "此前报道容量 MWh",
+            "value": 2000
+          },
+          {
+            "label": "Waratah Super Battery MWh",
+            "value": 1680
+          },
+          {
+            "label": "Eraring Battery Stage 1 MWh",
+            "value": 1770
+          },
+          {
+            "label": "Neoen Collie Battery MWh",
+            "value": 2200
+          }
+        ]
+      },
+      {
+        "source": "储能头条 / 国际储能网",
+        "source_type": "国内储能周事迹/政策、订单、招中标汇总",
+        "account_name": "储能头条",
+        "category": "周度综述",
+        "title": "储能头条5月18日周事迹：4月储能电池销量55.2GWh，同比+75.5%，国内外项目密集披露",
+        "summary": "15:00复查5月18日储能周事迹：4月动力和储能电池合计销量164.2GWh，其中储能电池55.2GWh、同比+75.5%；同文列出楚能50GWh签约、亿纬印度8GWh订单、宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh等项目线索。",
+        "body": [
+          "该来源把政策、招中标、出海订单、并网和产销数据合并呈现，本轮保留其作为国内综合证据源。",
+          "重点变化仍集中在大容量项目招采和容量电价/质量监管，而不是单一电芯报价。",
+          "海外出海线索包括乌克兰15MWh、波黑135MWh、智利300MW/1200MWh和印度8GWh订单。"
+        ],
+        "key_points": [
+          "4月储能电池销量55.2GWh，同比+75.5%；1-4月储能电池累计销量200.4GWh，同比+100.4%。",
+          "楚能与五家企业累计签约50GWh；亿纬锂能与印度GNEPL签署8GWh订单。",
+          "宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh设备采购继续提示国内大储需求。"
+        ],
+        "value": "55.2",
+        "unit": "GWh 4月储能电池销量",
+        "delta": "同比+75.5%；1-4月累计200.4GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://chuneng.in-en.com/html/chunengy-54481.shtml",
+        "clean_html": "<p>储能头条5月18日周事迹显示，4月储能电池销量55.2GWh，同比+75.5%；国内大储招采与海外订单同步活跃。</p>",
+        "caption": "国内综合：产销、项目和出海订单同向放量",
+        "methodology": "15:00国内公开来源复查；HTTP 200 sha256 be69658625ff2f489ca7eccc1035727d371116ec66c2108629bba186e5c8c8a1；按原文列举项目、订单和产销数据摘录，未把转载内容当作单一官方统计。",
+        "history": [
+          {
+            "label": "4月动力+储能电池销量 GWh",
+            "value": 164.2
+          },
+          {
+            "label": "4月储能电池销量 GWh",
+            "value": 55.2
+          },
+          {
+            "label": "1-4月储能电池累计销量 GWh",
+            "value": 200.4
+          },
+          {
+            "label": "楚能签约规模 GWh",
+            "value": 50
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "乌兰察布项目 MWh",
+            "value": 6000
+          }
+        ]
+      },
+      {
+        "source": "上海有色网 SMM 储能专区",
+        "source_type": "公开行情表/锂电与储能材料价格",
+        "account_name": "SMM",
+        "category": "行情价格",
+        "title": "SMM 15:00复核：电池级碳酸锂均价19.15万元/吨，280Ah储能电芯仍为0.334元/Wh周价",
+        "summary": "15:00重新抓取SMM储能专区；公开行情仍显示05-18电池级碳酸锂187000-196000元/吨、均价191500元/吨、日跌500元/吨；储能型280Ah方形LFP电芯仍为05-15周度报价0.312-0.356元/Wh、均价0.334元/Wh。",
+        "body": [
+          "本轮继续使用SMM实时页面而非搜索摘要，避免把05-15缓存值误当成最新行情。",
+          "直流侧储能电池预制舱：3.44/3.72MWh均价0.44元/Wh，5MWh均价0.4525元/Wh，日期均为05-15。",
+          "集中式PCS 1725kW报价0.062-0.068元/W，均价0.065元/W，日期05-15。"
+        ],
+        "key_points": [
+          "电池级碳酸锂：187000-196000元/吨，均价191500元/吨，日跌500元/吨，日期05-18。",
+          "储能型280Ah方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，日期05-15。",
+          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh，日期05-15。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "-500元/吨；280Ah储能电芯0.334元/Wh",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM储能专区公开表显示：05-18电池级碳酸锂均价191500元/吨、日跌500元/吨；05-15储能型280Ah方形LFP电芯均价0.334元/Wh。</p>",
+        "caption": "行情复核：锂盐日度小跌，储能电芯周价未日更",
+        "methodology": "15:00国内公开行情复核；HTTP 200 sha256 66549759a3fa5f2e1d4b0ac132fd4fa7f0906807e2ecbd1b9608f61b08b0b8a1；逐项摘录SMM公开表，不把锂盐日度价格外推为电芯报价。",
+        "history": [
+          {
+            "label": "电池级碳酸锂低值 元/吨",
+            "value": 187000
+          },
+          {
+            "label": "电池级碳酸锂高值 元/吨",
+            "value": 196000
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "日变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯均价 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "5MWh预制舱均价 元/Wh",
+            "value": 0.4525
+          }
+        ]
+      },
+      {
+        "source": "Modo Energy",
+        "source_type": "海外BESS资本市场季度报告",
+        "account_name": "Modo Energy",
+        "category": "海外市场",
+        "title": "Modo Energy：美国BESS一季度公开交易17笔、2.4GW，交易数量环比增长42%",
+        "summary": "Modo Energy Q1 2026美国BESS资本市场报告显示，一季度公开披露BESS交易17笔，高于2025年四季度12笔，环比+42%；合计增加2.4GW容量，包含8笔融资、7笔并购和2笔股权投资。ERCOT以10笔交易领先，CAISO和NYISO各3笔；较大融资案例包括TransGrid Energy亚利桑那Atlas VIII项目382MW，项目债务6.56亿美元，并属更大12亿美元组合的一部分。",
+        "body": [
+          "海外融资信号对NeoLink的意义在于：美国储能资产已从单个项目公告转入更规范的资本市场跟踪，融资、并购、税收抵免转让和tax equity共同决定项目落地速度。",
+          "报告显示ERCOT仍是交易最活跃市场，但CAISO和NYISO也有交易，说明储能资本正在从得州套利市场扩散到容量和清洁能源政策支持更强的区域。",
+          "本轮仅采用报告摘要中的公开字段；对Atlas VIII容量按Modo摘要的382MW记录，避免把12亿美元组合误读为单一BESS项目价值。"
+        ],
+        "key_points": [
+          "Q1 2026美国BESS公开交易17笔，较Q4 2025的12笔增加42%。",
+          "合计新增2.4GW容量；结构为8笔融资、7笔M&A、2笔股权投资。",
+          "ERCOT 10笔居首，CAISO和NYISO各3笔。",
+          "TransGrid Energy Atlas VIII：382MW，项目债务6.56亿美元，属12亿美元组合的一部分。"
+        ],
+        "value": "17",
+        "unit": "笔 Q1美国BESS公开交易",
+        "delta": "环比+42%；新增2.4GW",
+        "direction": "up",
+        "date": "Q1-2026",
+        "as_of": "2026-05-18",
+        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "clean_html": "<p>Modo Energy称Q1 2026美国BESS公开交易17笔、2.4GW，交易数量较上一季度增长42%。</p>",
+        "caption": "海外资本：美国BESS融资和并购重新升温",
+        "methodology": "14:00海外公开来源搜索；Modo页面HTTP 200，sha256 d12e01a9329dbae98749c7b5af4667779543d2d6e59046c696f9cfe79b559dd1；抽取报告摘要中的交易数量、容量、市场分布和融资案例。",
+        "history": [
+          {
+            "label": "公开交易 笔",
+            "value": 17
+          },
+          {
+            "label": "新增容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "融资 笔",
+            "value": 8
+          },
+          {
+            "label": "M&A 笔",
+            "value": 7
+          },
+          {
+            "label": "股权投资 笔",
+            "value": 2
+          },
+          {
+            "label": "Atlas VIII债务融资 百万美元",
+            "value": 656
+          }
+        ]
+      },
+      {
+        "source": "碳索储能网 / Solarbe",
+        "source_type": "国内储能周报/招中标、政策、企业动态",
+        "account_name": "碳索储能",
+        "category": "招中标",
+        "title": "碳索储能周报：本期44条招标、59条中标，吉林/陕西独立储能容量电价成为政策焦点",
+        "summary": "碳索储能5月16日周报显示，本期汇总44条项目招标和59条项目中标；企业端包括亿纬锂能印度8GWh订单、比亚迪储能与Corvus Energy海事电池合作、海辰储能谈AIDC成为储能最大增量；政策端包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西容量电价征求意见。",
+        "body": [
+          "该周报与5月18日储能头条清单相互印证：国内储能从单纯项目规模竞争转向“项目招标+容量补偿+并网质量监督”三条线同时推进。",
+          "吉林政策以煤电容量电价330元/千瓦·年为基础按顶峰能力折算，陕西征求意见稿提出165元/kW·年并按6小时折算，均指向独立储能现金流可预期性。",
+          "周报还列出华北区域新型储能并网运行管理征求意见，非计划停运、脱网容量比例等被纳入考核，提示项目开发不能只看低价中标。"
+        ],
+        "key_points": [
+          "本期周报：44条项目招标、59条项目中标。",
+          "吉林独立储能容量补偿以330元/千瓦·年为基础按顶峰能力折算。",
+          "陕西征求意见稿提出电网侧独立新型储能容量电价165元/kW·年，按6小时折算。",
+          "国家能源局质量监督大纲覆盖100MW及以上电化学储能、压缩空气储能电站。"
+        ],
+        "value": "44/59",
+        "unit": "条 招标/中标",
+        "delta": "容量补偿与质量监督同步升温",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://cn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能周报汇总44条招标、59条中标，并跟踪吉林、陕西独立储能容量电价及国家能源局质量监督大纲。</p>",
+        "caption": "招中标周报：数量扩张后，容量电价和质量考核开始定价风险",
+        "methodology": "14:00国内公开来源搜索并抓取；碳索储能页面HTTP 200，sha256 8038ca391062605c13ed8054a7dd8ab77a9ab480ce76b1b131c5643ff039a09f；用移动页作交叉抓取以备可读性校验。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "吉林容量电价基准 元/kW年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW年",
+            "value": 165
+          },
+          {
+            "label": "质量监督适用门槛 MW",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Lydian Energy",
+        "source_type": "海外项目融资/BESS PPA",
+        "account_name": "Energy-Storage.News",
+        "category": "海外项目",
+        "title": "Lydian Energy获6.89亿美元融资，覆盖美国150MW/733MWh Faraday BESS等项目",
+        "summary": "Energy-Storage.News报道，IPP Lydian Energy获得6.89亿美元全栈融资，用于美国新墨西哥、得州和犹他州的两个光伏项目及一个BESS项目；其中Faraday BESS一期位于犹他州，规模150MW/733MWh，并有长期PPA支持。",
+        "body": [
+          "该项目的核心信号是：美国大储项目融资仍依赖长期PPA、税收抵免过桥贷款和银团贷款组合，融资结构比单纯设备订单更能反映项目可银行化程度。",
+          "融资由CIBC与MUFG支持，结构包括construction-to-term loan、tax credit bridge loan、co-investment bridge loan和letter of credit facility。",
+          "报道还提到Lydian此前在得州完成3个BESS项目的2.33亿美元项目融资，并披露其太阳能与储能组合约18个项目、总容量4.4GW。"
+        ],
+        "key_points": [
+          "融资金额：6.89亿美元，覆盖两个光伏项目和一个BESS项目。",
+          "Faraday BESS Phase 1：150MW/733MWh，位于犹他州，有长期PPA支持。",
+          "融资银行包括CIBC与MUFG，结构包含税收抵免过桥贷款等。",
+          "Lydian声称其太阳能+储能项目组合总计18个、4.4GW。"
+        ],
+        "value": "733",
+        "unit": "MWh Faraday BESS一期",
+        "delta": "融资6.89亿美元；组合4.4GW",
+        "direction": "up",
+        "date": "02-18",
+        "as_of": "2026-02-18",
+        "url": "https://www.energy-storage.news/lydian-energy-secures-us689-million-for-three-us-bess-and-solar-projects/",
+        "clean_html": "<p>Lydian Energy获得6.89亿美元融资，覆盖美国两个光伏项目和一个BESS项目；Faraday BESS一期规模150MW/733MWh。</p>",
+        "caption": "海外融资：美国BESS项目以PPA和税抵贷款支撑可银行化",
+        "methodology": "13:00海外公开来源搜索；Energy-Storage.News页面HTTP 200，sha256 52d913a579b777cb6190770d6b2aeda7687a82f32810aaa8442038a9be01f8b2；抽取融资金额、项目规模、PPA和融资结构字段。",
+        "history": [
+          {
+            "label": "融资金额 百万美元",
+            "value": 689
+          },
+          {
+            "label": "Faraday功率 MW",
+            "value": 150
+          },
+          {
+            "label": "Faraday容量 MWh",
+            "value": 733
+          },
+          {
+            "label": "Lydian组合 GW",
+            "value": 4.4
+          }
+        ]
+      },
+      {
+        "source": "中国储能网 / CESA储能应用分会，经新浪财经转载",
+        "source_type": "国内招中标月度统计/公开媒体转载",
+        "account_name": "中国储能网",
+        "category": "招中标",
+        "title": "CESA统计：4月储能新增招标27.2GW/85.3GWh，月度容量再创新高",
+        "summary": "中国储能网援引CESA储能应用分会统计称，2026年4月国内新型储能EPC/PC、系统、电芯新增招标合计27.2GW/85.3GWh，同比增长132%；其中EPC/PC 21.1GW/58.6GWh，系统6GW/23.7GWh，电芯3GWh。宁夏、内蒙古、山西新增招标均超过10GWh，4小时及以上长时储能容量占比约52.97%。",
+        "body": [
+          "这条线索对NeoLink的意义在于：国内大储招标强度已经从单个项目驱动转向月度总量刷新，且长时储能、混合储能和非锂技术路线在招标端同步抬升。",
+          "4月明确时长的项目中，2h储能15.94GW/31.89GWh，4h及以上9.3GW/38.74GWh；长时储能按容量已超过2h储能。",
+          "文章还列出17个GWh级储能招标项目，以及昆明安宁350MW/1750MWh压缩空气储能、托里县200MW/1600MWh氢储能调峰等非典型锂电项目，提示技术路线正在扩散。"
+        ],
+        "key_points": [
+          "4月国内储能新增招标27.2GW/85.3GWh，同比+132%，创月度新高。",
+          "EPC/PC招标58.6GWh，占比68.7%；系统招标23.7GWh，电芯招标3GWh。",
+          "宁夏15.49GWh居首，内蒙古11.21GWh、山西10.89GWh均超过10GWh。",
+          "4h及以上长时储能38.74GWh，按容量占52.97%；混合储能总规模3GW/6.7GWh。"
+        ],
+        "value": "85.3",
+        "unit": "GWh 4月新增招标容量",
+        "delta": "同比+132%；EPC/PC占68.7%",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
+        "clean_html": "<p>CESA储能应用分会统计：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比增长132%，宁夏、内蒙古、山西招标容量均超过10GWh。</p>",
+        "caption": "4月国内储能招标容量再破纪录",
+        "methodology": "13:00国内公开来源搜索；新浪转载页面HTTP 200，sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21；交叉检查CNESA搜索页和时代储能网首页均包含相关5月中旬招中标线索。",
+        "history": [
+          {
+            "label": "新增招标容量 GWh",
+            "value": 85.3
+          },
+          {
+            "label": "新增招标功率 GW",
+            "value": 27.2
+          },
+          {
+            "label": "EPC/PC容量 GWh",
+            "value": 58.6
+          },
+          {
+            "label": "系统容量 GWh",
+            "value": 23.7
+          },
+          {
+            "label": "电芯容量 GWh",
+            "value": 3
+          },
+          {
+            "label": "长时储能容量 GWh",
+            "value": 38.74
+          }
+        ]
+      },
+      {
+        "source": "粤电售电 / 碳索储能网",
+        "source_type": "用户侧储能EPC/虚拟电厂接入",
+        "account_name": "碳索储能网",
+        "category": "项目",
+        "title": "粤电售电中标广州广芯5.5MW/11MWh用户侧储能项目EPC，项目已并网并计划接入虚拟电厂",
+        "summary": "碳索储能网5月18日援引“粤电售电”消息称，粤电售电中标广州广芯5.5MW/11MWh用户侧储能项目EPC；项目已于2026年5月15日实现并网，后续将接入虚拟电厂聚合平台参与电网调节与电力市场化交易。",
+        "body": [
+          "该项目为用户侧储能EPC中标信息，规模5.5MW/11MWh（约2小时配置），体现工商业/园区侧储能与市场化交易结合的落地节奏。",
+          "信息源为行业门户转载并标注“来源：粤电售电”，建议后续以业主或招标平台公告进一步复核商务条款与计价口径。"
+        ],
+        "key_points": [
+          "中标方：粤电售电（EPC）。",
+          "项目：广州广芯用户侧储能。",
+          "规模：5.5MW/11MWh。",
+          "并网：2026-05-15实现并网。",
+          "后续：计划接入虚拟电厂聚合平台。"
+        ],
+        "value": "11",
+        "unit": "MWh 用户侧储能并网",
+        "delta": "5.5MW/11MWh；计划接入VPP聚合平台",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://mcn.solarbe.com/news/20260518/50023167.html",
+        "clean_html": "<p>粤电售电中标广州广芯5.5MW/11MWh用户侧储能项目EPC，项目已于2026-05-15并网并计划接入虚拟电厂聚合平台。</p>",
+        "caption": "用户侧储能：并网后接入VPP参与调节与交易",
+        "methodology": "12:02公开来源核验：读取碳索储能网转载页并抽取中标方、规模、并网时间与VPP接入计划；页面标注来源为“粤电售电”。执行环境 DNS 异常导致 `curl` 无法解析该域名，未能计算页面 hash，改以内容字段交叉校对与去重校验。",
+        "history": [
+          {
+            "label": "功率 MW",
+            "value": 5.5
+          },
+          {
+            "label": "容量 MWh",
+            "value": 11
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / AEMO / Transgrid",
+        "source_type": "海外电网运行规划/构网型储能",
+        "account_name": "Energy-Storage.News",
+        "category": "海外政策",
+        "title": "AEMO将构网型BESS列为2026优先行动，Transgrid拟在新南威尔士部署5GW",
+        "summary": "Energy-Storage.News报道，澳大利亚能源市场运营机构AEMO在FY2026工程路线图中将构网型电池储能列为NEM与SWIS优先行动；同时Transgrid在新南威尔士系统强度方案中筛选超过100个候选方案，组合纳入5GW构网型BESS和10台同步调相机，目标到2032/33形成电网“heartbeat”。",
+        "body": [
+          "该线索的关键不是单个电站中标，而是电网运营方把构网型储能从示范资产推向系统级规划资产；这会提高对PCS控制、惯量/短路比支撑和并网模型验证的要求。",
+          "Transgrid方案称构网型BESS预计提供新南威尔士近半系统强度需求，和同步调相机共同服务高比例新能源电网。",
+          "对中国储能出口企业的含义是：海外大储招标将更重视grid-forming能力、并网仿真、长期性能担保和电网服务收入模型，而不只是$/kWh硬件报价。"
+        ],
+        "key_points": [
+          "AEMO FY2026优先行动覆盖NEM与SWIS，核心包括构网型BESS和分布式能源资源。",
+          "Transgrid评估超过100个系统强度候选方案后，组合选择5GW构网型BESS与10台同步调相机。",
+          "新南威尔士目标时间为2032/33；构网型BESS预计承担近半系统强度需求。",
+          "该消息强化“海外大储从能量套利走向电网稳定服务”的趋势。"
+        ],
+        "value": "5",
+        "unit": "GW 构网型BESS规划",
+        "delta": "另配10台同步调相机；目标2032/33",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.energy-storage.news/aemo-sets-grid-forming-bess-as-a-priority-action-for-2026-set-to-form-the-heartbeat-of-new-south-wales/",
+        "clean_html": "<p>AEMO将构网型BESS列为2026优先行动；Transgrid规划5GW构网型BESS和10台同步调相机以满足新南威尔士系统强度需求。</p>",
+        "caption": "澳洲电网：构网型储能进入系统级规划",
+        "methodology": "12:00海外公开来源检查；页面HTTP 200，sha256 55d41ff796204d9da6fba57890d25ce6a7ca1dca738f37abfd69d9777d9f0a8c；抽取AEMO FY2026优先行动、Transgrid PACR规划容量、同步调相机数量和目标年份。",
+        "history": [
+          {
+            "label": "构网型BESS GW",
+            "value": 5
+          },
+          {
+            "label": "同步调相机 台",
+            "value": 10
+          },
+          {
+            "label": "候选方案 个+",
+            "value": 100
+          },
+          {
+            "label": "目标年份",
+            "value": 2032
+          }
+        ]
+      },
       {
         "source": "PV Tech / Masdar / EWEC",
         "source_type": "海外企业与公用事业合作框架",
@@ -6316,62 +6961,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM 储能专区",
-        "source_type": "国内公开行情/储能电池与系统报价",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM储能报价：5月15日电池级碳酸锂19.2万元/吨，280Ah储能电芯0.334元/Wh",
-        "summary": "SMM储能专区公开报价显示，2026-05-15电池级碳酸锂188000-196000元/吨、均价192000元/吨、日跌3000元/吨；储能型280Ah方形磷酸铁锂电池0.312-0.356元/Wh、均价0.334元/Wh、周涨0.0015元/Wh；314Ah储能型电芯均价0.3565元/Wh；5MWh直流侧储能电池预制舱均价0.4525元/Wh，集中式PCS 1725kW均价0.065元/W。",
-        "body": [
-          "本轮重新抓取SMM储能专区并解压HTML，补入5月15日可核验公开行情，替换上一轮5月14日碳酸锂快照。",
-          "原料端电池级碳酸锂均价降至192000元/吨，但储能电芯周度均价小幅上行，显示电芯报价仍受交付、规格和需求结构影响。",
-          "系统侧5MWh直流侧预制舱均价0.4525元/Wh、1725kW集中式PCS均价0.065元/W，可作为MarketTrend当日系统报价锚点。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：188000-196000元/吨，均价192000元/吨，日跌3000元/吨，日期05-15。",
-          "280Ah储能型方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，周涨0.0015元/Wh。",
-          "314Ah储能型方形LFP电芯：0.332-0.381元/Wh，均价0.3565元/Wh。",
-          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh。",
-          "集中式PCS 1725kW：0.062-0.068元/W，均价0.065元/W。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；280Ah储能电芯均价0.334元/Wh",
-        "direction": "mixed",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能专区显示，2026-05-15电池级碳酸锂均价192000元/吨，280Ah储能型方形磷酸铁锂电芯均价0.334元/Wh，5MWh直流侧储能电池预制舱均价0.4525元/Wh。</p>",
-        "caption": "SMM 5月15日：碳酸锂下行，储能电芯与5MWh预制舱报价上行",
-        "methodology": "08:00主动国内检索并抓取SMM储能专区HTML（gzip原始sha256 b2560b0e6c043bb64de632607c1fa33e307be505a14f56ad858622b4876b7ba4）；解压后抽取报价表，保留报价日期而非抓取时间。",
-        "history": [
-          {
-            "label": "碳酸锂均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "碳酸锂日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "280Ah电芯均价 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "314Ah电芯均价 元/Wh",
-            "value": 0.3565
-          },
-          {
-            "label": "5MWh预制舱均价 元/Wh",
-            "value": 0.4525
-          },
-          {
-            "label": "1725kW PCS均价 元/W",
-            "value": 0.065
-          }
-        ]
-      },
-      {
         "source": "新浪财经 / 中国储能网 / CESA储能应用分会产业数据库",
         "source_type": "国内招投标/储能系统与电芯价格",
         "account_name": "新浪财经",
@@ -6588,58 +7177,6 @@ window.NEOLINK_FEED= {
           {
             "label": "CIF均价 美元/千克",
             "value": 22.3
-          }
-        ]
-      },
-      {
-        "source": "Modo Energy",
-        "source_type": "海外资本市场报告/美国BESS交易",
-        "account_name": "Modo Energy",
-        "category": "海外市场",
-        "title": "Modo：美国BESS一季度公开交易数环比增42%，新增2.4GW容量",
-        "summary": "Modo Energy《U.S. BESS Capital Markets Report - Q1 2026》显示，美国公开披露的BESS交易活动一季度环比增加42%，共跟踪17笔交易（上季度12笔），新增2.4GW容量，结构包括8笔融资、7笔并购和2笔股权投资；ERCOT以10笔交易领先，CAISO和NYISO各3笔。报告还提到TransGrid Energy 382MW Atlas VIII项目的6.56亿美元项目债务融资。",
-        "body": [
-          "海外资本市场侧，本轮补入美国BESS交易活跃度指标：Q1交易数从12笔增至17笔，环比+42%。",
-          "2.4GW新增容量来自融资、并购与股权投资，说明资金不只投向新建，也在重组和资产交易中流动。",
-          "ERCOT占10笔交易，继续是美国储能资产估值和收益结构观察的核心市场。"
-        ],
-        "key_points": [
-          "Q1 2026公开BESS交易：17笔。",
-          "环比增幅：42%（Q4 2025为12笔）。",
-          "新增容量：2.4GW。",
-          "交易结构：8笔融资、7笔并购、2笔股权投资。",
-          "区域：ERCOT 10笔，CAISO与NYISO各3笔。"
-        ],
-        "value": "17",
-        "unit": "笔 美国BESS交易",
-        "delta": "+42% QoQ；新增2.4GW",
-        "direction": "up",
-        "date": "05-01",
-        "as_of": "2026-05-01",
-        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
-        "clean_html": "<p>Modo Energy称，美国BESS Q1 2026公开交易数环比增长42%至17笔，新增2.4GW容量，ERCOT以10笔交易领先。</p>",
-        "caption": "美国BESS资本市场回暖：Q1交易+42%，新增2.4GW",
-        "methodology": "07:00主动海外检索并抓取Modo Energy报告HTML（sha256 857b55422f4e60197d33cce3d298e15063b4836c55a63df0c18c4fdbce41f980）；抽取交易笔数、环比、容量、交易结构和市场分布。",
-        "history": [
-          {
-            "label": "Q1交易数",
-            "value": 17
-          },
-          {
-            "label": "Q4交易数",
-            "value": 12
-          },
-          {
-            "label": "环比增幅 %",
-            "value": 42
-          },
-          {
-            "label": "新增容量 GW",
-            "value": 2.4
-          },
-          {
-            "label": "ERCOT交易数",
-            "value": 10
           }
         ]
       },
@@ -7664,58 +8201,6 @@ window.NEOLINK_FEED= {
           {
             "label": "2026E BESS出货 GWh",
             "value": 600
-          }
-        ]
-      },
-      {
-        "source": "新浪财经 / 中国储能网 / CESA储能应用分会",
-        "source_type": "国内财经媒体转载/协会统计",
-        "account_name": "中国储能网 / CESA储能应用分会",
-        "category": "招中标",
-        "title": "CESA：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比+132%",
-        "summary": "新浪财经5月15日转载中国储能网文章，引用CESA储能应用分会统计：2026年4月国内新型储能新增招标项目387个，EPC/PC（含设备）、储能系统、储能电芯合计27.2GW/85.3GWh，同比增长132%，再创月度新高。EPC/PC新增招标21.1GW/58.6GWh，系统招标6GW/23.7GWh，电芯招标3GWh；4小时及以上长时储能容量38.74GWh，占时长明确项目容量52.97%。",
-        "body": [
-          "4月新增招标前三省份为宁夏、内蒙古、山西，新增招标容量均超过10GWh；宁夏以5.68GW/15.49GWh居首。",
-          "电网侧项目是主力：应用场景明确项目中电网侧23.78GW/64.28GWh，占容量87.3%。",
-          "LFP仍为主流技术路线，文中称4月磷酸铁锂电池储能新增招标23.72GW/76.4GWh；混合储能、飞轮、钠电和压缩空气等路线也在放量。"
-        ],
-        "key_points": [
-          "新增招标387个。",
-          "合计27.2GW/85.3GWh，同比+132%。",
-          "EPC/PC招标58.6GWh，系统招标23.7GWh，电芯招标3GWh。",
-          "4小时及以上长时储能38.74GWh，占52.97%。",
-          "电网侧容量64.28GWh，占87.3%。"
-        ],
-        "value": "85.3",
-        "unit": "GWh 2026年4月国内储能新增招标容量",
-        "delta": "+132% YoY；长时储能容量占52.97%",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
-        "clean_html": "<p>CESA统计2026年4月国内新型储能新增招标387个，合计27.2GW/85.3GWh，同比+132%，长时储能容量占52.97%。</p>",
-        "caption": "国内储能招标月度规模再创新高，电网侧和长时储能占比抬升",
-        "methodology": "23:00抓取新浪财经转载页原始HTML（sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21），采用文中CESA统计的项目数、功率/容量、同比、场景和时长占比。",
-        "history": [
-          {
-            "label": "新增容量 GWh",
-            "value": 85.3
-          },
-          {
-            "label": "新增功率 GW",
-            "value": 27.2
-          },
-          {
-            "label": "项目数",
-            "value": 387
-          },
-          {
-            "label": "长时容量占比 %",
-            "value": 52.97
-          },
-          {
-            "label": "电网侧容量 GWh",
-            "value": 64.28
           }
         ]
       },
@@ -17596,6 +18081,45 @@ window.NEOLINK_FEED= {
     ],
     "project": [
       {
+        "source": "粤电售电 / 碳索储能网",
+        "source_type": "用户侧储能EPC/虚拟电厂接入",
+        "account_name": "碳索储能网",
+        "category": "项目",
+        "title": "粤电售电中标广州广芯5.5MW/11MWh用户侧储能项目EPC，项目已并网并计划接入虚拟电厂",
+        "summary": "碳索储能网5月18日援引“粤电售电”消息称，粤电售电中标广州广芯5.5MW/11MWh用户侧储能项目EPC；项目已于2026年5月15日实现并网，后续将接入虚拟电厂聚合平台参与电网调节与电力市场化交易。",
+        "body": [
+          "该项目为用户侧储能EPC中标信息，规模5.5MW/11MWh（约2小时配置），体现工商业/园区侧储能与市场化交易结合的落地节奏。",
+          "信息源为行业门户转载并标注“来源：粤电售电”，建议后续以业主或招标平台公告进一步复核商务条款与计价口径。"
+        ],
+        "key_points": [
+          "中标方：粤电售电（EPC）。",
+          "项目：广州广芯用户侧储能。",
+          "规模：5.5MW/11MWh。",
+          "并网：2026-05-15实现并网。",
+          "后续：计划接入虚拟电厂聚合平台。"
+        ],
+        "value": "11",
+        "unit": "MWh 用户侧储能并网",
+        "delta": "5.5MW/11MWh；计划接入VPP聚合平台",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://mcn.solarbe.com/news/20260518/50023167.html",
+        "clean_html": "<p>粤电售电中标广州广芯5.5MW/11MWh用户侧储能项目EPC，项目已于2026-05-15并网并计划接入虚拟电厂聚合平台。</p>",
+        "caption": "用户侧储能：并网后接入VPP参与调节与交易",
+        "methodology": "12:02公开来源核验：读取碳索储能网转载页并抽取中标方、规模、并网时间与VPP接入计划；页面标注来源为“粤电售电”。执行环境 DNS 异常导致 `curl` 无法解析该域名，未能计算页面 hash，改以内容字段交叉校对与去重校验。",
+        "history": [
+          {
+            "label": "功率 MW",
+            "value": 5.5
+          },
+          {
+            "label": "容量 MWh",
+            "value": 11
+          }
+        ]
+      },
+      {
         "source": "碳索储能网",
         "source_type": "行业门户周报/项目政策汇总",
         "account_name": "碳索储能网",
@@ -19256,6 +19780,53 @@ window.NEOLINK_FEED= {
     ],
     "policy": [
       {
+        "source": "Energy-Storage.News / AEMO / Transgrid",
+        "source_type": "海外电网运行规划/构网型储能",
+        "account_name": "Energy-Storage.News",
+        "category": "海外政策",
+        "title": "AEMO将构网型BESS列为2026优先行动，Transgrid拟在新南威尔士部署5GW",
+        "summary": "Energy-Storage.News报道，澳大利亚能源市场运营机构AEMO在FY2026工程路线图中将构网型电池储能列为NEM与SWIS优先行动；同时Transgrid在新南威尔士系统强度方案中筛选超过100个候选方案，组合纳入5GW构网型BESS和10台同步调相机，目标到2032/33形成电网“heartbeat”。",
+        "body": [
+          "该线索的关键不是单个电站中标，而是电网运营方把构网型储能从示范资产推向系统级规划资产；这会提高对PCS控制、惯量/短路比支撑和并网模型验证的要求。",
+          "Transgrid方案称构网型BESS预计提供新南威尔士近半系统强度需求，和同步调相机共同服务高比例新能源电网。",
+          "对中国储能出口企业的含义是：海外大储招标将更重视grid-forming能力、并网仿真、长期性能担保和电网服务收入模型，而不只是$/kWh硬件报价。"
+        ],
+        "key_points": [
+          "AEMO FY2026优先行动覆盖NEM与SWIS，核心包括构网型BESS和分布式能源资源。",
+          "Transgrid评估超过100个系统强度候选方案后，组合选择5GW构网型BESS与10台同步调相机。",
+          "新南威尔士目标时间为2032/33；构网型BESS预计承担近半系统强度需求。",
+          "该消息强化“海外大储从能量套利走向电网稳定服务”的趋势。"
+        ],
+        "value": "5",
+        "unit": "GW 构网型BESS规划",
+        "delta": "另配10台同步调相机；目标2032/33",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.energy-storage.news/aemo-sets-grid-forming-bess-as-a-priority-action-for-2026-set-to-form-the-heartbeat-of-new-south-wales/",
+        "clean_html": "<p>AEMO将构网型BESS列为2026优先行动；Transgrid规划5GW构网型BESS和10台同步调相机以满足新南威尔士系统强度需求。</p>",
+        "caption": "澳洲电网：构网型储能进入系统级规划",
+        "methodology": "12:00海外公开来源检查；页面HTTP 200，sha256 55d41ff796204d9da6fba57890d25ce6a7ca1dca738f37abfd69d9777d9f0a8c；抽取AEMO FY2026优先行动、Transgrid PACR规划容量、同步调相机数量和目标年份。",
+        "history": [
+          {
+            "label": "构网型BESS GW",
+            "value": 5
+          },
+          {
+            "label": "同步调相机 台",
+            "value": 10
+          },
+          {
+            "label": "候选方案 个+",
+            "value": 100
+          },
+          {
+            "label": "目标年份",
+            "value": 2032
+          }
+        ]
+      },
+      {
         "source": "碳索储能网",
         "source_type": "行业门户周报/项目政策汇总",
         "account_name": "碳索储能网",
@@ -20503,6 +21074,69 @@ window.NEOLINK_FEED= {
           {
             "label": "电池级碳酸锂 元/吨",
             "value": 192000
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色",
+        "source_type": "国内专业价格源/公开行情页",
+        "account_name": "上海有色网 SMM",
+        "category": "行情",
+        "title": "SMM 5月18日电池级碳酸锂价格：指数190,865元/吨，现货均价191,500元/吨",
+        "summary": "SMM公开行情页显示，2026年5月18日电池级碳酸锂价格指数为190,865元/吨，较前一交易日下调894元/吨；电池级碳酸锂现货报价区间190,000-193,000元/吨，均价191,500元/吨，日变动-500元/吨；工业级碳酸锂均价187,500元/吨，日变动0。该口径用于主材趋势与MarketTrend锂盐情绪，不与期货合约直接混算。",
+        "body": [
+          "电池级碳酸锂：区间190,000-193,000元/吨，均价191,500元/吨，日变动-500元/吨（as_of=2026-05-18）。",
+          "电池级碳酸锂价格指数190,865元/吨，日变动-894元/吨；工业级碳酸锂均价187,500元/吨，日变动0。",
+          "该数据为公开可见价格页口径，用于站内主材趋势与MarketTrend成本/情绪观测；不同来源的现货指数与期货合约不直接混算。"
+        ],
+        "key_points": [
+          "电池级碳酸锂：190000-193000元/吨，均价191500元/吨，-500。",
+          "电池级碳酸锂价格指数：190865元/吨，-894。",
+          "工业级碳酸锂均价：187500元/吨，0。",
+          "as_of=2026-05-18。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "指数190865元/吨（-894）；区间190000-193000元/吨（均价-500）",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "clean_html": "<p>SMM公开行情页显示，2026-05-18电池级碳酸锂价格190000-193000元/吨，均价191500元/吨（-500）；价格指数190865元/吨（-894）；工业级均价187500元/吨（0）。</p>",
+        "caption": "SMM电池级碳酸锂公开价（2026-05-18）",
+        "methodology": "11:10公开来源复核：执行环境 DNS 无法解析 neolink.asia，无法线上回读入口；改用公开行情页可见表格字段核验，以页面显示 as_of 日期与指数/区间/均价/变动为准写入，不以抓取时间冒充报价日期。",
+        "history": [
+          {
+            "label": "电池级均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "电池级区间 低",
+            "value": 190000
+          },
+          {
+            "label": "电池级区间 高",
+            "value": 193000
+          },
+          {
+            "label": "电池级均价变动",
+            "value": -500
+          },
+          {
+            "label": "价格指数 元/吨",
+            "value": 190865
+          },
+          {
+            "label": "价格指数变动",
+            "value": -894
+          },
+          {
+            "label": "工业级均价 元/吨",
+            "value": 187500
+          },
+          {
+            "label": "工业级变动",
+            "value": 0
           }
         ]
       },
@@ -22834,6 +23468,49 @@ window.NEOLINK_FEED= {
           {
             "label": "碳酸锂涨幅 %",
             "value": 7.7
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色",
+        "source_type": "国内专业价格源/公开行情页",
+        "account_name": "上海有色网 SMM",
+        "category": "行情价格",
+        "title": "SMM 5月18日电池级碳酸锂价格：指数190,865元/吨，现货均价191,500元/吨",
+        "summary": "SMM公开行情页显示，2026年5月18日电池级碳酸锂价格指数为190,865元/吨，较前一交易日下调894元/吨；电池级碳酸锂现货报价区间190,000-193,000元/吨，均价191,500元/吨，日变动-500元/吨；工业级碳酸锂均价187,500元/吨，日变动0。",
+        "body": [
+          "电池级碳酸锂：区间190,000-193,000元/吨，均价191,500元/吨，日变动-500元/吨（as_of=2026-05-18）。",
+          "电池级碳酸锂价格指数190,865元/吨，日变动-894元/吨；工业级碳酸锂均价187,500元/吨，日变动0。",
+          "该口径可用于MarketTrend成本侧锚定与情绪跟踪，不与期货合约直接混算。"
+        ],
+        "key_points": [
+          "电池级均价191500元/吨（-500）。",
+          "指数190865元/吨（-894）。",
+          "工业级均价187500元/吨（0）。",
+          "as_of=2026-05-18。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "指数190865元/吨（-894）；区间190000-193000元/吨（均价-500）",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "clean_html": "<p>SMM 2026-05-18公开行情显示，电池级碳酸锂均价191500元/吨（-500），价格指数190865元/吨（-894）；工业级均价187500元/吨（0）。</p>",
+        "caption": "电池级碳酸锂（SMM公开价）",
+        "methodology": "11:10公开来源复核：以页面可见 as_of 日期与报价字段（指数/区间/均价/变动）为准更新指标，不以抓取时间替代报价日期。",
+        "history": [
+          {
+            "label": "电池级均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "价格指数 元/吨",
+            "value": 190865
+          },
+          {
+            "label": "工业级均价 元/吨",
+            "value": 187500
           }
         ]
       },
@@ -32906,6 +33583,265 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "source": "Energy-Storage.News",
+        "source_type": "海外融资与承购/优化新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "英国超2.2GWh BESS推进：Matrix为Eccles获2.45亿英镑融资，BW ESS Hams Hall引入EDF优化",
+        "summary": "Energy-Storage.News报道，英国多个大型BESS取得融资和市场化进展：Matrix Renewables为苏格兰Eccles 500MW/1,000MWh两小时BESS完成2.45亿英镑项目融资，并由EDF提供route-to-market/优化服务、Tesla担任EPC；BW ESS的Hams Hall一期350MW/1,243MWh项目也与EDF合作优化。",
+        "body": [
+          "这条新闻的价值不只在容量，而在“融资+承购/优化+EPC”三要素同时清晰，说明英国储能资产的银行可融资性继续改善。",
+          "两个项目合计超过2.2GWh，覆盖苏格兰和英格兰中部电网节点，对英国频率服务、批发价差和容量市场收入形成新增供给。",
+          "本轮把该条作为海外资本市场增量，和Modo美国BESS资本市场报告相互印证。"
+        ],
+        "key_points": [
+          "Matrix Eccles：500MW/1,000MWh，项目融资2.45亿英镑。",
+          "EDF为Matrix Eccles提供优化/route-to-market服务，Tesla担任EPC。",
+          "BW ESS Hams Hall一期：350MW/1,243MWh，并引入EDF优化。",
+          "两项容量合计约2,243MWh。"
+        ],
+        "value": "2243",
+        "unit": "MWh 英国BESS容量",
+        "delta": "Matrix融资£245m；EDF优化Hams Hall",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/matrix-renewables-bw-ess-secure-finance-and-offtake-for-over-2-2gwh-of-uk-bess/",
+        "clean_html": "<p>Energy-Storage.News称Matrix Renewables和BW ESS在英国合计推进超过2.2GWh BESS，Matrix Eccles获2.45亿英镑融资，Hams Hall引入EDF优化。</p>",
+        "caption": "海外融资：英国BESS项目从容量公告进入融资和优化合约落地",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 1e4ece587a697c20edb1a9237ddec324f7994d704b70b14b153a4f89ea4f15c8；采用公开摘要中的容量、融资额、优化方和EPC字段。",
+        "history": [
+          {
+            "label": "Eccles功率 MW",
+            "value": 500
+          },
+          {
+            "label": "Eccles容量 MWh",
+            "value": 1000
+          },
+          {
+            "label": "Eccles融资 百万英镑",
+            "value": 245
+          },
+          {
+            "label": "Hams Hall功率 MW",
+            "value": 350
+          },
+          {
+            "label": "Hams Hall容量 MWh",
+            "value": 1243
+          },
+          {
+            "label": "合计容量 MWh",
+            "value": 2243
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外项目投运新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "澳大利亚最大运营BESS投运：Synergy完成500MW/2,400MWh Collie Battery，CATL供货",
+        "summary": "Energy-Storage.News 5月18日报道，西澳州有能源公司Synergy完成Collie Battery Energy Storage System，规模500MW/2,400MWh，成为澳大利亚最大运营电池储能系统；报道称项目容量从早前2,000MWh口径提升至2,400MWh。",
+        "body": [
+          "该项目超过Waratah Super Battery 1,680MWh、Eraring Battery Stage 1 1,770MWh以及Neoen Collie Battery 2,200MWh等澳大利亚大型项目。",
+          "对NeoLink判断的意义：澳大利亚大储从审批和建设新闻进入超2GWh级并网投运阶段，供应链中CATL等中国电池企业继续参与海外大型项目。",
+          "本轮使用搜索结果摘要和实时抓取页面留档；若后续公开更多商业条款，再补充EPC、优化商和收益结构。"
+        ],
+        "key_points": [
+          "项目规模：500MW/2,400MWh。",
+          "业主：西澳州有能源公司Synergy；电池供应相关标题提及CATL-powered。",
+          "地点：Western Australia, Collie；状态：completed / operational。",
+          "容量口径较此前2,000MWh媒体说法上调到2,400MWh。"
+        ],
+        "value": "2400",
+        "unit": "MWh 运营BESS容量",
+        "delta": "澳大利亚最大运营BESS；500MW功率",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/australias-largest-operational-bess-synergy-completes-catl-powered-2400mwh-collie-battery/",
+        "clean_html": "<p>Energy-Storage.News报道称，Synergy完成西澳Collie 500MW/2,400MWh BESS，成为澳大利亚最大运营电池储能系统。</p>",
+        "caption": "海外投运：澳大利亚进入2GWh级运营BESS阶段",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 e902c147df4619e780d7fa8b0fc7425f9c9351cd5e1dbcb68c5b24655d6c919a；采用Energy-Storage.News题名与搜索摘要中公开字段，未臆造融资或电价条款。",
+        "history": [
+          {
+            "label": "功率 MW",
+            "value": 500
+          },
+          {
+            "label": "容量 MWh",
+            "value": 2400
+          },
+          {
+            "label": "此前报道容量 MWh",
+            "value": 2000
+          },
+          {
+            "label": "Waratah Super Battery MWh",
+            "value": 1680
+          },
+          {
+            "label": "Eraring Battery Stage 1 MWh",
+            "value": 1770
+          },
+          {
+            "label": "Neoen Collie Battery MWh",
+            "value": 2200
+          }
+        ]
+      },
+      {
+        "source": "Modo Energy",
+        "source_type": "海外BESS资本市场季度报告",
+        "account_name": "Modo Energy",
+        "category": "海外市场",
+        "title": "Modo Energy：美国BESS一季度公开交易17笔、2.4GW，交易数量环比增长42%",
+        "summary": "Modo Energy Q1 2026美国BESS资本市场报告显示，一季度公开披露BESS交易17笔，高于2025年四季度12笔，环比+42%；合计增加2.4GW容量，包含8笔融资、7笔并购和2笔股权投资。ERCOT以10笔交易领先，CAISO和NYISO各3笔；较大融资案例包括TransGrid Energy亚利桑那Atlas VIII项目382MW，项目债务6.56亿美元，并属更大12亿美元组合的一部分。",
+        "body": [
+          "海外融资信号对NeoLink的意义在于：美国储能资产已从单个项目公告转入更规范的资本市场跟踪，融资、并购、税收抵免转让和tax equity共同决定项目落地速度。",
+          "报告显示ERCOT仍是交易最活跃市场，但CAISO和NYISO也有交易，说明储能资本正在从得州套利市场扩散到容量和清洁能源政策支持更强的区域。",
+          "本轮仅采用报告摘要中的公开字段；对Atlas VIII容量按Modo摘要的382MW记录，避免把12亿美元组合误读为单一BESS项目价值。"
+        ],
+        "key_points": [
+          "Q1 2026美国BESS公开交易17笔，较Q4 2025的12笔增加42%。",
+          "合计新增2.4GW容量；结构为8笔融资、7笔M&A、2笔股权投资。",
+          "ERCOT 10笔居首，CAISO和NYISO各3笔。",
+          "TransGrid Energy Atlas VIII：382MW，项目债务6.56亿美元，属12亿美元组合的一部分。"
+        ],
+        "value": "17",
+        "unit": "笔 Q1美国BESS公开交易",
+        "delta": "环比+42%；新增2.4GW",
+        "direction": "up",
+        "date": "Q1-2026",
+        "as_of": "2026-05-18",
+        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "clean_html": "<p>Modo Energy称Q1 2026美国BESS公开交易17笔、2.4GW，交易数量较上一季度增长42%。</p>",
+        "caption": "海外资本：美国BESS融资和并购重新升温",
+        "methodology": "14:00海外公开来源搜索；Modo页面HTTP 200，sha256 d12e01a9329dbae98749c7b5af4667779543d2d6e59046c696f9cfe79b559dd1；抽取报告摘要中的交易数量、容量、市场分布和融资案例。",
+        "history": [
+          {
+            "label": "公开交易 笔",
+            "value": 17
+          },
+          {
+            "label": "新增容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "融资 笔",
+            "value": 8
+          },
+          {
+            "label": "M&A 笔",
+            "value": 7
+          },
+          {
+            "label": "股权投资 笔",
+            "value": 2
+          },
+          {
+            "label": "Atlas VIII债务融资 百万美元",
+            "value": 656
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Lydian Energy",
+        "source_type": "海外项目融资/BESS PPA",
+        "account_name": "Energy-Storage.News",
+        "category": "海外项目",
+        "title": "Lydian Energy获6.89亿美元融资，覆盖美国150MW/733MWh Faraday BESS等项目",
+        "summary": "Energy-Storage.News报道，IPP Lydian Energy获得6.89亿美元全栈融资，用于美国新墨西哥、得州和犹他州的两个光伏项目及一个BESS项目；其中Faraday BESS一期位于犹他州，规模150MW/733MWh，并有长期PPA支持。",
+        "body": [
+          "该项目的核心信号是：美国大储项目融资仍依赖长期PPA、税收抵免过桥贷款和银团贷款组合，融资结构比单纯设备订单更能反映项目可银行化程度。",
+          "融资由CIBC与MUFG支持，结构包括construction-to-term loan、tax credit bridge loan、co-investment bridge loan和letter of credit facility。",
+          "报道还提到Lydian此前在得州完成3个BESS项目的2.33亿美元项目融资，并披露其太阳能与储能组合约18个项目、总容量4.4GW。"
+        ],
+        "key_points": [
+          "融资金额：6.89亿美元，覆盖两个光伏项目和一个BESS项目。",
+          "Faraday BESS Phase 1：150MW/733MWh，位于犹他州，有长期PPA支持。",
+          "融资银行包括CIBC与MUFG，结构包含税收抵免过桥贷款等。",
+          "Lydian声称其太阳能+储能项目组合总计18个、4.4GW。"
+        ],
+        "value": "733",
+        "unit": "MWh Faraday BESS一期",
+        "delta": "融资6.89亿美元；组合4.4GW",
+        "direction": "up",
+        "date": "02-18",
+        "as_of": "2026-02-18",
+        "url": "https://www.energy-storage.news/lydian-energy-secures-us689-million-for-three-us-bess-and-solar-projects/",
+        "clean_html": "<p>Lydian Energy获得6.89亿美元融资，覆盖美国两个光伏项目和一个BESS项目；Faraday BESS一期规模150MW/733MWh。</p>",
+        "caption": "海外融资：美国BESS项目以PPA和税抵贷款支撑可银行化",
+        "methodology": "13:00海外公开来源搜索；Energy-Storage.News页面HTTP 200，sha256 52d913a579b777cb6190770d6b2aeda7687a82f32810aaa8442038a9be01f8b2；抽取融资金额、项目规模、PPA和融资结构字段。",
+        "history": [
+          {
+            "label": "融资金额 百万美元",
+            "value": 689
+          },
+          {
+            "label": "Faraday功率 MW",
+            "value": 150
+          },
+          {
+            "label": "Faraday容量 MWh",
+            "value": 733
+          },
+          {
+            "label": "Lydian组合 GW",
+            "value": 4.4
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / AEMO / Transgrid",
+        "source_type": "海外电网运行规划/构网型储能",
+        "account_name": "Energy-Storage.News",
+        "category": "海外政策",
+        "title": "AEMO将构网型BESS列为2026优先行动，Transgrid拟在新南威尔士部署5GW",
+        "summary": "Energy-Storage.News报道，澳大利亚能源市场运营机构AEMO在FY2026工程路线图中将构网型电池储能列为NEM与SWIS优先行动；同时Transgrid在新南威尔士系统强度方案中筛选超过100个候选方案，组合纳入5GW构网型BESS和10台同步调相机，目标到2032/33形成电网“heartbeat”。",
+        "body": [
+          "该线索的关键不是单个电站中标，而是电网运营方把构网型储能从示范资产推向系统级规划资产；这会提高对PCS控制、惯量/短路比支撑和并网模型验证的要求。",
+          "Transgrid方案称构网型BESS预计提供新南威尔士近半系统强度需求，和同步调相机共同服务高比例新能源电网。",
+          "对中国储能出口企业的含义是：海外大储招标将更重视grid-forming能力、并网仿真、长期性能担保和电网服务收入模型，而不只是$/kWh硬件报价。"
+        ],
+        "key_points": [
+          "AEMO FY2026优先行动覆盖NEM与SWIS，核心包括构网型BESS和分布式能源资源。",
+          "Transgrid评估超过100个系统强度候选方案后，组合选择5GW构网型BESS与10台同步调相机。",
+          "新南威尔士目标时间为2032/33；构网型BESS预计承担近半系统强度需求。",
+          "该消息强化“海外大储从能量套利走向电网稳定服务”的趋势。"
+        ],
+        "value": "5",
+        "unit": "GW 构网型BESS规划",
+        "delta": "另配10台同步调相机；目标2032/33",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.energy-storage.news/aemo-sets-grid-forming-bess-as-a-priority-action-for-2026-set-to-form-the-heartbeat-of-new-south-wales/",
+        "clean_html": "<p>AEMO将构网型BESS列为2026优先行动；Transgrid规划5GW构网型BESS和10台同步调相机以满足新南威尔士系统强度需求。</p>",
+        "caption": "澳洲电网：构网型储能进入系统级规划",
+        "methodology": "12:00海外公开来源检查；页面HTTP 200，sha256 55d41ff796204d9da6fba57890d25ce6a7ca1dca738f37abfd69d9777d9f0a8c；抽取AEMO FY2026优先行动、Transgrid PACR规划容量、同步调相机数量和目标年份。",
+        "history": [
+          {
+            "label": "构网型BESS GW",
+            "value": 5
+          },
+          {
+            "label": "同步调相机 台",
+            "value": 10
+          },
+          {
+            "label": "候选方案 个+",
+            "value": 100
+          },
+          {
+            "label": "目标年份",
+            "value": 2032
+          }
+        ]
+      },
+      {
         "source": "PV Tech / Masdar / EWEC",
         "source_type": "海外企业与公用事业合作框架",
         "account_name": "PV Tech",
@@ -33286,58 +34222,6 @@ window.NEOLINK_FEED= {
           {
             "label": "目标年份",
             "value": 2030
-          }
-        ]
-      },
-      {
-        "source": "Modo Energy",
-        "source_type": "海外资本市场报告/美国BESS交易",
-        "account_name": "Modo Energy",
-        "category": "海外市场",
-        "title": "Modo：美国BESS一季度公开交易数环比增42%，新增2.4GW容量",
-        "summary": "Modo Energy《U.S. BESS Capital Markets Report - Q1 2026》显示，美国公开披露的BESS交易活动一季度环比增加42%，共跟踪17笔交易（上季度12笔），新增2.4GW容量，结构包括8笔融资、7笔并购和2笔股权投资；ERCOT以10笔交易领先，CAISO和NYISO各3笔。报告还提到TransGrid Energy 382MW Atlas VIII项目的6.56亿美元项目债务融资。",
-        "body": [
-          "海外资本市场侧，本轮补入美国BESS交易活跃度指标：Q1交易数从12笔增至17笔，环比+42%。",
-          "2.4GW新增容量来自融资、并购与股权投资，说明资金不只投向新建，也在重组和资产交易中流动。",
-          "ERCOT占10笔交易，继续是美国储能资产估值和收益结构观察的核心市场。"
-        ],
-        "key_points": [
-          "Q1 2026公开BESS交易：17笔。",
-          "环比增幅：42%（Q4 2025为12笔）。",
-          "新增容量：2.4GW。",
-          "交易结构：8笔融资、7笔并购、2笔股权投资。",
-          "区域：ERCOT 10笔，CAISO与NYISO各3笔。"
-        ],
-        "value": "17",
-        "unit": "笔 美国BESS交易",
-        "delta": "+42% QoQ；新增2.4GW",
-        "direction": "up",
-        "date": "05-01",
-        "as_of": "2026-05-01",
-        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
-        "clean_html": "<p>Modo Energy称，美国BESS Q1 2026公开交易数环比增长42%至17笔，新增2.4GW容量，ERCOT以10笔交易领先。</p>",
-        "caption": "美国BESS资本市场回暖：Q1交易+42%，新增2.4GW",
-        "methodology": "07:00主动海外检索并抓取Modo Energy报告HTML（sha256 857b55422f4e60197d33cce3d298e15063b4836c55a63df0c18c4fdbce41f980）；抽取交易笔数、环比、容量、交易结构和市场分布。",
-        "history": [
-          {
-            "label": "Q1交易数",
-            "value": 17
-          },
-          {
-            "label": "Q4交易数",
-            "value": 12
-          },
-          {
-            "label": "环比增幅 %",
-            "value": 42
-          },
-          {
-            "label": "新增容量 GW",
-            "value": 2.4
-          },
-          {
-            "label": "ERCOT交易数",
-            "value": 10
           }
         ]
       },
@@ -37106,6 +37990,220 @@ window.NEOLINK_FEED= {
     ],
     "market": [
       {
+        "source": "储能头条 / 国际储能网",
+        "source_type": "国内储能周事迹/政策、订单、招中标汇总",
+        "account_name": "储能头条",
+        "category": "周度综述",
+        "title": "储能头条5月18日周事迹：4月储能电池销量55.2GWh，同比+75.5%，国内外项目密集披露",
+        "summary": "15:00复查5月18日储能周事迹：4月动力和储能电池合计销量164.2GWh，其中储能电池55.2GWh、同比+75.5%；同文列出楚能50GWh签约、亿纬印度8GWh订单、宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh等项目线索。",
+        "body": [
+          "该来源把政策、招中标、出海订单、并网和产销数据合并呈现，本轮保留其作为国内综合证据源。",
+          "重点变化仍集中在大容量项目招采和容量电价/质量监管，而不是单一电芯报价。",
+          "海外出海线索包括乌克兰15MWh、波黑135MWh、智利300MW/1200MWh和印度8GWh订单。"
+        ],
+        "key_points": [
+          "4月储能电池销量55.2GWh，同比+75.5%；1-4月储能电池累计销量200.4GWh，同比+100.4%。",
+          "楚能与五家企业累计签约50GWh；亿纬锂能与印度GNEPL签署8GWh订单。",
+          "宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh设备采购继续提示国内大储需求。"
+        ],
+        "value": "55.2",
+        "unit": "GWh 4月储能电池销量",
+        "delta": "同比+75.5%；1-4月累计200.4GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://chuneng.in-en.com/html/chunengy-54481.shtml",
+        "clean_html": "<p>储能头条5月18日周事迹显示，4月储能电池销量55.2GWh，同比+75.5%；国内大储招采与海外订单同步活跃。</p>",
+        "caption": "国内综合：产销、项目和出海订单同向放量",
+        "methodology": "15:00国内公开来源复查；HTTP 200 sha256 be69658625ff2f489ca7eccc1035727d371116ec66c2108629bba186e5c8c8a1；按原文列举项目、订单和产销数据摘录，未把转载内容当作单一官方统计。",
+        "history": [
+          {
+            "label": "4月动力+储能电池销量 GWh",
+            "value": 164.2
+          },
+          {
+            "label": "4月储能电池销量 GWh",
+            "value": 55.2
+          },
+          {
+            "label": "1-4月储能电池累计销量 GWh",
+            "value": 200.4
+          },
+          {
+            "label": "楚能签约规模 GWh",
+            "value": 50
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "乌兰察布项目 MWh",
+            "value": 6000
+          }
+        ]
+      },
+      {
+        "source": "上海有色网 SMM 储能专区",
+        "source_type": "公开行情表/锂电与储能材料价格",
+        "account_name": "SMM",
+        "category": "行情价格",
+        "title": "SMM 15:00复核：电池级碳酸锂均价19.15万元/吨，280Ah储能电芯仍为0.334元/Wh周价",
+        "summary": "15:00重新抓取SMM储能专区；公开行情仍显示05-18电池级碳酸锂187000-196000元/吨、均价191500元/吨、日跌500元/吨；储能型280Ah方形LFP电芯仍为05-15周度报价0.312-0.356元/Wh、均价0.334元/Wh。",
+        "body": [
+          "本轮继续使用SMM实时页面而非搜索摘要，避免把05-15缓存值误当成最新行情。",
+          "直流侧储能电池预制舱：3.44/3.72MWh均价0.44元/Wh，5MWh均价0.4525元/Wh，日期均为05-15。",
+          "集中式PCS 1725kW报价0.062-0.068元/W，均价0.065元/W，日期05-15。"
+        ],
+        "key_points": [
+          "电池级碳酸锂：187000-196000元/吨，均价191500元/吨，日跌500元/吨，日期05-18。",
+          "储能型280Ah方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，日期05-15。",
+          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh，日期05-15。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "-500元/吨；280Ah储能电芯0.334元/Wh",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM储能专区公开表显示：05-18电池级碳酸锂均价191500元/吨、日跌500元/吨；05-15储能型280Ah方形LFP电芯均价0.334元/Wh。</p>",
+        "caption": "行情复核：锂盐日度小跌，储能电芯周价未日更",
+        "methodology": "15:00国内公开行情复核；HTTP 200 sha256 66549759a3fa5f2e1d4b0ac132fd4fa7f0906807e2ecbd1b9608f61b08b0b8a1；逐项摘录SMM公开表，不把锂盐日度价格外推为电芯报价。",
+        "history": [
+          {
+            "label": "电池级碳酸锂低值 元/吨",
+            "value": 187000
+          },
+          {
+            "label": "电池级碳酸锂高值 元/吨",
+            "value": 196000
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "日变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯均价 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "5MWh预制舱均价 元/Wh",
+            "value": 0.4525
+          }
+        ]
+      },
+      {
+        "source": "碳索储能网 / Solarbe",
+        "source_type": "国内储能周报/招中标、政策、企业动态",
+        "account_name": "碳索储能",
+        "category": "招中标",
+        "title": "碳索储能周报：本期44条招标、59条中标，吉林/陕西独立储能容量电价成为政策焦点",
+        "summary": "碳索储能5月16日周报显示，本期汇总44条项目招标和59条项目中标；企业端包括亿纬锂能印度8GWh订单、比亚迪储能与Corvus Energy海事电池合作、海辰储能谈AIDC成为储能最大增量；政策端包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西容量电价征求意见。",
+        "body": [
+          "该周报与5月18日储能头条清单相互印证：国内储能从单纯项目规模竞争转向“项目招标+容量补偿+并网质量监督”三条线同时推进。",
+          "吉林政策以煤电容量电价330元/千瓦·年为基础按顶峰能力折算，陕西征求意见稿提出165元/kW·年并按6小时折算，均指向独立储能现金流可预期性。",
+          "周报还列出华北区域新型储能并网运行管理征求意见，非计划停运、脱网容量比例等被纳入考核，提示项目开发不能只看低价中标。"
+        ],
+        "key_points": [
+          "本期周报：44条项目招标、59条项目中标。",
+          "吉林独立储能容量补偿以330元/千瓦·年为基础按顶峰能力折算。",
+          "陕西征求意见稿提出电网侧独立新型储能容量电价165元/kW·年，按6小时折算。",
+          "国家能源局质量监督大纲覆盖100MW及以上电化学储能、压缩空气储能电站。"
+        ],
+        "value": "44/59",
+        "unit": "条 招标/中标",
+        "delta": "容量补偿与质量监督同步升温",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://cn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能周报汇总44条招标、59条中标，并跟踪吉林、陕西独立储能容量电价及国家能源局质量监督大纲。</p>",
+        "caption": "招中标周报：数量扩张后，容量电价和质量考核开始定价风险",
+        "methodology": "14:00国内公开来源搜索并抓取；碳索储能页面HTTP 200，sha256 8038ca391062605c13ed8054a7dd8ab77a9ab480ce76b1b131c5643ff039a09f；用移动页作交叉抓取以备可读性校验。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "吉林容量电价基准 元/kW年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW年",
+            "value": 165
+          },
+          {
+            "label": "质量监督适用门槛 MW",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "source": "中国储能网 / CESA储能应用分会，经新浪财经转载",
+        "source_type": "国内招中标月度统计/公开媒体转载",
+        "account_name": "中国储能网",
+        "category": "招中标",
+        "title": "CESA统计：4月储能新增招标27.2GW/85.3GWh，月度容量再创新高",
+        "summary": "中国储能网援引CESA储能应用分会统计称，2026年4月国内新型储能EPC/PC、系统、电芯新增招标合计27.2GW/85.3GWh，同比增长132%；其中EPC/PC 21.1GW/58.6GWh，系统6GW/23.7GWh，电芯3GWh。宁夏、内蒙古、山西新增招标均超过10GWh，4小时及以上长时储能容量占比约52.97%。",
+        "body": [
+          "这条线索对NeoLink的意义在于：国内大储招标强度已经从单个项目驱动转向月度总量刷新，且长时储能、混合储能和非锂技术路线在招标端同步抬升。",
+          "4月明确时长的项目中，2h储能15.94GW/31.89GWh，4h及以上9.3GW/38.74GWh；长时储能按容量已超过2h储能。",
+          "文章还列出17个GWh级储能招标项目，以及昆明安宁350MW/1750MWh压缩空气储能、托里县200MW/1600MWh氢储能调峰等非典型锂电项目，提示技术路线正在扩散。"
+        ],
+        "key_points": [
+          "4月国内储能新增招标27.2GW/85.3GWh，同比+132%，创月度新高。",
+          "EPC/PC招标58.6GWh，占比68.7%；系统招标23.7GWh，电芯招标3GWh。",
+          "宁夏15.49GWh居首，内蒙古11.21GWh、山西10.89GWh均超过10GWh。",
+          "4h及以上长时储能38.74GWh，按容量占52.97%；混合储能总规模3GW/6.7GWh。"
+        ],
+        "value": "85.3",
+        "unit": "GWh 4月新增招标容量",
+        "delta": "同比+132%；EPC/PC占68.7%",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
+        "clean_html": "<p>CESA储能应用分会统计：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比增长132%，宁夏、内蒙古、山西招标容量均超过10GWh。</p>",
+        "caption": "4月国内储能招标容量再破纪录",
+        "methodology": "13:00国内公开来源搜索；新浪转载页面HTTP 200，sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21；交叉检查CNESA搜索页和时代储能网首页均包含相关5月中旬招中标线索。",
+        "history": [
+          {
+            "label": "新增招标容量 GWh",
+            "value": 85.3
+          },
+          {
+            "label": "新增招标功率 GW",
+            "value": 27.2
+          },
+          {
+            "label": "EPC/PC容量 GWh",
+            "value": 58.6
+          },
+          {
+            "label": "系统容量 GWh",
+            "value": 23.7
+          },
+          {
+            "label": "电芯容量 GWh",
+            "value": 3
+          },
+          {
+            "label": "长时储能容量 GWh",
+            "value": 38.74
+          }
+        ]
+      },
+      {
         "source": "PV Tech / Masdar / EWEC",
         "source_type": "海外企业与公用事业合作框架",
         "account_name": "PV Tech",
@@ -37322,63 +38420,6 @@ window.NEOLINK_FEED= {
           {
             "label": "宁德时代中标 MWh",
             "value": 1000
-          }
-        ]
-      },
-      {
-        "source": "SMM 上海有色网储能价格 / 碳酸锂行情",
-        "source_type": "国内专业价格源/公开行情页",
-        "account_name": "上海有色网 SMM",
-        "category": "行情",
-        "title": "SMM 5月15日储能链价格：280Ah电芯0.334元/Wh，314Ah电芯0.3565元/Wh，5MWh预制舱0.4525元/Wh",
-        "summary": "SMM储能公开行情页显示，2026年5月15日方形磷酸铁锂储能电池280Ah价格区间0.312–0.356元/Wh、均价0.334元/Wh，涨0.0015元/Wh；314Ah价格区间0.332–0.381元/Wh、均价0.3565元/Wh，涨0.0015元/Wh；3.44/3.72MWh直流侧预制舱均价0.44元/Wh持平，中国5MWh直流侧预制舱均价0.4525元/Wh、涨0.0025元/Wh；集中式PCS 1725kW均价0.065元/W、涨0.001元/W。SMM碳酸锂页同日显示电池级碳酸锂192000元/吨，日跌3000元/吨。",
-        "body": [
-          "本轮补入的是SMM 5月15日储能系统与电芯公开价格口径，相比前序只覆盖早前碳酸锂和电解液行情，本条把电芯、预制舱、PCS同步纳入MarketTrend证据链。",
-          "储能电芯价格小幅上行，而电池级碳酸锂5月15日回落至192000元/吨，反映上游锂盐回调与储能设备端价格韧性并存。",
-          "5MWh直流侧储能电池预制舱均价0.4525元/Wh、日涨0.0025元/Wh，可作为大储系统报价跟踪锚点。"
-        ],
-        "key_points": [
-          "方形磷酸铁锂储能电池280Ah：0.312–0.356元/Wh，均价0.334元/Wh，+0.0015。",
-          "方形磷酸铁锂储能电池314Ah：0.332–0.381元/Wh，均价0.3565元/Wh，+0.0015。",
-          "3.44/3.72MWh直流侧预制舱：0.414–0.466元/Wh，均价0.44元/Wh，持平。",
-          "中国5MWh直流侧预制舱：0.413–0.492元/Wh，均价0.4525元/Wh，+0.0025。",
-          "集中式PCS 1725kW：0.062–0.068元/W，均价0.065元/W，+0.001。",
-          "电池级碳酸锂：188000–196000元/吨，均价192000元/吨，-3000。"
-        ],
-        "value": "0.334",
-        "unit": "元/Wh 280Ah储能电芯均价",
-        "delta": "314Ah 0.3565元/Wh；5MWh预制舱0.4525元/Wh；电池级碳酸锂192000元/吨",
-        "direction": "mixed",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能公开行情页显示，2026年5月15日280Ah储能电芯均价0.334元/Wh，314Ah储能电芯均价0.3565元/Wh，中国5MWh直流侧预制舱均价0.4525元/Wh；同日SMM碳酸锂页显示电池级碳酸锂均价192000元/吨。</p>",
-        "caption": "储能电芯与预制舱价格小幅上行，碳酸锂现货回落至19.2万元/吨",
-        "methodology": "02:00重新抓取SMM储能价格页与碳酸锂行情页原始HTML，gzip解码后抽取公开表格；快照sha256：储能页38bcd0aa2a04ff645baac5bf45d6f5e8a3a06b00fc1a6f517fc626c7d16bdf6e，碳酸锂页a7063f52fe7d893d69848bf1c6ab09c483014419388d3924dc43d9e1f589d6a1。",
-        "history": [
-          {
-            "label": "280Ah电芯 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "314Ah电芯 元/Wh",
-            "value": 0.3565
-          },
-          {
-            "label": "3.44/3.72MWh预制舱 元/Wh",
-            "value": 0.44
-          },
-          {
-            "label": "5MWh预制舱 元/Wh",
-            "value": 0.4525
-          },
-          {
-            "label": "PCS 1725kW 元/W",
-            "value": 0.065
-          },
-          {
-            "label": "电池级碳酸锂 元/吨",
-            "value": 192000
           }
         ]
       },
@@ -37687,58 +38728,6 @@ window.NEOLINK_FEED= {
           {
             "label": "2026E BESS出货 GWh",
             "value": 600
-          }
-        ]
-      },
-      {
-        "source": "新浪财经 / 中国储能网 / CESA储能应用分会",
-        "source_type": "国内财经媒体转载/协会统计",
-        "account_name": "中国储能网 / CESA储能应用分会",
-        "category": "招中标",
-        "title": "CESA：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比+132%",
-        "summary": "新浪财经5月15日转载中国储能网文章，引用CESA储能应用分会统计：2026年4月国内新型储能新增招标项目387个，EPC/PC（含设备）、储能系统、储能电芯合计27.2GW/85.3GWh，同比增长132%，再创月度新高。EPC/PC新增招标21.1GW/58.6GWh，系统招标6GW/23.7GWh，电芯招标3GWh；4小时及以上长时储能容量38.74GWh，占时长明确项目容量52.97%。",
-        "body": [
-          "4月新增招标前三省份为宁夏、内蒙古、山西，新增招标容量均超过10GWh；宁夏以5.68GW/15.49GWh居首。",
-          "电网侧项目是主力：应用场景明确项目中电网侧23.78GW/64.28GWh，占容量87.3%。",
-          "LFP仍为主流技术路线，文中称4月磷酸铁锂电池储能新增招标23.72GW/76.4GWh；混合储能、飞轮、钠电和压缩空气等路线也在放量。"
-        ],
-        "key_points": [
-          "新增招标387个。",
-          "合计27.2GW/85.3GWh，同比+132%。",
-          "EPC/PC招标58.6GWh，系统招标23.7GWh，电芯招标3GWh。",
-          "4小时及以上长时储能38.74GWh，占52.97%。",
-          "电网侧容量64.28GWh，占87.3%。"
-        ],
-        "value": "85.3",
-        "unit": "GWh 2026年4月国内储能新增招标容量",
-        "delta": "+132% YoY；长时储能容量占52.97%",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
-        "clean_html": "<p>CESA统计2026年4月国内新型储能新增招标387个，合计27.2GW/85.3GWh，同比+132%，长时储能容量占52.97%。</p>",
-        "caption": "国内储能招标月度规模再创新高，电网侧和长时储能占比抬升",
-        "methodology": "23:00抓取新浪财经转载页原始HTML（sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21），采用文中CESA统计的项目数、功率/容量、同比、场景和时长占比。",
-        "history": [
-          {
-            "label": "新增容量 GWh",
-            "value": 85.3
-          },
-          {
-            "label": "新增功率 GW",
-            "value": 27.2
-          },
-          {
-            "label": "项目数",
-            "value": 387
-          },
-          {
-            "label": "长时容量占比 %",
-            "value": 52.97
-          },
-          {
-            "label": "电网侧容量 GWh",
-            "value": 64.28
           }
         ]
       },
@@ -38928,6 +39917,479 @@ window.NEOLINK_FEED= {
     ],
     "sentiment": [
       {
+        "source": "Energy-Storage.News",
+        "source_type": "海外融资与承购/优化新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "英国超2.2GWh BESS推进：Matrix为Eccles获2.45亿英镑融资，BW ESS Hams Hall引入EDF优化",
+        "summary": "Energy-Storage.News报道，英国多个大型BESS取得融资和市场化进展：Matrix Renewables为苏格兰Eccles 500MW/1,000MWh两小时BESS完成2.45亿英镑项目融资，并由EDF提供route-to-market/优化服务、Tesla担任EPC；BW ESS的Hams Hall一期350MW/1,243MWh项目也与EDF合作优化。",
+        "body": [
+          "这条新闻的价值不只在容量，而在“融资+承购/优化+EPC”三要素同时清晰，说明英国储能资产的银行可融资性继续改善。",
+          "两个项目合计超过2.2GWh，覆盖苏格兰和英格兰中部电网节点，对英国频率服务、批发价差和容量市场收入形成新增供给。",
+          "本轮把该条作为海外资本市场增量，和Modo美国BESS资本市场报告相互印证。"
+        ],
+        "key_points": [
+          "Matrix Eccles：500MW/1,000MWh，项目融资2.45亿英镑。",
+          "EDF为Matrix Eccles提供优化/route-to-market服务，Tesla担任EPC。",
+          "BW ESS Hams Hall一期：350MW/1,243MWh，并引入EDF优化。",
+          "两项容量合计约2,243MWh。"
+        ],
+        "value": "2243",
+        "unit": "MWh 英国BESS容量",
+        "delta": "Matrix融资£245m；EDF优化Hams Hall",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/matrix-renewables-bw-ess-secure-finance-and-offtake-for-over-2-2gwh-of-uk-bess/",
+        "clean_html": "<p>Energy-Storage.News称Matrix Renewables和BW ESS在英国合计推进超过2.2GWh BESS，Matrix Eccles获2.45亿英镑融资，Hams Hall引入EDF优化。</p>",
+        "caption": "海外融资：英国BESS项目从容量公告进入融资和优化合约落地",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 1e4ece587a697c20edb1a9237ddec324f7994d704b70b14b153a4f89ea4f15c8；采用公开摘要中的容量、融资额、优化方和EPC字段。",
+        "history": [
+          {
+            "label": "Eccles功率 MW",
+            "value": 500
+          },
+          {
+            "label": "Eccles容量 MWh",
+            "value": 1000
+          },
+          {
+            "label": "Eccles融资 百万英镑",
+            "value": 245
+          },
+          {
+            "label": "Hams Hall功率 MW",
+            "value": 350
+          },
+          {
+            "label": "Hams Hall容量 MWh",
+            "value": 1243
+          },
+          {
+            "label": "合计容量 MWh",
+            "value": 2243
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外项目投运新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "澳大利亚最大运营BESS投运：Synergy完成500MW/2,400MWh Collie Battery，CATL供货",
+        "summary": "Energy-Storage.News 5月18日报道，西澳州有能源公司Synergy完成Collie Battery Energy Storage System，规模500MW/2,400MWh，成为澳大利亚最大运营电池储能系统；报道称项目容量从早前2,000MWh口径提升至2,400MWh。",
+        "body": [
+          "该项目超过Waratah Super Battery 1,680MWh、Eraring Battery Stage 1 1,770MWh以及Neoen Collie Battery 2,200MWh等澳大利亚大型项目。",
+          "对NeoLink判断的意义：澳大利亚大储从审批和建设新闻进入超2GWh级并网投运阶段，供应链中CATL等中国电池企业继续参与海外大型项目。",
+          "本轮使用搜索结果摘要和实时抓取页面留档；若后续公开更多商业条款，再补充EPC、优化商和收益结构。"
+        ],
+        "key_points": [
+          "项目规模：500MW/2,400MWh。",
+          "业主：西澳州有能源公司Synergy；电池供应相关标题提及CATL-powered。",
+          "地点：Western Australia, Collie；状态：completed / operational。",
+          "容量口径较此前2,000MWh媒体说法上调到2,400MWh。"
+        ],
+        "value": "2400",
+        "unit": "MWh 运营BESS容量",
+        "delta": "澳大利亚最大运营BESS；500MW功率",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/australias-largest-operational-bess-synergy-completes-catl-powered-2400mwh-collie-battery/",
+        "clean_html": "<p>Energy-Storage.News报道称，Synergy完成西澳Collie 500MW/2,400MWh BESS，成为澳大利亚最大运营电池储能系统。</p>",
+        "caption": "海外投运：澳大利亚进入2GWh级运营BESS阶段",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 e902c147df4619e780d7fa8b0fc7425f9c9351cd5e1dbcb68c5b24655d6c919a；采用Energy-Storage.News题名与搜索摘要中公开字段，未臆造融资或电价条款。",
+        "history": [
+          {
+            "label": "功率 MW",
+            "value": 500
+          },
+          {
+            "label": "容量 MWh",
+            "value": 2400
+          },
+          {
+            "label": "此前报道容量 MWh",
+            "value": 2000
+          },
+          {
+            "label": "Waratah Super Battery MWh",
+            "value": 1680
+          },
+          {
+            "label": "Eraring Battery Stage 1 MWh",
+            "value": 1770
+          },
+          {
+            "label": "Neoen Collie Battery MWh",
+            "value": 2200
+          }
+        ]
+      },
+      {
+        "source": "储能头条 / 国际储能网",
+        "source_type": "国内储能周事迹/政策、订单、招中标汇总",
+        "account_name": "储能头条",
+        "category": "周度综述",
+        "title": "储能头条5月18日周事迹：4月储能电池销量55.2GWh，同比+75.5%，国内外项目密集披露",
+        "summary": "15:00复查5月18日储能周事迹：4月动力和储能电池合计销量164.2GWh，其中储能电池55.2GWh、同比+75.5%；同文列出楚能50GWh签约、亿纬印度8GWh订单、宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh等项目线索。",
+        "body": [
+          "该来源把政策、招中标、出海订单、并网和产销数据合并呈现，本轮保留其作为国内综合证据源。",
+          "重点变化仍集中在大容量项目招采和容量电价/质量监管，而不是单一电芯报价。",
+          "海外出海线索包括乌克兰15MWh、波黑135MWh、智利300MW/1200MWh和印度8GWh订单。"
+        ],
+        "key_points": [
+          "4月储能电池销量55.2GWh，同比+75.5%；1-4月储能电池累计销量200.4GWh，同比+100.4%。",
+          "楚能与五家企业累计签约50GWh；亿纬锂能与印度GNEPL签署8GWh订单。",
+          "宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh设备采购继续提示国内大储需求。"
+        ],
+        "value": "55.2",
+        "unit": "GWh 4月储能电池销量",
+        "delta": "同比+75.5%；1-4月累计200.4GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://chuneng.in-en.com/html/chunengy-54481.shtml",
+        "clean_html": "<p>储能头条5月18日周事迹显示，4月储能电池销量55.2GWh，同比+75.5%；国内大储招采与海外订单同步活跃。</p>",
+        "caption": "国内综合：产销、项目和出海订单同向放量",
+        "methodology": "15:00国内公开来源复查；HTTP 200 sha256 be69658625ff2f489ca7eccc1035727d371116ec66c2108629bba186e5c8c8a1；按原文列举项目、订单和产销数据摘录，未把转载内容当作单一官方统计。",
+        "history": [
+          {
+            "label": "4月动力+储能电池销量 GWh",
+            "value": 164.2
+          },
+          {
+            "label": "4月储能电池销量 GWh",
+            "value": 55.2
+          },
+          {
+            "label": "1-4月储能电池累计销量 GWh",
+            "value": 200.4
+          },
+          {
+            "label": "楚能签约规模 GWh",
+            "value": 50
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "乌兰察布项目 MWh",
+            "value": 6000
+          }
+        ]
+      },
+      {
+        "source": "上海有色网 SMM 储能专区",
+        "source_type": "公开行情表/锂电与储能材料价格",
+        "account_name": "SMM",
+        "category": "行情价格",
+        "title": "SMM 15:00复核：电池级碳酸锂均价19.15万元/吨，280Ah储能电芯仍为0.334元/Wh周价",
+        "summary": "15:00重新抓取SMM储能专区；公开行情仍显示05-18电池级碳酸锂187000-196000元/吨、均价191500元/吨、日跌500元/吨；储能型280Ah方形LFP电芯仍为05-15周度报价0.312-0.356元/Wh、均价0.334元/Wh。",
+        "body": [
+          "本轮继续使用SMM实时页面而非搜索摘要，避免把05-15缓存值误当成最新行情。",
+          "直流侧储能电池预制舱：3.44/3.72MWh均价0.44元/Wh，5MWh均价0.4525元/Wh，日期均为05-15。",
+          "集中式PCS 1725kW报价0.062-0.068元/W，均价0.065元/W，日期05-15。"
+        ],
+        "key_points": [
+          "电池级碳酸锂：187000-196000元/吨，均价191500元/吨，日跌500元/吨，日期05-18。",
+          "储能型280Ah方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，日期05-15。",
+          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh，日期05-15。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "-500元/吨；280Ah储能电芯0.334元/Wh",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM储能专区公开表显示：05-18电池级碳酸锂均价191500元/吨、日跌500元/吨；05-15储能型280Ah方形LFP电芯均价0.334元/Wh。</p>",
+        "caption": "行情复核：锂盐日度小跌，储能电芯周价未日更",
+        "methodology": "15:00国内公开行情复核；HTTP 200 sha256 66549759a3fa5f2e1d4b0ac132fd4fa7f0906807e2ecbd1b9608f61b08b0b8a1；逐项摘录SMM公开表，不把锂盐日度价格外推为电芯报价。",
+        "history": [
+          {
+            "label": "电池级碳酸锂低值 元/吨",
+            "value": 187000
+          },
+          {
+            "label": "电池级碳酸锂高值 元/吨",
+            "value": 196000
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "日变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯均价 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "5MWh预制舱均价 元/Wh",
+            "value": 0.4525
+          }
+        ]
+      },
+      {
+        "source": "Modo Energy",
+        "source_type": "海外BESS资本市场季度报告",
+        "account_name": "Modo Energy",
+        "category": "海外市场",
+        "title": "Modo Energy：美国BESS一季度公开交易17笔、2.4GW，交易数量环比增长42%",
+        "summary": "Modo Energy Q1 2026美国BESS资本市场报告显示，一季度公开披露BESS交易17笔，高于2025年四季度12笔，环比+42%；合计增加2.4GW容量，包含8笔融资、7笔并购和2笔股权投资。ERCOT以10笔交易领先，CAISO和NYISO各3笔；较大融资案例包括TransGrid Energy亚利桑那Atlas VIII项目382MW，项目债务6.56亿美元，并属更大12亿美元组合的一部分。",
+        "body": [
+          "海外融资信号对NeoLink的意义在于：美国储能资产已从单个项目公告转入更规范的资本市场跟踪，融资、并购、税收抵免转让和tax equity共同决定项目落地速度。",
+          "报告显示ERCOT仍是交易最活跃市场，但CAISO和NYISO也有交易，说明储能资本正在从得州套利市场扩散到容量和清洁能源政策支持更强的区域。",
+          "本轮仅采用报告摘要中的公开字段；对Atlas VIII容量按Modo摘要的382MW记录，避免把12亿美元组合误读为单一BESS项目价值。"
+        ],
+        "key_points": [
+          "Q1 2026美国BESS公开交易17笔，较Q4 2025的12笔增加42%。",
+          "合计新增2.4GW容量；结构为8笔融资、7笔M&A、2笔股权投资。",
+          "ERCOT 10笔居首，CAISO和NYISO各3笔。",
+          "TransGrid Energy Atlas VIII：382MW，项目债务6.56亿美元，属12亿美元组合的一部分。"
+        ],
+        "value": "17",
+        "unit": "笔 Q1美国BESS公开交易",
+        "delta": "环比+42%；新增2.4GW",
+        "direction": "up",
+        "date": "Q1-2026",
+        "as_of": "2026-05-18",
+        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "clean_html": "<p>Modo Energy称Q1 2026美国BESS公开交易17笔、2.4GW，交易数量较上一季度增长42%。</p>",
+        "caption": "海外资本：美国BESS融资和并购重新升温",
+        "methodology": "14:00海外公开来源搜索；Modo页面HTTP 200，sha256 d12e01a9329dbae98749c7b5af4667779543d2d6e59046c696f9cfe79b559dd1；抽取报告摘要中的交易数量、容量、市场分布和融资案例。",
+        "history": [
+          {
+            "label": "公开交易 笔",
+            "value": 17
+          },
+          {
+            "label": "新增容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "融资 笔",
+            "value": 8
+          },
+          {
+            "label": "M&A 笔",
+            "value": 7
+          },
+          {
+            "label": "股权投资 笔",
+            "value": 2
+          },
+          {
+            "label": "Atlas VIII债务融资 百万美元",
+            "value": 656
+          }
+        ]
+      },
+      {
+        "source": "碳索储能网 / Solarbe",
+        "source_type": "国内储能周报/招中标、政策、企业动态",
+        "account_name": "碳索储能",
+        "category": "招中标",
+        "title": "碳索储能周报：本期44条招标、59条中标，吉林/陕西独立储能容量电价成为政策焦点",
+        "summary": "碳索储能5月16日周报显示，本期汇总44条项目招标和59条项目中标；企业端包括亿纬锂能印度8GWh订单、比亚迪储能与Corvus Energy海事电池合作、海辰储能谈AIDC成为储能最大增量；政策端包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西容量电价征求意见。",
+        "body": [
+          "该周报与5月18日储能头条清单相互印证：国内储能从单纯项目规模竞争转向“项目招标+容量补偿+并网质量监督”三条线同时推进。",
+          "吉林政策以煤电容量电价330元/千瓦·年为基础按顶峰能力折算，陕西征求意见稿提出165元/kW·年并按6小时折算，均指向独立储能现金流可预期性。",
+          "周报还列出华北区域新型储能并网运行管理征求意见，非计划停运、脱网容量比例等被纳入考核，提示项目开发不能只看低价中标。"
+        ],
+        "key_points": [
+          "本期周报：44条项目招标、59条项目中标。",
+          "吉林独立储能容量补偿以330元/千瓦·年为基础按顶峰能力折算。",
+          "陕西征求意见稿提出电网侧独立新型储能容量电价165元/kW·年，按6小时折算。",
+          "国家能源局质量监督大纲覆盖100MW及以上电化学储能、压缩空气储能电站。"
+        ],
+        "value": "44/59",
+        "unit": "条 招标/中标",
+        "delta": "容量补偿与质量监督同步升温",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://cn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能周报汇总44条招标、59条中标，并跟踪吉林、陕西独立储能容量电价及国家能源局质量监督大纲。</p>",
+        "caption": "招中标周报：数量扩张后，容量电价和质量考核开始定价风险",
+        "methodology": "14:00国内公开来源搜索并抓取；碳索储能页面HTTP 200，sha256 8038ca391062605c13ed8054a7dd8ab77a9ab480ce76b1b131c5643ff039a09f；用移动页作交叉抓取以备可读性校验。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "吉林容量电价基准 元/kW年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW年",
+            "value": 165
+          },
+          {
+            "label": "质量监督适用门槛 MW",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Lydian Energy",
+        "source_type": "海外项目融资/BESS PPA",
+        "account_name": "Energy-Storage.News",
+        "category": "海外项目",
+        "title": "Lydian Energy获6.89亿美元融资，覆盖美国150MW/733MWh Faraday BESS等项目",
+        "summary": "Energy-Storage.News报道，IPP Lydian Energy获得6.89亿美元全栈融资，用于美国新墨西哥、得州和犹他州的两个光伏项目及一个BESS项目；其中Faraday BESS一期位于犹他州，规模150MW/733MWh，并有长期PPA支持。",
+        "body": [
+          "该项目的核心信号是：美国大储项目融资仍依赖长期PPA、税收抵免过桥贷款和银团贷款组合，融资结构比单纯设备订单更能反映项目可银行化程度。",
+          "融资由CIBC与MUFG支持，结构包括construction-to-term loan、tax credit bridge loan、co-investment bridge loan和letter of credit facility。",
+          "报道还提到Lydian此前在得州完成3个BESS项目的2.33亿美元项目融资，并披露其太阳能与储能组合约18个项目、总容量4.4GW。"
+        ],
+        "key_points": [
+          "融资金额：6.89亿美元，覆盖两个光伏项目和一个BESS项目。",
+          "Faraday BESS Phase 1：150MW/733MWh，位于犹他州，有长期PPA支持。",
+          "融资银行包括CIBC与MUFG，结构包含税收抵免过桥贷款等。",
+          "Lydian声称其太阳能+储能项目组合总计18个、4.4GW。"
+        ],
+        "value": "733",
+        "unit": "MWh Faraday BESS一期",
+        "delta": "融资6.89亿美元；组合4.4GW",
+        "direction": "up",
+        "date": "02-18",
+        "as_of": "2026-02-18",
+        "url": "https://www.energy-storage.news/lydian-energy-secures-us689-million-for-three-us-bess-and-solar-projects/",
+        "clean_html": "<p>Lydian Energy获得6.89亿美元融资，覆盖美国两个光伏项目和一个BESS项目；Faraday BESS一期规模150MW/733MWh。</p>",
+        "caption": "海外融资：美国BESS项目以PPA和税抵贷款支撑可银行化",
+        "methodology": "13:00海外公开来源搜索；Energy-Storage.News页面HTTP 200，sha256 52d913a579b777cb6190770d6b2aeda7687a82f32810aaa8442038a9be01f8b2；抽取融资金额、项目规模、PPA和融资结构字段。",
+        "history": [
+          {
+            "label": "融资金额 百万美元",
+            "value": 689
+          },
+          {
+            "label": "Faraday功率 MW",
+            "value": 150
+          },
+          {
+            "label": "Faraday容量 MWh",
+            "value": 733
+          },
+          {
+            "label": "Lydian组合 GW",
+            "value": 4.4
+          }
+        ]
+      },
+      {
+        "source": "中国储能网 / CESA储能应用分会，经新浪财经转载",
+        "source_type": "国内招中标月度统计/公开媒体转载",
+        "account_name": "中国储能网",
+        "category": "招中标",
+        "title": "CESA统计：4月储能新增招标27.2GW/85.3GWh，月度容量再创新高",
+        "summary": "中国储能网援引CESA储能应用分会统计称，2026年4月国内新型储能EPC/PC、系统、电芯新增招标合计27.2GW/85.3GWh，同比增长132%；其中EPC/PC 21.1GW/58.6GWh，系统6GW/23.7GWh，电芯3GWh。宁夏、内蒙古、山西新增招标均超过10GWh，4小时及以上长时储能容量占比约52.97%。",
+        "body": [
+          "这条线索对NeoLink的意义在于：国内大储招标强度已经从单个项目驱动转向月度总量刷新，且长时储能、混合储能和非锂技术路线在招标端同步抬升。",
+          "4月明确时长的项目中，2h储能15.94GW/31.89GWh，4h及以上9.3GW/38.74GWh；长时储能按容量已超过2h储能。",
+          "文章还列出17个GWh级储能招标项目，以及昆明安宁350MW/1750MWh压缩空气储能、托里县200MW/1600MWh氢储能调峰等非典型锂电项目，提示技术路线正在扩散。"
+        ],
+        "key_points": [
+          "4月国内储能新增招标27.2GW/85.3GWh，同比+132%，创月度新高。",
+          "EPC/PC招标58.6GWh，占比68.7%；系统招标23.7GWh，电芯招标3GWh。",
+          "宁夏15.49GWh居首，内蒙古11.21GWh、山西10.89GWh均超过10GWh。",
+          "4h及以上长时储能38.74GWh，按容量占52.97%；混合储能总规模3GW/6.7GWh。"
+        ],
+        "value": "85.3",
+        "unit": "GWh 4月新增招标容量",
+        "delta": "同比+132%；EPC/PC占68.7%",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
+        "clean_html": "<p>CESA储能应用分会统计：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比增长132%，宁夏、内蒙古、山西招标容量均超过10GWh。</p>",
+        "caption": "4月国内储能招标容量再破纪录",
+        "methodology": "13:00国内公开来源搜索；新浪转载页面HTTP 200，sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21；交叉检查CNESA搜索页和时代储能网首页均包含相关5月中旬招中标线索。",
+        "history": [
+          {
+            "label": "新增招标容量 GWh",
+            "value": 85.3
+          },
+          {
+            "label": "新增招标功率 GW",
+            "value": 27.2
+          },
+          {
+            "label": "EPC/PC容量 GWh",
+            "value": 58.6
+          },
+          {
+            "label": "系统容量 GWh",
+            "value": 23.7
+          },
+          {
+            "label": "电芯容量 GWh",
+            "value": 3
+          },
+          {
+            "label": "长时储能容量 GWh",
+            "value": 38.74
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / AEMO / Transgrid",
+        "source_type": "海外电网运行规划/构网型储能",
+        "account_name": "Energy-Storage.News",
+        "category": "海外政策",
+        "title": "AEMO将构网型BESS列为2026优先行动，Transgrid拟在新南威尔士部署5GW",
+        "summary": "Energy-Storage.News报道，澳大利亚能源市场运营机构AEMO在FY2026工程路线图中将构网型电池储能列为NEM与SWIS优先行动；同时Transgrid在新南威尔士系统强度方案中筛选超过100个候选方案，组合纳入5GW构网型BESS和10台同步调相机，目标到2032/33形成电网“heartbeat”。",
+        "body": [
+          "该线索的关键不是单个电站中标，而是电网运营方把构网型储能从示范资产推向系统级规划资产；这会提高对PCS控制、惯量/短路比支撑和并网模型验证的要求。",
+          "Transgrid方案称构网型BESS预计提供新南威尔士近半系统强度需求，和同步调相机共同服务高比例新能源电网。",
+          "对中国储能出口企业的含义是：海外大储招标将更重视grid-forming能力、并网仿真、长期性能担保和电网服务收入模型，而不只是$/kWh硬件报价。"
+        ],
+        "key_points": [
+          "AEMO FY2026优先行动覆盖NEM与SWIS，核心包括构网型BESS和分布式能源资源。",
+          "Transgrid评估超过100个系统强度候选方案后，组合选择5GW构网型BESS与10台同步调相机。",
+          "新南威尔士目标时间为2032/33；构网型BESS预计承担近半系统强度需求。",
+          "该消息强化“海外大储从能量套利走向电网稳定服务”的趋势。"
+        ],
+        "value": "5",
+        "unit": "GW 构网型BESS规划",
+        "delta": "另配10台同步调相机；目标2032/33",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.energy-storage.news/aemo-sets-grid-forming-bess-as-a-priority-action-for-2026-set-to-form-the-heartbeat-of-new-south-wales/",
+        "clean_html": "<p>AEMO将构网型BESS列为2026优先行动；Transgrid规划5GW构网型BESS和10台同步调相机以满足新南威尔士系统强度需求。</p>",
+        "caption": "澳洲电网：构网型储能进入系统级规划",
+        "methodology": "12:00海外公开来源检查；页面HTTP 200，sha256 55d41ff796204d9da6fba57890d25ce6a7ca1dca738f37abfd69d9777d9f0a8c；抽取AEMO FY2026优先行动、Transgrid PACR规划容量、同步调相机数量和目标年份。",
+        "history": [
+          {
+            "label": "构网型BESS GW",
+            "value": 5
+          },
+          {
+            "label": "同步调相机 台",
+            "value": 10
+          },
+          {
+            "label": "候选方案 个+",
+            "value": 100
+          },
+          {
+            "label": "目标年份",
+            "value": 2032
+          }
+        ]
+      },
+      {
         "source": "PV Tech / Masdar / EWEC",
         "source_type": "海外企业与公用事业合作框架",
         "account_name": "PV Tech",
@@ -39372,62 +40834,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM 储能专区",
-        "source_type": "国内公开行情/储能电池与系统报价",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM储能报价：5月15日电池级碳酸锂19.2万元/吨，280Ah储能电芯0.334元/Wh",
-        "summary": "SMM储能专区公开报价显示，2026-05-15电池级碳酸锂188000-196000元/吨、均价192000元/吨、日跌3000元/吨；储能型280Ah方形磷酸铁锂电池0.312-0.356元/Wh、均价0.334元/Wh、周涨0.0015元/Wh；314Ah储能型电芯均价0.3565元/Wh；5MWh直流侧储能电池预制舱均价0.4525元/Wh，集中式PCS 1725kW均价0.065元/W。",
-        "body": [
-          "本轮重新抓取SMM储能专区并解压HTML，补入5月15日可核验公开行情，替换上一轮5月14日碳酸锂快照。",
-          "原料端电池级碳酸锂均价降至192000元/吨，但储能电芯周度均价小幅上行，显示电芯报价仍受交付、规格和需求结构影响。",
-          "系统侧5MWh直流侧预制舱均价0.4525元/Wh、1725kW集中式PCS均价0.065元/W，可作为MarketTrend当日系统报价锚点。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：188000-196000元/吨，均价192000元/吨，日跌3000元/吨，日期05-15。",
-          "280Ah储能型方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，周涨0.0015元/Wh。",
-          "314Ah储能型方形LFP电芯：0.332-0.381元/Wh，均价0.3565元/Wh。",
-          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh。",
-          "集中式PCS 1725kW：0.062-0.068元/W，均价0.065元/W。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；280Ah储能电芯均价0.334元/Wh",
-        "direction": "mixed",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能专区显示，2026-05-15电池级碳酸锂均价192000元/吨，280Ah储能型方形磷酸铁锂电芯均价0.334元/Wh，5MWh直流侧储能电池预制舱均价0.4525元/Wh。</p>",
-        "caption": "SMM 5月15日：碳酸锂下行，储能电芯与5MWh预制舱报价上行",
-        "methodology": "08:00主动国内检索并抓取SMM储能专区HTML（gzip原始sha256 b2560b0e6c043bb64de632607c1fa33e307be505a14f56ad858622b4876b7ba4）；解压后抽取报价表，保留报价日期而非抓取时间。",
-        "history": [
-          {
-            "label": "碳酸锂均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "碳酸锂日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "280Ah电芯均价 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "314Ah电芯均价 元/Wh",
-            "value": 0.3565
-          },
-          {
-            "label": "5MWh预制舱均价 元/Wh",
-            "value": 0.4525
-          },
-          {
-            "label": "1725kW PCS均价 元/W",
-            "value": 0.065
-          }
-        ]
-      },
-      {
         "source": "新浪财经 / 中国储能网 / CESA储能应用分会产业数据库",
         "source_type": "国内招投标/储能系统与电芯价格",
         "account_name": "新浪财经",
@@ -39644,58 +41050,6 @@ window.NEOLINK_FEED= {
           {
             "label": "CIF均价 美元/千克",
             "value": 22.3
-          }
-        ]
-      },
-      {
-        "source": "Modo Energy",
-        "source_type": "海外资本市场报告/美国BESS交易",
-        "account_name": "Modo Energy",
-        "category": "海外市场",
-        "title": "Modo：美国BESS一季度公开交易数环比增42%，新增2.4GW容量",
-        "summary": "Modo Energy《U.S. BESS Capital Markets Report - Q1 2026》显示，美国公开披露的BESS交易活动一季度环比增加42%，共跟踪17笔交易（上季度12笔），新增2.4GW容量，结构包括8笔融资、7笔并购和2笔股权投资；ERCOT以10笔交易领先，CAISO和NYISO各3笔。报告还提到TransGrid Energy 382MW Atlas VIII项目的6.56亿美元项目债务融资。",
-        "body": [
-          "海外资本市场侧，本轮补入美国BESS交易活跃度指标：Q1交易数从12笔增至17笔，环比+42%。",
-          "2.4GW新增容量来自融资、并购与股权投资，说明资金不只投向新建，也在重组和资产交易中流动。",
-          "ERCOT占10笔交易，继续是美国储能资产估值和收益结构观察的核心市场。"
-        ],
-        "key_points": [
-          "Q1 2026公开BESS交易：17笔。",
-          "环比增幅：42%（Q4 2025为12笔）。",
-          "新增容量：2.4GW。",
-          "交易结构：8笔融资、7笔并购、2笔股权投资。",
-          "区域：ERCOT 10笔，CAISO与NYISO各3笔。"
-        ],
-        "value": "17",
-        "unit": "笔 美国BESS交易",
-        "delta": "+42% QoQ；新增2.4GW",
-        "direction": "up",
-        "date": "05-01",
-        "as_of": "2026-05-01",
-        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
-        "clean_html": "<p>Modo Energy称，美国BESS Q1 2026公开交易数环比增长42%至17笔，新增2.4GW容量，ERCOT以10笔交易领先。</p>",
-        "caption": "美国BESS资本市场回暖：Q1交易+42%，新增2.4GW",
-        "methodology": "07:00主动海外检索并抓取Modo Energy报告HTML（sha256 857b55422f4e60197d33cce3d298e15063b4836c55a63df0c18c4fdbce41f980）；抽取交易笔数、环比、容量、交易结构和市场分布。",
-        "history": [
-          {
-            "label": "Q1交易数",
-            "value": 17
-          },
-          {
-            "label": "Q4交易数",
-            "value": 12
-          },
-          {
-            "label": "环比增幅 %",
-            "value": 42
-          },
-          {
-            "label": "新增容量 GW",
-            "value": 2.4
-          },
-          {
-            "label": "ERCOT交易数",
-            "value": 10
           }
         ]
       },
@@ -40720,58 +42074,6 @@ window.NEOLINK_FEED= {
           {
             "label": "2026E BESS出货 GWh",
             "value": 600
-          }
-        ]
-      },
-      {
-        "source": "新浪财经 / 中国储能网 / CESA储能应用分会",
-        "source_type": "国内财经媒体转载/协会统计",
-        "account_name": "中国储能网 / CESA储能应用分会",
-        "category": "招中标",
-        "title": "CESA：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比+132%",
-        "summary": "新浪财经5月15日转载中国储能网文章，引用CESA储能应用分会统计：2026年4月国内新型储能新增招标项目387个，EPC/PC（含设备）、储能系统、储能电芯合计27.2GW/85.3GWh，同比增长132%，再创月度新高。EPC/PC新增招标21.1GW/58.6GWh，系统招标6GW/23.7GWh，电芯招标3GWh；4小时及以上长时储能容量38.74GWh，占时长明确项目容量52.97%。",
-        "body": [
-          "4月新增招标前三省份为宁夏、内蒙古、山西，新增招标容量均超过10GWh；宁夏以5.68GW/15.49GWh居首。",
-          "电网侧项目是主力：应用场景明确项目中电网侧23.78GW/64.28GWh，占容量87.3%。",
-          "LFP仍为主流技术路线，文中称4月磷酸铁锂电池储能新增招标23.72GW/76.4GWh；混合储能、飞轮、钠电和压缩空气等路线也在放量。"
-        ],
-        "key_points": [
-          "新增招标387个。",
-          "合计27.2GW/85.3GWh，同比+132%。",
-          "EPC/PC招标58.6GWh，系统招标23.7GWh，电芯招标3GWh。",
-          "4小时及以上长时储能38.74GWh，占52.97%。",
-          "电网侧容量64.28GWh，占87.3%。"
-        ],
-        "value": "85.3",
-        "unit": "GWh 2026年4月国内储能新增招标容量",
-        "delta": "+132% YoY；长时储能容量占52.97%",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
-        "clean_html": "<p>CESA统计2026年4月国内新型储能新增招标387个，合计27.2GW/85.3GWh，同比+132%，长时储能容量占52.97%。</p>",
-        "caption": "国内储能招标月度规模再创新高，电网侧和长时储能占比抬升",
-        "methodology": "23:00抓取新浪财经转载页原始HTML（sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21），采用文中CESA统计的项目数、功率/容量、同比、场景和时长占比。",
-        "history": [
-          {
-            "label": "新增容量 GWh",
-            "value": 85.3
-          },
-          {
-            "label": "新增功率 GW",
-            "value": 27.2
-          },
-          {
-            "label": "项目数",
-            "value": 387
-          },
-          {
-            "label": "长时容量占比 %",
-            "value": 52.97
-          },
-          {
-            "label": "电网侧容量 GWh",
-            "value": 64.28
           }
         ]
       },
@@ -42137,65 +43439,6 @@ window.NEOLINK_FEED= {
             "value": 0.52
           }
         ]
-      },
-      {
-        "source": "InfoLink Consulting",
-        "source_type": "海外价格与供应链跟踪/中文价格链",
-        "account_name": "InfoLink",
-        "category": "行情",
-        "title": "InfoLink 5月6日：电池级碳酸锂均价17.3万元/吨，314Ah储能电芯均价0.368元/Wh",
-        "summary": "InfoLink 5月6日储能价格链显示，近一周电池级碳酸锂现货17.0-17.6万元/吨、均价17.3万元/吨、环比上涨3.6%；中国SC6锂辉石CIF均价2490美元/吨、环比上涨6.0%。中国314Ah磷酸铁锂储能电芯均价0.368元/Wh、环比+0.7%；4h交流侧液冷集装箱均价0.52元/Wh、环比+1.1%。",
-        "body": [
-          "InfoLink称锂价重心较前期上移，电池级碳酸锂现货均价17.3万元/吨，环比上涨3.6%。",
-          "储能电芯端，100Ah均价0.450元/Wh、280Ah均价0.370元/Wh、314Ah均价0.368元/Wh，其中314Ah环比上涨0.7%。",
-          "储能系统端，直流侧2h液冷集装箱均价0.49元/Wh，交流侧4h液冷集装箱均价0.52元/Wh、环比上涨1.1%；河北交投宽城德辉297MW/1188MWh系统设备中标单价0.499-0.512元/Wh。"
-        ],
-        "key_points": [
-          "电池级碳酸锂均价17.3万元/吨，环比+3.6%。",
-          "SC6均价2490美元/吨，环比+6.0%。",
-          "314Ah储能电芯均价0.368元/Wh，环比+0.7%。",
-          "4h交流侧液冷集装箱均价0.52元/Wh，环比+1.1%。"
-        ],
-        "value": "17.3",
-        "unit": "万元/吨 电池级碳酸锂均价",
-        "delta": "环比+3.6%；314Ah电芯0.368元/Wh",
-        "direction": "up",
-        "date": "05-06",
-        "as_of": "2026-05-17",
-        "url": "https://www.infolink-group.com/energy-article/cn/ess-spot-price-20260506",
-        "clean_html": "<p>InfoLink 5月6日更新显示，电池级碳酸锂现货均价17.3万元/吨，环比上涨3.6%；SC6均价2490美元/吨，环比上涨6.0%。</p><p>314Ah储能电芯均价0.368元/Wh，4h交流侧液冷集装箱均价0.52元/Wh。</p>",
-        "caption": "锂价抬升继续传导至储能电芯与4h系统",
-        "methodology": "02:00小时刷新抓取InfoLink中文价格链原始HTML；采用页面可见现货区间、均价、环比、储能电芯与系统报价。",
-        "history": [
-          {
-            "label": "碳酸锂低位万元/吨",
-            "value": 17
-          },
-          {
-            "label": "碳酸锂高位万元/吨",
-            "value": 17.6
-          },
-          {
-            "label": "碳酸锂均价万元/吨",
-            "value": 17.3
-          },
-          {
-            "label": "碳酸锂环比%",
-            "value": 3.6
-          },
-          {
-            "label": "SC6均价美元/吨",
-            "value": 2490
-          },
-          {
-            "label": "314Ah元/Wh",
-            "value": 0.368
-          },
-          {
-            "label": "4h系统元/Wh",
-            "value": 0.52
-          }
-        ]
       }
     ],
     "prices": [
@@ -42638,6 +43881,265 @@ window.NEOLINK_FEED= {
     ],
     "global": [
       {
+        "source": "Energy-Storage.News",
+        "source_type": "海外融资与承购/优化新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "英国超2.2GWh BESS推进：Matrix为Eccles获2.45亿英镑融资，BW ESS Hams Hall引入EDF优化",
+        "summary": "Energy-Storage.News报道，英国多个大型BESS取得融资和市场化进展：Matrix Renewables为苏格兰Eccles 500MW/1,000MWh两小时BESS完成2.45亿英镑项目融资，并由EDF提供route-to-market/优化服务、Tesla担任EPC；BW ESS的Hams Hall一期350MW/1,243MWh项目也与EDF合作优化。",
+        "body": [
+          "这条新闻的价值不只在容量，而在“融资+承购/优化+EPC”三要素同时清晰，说明英国储能资产的银行可融资性继续改善。",
+          "两个项目合计超过2.2GWh，覆盖苏格兰和英格兰中部电网节点，对英国频率服务、批发价差和容量市场收入形成新增供给。",
+          "本轮把该条作为海外资本市场增量，和Modo美国BESS资本市场报告相互印证。"
+        ],
+        "key_points": [
+          "Matrix Eccles：500MW/1,000MWh，项目融资2.45亿英镑。",
+          "EDF为Matrix Eccles提供优化/route-to-market服务，Tesla担任EPC。",
+          "BW ESS Hams Hall一期：350MW/1,243MWh，并引入EDF优化。",
+          "两项容量合计约2,243MWh。"
+        ],
+        "value": "2243",
+        "unit": "MWh 英国BESS容量",
+        "delta": "Matrix融资£245m；EDF优化Hams Hall",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/matrix-renewables-bw-ess-secure-finance-and-offtake-for-over-2-2gwh-of-uk-bess/",
+        "clean_html": "<p>Energy-Storage.News称Matrix Renewables和BW ESS在英国合计推进超过2.2GWh BESS，Matrix Eccles获2.45亿英镑融资，Hams Hall引入EDF优化。</p>",
+        "caption": "海外融资：英国BESS项目从容量公告进入融资和优化合约落地",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 1e4ece587a697c20edb1a9237ddec324f7994d704b70b14b153a4f89ea4f15c8；采用公开摘要中的容量、融资额、优化方和EPC字段。",
+        "history": [
+          {
+            "label": "Eccles功率 MW",
+            "value": 500
+          },
+          {
+            "label": "Eccles容量 MWh",
+            "value": 1000
+          },
+          {
+            "label": "Eccles融资 百万英镑",
+            "value": 245
+          },
+          {
+            "label": "Hams Hall功率 MW",
+            "value": 350
+          },
+          {
+            "label": "Hams Hall容量 MWh",
+            "value": 1243
+          },
+          {
+            "label": "合计容量 MWh",
+            "value": 2243
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News",
+        "source_type": "海外项目投运新闻",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "澳大利亚最大运营BESS投运：Synergy完成500MW/2,400MWh Collie Battery，CATL供货",
+        "summary": "Energy-Storage.News 5月18日报道，西澳州有能源公司Synergy完成Collie Battery Energy Storage System，规模500MW/2,400MWh，成为澳大利亚最大运营电池储能系统；报道称项目容量从早前2,000MWh口径提升至2,400MWh。",
+        "body": [
+          "该项目超过Waratah Super Battery 1,680MWh、Eraring Battery Stage 1 1,770MWh以及Neoen Collie Battery 2,200MWh等澳大利亚大型项目。",
+          "对NeoLink判断的意义：澳大利亚大储从审批和建设新闻进入超2GWh级并网投运阶段，供应链中CATL等中国电池企业继续参与海外大型项目。",
+          "本轮使用搜索结果摘要和实时抓取页面留档；若后续公开更多商业条款，再补充EPC、优化商和收益结构。"
+        ],
+        "key_points": [
+          "项目规模：500MW/2,400MWh。",
+          "业主：西澳州有能源公司Synergy；电池供应相关标题提及CATL-powered。",
+          "地点：Western Australia, Collie；状态：completed / operational。",
+          "容量口径较此前2,000MWh媒体说法上调到2,400MWh。"
+        ],
+        "value": "2400",
+        "unit": "MWh 运营BESS容量",
+        "delta": "澳大利亚最大运营BESS；500MW功率",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/australias-largest-operational-bess-synergy-completes-catl-powered-2400mwh-collie-battery/",
+        "clean_html": "<p>Energy-Storage.News报道称，Synergy完成西澳Collie 500MW/2,400MWh BESS，成为澳大利亚最大运营电池储能系统。</p>",
+        "caption": "海外投运：澳大利亚进入2GWh级运营BESS阶段",
+        "methodology": "15:00海外公开来源搜索并抓取；HTTP 200 sha256 e902c147df4619e780d7fa8b0fc7425f9c9351cd5e1dbcb68c5b24655d6c919a；采用Energy-Storage.News题名与搜索摘要中公开字段，未臆造融资或电价条款。",
+        "history": [
+          {
+            "label": "功率 MW",
+            "value": 500
+          },
+          {
+            "label": "容量 MWh",
+            "value": 2400
+          },
+          {
+            "label": "此前报道容量 MWh",
+            "value": 2000
+          },
+          {
+            "label": "Waratah Super Battery MWh",
+            "value": 1680
+          },
+          {
+            "label": "Eraring Battery Stage 1 MWh",
+            "value": 1770
+          },
+          {
+            "label": "Neoen Collie Battery MWh",
+            "value": 2200
+          }
+        ]
+      },
+      {
+        "source": "Modo Energy",
+        "source_type": "海外BESS资本市场季度报告",
+        "account_name": "Modo Energy",
+        "category": "海外市场",
+        "title": "Modo Energy：美国BESS一季度公开交易17笔、2.4GW，交易数量环比增长42%",
+        "summary": "Modo Energy Q1 2026美国BESS资本市场报告显示，一季度公开披露BESS交易17笔，高于2025年四季度12笔，环比+42%；合计增加2.4GW容量，包含8笔融资、7笔并购和2笔股权投资。ERCOT以10笔交易领先，CAISO和NYISO各3笔；较大融资案例包括TransGrid Energy亚利桑那Atlas VIII项目382MW，项目债务6.56亿美元，并属更大12亿美元组合的一部分。",
+        "body": [
+          "海外融资信号对NeoLink的意义在于：美国储能资产已从单个项目公告转入更规范的资本市场跟踪，融资、并购、税收抵免转让和tax equity共同决定项目落地速度。",
+          "报告显示ERCOT仍是交易最活跃市场，但CAISO和NYISO也有交易，说明储能资本正在从得州套利市场扩散到容量和清洁能源政策支持更强的区域。",
+          "本轮仅采用报告摘要中的公开字段；对Atlas VIII容量按Modo摘要的382MW记录，避免把12亿美元组合误读为单一BESS项目价值。"
+        ],
+        "key_points": [
+          "Q1 2026美国BESS公开交易17笔，较Q4 2025的12笔增加42%。",
+          "合计新增2.4GW容量；结构为8笔融资、7笔M&A、2笔股权投资。",
+          "ERCOT 10笔居首，CAISO和NYISO各3笔。",
+          "TransGrid Energy Atlas VIII：382MW，项目债务6.56亿美元，属12亿美元组合的一部分。"
+        ],
+        "value": "17",
+        "unit": "笔 Q1美国BESS公开交易",
+        "delta": "环比+42%；新增2.4GW",
+        "direction": "up",
+        "date": "Q1-2026",
+        "as_of": "2026-05-18",
+        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "clean_html": "<p>Modo Energy称Q1 2026美国BESS公开交易17笔、2.4GW，交易数量较上一季度增长42%。</p>",
+        "caption": "海外资本：美国BESS融资和并购重新升温",
+        "methodology": "14:00海外公开来源搜索；Modo页面HTTP 200，sha256 d12e01a9329dbae98749c7b5af4667779543d2d6e59046c696f9cfe79b559dd1；抽取报告摘要中的交易数量、容量、市场分布和融资案例。",
+        "history": [
+          {
+            "label": "公开交易 笔",
+            "value": 17
+          },
+          {
+            "label": "新增容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "融资 笔",
+            "value": 8
+          },
+          {
+            "label": "M&A 笔",
+            "value": 7
+          },
+          {
+            "label": "股权投资 笔",
+            "value": 2
+          },
+          {
+            "label": "Atlas VIII债务融资 百万美元",
+            "value": 656
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / Lydian Energy",
+        "source_type": "海外项目融资/BESS PPA",
+        "account_name": "Energy-Storage.News",
+        "category": "海外项目",
+        "title": "Lydian Energy获6.89亿美元融资，覆盖美国150MW/733MWh Faraday BESS等项目",
+        "summary": "Energy-Storage.News报道，IPP Lydian Energy获得6.89亿美元全栈融资，用于美国新墨西哥、得州和犹他州的两个光伏项目及一个BESS项目；其中Faraday BESS一期位于犹他州，规模150MW/733MWh，并有长期PPA支持。",
+        "body": [
+          "该项目的核心信号是：美国大储项目融资仍依赖长期PPA、税收抵免过桥贷款和银团贷款组合，融资结构比单纯设备订单更能反映项目可银行化程度。",
+          "融资由CIBC与MUFG支持，结构包括construction-to-term loan、tax credit bridge loan、co-investment bridge loan和letter of credit facility。",
+          "报道还提到Lydian此前在得州完成3个BESS项目的2.33亿美元项目融资，并披露其太阳能与储能组合约18个项目、总容量4.4GW。"
+        ],
+        "key_points": [
+          "融资金额：6.89亿美元，覆盖两个光伏项目和一个BESS项目。",
+          "Faraday BESS Phase 1：150MW/733MWh，位于犹他州，有长期PPA支持。",
+          "融资银行包括CIBC与MUFG，结构包含税收抵免过桥贷款等。",
+          "Lydian声称其太阳能+储能项目组合总计18个、4.4GW。"
+        ],
+        "value": "733",
+        "unit": "MWh Faraday BESS一期",
+        "delta": "融资6.89亿美元；组合4.4GW",
+        "direction": "up",
+        "date": "02-18",
+        "as_of": "2026-02-18",
+        "url": "https://www.energy-storage.news/lydian-energy-secures-us689-million-for-three-us-bess-and-solar-projects/",
+        "clean_html": "<p>Lydian Energy获得6.89亿美元融资，覆盖美国两个光伏项目和一个BESS项目；Faraday BESS一期规模150MW/733MWh。</p>",
+        "caption": "海外融资：美国BESS项目以PPA和税抵贷款支撑可银行化",
+        "methodology": "13:00海外公开来源搜索；Energy-Storage.News页面HTTP 200，sha256 52d913a579b777cb6190770d6b2aeda7687a82f32810aaa8442038a9be01f8b2；抽取融资金额、项目规模、PPA和融资结构字段。",
+        "history": [
+          {
+            "label": "融资金额 百万美元",
+            "value": 689
+          },
+          {
+            "label": "Faraday功率 MW",
+            "value": 150
+          },
+          {
+            "label": "Faraday容量 MWh",
+            "value": 733
+          },
+          {
+            "label": "Lydian组合 GW",
+            "value": 4.4
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / AEMO / Transgrid",
+        "source_type": "海外电网运行规划/构网型储能",
+        "account_name": "Energy-Storage.News",
+        "category": "海外政策",
+        "title": "AEMO将构网型BESS列为2026优先行动，Transgrid拟在新南威尔士部署5GW",
+        "summary": "Energy-Storage.News报道，澳大利亚能源市场运营机构AEMO在FY2026工程路线图中将构网型电池储能列为NEM与SWIS优先行动；同时Transgrid在新南威尔士系统强度方案中筛选超过100个候选方案，组合纳入5GW构网型BESS和10台同步调相机，目标到2032/33形成电网“heartbeat”。",
+        "body": [
+          "该线索的关键不是单个电站中标，而是电网运营方把构网型储能从示范资产推向系统级规划资产；这会提高对PCS控制、惯量/短路比支撑和并网模型验证的要求。",
+          "Transgrid方案称构网型BESS预计提供新南威尔士近半系统强度需求，和同步调相机共同服务高比例新能源电网。",
+          "对中国储能出口企业的含义是：海外大储招标将更重视grid-forming能力、并网仿真、长期性能担保和电网服务收入模型，而不只是$/kWh硬件报价。"
+        ],
+        "key_points": [
+          "AEMO FY2026优先行动覆盖NEM与SWIS，核心包括构网型BESS和分布式能源资源。",
+          "Transgrid评估超过100个系统强度候选方案后，组合选择5GW构网型BESS与10台同步调相机。",
+          "新南威尔士目标时间为2032/33；构网型BESS预计承担近半系统强度需求。",
+          "该消息强化“海外大储从能量套利走向电网稳定服务”的趋势。"
+        ],
+        "value": "5",
+        "unit": "GW 构网型BESS规划",
+        "delta": "另配10台同步调相机；目标2032/33",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://www.energy-storage.news/aemo-sets-grid-forming-bess-as-a-priority-action-for-2026-set-to-form-the-heartbeat-of-new-south-wales/",
+        "clean_html": "<p>AEMO将构网型BESS列为2026优先行动；Transgrid规划5GW构网型BESS和10台同步调相机以满足新南威尔士系统强度需求。</p>",
+        "caption": "澳洲电网：构网型储能进入系统级规划",
+        "methodology": "12:00海外公开来源检查；页面HTTP 200，sha256 55d41ff796204d9da6fba57890d25ce6a7ca1dca738f37abfd69d9777d9f0a8c；抽取AEMO FY2026优先行动、Transgrid PACR规划容量、同步调相机数量和目标年份。",
+        "history": [
+          {
+            "label": "构网型BESS GW",
+            "value": 5
+          },
+          {
+            "label": "同步调相机 台",
+            "value": 10
+          },
+          {
+            "label": "候选方案 个+",
+            "value": 100
+          },
+          {
+            "label": "目标年份",
+            "value": 2032
+          }
+        ]
+      },
+      {
         "source": "PV Tech / Masdar / EWEC",
         "source_type": "海外企业与公用事业合作框架",
         "account_name": "PV Tech",
@@ -43022,58 +44524,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "Modo Energy",
-        "source_type": "海外资本市场报告/美国BESS交易",
-        "account_name": "Modo Energy",
-        "category": "海外市场",
-        "title": "Modo：美国BESS一季度公开交易数环比增42%，新增2.4GW容量",
-        "summary": "Modo Energy《U.S. BESS Capital Markets Report - Q1 2026》显示，美国公开披露的BESS交易活动一季度环比增加42%，共跟踪17笔交易（上季度12笔），新增2.4GW容量，结构包括8笔融资、7笔并购和2笔股权投资；ERCOT以10笔交易领先，CAISO和NYISO各3笔。报告还提到TransGrid Energy 382MW Atlas VIII项目的6.56亿美元项目债务融资。",
-        "body": [
-          "海外资本市场侧，本轮补入美国BESS交易活跃度指标：Q1交易数从12笔增至17笔，环比+42%。",
-          "2.4GW新增容量来自融资、并购与股权投资，说明资金不只投向新建，也在重组和资产交易中流动。",
-          "ERCOT占10笔交易，继续是美国储能资产估值和收益结构观察的核心市场。"
-        ],
-        "key_points": [
-          "Q1 2026公开BESS交易：17笔。",
-          "环比增幅：42%（Q4 2025为12笔）。",
-          "新增容量：2.4GW。",
-          "交易结构：8笔融资、7笔并购、2笔股权投资。",
-          "区域：ERCOT 10笔，CAISO与NYISO各3笔。"
-        ],
-        "value": "17",
-        "unit": "笔 美国BESS交易",
-        "delta": "+42% QoQ；新增2.4GW",
-        "direction": "up",
-        "date": "05-01",
-        "as_of": "2026-05-01",
-        "url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
-        "clean_html": "<p>Modo Energy称，美国BESS Q1 2026公开交易数环比增长42%至17笔，新增2.4GW容量，ERCOT以10笔交易领先。</p>",
-        "caption": "美国BESS资本市场回暖：Q1交易+42%，新增2.4GW",
-        "methodology": "07:00主动海外检索并抓取Modo Energy报告HTML（sha256 857b55422f4e60197d33cce3d298e15063b4836c55a63df0c18c4fdbce41f980）；抽取交易笔数、环比、容量、交易结构和市场分布。",
-        "history": [
-          {
-            "label": "Q1交易数",
-            "value": 17
-          },
-          {
-            "label": "Q4交易数",
-            "value": 12
-          },
-          {
-            "label": "环比增幅 %",
-            "value": 42
-          },
-          {
-            "label": "新增容量 GW",
-            "value": 2.4
-          },
-          {
-            "label": "ERCOT交易数",
-            "value": 10
-          }
-        ]
-      },
-      {
         "source": "Mercom India / Wood Mackenzie",
         "source_type": "海外研究报告/全球BESS投资需求",
         "account_name": "Mercom India",
@@ -43337,6 +44787,166 @@ window.NEOLINK_FEED= {
       }
     ],
     "domestic": [
+      {
+        "source": "储能头条 / 国际储能网",
+        "source_type": "国内储能周事迹/政策、订单、招中标汇总",
+        "account_name": "储能头条",
+        "category": "周度综述",
+        "title": "储能头条5月18日周事迹：4月储能电池销量55.2GWh，同比+75.5%，国内外项目密集披露",
+        "summary": "15:00复查5月18日储能周事迹：4月动力和储能电池合计销量164.2GWh，其中储能电池55.2GWh、同比+75.5%；同文列出楚能50GWh签约、亿纬印度8GWh订单、宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh等项目线索。",
+        "body": [
+          "该来源把政策、招中标、出海订单、并网和产销数据合并呈现，本轮保留其作为国内综合证据源。",
+          "重点变化仍集中在大容量项目招采和容量电价/质量监管，而不是单一电芯报价。",
+          "海外出海线索包括乌克兰15MWh、波黑135MWh、智利300MW/1200MWh和印度8GWh订单。"
+        ],
+        "key_points": [
+          "4月储能电池销量55.2GWh，同比+75.5%；1-4月储能电池累计销量200.4GWh，同比+100.4%。",
+          "楚能与五家企业累计签约50GWh；亿纬锂能与印度GNEPL签署8GWh订单。",
+          "宁夏同心500MW/2000MWh、乌兰察布1000MW/6000MWh设备采购继续提示国内大储需求。"
+        ],
+        "value": "55.2",
+        "unit": "GWh 4月储能电池销量",
+        "delta": "同比+75.5%；1-4月累计200.4GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://chuneng.in-en.com/html/chunengy-54481.shtml",
+        "clean_html": "<p>储能头条5月18日周事迹显示，4月储能电池销量55.2GWh，同比+75.5%；国内大储招采与海外订单同步活跃。</p>",
+        "caption": "国内综合：产销、项目和出海订单同向放量",
+        "methodology": "15:00国内公开来源复查；HTTP 200 sha256 be69658625ff2f489ca7eccc1035727d371116ec66c2108629bba186e5c8c8a1；按原文列举项目、订单和产销数据摘录，未把转载内容当作单一官方统计。",
+        "history": [
+          {
+            "label": "4月动力+储能电池销量 GWh",
+            "value": 164.2
+          },
+          {
+            "label": "4月储能电池销量 GWh",
+            "value": 55.2
+          },
+          {
+            "label": "1-4月储能电池累计销量 GWh",
+            "value": 200.4
+          },
+          {
+            "label": "楚能签约规模 GWh",
+            "value": 50
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "乌兰察布项目 MWh",
+            "value": 6000
+          }
+        ]
+      },
+      {
+        "source": "碳索储能网 / Solarbe",
+        "source_type": "国内储能周报/招中标、政策、企业动态",
+        "account_name": "碳索储能",
+        "category": "招中标",
+        "title": "碳索储能周报：本期44条招标、59条中标，吉林/陕西独立储能容量电价成为政策焦点",
+        "summary": "碳索储能5月16日周报显示，本期汇总44条项目招标和59条项目中标；企业端包括亿纬锂能印度8GWh订单、比亚迪储能与Corvus Energy海事电池合作、海辰储能谈AIDC成为储能最大增量；政策端包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西容量电价征求意见。",
+        "body": [
+          "该周报与5月18日储能头条清单相互印证：国内储能从单纯项目规模竞争转向“项目招标+容量补偿+并网质量监督”三条线同时推进。",
+          "吉林政策以煤电容量电价330元/千瓦·年为基础按顶峰能力折算，陕西征求意见稿提出165元/kW·年并按6小时折算，均指向独立储能现金流可预期性。",
+          "周报还列出华北区域新型储能并网运行管理征求意见，非计划停运、脱网容量比例等被纳入考核，提示项目开发不能只看低价中标。"
+        ],
+        "key_points": [
+          "本期周报：44条项目招标、59条项目中标。",
+          "吉林独立储能容量补偿以330元/千瓦·年为基础按顶峰能力折算。",
+          "陕西征求意见稿提出电网侧独立新型储能容量电价165元/kW·年，按6小时折算。",
+          "国家能源局质量监督大纲覆盖100MW及以上电化学储能、压缩空气储能电站。"
+        ],
+        "value": "44/59",
+        "unit": "条 招标/中标",
+        "delta": "容量补偿与质量监督同步升温",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://cn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能周报汇总44条招标、59条中标，并跟踪吉林、陕西独立储能容量电价及国家能源局质量监督大纲。</p>",
+        "caption": "招中标周报：数量扩张后，容量电价和质量考核开始定价风险",
+        "methodology": "14:00国内公开来源搜索并抓取；碳索储能页面HTTP 200，sha256 8038ca391062605c13ed8054a7dd8ab77a9ab480ce76b1b131c5643ff039a09f；用移动页作交叉抓取以备可读性校验。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "吉林容量电价基准 元/kW年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW年",
+            "value": 165
+          },
+          {
+            "label": "质量监督适用门槛 MW",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "source": "中国储能网 / CESA储能应用分会，经新浪财经转载",
+        "source_type": "国内招中标月度统计/公开媒体转载",
+        "account_name": "中国储能网",
+        "category": "招中标",
+        "title": "CESA统计：4月储能新增招标27.2GW/85.3GWh，月度容量再创新高",
+        "summary": "中国储能网援引CESA储能应用分会统计称，2026年4月国内新型储能EPC/PC、系统、电芯新增招标合计27.2GW/85.3GWh，同比增长132%；其中EPC/PC 21.1GW/58.6GWh，系统6GW/23.7GWh，电芯3GWh。宁夏、内蒙古、山西新增招标均超过10GWh，4小时及以上长时储能容量占比约52.97%。",
+        "body": [
+          "这条线索对NeoLink的意义在于：国内大储招标强度已经从单个项目驱动转向月度总量刷新，且长时储能、混合储能和非锂技术路线在招标端同步抬升。",
+          "4月明确时长的项目中，2h储能15.94GW/31.89GWh，4h及以上9.3GW/38.74GWh；长时储能按容量已超过2h储能。",
+          "文章还列出17个GWh级储能招标项目，以及昆明安宁350MW/1750MWh压缩空气储能、托里县200MW/1600MWh氢储能调峰等非典型锂电项目，提示技术路线正在扩散。"
+        ],
+        "key_points": [
+          "4月国内储能新增招标27.2GW/85.3GWh，同比+132%，创月度新高。",
+          "EPC/PC招标58.6GWh，占比68.7%；系统招标23.7GWh，电芯招标3GWh。",
+          "宁夏15.49GWh居首，内蒙古11.21GWh、山西10.89GWh均超过10GWh。",
+          "4h及以上长时储能38.74GWh，按容量占52.97%；混合储能总规模3GW/6.7GWh。"
+        ],
+        "value": "85.3",
+        "unit": "GWh 4月新增招标容量",
+        "delta": "同比+132%；EPC/PC占68.7%",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
+        "clean_html": "<p>CESA储能应用分会统计：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比增长132%，宁夏、内蒙古、山西招标容量均超过10GWh。</p>",
+        "caption": "4月国内储能招标容量再破纪录",
+        "methodology": "13:00国内公开来源搜索；新浪转载页面HTTP 200，sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21；交叉检查CNESA搜索页和时代储能网首页均包含相关5月中旬招中标线索。",
+        "history": [
+          {
+            "label": "新增招标容量 GWh",
+            "value": 85.3
+          },
+          {
+            "label": "新增招标功率 GW",
+            "value": 27.2
+          },
+          {
+            "label": "EPC/PC容量 GWh",
+            "value": 58.6
+          },
+          {
+            "label": "系统容量 GWh",
+            "value": 23.7
+          },
+          {
+            "label": "电芯容量 GWh",
+            "value": 3
+          },
+          {
+            "label": "长时储能容量 GWh",
+            "value": 38.74
+          }
+        ]
+      },
       {
         "source": "低碳网 / CESA储能应用分会数据库",
         "source_type": "国内行业媒体/协会数据库统计",
@@ -43977,7 +45587,115 @@ window.NEOLINK_FEED= {
           }
         ]
       }
+    ],
+    "bidding": [
+      {
+        "source": "碳索储能网 / Solarbe",
+        "source_type": "国内储能周报/招中标、政策、企业动态",
+        "account_name": "碳索储能",
+        "category": "招中标",
+        "title": "碳索储能周报：本期44条招标、59条中标，吉林/陕西独立储能容量电价成为政策焦点",
+        "summary": "碳索储能5月16日周报显示，本期汇总44条项目招标和59条项目中标；企业端包括亿纬锂能印度8GWh订单、比亚迪储能与Corvus Energy海事电池合作、海辰储能谈AIDC成为储能最大增量；政策端包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西容量电价征求意见。",
+        "body": [
+          "该周报与5月18日储能头条清单相互印证：国内储能从单纯项目规模竞争转向“项目招标+容量补偿+并网质量监督”三条线同时推进。",
+          "吉林政策以煤电容量电价330元/千瓦·年为基础按顶峰能力折算，陕西征求意见稿提出165元/kW·年并按6小时折算，均指向独立储能现金流可预期性。",
+          "周报还列出华北区域新型储能并网运行管理征求意见，非计划停运、脱网容量比例等被纳入考核，提示项目开发不能只看低价中标。"
+        ],
+        "key_points": [
+          "本期周报：44条项目招标、59条项目中标。",
+          "吉林独立储能容量补偿以330元/千瓦·年为基础按顶峰能力折算。",
+          "陕西征求意见稿提出电网侧独立新型储能容量电价165元/kW·年，按6小时折算。",
+          "国家能源局质量监督大纲覆盖100MW及以上电化学储能、压缩空气储能电站。"
+        ],
+        "value": "44/59",
+        "unit": "条 招标/中标",
+        "delta": "容量补偿与质量监督同步升温",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://cn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能周报汇总44条招标、59条中标，并跟踪吉林、陕西独立储能容量电价及国家能源局质量监督大纲。</p>",
+        "caption": "招中标周报：数量扩张后，容量电价和质量考核开始定价风险",
+        "methodology": "14:00国内公开来源搜索并抓取；碳索储能页面HTTP 200，sha256 8038ca391062605c13ed8054a7dd8ab77a9ab480ce76b1b131c5643ff039a09f；用移动页作交叉抓取以备可读性校验。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "吉林容量电价基准 元/kW年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW年",
+            "value": 165
+          },
+          {
+            "label": "质量监督适用门槛 MW",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "source": "中国储能网 / CESA储能应用分会，经新浪财经转载",
+        "source_type": "国内招中标月度统计/公开媒体转载",
+        "account_name": "中国储能网",
+        "category": "招中标",
+        "title": "CESA统计：4月储能新增招标27.2GW/85.3GWh，月度容量再创新高",
+        "summary": "中国储能网援引CESA储能应用分会统计称，2026年4月国内新型储能EPC/PC、系统、电芯新增招标合计27.2GW/85.3GWh，同比增长132%；其中EPC/PC 21.1GW/58.6GWh，系统6GW/23.7GWh，电芯3GWh。宁夏、内蒙古、山西新增招标均超过10GWh，4小时及以上长时储能容量占比约52.97%。",
+        "body": [
+          "这条线索对NeoLink的意义在于：国内大储招标强度已经从单个项目驱动转向月度总量刷新，且长时储能、混合储能和非锂技术路线在招标端同步抬升。",
+          "4月明确时长的项目中，2h储能15.94GW/31.89GWh，4h及以上9.3GW/38.74GWh；长时储能按容量已超过2h储能。",
+          "文章还列出17个GWh级储能招标项目，以及昆明安宁350MW/1750MWh压缩空气储能、托里县200MW/1600MWh氢储能调峰等非典型锂电项目，提示技术路线正在扩散。"
+        ],
+        "key_points": [
+          "4月国内储能新增招标27.2GW/85.3GWh，同比+132%，创月度新高。",
+          "EPC/PC招标58.6GWh，占比68.7%；系统招标23.7GWh，电芯招标3GWh。",
+          "宁夏15.49GWh居首，内蒙古11.21GWh、山西10.89GWh均超过10GWh。",
+          "4h及以上长时储能38.74GWh，按容量占52.97%；混合储能总规模3GW/6.7GWh。"
+        ],
+        "value": "85.3",
+        "unit": "GWh 4月新增招标容量",
+        "delta": "同比+132%；EPC/PC占68.7%",
+        "direction": "up",
+        "date": "05-15",
+        "as_of": "2026-05-15",
+        "url": "https://finance.sina.com.cn/roll/2026-05-15/doc-inhxxspq8260641.shtml",
+        "clean_html": "<p>CESA储能应用分会统计：2026年4月国内新型储能新增招标27.2GW/85.3GWh，同比增长132%，宁夏、内蒙古、山西招标容量均超过10GWh。</p>",
+        "caption": "4月国内储能招标容量再破纪录",
+        "methodology": "13:00国内公开来源搜索；新浪转载页面HTTP 200，sha256 92a994a383b1de0ee6178cb4d6748b5924c378bdabb41c833b30ea8b9d79cc21；交叉检查CNESA搜索页和时代储能网首页均包含相关5月中旬招中标线索。",
+        "history": [
+          {
+            "label": "新增招标容量 GWh",
+            "value": 85.3
+          },
+          {
+            "label": "新增招标功率 GW",
+            "value": 27.2
+          },
+          {
+            "label": "EPC/PC容量 GWh",
+            "value": 58.6
+          },
+          {
+            "label": "系统容量 GWh",
+            "value": 23.7
+          },
+          {
+            "label": "电芯容量 GWh",
+            "value": 3
+          },
+          {
+            "label": "长时储能容量 GWh",
+            "value": 38.74
+          }
+        ]
+      }
     ]
   },
-  "checked_at": "2026-05-18T11:00:00+08:00"
+  "checked_at": "2026-05-18T15:00:00+08:00"
 };
