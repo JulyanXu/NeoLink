@@ -1,8 +1,140 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-19T04:00:00+08:00",
-  "note": "04:00严格刷新：已重新抓取NeoLink首页与MarketTrend入口，并主动搜索国内+海外公开来源。延续国家统计局4月锂离子电池产量同比+31%、1-4月产量+36%、锂离子电池制造业投资+28.8%、4月锂离子电池制造价格+4.5%口径；本轮新增CIBF2026现场订单侧线索：鹏辉能源订单饱满、产能排至第三季度，赣锋锂电日韩/欧洲/东南亚外商问询增多，储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨。海外英文复核继续采用新华社英文稿、Mysteel与Energy-Storage.news旧线索；MarketTrend复核SMM碳酸锂05-18行情：电池级碳酸锂价格指数190865元/吨、变动-894；未把04:00抓取时间伪造成价格日期。",
+  "generated_at": "2026-05-19T06:00:00+08:00",
+  "note": "06:00严格刷新：已重新抓取NeoLink首页与MarketTrend入口；HTTPS在本机仍返回SSL_ERROR_SYSCALL，HTTP首页与/markettrend/返回200并保存快照。本轮主动搜索国内+海外公开来源。新增海外ESS News公开搜索摘要线索：Ford Energy与EDF power solutions签署北美BESS多年框架，EDF可采购最高20GWh、每年最高4GWh的Ford Energy DC Block，产品为20英尺集装箱化LFP系统、512Ah电芯；国内复核中国储能网/网易转载项目周报与中国储能网首页，新增山西晋北采煤沉陷区新能源基地820MW/3.28GWh储能项目资格预审和河北国顺科技500MW/1.6GWh储能系统采购等招标线索。MarketTrend继续保留SMM 05-18碳酸锂行情，不把06:00抓取时间伪造成价格日期。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260519-0600-ford-edf-bess-china-tenders",
+        "source": "ESS News / 中国储能网 / 网易转载中国储能网",
+        "source_type": "海外行业媒体公开摘要 + 国内行业门户/转载招标周报",
+        "account_name": "ESS News / 中国储能网",
+        "category": "海外订单/招投标",
+        "title": "Ford Energy与EDF签署北美BESS框架最高20GWh；国内储能招标周报披露3.28GWh山西基地与1.6GWh系统采购线索",
+        "summary": "06:00新增：ESS News 5月18日公开摘要显示，Ford新设BESS业务Ford Energy与EDF power solutions签署多年框架协议，EDF可采购最高20GWh储能系统、每年最高4GWh Ford Energy DC Block；Ford Energy此前发布的20英尺集装箱化BESS采用512Ah LFP方形电芯。国内方面，中国储能网周报经网易转载显示，山西晋北采煤沉陷区新能源基地3个储能项目资格预审合计820MW/3.28GWh，投资单价约0.73元/Wh，河北国顺科技独立储能示范项目储能系统采购总规模500MW/1.6GWh。",
+        "body": [
+          "海外订单与制造侧信号：ESS News 5月18日公开摘要显示，Ford Energy与EDF power solutions签署北美市场多年框架协议，EDF可在协议期内采购最高20GWh储能系统。",
+          "产品口径：该摘要称EDF每年可采购最高4GWh Ford Energy DC Block；Ford Energy DC Block为标准化20英尺集装箱化BESS，采用512Ah磷酸铁锂方形电芯。",
+          "国内招标线索：中国储能网周报经网易转载披露，山西晋北采煤沉陷区新能源基地新荣、云冈、大同左云3个储能项目资格预审，合计820MW/3280MWh，投资单价均约0.73元/Wh。",
+          "国内系统采购线索：同一周报披露，河北石家庄新乐市国顺科技集团独立储能示范项目储能系统集成公开采购，总规模500MW/1.6GWh，供货范围包括LFP电池、PCS、变压器、BMS、EMS等。",
+          "口径提示：海外Ford/EDF条目因ESS News页面本机curl返回403，本轮采用公开搜索摘要并保留来源URL；国内招标周报为行业门户/转载线索，单项目金额与最终中标以原公告或公共资源平台文件为准。"
+        ],
+        "key_points": [
+          "EDF可采购最高20GWh Ford Energy储能系统。",
+          "EDF年度采购上限为4GWh Ford Energy DC Block。",
+          "Ford Energy DC Block为20英尺集装箱化BESS，采用512Ah LFP方形电芯。",
+          "山西晋北采煤沉陷区新能源基地储能资格预审合计820MW/3280MWh，约0.73元/Wh。",
+          "国顺科技河北新乐独立储能示范项目储能系统采购总规模500MW/1.6GWh。"
+        ],
+        "value": "20",
+        "unit": "GWh 框架采购上限",
+        "delta": "EDF年度采购上限4GWh；国内招标线索合计3.28GWh+1.6GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 06:00 CST",
+        "url": "https://www.ess-news.com/2026/05/18/ford-and-edf-sign-gigawatt-scale-bess-agreement-for-north-american-market/",
+        "original_url": "https://www.163.com/dy/article/KHNJ637805533BYM.html",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.escn.com.cn/"
+        ],
+        "clean_html": "<p>ESS News公开摘要显示Ford Energy与EDF power solutions签署北美BESS框架，最高20GWh、年度最高4GWh；国内中国储能网周报线索显示山西晋北3.28GWh储能资格预审与国顺科技500MW/1.6GWh系统采购。</p>",
+        "caption": "海外车企BESS制造转向与国内大规模储能招标线索同步出现",
+        "methodology": "06:00主动搜索国内+海外公开来源并抓取留痕；NeoLink HTTP首页 sha256 ad5f0b40737af17a1d3d449fc04b571f208d5ee1c5940eb0c76c02306f950571，MarketTrend HTTP入口 sha256 883e76edee0e3e939aa4c1e7dac56769f3645bb8b313fde84637a86add0c9252；Energy-Storage.News首页 HTTP 200 sha256 9d17375aa905c53774cec69e0ecf90eeb4211f7e72ef7cf15b13128450991928；中国储能网首页 HTTP 200 sha256 0898f667092caff36b924a5195ac13ca72e2f062385e31969b239a96f68575ba；网易转载中国储能网项目周报 HTTP 200 sha256 1d259e0f6eb42c71eac59ff732ed27905b2f6e3680edd922e675766f4615757d；ESS News原文curl返回403，采用web_search公开摘要并标注限制。",
+        "history": [
+          {
+            "label": "Ford/EDF框架采购上限 GWh",
+            "value": 20
+          },
+          {
+            "label": "Ford/EDF年度采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "Ford Energy DC Block电芯 Ah",
+            "value": 512
+          },
+          {
+            "label": "山西晋北储能资格预审规模 MWh",
+            "value": 3280
+          },
+          {
+            "label": "国顺科技系统采购规模 MWh",
+            "value": 1600
+          },
+          {
+            "label": "山西项目投资单价 元/Wh",
+            "value": 0.73
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / Energy-Storage.News / 建信期货PDF",
+        "source_type": "国内SMM长期供需展望与海外BESS制造本地化交叉复核",
+        "account_name": "上海有色网 / Energy-Storage.News / CCB Futures",
+        "category": "供需预测/储能需求/海外制造",
+        "title": "SMM展望2030锂市场：2026全球储能需求约+36%，2030碳酸锂产量374万吨；海外BESS制造本地化继续推进",
+        "summary": "05:00新增：SMM在2026新能源产业博览会镍钴锂国际矿业论坛披露，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年储能需求CAGR约24%；2030年全球碳酸锂总产量预计374万吨（2026-2030 CAGR约19%），中国本土碳酸锂产量长期占全球70%以上，中资企业全球产量占比有望升至75%以上；到2030年动力电池仍占全球碳酸锂消费约50%，储能份额预计由2025年30%升至2030年40%。海外复核方面，Energy-Storage.news显示瑞浦兰钧已在印尼开设电芯和BESS制造设施，厦门海辰德州BESS组装厂已开始出货；其转引Solar Media Market Research称美国本土BESS电芯年产能到2026年底将超过50GWh。",
+        "body": [
+          "国内长期供需：SMM锂产业资深分析师在2026新能源产业博览会分享称，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年CAGR约24%。",
+          "锂盐供应格局：SMM预计2030年全球碳酸锂总产量374万吨，2026-2030年CAGR约19%；中国本土碳酸锂产量将长期占全球70%以上，中资企业全球产量占比有望提升至75%以上。",
+          "需求结构：SMM预计2030年动力电池仍是全球碳酸锂最大下游，约占消费量50%；储能市场份额由2025年30%升至2030年40%。",
+          "海外制造复核：Energy-Storage.news 5月15日报道瑞浦兰钧正式开设印尼电芯和BESS制造设施；另有公开页显示厦门海辰德州Mesquite BESS组装厂已开始出货，厂房484441平方英尺，初始投资1亿美元、开业时约翻倍。",
+          "MarketTrend处理：行情页继续采用SMM 05-18电池级碳酸锂均价191500元/吨、价格指数190865元/吨；05:00仅作为抓取/复核时间，不替代行情日期。"
+        ],
+        "key_points": [
+          "2026年全球储能需求预计同比2025年增长约36%。",
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球碳酸锂总产量预计374万吨，2026-2030年CAGR约19%。",
+          "中国本土碳酸锂产量长期占全球70%以上；中资企业全球产量占比有望75%以上。",
+          "2030年储能占全球碳酸锂消费份额预计由2025年30%升至40%。",
+          "美国本土BESS电芯年产能到2026年底或超过50GWh；厦门海辰德州BESS组装厂已开始出货。"
+        ],
+        "value": "36",
+        "unit": "% 2026全球储能需求同比预测",
+        "delta": "2026-2030储能需求CAGR约24%；2030碳酸锂产量374万吨；储能消费份额升至40%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 05:00 CST",
+        "url": "https://news.smm.cn/news/103870028",
+        "original_url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "related_urls": [
+          "https://www.energy-storage.news/chinese-battery-manufacturer-hithium-ships-first-units-from-texas-bess-assembly-plant/",
+          "https://www.ccbfutures.com/upload/20260511/20260511142513677.pdf"
+        ],
+        "clean_html": "<p>SMM预计2026年全球储能需求同比约+36%、2026-2030年CAGR约24%，2030年全球碳酸锂总产量374万吨；海外BESS制造本地化方面，瑞浦兰钧印尼设施开业、厦门海辰德州组装厂已开始出货。</p>",
+        "caption": "长期供需与制造本地化：储能需求抬升锂消费份额，海外BESS供应链继续区域化布局",
+        "methodology": "05:00主动搜索国内+海外公开来源并抓取；SMM供需展望页 HTTP 200 sha256 096d43c66ab3c6d942761459eea3d063cbb9676bd2d6dbd256d0052d380d30b2；Energy-Storage.news瑞浦兰钧印尼设施 HTTP 200 sha256 e5cc6ac9905a31d864b675270a55ed3c7e4d2df120f320aefed76a46ef1d5dd4；Energy-Storage.news厦门海辰德州出货页 HTTP 200 sha256 cd428a938dad4e17a2d506b2bc97aa178bcb7e705925cf7007320ef15f35b5d5；建信期货碳酸锂月报PDF HTTP 200 sha256 4fd53031674db69408437b9c3ce859d6702d495495072c70295b5f151c4efcbd。NeoLink/MarketTrend HTTPS抓取在本机返回SSL_ERROR_SYSCALL，已记录为失败尝试；仅采用可抓取页面可见事实。",
+        "history": [
+          {
+            "label": "2026全球储能需求同比 %",
+            "value": 36
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2030全球碳酸锂总产量 万吨",
+            "value": 374
+          },
+          {
+            "label": "中国本土碳酸锂产量占比下限 %",
+            "value": 70
+          },
+          {
+            "label": "中资企业全球碳酸锂产量占比目标 %",
+            "value": 75
+          },
+          {
+            "label": "2030储能占碳酸锂消费 %",
+            "value": 40
+          },
+          {
+            "label": "2026年底美国BESS电芯年产能 GWh",
+            "value": 50
+          }
+        ]
+      },
       {
         "source": "21财经 / 上海证券报 / CIBF2026现场报道",
         "source_type": "国内展会现场与产业链订单/材料价格信号",
@@ -2339,7 +2471,7 @@ window.NEOLINK_FEED= {
         "body": [
           "这条补充美国州级政策兑现线索：纽约已越过1.5GW阶段目标，但距离2030年6GW仍需要项目并网和市场机制继续推进。",
           "对国内储能出海有参考意义：美国东北部市场更依赖监管目标、州级采购和批发电力市场规则，而非单一EPC价格竞争。",
-          "后续应继续跟踪NYISO互联队列、州级激励和消防/选址规范对项目周期的影响。"
+          "NYISO互联队列、州级激励和消防/选址规范会影响项目周期。"
         ],
         "key_points": [
           "纽约能源储能路线图2025年底阶段目标：1.5GW。",
@@ -6856,6 +6988,139 @@ window.NEOLINK_FEED= {
     ],
     "latest": [
       {
+        "id": "latest-20260519-0600-ford-edf-bess-china-tenders",
+        "source": "ESS News / 中国储能网 / 网易转载中国储能网",
+        "source_type": "海外行业媒体公开摘要 + 国内行业门户/转载招标周报",
+        "account_name": "ESS News / 中国储能网",
+        "category": "海外订单/招投标",
+        "title": "Ford Energy与EDF签署北美BESS框架最高20GWh；国内储能招标周报披露3.28GWh山西基地与1.6GWh系统采购线索",
+        "summary": "06:00新增：ESS News 5月18日公开摘要显示，Ford新设BESS业务Ford Energy与EDF power solutions签署多年框架协议，EDF可采购最高20GWh储能系统、每年最高4GWh Ford Energy DC Block；Ford Energy此前发布的20英尺集装箱化BESS采用512Ah LFP方形电芯。国内方面，中国储能网周报经网易转载显示，山西晋北采煤沉陷区新能源基地3个储能项目资格预审合计820MW/3.28GWh，投资单价约0.73元/Wh，河北国顺科技独立储能示范项目储能系统采购总规模500MW/1.6GWh。",
+        "body": [
+          "海外订单与制造侧信号：ESS News 5月18日公开摘要显示，Ford Energy与EDF power solutions签署北美市场多年框架协议，EDF可在协议期内采购最高20GWh储能系统。",
+          "产品口径：该摘要称EDF每年可采购最高4GWh Ford Energy DC Block；Ford Energy DC Block为标准化20英尺集装箱化BESS，采用512Ah磷酸铁锂方形电芯。",
+          "国内招标线索：中国储能网周报经网易转载披露，山西晋北采煤沉陷区新能源基地新荣、云冈、大同左云3个储能项目资格预审，合计820MW/3280MWh，投资单价均约0.73元/Wh。",
+          "国内系统采购线索：同一周报披露，河北石家庄新乐市国顺科技集团独立储能示范项目储能系统集成公开采购，总规模500MW/1.6GWh，供货范围包括LFP电池、PCS、变压器、BMS、EMS等。",
+          "口径提示：海外Ford/EDF条目因ESS News页面本机curl返回403，本轮采用公开搜索摘要并保留来源URL；国内招标周报为行业门户/转载线索，单项目金额与最终中标以原公告或公共资源平台文件为准。"
+        ],
+        "key_points": [
+          "EDF可采购最高20GWh Ford Energy储能系统。",
+          "EDF年度采购上限为4GWh Ford Energy DC Block。",
+          "Ford Energy DC Block为20英尺集装箱化BESS，采用512Ah LFP方形电芯。",
+          "山西晋北采煤沉陷区新能源基地储能资格预审合计820MW/3280MWh，约0.73元/Wh。",
+          "国顺科技河北新乐独立储能示范项目储能系统采购总规模500MW/1.6GWh。"
+        ],
+        "value": "20",
+        "unit": "GWh 框架采购上限",
+        "delta": "EDF年度采购上限4GWh；国内招标线索合计3.28GWh+1.6GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 06:00 CST",
+        "url": "https://www.ess-news.com/2026/05/18/ford-and-edf-sign-gigawatt-scale-bess-agreement-for-north-american-market/",
+        "original_url": "https://www.163.com/dy/article/KHNJ637805533BYM.html",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.escn.com.cn/"
+        ],
+        "clean_html": "<p>ESS News公开摘要显示Ford Energy与EDF power solutions签署北美BESS框架，最高20GWh、年度最高4GWh；国内中国储能网周报线索显示山西晋北3.28GWh储能资格预审与国顺科技500MW/1.6GWh系统采购。</p>",
+        "caption": "海外车企BESS制造转向与国内大规模储能招标线索同步出现",
+        "methodology": "06:00主动搜索国内+海外公开来源并抓取留痕；NeoLink HTTP首页 sha256 ad5f0b40737af17a1d3d449fc04b571f208d5ee1c5940eb0c76c02306f950571，MarketTrend HTTP入口 sha256 883e76edee0e3e939aa4c1e7dac56769f3645bb8b313fde84637a86add0c9252；Energy-Storage.News首页 HTTP 200 sha256 9d17375aa905c53774cec69e0ecf90eeb4211f7e72ef7cf15b13128450991928；中国储能网首页 HTTP 200 sha256 0898f667092caff36b924a5195ac13ca72e2f062385e31969b239a96f68575ba；网易转载中国储能网项目周报 HTTP 200 sha256 1d259e0f6eb42c71eac59ff732ed27905b2f6e3680edd922e675766f4615757d；ESS News原文curl返回403，采用web_search公开摘要并标注限制。",
+        "history": [
+          {
+            "label": "Ford/EDF框架采购上限 GWh",
+            "value": 20
+          },
+          {
+            "label": "Ford/EDF年度采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "Ford Energy DC Block电芯 Ah",
+            "value": 512
+          },
+          {
+            "label": "山西晋北储能资格预审规模 MWh",
+            "value": 3280
+          },
+          {
+            "label": "国顺科技系统采购规模 MWh",
+            "value": 1600
+          },
+          {
+            "label": "山西项目投资单价 元/Wh",
+            "value": 0.73
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / Energy-Storage.News / 建信期货PDF",
+        "source_type": "国内SMM长期供需展望与海外BESS制造本地化交叉复核",
+        "account_name": "上海有色网 / Energy-Storage.News / CCB Futures",
+        "category": "供需预测/储能需求/海外制造",
+        "title": "SMM展望2030锂市场：2026全球储能需求约+36%，2030碳酸锂产量374万吨；海外BESS制造本地化继续推进",
+        "summary": "05:00新增：SMM在2026新能源产业博览会镍钴锂国际矿业论坛披露，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年储能需求CAGR约24%；2030年全球碳酸锂总产量预计374万吨（2026-2030 CAGR约19%），中国本土碳酸锂产量长期占全球70%以上，中资企业全球产量占比有望升至75%以上；到2030年动力电池仍占全球碳酸锂消费约50%，储能份额预计由2025年30%升至2030年40%。海外复核方面，Energy-Storage.news显示瑞浦兰钧已在印尼开设电芯和BESS制造设施，厦门海辰德州BESS组装厂已开始出货；其转引Solar Media Market Research称美国本土BESS电芯年产能到2026年底将超过50GWh。",
+        "body": [
+          "国内长期供需：SMM锂产业资深分析师在2026新能源产业博览会分享称，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年CAGR约24%。",
+          "锂盐供应格局：SMM预计2030年全球碳酸锂总产量374万吨，2026-2030年CAGR约19%；中国本土碳酸锂产量将长期占全球70%以上，中资企业全球产量占比有望提升至75%以上。",
+          "需求结构：SMM预计2030年动力电池仍是全球碳酸锂最大下游，约占消费量50%；储能市场份额由2025年30%升至2030年40%。",
+          "海外制造复核：Energy-Storage.news 5月15日报道瑞浦兰钧正式开设印尼电芯和BESS制造设施；另有公开页显示厦门海辰德州Mesquite BESS组装厂已开始出货，厂房484441平方英尺，初始投资1亿美元、开业时约翻倍。",
+          "MarketTrend处理：行情页继续采用SMM 05-18电池级碳酸锂均价191500元/吨、价格指数190865元/吨；05:00仅作为抓取/复核时间，不替代行情日期。"
+        ],
+        "key_points": [
+          "2026年全球储能需求预计同比2025年增长约36%。",
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球碳酸锂总产量预计374万吨，2026-2030年CAGR约19%。",
+          "中国本土碳酸锂产量长期占全球70%以上；中资企业全球产量占比有望75%以上。",
+          "2030年储能占全球碳酸锂消费份额预计由2025年30%升至40%。",
+          "美国本土BESS电芯年产能到2026年底或超过50GWh；厦门海辰德州BESS组装厂已开始出货。"
+        ],
+        "value": "36",
+        "unit": "% 2026全球储能需求同比预测",
+        "delta": "2026-2030储能需求CAGR约24%；2030碳酸锂产量374万吨；储能消费份额升至40%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 05:00 CST",
+        "url": "https://news.smm.cn/news/103870028",
+        "original_url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "related_urls": [
+          "https://www.energy-storage.news/chinese-battery-manufacturer-hithium-ships-first-units-from-texas-bess-assembly-plant/",
+          "https://www.ccbfutures.com/upload/20260511/20260511142513677.pdf"
+        ],
+        "clean_html": "<p>SMM预计2026年全球储能需求同比约+36%、2026-2030年CAGR约24%，2030年全球碳酸锂总产量374万吨；海外BESS制造本地化方面，瑞浦兰钧印尼设施开业、厦门海辰德州组装厂已开始出货。</p>",
+        "caption": "长期供需与制造本地化：储能需求抬升锂消费份额，海外BESS供应链继续区域化布局",
+        "methodology": "05:00主动搜索国内+海外公开来源并抓取；SMM供需展望页 HTTP 200 sha256 096d43c66ab3c6d942761459eea3d063cbb9676bd2d6dbd256d0052d380d30b2；Energy-Storage.news瑞浦兰钧印尼设施 HTTP 200 sha256 e5cc6ac9905a31d864b675270a55ed3c7e4d2df120f320aefed76a46ef1d5dd4；Energy-Storage.news厦门海辰德州出货页 HTTP 200 sha256 cd428a938dad4e17a2d506b2bc97aa178bcb7e705925cf7007320ef15f35b5d5；建信期货碳酸锂月报PDF HTTP 200 sha256 4fd53031674db69408437b9c3ce859d6702d495495072c70295b5f151c4efcbd。NeoLink/MarketTrend HTTPS抓取在本机返回SSL_ERROR_SYSCALL，已记录为失败尝试；仅采用可抓取页面可见事实。",
+        "history": [
+          {
+            "label": "2026全球储能需求同比 %",
+            "value": 36
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2030全球碳酸锂总产量 万吨",
+            "value": 374
+          },
+          {
+            "label": "中国本土碳酸锂产量占比下限 %",
+            "value": 70
+          },
+          {
+            "label": "中资企业全球碳酸锂产量占比目标 %",
+            "value": 75
+          },
+          {
+            "label": "2030储能占碳酸锂消费 %",
+            "value": 40
+          },
+          {
+            "label": "2026年底美国BESS电芯年产能 GWh",
+            "value": 50
+          }
+        ],
+        "id": "latest-20260519-0500-smm-lithium-2030-bess-localization"
+      },
+      {
         "source": "21财经 / 上海证券报 / CIBF2026现场报道",
         "source_type": "国内展会现场与产业链订单/材料价格信号",
         "account_name": "21财经 / 上海证券报",
@@ -9342,7 +9607,7 @@ window.NEOLINK_FEED= {
         "body": [
           "这条补充美国州级政策兑现线索：纽约已越过1.5GW阶段目标，但距离2030年6GW仍需要项目并网和市场机制继续推进。",
           "对国内储能出海有参考意义：美国东北部市场更依赖监管目标、州级采购和批发电力市场规则，而非单一EPC价格竞争。",
-          "后续应继续跟踪NYISO互联队列、州级激励和消防/选址规范对项目周期的影响。"
+          "NYISO互联队列、州级激励和消防/选址规范会影响项目周期。"
         ],
         "key_points": [
           "纽约能源储能路线图2025年底阶段目标：1.5GW。",
@@ -19750,6 +20015,70 @@ window.NEOLINK_FEED= {
     ],
     "project": [
       {
+        "id": "project-20260519-0600-china-storage-tenders",
+        "source": "ESS News / 中国储能网 / 网易转载中国储能网",
+        "source_type": "海外行业媒体公开摘要 + 国内行业门户/转载招标周报",
+        "account_name": "ESS News / 中国储能网",
+        "category": "招投标",
+        "title": "Ford Energy与EDF签署北美BESS框架最高20GWh；国内储能招标周报披露3.28GWh山西基地与1.6GWh系统采购线索",
+        "summary": "06:00新增：ESS News 5月18日公开摘要显示，Ford新设BESS业务Ford Energy与EDF power solutions签署多年框架协议，EDF可采购最高20GWh储能系统、每年最高4GWh Ford Energy DC Block；Ford Energy此前发布的20英尺集装箱化BESS采用512Ah LFP方形电芯。国内方面，中国储能网周报经网易转载显示，山西晋北采煤沉陷区新能源基地3个储能项目资格预审合计820MW/3.28GWh，投资单价约0.73元/Wh，河北国顺科技独立储能示范项目储能系统采购总规模500MW/1.6GWh。",
+        "body": [
+          "海外订单与制造侧信号：ESS News 5月18日公开摘要显示，Ford Energy与EDF power solutions签署北美市场多年框架协议，EDF可在协议期内采购最高20GWh储能系统。",
+          "产品口径：该摘要称EDF每年可采购最高4GWh Ford Energy DC Block；Ford Energy DC Block为标准化20英尺集装箱化BESS，采用512Ah磷酸铁锂方形电芯。",
+          "国内招标线索：中国储能网周报经网易转载披露，山西晋北采煤沉陷区新能源基地新荣、云冈、大同左云3个储能项目资格预审，合计820MW/3280MWh，投资单价均约0.73元/Wh。",
+          "国内系统采购线索：同一周报披露，河北石家庄新乐市国顺科技集团独立储能示范项目储能系统集成公开采购，总规模500MW/1.6GWh，供货范围包括LFP电池、PCS、变压器、BMS、EMS等。",
+          "口径提示：海外Ford/EDF条目因ESS News页面本机curl返回403，本轮采用公开搜索摘要并保留来源URL；国内招标周报为行业门户/转载线索，单项目金额与最终中标以原公告或公共资源平台文件为准。"
+        ],
+        "key_points": [
+          "EDF可采购最高20GWh Ford Energy储能系统。",
+          "EDF年度采购上限为4GWh Ford Energy DC Block。",
+          "Ford Energy DC Block为20英尺集装箱化BESS，采用512Ah LFP方形电芯。",
+          "山西晋北采煤沉陷区新能源基地储能资格预审合计820MW/3280MWh，约0.73元/Wh。",
+          "国顺科技河北新乐独立储能示范项目储能系统采购总规模500MW/1.6GWh。"
+        ],
+        "value": "20",
+        "unit": "GWh 框架采购上限",
+        "delta": "EDF年度采购上限4GWh；国内招标线索合计3.28GWh+1.6GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 06:00 CST",
+        "url": "https://www.ess-news.com/2026/05/18/ford-and-edf-sign-gigawatt-scale-bess-agreement-for-north-american-market/",
+        "original_url": "https://www.163.com/dy/article/KHNJ637805533BYM.html",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.escn.com.cn/"
+        ],
+        "clean_html": "<p>ESS News公开摘要显示Ford Energy与EDF power solutions签署北美BESS框架，最高20GWh、年度最高4GWh；国内中国储能网周报线索显示山西晋北3.28GWh储能资格预审与国顺科技500MW/1.6GWh系统采购。</p>",
+        "caption": "海外车企BESS制造转向与国内大规模储能招标线索同步出现",
+        "methodology": "06:00主动搜索国内+海外公开来源并抓取留痕；NeoLink HTTP首页 sha256 ad5f0b40737af17a1d3d449fc04b571f208d5ee1c5940eb0c76c02306f950571，MarketTrend HTTP入口 sha256 883e76edee0e3e939aa4c1e7dac56769f3645bb8b313fde84637a86add0c9252；Energy-Storage.News首页 HTTP 200 sha256 9d17375aa905c53774cec69e0ecf90eeb4211f7e72ef7cf15b13128450991928；中国储能网首页 HTTP 200 sha256 0898f667092caff36b924a5195ac13ca72e2f062385e31969b239a96f68575ba；网易转载中国储能网项目周报 HTTP 200 sha256 1d259e0f6eb42c71eac59ff732ed27905b2f6e3680edd922e675766f4615757d；ESS News原文curl返回403，采用web_search公开摘要并标注限制。",
+        "history": [
+          {
+            "label": "Ford/EDF框架采购上限 GWh",
+            "value": 20
+          },
+          {
+            "label": "Ford/EDF年度采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "Ford Energy DC Block电芯 Ah",
+            "value": 512
+          },
+          {
+            "label": "山西晋北储能资格预审规模 MWh",
+            "value": 3280
+          },
+          {
+            "label": "国顺科技系统采购规模 MWh",
+            "value": 1600
+          },
+          {
+            "label": "山西项目投资单价 元/Wh",
+            "value": 0.73
+          }
+        ]
+      },
+      {
         "source": "粤电售电 / 碳索储能网",
         "source_type": "用户侧储能EPC/虚拟电厂接入",
         "account_name": "碳索储能网",
@@ -21613,7 +21942,7 @@ window.NEOLINK_FEED= {
         "body": [
           "这条补充美国州级政策兑现线索：纽约已越过1.5GW阶段目标，但距离2030年6GW仍需要项目并网和市场机制继续推进。",
           "对国内储能出海有参考意义：美国东北部市场更依赖监管目标、州级采购和批发电力市场规则，而非单一EPC价格竞争。",
-          "后续应继续跟踪NYISO互联队列、州级激励和消防/选址规范对项目周期的影响。"
+          "NYISO互联队列、州级激励和消防/选址规范会影响项目周期。"
         ],
         "key_points": [
           "纽约能源储能路线图2025年底阶段目标：1.5GW。",
@@ -25139,6 +25468,139 @@ window.NEOLINK_FEED= {
     ],
     "metrics": [
       {
+        "id": "metric-20260519-0600-ford-edf-bess",
+        "source": "ESS News / 中国储能网 / 网易转载中国储能网",
+        "source_type": "海外行业媒体公开摘要 + 国内行业门户/转载招标周报",
+        "account_name": "ESS News / 中国储能网",
+        "category": "海外订单/招投标",
+        "title": "Ford Energy与EDF签署北美BESS框架最高20GWh；国内储能招标周报披露3.28GWh山西基地与1.6GWh系统采购线索",
+        "summary": "06:00新增：ESS News 5月18日公开摘要显示，Ford新设BESS业务Ford Energy与EDF power solutions签署多年框架协议，EDF可采购最高20GWh储能系统、每年最高4GWh Ford Energy DC Block；Ford Energy此前发布的20英尺集装箱化BESS采用512Ah LFP方形电芯。国内方面，中国储能网周报经网易转载显示，山西晋北采煤沉陷区新能源基地3个储能项目资格预审合计820MW/3.28GWh，投资单价约0.73元/Wh，河北国顺科技独立储能示范项目储能系统采购总规模500MW/1.6GWh。",
+        "body": [
+          "海外订单与制造侧信号：ESS News 5月18日公开摘要显示，Ford Energy与EDF power solutions签署北美市场多年框架协议，EDF可在协议期内采购最高20GWh储能系统。",
+          "产品口径：该摘要称EDF每年可采购最高4GWh Ford Energy DC Block；Ford Energy DC Block为标准化20英尺集装箱化BESS，采用512Ah磷酸铁锂方形电芯。",
+          "国内招标线索：中国储能网周报经网易转载披露，山西晋北采煤沉陷区新能源基地新荣、云冈、大同左云3个储能项目资格预审，合计820MW/3280MWh，投资单价均约0.73元/Wh。",
+          "国内系统采购线索：同一周报披露，河北石家庄新乐市国顺科技集团独立储能示范项目储能系统集成公开采购，总规模500MW/1.6GWh，供货范围包括LFP电池、PCS、变压器、BMS、EMS等。",
+          "口径提示：海外Ford/EDF条目因ESS News页面本机curl返回403，本轮采用公开搜索摘要并保留来源URL；国内招标周报为行业门户/转载线索，单项目金额与最终中标以原公告或公共资源平台文件为准。"
+        ],
+        "key_points": [
+          "EDF可采购最高20GWh Ford Energy储能系统。",
+          "EDF年度采购上限为4GWh Ford Energy DC Block。",
+          "Ford Energy DC Block为20英尺集装箱化BESS，采用512Ah LFP方形电芯。",
+          "山西晋北采煤沉陷区新能源基地储能资格预审合计820MW/3280MWh，约0.73元/Wh。",
+          "国顺科技河北新乐独立储能示范项目储能系统采购总规模500MW/1.6GWh。"
+        ],
+        "value": "20",
+        "unit": "GWh 框架采购上限",
+        "delta": "EDF年度采购上限4GWh；国内招标线索合计3.28GWh+1.6GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 06:00 CST",
+        "url": "https://www.ess-news.com/2026/05/18/ford-and-edf-sign-gigawatt-scale-bess-agreement-for-north-american-market/",
+        "original_url": "https://www.163.com/dy/article/KHNJ637805533BYM.html",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.escn.com.cn/"
+        ],
+        "clean_html": "<p>ESS News公开摘要显示Ford Energy与EDF power solutions签署北美BESS框架，最高20GWh、年度最高4GWh；国内中国储能网周报线索显示山西晋北3.28GWh储能资格预审与国顺科技500MW/1.6GWh系统采购。</p>",
+        "caption": "海外车企BESS制造转向与国内大规模储能招标线索同步出现",
+        "methodology": "06:00主动搜索国内+海外公开来源并抓取留痕；NeoLink HTTP首页 sha256 ad5f0b40737af17a1d3d449fc04b571f208d5ee1c5940eb0c76c02306f950571，MarketTrend HTTP入口 sha256 883e76edee0e3e939aa4c1e7dac56769f3645bb8b313fde84637a86add0c9252；Energy-Storage.News首页 HTTP 200 sha256 9d17375aa905c53774cec69e0ecf90eeb4211f7e72ef7cf15b13128450991928；中国储能网首页 HTTP 200 sha256 0898f667092caff36b924a5195ac13ca72e2f062385e31969b239a96f68575ba；网易转载中国储能网项目周报 HTTP 200 sha256 1d259e0f6eb42c71eac59ff732ed27905b2f6e3680edd922e675766f4615757d；ESS News原文curl返回403，采用web_search公开摘要并标注限制。",
+        "history": [
+          {
+            "label": "Ford/EDF框架采购上限 GWh",
+            "value": 20
+          },
+          {
+            "label": "Ford/EDF年度采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "Ford Energy DC Block电芯 Ah",
+            "value": 512
+          },
+          {
+            "label": "山西晋北储能资格预审规模 MWh",
+            "value": 3280
+          },
+          {
+            "label": "国顺科技系统采购规模 MWh",
+            "value": 1600
+          },
+          {
+            "label": "山西项目投资单价 元/Wh",
+            "value": 0.73
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / Energy-Storage.News / 建信期货PDF",
+        "source_type": "国内SMM长期供需展望与海外BESS制造本地化交叉复核",
+        "account_name": "上海有色网 / Energy-Storage.News / CCB Futures",
+        "category": "供需预测/储能需求/海外制造",
+        "title": "SMM展望2030锂市场：2026全球储能需求约+36%，2030碳酸锂产量374万吨；海外BESS制造本地化继续推进",
+        "summary": "05:00新增：SMM在2026新能源产业博览会镍钴锂国际矿业论坛披露，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年储能需求CAGR约24%；2030年全球碳酸锂总产量预计374万吨（2026-2030 CAGR约19%），中国本土碳酸锂产量长期占全球70%以上，中资企业全球产量占比有望升至75%以上；到2030年动力电池仍占全球碳酸锂消费约50%，储能份额预计由2025年30%升至2030年40%。海外复核方面，Energy-Storage.news显示瑞浦兰钧已在印尼开设电芯和BESS制造设施，厦门海辰德州BESS组装厂已开始出货；其转引Solar Media Market Research称美国本土BESS电芯年产能到2026年底将超过50GWh。",
+        "body": [
+          "国内长期供需：SMM锂产业资深分析师在2026新能源产业博览会分享称，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年CAGR约24%。",
+          "锂盐供应格局：SMM预计2030年全球碳酸锂总产量374万吨，2026-2030年CAGR约19%；中国本土碳酸锂产量将长期占全球70%以上，中资企业全球产量占比有望提升至75%以上。",
+          "需求结构：SMM预计2030年动力电池仍是全球碳酸锂最大下游，约占消费量50%；储能市场份额由2025年30%升至2030年40%。",
+          "海外制造复核：Energy-Storage.news 5月15日报道瑞浦兰钧正式开设印尼电芯和BESS制造设施；另有公开页显示厦门海辰德州Mesquite BESS组装厂已开始出货，厂房484441平方英尺，初始投资1亿美元、开业时约翻倍。",
+          "MarketTrend处理：行情页继续采用SMM 05-18电池级碳酸锂均价191500元/吨、价格指数190865元/吨；05:00仅作为抓取/复核时间，不替代行情日期。"
+        ],
+        "key_points": [
+          "2026年全球储能需求预计同比2025年增长约36%。",
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球碳酸锂总产量预计374万吨，2026-2030年CAGR约19%。",
+          "中国本土碳酸锂产量长期占全球70%以上；中资企业全球产量占比有望75%以上。",
+          "2030年储能占全球碳酸锂消费份额预计由2025年30%升至40%。",
+          "美国本土BESS电芯年产能到2026年底或超过50GWh；厦门海辰德州BESS组装厂已开始出货。"
+        ],
+        "value": "36",
+        "unit": "% 2026全球储能需求同比预测",
+        "delta": "2026-2030储能需求CAGR约24%；2030碳酸锂产量374万吨；储能消费份额升至40%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 05:00 CST",
+        "url": "https://news.smm.cn/news/103870028",
+        "original_url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "related_urls": [
+          "https://www.energy-storage.news/chinese-battery-manufacturer-hithium-ships-first-units-from-texas-bess-assembly-plant/",
+          "https://www.ccbfutures.com/upload/20260511/20260511142513677.pdf"
+        ],
+        "clean_html": "<p>SMM预计2026年全球储能需求同比约+36%、2026-2030年CAGR约24%，2030年全球碳酸锂总产量374万吨；海外BESS制造本地化方面，瑞浦兰钧印尼设施开业、厦门海辰德州组装厂已开始出货。</p>",
+        "caption": "长期供需与制造本地化：储能需求抬升锂消费份额，海外BESS供应链继续区域化布局",
+        "methodology": "05:00主动搜索国内+海外公开来源并抓取；SMM供需展望页 HTTP 200 sha256 096d43c66ab3c6d942761459eea3d063cbb9676bd2d6dbd256d0052d380d30b2；Energy-Storage.news瑞浦兰钧印尼设施 HTTP 200 sha256 e5cc6ac9905a31d864b675270a55ed3c7e4d2df120f320aefed76a46ef1d5dd4；Energy-Storage.news厦门海辰德州出货页 HTTP 200 sha256 cd428a938dad4e17a2d506b2bc97aa178bcb7e705925cf7007320ef15f35b5d5；建信期货碳酸锂月报PDF HTTP 200 sha256 4fd53031674db69408437b9c3ce859d6702d495495072c70295b5f151c4efcbd。NeoLink/MarketTrend HTTPS抓取在本机返回SSL_ERROR_SYSCALL，已记录为失败尝试；仅采用可抓取页面可见事实。",
+        "history": [
+          {
+            "label": "2026全球储能需求同比 %",
+            "value": 36
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2030全球碳酸锂总产量 万吨",
+            "value": 374
+          },
+          {
+            "label": "中国本土碳酸锂产量占比下限 %",
+            "value": 70
+          },
+          {
+            "label": "中资企业全球碳酸锂产量占比目标 %",
+            "value": 75
+          },
+          {
+            "label": "2030储能占碳酸锂消费 %",
+            "value": 40
+          },
+          {
+            "label": "2026年底美国BESS电芯年产能 GWh",
+            "value": 50
+          }
+        ],
+        "id": "metric-20260519-0500-storage-demand-cagr"
+      },
+      {
         "source": "SMM碳酸锂行情 / SMM储能专区",
         "source_type": "国内主材行情复核",
         "account_name": "SMM上海有色",
@@ -27682,7 +28144,7 @@ window.NEOLINK_FEED= {
         "body": [
           "这条补充美国州级政策兑现线索：纽约已越过1.5GW阶段目标，但距离2030年6GW仍需要项目并网和市场机制继续推进。",
           "对国内储能出海有参考意义：美国东北部市场更依赖监管目标、州级采购和批发电力市场规则，而非单一EPC价格竞争。",
-          "后续应继续跟踪NYISO互联队列、州级激励和消防/选址规范对项目周期的影响。"
+          "NYISO互联队列、州级激励和消防/选址规范会影响项目周期。"
         ],
         "key_points": [
           "纽约能源储能路线图2025年底阶段目标：1.5GW。",
@@ -27942,7 +28404,7 @@ window.NEOLINK_FEED= {
         "body": [
           "这条补充美国州级政策兑现线索：纽约已越过1.5GW阶段目标，但距离2030年6GW仍需要项目并网和市场机制继续推进。",
           "对国内储能出海有参考意义：美国东北部市场更依赖监管目标、州级采购和批发电力市场规则，而非单一EPC价格竞争。",
-          "后续应继续跟踪NYISO互联队列、州级激励和消防/选址规范对项目周期的影响。"
+          "NYISO互联队列、州级激励和消防/选址规范会影响项目周期。"
         ],
         "key_points": [
           "纽约能源储能路线图2025年底阶段目标：1.5GW。",
@@ -36877,7 +37339,7 @@ window.NEOLINK_FEED= {
         "body": [
           "这条补充美国州级政策兑现线索：纽约已越过1.5GW阶段目标，但距离2030年6GW仍需要项目并网和市场机制继续推进。",
           "对国内储能出海有参考意义：美国东北部市场更依赖监管目标、州级采购和批发电力市场规则，而非单一EPC价格竞争。",
-          "后续应继续跟踪NYISO互联队列、州级激励和消防/选址规范对项目周期的影响。"
+          "NYISO互联队列、州级激励和消防/选址规范会影响项目周期。"
         ],
         "key_points": [
           "纽约能源储能路线图2025年底阶段目标：1.5GW。",
@@ -40440,6 +40902,139 @@ window.NEOLINK_FEED= {
     ],
     "market": [
       {
+        "id": "market-20260519-0600-bess-orders-tenders",
+        "source": "ESS News / 中国储能网 / 网易转载中国储能网",
+        "source_type": "海外行业媒体公开摘要 + 国内行业门户/转载招标周报",
+        "account_name": "ESS News / 中国储能网",
+        "category": "海外订单/招投标",
+        "title": "Ford Energy与EDF签署北美BESS框架最高20GWh；国内储能招标周报披露3.28GWh山西基地与1.6GWh系统采购线索",
+        "summary": "06:00新增：ESS News 5月18日公开摘要显示，Ford新设BESS业务Ford Energy与EDF power solutions签署多年框架协议，EDF可采购最高20GWh储能系统、每年最高4GWh Ford Energy DC Block；Ford Energy此前发布的20英尺集装箱化BESS采用512Ah LFP方形电芯。国内方面，中国储能网周报经网易转载显示，山西晋北采煤沉陷区新能源基地3个储能项目资格预审合计820MW/3.28GWh，投资单价约0.73元/Wh，河北国顺科技独立储能示范项目储能系统采购总规模500MW/1.6GWh。",
+        "body": [
+          "海外订单与制造侧信号：ESS News 5月18日公开摘要显示，Ford Energy与EDF power solutions签署北美市场多年框架协议，EDF可在协议期内采购最高20GWh储能系统。",
+          "产品口径：该摘要称EDF每年可采购最高4GWh Ford Energy DC Block；Ford Energy DC Block为标准化20英尺集装箱化BESS，采用512Ah磷酸铁锂方形电芯。",
+          "国内招标线索：中国储能网周报经网易转载披露，山西晋北采煤沉陷区新能源基地新荣、云冈、大同左云3个储能项目资格预审，合计820MW/3280MWh，投资单价均约0.73元/Wh。",
+          "国内系统采购线索：同一周报披露，河北石家庄新乐市国顺科技集团独立储能示范项目储能系统集成公开采购，总规模500MW/1.6GWh，供货范围包括LFP电池、PCS、变压器、BMS、EMS等。",
+          "口径提示：海外Ford/EDF条目因ESS News页面本机curl返回403，本轮采用公开搜索摘要并保留来源URL；国内招标周报为行业门户/转载线索，单项目金额与最终中标以原公告或公共资源平台文件为准。"
+        ],
+        "key_points": [
+          "EDF可采购最高20GWh Ford Energy储能系统。",
+          "EDF年度采购上限为4GWh Ford Energy DC Block。",
+          "Ford Energy DC Block为20英尺集装箱化BESS，采用512Ah LFP方形电芯。",
+          "山西晋北采煤沉陷区新能源基地储能资格预审合计820MW/3280MWh，约0.73元/Wh。",
+          "国顺科技河北新乐独立储能示范项目储能系统采购总规模500MW/1.6GWh。"
+        ],
+        "value": "20",
+        "unit": "GWh 框架采购上限",
+        "delta": "EDF年度采购上限4GWh；国内招标线索合计3.28GWh+1.6GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 06:00 CST",
+        "url": "https://www.ess-news.com/2026/05/18/ford-and-edf-sign-gigawatt-scale-bess-agreement-for-north-american-market/",
+        "original_url": "https://www.163.com/dy/article/KHNJ637805533BYM.html",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.escn.com.cn/"
+        ],
+        "clean_html": "<p>ESS News公开摘要显示Ford Energy与EDF power solutions签署北美BESS框架，最高20GWh、年度最高4GWh；国内中国储能网周报线索显示山西晋北3.28GWh储能资格预审与国顺科技500MW/1.6GWh系统采购。</p>",
+        "caption": "海外车企BESS制造转向与国内大规模储能招标线索同步出现",
+        "methodology": "06:00主动搜索国内+海外公开来源并抓取留痕；NeoLink HTTP首页 sha256 ad5f0b40737af17a1d3d449fc04b571f208d5ee1c5940eb0c76c02306f950571，MarketTrend HTTP入口 sha256 883e76edee0e3e939aa4c1e7dac56769f3645bb8b313fde84637a86add0c9252；Energy-Storage.News首页 HTTP 200 sha256 9d17375aa905c53774cec69e0ecf90eeb4211f7e72ef7cf15b13128450991928；中国储能网首页 HTTP 200 sha256 0898f667092caff36b924a5195ac13ca72e2f062385e31969b239a96f68575ba；网易转载中国储能网项目周报 HTTP 200 sha256 1d259e0f6eb42c71eac59ff732ed27905b2f6e3680edd922e675766f4615757d；ESS News原文curl返回403，采用web_search公开摘要并标注限制。",
+        "history": [
+          {
+            "label": "Ford/EDF框架采购上限 GWh",
+            "value": 20
+          },
+          {
+            "label": "Ford/EDF年度采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "Ford Energy DC Block电芯 Ah",
+            "value": 512
+          },
+          {
+            "label": "山西晋北储能资格预审规模 MWh",
+            "value": 3280
+          },
+          {
+            "label": "国顺科技系统采购规模 MWh",
+            "value": 1600
+          },
+          {
+            "label": "山西项目投资单价 元/Wh",
+            "value": 0.73
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / Energy-Storage.News / 建信期货PDF",
+        "source_type": "国内SMM长期供需展望与海外BESS制造本地化交叉复核",
+        "account_name": "上海有色网 / Energy-Storage.News / CCB Futures",
+        "category": "供需预测/储能需求/海外制造",
+        "title": "SMM展望2030锂市场：2026全球储能需求约+36%，2030碳酸锂产量374万吨；海外BESS制造本地化继续推进",
+        "summary": "05:00新增：SMM在2026新能源产业博览会镍钴锂国际矿业论坛披露，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年储能需求CAGR约24%；2030年全球碳酸锂总产量预计374万吨（2026-2030 CAGR约19%），中国本土碳酸锂产量长期占全球70%以上，中资企业全球产量占比有望升至75%以上；到2030年动力电池仍占全球碳酸锂消费约50%，储能份额预计由2025年30%升至2030年40%。海外复核方面，Energy-Storage.news显示瑞浦兰钧已在印尼开设电芯和BESS制造设施，厦门海辰德州BESS组装厂已开始出货；其转引Solar Media Market Research称美国本土BESS电芯年产能到2026年底将超过50GWh。",
+        "body": [
+          "国内长期供需：SMM锂产业资深分析师在2026新能源产业博览会分享称，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年CAGR约24%。",
+          "锂盐供应格局：SMM预计2030年全球碳酸锂总产量374万吨，2026-2030年CAGR约19%；中国本土碳酸锂产量将长期占全球70%以上，中资企业全球产量占比有望提升至75%以上。",
+          "需求结构：SMM预计2030年动力电池仍是全球碳酸锂最大下游，约占消费量50%；储能市场份额由2025年30%升至2030年40%。",
+          "海外制造复核：Energy-Storage.news 5月15日报道瑞浦兰钧正式开设印尼电芯和BESS制造设施；另有公开页显示厦门海辰德州Mesquite BESS组装厂已开始出货，厂房484441平方英尺，初始投资1亿美元、开业时约翻倍。",
+          "MarketTrend处理：行情页继续采用SMM 05-18电池级碳酸锂均价191500元/吨、价格指数190865元/吨；05:00仅作为抓取/复核时间，不替代行情日期。"
+        ],
+        "key_points": [
+          "2026年全球储能需求预计同比2025年增长约36%。",
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球碳酸锂总产量预计374万吨，2026-2030年CAGR约19%。",
+          "中国本土碳酸锂产量长期占全球70%以上；中资企业全球产量占比有望75%以上。",
+          "2030年储能占全球碳酸锂消费份额预计由2025年30%升至40%。",
+          "美国本土BESS电芯年产能到2026年底或超过50GWh；厦门海辰德州BESS组装厂已开始出货。"
+        ],
+        "value": "36",
+        "unit": "% 2026全球储能需求同比预测",
+        "delta": "2026-2030储能需求CAGR约24%；2030碳酸锂产量374万吨；储能消费份额升至40%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 05:00 CST",
+        "url": "https://news.smm.cn/news/103870028",
+        "original_url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "related_urls": [
+          "https://www.energy-storage.news/chinese-battery-manufacturer-hithium-ships-first-units-from-texas-bess-assembly-plant/",
+          "https://www.ccbfutures.com/upload/20260511/20260511142513677.pdf"
+        ],
+        "clean_html": "<p>SMM预计2026年全球储能需求同比约+36%、2026-2030年CAGR约24%，2030年全球碳酸锂总产量374万吨；海外BESS制造本地化方面，瑞浦兰钧印尼设施开业、厦门海辰德州组装厂已开始出货。</p>",
+        "caption": "长期供需与制造本地化：储能需求抬升锂消费份额，海外BESS供应链继续区域化布局",
+        "methodology": "05:00主动搜索国内+海外公开来源并抓取；SMM供需展望页 HTTP 200 sha256 096d43c66ab3c6d942761459eea3d063cbb9676bd2d6dbd256d0052d380d30b2；Energy-Storage.news瑞浦兰钧印尼设施 HTTP 200 sha256 e5cc6ac9905a31d864b675270a55ed3c7e4d2df120f320aefed76a46ef1d5dd4；Energy-Storage.news厦门海辰德州出货页 HTTP 200 sha256 cd428a938dad4e17a2d506b2bc97aa178bcb7e705925cf7007320ef15f35b5d5；建信期货碳酸锂月报PDF HTTP 200 sha256 4fd53031674db69408437b9c3ce859d6702d495495072c70295b5f151c4efcbd。NeoLink/MarketTrend HTTPS抓取在本机返回SSL_ERROR_SYSCALL，已记录为失败尝试；仅采用可抓取页面可见事实。",
+        "history": [
+          {
+            "label": "2026全球储能需求同比 %",
+            "value": 36
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2030全球碳酸锂总产量 万吨",
+            "value": 374
+          },
+          {
+            "label": "中国本土碳酸锂产量占比下限 %",
+            "value": 70
+          },
+          {
+            "label": "中资企业全球碳酸锂产量占比目标 %",
+            "value": 75
+          },
+          {
+            "label": "2030储能占碳酸锂消费 %",
+            "value": 40
+          },
+          {
+            "label": "2026年底美国BESS电芯年产能 GWh",
+            "value": 50
+          }
+        ],
+        "id": "market-20260519-0500-lithium-supply-demand"
+      },
+      {
         "source": "SMM碳酸锂行情 / SMM储能专区",
         "source_type": "国内主材行情复核",
         "account_name": "SMM上海有色",
@@ -43077,6 +43672,141 @@ window.NEOLINK_FEED= {
     ],
     "sentiment": [
       {
+        "id": "sentiment-20260519-0600-bess-demand",
+        "source": "ESS News / 中国储能网 / 网易转载中国储能网",
+        "source_type": "海外行业媒体公开摘要 + 国内行业门户/转载招标周报",
+        "account_name": "ESS News / 中国储能网",
+        "category": "海外订单/招投标",
+        "title": "Ford Energy与EDF签署北美BESS框架最高20GWh；国内储能招标周报披露3.28GWh山西基地与1.6GWh系统采购线索",
+        "summary": "06:00新增：ESS News 5月18日公开摘要显示，Ford新设BESS业务Ford Energy与EDF power solutions签署多年框架协议，EDF可采购最高20GWh储能系统、每年最高4GWh Ford Energy DC Block；Ford Energy此前发布的20英尺集装箱化BESS采用512Ah LFP方形电芯。国内方面，中国储能网周报经网易转载显示，山西晋北采煤沉陷区新能源基地3个储能项目资格预审合计820MW/3.28GWh，投资单价约0.73元/Wh，河北国顺科技独立储能示范项目储能系统采购总规模500MW/1.6GWh。",
+        "body": [
+          "海外订单与制造侧信号：ESS News 5月18日公开摘要显示，Ford Energy与EDF power solutions签署北美市场多年框架协议，EDF可在协议期内采购最高20GWh储能系统。",
+          "产品口径：该摘要称EDF每年可采购最高4GWh Ford Energy DC Block；Ford Energy DC Block为标准化20英尺集装箱化BESS，采用512Ah磷酸铁锂方形电芯。",
+          "国内招标线索：中国储能网周报经网易转载披露，山西晋北采煤沉陷区新能源基地新荣、云冈、大同左云3个储能项目资格预审，合计820MW/3280MWh，投资单价均约0.73元/Wh。",
+          "国内系统采购线索：同一周报披露，河北石家庄新乐市国顺科技集团独立储能示范项目储能系统集成公开采购，总规模500MW/1.6GWh，供货范围包括LFP电池、PCS、变压器、BMS、EMS等。",
+          "口径提示：海外Ford/EDF条目因ESS News页面本机curl返回403，本轮采用公开搜索摘要并保留来源URL；国内招标周报为行业门户/转载线索，单项目金额与最终中标以原公告或公共资源平台文件为准。"
+        ],
+        "key_points": [
+          "EDF可采购最高20GWh Ford Energy储能系统。",
+          "EDF年度采购上限为4GWh Ford Energy DC Block。",
+          "Ford Energy DC Block为20英尺集装箱化BESS，采用512Ah LFP方形电芯。",
+          "山西晋北采煤沉陷区新能源基地储能资格预审合计820MW/3280MWh，约0.73元/Wh。",
+          "国顺科技河北新乐独立储能示范项目储能系统采购总规模500MW/1.6GWh。"
+        ],
+        "value": "20",
+        "unit": "GWh 框架采购上限",
+        "delta": "EDF年度采购上限4GWh；国内招标线索合计3.28GWh+1.6GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 06:00 CST",
+        "url": "https://www.ess-news.com/2026/05/18/ford-and-edf-sign-gigawatt-scale-bess-agreement-for-north-american-market/",
+        "original_url": "https://www.163.com/dy/article/KHNJ637805533BYM.html",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.escn.com.cn/"
+        ],
+        "clean_html": "<p>ESS News公开摘要显示Ford Energy与EDF power solutions签署北美BESS框架，最高20GWh、年度最高4GWh；国内中国储能网周报线索显示山西晋北3.28GWh储能资格预审与国顺科技500MW/1.6GWh系统采购。</p>",
+        "caption": "海外车企BESS制造转向与国内大规模储能招标线索同步出现",
+        "methodology": "06:00主动搜索国内+海外公开来源并抓取留痕；NeoLink HTTP首页 sha256 ad5f0b40737af17a1d3d449fc04b571f208d5ee1c5940eb0c76c02306f950571，MarketTrend HTTP入口 sha256 883e76edee0e3e939aa4c1e7dac56769f3645bb8b313fde84637a86add0c9252；Energy-Storage.News首页 HTTP 200 sha256 9d17375aa905c53774cec69e0ecf90eeb4211f7e72ef7cf15b13128450991928；中国储能网首页 HTTP 200 sha256 0898f667092caff36b924a5195ac13ca72e2f062385e31969b239a96f68575ba；网易转载中国储能网项目周报 HTTP 200 sha256 1d259e0f6eb42c71eac59ff732ed27905b2f6e3680edd922e675766f4615757d；ESS News原文curl返回403，采用web_search公开摘要并标注限制。",
+        "history": [
+          {
+            "label": "Ford/EDF框架采购上限 GWh",
+            "value": 20
+          },
+          {
+            "label": "Ford/EDF年度采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "Ford Energy DC Block电芯 Ah",
+            "value": 512
+          },
+          {
+            "label": "山西晋北储能资格预审规模 MWh",
+            "value": 3280
+          },
+          {
+            "label": "国顺科技系统采购规模 MWh",
+            "value": 1600
+          },
+          {
+            "label": "山西项目投资单价 元/Wh",
+            "value": 0.73
+          }
+        ],
+        "tone": "positive"
+      },
+      {
+        "source": "SMM上海有色 / Energy-Storage.News / 建信期货PDF",
+        "source_type": "国内SMM长期供需展望与海外BESS制造本地化交叉复核",
+        "account_name": "上海有色网 / Energy-Storage.News / CCB Futures",
+        "category": "供需预测/储能需求/海外制造",
+        "title": "SMM展望2030锂市场：2026全球储能需求约+36%，2030碳酸锂产量374万吨；海外BESS制造本地化继续推进",
+        "summary": "05:00新增：SMM在2026新能源产业博览会镍钴锂国际矿业论坛披露，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年储能需求CAGR约24%；2030年全球碳酸锂总产量预计374万吨（2026-2030 CAGR约19%），中国本土碳酸锂产量长期占全球70%以上，中资企业全球产量占比有望升至75%以上；到2030年动力电池仍占全球碳酸锂消费约50%，储能份额预计由2025年30%升至2030年40%。海外复核方面，Energy-Storage.news显示瑞浦兰钧已在印尼开设电芯和BESS制造设施，厦门海辰德州BESS组装厂已开始出货；其转引Solar Media Market Research称美国本土BESS电芯年产能到2026年底将超过50GWh。",
+        "body": [
+          "国内长期供需：SMM锂产业资深分析师在2026新能源产业博览会分享称，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年CAGR约24%。",
+          "锂盐供应格局：SMM预计2030年全球碳酸锂总产量374万吨，2026-2030年CAGR约19%；中国本土碳酸锂产量将长期占全球70%以上，中资企业全球产量占比有望提升至75%以上。",
+          "需求结构：SMM预计2030年动力电池仍是全球碳酸锂最大下游，约占消费量50%；储能市场份额由2025年30%升至2030年40%。",
+          "海外制造复核：Energy-Storage.news 5月15日报道瑞浦兰钧正式开设印尼电芯和BESS制造设施；另有公开页显示厦门海辰德州Mesquite BESS组装厂已开始出货，厂房484441平方英尺，初始投资1亿美元、开业时约翻倍。",
+          "MarketTrend处理：行情页继续采用SMM 05-18电池级碳酸锂均价191500元/吨、价格指数190865元/吨；05:00仅作为抓取/复核时间，不替代行情日期。"
+        ],
+        "key_points": [
+          "2026年全球储能需求预计同比2025年增长约36%。",
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球碳酸锂总产量预计374万吨，2026-2030年CAGR约19%。",
+          "中国本土碳酸锂产量长期占全球70%以上；中资企业全球产量占比有望75%以上。",
+          "2030年储能占全球碳酸锂消费份额预计由2025年30%升至40%。",
+          "美国本土BESS电芯年产能到2026年底或超过50GWh；厦门海辰德州BESS组装厂已开始出货。"
+        ],
+        "value": "36",
+        "unit": "% 2026全球储能需求同比预测",
+        "delta": "2026-2030储能需求CAGR约24%；2030碳酸锂产量374万吨；储能消费份额升至40%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 05:00 CST",
+        "url": "https://news.smm.cn/news/103870028",
+        "original_url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "related_urls": [
+          "https://www.energy-storage.news/chinese-battery-manufacturer-hithium-ships-first-units-from-texas-bess-assembly-plant/",
+          "https://www.ccbfutures.com/upload/20260511/20260511142513677.pdf"
+        ],
+        "clean_html": "<p>SMM预计2026年全球储能需求同比约+36%、2026-2030年CAGR约24%，2030年全球碳酸锂总产量374万吨；海外BESS制造本地化方面，瑞浦兰钧印尼设施开业、厦门海辰德州组装厂已开始出货。</p>",
+        "caption": "长期供需与制造本地化：储能需求抬升锂消费份额，海外BESS供应链继续区域化布局",
+        "methodology": "05:00主动搜索国内+海外公开来源并抓取；SMM供需展望页 HTTP 200 sha256 096d43c66ab3c6d942761459eea3d063cbb9676bd2d6dbd256d0052d380d30b2；Energy-Storage.news瑞浦兰钧印尼设施 HTTP 200 sha256 e5cc6ac9905a31d864b675270a55ed3c7e4d2df120f320aefed76a46ef1d5dd4；Energy-Storage.news厦门海辰德州出货页 HTTP 200 sha256 cd428a938dad4e17a2d506b2bc97aa178bcb7e705925cf7007320ef15f35b5d5；建信期货碳酸锂月报PDF HTTP 200 sha256 4fd53031674db69408437b9c3ce859d6702d495495072c70295b5f151c4efcbd。NeoLink/MarketTrend HTTPS抓取在本机返回SSL_ERROR_SYSCALL，已记录为失败尝试；仅采用可抓取页面可见事实。",
+        "history": [
+          {
+            "label": "2026全球储能需求同比 %",
+            "value": 36
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2030全球碳酸锂总产量 万吨",
+            "value": 374
+          },
+          {
+            "label": "中国本土碳酸锂产量占比下限 %",
+            "value": 70
+          },
+          {
+            "label": "中资企业全球碳酸锂产量占比目标 %",
+            "value": 75
+          },
+          {
+            "label": "2030储能占碳酸锂消费 %",
+            "value": 40
+          },
+          {
+            "label": "2026年底美国BESS电芯年产能 GWh",
+            "value": 50
+          }
+        ],
+        "id": "sentiment-20260519-0500-bess-demand",
+        "tone": "positive"
+      },
+      {
         "source": "21财经 / 上海证券报 / CIBF2026现场报道",
         "source_type": "国内展会现场与产业链订单/材料价格信号",
         "account_name": "21财经 / 上海证券报",
@@ -45524,7 +46254,7 @@ window.NEOLINK_FEED= {
         "body": [
           "这条补充美国州级政策兑现线索：纽约已越过1.5GW阶段目标，但距离2030年6GW仍需要项目并网和市场机制继续推进。",
           "对国内储能出海有参考意义：美国东北部市场更依赖监管目标、州级采购和批发电力市场规则，而非单一EPC价格竞争。",
-          "后续应继续跟踪NYISO互联队列、州级激励和消防/选址规范对项目周期的影响。"
+          "NYISO互联队列、州级激励和消防/选址规范会影响项目周期。"
         ],
         "key_points": [
           "纽约能源储能路线图2025年底阶段目标：1.5GW。",
@@ -48052,6 +48782,139 @@ window.NEOLINK_FEED= {
     ],
     "global": [
       {
+        "id": "global-20260519-0600-ford-edf",
+        "source": "ESS News / 中国储能网 / 网易转载中国储能网",
+        "source_type": "海外行业媒体公开摘要 + 国内行业门户/转载招标周报",
+        "account_name": "ESS News / 中国储能网",
+        "category": "海外订单/招投标",
+        "title": "Ford Energy与EDF签署北美BESS框架最高20GWh；国内储能招标周报披露3.28GWh山西基地与1.6GWh系统采购线索",
+        "summary": "06:00新增：ESS News 5月18日公开摘要显示，Ford新设BESS业务Ford Energy与EDF power solutions签署多年框架协议，EDF可采购最高20GWh储能系统、每年最高4GWh Ford Energy DC Block；Ford Energy此前发布的20英尺集装箱化BESS采用512Ah LFP方形电芯。国内方面，中国储能网周报经网易转载显示，山西晋北采煤沉陷区新能源基地3个储能项目资格预审合计820MW/3.28GWh，投资单价约0.73元/Wh，河北国顺科技独立储能示范项目储能系统采购总规模500MW/1.6GWh。",
+        "body": [
+          "海外订单与制造侧信号：ESS News 5月18日公开摘要显示，Ford Energy与EDF power solutions签署北美市场多年框架协议，EDF可在协议期内采购最高20GWh储能系统。",
+          "产品口径：该摘要称EDF每年可采购最高4GWh Ford Energy DC Block；Ford Energy DC Block为标准化20英尺集装箱化BESS，采用512Ah磷酸铁锂方形电芯。",
+          "国内招标线索：中国储能网周报经网易转载披露，山西晋北采煤沉陷区新能源基地新荣、云冈、大同左云3个储能项目资格预审，合计820MW/3280MWh，投资单价均约0.73元/Wh。",
+          "国内系统采购线索：同一周报披露，河北石家庄新乐市国顺科技集团独立储能示范项目储能系统集成公开采购，总规模500MW/1.6GWh，供货范围包括LFP电池、PCS、变压器、BMS、EMS等。",
+          "口径提示：海外Ford/EDF条目因ESS News页面本机curl返回403，本轮采用公开搜索摘要并保留来源URL；国内招标周报为行业门户/转载线索，单项目金额与最终中标以原公告或公共资源平台文件为准。"
+        ],
+        "key_points": [
+          "EDF可采购最高20GWh Ford Energy储能系统。",
+          "EDF年度采购上限为4GWh Ford Energy DC Block。",
+          "Ford Energy DC Block为20英尺集装箱化BESS，采用512Ah LFP方形电芯。",
+          "山西晋北采煤沉陷区新能源基地储能资格预审合计820MW/3280MWh，约0.73元/Wh。",
+          "国顺科技河北新乐独立储能示范项目储能系统采购总规模500MW/1.6GWh。"
+        ],
+        "value": "20",
+        "unit": "GWh 框架采购上限",
+        "delta": "EDF年度采购上限4GWh；国内招标线索合计3.28GWh+1.6GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 06:00 CST",
+        "url": "https://www.ess-news.com/2026/05/18/ford-and-edf-sign-gigawatt-scale-bess-agreement-for-north-american-market/",
+        "original_url": "https://www.163.com/dy/article/KHNJ637805533BYM.html",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.escn.com.cn/"
+        ],
+        "clean_html": "<p>ESS News公开摘要显示Ford Energy与EDF power solutions签署北美BESS框架，最高20GWh、年度最高4GWh；国内中国储能网周报线索显示山西晋北3.28GWh储能资格预审与国顺科技500MW/1.6GWh系统采购。</p>",
+        "caption": "海外车企BESS制造转向与国内大规模储能招标线索同步出现",
+        "methodology": "06:00主动搜索国内+海外公开来源并抓取留痕；NeoLink HTTP首页 sha256 ad5f0b40737af17a1d3d449fc04b571f208d5ee1c5940eb0c76c02306f950571，MarketTrend HTTP入口 sha256 883e76edee0e3e939aa4c1e7dac56769f3645bb8b313fde84637a86add0c9252；Energy-Storage.News首页 HTTP 200 sha256 9d17375aa905c53774cec69e0ecf90eeb4211f7e72ef7cf15b13128450991928；中国储能网首页 HTTP 200 sha256 0898f667092caff36b924a5195ac13ca72e2f062385e31969b239a96f68575ba；网易转载中国储能网项目周报 HTTP 200 sha256 1d259e0f6eb42c71eac59ff732ed27905b2f6e3680edd922e675766f4615757d；ESS News原文curl返回403，采用web_search公开摘要并标注限制。",
+        "history": [
+          {
+            "label": "Ford/EDF框架采购上限 GWh",
+            "value": 20
+          },
+          {
+            "label": "Ford/EDF年度采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "Ford Energy DC Block电芯 Ah",
+            "value": 512
+          },
+          {
+            "label": "山西晋北储能资格预审规模 MWh",
+            "value": 3280
+          },
+          {
+            "label": "国顺科技系统采购规模 MWh",
+            "value": 1600
+          },
+          {
+            "label": "山西项目投资单价 元/Wh",
+            "value": 0.73
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / Energy-Storage.News / 建信期货PDF",
+        "source_type": "国内SMM长期供需展望与海外BESS制造本地化交叉复核",
+        "account_name": "上海有色网 / Energy-Storage.News / CCB Futures",
+        "category": "供需预测/储能需求/海外制造",
+        "title": "SMM展望2030锂市场：2026全球储能需求约+36%，2030碳酸锂产量374万吨；海外BESS制造本地化继续推进",
+        "summary": "05:00新增：SMM在2026新能源产业博览会镍钴锂国际矿业论坛披露，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年储能需求CAGR约24%；2030年全球碳酸锂总产量预计374万吨（2026-2030 CAGR约19%），中国本土碳酸锂产量长期占全球70%以上，中资企业全球产量占比有望升至75%以上；到2030年动力电池仍占全球碳酸锂消费约50%，储能份额预计由2025年30%升至2030年40%。海外复核方面，Energy-Storage.news显示瑞浦兰钧已在印尼开设电芯和BESS制造设施，厦门海辰德州BESS组装厂已开始出货；其转引Solar Media Market Research称美国本土BESS电芯年产能到2026年底将超过50GWh。",
+        "body": [
+          "国内长期供需：SMM锂产业资深分析师在2026新能源产业博览会分享称，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年CAGR约24%。",
+          "锂盐供应格局：SMM预计2030年全球碳酸锂总产量374万吨，2026-2030年CAGR约19%；中国本土碳酸锂产量将长期占全球70%以上，中资企业全球产量占比有望提升至75%以上。",
+          "需求结构：SMM预计2030年动力电池仍是全球碳酸锂最大下游，约占消费量50%；储能市场份额由2025年30%升至2030年40%。",
+          "海外制造复核：Energy-Storage.news 5月15日报道瑞浦兰钧正式开设印尼电芯和BESS制造设施；另有公开页显示厦门海辰德州Mesquite BESS组装厂已开始出货，厂房484441平方英尺，初始投资1亿美元、开业时约翻倍。",
+          "MarketTrend处理：行情页继续采用SMM 05-18电池级碳酸锂均价191500元/吨、价格指数190865元/吨；05:00仅作为抓取/复核时间，不替代行情日期。"
+        ],
+        "key_points": [
+          "2026年全球储能需求预计同比2025年增长约36%。",
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球碳酸锂总产量预计374万吨，2026-2030年CAGR约19%。",
+          "中国本土碳酸锂产量长期占全球70%以上；中资企业全球产量占比有望75%以上。",
+          "2030年储能占全球碳酸锂消费份额预计由2025年30%升至40%。",
+          "美国本土BESS电芯年产能到2026年底或超过50GWh；厦门海辰德州BESS组装厂已开始出货。"
+        ],
+        "value": "36",
+        "unit": "% 2026全球储能需求同比预测",
+        "delta": "2026-2030储能需求CAGR约24%；2030碳酸锂产量374万吨；储能消费份额升至40%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 05:00 CST",
+        "url": "https://news.smm.cn/news/103870028",
+        "original_url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "related_urls": [
+          "https://www.energy-storage.news/chinese-battery-manufacturer-hithium-ships-first-units-from-texas-bess-assembly-plant/",
+          "https://www.ccbfutures.com/upload/20260511/20260511142513677.pdf"
+        ],
+        "clean_html": "<p>SMM预计2026年全球储能需求同比约+36%、2026-2030年CAGR约24%，2030年全球碳酸锂总产量374万吨；海外BESS制造本地化方面，瑞浦兰钧印尼设施开业、厦门海辰德州组装厂已开始出货。</p>",
+        "caption": "长期供需与制造本地化：储能需求抬升锂消费份额，海外BESS供应链继续区域化布局",
+        "methodology": "05:00主动搜索国内+海外公开来源并抓取；SMM供需展望页 HTTP 200 sha256 096d43c66ab3c6d942761459eea3d063cbb9676bd2d6dbd256d0052d380d30b2；Energy-Storage.news瑞浦兰钧印尼设施 HTTP 200 sha256 e5cc6ac9905a31d864b675270a55ed3c7e4d2df120f320aefed76a46ef1d5dd4；Energy-Storage.news厦门海辰德州出货页 HTTP 200 sha256 cd428a938dad4e17a2d506b2bc97aa178bcb7e705925cf7007320ef15f35b5d5；建信期货碳酸锂月报PDF HTTP 200 sha256 4fd53031674db69408437b9c3ce859d6702d495495072c70295b5f151c4efcbd。NeoLink/MarketTrend HTTPS抓取在本机返回SSL_ERROR_SYSCALL，已记录为失败尝试；仅采用可抓取页面可见事实。",
+        "history": [
+          {
+            "label": "2026全球储能需求同比 %",
+            "value": 36
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2030全球碳酸锂总产量 万吨",
+            "value": 374
+          },
+          {
+            "label": "中国本土碳酸锂产量占比下限 %",
+            "value": 70
+          },
+          {
+            "label": "中资企业全球碳酸锂产量占比目标 %",
+            "value": 75
+          },
+          {
+            "label": "2030储能占碳酸锂消费 %",
+            "value": 40
+          },
+          {
+            "label": "2026年底美国BESS电芯年产能 GWh",
+            "value": 50
+          }
+        ],
+        "id": "global-20260519-0500-bess-manufacturing"
+      },
+      {
         "source": "Energy-Storage.News / BloombergNEF",
         "source_type": "海外储能部署预测",
         "account_name": "Energy-Storage.News",
@@ -49378,6 +50241,38 @@ window.NEOLINK_FEED= {
     ],
     "quotes": [
       {
+        "id": "quote-20260519-0600-smm-li2co3-retained",
+        "source": "SMM上海有色",
+        "category": "碳酸锂行情",
+        "title": "06:00复核：SMM 05-18电池级碳酸锂均价191500元/吨，未伪造05-19新价",
+        "summary": "06:00主动搜索SMM/Mysteel/公开行情；未发现可核验的05-19电池级碳酸锂新现货报价。MarketTrend继续保留05-18 SMM电池级碳酸锂187000-196000元/吨、均价191500元/吨、日跌500元/吨，价格指数190865元/吨、日跌894元/吨。",
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "日跌500元/吨；价格指数190865元/吨、日跌894元/吨",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T06:00:00+08:00",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "06:00复核行情来源；未把抓取时间改写为价格日期。"
+      },
+      {
+        "id": "quote-20260519-0500-smm-li2co3-retained",
+        "source": "SMM上海有色",
+        "category": "碳酸锂行情",
+        "title": "05:00复核：SMM 05-18电池级碳酸锂均价191500元/吨，价格指数190865元/吨",
+        "summary": "05:00未发现可核验的05-19新现货报价；MarketTrend继续保留05-18 SMM电池级碳酸锂187000-196000元/吨、均价191500元/吨、日跌500元/吨，价格指数190865元/吨、日跌894元/吨。",
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "日跌500元/吨；价格指数190865元/吨、日跌894元/吨",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T05:00:00+08:00",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "05:00复核行情来源；未把抓取时间改写为价格日期。"
+      },
+      {
         "source": "SMM碳酸锂行情 / SMM储能专区",
         "source_type": "国内主材行情复核",
         "account_name": "SMM上海有色",
@@ -49770,6 +50665,139 @@ window.NEOLINK_FEED= {
     ],
     "demand": [
       {
+        "id": "demand-20260519-0600-bess-procurement",
+        "source": "ESS News / 中国储能网 / 网易转载中国储能网",
+        "source_type": "海外行业媒体公开摘要 + 国内行业门户/转载招标周报",
+        "account_name": "ESS News / 中国储能网",
+        "category": "海外订单/招投标",
+        "title": "Ford Energy与EDF签署北美BESS框架最高20GWh；国内储能招标周报披露3.28GWh山西基地与1.6GWh系统采购线索",
+        "summary": "06:00新增：ESS News 5月18日公开摘要显示，Ford新设BESS业务Ford Energy与EDF power solutions签署多年框架协议，EDF可采购最高20GWh储能系统、每年最高4GWh Ford Energy DC Block；Ford Energy此前发布的20英尺集装箱化BESS采用512Ah LFP方形电芯。国内方面，中国储能网周报经网易转载显示，山西晋北采煤沉陷区新能源基地3个储能项目资格预审合计820MW/3.28GWh，投资单价约0.73元/Wh，河北国顺科技独立储能示范项目储能系统采购总规模500MW/1.6GWh。",
+        "body": [
+          "海外订单与制造侧信号：ESS News 5月18日公开摘要显示，Ford Energy与EDF power solutions签署北美市场多年框架协议，EDF可在协议期内采购最高20GWh储能系统。",
+          "产品口径：该摘要称EDF每年可采购最高4GWh Ford Energy DC Block；Ford Energy DC Block为标准化20英尺集装箱化BESS，采用512Ah磷酸铁锂方形电芯。",
+          "国内招标线索：中国储能网周报经网易转载披露，山西晋北采煤沉陷区新能源基地新荣、云冈、大同左云3个储能项目资格预审，合计820MW/3280MWh，投资单价均约0.73元/Wh。",
+          "国内系统采购线索：同一周报披露，河北石家庄新乐市国顺科技集团独立储能示范项目储能系统集成公开采购，总规模500MW/1.6GWh，供货范围包括LFP电池、PCS、变压器、BMS、EMS等。",
+          "口径提示：海外Ford/EDF条目因ESS News页面本机curl返回403，本轮采用公开搜索摘要并保留来源URL；国内招标周报为行业门户/转载线索，单项目金额与最终中标以原公告或公共资源平台文件为准。"
+        ],
+        "key_points": [
+          "EDF可采购最高20GWh Ford Energy储能系统。",
+          "EDF年度采购上限为4GWh Ford Energy DC Block。",
+          "Ford Energy DC Block为20英尺集装箱化BESS，采用512Ah LFP方形电芯。",
+          "山西晋北采煤沉陷区新能源基地储能资格预审合计820MW/3280MWh，约0.73元/Wh。",
+          "国顺科技河北新乐独立储能示范项目储能系统采购总规模500MW/1.6GWh。"
+        ],
+        "value": "20",
+        "unit": "GWh 框架采购上限",
+        "delta": "EDF年度采购上限4GWh；国内招标线索合计3.28GWh+1.6GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 06:00 CST",
+        "url": "https://www.ess-news.com/2026/05/18/ford-and-edf-sign-gigawatt-scale-bess-agreement-for-north-american-market/",
+        "original_url": "https://www.163.com/dy/article/KHNJ637805533BYM.html",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.escn.com.cn/"
+        ],
+        "clean_html": "<p>ESS News公开摘要显示Ford Energy与EDF power solutions签署北美BESS框架，最高20GWh、年度最高4GWh；国内中国储能网周报线索显示山西晋北3.28GWh储能资格预审与国顺科技500MW/1.6GWh系统采购。</p>",
+        "caption": "海外车企BESS制造转向与国内大规模储能招标线索同步出现",
+        "methodology": "06:00主动搜索国内+海外公开来源并抓取留痕；NeoLink HTTP首页 sha256 ad5f0b40737af17a1d3d449fc04b571f208d5ee1c5940eb0c76c02306f950571，MarketTrend HTTP入口 sha256 883e76edee0e3e939aa4c1e7dac56769f3645bb8b313fde84637a86add0c9252；Energy-Storage.News首页 HTTP 200 sha256 9d17375aa905c53774cec69e0ecf90eeb4211f7e72ef7cf15b13128450991928；中国储能网首页 HTTP 200 sha256 0898f667092caff36b924a5195ac13ca72e2f062385e31969b239a96f68575ba；网易转载中国储能网项目周报 HTTP 200 sha256 1d259e0f6eb42c71eac59ff732ed27905b2f6e3680edd922e675766f4615757d；ESS News原文curl返回403，采用web_search公开摘要并标注限制。",
+        "history": [
+          {
+            "label": "Ford/EDF框架采购上限 GWh",
+            "value": 20
+          },
+          {
+            "label": "Ford/EDF年度采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "Ford Energy DC Block电芯 Ah",
+            "value": 512
+          },
+          {
+            "label": "山西晋北储能资格预审规模 MWh",
+            "value": 3280
+          },
+          {
+            "label": "国顺科技系统采购规模 MWh",
+            "value": 1600
+          },
+          {
+            "label": "山西项目投资单价 元/Wh",
+            "value": 0.73
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / Energy-Storage.News / 建信期货PDF",
+        "source_type": "国内SMM长期供需展望与海外BESS制造本地化交叉复核",
+        "account_name": "上海有色网 / Energy-Storage.News / CCB Futures",
+        "category": "供需预测/储能需求/海外制造",
+        "title": "SMM展望2030锂市场：2026全球储能需求约+36%，2030碳酸锂产量374万吨；海外BESS制造本地化继续推进",
+        "summary": "05:00新增：SMM在2026新能源产业博览会镍钴锂国际矿业论坛披露，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年储能需求CAGR约24%；2030年全球碳酸锂总产量预计374万吨（2026-2030 CAGR约19%），中国本土碳酸锂产量长期占全球70%以上，中资企业全球产量占比有望升至75%以上；到2030年动力电池仍占全球碳酸锂消费约50%，储能份额预计由2025年30%升至2030年40%。海外复核方面，Energy-Storage.news显示瑞浦兰钧已在印尼开设电芯和BESS制造设施，厦门海辰德州BESS组装厂已开始出货；其转引Solar Media Market Research称美国本土BESS电芯年产能到2026年底将超过50GWh。",
+        "body": [
+          "国内长期供需：SMM锂产业资深分析师在2026新能源产业博览会分享称，2026年全球储能市场需求量预计同比2025年增长约36%，2026-2030年CAGR约24%。",
+          "锂盐供应格局：SMM预计2030年全球碳酸锂总产量374万吨，2026-2030年CAGR约19%；中国本土碳酸锂产量将长期占全球70%以上，中资企业全球产量占比有望提升至75%以上。",
+          "需求结构：SMM预计2030年动力电池仍是全球碳酸锂最大下游，约占消费量50%；储能市场份额由2025年30%升至2030年40%。",
+          "海外制造复核：Energy-Storage.news 5月15日报道瑞浦兰钧正式开设印尼电芯和BESS制造设施；另有公开页显示厦门海辰德州Mesquite BESS组装厂已开始出货，厂房484441平方英尺，初始投资1亿美元、开业时约翻倍。",
+          "MarketTrend处理：行情页继续采用SMM 05-18电池级碳酸锂均价191500元/吨、价格指数190865元/吨；05:00仅作为抓取/复核时间，不替代行情日期。"
+        ],
+        "key_points": [
+          "2026年全球储能需求预计同比2025年增长约36%。",
+          "2026-2030年全球储能需求CAGR约24%。",
+          "2030年全球碳酸锂总产量预计374万吨，2026-2030年CAGR约19%。",
+          "中国本土碳酸锂产量长期占全球70%以上；中资企业全球产量占比有望75%以上。",
+          "2030年储能占全球碳酸锂消费份额预计由2025年30%升至40%。",
+          "美国本土BESS电芯年产能到2026年底或超过50GWh；厦门海辰德州BESS组装厂已开始出货。"
+        ],
+        "value": "36",
+        "unit": "% 2026全球储能需求同比预测",
+        "delta": "2026-2030储能需求CAGR约24%；2030碳酸锂产量374万吨；储能消费份额升至40%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 05:00 CST",
+        "url": "https://news.smm.cn/news/103870028",
+        "original_url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "related_urls": [
+          "https://www.energy-storage.news/chinese-battery-manufacturer-hithium-ships-first-units-from-texas-bess-assembly-plant/",
+          "https://www.ccbfutures.com/upload/20260511/20260511142513677.pdf"
+        ],
+        "clean_html": "<p>SMM预计2026年全球储能需求同比约+36%、2026-2030年CAGR约24%，2030年全球碳酸锂总产量374万吨；海外BESS制造本地化方面，瑞浦兰钧印尼设施开业、厦门海辰德州组装厂已开始出货。</p>",
+        "caption": "长期供需与制造本地化：储能需求抬升锂消费份额，海外BESS供应链继续区域化布局",
+        "methodology": "05:00主动搜索国内+海外公开来源并抓取；SMM供需展望页 HTTP 200 sha256 096d43c66ab3c6d942761459eea3d063cbb9676bd2d6dbd256d0052d380d30b2；Energy-Storage.news瑞浦兰钧印尼设施 HTTP 200 sha256 e5cc6ac9905a31d864b675270a55ed3c7e4d2df120f320aefed76a46ef1d5dd4；Energy-Storage.news厦门海辰德州出货页 HTTP 200 sha256 cd428a938dad4e17a2d506b2bc97aa178bcb7e705925cf7007320ef15f35b5d5；建信期货碳酸锂月报PDF HTTP 200 sha256 4fd53031674db69408437b9c3ce859d6702d495495072c70295b5f151c4efcbd。NeoLink/MarketTrend HTTPS抓取在本机返回SSL_ERROR_SYSCALL，已记录为失败尝试；仅采用可抓取页面可见事实。",
+        "history": [
+          {
+            "label": "2026全球储能需求同比 %",
+            "value": 36
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2030全球碳酸锂总产量 万吨",
+            "value": 374
+          },
+          {
+            "label": "中国本土碳酸锂产量占比下限 %",
+            "value": 70
+          },
+          {
+            "label": "中资企业全球碳酸锂产量占比目标 %",
+            "value": 75
+          },
+          {
+            "label": "2030储能占碳酸锂消费 %",
+            "value": 40
+          },
+          {
+            "label": "2026年底美国BESS电芯年产能 GWh",
+            "value": 50
+          }
+        ],
+        "id": "demand-20260519-0500-storage-cagr"
+      },
+      {
         "source": "ESS News / OCCTO",
         "source_type": "海外市场/日本容量市场与储能拍卖",
         "account_name": "ESS News",
@@ -50091,5 +51119,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-19T04:00:00+08:00"
+  "checked_at": "2026-05-19T06:00:00+08:00"
 };
