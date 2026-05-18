@@ -1,8 +1,228 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-18T09:00:00+08:00",
-  "note": "09:00严格刷新：已重新抓取NeoLink首页与MarketTrend入口；HTTPS在当前执行环境仍返回SSLEOF，HTTP首页与/markettrend/均返回200并保存HTML与sha256。本轮主动搜索国内+海外公开来源并抓取原文，不只刷新时间：新增广东电池第16周储能系统/电芯开标价格、印度旁遮普PSPCL 500MW/1000MWh独立BESS拍卖结果、英国NESO T-1容量市场BESS 576MW授予数据；SMM储能专区复核仍为5月15日公开报价。",
+  "generated_at": "2026-05-18T11:00:00+08:00",
+  "note": "11:00严格刷新：已重新读取NeoLink首页与MarketTrend入口，HTTP首页和/markettrend/均返回200并保存HTML与sha256，HTTPS在当前执行环境仍为SSL_ERROR_SYSCALL。本轮主动搜索国内+海外公开来源并读取原文：新增碳索储能5月16日周报（44条招标、59条中标、亿纬印度8GWh订单、容量补偿政策）和PV Tech中东Masdar/EWEC超30GW光伏+超8GW储能合作框架；SMM新能源频道同步复查，未发现较10:00更可信的新储能价格周评。",
   "sections": {
     "headlines": [
+      {
+        "source": "PV Tech / Masdar / EWEC",
+        "source_type": "海外企业与公用事业合作框架",
+        "account_name": "PV Tech",
+        "category": "海外市场",
+        "title": "Masdar与EWEC签署框架：阿联酋规划超30GW光伏与超8GW电池储能",
+        "summary": "PV Tech 5月5日报道，阿联酋Masdar与Emirates Water and Electricity Company签署合作框架协议，目标加速部署超过30GW公用事业级光伏和超过8GW电池储能，并服务阿布扎比2035清洁能源目标。该框架与Masdar已公布的5.2GWdc光伏+19GWh储能、1GW全天候可调度清洁电力项目形成互补。",
+        "body": [
+          "该合作框架将大型光伏与电池储能作为阿布扎比电力系统减碳和供电安全的组合资产，明确把8GW以上BESS纳入中长期部署路径。",
+          "对中国储能产业链而言，中东市场仍是大储出海的高确定性区域之一，项目常以公用事业级光伏、长时储能、全天候清洁电力为组合形态推进。",
+          "该信息属于框架协议，不等同于单个项目中标或订单；后续价值确认仍需观察招标、EPC、设备采购和融资文件。"
+        ],
+        "key_points": [
+          "合作方：Masdar与Emirates Water and Electricity Company。",
+          "规划目标：超过30GW公用事业级光伏、超过8GW电池储能。",
+          "政策背景：支撑阿布扎比2035清洁能源目标和UAE Net Zero by 2050。",
+          "关联项目：Masdar此前公布5.2GWdc光伏+19GWh储能，计划提供1GW 24/7可调度清洁电力。",
+          "风险提示：合作框架需以具体招标、采购和并网进度确认。"
+        ],
+        "value": "8+",
+        "unit": "GW 电池储能规划",
+        "delta": "配套30GW+光伏；另有关联19GWh储能项目",
+        "direction": "up",
+        "date": "05-05",
+        "as_of": "2026-05-05",
+        "url": "https://www.pv-tech.org/masdar-ewec-sign-agreement-on-30gw-solar-pv-and-8gw-storage-deployment-in-uae/",
+        "clean_html": "<p>Masdar与EWEC签署合作框架，拟加速部署超过30GW光伏和超过8GW电池储能，支撑阿布扎比2035清洁能源目标。</p>",
+        "caption": "中东大储：8GW以上BESS纳入阿联酋公用事业规划",
+        "methodology": "11:00海外公开来源检查；页面HTTP 200，sha256 45afc3a700de21f5bf7e4222f76c17c6e8676160794b793fe00900c1796038f1；抽取合作方、容量目标、政策背景和关联项目容量。",
+        "history": [
+          {
+            "label": "规划光伏 GW",
+            "value": 30
+          },
+          {
+            "label": "规划BESS GW",
+            "value": 8
+          },
+          {
+            "label": "关联光伏 GWdc",
+            "value": 5.2
+          },
+          {
+            "label": "关联储能 GWh",
+            "value": 19
+          },
+          {
+            "label": "可调度电力 GW",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "碳索储能网",
+        "source_type": "行业门户周报/项目政策汇总",
+        "account_name": "碳索储能网",
+        "category": "招投标",
+        "title": "储能周报：44条招标、59条中标，亿纬锂能获印度8GWh订单",
+        "summary": "碳索储能网5月16日发布储能周报，汇总44条项目招标和59条项目中标；企业动态包括亿纬锂能与印度GNEPL签署8GWh储能大电池订单、比亚迪储能与Corvus Energy开展海事新能源合作、海辰储能称AIDC将成为储能最大增量。政策侧包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西独立储能容量电价征求意见等。",
+        "body": [
+          "该周报覆盖5月中旬国内储能项目、企业和政策高频信息，项目层面给出44条招标与59条中标，适合作为招投标景气度和项目线索观察。",
+          "企业侧的增量信息集中在海外订单与新应用场景：亿纬锂能披露印度8GWh储能大电池订单，并规划未来五年潜在合作60GWh；海辰储能将AIDC视为储能需求增量；比亚迪储能与Corvus Energy合作推进船用电池系统。",
+          "政策侧继续围绕质量监督、容量补偿和市场参与机制展开，其中国家能源局质量监督大纲适用于100MW及以上电化学储能和压缩空气储能工程，地方容量补偿规则会影响独立储能收益测算。"
+        ],
+        "key_points": [
+          "周报口径：44条储能项目招标、59条项目中标。",
+          "亿纬锂能与印度GNEPL签署8GWh储能大电池订单，未来五年潜在合作规模60GWh。",
+          "国家能源局发布新型储能电站建设工程质量监督大纲，覆盖100MW及以上电化学储能、压缩空气储能项目。",
+          "吉林容量补偿标准以330元/kW·年为基础按8小时折算；陕西征求意见稿提出165元/kW·年按6小时折算。",
+          "比亚迪储能与Corvus Energy将围绕高倍率磷酸铁锂船用电池系统合作。"
+        ],
+        "value": "44/59",
+        "unit": "招标/中标条数",
+        "delta": "亿纬印度8GWh订单；吉林330元/kW·年容量补偿",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://mcn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能网5月16日周报汇总44条储能项目招标和59条项目中标，并披露亿纬锂能印度8GWh储能订单、吉林独立储能容量补偿等信息。</p>",
+        "caption": "国内周报：招投标与容量补偿政策同步活跃",
+        "methodology": "11:00公开来源检查；页面HTTP 200，sha256 8aeb32565ab5af5b5ca5efbd64b9190b039040d8b8424dd34cea6f9bb8af4ad3；按原文标题、发布时间、项目数量、订单规模和政策数值摘录。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "潜在合作 GWh",
+            "value": 60
+          },
+          {
+            "label": "吉林容量补偿 元/kW·年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW·年",
+            "value": 165
+          }
+        ]
+      },
+      {
+        "source": "pv magazine / ESS News / OCCTO",
+        "source_type": "海外容量市场/日本长期脱碳电源拍卖",
+        "account_name": "pv magazine",
+        "category": "海外市场",
+        "title": "日本长期脱碳电源拍卖授予电池储能1.25GW，19个项目入选",
+        "summary": "pv magazine 5月16日报道，日本FY2025长期脱碳电源拍卖（LTDA）中，电池储能获得1.25GW（折减后）容量、覆盖19个项目；其中锂离子电池551MW，非锂电池储能699MW。OCCTO本轮共授予7.3GW、32个项目，脱碳电源4.26GW，LNG火电3.04GW；储能占脱碳电源授予容量近30%。",
+        "body": [
+          "本轮拍卖规则变化明显：小于6小时的储能项目不再具备参拍资格，并新增电芯采购与网络安全合规要求。",
+          "尽管投标量从FY2024接近7GW降至FY2025的2.73GW，最终授予电池储能1.25GW，仅略低于上一轮1.37GW。",
+          "日本容量机制继续给长时储能、非锂技术和抽水蓄能改造提供收入锚，对中国储能出海企业有项目结构与合规要求的参考价值。"
+        ],
+        "key_points": [
+          "电池储能授予：1.25GW，19个项目。",
+          "锂离子电池：551MW；非锂电池储能：699MW。",
+          "OCCTO总授予：7.3GW（折减后），32个项目。",
+          "脱碳电源授予4.26GW，LNG火电3.04GW；电池储能约占脱碳电源30%。",
+          "投标容量：2.73GW，较FY2024接近7GW明显下降，主因短于6小时项目被排除。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本电池储能LTDA授予容量",
+        "delta": "19个项目；锂电551MW/非锂699MW",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "clean_html": "<p>日本FY2025长期脱碳电源拍卖授予电池储能1.25GW，包含锂离子551MW与非锂储能699MW。</p>",
+        "caption": "日本LTDA：6小时门槛后，电池储能仍获得1.25GW",
+        "methodology": "10:00主动海外检索并抓取pv magazine页面（sha256 d569bd2599b490a179682756fb00945d3c2efa8546e4256c4d5f0b8d341e5add）；抽取OCCTO FY2025 LTDA授予容量、储能技术拆分和规则变化。",
+        "history": [
+          {
+            "label": "电池储能授予 GW",
+            "value": 1.25
+          },
+          {
+            "label": "项目数",
+            "value": 19
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "总授予 GW",
+            "value": 7.3
+          },
+          {
+            "label": "储能投标 GW",
+            "value": 2.73
+          }
+        ]
+      },
+      {
+        "source": "ESS News / China Energy Engineering Group (CEEC)",
+        "source_type": "国内公开集采/海外媒体复核",
+        "account_name": "ESS News",
+        "category": "行情价格",
+        "title": "中国能建7GWh储能电芯集采：314Ah低价0.34元/Wh，500Ah低价0.360元/Wh",
+        "summary": "ESS News 5月12日报道，中国能建7GWh储能电芯集采形成新的公开报价样本：≥314Ah包中，融捷能源最低报价17亿元、折合0.34元/Wh（约47美元/kWh），双登集团17.245亿元、0.345元/Wh；德赛电池和中创新航均为0.365元/Wh，亿纬锂能0.394元/Wh。≥500Ah包中，鹏程无限最低7.204亿元、0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+        "body": [
+          "本轮国内搜索未发现SMM在5月18日更新储能电芯周评，SMM储能数据页仍停留在5月7日周评；因此补入公开英文媒体对中国能建集采结果的细项报价。",
+          "314Ah与500Ah两类电芯同时出现公开低价样本，可用于MarketTrend跟踪大容量电芯规格切换与价格底部位置。",
+          "报价来自集采候选/投标口径，不等同最终成交均价；仍需后续以中标公告、合同规模和交付条款复核。"
+        ],
+        "key_points": [
+          "集采规模：7GWh储能电芯。",
+          "≥314Ah包：融捷能源0.34元/Wh为最低公开报价；双登0.345元/Wh。",
+          "≥314Ah包其他报价：德赛电池0.365元/Wh，中创新航0.365元/Wh，亿纬锂能0.394元/Wh。",
+          "≥500Ah包：鹏程无限0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+          "数据含0.5C与0.25C、方形铝壳LFP电芯口径。"
+        ],
+        "value": "0.34",
+        "unit": "元/Wh 314Ah低价",
+        "delta": "500Ah低价0.360元/Wh；7GWh集采",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "clean_html": "<p>中国能建7GWh储能电芯集采中，314Ah包最低报价0.34元/Wh，500Ah包最低报价0.360元/Wh。</p>",
+        "caption": "国内集采样本：314Ah与500Ah电芯低价区间重新锚定",
+        "methodology": "10:00主动国内+海外检索，抓取ESS News原文HTML（sha256 9358d294c33832f7c394d9291733268921c1be6ce8ccc9c516d21ef744c3bb96）；抽取中国能建7GWh集采分包、投标企业和折算元/Wh报价。SMM储能数据页同步抓取（sha256 afc4d2f74da3882dce241858010ca8b93c8fe27367a97225a9972c314ed7b386），未见5月18日新增周评。",
+        "history": [
+          {
+            "label": "集采规模 GWh",
+            "value": 7
+          },
+          {
+            "label": "314Ah最低 元/Wh",
+            "value": 0.34
+          },
+          {
+            "label": "314Ah双登 元/Wh",
+            "value": 0.345
+          },
+          {
+            "label": "314Ah德赛/中创新航 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah亿纬 元/Wh",
+            "value": 0.394
+          },
+          {
+            "label": "500Ah最低 元/Wh",
+            "value": 0.36
+          }
+        ]
+      },
       {
         "source": "Mercom India / Punjab State Power Corporation",
         "source_type": "海外招标/印度独立储能拍卖",
@@ -336,58 +556,6 @@ window.NEOLINK_FEED= {
           {
             "label": "寿命 年",
             "value": 50
-          }
-        ]
-      },
-      {
-        "source": "ESS News / 中国能建储能科技（武汉）",
-        "source_type": "国内招投标/储能电芯框采海外报道",
-        "account_name": "ESS News",
-        "category": "招投标",
-        "title": "中国能建储能科技7GWh电芯采购：314Ah低价0.34元/Wh，500Ah低价0.36元/Wh",
-        "summary": "ESS News报道，中国能建储能科技（武汉）7GWh储能电芯采购覆盖两个标包：5GWh的≥314Ah方形铝壳LFP电芯、2GWh的≥500Ah方形铝壳LFP电芯。314Ah标包中融捷能源报价17亿元、折合0.34元/Wh（约47美元/kWh）为低价；500Ah标包中鹏程无限报价7.204亿元、折合0.360元/Wh为低价。",
-        "body": [
-          "该框采与SMM电芯报价互相印证：招标低价低于现货均价，但500Ah大容量路线已进入2GWh级集中采购。",
-          "入围企业包括双登、融捷、德赛、国轩/中创新航、亿纬与鹏程无限等，CALB和亿纬同时进入两个标包。",
-          "314Ah与500Ah成为主导规格，说明储能电芯采购正在从多规格分散转向大容量标准化。"
-        ],
-        "key_points": [
-          "采购总规模：7GWh。",
-          "标包1：≥314Ah电芯5GWh；融捷能源低价0.34元/Wh。",
-          "标包2：≥500Ah电芯2GWh；鹏程无限低价0.360元/Wh。",
-          "314Ah其他报价：双登0.345元/Wh，德赛/CALB 0.365元/Wh，亿纬0.394元/Wh。",
-          "500Ah其他报价：亿纬0.383元/Wh，CALB 0.375元/Wh。"
-        ],
-        "value": "7",
-        "unit": "GWh 储能电芯采购",
-        "delta": "314Ah低价0.34元/Wh；500Ah低价0.360元/Wh",
-        "direction": "down",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
-        "clean_html": "<p>中国能建储能科技7GWh储能电芯采购中，≥314Ah标包5GWh低价0.34元/Wh，≥500Ah标包2GWh低价0.360元/Wh。</p>",
-        "caption": "中国能建7GWh电芯框采：314Ah低价0.34元/Wh",
-        "methodology": "08:00主动海外检索并抓取ESS News HTML（sha256 7593b1684bbd45233d90f1c53999831cd3d1a24e1b9c0dbbcf5fd9c368ef7d00）；抽取标包规模、规格、入围方和报价。",
-        "history": [
-          {
-            "label": "总采购 GWh",
-            "value": 7
-          },
-          {
-            "label": "314Ah标包 GWh",
-            "value": 5
-          },
-          {
-            "label": "500Ah标包 GWh",
-            "value": 2
-          },
-          {
-            "label": "314Ah低价 元/Wh",
-            "value": 0.34
-          },
-          {
-            "label": "500Ah低价 元/Wh",
-            "value": 0.36
           }
         ]
       },
@@ -1316,62 +1484,6 @@ window.NEOLINK_FEED= {
           {
             "label": "2035E新能源 亿千瓦",
             "value": 36
-          }
-        ]
-      },
-      {
-        "source": "pv magazine International / OCCTO",
-        "source_type": "海外专业媒体/日本容量市场拍卖信息",
-        "account_name": "pv magazine International",
-        "category": "海外",
-        "title": "日本长期脱碳电源拍卖授予1.25GW电池储能容量，19个项目入选",
-        "summary": "pv magazine International 5月16日报道，日本电力广域的运营推进机构OCCTO在FY2025长期脱碳电源拍卖中合计授予7.3GW折减容量、32个项目；其中脱碳电源项目4.26GW、LNG火电3.04GW。电池储能合计获得1.25GW、19个项目，锂离子电池储能551MW，非锂电储能699MW，约占脱碳类别授予容量的30%。",
-        "body": [
-          "日本LTDA拍卖继续把储能纳入长期容量机制，说明亚洲成熟电力市场正在以容量收入支持储能项目融资。",
-          "本轮规则变化提高了储能时长门槛，短于6小时的储能项目不再具备参与资格，竞标容量从FY2024近7GW降至FY2025的2.73GW。",
-          "非锂电储能获得699MW，高于锂离子储能551MW，显示长时储能和技术多元化在日本容量机制中权重提升。"
-        ],
-        "key_points": [
-          "FY2025 LTDA合计授予7.3GW折减容量、32个项目。",
-          "脱碳电源类别4.26GW，LNG火电3.04GW。",
-          "电池储能合计1.25GW、19个项目。",
-          "锂离子储能551MW，非锂电储能699MW。",
-          "短于6小时的储能项目本轮不再具备参与资格。"
-        ],
-        "value": "1.25",
-        "unit": "GW 日本LTDA电池储能授予容量",
-        "delta": "551MW锂电 + 699MW非锂；约占脱碳类别30%",
-        "direction": "up",
-        "date": "05-16",
-        "as_of": "2026-05-16",
-        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
-        "clean_html": "<p>pv magazine International援引OCCTO拍卖结果称，日本FY2025长期脱碳电源拍卖中电池储能合计获得1.25GW授予容量，包含551MW锂离子储能和699MW非锂电储能。</p>",
-        "caption": "日本容量机制继续支持长时储能，非锂电储能中标容量高于锂电",
-        "methodology": "01:00抓取pv magazine International原始HTML（sha256 a946d88258d61fdd9a7b09dfb941293e380e2e37794b696140e2808388b64f29），采用文中OCCTO FY2025 LTDA授予容量、项目数和技术拆分。",
-        "history": [
-          {
-            "label": "LTDA总授予 GW",
-            "value": 7.3
-          },
-          {
-            "label": "脱碳电源 GW",
-            "value": 4.26
-          },
-          {
-            "label": "储能合计 GW",
-            "value": 1.25
-          },
-          {
-            "label": "锂电 MW",
-            "value": 551
-          },
-          {
-            "label": "非锂 MW",
-            "value": 699
-          },
-          {
-            "label": "储能项目数",
-            "value": 19
           }
         ]
       },
@@ -5760,6 +5872,282 @@ window.NEOLINK_FEED= {
     ],
     "latest": [
       {
+        "source": "PV Tech / Masdar / EWEC",
+        "source_type": "海外企业与公用事业合作框架",
+        "account_name": "PV Tech",
+        "category": "海外市场",
+        "title": "Masdar与EWEC签署框架：阿联酋规划超30GW光伏与超8GW电池储能",
+        "summary": "PV Tech 5月5日报道，阿联酋Masdar与Emirates Water and Electricity Company签署合作框架协议，目标加速部署超过30GW公用事业级光伏和超过8GW电池储能，并服务阿布扎比2035清洁能源目标。该框架与Masdar已公布的5.2GWdc光伏+19GWh储能、1GW全天候可调度清洁电力项目形成互补。",
+        "body": [
+          "该合作框架将大型光伏与电池储能作为阿布扎比电力系统减碳和供电安全的组合资产，明确把8GW以上BESS纳入中长期部署路径。",
+          "对中国储能产业链而言，中东市场仍是大储出海的高确定性区域之一，项目常以公用事业级光伏、长时储能、全天候清洁电力为组合形态推进。",
+          "该信息属于框架协议，不等同于单个项目中标或订单；后续价值确认仍需观察招标、EPC、设备采购和融资文件。"
+        ],
+        "key_points": [
+          "合作方：Masdar与Emirates Water and Electricity Company。",
+          "规划目标：超过30GW公用事业级光伏、超过8GW电池储能。",
+          "政策背景：支撑阿布扎比2035清洁能源目标和UAE Net Zero by 2050。",
+          "关联项目：Masdar此前公布5.2GWdc光伏+19GWh储能，计划提供1GW 24/7可调度清洁电力。",
+          "风险提示：合作框架需以具体招标、采购和并网进度确认。"
+        ],
+        "value": "8+",
+        "unit": "GW 电池储能规划",
+        "delta": "配套30GW+光伏；另有关联19GWh储能项目",
+        "direction": "up",
+        "date": "05-05",
+        "as_of": "2026-05-05",
+        "url": "https://www.pv-tech.org/masdar-ewec-sign-agreement-on-30gw-solar-pv-and-8gw-storage-deployment-in-uae/",
+        "clean_html": "<p>Masdar与EWEC签署合作框架，拟加速部署超过30GW光伏和超过8GW电池储能，支撑阿布扎比2035清洁能源目标。</p>",
+        "caption": "中东大储：8GW以上BESS纳入阿联酋公用事业规划",
+        "methodology": "11:00海外公开来源检查；页面HTTP 200，sha256 45afc3a700de21f5bf7e4222f76c17c6e8676160794b793fe00900c1796038f1；抽取合作方、容量目标、政策背景和关联项目容量。",
+        "history": [
+          {
+            "label": "规划光伏 GW",
+            "value": 30
+          },
+          {
+            "label": "规划BESS GW",
+            "value": 8
+          },
+          {
+            "label": "关联光伏 GWdc",
+            "value": 5.2
+          },
+          {
+            "label": "关联储能 GWh",
+            "value": 19
+          },
+          {
+            "label": "可调度电力 GW",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "碳索储能网",
+        "source_type": "行业门户周报/项目政策汇总",
+        "account_name": "碳索储能网",
+        "category": "招投标",
+        "title": "储能周报：44条招标、59条中标，亿纬锂能获印度8GWh订单",
+        "summary": "碳索储能网5月16日发布储能周报，汇总44条项目招标和59条项目中标；企业动态包括亿纬锂能与印度GNEPL签署8GWh储能大电池订单、比亚迪储能与Corvus Energy开展海事新能源合作、海辰储能称AIDC将成为储能最大增量。政策侧包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西独立储能容量电价征求意见等。",
+        "body": [
+          "该周报覆盖5月中旬国内储能项目、企业和政策高频信息，项目层面给出44条招标与59条中标，适合作为招投标景气度和项目线索观察。",
+          "企业侧的增量信息集中在海外订单与新应用场景：亿纬锂能披露印度8GWh储能大电池订单，并规划未来五年潜在合作60GWh；海辰储能将AIDC视为储能需求增量；比亚迪储能与Corvus Energy合作推进船用电池系统。",
+          "政策侧继续围绕质量监督、容量补偿和市场参与机制展开，其中国家能源局质量监督大纲适用于100MW及以上电化学储能和压缩空气储能工程，地方容量补偿规则会影响独立储能收益测算。"
+        ],
+        "key_points": [
+          "周报口径：44条储能项目招标、59条项目中标。",
+          "亿纬锂能与印度GNEPL签署8GWh储能大电池订单，未来五年潜在合作规模60GWh。",
+          "国家能源局发布新型储能电站建设工程质量监督大纲，覆盖100MW及以上电化学储能、压缩空气储能项目。",
+          "吉林容量补偿标准以330元/kW·年为基础按8小时折算；陕西征求意见稿提出165元/kW·年按6小时折算。",
+          "比亚迪储能与Corvus Energy将围绕高倍率磷酸铁锂船用电池系统合作。"
+        ],
+        "value": "44/59",
+        "unit": "招标/中标条数",
+        "delta": "亿纬印度8GWh订单；吉林330元/kW·年容量补偿",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://mcn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能网5月16日周报汇总44条储能项目招标和59条项目中标，并披露亿纬锂能印度8GWh储能订单、吉林独立储能容量补偿等信息。</p>",
+        "caption": "国内周报：招投标与容量补偿政策同步活跃",
+        "methodology": "11:00公开来源检查；页面HTTP 200，sha256 8aeb32565ab5af5b5ca5efbd64b9190b039040d8b8424dd34cea6f9bb8af4ad3；按原文标题、发布时间、项目数量、订单规模和政策数值摘录。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "潜在合作 GWh",
+            "value": 60
+          },
+          {
+            "label": "吉林容量补偿 元/kW·年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW·年",
+            "value": 165
+          }
+        ]
+      },
+      {
+        "source": "InfoLink Consulting",
+        "source_type": "海外公开价格/储能供应链指数",
+        "account_name": "InfoLink",
+        "category": "行情价格",
+        "title": "InfoLink：储能电芯与BESS价格稳定，314Ah均价0.365元/Wh",
+        "summary": "InfoLink 4月20日价格文章显示，锂盐价格高位震荡而储能电芯价格整体稳定：100Ah LFP储能电芯0.420-0.475元/Wh、均价0.448元/Wh；280Ah为0.340-0.400元/Wh、均价0.370元/Wh；314Ah为0.335-0.395元/Wh、均价0.365元/Wh。电池级碳酸锂现货165,000-169,000元/吨、均价167,000元/吨，较前期上涨7.7%。",
+        "body": [
+          "InfoLink口径与中国能建集采口径相互补充：现货/新签订单主流价仍在0.35元/Wh以上，而大规模集采低价可低至0.34元/Wh。",
+          "文章称500Ah+大容量电芯主流厂商报价大体与314Ah相当，100Ah/72Ah/50Ah户储电芯因欧美、澳洲和新兴市场需求支撑仍有溢价。",
+          "该条作为MarketTrend价格指数复核，不单独代表5月18日成交价。"
+        ],
+        "key_points": [
+          "100Ah LFP储能电芯：0.420-0.475元/Wh，均价0.448元/Wh。",
+          "280Ah LFP储能电芯：0.340-0.400元/Wh，均价0.370元/Wh。",
+          "314Ah LFP储能电芯：0.335-0.395元/Wh，均价0.365元/Wh。",
+          "电池级碳酸锂现货：165,000-169,000元/吨，均价167,000元/吨，较前期+7.7%。",
+          "新签订单主流价格一般维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah均价",
+        "delta": "碳酸锂均价16.7万元/吨，环比+7.7%",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink称314Ah LFP储能电芯价格0.335-0.395元/Wh、均价0.365元/Wh，电池级碳酸锂均价167,000元/吨。</p>",
+        "caption": "InfoLink价格复核：现货均价高于大集采低价",
+        "methodology": "10:00主动海外价格源检索并抓取InfoLink页面（sha256 d8c3a1441aaa46118c3087428b0553958bf27709c52ea7936bc382341e63ada3）；抽取100Ah/280Ah/314Ah储能电芯区间价、碳酸锂均价和主流新签订单表述。",
+        "history": [
+          {
+            "label": "100Ah均价 元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah均价 元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah均价 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah低位 元/Wh",
+            "value": 0.335
+          },
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 167000
+          },
+          {
+            "label": "碳酸锂涨幅 %",
+            "value": 7.7
+          }
+        ]
+      },
+      {
+        "source": "pv magazine / ESS News / OCCTO",
+        "source_type": "海外容量市场/日本长期脱碳电源拍卖",
+        "account_name": "pv magazine",
+        "category": "海外市场",
+        "title": "日本长期脱碳电源拍卖授予电池储能1.25GW，19个项目入选",
+        "summary": "pv magazine 5月16日报道，日本FY2025长期脱碳电源拍卖（LTDA）中，电池储能获得1.25GW（折减后）容量、覆盖19个项目；其中锂离子电池551MW，非锂电池储能699MW。OCCTO本轮共授予7.3GW、32个项目，脱碳电源4.26GW，LNG火电3.04GW；储能占脱碳电源授予容量近30%。",
+        "body": [
+          "本轮拍卖规则变化明显：小于6小时的储能项目不再具备参拍资格，并新增电芯采购与网络安全合规要求。",
+          "尽管投标量从FY2024接近7GW降至FY2025的2.73GW，最终授予电池储能1.25GW，仅略低于上一轮1.37GW。",
+          "日本容量机制继续给长时储能、非锂技术和抽水蓄能改造提供收入锚，对中国储能出海企业有项目结构与合规要求的参考价值。"
+        ],
+        "key_points": [
+          "电池储能授予：1.25GW，19个项目。",
+          "锂离子电池：551MW；非锂电池储能：699MW。",
+          "OCCTO总授予：7.3GW（折减后），32个项目。",
+          "脱碳电源授予4.26GW，LNG火电3.04GW；电池储能约占脱碳电源30%。",
+          "投标容量：2.73GW，较FY2024接近7GW明显下降，主因短于6小时项目被排除。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本电池储能LTDA授予容量",
+        "delta": "19个项目；锂电551MW/非锂699MW",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "clean_html": "<p>日本FY2025长期脱碳电源拍卖授予电池储能1.25GW，包含锂离子551MW与非锂储能699MW。</p>",
+        "caption": "日本LTDA：6小时门槛后，电池储能仍获得1.25GW",
+        "methodology": "10:00主动海外检索并抓取pv magazine页面（sha256 d569bd2599b490a179682756fb00945d3c2efa8546e4256c4d5f0b8d341e5add）；抽取OCCTO FY2025 LTDA授予容量、储能技术拆分和规则变化。",
+        "history": [
+          {
+            "label": "电池储能授予 GW",
+            "value": 1.25
+          },
+          {
+            "label": "项目数",
+            "value": 19
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "总授予 GW",
+            "value": 7.3
+          },
+          {
+            "label": "储能投标 GW",
+            "value": 2.73
+          }
+        ]
+      },
+      {
+        "source": "ESS News / China Energy Engineering Group (CEEC)",
+        "source_type": "国内公开集采/海外媒体复核",
+        "account_name": "ESS News",
+        "category": "行情价格",
+        "title": "中国能建7GWh储能电芯集采：314Ah低价0.34元/Wh，500Ah低价0.360元/Wh",
+        "summary": "ESS News 5月12日报道，中国能建7GWh储能电芯集采形成新的公开报价样本：≥314Ah包中，融捷能源最低报价17亿元、折合0.34元/Wh（约47美元/kWh），双登集团17.245亿元、0.345元/Wh；德赛电池和中创新航均为0.365元/Wh，亿纬锂能0.394元/Wh。≥500Ah包中，鹏程无限最低7.204亿元、0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+        "body": [
+          "本轮国内搜索未发现SMM在5月18日更新储能电芯周评，SMM储能数据页仍停留在5月7日周评；因此补入公开英文媒体对中国能建集采结果的细项报价。",
+          "314Ah与500Ah两类电芯同时出现公开低价样本，可用于MarketTrend跟踪大容量电芯规格切换与价格底部位置。",
+          "报价来自集采候选/投标口径，不等同最终成交均价；仍需后续以中标公告、合同规模和交付条款复核。"
+        ],
+        "key_points": [
+          "集采规模：7GWh储能电芯。",
+          "≥314Ah包：融捷能源0.34元/Wh为最低公开报价；双登0.345元/Wh。",
+          "≥314Ah包其他报价：德赛电池0.365元/Wh，中创新航0.365元/Wh，亿纬锂能0.394元/Wh。",
+          "≥500Ah包：鹏程无限0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+          "数据含0.5C与0.25C、方形铝壳LFP电芯口径。"
+        ],
+        "value": "0.34",
+        "unit": "元/Wh 314Ah低价",
+        "delta": "500Ah低价0.360元/Wh；7GWh集采",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "clean_html": "<p>中国能建7GWh储能电芯集采中，314Ah包最低报价0.34元/Wh，500Ah包最低报价0.360元/Wh。</p>",
+        "caption": "国内集采样本：314Ah与500Ah电芯低价区间重新锚定",
+        "methodology": "10:00主动国内+海外检索，抓取ESS News原文HTML（sha256 9358d294c33832f7c394d9291733268921c1be6ce8ccc9c516d21ef744c3bb96）；抽取中国能建7GWh集采分包、投标企业和折算元/Wh报价。SMM储能数据页同步抓取（sha256 afc4d2f74da3882dce241858010ca8b93c8fe27367a97225a9972c314ed7b386），未见5月18日新增周评。",
+        "history": [
+          {
+            "label": "集采规模 GWh",
+            "value": 7
+          },
+          {
+            "label": "314Ah最低 元/Wh",
+            "value": 0.34
+          },
+          {
+            "label": "314Ah双登 元/Wh",
+            "value": 0.345
+          },
+          {
+            "label": "314Ah德赛/中创新航 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah亿纬 元/Wh",
+            "value": 0.394
+          },
+          {
+            "label": "500Ah最低 元/Wh",
+            "value": 0.36
+          }
+        ]
+      },
+      {
         "source": "Solar Power Portal / NESO",
         "source_type": "海外容量市场/英国T-1拍卖",
         "account_name": "Solar Power Portal",
@@ -6148,58 +6536,6 @@ window.NEOLINK_FEED= {
           {
             "label": "寿命 年",
             "value": 50
-          }
-        ]
-      },
-      {
-        "source": "ESS News / 中国能建储能科技（武汉）",
-        "source_type": "国内招投标/储能电芯框采海外报道",
-        "account_name": "ESS News",
-        "category": "招投标",
-        "title": "中国能建储能科技7GWh电芯采购：314Ah低价0.34元/Wh，500Ah低价0.36元/Wh",
-        "summary": "ESS News报道，中国能建储能科技（武汉）7GWh储能电芯采购覆盖两个标包：5GWh的≥314Ah方形铝壳LFP电芯、2GWh的≥500Ah方形铝壳LFP电芯。314Ah标包中融捷能源报价17亿元、折合0.34元/Wh（约47美元/kWh）为低价；500Ah标包中鹏程无限报价7.204亿元、折合0.360元/Wh为低价。",
-        "body": [
-          "该框采与SMM电芯报价互相印证：招标低价低于现货均价，但500Ah大容量路线已进入2GWh级集中采购。",
-          "入围企业包括双登、融捷、德赛、国轩/中创新航、亿纬与鹏程无限等，CALB和亿纬同时进入两个标包。",
-          "314Ah与500Ah成为主导规格，说明储能电芯采购正在从多规格分散转向大容量标准化。"
-        ],
-        "key_points": [
-          "采购总规模：7GWh。",
-          "标包1：≥314Ah电芯5GWh；融捷能源低价0.34元/Wh。",
-          "标包2：≥500Ah电芯2GWh；鹏程无限低价0.360元/Wh。",
-          "314Ah其他报价：双登0.345元/Wh，德赛/CALB 0.365元/Wh，亿纬0.394元/Wh。",
-          "500Ah其他报价：亿纬0.383元/Wh，CALB 0.375元/Wh。"
-        ],
-        "value": "7",
-        "unit": "GWh 储能电芯采购",
-        "delta": "314Ah低价0.34元/Wh；500Ah低价0.360元/Wh",
-        "direction": "down",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
-        "clean_html": "<p>中国能建储能科技7GWh储能电芯采购中，≥314Ah标包5GWh低价0.34元/Wh，≥500Ah标包2GWh低价0.360元/Wh。</p>",
-        "caption": "中国能建7GWh电芯框采：314Ah低价0.34元/Wh",
-        "methodology": "08:00主动海外检索并抓取ESS News HTML（sha256 7593b1684bbd45233d90f1c53999831cd3d1a24e1b9c0dbbcf5fd9c368ef7d00）；抽取标包规模、规格、入围方和报价。",
-        "history": [
-          {
-            "label": "总采购 GWh",
-            "value": 7
-          },
-          {
-            "label": "314Ah标包 GWh",
-            "value": 5
-          },
-          {
-            "label": "500Ah标包 GWh",
-            "value": 2
-          },
-          {
-            "label": "314Ah低价 元/Wh",
-            "value": 0.34
-          },
-          {
-            "label": "500Ah低价 元/Wh",
-            "value": 0.36
           }
         ]
       },
@@ -7132,62 +7468,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "pv magazine International / OCCTO",
-        "source_type": "海外专业媒体/日本容量市场拍卖信息",
-        "account_name": "pv magazine International",
-        "category": "海外",
-        "title": "日本长期脱碳电源拍卖授予1.25GW电池储能容量，19个项目入选",
-        "summary": "pv magazine International 5月16日报道，日本电力广域的运营推进机构OCCTO在FY2025长期脱碳电源拍卖中合计授予7.3GW折减容量、32个项目；其中脱碳电源项目4.26GW、LNG火电3.04GW。电池储能合计获得1.25GW、19个项目，锂离子电池储能551MW，非锂电储能699MW，约占脱碳类别授予容量的30%。",
-        "body": [
-          "日本LTDA拍卖继续把储能纳入长期容量机制，说明亚洲成熟电力市场正在以容量收入支持储能项目融资。",
-          "本轮规则变化提高了储能时长门槛，短于6小时的储能项目不再具备参与资格，竞标容量从FY2024近7GW降至FY2025的2.73GW。",
-          "非锂电储能获得699MW，高于锂离子储能551MW，显示长时储能和技术多元化在日本容量机制中权重提升。"
-        ],
-        "key_points": [
-          "FY2025 LTDA合计授予7.3GW折减容量、32个项目。",
-          "脱碳电源类别4.26GW，LNG火电3.04GW。",
-          "电池储能合计1.25GW、19个项目。",
-          "锂离子储能551MW，非锂电储能699MW。",
-          "短于6小时的储能项目本轮不再具备参与资格。"
-        ],
-        "value": "1.25",
-        "unit": "GW 日本LTDA电池储能授予容量",
-        "delta": "551MW锂电 + 699MW非锂；约占脱碳类别30%",
-        "direction": "up",
-        "date": "05-16",
-        "as_of": "2026-05-16",
-        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
-        "clean_html": "<p>pv magazine International援引OCCTO拍卖结果称，日本FY2025长期脱碳电源拍卖中电池储能合计获得1.25GW授予容量，包含551MW锂离子储能和699MW非锂电储能。</p>",
-        "caption": "日本容量机制继续支持长时储能，非锂电储能中标容量高于锂电",
-        "methodology": "01:00抓取pv magazine International原始HTML（sha256 a946d88258d61fdd9a7b09dfb941293e380e2e37794b696140e2808388b64f29），采用文中OCCTO FY2025 LTDA授予容量、项目数和技术拆分。",
-        "history": [
-          {
-            "label": "LTDA总授予 GW",
-            "value": 7.3
-          },
-          {
-            "label": "脱碳电源 GW",
-            "value": 4.26
-          },
-          {
-            "label": "储能合计 GW",
-            "value": 1.25
-          },
-          {
-            "label": "锂电 MW",
-            "value": 551
-          },
-          {
-            "label": "非锂 MW",
-            "value": 699
-          },
-          {
-            "label": "储能项目数",
-            "value": 19
-          }
-        ]
-      },
-      {
         "source": "Energy-Storage.news / BloombergNEF",
         "source_type": "海外专业媒体/咨询机构展望",
         "account_name": "Energy-Storage.news",
@@ -7569,53 +7849,6 @@ window.NEOLINK_FEED= {
           {
             "label": "SC6均价 美元/吨",
             "value": 2800
-          }
-        ]
-      },
-      {
-        "source": "InfoLink Consulting",
-        "source_type": "海外/台湾新能源价格研究机构",
-        "account_name": "InfoLink",
-        "category": "价格",
-        "title": "InfoLink：电池级碳酸锂均价16.7万元/吨，电芯与BESS价格整体稳定",
-        "summary": "InfoLink 4月20日储能价格链显示，碳酸锂价格维持高位震荡，主力合约多在16-17.5万元/吨区间；电池级碳酸锂现货16.5-16.9万元/吨、均价16.7万元/吨，较前期上涨7.7%；锂辉石SC6 CIF均价2350美元/吨，较前期上涨5.4%。InfoLink同时称中国BESS系统报价整体稳定。",
-        "body": [
-          "InfoLink认为矿端涨幅继续大于锂盐，供需失衡更集中在资源端，紧张矿供对碳酸锂价格形成支撑。",
-          "电芯端价格上行并非完全由需求拉动，而由高成本、部分规格供应紧张和交付约束支撑；系统集成商继续提价的承受度下降。",
-          "若碳酸锂和正极材料价格明显回落，电芯报价可能出现边际松动；当前中国BESS系统报价保持稳定。"
-        ],
-        "key_points": [
-          "电池级碳酸锂现货均价16.7万元/吨，较前期+7.7%。",
-          "SC6锂辉石CIF均价2350美元/吨，较前期+5.4%。",
-          "主力合约多在16-17.5万元/吨区间。",
-          "中国BESS系统价格整体稳定，电芯处于高位议价。"
-        ],
-        "value": "16.7",
-        "unit": "万元/吨 电池级碳酸锂均价",
-        "delta": "+7.7%；SC6均价2350美元/吨",
-        "direction": "up",
-        "date": "04-20",
-        "as_of": "2026-04-20",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "clean_html": "<p>InfoLink 4月20日显示电池级碳酸锂均价16.7万元/吨，较前期+7.7%；中国BESS系统报价整体稳定。</p>",
-        "caption": "海外可读价格链验证锂盐高位与系统报价稳定并存",
-        "methodology": "19:00小时抓取InfoLink公开页面；采用页面可见矿价、锂盐价格、涨幅和BESS稳定表述。",
-        "history": [
-          {
-            "label": "电碳均价 万元/吨",
-            "value": 16.7
-          },
-          {
-            "label": "电碳涨幅 %",
-            "value": 7.7
-          },
-          {
-            "label": "SC6均价 美元/吨",
-            "value": 2350
-          },
-          {
-            "label": "SC6涨幅 %",
-            "value": 5.4
           }
         ]
       },
@@ -17363,6 +17596,62 @@ window.NEOLINK_FEED= {
     ],
     "project": [
       {
+        "source": "碳索储能网",
+        "source_type": "行业门户周报/项目政策汇总",
+        "account_name": "碳索储能网",
+        "category": "招投标",
+        "title": "储能周报：44条招标、59条中标，亿纬锂能获印度8GWh订单",
+        "summary": "碳索储能网5月16日发布储能周报，汇总44条项目招标和59条项目中标；企业动态包括亿纬锂能与印度GNEPL签署8GWh储能大电池订单、比亚迪储能与Corvus Energy开展海事新能源合作、海辰储能称AIDC将成为储能最大增量。政策侧包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西独立储能容量电价征求意见等。",
+        "body": [
+          "该周报覆盖5月中旬国内储能项目、企业和政策高频信息，项目层面给出44条招标与59条中标，适合作为招投标景气度和项目线索观察。",
+          "企业侧的增量信息集中在海外订单与新应用场景：亿纬锂能披露印度8GWh储能大电池订单，并规划未来五年潜在合作60GWh；海辰储能将AIDC视为储能需求增量；比亚迪储能与Corvus Energy合作推进船用电池系统。",
+          "政策侧继续围绕质量监督、容量补偿和市场参与机制展开，其中国家能源局质量监督大纲适用于100MW及以上电化学储能和压缩空气储能工程，地方容量补偿规则会影响独立储能收益测算。"
+        ],
+        "key_points": [
+          "周报口径：44条储能项目招标、59条项目中标。",
+          "亿纬锂能与印度GNEPL签署8GWh储能大电池订单，未来五年潜在合作规模60GWh。",
+          "国家能源局发布新型储能电站建设工程质量监督大纲，覆盖100MW及以上电化学储能、压缩空气储能项目。",
+          "吉林容量补偿标准以330元/kW·年为基础按8小时折算；陕西征求意见稿提出165元/kW·年按6小时折算。",
+          "比亚迪储能与Corvus Energy将围绕高倍率磷酸铁锂船用电池系统合作。"
+        ],
+        "value": "44/59",
+        "unit": "招标/中标条数",
+        "delta": "亿纬印度8GWh订单；吉林330元/kW·年容量补偿",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://mcn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能网5月16日周报汇总44条储能项目招标和59条项目中标，并披露亿纬锂能印度8GWh储能订单、吉林独立储能容量补偿等信息。</p>",
+        "caption": "国内周报：招投标与容量补偿政策同步活跃",
+        "methodology": "11:00公开来源检查；页面HTTP 200，sha256 8aeb32565ab5af5b5ca5efbd64b9190b039040d8b8424dd34cea6f9bb8af4ad3；按原文标题、发布时间、项目数量、订单规模和政策数值摘录。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "潜在合作 GWh",
+            "value": 60
+          },
+          {
+            "label": "吉林容量补偿 元/kW·年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW·年",
+            "value": 165
+          }
+        ]
+      },
+      {
         "source": "SNEIA / 公开招投标动态",
         "source_type": "国内行业协会/公开项目汇总",
         "account_name": "SNEIA",
@@ -18966,6 +19255,62 @@ window.NEOLINK_FEED= {
       }
     ],
     "policy": [
+      {
+        "source": "碳索储能网",
+        "source_type": "行业门户周报/项目政策汇总",
+        "account_name": "碳索储能网",
+        "category": "招投标",
+        "title": "储能周报：44条招标、59条中标，亿纬锂能获印度8GWh订单",
+        "summary": "碳索储能网5月16日发布储能周报，汇总44条项目招标和59条项目中标；企业动态包括亿纬锂能与印度GNEPL签署8GWh储能大电池订单、比亚迪储能与Corvus Energy开展海事新能源合作、海辰储能称AIDC将成为储能最大增量。政策侧包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西独立储能容量电价征求意见等。",
+        "body": [
+          "该周报覆盖5月中旬国内储能项目、企业和政策高频信息，项目层面给出44条招标与59条中标，适合作为招投标景气度和项目线索观察。",
+          "企业侧的增量信息集中在海外订单与新应用场景：亿纬锂能披露印度8GWh储能大电池订单，并规划未来五年潜在合作60GWh；海辰储能将AIDC视为储能需求增量；比亚迪储能与Corvus Energy合作推进船用电池系统。",
+          "政策侧继续围绕质量监督、容量补偿和市场参与机制展开，其中国家能源局质量监督大纲适用于100MW及以上电化学储能和压缩空气储能工程，地方容量补偿规则会影响独立储能收益测算。"
+        ],
+        "key_points": [
+          "周报口径：44条储能项目招标、59条项目中标。",
+          "亿纬锂能与印度GNEPL签署8GWh储能大电池订单，未来五年潜在合作规模60GWh。",
+          "国家能源局发布新型储能电站建设工程质量监督大纲，覆盖100MW及以上电化学储能、压缩空气储能项目。",
+          "吉林容量补偿标准以330元/kW·年为基础按8小时折算；陕西征求意见稿提出165元/kW·年按6小时折算。",
+          "比亚迪储能与Corvus Energy将围绕高倍率磷酸铁锂船用电池系统合作。"
+        ],
+        "value": "44/59",
+        "unit": "招标/中标条数",
+        "delta": "亿纬印度8GWh订单；吉林330元/kW·年容量补偿",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://mcn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能网5月16日周报汇总44条储能项目招标和59条项目中标，并披露亿纬锂能印度8GWh储能订单、吉林独立储能容量补偿等信息。</p>",
+        "caption": "国内周报：招投标与容量补偿政策同步活跃",
+        "methodology": "11:00公开来源检查；页面HTTP 200，sha256 8aeb32565ab5af5b5ca5efbd64b9190b039040d8b8424dd34cea6f9bb8af4ad3；按原文标题、发布时间、项目数量、订单规模和政策数值摘录。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "潜在合作 GWh",
+            "value": 60
+          },
+          {
+            "label": "吉林容量补偿 元/kW·年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW·年",
+            "value": 165
+          }
+        ]
+      },
       {
         "source": "内蒙古自治区发展计划公开稿 / 中国绿色碳汇网转载",
         "source_type": "国内政策/新能源与新型储能规划",
@@ -22437,6 +22782,118 @@ window.NEOLINK_FEED= {
     ],
     "metrics": [
       {
+        "source": "InfoLink Consulting",
+        "source_type": "海外公开价格/储能供应链指数",
+        "account_name": "InfoLink",
+        "category": "行情价格",
+        "title": "InfoLink：储能电芯与BESS价格稳定，314Ah均价0.365元/Wh",
+        "summary": "InfoLink 4月20日价格文章显示，锂盐价格高位震荡而储能电芯价格整体稳定：100Ah LFP储能电芯0.420-0.475元/Wh、均价0.448元/Wh；280Ah为0.340-0.400元/Wh、均价0.370元/Wh；314Ah为0.335-0.395元/Wh、均价0.365元/Wh。电池级碳酸锂现货165,000-169,000元/吨、均价167,000元/吨，较前期上涨7.7%。",
+        "body": [
+          "InfoLink口径与中国能建集采口径相互补充：现货/新签订单主流价仍在0.35元/Wh以上，而大规模集采低价可低至0.34元/Wh。",
+          "文章称500Ah+大容量电芯主流厂商报价大体与314Ah相当，100Ah/72Ah/50Ah户储电芯因欧美、澳洲和新兴市场需求支撑仍有溢价。",
+          "该条作为MarketTrend价格指数复核，不单独代表5月18日成交价。"
+        ],
+        "key_points": [
+          "100Ah LFP储能电芯：0.420-0.475元/Wh，均价0.448元/Wh。",
+          "280Ah LFP储能电芯：0.340-0.400元/Wh，均价0.370元/Wh。",
+          "314Ah LFP储能电芯：0.335-0.395元/Wh，均价0.365元/Wh。",
+          "电池级碳酸锂现货：165,000-169,000元/吨，均价167,000元/吨，较前期+7.7%。",
+          "新签订单主流价格一般维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah均价",
+        "delta": "碳酸锂均价16.7万元/吨，环比+7.7%",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink称314Ah LFP储能电芯价格0.335-0.395元/Wh、均价0.365元/Wh，电池级碳酸锂均价167,000元/吨。</p>",
+        "caption": "InfoLink价格复核：现货均价高于大集采低价",
+        "methodology": "10:00主动海外价格源检索并抓取InfoLink页面（sha256 d8c3a1441aaa46118c3087428b0553958bf27709c52ea7936bc382341e63ada3）；抽取100Ah/280Ah/314Ah储能电芯区间价、碳酸锂均价和主流新签订单表述。",
+        "history": [
+          {
+            "label": "100Ah均价 元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah均价 元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah均价 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah低位 元/Wh",
+            "value": 0.335
+          },
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 167000
+          },
+          {
+            "label": "碳酸锂涨幅 %",
+            "value": 7.7
+          }
+        ]
+      },
+      {
+        "source": "ESS News / China Energy Engineering Group (CEEC)",
+        "source_type": "国内公开集采/海外媒体复核",
+        "account_name": "ESS News",
+        "category": "行情价格",
+        "title": "中国能建7GWh储能电芯集采：314Ah低价0.34元/Wh，500Ah低价0.360元/Wh",
+        "summary": "ESS News 5月12日报道，中国能建7GWh储能电芯集采形成新的公开报价样本：≥314Ah包中，融捷能源最低报价17亿元、折合0.34元/Wh（约47美元/kWh），双登集团17.245亿元、0.345元/Wh；德赛电池和中创新航均为0.365元/Wh，亿纬锂能0.394元/Wh。≥500Ah包中，鹏程无限最低7.204亿元、0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+        "body": [
+          "本轮国内搜索未发现SMM在5月18日更新储能电芯周评，SMM储能数据页仍停留在5月7日周评；因此补入公开英文媒体对中国能建集采结果的细项报价。",
+          "314Ah与500Ah两类电芯同时出现公开低价样本，可用于MarketTrend跟踪大容量电芯规格切换与价格底部位置。",
+          "报价来自集采候选/投标口径，不等同最终成交均价；仍需后续以中标公告、合同规模和交付条款复核。"
+        ],
+        "key_points": [
+          "集采规模：7GWh储能电芯。",
+          "≥314Ah包：融捷能源0.34元/Wh为最低公开报价；双登0.345元/Wh。",
+          "≥314Ah包其他报价：德赛电池0.365元/Wh，中创新航0.365元/Wh，亿纬锂能0.394元/Wh。",
+          "≥500Ah包：鹏程无限0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+          "数据含0.5C与0.25C、方形铝壳LFP电芯口径。"
+        ],
+        "value": "0.34",
+        "unit": "元/Wh 314Ah低价",
+        "delta": "500Ah低价0.360元/Wh；7GWh集采",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "clean_html": "<p>中国能建7GWh储能电芯集采中，314Ah包最低报价0.34元/Wh，500Ah包最低报价0.360元/Wh。</p>",
+        "caption": "国内集采样本：314Ah与500Ah电芯低价区间重新锚定",
+        "methodology": "10:00主动国内+海外检索，抓取ESS News原文HTML（sha256 9358d294c33832f7c394d9291733268921c1be6ce8ccc9c516d21ef744c3bb96）；抽取中国能建7GWh集采分包、投标企业和折算元/Wh报价。SMM储能数据页同步抓取（sha256 afc4d2f74da3882dce241858010ca8b93c8fe27367a97225a9972c314ed7b386），未见5月18日新增周评。",
+        "history": [
+          {
+            "label": "集采规模 GWh",
+            "value": 7
+          },
+          {
+            "label": "314Ah最低 元/Wh",
+            "value": 0.34
+          },
+          {
+            "label": "314Ah双登 元/Wh",
+            "value": 0.345
+          },
+          {
+            "label": "314Ah德赛/中创新航 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah亿纬 元/Wh",
+            "value": 0.394
+          },
+          {
+            "label": "500Ah最低 元/Wh",
+            "value": 0.36
+          }
+        ]
+      },
+      {
         "source": "新浪财经 / 广东省电池行业协会产业研究中心",
         "source_type": "国内公开周度开标/储能电芯与系统价格",
         "account_name": "广东电池",
@@ -23157,58 +23614,6 @@ window.NEOLINK_FEED= {
           {
             "label": "寿命 年",
             "value": 50
-          }
-        ]
-      },
-      {
-        "source": "ESS News / 中国能建储能科技（武汉）",
-        "source_type": "国内招投标/储能电芯框采海外报道",
-        "account_name": "ESS News",
-        "category": "招投标",
-        "title": "中国能建储能科技7GWh电芯采购：314Ah低价0.34元/Wh，500Ah低价0.36元/Wh",
-        "summary": "ESS News报道，中国能建储能科技（武汉）7GWh储能电芯采购覆盖两个标包：5GWh的≥314Ah方形铝壳LFP电芯、2GWh的≥500Ah方形铝壳LFP电芯。314Ah标包中融捷能源报价17亿元、折合0.34元/Wh（约47美元/kWh）为低价；500Ah标包中鹏程无限报价7.204亿元、折合0.360元/Wh为低价。",
-        "body": [
-          "该框采与SMM电芯报价互相印证：招标低价低于现货均价，但500Ah大容量路线已进入2GWh级集中采购。",
-          "入围企业包括双登、融捷、德赛、国轩/中创新航、亿纬与鹏程无限等，CALB和亿纬同时进入两个标包。",
-          "314Ah与500Ah成为主导规格，说明储能电芯采购正在从多规格分散转向大容量标准化。"
-        ],
-        "key_points": [
-          "采购总规模：7GWh。",
-          "标包1：≥314Ah电芯5GWh；融捷能源低价0.34元/Wh。",
-          "标包2：≥500Ah电芯2GWh；鹏程无限低价0.360元/Wh。",
-          "314Ah其他报价：双登0.345元/Wh，德赛/CALB 0.365元/Wh，亿纬0.394元/Wh。",
-          "500Ah其他报价：亿纬0.383元/Wh，CALB 0.375元/Wh。"
-        ],
-        "value": "7",
-        "unit": "GWh 储能电芯采购",
-        "delta": "314Ah低价0.34元/Wh；500Ah低价0.360元/Wh",
-        "direction": "down",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
-        "clean_html": "<p>中国能建储能科技7GWh储能电芯采购中，≥314Ah标包5GWh低价0.34元/Wh，≥500Ah标包2GWh低价0.360元/Wh。</p>",
-        "caption": "中国能建7GWh电芯框采：314Ah低价0.34元/Wh",
-        "methodology": "08:00主动海外检索并抓取ESS News HTML（sha256 7593b1684bbd45233d90f1c53999831cd3d1a24e1b9c0dbbcf5fd9c368ef7d00）；抽取标包规模、规格、入围方和报价。",
-        "history": [
-          {
-            "label": "总采购 GWh",
-            "value": 7
-          },
-          {
-            "label": "314Ah标包 GWh",
-            "value": 5
-          },
-          {
-            "label": "500Ah标包 GWh",
-            "value": 2
-          },
-          {
-            "label": "314Ah低价 元/Wh",
-            "value": 0.34
-          },
-          {
-            "label": "500Ah低价 元/Wh",
-            "value": 0.36
           }
         ]
       },
@@ -32501,6 +32906,114 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "source": "PV Tech / Masdar / EWEC",
+        "source_type": "海外企业与公用事业合作框架",
+        "account_name": "PV Tech",
+        "category": "海外市场",
+        "title": "Masdar与EWEC签署框架：阿联酋规划超30GW光伏与超8GW电池储能",
+        "summary": "PV Tech 5月5日报道，阿联酋Masdar与Emirates Water and Electricity Company签署合作框架协议，目标加速部署超过30GW公用事业级光伏和超过8GW电池储能，并服务阿布扎比2035清洁能源目标。该框架与Masdar已公布的5.2GWdc光伏+19GWh储能、1GW全天候可调度清洁电力项目形成互补。",
+        "body": [
+          "该合作框架将大型光伏与电池储能作为阿布扎比电力系统减碳和供电安全的组合资产，明确把8GW以上BESS纳入中长期部署路径。",
+          "对中国储能产业链而言，中东市场仍是大储出海的高确定性区域之一，项目常以公用事业级光伏、长时储能、全天候清洁电力为组合形态推进。",
+          "该信息属于框架协议，不等同于单个项目中标或订单；后续价值确认仍需观察招标、EPC、设备采购和融资文件。"
+        ],
+        "key_points": [
+          "合作方：Masdar与Emirates Water and Electricity Company。",
+          "规划目标：超过30GW公用事业级光伏、超过8GW电池储能。",
+          "政策背景：支撑阿布扎比2035清洁能源目标和UAE Net Zero by 2050。",
+          "关联项目：Masdar此前公布5.2GWdc光伏+19GWh储能，计划提供1GW 24/7可调度清洁电力。",
+          "风险提示：合作框架需以具体招标、采购和并网进度确认。"
+        ],
+        "value": "8+",
+        "unit": "GW 电池储能规划",
+        "delta": "配套30GW+光伏；另有关联19GWh储能项目",
+        "direction": "up",
+        "date": "05-05",
+        "as_of": "2026-05-05",
+        "url": "https://www.pv-tech.org/masdar-ewec-sign-agreement-on-30gw-solar-pv-and-8gw-storage-deployment-in-uae/",
+        "clean_html": "<p>Masdar与EWEC签署合作框架，拟加速部署超过30GW光伏和超过8GW电池储能，支撑阿布扎比2035清洁能源目标。</p>",
+        "caption": "中东大储：8GW以上BESS纳入阿联酋公用事业规划",
+        "methodology": "11:00海外公开来源检查；页面HTTP 200，sha256 45afc3a700de21f5bf7e4222f76c17c6e8676160794b793fe00900c1796038f1；抽取合作方、容量目标、政策背景和关联项目容量。",
+        "history": [
+          {
+            "label": "规划光伏 GW",
+            "value": 30
+          },
+          {
+            "label": "规划BESS GW",
+            "value": 8
+          },
+          {
+            "label": "关联光伏 GWdc",
+            "value": 5.2
+          },
+          {
+            "label": "关联储能 GWh",
+            "value": 19
+          },
+          {
+            "label": "可调度电力 GW",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "pv magazine / ESS News / OCCTO",
+        "source_type": "海外容量市场/日本长期脱碳电源拍卖",
+        "account_name": "pv magazine",
+        "category": "海外市场",
+        "title": "日本长期脱碳电源拍卖授予电池储能1.25GW，19个项目入选",
+        "summary": "pv magazine 5月16日报道，日本FY2025长期脱碳电源拍卖（LTDA）中，电池储能获得1.25GW（折减后）容量、覆盖19个项目；其中锂离子电池551MW，非锂电池储能699MW。OCCTO本轮共授予7.3GW、32个项目，脱碳电源4.26GW，LNG火电3.04GW；储能占脱碳电源授予容量近30%。",
+        "body": [
+          "本轮拍卖规则变化明显：小于6小时的储能项目不再具备参拍资格，并新增电芯采购与网络安全合规要求。",
+          "尽管投标量从FY2024接近7GW降至FY2025的2.73GW，最终授予电池储能1.25GW，仅略低于上一轮1.37GW。",
+          "日本容量机制继续给长时储能、非锂技术和抽水蓄能改造提供收入锚，对中国储能出海企业有项目结构与合规要求的参考价值。"
+        ],
+        "key_points": [
+          "电池储能授予：1.25GW，19个项目。",
+          "锂离子电池：551MW；非锂电池储能：699MW。",
+          "OCCTO总授予：7.3GW（折减后），32个项目。",
+          "脱碳电源授予4.26GW，LNG火电3.04GW；电池储能约占脱碳电源30%。",
+          "投标容量：2.73GW，较FY2024接近7GW明显下降，主因短于6小时项目被排除。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本电池储能LTDA授予容量",
+        "delta": "19个项目；锂电551MW/非锂699MW",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "clean_html": "<p>日本FY2025长期脱碳电源拍卖授予电池储能1.25GW，包含锂离子551MW与非锂储能699MW。</p>",
+        "caption": "日本LTDA：6小时门槛后，电池储能仍获得1.25GW",
+        "methodology": "10:00主动海外检索并抓取pv magazine页面（sha256 d569bd2599b490a179682756fb00945d3c2efa8546e4256c4d5f0b8d341e5add）；抽取OCCTO FY2025 LTDA授予容量、储能技术拆分和规则变化。",
+        "history": [
+          {
+            "label": "电池储能授予 GW",
+            "value": 1.25
+          },
+          {
+            "label": "项目数",
+            "value": 19
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "总授予 GW",
+            "value": 7.3
+          },
+          {
+            "label": "储能投标 GW",
+            "value": 2.73
+          }
+        ]
+      },
+      {
         "source": "Solar Power Portal / NESO",
         "source_type": "海外容量市场/英国T-1拍卖",
         "account_name": "Solar Power Portal",
@@ -33085,62 +33598,6 @@ window.NEOLINK_FEED= {
           {
             "label": "计划开工年",
             "value": 2028
-          }
-        ]
-      },
-      {
-        "source": "pv magazine International / OCCTO",
-        "source_type": "海外专业媒体/日本容量市场拍卖信息",
-        "account_name": "pv magazine International",
-        "category": "海外",
-        "title": "日本长期脱碳电源拍卖授予1.25GW电池储能容量，19个项目入选",
-        "summary": "pv magazine International 5月16日报道，日本电力广域的运营推进机构OCCTO在FY2025长期脱碳电源拍卖中合计授予7.3GW折减容量、32个项目；其中脱碳电源项目4.26GW、LNG火电3.04GW。电池储能合计获得1.25GW、19个项目，锂离子电池储能551MW，非锂电储能699MW，约占脱碳类别授予容量的30%。",
-        "body": [
-          "日本LTDA拍卖继续把储能纳入长期容量机制，说明亚洲成熟电力市场正在以容量收入支持储能项目融资。",
-          "本轮规则变化提高了储能时长门槛，短于6小时的储能项目不再具备参与资格，竞标容量从FY2024近7GW降至FY2025的2.73GW。",
-          "非锂电储能获得699MW，高于锂离子储能551MW，显示长时储能和技术多元化在日本容量机制中权重提升。"
-        ],
-        "key_points": [
-          "FY2025 LTDA合计授予7.3GW折减容量、32个项目。",
-          "脱碳电源类别4.26GW，LNG火电3.04GW。",
-          "电池储能合计1.25GW、19个项目。",
-          "锂离子储能551MW，非锂电储能699MW。",
-          "短于6小时的储能项目本轮不再具备参与资格。"
-        ],
-        "value": "1.25",
-        "unit": "GW 日本LTDA电池储能授予容量",
-        "delta": "551MW锂电 + 699MW非锂；约占脱碳类别30%",
-        "direction": "up",
-        "date": "05-16",
-        "as_of": "2026-05-16",
-        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
-        "clean_html": "<p>pv magazine International援引OCCTO拍卖结果称，日本FY2025长期脱碳电源拍卖中电池储能合计获得1.25GW授予容量，包含551MW锂离子储能和699MW非锂电储能。</p>",
-        "caption": "日本容量机制继续支持长时储能，非锂电储能中标容量高于锂电",
-        "methodology": "01:00抓取pv magazine International原始HTML（sha256 a946d88258d61fdd9a7b09dfb941293e380e2e37794b696140e2808388b64f29），采用文中OCCTO FY2025 LTDA授予容量、项目数和技术拆分。",
-        "history": [
-          {
-            "label": "LTDA总授予 GW",
-            "value": 7.3
-          },
-          {
-            "label": "脱碳电源 GW",
-            "value": 4.26
-          },
-          {
-            "label": "储能合计 GW",
-            "value": 1.25
-          },
-          {
-            "label": "锂电 MW",
-            "value": 551
-          },
-          {
-            "label": "非锂 MW",
-            "value": 699
-          },
-          {
-            "label": "储能项目数",
-            "value": 19
           }
         ]
       },
@@ -36649,6 +37106,170 @@ window.NEOLINK_FEED= {
     ],
     "market": [
       {
+        "source": "PV Tech / Masdar / EWEC",
+        "source_type": "海外企业与公用事业合作框架",
+        "account_name": "PV Tech",
+        "category": "海外市场",
+        "title": "Masdar与EWEC签署框架：阿联酋规划超30GW光伏与超8GW电池储能",
+        "summary": "PV Tech 5月5日报道，阿联酋Masdar与Emirates Water and Electricity Company签署合作框架协议，目标加速部署超过30GW公用事业级光伏和超过8GW电池储能，并服务阿布扎比2035清洁能源目标。该框架与Masdar已公布的5.2GWdc光伏+19GWh储能、1GW全天候可调度清洁电力项目形成互补。",
+        "body": [
+          "该合作框架将大型光伏与电池储能作为阿布扎比电力系统减碳和供电安全的组合资产，明确把8GW以上BESS纳入中长期部署路径。",
+          "对中国储能产业链而言，中东市场仍是大储出海的高确定性区域之一，项目常以公用事业级光伏、长时储能、全天候清洁电力为组合形态推进。",
+          "该信息属于框架协议，不等同于单个项目中标或订单；后续价值确认仍需观察招标、EPC、设备采购和融资文件。"
+        ],
+        "key_points": [
+          "合作方：Masdar与Emirates Water and Electricity Company。",
+          "规划目标：超过30GW公用事业级光伏、超过8GW电池储能。",
+          "政策背景：支撑阿布扎比2035清洁能源目标和UAE Net Zero by 2050。",
+          "关联项目：Masdar此前公布5.2GWdc光伏+19GWh储能，计划提供1GW 24/7可调度清洁电力。",
+          "风险提示：合作框架需以具体招标、采购和并网进度确认。"
+        ],
+        "value": "8+",
+        "unit": "GW 电池储能规划",
+        "delta": "配套30GW+光伏；另有关联19GWh储能项目",
+        "direction": "up",
+        "date": "05-05",
+        "as_of": "2026-05-05",
+        "url": "https://www.pv-tech.org/masdar-ewec-sign-agreement-on-30gw-solar-pv-and-8gw-storage-deployment-in-uae/",
+        "clean_html": "<p>Masdar与EWEC签署合作框架，拟加速部署超过30GW光伏和超过8GW电池储能，支撑阿布扎比2035清洁能源目标。</p>",
+        "caption": "中东大储：8GW以上BESS纳入阿联酋公用事业规划",
+        "methodology": "11:00海外公开来源检查；页面HTTP 200，sha256 45afc3a700de21f5bf7e4222f76c17c6e8676160794b793fe00900c1796038f1；抽取合作方、容量目标、政策背景和关联项目容量。",
+        "history": [
+          {
+            "label": "规划光伏 GW",
+            "value": 30
+          },
+          {
+            "label": "规划BESS GW",
+            "value": 8
+          },
+          {
+            "label": "关联光伏 GWdc",
+            "value": 5.2
+          },
+          {
+            "label": "关联储能 GWh",
+            "value": 19
+          },
+          {
+            "label": "可调度电力 GW",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "InfoLink Consulting",
+        "source_type": "海外公开价格/储能供应链指数",
+        "account_name": "InfoLink",
+        "category": "行情价格",
+        "title": "InfoLink：储能电芯与BESS价格稳定，314Ah均价0.365元/Wh",
+        "summary": "InfoLink 4月20日价格文章显示，锂盐价格高位震荡而储能电芯价格整体稳定：100Ah LFP储能电芯0.420-0.475元/Wh、均价0.448元/Wh；280Ah为0.340-0.400元/Wh、均价0.370元/Wh；314Ah为0.335-0.395元/Wh、均价0.365元/Wh。电池级碳酸锂现货165,000-169,000元/吨、均价167,000元/吨，较前期上涨7.7%。",
+        "body": [
+          "InfoLink口径与中国能建集采口径相互补充：现货/新签订单主流价仍在0.35元/Wh以上，而大规模集采低价可低至0.34元/Wh。",
+          "文章称500Ah+大容量电芯主流厂商报价大体与314Ah相当，100Ah/72Ah/50Ah户储电芯因欧美、澳洲和新兴市场需求支撑仍有溢价。",
+          "该条作为MarketTrend价格指数复核，不单独代表5月18日成交价。"
+        ],
+        "key_points": [
+          "100Ah LFP储能电芯：0.420-0.475元/Wh，均价0.448元/Wh。",
+          "280Ah LFP储能电芯：0.340-0.400元/Wh，均价0.370元/Wh。",
+          "314Ah LFP储能电芯：0.335-0.395元/Wh，均价0.365元/Wh。",
+          "电池级碳酸锂现货：165,000-169,000元/吨，均价167,000元/吨，较前期+7.7%。",
+          "新签订单主流价格一般维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah均价",
+        "delta": "碳酸锂均价16.7万元/吨，环比+7.7%",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink称314Ah LFP储能电芯价格0.335-0.395元/Wh、均价0.365元/Wh，电池级碳酸锂均价167,000元/吨。</p>",
+        "caption": "InfoLink价格复核：现货均价高于大集采低价",
+        "methodology": "10:00主动海外价格源检索并抓取InfoLink页面（sha256 d8c3a1441aaa46118c3087428b0553958bf27709c52ea7936bc382341e63ada3）；抽取100Ah/280Ah/314Ah储能电芯区间价、碳酸锂均价和主流新签订单表述。",
+        "history": [
+          {
+            "label": "100Ah均价 元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah均价 元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah均价 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah低位 元/Wh",
+            "value": 0.335
+          },
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 167000
+          },
+          {
+            "label": "碳酸锂涨幅 %",
+            "value": 7.7
+          }
+        ]
+      },
+      {
+        "source": "ESS News / China Energy Engineering Group (CEEC)",
+        "source_type": "国内公开集采/海外媒体复核",
+        "account_name": "ESS News",
+        "category": "行情价格",
+        "title": "中国能建7GWh储能电芯集采：314Ah低价0.34元/Wh，500Ah低价0.360元/Wh",
+        "summary": "ESS News 5月12日报道，中国能建7GWh储能电芯集采形成新的公开报价样本：≥314Ah包中，融捷能源最低报价17亿元、折合0.34元/Wh（约47美元/kWh），双登集团17.245亿元、0.345元/Wh；德赛电池和中创新航均为0.365元/Wh，亿纬锂能0.394元/Wh。≥500Ah包中，鹏程无限最低7.204亿元、0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+        "body": [
+          "本轮国内搜索未发现SMM在5月18日更新储能电芯周评，SMM储能数据页仍停留在5月7日周评；因此补入公开英文媒体对中国能建集采结果的细项报价。",
+          "314Ah与500Ah两类电芯同时出现公开低价样本，可用于MarketTrend跟踪大容量电芯规格切换与价格底部位置。",
+          "报价来自集采候选/投标口径，不等同最终成交均价；仍需后续以中标公告、合同规模和交付条款复核。"
+        ],
+        "key_points": [
+          "集采规模：7GWh储能电芯。",
+          "≥314Ah包：融捷能源0.34元/Wh为最低公开报价；双登0.345元/Wh。",
+          "≥314Ah包其他报价：德赛电池0.365元/Wh，中创新航0.365元/Wh，亿纬锂能0.394元/Wh。",
+          "≥500Ah包：鹏程无限0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+          "数据含0.5C与0.25C、方形铝壳LFP电芯口径。"
+        ],
+        "value": "0.34",
+        "unit": "元/Wh 314Ah低价",
+        "delta": "500Ah低价0.360元/Wh；7GWh集采",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "clean_html": "<p>中国能建7GWh储能电芯集采中，314Ah包最低报价0.34元/Wh，500Ah包最低报价0.360元/Wh。</p>",
+        "caption": "国内集采样本：314Ah与500Ah电芯低价区间重新锚定",
+        "methodology": "10:00主动国内+海外检索，抓取ESS News原文HTML（sha256 9358d294c33832f7c394d9291733268921c1be6ce8ccc9c516d21ef744c3bb96）；抽取中国能建7GWh集采分包、投标企业和折算元/Wh报价。SMM储能数据页同步抓取（sha256 afc4d2f74da3882dce241858010ca8b93c8fe27367a97225a9972c314ed7b386），未见5月18日新增周评。",
+        "history": [
+          {
+            "label": "集采规模 GWh",
+            "value": 7
+          },
+          {
+            "label": "314Ah最低 元/Wh",
+            "value": 0.34
+          },
+          {
+            "label": "314Ah双登 元/Wh",
+            "value": 0.345
+          },
+          {
+            "label": "314Ah德赛/中创新航 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah亿纬 元/Wh",
+            "value": 0.394
+          },
+          {
+            "label": "500Ah最低 元/Wh",
+            "value": 0.36
+          }
+        ]
+      },
+      {
         "source": "新浪财经 / 广东省电池行业协会产业研究中心",
         "source_type": "国内公开周度开标/储能电芯与系统价格",
         "account_name": "广东电池",
@@ -37298,53 +37919,6 @@ window.NEOLINK_FEED= {
           {
             "label": "CIF均价 美元/千克",
             "value": 22.3
-          }
-        ]
-      },
-      {
-        "source": "InfoLink Consulting",
-        "source_type": "海外/台湾新能源价格研究机构",
-        "account_name": "InfoLink",
-        "category": "价格",
-        "title": "InfoLink：电池级碳酸锂均价16.7万元/吨，电芯与BESS价格整体稳定",
-        "summary": "InfoLink 4月20日储能价格链显示，碳酸锂价格维持高位震荡，主力合约多在16-17.5万元/吨区间；电池级碳酸锂现货16.5-16.9万元/吨、均价16.7万元/吨，较前期上涨7.7%；锂辉石SC6 CIF均价2350美元/吨，较前期上涨5.4%。InfoLink同时称中国BESS系统报价整体稳定。",
-        "body": [
-          "InfoLink认为矿端涨幅继续大于锂盐，供需失衡更集中在资源端，紧张矿供对碳酸锂价格形成支撑。",
-          "电芯端价格上行并非完全由需求拉动，而由高成本、部分规格供应紧张和交付约束支撑；系统集成商继续提价的承受度下降。",
-          "若碳酸锂和正极材料价格明显回落，电芯报价可能出现边际松动；当前中国BESS系统报价保持稳定。"
-        ],
-        "key_points": [
-          "电池级碳酸锂现货均价16.7万元/吨，较前期+7.7%。",
-          "SC6锂辉石CIF均价2350美元/吨，较前期+5.4%。",
-          "主力合约多在16-17.5万元/吨区间。",
-          "中国BESS系统价格整体稳定，电芯处于高位议价。"
-        ],
-        "value": "16.7",
-        "unit": "万元/吨 电池级碳酸锂均价",
-        "delta": "+7.7%；SC6均价2350美元/吨",
-        "direction": "up",
-        "date": "04-20",
-        "as_of": "2026-04-20",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "clean_html": "<p>InfoLink 4月20日显示电池级碳酸锂均价16.7万元/吨，较前期+7.7%；中国BESS系统报价整体稳定。</p>",
-        "caption": "海外可读价格链验证锂盐高位与系统报价稳定并存",
-        "methodology": "19:00小时抓取InfoLink公开页面；采用页面可见矿价、锂盐价格、涨幅和BESS稳定表述。",
-        "history": [
-          {
-            "label": "电碳均价 万元/吨",
-            "value": 16.7
-          },
-          {
-            "label": "电碳涨幅 %",
-            "value": 7.7
-          },
-          {
-            "label": "SC6均价 美元/吨",
-            "value": 2350
-          },
-          {
-            "label": "SC6涨幅 %",
-            "value": 5.4
           }
         ]
       },
@@ -38354,6 +38928,282 @@ window.NEOLINK_FEED= {
     ],
     "sentiment": [
       {
+        "source": "PV Tech / Masdar / EWEC",
+        "source_type": "海外企业与公用事业合作框架",
+        "account_name": "PV Tech",
+        "category": "海外市场",
+        "title": "Masdar与EWEC签署框架：阿联酋规划超30GW光伏与超8GW电池储能",
+        "summary": "PV Tech 5月5日报道，阿联酋Masdar与Emirates Water and Electricity Company签署合作框架协议，目标加速部署超过30GW公用事业级光伏和超过8GW电池储能，并服务阿布扎比2035清洁能源目标。该框架与Masdar已公布的5.2GWdc光伏+19GWh储能、1GW全天候可调度清洁电力项目形成互补。",
+        "body": [
+          "该合作框架将大型光伏与电池储能作为阿布扎比电力系统减碳和供电安全的组合资产，明确把8GW以上BESS纳入中长期部署路径。",
+          "对中国储能产业链而言，中东市场仍是大储出海的高确定性区域之一，项目常以公用事业级光伏、长时储能、全天候清洁电力为组合形态推进。",
+          "该信息属于框架协议，不等同于单个项目中标或订单；后续价值确认仍需观察招标、EPC、设备采购和融资文件。"
+        ],
+        "key_points": [
+          "合作方：Masdar与Emirates Water and Electricity Company。",
+          "规划目标：超过30GW公用事业级光伏、超过8GW电池储能。",
+          "政策背景：支撑阿布扎比2035清洁能源目标和UAE Net Zero by 2050。",
+          "关联项目：Masdar此前公布5.2GWdc光伏+19GWh储能，计划提供1GW 24/7可调度清洁电力。",
+          "风险提示：合作框架需以具体招标、采购和并网进度确认。"
+        ],
+        "value": "8+",
+        "unit": "GW 电池储能规划",
+        "delta": "配套30GW+光伏；另有关联19GWh储能项目",
+        "direction": "up",
+        "date": "05-05",
+        "as_of": "2026-05-05",
+        "url": "https://www.pv-tech.org/masdar-ewec-sign-agreement-on-30gw-solar-pv-and-8gw-storage-deployment-in-uae/",
+        "clean_html": "<p>Masdar与EWEC签署合作框架，拟加速部署超过30GW光伏和超过8GW电池储能，支撑阿布扎比2035清洁能源目标。</p>",
+        "caption": "中东大储：8GW以上BESS纳入阿联酋公用事业规划",
+        "methodology": "11:00海外公开来源检查；页面HTTP 200，sha256 45afc3a700de21f5bf7e4222f76c17c6e8676160794b793fe00900c1796038f1；抽取合作方、容量目标、政策背景和关联项目容量。",
+        "history": [
+          {
+            "label": "规划光伏 GW",
+            "value": 30
+          },
+          {
+            "label": "规划BESS GW",
+            "value": 8
+          },
+          {
+            "label": "关联光伏 GWdc",
+            "value": 5.2
+          },
+          {
+            "label": "关联储能 GWh",
+            "value": 19
+          },
+          {
+            "label": "可调度电力 GW",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "碳索储能网",
+        "source_type": "行业门户周报/项目政策汇总",
+        "account_name": "碳索储能网",
+        "category": "招投标",
+        "title": "储能周报：44条招标、59条中标，亿纬锂能获印度8GWh订单",
+        "summary": "碳索储能网5月16日发布储能周报，汇总44条项目招标和59条项目中标；企业动态包括亿纬锂能与印度GNEPL签署8GWh储能大电池订单、比亚迪储能与Corvus Energy开展海事新能源合作、海辰储能称AIDC将成为储能最大增量。政策侧包括国家能源局《新型储能电站建设工程质量监督大纲》、吉林独立储能容量补偿、陕西独立储能容量电价征求意见等。",
+        "body": [
+          "该周报覆盖5月中旬国内储能项目、企业和政策高频信息，项目层面给出44条招标与59条中标，适合作为招投标景气度和项目线索观察。",
+          "企业侧的增量信息集中在海外订单与新应用场景：亿纬锂能披露印度8GWh储能大电池订单，并规划未来五年潜在合作60GWh；海辰储能将AIDC视为储能需求增量；比亚迪储能与Corvus Energy合作推进船用电池系统。",
+          "政策侧继续围绕质量监督、容量补偿和市场参与机制展开，其中国家能源局质量监督大纲适用于100MW及以上电化学储能和压缩空气储能工程，地方容量补偿规则会影响独立储能收益测算。"
+        ],
+        "key_points": [
+          "周报口径：44条储能项目招标、59条项目中标。",
+          "亿纬锂能与印度GNEPL签署8GWh储能大电池订单，未来五年潜在合作规模60GWh。",
+          "国家能源局发布新型储能电站建设工程质量监督大纲，覆盖100MW及以上电化学储能、压缩空气储能项目。",
+          "吉林容量补偿标准以330元/kW·年为基础按8小时折算；陕西征求意见稿提出165元/kW·年按6小时折算。",
+          "比亚迪储能与Corvus Energy将围绕高倍率磷酸铁锂船用电池系统合作。"
+        ],
+        "value": "44/59",
+        "unit": "招标/中标条数",
+        "delta": "亿纬印度8GWh订单；吉林330元/kW·年容量补偿",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://mcn.solarbe.com/news/20260516/50023119.html",
+        "clean_html": "<p>碳索储能网5月16日周报汇总44条储能项目招标和59条项目中标，并披露亿纬锂能印度8GWh储能订单、吉林独立储能容量补偿等信息。</p>",
+        "caption": "国内周报：招投标与容量补偿政策同步活跃",
+        "methodology": "11:00公开来源检查；页面HTTP 200，sha256 8aeb32565ab5af5b5ca5efbd64b9190b039040d8b8424dd34cea6f9bb8af4ad3；按原文标题、发布时间、项目数量、订单规模和政策数值摘录。",
+        "history": [
+          {
+            "label": "招标条数",
+            "value": 44
+          },
+          {
+            "label": "中标条数",
+            "value": 59
+          },
+          {
+            "label": "亿纬印度订单 GWh",
+            "value": 8
+          },
+          {
+            "label": "潜在合作 GWh",
+            "value": 60
+          },
+          {
+            "label": "吉林容量补偿 元/kW·年",
+            "value": 330
+          },
+          {
+            "label": "陕西征求容量电价 元/kW·年",
+            "value": 165
+          }
+        ]
+      },
+      {
+        "source": "pv magazine / ESS News / OCCTO",
+        "source_type": "海外容量市场/日本长期脱碳电源拍卖",
+        "account_name": "pv magazine",
+        "category": "海外市场",
+        "title": "日本长期脱碳电源拍卖授予电池储能1.25GW，19个项目入选",
+        "summary": "pv magazine 5月16日报道，日本FY2025长期脱碳电源拍卖（LTDA）中，电池储能获得1.25GW（折减后）容量、覆盖19个项目；其中锂离子电池551MW，非锂电池储能699MW。OCCTO本轮共授予7.3GW、32个项目，脱碳电源4.26GW，LNG火电3.04GW；储能占脱碳电源授予容量近30%。",
+        "body": [
+          "本轮拍卖规则变化明显：小于6小时的储能项目不再具备参拍资格，并新增电芯采购与网络安全合规要求。",
+          "尽管投标量从FY2024接近7GW降至FY2025的2.73GW，最终授予电池储能1.25GW，仅略低于上一轮1.37GW。",
+          "日本容量机制继续给长时储能、非锂技术和抽水蓄能改造提供收入锚，对中国储能出海企业有项目结构与合规要求的参考价值。"
+        ],
+        "key_points": [
+          "电池储能授予：1.25GW，19个项目。",
+          "锂离子电池：551MW；非锂电池储能：699MW。",
+          "OCCTO总授予：7.3GW（折减后），32个项目。",
+          "脱碳电源授予4.26GW，LNG火电3.04GW；电池储能约占脱碳电源30%。",
+          "投标容量：2.73GW，较FY2024接近7GW明显下降，主因短于6小时项目被排除。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本电池储能LTDA授予容量",
+        "delta": "19个项目；锂电551MW/非锂699MW",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "clean_html": "<p>日本FY2025长期脱碳电源拍卖授予电池储能1.25GW，包含锂离子551MW与非锂储能699MW。</p>",
+        "caption": "日本LTDA：6小时门槛后，电池储能仍获得1.25GW",
+        "methodology": "10:00主动海外检索并抓取pv magazine页面（sha256 d569bd2599b490a179682756fb00945d3c2efa8546e4256c4d5f0b8d341e5add）；抽取OCCTO FY2025 LTDA授予容量、储能技术拆分和规则变化。",
+        "history": [
+          {
+            "label": "电池储能授予 GW",
+            "value": 1.25
+          },
+          {
+            "label": "项目数",
+            "value": 19
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "总授予 GW",
+            "value": 7.3
+          },
+          {
+            "label": "储能投标 GW",
+            "value": 2.73
+          }
+        ]
+      },
+      {
+        "source": "InfoLink Consulting",
+        "source_type": "海外公开价格/储能供应链指数",
+        "account_name": "InfoLink",
+        "category": "行情价格",
+        "title": "InfoLink：储能电芯与BESS价格稳定，314Ah均价0.365元/Wh",
+        "summary": "InfoLink 4月20日价格文章显示，锂盐价格高位震荡而储能电芯价格整体稳定：100Ah LFP储能电芯0.420-0.475元/Wh、均价0.448元/Wh；280Ah为0.340-0.400元/Wh、均价0.370元/Wh；314Ah为0.335-0.395元/Wh、均价0.365元/Wh。电池级碳酸锂现货165,000-169,000元/吨、均价167,000元/吨，较前期上涨7.7%。",
+        "body": [
+          "InfoLink口径与中国能建集采口径相互补充：现货/新签订单主流价仍在0.35元/Wh以上，而大规模集采低价可低至0.34元/Wh。",
+          "文章称500Ah+大容量电芯主流厂商报价大体与314Ah相当，100Ah/72Ah/50Ah户储电芯因欧美、澳洲和新兴市场需求支撑仍有溢价。",
+          "该条作为MarketTrend价格指数复核，不单独代表5月18日成交价。"
+        ],
+        "key_points": [
+          "100Ah LFP储能电芯：0.420-0.475元/Wh，均价0.448元/Wh。",
+          "280Ah LFP储能电芯：0.340-0.400元/Wh，均价0.370元/Wh。",
+          "314Ah LFP储能电芯：0.335-0.395元/Wh，均价0.365元/Wh。",
+          "电池级碳酸锂现货：165,000-169,000元/吨，均价167,000元/吨，较前期+7.7%。",
+          "新签订单主流价格一般维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah均价",
+        "delta": "碳酸锂均价16.7万元/吨，环比+7.7%",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink称314Ah LFP储能电芯价格0.335-0.395元/Wh、均价0.365元/Wh，电池级碳酸锂均价167,000元/吨。</p>",
+        "caption": "InfoLink价格复核：现货均价高于大集采低价",
+        "methodology": "10:00主动海外价格源检索并抓取InfoLink页面（sha256 d8c3a1441aaa46118c3087428b0553958bf27709c52ea7936bc382341e63ada3）；抽取100Ah/280Ah/314Ah储能电芯区间价、碳酸锂均价和主流新签订单表述。",
+        "history": [
+          {
+            "label": "100Ah均价 元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah均价 元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah均价 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah低位 元/Wh",
+            "value": 0.335
+          },
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 167000
+          },
+          {
+            "label": "碳酸锂涨幅 %",
+            "value": 7.7
+          }
+        ]
+      },
+      {
+        "source": "ESS News / China Energy Engineering Group (CEEC)",
+        "source_type": "国内公开集采/海外媒体复核",
+        "account_name": "ESS News",
+        "category": "行情价格",
+        "title": "中国能建7GWh储能电芯集采：314Ah低价0.34元/Wh，500Ah低价0.360元/Wh",
+        "summary": "ESS News 5月12日报道，中国能建7GWh储能电芯集采形成新的公开报价样本：≥314Ah包中，融捷能源最低报价17亿元、折合0.34元/Wh（约47美元/kWh），双登集团17.245亿元、0.345元/Wh；德赛电池和中创新航均为0.365元/Wh，亿纬锂能0.394元/Wh。≥500Ah包中，鹏程无限最低7.204亿元、0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+        "body": [
+          "本轮国内搜索未发现SMM在5月18日更新储能电芯周评，SMM储能数据页仍停留在5月7日周评；因此补入公开英文媒体对中国能建集采结果的细项报价。",
+          "314Ah与500Ah两类电芯同时出现公开低价样本，可用于MarketTrend跟踪大容量电芯规格切换与价格底部位置。",
+          "报价来自集采候选/投标口径，不等同最终成交均价；仍需后续以中标公告、合同规模和交付条款复核。"
+        ],
+        "key_points": [
+          "集采规模：7GWh储能电芯。",
+          "≥314Ah包：融捷能源0.34元/Wh为最低公开报价；双登0.345元/Wh。",
+          "≥314Ah包其他报价：德赛电池0.365元/Wh，中创新航0.365元/Wh，亿纬锂能0.394元/Wh。",
+          "≥500Ah包：鹏程无限0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+          "数据含0.5C与0.25C、方形铝壳LFP电芯口径。"
+        ],
+        "value": "0.34",
+        "unit": "元/Wh 314Ah低价",
+        "delta": "500Ah低价0.360元/Wh；7GWh集采",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "clean_html": "<p>中国能建7GWh储能电芯集采中，314Ah包最低报价0.34元/Wh，500Ah包最低报价0.360元/Wh。</p>",
+        "caption": "国内集采样本：314Ah与500Ah电芯低价区间重新锚定",
+        "methodology": "10:00主动国内+海外检索，抓取ESS News原文HTML（sha256 9358d294c33832f7c394d9291733268921c1be6ce8ccc9c516d21ef744c3bb96）；抽取中国能建7GWh集采分包、投标企业和折算元/Wh报价。SMM储能数据页同步抓取（sha256 afc4d2f74da3882dce241858010ca8b93c8fe27367a97225a9972c314ed7b386），未见5月18日新增周评。",
+        "history": [
+          {
+            "label": "集采规模 GWh",
+            "value": 7
+          },
+          {
+            "label": "314Ah最低 元/Wh",
+            "value": 0.34
+          },
+          {
+            "label": "314Ah双登 元/Wh",
+            "value": 0.345
+          },
+          {
+            "label": "314Ah德赛/中创新航 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah亿纬 元/Wh",
+            "value": 0.394
+          },
+          {
+            "label": "500Ah最低 元/Wh",
+            "value": 0.36
+          }
+        ]
+      },
+      {
         "source": "Solar Power Portal / NESO",
         "source_type": "海外容量市场/英国T-1拍卖",
         "account_name": "Solar Power Portal",
@@ -38742,58 +39592,6 @@ window.NEOLINK_FEED= {
           {
             "label": "寿命 年",
             "value": 50
-          }
-        ]
-      },
-      {
-        "source": "ESS News / 中国能建储能科技（武汉）",
-        "source_type": "国内招投标/储能电芯框采海外报道",
-        "account_name": "ESS News",
-        "category": "招投标",
-        "title": "中国能建储能科技7GWh电芯采购：314Ah低价0.34元/Wh，500Ah低价0.36元/Wh",
-        "summary": "ESS News报道，中国能建储能科技（武汉）7GWh储能电芯采购覆盖两个标包：5GWh的≥314Ah方形铝壳LFP电芯、2GWh的≥500Ah方形铝壳LFP电芯。314Ah标包中融捷能源报价17亿元、折合0.34元/Wh（约47美元/kWh）为低价；500Ah标包中鹏程无限报价7.204亿元、折合0.360元/Wh为低价。",
-        "body": [
-          "该框采与SMM电芯报价互相印证：招标低价低于现货均价，但500Ah大容量路线已进入2GWh级集中采购。",
-          "入围企业包括双登、融捷、德赛、国轩/中创新航、亿纬与鹏程无限等，CALB和亿纬同时进入两个标包。",
-          "314Ah与500Ah成为主导规格，说明储能电芯采购正在从多规格分散转向大容量标准化。"
-        ],
-        "key_points": [
-          "采购总规模：7GWh。",
-          "标包1：≥314Ah电芯5GWh；融捷能源低价0.34元/Wh。",
-          "标包2：≥500Ah电芯2GWh；鹏程无限低价0.360元/Wh。",
-          "314Ah其他报价：双登0.345元/Wh，德赛/CALB 0.365元/Wh，亿纬0.394元/Wh。",
-          "500Ah其他报价：亿纬0.383元/Wh，CALB 0.375元/Wh。"
-        ],
-        "value": "7",
-        "unit": "GWh 储能电芯采购",
-        "delta": "314Ah低价0.34元/Wh；500Ah低价0.360元/Wh",
-        "direction": "down",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
-        "clean_html": "<p>中国能建储能科技7GWh储能电芯采购中，≥314Ah标包5GWh低价0.34元/Wh，≥500Ah标包2GWh低价0.360元/Wh。</p>",
-        "caption": "中国能建7GWh电芯框采：314Ah低价0.34元/Wh",
-        "methodology": "08:00主动海外检索并抓取ESS News HTML（sha256 7593b1684bbd45233d90f1c53999831cd3d1a24e1b9c0dbbcf5fd9c368ef7d00）；抽取标包规模、规格、入围方和报价。",
-        "history": [
-          {
-            "label": "总采购 GWh",
-            "value": 7
-          },
-          {
-            "label": "314Ah标包 GWh",
-            "value": 5
-          },
-          {
-            "label": "500Ah标包 GWh",
-            "value": 2
-          },
-          {
-            "label": "314Ah低价 元/Wh",
-            "value": 0.34
-          },
-          {
-            "label": "500Ah低价 元/Wh",
-            "value": 0.36
           }
         ]
       },
@@ -39726,62 +40524,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "pv magazine International / OCCTO",
-        "source_type": "海外专业媒体/日本容量市场拍卖信息",
-        "account_name": "pv magazine International",
-        "category": "海外",
-        "title": "日本长期脱碳电源拍卖授予1.25GW电池储能容量，19个项目入选",
-        "summary": "pv magazine International 5月16日报道，日本电力广域的运营推进机构OCCTO在FY2025长期脱碳电源拍卖中合计授予7.3GW折减容量、32个项目；其中脱碳电源项目4.26GW、LNG火电3.04GW。电池储能合计获得1.25GW、19个项目，锂离子电池储能551MW，非锂电储能699MW，约占脱碳类别授予容量的30%。",
-        "body": [
-          "日本LTDA拍卖继续把储能纳入长期容量机制，说明亚洲成熟电力市场正在以容量收入支持储能项目融资。",
-          "本轮规则变化提高了储能时长门槛，短于6小时的储能项目不再具备参与资格，竞标容量从FY2024近7GW降至FY2025的2.73GW。",
-          "非锂电储能获得699MW，高于锂离子储能551MW，显示长时储能和技术多元化在日本容量机制中权重提升。"
-        ],
-        "key_points": [
-          "FY2025 LTDA合计授予7.3GW折减容量、32个项目。",
-          "脱碳电源类别4.26GW，LNG火电3.04GW。",
-          "电池储能合计1.25GW、19个项目。",
-          "锂离子储能551MW，非锂电储能699MW。",
-          "短于6小时的储能项目本轮不再具备参与资格。"
-        ],
-        "value": "1.25",
-        "unit": "GW 日本LTDA电池储能授予容量",
-        "delta": "551MW锂电 + 699MW非锂；约占脱碳类别30%",
-        "direction": "up",
-        "date": "05-16",
-        "as_of": "2026-05-16",
-        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
-        "clean_html": "<p>pv magazine International援引OCCTO拍卖结果称，日本FY2025长期脱碳电源拍卖中电池储能合计获得1.25GW授予容量，包含551MW锂离子储能和699MW非锂电储能。</p>",
-        "caption": "日本容量机制继续支持长时储能，非锂电储能中标容量高于锂电",
-        "methodology": "01:00抓取pv magazine International原始HTML（sha256 a946d88258d61fdd9a7b09dfb941293e380e2e37794b696140e2808388b64f29），采用文中OCCTO FY2025 LTDA授予容量、项目数和技术拆分。",
-        "history": [
-          {
-            "label": "LTDA总授予 GW",
-            "value": 7.3
-          },
-          {
-            "label": "脱碳电源 GW",
-            "value": 4.26
-          },
-          {
-            "label": "储能合计 GW",
-            "value": 1.25
-          },
-          {
-            "label": "锂电 MW",
-            "value": 551
-          },
-          {
-            "label": "非锂 MW",
-            "value": 699
-          },
-          {
-            "label": "储能项目数",
-            "value": 19
-          }
-        ]
-      },
-      {
         "source": "Energy-Storage.news / BloombergNEF",
         "source_type": "海外专业媒体/咨询机构展望",
         "account_name": "Energy-Storage.news",
@@ -40163,53 +40905,6 @@ window.NEOLINK_FEED= {
           {
             "label": "SC6均价 美元/吨",
             "value": 2800
-          }
-        ]
-      },
-      {
-        "source": "InfoLink Consulting",
-        "source_type": "海外/台湾新能源价格研究机构",
-        "account_name": "InfoLink",
-        "category": "价格",
-        "title": "InfoLink：电池级碳酸锂均价16.7万元/吨，电芯与BESS价格整体稳定",
-        "summary": "InfoLink 4月20日储能价格链显示，碳酸锂价格维持高位震荡，主力合约多在16-17.5万元/吨区间；电池级碳酸锂现货16.5-16.9万元/吨、均价16.7万元/吨，较前期上涨7.7%；锂辉石SC6 CIF均价2350美元/吨，较前期上涨5.4%。InfoLink同时称中国BESS系统报价整体稳定。",
-        "body": [
-          "InfoLink认为矿端涨幅继续大于锂盐，供需失衡更集中在资源端，紧张矿供对碳酸锂价格形成支撑。",
-          "电芯端价格上行并非完全由需求拉动，而由高成本、部分规格供应紧张和交付约束支撑；系统集成商继续提价的承受度下降。",
-          "若碳酸锂和正极材料价格明显回落，电芯报价可能出现边际松动；当前中国BESS系统报价保持稳定。"
-        ],
-        "key_points": [
-          "电池级碳酸锂现货均价16.7万元/吨，较前期+7.7%。",
-          "SC6锂辉石CIF均价2350美元/吨，较前期+5.4%。",
-          "主力合约多在16-17.5万元/吨区间。",
-          "中国BESS系统价格整体稳定，电芯处于高位议价。"
-        ],
-        "value": "16.7",
-        "unit": "万元/吨 电池级碳酸锂均价",
-        "delta": "+7.7%；SC6均价2350美元/吨",
-        "direction": "up",
-        "date": "04-20",
-        "as_of": "2026-04-20",
-        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
-        "clean_html": "<p>InfoLink 4月20日显示电池级碳酸锂均价16.7万元/吨，较前期+7.7%；中国BESS系统报价整体稳定。</p>",
-        "caption": "海外可读价格链验证锂盐高位与系统报价稳定并存",
-        "methodology": "19:00小时抓取InfoLink公开页面；采用页面可见矿价、锂盐价格、涨幅和BESS稳定表述。",
-        "history": [
-          {
-            "label": "电碳均价 万元/吨",
-            "value": 16.7
-          },
-          {
-            "label": "电碳涨幅 %",
-            "value": 7.7
-          },
-          {
-            "label": "SC6均价 美元/吨",
-            "value": 2350
-          },
-          {
-            "label": "SC6涨幅 %",
-            "value": 5.4
           }
         ]
       },
@@ -41505,6 +42200,118 @@ window.NEOLINK_FEED= {
     ],
     "prices": [
       {
+        "source": "InfoLink Consulting",
+        "source_type": "海外公开价格/储能供应链指数",
+        "account_name": "InfoLink",
+        "category": "行情价格",
+        "title": "InfoLink：储能电芯与BESS价格稳定，314Ah均价0.365元/Wh",
+        "summary": "InfoLink 4月20日价格文章显示，锂盐价格高位震荡而储能电芯价格整体稳定：100Ah LFP储能电芯0.420-0.475元/Wh、均价0.448元/Wh；280Ah为0.340-0.400元/Wh、均价0.370元/Wh；314Ah为0.335-0.395元/Wh、均价0.365元/Wh。电池级碳酸锂现货165,000-169,000元/吨、均价167,000元/吨，较前期上涨7.7%。",
+        "body": [
+          "InfoLink口径与中国能建集采口径相互补充：现货/新签订单主流价仍在0.35元/Wh以上，而大规模集采低价可低至0.34元/Wh。",
+          "文章称500Ah+大容量电芯主流厂商报价大体与314Ah相当，100Ah/72Ah/50Ah户储电芯因欧美、澳洲和新兴市场需求支撑仍有溢价。",
+          "该条作为MarketTrend价格指数复核，不单独代表5月18日成交价。"
+        ],
+        "key_points": [
+          "100Ah LFP储能电芯：0.420-0.475元/Wh，均价0.448元/Wh。",
+          "280Ah LFP储能电芯：0.340-0.400元/Wh，均价0.370元/Wh。",
+          "314Ah LFP储能电芯：0.335-0.395元/Wh，均价0.365元/Wh。",
+          "电池级碳酸锂现货：165,000-169,000元/吨，均价167,000元/吨，较前期+7.7%。",
+          "新签订单主流价格一般维持在0.350元/Wh以上。"
+        ],
+        "value": "0.365",
+        "unit": "元/Wh 314Ah均价",
+        "delta": "碳酸锂均价16.7万元/吨，环比+7.7%",
+        "direction": "flat",
+        "date": "04-20",
+        "as_of": "2026-04-20",
+        "url": "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+        "clean_html": "<p>InfoLink称314Ah LFP储能电芯价格0.335-0.395元/Wh、均价0.365元/Wh，电池级碳酸锂均价167,000元/吨。</p>",
+        "caption": "InfoLink价格复核：现货均价高于大集采低价",
+        "methodology": "10:00主动海外价格源检索并抓取InfoLink页面（sha256 d8c3a1441aaa46118c3087428b0553958bf27709c52ea7936bc382341e63ada3）；抽取100Ah/280Ah/314Ah储能电芯区间价、碳酸锂均价和主流新签订单表述。",
+        "history": [
+          {
+            "label": "100Ah均价 元/Wh",
+            "value": 0.448
+          },
+          {
+            "label": "280Ah均价 元/Wh",
+            "value": 0.37
+          },
+          {
+            "label": "314Ah均价 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah低位 元/Wh",
+            "value": 0.335
+          },
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 167000
+          },
+          {
+            "label": "碳酸锂涨幅 %",
+            "value": 7.7
+          }
+        ]
+      },
+      {
+        "source": "ESS News / China Energy Engineering Group (CEEC)",
+        "source_type": "国内公开集采/海外媒体复核",
+        "account_name": "ESS News",
+        "category": "行情价格",
+        "title": "中国能建7GWh储能电芯集采：314Ah低价0.34元/Wh，500Ah低价0.360元/Wh",
+        "summary": "ESS News 5月12日报道，中国能建7GWh储能电芯集采形成新的公开报价样本：≥314Ah包中，融捷能源最低报价17亿元、折合0.34元/Wh（约47美元/kWh），双登集团17.245亿元、0.345元/Wh；德赛电池和中创新航均为0.365元/Wh，亿纬锂能0.394元/Wh。≥500Ah包中，鹏程无限最低7.204亿元、0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+        "body": [
+          "本轮国内搜索未发现SMM在5月18日更新储能电芯周评，SMM储能数据页仍停留在5月7日周评；因此补入公开英文媒体对中国能建集采结果的细项报价。",
+          "314Ah与500Ah两类电芯同时出现公开低价样本，可用于MarketTrend跟踪大容量电芯规格切换与价格底部位置。",
+          "报价来自集采候选/投标口径，不等同最终成交均价；仍需后续以中标公告、合同规模和交付条款复核。"
+        ],
+        "key_points": [
+          "集采规模：7GWh储能电芯。",
+          "≥314Ah包：融捷能源0.34元/Wh为最低公开报价；双登0.345元/Wh。",
+          "≥314Ah包其他报价：德赛电池0.365元/Wh，中创新航0.365元/Wh，亿纬锂能0.394元/Wh。",
+          "≥500Ah包：鹏程无限0.360元/Wh，中创新航0.375元/Wh，亿纬锂能0.383元/Wh。",
+          "数据含0.5C与0.25C、方形铝壳LFP电芯口径。"
+        ],
+        "value": "0.34",
+        "unit": "元/Wh 314Ah低价",
+        "delta": "500Ah低价0.360元/Wh；7GWh集采",
+        "direction": "down",
+        "date": "05-12",
+        "as_of": "2026-05-12",
+        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
+        "clean_html": "<p>中国能建7GWh储能电芯集采中，314Ah包最低报价0.34元/Wh，500Ah包最低报价0.360元/Wh。</p>",
+        "caption": "国内集采样本：314Ah与500Ah电芯低价区间重新锚定",
+        "methodology": "10:00主动国内+海外检索，抓取ESS News原文HTML（sha256 9358d294c33832f7c394d9291733268921c1be6ce8ccc9c516d21ef744c3bb96）；抽取中国能建7GWh集采分包、投标企业和折算元/Wh报价。SMM储能数据页同步抓取（sha256 afc4d2f74da3882dce241858010ca8b93c8fe27367a97225a9972c314ed7b386），未见5月18日新增周评。",
+        "history": [
+          {
+            "label": "集采规模 GWh",
+            "value": 7
+          },
+          {
+            "label": "314Ah最低 元/Wh",
+            "value": 0.34
+          },
+          {
+            "label": "314Ah双登 元/Wh",
+            "value": 0.345
+          },
+          {
+            "label": "314Ah德赛/中创新航 元/Wh",
+            "value": 0.365
+          },
+          {
+            "label": "314Ah亿纬 元/Wh",
+            "value": 0.394
+          },
+          {
+            "label": "500Ah最低 元/Wh",
+            "value": 0.36
+          }
+        ]
+      },
+      {
         "source": "新浪财经 / 广东省电池行业协会产业研究中心",
         "source_type": "国内公开周度开标/储能电芯与系统价格",
         "account_name": "广东电池",
@@ -41557,58 +42364,6 @@ window.NEOLINK_FEED= {
           {
             "label": "宁德时代中标 MWh",
             "value": 1000
-          }
-        ]
-      },
-      {
-        "source": "ESS News / 中国能建储能科技（武汉）",
-        "source_type": "国内招投标/储能电芯框采海外报道",
-        "account_name": "ESS News",
-        "category": "招投标",
-        "title": "中国能建储能科技7GWh电芯采购：314Ah低价0.34元/Wh，500Ah低价0.36元/Wh",
-        "summary": "ESS News报道，中国能建储能科技（武汉）7GWh储能电芯采购覆盖两个标包：5GWh的≥314Ah方形铝壳LFP电芯、2GWh的≥500Ah方形铝壳LFP电芯。314Ah标包中融捷能源报价17亿元、折合0.34元/Wh（约47美元/kWh）为低价；500Ah标包中鹏程无限报价7.204亿元、折合0.360元/Wh为低价。",
-        "body": [
-          "该框采与SMM电芯报价互相印证：招标低价低于现货均价，但500Ah大容量路线已进入2GWh级集中采购。",
-          "入围企业包括双登、融捷、德赛、国轩/中创新航、亿纬与鹏程无限等，CALB和亿纬同时进入两个标包。",
-          "314Ah与500Ah成为主导规格，说明储能电芯采购正在从多规格分散转向大容量标准化。"
-        ],
-        "key_points": [
-          "采购总规模：7GWh。",
-          "标包1：≥314Ah电芯5GWh；融捷能源低价0.34元/Wh。",
-          "标包2：≥500Ah电芯2GWh；鹏程无限低价0.360元/Wh。",
-          "314Ah其他报价：双登0.345元/Wh，德赛/CALB 0.365元/Wh，亿纬0.394元/Wh。",
-          "500Ah其他报价：亿纬0.383元/Wh，CALB 0.375元/Wh。"
-        ],
-        "value": "7",
-        "unit": "GWh 储能电芯采购",
-        "delta": "314Ah低价0.34元/Wh；500Ah低价0.360元/Wh",
-        "direction": "down",
-        "date": "05-12",
-        "as_of": "2026-05-12",
-        "url": "https://www.ess-news.com/2026/05/12/ceecs-7-gwh-battery-storage-cell-procurement-sees-low-end-prices-at-47-kwh/",
-        "clean_html": "<p>中国能建储能科技7GWh储能电芯采购中，≥314Ah标包5GWh低价0.34元/Wh，≥500Ah标包2GWh低价0.360元/Wh。</p>",
-        "caption": "中国能建7GWh电芯框采：314Ah低价0.34元/Wh",
-        "methodology": "08:00主动海外检索并抓取ESS News HTML（sha256 7593b1684bbd45233d90f1c53999831cd3d1a24e1b9c0dbbcf5fd9c368ef7d00）；抽取标包规模、规格、入围方和报价。",
-        "history": [
-          {
-            "label": "总采购 GWh",
-            "value": 7
-          },
-          {
-            "label": "314Ah标包 GWh",
-            "value": 5
-          },
-          {
-            "label": "500Ah标包 GWh",
-            "value": 2
-          },
-          {
-            "label": "314Ah低价 元/Wh",
-            "value": 0.34
-          },
-          {
-            "label": "500Ah低价 元/Wh",
-            "value": 0.36
           }
         ]
       },
@@ -41882,6 +42637,114 @@ window.NEOLINK_FEED= {
       }
     ],
     "global": [
+      {
+        "source": "PV Tech / Masdar / EWEC",
+        "source_type": "海外企业与公用事业合作框架",
+        "account_name": "PV Tech",
+        "category": "海外市场",
+        "title": "Masdar与EWEC签署框架：阿联酋规划超30GW光伏与超8GW电池储能",
+        "summary": "PV Tech 5月5日报道，阿联酋Masdar与Emirates Water and Electricity Company签署合作框架协议，目标加速部署超过30GW公用事业级光伏和超过8GW电池储能，并服务阿布扎比2035清洁能源目标。该框架与Masdar已公布的5.2GWdc光伏+19GWh储能、1GW全天候可调度清洁电力项目形成互补。",
+        "body": [
+          "该合作框架将大型光伏与电池储能作为阿布扎比电力系统减碳和供电安全的组合资产，明确把8GW以上BESS纳入中长期部署路径。",
+          "对中国储能产业链而言，中东市场仍是大储出海的高确定性区域之一，项目常以公用事业级光伏、长时储能、全天候清洁电力为组合形态推进。",
+          "该信息属于框架协议，不等同于单个项目中标或订单；后续价值确认仍需观察招标、EPC、设备采购和融资文件。"
+        ],
+        "key_points": [
+          "合作方：Masdar与Emirates Water and Electricity Company。",
+          "规划目标：超过30GW公用事业级光伏、超过8GW电池储能。",
+          "政策背景：支撑阿布扎比2035清洁能源目标和UAE Net Zero by 2050。",
+          "关联项目：Masdar此前公布5.2GWdc光伏+19GWh储能，计划提供1GW 24/7可调度清洁电力。",
+          "风险提示：合作框架需以具体招标、采购和并网进度确认。"
+        ],
+        "value": "8+",
+        "unit": "GW 电池储能规划",
+        "delta": "配套30GW+光伏；另有关联19GWh储能项目",
+        "direction": "up",
+        "date": "05-05",
+        "as_of": "2026-05-05",
+        "url": "https://www.pv-tech.org/masdar-ewec-sign-agreement-on-30gw-solar-pv-and-8gw-storage-deployment-in-uae/",
+        "clean_html": "<p>Masdar与EWEC签署合作框架，拟加速部署超过30GW光伏和超过8GW电池储能，支撑阿布扎比2035清洁能源目标。</p>",
+        "caption": "中东大储：8GW以上BESS纳入阿联酋公用事业规划",
+        "methodology": "11:00海外公开来源检查；页面HTTP 200，sha256 45afc3a700de21f5bf7e4222f76c17c6e8676160794b793fe00900c1796038f1；抽取合作方、容量目标、政策背景和关联项目容量。",
+        "history": [
+          {
+            "label": "规划光伏 GW",
+            "value": 30
+          },
+          {
+            "label": "规划BESS GW",
+            "value": 8
+          },
+          {
+            "label": "关联光伏 GWdc",
+            "value": 5.2
+          },
+          {
+            "label": "关联储能 GWh",
+            "value": 19
+          },
+          {
+            "label": "可调度电力 GW",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "pv magazine / ESS News / OCCTO",
+        "source_type": "海外容量市场/日本长期脱碳电源拍卖",
+        "account_name": "pv magazine",
+        "category": "海外市场",
+        "title": "日本长期脱碳电源拍卖授予电池储能1.25GW，19个项目入选",
+        "summary": "pv magazine 5月16日报道，日本FY2025长期脱碳电源拍卖（LTDA）中，电池储能获得1.25GW（折减后）容量、覆盖19个项目；其中锂离子电池551MW，非锂电池储能699MW。OCCTO本轮共授予7.3GW、32个项目，脱碳电源4.26GW，LNG火电3.04GW；储能占脱碳电源授予容量近30%。",
+        "body": [
+          "本轮拍卖规则变化明显：小于6小时的储能项目不再具备参拍资格，并新增电芯采购与网络安全合规要求。",
+          "尽管投标量从FY2024接近7GW降至FY2025的2.73GW，最终授予电池储能1.25GW，仅略低于上一轮1.37GW。",
+          "日本容量机制继续给长时储能、非锂技术和抽水蓄能改造提供收入锚，对中国储能出海企业有项目结构与合规要求的参考价值。"
+        ],
+        "key_points": [
+          "电池储能授予：1.25GW，19个项目。",
+          "锂离子电池：551MW；非锂电池储能：699MW。",
+          "OCCTO总授予：7.3GW（折减后），32个项目。",
+          "脱碳电源授予4.26GW，LNG火电3.04GW；电池储能约占脱碳电源30%。",
+          "投标容量：2.73GW，较FY2024接近7GW明显下降，主因短于6小时项目被排除。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本电池储能LTDA授予容量",
+        "delta": "19个项目；锂电551MW/非锂699MW",
+        "direction": "up",
+        "date": "05-16",
+        "as_of": "2026-05-16",
+        "url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "clean_html": "<p>日本FY2025长期脱碳电源拍卖授予电池储能1.25GW，包含锂离子551MW与非锂储能699MW。</p>",
+        "caption": "日本LTDA：6小时门槛后，电池储能仍获得1.25GW",
+        "methodology": "10:00主动海外检索并抓取pv magazine页面（sha256 d569bd2599b490a179682756fb00945d3c2efa8546e4256c4d5f0b8d341e5add）；抽取OCCTO FY2025 LTDA授予容量、储能技术拆分和规则变化。",
+        "history": [
+          {
+            "label": "电池储能授予 GW",
+            "value": 1.25
+          },
+          {
+            "label": "项目数",
+            "value": 19
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "总授予 GW",
+            "value": 7.3
+          },
+          {
+            "label": "储能投标 GW",
+            "value": 2.73
+          }
+        ]
+      },
       {
         "source": "Solar Power Portal / NESO",
         "source_type": "海外容量市场/英国T-1拍卖",
@@ -43116,5 +43979,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-18T09:00:00+08:00"
+  "checked_at": "2026-05-18T11:00:00+08:00"
 };
