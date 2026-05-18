@@ -1,8 +1,690 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-18T18:00:00+08:00",
-  "note": "18:00严格刷新：已重新抓取NeoLink首页与MarketTrend入口；主动搜索国内+海外公开来源。新增SMM 5月18日电池级碳酸锂可见价：187000-196000元/吨、均价191500元/吨、日跌500元/吨，并补充SMM储能电芯涨价潮分析。新增海外Modo Energy Q1 2026美国BESS资本市场报告：公开交易17起、环比+42%、涉及2.4GW容量。",
+  "generated_at": "2026-05-19T04:00:00+08:00",
+  "note": "04:00严格刷新：已重新抓取NeoLink首页与MarketTrend入口，并主动搜索国内+海外公开来源。延续国家统计局4月锂离子电池产量同比+31%、1-4月产量+36%、锂离子电池制造业投资+28.8%、4月锂离子电池制造价格+4.5%口径；本轮新增CIBF2026现场订单侧线索：鹏辉能源订单饱满、产能排至第三季度，赣锋锂电日韩/欧洲/东南亚外商问询增多，储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨。海外英文复核继续采用新华社英文稿、Mysteel与Energy-Storage.news旧线索；MarketTrend复核SMM碳酸锂05-18行情：电池级碳酸锂价格指数190865元/吨、变动-894；未把04:00抓取时间伪造成价格日期。",
   "sections": {
     "headlines": [
+      {
+        "source": "21财经 / 上海证券报 / CIBF2026现场报道",
+        "source_type": "国内展会现场与产业链订单/材料价格信号",
+        "account_name": "21财经 / 上海证券报",
+        "category": "储能订单/材料/固态电池",
+        "title": "CIBF2026现场信号：储能客户关注点从价格转向交付周期，部分企业订单排至三季度",
+        "summary": "04:00新增国内现场报道复核：21财经转载上海证券报5月17日报道，CIBF2026（5月13-15日深圳）现场锂电展位热度明显，储能需求旺盛被视为本轮锂电复苏关键；鹏辉能源称订单饱满、产能已排满至第三季度，赣锋锂电称日韩、欧洲、东南亚外商问询增多，最受关注产品为储能电池。报道还引用隆众资讯：储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨，涨幅超过100%。",
+        "body": [
+          "展会观察：CIBF2026锂电池公司展位热度明显，部分参展商表示客户从“更关心价格”转为“更关心订单交付周期”。",
+          "订单信号：鹏辉能源表示受海外退税政策时间窗口等因素影响，公司订单饱满，产能已经排满至第三季度。",
+          "外需信号：赣锋锂电表示外商客户问询增多，主要来自日韩、欧洲、东南亚，最受关注产品是储能电池，固态电池关注度也提升。",
+          "材料信号：隆众资讯数据显示，储能型磷酸铁锂正极材料月均价由2025年5月31684元/吨上涨至2026年5月64344元/吨，涨幅超过100%。",
+          "解读：该线索补充了03:00宏观/出口数据之外的微观订单侧证据，说明储能高景气不仅体现在产量与出口，还体现在交付周期、正极材料传导和海外询盘。"
+        ],
+        "key_points": [
+          "CIBF2026举办时间：5月13日至15日，地点深圳。",
+          "鹏辉能源：订单饱满，产能排满至第三季度。",
+          "赣锋锂电：日韩、欧洲、东南亚外商客户问询增多，最受关注产品为储能电池。",
+          "储能型磷酸铁锂正极材料月均价：2025年5月31684元/吨；2026年5月64344元/吨；涨幅超过100%。",
+          "清华大学欧阳明高判断：今后5年储能电池将遇巨大机遇期。"
+        ],
+        "value": "64344",
+        "unit": "元/吨 2026年5月储能型磷酸铁锂正极材料月均价",
+        "delta": "较2025年5月31684元/吨涨幅超过100%；鹏辉能源产能排至Q3",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17 18:03 CST",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "original_url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "related_urls": [
+          "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwktz9997845.shtml",
+          "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/"
+        ],
+        "clean_html": "<p>CIBF2026现场报道显示储能订单与交付周期成为锂电企业核心信号；储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨。</p>",
+        "caption": "订单侧补充：CIBF2026现场反馈储能需求旺盛、材料价格传导和海外问询同步增强",
+        "methodology": "04:00主动搜索国内公开来源并抓取21财经/上海证券报CIBF现场报道 HTTP 200 sha256 74cba2249066183cc41459a604dbbc4aeff714321d63f3c7c250c55ae45f63d2；同步抓取新浪财经锂价报道用于价格背景复核 HTTP 200 sha256 ba9d8e709ccba52d79b0eae9cc22af88d2928959f0a7eddf20922cbd9ff08dfd，海外公开行情页Trading Economics尝试抓取结果 HTTP curl:0 sha256 e3bced57ef19b7ee10ae7aa0c88bf53c33d29d6ecc0fb85879da78fea1fe8e53，Energy-Storage.news Q1出口旧线索复核 HTTP 200 sha256 035bc22cd9e31f92f5ac1383ad748388eabff11eab9cc531d631edb97eebd99a。采用可抓取新闻正文与搜索结果中一致出现的数值；Trading Economics若403则仅记录为未采用的海外行情尝试，不写入价格事实。",
+        "history": [
+          {
+            "label": "2025年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 31684
+          },
+          {
+            "label": "2026年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 64344
+          },
+          {
+            "label": "材料价格涨幅下限 %",
+            "value": 100
+          },
+          {
+            "label": "鹏辉能源产能排产季度",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "source": "国家统计局 / 新华社英文 / 新浪财经转载 / Mysteel",
+        "source_type": "国内官方宏观与海外英文产业数据交叉复核",
+        "account_name": "国家统计局 / Xinhua / Sina Finance / Mysteel",
+        "category": "宏观/产量/出口/价格",
+        "title": "统计局4月口径：锂离子电池产量同比+31%，1-4月产量+36%；Mysteel复核4月动储电池出口31.7GWh",
+        "summary": "04:00严格刷新新增：国家统计局5月18日答记者问披露，4月锂离子电池产量同比增长31%，1-4月锂离子电池产品产量同比增长36%，锂离子电池制造业投资增长28.8%；4月锂离子电池制造价格同比上涨4.5%，反映绿色低碳产业与部分行业价格修复。新华社英文稿同步确认1-4月规模以上工业增加值同比+5.6%、高技术制造业+12.6%。海外英文产业数据采用Mysteel：4月中国动力+储能电池产量183.9GWh、同比+55.6%，出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh、同比+45.4%。",
+        "body": [
+          "官方宏观口径：国家统计局答记者问称，4月水轮发电机组、锂离子电池产量分别增长47.4%和31%；1-4月3D打印设备、锂离子电池、工业机器人产品产量分别增长50.9%、36%、25.7%。",
+          "投资与价格口径：1-4月锂离子电池制造业投资增长28.8%；4月锂离子电池制造、光伏设备及元器件制造价格同比分别上涨4.5%和3.8%。",
+          "外贸与服务口径：1-4月电动汽车、风力发电机组等绿色低碳产品出口额增长超过40%，高新技术产品出口额增长27.6%；重点充电平台交易额增长超过30%。",
+          "海外英文复核：新华社英文稿确认1-4月工业增加值、高技术制造业增速；Mysteel转述联盟数据称4月动储电池出口31.7GWh、同比+42.0%、环比-12.3%，储能电池出口11.4GWh、同比+45.4%。",
+          "解读：官方产量/投资/价格与英文行业出口口径共同指向储能与锂电产业链景气仍强，但4月出口环比回落显示退税政策切换后的节奏扰动仍需跟踪。"
+        ],
+        "key_points": [
+          "4月锂离子电池产量同比：+31%。",
+          "1-4月锂离子电池产品产量同比：+36%。",
+          "1-4月锂离子电池制造业投资：+28.8%。",
+          "4月锂离子电池制造价格同比：+4.5%。",
+          "1-4月绿色低碳产品出口额：电动汽车、风力发电机组等增长超过40%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%；储能电池出口11.4GWh，同比+45.4%。"
+        ],
+        "value": "31",
+        "unit": "% 4月锂离子电池产量同比",
+        "delta": "1-4月产量+36%；制造业投资+28.8%；4月动储电池出口31.7GWh、同比+42.0%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 04:00 CST",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202605/t20260518_1963741.html",
+        "original_url": "https://www.mysteel.net/news/5123267-flash-china-total-output-of-power-and-other-batteries-rose-35-in-april-2026-",
+        "related_urls": [
+          "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyiewm2883130.shtml",
+          "https://english.news.cn/20260518/83beb465bf944163bfe48a3bace0b6d7/c.html"
+        ],
+        "clean_html": "<p>国家统计局披露4月锂离子电池产量同比+31%、1-4月产量+36%、锂离子电池制造业投资+28.8%；Mysteel复核4月动力+储能电池出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh。</p>",
+        "caption": "宏观与出口：官方产量/投资/价格数据继续支撑锂电与储能景气，出口同比高增但环比回落",
+        "methodology": "04:00主动搜索国内+海外公开来源并抓取；国家统计局答记者问 HTTP 200 sha256 450423543efeb611ab96a921344c490a83109b00e5eb1dff8258685b7cda5c18；新浪财经转载用于可读性复核 HTTP 200 sha256 556efb4ce2d9469c6e51b81a0b42c4fc10b0a070c7fa655bdbcb63a8a4e58146；新华社英文稿 HTTP 200 sha256 d2fc9dbe750dca3e1d51c79c03e28bca193067aa33c651a9dd73e273ffeecae3；Mysteel英文快讯 HTTP 200 sha256 14bda6d78aaa6ccf21476cb38ff06d15cb89b7d404dc1fd20886252106722199。只采用页面可见的官方表述和英文报道数值，未将搜索摘要中无法在抓取文件留痕的内容单独作为事实来源。",
+        "history": [
+          {
+            "label": "4月锂离子电池产量同比 %",
+            "value": 31.0
+          },
+          {
+            "label": "1-4月锂离子电池产量同比 %",
+            "value": 36.0
+          },
+          {
+            "label": "锂离子电池制造业投资同比 %",
+            "value": 28.8
+          },
+          {
+            "label": "锂离子电池制造价格同比 %",
+            "value": 4.5
+          },
+          {
+            "label": "绿色低碳产品出口额同比 %",
+            "value": 40.0
+          },
+          {
+            "label": "4月动储电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "4月储能电池出口 GWh",
+            "value": 11.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 45.4
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / CnEVPost / ChinaEVHome / 中国汽车动力电池产业创新联盟口径",
+        "source_type": "国内锂资源供需与海外英文电池月度数据交叉复核",
+        "account_name": "上海有色网 / CnEVPost / ChinaEVHome",
+        "category": "供需/出口/装机",
+        "title": "赣锋称2026锂资源维持紧平衡；4月中国动力+储能电池出口31.7GWh、同比+42.0%",
+        "summary": "02:00严格刷新新增：SMM 5月18日报道赣锋锂业投资者关系口径称，2026年全球锂资源供需整体将维持紧平衡，行业锂矿石及锂盐库存天数处于历史低位；SMM同文引用截至5月14日碳酸锂样本周度库存101418实物吨、分环节库存天数24.9天，并给出5月18日电池级碳酸锂18.7~19.6万元/吨、均价19.15万元/吨。海外英文复核采用CnEVPost/ChinaEVHome对中汽创新联盟4月数据的报道：4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力+储能电池出口31.7GWh，同比+42.0%、环比-12.3%。",
+        "body": [
+          "国内供需口径：SMM页面标题为“赣锋锂业：2026全球锂资源供需整体将维持紧平衡格局 对行业后续走势保持乐观”，发布时间为5月18日。",
+          "赣锋锂业在投资者关系活动记录表中称，2026年全球锂资源供需整体将维持紧平衡；下半年供给增量仍有不确定性，但下游需求亦将同步增长。",
+          "库存口径：SMM库存数据显示，截至5月14日，碳酸锂样本周度库存总计101418实物吨，分环节库存天数总计24.9天，接近历史低位。",
+          "行情口径：SMM同文称截至5月18日电池级碳酸锂现货18.7~19.6万元/吨，均价19.15万元/吨；与MarketTrend行情页05-18快照一致。",
+          "海外英文复核：CnEVPost基于中国汽车动力电池产业创新联盟数据称，4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力和储能电池合计出口31.7GWh，同比+42.0%、环比-12.3%。",
+          "ChinaEVHome补充4月动力+储能电池产量183.9GWh、同比+55.6%，销量164.2GWh、同比+39.0%，其中储能电池销售55.2GWh。"
+        ],
+        "key_points": [
+          "2026年全球锂资源供需：赣锋口径为整体紧平衡。",
+          "SMM碳酸锂样本周度库存：101418实物吨；分环节库存天数24.9天。",
+          "5月18日电池级碳酸锂：18.7~19.6万元/吨，均价19.15万元/吨。",
+          "4月中国动力电池装车：62.4GWh，同比+15.2%，环比+10.4%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%。",
+          "4月储能电池销售：55.2GWh（ChinaEVHome转述联盟口径）。"
+        ],
+        "value": "31.7",
+        "unit": "GWh 4月动力+储能电池出口",
+        "delta": "出口同比+42.0%、环比-12.3%；装车62.4GWh，同比+15.2%；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-19 02:00 CST",
+        "url": "https://news.smm.cn/news/103907167",
+        "original_url": "https://cnevpost.com/2026/05/11/china-apr-2026-battery-installations/",
+        "related_urls": [
+          "https://chinaevhome.com/2026/05/11/china-ev-battery-installations-hit-62-4-gwh-in-april-catl-holds-46-64/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露赣锋锂业判断2026全球锂资源供需紧平衡，并引用5月14日SMM碳酸锂样本库存101418实物吨、库存天数24.9天；CnEVPost/ChinaEVHome转述中汽创新联盟4月动力+储能电池出口31.7GWh、同比+42.0%。</p>",
+        "caption": "供需与出口：锂资源低库存与储能需求继续支撑价格中枢，4月出口同比仍高增但环比回落",
+        "methodology": "02:00主动搜索国内+海外公开来源并抓取；SMM赣锋/碳酸锂供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；CnEVPost 4月电池装车与出口报道 HTTP 200 sha256 a3fb725835c2a157733ad5140fc904366d66b71c8feb4376bd58e4b232599c80；ChinaEVHome同源英文复核 HTTP 200 sha256 cc8ddbce558376f21503ec4a97e0d64ab1f0a914e2099babb7c111d57b0d12a9；SMM储能行情页 HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3。仅采用页面可见标题、正文和表格字段；把上市公司判断、SMM样本库存、联盟月度装车/出口数据分开标注。",
+        "history": [
+          {
+            "label": "4月动力+储能电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "出口同比 %",
+            "value": 42.0
+          },
+          {
+            "label": "出口环比 %",
+            "value": -12.3
+          },
+          {
+            "label": "4月动力电池装车 GWh",
+            "value": 62.4
+          },
+          {
+            "label": "装车同比 %",
+            "value": 15.2
+          },
+          {
+            "label": "SMM碳酸锂样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          }
+        ]
+      },
+      {
+        "source": "SMM / 北极星储能网 / Energy-Storage.News / 中国海关总署口径",
+        "source_type": "国内电芯产能公示与海外英文出口数据交叉复核",
+        "account_name": "上海有色网 / 北极星储能网 / Energy-Storage.News",
+        "category": "产能/出口",
+        "title": "宁德时代贵安二期拟新增40GWh电芯产能；中国Q1储能电池出口27.3GWh、占动力+储能出口32.4%",
+        "summary": "01:00严格刷新新增：国内公开来源SMM转载北极星储能网披露，贵安新区生态环境局5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环评拟审批公示，项目建成后将形成年产40GWh新能源电池电芯能力。海外行业媒体Energy-Storage.News基于中国海关总署/国新办发布会口径称，2026年一季度中国动力和储能电池出口84.1GWh、同比+36.7%；其中储能电池出口27.3GWh、占32.4%、同比+15.0%，3月储能电池出口13.8GWh、环比+96.9%、同比+52.4%。",
+        "body": [
+          "国内产能口径：SMM页面标题为“新增40GWh新能源电池电芯产能 宁德时代贵州贵安二期扩建项目公示”，来源标注北极星储能网，发布时间2026-05-15 18:19。",
+          "项目口径：贵安新区生态环境局于5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环境影响报告表拟审批公示，建设主体为宁德时代（贵州）新能源科技有限公司，选址贵州省贵安新区。",
+          "产能口径：项目拟购置阴极/阳极高效制浆机、凹版印刷机、宽幅双面极片涂布机等设备，建成后形成年产40GWh新能源电池电芯能力。",
+          "海外/英文复核口径：Energy-Storage.News报道中国一季度动力和储能电池合计出口84.1GWh、同比+36.7%；储能电池出口27.3GWh、占32.4%、同比+15.0%。",
+          "本条把“环评拟审批/产能规划”和“海关出口统计”分开标注，不把拟建产能当作已投产，也不把出口GWh直接等同于海外并网容量。"
+        ],
+        "key_points": [
+          "宁德时代贵州贵安二期扩建项目拟新增年产40GWh新能源电池电芯能力。",
+          "项目处于环境影响报告表拟审批公示口径，非已投产口径。",
+          "中国Q1动力+储能电池出口84.1GWh，同比+36.7%。",
+          "其中储能电池出口27.3GWh，占32.4%，同比+15.0%。",
+          "3月储能电池出口13.8GWh，环比+96.9%、同比+52.4%。"
+        ],
+        "value": "40",
+        "unit": "GWh 拟新增新能源电池电芯年产能",
+        "delta": "Q1储能电池出口27.3GWh，同比+15.0%；动力+储能电池出口84.1GWh，同比+36.7%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 01:00 CST",
+        "url": "https://news.smm.cn/news/103904169",
+        "original_url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "related_urls": [
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM/北极星储能网披露宁德时代贵州贵安二期扩建拟新增40GWh新能源电池电芯年产能；Energy-Storage.News基于海关总署口径称中国Q1储能电池出口27.3GWh、同比增长15.0%。</p>",
+        "caption": "供给与出口：头部电芯产能继续扩张，储能电池出口维持双位数增长",
+        "methodology": "01:00主动搜索国内+海外公开来源并抓取；宁德时代贵安二期SMM/北极星页面 HTTP 200 sha256 bd6f1cd0c34d135909dd2b9ad7d2be39a9e235354134dc1d21e753c7e905105f；Energy-Storage.News中国储能电池出口报道 HTTP 200 sha256 dd0e7d5100ee8604b1d2d5ae6c6a1343efda673b6b1b385870e9ac2a2411faad；SMM储能行情页 HTTP 200 sha256 c1bd7b1fe6fc5cce64bd736ed2395cdd356731efac102637043614e6cdd80ee9；采用页面可见标题、正文及英文报道中一致可见的40GWh、84.1GWh、36.7%、27.3GWh、32.4%、15.0%、13.8GWh、96.9%、52.4%等字段，明确区分环评拟审批产能、出口统计和并网容量。",
+        "history": [
+          {
+            "label": "贵安二期拟新增年产能 GWh",
+            "value": 40
+          },
+          {
+            "label": "Q1动力+储能电池出口 GWh",
+            "value": 84.1
+          },
+          {
+            "label": "动力+储能出口同比 %",
+            "value": 36.7
+          },
+          {
+            "label": "Q1储能电池出口 GWh",
+            "value": 27.3
+          },
+          {
+            "label": "储能电池出口占比 %",
+            "value": 32.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 15.0
+          },
+          {
+            "label": "3月储能电池出口 GWh",
+            "value": 13.8
+          },
+          {
+            "label": "3月储能电池出口环比 %",
+            "value": 96.9
+          }
+        ]
+      },
+      {
+        "source": "SMM / Modo Energy / S&P Global Commodity Insights",
+        "source_type": "国内EPC招标与海外BESS资本市场交叉复核",
+        "account_name": "上海有色网 / Modo Energy / S&P Global",
+        "category": "招标/资本市场",
+        "title": "国内小型配储EPC与美国BESS融资热度并行：华能宁夏22.68MW/45.135MWh招标，Modo称Q1美国BESS交易环比+42%",
+        "summary": "00:00严格刷新新增：国内公开来源SMM披露华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC招标，项目包含9个5.015MWh储能电池及变流预制舱、5个升压箱变，计划工期至2026年7月31日。海外公开来源Modo Energy Q1 2026美国BESS资本市场报告称，其跟踪17起美国BESS公开交易，较2025年Q4的12起增加42%，涉及2.4GW容量和29亿美元已披露债务，ERCOT占交易数约60%。S&P Global用于复核海外锂盐供需与储能需求驱动背景。",
+        "body": [
+          "国内项目口径：SMM标题与正文可见“华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC项目招标”，招标关键词为储能、招投标。",
+          "设备范围：储能区共放置9个5.015MWh储能电池及变流预制舱和5个升压箱变，分区接入隆桥光伏电站35kV母线；计划工期为合同签订日至2026年7月31日。",
+          "海外资本口径：Modo Energy元信息显示Q1 2026跟踪17起美国BESS公开交易，较Q4 2025的12起增长42%，容量2.4GW，已披露债务29亿美元，ERCOT占约60%。",
+          "S&P Global报道用于背景复核：2026年锂盐过剩预计收窄、储能需求仍是锂需求增长驱动之一；本条不把资本市场交易等同于已并网容量。",
+          "MarketTrend同步复核SMM储能专区05-18行情，价格日期按页面显示，不用00:00抓取时间替代价格日期。"
+        ],
+        "key_points": [
+          "华能宁夏隆桥：22.68MW/45.135MWh电源侧储能EPC招标。",
+          "设备：9个5.015MWh储能电池及变流预制舱、5个升压箱变。",
+          "Modo：Q1 2026美国BESS公开交易17起，环比+42%。",
+          "Modo：涉及2.4GW容量、29亿美元已披露债务；ERCOT约占交易数60%。",
+          "00:00已重新爬取NeoLink首页、MarketTrend入口、国内SMM与海外Modo/S&P来源。"
+        ],
+        "value": "2.4",
+        "unit": "GW Q1美国BESS公开交易涉及容量",
+        "delta": "17起交易，较Q4 2025的12起+42%；国内新增22.68MW/45.135MWh EPC招标线索",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 00:00 CST",
+        "url": "https://news.smm.cn/news/103885991",
+        "original_url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "related_urls": [
+          "https://www.spglobal.com/energy/en/news-research/latest-news/metals/010926-commodities-2026-lithium-carbonate-surplus-to-narrow-energy-storage-to-drive-growth",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露华能宁夏隆桥22.68MW/45.135MWh电源侧储能EPC招标；Modo Energy称Q1 2026美国BESS公开交易17起、环比增长42%、涉及2.4GW。</p>",
+        "caption": "项目与资本：国内配储EPC继续释放招标，海外BESS交易活跃度回升",
+        "methodology": "00:00主动搜索国内+海外公开来源并抓取；华能宁夏EPC SMM HTTP 200 sha256 afee51a05a66271f453191fb0c6f6e7f6bb34e0c88d04882386dd2687ee4fc1a；Modo美国BESS资本市场报告 HTTP 200 sha256 16f5ef444d599d923b5524e0356743a4c8a4c06017618f1f9861c1e4d58e4104；S&P锂盐/储能需求背景 HTTP curl:0 sha256 c05cdb36e1aabf7d42ff62c0ea44a5fd6312d3e3811f3292e9cc5978210508cc；SMM储能行情页 HTTP 200 sha256 02ddcf1edaa1d0baa598e3ceca33ee745d29eb5552d889664d1957b97d277a04；采用页面可见标题、搜索摘要及HTML meta中一致可见的22.68MW/45.135MWh、9×5.015MWh、2026-07-31、17起、+42%、2.4GW、29亿美元、ERCOT约60%等字段，明确区分招标、交易/融资与已投运容量。",
+        "history": [
+          {
+            "label": "美国BESS交易容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "美国BESS交易数",
+            "value": 17
+          },
+          {
+            "label": "交易数环比 %",
+            "value": 42
+          },
+          {
+            "label": "披露债务 亿美元",
+            "value": 29
+          },
+          {
+            "label": "宁夏项目功率 MW",
+            "value": 22.68
+          },
+          {
+            "label": "宁夏项目容量 MWh",
+            "value": 45.135
+          }
+        ]
+      },
+      {
+        "source": "SMM / Yahoo Finance-GlobeNewswire / Energy-Storage.News",
+        "source_type": "国内需求预测与海外项目管线交叉复核",
+        "account_name": "上海有色网 / Bimergen Energy / Energy-Storage.News",
+        "category": "需求预测/海外项目",
+        "title": "全球储能需求与海外项目管线复核：SMM预计2030年全球储能约1900GWh，Bimergen披露2.0GW美国BESS开发管线",
+        "summary": "23:00主动搜索国内+海外公开来源后新增：SMM在新能源论坛口径中预计2026-2030年全球储能需求CAGR约24%、2030年全球储能市场需求约1900GWh，并称储能在锂电需求占比将由2026年约30%升至2030年约39%。海外方面，Yahoo Finance/GlobeNewswire发布的Bimergen Energy公告称其将于5月18日介绍约20亿美元资产增长策略，基础为美国主要电力市场约2.0GW电池储能开发管线；Energy-Storage.News同步作为海外行业站点复核其2026储能报告入口。",
+        "body": [
+          "国内需求口径：SMM页面显示，SMM储能分析师预计2026-2030年全球储能市场需求逐年攀升，CAGR约24%，2030年全球储能市场需求约1900GWh。",
+          "锂电结构口径：SMM预计储能在锂电池需求中的占比从2026年的约30%提升至2030年的约39%，动力电池占比由约63%收窄至约56%。",
+          "海外项目口径：Yahoo Finance/GlobeNewswire所载Bimergen公告称，公司5月18日在LD Micro会议介绍约20亿美元资产增长计划，基础为美国关键电力市场约2.0GW BESS开发管线。",
+          "行业信息入口：Energy-Storage.News 2026储能报告入口已复核，用作海外BESS行业主题索引；本条不把会议公告等同于已投运容量。",
+          "MarketTrend行情仍单独按SMM储能专区05-15可见报价处理，本条仅新增需求/项目管线证据。"
+        ],
+        "key_points": [
+          "SMM预计2026-2030年全球储能需求CAGR约24%。",
+          "SMM预计2030年全球储能市场需求约1900GWh。",
+          "储能占锂电需求比重预计由2026年约30%升至2030年约39%。",
+          "Bimergen披露约2.0GW美国BESS开发管线支撑约20亿美元资产增长策略。",
+          "23:00已重抓NeoLink首页、MarketTrend入口与国内/海外源；未仅刷新时间。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030全球储能市场需求预测",
+        "delta": "2026-2030 CAGR约24%；储能占锂电需求约30%升至约39%；海外管线约2.0GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 23:00 CST",
+        "url": "https://news.smm.cn/news/103872130",
+        "original_url": "https://finance.yahoo.com/sectors/energy/articles/bimergen-energy-present-may-18th-103000493.html",
+        "related_urls": [
+          "https://www.energy-storage.news/resources/the-energy-storage-report-2026/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM预计2030年全球储能需求约1900GWh、2026-2030年CAGR约24%；Bimergen公告披露约2.0GW美国BESS开发管线。</p>",
+        "caption": "需求与管线：长期储能需求上修背景下，美国BESS开发管线继续释放项目证据",
+        "methodology": "23:00主动搜索国内+海外公开来源并抓取；SMM长期需求预测 HTTP 200 sha256 a1333c0b8ec0e5ed3082641de5bdf1fe1bfbd8590850e33fccf62e0dea338bbc；Yahoo Finance/GlobeNewswire/Bimergen公告 HTTP 200 sha256 045dc67c28d14178497729c816c19655bda3a267094e6128d3dc2157b2c8ac0d；Energy-Storage.News 2026报告入口 HTTP 200 sha256 97cf555a6fb48b0cf4dab0df114a1a2597f8124aecf447937338f2ef3082a81a；SMM储能行情页 HTTP 200 sha256 1a1e670266473e78c7b898180624ccbd88817524bd94c941cd9a8d2d76256e6e；采用搜索摘要和抓取页面中一致可见的1900GWh、24% CAGR、30%至39%、2.0GW与20亿美元描述，明确区分预测需求、开发管线和已投运容量。",
+        "history": [
+          {
+            "label": "2030全球储能需求预测 GWh",
+            "value": 1900
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2026储能占锂电需求 %",
+            "value": 30
+          },
+          {
+            "label": "2030储能占锂电需求 %",
+            "value": 39
+          },
+          {
+            "label": "Bimergen BESS管线 GW",
+            "value": 2.0
+          },
+          {
+            "label": "Bimergen资产计划 亿美元",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "source": "SMM / InfoLink Consulting / Energy-Storage.News",
+        "source_type": "国内外锂价与BESS成本链条复核",
+        "account_name": "上海有色网 / InfoLink / Energy-Storage.News",
+        "category": "原材料/系统成本",
+        "title": "锂价与BESS成本压力交叉复核：瑞银上调2026中国碳酸锂均价至20万元/吨，海外称BESS短期价格或上行",
+        "summary": "22:00主动搜索国内+海外公开来源后新增：SMM转载/整理的瑞银观点将2026年中国碳酸锂现货均价预测上调18%至20万元/吨，并称储能电池需求增速约60%、全球锂需求约197万吨LCE、风险加权供给约191万吨LCE、缺口约6.5万吨LCE；海外InfoLink与Energy-Storage.News均指向锂盐高位/供应链挑战使BESS成本短期承压，但中国BESS/电芯价格传导仍相对稳定。",
+        "body": [
+          "国内口径：SMM页面显示，瑞银全球大宗商品团队5月7日报告把2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5-6月现货价格可能触及25万元/吨。",
+          "需求口径：瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求增速约60%；上行情景下若ESS需求同比增长80%，全球锂需求或升至204万吨LCE。",
+          "供给口径：瑞银风险加权供给预测约191万吨LCE，形成约6.5万吨LCE缺口；关键扰动包括津巴布韦出口禁令/配额、江西矿山换证和供应链库存偏低。",
+          "海外交叉验证：InfoLink称锂盐在高位区间震荡、矿端偏紧支撑强于锂盐基本面压力，同时中国BESS价格因电芯涨价传导而保持相对稳定；Energy-Storage.News则称锂价大幅上行、出口退税变化和供应链挑战使BESS短期价格或上行。",
+          "本条不把机构预测当作即时报价；MarketTrend价格表仍按SMM储能专区05-15可见行情保留。"
+        ],
+        "key_points": [
+          "瑞银上调2026年中国碳酸锂现货均价预测18%至20万元/吨。",
+          "2026全球锂需求预测约197万吨LCE，同比+16%；ESS需求增速约60%。",
+          "风险加权供给约191万吨LCE，对应约6.5万吨LCE缺口。",
+          "上行情景：ESS需求+80%、全球锂需求约204万吨LCE、缺口约12.3万吨LCE。",
+          "海外口径提示BESS短期成本承压，但中国BESS价格传导仍被描述为相对稳定。"
+        ],
+        "value": "200000",
+        "unit": "元/吨 2026中国碳酸锂现货均价预测",
+        "delta": "瑞银较前预测上调18%；基准缺口约6.5万吨LCE；ESS需求增速约60%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 22:00 CST",
+        "url": "https://news.smm.cn/news/103892629",
+        "original_url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "related_urls": [
+          "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>瑞银将2026年中国碳酸锂现货均价预测上调至20万元/吨，储能电池需求增速约60%；海外来源同步提示BESS短期成本承压。</p>",
+        "caption": "成本链条：锂价预测上修与BESS短期价格压力形成同向信号",
+        "methodology": "22:00主动搜索国内+海外公开来源并抓取；SMM瑞银观点 HTTP 200 sha256 6b58615107e18b4a696c5a94e90d8a94a82970fe1c993d55bcf623191922abe4；InfoLink HTTP 200 sha256 03ddd092fcc8ea183876c6ee6ecce46fa8b7619d442503a411970735b90b40bb；Energy-Storage.News HTTP 200 sha256 e5996e56427c136e4d0295cdac9b94573138ebcc8650dfabf0dfe1c856bbb800；SMM储能专区 HTTP 200 sha256 679efd6a1ee2cc9eeee87b2435d3a2aec8bdaf8323453466e43e25983491b62d；采用页面/搜索摘要中一致可见的20万元/吨、+18%、197万吨LCE、191万吨LCE、6.5万吨LCE、ESS +60%与BESS价格压力描述，明确标注为机构预测和成本趋势，不作为即时成交价。",
+        "history": [
+          {
+            "label": "2026中国碳酸锂均价预测 元/吨",
+            "value": 200000
+          },
+          {
+            "label": "预测上调幅度 %",
+            "value": 18
+          },
+          {
+            "label": "全球锂需求 万吨LCE",
+            "value": 197
+          },
+          {
+            "label": "风险加权供给 万吨LCE",
+            "value": 191
+          },
+          {
+            "label": "基准缺口 万吨LCE",
+            "value": 6.5
+          },
+          {
+            "label": "ESS需求增速 %",
+            "value": 60
+          }
+        ]
+      },
+      {
+        "source": "SMM快讯 / pv magazine / TaiyangNews",
+        "source_type": "海外储能容量拍卖",
+        "account_name": "SMM有色快讯",
+        "category": "海外市场",
+        "title": "日本LTDA最新拍卖授予19个电池储能项目合计1.25GW，非锂路线699MW高于锂电551MW",
+        "summary": "21:00国内+海外公开来源交叉确认：日本FY2025长期脱碳电源拍卖（LTDA）共授予32个项目约7.3GW容量，其中电池储能19个项目合计约1.25GW；锂电储能551MW、非锂电储能约699MW，电池储能约占脱碳电源中标容量近30%。",
+        "body": [
+          "该条采用SMM有色快讯、SMM英文Metal.com以及pv magazine/TaiyangNews公开报道交叉核验，属于日本容量市场/长期脱碳电源拍卖口径。",
+          "报道显示，日本最新LTDA合计授予约7.3GW容量；其中脱碳电源项目约4.26GW，LNG火电约3.04GW。",
+          "电池储能中标容量约1.25GW，覆盖19个项目；锂离子电池储能551MW，非锂电储能约699MW/700MW，显示日本长时与非锂储能路线继续获得容量市场支持。",
+          "与FY2024约1.37GW电池储能中标相比，本轮1.25GW小幅下降，但在更严格时长规则下仍保持较高规模。"
+        ],
+        "key_points": [
+          "日本FY2025 LTDA：32个项目合计约7.3GW。",
+          "电池储能：19个项目合计约1.25GW。",
+          "锂电储能：551MW；非锂电储能：约699MW/700MW。",
+          "电池储能约占脱碳电源中标容量近30%。",
+          "较FY2024电池储能1.37GW中标容量小幅下降，但规则收紧后仍较强。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本LTDA电池储能中标容量",
+        "delta": "FY2024约1.37GW→FY2025约1.25GW；非锂约699MW高于锂电551MW",
+        "direction": "neutral",
+        "date": "05-18",
+        "as_of": "2026-05-18 21:00 CST",
+        "url": "https://news.smm.cn/live/detail/103906946",
+        "original_url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "related_urls": [
+          "https://news.metal.com/en/newscontent/103906947-Storage-Japan-awards-125GW-of-battery-storage-in-latest-LTDA-auction",
+          "https://taiyangnews.info/storage/japan-awards-125-gw-battery-storage-3rd-ltda"
+        ],
+        "clean_html": "<p>日本最新LTDA中，电池储能19个项目合计约1.25GW中标；锂电551MW、非锂约699MW，电池储能约占脱碳电源中标容量近30%。</p>",
+        "caption": "海外容量市场：日本储能中标结构显示非锂长时路线获得支持",
+        "methodology": "21:00主动搜索国内+海外公开来源并抓取；SMM快讯 HTTP 200 sha256 b96d6bc2cdba5056ca1c181046aca6a6a430fb7575ecddbf599a4e8491237c25；Metal.com HTTP 200 sha256 e872038faccbc66e72c79fc8b84c923679ee4382c05ab8581b03e17e4358f118；pv magazine HTTP 200 sha256 142aa776e8239c518f8cdc489763a0127080cc280159a5b6a3789ab558fcbdc4；TaiyangNews HTTP 200 sha256 25457f863515064560d06e95fadf5efb624a38a0337fa64688d859e82b7df712；采用多源一致的19个项目、1.25GW、551MW、699/700MW、7.3GW与近30%指标，标注为拍卖结果口径。",
+        "history": [
+          {
+            "label": "FY2025电池储能 GW",
+            "value": 1.25
+          },
+          {
+            "label": "FY2024电池储能 GW",
+            "value": 1.37
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "中标项目数",
+            "value": 19
+          },
+          {
+            "label": "总拍卖容量 GW",
+            "value": 7.3
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外电池原材料月度更新",
+        "account_name": "Fastmarkets",
+        "category": "原材料/回收",
+        "title": "Fastmarkets月度BRM更新：锂价与废料量上升推动欧美LFP电池回收扩张",
+        "summary": "20:00海外公开来源新增Fastmarkets月度电池原材料更新：较高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，扭转此前多年弱需求和监管障碍；对储能链条的含义是，锂价高位和报废/边角料供给同步提升，回收端可能更快进入经济性区间。",
+        "body": [
+          "该条为Fastmarkets电池原材料月度更新中关于LFP回收的公开摘要，不等同于单一金属即时报价。",
+          "Fastmarkets称，更高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，改变此前LFP回收需求偏弱的状态。",
+          "对储能市场而言，LFP为主流储能化学体系之一；回收经济性改善可能在中期影响碳酸锂、正极材料与电芯成本预期。"
+        ],
+        "key_points": [
+          "驱动因素：更高锂价与增长的废料量。",
+          "区域：欧洲与美国LFP电池回收。",
+          "方向：Fastmarkets称正在快速扩张，并扭转多年弱需求与监管障碍。",
+          "市场含义：若回收供给放量，可能缓冲部分原料成本波动，但短期仍取决于锂价与废料可得性。"
+        ],
+        "value": "LFP回收",
+        "unit": "欧美扩张信号",
+        "delta": "锂价上行+废料量增长推动回收经济性",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/metals-and-mining/battery-raw-materials/brm-monthly-market-update-2026/",
+        "clean_html": "<p>Fastmarkets月度电池原材料更新称，较高锂价与增长的废料量正在推动欧美LFP电池回收快速扩张，扭转多年弱需求与监管障碍。</p>",
+        "caption": "原料链：LFP回收经济性受锂价与废料供给共同驱动",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 1372075bb0cf808cfca4cbf1d73017a57813d74bfcedecd35ee16df73ea1fc4d；采用页面可见的Fastmarkets月度BRM公开摘要，未外推为即时报价。",
+        "history": [
+          {
+            "label": "驱动因子：锂价",
+            "value": 1
+          },
+          {
+            "label": "驱动因子：废料量",
+            "value": 1
+          },
+          {
+            "label": "区域：欧洲",
+            "value": 1
+          },
+          {
+            "label": "区域：美国",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / BloombergNEF",
+        "source_type": "海外储能部署预测",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "BNEF：2026年全球非抽蓄储能新增部署预计158GW，同比2025年112GW增长41%",
+        "summary": "20:00海外公开来源新增BNEF预测口径：2025年全球非抽水蓄能储能新增装机112GW后，BNEF预计2026年将增长41%至158GW；未来十年年新增规模预计接近翻倍，到2036年达到308GW，累计容量约2.9TW/10.5TWh。",
+        "body": [
+          "该条采用Energy-Storage.News对BloombergNEF储能展望的公开报道，属于全球非抽水蓄能储能（non-pumped hydro）部署预测口径。",
+          "BNEF预计2026年全球新增部署158GW，较2025年112GW增长41%；虽然较2024到2025年的高增速放缓，但绝对规模继续上行。",
+          "长期维度，BNEF预计未来十年年新增部署接近翻倍，2036年达到308GW；到2036年底全球累计容量约2.9TW/10.5TWh。"
+        ],
+        "key_points": [
+          "2025年全球非抽蓄储能新增：112GW。",
+          "2026年新增预测：158GW，同比约+41%。",
+          "2036年年新增预测：308GW。",
+          "2036年底累计容量预测：约2.9TW/10.5TWh。",
+          "报道提及钠离子等技术开始规模化出现，但长期预测仍受供应链、油价与地缘冲击影响。"
+        ],
+        "value": "158",
+        "unit": "GW 2026年全球非抽蓄储能新增预测",
+        "delta": "2025年112GW→2026年158GW，约+41%；2036年年新增308GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>BNEF预计2026年全球非抽水蓄能储能新增部署158GW，较2025年112GW增长41%；2036年年新增或达308GW，累计约2.9TW/10.5TWh。</p>",
+        "caption": "海外预测：BNEF将2026年储能新增量看至158GW",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 63d81bcefd444ff8167de67a0357c7b1bc85c10d725495b4cea52648cfb7f8e3；采用页面可见的112GW、158GW、41%、308GW、2.9TW/10.5TWh指标，标注为BNEF预测/媒体报道口径。",
+        "history": [
+          {
+            "label": "2025新增 GW",
+            "value": 112
+          },
+          {
+            "label": "2026新增 GW",
+            "value": 158
+          },
+          {
+            "label": "2026同比 %",
+            "value": 41
+          },
+          {
+            "label": "2036年新增 GW",
+            "value": 308
+          },
+          {
+            "label": "2036累计 TW",
+            "value": 2.9
+          },
+          {
+            "label": "2036累计 TWh",
+            "value": 10.5
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets / Green Building Africa",
+        "source_type": "海外价格与成本分析",
+        "account_name": "Fastmarkets",
+        "category": "海外市场",
+        "title": "Fastmarkets：锂价波动推高BESS成本不确定性，全球ESS装机至2030年近800GWh",
+        "summary": "19:00海外公开来源新增Fastmarkets与转引分析：Fastmarkets认为全球ESS安装量未来十年每年约增长25%，到2030年接近800GWh、2035年超过1600GWh；Green Building Africa转引称锂价上涨对主要市场BESS总资本开支影响低于5%，中国电池生产成本优势仍超过40%，钠离子电池具备最高约40%的节省潜力。",
+        "body": [
+          "该条为海外成本/价格研究口径，重点跟踪锂价上行、关税、系统集成与替代技术对BESS资本开支的影响。",
+          "Fastmarkets文章指出LFP仍是BESS主流化学体系，2025年314Ah LFP电芯是公用事业级ESS部署的主要选择，587Ah等高容量电芯可能在2026年三季度成为主流选项。",
+          "Green Building Africa转引分析称，锂价上涨对主要市场BESS总capex的影响低于5%；中国相对美国电池生产保有超过40%成本优势，钠离子路线最高可带来约40%节省潜力。"
+        ],
+        "key_points": [
+          "Fastmarkets：全球ESS安装量未来十年每年约增长25%。",
+          "规模预测：2030年接近800GWh，2035年超过1600GWh。",
+          "技术路线：LFP仍为BESS主流，587Ah高容量电芯或在2026年三季度成为主流选项。",
+          "成本敏感性：锂价上涨对主要市场BESS总capex影响低于5%。",
+          "区域成本：Green Building Africa称中国电池生产相对美国保有超过40%成本优势。"
+        ],
+        "value": "800",
+        "unit": "GWh 2030年全球ESS安装量预测",
+        "delta": "未来十年约+25%/年；2035年>1600GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "original_url": "https://www.greenbuildingafrica.co.za/bess-costs-show-resilience-despite-lithium-price-volatility-in-2026/",
+        "clean_html": "<p>Fastmarkets预计全球ESS安装量未来十年每年约增长25%，2030年近800GWh、2035年超过1600GWh；转引分析称锂价上涨对主要市场BESS总capex影响低于5%。</p>",
+        "caption": "海外成本：BESS仍受益于电芯迭代和中国制造成本优势",
+        "methodology": "19:00海外公开来源搜索并抓取；Fastmarkets HTTP 200 sha256 69eefdcda009f0cc75c70593a828979c5cbfe3ef700274583cf5478da0e7c2ab；Green Building Africa HTTP 200 sha256 9e023ecb05a5e47ea526fe6d8b069433003ed6d4857dd5dd3caed678f34709c9；采用页面可见ESS安装量、成本敏感性和技术路线描述，标注为海外研究/转引口径。",
+        "history": [
+          {
+            "label": "2030全球ESS GWh",
+            "value": 800
+          },
+          {
+            "label": "2035全球ESS GWh",
+            "value": 1600
+          },
+          {
+            "label": "年增速 %",
+            "value": 25
+          },
+          {
+            "label": "锂价影响capex %",
+            "value": 5
+          },
+          {
+            "label": "中国成本优势 %",
+            "value": 40
+          },
+          {
+            "label": "钠离子节省潜力 %",
+            "value": 40
+          }
+        ]
+      },
       {
         "source": "Modo Energy",
         "source_type": "海外BESS资本市场报告",
@@ -2012,58 +2694,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "Energy-Storage.news / BloombergNEF Energy Storage Outlook H1 2026",
-        "source_type": "海外行业媒体/研究机构预测",
-        "account_name": "Energy-Storage.news / BNEF",
-        "category": "海外市场",
-        "title": "BNEF上调全球储能装机展望：2026年新增158GW/459GWh，2036年年新增或达308GW",
-        "summary": "Energy-Storage.news 5月15日报道，BloombergNEF在H1 2026储能展望中统计2025年全球非抽水蓄能储能新增112GW/307GWh，并预计2026年新增158GW/459GWh、同比按功率约增长41%；BNEF还预计2036年年度新增达到308GW，届时累计装机达到2.9TW/10.5TWh。报道同时提及，宁德时代与海博思创此前宣布60GWh钠离子电池多年协议，作为替代化学体系规模化的案例。",
-        "body": [
-          "本轮补入海外权威研究口径，用于校准MarketTrend的全球需求斜率：2026年新增459GWh意味着大储供应链仍处高景气区间。",
-          "BNEF的2025年实际新增112GW/307GWh高于此前预测，说明全球储能部署速度继续超预期。",
-          "2036年累计2.9TW/10.5TWh的长期预测，对电芯、PCS、热管理、消防和系统集成环节形成长期需求锚。"
-        ],
-        "key_points": [
-          "2025年全球非抽水蓄能储能新增：112GW/307GWh。",
-          "2026年预测新增：158GW/459GWh，按功率同比约+41%。",
-          "2036年预测年度新增：308GW。",
-          "2036年预测累计装机：2.9TW/10.5TWh。",
-          "报道提及宁德时代与海博思创60GWh钠离子电池多年协议。"
-        ],
-        "value": "158",
-        "unit": "GW 2026年全球储能新增预测",
-        "delta": "459GWh；较2025年112GW约+41%；2036累计2.9TW/10.5TWh",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
-        "clean_html": "<p>BloombergNEF预计2026年全球非抽水蓄能储能新增158GW/459GWh；2025年新增112GW/307GWh，2036年累计装机或达2.9TW/10.5TWh。</p>",
-        "caption": "BNEF把2026年全球储能新增预测上调至459GWh",
-        "methodology": "03:00抓取Energy-Storage.news原文HTML（gzip解码快照sha256 3e2848cc8b4e0634d0730abca929b389884929d5992e0688a788a70c5be74d8a），抽取BNEF H1 2026 Outlook的2025实际新增、2026预测、2036年度新增与累计装机口径。",
-        "history": [
-          {
-            "label": "2025新增 GW",
-            "value": 112
-          },
-          {
-            "label": "2025新增 GWh",
-            "value": 307
-          },
-          {
-            "label": "2026预测新增 GW",
-            "value": 158
-          },
-          {
-            "label": "2026预测新增 GWh",
-            "value": 459
-          },
-          {
-            "label": "2036累计 TWh",
-            "value": 10.5
-          }
-        ]
-      },
-      {
         "source": "国家能源局",
         "source_type": "国内官方政策/工程质量监督规范",
         "account_name": "国家能源局",
@@ -2613,53 +3243,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM",
-        "source_type": "国内专业数据源/会议公开口径",
-        "account_name": "SMM",
-        "category": "市场",
-        "title": "SMM：2030年全球储能市场需求预计约1900GWh",
-        "summary": "SMM在新能源产业博览会公开分享中预计，2026-2030年全球储能市场需求将以约24%的复合年均增长率逐年攀升，2030年全球储能市场需求约1900GWh；储能在锂电池需求中的占比将从2026年的30%提升至2030年的约39%。",
-        "body": [
-          "SMM认为，中国、美国和欧洲仍是全球储能市场主要增长区域，中东、澳大利亚和东南亚等新兴地区大储需求释放。",
-          "SMM预计2024-2030年全球锂离子储能电芯产量CAGR约34%。",
-          "该预测强化储能作为锂离子电池重要增长极的中长期判断。"
-        ],
-        "key_points": [
-          "2026-2030年全球储能需求CAGR约24%。",
-          "2030年全球储能市场需求约1900GWh。",
-          "储能在锂电需求占比从2026年30%升至2030年约39%。",
-          "全球锂离子储能电芯产量2024-2030年CAGR约34%。"
-        ],
-        "value": "1900",
-        "unit": "GWh 2030E全球储能需求",
-        "delta": "2026-2030 CAGR约24%",
-        "direction": "up",
-        "date": "05-17",
-        "as_of": "2026-05-17",
-        "url": "https://news.smm.cn/news/103872130",
-        "clean_html": "<p>SMM预计2030年全球储能市场需求约1900GWh，2026-2030年储能需求CAGR约24%，储能在锂电需求占比将升至约39%。</p>",
-        "caption": "储能继续成为锂电池需求最重要增量之一",
-        "methodology": "18:00小时抓取SMM公开页面；采用会议公开分享中的CAGR、2030需求和需求占比口径。",
-        "history": [
-          {
-            "label": "2030E GWh",
-            "value": 1900
-          },
-          {
-            "label": "2026-2030 CAGR %",
-            "value": 24
-          },
-          {
-            "label": "2030储能占比 %",
-            "value": 39
-          },
-          {
-            "label": "2026储能占比 %",
-            "value": 30
-          }
-        ]
-      },
-      {
         "source": "Energy-Storage.News / Australian Solar Enterprises / ACE Power",
         "source_type": "海外储能行业媒体/项目审批",
         "account_name": "Energy-Storage.News",
@@ -2998,45 +3581,6 @@ window.NEOLINK_FEED= {
           {
             "label": "德国收入EUR/MW",
             "value": 85000
-          }
-        ]
-      },
-      {
-        "source": "Fastmarkets",
-        "source_type": "海外大宗商品/价格媒体",
-        "account_name": "Fastmarkets",
-        "category": "行情",
-        "title": "Fastmarkets：锂价波动制造BESS成本不确定性，套保仍处早期",
-        "summary": "Fastmarkets在ESS 2026报道中称，2026年锂价上涨开始给电池储能系统制造商和开发商带来成本压力。受访者指出，过去约六个月碳酸锂现货价格上涨约250%，但BESS市场参与者对锂价风险套保仍处探索早期。",
-        "body": [
-          "Fastmarkets报道强调，低锂价时期BESS系统价格对锂盐波动不敏感，但2026年价格快速反弹改变了成本假设。",
-          "垂直一体化电芯厂商相对更能吸收涨价，而项目开发商和系统集成商面临更高报价不确定性。",
-          "该证据与国内废标、动态联动报价信号相互印证。"
-        ],
-        "key_points": [
-          "碳酸锂现货约六个月上涨约250%。",
-          "BESS制造商和开发商面临成本不确定性。",
-          "锂价套保仍处探索早期。",
-          "垂直一体化电芯厂商具备更强成本吸收能力。"
-        ],
-        "value": "250",
-        "unit": "% 约六个月锂价涨幅表述",
-        "delta": "BESS成本压力上升；套保早期",
-        "direction": "up",
-        "date": "02-25",
-        "as_of": "2026-05-17",
-        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
-        "clean_html": "<p>Fastmarkets报道，锂价快速波动正使BESS成本不确定性上升，而行业套保工具和实践仍处早期。</p>",
-        "caption": "海外BESS开始把锂价波动纳入项目成本与采购风险管理",
-        "methodology": "10:00小时搜索并抓取Fastmarkets原始HTML；采用页面可见会议报道与受访者表述。",
-        "history": [
-          {
-            "label": "锂价涨幅%",
-            "value": 250
-          },
-          {
-            "label": "会议年份",
-            "value": 2026
           }
         ]
       },
@@ -6312,6 +6856,688 @@ window.NEOLINK_FEED= {
     ],
     "latest": [
       {
+        "source": "21财经 / 上海证券报 / CIBF2026现场报道",
+        "source_type": "国内展会现场与产业链订单/材料价格信号",
+        "account_name": "21财经 / 上海证券报",
+        "category": "储能订单/材料/固态电池",
+        "title": "CIBF2026现场信号：储能客户关注点从价格转向交付周期，部分企业订单排至三季度",
+        "summary": "04:00新增国内现场报道复核：21财经转载上海证券报5月17日报道，CIBF2026（5月13-15日深圳）现场锂电展位热度明显，储能需求旺盛被视为本轮锂电复苏关键；鹏辉能源称订单饱满、产能已排满至第三季度，赣锋锂电称日韩、欧洲、东南亚外商问询增多，最受关注产品为储能电池。报道还引用隆众资讯：储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨，涨幅超过100%。",
+        "body": [
+          "展会观察：CIBF2026锂电池公司展位热度明显，部分参展商表示客户从“更关心价格”转为“更关心订单交付周期”。",
+          "订单信号：鹏辉能源表示受海外退税政策时间窗口等因素影响，公司订单饱满，产能已经排满至第三季度。",
+          "外需信号：赣锋锂电表示外商客户问询增多，主要来自日韩、欧洲、东南亚，最受关注产品是储能电池，固态电池关注度也提升。",
+          "材料信号：隆众资讯数据显示，储能型磷酸铁锂正极材料月均价由2025年5月31684元/吨上涨至2026年5月64344元/吨，涨幅超过100%。",
+          "解读：该线索补充了03:00宏观/出口数据之外的微观订单侧证据，说明储能高景气不仅体现在产量与出口，还体现在交付周期、正极材料传导和海外询盘。"
+        ],
+        "key_points": [
+          "CIBF2026举办时间：5月13日至15日，地点深圳。",
+          "鹏辉能源：订单饱满，产能排满至第三季度。",
+          "赣锋锂电：日韩、欧洲、东南亚外商客户问询增多，最受关注产品为储能电池。",
+          "储能型磷酸铁锂正极材料月均价：2025年5月31684元/吨；2026年5月64344元/吨；涨幅超过100%。",
+          "清华大学欧阳明高判断：今后5年储能电池将遇巨大机遇期。"
+        ],
+        "value": "64344",
+        "unit": "元/吨 2026年5月储能型磷酸铁锂正极材料月均价",
+        "delta": "较2025年5月31684元/吨涨幅超过100%；鹏辉能源产能排至Q3",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17 18:03 CST",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "original_url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "related_urls": [
+          "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwktz9997845.shtml",
+          "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/"
+        ],
+        "clean_html": "<p>CIBF2026现场报道显示储能订单与交付周期成为锂电企业核心信号；储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨。</p>",
+        "caption": "订单侧补充：CIBF2026现场反馈储能需求旺盛、材料价格传导和海外问询同步增强",
+        "methodology": "04:00主动搜索国内公开来源并抓取21财经/上海证券报CIBF现场报道 HTTP 200 sha256 74cba2249066183cc41459a604dbbc4aeff714321d63f3c7c250c55ae45f63d2；同步抓取新浪财经锂价报道用于价格背景复核 HTTP 200 sha256 ba9d8e709ccba52d79b0eae9cc22af88d2928959f0a7eddf20922cbd9ff08dfd，海外公开行情页Trading Economics尝试抓取结果 HTTP curl:0 sha256 e3bced57ef19b7ee10ae7aa0c88bf53c33d29d6ecc0fb85879da78fea1fe8e53，Energy-Storage.news Q1出口旧线索复核 HTTP 200 sha256 035bc22cd9e31f92f5ac1383ad748388eabff11eab9cc531d631edb97eebd99a。采用可抓取新闻正文与搜索结果中一致出现的数值；Trading Economics若403则仅记录为未采用的海外行情尝试，不写入价格事实。",
+        "history": [
+          {
+            "label": "2025年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 31684
+          },
+          {
+            "label": "2026年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 64344
+          },
+          {
+            "label": "材料价格涨幅下限 %",
+            "value": 100
+          },
+          {
+            "label": "鹏辉能源产能排产季度",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "source": "国家统计局 / 新华社英文 / 新浪财经转载 / Mysteel",
+        "source_type": "国内官方宏观与海外英文产业数据交叉复核",
+        "account_name": "国家统计局 / Xinhua / Sina Finance / Mysteel",
+        "category": "宏观/产量/出口/价格",
+        "title": "统计局4月口径：锂离子电池产量同比+31%，1-4月产量+36%；Mysteel复核4月动储电池出口31.7GWh",
+        "summary": "04:00严格刷新新增：国家统计局5月18日答记者问披露，4月锂离子电池产量同比增长31%，1-4月锂离子电池产品产量同比增长36%，锂离子电池制造业投资增长28.8%；4月锂离子电池制造价格同比上涨4.5%，反映绿色低碳产业与部分行业价格修复。新华社英文稿同步确认1-4月规模以上工业增加值同比+5.6%、高技术制造业+12.6%。海外英文产业数据采用Mysteel：4月中国动力+储能电池产量183.9GWh、同比+55.6%，出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh、同比+45.4%。",
+        "body": [
+          "官方宏观口径：国家统计局答记者问称，4月水轮发电机组、锂离子电池产量分别增长47.4%和31%；1-4月3D打印设备、锂离子电池、工业机器人产品产量分别增长50.9%、36%、25.7%。",
+          "投资与价格口径：1-4月锂离子电池制造业投资增长28.8%；4月锂离子电池制造、光伏设备及元器件制造价格同比分别上涨4.5%和3.8%。",
+          "外贸与服务口径：1-4月电动汽车、风力发电机组等绿色低碳产品出口额增长超过40%，高新技术产品出口额增长27.6%；重点充电平台交易额增长超过30%。",
+          "海外英文复核：新华社英文稿确认1-4月工业增加值、高技术制造业增速；Mysteel转述联盟数据称4月动储电池出口31.7GWh、同比+42.0%、环比-12.3%，储能电池出口11.4GWh、同比+45.4%。",
+          "解读：官方产量/投资/价格与英文行业出口口径共同指向储能与锂电产业链景气仍强，但4月出口环比回落显示退税政策切换后的节奏扰动仍需跟踪。"
+        ],
+        "key_points": [
+          "4月锂离子电池产量同比：+31%。",
+          "1-4月锂离子电池产品产量同比：+36%。",
+          "1-4月锂离子电池制造业投资：+28.8%。",
+          "4月锂离子电池制造价格同比：+4.5%。",
+          "1-4月绿色低碳产品出口额：电动汽车、风力发电机组等增长超过40%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%；储能电池出口11.4GWh，同比+45.4%。"
+        ],
+        "value": "31",
+        "unit": "% 4月锂离子电池产量同比",
+        "delta": "1-4月产量+36%；制造业投资+28.8%；4月动储电池出口31.7GWh、同比+42.0%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 04:00 CST",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202605/t20260518_1963741.html",
+        "original_url": "https://www.mysteel.net/news/5123267-flash-china-total-output-of-power-and-other-batteries-rose-35-in-april-2026-",
+        "related_urls": [
+          "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyiewm2883130.shtml",
+          "https://english.news.cn/20260518/83beb465bf944163bfe48a3bace0b6d7/c.html"
+        ],
+        "clean_html": "<p>国家统计局披露4月锂离子电池产量同比+31%、1-4月产量+36%、锂离子电池制造业投资+28.8%；Mysteel复核4月动力+储能电池出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh。</p>",
+        "caption": "宏观与出口：官方产量/投资/价格数据继续支撑锂电与储能景气，出口同比高增但环比回落",
+        "methodology": "04:00主动搜索国内+海外公开来源并抓取；国家统计局答记者问 HTTP 200 sha256 450423543efeb611ab96a921344c490a83109b00e5eb1dff8258685b7cda5c18；新浪财经转载用于可读性复核 HTTP 200 sha256 556efb4ce2d9469c6e51b81a0b42c4fc10b0a070c7fa655bdbcb63a8a4e58146；新华社英文稿 HTTP 200 sha256 d2fc9dbe750dca3e1d51c79c03e28bca193067aa33c651a9dd73e273ffeecae3；Mysteel英文快讯 HTTP 200 sha256 14bda6d78aaa6ccf21476cb38ff06d15cb89b7d404dc1fd20886252106722199。只采用页面可见的官方表述和英文报道数值，未将搜索摘要中无法在抓取文件留痕的内容单独作为事实来源。",
+        "history": [
+          {
+            "label": "4月锂离子电池产量同比 %",
+            "value": 31.0
+          },
+          {
+            "label": "1-4月锂离子电池产量同比 %",
+            "value": 36.0
+          },
+          {
+            "label": "锂离子电池制造业投资同比 %",
+            "value": 28.8
+          },
+          {
+            "label": "锂离子电池制造价格同比 %",
+            "value": 4.5
+          },
+          {
+            "label": "绿色低碳产品出口额同比 %",
+            "value": 40.0
+          },
+          {
+            "label": "4月动储电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "4月储能电池出口 GWh",
+            "value": 11.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 45.4
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / CnEVPost / ChinaEVHome / 中国汽车动力电池产业创新联盟口径",
+        "source_type": "国内锂资源供需与海外英文电池月度数据交叉复核",
+        "account_name": "上海有色网 / CnEVPost / ChinaEVHome",
+        "category": "供需/出口/装机",
+        "title": "赣锋称2026锂资源维持紧平衡；4月中国动力+储能电池出口31.7GWh、同比+42.0%",
+        "summary": "02:00严格刷新新增：SMM 5月18日报道赣锋锂业投资者关系口径称，2026年全球锂资源供需整体将维持紧平衡，行业锂矿石及锂盐库存天数处于历史低位；SMM同文引用截至5月14日碳酸锂样本周度库存101418实物吨、分环节库存天数24.9天，并给出5月18日电池级碳酸锂18.7~19.6万元/吨、均价19.15万元/吨。海外英文复核采用CnEVPost/ChinaEVHome对中汽创新联盟4月数据的报道：4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力+储能电池出口31.7GWh，同比+42.0%、环比-12.3%。",
+        "body": [
+          "国内供需口径：SMM页面标题为“赣锋锂业：2026全球锂资源供需整体将维持紧平衡格局 对行业后续走势保持乐观”，发布时间为5月18日。",
+          "赣锋锂业在投资者关系活动记录表中称，2026年全球锂资源供需整体将维持紧平衡；下半年供给增量仍有不确定性，但下游需求亦将同步增长。",
+          "库存口径：SMM库存数据显示，截至5月14日，碳酸锂样本周度库存总计101418实物吨，分环节库存天数总计24.9天，接近历史低位。",
+          "行情口径：SMM同文称截至5月18日电池级碳酸锂现货18.7~19.6万元/吨，均价19.15万元/吨；与MarketTrend行情页05-18快照一致。",
+          "海外英文复核：CnEVPost基于中国汽车动力电池产业创新联盟数据称，4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力和储能电池合计出口31.7GWh，同比+42.0%、环比-12.3%。",
+          "ChinaEVHome补充4月动力+储能电池产量183.9GWh、同比+55.6%，销量164.2GWh、同比+39.0%，其中储能电池销售55.2GWh。"
+        ],
+        "key_points": [
+          "2026年全球锂资源供需：赣锋口径为整体紧平衡。",
+          "SMM碳酸锂样本周度库存：101418实物吨；分环节库存天数24.9天。",
+          "5月18日电池级碳酸锂：18.7~19.6万元/吨，均价19.15万元/吨。",
+          "4月中国动力电池装车：62.4GWh，同比+15.2%，环比+10.4%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%。",
+          "4月储能电池销售：55.2GWh（ChinaEVHome转述联盟口径）。"
+        ],
+        "value": "31.7",
+        "unit": "GWh 4月动力+储能电池出口",
+        "delta": "出口同比+42.0%、环比-12.3%；装车62.4GWh，同比+15.2%；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-19 02:00 CST",
+        "url": "https://news.smm.cn/news/103907167",
+        "original_url": "https://cnevpost.com/2026/05/11/china-apr-2026-battery-installations/",
+        "related_urls": [
+          "https://chinaevhome.com/2026/05/11/china-ev-battery-installations-hit-62-4-gwh-in-april-catl-holds-46-64/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露赣锋锂业判断2026全球锂资源供需紧平衡，并引用5月14日SMM碳酸锂样本库存101418实物吨、库存天数24.9天；CnEVPost/ChinaEVHome转述中汽创新联盟4月动力+储能电池出口31.7GWh、同比+42.0%。</p>",
+        "caption": "供需与出口：锂资源低库存与储能需求继续支撑价格中枢，4月出口同比仍高增但环比回落",
+        "methodology": "02:00主动搜索国内+海外公开来源并抓取；SMM赣锋/碳酸锂供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；CnEVPost 4月电池装车与出口报道 HTTP 200 sha256 a3fb725835c2a157733ad5140fc904366d66b71c8feb4376bd58e4b232599c80；ChinaEVHome同源英文复核 HTTP 200 sha256 cc8ddbce558376f21503ec4a97e0d64ab1f0a914e2099babb7c111d57b0d12a9；SMM储能行情页 HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3。仅采用页面可见标题、正文和表格字段；把上市公司判断、SMM样本库存、联盟月度装车/出口数据分开标注。",
+        "history": [
+          {
+            "label": "4月动力+储能电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "出口同比 %",
+            "value": 42.0
+          },
+          {
+            "label": "出口环比 %",
+            "value": -12.3
+          },
+          {
+            "label": "4月动力电池装车 GWh",
+            "value": 62.4
+          },
+          {
+            "label": "装车同比 %",
+            "value": 15.2
+          },
+          {
+            "label": "SMM碳酸锂样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          }
+        ]
+      },
+      {
+        "source": "SMM / 北极星储能网 / Energy-Storage.News / 中国海关总署口径",
+        "source_type": "国内电芯产能公示与海外英文出口数据交叉复核",
+        "account_name": "上海有色网 / 北极星储能网 / Energy-Storage.News",
+        "category": "产能/出口",
+        "title": "宁德时代贵安二期拟新增40GWh电芯产能；中国Q1储能电池出口27.3GWh、占动力+储能出口32.4%",
+        "summary": "01:00严格刷新新增：国内公开来源SMM转载北极星储能网披露，贵安新区生态环境局5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环评拟审批公示，项目建成后将形成年产40GWh新能源电池电芯能力。海外行业媒体Energy-Storage.News基于中国海关总署/国新办发布会口径称，2026年一季度中国动力和储能电池出口84.1GWh、同比+36.7%；其中储能电池出口27.3GWh、占32.4%、同比+15.0%，3月储能电池出口13.8GWh、环比+96.9%、同比+52.4%。",
+        "body": [
+          "国内产能口径：SMM页面标题为“新增40GWh新能源电池电芯产能 宁德时代贵州贵安二期扩建项目公示”，来源标注北极星储能网，发布时间2026-05-15 18:19。",
+          "项目口径：贵安新区生态环境局于5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环境影响报告表拟审批公示，建设主体为宁德时代（贵州）新能源科技有限公司，选址贵州省贵安新区。",
+          "产能口径：项目拟购置阴极/阳极高效制浆机、凹版印刷机、宽幅双面极片涂布机等设备，建成后形成年产40GWh新能源电池电芯能力。",
+          "海外/英文复核口径：Energy-Storage.News报道中国一季度动力和储能电池合计出口84.1GWh、同比+36.7%；储能电池出口27.3GWh、占32.4%、同比+15.0%。",
+          "本条把“环评拟审批/产能规划”和“海关出口统计”分开标注，不把拟建产能当作已投产，也不把出口GWh直接等同于海外并网容量。"
+        ],
+        "key_points": [
+          "宁德时代贵州贵安二期扩建项目拟新增年产40GWh新能源电池电芯能力。",
+          "项目处于环境影响报告表拟审批公示口径，非已投产口径。",
+          "中国Q1动力+储能电池出口84.1GWh，同比+36.7%。",
+          "其中储能电池出口27.3GWh，占32.4%，同比+15.0%。",
+          "3月储能电池出口13.8GWh，环比+96.9%、同比+52.4%。"
+        ],
+        "value": "40",
+        "unit": "GWh 拟新增新能源电池电芯年产能",
+        "delta": "Q1储能电池出口27.3GWh，同比+15.0%；动力+储能电池出口84.1GWh，同比+36.7%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 01:00 CST",
+        "url": "https://news.smm.cn/news/103904169",
+        "original_url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "related_urls": [
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM/北极星储能网披露宁德时代贵州贵安二期扩建拟新增40GWh新能源电池电芯年产能；Energy-Storage.News基于海关总署口径称中国Q1储能电池出口27.3GWh、同比增长15.0%。</p>",
+        "caption": "供给与出口：头部电芯产能继续扩张，储能电池出口维持双位数增长",
+        "methodology": "01:00主动搜索国内+海外公开来源并抓取；宁德时代贵安二期SMM/北极星页面 HTTP 200 sha256 bd6f1cd0c34d135909dd2b9ad7d2be39a9e235354134dc1d21e753c7e905105f；Energy-Storage.News中国储能电池出口报道 HTTP 200 sha256 dd0e7d5100ee8604b1d2d5ae6c6a1343efda673b6b1b385870e9ac2a2411faad；SMM储能行情页 HTTP 200 sha256 c1bd7b1fe6fc5cce64bd736ed2395cdd356731efac102637043614e6cdd80ee9；采用页面可见标题、正文及英文报道中一致可见的40GWh、84.1GWh、36.7%、27.3GWh、32.4%、15.0%、13.8GWh、96.9%、52.4%等字段，明确区分环评拟审批产能、出口统计和并网容量。",
+        "history": [
+          {
+            "label": "贵安二期拟新增年产能 GWh",
+            "value": 40
+          },
+          {
+            "label": "Q1动力+储能电池出口 GWh",
+            "value": 84.1
+          },
+          {
+            "label": "动力+储能出口同比 %",
+            "value": 36.7
+          },
+          {
+            "label": "Q1储能电池出口 GWh",
+            "value": 27.3
+          },
+          {
+            "label": "储能电池出口占比 %",
+            "value": 32.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 15.0
+          },
+          {
+            "label": "3月储能电池出口 GWh",
+            "value": 13.8
+          },
+          {
+            "label": "3月储能电池出口环比 %",
+            "value": 96.9
+          }
+        ]
+      },
+      {
+        "source": "SMM / Modo Energy / S&P Global Commodity Insights",
+        "source_type": "国内EPC招标与海外BESS资本市场交叉复核",
+        "account_name": "上海有色网 / Modo Energy / S&P Global",
+        "category": "招标/资本市场",
+        "title": "国内小型配储EPC与美国BESS融资热度并行：华能宁夏22.68MW/45.135MWh招标，Modo称Q1美国BESS交易环比+42%",
+        "summary": "00:00严格刷新新增：国内公开来源SMM披露华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC招标，项目包含9个5.015MWh储能电池及变流预制舱、5个升压箱变，计划工期至2026年7月31日。海外公开来源Modo Energy Q1 2026美国BESS资本市场报告称，其跟踪17起美国BESS公开交易，较2025年Q4的12起增加42%，涉及2.4GW容量和29亿美元已披露债务，ERCOT占交易数约60%。S&P Global用于复核海外锂盐供需与储能需求驱动背景。",
+        "body": [
+          "国内项目口径：SMM标题与正文可见“华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC项目招标”，招标关键词为储能、招投标。",
+          "设备范围：储能区共放置9个5.015MWh储能电池及变流预制舱和5个升压箱变，分区接入隆桥光伏电站35kV母线；计划工期为合同签订日至2026年7月31日。",
+          "海外资本口径：Modo Energy元信息显示Q1 2026跟踪17起美国BESS公开交易，较Q4 2025的12起增长42%，容量2.4GW，已披露债务29亿美元，ERCOT占约60%。",
+          "S&P Global报道用于背景复核：2026年锂盐过剩预计收窄、储能需求仍是锂需求增长驱动之一；本条不把资本市场交易等同于已并网容量。",
+          "MarketTrend同步复核SMM储能专区05-18行情，价格日期按页面显示，不用00:00抓取时间替代价格日期。"
+        ],
+        "key_points": [
+          "华能宁夏隆桥：22.68MW/45.135MWh电源侧储能EPC招标。",
+          "设备：9个5.015MWh储能电池及变流预制舱、5个升压箱变。",
+          "Modo：Q1 2026美国BESS公开交易17起，环比+42%。",
+          "Modo：涉及2.4GW容量、29亿美元已披露债务；ERCOT约占交易数60%。",
+          "00:00已重新爬取NeoLink首页、MarketTrend入口、国内SMM与海外Modo/S&P来源。"
+        ],
+        "value": "2.4",
+        "unit": "GW Q1美国BESS公开交易涉及容量",
+        "delta": "17起交易，较Q4 2025的12起+42%；国内新增22.68MW/45.135MWh EPC招标线索",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 00:00 CST",
+        "url": "https://news.smm.cn/news/103885991",
+        "original_url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "related_urls": [
+          "https://www.spglobal.com/energy/en/news-research/latest-news/metals/010926-commodities-2026-lithium-carbonate-surplus-to-narrow-energy-storage-to-drive-growth",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露华能宁夏隆桥22.68MW/45.135MWh电源侧储能EPC招标；Modo Energy称Q1 2026美国BESS公开交易17起、环比增长42%、涉及2.4GW。</p>",
+        "caption": "项目与资本：国内配储EPC继续释放招标，海外BESS交易活跃度回升",
+        "methodology": "00:00主动搜索国内+海外公开来源并抓取；华能宁夏EPC SMM HTTP 200 sha256 afee51a05a66271f453191fb0c6f6e7f6bb34e0c88d04882386dd2687ee4fc1a；Modo美国BESS资本市场报告 HTTP 200 sha256 16f5ef444d599d923b5524e0356743a4c8a4c06017618f1f9861c1e4d58e4104；S&P锂盐/储能需求背景 HTTP curl:0 sha256 c05cdb36e1aabf7d42ff62c0ea44a5fd6312d3e3811f3292e9cc5978210508cc；SMM储能行情页 HTTP 200 sha256 02ddcf1edaa1d0baa598e3ceca33ee745d29eb5552d889664d1957b97d277a04；采用页面可见标题、搜索摘要及HTML meta中一致可见的22.68MW/45.135MWh、9×5.015MWh、2026-07-31、17起、+42%、2.4GW、29亿美元、ERCOT约60%等字段，明确区分招标、交易/融资与已投运容量。",
+        "history": [
+          {
+            "label": "美国BESS交易容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "美国BESS交易数",
+            "value": 17
+          },
+          {
+            "label": "交易数环比 %",
+            "value": 42
+          },
+          {
+            "label": "披露债务 亿美元",
+            "value": 29
+          },
+          {
+            "label": "宁夏项目功率 MW",
+            "value": 22.68
+          },
+          {
+            "label": "宁夏项目容量 MWh",
+            "value": 45.135
+          }
+        ]
+      },
+      {
+        "source": "SMM / Yahoo Finance-GlobeNewswire / Energy-Storage.News",
+        "source_type": "国内需求预测与海外项目管线交叉复核",
+        "account_name": "上海有色网 / Bimergen Energy / Energy-Storage.News",
+        "category": "需求预测/海外项目",
+        "title": "全球储能需求与海外项目管线复核：SMM预计2030年全球储能约1900GWh，Bimergen披露2.0GW美国BESS开发管线",
+        "summary": "23:00主动搜索国内+海外公开来源后新增：SMM在新能源论坛口径中预计2026-2030年全球储能需求CAGR约24%、2030年全球储能市场需求约1900GWh，并称储能在锂电需求占比将由2026年约30%升至2030年约39%。海外方面，Yahoo Finance/GlobeNewswire发布的Bimergen Energy公告称其将于5月18日介绍约20亿美元资产增长策略，基础为美国主要电力市场约2.0GW电池储能开发管线；Energy-Storage.News同步作为海外行业站点复核其2026储能报告入口。",
+        "body": [
+          "国内需求口径：SMM页面显示，SMM储能分析师预计2026-2030年全球储能市场需求逐年攀升，CAGR约24%，2030年全球储能市场需求约1900GWh。",
+          "锂电结构口径：SMM预计储能在锂电池需求中的占比从2026年的约30%提升至2030年的约39%，动力电池占比由约63%收窄至约56%。",
+          "海外项目口径：Yahoo Finance/GlobeNewswire所载Bimergen公告称，公司5月18日在LD Micro会议介绍约20亿美元资产增长计划，基础为美国关键电力市场约2.0GW BESS开发管线。",
+          "行业信息入口：Energy-Storage.News 2026储能报告入口已复核，用作海外BESS行业主题索引；本条不把会议公告等同于已投运容量。",
+          "MarketTrend行情仍单独按SMM储能专区05-15可见报价处理，本条仅新增需求/项目管线证据。"
+        ],
+        "key_points": [
+          "SMM预计2026-2030年全球储能需求CAGR约24%。",
+          "SMM预计2030年全球储能市场需求约1900GWh。",
+          "储能占锂电需求比重预计由2026年约30%升至2030年约39%。",
+          "Bimergen披露约2.0GW美国BESS开发管线支撑约20亿美元资产增长策略。",
+          "23:00已重抓NeoLink首页、MarketTrend入口与国内/海外源；未仅刷新时间。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030全球储能市场需求预测",
+        "delta": "2026-2030 CAGR约24%；储能占锂电需求约30%升至约39%；海外管线约2.0GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 23:00 CST",
+        "url": "https://news.smm.cn/news/103872130",
+        "original_url": "https://finance.yahoo.com/sectors/energy/articles/bimergen-energy-present-may-18th-103000493.html",
+        "related_urls": [
+          "https://www.energy-storage.news/resources/the-energy-storage-report-2026/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM预计2030年全球储能需求约1900GWh、2026-2030年CAGR约24%；Bimergen公告披露约2.0GW美国BESS开发管线。</p>",
+        "caption": "需求与管线：长期储能需求上修背景下，美国BESS开发管线继续释放项目证据",
+        "methodology": "23:00主动搜索国内+海外公开来源并抓取；SMM长期需求预测 HTTP 200 sha256 a1333c0b8ec0e5ed3082641de5bdf1fe1bfbd8590850e33fccf62e0dea338bbc；Yahoo Finance/GlobeNewswire/Bimergen公告 HTTP 200 sha256 045dc67c28d14178497729c816c19655bda3a267094e6128d3dc2157b2c8ac0d；Energy-Storage.News 2026报告入口 HTTP 200 sha256 97cf555a6fb48b0cf4dab0df114a1a2597f8124aecf447937338f2ef3082a81a；SMM储能行情页 HTTP 200 sha256 1a1e670266473e78c7b898180624ccbd88817524bd94c941cd9a8d2d76256e6e；采用搜索摘要和抓取页面中一致可见的1900GWh、24% CAGR、30%至39%、2.0GW与20亿美元描述，明确区分预测需求、开发管线和已投运容量。",
+        "history": [
+          {
+            "label": "2030全球储能需求预测 GWh",
+            "value": 1900
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2026储能占锂电需求 %",
+            "value": 30
+          },
+          {
+            "label": "2030储能占锂电需求 %",
+            "value": 39
+          },
+          {
+            "label": "Bimergen BESS管线 GW",
+            "value": 2.0
+          },
+          {
+            "label": "Bimergen资产计划 亿美元",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "source": "SMM / InfoLink Consulting / Energy-Storage.News",
+        "source_type": "国内外锂价与BESS成本链条复核",
+        "account_name": "上海有色网 / InfoLink / Energy-Storage.News",
+        "category": "原材料/系统成本",
+        "title": "锂价与BESS成本压力交叉复核：瑞银上调2026中国碳酸锂均价至20万元/吨，海外称BESS短期价格或上行",
+        "summary": "22:00主动搜索国内+海外公开来源后新增：SMM转载/整理的瑞银观点将2026年中国碳酸锂现货均价预测上调18%至20万元/吨，并称储能电池需求增速约60%、全球锂需求约197万吨LCE、风险加权供给约191万吨LCE、缺口约6.5万吨LCE；海外InfoLink与Energy-Storage.News均指向锂盐高位/供应链挑战使BESS成本短期承压，但中国BESS/电芯价格传导仍相对稳定。",
+        "body": [
+          "国内口径：SMM页面显示，瑞银全球大宗商品团队5月7日报告把2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5-6月现货价格可能触及25万元/吨。",
+          "需求口径：瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求增速约60%；上行情景下若ESS需求同比增长80%，全球锂需求或升至204万吨LCE。",
+          "供给口径：瑞银风险加权供给预测约191万吨LCE，形成约6.5万吨LCE缺口；关键扰动包括津巴布韦出口禁令/配额、江西矿山换证和供应链库存偏低。",
+          "海外交叉验证：InfoLink称锂盐在高位区间震荡、矿端偏紧支撑强于锂盐基本面压力，同时中国BESS价格因电芯涨价传导而保持相对稳定；Energy-Storage.News则称锂价大幅上行、出口退税变化和供应链挑战使BESS短期价格或上行。",
+          "本条不把机构预测当作即时报价；MarketTrend价格表仍按SMM储能专区05-15可见行情保留。"
+        ],
+        "key_points": [
+          "瑞银上调2026年中国碳酸锂现货均价预测18%至20万元/吨。",
+          "2026全球锂需求预测约197万吨LCE，同比+16%；ESS需求增速约60%。",
+          "风险加权供给约191万吨LCE，对应约6.5万吨LCE缺口。",
+          "上行情景：ESS需求+80%、全球锂需求约204万吨LCE、缺口约12.3万吨LCE。",
+          "海外口径提示BESS短期成本承压，但中国BESS价格传导仍被描述为相对稳定。"
+        ],
+        "value": "200000",
+        "unit": "元/吨 2026中国碳酸锂现货均价预测",
+        "delta": "瑞银较前预测上调18%；基准缺口约6.5万吨LCE；ESS需求增速约60%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 22:00 CST",
+        "url": "https://news.smm.cn/news/103892629",
+        "original_url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "related_urls": [
+          "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>瑞银将2026年中国碳酸锂现货均价预测上调至20万元/吨，储能电池需求增速约60%；海外来源同步提示BESS短期成本承压。</p>",
+        "caption": "成本链条：锂价预测上修与BESS短期价格压力形成同向信号",
+        "methodology": "22:00主动搜索国内+海外公开来源并抓取；SMM瑞银观点 HTTP 200 sha256 6b58615107e18b4a696c5a94e90d8a94a82970fe1c993d55bcf623191922abe4；InfoLink HTTP 200 sha256 03ddd092fcc8ea183876c6ee6ecce46fa8b7619d442503a411970735b90b40bb；Energy-Storage.News HTTP 200 sha256 e5996e56427c136e4d0295cdac9b94573138ebcc8650dfabf0dfe1c856bbb800；SMM储能专区 HTTP 200 sha256 679efd6a1ee2cc9eeee87b2435d3a2aec8bdaf8323453466e43e25983491b62d；采用页面/搜索摘要中一致可见的20万元/吨、+18%、197万吨LCE、191万吨LCE、6.5万吨LCE、ESS +60%与BESS价格压力描述，明确标注为机构预测和成本趋势，不作为即时成交价。",
+        "history": [
+          {
+            "label": "2026中国碳酸锂均价预测 元/吨",
+            "value": 200000
+          },
+          {
+            "label": "预测上调幅度 %",
+            "value": 18
+          },
+          {
+            "label": "全球锂需求 万吨LCE",
+            "value": 197
+          },
+          {
+            "label": "风险加权供给 万吨LCE",
+            "value": 191
+          },
+          {
+            "label": "基准缺口 万吨LCE",
+            "value": 6.5
+          },
+          {
+            "label": "ESS需求增速 %",
+            "value": 60
+          }
+        ]
+      },
+      {
+        "source": "SMM快讯 / pv magazine / TaiyangNews",
+        "source_type": "海外储能容量拍卖",
+        "account_name": "SMM有色快讯",
+        "category": "海外市场",
+        "title": "日本LTDA最新拍卖授予19个电池储能项目合计1.25GW，非锂路线699MW高于锂电551MW",
+        "summary": "21:00国内+海外公开来源交叉确认：日本FY2025长期脱碳电源拍卖（LTDA）共授予32个项目约7.3GW容量，其中电池储能19个项目合计约1.25GW；锂电储能551MW、非锂电储能约699MW，电池储能约占脱碳电源中标容量近30%。",
+        "body": [
+          "该条采用SMM有色快讯、SMM英文Metal.com以及pv magazine/TaiyangNews公开报道交叉核验，属于日本容量市场/长期脱碳电源拍卖口径。",
+          "报道显示，日本最新LTDA合计授予约7.3GW容量；其中脱碳电源项目约4.26GW，LNG火电约3.04GW。",
+          "电池储能中标容量约1.25GW，覆盖19个项目；锂离子电池储能551MW，非锂电储能约699MW/700MW，显示日本长时与非锂储能路线继续获得容量市场支持。",
+          "与FY2024约1.37GW电池储能中标相比，本轮1.25GW小幅下降，但在更严格时长规则下仍保持较高规模。"
+        ],
+        "key_points": [
+          "日本FY2025 LTDA：32个项目合计约7.3GW。",
+          "电池储能：19个项目合计约1.25GW。",
+          "锂电储能：551MW；非锂电储能：约699MW/700MW。",
+          "电池储能约占脱碳电源中标容量近30%。",
+          "较FY2024电池储能1.37GW中标容量小幅下降，但规则收紧后仍较强。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本LTDA电池储能中标容量",
+        "delta": "FY2024约1.37GW→FY2025约1.25GW；非锂约699MW高于锂电551MW",
+        "direction": "neutral",
+        "date": "05-18",
+        "as_of": "2026-05-18 21:00 CST",
+        "url": "https://news.smm.cn/live/detail/103906946",
+        "original_url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "related_urls": [
+          "https://news.metal.com/en/newscontent/103906947-Storage-Japan-awards-125GW-of-battery-storage-in-latest-LTDA-auction",
+          "https://taiyangnews.info/storage/japan-awards-125-gw-battery-storage-3rd-ltda"
+        ],
+        "clean_html": "<p>日本最新LTDA中，电池储能19个项目合计约1.25GW中标；锂电551MW、非锂约699MW，电池储能约占脱碳电源中标容量近30%。</p>",
+        "caption": "海外容量市场：日本储能中标结构显示非锂长时路线获得支持",
+        "methodology": "21:00主动搜索国内+海外公开来源并抓取；SMM快讯 HTTP 200 sha256 b96d6bc2cdba5056ca1c181046aca6a6a430fb7575ecddbf599a4e8491237c25；Metal.com HTTP 200 sha256 e872038faccbc66e72c79fc8b84c923679ee4382c05ab8581b03e17e4358f118；pv magazine HTTP 200 sha256 142aa776e8239c518f8cdc489763a0127080cc280159a5b6a3789ab558fcbdc4；TaiyangNews HTTP 200 sha256 25457f863515064560d06e95fadf5efb624a38a0337fa64688d859e82b7df712；采用多源一致的19个项目、1.25GW、551MW、699/700MW、7.3GW与近30%指标，标注为拍卖结果口径。",
+        "history": [
+          {
+            "label": "FY2025电池储能 GW",
+            "value": 1.25
+          },
+          {
+            "label": "FY2024电池储能 GW",
+            "value": 1.37
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "中标项目数",
+            "value": 19
+          },
+          {
+            "label": "总拍卖容量 GW",
+            "value": 7.3
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外电池原材料月度更新",
+        "account_name": "Fastmarkets",
+        "category": "原材料/回收",
+        "title": "Fastmarkets月度BRM更新：锂价与废料量上升推动欧美LFP电池回收扩张",
+        "summary": "20:00海外公开来源新增Fastmarkets月度电池原材料更新：较高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，扭转此前多年弱需求和监管障碍；对储能链条的含义是，锂价高位和报废/边角料供给同步提升，回收端可能更快进入经济性区间。",
+        "body": [
+          "该条为Fastmarkets电池原材料月度更新中关于LFP回收的公开摘要，不等同于单一金属即时报价。",
+          "Fastmarkets称，更高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，改变此前LFP回收需求偏弱的状态。",
+          "对储能市场而言，LFP为主流储能化学体系之一；回收经济性改善可能在中期影响碳酸锂、正极材料与电芯成本预期。"
+        ],
+        "key_points": [
+          "驱动因素：更高锂价与增长的废料量。",
+          "区域：欧洲与美国LFP电池回收。",
+          "方向：Fastmarkets称正在快速扩张，并扭转多年弱需求与监管障碍。",
+          "市场含义：若回收供给放量，可能缓冲部分原料成本波动，但短期仍取决于锂价与废料可得性。"
+        ],
+        "value": "LFP回收",
+        "unit": "欧美扩张信号",
+        "delta": "锂价上行+废料量增长推动回收经济性",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/metals-and-mining/battery-raw-materials/brm-monthly-market-update-2026/",
+        "clean_html": "<p>Fastmarkets月度电池原材料更新称，较高锂价与增长的废料量正在推动欧美LFP电池回收快速扩张，扭转多年弱需求与监管障碍。</p>",
+        "caption": "原料链：LFP回收经济性受锂价与废料供给共同驱动",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 1372075bb0cf808cfca4cbf1d73017a57813d74bfcedecd35ee16df73ea1fc4d；采用页面可见的Fastmarkets月度BRM公开摘要，未外推为即时报价。",
+        "history": [
+          {
+            "label": "驱动因子：锂价",
+            "value": 1
+          },
+          {
+            "label": "驱动因子：废料量",
+            "value": 1
+          },
+          {
+            "label": "区域：欧洲",
+            "value": 1
+          },
+          {
+            "label": "区域：美国",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / BloombergNEF",
+        "source_type": "海外储能部署预测",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "BNEF：2026年全球非抽蓄储能新增部署预计158GW，同比2025年112GW增长41%",
+        "summary": "20:00海外公开来源新增BNEF预测口径：2025年全球非抽水蓄能储能新增装机112GW后，BNEF预计2026年将增长41%至158GW；未来十年年新增规模预计接近翻倍，到2036年达到308GW，累计容量约2.9TW/10.5TWh。",
+        "body": [
+          "该条采用Energy-Storage.News对BloombergNEF储能展望的公开报道，属于全球非抽水蓄能储能（non-pumped hydro）部署预测口径。",
+          "BNEF预计2026年全球新增部署158GW，较2025年112GW增长41%；虽然较2024到2025年的高增速放缓，但绝对规模继续上行。",
+          "长期维度，BNEF预计未来十年年新增部署接近翻倍，2036年达到308GW；到2036年底全球累计容量约2.9TW/10.5TWh。"
+        ],
+        "key_points": [
+          "2025年全球非抽蓄储能新增：112GW。",
+          "2026年新增预测：158GW，同比约+41%。",
+          "2036年年新增预测：308GW。",
+          "2036年底累计容量预测：约2.9TW/10.5TWh。",
+          "报道提及钠离子等技术开始规模化出现，但长期预测仍受供应链、油价与地缘冲击影响。"
+        ],
+        "value": "158",
+        "unit": "GW 2026年全球非抽蓄储能新增预测",
+        "delta": "2025年112GW→2026年158GW，约+41%；2036年年新增308GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>BNEF预计2026年全球非抽水蓄能储能新增部署158GW，较2025年112GW增长41%；2036年年新增或达308GW，累计约2.9TW/10.5TWh。</p>",
+        "caption": "海外预测：BNEF将2026年储能新增量看至158GW",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 63d81bcefd444ff8167de67a0357c7b1bc85c10d725495b4cea52648cfb7f8e3；采用页面可见的112GW、158GW、41%、308GW、2.9TW/10.5TWh指标，标注为BNEF预测/媒体报道口径。",
+        "history": [
+          {
+            "label": "2025新增 GW",
+            "value": 112
+          },
+          {
+            "label": "2026新增 GW",
+            "value": 158
+          },
+          {
+            "label": "2026同比 %",
+            "value": 41
+          },
+          {
+            "label": "2036年新增 GW",
+            "value": 308
+          },
+          {
+            "label": "2036累计 TW",
+            "value": 2.9
+          },
+          {
+            "label": "2036累计 TWh",
+            "value": 10.5
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets / Green Building Africa",
+        "source_type": "海外价格与成本分析",
+        "account_name": "Fastmarkets",
+        "category": "海外市场",
+        "title": "Fastmarkets：锂价波动推高BESS成本不确定性，全球ESS装机至2030年近800GWh",
+        "summary": "19:00海外公开来源新增Fastmarkets与转引分析：Fastmarkets认为全球ESS安装量未来十年每年约增长25%，到2030年接近800GWh、2035年超过1600GWh；Green Building Africa转引称锂价上涨对主要市场BESS总资本开支影响低于5%，中国电池生产成本优势仍超过40%，钠离子电池具备最高约40%的节省潜力。",
+        "body": [
+          "该条为海外成本/价格研究口径，重点跟踪锂价上行、关税、系统集成与替代技术对BESS资本开支的影响。",
+          "Fastmarkets文章指出LFP仍是BESS主流化学体系，2025年314Ah LFP电芯是公用事业级ESS部署的主要选择，587Ah等高容量电芯可能在2026年三季度成为主流选项。",
+          "Green Building Africa转引分析称，锂价上涨对主要市场BESS总capex的影响低于5%；中国相对美国电池生产保有超过40%成本优势，钠离子路线最高可带来约40%节省潜力。"
+        ],
+        "key_points": [
+          "Fastmarkets：全球ESS安装量未来十年每年约增长25%。",
+          "规模预测：2030年接近800GWh，2035年超过1600GWh。",
+          "技术路线：LFP仍为BESS主流，587Ah高容量电芯或在2026年三季度成为主流选项。",
+          "成本敏感性：锂价上涨对主要市场BESS总capex影响低于5%。",
+          "区域成本：Green Building Africa称中国电池生产相对美国保有超过40%成本优势。"
+        ],
+        "value": "800",
+        "unit": "GWh 2030年全球ESS安装量预测",
+        "delta": "未来十年约+25%/年；2035年>1600GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "original_url": "https://www.greenbuildingafrica.co.za/bess-costs-show-resilience-despite-lithium-price-volatility-in-2026/",
+        "clean_html": "<p>Fastmarkets预计全球ESS安装量未来十年每年约增长25%，2030年近800GWh、2035年超过1600GWh；转引分析称锂价上涨对主要市场BESS总capex影响低于5%。</p>",
+        "caption": "海外成本：BESS仍受益于电芯迭代和中国制造成本优势",
+        "methodology": "19:00海外公开来源搜索并抓取；Fastmarkets HTTP 200 sha256 69eefdcda009f0cc75c70593a828979c5cbfe3ef700274583cf5478da0e7c2ab；Green Building Africa HTTP 200 sha256 9e023ecb05a5e47ea526fe6d8b069433003ed6d4857dd5dd3caed678f34709c9；采用页面可见ESS安装量、成本敏感性和技术路线描述，标注为海外研究/转引口径。",
+        "history": [
+          {
+            "label": "2030全球ESS GWh",
+            "value": 800
+          },
+          {
+            "label": "2035全球ESS GWh",
+            "value": 1600
+          },
+          {
+            "label": "年增速 %",
+            "value": 25
+          },
+          {
+            "label": "锂价影响capex %",
+            "value": 5
+          },
+          {
+            "label": "中国成本优势 %",
+            "value": 40
+          },
+          {
+            "label": "钠离子节省潜力 %",
+            "value": 40
+          }
+        ]
+      },
+      {
         "source": "Modo Energy",
         "source_type": "海外BESS资本市场报告",
         "account_name": "Modo Energy",
@@ -8471,58 +9697,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "Energy-Storage.news / BloombergNEF Energy Storage Outlook H1 2026",
-        "source_type": "海外行业媒体/研究机构预测",
-        "account_name": "Energy-Storage.news / BNEF",
-        "category": "海外市场",
-        "title": "BNEF上调全球储能装机展望：2026年新增158GW/459GWh，2036年年新增或达308GW",
-        "summary": "Energy-Storage.news 5月15日报道，BloombergNEF在H1 2026储能展望中统计2025年全球非抽水蓄能储能新增112GW/307GWh，并预计2026年新增158GW/459GWh、同比按功率约增长41%；BNEF还预计2036年年度新增达到308GW，届时累计装机达到2.9TW/10.5TWh。报道同时提及，宁德时代与海博思创此前宣布60GWh钠离子电池多年协议，作为替代化学体系规模化的案例。",
-        "body": [
-          "本轮补入海外权威研究口径，用于校准MarketTrend的全球需求斜率：2026年新增459GWh意味着大储供应链仍处高景气区间。",
-          "BNEF的2025年实际新增112GW/307GWh高于此前预测，说明全球储能部署速度继续超预期。",
-          "2036年累计2.9TW/10.5TWh的长期预测，对电芯、PCS、热管理、消防和系统集成环节形成长期需求锚。"
-        ],
-        "key_points": [
-          "2025年全球非抽水蓄能储能新增：112GW/307GWh。",
-          "2026年预测新增：158GW/459GWh，按功率同比约+41%。",
-          "2036年预测年度新增：308GW。",
-          "2036年预测累计装机：2.9TW/10.5TWh。",
-          "报道提及宁德时代与海博思创60GWh钠离子电池多年协议。"
-        ],
-        "value": "158",
-        "unit": "GW 2026年全球储能新增预测",
-        "delta": "459GWh；较2025年112GW约+41%；2036累计2.9TW/10.5TWh",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
-        "clean_html": "<p>BloombergNEF预计2026年全球非抽水蓄能储能新增158GW/459GWh；2025年新增112GW/307GWh，2036年累计装机或达2.9TW/10.5TWh。</p>",
-        "caption": "BNEF把2026年全球储能新增预测上调至459GWh",
-        "methodology": "03:00抓取Energy-Storage.news原文HTML（gzip解码快照sha256 3e2848cc8b4e0634d0730abca929b389884929d5992e0688a788a70c5be74d8a），抽取BNEF H1 2026 Outlook的2025实际新增、2026预测、2036年度新增与累计装机口径。",
-        "history": [
-          {
-            "label": "2025新增 GW",
-            "value": 112
-          },
-          {
-            "label": "2025新增 GWh",
-            "value": 307
-          },
-          {
-            "label": "2026预测新增 GW",
-            "value": 158
-          },
-          {
-            "label": "2026预测新增 GWh",
-            "value": 459
-          },
-          {
-            "label": "2036累计 TWh",
-            "value": 10.5
-          }
-        ]
-      },
-      {
         "source": "国家能源局",
         "source_type": "国内官方政策/工程质量监督规范",
         "account_name": "国家能源局",
@@ -9109,53 +10283,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM",
-        "source_type": "国内专业数据源/会议公开口径",
-        "account_name": "SMM",
-        "category": "市场",
-        "title": "SMM：2030年全球储能市场需求预计约1900GWh",
-        "summary": "SMM在新能源产业博览会公开分享中预计，2026-2030年全球储能市场需求将以约24%的复合年均增长率逐年攀升，2030年全球储能市场需求约1900GWh；储能在锂电池需求中的占比将从2026年的30%提升至2030年的约39%。",
-        "body": [
-          "SMM认为，中国、美国和欧洲仍是全球储能市场主要增长区域，中东、澳大利亚和东南亚等新兴地区大储需求释放。",
-          "SMM预计2024-2030年全球锂离子储能电芯产量CAGR约34%。",
-          "该预测强化储能作为锂离子电池重要增长极的中长期判断。"
-        ],
-        "key_points": [
-          "2026-2030年全球储能需求CAGR约24%。",
-          "2030年全球储能市场需求约1900GWh。",
-          "储能在锂电需求占比从2026年30%升至2030年约39%。",
-          "全球锂离子储能电芯产量2024-2030年CAGR约34%。"
-        ],
-        "value": "1900",
-        "unit": "GWh 2030E全球储能需求",
-        "delta": "2026-2030 CAGR约24%",
-        "direction": "up",
-        "date": "05-17",
-        "as_of": "2026-05-17",
-        "url": "https://news.smm.cn/news/103872130",
-        "clean_html": "<p>SMM预计2030年全球储能市场需求约1900GWh，2026-2030年储能需求CAGR约24%，储能在锂电需求占比将升至约39%。</p>",
-        "caption": "储能继续成为锂电池需求最重要增量之一",
-        "methodology": "18:00小时抓取SMM公开页面；采用会议公开分享中的CAGR、2030需求和需求占比口径。",
-        "history": [
-          {
-            "label": "2030E GWh",
-            "value": 1900
-          },
-          {
-            "label": "2026-2030 CAGR %",
-            "value": 24
-          },
-          {
-            "label": "2030储能占比 %",
-            "value": 39
-          },
-          {
-            "label": "2026储能占比 %",
-            "value": 30
-          }
-        ]
-      },
-      {
         "source": "Energy-Storage.News",
         "source_type": "海外储能行业媒体/价格趋势",
         "account_name": "Energy-Storage.News",
@@ -9708,45 +10835,6 @@ window.NEOLINK_FEED= {
           {
             "label": "德国收入EUR/MW",
             "value": 85000
-          }
-        ]
-      },
-      {
-        "source": "Fastmarkets",
-        "source_type": "海外大宗商品/价格媒体",
-        "account_name": "Fastmarkets",
-        "category": "行情",
-        "title": "Fastmarkets：锂价波动制造BESS成本不确定性，套保仍处早期",
-        "summary": "Fastmarkets在ESS 2026报道中称，2026年锂价上涨开始给电池储能系统制造商和开发商带来成本压力。受访者指出，过去约六个月碳酸锂现货价格上涨约250%，但BESS市场参与者对锂价风险套保仍处探索早期。",
-        "body": [
-          "Fastmarkets报道强调，低锂价时期BESS系统价格对锂盐波动不敏感，但2026年价格快速反弹改变了成本假设。",
-          "垂直一体化电芯厂商相对更能吸收涨价，而项目开发商和系统集成商面临更高报价不确定性。",
-          "该证据与国内废标、动态联动报价信号相互印证。"
-        ],
-        "key_points": [
-          "碳酸锂现货约六个月上涨约250%。",
-          "BESS制造商和开发商面临成本不确定性。",
-          "锂价套保仍处探索早期。",
-          "垂直一体化电芯厂商具备更强成本吸收能力。"
-        ],
-        "value": "250",
-        "unit": "% 约六个月锂价涨幅表述",
-        "delta": "BESS成本压力上升；套保早期",
-        "direction": "up",
-        "date": "02-25",
-        "as_of": "2026-05-17",
-        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
-        "clean_html": "<p>Fastmarkets报道，锂价快速波动正使BESS成本不确定性上升，而行业套保工具和实践仍处早期。</p>",
-        "caption": "海外BESS开始把锂价波动纳入项目成本与采购风险管理",
-        "methodology": "10:00小时搜索并抓取Fastmarkets原始HTML；采用页面可见会议报道与受访者表述。",
-        "history": [
-          {
-            "label": "锂价涨幅%",
-            "value": 250
-          },
-          {
-            "label": "会议年份",
-            "value": 2026
           }
         ]
       },
@@ -15160,35 +16248,6 @@ window.NEOLINK_FEED= {
         "clean_html": "<p>pv magazine International 5月12日报道，Ford Motor Company正式推出全资子公司Ford Energy，面向美国公用事业、数据中心和大型工商业客户供应美国组装BESS。</p>\n<p>旗舰Ford Energy DC Block采用512Ah LFP方形电芯，提供2小时FE-250与4小时FE-450两种配置，并集成液冷热管理和BMS，目标20年运行寿命。</p>\n<p>该线索说明北美车企正把电池产能与供应链能力转向电网侧储能，对海外储能系统需求和LFP电芯需求为偏正面证据。</p>",
         "caption": "Ford Energy DC Block",
         "methodology": "22:01抓取pv magazine公开原文，提取产品参数、应用场景和未披露事项；未将企业发布视为已成交订单。"
-      },
-      {
-        "source": "SMM上海有色网 / 华尔街见闻 / 瑞银全球大宗商品团队",
-        "source_type": "专业价格源转载/海外投行研究",
-        "account_name": "SMM/UBS",
-        "category": "行情",
-        "title": "瑞银上调2026年中国碳酸锂均价预测至20万元/吨，储能需求成为缺口核心",
-        "summary": "SMM 5月9日转载华尔街见闻称，瑞银全球大宗商品团队将2026年中国碳酸锂现货均价预测上调18%至20万元/吨，并预计5–6月现货价格可能触及25万元/吨；基准情景下2026年全球锂需求197万吨LCE、供应191万吨LCE，形成约6.5万吨LCE缺口，其中储能电池需求同比增速预计达60%。",
-        "body": [
-          "SMM转载华尔街见闻报道，瑞银全球大宗商品团队在5月7日报告中将2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5–6月现货价格可能触及25万元/吨。",
-          "需求端，瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求同比增长60%，成为价格假设上修核心驱动；上行情景下ESS需求同比增长80%、全球锂需求升至204万吨LCE。",
-          "供应端，瑞银风险加权供给预测约191万吨LCE，基准情景形成约6.5万吨LCE供需缺口；该条作为MarketTrend正极材料/锂盐风险偏多证据，不替代原始研报。"
-        ],
-        "key_points": [
-          "2026年中国碳酸锂现货均价预测：20万元/吨。",
-          "5–6月现货价格上行情景：可能触及25万元/吨。",
-          "基准情景：全球锂需求197万吨LCE、供应191万吨LCE，缺口约6.5万吨LCE。",
-          "储能电池需求：预计同比增长60%，为价格上修核心驱动。"
-        ],
-        "value": "200000",
-        "unit": "元/吨",
-        "delta": "预测上调18%",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-09",
-        "url": "https://news.smm.cn/news/103892629",
-        "clean_html": "<p>SMM转载华尔街见闻报道，瑞银全球大宗商品团队在5月7日报告中将2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5–6月现货价格可能触及25万元/吨。</p>\n<p>需求端，瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求同比增长60%，成为价格假设上修核心驱动；上行情景下ESS需求同比增长80%、全球锂需求升至204万吨LCE。</p>\n<p>供应端，瑞银风险加权供给预测约191万吨LCE，基准情景形成约6.5万吨LCE供需缺口；该条作为MarketTrend正极材料/锂盐风险偏多证据，不替代原始研报。</p>",
-        "caption": "SMM/瑞银锂价展望",
-        "methodology": "21:02抓取SMM公开新闻页，提取瑞银报告转载口径；字段保留来源、发布日期与预测性质。"
       },
       {
         "source": "SMM上海有色网公开行情快照",
@@ -21631,6 +22690,239 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "source": "SMM碳酸锂行情 / SMM储能专区",
+        "source_type": "国内主材行情复核",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM 04:00复核：碳酸锂价格日期仍为05-18，电池级碳酸锂价格指数190865元/吨、较前值-894",
+        "summary": "04:00重新抓取SMM碳酸锂行情页与储能专区。SMM h5行情页显示价格日期仍为2026-05-18：电池级碳酸锂价格指数190865元/吨、较前值-894元/吨；工业级碳酸锂价格183000~192000元/吨、均价187500元/吨；电池级碳酸锂CIF价格20.6~24美元/千克、均价22.3美元/千克、较前值-0.2（日期05-15）。MarketTrend不把04:00抓取时间伪装成价格发布时间。",
+        "body": [
+          "电池级碳酸锂价格指数：190865元/吨，涨跌-894元/吨，价格日期2026-05-18。",
+          "工业级碳酸锂价格：183000~192000元/吨，均价187500元/吨，涨跌0，价格日期2026-05-18。",
+          "电池级碳酸锂CIF价格：20.6~24美元/千克，均价22.3美元/千克，涨跌-0.2，价格日期2026-05-15。",
+          "储能专区页面继续作为储能电芯/预制舱行情入口复核；若无晚于05-18的公开价格日，不刷新为05-19价格。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为04:00复核抓取。",
+          "电池级碳酸锂价格指数：190865元/吨，变动-894元/吨。",
+          "工业级碳酸锂均价：187500元/吨，变动0。",
+          "电池级碳酸锂CIF均价：22.3美元/千克，变动-0.2，日期05-15。"
+        ],
+        "value": "190865",
+        "unit": "元/吨 电池级碳酸锂价格指数",
+        "delta": "价格指数-894元/吨；工业级均价187500元/吨；CIF均价22.3美元/千克",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://hq.smm.cn/h5/Li2CO3",
+        "original_url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM碳酸锂05-18行情：电池级碳酸锂价格指数190865元/吨（-894）；工业级碳酸锂均价187500元/吨；电池级碳酸锂CIF均价22.3美元/千克（05-15）。</p>",
+        "caption": "行情复核：SMM碳酸锂价格日期仍为05-18，价格指数较前值继续下修",
+        "methodology": "04:00重新抓取SMM碳酸锂h5行情页 HTTP 200 sha256 4f6f0841e0fa611e2a14cfbfc72458d28c9bcd6bf3e420b860f1807f96cfa23c 与SMM储能专区 HTTP 200 sha256 52a60480d6a8a7ce29293623f201439bad0fd302a186895431aab48471b08b3d；仅采用页面表格可见价格、日期和涨跌字段，不更新为04:00价格。",
+        "history": [
+          {
+            "label": "电池级碳酸锂价格指数 元/吨",
+            "value": 190865
+          },
+          {
+            "label": "指数变动 元/吨",
+            "value": -894
+          },
+          {
+            "label": "工业级碳酸锂均价 元/吨",
+            "value": 187500
+          },
+          {
+            "label": "工业级变动 元/吨",
+            "value": 0
+          },
+          {
+            "label": "电池级碳酸锂CIF 美元/千克",
+            "value": 22.3
+          },
+          {
+            "label": "CIF变动 美元/千克",
+            "value": -0.2
+          }
+        ]
+      },
+      {
+        "source": "SMM储能专区 / SMM赣锋锂业供需报道",
+        "source_type": "国内储能材料行情与库存快照",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM储能专区02:00复核：价格日期仍为05-18，电池级碳酸锂均价19.15万元/吨、SMM库存天数24.9天",
+        "summary": "02:00重新抓取SMM储能专区与SMM 5月18日赣锋锂业供需报道。行情表仍显示05-18口径：电池级碳酸锂187000~196000元/吨、均价191500元/吨、跌500元/吨；方形磷酸铁锂储能型280Ah电池仍显示05-15周价0.312~0.356元/Wh、均价0.334元/Wh、涨0.0015元/Wh。SMM报道补充截至5月14日碳酸锂样本周度库存101418实物吨、库存天数24.9天。",
+        "body": [
+          "本条为MarketTrend行情复核，不把02:00抓取时间伪装成价格发布时间；电池级碳酸锂价格日期按SMM页面显示为05-18。",
+          "电池级碳酸锂Li₂CO₃≥99.5%：187000~196000元/吨，均价191500元/吨，较前值-500元/吨。",
+          "方形磷酸铁锂电池（周，储能型280Ah）：0.312~0.356元/Wh，均价0.334元/Wh，较前值+0.0015元/Wh，价格日期仍为05-15周价。",
+          "中国直流侧储能电池预制舱（5MWh）：0.413~0.492元/Wh，均价0.4525元/Wh，较前值+0.0025元/Wh。",
+          "SMM 5月18日供需报道补充：截至5月14日，SMM碳酸锂样本周度库存总计101418实物吨，分环节库存天数24.9天。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为02:00复核抓取。",
+          "电池级碳酸锂均价：191500元/吨，日变动-500元/吨。",
+          "储能型280Ah方形LFP电芯均价：0.334元/Wh，周度变动+0.0015元/Wh。",
+          "5MWh直流侧预制舱均价：0.4525元/Wh，变动+0.0025元/Wh。",
+          "SMM碳酸锂样本库存：101418实物吨，库存天数24.9天。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "碳酸锂-500元/吨；储能280Ah电芯+0.0015元/Wh；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T02:00:00+08:00",
+        "url": "https://energy-storage.smm.cn/",
+        "original_url": "https://news.smm.cn/news/103907167",
+        "clean_html": "<p>SMM储能专区05-18行情：电池级碳酸锂均价191500元/吨（-500）；储能型280Ah电芯05-15周价均价0.334元/Wh（+0.0015）；SMM样本库存101418实物吨、24.9天。</p>",
+        "caption": "行情复核：碳酸锂价格日期仍为05-18，新增SMM库存天数低位口径",
+        "methodology": "02:00重新抓取SMM储能专区；HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3；并抓取SMM赣锋锂业供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；仅采用页面表格/正文可见价格、日期和库存字段，不更新为02:00价格。",
+        "history": [
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "碳酸锂变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "280Ah变动 元/Wh",
+            "value": 0.0015
+          },
+          {
+            "label": "5MWh预制舱 元/Wh",
+            "value": 0.4525
+          },
+          {
+            "label": "5MWh变动 元/Wh",
+            "value": 0.0025
+          },
+          {
+            "label": "SMM样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外电池原材料月度更新",
+        "account_name": "Fastmarkets",
+        "category": "原材料/回收",
+        "title": "Fastmarkets月度BRM更新：锂价与废料量上升推动欧美LFP电池回收扩张",
+        "summary": "20:00海外公开来源新增Fastmarkets月度电池原材料更新：较高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，扭转此前多年弱需求和监管障碍；对储能链条的含义是，锂价高位和报废/边角料供给同步提升，回收端可能更快进入经济性区间。",
+        "body": [
+          "该条为Fastmarkets电池原材料月度更新中关于LFP回收的公开摘要，不等同于单一金属即时报价。",
+          "Fastmarkets称，更高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，改变此前LFP回收需求偏弱的状态。",
+          "对储能市场而言，LFP为主流储能化学体系之一；回收经济性改善可能在中期影响碳酸锂、正极材料与电芯成本预期。"
+        ],
+        "key_points": [
+          "驱动因素：更高锂价与增长的废料量。",
+          "区域：欧洲与美国LFP电池回收。",
+          "方向：Fastmarkets称正在快速扩张，并扭转多年弱需求与监管障碍。",
+          "市场含义：若回收供给放量，可能缓冲部分原料成本波动，但短期仍取决于锂价与废料可得性。"
+        ],
+        "value": "LFP回收",
+        "unit": "欧美扩张信号",
+        "delta": "锂价上行+废料量增长推动回收经济性",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/metals-and-mining/battery-raw-materials/brm-monthly-market-update-2026/",
+        "clean_html": "<p>Fastmarkets月度电池原材料更新称，较高锂价与增长的废料量正在推动欧美LFP电池回收快速扩张，扭转多年弱需求与监管障碍。</p>",
+        "caption": "原料链：LFP回收经济性受锂价与废料供给共同驱动",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 1372075bb0cf808cfca4cbf1d73017a57813d74bfcedecd35ee16df73ea1fc4d；采用页面可见的Fastmarkets月度BRM公开摘要，未外推为即时报价。",
+        "history": [
+          {
+            "label": "驱动因子：锂价",
+            "value": 1
+          },
+          {
+            "label": "驱动因子：废料量",
+            "value": 1
+          },
+          {
+            "label": "区域：欧洲",
+            "value": 1
+          },
+          {
+            "label": "区域：美国",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色",
+        "source_type": "国内产业会议/行业分析",
+        "account_name": "SMM上海有色",
+        "category": "产业预测",
+        "title": "SMM：2026-2030年全球储能需求CAGR约24%，2030年约1900GWh",
+        "summary": "19:00国内公开来源刷新并新增SMM CLNB会议口径：SMM预计2026-2030年全球储能市场需求逐年攀升，储能需求复合年均增长率约24%，2030年全球储能市场需求约1900GWh；同期全球锂离子电池产量CAGR约17%，储能在锂电需求中占比预计由30%提升至约39%。",
+        "body": [
+          "本条采用SMM公开资讯页的会议分享口径，属于中长期需求预测，不等同于当日装机或订单。",
+          "SMM预计2026-2030年全球储能市场需求CAGR约24%，2030年达到约1900GWh；增长区域仍集中于中国、美国、欧洲，同时中东、澳大利亚、东南亚释放大储需求。",
+          "供应链方面，SMM称2024-2030年全球锂离子储能电芯产量CAGR约34%，磷酸铁锂需求量占比约23%-38%；硫磺供应缺口到2030年可能达到420万吨，或推高磷酸铁锂成本。"
+        ],
+        "key_points": [
+          "2026-2030年全球储能需求CAGR：约24%。",
+          "2030年全球储能市场需求：约1900GWh。",
+          "2026-2030年全球锂离子电池产量CAGR：约17%。",
+          "储能占锂电需求比重：2026年约30%，2030年约39%。",
+          "储能电芯产量2024-2030年CAGR约34%，2030年硫磺供应缺口约420万吨。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030年全球储能需求预测",
+        "delta": "2026-2030 CAGR约24%；储能占锂电需求约30%→39%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://news.smm.cn/news/103872130",
+        "clean_html": "<p>SMM预计2026-2030年全球储能需求CAGR约24%，2030年全球储能市场需求约1900GWh，储能占锂电需求比重由约30%提升至约39%。</p>",
+        "caption": "国内预测：SMM上修储能中长期需求曲线",
+        "methodology": "19:00国内公开来源搜索并抓取；HTTP 200 sha256 78530886d6aa881489fb4b26ba94a31ca3203b4d8bea7bd6cd601c23c9e4c916；采用SMM资讯页可见的CAGR、2030需求量、锂电需求占比和材料供需描述，标注为会议/预测口径。",
+        "history": [
+          {
+            "label": "2030储能需求 GWh",
+            "value": 1900
+          },
+          {
+            "label": "储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "锂离子电池产量CAGR %",
+            "value": 17
+          },
+          {
+            "label": "储能占比2026 %",
+            "value": 30
+          },
+          {
+            "label": "储能占比2030 %",
+            "value": 39
+          },
+          {
+            "label": "储能电芯产量CAGR %",
+            "value": 34
+          },
+          {
+            "label": "2030硫磺缺口 万吨",
+            "value": 420
+          }
+        ]
+      },
+      {
         "source": "SMM上海有色",
         "source_type": "专业价格页/行业分析",
         "account_name": "SMM上海有色",
@@ -21743,63 +23035,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "SMM 上海有色网储能价格 / 碳酸锂行情",
-        "source_type": "国内专业价格源/公开行情页",
-        "account_name": "上海有色网 SMM",
-        "category": "行情",
-        "title": "SMM 5月15日储能链价格：280Ah电芯0.334元/Wh，314Ah电芯0.3565元/Wh，5MWh预制舱0.4525元/Wh",
-        "summary": "SMM储能公开行情页显示，2026年5月15日方形磷酸铁锂储能电池280Ah价格区间0.312–0.356元/Wh、均价0.334元/Wh，涨0.0015元/Wh；314Ah价格区间0.332–0.381元/Wh、均价0.3565元/Wh，涨0.0015元/Wh；3.44/3.72MWh直流侧预制舱均价0.44元/Wh持平，中国5MWh直流侧预制舱均价0.4525元/Wh、涨0.0025元/Wh；集中式PCS 1725kW均价0.065元/W、涨0.001元/W。SMM碳酸锂页同日显示电池级碳酸锂192000元/吨，日跌3000元/吨。",
-        "body": [
-          "本轮补入的是SMM 5月15日储能系统与电芯公开价格口径，相比前序只覆盖早前碳酸锂和电解液行情，本条把电芯、预制舱、PCS同步纳入MarketTrend证据链。",
-          "储能电芯价格小幅上行，而电池级碳酸锂5月15日回落至192000元/吨，反映上游锂盐回调与储能设备端价格韧性并存。",
-          "5MWh直流侧储能电池预制舱均价0.4525元/Wh、日涨0.0025元/Wh，可作为大储系统报价跟踪锚点。"
-        ],
-        "key_points": [
-          "方形磷酸铁锂储能电池280Ah：0.312–0.356元/Wh，均价0.334元/Wh，+0.0015。",
-          "方形磷酸铁锂储能电池314Ah：0.332–0.381元/Wh，均价0.3565元/Wh，+0.0015。",
-          "3.44/3.72MWh直流侧预制舱：0.414–0.466元/Wh，均价0.44元/Wh，持平。",
-          "中国5MWh直流侧预制舱：0.413–0.492元/Wh，均价0.4525元/Wh，+0.0025。",
-          "集中式PCS 1725kW：0.062–0.068元/W，均价0.065元/W，+0.001。",
-          "电池级碳酸锂：188000–196000元/吨，均价192000元/吨，-3000。"
-        ],
-        "value": "0.334",
-        "unit": "元/Wh 280Ah储能电芯均价",
-        "delta": "314Ah 0.3565元/Wh；5MWh预制舱0.4525元/Wh；电池级碳酸锂192000元/吨",
-        "direction": "mixed",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能公开行情页显示，2026年5月15日280Ah储能电芯均价0.334元/Wh，314Ah储能电芯均价0.3565元/Wh，中国5MWh直流侧预制舱均价0.4525元/Wh；同日SMM碳酸锂页显示电池级碳酸锂均价192000元/吨。</p>",
-        "caption": "储能电芯与预制舱价格小幅上行，碳酸锂现货回落至19.2万元/吨",
-        "methodology": "02:00重新抓取SMM储能价格页与碳酸锂行情页原始HTML，gzip解码后抽取公开表格；快照sha256：储能页38bcd0aa2a04ff645baac5bf45d6f5e8a3a06b00fc1a6f517fc626c7d16bdf6e，碳酸锂页a7063f52fe7d893d69848bf1c6ab09c483014419388d3924dc43d9e1f589d6a1。",
-        "history": [
-          {
-            "label": "280Ah电芯 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "314Ah电芯 元/Wh",
-            "value": 0.3565
-          },
-          {
-            "label": "3.44/3.72MWh预制舱 元/Wh",
-            "value": 0.44
-          },
-          {
-            "label": "5MWh预制舱 元/Wh",
-            "value": 0.4525
-          },
-          {
-            "label": "PCS 1725kW 元/W",
-            "value": 0.065
-          },
-          {
-            "label": "电池级碳酸锂 元/吨",
-            "value": 192000
-          }
-        ]
-      },
-      {
         "source": "InfoLink Consulting",
         "source_type": "海外/台湾新能源价格研究机构",
         "account_name": "InfoLink",
@@ -21843,53 +23078,6 @@ window.NEOLINK_FEED= {
           {
             "label": "SC6均价 美元/吨",
             "value": 2800
-          }
-        ]
-      },
-      {
-        "source": "上海有色网 SMM",
-        "source_type": "国内专业价格源/公开行情页",
-        "account_name": "SMM",
-        "category": "价格",
-        "title": "SMM：5月15日电池级碳酸锂均价192000元/吨，价格指数191759元/吨",
-        "summary": "SMM公开行情页显示，2026年5月15日电池级碳酸锂价格指数191759元/吨，较前一交易日下调3345元/吨；电池级碳酸锂价格188000-196000元/吨、均价192000元/吨，较前一交易日下调3000元/吨；工业级碳酸锂184000-191000元/吨、均价187500元/吨。",
-        "body": [
-          "本次价格更新延续5月中旬碳酸锂高位回落信号：SMM电池级碳酸锂指数降至191759元/吨，现货均价降至192000元/吨。",
-          "SMM同页给出电池级碳酸锂CIF价格20.6-24.0美元/千克、均价22.3美元/千克，较前一交易日下调0.2美元/千克。",
-          "该价格口径用于校正NeoLink材料趋势与MarketTrend正极/锂盐情绪：高位震荡中出现回落，但绝对价格仍处在19万元/吨附近。"
-        ],
-        "key_points": [
-          "电池级碳酸锂价格指数191759元/吨，日变动-3345元/吨。",
-          "电池级碳酸锂均价192000元/吨，日变动-3000元/吨。",
-          "工业级碳酸锂均价187500元/吨，日变动-3000元/吨。",
-          "CIF均价22.3美元/千克，日变动-0.2美元/千克。"
-        ],
-        "value": "191759",
-        "unit": "元/吨 SMM电池级碳酸锂价格指数",
-        "delta": "-3345元/吨；电池级现货均价192000元/吨",
-        "direction": "down",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://hq.smm.cn/h5/Li2CO3",
-        "clean_html": "<p>SMM 5月15日公开行情显示，电池级碳酸锂价格指数191759元/吨，电池级碳酸锂均价192000元/吨，工业级均价187500元/吨。</p>",
-        "caption": "锂盐价格从高位回落，但仍维持在19万元/吨附近",
-        "methodology": "20:00读取SMM碳酸锂公开行情页；采用页面可见价格范围、均价、涨跌、单位和日期。",
-        "history": [
-          {
-            "label": "价格指数 元/吨",
-            "value": 191759
-          },
-          {
-            "label": "电碳均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "工业级均价 元/吨",
-            "value": 187500
-          },
-          {
-            "label": "CIF均价 美元/千克",
-            "value": 22.3
           }
         ]
       },
@@ -22073,53 +23261,6 @@ window.NEOLINK_FEED= {
           {
             "label": "趋势",
             "value": 1
-          }
-        ]
-      },
-      {
-        "source": "上海有色网 SMM",
-        "source_type": "国内专业数据源/会议公开口径",
-        "account_name": "SMM",
-        "category": "市场",
-        "title": "SMM：2030年全球储能市场需求预计约1900GWh",
-        "summary": "SMM在新能源产业博览会公开分享中预计，2026-2030年全球储能市场需求将以约24%的复合年均增长率逐年攀升，2030年全球储能市场需求约1900GWh；储能在锂电池需求中的占比将从2026年的30%提升至2030年的约39%。",
-        "body": [
-          "SMM认为，中国、美国和欧洲仍是全球储能市场主要增长区域，中东、澳大利亚和东南亚等新兴地区大储需求释放。",
-          "SMM预计2024-2030年全球锂离子储能电芯产量CAGR约34%。",
-          "该预测强化储能作为锂离子电池重要增长极的中长期判断。"
-        ],
-        "key_points": [
-          "2026-2030年全球储能需求CAGR约24%。",
-          "2030年全球储能市场需求约1900GWh。",
-          "储能在锂电需求占比从2026年30%升至2030年约39%。",
-          "全球锂离子储能电芯产量2024-2030年CAGR约34%。"
-        ],
-        "value": "1900",
-        "unit": "GWh 2030E全球储能需求",
-        "delta": "2026-2030 CAGR约24%",
-        "direction": "up",
-        "date": "05-17",
-        "as_of": "2026-05-17",
-        "url": "https://news.smm.cn/news/103872130",
-        "clean_html": "<p>SMM预计2030年全球储能市场需求约1900GWh，2026-2030年储能需求CAGR约24%，储能在锂电需求占比将升至约39%。</p>",
-        "caption": "储能继续成为锂电池需求最重要增量之一",
-        "methodology": "18:00小时抓取SMM公开页面；采用会议公开分享中的CAGR、2030需求和需求占比口径。",
-        "history": [
-          {
-            "label": "2030E GWh",
-            "value": 1900
-          },
-          {
-            "label": "2026-2030 CAGR %",
-            "value": 24
-          },
-          {
-            "label": "2030储能占比 %",
-            "value": 39
-          },
-          {
-            "label": "2026储能占比 %",
-            "value": 30
           }
         ]
       },
@@ -23998,6 +25139,814 @@ window.NEOLINK_FEED= {
     ],
     "metrics": [
       {
+        "source": "SMM碳酸锂行情 / SMM储能专区",
+        "source_type": "国内主材行情复核",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM 04:00复核：碳酸锂价格日期仍为05-18，电池级碳酸锂价格指数190865元/吨、较前值-894",
+        "summary": "04:00重新抓取SMM碳酸锂行情页与储能专区。SMM h5行情页显示价格日期仍为2026-05-18：电池级碳酸锂价格指数190865元/吨、较前值-894元/吨；工业级碳酸锂价格183000~192000元/吨、均价187500元/吨；电池级碳酸锂CIF价格20.6~24美元/千克、均价22.3美元/千克、较前值-0.2（日期05-15）。MarketTrend不把04:00抓取时间伪装成价格发布时间。",
+        "body": [
+          "电池级碳酸锂价格指数：190865元/吨，涨跌-894元/吨，价格日期2026-05-18。",
+          "工业级碳酸锂价格：183000~192000元/吨，均价187500元/吨，涨跌0，价格日期2026-05-18。",
+          "电池级碳酸锂CIF价格：20.6~24美元/千克，均价22.3美元/千克，涨跌-0.2，价格日期2026-05-15。",
+          "储能专区页面继续作为储能电芯/预制舱行情入口复核；若无晚于05-18的公开价格日，不刷新为05-19价格。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为04:00复核抓取。",
+          "电池级碳酸锂价格指数：190865元/吨，变动-894元/吨。",
+          "工业级碳酸锂均价：187500元/吨，变动0。",
+          "电池级碳酸锂CIF均价：22.3美元/千克，变动-0.2，日期05-15。"
+        ],
+        "value": "190865",
+        "unit": "元/吨 电池级碳酸锂价格指数",
+        "delta": "价格指数-894元/吨；工业级均价187500元/吨；CIF均价22.3美元/千克",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://hq.smm.cn/h5/Li2CO3",
+        "original_url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM碳酸锂05-18行情：电池级碳酸锂价格指数190865元/吨（-894）；工业级碳酸锂均价187500元/吨；电池级碳酸锂CIF均价22.3美元/千克（05-15）。</p>",
+        "caption": "行情复核：SMM碳酸锂价格日期仍为05-18，价格指数较前值继续下修",
+        "methodology": "04:00重新抓取SMM碳酸锂h5行情页 HTTP 200 sha256 4f6f0841e0fa611e2a14cfbfc72458d28c9bcd6bf3e420b860f1807f96cfa23c 与SMM储能专区 HTTP 200 sha256 52a60480d6a8a7ce29293623f201439bad0fd302a186895431aab48471b08b3d；仅采用页面表格可见价格、日期和涨跌字段，不更新为04:00价格。",
+        "history": [
+          {
+            "label": "电池级碳酸锂价格指数 元/吨",
+            "value": 190865
+          },
+          {
+            "label": "指数变动 元/吨",
+            "value": -894
+          },
+          {
+            "label": "工业级碳酸锂均价 元/吨",
+            "value": 187500
+          },
+          {
+            "label": "工业级变动 元/吨",
+            "value": 0
+          },
+          {
+            "label": "电池级碳酸锂CIF 美元/千克",
+            "value": 22.3
+          },
+          {
+            "label": "CIF变动 美元/千克",
+            "value": -0.2
+          }
+        ]
+      },
+      {
+        "source": "21财经 / 上海证券报 / CIBF2026现场报道",
+        "source_type": "国内展会现场与产业链订单/材料价格信号",
+        "account_name": "21财经 / 上海证券报",
+        "category": "储能订单/材料/固态电池",
+        "title": "CIBF2026现场信号：储能客户关注点从价格转向交付周期，部分企业订单排至三季度",
+        "summary": "04:00新增国内现场报道复核：21财经转载上海证券报5月17日报道，CIBF2026（5月13-15日深圳）现场锂电展位热度明显，储能需求旺盛被视为本轮锂电复苏关键；鹏辉能源称订单饱满、产能已排满至第三季度，赣锋锂电称日韩、欧洲、东南亚外商问询增多，最受关注产品为储能电池。报道还引用隆众资讯：储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨，涨幅超过100%。",
+        "body": [
+          "展会观察：CIBF2026锂电池公司展位热度明显，部分参展商表示客户从“更关心价格”转为“更关心订单交付周期”。",
+          "订单信号：鹏辉能源表示受海外退税政策时间窗口等因素影响，公司订单饱满，产能已经排满至第三季度。",
+          "外需信号：赣锋锂电表示外商客户问询增多，主要来自日韩、欧洲、东南亚，最受关注产品是储能电池，固态电池关注度也提升。",
+          "材料信号：隆众资讯数据显示，储能型磷酸铁锂正极材料月均价由2025年5月31684元/吨上涨至2026年5月64344元/吨，涨幅超过100%。",
+          "解读：该线索补充了03:00宏观/出口数据之外的微观订单侧证据，说明储能高景气不仅体现在产量与出口，还体现在交付周期、正极材料传导和海外询盘。"
+        ],
+        "key_points": [
+          "CIBF2026举办时间：5月13日至15日，地点深圳。",
+          "鹏辉能源：订单饱满，产能排满至第三季度。",
+          "赣锋锂电：日韩、欧洲、东南亚外商客户问询增多，最受关注产品为储能电池。",
+          "储能型磷酸铁锂正极材料月均价：2025年5月31684元/吨；2026年5月64344元/吨；涨幅超过100%。",
+          "清华大学欧阳明高判断：今后5年储能电池将遇巨大机遇期。"
+        ],
+        "value": "64344",
+        "unit": "元/吨 2026年5月储能型磷酸铁锂正极材料月均价",
+        "delta": "较2025年5月31684元/吨涨幅超过100%；鹏辉能源产能排至Q3",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17 18:03 CST",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "original_url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "related_urls": [
+          "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwktz9997845.shtml",
+          "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/"
+        ],
+        "clean_html": "<p>CIBF2026现场报道显示储能订单与交付周期成为锂电企业核心信号；储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨。</p>",
+        "caption": "订单侧补充：CIBF2026现场反馈储能需求旺盛、材料价格传导和海外问询同步增强",
+        "methodology": "04:00主动搜索国内公开来源并抓取21财经/上海证券报CIBF现场报道 HTTP 200 sha256 74cba2249066183cc41459a604dbbc4aeff714321d63f3c7c250c55ae45f63d2；同步抓取新浪财经锂价报道用于价格背景复核 HTTP 200 sha256 ba9d8e709ccba52d79b0eae9cc22af88d2928959f0a7eddf20922cbd9ff08dfd，海外公开行情页Trading Economics尝试抓取结果 HTTP curl:0 sha256 e3bced57ef19b7ee10ae7aa0c88bf53c33d29d6ecc0fb85879da78fea1fe8e53，Energy-Storage.news Q1出口旧线索复核 HTTP 200 sha256 035bc22cd9e31f92f5ac1383ad748388eabff11eab9cc531d631edb97eebd99a。采用可抓取新闻正文与搜索结果中一致出现的数值；Trading Economics若403则仅记录为未采用的海外行情尝试，不写入价格事实。",
+        "history": [
+          {
+            "label": "2025年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 31684
+          },
+          {
+            "label": "2026年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 64344
+          },
+          {
+            "label": "材料价格涨幅下限 %",
+            "value": 100
+          },
+          {
+            "label": "鹏辉能源产能排产季度",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "source": "国家统计局 / 新华社英文 / 新浪财经转载 / Mysteel",
+        "source_type": "国内官方宏观与海外英文产业数据交叉复核",
+        "account_name": "国家统计局 / Xinhua / Sina Finance / Mysteel",
+        "category": "宏观/产量/出口/价格",
+        "title": "统计局4月口径：锂离子电池产量同比+31%，1-4月产量+36%；Mysteel复核4月动储电池出口31.7GWh",
+        "summary": "04:00严格刷新新增：国家统计局5月18日答记者问披露，4月锂离子电池产量同比增长31%，1-4月锂离子电池产品产量同比增长36%，锂离子电池制造业投资增长28.8%；4月锂离子电池制造价格同比上涨4.5%，反映绿色低碳产业与部分行业价格修复。新华社英文稿同步确认1-4月规模以上工业增加值同比+5.6%、高技术制造业+12.6%。海外英文产业数据采用Mysteel：4月中国动力+储能电池产量183.9GWh、同比+55.6%，出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh、同比+45.4%。",
+        "body": [
+          "官方宏观口径：国家统计局答记者问称，4月水轮发电机组、锂离子电池产量分别增长47.4%和31%；1-4月3D打印设备、锂离子电池、工业机器人产品产量分别增长50.9%、36%、25.7%。",
+          "投资与价格口径：1-4月锂离子电池制造业投资增长28.8%；4月锂离子电池制造、光伏设备及元器件制造价格同比分别上涨4.5%和3.8%。",
+          "外贸与服务口径：1-4月电动汽车、风力发电机组等绿色低碳产品出口额增长超过40%，高新技术产品出口额增长27.6%；重点充电平台交易额增长超过30%。",
+          "海外英文复核：新华社英文稿确认1-4月工业增加值、高技术制造业增速；Mysteel转述联盟数据称4月动储电池出口31.7GWh、同比+42.0%、环比-12.3%，储能电池出口11.4GWh、同比+45.4%。",
+          "解读：官方产量/投资/价格与英文行业出口口径共同指向储能与锂电产业链景气仍强，但4月出口环比回落显示退税政策切换后的节奏扰动仍需跟踪。"
+        ],
+        "key_points": [
+          "4月锂离子电池产量同比：+31%。",
+          "1-4月锂离子电池产品产量同比：+36%。",
+          "1-4月锂离子电池制造业投资：+28.8%。",
+          "4月锂离子电池制造价格同比：+4.5%。",
+          "1-4月绿色低碳产品出口额：电动汽车、风力发电机组等增长超过40%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%；储能电池出口11.4GWh，同比+45.4%。"
+        ],
+        "value": "31",
+        "unit": "% 4月锂离子电池产量同比",
+        "delta": "1-4月产量+36%；制造业投资+28.8%；4月动储电池出口31.7GWh、同比+42.0%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 04:00 CST",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202605/t20260518_1963741.html",
+        "original_url": "https://www.mysteel.net/news/5123267-flash-china-total-output-of-power-and-other-batteries-rose-35-in-april-2026-",
+        "related_urls": [
+          "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyiewm2883130.shtml",
+          "https://english.news.cn/20260518/83beb465bf944163bfe48a3bace0b6d7/c.html"
+        ],
+        "clean_html": "<p>国家统计局披露4月锂离子电池产量同比+31%、1-4月产量+36%、锂离子电池制造业投资+28.8%；Mysteel复核4月动力+储能电池出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh。</p>",
+        "caption": "宏观与出口：官方产量/投资/价格数据继续支撑锂电与储能景气，出口同比高增但环比回落",
+        "methodology": "04:00主动搜索国内+海外公开来源并抓取；国家统计局答记者问 HTTP 200 sha256 450423543efeb611ab96a921344c490a83109b00e5eb1dff8258685b7cda5c18；新浪财经转载用于可读性复核 HTTP 200 sha256 556efb4ce2d9469c6e51b81a0b42c4fc10b0a070c7fa655bdbcb63a8a4e58146；新华社英文稿 HTTP 200 sha256 d2fc9dbe750dca3e1d51c79c03e28bca193067aa33c651a9dd73e273ffeecae3；Mysteel英文快讯 HTTP 200 sha256 14bda6d78aaa6ccf21476cb38ff06d15cb89b7d404dc1fd20886252106722199。只采用页面可见的官方表述和英文报道数值，未将搜索摘要中无法在抓取文件留痕的内容单独作为事实来源。",
+        "history": [
+          {
+            "label": "4月锂离子电池产量同比 %",
+            "value": 31.0
+          },
+          {
+            "label": "1-4月锂离子电池产量同比 %",
+            "value": 36.0
+          },
+          {
+            "label": "锂离子电池制造业投资同比 %",
+            "value": 28.8
+          },
+          {
+            "label": "锂离子电池制造价格同比 %",
+            "value": 4.5
+          },
+          {
+            "label": "绿色低碳产品出口额同比 %",
+            "value": 40.0
+          },
+          {
+            "label": "4月动储电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "4月储能电池出口 GWh",
+            "value": 11.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 45.4
+          }
+        ]
+      },
+      {
+        "source": "SMM储能专区 / SMM赣锋锂业供需报道",
+        "source_type": "国内储能材料行情与库存快照",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM储能专区02:00复核：价格日期仍为05-18，电池级碳酸锂均价19.15万元/吨、SMM库存天数24.9天",
+        "summary": "02:00重新抓取SMM储能专区与SMM 5月18日赣锋锂业供需报道。行情表仍显示05-18口径：电池级碳酸锂187000~196000元/吨、均价191500元/吨、跌500元/吨；方形磷酸铁锂储能型280Ah电池仍显示05-15周价0.312~0.356元/Wh、均价0.334元/Wh、涨0.0015元/Wh。SMM报道补充截至5月14日碳酸锂样本周度库存101418实物吨、库存天数24.9天。",
+        "body": [
+          "本条为MarketTrend行情复核，不把02:00抓取时间伪装成价格发布时间；电池级碳酸锂价格日期按SMM页面显示为05-18。",
+          "电池级碳酸锂Li₂CO₃≥99.5%：187000~196000元/吨，均价191500元/吨，较前值-500元/吨。",
+          "方形磷酸铁锂电池（周，储能型280Ah）：0.312~0.356元/Wh，均价0.334元/Wh，较前值+0.0015元/Wh，价格日期仍为05-15周价。",
+          "中国直流侧储能电池预制舱（5MWh）：0.413~0.492元/Wh，均价0.4525元/Wh，较前值+0.0025元/Wh。",
+          "SMM 5月18日供需报道补充：截至5月14日，SMM碳酸锂样本周度库存总计101418实物吨，分环节库存天数24.9天。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为02:00复核抓取。",
+          "电池级碳酸锂均价：191500元/吨，日变动-500元/吨。",
+          "储能型280Ah方形LFP电芯均价：0.334元/Wh，周度变动+0.0015元/Wh。",
+          "5MWh直流侧预制舱均价：0.4525元/Wh，变动+0.0025元/Wh。",
+          "SMM碳酸锂样本库存：101418实物吨，库存天数24.9天。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "碳酸锂-500元/吨；储能280Ah电芯+0.0015元/Wh；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T02:00:00+08:00",
+        "url": "https://energy-storage.smm.cn/",
+        "original_url": "https://news.smm.cn/news/103907167",
+        "clean_html": "<p>SMM储能专区05-18行情：电池级碳酸锂均价191500元/吨（-500）；储能型280Ah电芯05-15周价均价0.334元/Wh（+0.0015）；SMM样本库存101418实物吨、24.9天。</p>",
+        "caption": "行情复核：碳酸锂价格日期仍为05-18，新增SMM库存天数低位口径",
+        "methodology": "02:00重新抓取SMM储能专区；HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3；并抓取SMM赣锋锂业供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；仅采用页面表格/正文可见价格、日期和库存字段，不更新为02:00价格。",
+        "history": [
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "碳酸锂变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "280Ah变动 元/Wh",
+            "value": 0.0015
+          },
+          {
+            "label": "5MWh预制舱 元/Wh",
+            "value": 0.4525
+          },
+          {
+            "label": "5MWh变动 元/Wh",
+            "value": 0.0025
+          },
+          {
+            "label": "SMM样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / CnEVPost / ChinaEVHome / 中国汽车动力电池产业创新联盟口径",
+        "source_type": "国内锂资源供需与海外英文电池月度数据交叉复核",
+        "account_name": "上海有色网 / CnEVPost / ChinaEVHome",
+        "category": "供需/出口/装机",
+        "title": "赣锋称2026锂资源维持紧平衡；4月中国动力+储能电池出口31.7GWh、同比+42.0%",
+        "summary": "02:00严格刷新新增：SMM 5月18日报道赣锋锂业投资者关系口径称，2026年全球锂资源供需整体将维持紧平衡，行业锂矿石及锂盐库存天数处于历史低位；SMM同文引用截至5月14日碳酸锂样本周度库存101418实物吨、分环节库存天数24.9天，并给出5月18日电池级碳酸锂18.7~19.6万元/吨、均价19.15万元/吨。海外英文复核采用CnEVPost/ChinaEVHome对中汽创新联盟4月数据的报道：4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力+储能电池出口31.7GWh，同比+42.0%、环比-12.3%。",
+        "body": [
+          "国内供需口径：SMM页面标题为“赣锋锂业：2026全球锂资源供需整体将维持紧平衡格局 对行业后续走势保持乐观”，发布时间为5月18日。",
+          "赣锋锂业在投资者关系活动记录表中称，2026年全球锂资源供需整体将维持紧平衡；下半年供给增量仍有不确定性，但下游需求亦将同步增长。",
+          "库存口径：SMM库存数据显示，截至5月14日，碳酸锂样本周度库存总计101418实物吨，分环节库存天数总计24.9天，接近历史低位。",
+          "行情口径：SMM同文称截至5月18日电池级碳酸锂现货18.7~19.6万元/吨，均价19.15万元/吨；与MarketTrend行情页05-18快照一致。",
+          "海外英文复核：CnEVPost基于中国汽车动力电池产业创新联盟数据称，4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力和储能电池合计出口31.7GWh，同比+42.0%、环比-12.3%。",
+          "ChinaEVHome补充4月动力+储能电池产量183.9GWh、同比+55.6%，销量164.2GWh、同比+39.0%，其中储能电池销售55.2GWh。"
+        ],
+        "key_points": [
+          "2026年全球锂资源供需：赣锋口径为整体紧平衡。",
+          "SMM碳酸锂样本周度库存：101418实物吨；分环节库存天数24.9天。",
+          "5月18日电池级碳酸锂：18.7~19.6万元/吨，均价19.15万元/吨。",
+          "4月中国动力电池装车：62.4GWh，同比+15.2%，环比+10.4%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%。",
+          "4月储能电池销售：55.2GWh（ChinaEVHome转述联盟口径）。"
+        ],
+        "value": "31.7",
+        "unit": "GWh 4月动力+储能电池出口",
+        "delta": "出口同比+42.0%、环比-12.3%；装车62.4GWh，同比+15.2%；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-19 02:00 CST",
+        "url": "https://news.smm.cn/news/103907167",
+        "original_url": "https://cnevpost.com/2026/05/11/china-apr-2026-battery-installations/",
+        "related_urls": [
+          "https://chinaevhome.com/2026/05/11/china-ev-battery-installations-hit-62-4-gwh-in-april-catl-holds-46-64/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露赣锋锂业判断2026全球锂资源供需紧平衡，并引用5月14日SMM碳酸锂样本库存101418实物吨、库存天数24.9天；CnEVPost/ChinaEVHome转述中汽创新联盟4月动力+储能电池出口31.7GWh、同比+42.0%。</p>",
+        "caption": "供需与出口：锂资源低库存与储能需求继续支撑价格中枢，4月出口同比仍高增但环比回落",
+        "methodology": "02:00主动搜索国内+海外公开来源并抓取；SMM赣锋/碳酸锂供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；CnEVPost 4月电池装车与出口报道 HTTP 200 sha256 a3fb725835c2a157733ad5140fc904366d66b71c8feb4376bd58e4b232599c80；ChinaEVHome同源英文复核 HTTP 200 sha256 cc8ddbce558376f21503ec4a97e0d64ab1f0a914e2099babb7c111d57b0d12a9；SMM储能行情页 HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3。仅采用页面可见标题、正文和表格字段；把上市公司判断、SMM样本库存、联盟月度装车/出口数据分开标注。",
+        "history": [
+          {
+            "label": "4月动力+储能电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "出口同比 %",
+            "value": 42.0
+          },
+          {
+            "label": "出口环比 %",
+            "value": -12.3
+          },
+          {
+            "label": "4月动力电池装车 GWh",
+            "value": 62.4
+          },
+          {
+            "label": "装车同比 %",
+            "value": 15.2
+          },
+          {
+            "label": "SMM碳酸锂样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          }
+        ]
+      },
+      {
+        "source": "SMM / 北极星储能网 / Energy-Storage.News / 中国海关总署口径",
+        "source_type": "国内电芯产能公示与海外英文出口数据交叉复核",
+        "account_name": "上海有色网 / 北极星储能网 / Energy-Storage.News",
+        "category": "产能/出口",
+        "title": "宁德时代贵安二期拟新增40GWh电芯产能；中国Q1储能电池出口27.3GWh、占动力+储能出口32.4%",
+        "summary": "01:00严格刷新新增：国内公开来源SMM转载北极星储能网披露，贵安新区生态环境局5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环评拟审批公示，项目建成后将形成年产40GWh新能源电池电芯能力。海外行业媒体Energy-Storage.News基于中国海关总署/国新办发布会口径称，2026年一季度中国动力和储能电池出口84.1GWh、同比+36.7%；其中储能电池出口27.3GWh、占32.4%、同比+15.0%，3月储能电池出口13.8GWh、环比+96.9%、同比+52.4%。",
+        "body": [
+          "国内产能口径：SMM页面标题为“新增40GWh新能源电池电芯产能 宁德时代贵州贵安二期扩建项目公示”，来源标注北极星储能网，发布时间2026-05-15 18:19。",
+          "项目口径：贵安新区生态环境局于5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环境影响报告表拟审批公示，建设主体为宁德时代（贵州）新能源科技有限公司，选址贵州省贵安新区。",
+          "产能口径：项目拟购置阴极/阳极高效制浆机、凹版印刷机、宽幅双面极片涂布机等设备，建成后形成年产40GWh新能源电池电芯能力。",
+          "海外/英文复核口径：Energy-Storage.News报道中国一季度动力和储能电池合计出口84.1GWh、同比+36.7%；储能电池出口27.3GWh、占32.4%、同比+15.0%。",
+          "本条把“环评拟审批/产能规划”和“海关出口统计”分开标注，不把拟建产能当作已投产，也不把出口GWh直接等同于海外并网容量。"
+        ],
+        "key_points": [
+          "宁德时代贵州贵安二期扩建项目拟新增年产40GWh新能源电池电芯能力。",
+          "项目处于环境影响报告表拟审批公示口径，非已投产口径。",
+          "中国Q1动力+储能电池出口84.1GWh，同比+36.7%。",
+          "其中储能电池出口27.3GWh，占32.4%，同比+15.0%。",
+          "3月储能电池出口13.8GWh，环比+96.9%、同比+52.4%。"
+        ],
+        "value": "40",
+        "unit": "GWh 拟新增新能源电池电芯年产能",
+        "delta": "Q1储能电池出口27.3GWh，同比+15.0%；动力+储能电池出口84.1GWh，同比+36.7%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 01:00 CST",
+        "url": "https://news.smm.cn/news/103904169",
+        "original_url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "related_urls": [
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM/北极星储能网披露宁德时代贵州贵安二期扩建拟新增40GWh新能源电池电芯年产能；Energy-Storage.News基于海关总署口径称中国Q1储能电池出口27.3GWh、同比增长15.0%。</p>",
+        "caption": "供给与出口：头部电芯产能继续扩张，储能电池出口维持双位数增长",
+        "methodology": "01:00主动搜索国内+海外公开来源并抓取；宁德时代贵安二期SMM/北极星页面 HTTP 200 sha256 bd6f1cd0c34d135909dd2b9ad7d2be39a9e235354134dc1d21e753c7e905105f；Energy-Storage.News中国储能电池出口报道 HTTP 200 sha256 dd0e7d5100ee8604b1d2d5ae6c6a1343efda673b6b1b385870e9ac2a2411faad；SMM储能行情页 HTTP 200 sha256 c1bd7b1fe6fc5cce64bd736ed2395cdd356731efac102637043614e6cdd80ee9；采用页面可见标题、正文及英文报道中一致可见的40GWh、84.1GWh、36.7%、27.3GWh、32.4%、15.0%、13.8GWh、96.9%、52.4%等字段，明确区分环评拟审批产能、出口统计和并网容量。",
+        "history": [
+          {
+            "label": "贵安二期拟新增年产能 GWh",
+            "value": 40
+          },
+          {
+            "label": "Q1动力+储能电池出口 GWh",
+            "value": 84.1
+          },
+          {
+            "label": "动力+储能出口同比 %",
+            "value": 36.7
+          },
+          {
+            "label": "Q1储能电池出口 GWh",
+            "value": 27.3
+          },
+          {
+            "label": "储能电池出口占比 %",
+            "value": 32.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 15.0
+          },
+          {
+            "label": "3月储能电池出口 GWh",
+            "value": 13.8
+          },
+          {
+            "label": "3月储能电池出口环比 %",
+            "value": 96.9
+          }
+        ]
+      },
+      {
+        "source": "SMM / Modo Energy / S&P Global Commodity Insights",
+        "source_type": "国内EPC招标与海外BESS资本市场交叉复核",
+        "account_name": "上海有色网 / Modo Energy / S&P Global",
+        "category": "招标/资本市场",
+        "title": "国内小型配储EPC与美国BESS融资热度并行：华能宁夏22.68MW/45.135MWh招标，Modo称Q1美国BESS交易环比+42%",
+        "summary": "00:00严格刷新新增：国内公开来源SMM披露华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC招标，项目包含9个5.015MWh储能电池及变流预制舱、5个升压箱变，计划工期至2026年7月31日。海外公开来源Modo Energy Q1 2026美国BESS资本市场报告称，其跟踪17起美国BESS公开交易，较2025年Q4的12起增加42%，涉及2.4GW容量和29亿美元已披露债务，ERCOT占交易数约60%。S&P Global用于复核海外锂盐供需与储能需求驱动背景。",
+        "body": [
+          "国内项目口径：SMM标题与正文可见“华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC项目招标”，招标关键词为储能、招投标。",
+          "设备范围：储能区共放置9个5.015MWh储能电池及变流预制舱和5个升压箱变，分区接入隆桥光伏电站35kV母线；计划工期为合同签订日至2026年7月31日。",
+          "海外资本口径：Modo Energy元信息显示Q1 2026跟踪17起美国BESS公开交易，较Q4 2025的12起增长42%，容量2.4GW，已披露债务29亿美元，ERCOT占约60%。",
+          "S&P Global报道用于背景复核：2026年锂盐过剩预计收窄、储能需求仍是锂需求增长驱动之一；本条不把资本市场交易等同于已并网容量。",
+          "MarketTrend同步复核SMM储能专区05-18行情，价格日期按页面显示，不用00:00抓取时间替代价格日期。"
+        ],
+        "key_points": [
+          "华能宁夏隆桥：22.68MW/45.135MWh电源侧储能EPC招标。",
+          "设备：9个5.015MWh储能电池及变流预制舱、5个升压箱变。",
+          "Modo：Q1 2026美国BESS公开交易17起，环比+42%。",
+          "Modo：涉及2.4GW容量、29亿美元已披露债务；ERCOT约占交易数60%。",
+          "00:00已重新爬取NeoLink首页、MarketTrend入口、国内SMM与海外Modo/S&P来源。"
+        ],
+        "value": "2.4",
+        "unit": "GW Q1美国BESS公开交易涉及容量",
+        "delta": "17起交易，较Q4 2025的12起+42%；国内新增22.68MW/45.135MWh EPC招标线索",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 00:00 CST",
+        "url": "https://news.smm.cn/news/103885991",
+        "original_url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "related_urls": [
+          "https://www.spglobal.com/energy/en/news-research/latest-news/metals/010926-commodities-2026-lithium-carbonate-surplus-to-narrow-energy-storage-to-drive-growth",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露华能宁夏隆桥22.68MW/45.135MWh电源侧储能EPC招标；Modo Energy称Q1 2026美国BESS公开交易17起、环比增长42%、涉及2.4GW。</p>",
+        "caption": "项目与资本：国内配储EPC继续释放招标，海外BESS交易活跃度回升",
+        "methodology": "00:00主动搜索国内+海外公开来源并抓取；华能宁夏EPC SMM HTTP 200 sha256 afee51a05a66271f453191fb0c6f6e7f6bb34e0c88d04882386dd2687ee4fc1a；Modo美国BESS资本市场报告 HTTP 200 sha256 16f5ef444d599d923b5524e0356743a4c8a4c06017618f1f9861c1e4d58e4104；S&P锂盐/储能需求背景 HTTP curl:0 sha256 c05cdb36e1aabf7d42ff62c0ea44a5fd6312d3e3811f3292e9cc5978210508cc；SMM储能行情页 HTTP 200 sha256 02ddcf1edaa1d0baa598e3ceca33ee745d29eb5552d889664d1957b97d277a04；采用页面可见标题、搜索摘要及HTML meta中一致可见的22.68MW/45.135MWh、9×5.015MWh、2026-07-31、17起、+42%、2.4GW、29亿美元、ERCOT约60%等字段，明确区分招标、交易/融资与已投运容量。",
+        "history": [
+          {
+            "label": "美国BESS交易容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "美国BESS交易数",
+            "value": 17
+          },
+          {
+            "label": "交易数环比 %",
+            "value": 42
+          },
+          {
+            "label": "披露债务 亿美元",
+            "value": 29
+          },
+          {
+            "label": "宁夏项目功率 MW",
+            "value": 22.68
+          },
+          {
+            "label": "宁夏项目容量 MWh",
+            "value": 45.135
+          }
+        ]
+      },
+      {
+        "source": "SMM / Yahoo Finance-GlobeNewswire / Energy-Storage.News",
+        "source_type": "国内需求预测与海外项目管线交叉复核",
+        "account_name": "上海有色网 / Bimergen Energy / Energy-Storage.News",
+        "category": "需求预测/海外项目",
+        "title": "全球储能需求与海外项目管线复核：SMM预计2030年全球储能约1900GWh，Bimergen披露2.0GW美国BESS开发管线",
+        "summary": "23:00主动搜索国内+海外公开来源后新增：SMM在新能源论坛口径中预计2026-2030年全球储能需求CAGR约24%、2030年全球储能市场需求约1900GWh，并称储能在锂电需求占比将由2026年约30%升至2030年约39%。海外方面，Yahoo Finance/GlobeNewswire发布的Bimergen Energy公告称其将于5月18日介绍约20亿美元资产增长策略，基础为美国主要电力市场约2.0GW电池储能开发管线；Energy-Storage.News同步作为海外行业站点复核其2026储能报告入口。",
+        "body": [
+          "国内需求口径：SMM页面显示，SMM储能分析师预计2026-2030年全球储能市场需求逐年攀升，CAGR约24%，2030年全球储能市场需求约1900GWh。",
+          "锂电结构口径：SMM预计储能在锂电池需求中的占比从2026年的约30%提升至2030年的约39%，动力电池占比由约63%收窄至约56%。",
+          "海外项目口径：Yahoo Finance/GlobeNewswire所载Bimergen公告称，公司5月18日在LD Micro会议介绍约20亿美元资产增长计划，基础为美国关键电力市场约2.0GW BESS开发管线。",
+          "行业信息入口：Energy-Storage.News 2026储能报告入口已复核，用作海外BESS行业主题索引；本条不把会议公告等同于已投运容量。",
+          "MarketTrend行情仍单独按SMM储能专区05-15可见报价处理，本条仅新增需求/项目管线证据。"
+        ],
+        "key_points": [
+          "SMM预计2026-2030年全球储能需求CAGR约24%。",
+          "SMM预计2030年全球储能市场需求约1900GWh。",
+          "储能占锂电需求比重预计由2026年约30%升至2030年约39%。",
+          "Bimergen披露约2.0GW美国BESS开发管线支撑约20亿美元资产增长策略。",
+          "23:00已重抓NeoLink首页、MarketTrend入口与国内/海外源；未仅刷新时间。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030全球储能市场需求预测",
+        "delta": "2026-2030 CAGR约24%；储能占锂电需求约30%升至约39%；海外管线约2.0GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 23:00 CST",
+        "url": "https://news.smm.cn/news/103872130",
+        "original_url": "https://finance.yahoo.com/sectors/energy/articles/bimergen-energy-present-may-18th-103000493.html",
+        "related_urls": [
+          "https://www.energy-storage.news/resources/the-energy-storage-report-2026/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM预计2030年全球储能需求约1900GWh、2026-2030年CAGR约24%；Bimergen公告披露约2.0GW美国BESS开发管线。</p>",
+        "caption": "需求与管线：长期储能需求上修背景下，美国BESS开发管线继续释放项目证据",
+        "methodology": "23:00主动搜索国内+海外公开来源并抓取；SMM长期需求预测 HTTP 200 sha256 a1333c0b8ec0e5ed3082641de5bdf1fe1bfbd8590850e33fccf62e0dea338bbc；Yahoo Finance/GlobeNewswire/Bimergen公告 HTTP 200 sha256 045dc67c28d14178497729c816c19655bda3a267094e6128d3dc2157b2c8ac0d；Energy-Storage.News 2026报告入口 HTTP 200 sha256 97cf555a6fb48b0cf4dab0df114a1a2597f8124aecf447937338f2ef3082a81a；SMM储能行情页 HTTP 200 sha256 1a1e670266473e78c7b898180624ccbd88817524bd94c941cd9a8d2d76256e6e；采用搜索摘要和抓取页面中一致可见的1900GWh、24% CAGR、30%至39%、2.0GW与20亿美元描述，明确区分预测需求、开发管线和已投运容量。",
+        "history": [
+          {
+            "label": "2030全球储能需求预测 GWh",
+            "value": 1900
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2026储能占锂电需求 %",
+            "value": 30
+          },
+          {
+            "label": "2030储能占锂电需求 %",
+            "value": 39
+          },
+          {
+            "label": "Bimergen BESS管线 GW",
+            "value": 2.0
+          },
+          {
+            "label": "Bimergen资产计划 亿美元",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "source": "SMM / InfoLink Consulting / Energy-Storage.News",
+        "source_type": "国内外锂价与BESS成本链条复核",
+        "account_name": "上海有色网 / InfoLink / Energy-Storage.News",
+        "category": "原材料/系统成本",
+        "title": "锂价与BESS成本压力交叉复核：瑞银上调2026中国碳酸锂均价至20万元/吨，海外称BESS短期价格或上行",
+        "summary": "22:00主动搜索国内+海外公开来源后新增：SMM转载/整理的瑞银观点将2026年中国碳酸锂现货均价预测上调18%至20万元/吨，并称储能电池需求增速约60%、全球锂需求约197万吨LCE、风险加权供给约191万吨LCE、缺口约6.5万吨LCE；海外InfoLink与Energy-Storage.News均指向锂盐高位/供应链挑战使BESS成本短期承压，但中国BESS/电芯价格传导仍相对稳定。",
+        "body": [
+          "国内口径：SMM页面显示，瑞银全球大宗商品团队5月7日报告把2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5-6月现货价格可能触及25万元/吨。",
+          "需求口径：瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求增速约60%；上行情景下若ESS需求同比增长80%，全球锂需求或升至204万吨LCE。",
+          "供给口径：瑞银风险加权供给预测约191万吨LCE，形成约6.5万吨LCE缺口；关键扰动包括津巴布韦出口禁令/配额、江西矿山换证和供应链库存偏低。",
+          "海外交叉验证：InfoLink称锂盐在高位区间震荡、矿端偏紧支撑强于锂盐基本面压力，同时中国BESS价格因电芯涨价传导而保持相对稳定；Energy-Storage.News则称锂价大幅上行、出口退税变化和供应链挑战使BESS短期价格或上行。",
+          "本条不把机构预测当作即时报价；MarketTrend价格表仍按SMM储能专区05-15可见行情保留。"
+        ],
+        "key_points": [
+          "瑞银上调2026年中国碳酸锂现货均价预测18%至20万元/吨。",
+          "2026全球锂需求预测约197万吨LCE，同比+16%；ESS需求增速约60%。",
+          "风险加权供给约191万吨LCE，对应约6.5万吨LCE缺口。",
+          "上行情景：ESS需求+80%、全球锂需求约204万吨LCE、缺口约12.3万吨LCE。",
+          "海外口径提示BESS短期成本承压，但中国BESS价格传导仍被描述为相对稳定。"
+        ],
+        "value": "200000",
+        "unit": "元/吨 2026中国碳酸锂现货均价预测",
+        "delta": "瑞银较前预测上调18%；基准缺口约6.5万吨LCE；ESS需求增速约60%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 22:00 CST",
+        "url": "https://news.smm.cn/news/103892629",
+        "original_url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "related_urls": [
+          "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>瑞银将2026年中国碳酸锂现货均价预测上调至20万元/吨，储能电池需求增速约60%；海外来源同步提示BESS短期成本承压。</p>",
+        "caption": "成本链条：锂价预测上修与BESS短期价格压力形成同向信号",
+        "methodology": "22:00主动搜索国内+海外公开来源并抓取；SMM瑞银观点 HTTP 200 sha256 6b58615107e18b4a696c5a94e90d8a94a82970fe1c993d55bcf623191922abe4；InfoLink HTTP 200 sha256 03ddd092fcc8ea183876c6ee6ecce46fa8b7619d442503a411970735b90b40bb；Energy-Storage.News HTTP 200 sha256 e5996e56427c136e4d0295cdac9b94573138ebcc8650dfabf0dfe1c856bbb800；SMM储能专区 HTTP 200 sha256 679efd6a1ee2cc9eeee87b2435d3a2aec8bdaf8323453466e43e25983491b62d；采用页面/搜索摘要中一致可见的20万元/吨、+18%、197万吨LCE、191万吨LCE、6.5万吨LCE、ESS +60%与BESS价格压力描述，明确标注为机构预测和成本趋势，不作为即时成交价。",
+        "history": [
+          {
+            "label": "2026中国碳酸锂均价预测 元/吨",
+            "value": 200000
+          },
+          {
+            "label": "预测上调幅度 %",
+            "value": 18
+          },
+          {
+            "label": "全球锂需求 万吨LCE",
+            "value": 197
+          },
+          {
+            "label": "风险加权供给 万吨LCE",
+            "value": 191
+          },
+          {
+            "label": "基准缺口 万吨LCE",
+            "value": 6.5
+          },
+          {
+            "label": "ESS需求增速 %",
+            "value": 60
+          }
+        ]
+      },
+      {
+        "source": "SMM快讯 / pv magazine / TaiyangNews",
+        "source_type": "海外储能容量拍卖",
+        "account_name": "SMM有色快讯",
+        "category": "海外市场",
+        "title": "日本LTDA最新拍卖授予19个电池储能项目合计1.25GW，非锂路线699MW高于锂电551MW",
+        "summary": "21:00国内+海外公开来源交叉确认：日本FY2025长期脱碳电源拍卖（LTDA）共授予32个项目约7.3GW容量，其中电池储能19个项目合计约1.25GW；锂电储能551MW、非锂电储能约699MW，电池储能约占脱碳电源中标容量近30%。",
+        "body": [
+          "该条采用SMM有色快讯、SMM英文Metal.com以及pv magazine/TaiyangNews公开报道交叉核验，属于日本容量市场/长期脱碳电源拍卖口径。",
+          "报道显示，日本最新LTDA合计授予约7.3GW容量；其中脱碳电源项目约4.26GW，LNG火电约3.04GW。",
+          "电池储能中标容量约1.25GW，覆盖19个项目；锂离子电池储能551MW，非锂电储能约699MW/700MW，显示日本长时与非锂储能路线继续获得容量市场支持。",
+          "与FY2024约1.37GW电池储能中标相比，本轮1.25GW小幅下降，但在更严格时长规则下仍保持较高规模。"
+        ],
+        "key_points": [
+          "日本FY2025 LTDA：32个项目合计约7.3GW。",
+          "电池储能：19个项目合计约1.25GW。",
+          "锂电储能：551MW；非锂电储能：约699MW/700MW。",
+          "电池储能约占脱碳电源中标容量近30%。",
+          "较FY2024电池储能1.37GW中标容量小幅下降，但规则收紧后仍较强。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本LTDA电池储能中标容量",
+        "delta": "FY2024约1.37GW→FY2025约1.25GW；非锂约699MW高于锂电551MW",
+        "direction": "neutral",
+        "date": "05-18",
+        "as_of": "2026-05-18 21:00 CST",
+        "url": "https://news.smm.cn/live/detail/103906946",
+        "original_url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "related_urls": [
+          "https://news.metal.com/en/newscontent/103906947-Storage-Japan-awards-125GW-of-battery-storage-in-latest-LTDA-auction",
+          "https://taiyangnews.info/storage/japan-awards-125-gw-battery-storage-3rd-ltda"
+        ],
+        "clean_html": "<p>日本最新LTDA中，电池储能19个项目合计约1.25GW中标；锂电551MW、非锂约699MW，电池储能约占脱碳电源中标容量近30%。</p>",
+        "caption": "海外容量市场：日本储能中标结构显示非锂长时路线获得支持",
+        "methodology": "21:00主动搜索国内+海外公开来源并抓取；SMM快讯 HTTP 200 sha256 b96d6bc2cdba5056ca1c181046aca6a6a430fb7575ecddbf599a4e8491237c25；Metal.com HTTP 200 sha256 e872038faccbc66e72c79fc8b84c923679ee4382c05ab8581b03e17e4358f118；pv magazine HTTP 200 sha256 142aa776e8239c518f8cdc489763a0127080cc280159a5b6a3789ab558fcbdc4；TaiyangNews HTTP 200 sha256 25457f863515064560d06e95fadf5efb624a38a0337fa64688d859e82b7df712；采用多源一致的19个项目、1.25GW、551MW、699/700MW、7.3GW与近30%指标，标注为拍卖结果口径。",
+        "history": [
+          {
+            "label": "FY2025电池储能 GW",
+            "value": 1.25
+          },
+          {
+            "label": "FY2024电池储能 GW",
+            "value": 1.37
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "中标项目数",
+            "value": 19
+          },
+          {
+            "label": "总拍卖容量 GW",
+            "value": 7.3
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外电池原材料月度更新",
+        "account_name": "Fastmarkets",
+        "category": "原材料/回收",
+        "title": "Fastmarkets月度BRM更新：锂价与废料量上升推动欧美LFP电池回收扩张",
+        "summary": "20:00海外公开来源新增Fastmarkets月度电池原材料更新：较高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，扭转此前多年弱需求和监管障碍；对储能链条的含义是，锂价高位和报废/边角料供给同步提升，回收端可能更快进入经济性区间。",
+        "body": [
+          "该条为Fastmarkets电池原材料月度更新中关于LFP回收的公开摘要，不等同于单一金属即时报价。",
+          "Fastmarkets称，更高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，改变此前LFP回收需求偏弱的状态。",
+          "对储能市场而言，LFP为主流储能化学体系之一；回收经济性改善可能在中期影响碳酸锂、正极材料与电芯成本预期。"
+        ],
+        "key_points": [
+          "驱动因素：更高锂价与增长的废料量。",
+          "区域：欧洲与美国LFP电池回收。",
+          "方向：Fastmarkets称正在快速扩张，并扭转多年弱需求与监管障碍。",
+          "市场含义：若回收供给放量，可能缓冲部分原料成本波动，但短期仍取决于锂价与废料可得性。"
+        ],
+        "value": "LFP回收",
+        "unit": "欧美扩张信号",
+        "delta": "锂价上行+废料量增长推动回收经济性",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/metals-and-mining/battery-raw-materials/brm-monthly-market-update-2026/",
+        "clean_html": "<p>Fastmarkets月度电池原材料更新称，较高锂价与增长的废料量正在推动欧美LFP电池回收快速扩张，扭转多年弱需求与监管障碍。</p>",
+        "caption": "原料链：LFP回收经济性受锂价与废料供给共同驱动",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 1372075bb0cf808cfca4cbf1d73017a57813d74bfcedecd35ee16df73ea1fc4d；采用页面可见的Fastmarkets月度BRM公开摘要，未外推为即时报价。",
+        "history": [
+          {
+            "label": "驱动因子：锂价",
+            "value": 1
+          },
+          {
+            "label": "驱动因子：废料量",
+            "value": 1
+          },
+          {
+            "label": "区域：欧洲",
+            "value": 1
+          },
+          {
+            "label": "区域：美国",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / BloombergNEF",
+        "source_type": "海外储能部署预测",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "BNEF：2026年全球非抽蓄储能新增部署预计158GW，同比2025年112GW增长41%",
+        "summary": "20:00海外公开来源新增BNEF预测口径：2025年全球非抽水蓄能储能新增装机112GW后，BNEF预计2026年将增长41%至158GW；未来十年年新增规模预计接近翻倍，到2036年达到308GW，累计容量约2.9TW/10.5TWh。",
+        "body": [
+          "该条采用Energy-Storage.News对BloombergNEF储能展望的公开报道，属于全球非抽水蓄能储能（non-pumped hydro）部署预测口径。",
+          "BNEF预计2026年全球新增部署158GW，较2025年112GW增长41%；虽然较2024到2025年的高增速放缓，但绝对规模继续上行。",
+          "长期维度，BNEF预计未来十年年新增部署接近翻倍，2036年达到308GW；到2036年底全球累计容量约2.9TW/10.5TWh。"
+        ],
+        "key_points": [
+          "2025年全球非抽蓄储能新增：112GW。",
+          "2026年新增预测：158GW，同比约+41%。",
+          "2036年年新增预测：308GW。",
+          "2036年底累计容量预测：约2.9TW/10.5TWh。",
+          "报道提及钠离子等技术开始规模化出现，但长期预测仍受供应链、油价与地缘冲击影响。"
+        ],
+        "value": "158",
+        "unit": "GW 2026年全球非抽蓄储能新增预测",
+        "delta": "2025年112GW→2026年158GW，约+41%；2036年年新增308GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>BNEF预计2026年全球非抽水蓄能储能新增部署158GW，较2025年112GW增长41%；2036年年新增或达308GW，累计约2.9TW/10.5TWh。</p>",
+        "caption": "海外预测：BNEF将2026年储能新增量看至158GW",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 63d81bcefd444ff8167de67a0357c7b1bc85c10d725495b4cea52648cfb7f8e3；采用页面可见的112GW、158GW、41%、308GW、2.9TW/10.5TWh指标，标注为BNEF预测/媒体报道口径。",
+        "history": [
+          {
+            "label": "2025新增 GW",
+            "value": 112
+          },
+          {
+            "label": "2026新增 GW",
+            "value": 158
+          },
+          {
+            "label": "2026同比 %",
+            "value": 41
+          },
+          {
+            "label": "2036年新增 GW",
+            "value": 308
+          },
+          {
+            "label": "2036累计 TW",
+            "value": 2.9
+          },
+          {
+            "label": "2036累计 TWh",
+            "value": 10.5
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets / Green Building Africa",
+        "source_type": "海外价格与成本分析",
+        "account_name": "Fastmarkets",
+        "category": "海外市场",
+        "title": "Fastmarkets：锂价波动推高BESS成本不确定性，全球ESS装机至2030年近800GWh",
+        "summary": "19:00海外公开来源新增Fastmarkets与转引分析：Fastmarkets认为全球ESS安装量未来十年每年约增长25%，到2030年接近800GWh、2035年超过1600GWh；Green Building Africa转引称锂价上涨对主要市场BESS总资本开支影响低于5%，中国电池生产成本优势仍超过40%，钠离子电池具备最高约40%的节省潜力。",
+        "body": [
+          "该条为海外成本/价格研究口径，重点跟踪锂价上行、关税、系统集成与替代技术对BESS资本开支的影响。",
+          "Fastmarkets文章指出LFP仍是BESS主流化学体系，2025年314Ah LFP电芯是公用事业级ESS部署的主要选择，587Ah等高容量电芯可能在2026年三季度成为主流选项。",
+          "Green Building Africa转引分析称，锂价上涨对主要市场BESS总capex的影响低于5%；中国相对美国电池生产保有超过40%成本优势，钠离子路线最高可带来约40%节省潜力。"
+        ],
+        "key_points": [
+          "Fastmarkets：全球ESS安装量未来十年每年约增长25%。",
+          "规模预测：2030年接近800GWh，2035年超过1600GWh。",
+          "技术路线：LFP仍为BESS主流，587Ah高容量电芯或在2026年三季度成为主流选项。",
+          "成本敏感性：锂价上涨对主要市场BESS总capex影响低于5%。",
+          "区域成本：Green Building Africa称中国电池生产相对美国保有超过40%成本优势。"
+        ],
+        "value": "800",
+        "unit": "GWh 2030年全球ESS安装量预测",
+        "delta": "未来十年约+25%/年；2035年>1600GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "original_url": "https://www.greenbuildingafrica.co.za/bess-costs-show-resilience-despite-lithium-price-volatility-in-2026/",
+        "clean_html": "<p>Fastmarkets预计全球ESS安装量未来十年每年约增长25%，2030年近800GWh、2035年超过1600GWh；转引分析称锂价上涨对主要市场BESS总capex影响低于5%。</p>",
+        "caption": "海外成本：BESS仍受益于电芯迭代和中国制造成本优势",
+        "methodology": "19:00海外公开来源搜索并抓取；Fastmarkets HTTP 200 sha256 69eefdcda009f0cc75c70593a828979c5cbfe3ef700274583cf5478da0e7c2ab；Green Building Africa HTTP 200 sha256 9e023ecb05a5e47ea526fe6d8b069433003ed6d4857dd5dd3caed678f34709c9；采用页面可见ESS安装量、成本敏感性和技术路线描述，标注为海外研究/转引口径。",
+        "history": [
+          {
+            "label": "2030全球ESS GWh",
+            "value": 800
+          },
+          {
+            "label": "2035全球ESS GWh",
+            "value": 1600
+          },
+          {
+            "label": "年增速 %",
+            "value": 25
+          },
+          {
+            "label": "锂价影响capex %",
+            "value": 5
+          },
+          {
+            "label": "中国成本优势 %",
+            "value": 40
+          },
+          {
+            "label": "钠离子节省潜力 %",
+            "value": 40
+          }
+        ]
+      },
+      {
         "source": "Modo Energy",
         "source_type": "海外BESS资本市场报告",
         "account_name": "Modo Energy",
@@ -24776,62 +26725,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM 储能专区",
-        "source_type": "国内公开行情/储能电池与系统报价",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM储能报价：5月15日电池级碳酸锂19.2万元/吨，280Ah储能电芯0.334元/Wh",
-        "summary": "SMM储能专区公开报价显示，2026-05-15电池级碳酸锂188000-196000元/吨、均价192000元/吨、日跌3000元/吨；储能型280Ah方形磷酸铁锂电池0.312-0.356元/Wh、均价0.334元/Wh、周涨0.0015元/Wh；314Ah储能型电芯均价0.3565元/Wh；5MWh直流侧储能电池预制舱均价0.4525元/Wh，集中式PCS 1725kW均价0.065元/W。",
-        "body": [
-          "本轮重新抓取SMM储能专区并解压HTML，补入5月15日可核验公开行情，替换上一轮5月14日碳酸锂快照。",
-          "原料端电池级碳酸锂均价降至192000元/吨，但储能电芯周度均价小幅上行，显示电芯报价仍受交付、规格和需求结构影响。",
-          "系统侧5MWh直流侧预制舱均价0.4525元/Wh、1725kW集中式PCS均价0.065元/W，可作为MarketTrend当日系统报价锚点。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：188000-196000元/吨，均价192000元/吨，日跌3000元/吨，日期05-15。",
-          "280Ah储能型方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，周涨0.0015元/Wh。",
-          "314Ah储能型方形LFP电芯：0.332-0.381元/Wh，均价0.3565元/Wh。",
-          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh。",
-          "集中式PCS 1725kW：0.062-0.068元/W，均价0.065元/W。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；280Ah储能电芯均价0.334元/Wh",
-        "direction": "mixed",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能专区显示，2026-05-15电池级碳酸锂均价192000元/吨，280Ah储能型方形磷酸铁锂电芯均价0.334元/Wh，5MWh直流侧储能电池预制舱均价0.4525元/Wh。</p>",
-        "caption": "SMM 5月15日：碳酸锂下行，储能电芯与5MWh预制舱报价上行",
-        "methodology": "08:00主动国内检索并抓取SMM储能专区HTML（gzip原始sha256 b2560b0e6c043bb64de632607c1fa33e307be505a14f56ad858622b4876b7ba4）；解压后抽取报价表，保留报价日期而非抓取时间。",
-        "history": [
-          {
-            "label": "碳酸锂均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "碳酸锂日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "280Ah电芯均价 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "314Ah电芯均价 元/Wh",
-            "value": 0.3565
-          },
-          {
-            "label": "5MWh预制舱均价 元/Wh",
-            "value": 0.4525
-          },
-          {
-            "label": "1725kW PCS均价 元/W",
-            "value": 0.065
-          }
-        ]
-      },
-      {
         "source": "新浪财经 / 中国储能网 / CESA储能应用分会产业数据库",
         "source_type": "国内招投标/储能系统与电芯价格",
         "account_name": "新浪财经",
@@ -25256,58 +27149,6 @@ window.NEOLINK_FEED= {
           {
             "label": "加急溢价上限 %",
             "value": 10
-          }
-        ]
-      },
-      {
-        "source": "上海有色网 SMM",
-        "source_type": "国内公开行情/碳酸锂现货",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM：电池级碳酸锂5月15日均价19.2万元/吨，日跌3000元/吨",
-        "summary": "SMM公开碳酸锂行情页显示，电池级碳酸锂价格区间为188000-196000元/吨，均价192000元/吨，较上一报价日下跌3000元/吨，日期为2026-05-15；电池级碳酸锂CIF均价22.3美元/千克，跌0.2美元/千克。08:00复核时未发现比5月15日更新的公开报价，因此MarketTrend按“最新可核验公开价”更新，不以复核时间冒充价格日期。",
-        "body": [
-          "本轮更正并补入SMM公开行情：电池级碳酸锂均价192000元/吨，报价日期为2026-05-15。",
-          "该价格较上一报价日下跌3000元/吨，说明高位波动后继续回落；但公开页未给出比5月15日更晚的可见报价，站内不把复核时间冒充为价格日期。",
-          "碳酸锂是储能电芯和LFP正极的重要成本锚，需与项目招中标价格、电芯报价同时观察。"
-        ],
-        "key_points": [
-          "电池级碳酸锂价格区间：188000-196000元/吨。",
-          "电池级碳酸锂均价：192000元/吨。",
-          "日涨跌：-3000元/吨。",
-          "报价日期：2026-05-15。",
-          "电池级碳酸锂CIF均价：22.3美元/千克，日跌0.2美元/千克。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；公开报价日2026-05-15",
-        "direction": "down",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://hq.smm.cn/h5/Li2CO3",
-        "clean_html": "<p>SMM公开行情页显示，2026-05-15电池级碳酸锂价格188000-196000元/吨，均价192000元/吨，日跌3000元/吨；电池级碳酸锂CIF均价22.3美元/千克，日跌0.2美元/千克。</p>",
-        "caption": "SMM电池级碳酸锂：19.2万元/吨，日跌3000元/吨",
-        "methodology": "08:00通过web.run直接打开SMM公开行情页并逐项核验（报价日期、区间、均价、涨跌与CIF字段）；受执行环境DNS限制，本轮无法抓取并保存原始HTML快照/sha256，但引用的数据均来自页面可见字段且与之前口径一致。",
-        "history": [
-          {
-            "label": "价格下限 元/吨",
-            "value": 188000
-          },
-          {
-            "label": "均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "价格上限 元/吨",
-            "value": 196000
-          },
-          {
-            "label": "日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "CIF均价 美元/千克",
-            "value": 22.3
           }
         ]
       },
@@ -26924,58 +28765,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "Energy-Storage.news / BloombergNEF Energy Storage Outlook H1 2026",
-        "source_type": "海外行业媒体/研究机构预测",
-        "account_name": "Energy-Storage.news / BNEF",
-        "category": "海外市场",
-        "title": "BNEF上调全球储能装机展望：2026年新增158GW/459GWh，2036年年新增或达308GW",
-        "summary": "Energy-Storage.news 5月15日报道，BloombergNEF在H1 2026储能展望中统计2025年全球非抽水蓄能储能新增112GW/307GWh，并预计2026年新增158GW/459GWh、同比按功率约增长41%；BNEF还预计2036年年度新增达到308GW，届时累计装机达到2.9TW/10.5TWh。报道同时提及，宁德时代与海博思创此前宣布60GWh钠离子电池多年协议，作为替代化学体系规模化的案例。",
-        "body": [
-          "本轮补入海外权威研究口径，用于校准MarketTrend的全球需求斜率：2026年新增459GWh意味着大储供应链仍处高景气区间。",
-          "BNEF的2025年实际新增112GW/307GWh高于此前预测，说明全球储能部署速度继续超预期。",
-          "2036年累计2.9TW/10.5TWh的长期预测，对电芯、PCS、热管理、消防和系统集成环节形成长期需求锚。"
-        ],
-        "key_points": [
-          "2025年全球非抽水蓄能储能新增：112GW/307GWh。",
-          "2026年预测新增：158GW/459GWh，按功率同比约+41%。",
-          "2036年预测年度新增：308GW。",
-          "2036年预测累计装机：2.9TW/10.5TWh。",
-          "报道提及宁德时代与海博思创60GWh钠离子电池多年协议。"
-        ],
-        "value": "158",
-        "unit": "GW 2026年全球储能新增预测",
-        "delta": "459GWh；较2025年112GW约+41%；2036累计2.9TW/10.5TWh",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
-        "clean_html": "<p>BloombergNEF预计2026年全球非抽水蓄能储能新增158GW/459GWh；2025年新增112GW/307GWh，2036年累计装机或达2.9TW/10.5TWh。</p>",
-        "caption": "BNEF把2026年全球储能新增预测上调至459GWh",
-        "methodology": "03:00抓取Energy-Storage.news原文HTML（gzip解码快照sha256 3e2848cc8b4e0634d0730abca929b389884929d5992e0688a788a70c5be74d8a），抽取BNEF H1 2026 Outlook的2025实际新增、2026预测、2036年度新增与累计装机口径。",
-        "history": [
-          {
-            "label": "2025新增 GW",
-            "value": 112
-          },
-          {
-            "label": "2025新增 GWh",
-            "value": 307
-          },
-          {
-            "label": "2026预测新增 GW",
-            "value": 158
-          },
-          {
-            "label": "2026预测新增 GWh",
-            "value": 459
-          },
-          {
-            "label": "2036累计 TWh",
-            "value": 10.5
-          }
-        ]
-      },
-      {
         "source": "国家能源局",
         "source_type": "国内官方政策/工程质量监督规范",
         "account_name": "国家能源局",
@@ -28451,53 +30240,6 @@ window.NEOLINK_FEED= {
       },
       {
         "source": "SMM",
-        "source_type": "国内专业数据源/会议公开口径",
-        "account_name": "SMM",
-        "category": "市场",
-        "title": "全球2030E储能需求",
-        "summary": "SMM在新能源产业博览会公开分享中预计，2026-2030年全球储能市场需求将以约24%的复合年均增长率逐年攀升，2030年全球储能市场需求约1900GWh；储能在锂电池需求中的占比将从2026年的30%提升至2030年的约39%。",
-        "body": [
-          "SMM认为，中国、美国和欧洲仍是全球储能市场主要增长区域，中东、澳大利亚和东南亚等新兴地区大储需求释放。",
-          "SMM预计2024-2030年全球锂离子储能电芯产量CAGR约34%。",
-          "该预测强化储能作为锂离子电池重要增长极的中长期判断。"
-        ],
-        "key_points": [
-          "2026-2030年全球储能需求CAGR约24%。",
-          "2030年全球储能市场需求约1900GWh。",
-          "储能在锂电需求占比从2026年30%升至2030年约39%。",
-          "全球锂离子储能电芯产量2024-2030年CAGR约34%。"
-        ],
-        "value": "1900",
-        "unit": "GWh",
-        "delta": "2026-2030 CAGR约24%",
-        "direction": "up",
-        "date": "05-17",
-        "as_of": "2026-05-17",
-        "url": "https://news.smm.cn/news/103872130",
-        "clean_html": "<p>SMM预计2030年全球储能市场需求约1900GWh，2026-2030年储能需求CAGR约24%，储能在锂电需求占比将升至约39%。</p>",
-        "caption": "储能继续成为锂电池需求最重要增量之一",
-        "methodology": "18:00小时抓取SMM公开页面；采用会议公开分享中的CAGR、2030需求和需求占比口径。",
-        "history": [
-          {
-            "label": "2030E GWh",
-            "value": 1900
-          },
-          {
-            "label": "2026-2030 CAGR %",
-            "value": 24
-          },
-          {
-            "label": "2030储能占比 %",
-            "value": 39
-          },
-          {
-            "label": "2026储能占比 %",
-            "value": 30
-          }
-        ]
-      },
-      {
-        "source": "SMM",
         "source_type": "国内产业媒体/价格与供应链观察",
         "account_name": "SMM",
         "category": "价格",
@@ -28821,15 +30563,6 @@ window.NEOLINK_FEED= {
         "as_of": "2026-05-17",
         "url": "https://think.ing.com/articles/us-battery-storage-needs-innovation-for-long-term-growth/",
         "methodology": "10:00新增，采用ING页面引用SEIA估算"
-      },
-      {
-        "label": "锂价波动压力",
-        "value": "+250%",
-        "delta": "Fastmarkets受访者称约六个月现货涨幅",
-        "source": "Fastmarkets",
-        "as_of": "2026-05-17",
-        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
-        "methodology": "10:00新增，采用Fastmarkets会议报道"
       },
       {
         "source": "Energy-Storage.News",
@@ -32513,35 +34246,6 @@ window.NEOLINK_FEED= {
         "methodology": "公开价格源交叉核验，日期口径按InfoLink 3月6日。"
       },
       {
-        "source": "SMM上海有色网 / 华尔街见闻 / 瑞银全球大宗商品团队",
-        "source_type": "专业价格源转载/海外投行研究",
-        "account_name": "SMM/UBS",
-        "category": "行情",
-        "title": "瑞银上调2026年中国碳酸锂均价预测至20万元/吨，储能需求成为缺口核心",
-        "summary": "SMM 5月9日转载华尔街见闻称，瑞银全球大宗商品团队将2026年中国碳酸锂现货均价预测上调18%至20万元/吨，并预计5–6月现货价格可能触及25万元/吨；基准情景下2026年全球锂需求197万吨LCE、供应191万吨LCE，形成约6.5万吨LCE缺口，其中储能电池需求同比增速预计达60%。",
-        "body": [
-          "SMM转载华尔街见闻报道，瑞银全球大宗商品团队在5月7日报告中将2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5–6月现货价格可能触及25万元/吨。",
-          "需求端，瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求同比增长60%，成为价格假设上修核心驱动；上行情景下ESS需求同比增长80%、全球锂需求升至204万吨LCE。",
-          "供应端，瑞银风险加权供给预测约191万吨LCE，基准情景形成约6.5万吨LCE供需缺口；该条作为MarketTrend正极材料/锂盐风险偏多证据，不替代原始研报。"
-        ],
-        "key_points": [
-          "2026年中国碳酸锂现货均价预测：20万元/吨。",
-          "5–6月现货价格上行情景：可能触及25万元/吨。",
-          "基准情景：全球锂需求197万吨LCE、供应191万吨LCE，缺口约6.5万吨LCE。",
-          "储能电池需求：预计同比增长60%，为价格上修核心驱动。"
-        ],
-        "value": "200000",
-        "unit": "元/吨",
-        "delta": "预测上调18%",
-        "direction": "up",
-        "date": "05-12",
-        "as_of": "2026-05-09",
-        "url": "https://news.smm.cn/news/103892629",
-        "clean_html": "<p>SMM转载华尔街见闻报道，瑞银全球大宗商品团队在5月7日报告中将2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5–6月现货价格可能触及25万元/吨。</p>\n<p>需求端，瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求同比增长60%，成为价格假设上修核心驱动；上行情景下ESS需求同比增长80%、全球锂需求升至204万吨LCE。</p>\n<p>供应端，瑞银风险加权供给预测约191万吨LCE，基准情景形成约6.5万吨LCE供需缺口；该条作为MarketTrend正极材料/锂盐风险偏多证据，不替代原始研报。</p>",
-        "caption": "SMM/瑞银锂价展望",
-        "methodology": "21:02抓取SMM公开新闻页，提取瑞银报告转载口径；字段保留来源、发布日期与预测性质。"
-      },
-      {
         "source": "新浪财经 / 新华财经 / 中信证券研报",
         "source_type": "财经媒体转载/券商研究",
         "account_name": "中信证券",
@@ -32930,6 +34634,62 @@ window.NEOLINK_FEED= {
       }
     ],
     "projects": [
+      {
+        "source": "21财经 / 上海证券报 / CIBF2026现场报道",
+        "source_type": "国内展会现场与产业链订单/材料价格信号",
+        "account_name": "21财经 / 上海证券报",
+        "category": "储能订单/材料/固态电池",
+        "title": "CIBF2026现场信号：储能客户关注点从价格转向交付周期，部分企业订单排至三季度",
+        "summary": "04:00新增国内现场报道复核：21财经转载上海证券报5月17日报道，CIBF2026（5月13-15日深圳）现场锂电展位热度明显，储能需求旺盛被视为本轮锂电复苏关键；鹏辉能源称订单饱满、产能已排满至第三季度，赣锋锂电称日韩、欧洲、东南亚外商问询增多，最受关注产品为储能电池。报道还引用隆众资讯：储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨，涨幅超过100%。",
+        "body": [
+          "展会观察：CIBF2026锂电池公司展位热度明显，部分参展商表示客户从“更关心价格”转为“更关心订单交付周期”。",
+          "订单信号：鹏辉能源表示受海外退税政策时间窗口等因素影响，公司订单饱满，产能已经排满至第三季度。",
+          "外需信号：赣锋锂电表示外商客户问询增多，主要来自日韩、欧洲、东南亚，最受关注产品是储能电池，固态电池关注度也提升。",
+          "材料信号：隆众资讯数据显示，储能型磷酸铁锂正极材料月均价由2025年5月31684元/吨上涨至2026年5月64344元/吨，涨幅超过100%。",
+          "解读：该线索补充了03:00宏观/出口数据之外的微观订单侧证据，说明储能高景气不仅体现在产量与出口，还体现在交付周期、正极材料传导和海外询盘。"
+        ],
+        "key_points": [
+          "CIBF2026举办时间：5月13日至15日，地点深圳。",
+          "鹏辉能源：订单饱满，产能排满至第三季度。",
+          "赣锋锂电：日韩、欧洲、东南亚外商客户问询增多，最受关注产品为储能电池。",
+          "储能型磷酸铁锂正极材料月均价：2025年5月31684元/吨；2026年5月64344元/吨；涨幅超过100%。",
+          "清华大学欧阳明高判断：今后5年储能电池将遇巨大机遇期。"
+        ],
+        "value": "64344",
+        "unit": "元/吨 2026年5月储能型磷酸铁锂正极材料月均价",
+        "delta": "较2025年5月31684元/吨涨幅超过100%；鹏辉能源产能排至Q3",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17 18:03 CST",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "original_url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "related_urls": [
+          "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwktz9997845.shtml",
+          "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/"
+        ],
+        "clean_html": "<p>CIBF2026现场报道显示储能订单与交付周期成为锂电企业核心信号；储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨。</p>",
+        "caption": "订单侧补充：CIBF2026现场反馈储能需求旺盛、材料价格传导和海外问询同步增强",
+        "methodology": "04:00主动搜索国内公开来源并抓取21财经/上海证券报CIBF现场报道 HTTP 200 sha256 74cba2249066183cc41459a604dbbc4aeff714321d63f3c7c250c55ae45f63d2；同步抓取新浪财经锂价报道用于价格背景复核 HTTP 200 sha256 ba9d8e709ccba52d79b0eae9cc22af88d2928959f0a7eddf20922cbd9ff08dfd，海外公开行情页Trading Economics尝试抓取结果 HTTP curl:0 sha256 e3bced57ef19b7ee10ae7aa0c88bf53c33d29d6ecc0fb85879da78fea1fe8e53，Energy-Storage.news Q1出口旧线索复核 HTTP 200 sha256 035bc22cd9e31f92f5ac1383ad748388eabff11eab9cc531d631edb97eebd99a。采用可抓取新闻正文与搜索结果中一致出现的数值；Trading Economics若403则仅记录为未采用的海外行情尝试，不写入价格事实。",
+        "history": [
+          {
+            "label": "2025年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 31684
+          },
+          {
+            "label": "2026年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 64344
+          },
+          {
+            "label": "材料价格涨幅下限 %",
+            "value": 100
+          },
+          {
+            "label": "鹏辉能源产能排产季度",
+            "value": 3
+          }
+        ]
+      },
       {
         "source": "新浪财经 / 中国储能网 / CESA储能应用分会产业数据库",
         "source_type": "国内招投标/储能系统与电芯价格",
@@ -34135,6 +35895,181 @@ window.NEOLINK_FEED= {
       }
     ],
     "overseas": [
+      {
+        "source": "SMM快讯 / pv magazine / TaiyangNews",
+        "source_type": "海外储能容量拍卖",
+        "account_name": "SMM有色快讯",
+        "category": "海外市场",
+        "title": "日本LTDA最新拍卖授予19个电池储能项目合计1.25GW，非锂路线699MW高于锂电551MW",
+        "summary": "21:00国内+海外公开来源交叉确认：日本FY2025长期脱碳电源拍卖（LTDA）共授予32个项目约7.3GW容量，其中电池储能19个项目合计约1.25GW；锂电储能551MW、非锂电储能约699MW，电池储能约占脱碳电源中标容量近30%。",
+        "body": [
+          "该条采用SMM有色快讯、SMM英文Metal.com以及pv magazine/TaiyangNews公开报道交叉核验，属于日本容量市场/长期脱碳电源拍卖口径。",
+          "报道显示，日本最新LTDA合计授予约7.3GW容量；其中脱碳电源项目约4.26GW，LNG火电约3.04GW。",
+          "电池储能中标容量约1.25GW，覆盖19个项目；锂离子电池储能551MW，非锂电储能约699MW/700MW，显示日本长时与非锂储能路线继续获得容量市场支持。",
+          "与FY2024约1.37GW电池储能中标相比，本轮1.25GW小幅下降，但在更严格时长规则下仍保持较高规模。"
+        ],
+        "key_points": [
+          "日本FY2025 LTDA：32个项目合计约7.3GW。",
+          "电池储能：19个项目合计约1.25GW。",
+          "锂电储能：551MW；非锂电储能：约699MW/700MW。",
+          "电池储能约占脱碳电源中标容量近30%。",
+          "较FY2024电池储能1.37GW中标容量小幅下降，但规则收紧后仍较强。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本LTDA电池储能中标容量",
+        "delta": "FY2024约1.37GW→FY2025约1.25GW；非锂约699MW高于锂电551MW",
+        "direction": "neutral",
+        "date": "05-18",
+        "as_of": "2026-05-18 21:00 CST",
+        "url": "https://news.smm.cn/live/detail/103906946",
+        "original_url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "related_urls": [
+          "https://news.metal.com/en/newscontent/103906947-Storage-Japan-awards-125GW-of-battery-storage-in-latest-LTDA-auction",
+          "https://taiyangnews.info/storage/japan-awards-125-gw-battery-storage-3rd-ltda"
+        ],
+        "clean_html": "<p>日本最新LTDA中，电池储能19个项目合计约1.25GW中标；锂电551MW、非锂约699MW，电池储能约占脱碳电源中标容量近30%。</p>",
+        "caption": "海外容量市场：日本储能中标结构显示非锂长时路线获得支持",
+        "methodology": "21:00主动搜索国内+海外公开来源并抓取；SMM快讯 HTTP 200 sha256 b96d6bc2cdba5056ca1c181046aca6a6a430fb7575ecddbf599a4e8491237c25；Metal.com HTTP 200 sha256 e872038faccbc66e72c79fc8b84c923679ee4382c05ab8581b03e17e4358f118；pv magazine HTTP 200 sha256 142aa776e8239c518f8cdc489763a0127080cc280159a5b6a3789ab558fcbdc4；TaiyangNews HTTP 200 sha256 25457f863515064560d06e95fadf5efb624a38a0337fa64688d859e82b7df712；采用多源一致的19个项目、1.25GW、551MW、699/700MW、7.3GW与近30%指标，标注为拍卖结果口径。",
+        "history": [
+          {
+            "label": "FY2025电池储能 GW",
+            "value": 1.25
+          },
+          {
+            "label": "FY2024电池储能 GW",
+            "value": 1.37
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "中标项目数",
+            "value": 19
+          },
+          {
+            "label": "总拍卖容量 GW",
+            "value": 7.3
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / BloombergNEF",
+        "source_type": "海外储能部署预测",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "BNEF：2026年全球非抽蓄储能新增部署预计158GW，同比2025年112GW增长41%",
+        "summary": "20:00海外公开来源新增BNEF预测口径：2025年全球非抽水蓄能储能新增装机112GW后，BNEF预计2026年将增长41%至158GW；未来十年年新增规模预计接近翻倍，到2036年达到308GW，累计容量约2.9TW/10.5TWh。",
+        "body": [
+          "该条采用Energy-Storage.News对BloombergNEF储能展望的公开报道，属于全球非抽水蓄能储能（non-pumped hydro）部署预测口径。",
+          "BNEF预计2026年全球新增部署158GW，较2025年112GW增长41%；虽然较2024到2025年的高增速放缓，但绝对规模继续上行。",
+          "长期维度，BNEF预计未来十年年新增部署接近翻倍，2036年达到308GW；到2036年底全球累计容量约2.9TW/10.5TWh。"
+        ],
+        "key_points": [
+          "2025年全球非抽蓄储能新增：112GW。",
+          "2026年新增预测：158GW，同比约+41%。",
+          "2036年年新增预测：308GW。",
+          "2036年底累计容量预测：约2.9TW/10.5TWh。",
+          "报道提及钠离子等技术开始规模化出现，但长期预测仍受供应链、油价与地缘冲击影响。"
+        ],
+        "value": "158",
+        "unit": "GW 2026年全球非抽蓄储能新增预测",
+        "delta": "2025年112GW→2026年158GW，约+41%；2036年年新增308GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>BNEF预计2026年全球非抽水蓄能储能新增部署158GW，较2025年112GW增长41%；2036年年新增或达308GW，累计约2.9TW/10.5TWh。</p>",
+        "caption": "海外预测：BNEF将2026年储能新增量看至158GW",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 63d81bcefd444ff8167de67a0357c7b1bc85c10d725495b4cea52648cfb7f8e3；采用页面可见的112GW、158GW、41%、308GW、2.9TW/10.5TWh指标，标注为BNEF预测/媒体报道口径。",
+        "history": [
+          {
+            "label": "2025新增 GW",
+            "value": 112
+          },
+          {
+            "label": "2026新增 GW",
+            "value": 158
+          },
+          {
+            "label": "2026同比 %",
+            "value": 41
+          },
+          {
+            "label": "2036年新增 GW",
+            "value": 308
+          },
+          {
+            "label": "2036累计 TW",
+            "value": 2.9
+          },
+          {
+            "label": "2036累计 TWh",
+            "value": 10.5
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets / Green Building Africa",
+        "source_type": "海外价格与成本分析",
+        "account_name": "Fastmarkets",
+        "category": "海外市场",
+        "title": "Fastmarkets：锂价波动推高BESS成本不确定性，全球ESS装机至2030年近800GWh",
+        "summary": "19:00海外公开来源新增Fastmarkets与转引分析：Fastmarkets认为全球ESS安装量未来十年每年约增长25%，到2030年接近800GWh、2035年超过1600GWh；Green Building Africa转引称锂价上涨对主要市场BESS总资本开支影响低于5%，中国电池生产成本优势仍超过40%，钠离子电池具备最高约40%的节省潜力。",
+        "body": [
+          "该条为海外成本/价格研究口径，重点跟踪锂价上行、关税、系统集成与替代技术对BESS资本开支的影响。",
+          "Fastmarkets文章指出LFP仍是BESS主流化学体系，2025年314Ah LFP电芯是公用事业级ESS部署的主要选择，587Ah等高容量电芯可能在2026年三季度成为主流选项。",
+          "Green Building Africa转引分析称，锂价上涨对主要市场BESS总capex的影响低于5%；中国相对美国电池生产保有超过40%成本优势，钠离子路线最高可带来约40%节省潜力。"
+        ],
+        "key_points": [
+          "Fastmarkets：全球ESS安装量未来十年每年约增长25%。",
+          "规模预测：2030年接近800GWh，2035年超过1600GWh。",
+          "技术路线：LFP仍为BESS主流，587Ah高容量电芯或在2026年三季度成为主流选项。",
+          "成本敏感性：锂价上涨对主要市场BESS总capex影响低于5%。",
+          "区域成本：Green Building Africa称中国电池生产相对美国保有超过40%成本优势。"
+        ],
+        "value": "800",
+        "unit": "GWh 2030年全球ESS安装量预测",
+        "delta": "未来十年约+25%/年；2035年>1600GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "original_url": "https://www.greenbuildingafrica.co.za/bess-costs-show-resilience-despite-lithium-price-volatility-in-2026/",
+        "clean_html": "<p>Fastmarkets预计全球ESS安装量未来十年每年约增长25%，2030年近800GWh、2035年超过1600GWh；转引分析称锂价上涨对主要市场BESS总capex影响低于5%。</p>",
+        "caption": "海外成本：BESS仍受益于电芯迭代和中国制造成本优势",
+        "methodology": "19:00海外公开来源搜索并抓取；Fastmarkets HTTP 200 sha256 69eefdcda009f0cc75c70593a828979c5cbfe3ef700274583cf5478da0e7c2ab；Green Building Africa HTTP 200 sha256 9e023ecb05a5e47ea526fe6d8b069433003ed6d4857dd5dd3caed678f34709c9；采用页面可见ESS安装量、成本敏感性和技术路线描述，标注为海外研究/转引口径。",
+        "history": [
+          {
+            "label": "2030全球ESS GWh",
+            "value": 800
+          },
+          {
+            "label": "2035全球ESS GWh",
+            "value": 1600
+          },
+          {
+            "label": "年增速 %",
+            "value": 25
+          },
+          {
+            "label": "锂价影响capex %",
+            "value": 5
+          },
+          {
+            "label": "中国成本优势 %",
+            "value": 40
+          },
+          {
+            "label": "钠离子节省潜力 %",
+            "value": 40
+          }
+        ]
+      },
       {
         "source": "Modo Energy",
         "source_type": "海外BESS资本市场报告",
@@ -35784,45 +37719,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "Fastmarkets",
-        "source_type": "海外大宗商品/价格媒体",
-        "account_name": "Fastmarkets",
-        "category": "行情",
-        "title": "Fastmarkets：锂价波动制造BESS成本不确定性，套保仍处早期",
-        "summary": "Fastmarkets在ESS 2026报道中称，2026年锂价上涨开始给电池储能系统制造商和开发商带来成本压力。受访者指出，过去约六个月碳酸锂现货价格上涨约250%，但BESS市场参与者对锂价风险套保仍处探索早期。",
-        "body": [
-          "Fastmarkets报道强调，低锂价时期BESS系统价格对锂盐波动不敏感，但2026年价格快速反弹改变了成本假设。",
-          "垂直一体化电芯厂商相对更能吸收涨价，而项目开发商和系统集成商面临更高报价不确定性。",
-          "该证据与国内废标、动态联动报价信号相互印证。"
-        ],
-        "key_points": [
-          "碳酸锂现货约六个月上涨约250%。",
-          "BESS制造商和开发商面临成本不确定性。",
-          "锂价套保仍处探索早期。",
-          "垂直一体化电芯厂商具备更强成本吸收能力。"
-        ],
-        "value": "250",
-        "unit": "% 约六个月锂价涨幅表述",
-        "delta": "BESS成本压力上升；套保早期",
-        "direction": "up",
-        "date": "02-25",
-        "as_of": "2026-05-17",
-        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
-        "clean_html": "<p>Fastmarkets报道，锂价快速波动正使BESS成本不确定性上升，而行业套保工具和实践仍处早期。</p>",
-        "caption": "海外BESS开始把锂价波动纳入项目成本与采购风险管理",
-        "methodology": "10:00小时搜索并抓取Fastmarkets原始HTML；采用页面可见会议报道与受访者表述。",
-        "history": [
-          {
-            "label": "锂价涨幅%",
-            "value": 250
-          },
-          {
-            "label": "会议年份",
-            "value": 2026
-          }
-        ]
-      },
-      {
         "source": "Energy-Storage.News",
         "source_type": "海外行业媒体/监管分析",
         "account_name": "Energy-Storage.News",
@@ -37450,55 +39346,6 @@ window.NEOLINK_FEED= {
             "value": 2027
           }
         ]
-      },
-      {
-        "source": "Energy-Storage.news / BloombergNEF",
-        "source_type": "海外产业媒体/研究机构预测",
-        "account_name": "BloombergNEF Energy Storage Outlook H1 2026",
-        "category": "海外",
-        "title": "BNEF上调全球储能部署预期：2026年158GW/459GWh，2036年累计2.9TW/10.5TWh",
-        "summary": "Energy-Storage.news 5月8日报道，BloombergNEF在Energy Storage Outlook H1 2026中统计2025年全球非抽水蓄能储能新增112GW/307GWh，并预测2026年全球部署158GW/459GWh，按功率同比增长约41%。BNEF还预计到2036年年度新增达到308GW，累计储能达到2.9TW/10.5TWh。报道同时提到宁德时代与海博思创60GWh钠离子电池多年协议，是钠电规模化进入储能的例证。",
-        "body": [
-          "2025基数：BNEF统计全球非抽水蓄能储能新增112GW/307GWh，超过此前H2 2025版对2025年的92GW/247GWh预测。",
-          "2026预测：BNEF预计2026年全球储能部署158GW/459GWh，尽管全球光伏和风电新增放缓。",
-          "长期预测：BNEF预计年度新增到2036年达到308GW，累计容量达到2.9TW/10.5TWh。",
-          "技术线索：报道引用BNEF分析师观点，将宁德时代与海博思创60GWh钠离子电池多年协议视作钠电规模化出现的例子。",
-          "风险提示：报道也提到中东战争可能通过油价、运输和制造成本对行业形成不确定影响，但BNEF尚未据此调整预测。"
-        ],
-        "key_points": [
-          "2025全球非抽水蓄能储能新增112GW/307GWh。",
-          "2026全球储能部署预测158GW/459GWh，功率口径约+41%。",
-          "2036年度新增预计308GW，累计2.9TW/10.5TWh。",
-          "宁德时代-海博思创60GWh钠电协议被作为钠电规模化信号。"
-        ],
-        "value": "459",
-        "unit": "GWh 2026全球部署预测",
-        "delta": "158GW；功率口径约+41%",
-        "direction": "up",
-        "date": "05-08",
-        "as_of": "2026-05-08",
-        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
-        "clean_html": "<p>BloombergNEF在Energy Storage Outlook H1 2026中统计2025年全球非抽水蓄能储能新增112GW/307GWh，并预测2026年全球部署158GW/459GWh。</p><p>BNEF还预计2036年年度新增达到308GW，累计储能达到2.9TW/10.5TWh；报道提及宁德时代与海博思创60GWh钠离子电池协议体现技术规模化。</p>",
-        "caption": "BNEF全球储能部署预测",
-        "methodology": "12:00小时刷新主动检索海外公开来源，抓取Energy-Storage.news页面并本地保存HTML与clean文本；采用报道公开披露的BNEF预测，不替代BNEF原始付费报告。",
-        "history": [
-          {
-            "label": "2025新增GW",
-            "value": 112
-          },
-          {
-            "label": "2025新增GWh",
-            "value": 307
-          },
-          {
-            "label": "2026预测GW",
-            "value": 158
-          },
-          {
-            "label": "2026预测GWh",
-            "value": 459
-          }
-        ]
       }
     ],
     "exports": [
@@ -38593,6 +40440,701 @@ window.NEOLINK_FEED= {
     ],
     "market": [
       {
+        "source": "SMM碳酸锂行情 / SMM储能专区",
+        "source_type": "国内主材行情复核",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM 04:00复核：碳酸锂价格日期仍为05-18，电池级碳酸锂价格指数190865元/吨、较前值-894",
+        "summary": "04:00重新抓取SMM碳酸锂行情页与储能专区。SMM h5行情页显示价格日期仍为2026-05-18：电池级碳酸锂价格指数190865元/吨、较前值-894元/吨；工业级碳酸锂价格183000~192000元/吨、均价187500元/吨；电池级碳酸锂CIF价格20.6~24美元/千克、均价22.3美元/千克、较前值-0.2（日期05-15）。MarketTrend不把04:00抓取时间伪装成价格发布时间。",
+        "body": [
+          "电池级碳酸锂价格指数：190865元/吨，涨跌-894元/吨，价格日期2026-05-18。",
+          "工业级碳酸锂价格：183000~192000元/吨，均价187500元/吨，涨跌0，价格日期2026-05-18。",
+          "电池级碳酸锂CIF价格：20.6~24美元/千克，均价22.3美元/千克，涨跌-0.2，价格日期2026-05-15。",
+          "储能专区页面继续作为储能电芯/预制舱行情入口复核；若无晚于05-18的公开价格日，不刷新为05-19价格。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为04:00复核抓取。",
+          "电池级碳酸锂价格指数：190865元/吨，变动-894元/吨。",
+          "工业级碳酸锂均价：187500元/吨，变动0。",
+          "电池级碳酸锂CIF均价：22.3美元/千克，变动-0.2，日期05-15。"
+        ],
+        "value": "190865",
+        "unit": "元/吨 电池级碳酸锂价格指数",
+        "delta": "价格指数-894元/吨；工业级均价187500元/吨；CIF均价22.3美元/千克",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://hq.smm.cn/h5/Li2CO3",
+        "original_url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM碳酸锂05-18行情：电池级碳酸锂价格指数190865元/吨（-894）；工业级碳酸锂均价187500元/吨；电池级碳酸锂CIF均价22.3美元/千克（05-15）。</p>",
+        "caption": "行情复核：SMM碳酸锂价格日期仍为05-18，价格指数较前值继续下修",
+        "methodology": "04:00重新抓取SMM碳酸锂h5行情页 HTTP 200 sha256 4f6f0841e0fa611e2a14cfbfc72458d28c9bcd6bf3e420b860f1807f96cfa23c 与SMM储能专区 HTTP 200 sha256 52a60480d6a8a7ce29293623f201439bad0fd302a186895431aab48471b08b3d；仅采用页面表格可见价格、日期和涨跌字段，不更新为04:00价格。",
+        "history": [
+          {
+            "label": "电池级碳酸锂价格指数 元/吨",
+            "value": 190865
+          },
+          {
+            "label": "指数变动 元/吨",
+            "value": -894
+          },
+          {
+            "label": "工业级碳酸锂均价 元/吨",
+            "value": 187500
+          },
+          {
+            "label": "工业级变动 元/吨",
+            "value": 0
+          },
+          {
+            "label": "电池级碳酸锂CIF 美元/千克",
+            "value": 22.3
+          },
+          {
+            "label": "CIF变动 美元/千克",
+            "value": -0.2
+          }
+        ]
+      },
+      {
+        "source": "21财经 / 上海证券报 / CIBF2026现场报道",
+        "source_type": "国内展会现场与产业链订单/材料价格信号",
+        "account_name": "21财经 / 上海证券报",
+        "category": "储能订单/材料/固态电池",
+        "title": "CIBF2026现场信号：储能客户关注点从价格转向交付周期，部分企业订单排至三季度",
+        "summary": "04:00新增国内现场报道复核：21财经转载上海证券报5月17日报道，CIBF2026（5月13-15日深圳）现场锂电展位热度明显，储能需求旺盛被视为本轮锂电复苏关键；鹏辉能源称订单饱满、产能已排满至第三季度，赣锋锂电称日韩、欧洲、东南亚外商问询增多，最受关注产品为储能电池。报道还引用隆众资讯：储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨，涨幅超过100%。",
+        "body": [
+          "展会观察：CIBF2026锂电池公司展位热度明显，部分参展商表示客户从“更关心价格”转为“更关心订单交付周期”。",
+          "订单信号：鹏辉能源表示受海外退税政策时间窗口等因素影响，公司订单饱满，产能已经排满至第三季度。",
+          "外需信号：赣锋锂电表示外商客户问询增多，主要来自日韩、欧洲、东南亚，最受关注产品是储能电池，固态电池关注度也提升。",
+          "材料信号：隆众资讯数据显示，储能型磷酸铁锂正极材料月均价由2025年5月31684元/吨上涨至2026年5月64344元/吨，涨幅超过100%。",
+          "解读：该线索补充了03:00宏观/出口数据之外的微观订单侧证据，说明储能高景气不仅体现在产量与出口，还体现在交付周期、正极材料传导和海外询盘。"
+        ],
+        "key_points": [
+          "CIBF2026举办时间：5月13日至15日，地点深圳。",
+          "鹏辉能源：订单饱满，产能排满至第三季度。",
+          "赣锋锂电：日韩、欧洲、东南亚外商客户问询增多，最受关注产品为储能电池。",
+          "储能型磷酸铁锂正极材料月均价：2025年5月31684元/吨；2026年5月64344元/吨；涨幅超过100%。",
+          "清华大学欧阳明高判断：今后5年储能电池将遇巨大机遇期。"
+        ],
+        "value": "64344",
+        "unit": "元/吨 2026年5月储能型磷酸铁锂正极材料月均价",
+        "delta": "较2025年5月31684元/吨涨幅超过100%；鹏辉能源产能排至Q3",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17 18:03 CST",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "original_url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "related_urls": [
+          "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwktz9997845.shtml",
+          "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/"
+        ],
+        "clean_html": "<p>CIBF2026现场报道显示储能订单与交付周期成为锂电企业核心信号；储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨。</p>",
+        "caption": "订单侧补充：CIBF2026现场反馈储能需求旺盛、材料价格传导和海外问询同步增强",
+        "methodology": "04:00主动搜索国内公开来源并抓取21财经/上海证券报CIBF现场报道 HTTP 200 sha256 74cba2249066183cc41459a604dbbc4aeff714321d63f3c7c250c55ae45f63d2；同步抓取新浪财经锂价报道用于价格背景复核 HTTP 200 sha256 ba9d8e709ccba52d79b0eae9cc22af88d2928959f0a7eddf20922cbd9ff08dfd，海外公开行情页Trading Economics尝试抓取结果 HTTP curl:0 sha256 e3bced57ef19b7ee10ae7aa0c88bf53c33d29d6ecc0fb85879da78fea1fe8e53，Energy-Storage.news Q1出口旧线索复核 HTTP 200 sha256 035bc22cd9e31f92f5ac1383ad748388eabff11eab9cc531d631edb97eebd99a。采用可抓取新闻正文与搜索结果中一致出现的数值；Trading Economics若403则仅记录为未采用的海外行情尝试，不写入价格事实。",
+        "history": [
+          {
+            "label": "2025年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 31684
+          },
+          {
+            "label": "2026年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 64344
+          },
+          {
+            "label": "材料价格涨幅下限 %",
+            "value": 100
+          },
+          {
+            "label": "鹏辉能源产能排产季度",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "source": "国家统计局 / 新华社英文 / 新浪财经转载 / Mysteel",
+        "source_type": "国内官方宏观与海外英文产业数据交叉复核",
+        "account_name": "国家统计局 / Xinhua / Sina Finance / Mysteel",
+        "category": "宏观/产量/出口/价格",
+        "title": "统计局4月口径：锂离子电池产量同比+31%，1-4月产量+36%；Mysteel复核4月动储电池出口31.7GWh",
+        "summary": "04:00严格刷新新增：国家统计局5月18日答记者问披露，4月锂离子电池产量同比增长31%，1-4月锂离子电池产品产量同比增长36%，锂离子电池制造业投资增长28.8%；4月锂离子电池制造价格同比上涨4.5%，反映绿色低碳产业与部分行业价格修复。新华社英文稿同步确认1-4月规模以上工业增加值同比+5.6%、高技术制造业+12.6%。海外英文产业数据采用Mysteel：4月中国动力+储能电池产量183.9GWh、同比+55.6%，出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh、同比+45.4%。",
+        "body": [
+          "官方宏观口径：国家统计局答记者问称，4月水轮发电机组、锂离子电池产量分别增长47.4%和31%；1-4月3D打印设备、锂离子电池、工业机器人产品产量分别增长50.9%、36%、25.7%。",
+          "投资与价格口径：1-4月锂离子电池制造业投资增长28.8%；4月锂离子电池制造、光伏设备及元器件制造价格同比分别上涨4.5%和3.8%。",
+          "外贸与服务口径：1-4月电动汽车、风力发电机组等绿色低碳产品出口额增长超过40%，高新技术产品出口额增长27.6%；重点充电平台交易额增长超过30%。",
+          "海外英文复核：新华社英文稿确认1-4月工业增加值、高技术制造业增速；Mysteel转述联盟数据称4月动储电池出口31.7GWh、同比+42.0%、环比-12.3%，储能电池出口11.4GWh、同比+45.4%。",
+          "解读：官方产量/投资/价格与英文行业出口口径共同指向储能与锂电产业链景气仍强，但4月出口环比回落显示退税政策切换后的节奏扰动仍需跟踪。"
+        ],
+        "key_points": [
+          "4月锂离子电池产量同比：+31%。",
+          "1-4月锂离子电池产品产量同比：+36%。",
+          "1-4月锂离子电池制造业投资：+28.8%。",
+          "4月锂离子电池制造价格同比：+4.5%。",
+          "1-4月绿色低碳产品出口额：电动汽车、风力发电机组等增长超过40%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%；储能电池出口11.4GWh，同比+45.4%。"
+        ],
+        "value": "31",
+        "unit": "% 4月锂离子电池产量同比",
+        "delta": "1-4月产量+36%；制造业投资+28.8%；4月动储电池出口31.7GWh、同比+42.0%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 04:00 CST",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202605/t20260518_1963741.html",
+        "original_url": "https://www.mysteel.net/news/5123267-flash-china-total-output-of-power-and-other-batteries-rose-35-in-april-2026-",
+        "related_urls": [
+          "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyiewm2883130.shtml",
+          "https://english.news.cn/20260518/83beb465bf944163bfe48a3bace0b6d7/c.html"
+        ],
+        "clean_html": "<p>国家统计局披露4月锂离子电池产量同比+31%、1-4月产量+36%、锂离子电池制造业投资+28.8%；Mysteel复核4月动力+储能电池出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh。</p>",
+        "caption": "宏观与出口：官方产量/投资/价格数据继续支撑锂电与储能景气，出口同比高增但环比回落",
+        "methodology": "04:00主动搜索国内+海外公开来源并抓取；国家统计局答记者问 HTTP 200 sha256 450423543efeb611ab96a921344c490a83109b00e5eb1dff8258685b7cda5c18；新浪财经转载用于可读性复核 HTTP 200 sha256 556efb4ce2d9469c6e51b81a0b42c4fc10b0a070c7fa655bdbcb63a8a4e58146；新华社英文稿 HTTP 200 sha256 d2fc9dbe750dca3e1d51c79c03e28bca193067aa33c651a9dd73e273ffeecae3；Mysteel英文快讯 HTTP 200 sha256 14bda6d78aaa6ccf21476cb38ff06d15cb89b7d404dc1fd20886252106722199。只采用页面可见的官方表述和英文报道数值，未将搜索摘要中无法在抓取文件留痕的内容单独作为事实来源。",
+        "history": [
+          {
+            "label": "4月锂离子电池产量同比 %",
+            "value": 31.0
+          },
+          {
+            "label": "1-4月锂离子电池产量同比 %",
+            "value": 36.0
+          },
+          {
+            "label": "锂离子电池制造业投资同比 %",
+            "value": 28.8
+          },
+          {
+            "label": "锂离子电池制造价格同比 %",
+            "value": 4.5
+          },
+          {
+            "label": "绿色低碳产品出口额同比 %",
+            "value": 40.0
+          },
+          {
+            "label": "4月动储电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "4月储能电池出口 GWh",
+            "value": 11.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 45.4
+          }
+        ]
+      },
+      {
+        "source": "SMM储能专区 / SMM赣锋锂业供需报道",
+        "source_type": "国内储能材料行情与库存快照",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM储能专区02:00复核：价格日期仍为05-18，电池级碳酸锂均价19.15万元/吨、SMM库存天数24.9天",
+        "summary": "02:00重新抓取SMM储能专区与SMM 5月18日赣锋锂业供需报道。行情表仍显示05-18口径：电池级碳酸锂187000~196000元/吨、均价191500元/吨、跌500元/吨；方形磷酸铁锂储能型280Ah电池仍显示05-15周价0.312~0.356元/Wh、均价0.334元/Wh、涨0.0015元/Wh。SMM报道补充截至5月14日碳酸锂样本周度库存101418实物吨、库存天数24.9天。",
+        "body": [
+          "本条为MarketTrend行情复核，不把02:00抓取时间伪装成价格发布时间；电池级碳酸锂价格日期按SMM页面显示为05-18。",
+          "电池级碳酸锂Li₂CO₃≥99.5%：187000~196000元/吨，均价191500元/吨，较前值-500元/吨。",
+          "方形磷酸铁锂电池（周，储能型280Ah）：0.312~0.356元/Wh，均价0.334元/Wh，较前值+0.0015元/Wh，价格日期仍为05-15周价。",
+          "中国直流侧储能电池预制舱（5MWh）：0.413~0.492元/Wh，均价0.4525元/Wh，较前值+0.0025元/Wh。",
+          "SMM 5月18日供需报道补充：截至5月14日，SMM碳酸锂样本周度库存总计101418实物吨，分环节库存天数24.9天。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为02:00复核抓取。",
+          "电池级碳酸锂均价：191500元/吨，日变动-500元/吨。",
+          "储能型280Ah方形LFP电芯均价：0.334元/Wh，周度变动+0.0015元/Wh。",
+          "5MWh直流侧预制舱均价：0.4525元/Wh，变动+0.0025元/Wh。",
+          "SMM碳酸锂样本库存：101418实物吨，库存天数24.9天。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "碳酸锂-500元/吨；储能280Ah电芯+0.0015元/Wh；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T02:00:00+08:00",
+        "url": "https://energy-storage.smm.cn/",
+        "original_url": "https://news.smm.cn/news/103907167",
+        "clean_html": "<p>SMM储能专区05-18行情：电池级碳酸锂均价191500元/吨（-500）；储能型280Ah电芯05-15周价均价0.334元/Wh（+0.0015）；SMM样本库存101418实物吨、24.9天。</p>",
+        "caption": "行情复核：碳酸锂价格日期仍为05-18，新增SMM库存天数低位口径",
+        "methodology": "02:00重新抓取SMM储能专区；HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3；并抓取SMM赣锋锂业供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；仅采用页面表格/正文可见价格、日期和库存字段，不更新为02:00价格。",
+        "history": [
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "碳酸锂变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "280Ah变动 元/Wh",
+            "value": 0.0015
+          },
+          {
+            "label": "5MWh预制舱 元/Wh",
+            "value": 0.4525
+          },
+          {
+            "label": "5MWh变动 元/Wh",
+            "value": 0.0025
+          },
+          {
+            "label": "SMM样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / CnEVPost / ChinaEVHome / 中国汽车动力电池产业创新联盟口径",
+        "source_type": "国内锂资源供需与海外英文电池月度数据交叉复核",
+        "account_name": "上海有色网 / CnEVPost / ChinaEVHome",
+        "category": "供需/出口/装机",
+        "title": "赣锋称2026锂资源维持紧平衡；4月中国动力+储能电池出口31.7GWh、同比+42.0%",
+        "summary": "02:00严格刷新新增：SMM 5月18日报道赣锋锂业投资者关系口径称，2026年全球锂资源供需整体将维持紧平衡，行业锂矿石及锂盐库存天数处于历史低位；SMM同文引用截至5月14日碳酸锂样本周度库存101418实物吨、分环节库存天数24.9天，并给出5月18日电池级碳酸锂18.7~19.6万元/吨、均价19.15万元/吨。海外英文复核采用CnEVPost/ChinaEVHome对中汽创新联盟4月数据的报道：4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力+储能电池出口31.7GWh，同比+42.0%、环比-12.3%。",
+        "body": [
+          "国内供需口径：SMM页面标题为“赣锋锂业：2026全球锂资源供需整体将维持紧平衡格局 对行业后续走势保持乐观”，发布时间为5月18日。",
+          "赣锋锂业在投资者关系活动记录表中称，2026年全球锂资源供需整体将维持紧平衡；下半年供给增量仍有不确定性，但下游需求亦将同步增长。",
+          "库存口径：SMM库存数据显示，截至5月14日，碳酸锂样本周度库存总计101418实物吨，分环节库存天数总计24.9天，接近历史低位。",
+          "行情口径：SMM同文称截至5月18日电池级碳酸锂现货18.7~19.6万元/吨，均价19.15万元/吨；与MarketTrend行情页05-18快照一致。",
+          "海外英文复核：CnEVPost基于中国汽车动力电池产业创新联盟数据称，4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力和储能电池合计出口31.7GWh，同比+42.0%、环比-12.3%。",
+          "ChinaEVHome补充4月动力+储能电池产量183.9GWh、同比+55.6%，销量164.2GWh、同比+39.0%，其中储能电池销售55.2GWh。"
+        ],
+        "key_points": [
+          "2026年全球锂资源供需：赣锋口径为整体紧平衡。",
+          "SMM碳酸锂样本周度库存：101418实物吨；分环节库存天数24.9天。",
+          "5月18日电池级碳酸锂：18.7~19.6万元/吨，均价19.15万元/吨。",
+          "4月中国动力电池装车：62.4GWh，同比+15.2%，环比+10.4%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%。",
+          "4月储能电池销售：55.2GWh（ChinaEVHome转述联盟口径）。"
+        ],
+        "value": "31.7",
+        "unit": "GWh 4月动力+储能电池出口",
+        "delta": "出口同比+42.0%、环比-12.3%；装车62.4GWh，同比+15.2%；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-19 02:00 CST",
+        "url": "https://news.smm.cn/news/103907167",
+        "original_url": "https://cnevpost.com/2026/05/11/china-apr-2026-battery-installations/",
+        "related_urls": [
+          "https://chinaevhome.com/2026/05/11/china-ev-battery-installations-hit-62-4-gwh-in-april-catl-holds-46-64/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露赣锋锂业判断2026全球锂资源供需紧平衡，并引用5月14日SMM碳酸锂样本库存101418实物吨、库存天数24.9天；CnEVPost/ChinaEVHome转述中汽创新联盟4月动力+储能电池出口31.7GWh、同比+42.0%。</p>",
+        "caption": "供需与出口：锂资源低库存与储能需求继续支撑价格中枢，4月出口同比仍高增但环比回落",
+        "methodology": "02:00主动搜索国内+海外公开来源并抓取；SMM赣锋/碳酸锂供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；CnEVPost 4月电池装车与出口报道 HTTP 200 sha256 a3fb725835c2a157733ad5140fc904366d66b71c8feb4376bd58e4b232599c80；ChinaEVHome同源英文复核 HTTP 200 sha256 cc8ddbce558376f21503ec4a97e0d64ab1f0a914e2099babb7c111d57b0d12a9；SMM储能行情页 HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3。仅采用页面可见标题、正文和表格字段；把上市公司判断、SMM样本库存、联盟月度装车/出口数据分开标注。",
+        "history": [
+          {
+            "label": "4月动力+储能电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "出口同比 %",
+            "value": 42.0
+          },
+          {
+            "label": "出口环比 %",
+            "value": -12.3
+          },
+          {
+            "label": "4月动力电池装车 GWh",
+            "value": 62.4
+          },
+          {
+            "label": "装车同比 %",
+            "value": 15.2
+          },
+          {
+            "label": "SMM碳酸锂样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          }
+        ]
+      },
+      {
+        "source": "SMM / 北极星储能网 / Energy-Storage.News / 中国海关总署口径",
+        "source_type": "国内电芯产能公示与海外英文出口数据交叉复核",
+        "account_name": "上海有色网 / 北极星储能网 / Energy-Storage.News",
+        "category": "产能/出口",
+        "title": "宁德时代贵安二期拟新增40GWh电芯产能；中国Q1储能电池出口27.3GWh、占动力+储能出口32.4%",
+        "summary": "01:00严格刷新新增：国内公开来源SMM转载北极星储能网披露，贵安新区生态环境局5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环评拟审批公示，项目建成后将形成年产40GWh新能源电池电芯能力。海外行业媒体Energy-Storage.News基于中国海关总署/国新办发布会口径称，2026年一季度中国动力和储能电池出口84.1GWh、同比+36.7%；其中储能电池出口27.3GWh、占32.4%、同比+15.0%，3月储能电池出口13.8GWh、环比+96.9%、同比+52.4%。",
+        "body": [
+          "国内产能口径：SMM页面标题为“新增40GWh新能源电池电芯产能 宁德时代贵州贵安二期扩建项目公示”，来源标注北极星储能网，发布时间2026-05-15 18:19。",
+          "项目口径：贵安新区生态环境局于5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环境影响报告表拟审批公示，建设主体为宁德时代（贵州）新能源科技有限公司，选址贵州省贵安新区。",
+          "产能口径：项目拟购置阴极/阳极高效制浆机、凹版印刷机、宽幅双面极片涂布机等设备，建成后形成年产40GWh新能源电池电芯能力。",
+          "海外/英文复核口径：Energy-Storage.News报道中国一季度动力和储能电池合计出口84.1GWh、同比+36.7%；储能电池出口27.3GWh、占32.4%、同比+15.0%。",
+          "本条把“环评拟审批/产能规划”和“海关出口统计”分开标注，不把拟建产能当作已投产，也不把出口GWh直接等同于海外并网容量。"
+        ],
+        "key_points": [
+          "宁德时代贵州贵安二期扩建项目拟新增年产40GWh新能源电池电芯能力。",
+          "项目处于环境影响报告表拟审批公示口径，非已投产口径。",
+          "中国Q1动力+储能电池出口84.1GWh，同比+36.7%。",
+          "其中储能电池出口27.3GWh，占32.4%，同比+15.0%。",
+          "3月储能电池出口13.8GWh，环比+96.9%、同比+52.4%。"
+        ],
+        "value": "40",
+        "unit": "GWh 拟新增新能源电池电芯年产能",
+        "delta": "Q1储能电池出口27.3GWh，同比+15.0%；动力+储能电池出口84.1GWh，同比+36.7%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 01:00 CST",
+        "url": "https://news.smm.cn/news/103904169",
+        "original_url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "related_urls": [
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM/北极星储能网披露宁德时代贵州贵安二期扩建拟新增40GWh新能源电池电芯年产能；Energy-Storage.News基于海关总署口径称中国Q1储能电池出口27.3GWh、同比增长15.0%。</p>",
+        "caption": "供给与出口：头部电芯产能继续扩张，储能电池出口维持双位数增长",
+        "methodology": "01:00主动搜索国内+海外公开来源并抓取；宁德时代贵安二期SMM/北极星页面 HTTP 200 sha256 bd6f1cd0c34d135909dd2b9ad7d2be39a9e235354134dc1d21e753c7e905105f；Energy-Storage.News中国储能电池出口报道 HTTP 200 sha256 dd0e7d5100ee8604b1d2d5ae6c6a1343efda673b6b1b385870e9ac2a2411faad；SMM储能行情页 HTTP 200 sha256 c1bd7b1fe6fc5cce64bd736ed2395cdd356731efac102637043614e6cdd80ee9；采用页面可见标题、正文及英文报道中一致可见的40GWh、84.1GWh、36.7%、27.3GWh、32.4%、15.0%、13.8GWh、96.9%、52.4%等字段，明确区分环评拟审批产能、出口统计和并网容量。",
+        "history": [
+          {
+            "label": "贵安二期拟新增年产能 GWh",
+            "value": 40
+          },
+          {
+            "label": "Q1动力+储能电池出口 GWh",
+            "value": 84.1
+          },
+          {
+            "label": "动力+储能出口同比 %",
+            "value": 36.7
+          },
+          {
+            "label": "Q1储能电池出口 GWh",
+            "value": 27.3
+          },
+          {
+            "label": "储能电池出口占比 %",
+            "value": 32.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 15.0
+          },
+          {
+            "label": "3月储能电池出口 GWh",
+            "value": 13.8
+          },
+          {
+            "label": "3月储能电池出口环比 %",
+            "value": 96.9
+          }
+        ]
+      },
+      {
+        "source": "SMM / Modo Energy / S&P Global Commodity Insights",
+        "source_type": "国内EPC招标与海外BESS资本市场交叉复核",
+        "account_name": "上海有色网 / Modo Energy / S&P Global",
+        "category": "招标/资本市场",
+        "title": "国内小型配储EPC与美国BESS融资热度并行：华能宁夏22.68MW/45.135MWh招标，Modo称Q1美国BESS交易环比+42%",
+        "summary": "00:00严格刷新新增：国内公开来源SMM披露华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC招标，项目包含9个5.015MWh储能电池及变流预制舱、5个升压箱变，计划工期至2026年7月31日。海外公开来源Modo Energy Q1 2026美国BESS资本市场报告称，其跟踪17起美国BESS公开交易，较2025年Q4的12起增加42%，涉及2.4GW容量和29亿美元已披露债务，ERCOT占交易数约60%。S&P Global用于复核海外锂盐供需与储能需求驱动背景。",
+        "body": [
+          "国内项目口径：SMM标题与正文可见“华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC项目招标”，招标关键词为储能、招投标。",
+          "设备范围：储能区共放置9个5.015MWh储能电池及变流预制舱和5个升压箱变，分区接入隆桥光伏电站35kV母线；计划工期为合同签订日至2026年7月31日。",
+          "海外资本口径：Modo Energy元信息显示Q1 2026跟踪17起美国BESS公开交易，较Q4 2025的12起增长42%，容量2.4GW，已披露债务29亿美元，ERCOT占约60%。",
+          "S&P Global报道用于背景复核：2026年锂盐过剩预计收窄、储能需求仍是锂需求增长驱动之一；本条不把资本市场交易等同于已并网容量。",
+          "MarketTrend同步复核SMM储能专区05-18行情，价格日期按页面显示，不用00:00抓取时间替代价格日期。"
+        ],
+        "key_points": [
+          "华能宁夏隆桥：22.68MW/45.135MWh电源侧储能EPC招标。",
+          "设备：9个5.015MWh储能电池及变流预制舱、5个升压箱变。",
+          "Modo：Q1 2026美国BESS公开交易17起，环比+42%。",
+          "Modo：涉及2.4GW容量、29亿美元已披露债务；ERCOT约占交易数60%。",
+          "00:00已重新爬取NeoLink首页、MarketTrend入口、国内SMM与海外Modo/S&P来源。"
+        ],
+        "value": "2.4",
+        "unit": "GW Q1美国BESS公开交易涉及容量",
+        "delta": "17起交易，较Q4 2025的12起+42%；国内新增22.68MW/45.135MWh EPC招标线索",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 00:00 CST",
+        "url": "https://news.smm.cn/news/103885991",
+        "original_url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "related_urls": [
+          "https://www.spglobal.com/energy/en/news-research/latest-news/metals/010926-commodities-2026-lithium-carbonate-surplus-to-narrow-energy-storage-to-drive-growth",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露华能宁夏隆桥22.68MW/45.135MWh电源侧储能EPC招标；Modo Energy称Q1 2026美国BESS公开交易17起、环比增长42%、涉及2.4GW。</p>",
+        "caption": "项目与资本：国内配储EPC继续释放招标，海外BESS交易活跃度回升",
+        "methodology": "00:00主动搜索国内+海外公开来源并抓取；华能宁夏EPC SMM HTTP 200 sha256 afee51a05a66271f453191fb0c6f6e7f6bb34e0c88d04882386dd2687ee4fc1a；Modo美国BESS资本市场报告 HTTP 200 sha256 16f5ef444d599d923b5524e0356743a4c8a4c06017618f1f9861c1e4d58e4104；S&P锂盐/储能需求背景 HTTP curl:0 sha256 c05cdb36e1aabf7d42ff62c0ea44a5fd6312d3e3811f3292e9cc5978210508cc；SMM储能行情页 HTTP 200 sha256 02ddcf1edaa1d0baa598e3ceca33ee745d29eb5552d889664d1957b97d277a04；采用页面可见标题、搜索摘要及HTML meta中一致可见的22.68MW/45.135MWh、9×5.015MWh、2026-07-31、17起、+42%、2.4GW、29亿美元、ERCOT约60%等字段，明确区分招标、交易/融资与已投运容量。",
+        "history": [
+          {
+            "label": "美国BESS交易容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "美国BESS交易数",
+            "value": 17
+          },
+          {
+            "label": "交易数环比 %",
+            "value": 42
+          },
+          {
+            "label": "披露债务 亿美元",
+            "value": 29
+          },
+          {
+            "label": "宁夏项目功率 MW",
+            "value": 22.68
+          },
+          {
+            "label": "宁夏项目容量 MWh",
+            "value": 45.135
+          }
+        ]
+      },
+      {
+        "source": "SMM / Yahoo Finance-GlobeNewswire / Energy-Storage.News",
+        "source_type": "国内需求预测与海外项目管线交叉复核",
+        "account_name": "上海有色网 / Bimergen Energy / Energy-Storage.News",
+        "category": "需求预测/海外项目",
+        "title": "全球储能需求与海外项目管线复核：SMM预计2030年全球储能约1900GWh，Bimergen披露2.0GW美国BESS开发管线",
+        "summary": "23:00主动搜索国内+海外公开来源后新增：SMM在新能源论坛口径中预计2026-2030年全球储能需求CAGR约24%、2030年全球储能市场需求约1900GWh，并称储能在锂电需求占比将由2026年约30%升至2030年约39%。海外方面，Yahoo Finance/GlobeNewswire发布的Bimergen Energy公告称其将于5月18日介绍约20亿美元资产增长策略，基础为美国主要电力市场约2.0GW电池储能开发管线；Energy-Storage.News同步作为海外行业站点复核其2026储能报告入口。",
+        "body": [
+          "国内需求口径：SMM页面显示，SMM储能分析师预计2026-2030年全球储能市场需求逐年攀升，CAGR约24%，2030年全球储能市场需求约1900GWh。",
+          "锂电结构口径：SMM预计储能在锂电池需求中的占比从2026年的约30%提升至2030年的约39%，动力电池占比由约63%收窄至约56%。",
+          "海外项目口径：Yahoo Finance/GlobeNewswire所载Bimergen公告称，公司5月18日在LD Micro会议介绍约20亿美元资产增长计划，基础为美国关键电力市场约2.0GW BESS开发管线。",
+          "行业信息入口：Energy-Storage.News 2026储能报告入口已复核，用作海外BESS行业主题索引；本条不把会议公告等同于已投运容量。",
+          "MarketTrend行情仍单独按SMM储能专区05-15可见报价处理，本条仅新增需求/项目管线证据。"
+        ],
+        "key_points": [
+          "SMM预计2026-2030年全球储能需求CAGR约24%。",
+          "SMM预计2030年全球储能市场需求约1900GWh。",
+          "储能占锂电需求比重预计由2026年约30%升至2030年约39%。",
+          "Bimergen披露约2.0GW美国BESS开发管线支撑约20亿美元资产增长策略。",
+          "23:00已重抓NeoLink首页、MarketTrend入口与国内/海外源；未仅刷新时间。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030全球储能市场需求预测",
+        "delta": "2026-2030 CAGR约24%；储能占锂电需求约30%升至约39%；海外管线约2.0GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 23:00 CST",
+        "url": "https://news.smm.cn/news/103872130",
+        "original_url": "https://finance.yahoo.com/sectors/energy/articles/bimergen-energy-present-may-18th-103000493.html",
+        "related_urls": [
+          "https://www.energy-storage.news/resources/the-energy-storage-report-2026/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM预计2030年全球储能需求约1900GWh、2026-2030年CAGR约24%；Bimergen公告披露约2.0GW美国BESS开发管线。</p>",
+        "caption": "需求与管线：长期储能需求上修背景下，美国BESS开发管线继续释放项目证据",
+        "methodology": "23:00主动搜索国内+海外公开来源并抓取；SMM长期需求预测 HTTP 200 sha256 a1333c0b8ec0e5ed3082641de5bdf1fe1bfbd8590850e33fccf62e0dea338bbc；Yahoo Finance/GlobeNewswire/Bimergen公告 HTTP 200 sha256 045dc67c28d14178497729c816c19655bda3a267094e6128d3dc2157b2c8ac0d；Energy-Storage.News 2026报告入口 HTTP 200 sha256 97cf555a6fb48b0cf4dab0df114a1a2597f8124aecf447937338f2ef3082a81a；SMM储能行情页 HTTP 200 sha256 1a1e670266473e78c7b898180624ccbd88817524bd94c941cd9a8d2d76256e6e；采用搜索摘要和抓取页面中一致可见的1900GWh、24% CAGR、30%至39%、2.0GW与20亿美元描述，明确区分预测需求、开发管线和已投运容量。",
+        "history": [
+          {
+            "label": "2030全球储能需求预测 GWh",
+            "value": 1900
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2026储能占锂电需求 %",
+            "value": 30
+          },
+          {
+            "label": "2030储能占锂电需求 %",
+            "value": 39
+          },
+          {
+            "label": "Bimergen BESS管线 GW",
+            "value": 2.0
+          },
+          {
+            "label": "Bimergen资产计划 亿美元",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "source": "SMM / InfoLink Consulting / Energy-Storage.News",
+        "source_type": "国内外锂价与BESS成本链条复核",
+        "account_name": "上海有色网 / InfoLink / Energy-Storage.News",
+        "category": "原材料/系统成本",
+        "title": "锂价与BESS成本压力交叉复核：瑞银上调2026中国碳酸锂均价至20万元/吨，海外称BESS短期价格或上行",
+        "summary": "22:00主动搜索国内+海外公开来源后新增：SMM转载/整理的瑞银观点将2026年中国碳酸锂现货均价预测上调18%至20万元/吨，并称储能电池需求增速约60%、全球锂需求约197万吨LCE、风险加权供给约191万吨LCE、缺口约6.5万吨LCE；海外InfoLink与Energy-Storage.News均指向锂盐高位/供应链挑战使BESS成本短期承压，但中国BESS/电芯价格传导仍相对稳定。",
+        "body": [
+          "国内口径：SMM页面显示，瑞银全球大宗商品团队5月7日报告把2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5-6月现货价格可能触及25万元/吨。",
+          "需求口径：瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求增速约60%；上行情景下若ESS需求同比增长80%，全球锂需求或升至204万吨LCE。",
+          "供给口径：瑞银风险加权供给预测约191万吨LCE，形成约6.5万吨LCE缺口；关键扰动包括津巴布韦出口禁令/配额、江西矿山换证和供应链库存偏低。",
+          "海外交叉验证：InfoLink称锂盐在高位区间震荡、矿端偏紧支撑强于锂盐基本面压力，同时中国BESS价格因电芯涨价传导而保持相对稳定；Energy-Storage.News则称锂价大幅上行、出口退税变化和供应链挑战使BESS短期价格或上行。",
+          "本条不把机构预测当作即时报价；MarketTrend价格表仍按SMM储能专区05-15可见行情保留。"
+        ],
+        "key_points": [
+          "瑞银上调2026年中国碳酸锂现货均价预测18%至20万元/吨。",
+          "2026全球锂需求预测约197万吨LCE，同比+16%；ESS需求增速约60%。",
+          "风险加权供给约191万吨LCE，对应约6.5万吨LCE缺口。",
+          "上行情景：ESS需求+80%、全球锂需求约204万吨LCE、缺口约12.3万吨LCE。",
+          "海外口径提示BESS短期成本承压，但中国BESS价格传导仍被描述为相对稳定。"
+        ],
+        "value": "200000",
+        "unit": "元/吨 2026中国碳酸锂现货均价预测",
+        "delta": "瑞银较前预测上调18%；基准缺口约6.5万吨LCE；ESS需求增速约60%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 22:00 CST",
+        "url": "https://news.smm.cn/news/103892629",
+        "original_url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "related_urls": [
+          "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>瑞银将2026年中国碳酸锂现货均价预测上调至20万元/吨，储能电池需求增速约60%；海外来源同步提示BESS短期成本承压。</p>",
+        "caption": "成本链条：锂价预测上修与BESS短期价格压力形成同向信号",
+        "methodology": "22:00主动搜索国内+海外公开来源并抓取；SMM瑞银观点 HTTP 200 sha256 6b58615107e18b4a696c5a94e90d8a94a82970fe1c993d55bcf623191922abe4；InfoLink HTTP 200 sha256 03ddd092fcc8ea183876c6ee6ecce46fa8b7619d442503a411970735b90b40bb；Energy-Storage.News HTTP 200 sha256 e5996e56427c136e4d0295cdac9b94573138ebcc8650dfabf0dfe1c856bbb800；SMM储能专区 HTTP 200 sha256 679efd6a1ee2cc9eeee87b2435d3a2aec8bdaf8323453466e43e25983491b62d；采用页面/搜索摘要中一致可见的20万元/吨、+18%、197万吨LCE、191万吨LCE、6.5万吨LCE、ESS +60%与BESS价格压力描述，明确标注为机构预测和成本趋势，不作为即时成交价。",
+        "history": [
+          {
+            "label": "2026中国碳酸锂均价预测 元/吨",
+            "value": 200000
+          },
+          {
+            "label": "预测上调幅度 %",
+            "value": 18
+          },
+          {
+            "label": "全球锂需求 万吨LCE",
+            "value": 197
+          },
+          {
+            "label": "风险加权供给 万吨LCE",
+            "value": 191
+          },
+          {
+            "label": "基准缺口 万吨LCE",
+            "value": 6.5
+          },
+          {
+            "label": "ESS需求增速 %",
+            "value": 60
+          }
+        ]
+      },
+      {
+        "source": "SMM快讯 / pv magazine / TaiyangNews",
+        "source_type": "海外储能容量拍卖",
+        "account_name": "SMM有色快讯",
+        "category": "海外市场",
+        "title": "日本LTDA最新拍卖授予19个电池储能项目合计1.25GW，非锂路线699MW高于锂电551MW",
+        "summary": "21:00国内+海外公开来源交叉确认：日本FY2025长期脱碳电源拍卖（LTDA）共授予32个项目约7.3GW容量，其中电池储能19个项目合计约1.25GW；锂电储能551MW、非锂电储能约699MW，电池储能约占脱碳电源中标容量近30%。",
+        "body": [
+          "该条采用SMM有色快讯、SMM英文Metal.com以及pv magazine/TaiyangNews公开报道交叉核验，属于日本容量市场/长期脱碳电源拍卖口径。",
+          "报道显示，日本最新LTDA合计授予约7.3GW容量；其中脱碳电源项目约4.26GW，LNG火电约3.04GW。",
+          "电池储能中标容量约1.25GW，覆盖19个项目；锂离子电池储能551MW，非锂电储能约699MW/700MW，显示日本长时与非锂储能路线继续获得容量市场支持。",
+          "与FY2024约1.37GW电池储能中标相比，本轮1.25GW小幅下降，但在更严格时长规则下仍保持较高规模。"
+        ],
+        "key_points": [
+          "日本FY2025 LTDA：32个项目合计约7.3GW。",
+          "电池储能：19个项目合计约1.25GW。",
+          "锂电储能：551MW；非锂电储能：约699MW/700MW。",
+          "电池储能约占脱碳电源中标容量近30%。",
+          "较FY2024电池储能1.37GW中标容量小幅下降，但规则收紧后仍较强。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本LTDA电池储能中标容量",
+        "delta": "FY2024约1.37GW→FY2025约1.25GW；非锂约699MW高于锂电551MW",
+        "direction": "neutral",
+        "date": "05-18",
+        "as_of": "2026-05-18 21:00 CST",
+        "url": "https://news.smm.cn/live/detail/103906946",
+        "original_url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "related_urls": [
+          "https://news.metal.com/en/newscontent/103906947-Storage-Japan-awards-125GW-of-battery-storage-in-latest-LTDA-auction",
+          "https://taiyangnews.info/storage/japan-awards-125-gw-battery-storage-3rd-ltda"
+        ],
+        "clean_html": "<p>日本最新LTDA中，电池储能19个项目合计约1.25GW中标；锂电551MW、非锂约699MW，电池储能约占脱碳电源中标容量近30%。</p>",
+        "caption": "海外容量市场：日本储能中标结构显示非锂长时路线获得支持",
+        "methodology": "21:00主动搜索国内+海外公开来源并抓取；SMM快讯 HTTP 200 sha256 b96d6bc2cdba5056ca1c181046aca6a6a430fb7575ecddbf599a4e8491237c25；Metal.com HTTP 200 sha256 e872038faccbc66e72c79fc8b84c923679ee4382c05ab8581b03e17e4358f118；pv magazine HTTP 200 sha256 142aa776e8239c518f8cdc489763a0127080cc280159a5b6a3789ab558fcbdc4；TaiyangNews HTTP 200 sha256 25457f863515064560d06e95fadf5efb624a38a0337fa64688d859e82b7df712；采用多源一致的19个项目、1.25GW、551MW、699/700MW、7.3GW与近30%指标，标注为拍卖结果口径。",
+        "history": [
+          {
+            "label": "FY2025电池储能 GW",
+            "value": 1.25
+          },
+          {
+            "label": "FY2024电池储能 GW",
+            "value": 1.37
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "中标项目数",
+            "value": 19
+          },
+          {
+            "label": "总拍卖容量 GW",
+            "value": 7.3
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外电池原材料月度更新",
+        "account_name": "Fastmarkets",
+        "category": "原材料/回收",
+        "title": "Fastmarkets月度BRM更新：锂价与废料量上升推动欧美LFP电池回收扩张",
+        "summary": "20:00海外公开来源新增Fastmarkets月度电池原材料更新：较高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，扭转此前多年弱需求和监管障碍；对储能链条的含义是，锂价高位和报废/边角料供给同步提升，回收端可能更快进入经济性区间。",
+        "body": [
+          "该条为Fastmarkets电池原材料月度更新中关于LFP回收的公开摘要，不等同于单一金属即时报价。",
+          "Fastmarkets称，更高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，改变此前LFP回收需求偏弱的状态。",
+          "对储能市场而言，LFP为主流储能化学体系之一；回收经济性改善可能在中期影响碳酸锂、正极材料与电芯成本预期。"
+        ],
+        "key_points": [
+          "驱动因素：更高锂价与增长的废料量。",
+          "区域：欧洲与美国LFP电池回收。",
+          "方向：Fastmarkets称正在快速扩张，并扭转多年弱需求与监管障碍。",
+          "市场含义：若回收供给放量，可能缓冲部分原料成本波动，但短期仍取决于锂价与废料可得性。"
+        ],
+        "value": "LFP回收",
+        "unit": "欧美扩张信号",
+        "delta": "锂价上行+废料量增长推动回收经济性",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/metals-and-mining/battery-raw-materials/brm-monthly-market-update-2026/",
+        "clean_html": "<p>Fastmarkets月度电池原材料更新称，较高锂价与增长的废料量正在推动欧美LFP电池回收快速扩张，扭转多年弱需求与监管障碍。</p>",
+        "caption": "原料链：LFP回收经济性受锂价与废料供给共同驱动",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 1372075bb0cf808cfca4cbf1d73017a57813d74bfcedecd35ee16df73ea1fc4d；采用页面可见的Fastmarkets月度BRM公开摘要，未外推为即时报价。",
+        "history": [
+          {
+            "label": "驱动因子：锂价",
+            "value": 1
+          },
+          {
+            "label": "驱动因子：废料量",
+            "value": 1
+          },
+          {
+            "label": "区域：欧洲",
+            "value": 1
+          },
+          {
+            "label": "区域：美国",
+            "value": 1
+          }
+        ]
+      },
+      {
         "source": "SMM上海有色",
         "source_type": "专业价格页/行业分析",
         "account_name": "SMM上海有色",
@@ -38806,60 +41348,6 @@ window.NEOLINK_FEED= {
           {
             "label": "乌兰察布项目 MWh",
             "value": 6000
-          }
-        ]
-      },
-      {
-        "source": "上海有色网 SMM 储能专区",
-        "source_type": "公开行情表/锂电与储能材料价格",
-        "account_name": "SMM",
-        "category": "行情价格",
-        "title": "SMM 15:00复核：电池级碳酸锂均价19.15万元/吨，280Ah储能电芯仍为0.334元/Wh周价",
-        "summary": "15:00重新抓取SMM储能专区；公开行情仍显示05-18电池级碳酸锂187000-196000元/吨、均价191500元/吨、日跌500元/吨；储能型280Ah方形LFP电芯仍为05-15周度报价0.312-0.356元/Wh、均价0.334元/Wh。",
-        "body": [
-          "本轮继续使用SMM实时页面而非搜索摘要，避免把05-15缓存值误当成最新行情。",
-          "直流侧储能电池预制舱：3.44/3.72MWh均价0.44元/Wh，5MWh均价0.4525元/Wh，日期均为05-15。",
-          "集中式PCS 1725kW报价0.062-0.068元/W，均价0.065元/W，日期05-15。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：187000-196000元/吨，均价191500元/吨，日跌500元/吨，日期05-18。",
-          "储能型280Ah方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，日期05-15。",
-          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh，日期05-15。"
-        ],
-        "value": "191500",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-500元/吨；280Ah储能电芯0.334元/Wh",
-        "direction": "down",
-        "date": "05-18",
-        "as_of": "2026-05-18",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能专区公开表显示：05-18电池级碳酸锂均价191500元/吨、日跌500元/吨；05-15储能型280Ah方形LFP电芯均价0.334元/Wh。</p>",
-        "caption": "行情复核：锂盐日度小跌，储能电芯周价未日更",
-        "methodology": "15:00国内公开行情复核；HTTP 200 sha256 66549759a3fa5f2e1d4b0ac132fd4fa7f0906807e2ecbd1b9608f61b08b0b8a1；逐项摘录SMM公开表，不把锂盐日度价格外推为电芯报价。",
-        "history": [
-          {
-            "label": "电池级碳酸锂低值 元/吨",
-            "value": 187000
-          },
-          {
-            "label": "电池级碳酸锂高值 元/吨",
-            "value": 196000
-          },
-          {
-            "label": "电池级碳酸锂均价 元/吨",
-            "value": 191500
-          },
-          {
-            "label": "日变动 元/吨",
-            "value": -500
-          },
-          {
-            "label": "280Ah储能电芯均价 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "5MWh预制舱均价 元/Wh",
-            "value": 0.4525
           }
         ]
       },
@@ -39631,53 +42119,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM",
-        "source_type": "国内专业价格源/公开行情页",
-        "account_name": "SMM",
-        "category": "价格",
-        "title": "SMM：5月15日电池级碳酸锂均价192000元/吨，价格指数191759元/吨",
-        "summary": "SMM公开行情页显示，2026年5月15日电池级碳酸锂价格指数191759元/吨，较前一交易日下调3345元/吨；电池级碳酸锂价格188000-196000元/吨、均价192000元/吨，较前一交易日下调3000元/吨；工业级碳酸锂184000-191000元/吨、均价187500元/吨。",
-        "body": [
-          "本次价格更新延续5月中旬碳酸锂高位回落信号：SMM电池级碳酸锂指数降至191759元/吨，现货均价降至192000元/吨。",
-          "SMM同页给出电池级碳酸锂CIF价格20.6-24.0美元/千克、均价22.3美元/千克，较前一交易日下调0.2美元/千克。",
-          "该价格口径用于校正NeoLink材料趋势与MarketTrend正极/锂盐情绪：高位震荡中出现回落，但绝对价格仍处在19万元/吨附近。"
-        ],
-        "key_points": [
-          "电池级碳酸锂价格指数191759元/吨，日变动-3345元/吨。",
-          "电池级碳酸锂均价192000元/吨，日变动-3000元/吨。",
-          "工业级碳酸锂均价187500元/吨，日变动-3000元/吨。",
-          "CIF均价22.3美元/千克，日变动-0.2美元/千克。"
-        ],
-        "value": "191759",
-        "unit": "元/吨 SMM电池级碳酸锂价格指数",
-        "delta": "-3345元/吨；电池级现货均价192000元/吨",
-        "direction": "down",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://hq.smm.cn/h5/Li2CO3",
-        "clean_html": "<p>SMM 5月15日公开行情显示，电池级碳酸锂价格指数191759元/吨，电池级碳酸锂均价192000元/吨，工业级均价187500元/吨。</p>",
-        "caption": "锂盐价格从高位回落，但仍维持在19万元/吨附近",
-        "methodology": "20:00读取SMM碳酸锂公开行情页；采用页面可见价格范围、均价、涨跌、单位和日期。",
-        "history": [
-          {
-            "label": "价格指数 元/吨",
-            "value": 191759
-          },
-          {
-            "label": "电碳均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "工业级均价 元/吨",
-            "value": 187500
-          },
-          {
-            "label": "CIF均价 美元/千克",
-            "value": 22.3
-          }
-        ]
-      },
-      {
         "source": "Energy-Storage.News",
         "source_type": "海外储能行业媒体/制造供应链",
         "account_name": "Energy-Storage.News",
@@ -39807,53 +42248,6 @@ window.NEOLINK_FEED= {
           {
             "label": "电碳均价万元/吨",
             "value": 17.45
-          }
-        ]
-      },
-      {
-        "source": "上海有色网 SMM",
-        "source_type": "国内专业数据源/会议公开口径",
-        "account_name": "SMM",
-        "category": "市场",
-        "title": "SMM：2030年全球储能市场需求预计约1900GWh",
-        "summary": "SMM在新能源产业博览会公开分享中预计，2026-2030年全球储能市场需求将以约24%的复合年均增长率逐年攀升，2030年全球储能市场需求约1900GWh；储能在锂电池需求中的占比将从2026年的30%提升至2030年的约39%。",
-        "body": [
-          "SMM认为，中国、美国和欧洲仍是全球储能市场主要增长区域，中东、澳大利亚和东南亚等新兴地区大储需求释放。",
-          "SMM预计2024-2030年全球锂离子储能电芯产量CAGR约34%。",
-          "该预测强化储能作为锂离子电池重要增长极的中长期判断。"
-        ],
-        "key_points": [
-          "2026-2030年全球储能需求CAGR约24%。",
-          "2030年全球储能市场需求约1900GWh。",
-          "储能在锂电需求占比从2026年30%升至2030年约39%。",
-          "全球锂离子储能电芯产量2024-2030年CAGR约34%。"
-        ],
-        "value": "1900",
-        "unit": "GWh 2030E全球储能需求",
-        "delta": "2026-2030 CAGR约24%",
-        "direction": "up",
-        "date": "05-17",
-        "as_of": "2026-05-17",
-        "url": "https://news.smm.cn/news/103872130",
-        "clean_html": "<p>SMM预计2030年全球储能市场需求约1900GWh，2026-2030年储能需求CAGR约24%，储能在锂电需求占比将升至约39%。</p>",
-        "caption": "储能继续成为锂电池需求最重要增量之一",
-        "methodology": "18:00小时抓取SMM公开页面；采用会议公开分享中的CAGR、2030需求和需求占比口径。",
-        "history": [
-          {
-            "label": "2030E GWh",
-            "value": 1900
-          },
-          {
-            "label": "2026-2030 CAGR %",
-            "value": 24
-          },
-          {
-            "label": "2030储能占比 %",
-            "value": 39
-          },
-          {
-            "label": "2026储能占比 %",
-            "value": 30
           }
         ]
       },
@@ -40682,6 +43076,688 @@ window.NEOLINK_FEED= {
       }
     ],
     "sentiment": [
+      {
+        "source": "21财经 / 上海证券报 / CIBF2026现场报道",
+        "source_type": "国内展会现场与产业链订单/材料价格信号",
+        "account_name": "21财经 / 上海证券报",
+        "category": "储能订单/材料/固态电池",
+        "title": "CIBF2026现场信号：储能客户关注点从价格转向交付周期，部分企业订单排至三季度",
+        "summary": "04:00新增国内现场报道复核：21财经转载上海证券报5月17日报道，CIBF2026（5月13-15日深圳）现场锂电展位热度明显，储能需求旺盛被视为本轮锂电复苏关键；鹏辉能源称订单饱满、产能已排满至第三季度，赣锋锂电称日韩、欧洲、东南亚外商问询增多，最受关注产品为储能电池。报道还引用隆众资讯：储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨，涨幅超过100%。",
+        "body": [
+          "展会观察：CIBF2026锂电池公司展位热度明显，部分参展商表示客户从“更关心价格”转为“更关心订单交付周期”。",
+          "订单信号：鹏辉能源表示受海外退税政策时间窗口等因素影响，公司订单饱满，产能已经排满至第三季度。",
+          "外需信号：赣锋锂电表示外商客户问询增多，主要来自日韩、欧洲、东南亚，最受关注产品是储能电池，固态电池关注度也提升。",
+          "材料信号：隆众资讯数据显示，储能型磷酸铁锂正极材料月均价由2025年5月31684元/吨上涨至2026年5月64344元/吨，涨幅超过100%。",
+          "解读：该线索补充了03:00宏观/出口数据之外的微观订单侧证据，说明储能高景气不仅体现在产量与出口，还体现在交付周期、正极材料传导和海外询盘。"
+        ],
+        "key_points": [
+          "CIBF2026举办时间：5月13日至15日，地点深圳。",
+          "鹏辉能源：订单饱满，产能排满至第三季度。",
+          "赣锋锂电：日韩、欧洲、东南亚外商客户问询增多，最受关注产品为储能电池。",
+          "储能型磷酸铁锂正极材料月均价：2025年5月31684元/吨；2026年5月64344元/吨；涨幅超过100%。",
+          "清华大学欧阳明高判断：今后5年储能电池将遇巨大机遇期。"
+        ],
+        "value": "64344",
+        "unit": "元/吨 2026年5月储能型磷酸铁锂正极材料月均价",
+        "delta": "较2025年5月31684元/吨涨幅超过100%；鹏辉能源产能排至Q3",
+        "direction": "up",
+        "date": "05-17",
+        "as_of": "2026-05-17 18:03 CST",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "original_url": "https://www.21jingji.com/article/20260517/herald/73a48b437742d6d1a5fe60e3cc1ff290.html",
+        "related_urls": [
+          "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwktz9997845.shtml",
+          "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/"
+        ],
+        "clean_html": "<p>CIBF2026现场报道显示储能订单与交付周期成为锂电企业核心信号；储能型磷酸铁锂正极材料月均价从2025年5月31684元/吨涨至2026年5月64344元/吨。</p>",
+        "caption": "订单侧补充：CIBF2026现场反馈储能需求旺盛、材料价格传导和海外问询同步增强",
+        "methodology": "04:00主动搜索国内公开来源并抓取21财经/上海证券报CIBF现场报道 HTTP 200 sha256 74cba2249066183cc41459a604dbbc4aeff714321d63f3c7c250c55ae45f63d2；同步抓取新浪财经锂价报道用于价格背景复核 HTTP 200 sha256 ba9d8e709ccba52d79b0eae9cc22af88d2928959f0a7eddf20922cbd9ff08dfd，海外公开行情页Trading Economics尝试抓取结果 HTTP curl:0 sha256 e3bced57ef19b7ee10ae7aa0c88bf53c33d29d6ecc0fb85879da78fea1fe8e53，Energy-Storage.news Q1出口旧线索复核 HTTP 200 sha256 035bc22cd9e31f92f5ac1383ad748388eabff11eab9cc531d631edb97eebd99a。采用可抓取新闻正文与搜索结果中一致出现的数值；Trading Economics若403则仅记录为未采用的海外行情尝试，不写入价格事实。",
+        "history": [
+          {
+            "label": "2025年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 31684
+          },
+          {
+            "label": "2026年5月储能型磷酸铁锂正极材料月均价 元/吨",
+            "value": 64344
+          },
+          {
+            "label": "材料价格涨幅下限 %",
+            "value": 100
+          },
+          {
+            "label": "鹏辉能源产能排产季度",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "source": "国家统计局 / 新华社英文 / 新浪财经转载 / Mysteel",
+        "source_type": "国内官方宏观与海外英文产业数据交叉复核",
+        "account_name": "国家统计局 / Xinhua / Sina Finance / Mysteel",
+        "category": "宏观/产量/出口/价格",
+        "title": "统计局4月口径：锂离子电池产量同比+31%，1-4月产量+36%；Mysteel复核4月动储电池出口31.7GWh",
+        "summary": "04:00严格刷新新增：国家统计局5月18日答记者问披露，4月锂离子电池产量同比增长31%，1-4月锂离子电池产品产量同比增长36%，锂离子电池制造业投资增长28.8%；4月锂离子电池制造价格同比上涨4.5%，反映绿色低碳产业与部分行业价格修复。新华社英文稿同步确认1-4月规模以上工业增加值同比+5.6%、高技术制造业+12.6%。海外英文产业数据采用Mysteel：4月中国动力+储能电池产量183.9GWh、同比+55.6%，出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh、同比+45.4%。",
+        "body": [
+          "官方宏观口径：国家统计局答记者问称，4月水轮发电机组、锂离子电池产量分别增长47.4%和31%；1-4月3D打印设备、锂离子电池、工业机器人产品产量分别增长50.9%、36%、25.7%。",
+          "投资与价格口径：1-4月锂离子电池制造业投资增长28.8%；4月锂离子电池制造、光伏设备及元器件制造价格同比分别上涨4.5%和3.8%。",
+          "外贸与服务口径：1-4月电动汽车、风力发电机组等绿色低碳产品出口额增长超过40%，高新技术产品出口额增长27.6%；重点充电平台交易额增长超过30%。",
+          "海外英文复核：新华社英文稿确认1-4月工业增加值、高技术制造业增速；Mysteel转述联盟数据称4月动储电池出口31.7GWh、同比+42.0%、环比-12.3%，储能电池出口11.4GWh、同比+45.4%。",
+          "解读：官方产量/投资/价格与英文行业出口口径共同指向储能与锂电产业链景气仍强，但4月出口环比回落显示退税政策切换后的节奏扰动仍需跟踪。"
+        ],
+        "key_points": [
+          "4月锂离子电池产量同比：+31%。",
+          "1-4月锂离子电池产品产量同比：+36%。",
+          "1-4月锂离子电池制造业投资：+28.8%。",
+          "4月锂离子电池制造价格同比：+4.5%。",
+          "1-4月绿色低碳产品出口额：电动汽车、风力发电机组等增长超过40%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%；储能电池出口11.4GWh，同比+45.4%。"
+        ],
+        "value": "31",
+        "unit": "% 4月锂离子电池产量同比",
+        "delta": "1-4月产量+36%；制造业投资+28.8%；4月动储电池出口31.7GWh、同比+42.0%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-19 04:00 CST",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202605/t20260518_1963741.html",
+        "original_url": "https://www.mysteel.net/news/5123267-flash-china-total-output-of-power-and-other-batteries-rose-35-in-april-2026-",
+        "related_urls": [
+          "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyiewm2883130.shtml",
+          "https://english.news.cn/20260518/83beb465bf944163bfe48a3bace0b6d7/c.html"
+        ],
+        "clean_html": "<p>国家统计局披露4月锂离子电池产量同比+31%、1-4月产量+36%、锂离子电池制造业投资+28.8%；Mysteel复核4月动力+储能电池出口31.7GWh、同比+42.0%，其中储能电池出口11.4GWh。</p>",
+        "caption": "宏观与出口：官方产量/投资/价格数据继续支撑锂电与储能景气，出口同比高增但环比回落",
+        "methodology": "04:00主动搜索国内+海外公开来源并抓取；国家统计局答记者问 HTTP 200 sha256 450423543efeb611ab96a921344c490a83109b00e5eb1dff8258685b7cda5c18；新浪财经转载用于可读性复核 HTTP 200 sha256 556efb4ce2d9469c6e51b81a0b42c4fc10b0a070c7fa655bdbcb63a8a4e58146；新华社英文稿 HTTP 200 sha256 d2fc9dbe750dca3e1d51c79c03e28bca193067aa33c651a9dd73e273ffeecae3；Mysteel英文快讯 HTTP 200 sha256 14bda6d78aaa6ccf21476cb38ff06d15cb89b7d404dc1fd20886252106722199。只采用页面可见的官方表述和英文报道数值，未将搜索摘要中无法在抓取文件留痕的内容单独作为事实来源。",
+        "history": [
+          {
+            "label": "4月锂离子电池产量同比 %",
+            "value": 31.0
+          },
+          {
+            "label": "1-4月锂离子电池产量同比 %",
+            "value": 36.0
+          },
+          {
+            "label": "锂离子电池制造业投资同比 %",
+            "value": 28.8
+          },
+          {
+            "label": "锂离子电池制造价格同比 %",
+            "value": 4.5
+          },
+          {
+            "label": "绿色低碳产品出口额同比 %",
+            "value": 40.0
+          },
+          {
+            "label": "4月动储电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "4月储能电池出口 GWh",
+            "value": 11.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 45.4
+          }
+        ]
+      },
+      {
+        "source": "SMM上海有色 / CnEVPost / ChinaEVHome / 中国汽车动力电池产业创新联盟口径",
+        "source_type": "国内锂资源供需与海外英文电池月度数据交叉复核",
+        "account_name": "上海有色网 / CnEVPost / ChinaEVHome",
+        "category": "供需/出口/装机",
+        "title": "赣锋称2026锂资源维持紧平衡；4月中国动力+储能电池出口31.7GWh、同比+42.0%",
+        "summary": "02:00严格刷新新增：SMM 5月18日报道赣锋锂业投资者关系口径称，2026年全球锂资源供需整体将维持紧平衡，行业锂矿石及锂盐库存天数处于历史低位；SMM同文引用截至5月14日碳酸锂样本周度库存101418实物吨、分环节库存天数24.9天，并给出5月18日电池级碳酸锂18.7~19.6万元/吨、均价19.15万元/吨。海外英文复核采用CnEVPost/ChinaEVHome对中汽创新联盟4月数据的报道：4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力+储能电池出口31.7GWh，同比+42.0%、环比-12.3%。",
+        "body": [
+          "国内供需口径：SMM页面标题为“赣锋锂业：2026全球锂资源供需整体将维持紧平衡格局 对行业后续走势保持乐观”，发布时间为5月18日。",
+          "赣锋锂业在投资者关系活动记录表中称，2026年全球锂资源供需整体将维持紧平衡；下半年供给增量仍有不确定性，但下游需求亦将同步增长。",
+          "库存口径：SMM库存数据显示，截至5月14日，碳酸锂样本周度库存总计101418实物吨，分环节库存天数总计24.9天，接近历史低位。",
+          "行情口径：SMM同文称截至5月18日电池级碳酸锂现货18.7~19.6万元/吨，均价19.15万元/吨；与MarketTrend行情页05-18快照一致。",
+          "海外英文复核：CnEVPost基于中国汽车动力电池产业创新联盟数据称，4月动力电池装车62.4GWh，同比+15.2%、环比+10.4%；动力和储能电池合计出口31.7GWh，同比+42.0%、环比-12.3%。",
+          "ChinaEVHome补充4月动力+储能电池产量183.9GWh、同比+55.6%，销量164.2GWh、同比+39.0%，其中储能电池销售55.2GWh。"
+        ],
+        "key_points": [
+          "2026年全球锂资源供需：赣锋口径为整体紧平衡。",
+          "SMM碳酸锂样本周度库存：101418实物吨；分环节库存天数24.9天。",
+          "5月18日电池级碳酸锂：18.7~19.6万元/吨，均价19.15万元/吨。",
+          "4月中国动力电池装车：62.4GWh，同比+15.2%，环比+10.4%。",
+          "4月动力+储能电池出口：31.7GWh，同比+42.0%，环比-12.3%。",
+          "4月储能电池销售：55.2GWh（ChinaEVHome转述联盟口径）。"
+        ],
+        "value": "31.7",
+        "unit": "GWh 4月动力+储能电池出口",
+        "delta": "出口同比+42.0%、环比-12.3%；装车62.4GWh，同比+15.2%；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-19 02:00 CST",
+        "url": "https://news.smm.cn/news/103907167",
+        "original_url": "https://cnevpost.com/2026/05/11/china-apr-2026-battery-installations/",
+        "related_urls": [
+          "https://chinaevhome.com/2026/05/11/china-ev-battery-installations-hit-62-4-gwh-in-april-catl-holds-46-64/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露赣锋锂业判断2026全球锂资源供需紧平衡，并引用5月14日SMM碳酸锂样本库存101418实物吨、库存天数24.9天；CnEVPost/ChinaEVHome转述中汽创新联盟4月动力+储能电池出口31.7GWh、同比+42.0%。</p>",
+        "caption": "供需与出口：锂资源低库存与储能需求继续支撑价格中枢，4月出口同比仍高增但环比回落",
+        "methodology": "02:00主动搜索国内+海外公开来源并抓取；SMM赣锋/碳酸锂供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；CnEVPost 4月电池装车与出口报道 HTTP 200 sha256 a3fb725835c2a157733ad5140fc904366d66b71c8feb4376bd58e4b232599c80；ChinaEVHome同源英文复核 HTTP 200 sha256 cc8ddbce558376f21503ec4a97e0d64ab1f0a914e2099babb7c111d57b0d12a9；SMM储能行情页 HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3。仅采用页面可见标题、正文和表格字段；把上市公司判断、SMM样本库存、联盟月度装车/出口数据分开标注。",
+        "history": [
+          {
+            "label": "4月动力+储能电池出口 GWh",
+            "value": 31.7
+          },
+          {
+            "label": "出口同比 %",
+            "value": 42.0
+          },
+          {
+            "label": "出口环比 %",
+            "value": -12.3
+          },
+          {
+            "label": "4月动力电池装车 GWh",
+            "value": 62.4
+          },
+          {
+            "label": "装车同比 %",
+            "value": 15.2
+          },
+          {
+            "label": "SMM碳酸锂样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          },
+          {
+            "label": "电池级碳酸锂均价 元/吨",
+            "value": 191500
+          }
+        ]
+      },
+      {
+        "source": "SMM / 北极星储能网 / Energy-Storage.News / 中国海关总署口径",
+        "source_type": "国内电芯产能公示与海外英文出口数据交叉复核",
+        "account_name": "上海有色网 / 北极星储能网 / Energy-Storage.News",
+        "category": "产能/出口",
+        "title": "宁德时代贵安二期拟新增40GWh电芯产能；中国Q1储能电池出口27.3GWh、占动力+储能出口32.4%",
+        "summary": "01:00严格刷新新增：国内公开来源SMM转载北极星储能网披露，贵安新区生态环境局5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环评拟审批公示，项目建成后将形成年产40GWh新能源电池电芯能力。海外行业媒体Energy-Storage.News基于中国海关总署/国新办发布会口径称，2026年一季度中国动力和储能电池出口84.1GWh、同比+36.7%；其中储能电池出口27.3GWh、占32.4%、同比+15.0%，3月储能电池出口13.8GWh、环比+96.9%、同比+52.4%。",
+        "body": [
+          "国内产能口径：SMM页面标题为“新增40GWh新能源电池电芯产能 宁德时代贵州贵安二期扩建项目公示”，来源标注北极星储能网，发布时间2026-05-15 18:19。",
+          "项目口径：贵安新区生态环境局于5月12日发布贵州时代新能源电池绿色智造基地（贵安二期扩建）环境影响报告表拟审批公示，建设主体为宁德时代（贵州）新能源科技有限公司，选址贵州省贵安新区。",
+          "产能口径：项目拟购置阴极/阳极高效制浆机、凹版印刷机、宽幅双面极片涂布机等设备，建成后形成年产40GWh新能源电池电芯能力。",
+          "海外/英文复核口径：Energy-Storage.News报道中国一季度动力和储能电池合计出口84.1GWh、同比+36.7%；储能电池出口27.3GWh、占32.4%、同比+15.0%。",
+          "本条把“环评拟审批/产能规划”和“海关出口统计”分开标注，不把拟建产能当作已投产，也不把出口GWh直接等同于海外并网容量。"
+        ],
+        "key_points": [
+          "宁德时代贵州贵安二期扩建项目拟新增年产40GWh新能源电池电芯能力。",
+          "项目处于环境影响报告表拟审批公示口径，非已投产口径。",
+          "中国Q1动力+储能电池出口84.1GWh，同比+36.7%。",
+          "其中储能电池出口27.3GWh，占32.4%，同比+15.0%。",
+          "3月储能电池出口13.8GWh，环比+96.9%、同比+52.4%。"
+        ],
+        "value": "40",
+        "unit": "GWh 拟新增新能源电池电芯年产能",
+        "delta": "Q1储能电池出口27.3GWh，同比+15.0%；动力+储能电池出口84.1GWh，同比+36.7%",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 01:00 CST",
+        "url": "https://news.smm.cn/news/103904169",
+        "original_url": "https://www.energy-storage.news/chinas-cumulative-ess-battery-exports-hit-27-3gwh-in-q1-2026/",
+        "related_urls": [
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM/北极星储能网披露宁德时代贵州贵安二期扩建拟新增40GWh新能源电池电芯年产能；Energy-Storage.News基于海关总署口径称中国Q1储能电池出口27.3GWh、同比增长15.0%。</p>",
+        "caption": "供给与出口：头部电芯产能继续扩张，储能电池出口维持双位数增长",
+        "methodology": "01:00主动搜索国内+海外公开来源并抓取；宁德时代贵安二期SMM/北极星页面 HTTP 200 sha256 bd6f1cd0c34d135909dd2b9ad7d2be39a9e235354134dc1d21e753c7e905105f；Energy-Storage.News中国储能电池出口报道 HTTP 200 sha256 dd0e7d5100ee8604b1d2d5ae6c6a1343efda673b6b1b385870e9ac2a2411faad；SMM储能行情页 HTTP 200 sha256 c1bd7b1fe6fc5cce64bd736ed2395cdd356731efac102637043614e6cdd80ee9；采用页面可见标题、正文及英文报道中一致可见的40GWh、84.1GWh、36.7%、27.3GWh、32.4%、15.0%、13.8GWh、96.9%、52.4%等字段，明确区分环评拟审批产能、出口统计和并网容量。",
+        "history": [
+          {
+            "label": "贵安二期拟新增年产能 GWh",
+            "value": 40
+          },
+          {
+            "label": "Q1动力+储能电池出口 GWh",
+            "value": 84.1
+          },
+          {
+            "label": "动力+储能出口同比 %",
+            "value": 36.7
+          },
+          {
+            "label": "Q1储能电池出口 GWh",
+            "value": 27.3
+          },
+          {
+            "label": "储能电池出口占比 %",
+            "value": 32.4
+          },
+          {
+            "label": "储能电池出口同比 %",
+            "value": 15.0
+          },
+          {
+            "label": "3月储能电池出口 GWh",
+            "value": 13.8
+          },
+          {
+            "label": "3月储能电池出口环比 %",
+            "value": 96.9
+          }
+        ]
+      },
+      {
+        "source": "SMM / Modo Energy / S&P Global Commodity Insights",
+        "source_type": "国内EPC招标与海外BESS资本市场交叉复核",
+        "account_name": "上海有色网 / Modo Energy / S&P Global",
+        "category": "招标/资本市场",
+        "title": "国内小型配储EPC与美国BESS融资热度并行：华能宁夏22.68MW/45.135MWh招标，Modo称Q1美国BESS交易环比+42%",
+        "summary": "00:00严格刷新新增：国内公开来源SMM披露华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC招标，项目包含9个5.015MWh储能电池及变流预制舱、5个升压箱变，计划工期至2026年7月31日。海外公开来源Modo Energy Q1 2026美国BESS资本市场报告称，其跟踪17起美国BESS公开交易，较2025年Q4的12起增加42%，涉及2.4GW容量和29亿美元已披露债务，ERCOT占交易数约60%。S&P Global用于复核海外锂盐供需与储能需求驱动背景。",
+        "body": [
+          "国内项目口径：SMM标题与正文可见“华能宁夏隆桥光伏电站22.68MW/45.135MWh电源侧储能EPC项目招标”，招标关键词为储能、招投标。",
+          "设备范围：储能区共放置9个5.015MWh储能电池及变流预制舱和5个升压箱变，分区接入隆桥光伏电站35kV母线；计划工期为合同签订日至2026年7月31日。",
+          "海外资本口径：Modo Energy元信息显示Q1 2026跟踪17起美国BESS公开交易，较Q4 2025的12起增长42%，容量2.4GW，已披露债务29亿美元，ERCOT占约60%。",
+          "S&P Global报道用于背景复核：2026年锂盐过剩预计收窄、储能需求仍是锂需求增长驱动之一；本条不把资本市场交易等同于已并网容量。",
+          "MarketTrend同步复核SMM储能专区05-18行情，价格日期按页面显示，不用00:00抓取时间替代价格日期。"
+        ],
+        "key_points": [
+          "华能宁夏隆桥：22.68MW/45.135MWh电源侧储能EPC招标。",
+          "设备：9个5.015MWh储能电池及变流预制舱、5个升压箱变。",
+          "Modo：Q1 2026美国BESS公开交易17起，环比+42%。",
+          "Modo：涉及2.4GW容量、29亿美元已披露债务；ERCOT约占交易数60%。",
+          "00:00已重新爬取NeoLink首页、MarketTrend入口、国内SMM与海外Modo/S&P来源。"
+        ],
+        "value": "2.4",
+        "unit": "GW Q1美国BESS公开交易涉及容量",
+        "delta": "17起交易，较Q4 2025的12起+42%；国内新增22.68MW/45.135MWh EPC招标线索",
+        "direction": "up",
+        "date": "05-19",
+        "as_of": "2026-05-19 00:00 CST",
+        "url": "https://news.smm.cn/news/103885991",
+        "original_url": "https://modoenergy.com/research/en/us-bess-capital-markets-q1-2026",
+        "related_urls": [
+          "https://www.spglobal.com/energy/en/news-research/latest-news/metals/010926-commodities-2026-lithium-carbonate-surplus-to-narrow-energy-storage-to-drive-growth",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM披露华能宁夏隆桥22.68MW/45.135MWh电源侧储能EPC招标；Modo Energy称Q1 2026美国BESS公开交易17起、环比增长42%、涉及2.4GW。</p>",
+        "caption": "项目与资本：国内配储EPC继续释放招标，海外BESS交易活跃度回升",
+        "methodology": "00:00主动搜索国内+海外公开来源并抓取；华能宁夏EPC SMM HTTP 200 sha256 afee51a05a66271f453191fb0c6f6e7f6bb34e0c88d04882386dd2687ee4fc1a；Modo美国BESS资本市场报告 HTTP 200 sha256 16f5ef444d599d923b5524e0356743a4c8a4c06017618f1f9861c1e4d58e4104；S&P锂盐/储能需求背景 HTTP curl:0 sha256 c05cdb36e1aabf7d42ff62c0ea44a5fd6312d3e3811f3292e9cc5978210508cc；SMM储能行情页 HTTP 200 sha256 02ddcf1edaa1d0baa598e3ceca33ee745d29eb5552d889664d1957b97d277a04；采用页面可见标题、搜索摘要及HTML meta中一致可见的22.68MW/45.135MWh、9×5.015MWh、2026-07-31、17起、+42%、2.4GW、29亿美元、ERCOT约60%等字段，明确区分招标、交易/融资与已投运容量。",
+        "history": [
+          {
+            "label": "美国BESS交易容量 GW",
+            "value": 2.4
+          },
+          {
+            "label": "美国BESS交易数",
+            "value": 17
+          },
+          {
+            "label": "交易数环比 %",
+            "value": 42
+          },
+          {
+            "label": "披露债务 亿美元",
+            "value": 29
+          },
+          {
+            "label": "宁夏项目功率 MW",
+            "value": 22.68
+          },
+          {
+            "label": "宁夏项目容量 MWh",
+            "value": 45.135
+          }
+        ]
+      },
+      {
+        "source": "SMM / Yahoo Finance-GlobeNewswire / Energy-Storage.News",
+        "source_type": "国内需求预测与海外项目管线交叉复核",
+        "account_name": "上海有色网 / Bimergen Energy / Energy-Storage.News",
+        "category": "需求预测/海外项目",
+        "title": "全球储能需求与海外项目管线复核：SMM预计2030年全球储能约1900GWh，Bimergen披露2.0GW美国BESS开发管线",
+        "summary": "23:00主动搜索国内+海外公开来源后新增：SMM在新能源论坛口径中预计2026-2030年全球储能需求CAGR约24%、2030年全球储能市场需求约1900GWh，并称储能在锂电需求占比将由2026年约30%升至2030年约39%。海外方面，Yahoo Finance/GlobeNewswire发布的Bimergen Energy公告称其将于5月18日介绍约20亿美元资产增长策略，基础为美国主要电力市场约2.0GW电池储能开发管线；Energy-Storage.News同步作为海外行业站点复核其2026储能报告入口。",
+        "body": [
+          "国内需求口径：SMM页面显示，SMM储能分析师预计2026-2030年全球储能市场需求逐年攀升，CAGR约24%，2030年全球储能市场需求约1900GWh。",
+          "锂电结构口径：SMM预计储能在锂电池需求中的占比从2026年的约30%提升至2030年的约39%，动力电池占比由约63%收窄至约56%。",
+          "海外项目口径：Yahoo Finance/GlobeNewswire所载Bimergen公告称，公司5月18日在LD Micro会议介绍约20亿美元资产增长计划，基础为美国关键电力市场约2.0GW BESS开发管线。",
+          "行业信息入口：Energy-Storage.News 2026储能报告入口已复核，用作海外BESS行业主题索引；本条不把会议公告等同于已投运容量。",
+          "MarketTrend行情仍单独按SMM储能专区05-15可见报价处理，本条仅新增需求/项目管线证据。"
+        ],
+        "key_points": [
+          "SMM预计2026-2030年全球储能需求CAGR约24%。",
+          "SMM预计2030年全球储能市场需求约1900GWh。",
+          "储能占锂电需求比重预计由2026年约30%升至2030年约39%。",
+          "Bimergen披露约2.0GW美国BESS开发管线支撑约20亿美元资产增长策略。",
+          "23:00已重抓NeoLink首页、MarketTrend入口与国内/海外源；未仅刷新时间。"
+        ],
+        "value": "1900",
+        "unit": "GWh 2030全球储能市场需求预测",
+        "delta": "2026-2030 CAGR约24%；储能占锂电需求约30%升至约39%；海外管线约2.0GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 23:00 CST",
+        "url": "https://news.smm.cn/news/103872130",
+        "original_url": "https://finance.yahoo.com/sectors/energy/articles/bimergen-energy-present-may-18th-103000493.html",
+        "related_urls": [
+          "https://www.energy-storage.news/resources/the-energy-storage-report-2026/",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>SMM预计2030年全球储能需求约1900GWh、2026-2030年CAGR约24%；Bimergen公告披露约2.0GW美国BESS开发管线。</p>",
+        "caption": "需求与管线：长期储能需求上修背景下，美国BESS开发管线继续释放项目证据",
+        "methodology": "23:00主动搜索国内+海外公开来源并抓取；SMM长期需求预测 HTTP 200 sha256 a1333c0b8ec0e5ed3082641de5bdf1fe1bfbd8590850e33fccf62e0dea338bbc；Yahoo Finance/GlobeNewswire/Bimergen公告 HTTP 200 sha256 045dc67c28d14178497729c816c19655bda3a267094e6128d3dc2157b2c8ac0d；Energy-Storage.News 2026报告入口 HTTP 200 sha256 97cf555a6fb48b0cf4dab0df114a1a2597f8124aecf447937338f2ef3082a81a；SMM储能行情页 HTTP 200 sha256 1a1e670266473e78c7b898180624ccbd88817524bd94c941cd9a8d2d76256e6e；采用搜索摘要和抓取页面中一致可见的1900GWh、24% CAGR、30%至39%、2.0GW与20亿美元描述，明确区分预测需求、开发管线和已投运容量。",
+        "history": [
+          {
+            "label": "2030全球储能需求预测 GWh",
+            "value": 1900
+          },
+          {
+            "label": "2026-2030储能需求CAGR %",
+            "value": 24
+          },
+          {
+            "label": "2026储能占锂电需求 %",
+            "value": 30
+          },
+          {
+            "label": "2030储能占锂电需求 %",
+            "value": 39
+          },
+          {
+            "label": "Bimergen BESS管线 GW",
+            "value": 2.0
+          },
+          {
+            "label": "Bimergen资产计划 亿美元",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "source": "SMM / InfoLink Consulting / Energy-Storage.News",
+        "source_type": "国内外锂价与BESS成本链条复核",
+        "account_name": "上海有色网 / InfoLink / Energy-Storage.News",
+        "category": "原材料/系统成本",
+        "title": "锂价与BESS成本压力交叉复核：瑞银上调2026中国碳酸锂均价至20万元/吨，海外称BESS短期价格或上行",
+        "summary": "22:00主动搜索国内+海外公开来源后新增：SMM转载/整理的瑞银观点将2026年中国碳酸锂现货均价预测上调18%至20万元/吨，并称储能电池需求增速约60%、全球锂需求约197万吨LCE、风险加权供给约191万吨LCE、缺口约6.5万吨LCE；海外InfoLink与Energy-Storage.News均指向锂盐高位/供应链挑战使BESS成本短期承压，但中国BESS/电芯价格传导仍相对稳定。",
+        "body": [
+          "国内口径：SMM页面显示，瑞银全球大宗商品团队5月7日报告把2026年中国碳酸锂现货均价预测上调18%至20万元/吨（含增值税），并预计5-6月现货价格可能触及25万元/吨。",
+          "需求口径：瑞银预计2026年全球锂需求同比增长16%至197万吨LCE，其中储能电池（ESS）需求增速约60%；上行情景下若ESS需求同比增长80%，全球锂需求或升至204万吨LCE。",
+          "供给口径：瑞银风险加权供给预测约191万吨LCE，形成约6.5万吨LCE缺口；关键扰动包括津巴布韦出口禁令/配额、江西矿山换证和供应链库存偏低。",
+          "海外交叉验证：InfoLink称锂盐在高位区间震荡、矿端偏紧支撑强于锂盐基本面压力，同时中国BESS价格因电芯涨价传导而保持相对稳定；Energy-Storage.News则称锂价大幅上行、出口退税变化和供应链挑战使BESS短期价格或上行。",
+          "本条不把机构预测当作即时报价；MarketTrend价格表仍按SMM储能专区05-15可见行情保留。"
+        ],
+        "key_points": [
+          "瑞银上调2026年中国碳酸锂现货均价预测18%至20万元/吨。",
+          "2026全球锂需求预测约197万吨LCE，同比+16%；ESS需求增速约60%。",
+          "风险加权供给约191万吨LCE，对应约6.5万吨LCE缺口。",
+          "上行情景：ESS需求+80%、全球锂需求约204万吨LCE、缺口约12.3万吨LCE。",
+          "海外口径提示BESS短期成本承压，但中国BESS价格传导仍被描述为相对稳定。"
+        ],
+        "value": "200000",
+        "unit": "元/吨 2026中国碳酸锂现货均价预测",
+        "delta": "瑞银较前预测上调18%；基准缺口约6.5万吨LCE；ESS需求增速约60%",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18 22:00 CST",
+        "url": "https://news.smm.cn/news/103892629",
+        "original_url": "https://www.energy-storage.news/bess-prices-set-to-increase-in-short-term-but-technology-will-continue-to-move-goal-posts-long-term/",
+        "related_urls": [
+          "https://www.infolink-group.com/energy-article/ess-spot-price-20260420",
+          "https://energy-storage.smm.cn/"
+        ],
+        "clean_html": "<p>瑞银将2026年中国碳酸锂现货均价预测上调至20万元/吨，储能电池需求增速约60%；海外来源同步提示BESS短期成本承压。</p>",
+        "caption": "成本链条：锂价预测上修与BESS短期价格压力形成同向信号",
+        "methodology": "22:00主动搜索国内+海外公开来源并抓取；SMM瑞银观点 HTTP 200 sha256 6b58615107e18b4a696c5a94e90d8a94a82970fe1c993d55bcf623191922abe4；InfoLink HTTP 200 sha256 03ddd092fcc8ea183876c6ee6ecce46fa8b7619d442503a411970735b90b40bb；Energy-Storage.News HTTP 200 sha256 e5996e56427c136e4d0295cdac9b94573138ebcc8650dfabf0dfe1c856bbb800；SMM储能专区 HTTP 200 sha256 679efd6a1ee2cc9eeee87b2435d3a2aec8bdaf8323453466e43e25983491b62d；采用页面/搜索摘要中一致可见的20万元/吨、+18%、197万吨LCE、191万吨LCE、6.5万吨LCE、ESS +60%与BESS价格压力描述，明确标注为机构预测和成本趋势，不作为即时成交价。",
+        "history": [
+          {
+            "label": "2026中国碳酸锂均价预测 元/吨",
+            "value": 200000
+          },
+          {
+            "label": "预测上调幅度 %",
+            "value": 18
+          },
+          {
+            "label": "全球锂需求 万吨LCE",
+            "value": 197
+          },
+          {
+            "label": "风险加权供给 万吨LCE",
+            "value": 191
+          },
+          {
+            "label": "基准缺口 万吨LCE",
+            "value": 6.5
+          },
+          {
+            "label": "ESS需求增速 %",
+            "value": 60
+          }
+        ]
+      },
+      {
+        "source": "SMM快讯 / pv magazine / TaiyangNews",
+        "source_type": "海外储能容量拍卖",
+        "account_name": "SMM有色快讯",
+        "category": "海外市场",
+        "title": "日本LTDA最新拍卖授予19个电池储能项目合计1.25GW，非锂路线699MW高于锂电551MW",
+        "summary": "21:00国内+海外公开来源交叉确认：日本FY2025长期脱碳电源拍卖（LTDA）共授予32个项目约7.3GW容量，其中电池储能19个项目合计约1.25GW；锂电储能551MW、非锂电储能约699MW，电池储能约占脱碳电源中标容量近30%。",
+        "body": [
+          "该条采用SMM有色快讯、SMM英文Metal.com以及pv magazine/TaiyangNews公开报道交叉核验，属于日本容量市场/长期脱碳电源拍卖口径。",
+          "报道显示，日本最新LTDA合计授予约7.3GW容量；其中脱碳电源项目约4.26GW，LNG火电约3.04GW。",
+          "电池储能中标容量约1.25GW，覆盖19个项目；锂离子电池储能551MW，非锂电储能约699MW/700MW，显示日本长时与非锂储能路线继续获得容量市场支持。",
+          "与FY2024约1.37GW电池储能中标相比，本轮1.25GW小幅下降，但在更严格时长规则下仍保持较高规模。"
+        ],
+        "key_points": [
+          "日本FY2025 LTDA：32个项目合计约7.3GW。",
+          "电池储能：19个项目合计约1.25GW。",
+          "锂电储能：551MW；非锂电储能：约699MW/700MW。",
+          "电池储能约占脱碳电源中标容量近30%。",
+          "较FY2024电池储能1.37GW中标容量小幅下降，但规则收紧后仍较强。"
+        ],
+        "value": "1.25",
+        "unit": "GW 日本LTDA电池储能中标容量",
+        "delta": "FY2024约1.37GW→FY2025约1.25GW；非锂约699MW高于锂电551MW",
+        "direction": "neutral",
+        "date": "05-18",
+        "as_of": "2026-05-18 21:00 CST",
+        "url": "https://news.smm.cn/live/detail/103906946",
+        "original_url": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+        "related_urls": [
+          "https://news.metal.com/en/newscontent/103906947-Storage-Japan-awards-125GW-of-battery-storage-in-latest-LTDA-auction",
+          "https://taiyangnews.info/storage/japan-awards-125-gw-battery-storage-3rd-ltda"
+        ],
+        "clean_html": "<p>日本最新LTDA中，电池储能19个项目合计约1.25GW中标；锂电551MW、非锂约699MW，电池储能约占脱碳电源中标容量近30%。</p>",
+        "caption": "海外容量市场：日本储能中标结构显示非锂长时路线获得支持",
+        "methodology": "21:00主动搜索国内+海外公开来源并抓取；SMM快讯 HTTP 200 sha256 b96d6bc2cdba5056ca1c181046aca6a6a430fb7575ecddbf599a4e8491237c25；Metal.com HTTP 200 sha256 e872038faccbc66e72c79fc8b84c923679ee4382c05ab8581b03e17e4358f118；pv magazine HTTP 200 sha256 142aa776e8239c518f8cdc489763a0127080cc280159a5b6a3789ab558fcbdc4；TaiyangNews HTTP 200 sha256 25457f863515064560d06e95fadf5efb624a38a0337fa64688d859e82b7df712；采用多源一致的19个项目、1.25GW、551MW、699/700MW、7.3GW与近30%指标，标注为拍卖结果口径。",
+        "history": [
+          {
+            "label": "FY2025电池储能 GW",
+            "value": 1.25
+          },
+          {
+            "label": "FY2024电池储能 GW",
+            "value": 1.37
+          },
+          {
+            "label": "锂电 MW",
+            "value": 551
+          },
+          {
+            "label": "非锂 MW",
+            "value": 699
+          },
+          {
+            "label": "中标项目数",
+            "value": 19
+          },
+          {
+            "label": "总拍卖容量 GW",
+            "value": 7.3
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets",
+        "source_type": "海外电池原材料月度更新",
+        "account_name": "Fastmarkets",
+        "category": "原材料/回收",
+        "title": "Fastmarkets月度BRM更新：锂价与废料量上升推动欧美LFP电池回收扩张",
+        "summary": "20:00海外公开来源新增Fastmarkets月度电池原材料更新：较高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，扭转此前多年弱需求和监管障碍；对储能链条的含义是，锂价高位和报废/边角料供给同步提升，回收端可能更快进入经济性区间。",
+        "body": [
+          "该条为Fastmarkets电池原材料月度更新中关于LFP回收的公开摘要，不等同于单一金属即时报价。",
+          "Fastmarkets称，更高锂价与增长的废料量正在推动欧洲和美国LFP电池回收快速扩张，改变此前LFP回收需求偏弱的状态。",
+          "对储能市场而言，LFP为主流储能化学体系之一；回收经济性改善可能在中期影响碳酸锂、正极材料与电芯成本预期。"
+        ],
+        "key_points": [
+          "驱动因素：更高锂价与增长的废料量。",
+          "区域：欧洲与美国LFP电池回收。",
+          "方向：Fastmarkets称正在快速扩张，并扭转多年弱需求与监管障碍。",
+          "市场含义：若回收供给放量，可能缓冲部分原料成本波动，但短期仍取决于锂价与废料可得性。"
+        ],
+        "value": "LFP回收",
+        "unit": "欧美扩张信号",
+        "delta": "锂价上行+废料量增长推动回收经济性",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/metals-and-mining/battery-raw-materials/brm-monthly-market-update-2026/",
+        "clean_html": "<p>Fastmarkets月度电池原材料更新称，较高锂价与增长的废料量正在推动欧美LFP电池回收快速扩张，扭转多年弱需求与监管障碍。</p>",
+        "caption": "原料链：LFP回收经济性受锂价与废料供给共同驱动",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 1372075bb0cf808cfca4cbf1d73017a57813d74bfcedecd35ee16df73ea1fc4d；采用页面可见的Fastmarkets月度BRM公开摘要，未外推为即时报价。",
+        "history": [
+          {
+            "label": "驱动因子：锂价",
+            "value": 1
+          },
+          {
+            "label": "驱动因子：废料量",
+            "value": 1
+          },
+          {
+            "label": "区域：欧洲",
+            "value": 1
+          },
+          {
+            "label": "区域：美国",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "source": "Energy-Storage.News / BloombergNEF",
+        "source_type": "海外储能部署预测",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "BNEF：2026年全球非抽蓄储能新增部署预计158GW，同比2025年112GW增长41%",
+        "summary": "20:00海外公开来源新增BNEF预测口径：2025年全球非抽水蓄能储能新增装机112GW后，BNEF预计2026年将增长41%至158GW；未来十年年新增规模预计接近翻倍，到2036年达到308GW，累计容量约2.9TW/10.5TWh。",
+        "body": [
+          "该条采用Energy-Storage.News对BloombergNEF储能展望的公开报道，属于全球非抽水蓄能储能（non-pumped hydro）部署预测口径。",
+          "BNEF预计2026年全球新增部署158GW，较2025年112GW增长41%；虽然较2024到2025年的高增速放缓，但绝对规模继续上行。",
+          "长期维度，BNEF预计未来十年年新增部署接近翻倍，2036年达到308GW；到2036年底全球累计容量约2.9TW/10.5TWh。"
+        ],
+        "key_points": [
+          "2025年全球非抽蓄储能新增：112GW。",
+          "2026年新增预测：158GW，同比约+41%。",
+          "2036年年新增预测：308GW。",
+          "2036年底累计容量预测：约2.9TW/10.5TWh。",
+          "报道提及钠离子等技术开始规模化出现，但长期预测仍受供应链、油价与地缘冲击影响。"
+        ],
+        "value": "158",
+        "unit": "GW 2026年全球非抽蓄储能新增预测",
+        "delta": "2025年112GW→2026年158GW，约+41%；2036年年新增308GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>BNEF预计2026年全球非抽水蓄能储能新增部署158GW，较2025年112GW增长41%；2036年年新增或达308GW，累计约2.9TW/10.5TWh。</p>",
+        "caption": "海外预测：BNEF将2026年储能新增量看至158GW",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 63d81bcefd444ff8167de67a0357c7b1bc85c10d725495b4cea52648cfb7f8e3；采用页面可见的112GW、158GW、41%、308GW、2.9TW/10.5TWh指标，标注为BNEF预测/媒体报道口径。",
+        "history": [
+          {
+            "label": "2025新增 GW",
+            "value": 112
+          },
+          {
+            "label": "2026新增 GW",
+            "value": 158
+          },
+          {
+            "label": "2026同比 %",
+            "value": 41
+          },
+          {
+            "label": "2036年新增 GW",
+            "value": 308
+          },
+          {
+            "label": "2036累计 TW",
+            "value": 2.9
+          },
+          {
+            "label": "2036累计 TWh",
+            "value": 10.5
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets / Green Building Africa",
+        "source_type": "海外价格与成本分析",
+        "account_name": "Fastmarkets",
+        "category": "海外市场",
+        "title": "Fastmarkets：锂价波动推高BESS成本不确定性，全球ESS装机至2030年近800GWh",
+        "summary": "19:00海外公开来源新增Fastmarkets与转引分析：Fastmarkets认为全球ESS安装量未来十年每年约增长25%，到2030年接近800GWh、2035年超过1600GWh；Green Building Africa转引称锂价上涨对主要市场BESS总资本开支影响低于5%，中国电池生产成本优势仍超过40%，钠离子电池具备最高约40%的节省潜力。",
+        "body": [
+          "该条为海外成本/价格研究口径，重点跟踪锂价上行、关税、系统集成与替代技术对BESS资本开支的影响。",
+          "Fastmarkets文章指出LFP仍是BESS主流化学体系，2025年314Ah LFP电芯是公用事业级ESS部署的主要选择，587Ah等高容量电芯可能在2026年三季度成为主流选项。",
+          "Green Building Africa转引分析称，锂价上涨对主要市场BESS总capex的影响低于5%；中国相对美国电池生产保有超过40%成本优势，钠离子路线最高可带来约40%节省潜力。"
+        ],
+        "key_points": [
+          "Fastmarkets：全球ESS安装量未来十年每年约增长25%。",
+          "规模预测：2030年接近800GWh，2035年超过1600GWh。",
+          "技术路线：LFP仍为BESS主流，587Ah高容量电芯或在2026年三季度成为主流选项。",
+          "成本敏感性：锂价上涨对主要市场BESS总capex影响低于5%。",
+          "区域成本：Green Building Africa称中国电池生产相对美国保有超过40%成本优势。"
+        ],
+        "value": "800",
+        "unit": "GWh 2030年全球ESS安装量预测",
+        "delta": "未来十年约+25%/年；2035年>1600GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "original_url": "https://www.greenbuildingafrica.co.za/bess-costs-show-resilience-despite-lithium-price-volatility-in-2026/",
+        "clean_html": "<p>Fastmarkets预计全球ESS安装量未来十年每年约增长25%，2030年近800GWh、2035年超过1600GWh；转引分析称锂价上涨对主要市场BESS总capex影响低于5%。</p>",
+        "caption": "海外成本：BESS仍受益于电芯迭代和中国制造成本优势",
+        "methodology": "19:00海外公开来源搜索并抓取；Fastmarkets HTTP 200 sha256 69eefdcda009f0cc75c70593a828979c5cbfe3ef700274583cf5478da0e7c2ab；Green Building Africa HTTP 200 sha256 9e023ecb05a5e47ea526fe6d8b069433003ed6d4857dd5dd3caed678f34709c9；采用页面可见ESS安装量、成本敏感性和技术路线描述，标注为海外研究/转引口径。",
+        "history": [
+          {
+            "label": "2030全球ESS GWh",
+            "value": 800
+          },
+          {
+            "label": "2035全球ESS GWh",
+            "value": 1600
+          },
+          {
+            "label": "年增速 %",
+            "value": 25
+          },
+          {
+            "label": "锂价影响capex %",
+            "value": 5
+          },
+          {
+            "label": "中国成本优势 %",
+            "value": 40
+          },
+          {
+            "label": "钠离子节省潜力 %",
+            "value": 40
+          }
+        ]
+      },
       {
         "source": "Modo Energy",
         "source_type": "海外BESS资本市场报告",
@@ -42803,58 +45879,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "Energy-Storage.news / BloombergNEF Energy Storage Outlook H1 2026",
-        "source_type": "海外行业媒体/研究机构预测",
-        "account_name": "Energy-Storage.news / BNEF",
-        "category": "海外市场",
-        "title": "BNEF上调全球储能装机展望：2026年新增158GW/459GWh，2036年年新增或达308GW",
-        "summary": "Energy-Storage.news 5月15日报道，BloombergNEF在H1 2026储能展望中统计2025年全球非抽水蓄能储能新增112GW/307GWh，并预计2026年新增158GW/459GWh、同比按功率约增长41%；BNEF还预计2036年年度新增达到308GW，届时累计装机达到2.9TW/10.5TWh。报道同时提及，宁德时代与海博思创此前宣布60GWh钠离子电池多年协议，作为替代化学体系规模化的案例。",
-        "body": [
-          "本轮补入海外权威研究口径，用于校准MarketTrend的全球需求斜率：2026年新增459GWh意味着大储供应链仍处高景气区间。",
-          "BNEF的2025年实际新增112GW/307GWh高于此前预测，说明全球储能部署速度继续超预期。",
-          "2036年累计2.9TW/10.5TWh的长期预测，对电芯、PCS、热管理、消防和系统集成环节形成长期需求锚。"
-        ],
-        "key_points": [
-          "2025年全球非抽水蓄能储能新增：112GW/307GWh。",
-          "2026年预测新增：158GW/459GWh，按功率同比约+41%。",
-          "2036年预测年度新增：308GW。",
-          "2036年预测累计装机：2.9TW/10.5TWh。",
-          "报道提及宁德时代与海博思创60GWh钠离子电池多年协议。"
-        ],
-        "value": "158",
-        "unit": "GW 2026年全球储能新增预测",
-        "delta": "459GWh；较2025年112GW约+41%；2036累计2.9TW/10.5TWh",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
-        "clean_html": "<p>BloombergNEF预计2026年全球非抽水蓄能储能新增158GW/459GWh；2025年新增112GW/307GWh，2036年累计装机或达2.9TW/10.5TWh。</p>",
-        "caption": "BNEF把2026年全球储能新增预测上调至459GWh",
-        "methodology": "03:00抓取Energy-Storage.news原文HTML（gzip解码快照sha256 3e2848cc8b4e0634d0730abca929b389884929d5992e0688a788a70c5be74d8a），抽取BNEF H1 2026 Outlook的2025实际新增、2026预测、2036年度新增与累计装机口径。",
-        "history": [
-          {
-            "label": "2025新增 GW",
-            "value": 112
-          },
-          {
-            "label": "2025新增 GWh",
-            "value": 307
-          },
-          {
-            "label": "2026预测新增 GW",
-            "value": 158
-          },
-          {
-            "label": "2026预测新增 GWh",
-            "value": 459
-          },
-          {
-            "label": "2036累计 TWh",
-            "value": 10.5
-          }
-        ]
-      },
-      {
         "source": "国家能源局",
         "source_type": "国内官方政策/工程质量监督规范",
         "account_name": "国家能源局",
@@ -43417,53 +46441,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM",
-        "source_type": "国内专业数据源/会议公开口径",
-        "account_name": "SMM",
-        "category": "市场",
-        "title": "SMM：2030年全球储能市场需求预计约1900GWh",
-        "summary": "SMM在新能源产业博览会公开分享中预计，2026-2030年全球储能市场需求将以约24%的复合年均增长率逐年攀升，2030年全球储能市场需求约1900GWh；储能在锂电池需求中的占比将从2026年的30%提升至2030年的约39%。",
-        "body": [
-          "SMM认为，中国、美国和欧洲仍是全球储能市场主要增长区域，中东、澳大利亚和东南亚等新兴地区大储需求释放。",
-          "SMM预计2024-2030年全球锂离子储能电芯产量CAGR约34%。",
-          "该预测强化储能作为锂离子电池重要增长极的中长期判断。"
-        ],
-        "key_points": [
-          "2026-2030年全球储能需求CAGR约24%。",
-          "2030年全球储能市场需求约1900GWh。",
-          "储能在锂电需求占比从2026年30%升至2030年约39%。",
-          "全球锂离子储能电芯产量2024-2030年CAGR约34%。"
-        ],
-        "value": "1900",
-        "unit": "GWh 2030E全球储能需求",
-        "delta": "2026-2030 CAGR约24%",
-        "direction": "up",
-        "date": "05-17",
-        "as_of": "2026-05-17",
-        "url": "https://news.smm.cn/news/103872130",
-        "clean_html": "<p>SMM预计2030年全球储能市场需求约1900GWh，2026-2030年储能需求CAGR约24%，储能在锂电需求占比将升至约39%。</p>",
-        "caption": "储能继续成为锂电池需求最重要增量之一",
-        "methodology": "18:00小时抓取SMM公开页面；采用会议公开分享中的CAGR、2030需求和需求占比口径。",
-        "history": [
-          {
-            "label": "2030E GWh",
-            "value": 1900
-          },
-          {
-            "label": "2026-2030 CAGR %",
-            "value": 24
-          },
-          {
-            "label": "2030储能占比 %",
-            "value": 39
-          },
-          {
-            "label": "2026储能占比 %",
-            "value": 30
-          }
-        ]
-      },
-      {
         "source": "Energy-Storage.News",
         "source_type": "海外储能行业媒体/价格趋势",
         "account_name": "Energy-Storage.News",
@@ -43829,15 +46806,6 @@ window.NEOLINK_FEED= {
         "as_of": "2026-05-17",
         "url": "https://www.pv-magazine.com/2026/05/07/longer-duration-bess-finds-footing-in-germanys-toll-market/",
         "methodology": "11:00新增证据"
-      },
-      {
-        "label": "成本风险",
-        "score": 34,
-        "summary": "Fastmarkets与国内废标信号共同显示锂价波动推升BESS成本与履约风险。",
-        "source": "Fastmarkets / DoNews",
-        "as_of": "2026-05-17",
-        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
-        "methodology": "10:00新增证据"
       },
       {
         "label": "海外供应链",
@@ -44516,6 +47484,132 @@ window.NEOLINK_FEED= {
     ],
     "prices": [
       {
+        "source": "SMM碳酸锂行情 / SMM储能专区",
+        "source_type": "国内主材行情复核",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM 04:00复核：碳酸锂价格日期仍为05-18，电池级碳酸锂价格指数190865元/吨、较前值-894",
+        "summary": "04:00重新抓取SMM碳酸锂行情页与储能专区。SMM h5行情页显示价格日期仍为2026-05-18：电池级碳酸锂价格指数190865元/吨、较前值-894元/吨；工业级碳酸锂价格183000~192000元/吨、均价187500元/吨；电池级碳酸锂CIF价格20.6~24美元/千克、均价22.3美元/千克、较前值-0.2（日期05-15）。MarketTrend不把04:00抓取时间伪装成价格发布时间。",
+        "body": [
+          "电池级碳酸锂价格指数：190865元/吨，涨跌-894元/吨，价格日期2026-05-18。",
+          "工业级碳酸锂价格：183000~192000元/吨，均价187500元/吨，涨跌0，价格日期2026-05-18。",
+          "电池级碳酸锂CIF价格：20.6~24美元/千克，均价22.3美元/千克，涨跌-0.2，价格日期2026-05-15。",
+          "储能专区页面继续作为储能电芯/预制舱行情入口复核；若无晚于05-18的公开价格日，不刷新为05-19价格。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为04:00复核抓取。",
+          "电池级碳酸锂价格指数：190865元/吨，变动-894元/吨。",
+          "工业级碳酸锂均价：187500元/吨，变动0。",
+          "电池级碳酸锂CIF均价：22.3美元/千克，变动-0.2，日期05-15。"
+        ],
+        "value": "190865",
+        "unit": "元/吨 电池级碳酸锂价格指数",
+        "delta": "价格指数-894元/吨；工业级均价187500元/吨；CIF均价22.3美元/千克",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://hq.smm.cn/h5/Li2CO3",
+        "original_url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM碳酸锂05-18行情：电池级碳酸锂价格指数190865元/吨（-894）；工业级碳酸锂均价187500元/吨；电池级碳酸锂CIF均价22.3美元/千克（05-15）。</p>",
+        "caption": "行情复核：SMM碳酸锂价格日期仍为05-18，价格指数较前值继续下修",
+        "methodology": "04:00重新抓取SMM碳酸锂h5行情页 HTTP 200 sha256 4f6f0841e0fa611e2a14cfbfc72458d28c9bcd6bf3e420b860f1807f96cfa23c 与SMM储能专区 HTTP 200 sha256 52a60480d6a8a7ce29293623f201439bad0fd302a186895431aab48471b08b3d；仅采用页面表格可见价格、日期和涨跌字段，不更新为04:00价格。",
+        "history": [
+          {
+            "label": "电池级碳酸锂价格指数 元/吨",
+            "value": 190865
+          },
+          {
+            "label": "指数变动 元/吨",
+            "value": -894
+          },
+          {
+            "label": "工业级碳酸锂均价 元/吨",
+            "value": 187500
+          },
+          {
+            "label": "工业级变动 元/吨",
+            "value": 0
+          },
+          {
+            "label": "电池级碳酸锂CIF 美元/千克",
+            "value": 22.3
+          },
+          {
+            "label": "CIF变动 美元/千克",
+            "value": -0.2
+          }
+        ]
+      },
+      {
+        "source": "SMM储能专区 / SMM赣锋锂业供需报道",
+        "source_type": "国内储能材料行情与库存快照",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM储能专区02:00复核：价格日期仍为05-18，电池级碳酸锂均价19.15万元/吨、SMM库存天数24.9天",
+        "summary": "02:00重新抓取SMM储能专区与SMM 5月18日赣锋锂业供需报道。行情表仍显示05-18口径：电池级碳酸锂187000~196000元/吨、均价191500元/吨、跌500元/吨；方形磷酸铁锂储能型280Ah电池仍显示05-15周价0.312~0.356元/Wh、均价0.334元/Wh、涨0.0015元/Wh。SMM报道补充截至5月14日碳酸锂样本周度库存101418实物吨、库存天数24.9天。",
+        "body": [
+          "本条为MarketTrend行情复核，不把02:00抓取时间伪装成价格发布时间；电池级碳酸锂价格日期按SMM页面显示为05-18。",
+          "电池级碳酸锂Li₂CO₃≥99.5%：187000~196000元/吨，均价191500元/吨，较前值-500元/吨。",
+          "方形磷酸铁锂电池（周，储能型280Ah）：0.312~0.356元/Wh，均价0.334元/Wh，较前值+0.0015元/Wh，价格日期仍为05-15周价。",
+          "中国直流侧储能电池预制舱（5MWh）：0.413~0.492元/Wh，均价0.4525元/Wh，较前值+0.0025元/Wh。",
+          "SMM 5月18日供需报道补充：截至5月14日，SMM碳酸锂样本周度库存总计101418实物吨，分环节库存天数24.9天。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为02:00复核抓取。",
+          "电池级碳酸锂均价：191500元/吨，日变动-500元/吨。",
+          "储能型280Ah方形LFP电芯均价：0.334元/Wh，周度变动+0.0015元/Wh。",
+          "5MWh直流侧预制舱均价：0.4525元/Wh，变动+0.0025元/Wh。",
+          "SMM碳酸锂样本库存：101418实物吨，库存天数24.9天。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "碳酸锂-500元/吨；储能280Ah电芯+0.0015元/Wh；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T02:00:00+08:00",
+        "url": "https://energy-storage.smm.cn/",
+        "original_url": "https://news.smm.cn/news/103907167",
+        "clean_html": "<p>SMM储能专区05-18行情：电池级碳酸锂均价191500元/吨（-500）；储能型280Ah电芯05-15周价均价0.334元/Wh（+0.0015）；SMM样本库存101418实物吨、24.9天。</p>",
+        "caption": "行情复核：碳酸锂价格日期仍为05-18，新增SMM库存天数低位口径",
+        "methodology": "02:00重新抓取SMM储能专区；HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3；并抓取SMM赣锋锂业供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；仅采用页面表格/正文可见价格、日期和库存字段，不更新为02:00价格。",
+        "history": [
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "碳酸锂变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "280Ah变动 元/Wh",
+            "value": 0.0015
+          },
+          {
+            "label": "5MWh预制舱 元/Wh",
+            "value": 0.4525
+          },
+          {
+            "label": "5MWh变动 元/Wh",
+            "value": 0.0025
+          },
+          {
+            "label": "SMM样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          }
+        ]
+      },
+      {
         "source": "SMM上海有色",
         "source_type": "专业价格页/行业分析",
         "account_name": "SMM上海有色",
@@ -44852,114 +47946,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM 储能专区",
-        "source_type": "国内公开行情/储能电池与系统报价",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM储能报价：5月15日电池级碳酸锂19.2万元/吨，280Ah储能电芯0.334元/Wh",
-        "summary": "SMM储能专区公开报价显示，2026-05-15电池级碳酸锂188000-196000元/吨、均价192000元/吨、日跌3000元/吨；储能型280Ah方形磷酸铁锂电池0.312-0.356元/Wh、均价0.334元/Wh、周涨0.0015元/Wh；314Ah储能型电芯均价0.3565元/Wh；5MWh直流侧储能电池预制舱均价0.4525元/Wh，集中式PCS 1725kW均价0.065元/W。",
-        "body": [
-          "本轮重新抓取SMM储能专区并解压HTML，补入5月15日可核验公开行情，替换上一轮5月14日碳酸锂快照。",
-          "原料端电池级碳酸锂均价降至192000元/吨，但储能电芯周度均价小幅上行，显示电芯报价仍受交付、规格和需求结构影响。",
-          "系统侧5MWh直流侧预制舱均价0.4525元/Wh、1725kW集中式PCS均价0.065元/W，可作为MarketTrend当日系统报价锚点。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：188000-196000元/吨，均价192000元/吨，日跌3000元/吨，日期05-15。",
-          "280Ah储能型方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，周涨0.0015元/Wh。",
-          "314Ah储能型方形LFP电芯：0.332-0.381元/Wh，均价0.3565元/Wh。",
-          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh。",
-          "集中式PCS 1725kW：0.062-0.068元/W，均价0.065元/W。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；280Ah储能电芯均价0.334元/Wh",
-        "direction": "mixed",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能专区显示，2026-05-15电池级碳酸锂均价192000元/吨，280Ah储能型方形磷酸铁锂电芯均价0.334元/Wh，5MWh直流侧储能电池预制舱均价0.4525元/Wh。</p>",
-        "caption": "SMM 5月15日：碳酸锂下行，储能电芯与5MWh预制舱报价上行",
-        "methodology": "08:00主动国内检索并抓取SMM储能专区HTML（gzip原始sha256 b2560b0e6c043bb64de632607c1fa33e307be505a14f56ad858622b4876b7ba4）；解压后抽取报价表，保留报价日期而非抓取时间。",
-        "history": [
-          {
-            "label": "碳酸锂均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "碳酸锂日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "280Ah电芯均价 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "314Ah电芯均价 元/Wh",
-            "value": 0.3565
-          },
-          {
-            "label": "5MWh预制舱均价 元/Wh",
-            "value": 0.4525
-          },
-          {
-            "label": "1725kW PCS均价 元/W",
-            "value": 0.065
-          }
-        ]
-      },
-      {
-        "source": "上海有色网 SMM",
-        "source_type": "国内公开行情/碳酸锂现货",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM：电池级碳酸锂5月15日均价19.2万元/吨，日跌3000元/吨",
-        "summary": "SMM公开碳酸锂行情页显示，电池级碳酸锂价格区间为188000-196000元/吨，均价192000元/吨，较上一报价日下跌3000元/吨，日期为2026-05-15；电池级碳酸锂CIF均价22.3美元/千克，跌0.2美元/千克。08:00复核时未发现比5月15日更新的公开报价，因此MarketTrend按“最新可核验公开价”更新，不以复核时间冒充价格日期。",
-        "body": [
-          "本轮更正并补入SMM公开行情：电池级碳酸锂均价192000元/吨，报价日期为2026-05-15。",
-          "该价格较上一报价日下跌3000元/吨，说明高位波动后继续回落；但公开页未给出比5月15日更晚的可见报价，站内不把复核时间冒充为价格日期。",
-          "碳酸锂是储能电芯和LFP正极的重要成本锚，需与项目招中标价格、电芯报价同时观察。"
-        ],
-        "key_points": [
-          "电池级碳酸锂价格区间：188000-196000元/吨。",
-          "电池级碳酸锂均价：192000元/吨。",
-          "日涨跌：-3000元/吨。",
-          "报价日期：2026-05-15。",
-          "电池级碳酸锂CIF均价：22.3美元/千克，日跌0.2美元/千克。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；公开报价日2026-05-15",
-        "direction": "down",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://hq.smm.cn/h5/Li2CO3",
-        "clean_html": "<p>SMM公开行情页显示，2026-05-15电池级碳酸锂价格188000-196000元/吨，均价192000元/吨，日跌3000元/吨；电池级碳酸锂CIF均价22.3美元/千克，日跌0.2美元/千克。</p>",
-        "caption": "SMM电池级碳酸锂：19.2万元/吨，日跌3000元/吨",
-        "methodology": "08:00通过web.run直接打开SMM公开行情页并逐项核验（报价日期、区间、均价、涨跌与CIF字段）；受执行环境DNS限制，本轮无法抓取并保存原始HTML快照/sha256，但引用的数据均来自页面可见字段且与之前口径一致。",
-        "history": [
-          {
-            "label": "价格下限 元/吨",
-            "value": 188000
-          },
-          {
-            "label": "均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "价格上限 元/吨",
-            "value": 196000
-          },
-          {
-            "label": "日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "CIF均价 美元/千克",
-            "value": 22.3
-          }
-        ]
-      },
-      {
         "source": "国际能源网 / 储能周分析",
         "source_type": "国内招中标价格跟踪/项目周分析",
         "account_name": "国际能源网",
@@ -45065,6 +48051,119 @@ window.NEOLINK_FEED= {
       }
     ],
     "global": [
+      {
+        "source": "Energy-Storage.News / BloombergNEF",
+        "source_type": "海外储能部署预测",
+        "account_name": "Energy-Storage.News",
+        "category": "海外市场",
+        "title": "BNEF：2026年全球非抽蓄储能新增部署预计158GW，同比2025年112GW增长41%",
+        "summary": "20:00海外公开来源新增BNEF预测口径：2025年全球非抽水蓄能储能新增装机112GW后，BNEF预计2026年将增长41%至158GW；未来十年年新增规模预计接近翻倍，到2036年达到308GW，累计容量约2.9TW/10.5TWh。",
+        "body": [
+          "该条采用Energy-Storage.News对BloombergNEF储能展望的公开报道，属于全球非抽水蓄能储能（non-pumped hydro）部署预测口径。",
+          "BNEF预计2026年全球新增部署158GW，较2025年112GW增长41%；虽然较2024到2025年的高增速放缓，但绝对规模继续上行。",
+          "长期维度，BNEF预计未来十年年新增部署接近翻倍，2036年达到308GW；到2036年底全球累计容量约2.9TW/10.5TWh。"
+        ],
+        "key_points": [
+          "2025年全球非抽蓄储能新增：112GW。",
+          "2026年新增预测：158GW，同比约+41%。",
+          "2036年年新增预测：308GW。",
+          "2036年底累计容量预测：约2.9TW/10.5TWh。",
+          "报道提及钠离子等技术开始规模化出现，但长期预测仍受供应链、油价与地缘冲击影响。"
+        ],
+        "value": "158",
+        "unit": "GW 2026年全球非抽蓄储能新增预测",
+        "delta": "2025年112GW→2026年158GW，约+41%；2036年年新增308GW",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
+        "clean_html": "<p>BNEF预计2026年全球非抽水蓄能储能新增部署158GW，较2025年112GW增长41%；2036年年新增或达308GW，累计约2.9TW/10.5TWh。</p>",
+        "caption": "海外预测：BNEF将2026年储能新增量看至158GW",
+        "methodology": "20:00海外公开来源搜索并抓取；HTTP 200 sha256 63d81bcefd444ff8167de67a0357c7b1bc85c10d725495b4cea52648cfb7f8e3；采用页面可见的112GW、158GW、41%、308GW、2.9TW/10.5TWh指标，标注为BNEF预测/媒体报道口径。",
+        "history": [
+          {
+            "label": "2025新增 GW",
+            "value": 112
+          },
+          {
+            "label": "2026新增 GW",
+            "value": 158
+          },
+          {
+            "label": "2026同比 %",
+            "value": 41
+          },
+          {
+            "label": "2036年新增 GW",
+            "value": 308
+          },
+          {
+            "label": "2036累计 TW",
+            "value": 2.9
+          },
+          {
+            "label": "2036累计 TWh",
+            "value": 10.5
+          }
+        ]
+      },
+      {
+        "source": "Fastmarkets / Green Building Africa",
+        "source_type": "海外价格与成本分析",
+        "account_name": "Fastmarkets",
+        "category": "海外市场",
+        "title": "Fastmarkets：锂价波动推高BESS成本不确定性，全球ESS装机至2030年近800GWh",
+        "summary": "19:00海外公开来源新增Fastmarkets与转引分析：Fastmarkets认为全球ESS安装量未来十年每年约增长25%，到2030年接近800GWh、2035年超过1600GWh；Green Building Africa转引称锂价上涨对主要市场BESS总资本开支影响低于5%，中国电池生产成本优势仍超过40%，钠离子电池具备最高约40%的节省潜力。",
+        "body": [
+          "该条为海外成本/价格研究口径，重点跟踪锂价上行、关税、系统集成与替代技术对BESS资本开支的影响。",
+          "Fastmarkets文章指出LFP仍是BESS主流化学体系，2025年314Ah LFP电芯是公用事业级ESS部署的主要选择，587Ah等高容量电芯可能在2026年三季度成为主流选项。",
+          "Green Building Africa转引分析称，锂价上涨对主要市场BESS总capex的影响低于5%；中国相对美国电池生产保有超过40%成本优势，钠离子路线最高可带来约40%节省潜力。"
+        ],
+        "key_points": [
+          "Fastmarkets：全球ESS安装量未来十年每年约增长25%。",
+          "规模预测：2030年接近800GWh，2035年超过1600GWh。",
+          "技术路线：LFP仍为BESS主流，587Ah高容量电芯或在2026年三季度成为主流选项。",
+          "成本敏感性：锂价上涨对主要市场BESS总capex影响低于5%。",
+          "区域成本：Green Building Africa称中国电池生产相对美国保有超过40%成本优势。"
+        ],
+        "value": "800",
+        "unit": "GWh 2030年全球ESS安装量预测",
+        "delta": "未来十年约+25%/年；2035年>1600GWh",
+        "direction": "up",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "url": "https://www.fastmarkets.com/insights/lithium-price-volatility-creates-bess-cost-uncertainty-ess-2026/",
+        "original_url": "https://www.greenbuildingafrica.co.za/bess-costs-show-resilience-despite-lithium-price-volatility-in-2026/",
+        "clean_html": "<p>Fastmarkets预计全球ESS安装量未来十年每年约增长25%，2030年近800GWh、2035年超过1600GWh；转引分析称锂价上涨对主要市场BESS总capex影响低于5%。</p>",
+        "caption": "海外成本：BESS仍受益于电芯迭代和中国制造成本优势",
+        "methodology": "19:00海外公开来源搜索并抓取；Fastmarkets HTTP 200 sha256 69eefdcda009f0cc75c70593a828979c5cbfe3ef700274583cf5478da0e7c2ab；Green Building Africa HTTP 200 sha256 9e023ecb05a5e47ea526fe6d8b069433003ed6d4857dd5dd3caed678f34709c9；采用页面可见ESS安装量、成本敏感性和技术路线描述，标注为海外研究/转引口径。",
+        "history": [
+          {
+            "label": "2030全球ESS GWh",
+            "value": 800
+          },
+          {
+            "label": "2035全球ESS GWh",
+            "value": 1600
+          },
+          {
+            "label": "年增速 %",
+            "value": 25
+          },
+          {
+            "label": "锂价影响capex %",
+            "value": 5
+          },
+          {
+            "label": "中国成本优势 %",
+            "value": 40
+          },
+          {
+            "label": "钠离子节省潜力 %",
+            "value": 40
+          }
+        ]
+      },
       {
         "source": "Modo Energy",
         "source_type": "海外BESS资本市场报告",
@@ -45913,58 +49012,6 @@ window.NEOLINK_FEED= {
             "value": 1
           }
         ]
-      },
-      {
-        "source": "Energy-Storage.news / BloombergNEF Energy Storage Outlook H1 2026",
-        "source_type": "海外行业媒体/研究机构预测",
-        "account_name": "Energy-Storage.news / BNEF",
-        "category": "海外市场",
-        "title": "BNEF上调全球储能装机展望：2026年新增158GW/459GWh，2036年年新增或达308GW",
-        "summary": "Energy-Storage.news 5月15日报道，BloombergNEF在H1 2026储能展望中统计2025年全球非抽水蓄能储能新增112GW/307GWh，并预计2026年新增158GW/459GWh、同比按功率约增长41%；BNEF还预计2036年年度新增达到308GW，届时累计装机达到2.9TW/10.5TWh。报道同时提及，宁德时代与海博思创此前宣布60GWh钠离子电池多年协议，作为替代化学体系规模化的案例。",
-        "body": [
-          "本轮补入海外权威研究口径，用于校准MarketTrend的全球需求斜率：2026年新增459GWh意味着大储供应链仍处高景气区间。",
-          "BNEF的2025年实际新增112GW/307GWh高于此前预测，说明全球储能部署速度继续超预期。",
-          "2036年累计2.9TW/10.5TWh的长期预测，对电芯、PCS、热管理、消防和系统集成环节形成长期需求锚。"
-        ],
-        "key_points": [
-          "2025年全球非抽水蓄能储能新增：112GW/307GWh。",
-          "2026年预测新增：158GW/459GWh，按功率同比约+41%。",
-          "2036年预测年度新增：308GW。",
-          "2036年预测累计装机：2.9TW/10.5TWh。",
-          "报道提及宁德时代与海博思创60GWh钠离子电池多年协议。"
-        ],
-        "value": "158",
-        "unit": "GW 2026年全球储能新增预测",
-        "delta": "459GWh；较2025年112GW约+41%；2036累计2.9TW/10.5TWh",
-        "direction": "up",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/",
-        "clean_html": "<p>BloombergNEF预计2026年全球非抽水蓄能储能新增158GW/459GWh；2025年新增112GW/307GWh，2036年累计装机或达2.9TW/10.5TWh。</p>",
-        "caption": "BNEF把2026年全球储能新增预测上调至459GWh",
-        "methodology": "03:00抓取Energy-Storage.news原文HTML（gzip解码快照sha256 3e2848cc8b4e0634d0730abca929b389884929d5992e0688a788a70c5be74d8a），抽取BNEF H1 2026 Outlook的2025实际新增、2026预测、2036年度新增与累计装机口径。",
-        "history": [
-          {
-            "label": "2025新增 GW",
-            "value": 112
-          },
-          {
-            "label": "2025新增 GWh",
-            "value": 307
-          },
-          {
-            "label": "2026预测新增 GW",
-            "value": 158
-          },
-          {
-            "label": "2026预测新增 GWh",
-            "value": 459
-          },
-          {
-            "label": "2036累计 TWh",
-            "value": 10.5
-          }
-        ]
       }
     ],
     "technology": [
@@ -46331,6 +49378,132 @@ window.NEOLINK_FEED= {
     ],
     "quotes": [
       {
+        "source": "SMM碳酸锂行情 / SMM储能专区",
+        "source_type": "国内主材行情复核",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM 04:00复核：碳酸锂价格日期仍为05-18，电池级碳酸锂价格指数190865元/吨、较前值-894",
+        "summary": "04:00重新抓取SMM碳酸锂行情页与储能专区。SMM h5行情页显示价格日期仍为2026-05-18：电池级碳酸锂价格指数190865元/吨、较前值-894元/吨；工业级碳酸锂价格183000~192000元/吨、均价187500元/吨；电池级碳酸锂CIF价格20.6~24美元/千克、均价22.3美元/千克、较前值-0.2（日期05-15）。MarketTrend不把04:00抓取时间伪装成价格发布时间。",
+        "body": [
+          "电池级碳酸锂价格指数：190865元/吨，涨跌-894元/吨，价格日期2026-05-18。",
+          "工业级碳酸锂价格：183000~192000元/吨，均价187500元/吨，涨跌0，价格日期2026-05-18。",
+          "电池级碳酸锂CIF价格：20.6~24美元/千克，均价22.3美元/千克，涨跌-0.2，价格日期2026-05-15。",
+          "储能专区页面继续作为储能电芯/预制舱行情入口复核；若无晚于05-18的公开价格日，不刷新为05-19价格。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为04:00复核抓取。",
+          "电池级碳酸锂价格指数：190865元/吨，变动-894元/吨。",
+          "工业级碳酸锂均价：187500元/吨，变动0。",
+          "电池级碳酸锂CIF均价：22.3美元/千克，变动-0.2，日期05-15。"
+        ],
+        "value": "190865",
+        "unit": "元/吨 电池级碳酸锂价格指数",
+        "delta": "价格指数-894元/吨；工业级均价187500元/吨；CIF均价22.3美元/千克",
+        "direction": "down",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T04:00:00+08:00",
+        "url": "https://hq.smm.cn/h5/Li2CO3",
+        "original_url": "https://energy-storage.smm.cn/",
+        "clean_html": "<p>SMM碳酸锂05-18行情：电池级碳酸锂价格指数190865元/吨（-894）；工业级碳酸锂均价187500元/吨；电池级碳酸锂CIF均价22.3美元/千克（05-15）。</p>",
+        "caption": "行情复核：SMM碳酸锂价格日期仍为05-18，价格指数较前值继续下修",
+        "methodology": "04:00重新抓取SMM碳酸锂h5行情页 HTTP 200 sha256 4f6f0841e0fa611e2a14cfbfc72458d28c9bcd6bf3e420b860f1807f96cfa23c 与SMM储能专区 HTTP 200 sha256 52a60480d6a8a7ce29293623f201439bad0fd302a186895431aab48471b08b3d；仅采用页面表格可见价格、日期和涨跌字段，不更新为04:00价格。",
+        "history": [
+          {
+            "label": "电池级碳酸锂价格指数 元/吨",
+            "value": 190865
+          },
+          {
+            "label": "指数变动 元/吨",
+            "value": -894
+          },
+          {
+            "label": "工业级碳酸锂均价 元/吨",
+            "value": 187500
+          },
+          {
+            "label": "工业级变动 元/吨",
+            "value": 0
+          },
+          {
+            "label": "电池级碳酸锂CIF 美元/千克",
+            "value": 22.3
+          },
+          {
+            "label": "CIF变动 美元/千克",
+            "value": -0.2
+          }
+        ]
+      },
+      {
+        "source": "SMM储能专区 / SMM赣锋锂业供需报道",
+        "source_type": "国内储能材料行情与库存快照",
+        "account_name": "SMM上海有色",
+        "category": "主材行情",
+        "title": "SMM储能专区02:00复核：价格日期仍为05-18，电池级碳酸锂均价19.15万元/吨、SMM库存天数24.9天",
+        "summary": "02:00重新抓取SMM储能专区与SMM 5月18日赣锋锂业供需报道。行情表仍显示05-18口径：电池级碳酸锂187000~196000元/吨、均价191500元/吨、跌500元/吨；方形磷酸铁锂储能型280Ah电池仍显示05-15周价0.312~0.356元/Wh、均价0.334元/Wh、涨0.0015元/Wh。SMM报道补充截至5月14日碳酸锂样本周度库存101418实物吨、库存天数24.9天。",
+        "body": [
+          "本条为MarketTrend行情复核，不把02:00抓取时间伪装成价格发布时间；电池级碳酸锂价格日期按SMM页面显示为05-18。",
+          "电池级碳酸锂Li₂CO₃≥99.5%：187000~196000元/吨，均价191500元/吨，较前值-500元/吨。",
+          "方形磷酸铁锂电池（周，储能型280Ah）：0.312~0.356元/Wh，均价0.334元/Wh，较前值+0.0015元/Wh，价格日期仍为05-15周价。",
+          "中国直流侧储能电池预制舱（5MWh）：0.413~0.492元/Wh，均价0.4525元/Wh，较前值+0.0025元/Wh。",
+          "SMM 5月18日供需报道补充：截至5月14日，SMM碳酸锂样本周度库存总计101418实物吨，分环节库存天数24.9天。"
+        ],
+        "key_points": [
+          "价格日期：碳酸锂05-18；本轮为02:00复核抓取。",
+          "电池级碳酸锂均价：191500元/吨，日变动-500元/吨。",
+          "储能型280Ah方形LFP电芯均价：0.334元/Wh，周度变动+0.0015元/Wh。",
+          "5MWh直流侧预制舱均价：0.4525元/Wh，变动+0.0025元/Wh。",
+          "SMM碳酸锂样本库存：101418实物吨，库存天数24.9天。"
+        ],
+        "value": "191500",
+        "unit": "元/吨 电池级碳酸锂均价",
+        "delta": "碳酸锂-500元/吨；储能280Ah电芯+0.0015元/Wh；SMM样本库存24.9天",
+        "direction": "mixed",
+        "date": "05-18",
+        "as_of": "2026-05-18",
+        "checked_at": "2026-05-19T02:00:00+08:00",
+        "url": "https://energy-storage.smm.cn/",
+        "original_url": "https://news.smm.cn/news/103907167",
+        "clean_html": "<p>SMM储能专区05-18行情：电池级碳酸锂均价191500元/吨（-500）；储能型280Ah电芯05-15周价均价0.334元/Wh（+0.0015）；SMM样本库存101418实物吨、24.9天。</p>",
+        "caption": "行情复核：碳酸锂价格日期仍为05-18，新增SMM库存天数低位口径",
+        "methodology": "02:00重新抓取SMM储能专区；HTTP 200 sha256 84356c0cae07c60ef04c24aefe597fb5aabb63564f75e7aa18888b66d83c27a3；并抓取SMM赣锋锂业供需报道 HTTP 200 sha256 43b30d20a43d54b3b470b69cf7198ab1bf1b793461d75c1c71f4f716d8020831；仅采用页面表格/正文可见价格、日期和库存字段，不更新为02:00价格。",
+        "history": [
+          {
+            "label": "碳酸锂均价 元/吨",
+            "value": 191500
+          },
+          {
+            "label": "碳酸锂变动 元/吨",
+            "value": -500
+          },
+          {
+            "label": "280Ah储能电芯 元/Wh",
+            "value": 0.334
+          },
+          {
+            "label": "280Ah变动 元/Wh",
+            "value": 0.0015
+          },
+          {
+            "label": "5MWh预制舱 元/Wh",
+            "value": 0.4525
+          },
+          {
+            "label": "5MWh变动 元/Wh",
+            "value": 0.0025
+          },
+          {
+            "label": "SMM样本库存 实物吨",
+            "value": 101418
+          },
+          {
+            "label": "库存天数 天",
+            "value": 24.9
+          }
+        ]
+      },
+      {
         "source": "ESS News / 中国能建储能科技（武汉）",
         "source_type": "国内招投标/储能电芯框采海外报道",
         "account_name": "ESS News",
@@ -46439,62 +49612,6 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "source": "上海有色网 SMM 储能专区",
-        "source_type": "国内公开行情/储能电池与系统报价",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM储能报价：5月15日电池级碳酸锂19.2万元/吨，280Ah储能电芯0.334元/Wh",
-        "summary": "SMM储能专区公开报价显示，2026-05-15电池级碳酸锂188000-196000元/吨、均价192000元/吨、日跌3000元/吨；储能型280Ah方形磷酸铁锂电池0.312-0.356元/Wh、均价0.334元/Wh、周涨0.0015元/Wh；314Ah储能型电芯均价0.3565元/Wh；5MWh直流侧储能电池预制舱均价0.4525元/Wh，集中式PCS 1725kW均价0.065元/W。",
-        "body": [
-          "本轮重新抓取SMM储能专区并解压HTML，补入5月15日可核验公开行情，替换上一轮5月14日碳酸锂快照。",
-          "原料端电池级碳酸锂均价降至192000元/吨，但储能电芯周度均价小幅上行，显示电芯报价仍受交付、规格和需求结构影响。",
-          "系统侧5MWh直流侧预制舱均价0.4525元/Wh、1725kW集中式PCS均价0.065元/W，可作为MarketTrend当日系统报价锚点。"
-        ],
-        "key_points": [
-          "电池级碳酸锂：188000-196000元/吨，均价192000元/吨，日跌3000元/吨，日期05-15。",
-          "280Ah储能型方形LFP电芯：0.312-0.356元/Wh，均价0.334元/Wh，周涨0.0015元/Wh。",
-          "314Ah储能型方形LFP电芯：0.332-0.381元/Wh，均价0.3565元/Wh。",
-          "5MWh直流侧储能电池预制舱：0.413-0.492元/Wh，均价0.4525元/Wh。",
-          "集中式PCS 1725kW：0.062-0.068元/W，均价0.065元/W。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；280Ah储能电芯均价0.334元/Wh",
-        "direction": "mixed",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://energy-storage.smm.cn/",
-        "clean_html": "<p>SMM储能专区显示，2026-05-15电池级碳酸锂均价192000元/吨，280Ah储能型方形磷酸铁锂电芯均价0.334元/Wh，5MWh直流侧储能电池预制舱均价0.4525元/Wh。</p>",
-        "caption": "SMM 5月15日：碳酸锂下行，储能电芯与5MWh预制舱报价上行",
-        "methodology": "08:00主动国内检索并抓取SMM储能专区HTML（gzip原始sha256 b2560b0e6c043bb64de632607c1fa33e307be505a14f56ad858622b4876b7ba4）；解压后抽取报价表，保留报价日期而非抓取时间。",
-        "history": [
-          {
-            "label": "碳酸锂均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "碳酸锂日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "280Ah电芯均价 元/Wh",
-            "value": 0.334
-          },
-          {
-            "label": "314Ah电芯均价 元/Wh",
-            "value": 0.3565
-          },
-          {
-            "label": "5MWh预制舱均价 元/Wh",
-            "value": 0.4525
-          },
-          {
-            "label": "1725kW PCS均价 元/W",
-            "value": 0.065
-          }
-        ]
-      },
-      {
         "source": "新浪财经 / 广东省电池行业协会产业研究中心",
         "source_type": "国内储能电芯招投标价格/周度排名",
         "account_name": "新浪财经",
@@ -46543,58 +49660,6 @@ window.NEOLINK_FEED= {
           {
             "label": "加急溢价上限 %",
             "value": 10
-          }
-        ]
-      },
-      {
-        "source": "上海有色网 SMM",
-        "source_type": "国内公开行情/碳酸锂现货",
-        "account_name": "SMM 上海有色网",
-        "category": "行情价格",
-        "title": "SMM：电池级碳酸锂5月15日均价19.2万元/吨，日跌3000元/吨",
-        "summary": "SMM公开碳酸锂行情页显示，电池级碳酸锂价格区间为188000-196000元/吨，均价192000元/吨，较上一报价日下跌3000元/吨，日期为2026-05-15；电池级碳酸锂CIF均价22.3美元/千克，跌0.2美元/千克。08:00复核时未发现比5月15日更新的公开报价，因此MarketTrend按“最新可核验公开价”更新，不以复核时间冒充价格日期。",
-        "body": [
-          "本轮更正并补入SMM公开行情：电池级碳酸锂均价192000元/吨，报价日期为2026-05-15。",
-          "该价格较上一报价日下跌3000元/吨，说明高位波动后继续回落；但公开页未给出比5月15日更晚的可见报价，站内不把复核时间冒充为价格日期。",
-          "碳酸锂是储能电芯和LFP正极的重要成本锚，需与项目招中标价格、电芯报价同时观察。"
-        ],
-        "key_points": [
-          "电池级碳酸锂价格区间：188000-196000元/吨。",
-          "电池级碳酸锂均价：192000元/吨。",
-          "日涨跌：-3000元/吨。",
-          "报价日期：2026-05-15。",
-          "电池级碳酸锂CIF均价：22.3美元/千克，日跌0.2美元/千克。"
-        ],
-        "value": "192000",
-        "unit": "元/吨 电池级碳酸锂均价",
-        "delta": "-3000元/吨；公开报价日2026-05-15",
-        "direction": "down",
-        "date": "05-15",
-        "as_of": "2026-05-15",
-        "url": "https://hq.smm.cn/h5/Li2CO3",
-        "clean_html": "<p>SMM公开行情页显示，2026-05-15电池级碳酸锂价格188000-196000元/吨，均价192000元/吨，日跌3000元/吨；电池级碳酸锂CIF均价22.3美元/千克，日跌0.2美元/千克。</p>",
-        "caption": "SMM电池级碳酸锂：19.2万元/吨，日跌3000元/吨",
-        "methodology": "08:00通过web.run直接打开SMM公开行情页并逐项核验（报价日期、区间、均价、涨跌与CIF字段）；受执行环境DNS限制，本轮无法抓取并保存原始HTML快照/sha256，但引用的数据均来自页面可见字段且与之前口径一致。",
-        "history": [
-          {
-            "label": "价格下限 元/吨",
-            "value": 188000
-          },
-          {
-            "label": "均价 元/吨",
-            "value": 192000
-          },
-          {
-            "label": "价格上限 元/吨",
-            "value": 196000
-          },
-          {
-            "label": "日涨跌 元/吨",
-            "value": -3000
-          },
-          {
-            "label": "CIF均价 美元/千克",
-            "value": 22.3
           }
         ]
       },
@@ -47026,5 +50091,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-18T18:00:00+08:00"
+  "checked_at": "2026-05-19T04:00:00+08:00"
 };
