@@ -6,7 +6,7 @@
 - 国内材料新增：SMM人造石墨文章sha256 `e8127c16...`，2026年4月中国人造石墨进口量757吨、环比+12.4%、同比-32.9%；源电新能文章sha256 `dcd33dc2...`，安徽池州0.2GWh固态/固液混合电池科研总部成立。
 - 技术补充：ESS News构网型文章sha256 `32c52e95...`，沙特三站7.8GWh项目采用阳光电源PowerTitan 3.0；Energy-Storage.News BESS AC/DC增容文章sha256 `3d0e6b22...`。
 - 行情复核：SMM电池级碳酸锂页sha256 `d6259c31...`仍为均价179000元/吨、日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5。
-- 动作：已更新`data/feed.js` generated_at/checked_at至22:00，新增headline/latest/materials/metrics/market/overseas/technology/source_index条目；更新首页/新闻/详情feed cache版本和MarketTrend资产版本至`202605202200`。Artifacts: `var/hermes/crawl-20260520-2200.py`, `var/hermes/crawl-output-20260520-2200.json`, `var/hermes/article-fetch-20260520-2200.json`, `var/hermes/article-fetch-extra-20260520-2200.json`, `var/hermes/search-notes-20260520-2200.json`。
+- 动作：已更新`data/feed.js` generated_at/checked_at至22:00，新增headline/latest/materials/metrics/market/overseas/technology/source_index条目；更新首页/新闻/详情feed cache版本和MarketTrend资产版本至`202605202200`。 已通过rsync部署至`neolink:/var/www/neolink/`并修复权限；HTTP线上回读首页、`/markettrend/`和`data/feed.js?v=202605202200`均为200，首页与MarketTrend版本号、feed generated_at/headline关键词验证通过。 Artifacts: `var/hermes/crawl-20260520-2200.py`, `var/hermes/crawl-output-20260520-2200.json`, `var/hermes/article-fetch-20260520-2200.json`, `var/hermes/article-fetch-extra-20260520-2200.json`, `var/hermes/search-notes-20260520-2200.json`。
 
 ## 2026-05-20T21:00:00+08:00 strict global crawl — updated
 - 重新抓取：NeoLink首页HTTP 200 sha256 `def30b0c...`，`/markettrend/` HTTP 200 sha256 `70030ce9...`；web_search国内/海外仍HTTP 432，web_extract将NeoLink判为内网阻断，改用requests抓取公开源，未仅刷新时间。
