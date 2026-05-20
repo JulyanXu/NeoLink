@@ -6,7 +6,7 @@
 - 国内材料新增：中国储能网首页sha256 `9cf999a5...`；六氟磷酸锂文章sha256 `fc75ac09...`，显示国产六氟磷酸锂现货均价升至17.65万元/吨，较5月初9.8万元/吨上涨近80%，文中归因于储能需求、长单锁价和供给收缩。
 - 行情复核：SMM电池级碳酸锂页HTTP 200 sha256 `82be1060...`；05-20报价文章sha256 `059a83a4...`显示均价较上个更新日下跌7500元/吨；公开页仍为174000-184000元/吨、均价179000元/吨。
 - 北极星索引：北极星储能sha256 `567863d0...` 首页展示台区储能季度新增14GWh、安徽Q1独立储能收益约0.23元/kWh、福特20GWh订单等标题；详情直连为WAF脚本，未扩写未核验正文。
-- 动作：已更新`data/feed.js` generated_at/checked_at至15:00，新增headline/latest/materials/metrics/market/source_index条目；更新首页/新闻/详情feed cache版本和MarketTrend资产版本至`202605201500`。`/var/www/neolink`不存在，未做本地镜像部署。Artifacts: `var/hermes/crawl-20260520-1500.py`, `var/hermes/crawl-output-20260520-1500.json`, `var/hermes/article-fetch-20260520-1500.json`, `var/hermes/search-notes-20260520-1500.json`。
+- 动作：已更新`data/feed.js` generated_at/checked_at至15:00，新增headline/latest/materials/metrics/market/source_index条目；更新首页/新闻/详情feed cache版本和MarketTrend资产版本至`202605201500`。已通过rsync部署至`neolink:/var/www/neolink/`并修复权限；HTTP线上回读首页、`/markettrend/`和`data/feed.js?v=202605201500`均为200，版本号/`generated_at`验证通过。Artifacts: `var/hermes/crawl-20260520-1500.py`, `var/hermes/crawl-output-20260520-1500.json`, `var/hermes/article-fetch-20260520-1500.json`, `var/hermes/search-notes-20260520-1500.json`。
 
 ## 2026-05-20T14:00:00+08:00 strict global crawl — updated
 - 重新抓取：NeoLink首页HTTP 200 sha256 `524f6be6...`，`/markettrend/` HTTP 200 sha256 `016c8ce6...`；web_search国内/海外仍HTTP 432，改用requests抓取公开源，未仅刷新时间。
