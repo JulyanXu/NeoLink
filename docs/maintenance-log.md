@@ -1,5 +1,36 @@
 # NeoLink Maintenance Log
 
+## 2026-05-20T19:00:00+08:00 strict global crawl — updated
+- 重新抓取：NeoLink首页HTTP 200 sha256 `951a4dc1...`，`/markettrend/` HTTP 200 sha256 `708bc8c6...`；web_search国内/海外仍HTTP 432，web_extract将NeoLink判为内网阻断，改用requests抓取公开源，未仅刷新时间。
+- 海外新增：ESS News德国Bühl文章sha256 `1993da30...`，Copenhagen Energy与Akaysha拟建设500MW/2GWh、4小时储能；MN8加州Pome文章sha256 `78d208d3...`，100MW/400MWh BESS商业运行并签10年tolling协议。
+- 国内政策新增：国家能源局多用户绿电直连通知sha256 `a2f89ed8...`、答问sha256 `4114aea1...`，支持工商业园区、零碳园区等近区新能源消纳。
+- 行情复核：SMM电池级碳酸锂页sha256 `f6a3e72c...`仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5。
+- 动作：已更新`data/feed.js` generated_at/checked_at至19:00，新增headline/latest/materials/metrics/market/overseas/policy/source_index条目；更新首页/新闻/详情feed cache版本和MarketTrend资产版本至`202605201900`。Artifacts: `var/hermes/crawl-20260520-1900.py`, `var/hermes/crawl-output-20260520-1900.json`, `var/hermes/article-fetch-20260520-1900.json`, `var/hermes/search-notes-20260520-1900.json`。
+
+## 2026-05-20T18:00:00+08:00 strict global crawl — updated
+- 重新抓取：NeoLink首页HTTP 200 sha256 `030e35ef...`，`/markettrend/` HTTP 200 sha256 `295b89c5...`；web_search国内/海外仍HTTP 432，web_extract将NeoLink判为内网阻断，改用requests抓取公开源，未仅刷新时间。
+- 海外新增：ESS News首页sha256 `f214db71...`；Grenergy/Georgia Power PPA文章sha256 `ce8e0b10...`，Beaver Creek项目229MW光伏+183MWh储能，20年PPA预计约400GWh/年，2028Q3商运、2029年5月PPA生效。
+- 海外供应链/市场：Energy-Storage.News瑞浦兰钧印尼基地文章sha256 `6d4a7ae9...`，印尼锂电池与BESS制造基地开业，前期计划8GWh、2.23亿美元；日本LTDA文章sha256 `0c29ddec...`，19个BESS项目合计1,251MW、6小时、20年固定收入。
+- 国内政策新增：CNESA华北两个细则征求意见sha256 `a1e63467...`，储能电站AGC/AVC并网后六个月内完成，违反调度纪律每次按装机容量×3小时考核电量，并涉及一次调频/APC/黑启动等辅助服务补偿。
+- 行情复核：SMM电池级碳酸锂页sha256 `36b21ebd...`仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5。
+- 动作：已更新`data/feed.js` generated_at/checked_at至18:00，新增headline/latest/materials/metrics/market/overseas/policy/source_index条目；更新首页/新闻/详情feed cache版本和MarketTrend资产版本至`202605201800`。`/var/www/neolink`不存在，未做本地镜像部署。Artifacts: `var/hermes/crawl-20260520-1800.py`, `var/hermes/crawl-output-20260520-1800.json`, `var/hermes/article-fetch-20260520-1800-extra.json`, `var/hermes/search-notes-20260520-1800.json`。
+
+## 2026-05-20T17:00:00+08:00 strict global crawl — updated
+- 重新抓取：NeoLink首页HTTP 200 sha256 `030e35ef...`，`/markettrend/` HTTP 200 sha256 `295b89c5...`；web_search国内/海外仍HTTP 432，web_extract将NeoLink判为内网阻断，改用requests抓取公开源，未仅刷新时间。
+- 海外新增：ESS News首页sha256 `8084e6d2...`；NSW第8/9轮招标文章sha256 `b1fe76dd...`，Tender 8寻求2.5GW发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册6月16日截止、投标7月14日截止。
+- 国内政策新增：CNESA/国家能源局质量监督大纲sha256 `fe03e24b...`，适用电源侧和电网侧100MW及以上电化学/压缩空气储能；吉林规则sha256 `0f37a309...`，独立储能/虚拟电厂/绿电直连可参与中长期、现货和调频，独立储能门槛5MW/10MW/2h。
+- 国内监管新增：工信部等五部门废旧动力电池回收联合执法通知sha256 `0a3e63cb...`，专项行动2026年4月至6月底，聚焦违规交售、非法拆解、溯源信息等。
+- 行情复核：SMM电池级碳酸锂页sha256 `5e70c1c7...`仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5。
+- 动作：已更新`data/feed.js` generated_at/checked_at至17:00，新增headline/latest/materials/metrics/market/overseas/policy/source_index条目；更新首页/新闻/详情feed cache版本和MarketTrend资产版本至`202605201700`。`/var/www/neolink`不存在，未做本地镜像部署。Artifacts: `var/hermes/crawl-20260520-1700.py`, `var/hermes/crawl-output-20260520-1700.json`, `var/hermes/article-fetch-20260520-1700.json`, `var/hermes/search-notes-20260520-1700.json`。
+
+## 2026-05-20T16:00:00+08:00 strict global crawl — updated
+- 重新抓取：NeoLink首页HTTP 200 sha256 `a7f36bcb...`，`/markettrend/` HTTP 200 sha256 `1f79b87b...`；web_search国内/海外仍HTTP 432，改用requests抓取公开源，未仅刷新时间。
+- 海外新增：Energy-Storage.News首页sha256 `f83abef6...`；NSW第七轮firming招标文章sha256 `e3f93f8b...`，签下532MW firming项目，包含1个BESS和1个VPP，合计2,128MWh储能容量，目标2027年11月底前商运。
+- 国内材料新增：SMM新能源sha256 `b3d65e9a...`；六氟磷酸锂出口文章sha256 `63006510...`，显示2026年4月中国六氟磷酸锂累计出口量约868吨、环比下降约80.9%。
+- 国内项目新增：SMM/电池网文章sha256 `634184bf...`，中虹普能与河南周口商水县签约400MW/800MWh电网侧储能电站，总投资约12.8亿元；标题口径为20天内两项目约32亿元。
+- 行情复核：SMM电池级碳酸锂页sha256 `f1caf44d...`仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨。
+- 动作：已更新`data/feed.js` generated_at/checked_at至16:00，新增headline/latest/materials/metrics/market/source_index条目；更新首页/新闻/详情feed cache版本和MarketTrend资产版本至`202605201600`。已通过rsync部署至`neolink:/var/www/neolink/`并修复权限；HTTP线上回读首页、`/markettrend/`和`data/feed.js?v=202605201600`均为200，版本号/`generated_at`/关键词验证通过。Artifacts: `var/hermes/crawl-20260520-1600.py`, `var/hermes/crawl-output-20260520-1600.json`, `var/hermes/article-fetch-20260520-1600.json`, `var/hermes/search-notes-20260520-1600.json`。
+
 ## 2026-05-20T15:00:00+08:00 strict global crawl — updated
 - 重新抓取：NeoLink首页HTTP 200 sha256 `524f6be6...`，`/markettrend/` HTTP 200 sha256 `016c8ce6...`；web_search国内/海外仍HTTP 432，改用requests抓取公开源，未仅刷新时间。
 - 海外新增产能：EnergyTrend首页sha256 `5f0c57c4...`；楚能三地锂电项目文章直连sha256 `fc9be8c9...`，披露武汉90GWh、宜昌100GWh、孝感100GWh三项锂电制造项目获节能审查批复，新增规划产能合计290GWh，楚能湖北四基地整体规划约500GWh。

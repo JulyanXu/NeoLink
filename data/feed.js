@@ -1,8 +1,334 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-20T15:00:00+08:00",
-  "note": "15:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动抓取国内SMM、中国储能网、北极星储能、中国能源网、国家能源局、工信部、CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine等公开来源。本轮新增采信EnergyTrend关于楚能三地锂电项目新增290GWh规划产能，以及中国储能网转载六氟磷酸锂均价17.65万元/吨；SMM电池级碳酸锂均价179000元/吨不变。",
+  "generated_at": "2026-05-20T19:00:00+08:00",
+  "note": "19:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动抓取国内SMM、北极星储能、中国能源网、国家能源局、工信部、CNESA及海外ESS News、Energy-Storage.News、EnergyTrend、pv magazine、SolarQuarter等公开来源。本轮新增采信德国Bühl 500MW/2GWh储能规划、MN8加州100MW/400MWh Pome BESS商业运行、国家能源局多用户绿电直连通知；SMM电池级碳酸锂均价179000元/吨不变。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260520-1900-germany-2gwh-mn8-green-direct",
+        "source": "ESS News / 国家能源局 / SMM上海有色 / NeoLink HTTP crawl",
+        "source_type": "海外行业媒体 / 官方政策 / 专业行情平台 / 本站回读",
+        "account_name": "ESS News / 国家能源局 / SMM",
+        "category": "海外项目/绿电直连/主材行情",
+        "title": "Copenhagen Energy与Akaysha拟建德国500MW/2GWh储能；MN8加州400MWh投运，国家能源局扩展多用户绿电直连",
+        "summary": "19:00严格刷新新增采信两条海外项目进展：ESS News 05-20披露，Copenhagen Energy与Akaysha Energy拟在德国Bühl建设500MW/2GWh、4小时大型电池储能，选址靠近超高压基础设施和既有变电站；MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并由Sonoma Clean Power签署10年tolling协议。国内政策侧，国家能源局发布多用户绿电直连项目通知及答问，明确风电、太阳能、生物质等新能源可通过专用线路和配电设施向多个用户供绿电，支持工商业园区、零碳园区等近区消纳场景。SMM电池级碳酸锂19:00复核仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "body": [
+          "海外项目侧，Copenhagen Energy与Akaysha Energy计划在德国Bühl建设四小时大型电池储能，功率500MW、容量2GWh；项目拟靠近超高压电网基础设施和既有变电站，降低接入和用地压力。",
+          "该项目体现欧洲大型储能从一小时级辅助服务向多小时能量搬移扩展，500MW/2GWh规模若落地，将成为德国市场重要的长时电池储备。",
+          "美国侧，MN8 Energy宣布加州Poway的Pome BESS商业运行，规模100MW/400MWh，接入CAISO电网，并与Sonoma Clean Power签有10年tolling协议；MN8称其加州运营储能组合达到1.5GWh。",
+          "国内政策侧，国家能源局多用户绿电直连通知在单一用户绿电直连基础上扩展适用范围，允许风电、太阳能、生物质等新能源通过专线和配电设施向多个用户供绿电，重点服务工商业园区、零碳园区等近区负荷。",
+          "行情侧，SMM公开页19:00复核电池级碳酸锂价格仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩均价21.55美元/千克、日跌0.5，本轮MarketTrend更新项目和政策证据链，不伪造新报价。"
+        ],
+        "key_points": [
+          "ESS News：德国Bühl项目规划500MW/2GWh、4小时电池储能，开发方为Copenhagen Energy与Akaysha Energy。",
+          "选址靠近超高压基础设施和既有变电站，项目将提交当地市政委员会讨论。",
+          "MN8 Energy：加州Poway 100MW/400MWh Pome BESS商业运行，Sonoma Clean Power签署10年tolling协议，MN8加州运营储能组合达1.5GWh。",
+          "国家能源局：多用户绿电直连覆盖风电、太阳能、生物质等新能源，支持工商业园区、零碳园区等近区消纳场景。",
+          "SMM：电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩均价21.55美元/千克。"
+        ],
+        "value": "2",
+        "unit": "GWh 德国Bühl规划储能容量",
+        "delta": "欧洲/美国大储项目正面；国内绿电直连扩大消纳场景；碳酸锂报价未变",
+        "direction": "positive",
+        "date": "05-20",
+        "as_of": "2026-05-20 19:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+        "original_url": "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+        "related_urls": [
+          "https://www.ess-news.com/2026/05/20/mn8-energy-brings-400-mwh-tolled-standalone-battery-online-in-southern-california/",
+          "https://www.nea.gov.cn/20260520/9e1c4277ce324c8ab82a84da98da7980/c.html",
+          "https://www.nea.gov.cn/20260520/99326d59f0404dc49577f0bfc7f3d930/c.html",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>19:00新增：ESS News披露Copenhagen Energy与Akaysha Energy拟在德国Bühl建设500MW/2GWh、4小时大型电池储能；MN8 Energy加州100MW/400MWh Pome BESS已商业运行。国内侧，国家能源局发布多用户绿电直连通知及答问；SMM电池级碳酸锂均价179000元/吨未变。</p>",
+        "caption": "海外大储项目继续放量，国内绿电直连政策扩展到多用户场景。",
+        "methodology": "19:00严格刷新：已重新抓取NeoLink首页和/markettrend/；国内侧抓取SMM、北极星储能、中国能源网、国家能源局、工信部、CNESA，海外侧抓取ESS News、Energy-Storage.News、EnergyTrend、pv magazine、SolarQuarter、Energy Storage Canada等公开来源；web_search仍返回HTTP 432，web_extract对本站报内网阻断，因此采用requests直连保存原始HTML并比对sha256，未仅刷新时间。本站回读：NeoLink首页HTTP 200 sha256 951a4dc1bfb60de95b31b1262a955dd8ec7eabc235011ea64735c3d1ffc90df9，MarketTrend HTTP 200 sha256 708bc8c685237d5065fce85156726e3cb0ff055efb3f115b1ff3f26510a102d7。国内入口：SMM电池级碳酸锂 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23，北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551，国家能源局 d6f70720db15a231a5f4587006814525b92c573a11c4117d4fb6c3e066b6ae3e，工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8，CNESA b94dc9ce7dbde7e2ec77b3a53c6e1f2e38d2b90f95a0879d2fbd6fab4efb7655。海外入口：ESS News f39a35a814004d26c84324dab269d17851612720162e4fe0d1a461922727c73e，Energy-Storage.News 380583d908631e8655dc62c59fbddcb4a512778595e10ad1a0cff800679f3991，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，pv magazine ab501ad350d5edbe04fc178c0198dce969c6e8a06ca744295fdde8b2f8791eb2，SolarQuarter e85d761f71af00d84c959e8f1db67a4b8fe4a8d0813715f4923d9f9a1ba8cb3f。新增采信：ESS News德国文章sha256 1993da30df156aa16dd5636b5d2613b2aa09d6cc752d7b68d01f015ad7c08ffe显示Copenhagen Energy与Akaysha Energy计划在德国Bühl建设500MW/2GWh、4小时大型电池储能，靠近超高压基础设施和既有变电站；ESS News加州文章sha256 78d208d38ada79565c00b093bcaa5fd3ad7cefbc9aa84bbd3eac09d0e7996b39显示MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并与Sonoma Clean Power签有10年tolling协议。国内政策复核：国家能源局多用户绿电直连通知sha256 a2f89ed8d4c1365f4ddf04edd768dea935a8cc44598fb44f7a0f9ebd908b2420及答问sha256 4114aea1ad4c7f05395ce77aed69d035b4b513234236af8c48417bb6628e49f2显示，多用户绿电直连在单一用户模式基础上扩展适用范围、交易机制和计量结算，服务工商业园区、零碳园区等就近消纳。行情复核：SMM电池级碳酸锂页sha256 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23显示2026-05-20价格区间174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩19.85-23.25美元/千克、均价21.55美元/千克、日跌0.5。",
+        "history": [
+          {
+            "label": "德国Bühl规划功率 MW",
+            "value": 500
+          },
+          {
+            "label": "德国Bühl规划容量 GWh",
+            "value": 2
+          },
+          {
+            "label": "德国Bühl持续时长 h",
+            "value": 4
+          },
+          {
+            "label": "Pome BESS功率 MW",
+            "value": 100
+          },
+          {
+            "label": "Pome BESS容量 MWh",
+            "value": 400
+          },
+          {
+            "label": "Pome tolling协议 年",
+            "value": 10
+          },
+          {
+            "label": "MN8加州运营储能 GWh",
+            "value": 1.5
+          },
+          {
+            "label": "SMM电池级碳酸锂均价 元/吨",
+            "value": 179000
+          }
+        ]
+      },
+      {
+        "id": "headline-20260520-1800-grenergy-georgia-ppa-rept-japan",
+        "source": "ESS News / Energy-Storage.News / CNESA中关村储能产业技术联盟 / SMM上海有色 / NeoLink HTTP crawl",
+        "source_type": "海外行业媒体 / 国内产业联盟政策转引 / 专业行情平台 / 本站回读",
+        "account_name": "ESS News / Energy-Storage.News / CNESA / SMM",
+        "category": "海外PPA/储能制造/容量市场/并网考核/主材行情",
+        "title": "Grenergy签Georgia Power 20年PPA：229MW光伏+183MWh储能；瑞浦兰钧印尼BESS制造基地开业，日本1.251GW储能容量市场复核",
+        "summary": "18:00严格刷新发现新增可信海外项目：ESS News 05-20报道，Grenergy与Georgia Power为美国佐治亚州Beaver Creek混合项目签署20年、100%输出PPA，预计年电量约400GWh，项目包括229MW光伏和183MWh电池储能，预计2028年三季度商业运营、PPA于2029年5月生效。海外供应链侧，Energy-Storage.News复核瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地开业，此前计划8GWh、投资2.23亿美元；日本OCCTO第三轮LTDA容量市场选出19个电池储能项目合计1,251MW、6小时要求、20年固定收入合同。国内政策侧补充华北两个细则征求意见：储能电站AGC/AVC等关键功能并网后六个月内完成，违反调度纪律按装机容量×3小时考核电量，并纳入一次调频/APC/黑启动等辅助服务补偿讨论。SMM电池级碳酸锂公开页18:00复核仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "body": [
+          "项目侧，Grenergy的Beaver Creek PPA锁定Georgia Power 20年100%输出，预计约400GWh/年；项目配置229MW太阳能与183MWh电池储能，商业运营时间点预计在2028年三季度。",
+          "这类PPA降低了混合光储项目长期收入不确定性，也显示美国东南部公用事业客户开始将电池运营纳入清洁能源采购计划。",
+          "供应链侧，Energy-Storage.News称瑞浦兰钧/REPT Battero印尼电芯与BESS制造基地已开业，前期披露规划为8GWh、投资约2.23亿美元，是中国储能电池企业面向东南亚和海外订单的产能本地化信号。",
+          "市场机制侧，日本OCCTO第三轮LTDA选出19个BESS项目合计1,251MW，持续时长要求6小时，并授予20年固定收入合同；该机制继续把长时储能纳入电力系统充裕度资源。",
+          "国内规则侧，CNESA转引华北新版两个细则征求意见，独立储能和新能源配建储能均纳入调度考核；AGC/AVC等关键功能应在并网后六个月内完成，违反调度纪律每次按装机容量×3小时考核电量。",
+          "行情侧，SMM 18:00复核电池级碳酸锂仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；本轮MarketTrend更新海外PPA、制造和容量市场证据链，不伪造新报价。"
+        ],
+        "key_points": [
+          "ESS News：Beaver Creek项目签署20年Georgia Power PPA，覆盖100%输出，预计约400GWh/年。",
+          "项目配置229MW光伏+183MWh储能，商业运营预计2028年三季度，PPA自2029年5月生效。",
+          "Energy-Storage.News：瑞浦兰钧印尼电芯与BESS制造基地开业，前期计划8GWh、投资约2.23亿美元。",
+          "日本LTDA第三轮选出19个BESS项目合计1,251MW，6小时持续时长要求，20年固定收入合同。",
+          "CNESA华北规则：储能电站AGC/AVC并网后六个月内完成，违反调度纪律按装机容量×3小时考核电量；SMM碳酸锂均价179000元/吨未变。"
+        ],
+        "value": "400",
+        "unit": "GWh/年 Beaver Creek PPA预计电量",
+        "delta": "海外光储PPA和制造本地化偏正面；国内并网考核趋严；主材报价未变",
+        "direction": "positive",
+        "date": "05-20",
+        "as_of": "2026-05-20 18:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/grenergy-locks-in-20-year-georgia-power-400-gwh-100-ppa-for-its-beaver-creek-hybrid-project/",
+        "original_url": "https://www.ess-news.com/2026/05/20/grenergy-locks-in-20-year-georgia-power-400-gwh-100-ppa-for-its-beaver-creek-hybrid-project/",
+        "related_urls": [
+          "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+          "https://www.energy-storage.news/japans-grid-operators-select-1-25gw-of-bess-in-capacity-market-auction-with-6-hour-duration-requirement/",
+          "https://www.cnesa.org/policy/detail/?column_id=6&id=8045",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>18:00新增：Grenergy与Georgia Power签署Beaver Creek 20年PPA，项目含229MW光伏和183MWh储能、预计400GWh/年；补充瑞浦兰钧印尼BESS制造基地、日本1.251GW/6h容量市场和华北储能并网考核规则；SMM碳酸锂均价179000元/吨未变。</p>",
+        "caption": "海外光储PPA、储能制造本地化和长时容量市场继续推进，国内储能并网考核规则同步细化。",
+        "methodology": "18:00严格刷新：已主动发起国内/海外web_search（均返回HTTP 432）和web_extract NeoLink首页及/markettrend/（被判定为内网地址阻断），随后按硬要求改用requests直连重抓NeoLink首页、MarketTrend、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS仍握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 5f1f6b68a4f53e7f10708d64de6a7ce1bc0279340fa08728bc703a7457c652f9、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8、CNESA a9e107fb0107ca88644e350d3f8d1220eb177a4ba0f65a8efe7548925bc1fd32；中国储能网/news/入口本轮仍404。海外入口：Energy-Storage.News e69cf6daade5a10b87faa246fbdd4a676838cd48896760959c438708365b2c6e、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News f214db71d735ef52080d2deebe068dcfc036f773ac70cc3b035d99bbb3bdb52f、pv magazine 7a2ad76a130cee897122b22e0d96be717a26010043705cef9cd218a28dac075a、SolarQuarter 91255c53ca6890dbf4e397b60e73f44e32801cd8b95da13445ee8b4e35a34b21。新增采信：ESS News文章sha256 ce8e0b107224a2edd9b58fe680bbb0fe4cc312a58ebe056f8c4540bbe40696de显示Grenergy与Georgia Power签署Beaver Creek项目20年100%购电协议，预计年电量约400GWh，项目含229MW光伏和183MWh电池储能，商业运营预计2028年三季度，PPA自2029年5月生效。海外制造/市场复核：Energy-Storage.News文章sha256 6d4a7ae919ff7bfaccd716158d4218c5e8862d87a55e9fce7503af586a58c080显示瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地已开业，此前计划为8GWh、投资2.23亿美元；同站日本文章sha256 0c29ddec3a82f73785e775c31ed8dfac5caea98fa550735942d3c461f4c8bb78显示OCCTO第三轮LTDA选出19个电池储能项目合计1,251MW，6小时持续时长要求，获20年固定收入合同。国内政策复核：CNESA华北两个细则征求意见文章sha256 a1e63467778e583335e95d45886ba0b528958a367fd6c9ee3f08c45e38a9f2f7，明确新型储能管理考核、AGC/AVC并网后六个月内完成、违反调度纪律按装机容量×3小时考核电量，并提及一次调频/APC/黑启动等辅助服务补偿。行情复核：SMM电池级碳酸锂页sha256 36b21ebd87dc6d6a4caeb52a09245c5a059f14a291925cf35fa188f2cd6afaf7仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。",
+        "history": [
+          {
+            "label": "Beaver Creek PPA 年电量 GWh",
+            "value": 400
+          },
+          {
+            "label": "Beaver Creek光伏 MW",
+            "value": 229
+          },
+          {
+            "label": "Beaver Creek储能 MWh",
+            "value": 183
+          },
+          {
+            "label": "PPA期限 年",
+            "value": 20
+          },
+          {
+            "label": "预计COD 年",
+            "value": 2028
+          },
+          {
+            "label": "REPT印尼规划产能 GWh",
+            "value": 8
+          },
+          {
+            "label": "日本LTDA BESS MW",
+            "value": 1251
+          },
+          {
+            "label": "日本LTDA项目数",
+            "value": 19
+          },
+          {
+            "label": "日本LTDA持续时长 h",
+            "value": 6
+          },
+          {
+            "label": "SMM电池级碳酸锂均价 元/吨",
+            "value": 179000
+          }
+        ]
+      },
+      {
+        "id": "headline-20260520-1700-nsw-12-5gwh-policy-quality",
+        "source": "ESS News / CNESA中关村储能产业技术联盟 / 国家能源局 / 工信部 / SMM上海有色 / NeoLink HTTP crawl",
+        "source_type": "海外行业媒体 / 国内产业联盟政策转引 / 监管政策 / 专业行情平台 / 本站回读",
+        "account_name": "ESS News / CNESA / 国家能源局 / 工信部 / SMM",
+        "category": "海外招标/长时储能/质量监管/电力市场规则/主材行情",
+        "title": "澳洲NSW启动第8、9轮招标：2.5GW新能源配套最高12.5GWh长时储能；国内储能质量监管与吉林市场规则同步纳入",
+        "summary": "17:00严格刷新发现新增可信信息：ESS News 05-20报道，澳大利亚新南威尔士州启动第8、9轮招标，Tender 8寻求2.5GW可再生能源发电，Tender 9为最大12.5GWh长时储能、按8小时持续时长设计，注册截止2026年6月16日、投标截止7月14日。国内政策侧，CNESA转发/解读国家能源局《新型储能电站建设工程质量监督大纲》，适用电源侧和电网侧100MW及以上电化学、压缩空气储能电站；吉林新版电力市场规则明确独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、日前现货和调频市场，现阶段独立新型储能技术门槛为不低于5MW、最大调节容量不低于10MW、持续充放电响应不低于2小时。SMM电池级碳酸锂公开页17:00复核仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "body": [
+          "海外招标侧，ESS News披露NSW Electricity Infrastructure Roadmap下第8、9轮招标启动，这是该州为煤电退出和高比例可再生电网准备的连续采购安排。",
+          "Tender 8寻求2.5GW新增风光等可再生能源发电LTESA；Tender 9寻求最高12.5GWh长时储能LTESA，按8小时持续时长设计，相当于约1.56GW/12.5GWh量级的长时容量需求。",
+          "本轮海外信息与16:00已采信的NSW第七轮532MW firming/2,128MWh储能不同：16:00是已签下的第七轮调峰资源，17:00新增的是第8、9轮开放注册的下一批发电与长时储能招标。",
+          "国内监管侧，CNESA转发/解读国家能源局《新型储能电站建设工程质量监督大纲》，其适用范围为电力行业电源侧、电网侧功率100MW及以上电化学储能和压缩空气储能电站建设工程质量监督，不适用于用户侧储能。",
+          "国内市场机制侧，吉林规则把独立储能、虚拟电厂、并网型绿电直连项目纳入电力市场经营主体，允许参与中长期交易、日前现货和调频市场；独立新型储能现阶段门槛为最大充放电功率不低于5MW、最大调节容量不低于10MW、持续充放电响应时间不低于2小时。",
+          "监管延伸侧，工信部等五部门开展废旧动力电池回收利用联合执法专项行动，2026年4月至6月底聚焦违规交售、非法拆解、溯源信息、违法运输和电动自行车用锂电池质量等问题。",
+          "行情侧，SMM 17:00复核电池级碳酸锂仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5。本轮MarketTrend更新招标、政策和监管证据链，不伪造新报价。"
+        ],
+        "key_points": [
+          "ESS News：NSW第8轮招标寻求2.5GW可再生能源发电LTESA；第9轮寻求最高12.5GWh、8小时长时储能LTESA。",
+          "第8、9轮注册截止2026-06-16，投标截止2026-07-14；与第七轮已签约2,128MWh firming项目不同，属于下一批开放招标。",
+          "CNESA/国家能源局：新型储能电站质量监督大纲适用于电源侧、电网侧100MW及以上电化学储能、压缩空气储能，不适用于用户侧。",
+          "吉林规则：独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、日前现货和调频市场；独立储能门槛不低于5MW、10MW调节容量、2小时。",
+          "SMM：电池级碳酸锂174000-184000元/吨，均价179000元/吨，日跌7500元/吨；报价未变。"
+        ],
+        "value": "12.5",
+        "unit": "GWh NSW第9轮长时储能招标上限",
+        "delta": "海外长时储能招标放量+国内质量监管和市场准入规则细化，偏正面但合规门槛上升",
+        "direction": "positive",
+        "date": "05-20",
+        "as_of": "2026-05-20 17:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/australia-opens-tenders-8-and-9-for-2-5-gw-of-solar-and-wind-alongside-12-5-gwh-of-storage/",
+        "original_url": "https://www.ess-news.com/2026/05/20/australia-opens-tenders-8-and-9-for-2-5-gw-of-solar-and-wind-alongside-12-5-gwh-of-storage/",
+        "related_urls": [
+          "https://www.cnesa.org/policy/detail/?column_id=6&id=8047",
+          "https://www.cnesa.org/policy/detail/?column_id=6&id=8046",
+          "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_c5091ef89af5444c9cba59a41be29b4b.html",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.ess-news.com/2026/05/20/lidl-launches-2-24-kwh-battery-in-germany-for-e299/"
+        ],
+        "clean_html": "<p>17:00新增：ESS News称NSW启动第8、9轮招标，寻求2.5GW可再生能源发电和最高12.5GWh、8小时长时储能；国内侧补充国家能源局新型储能电站质量监督大纲、吉林独立储能参与电力市场规则；SMM碳酸锂均价179000元/吨未变。</p>",
+        "caption": "海外长时储能招标继续扩容，国内储能从建设质量和市场准入两端同步细化规则。",
+        "methodology": "17:00严格刷新：web_search国内/海外两次返回HTTP 432，web_extract访问NeoLink因内网判定被阻断；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 89d690815489c5e1a311049a521b909911ed3e744f6e00f9a6e14656eb8aa3fe、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 f4e3d7a8d3c9ad722045264b539889634177ce4e3f952730a9e4fec4c22dd54e、CNESA a247bd73db0418e91b6a7d32704e9483a3262376eeeada24de37377f3bce4624；中国储能网/news/入口本轮404。海外入口：Energy-Storage.News 9a46f8bc1371646628c4ba6d89f1c138f060b6e935567489c8040e76e7198c42、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News 8084e6d27f25ea7f4fe6eb279387de94cdbb2dde87937a69a8c51886f3bc5a74、pv magazine 1192b8b7e60e7587b8ea0ff7f3d98c2c4f6a50861588bfe96d0a99280b350f58、SolarQuarter ed785c32a844e6c3eddf7ec313ec840e52bd2aacb733748711912261250e01a6。新增采信：ESS News文章sha256 b1fe76dd81c44659f0136ac5ddf6f558346cd598b2d0b7c6c5f0f75cc1ad9d0a显示澳大利亚NSW启动第8、9轮招标，其中Tender 8寻求2.5GW可再生能源发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册截止2026-06-16，投标截止2026-07-14。国内政策采信：CNESA/国家能源局质量监督大纲文章sha256 fe03e24ba1c0f7bc610fd2ad4dd6063bf13442ba963b524dc28aadb9bd905139显示适用于电源侧和电网侧100MW及以上电化学、压缩空气储能电站，不适用于用户侧；吉林电力市场规则文章sha256 0f37a30940708406f785aff9750fc4dccc4dc5a64b6b17bf2d89e82f978243a2显示独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、现货和调频市场，现阶段独立新型储能门槛不低于5MW、10MW调节容量、2小时。监管采信：工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c，专项行动2026年4月至6月底，聚焦违规交售、非法拆解、溯源信息等。行情复核：SMM电池级碳酸锂页sha256 5e70c1c76912363580eccb851e1655e02fa78025bfe910531b49f44fa5ece59b仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引。",
+        "history": [
+          {
+            "label": "NSW Tender 8发电容量 GW",
+            "value": 2.5
+          },
+          {
+            "label": "NSW Tender 9长时储能 GWh",
+            "value": 12.5
+          },
+          {
+            "label": "长时储能持续小时 h",
+            "value": 8
+          },
+          {
+            "label": "注册截止 月/日",
+            "value": 6.16
+          },
+          {
+            "label": "投标截止 月/日",
+            "value": 7.14
+          },
+          {
+            "label": "质量监督适用电站下限 MW",
+            "value": 100
+          },
+          {
+            "label": "吉林独立储能功率门槛 MW",
+            "value": 5
+          },
+          {
+            "label": "吉林独立储能调节容量门槛 MW",
+            "value": 10
+          },
+          {
+            "label": "吉林独立储能持续时间 h",
+            "value": 2
+          },
+          {
+            "label": "SMM电池级碳酸锂均价 元/吨",
+            "value": 179000
+          }
+        ]
+      },
+      {
+        "id": "headline-20260520-1600-nsw-lipf6-export-zhonghong",
+        "source": "Energy-Storage.News / SMM上海有色 / 电池网 / 北极星储能网 / NeoLink HTTP crawl",
+        "source_type": "海外行业媒体 / 专业行情与产业数据平台 / 国内产业媒体转载 / 国内行业门户首页 / 本站回读",
+        "account_name": "Energy-Storage.News / SMM新能源 / 电池网 / 北极星储能",
+        "category": "海外招标/六氟磷酸锂进出口/电网侧储能项目/主材行情",
+        "title": "NSW第七轮招标签下532MW调峰资源、合计2,128MWh储能；SMM称4月六氟磷酸锂出口环比降80.9%",
+        "summary": "16:00严格刷新发现新增可信信息：Energy-Storage.News披露，澳大利亚新南威尔士州第七轮基础设施招标签下532MW firming项目，授予1个电池储能系统和1个虚拟电厂长期能源服务协议，合计提供2,128MWh储能容量，目标2027年11月底前商运以应对2027-28年夏季供应缺口。国内材料侧，SMM新能源05-20文章显示，2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%；同日SMM转载电池网称中虹普能与河南周口商水县签约400MW/800MWh电网侧储能电站，总投资约12.8亿元，并称该国企20天内连投两大储能项目、总投资约32亿元。SMM电池级碳酸锂公开页仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "body": [
+          "海外公开源方面，Energy-Storage.News报道，NSW第七轮基础设施招标为Sydney-Newcastle-Wollongong区域锁定532MW firming项目，用于高峰需求和系统压力时段的电力供应韧性。",
+          "该轮招标授予1个BESS和1个VPP长期能源服务协议（LTESA），两个项目合计提供2,128MWh储能容量，并要求在2027年11月底前投入商业运营，以覆盖2027-28夏季可能出现的供需缺口。",
+          "国内材料侧，SMM新能源05-20发布六氟磷酸锂进出口数据，公开可见段落显示2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%。这与15:00采信的六氟磷酸锂现货均价升至17.65万元/吨形成供需与价格联动线索。",
+          "国内项目侧，SMM转载电池网称中虹普能5月16日与河南省周口市商水县人民政府签约400MW/800MWh电网侧储能电站项目，总投资约12.8亿元、占地100余亩，定位提升区域电网调节能力和绿电消纳水平。",
+          "该文标题称“20天内连投两大储能项目、总投资约32亿元”。公开段落可核验其中商水县400MW/800MWh、12.8亿元项目；其余项目细节处于登录后内容，未扩写。",
+          "行情侧，SMM电池级碳酸锂公开页16:00复核仍显示174000-184000元/吨、均价179000元/吨、日跌7500元/吨；电池级碳酸锂指数179616元/吨、日跌4555元/吨。本轮MarketTrend更新新增材料进出口和项目/招标证据链，不伪造新报价。"
+        ],
+        "key_points": [
+          "Energy-Storage.News：NSW第七轮基础设施招标签下532MW firming项目，覆盖1个BESS和1个VPP。",
+          "两个项目合计提供2,128MWh储能容量，目标2027年11月底前商运，用于应对2027-28夏季短缺风险。",
+          "SMM新能源：2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%。",
+          "SMM/电池网：中虹普能签约河南周口商水县400MW/800MWh电网侧储能电站，总投资约12.8亿元；标题口径称20天内两项目合计约32亿元。",
+          "SMM电池级碳酸锂价格仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。"
+        ],
+        "value": "2128",
+        "unit": "MWh NSW firming招标储能容量",
+        "delta": "海外调峰容量采购+国内六氟磷酸锂出口骤降+电网侧储能签约，偏正面但材料供给需观察",
+        "direction": "positive",
+        "date": "05-20",
+        "as_of": "2026-05-20 16:00 CST",
+        "url": "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/",
+        "original_url": "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/",
+        "related_urls": [
+          "https://newenergy.smm.cn/content/14042/103912482",
+          "https://newenergy.smm.cn/content/15002/103912285",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.bjx.com.cn/html/20260520/1496346.shtml",
+          "https://news.bjx.com.cn/html/20260520/1496344.shtml"
+        ],
+        "clean_html": "<p>16:00新增：Energy-Storage.News称NSW第七轮招标签下532MW firming项目、合计2,128MWh储能容量；SMM称2026年4月中国六氟磷酸锂出口约868吨、环比降80.9%；SMM/电池网称中虹普能签约河南周口400MW/800MWh电网侧储能，总投资约12.8亿元。</p>",
+        "caption": "海外调峰储能采购继续落地，国内六氟磷酸锂出口量骤降与电网侧储能签约同步出现。",
+        "methodology": "16:00严格刷新：web_search国内/海外两次返回HTTP 432；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/中国储能网/北极星储能/中国能源网、国家能源局、工信部、CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine等公开来源。NeoLink首页HTTP sha256 a7f36bcb202a86c8709f5ae70c186a444b823aa8c481a688f8a181df75ff5266，MarketTrend HTTP sha256 1f79b87b8862586b414d1736c5f0bdede7699aaa58486651ec8aa7e2da8dcad4。国内入口：中国储能网 a2607152817a75734d7ae5cd84b330c95e5e12464844f9723adae49a66afeee9、北极星储能 57733fa8965efc1cd1cacfaa4a95ca5ce1956e2b855e6c17c55d851d5a457701、SMM电池级碳酸锂 f038d532ef54491303da86b4db1841350aa97f64d7df950c86f84cf0cb723a10、SMM新能源 b3d65e9a8904e33d51721f766129ec8d63aae808737d123a33ebcc552bcabaa8、中国能源网 64b1817be3b4034dd70486d7439c589e7cab5bf28b331eff65f588dd0601ec28、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 54bf0a423d6ff2402bf40063563563fb065e65b6722f571fa0d38b610678b4c7、CNESA f86a24dd17560f117c73396f0edebaa3205bb62649c5c26fa6b77974fa890310。海外入口：Energy-Storage.News f83abef622ac1c4b7e436f0b16f15d33dcfb54325576b5ba9e3f2920a58d09bd、EnergyTrend 5f0c57c4edff6f47b4fd50f688cfd0e70ac1dda84fa3e19b11a4d59b9a721d5e、ESS News 6aaab4691a6176cdb165a30e8d6cdb005db0c58c238f37dd807c3b1e17a23deb、pv magazine 7a171b34aebb57c7f44b6a20864d3db827aec7c89b9bc0177ba813bab4d4baa5；SolarQuarter储能栏目返回404。新增采信：Energy-Storage.News文章sha256 e3f93f8baead15f75a4e31084094c3c4913457d9425f065c30b9469f73fd4118显示新南威尔士州第七轮基础设施招标签下532MW firming项目，包含1个BESS和1个VPP，合计提供2,128MWh储能容量，项目需在2027年11月底前商运以应对2027-28夏季缺口。新增采信：SMM新能源文章sha256 63006510a1564814f29966c883a82ad93951f59c2faab9c07c88c66ad3f3d7d1显示2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%；SMM转载电池网文章sha256 634184bfd1b371f955b703b28ee83a58bd95b8678087fc2d76fec1bd0c312cc4显示中虹普能与河南周口商水县签约400MW/800MWh电网侧储能电站，总投资约12.8亿元，并称其20天内连投两大储能项目总投资约32亿元。行情复核：SMM电池级碳酸锂页sha256 f1caf44d99dce9aedb9d65687f9b88a12f2a37278a387cdb7deb7d41ed6cd488仍显示电池级碳酸锂价格174000-184000元/吨、均价179000元/吨、日跌7500元/吨；SMM电池级碳酸锂指数179616元/吨、日跌4555元/吨。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引（台区储能季度新增14GWh、安徽独立储能现货结算收益约0.23元/kWh），未扩写未核验正文。",
+        "history": [
+          {
+            "label": "NSW firming容量 MW",
+            "value": 532
+          },
+          {
+            "label": "NSW储能容量 MWh",
+            "value": 2128
+          },
+          {
+            "label": "商运目标年份",
+            "value": 2027
+          },
+          {
+            "label": "六氟磷酸锂4月出口 吨",
+            "value": 868
+          },
+          {
+            "label": "六氟磷酸锂出口环比降幅 %",
+            "value": 80.9
+          },
+          {
+            "label": "商水储能功率 MW",
+            "value": 400
+          },
+          {
+            "label": "商水储能容量 MWh",
+            "value": 800
+          },
+          {
+            "label": "商水项目投资 亿元",
+            "value": 12.8
+          },
+          {
+            "label": "两项目标题口径投资 亿元",
+            "value": 32
+          },
+          {
+            "label": "SMM电池级碳酸锂均价 元/吨",
+            "value": 179000
+          }
+        ]
+      },
       {
         "id": "headline-20260520-1500-cornex-290gwh-lipf6",
         "source": "EnergyTrend / 中国储能网 / 中国化工信息周刊 / SMM上海有色 / 北极星储能网 / NeoLink HTTP crawl",
@@ -8920,6 +9246,156 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260520-1900-germany-2gwh-mn8",
+        "source": "ESS News / 国家能源局 / SMM上海有色 / NeoLink HTTP crawl",
+        "source_type": "海外行业媒体 / 官方政策 / 专业行情平台 / 本站回读",
+        "account_name": "ESS News / 国家能源局 / SMM",
+        "category": "海外项目/绿电直连/主材行情",
+        "title": "Copenhagen Energy与Akaysha拟建德国500MW/2GWh储能；MN8加州400MWh投运，国家能源局扩展多用户绿电直连",
+        "summary": "19:00严格刷新新增采信两条海外项目进展：ESS News 05-20披露，Copenhagen Energy与Akaysha Energy拟在德国Bühl建设500MW/2GWh、4小时大型电池储能，选址靠近超高压基础设施和既有变电站；MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并由Sonoma Clean Power签署10年tolling协议。国内政策侧，国家能源局发布多用户绿电直连项目通知及答问，明确风电、太阳能、生物质等新能源可通过专用线路和配电设施向多个用户供绿电，支持工商业园区、零碳园区等近区消纳场景。SMM电池级碳酸锂19:00复核仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "body": [
+          "海外项目侧，Copenhagen Energy与Akaysha Energy计划在德国Bühl建设四小时大型电池储能，功率500MW、容量2GWh；项目拟靠近超高压电网基础设施和既有变电站，降低接入和用地压力。",
+          "该项目体现欧洲大型储能从一小时级辅助服务向多小时能量搬移扩展，500MW/2GWh规模若落地，将成为德国市场重要的长时电池储备。",
+          "美国侧，MN8 Energy宣布加州Poway的Pome BESS商业运行，规模100MW/400MWh，接入CAISO电网，并与Sonoma Clean Power签有10年tolling协议；MN8称其加州运营储能组合达到1.5GWh。",
+          "国内政策侧，国家能源局多用户绿电直连通知在单一用户绿电直连基础上扩展适用范围，允许风电、太阳能、生物质等新能源通过专线和配电设施向多个用户供绿电，重点服务工商业园区、零碳园区等近区负荷。",
+          "行情侧，SMM公开页19:00复核电池级碳酸锂价格仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩均价21.55美元/千克、日跌0.5，本轮MarketTrend更新项目和政策证据链，不伪造新报价。"
+        ],
+        "key_points": [
+          "ESS News：德国Bühl项目规划500MW/2GWh、4小时电池储能，开发方为Copenhagen Energy与Akaysha Energy。",
+          "选址靠近超高压基础设施和既有变电站，项目将提交当地市政委员会讨论。",
+          "MN8 Energy：加州Poway 100MW/400MWh Pome BESS商业运行，Sonoma Clean Power签署10年tolling协议，MN8加州运营储能组合达1.5GWh。",
+          "国家能源局：多用户绿电直连覆盖风电、太阳能、生物质等新能源，支持工商业园区、零碳园区等近区消纳场景。",
+          "SMM：电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩均价21.55美元/千克。"
+        ],
+        "date": "05-20",
+        "as_of": "2026-05-20 19:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+        "original_url": "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+        "related_urls": [
+          "https://www.ess-news.com/2026/05/20/mn8-energy-brings-400-mwh-tolled-standalone-battery-online-in-southern-california/",
+          "https://www.nea.gov.cn/20260520/9e1c4277ce324c8ab82a84da98da7980/c.html",
+          "https://www.nea.gov.cn/20260520/99326d59f0404dc49577f0bfc7f3d930/c.html",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>19:00新增：ESS News披露Copenhagen Energy与Akaysha Energy拟在德国Bühl建设500MW/2GWh、4小时大型电池储能；MN8 Energy加州100MW/400MWh Pome BESS已商业运行。国内侧，国家能源局发布多用户绿电直连通知及答问；SMM电池级碳酸锂均价179000元/吨未变。</p>",
+        "caption": "海外大储项目继续放量，国内绿电直连政策扩展到多用户场景。",
+        "methodology": "19:00严格刷新：已重新抓取NeoLink首页和/markettrend/；国内侧抓取SMM、北极星储能、中国能源网、国家能源局、工信部、CNESA，海外侧抓取ESS News、Energy-Storage.News、EnergyTrend、pv magazine、SolarQuarter、Energy Storage Canada等公开来源；web_search仍返回HTTP 432，web_extract对本站报内网阻断，因此采用requests直连保存原始HTML并比对sha256，未仅刷新时间。本站回读：NeoLink首页HTTP 200 sha256 951a4dc1bfb60de95b31b1262a955dd8ec7eabc235011ea64735c3d1ffc90df9，MarketTrend HTTP 200 sha256 708bc8c685237d5065fce85156726e3cb0ff055efb3f115b1ff3f26510a102d7。国内入口：SMM电池级碳酸锂 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23，北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551，国家能源局 d6f70720db15a231a5f4587006814525b92c573a11c4117d4fb6c3e066b6ae3e，工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8，CNESA b94dc9ce7dbde7e2ec77b3a53c6e1f2e38d2b90f95a0879d2fbd6fab4efb7655。海外入口：ESS News f39a35a814004d26c84324dab269d17851612720162e4fe0d1a461922727c73e，Energy-Storage.News 380583d908631e8655dc62c59fbddcb4a512778595e10ad1a0cff800679f3991，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，pv magazine ab501ad350d5edbe04fc178c0198dce969c6e8a06ca744295fdde8b2f8791eb2，SolarQuarter e85d761f71af00d84c959e8f1db67a4b8fe4a8d0813715f4923d9f9a1ba8cb3f。新增采信：ESS News德国文章sha256 1993da30df156aa16dd5636b5d2613b2aa09d6cc752d7b68d01f015ad7c08ffe显示Copenhagen Energy与Akaysha Energy计划在德国Bühl建设500MW/2GWh、4小时大型电池储能，靠近超高压基础设施和既有变电站；ESS News加州文章sha256 78d208d38ada79565c00b093bcaa5fd3ad7cefbc9aa84bbd3eac09d0e7996b39显示MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并与Sonoma Clean Power签有10年tolling协议。国内政策复核：国家能源局多用户绿电直连通知sha256 a2f89ed8d4c1365f4ddf04edd768dea935a8cc44598fb44f7a0f9ebd908b2420及答问sha256 4114aea1ad4c7f05395ce77aed69d035b4b513234236af8c48417bb6628e49f2显示，多用户绿电直连在单一用户模式基础上扩展适用范围、交易机制和计量结算，服务工商业园区、零碳园区等就近消纳。行情复核：SMM电池级碳酸锂页sha256 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23显示2026-05-20价格区间174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩19.85-23.25美元/千克、均价21.55美元/千克、日跌0.5。"
+      },
+      {
+        "id": "latest-20260520-1800-grenergy-ppa",
+        "source": "ESS News / Energy-Storage.News / CNESA中关村储能产业技术联盟 / SMM上海有色 / NeoLink HTTP crawl",
+        "source_type": "海外行业媒体 / 国内产业联盟政策转引 / 专业行情平台 / 本站回读",
+        "account_name": "ESS News / Energy-Storage.News / CNESA / SMM",
+        "category": "海外PPA/储能制造/容量市场/并网考核/主材行情",
+        "title": "Grenergy签Georgia Power 20年PPA：229MW光伏+183MWh储能；瑞浦兰钧印尼BESS制造基地开业，日本1.251GW储能容量市场复核",
+        "summary": "18:00严格刷新发现新增可信海外项目：ESS News 05-20报道，Grenergy与Georgia Power为美国佐治亚州Beaver Creek混合项目签署20年、100%输出PPA，预计年电量约400GWh，项目包括229MW光伏和183MWh电池储能，预计2028年三季度商业运营、PPA于2029年5月生效。海外供应链侧，Energy-Storage.News复核瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地开业，此前计划8GWh、投资2.23亿美元；日本OCCTO第三轮LTDA容量市场选出19个电池储能项目合计1,251MW、6小时要求、20年固定收入合同。国内政策侧补充华北两个细则征求意见：储能电站AGC/AVC等关键功能并网后六个月内完成，违反调度纪律按装机容量×3小时考核电量，并纳入一次调频/APC/黑启动等辅助服务补偿讨论。SMM电池级碳酸锂公开页18:00复核仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "body": [
+          "项目侧，Grenergy的Beaver Creek PPA锁定Georgia Power 20年100%输出，预计约400GWh/年；项目配置229MW太阳能与183MWh电池储能，商业运营时间点预计在2028年三季度。",
+          "这类PPA降低了混合光储项目长期收入不确定性，也显示美国东南部公用事业客户开始将电池运营纳入清洁能源采购计划。",
+          "供应链侧，Energy-Storage.News称瑞浦兰钧/REPT Battero印尼电芯与BESS制造基地已开业，前期披露规划为8GWh、投资约2.23亿美元，是中国储能电池企业面向东南亚和海外订单的产能本地化信号。",
+          "市场机制侧，日本OCCTO第三轮LTDA选出19个BESS项目合计1,251MW，持续时长要求6小时，并授予20年固定收入合同；该机制继续把长时储能纳入电力系统充裕度资源。",
+          "国内规则侧，CNESA转引华北新版两个细则征求意见，独立储能和新能源配建储能均纳入调度考核；AGC/AVC等关键功能应在并网后六个月内完成，违反调度纪律每次按装机容量×3小时考核电量。",
+          "行情侧，SMM 18:00复核电池级碳酸锂仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；本轮MarketTrend更新海外PPA、制造和容量市场证据链，不伪造新报价。"
+        ],
+        "key_points": [
+          "ESS News：Beaver Creek项目签署20年Georgia Power PPA，覆盖100%输出，预计约400GWh/年。",
+          "项目配置229MW光伏+183MWh储能，商业运营预计2028年三季度，PPA自2029年5月生效。",
+          "Energy-Storage.News：瑞浦兰钧印尼电芯与BESS制造基地开业，前期计划8GWh、投资约2.23亿美元。",
+          "日本LTDA第三轮选出19个BESS项目合计1,251MW，6小时持续时长要求，20年固定收入合同。",
+          "CNESA华北规则：储能电站AGC/AVC并网后六个月内完成，违反调度纪律按装机容量×3小时考核电量；SMM碳酸锂均价179000元/吨未变。"
+        ],
+        "date": "05-20",
+        "as_of": "2026-05-20 18:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/grenergy-locks-in-20-year-georgia-power-400-gwh-100-ppa-for-its-beaver-creek-hybrid-project/",
+        "original_url": "https://www.ess-news.com/2026/05/20/grenergy-locks-in-20-year-georgia-power-400-gwh-100-ppa-for-its-beaver-creek-hybrid-project/",
+        "related_urls": [
+          "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+          "https://www.energy-storage.news/japans-grid-operators-select-1-25gw-of-bess-in-capacity-market-auction-with-6-hour-duration-requirement/",
+          "https://www.cnesa.org/policy/detail/?column_id=6&id=8045",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>18:00新增：Grenergy与Georgia Power签署Beaver Creek 20年PPA，项目含229MW光伏和183MWh储能、预计400GWh/年；补充瑞浦兰钧印尼BESS制造基地、日本1.251GW/6h容量市场和华北储能并网考核规则；SMM碳酸锂均价179000元/吨未变。</p>",
+        "caption": "海外光储PPA、储能制造本地化和长时容量市场继续推进，国内储能并网考核规则同步细化。",
+        "methodology": "18:00严格刷新：已主动发起国内/海外web_search（均返回HTTP 432）和web_extract NeoLink首页及/markettrend/（被判定为内网地址阻断），随后按硬要求改用requests直连重抓NeoLink首页、MarketTrend、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS仍握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 5f1f6b68a4f53e7f10708d64de6a7ce1bc0279340fa08728bc703a7457c652f9、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8、CNESA a9e107fb0107ca88644e350d3f8d1220eb177a4ba0f65a8efe7548925bc1fd32；中国储能网/news/入口本轮仍404。海外入口：Energy-Storage.News e69cf6daade5a10b87faa246fbdd4a676838cd48896760959c438708365b2c6e、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News f214db71d735ef52080d2deebe068dcfc036f773ac70cc3b035d99bbb3bdb52f、pv magazine 7a2ad76a130cee897122b22e0d96be717a26010043705cef9cd218a28dac075a、SolarQuarter 91255c53ca6890dbf4e397b60e73f44e32801cd8b95da13445ee8b4e35a34b21。新增采信：ESS News文章sha256 ce8e0b107224a2edd9b58fe680bbb0fe4cc312a58ebe056f8c4540bbe40696de显示Grenergy与Georgia Power签署Beaver Creek项目20年100%购电协议，预计年电量约400GWh，项目含229MW光伏和183MWh电池储能，商业运营预计2028年三季度，PPA自2029年5月生效。海外制造/市场复核：Energy-Storage.News文章sha256 6d4a7ae919ff7bfaccd716158d4218c5e8862d87a55e9fce7503af586a58c080显示瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地已开业，此前计划为8GWh、投资2.23亿美元；同站日本文章sha256 0c29ddec3a82f73785e775c31ed8dfac5caea98fa550735942d3c461f4c8bb78显示OCCTO第三轮LTDA选出19个电池储能项目合计1,251MW，6小时持续时长要求，获20年固定收入合同。国内政策复核：CNESA华北两个细则征求意见文章sha256 a1e63467778e583335e95d45886ba0b528958a367fd6c9ee3f08c45e38a9f2f7，明确新型储能管理考核、AGC/AVC并网后六个月内完成、违反调度纪律按装机容量×3小时考核电量，并提及一次调频/APC/黑启动等辅助服务补偿。行情复核：SMM电池级碳酸锂页sha256 36b21ebd87dc6d6a4caeb52a09245c5a059f14a291925cf35fa188f2cd6afaf7仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。"
+      },
+      {
+        "id": "latest-20260520-1700-nsw-tenders-policy",
+        "source": "ESS News / CNESA中关村储能产业技术联盟 / 国家能源局 / 工信部 / SMM上海有色 / NeoLink HTTP crawl",
+        "source_type": "海外行业媒体 / 国内产业联盟政策转引 / 监管政策 / 专业行情平台 / 本站回读",
+        "account_name": "ESS News / CNESA / 国家能源局 / 工信部 / SMM",
+        "category": "海外招标/长时储能/质量监管/电力市场规则/主材行情",
+        "title": "澳洲NSW启动第8、9轮招标：2.5GW新能源配套最高12.5GWh长时储能；国内储能质量监管与吉林市场规则同步纳入",
+        "summary": "17:00严格刷新发现新增可信信息：ESS News 05-20报道，澳大利亚新南威尔士州启动第8、9轮招标，Tender 8寻求2.5GW可再生能源发电，Tender 9为最大12.5GWh长时储能、按8小时持续时长设计，注册截止2026年6月16日、投标截止7月14日。国内政策侧，CNESA转发/解读国家能源局《新型储能电站建设工程质量监督大纲》，适用电源侧和电网侧100MW及以上电化学、压缩空气储能电站；吉林新版电力市场规则明确独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、日前现货和调频市场，现阶段独立新型储能技术门槛为不低于5MW、最大调节容量不低于10MW、持续充放电响应不低于2小时。SMM电池级碳酸锂公开页17:00复核仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "body": [
+          "海外招标侧，ESS News披露NSW Electricity Infrastructure Roadmap下第8、9轮招标启动，这是该州为煤电退出和高比例可再生电网准备的连续采购安排。",
+          "Tender 8寻求2.5GW新增风光等可再生能源发电LTESA；Tender 9寻求最高12.5GWh长时储能LTESA，按8小时持续时长设计，相当于约1.56GW/12.5GWh量级的长时容量需求。",
+          "本轮海外信息与16:00已采信的NSW第七轮532MW firming/2,128MWh储能不同：16:00是已签下的第七轮调峰资源，17:00新增的是第8、9轮开放注册的下一批发电与长时储能招标。",
+          "国内监管侧，CNESA转发/解读国家能源局《新型储能电站建设工程质量监督大纲》，其适用范围为电力行业电源侧、电网侧功率100MW及以上电化学储能和压缩空气储能电站建设工程质量监督，不适用于用户侧储能。",
+          "国内市场机制侧，吉林规则把独立储能、虚拟电厂、并网型绿电直连项目纳入电力市场经营主体，允许参与中长期交易、日前现货和调频市场；独立新型储能现阶段门槛为最大充放电功率不低于5MW、最大调节容量不低于10MW、持续充放电响应时间不低于2小时。",
+          "监管延伸侧，工信部等五部门开展废旧动力电池回收利用联合执法专项行动，2026年4月至6月底聚焦违规交售、非法拆解、溯源信息、违法运输和电动自行车用锂电池质量等问题。",
+          "行情侧，SMM 17:00复核电池级碳酸锂仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5。本轮MarketTrend更新招标、政策和监管证据链，不伪造新报价。"
+        ],
+        "key_points": [
+          "ESS News：NSW第8轮招标寻求2.5GW可再生能源发电LTESA；第9轮寻求最高12.5GWh、8小时长时储能LTESA。",
+          "第8、9轮注册截止2026-06-16，投标截止2026-07-14；与第七轮已签约2,128MWh firming项目不同，属于下一批开放招标。",
+          "CNESA/国家能源局：新型储能电站质量监督大纲适用于电源侧、电网侧100MW及以上电化学储能、压缩空气储能，不适用于用户侧。",
+          "吉林规则：独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、日前现货和调频市场；独立储能门槛不低于5MW、10MW调节容量、2小时。",
+          "SMM：电池级碳酸锂174000-184000元/吨，均价179000元/吨，日跌7500元/吨；报价未变。"
+        ],
+        "date": "05-20",
+        "as_of": "2026-05-20 17:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/australia-opens-tenders-8-and-9-for-2-5-gw-of-solar-and-wind-alongside-12-5-gwh-of-storage/",
+        "original_url": "https://www.ess-news.com/2026/05/20/australia-opens-tenders-8-and-9-for-2-5-gw-of-solar-and-wind-alongside-12-5-gwh-of-storage/",
+        "related_urls": [
+          "https://www.cnesa.org/policy/detail/?column_id=6&id=8047",
+          "https://www.cnesa.org/policy/detail/?column_id=6&id=8046",
+          "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_c5091ef89af5444c9cba59a41be29b4b.html",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.ess-news.com/2026/05/20/lidl-launches-2-24-kwh-battery-in-germany-for-e299/"
+        ],
+        "clean_html": "<p>17:00新增：ESS News称NSW启动第8、9轮招标，寻求2.5GW可再生能源发电和最高12.5GWh、8小时长时储能；国内侧补充国家能源局新型储能电站质量监督大纲、吉林独立储能参与电力市场规则；SMM碳酸锂均价179000元/吨未变。</p>",
+        "caption": "海外长时储能招标继续扩容，国内储能从建设质量和市场准入两端同步细化规则。",
+        "methodology": "17:00严格刷新：web_search国内/海外两次返回HTTP 432，web_extract访问NeoLink因内网判定被阻断；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 89d690815489c5e1a311049a521b909911ed3e744f6e00f9a6e14656eb8aa3fe、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 f4e3d7a8d3c9ad722045264b539889634177ce4e3f952730a9e4fec4c22dd54e、CNESA a247bd73db0418e91b6a7d32704e9483a3262376eeeada24de37377f3bce4624；中国储能网/news/入口本轮404。海外入口：Energy-Storage.News 9a46f8bc1371646628c4ba6d89f1c138f060b6e935567489c8040e76e7198c42、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News 8084e6d27f25ea7f4fe6eb279387de94cdbb2dde87937a69a8c51886f3bc5a74、pv magazine 1192b8b7e60e7587b8ea0ff7f3d98c2c4f6a50861588bfe96d0a99280b350f58、SolarQuarter ed785c32a844e6c3eddf7ec313ec840e52bd2aacb733748711912261250e01a6。新增采信：ESS News文章sha256 b1fe76dd81c44659f0136ac5ddf6f558346cd598b2d0b7c6c5f0f75cc1ad9d0a显示澳大利亚NSW启动第8、9轮招标，其中Tender 8寻求2.5GW可再生能源发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册截止2026-06-16，投标截止2026-07-14。国内政策采信：CNESA/国家能源局质量监督大纲文章sha256 fe03e24ba1c0f7bc610fd2ad4dd6063bf13442ba963b524dc28aadb9bd905139显示适用于电源侧和电网侧100MW及以上电化学、压缩空气储能电站，不适用于用户侧；吉林电力市场规则文章sha256 0f37a30940708406f785aff9750fc4dccc4dc5a64b6b17bf2d89e82f978243a2显示独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、现货和调频市场，现阶段独立新型储能门槛不低于5MW、10MW调节容量、2小时。监管采信：工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c，专项行动2026年4月至6月底，聚焦违规交售、非法拆解、溯源信息等。行情复核：SMM电池级碳酸锂页sha256 5e70c1c76912363580eccb851e1655e02fa78025bfe910531b49f44fa5ece59b仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引。"
+      },
+      {
+        "id": "latest-20260520-1600-nsw-lipf6-export",
+        "source": "Energy-Storage.News / SMM上海有色 / 电池网 / 北极星储能网 / NeoLink HTTP crawl",
+        "source_type": "海外行业媒体 / 专业行情与产业数据平台 / 国内产业媒体转载 / 国内行业门户首页 / 本站回读",
+        "account_name": "Energy-Storage.News / SMM新能源 / 电池网 / 北极星储能",
+        "category": "海外招标/六氟磷酸锂进出口/电网侧储能项目/主材行情",
+        "title": "NSW第七轮招标签下532MW调峰资源、合计2,128MWh储能；SMM称4月六氟磷酸锂出口环比降80.9%",
+        "summary": "16:00严格刷新发现新增可信信息：Energy-Storage.News披露，澳大利亚新南威尔士州第七轮基础设施招标签下532MW firming项目，授予1个电池储能系统和1个虚拟电厂长期能源服务协议，合计提供2,128MWh储能容量，目标2027年11月底前商运以应对2027-28年夏季供应缺口。国内材料侧，SMM新能源05-20文章显示，2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%；同日SMM转载电池网称中虹普能与河南周口商水县签约400MW/800MWh电网侧储能电站，总投资约12.8亿元，并称该国企20天内连投两大储能项目、总投资约32亿元。SMM电池级碳酸锂公开页仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "body": [
+          "海外公开源方面，Energy-Storage.News报道，NSW第七轮基础设施招标为Sydney-Newcastle-Wollongong区域锁定532MW firming项目，用于高峰需求和系统压力时段的电力供应韧性。",
+          "该轮招标授予1个BESS和1个VPP长期能源服务协议（LTESA），两个项目合计提供2,128MWh储能容量，并要求在2027年11月底前投入商业运营，以覆盖2027-28夏季可能出现的供需缺口。",
+          "国内材料侧，SMM新能源05-20发布六氟磷酸锂进出口数据，公开可见段落显示2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%。这与15:00采信的六氟磷酸锂现货均价升至17.65万元/吨形成供需与价格联动线索。",
+          "国内项目侧，SMM转载电池网称中虹普能5月16日与河南省周口市商水县人民政府签约400MW/800MWh电网侧储能电站项目，总投资约12.8亿元、占地100余亩，定位提升区域电网调节能力和绿电消纳水平。",
+          "该文标题称“20天内连投两大储能项目、总投资约32亿元”。公开段落可核验其中商水县400MW/800MWh、12.8亿元项目；其余项目细节处于登录后内容，未扩写。",
+          "行情侧，SMM电池级碳酸锂公开页16:00复核仍显示174000-184000元/吨、均价179000元/吨、日跌7500元/吨；电池级碳酸锂指数179616元/吨、日跌4555元/吨。本轮MarketTrend更新新增材料进出口和项目/招标证据链，不伪造新报价。"
+        ],
+        "key_points": [
+          "Energy-Storage.News：NSW第七轮基础设施招标签下532MW firming项目，覆盖1个BESS和1个VPP。",
+          "两个项目合计提供2,128MWh储能容量，目标2027年11月底前商运，用于应对2027-28夏季短缺风险。",
+          "SMM新能源：2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%。",
+          "SMM/电池网：中虹普能签约河南周口商水县400MW/800MWh电网侧储能电站，总投资约12.8亿元；标题口径称20天内两项目合计约32亿元。",
+          "SMM电池级碳酸锂价格仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。"
+        ],
+        "date": "05-20",
+        "as_of": "2026-05-20 16:00 CST",
+        "url": "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/",
+        "original_url": "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/",
+        "related_urls": [
+          "https://newenergy.smm.cn/content/14042/103912482",
+          "https://newenergy.smm.cn/content/15002/103912285",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.bjx.com.cn/html/20260520/1496346.shtml",
+          "https://news.bjx.com.cn/html/20260520/1496344.shtml"
+        ],
+        "clean_html": "<p>16:00新增：Energy-Storage.News称NSW第七轮招标签下532MW firming项目、合计2,128MWh储能容量；SMM称2026年4月中国六氟磷酸锂出口约868吨、环比降80.9%；SMM/电池网称中虹普能签约河南周口400MW/800MWh电网侧储能，总投资约12.8亿元。</p>",
+        "caption": "海外调峰储能采购继续落地，国内六氟磷酸锂出口量骤降与电网侧储能签约同步出现。",
+        "methodology": "16:00严格刷新：web_search国内/海外两次返回HTTP 432；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/中国储能网/北极星储能/中国能源网、国家能源局、工信部、CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine等公开来源。NeoLink首页HTTP sha256 a7f36bcb202a86c8709f5ae70c186a444b823aa8c481a688f8a181df75ff5266，MarketTrend HTTP sha256 1f79b87b8862586b414d1736c5f0bdede7699aaa58486651ec8aa7e2da8dcad4。国内入口：中国储能网 a2607152817a75734d7ae5cd84b330c95e5e12464844f9723adae49a66afeee9、北极星储能 57733fa8965efc1cd1cacfaa4a95ca5ce1956e2b855e6c17c55d851d5a457701、SMM电池级碳酸锂 f038d532ef54491303da86b4db1841350aa97f64d7df950c86f84cf0cb723a10、SMM新能源 b3d65e9a8904e33d51721f766129ec8d63aae808737d123a33ebcc552bcabaa8、中国能源网 64b1817be3b4034dd70486d7439c589e7cab5bf28b331eff65f588dd0601ec28、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 54bf0a423d6ff2402bf40063563563fb065e65b6722f571fa0d38b610678b4c7、CNESA f86a24dd17560f117c73396f0edebaa3205bb62649c5c26fa6b77974fa890310。海外入口：Energy-Storage.News f83abef622ac1c4b7e436f0b16f15d33dcfb54325576b5ba9e3f2920a58d09bd、EnergyTrend 5f0c57c4edff6f47b4fd50f688cfd0e70ac1dda84fa3e19b11a4d59b9a721d5e、ESS News 6aaab4691a6176cdb165a30e8d6cdb005db0c58c238f37dd807c3b1e17a23deb、pv magazine 7a171b34aebb57c7f44b6a20864d3db827aec7c89b9bc0177ba813bab4d4baa5；SolarQuarter储能栏目返回404。新增采信：Energy-Storage.News文章sha256 e3f93f8baead15f75a4e31084094c3c4913457d9425f065c30b9469f73fd4118显示新南威尔士州第七轮基础设施招标签下532MW firming项目，包含1个BESS和1个VPP，合计提供2,128MWh储能容量，项目需在2027年11月底前商运以应对2027-28夏季缺口。新增采信：SMM新能源文章sha256 63006510a1564814f29966c883a82ad93951f59c2faab9c07c88c66ad3f3d7d1显示2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%；SMM转载电池网文章sha256 634184bfd1b371f955b703b28ee83a58bd95b8678087fc2d76fec1bd0c312cc4显示中虹普能与河南周口商水县签约400MW/800MWh电网侧储能电站，总投资约12.8亿元，并称其20天内连投两大储能项目总投资约32亿元。行情复核：SMM电池级碳酸锂页sha256 f1caf44d99dce9aedb9d65687f9b88a12f2a37278a387cdb7deb7d41ed6cd488仍显示电池级碳酸锂价格174000-184000元/吨、均价179000元/吨、日跌7500元/吨；SMM电池级碳酸锂指数179616元/吨、日跌4555元/吨。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引（台区储能季度新增14GWh、安徽独立储能现货结算收益约0.23元/kWh），未扩写未核验正文。"
+      },
       {
         "id": "latest-20260520-1500-cornex-lipf6-smm",
         "source": "EnergyTrend / 中国储能网 / 中国化工信息周刊 / SMM上海有色 / 北极星储能网 / NeoLink HTTP crawl",
@@ -25980,6 +26456,42 @@ window.NEOLINK_FEED= {
     ],
     "policy": [
       {
+        "id": "policy-20260520-1900-multi-user-green-direct",
+        "source": "国家能源局",
+        "category": "绿电直连/新能源消纳",
+        "title": "国家能源局发布多用户绿电直连通知：支持工商业园区、零碳园区等近区消纳",
+        "summary": "国家能源局05-20公开多用户绿电直连通知及答问，明确风电、太阳能、生物质等新能源可通过专用线路和配电设施向多个用户供应绿电，项目按接入公共电网方式分为并网型和离网型。",
+        "date": "05-20",
+        "as_of": "2026-05-20 19:00 CST",
+        "url": "https://www.nea.gov.cn/20260520/9e1c4277ce324c8ab82a84da98da7980/c.html",
+        "methodology": "19:00严格刷新：已重新抓取NeoLink首页和/markettrend/；国内侧抓取SMM、北极星储能、中国能源网、国家能源局、工信部、CNESA，海外侧抓取ESS News、Energy-Storage.News、EnergyTrend、pv magazine、SolarQuarter、Energy Storage Canada等公开来源；web_search仍返回HTTP 432，web_extract对本站报内网阻断，因此采用requests直连保存原始HTML并比对sha256，未仅刷新时间。本站回读：NeoLink首页HTTP 200 sha256 951a4dc1bfb60de95b31b1262a955dd8ec7eabc235011ea64735c3d1ffc90df9，MarketTrend HTTP 200 sha256 708bc8c685237d5065fce85156726e3cb0ff055efb3f115b1ff3f26510a102d7。国内入口：SMM电池级碳酸锂 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23，北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551，国家能源局 d6f70720db15a231a5f4587006814525b92c573a11c4117d4fb6c3e066b6ae3e，工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8，CNESA b94dc9ce7dbde7e2ec77b3a53c6e1f2e38d2b90f95a0879d2fbd6fab4efb7655。海外入口：ESS News f39a35a814004d26c84324dab269d17851612720162e4fe0d1a461922727c73e，Energy-Storage.News 380583d908631e8655dc62c59fbddcb4a512778595e10ad1a0cff800679f3991，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，pv magazine ab501ad350d5edbe04fc178c0198dce969c6e8a06ca744295fdde8b2f8791eb2，SolarQuarter e85d761f71af00d84c959e8f1db67a4b8fe4a8d0813715f4923d9f9a1ba8cb3f。新增采信：ESS News德国文章sha256 1993da30df156aa16dd5636b5d2613b2aa09d6cc752d7b68d01f015ad7c08ffe显示Copenhagen Energy与Akaysha Energy计划在德国Bühl建设500MW/2GWh、4小时大型电池储能，靠近超高压基础设施和既有变电站；ESS News加州文章sha256 78d208d38ada79565c00b093bcaa5fd3ad7cefbc9aa84bbd3eac09d0e7996b39显示MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并与Sonoma Clean Power签有10年tolling协议。国内政策复核：国家能源局多用户绿电直连通知sha256 a2f89ed8d4c1365f4ddf04edd768dea935a8cc44598fb44f7a0f9ebd908b2420及答问sha256 4114aea1ad4c7f05395ce77aed69d035b4b513234236af8c48417bb6628e49f2显示，多用户绿电直连在单一用户模式基础上扩展适用范围、交易机制和计量结算，服务工商业园区、零碳园区等就近消纳。行情复核：SMM电池级碳酸锂页sha256 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23显示2026-05-20价格区间174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩19.85-23.25美元/千克、均价21.55美元/千克、日跌0.5。"
+      },
+      {
+        "id": "policy-20260520-1800-north-china-storage-dispatch",
+        "source": "CNESA / 华北能源监管局",
+        "category": "并网运行/辅助服务/调度考核",
+        "title": "华北两个细则征求意见：储能AGC/AVC六个月内完成，调度违纪按装机×3小时考核",
+        "summary": "CNESA转引华北两个细则征求意见，适用于已并入华北电网、由地市级及以上调度管辖的独立储能和新能源配建储能；储能电站自首个变流器并网起纳入考核，AGC/AVC等关键功能并网后六个月内完成。",
+        "date": "05-20",
+        "as_of": "2026-05-20 18:00 CST",
+        "url": "https://www.cnesa.org/policy/detail/?column_id=6&id=8045",
+        "methodology": "18:00严格刷新：已主动发起国内/海外web_search（均返回HTTP 432）和web_extract NeoLink首页及/markettrend/（被判定为内网地址阻断），随后按硬要求改用requests直连重抓NeoLink首页、MarketTrend、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS仍握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 5f1f6b68a4f53e7f10708d64de6a7ce1bc0279340fa08728bc703a7457c652f9、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8、CNESA a9e107fb0107ca88644e350d3f8d1220eb177a4ba0f65a8efe7548925bc1fd32；中国储能网/news/入口本轮仍404。海外入口：Energy-Storage.News e69cf6daade5a10b87faa246fbdd4a676838cd48896760959c438708365b2c6e、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News f214db71d735ef52080d2deebe068dcfc036f773ac70cc3b035d99bbb3bdb52f、pv magazine 7a2ad76a130cee897122b22e0d96be717a26010043705cef9cd218a28dac075a、SolarQuarter 91255c53ca6890dbf4e397b60e73f44e32801cd8b95da13445ee8b4e35a34b21。新增采信：ESS News文章sha256 ce8e0b107224a2edd9b58fe680bbb0fe4cc312a58ebe056f8c4540bbe40696de显示Grenergy与Georgia Power签署Beaver Creek项目20年100%购电协议，预计年电量约400GWh，项目含229MW光伏和183MWh电池储能，商业运营预计2028年三季度，PPA自2029年5月生效。海外制造/市场复核：Energy-Storage.News文章sha256 6d4a7ae919ff7bfaccd716158d4218c5e8862d87a55e9fce7503af586a58c080显示瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地已开业，此前计划为8GWh、投资2.23亿美元；同站日本文章sha256 0c29ddec3a82f73785e775c31ed8dfac5caea98fa550735942d3c461f4c8bb78显示OCCTO第三轮LTDA选出19个电池储能项目合计1,251MW，6小时持续时长要求，获20年固定收入合同。国内政策复核：CNESA华北两个细则征求意见文章sha256 a1e63467778e583335e95d45886ba0b528958a367fd6c9ee3f08c45e38a9f2f7，明确新型储能管理考核、AGC/AVC并网后六个月内完成、违反调度纪律按装机容量×3小时考核电量，并提及一次调频/APC/黑启动等辅助服务补偿。行情复核：SMM电池级碳酸锂页sha256 36b21ebd87dc6d6a4caeb52a09245c5a059f14a291925cf35fa188f2cd6afaf7仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。"
+      },
+      {
+        "id": "policy-20260520-1700-quality-jilin-storage-market",
+        "source": "CNESA / 国家能源局 / 吉林电力交易中心",
+        "category": "质量监管/电力市场规则",
+        "title": "新型储能质量监督大纲与吉林市场规则：100MW质量监管、5MW/2h独立储能入市门槛",
+        "summary": "国家能源局质量监督大纲适用于电源侧和电网侧100MW及以上电化学、压缩空气储能电站；吉林规则允许独立储能、虚拟电厂、并网型绿电直连项目参与中长期、日前现货和调频市场。",
+        "date": "05-20",
+        "as_of": "2026-05-20 17:00 CST",
+        "url": "https://www.cnesa.org/policy/detail/?column_id=6&id=8047",
+        "related_urls": [
+          "https://www.cnesa.org/policy/detail/?column_id=6&id=8046"
+        ],
+        "methodology": "17:00严格刷新：web_search国内/海外两次返回HTTP 432，web_extract访问NeoLink因内网判定被阻断；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 89d690815489c5e1a311049a521b909911ed3e744f6e00f9a6e14656eb8aa3fe、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 f4e3d7a8d3c9ad722045264b539889634177ce4e3f952730a9e4fec4c22dd54e、CNESA a247bd73db0418e91b6a7d32704e9483a3262376eeeada24de37377f3bce4624；中国储能网/news/入口本轮404。海外入口：Energy-Storage.News 9a46f8bc1371646628c4ba6d89f1c138f060b6e935567489c8040e76e7198c42、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News 8084e6d27f25ea7f4fe6eb279387de94cdbb2dde87937a69a8c51886f3bc5a74、pv magazine 1192b8b7e60e7587b8ea0ff7f3d98c2c4f6a50861588bfe96d0a99280b350f58、SolarQuarter ed785c32a844e6c3eddf7ec313ec840e52bd2aacb733748711912261250e01a6。新增采信：ESS News文章sha256 b1fe76dd81c44659f0136ac5ddf6f558346cd598b2d0b7c6c5f0f75cc1ad9d0a显示澳大利亚NSW启动第8、9轮招标，其中Tender 8寻求2.5GW可再生能源发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册截止2026-06-16，投标截止2026-07-14。国内政策采信：CNESA/国家能源局质量监督大纲文章sha256 fe03e24ba1c0f7bc610fd2ad4dd6063bf13442ba963b524dc28aadb9bd905139显示适用于电源侧和电网侧100MW及以上电化学、压缩空气储能电站，不适用于用户侧；吉林电力市场规则文章sha256 0f37a30940708406f785aff9750fc4dccc4dc5a64b6b17bf2d89e82f978243a2显示独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、现货和调频市场，现阶段独立新型储能门槛不低于5MW、10MW调节容量、2小时。监管采信：工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c，专项行动2026年4月至6月底，聚焦违规交售、非法拆解、溯源信息等。行情复核：SMM电池级碳酸锂页sha256 5e70c1c76912363580eccb851e1655e02fa78025bfe910531b49f44fa5ece59b仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引。"
+      },
+      {
         "id": "policy-20260520-1200-miit-battery-recycling-enforcement",
         "source": "工业和信息化部 / 生态环境部 / 交通运输部 / 商务部 / 市场监管总局",
         "source_type": "政府主管部门",
@@ -27497,6 +28009,58 @@ window.NEOLINK_FEED= {
       }
     ],
     "materials": [
+      {
+        "id": "material-20260520-1900-li2co3-cif",
+        "name": "电池级碳酸锂",
+        "spec": "SMM公开页；含CIF中日韩复核",
+        "value": "179000",
+        "unit": "元/吨",
+        "change": "日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5；19:00未变",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-20 19:00 CST",
+        "methodology": "19:00严格刷新：已重新抓取NeoLink首页和/markettrend/；国内侧抓取SMM、北极星储能、中国能源网、国家能源局、工信部、CNESA，海外侧抓取ESS News、Energy-Storage.News、EnergyTrend、pv magazine、SolarQuarter、Energy Storage Canada等公开来源；web_search仍返回HTTP 432，web_extract对本站报内网阻断，因此采用requests直连保存原始HTML并比对sha256，未仅刷新时间。本站回读：NeoLink首页HTTP 200 sha256 951a4dc1bfb60de95b31b1262a955dd8ec7eabc235011ea64735c3d1ffc90df9，MarketTrend HTTP 200 sha256 708bc8c685237d5065fce85156726e3cb0ff055efb3f115b1ff3f26510a102d7。国内入口：SMM电池级碳酸锂 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23，北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551，国家能源局 d6f70720db15a231a5f4587006814525b92c573a11c4117d4fb6c3e066b6ae3e，工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8，CNESA b94dc9ce7dbde7e2ec77b3a53c6e1f2e38d2b90f95a0879d2fbd6fab4efb7655。海外入口：ESS News f39a35a814004d26c84324dab269d17851612720162e4fe0d1a461922727c73e，Energy-Storage.News 380583d908631e8655dc62c59fbddcb4a512778595e10ad1a0cff800679f3991，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，pv magazine ab501ad350d5edbe04fc178c0198dce969c6e8a06ca744295fdde8b2f8791eb2，SolarQuarter e85d761f71af00d84c959e8f1db67a4b8fe4a8d0813715f4923d9f9a1ba8cb3f。新增采信：ESS News德国文章sha256 1993da30df156aa16dd5636b5d2613b2aa09d6cc752d7b68d01f015ad7c08ffe显示Copenhagen Energy与Akaysha Energy计划在德国Bühl建设500MW/2GWh、4小时大型电池储能，靠近超高压基础设施和既有变电站；ESS News加州文章sha256 78d208d38ada79565c00b093bcaa5fd3ad7cefbc9aa84bbd3eac09d0e7996b39显示MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并与Sonoma Clean Power签有10年tolling协议。国内政策复核：国家能源局多用户绿电直连通知sha256 a2f89ed8d4c1365f4ddf04edd768dea935a8cc44598fb44f7a0f9ebd908b2420及答问sha256 4114aea1ad4c7f05395ce77aed69d035b4b513234236af8c48417bb6628e49f2显示，多用户绿电直连在单一用户模式基础上扩展适用范围、交易机制和计量结算，服务工商业园区、零碳园区等就近消纳。行情复核：SMM电池级碳酸锂页sha256 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23显示2026-05-20价格区间174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩19.85-23.25美元/千克、均价21.55美元/千克、日跌0.5。"
+      },
+      {
+        "id": "material-20260520-1800-li2co3-cif",
+        "name": "电池级碳酸锂",
+        "spec": "SMM公开页；含CIF中日韩复核",
+        "value": "179000",
+        "unit": "元/吨",
+        "change": "日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5；18:00未变",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-20 18:00 CST",
+        "methodology": "18:00严格刷新：已主动发起国内/海外web_search（均返回HTTP 432）和web_extract NeoLink首页及/markettrend/（被判定为内网地址阻断），随后按硬要求改用requests直连重抓NeoLink首页、MarketTrend、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS仍握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 5f1f6b68a4f53e7f10708d64de6a7ce1bc0279340fa08728bc703a7457c652f9、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8、CNESA a9e107fb0107ca88644e350d3f8d1220eb177a4ba0f65a8efe7548925bc1fd32；中国储能网/news/入口本轮仍404。海外入口：Energy-Storage.News e69cf6daade5a10b87faa246fbdd4a676838cd48896760959c438708365b2c6e、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News f214db71d735ef52080d2deebe068dcfc036f773ac70cc3b035d99bbb3bdb52f、pv magazine 7a2ad76a130cee897122b22e0d96be717a26010043705cef9cd218a28dac075a、SolarQuarter 91255c53ca6890dbf4e397b60e73f44e32801cd8b95da13445ee8b4e35a34b21。新增采信：ESS News文章sha256 ce8e0b107224a2edd9b58fe680bbb0fe4cc312a58ebe056f8c4540bbe40696de显示Grenergy与Georgia Power签署Beaver Creek项目20年100%购电协议，预计年电量约400GWh，项目含229MW光伏和183MWh电池储能，商业运营预计2028年三季度，PPA自2029年5月生效。海外制造/市场复核：Energy-Storage.News文章sha256 6d4a7ae919ff7bfaccd716158d4218c5e8862d87a55e9fce7503af586a58c080显示瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地已开业，此前计划为8GWh、投资2.23亿美元；同站日本文章sha256 0c29ddec3a82f73785e775c31ed8dfac5caea98fa550735942d3c461f4c8bb78显示OCCTO第三轮LTDA选出19个电池储能项目合计1,251MW，6小时持续时长要求，获20年固定收入合同。国内政策复核：CNESA华北两个细则征求意见文章sha256 a1e63467778e583335e95d45886ba0b528958a367fd6c9ee3f08c45e38a9f2f7，明确新型储能管理考核、AGC/AVC并网后六个月内完成、违反调度纪律按装机容量×3小时考核电量，并提及一次调频/APC/黑启动等辅助服务补偿。行情复核：SMM电池级碳酸锂页sha256 36b21ebd87dc6d6a4caeb52a09245c5a059f14a291925cf35fa188f2cd6afaf7仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。"
+      },
+      {
+        "id": "material-20260520-1700-li2co3-cif",
+        "name": "电池级碳酸锂",
+        "spec": "SMM公开页；含CIF中日韩复核",
+        "value": "179000",
+        "unit": "元/吨",
+        "change": "日跌7500元/吨；CIF中日韩21.55美元/千克、跌0.5",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-20 17:00 CST",
+        "methodology": "17:00严格刷新：web_search国内/海外两次返回HTTP 432，web_extract访问NeoLink因内网判定被阻断；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 89d690815489c5e1a311049a521b909911ed3e744f6e00f9a6e14656eb8aa3fe、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 f4e3d7a8d3c9ad722045264b539889634177ce4e3f952730a9e4fec4c22dd54e、CNESA a247bd73db0418e91b6a7d32704e9483a3262376eeeada24de37377f3bce4624；中国储能网/news/入口本轮404。海外入口：Energy-Storage.News 9a46f8bc1371646628c4ba6d89f1c138f060b6e935567489c8040e76e7198c42、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News 8084e6d27f25ea7f4fe6eb279387de94cdbb2dde87937a69a8c51886f3bc5a74、pv magazine 1192b8b7e60e7587b8ea0ff7f3d98c2c4f6a50861588bfe96d0a99280b350f58、SolarQuarter ed785c32a844e6c3eddf7ec313ec840e52bd2aacb733748711912261250e01a6。新增采信：ESS News文章sha256 b1fe76dd81c44659f0136ac5ddf6f558346cd598b2d0b7c6c5f0f75cc1ad9d0a显示澳大利亚NSW启动第8、9轮招标，其中Tender 8寻求2.5GW可再生能源发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册截止2026-06-16，投标截止2026-07-14。国内政策采信：CNESA/国家能源局质量监督大纲文章sha256 fe03e24ba1c0f7bc610fd2ad4dd6063bf13442ba963b524dc28aadb9bd905139显示适用于电源侧和电网侧100MW及以上电化学、压缩空气储能电站，不适用于用户侧；吉林电力市场规则文章sha256 0f37a30940708406f785aff9750fc4dccc4dc5a64b6b17bf2d89e82f978243a2显示独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、现货和调频市场，现阶段独立新型储能门槛不低于5MW、10MW调节容量、2小时。监管采信：工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c，专项行动2026年4月至6月底，聚焦违规交售、非法拆解、溯源信息等。行情复核：SMM电池级碳酸锂页sha256 5e70c1c76912363580eccb851e1655e02fa78025bfe910531b49f44fa5ece59b仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引。"
+      },
+      {
+        "id": "material-20260520-1600-lipf6-export-868t",
+        "name": "六氟磷酸锂出口量",
+        "spec": "2026年4月中国累计出口量；SMM公开可见段落",
+        "value": "868",
+        "unit": "吨",
+        "change": "环比下降约80.9%",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/content/14042/103912482",
+        "as_of": "2026-05-20 16:00 CST",
+        "methodology": "16:00严格刷新：web_search国内/海外两次返回HTTP 432；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/中国储能网/北极星储能/中国能源网、国家能源局、工信部、CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine等公开来源。NeoLink首页HTTP sha256 a7f36bcb202a86c8709f5ae70c186a444b823aa8c481a688f8a181df75ff5266，MarketTrend HTTP sha256 1f79b87b8862586b414d1736c5f0bdede7699aaa58486651ec8aa7e2da8dcad4。国内入口：中国储能网 a2607152817a75734d7ae5cd84b330c95e5e12464844f9723adae49a66afeee9、北极星储能 57733fa8965efc1cd1cacfaa4a95ca5ce1956e2b855e6c17c55d851d5a457701、SMM电池级碳酸锂 f038d532ef54491303da86b4db1841350aa97f64d7df950c86f84cf0cb723a10、SMM新能源 b3d65e9a8904e33d51721f766129ec8d63aae808737d123a33ebcc552bcabaa8、中国能源网 64b1817be3b4034dd70486d7439c589e7cab5bf28b331eff65f588dd0601ec28、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 54bf0a423d6ff2402bf40063563563fb065e65b6722f571fa0d38b610678b4c7、CNESA f86a24dd17560f117c73396f0edebaa3205bb62649c5c26fa6b77974fa890310。海外入口：Energy-Storage.News f83abef622ac1c4b7e436f0b16f15d33dcfb54325576b5ba9e3f2920a58d09bd、EnergyTrend 5f0c57c4edff6f47b4fd50f688cfd0e70ac1dda84fa3e19b11a4d59b9a721d5e、ESS News 6aaab4691a6176cdb165a30e8d6cdb005db0c58c238f37dd807c3b1e17a23deb、pv magazine 7a171b34aebb57c7f44b6a20864d3db827aec7c89b9bc0177ba813bab4d4baa5；SolarQuarter储能栏目返回404。新增采信：Energy-Storage.News文章sha256 e3f93f8baead15f75a4e31084094c3c4913457d9425f065c30b9469f73fd4118显示新南威尔士州第七轮基础设施招标签下532MW firming项目，包含1个BESS和1个VPP，合计提供2,128MWh储能容量，项目需在2027年11月底前商运以应对2027-28夏季缺口。新增采信：SMM新能源文章sha256 63006510a1564814f29966c883a82ad93951f59c2faab9c07c88c66ad3f3d7d1显示2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%；SMM转载电池网文章sha256 634184bfd1b371f955b703b28ee83a58bd95b8678087fc2d76fec1bd0c312cc4显示中虹普能与河南周口商水县签约400MW/800MWh电网侧储能电站，总投资约12.8亿元，并称其20天内连投两大储能项目总投资约32亿元。行情复核：SMM电池级碳酸锂页sha256 f1caf44d99dce9aedb9d65687f9b88a12f2a37278a387cdb7deb7d41ed6cd488仍显示电池级碳酸锂价格174000-184000元/吨、均价179000元/吨、日跌7500元/吨；SMM电池级碳酸锂指数179616元/吨、日跌4555元/吨。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引（台区储能季度新增14GWh、安徽独立储能现货结算收益约0.23元/kWh），未扩写未核验正文。"
+      },
       {
         "id": "material-20260520-1500-lipf6-176500",
         "name": "六氟磷酸锂",
@@ -30021,6 +30585,58 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260520-1900-germany-buhl-storage",
+        "title": "德国Bühl规划大型储能",
+        "value": "2",
+        "unit": "GWh",
+        "caption": "ESS News称Copenhagen Energy与Akaysha计划建设500MW/2GWh、4小时电池储能",
+        "delta": "靠近超高压设施和既有变电站",
+        "direction": "up",
+        "source": "ESS News",
+        "as_of": "2026-05-20 19:00 CST",
+        "methodology": "19:00严格刷新：已重新抓取NeoLink首页和/markettrend/；国内侧抓取SMM、北极星储能、中国能源网、国家能源局、工信部、CNESA，海外侧抓取ESS News、Energy-Storage.News、EnergyTrend、pv magazine、SolarQuarter、Energy Storage Canada等公开来源；web_search仍返回HTTP 432，web_extract对本站报内网阻断，因此采用requests直连保存原始HTML并比对sha256，未仅刷新时间。本站回读：NeoLink首页HTTP 200 sha256 951a4dc1bfb60de95b31b1262a955dd8ec7eabc235011ea64735c3d1ffc90df9，MarketTrend HTTP 200 sha256 708bc8c685237d5065fce85156726e3cb0ff055efb3f115b1ff3f26510a102d7。国内入口：SMM电池级碳酸锂 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23，北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551，国家能源局 d6f70720db15a231a5f4587006814525b92c573a11c4117d4fb6c3e066b6ae3e，工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8，CNESA b94dc9ce7dbde7e2ec77b3a53c6e1f2e38d2b90f95a0879d2fbd6fab4efb7655。海外入口：ESS News f39a35a814004d26c84324dab269d17851612720162e4fe0d1a461922727c73e，Energy-Storage.News 380583d908631e8655dc62c59fbddcb4a512778595e10ad1a0cff800679f3991，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，pv magazine ab501ad350d5edbe04fc178c0198dce969c6e8a06ca744295fdde8b2f8791eb2，SolarQuarter e85d761f71af00d84c959e8f1db67a4b8fe4a8d0813715f4923d9f9a1ba8cb3f。新增采信：ESS News德国文章sha256 1993da30df156aa16dd5636b5d2613b2aa09d6cc752d7b68d01f015ad7c08ffe显示Copenhagen Energy与Akaysha Energy计划在德国Bühl建设500MW/2GWh、4小时大型电池储能，靠近超高压基础设施和既有变电站；ESS News加州文章sha256 78d208d38ada79565c00b093bcaa5fd3ad7cefbc9aa84bbd3eac09d0e7996b39显示MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并与Sonoma Clean Power签有10年tolling协议。国内政策复核：国家能源局多用户绿电直连通知sha256 a2f89ed8d4c1365f4ddf04edd768dea935a8cc44598fb44f7a0f9ebd908b2420及答问sha256 4114aea1ad4c7f05395ce77aed69d035b4b513234236af8c48417bb6628e49f2显示，多用户绿电直连在单一用户模式基础上扩展适用范围、交易机制和计量结算，服务工商业园区、零碳园区等就近消纳。行情复核：SMM电池级碳酸锂页sha256 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23显示2026-05-20价格区间174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩19.85-23.25美元/千克、均价21.55美元/千克、日跌0.5。",
+        "url": "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/"
+      },
+      {
+        "id": "metric-20260520-1800-beaver-creek-ppa",
+        "title": "Beaver Creek PPA预计年电量",
+        "value": "400",
+        "unit": "GWh/年",
+        "caption": "ESS News称Grenergy/Georgia Power 20年PPA覆盖Beaver Creek 100%输出",
+        "delta": "229MW光伏+183MWh储能，预计2028Q3 COD",
+        "direction": "up",
+        "source": "ESS News",
+        "as_of": "2026-05-20 18:00 CST",
+        "methodology": "18:00严格刷新：已主动发起国内/海外web_search（均返回HTTP 432）和web_extract NeoLink首页及/markettrend/（被判定为内网地址阻断），随后按硬要求改用requests直连重抓NeoLink首页、MarketTrend、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS仍握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 5f1f6b68a4f53e7f10708d64de6a7ce1bc0279340fa08728bc703a7457c652f9、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8、CNESA a9e107fb0107ca88644e350d3f8d1220eb177a4ba0f65a8efe7548925bc1fd32；中国储能网/news/入口本轮仍404。海外入口：Energy-Storage.News e69cf6daade5a10b87faa246fbdd4a676838cd48896760959c438708365b2c6e、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News f214db71d735ef52080d2deebe068dcfc036f773ac70cc3b035d99bbb3bdb52f、pv magazine 7a2ad76a130cee897122b22e0d96be717a26010043705cef9cd218a28dac075a、SolarQuarter 91255c53ca6890dbf4e397b60e73f44e32801cd8b95da13445ee8b4e35a34b21。新增采信：ESS News文章sha256 ce8e0b107224a2edd9b58fe680bbb0fe4cc312a58ebe056f8c4540bbe40696de显示Grenergy与Georgia Power签署Beaver Creek项目20年100%购电协议，预计年电量约400GWh，项目含229MW光伏和183MWh电池储能，商业运营预计2028年三季度，PPA自2029年5月生效。海外制造/市场复核：Energy-Storage.News文章sha256 6d4a7ae919ff7bfaccd716158d4218c5e8862d87a55e9fce7503af586a58c080显示瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地已开业，此前计划为8GWh、投资2.23亿美元；同站日本文章sha256 0c29ddec3a82f73785e775c31ed8dfac5caea98fa550735942d3c461f4c8bb78显示OCCTO第三轮LTDA选出19个电池储能项目合计1,251MW，6小时持续时长要求，获20年固定收入合同。国内政策复核：CNESA华北两个细则征求意见文章sha256 a1e63467778e583335e95d45886ba0b528958a367fd6c9ee3f08c45e38a9f2f7，明确新型储能管理考核、AGC/AVC并网后六个月内完成、违反调度纪律按装机容量×3小时考核电量，并提及一次调频/APC/黑启动等辅助服务补偿。行情复核：SMM电池级碳酸锂页sha256 36b21ebd87dc6d6a4caeb52a09245c5a059f14a291925cf35fa188f2cd6afaf7仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。",
+        "url": "https://www.ess-news.com/2026/05/20/grenergy-locks-in-20-year-georgia-power-400-gwh-100-ppa-for-its-beaver-creek-hybrid-project/"
+      },
+      {
+        "id": "metric-20260520-1700-nsw-ldes-12500mwh",
+        "title": "NSW第9轮长时储能招标上限",
+        "value": "12500",
+        "unit": "MWh",
+        "caption": "ESS News称NSW第9轮招标寻求最高12.5GWh、8小时长时储能LTESA",
+        "delta": "注册6月16日截止，投标7月14日截止",
+        "direction": "up",
+        "source": "ESS News",
+        "as_of": "2026-05-20 17:00 CST",
+        "methodology": "17:00严格刷新：web_search国内/海外两次返回HTTP 432，web_extract访问NeoLink因内网判定被阻断；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 89d690815489c5e1a311049a521b909911ed3e744f6e00f9a6e14656eb8aa3fe、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 f4e3d7a8d3c9ad722045264b539889634177ce4e3f952730a9e4fec4c22dd54e、CNESA a247bd73db0418e91b6a7d32704e9483a3262376eeeada24de37377f3bce4624；中国储能网/news/入口本轮404。海外入口：Energy-Storage.News 9a46f8bc1371646628c4ba6d89f1c138f060b6e935567489c8040e76e7198c42、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News 8084e6d27f25ea7f4fe6eb279387de94cdbb2dde87937a69a8c51886f3bc5a74、pv magazine 1192b8b7e60e7587b8ea0ff7f3d98c2c4f6a50861588bfe96d0a99280b350f58、SolarQuarter ed785c32a844e6c3eddf7ec313ec840e52bd2aacb733748711912261250e01a6。新增采信：ESS News文章sha256 b1fe76dd81c44659f0136ac5ddf6f558346cd598b2d0b7c6c5f0f75cc1ad9d0a显示澳大利亚NSW启动第8、9轮招标，其中Tender 8寻求2.5GW可再生能源发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册截止2026-06-16，投标截止2026-07-14。国内政策采信：CNESA/国家能源局质量监督大纲文章sha256 fe03e24ba1c0f7bc610fd2ad4dd6063bf13442ba963b524dc28aadb9bd905139显示适用于电源侧和电网侧100MW及以上电化学、压缩空气储能电站，不适用于用户侧；吉林电力市场规则文章sha256 0f37a30940708406f785aff9750fc4dccc4dc5a64b6b17bf2d89e82f978243a2显示独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、现货和调频市场，现阶段独立新型储能门槛不低于5MW、10MW调节容量、2小时。监管采信：工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c，专项行动2026年4月至6月底，聚焦违规交售、非法拆解、溯源信息等。行情复核：SMM电池级碳酸锂页sha256 5e70c1c76912363580eccb851e1655e02fa78025bfe910531b49f44fa5ece59b仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引。",
+        "url": "https://www.ess-news.com/2026/05/20/australia-opens-tenders-8-and-9-for-2-5-gw-of-solar-and-wind-alongside-12-5-gwh-of-storage/"
+      },
+      {
+        "id": "metric-20260520-1600-nsw-storage-2128mwh",
+        "title": "NSW第七轮firming招标储能容量",
+        "value": "2128",
+        "unit": "MWh",
+        "caption": "Energy-Storage.News称532MW firming项目含1个BESS和1个VPP，合计2,128MWh储能容量",
+        "delta": "长期能源服务协议，目标2027年11月底前商运",
+        "direction": "up",
+        "source": "Energy-Storage.News",
+        "as_of": "2026-05-20 16:00 CST",
+        "methodology": "16:00严格刷新：web_search国内/海外两次返回HTTP 432；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/中国储能网/北极星储能/中国能源网、国家能源局、工信部、CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine等公开来源。NeoLink首页HTTP sha256 a7f36bcb202a86c8709f5ae70c186a444b823aa8c481a688f8a181df75ff5266，MarketTrend HTTP sha256 1f79b87b8862586b414d1736c5f0bdede7699aaa58486651ec8aa7e2da8dcad4。国内入口：中国储能网 a2607152817a75734d7ae5cd84b330c95e5e12464844f9723adae49a66afeee9、北极星储能 57733fa8965efc1cd1cacfaa4a95ca5ce1956e2b855e6c17c55d851d5a457701、SMM电池级碳酸锂 f038d532ef54491303da86b4db1841350aa97f64d7df950c86f84cf0cb723a10、SMM新能源 b3d65e9a8904e33d51721f766129ec8d63aae808737d123a33ebcc552bcabaa8、中国能源网 64b1817be3b4034dd70486d7439c589e7cab5bf28b331eff65f588dd0601ec28、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 54bf0a423d6ff2402bf40063563563fb065e65b6722f571fa0d38b610678b4c7、CNESA f86a24dd17560f117c73396f0edebaa3205bb62649c5c26fa6b77974fa890310。海外入口：Energy-Storage.News f83abef622ac1c4b7e436f0b16f15d33dcfb54325576b5ba9e3f2920a58d09bd、EnergyTrend 5f0c57c4edff6f47b4fd50f688cfd0e70ac1dda84fa3e19b11a4d59b9a721d5e、ESS News 6aaab4691a6176cdb165a30e8d6cdb005db0c58c238f37dd807c3b1e17a23deb、pv magazine 7a171b34aebb57c7f44b6a20864d3db827aec7c89b9bc0177ba813bab4d4baa5；SolarQuarter储能栏目返回404。新增采信：Energy-Storage.News文章sha256 e3f93f8baead15f75a4e31084094c3c4913457d9425f065c30b9469f73fd4118显示新南威尔士州第七轮基础设施招标签下532MW firming项目，包含1个BESS和1个VPP，合计提供2,128MWh储能容量，项目需在2027年11月底前商运以应对2027-28夏季缺口。新增采信：SMM新能源文章sha256 63006510a1564814f29966c883a82ad93951f59c2faab9c07c88c66ad3f3d7d1显示2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%；SMM转载电池网文章sha256 634184bfd1b371f955b703b28ee83a58bd95b8678087fc2d76fec1bd0c312cc4显示中虹普能与河南周口商水县签约400MW/800MWh电网侧储能电站，总投资约12.8亿元，并称其20天内连投两大储能项目总投资约32亿元。行情复核：SMM电池级碳酸锂页sha256 f1caf44d99dce9aedb9d65687f9b88a12f2a37278a387cdb7deb7d41ed6cd488仍显示电池级碳酸锂价格174000-184000元/吨、均价179000元/吨、日跌7500元/吨；SMM电池级碳酸锂指数179616元/吨、日跌4555元/吨。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引（台区储能季度新增14GWh、安徽独立储能现货结算收益约0.23元/kWh），未扩写未核验正文。",
+        "url": "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/"
+      },
       {
         "id": "metric-20260520-1500-cornex-290gwh",
         "title": "楚能三地新增规划产能",
@@ -42558,6 +43174,51 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260520-1900-copenhagen-akaysha-buhl",
+        "source": "ESS News",
+        "category": "海外大型储能",
+        "title": "Copenhagen Energy与Akaysha拟在德国Bühl建设500MW/2GWh、4小时储能",
+        "summary": "ESS News 05-20称，两家公司计划在德国Bühl建设四小时电池储能，功率500MW、容量2GWh，项目靠近超高压基础设施和既有变电站。",
+        "value": "2",
+        "unit": "GWh",
+        "delta": "新增欧洲大储规划",
+        "direction": "up",
+        "date": "05-20",
+        "as_of": "2026-05-20 19:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+        "methodology": "19:00严格刷新：已重新抓取NeoLink首页和/markettrend/；国内侧抓取SMM、北极星储能、中国能源网、国家能源局、工信部、CNESA，海外侧抓取ESS News、Energy-Storage.News、EnergyTrend、pv magazine、SolarQuarter、Energy Storage Canada等公开来源；web_search仍返回HTTP 432，web_extract对本站报内网阻断，因此采用requests直连保存原始HTML并比对sha256，未仅刷新时间。本站回读：NeoLink首页HTTP 200 sha256 951a4dc1bfb60de95b31b1262a955dd8ec7eabc235011ea64735c3d1ffc90df9，MarketTrend HTTP 200 sha256 708bc8c685237d5065fce85156726e3cb0ff055efb3f115b1ff3f26510a102d7。国内入口：SMM电池级碳酸锂 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23，北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551，国家能源局 d6f70720db15a231a5f4587006814525b92c573a11c4117d4fb6c3e066b6ae3e，工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8，CNESA b94dc9ce7dbde7e2ec77b3a53c6e1f2e38d2b90f95a0879d2fbd6fab4efb7655。海外入口：ESS News f39a35a814004d26c84324dab269d17851612720162e4fe0d1a461922727c73e，Energy-Storage.News 380583d908631e8655dc62c59fbddcb4a512778595e10ad1a0cff800679f3991，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，pv magazine ab501ad350d5edbe04fc178c0198dce969c6e8a06ca744295fdde8b2f8791eb2，SolarQuarter e85d761f71af00d84c959e8f1db67a4b8fe4a8d0813715f4923d9f9a1ba8cb3f。新增采信：ESS News德国文章sha256 1993da30df156aa16dd5636b5d2613b2aa09d6cc752d7b68d01f015ad7c08ffe显示Copenhagen Energy与Akaysha Energy计划在德国Bühl建设500MW/2GWh、4小时大型电池储能，靠近超高压基础设施和既有变电站；ESS News加州文章sha256 78d208d38ada79565c00b093bcaa5fd3ad7cefbc9aa84bbd3eac09d0e7996b39显示MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并与Sonoma Clean Power签有10年tolling协议。国内政策复核：国家能源局多用户绿电直连通知sha256 a2f89ed8d4c1365f4ddf04edd768dea935a8cc44598fb44f7a0f9ebd908b2420及答问sha256 4114aea1ad4c7f05395ce77aed69d035b4b513234236af8c48417bb6628e49f2显示，多用户绿电直连在单一用户模式基础上扩展适用范围、交易机制和计量结算，服务工商业园区、零碳园区等就近消纳。行情复核：SMM电池级碳酸锂页sha256 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23显示2026-05-20价格区间174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩19.85-23.25美元/千克、均价21.55美元/千克、日跌0.5。"
+      },
+      {
+        "id": "overseas-20260520-1800-grenergy-beaver-creek-ppa",
+        "source": "ESS News",
+        "category": "海外光储PPA",
+        "title": "Grenergy锁定Georgia Power 20年PPA：229MW光伏+183MWh储能，约400GWh/年",
+        "summary": "ESS News 05-20称Grenergy与Georgia Power签署20年PPA，覆盖Beaver Creek项目100%输出，预计约400GWh/年；项目含229MW光伏和183MWh储能，预计2028Q3商运。",
+        "value": "400",
+        "unit": "GWh/年",
+        "delta": "新增海外PPA项目",
+        "direction": "up",
+        "date": "05-20",
+        "as_of": "2026-05-20 18:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/grenergy-locks-in-20-year-georgia-power-400-gwh-100-ppa-for-its-beaver-creek-hybrid-project/",
+        "methodology": "18:00严格刷新：已主动发起国内/海外web_search（均返回HTTP 432）和web_extract NeoLink首页及/markettrend/（被判定为内网地址阻断），随后按硬要求改用requests直连重抓NeoLink首页、MarketTrend、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS仍握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 5f1f6b68a4f53e7f10708d64de6a7ce1bc0279340fa08728bc703a7457c652f9、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8、CNESA a9e107fb0107ca88644e350d3f8d1220eb177a4ba0f65a8efe7548925bc1fd32；中国储能网/news/入口本轮仍404。海外入口：Energy-Storage.News e69cf6daade5a10b87faa246fbdd4a676838cd48896760959c438708365b2c6e、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News f214db71d735ef52080d2deebe068dcfc036f773ac70cc3b035d99bbb3bdb52f、pv magazine 7a2ad76a130cee897122b22e0d96be717a26010043705cef9cd218a28dac075a、SolarQuarter 91255c53ca6890dbf4e397b60e73f44e32801cd8b95da13445ee8b4e35a34b21。新增采信：ESS News文章sha256 ce8e0b107224a2edd9b58fe680bbb0fe4cc312a58ebe056f8c4540bbe40696de显示Grenergy与Georgia Power签署Beaver Creek项目20年100%购电协议，预计年电量约400GWh，项目含229MW光伏和183MWh电池储能，商业运营预计2028年三季度，PPA自2029年5月生效。海外制造/市场复核：Energy-Storage.News文章sha256 6d4a7ae919ff7bfaccd716158d4218c5e8862d87a55e9fce7503af586a58c080显示瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地已开业，此前计划为8GWh、投资2.23亿美元；同站日本文章sha256 0c29ddec3a82f73785e775c31ed8dfac5caea98fa550735942d3c461f4c8bb78显示OCCTO第三轮LTDA选出19个电池储能项目合计1,251MW，6小时持续时长要求，获20年固定收入合同。国内政策复核：CNESA华北两个细则征求意见文章sha256 a1e63467778e583335e95d45886ba0b528958a367fd6c9ee3f08c45e38a9f2f7，明确新型储能管理考核、AGC/AVC并网后六个月内完成、违反调度纪律按装机容量×3小时考核电量，并提及一次调频/APC/黑启动等辅助服务补偿。行情复核：SMM电池级碳酸锂页sha256 36b21ebd87dc6d6a4caeb52a09245c5a059f14a291925cf35fa188f2cd6afaf7仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。"
+      },
+      {
+        "id": "overseas-20260520-1700-nsw-tenders-8-9",
+        "source": "ESS News",
+        "category": "海外长时储能招标",
+        "title": "NSW第8、9轮招标开放：2.5GW发电+最高12.5GWh长时储能",
+        "summary": "ESS News 05-20称NSW开放第8、9轮招标，Tender 8寻求2.5GW可再生发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册6月16日截止、投标7月14日截止。",
+        "value": "12.5",
+        "unit": "GWh",
+        "delta": "新增开放招标",
+        "direction": "up",
+        "date": "05-20",
+        "as_of": "2026-05-20 17:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/australia-opens-tenders-8-and-9-for-2-5-gw-of-solar-and-wind-alongside-12-5-gwh-of-storage/",
+        "methodology": "17:00严格刷新：web_search国内/海外两次返回HTTP 432，web_extract访问NeoLink因内网判定被阻断；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 89d690815489c5e1a311049a521b909911ed3e744f6e00f9a6e14656eb8aa3fe、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 f4e3d7a8d3c9ad722045264b539889634177ce4e3f952730a9e4fec4c22dd54e、CNESA a247bd73db0418e91b6a7d32704e9483a3262376eeeada24de37377f3bce4624；中国储能网/news/入口本轮404。海外入口：Energy-Storage.News 9a46f8bc1371646628c4ba6d89f1c138f060b6e935567489c8040e76e7198c42、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News 8084e6d27f25ea7f4fe6eb279387de94cdbb2dde87937a69a8c51886f3bc5a74、pv magazine 1192b8b7e60e7587b8ea0ff7f3d98c2c4f6a50861588bfe96d0a99280b350f58、SolarQuarter ed785c32a844e6c3eddf7ec313ec840e52bd2aacb733748711912261250e01a6。新增采信：ESS News文章sha256 b1fe76dd81c44659f0136ac5ddf6f558346cd598b2d0b7c6c5f0f75cc1ad9d0a显示澳大利亚NSW启动第8、9轮招标，其中Tender 8寻求2.5GW可再生能源发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册截止2026-06-16，投标截止2026-07-14。国内政策采信：CNESA/国家能源局质量监督大纲文章sha256 fe03e24ba1c0f7bc610fd2ad4dd6063bf13442ba963b524dc28aadb9bd905139显示适用于电源侧和电网侧100MW及以上电化学、压缩空气储能电站，不适用于用户侧；吉林电力市场规则文章sha256 0f37a30940708406f785aff9750fc4dccc4dc5a64b6b17bf2d89e82f978243a2显示独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、现货和调频市场，现阶段独立新型储能门槛不低于5MW、10MW调节容量、2小时。监管采信：工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c，专项行动2026年4月至6月底，聚焦违规交售、非法拆解、溯源信息等。行情复核：SMM电池级碳酸锂页sha256 5e70c1c76912363580eccb851e1655e02fa78025bfe910531b49f44fa5ece59b仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引。"
+      },
+      {
         "source": "EnergyTrend / Energy-Storage.News / 北极星储能 / SMM上海有色 / NeoLink HTTP crawl",
         "source_type": "海外行业媒体 / 国内行业门户 / 行情平台 / 本站回读",
         "account_name": "EnergyTrend / Energy-Storage.News / 北极星储能 / SMM",
@@ -47624,6 +48285,66 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260520-1900-germany-mn8-li2co3",
+        "source": "ESS News / 国家能源局 / SMM上海有色",
+        "category": "海外项目/政策/主材行情",
+        "title": "德国500MW/2GWh储能规划、MN8加州400MWh投运；SMM碳酸锂179000元/吨未变",
+        "summary": "19:00 MarketTrend更新：ESS News披露Copenhagen Energy与Akaysha拟在德国Bühl建设500MW/2GWh电池储能，MN8 Energy加州100MW/400MWh Pome BESS已商业运行；国家能源局多用户绿电直连通知扩展近区新能源消纳场景；SMM电池级碳酸锂仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "value": "179000",
+        "unit": "元/吨 SMM电池级碳酸锂均价",
+        "delta": "报价不变；新增欧洲/美国大储和国内绿电直连政策证据",
+        "direction": "neutral",
+        "date": "05-20",
+        "as_of": "2026-05-20 19:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "19:00严格刷新：已重新抓取NeoLink首页和/markettrend/；国内侧抓取SMM、北极星储能、中国能源网、国家能源局、工信部、CNESA，海外侧抓取ESS News、Energy-Storage.News、EnergyTrend、pv magazine、SolarQuarter、Energy Storage Canada等公开来源；web_search仍返回HTTP 432，web_extract对本站报内网阻断，因此采用requests直连保存原始HTML并比对sha256，未仅刷新时间。本站回读：NeoLink首页HTTP 200 sha256 951a4dc1bfb60de95b31b1262a955dd8ec7eabc235011ea64735c3d1ffc90df9，MarketTrend HTTP 200 sha256 708bc8c685237d5065fce85156726e3cb0ff055efb3f115b1ff3f26510a102d7。国内入口：SMM电池级碳酸锂 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23，北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551，国家能源局 d6f70720db15a231a5f4587006814525b92c573a11c4117d4fb6c3e066b6ae3e，工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8，CNESA b94dc9ce7dbde7e2ec77b3a53c6e1f2e38d2b90f95a0879d2fbd6fab4efb7655。海外入口：ESS News f39a35a814004d26c84324dab269d17851612720162e4fe0d1a461922727c73e，Energy-Storage.News 380583d908631e8655dc62c59fbddcb4a512778595e10ad1a0cff800679f3991，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，pv magazine ab501ad350d5edbe04fc178c0198dce969c6e8a06ca744295fdde8b2f8791eb2，SolarQuarter e85d761f71af00d84c959e8f1db67a4b8fe4a8d0813715f4923d9f9a1ba8cb3f。新增采信：ESS News德国文章sha256 1993da30df156aa16dd5636b5d2613b2aa09d6cc752d7b68d01f015ad7c08ffe显示Copenhagen Energy与Akaysha Energy计划在德国Bühl建设500MW/2GWh、4小时大型电池储能，靠近超高压基础设施和既有变电站；ESS News加州文章sha256 78d208d38ada79565c00b093bcaa5fd3ad7cefbc9aa84bbd3eac09d0e7996b39显示MN8 Energy位于加州Poway的100MW/400MWh Pome独立BESS已商业运行，并与Sonoma Clean Power签有10年tolling协议。国内政策复核：国家能源局多用户绿电直连通知sha256 a2f89ed8d4c1365f4ddf04edd768dea935a8cc44598fb44f7a0f9ebd908b2420及答问sha256 4114aea1ad4c7f05395ce77aed69d035b4b513234236af8c48417bb6628e49f2显示，多用户绿电直连在单一用户模式基础上扩展适用范围、交易机制和计量结算，服务工商业园区、零碳园区等就近消纳。行情复核：SMM电池级碳酸锂页sha256 f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23显示2026-05-20价格区间174000-184000元/吨、均价179000元/吨、日跌7500元/吨；CIF中日韩19.85-23.25美元/千克、均价21.55美元/千克、日跌0.5。"
+      },
+      {
+        "id": "market-20260520-1800-ppa-rept-japan-li2co3",
+        "source": "ESS News / Energy-Storage.News / SMM上海有色 / CNESA",
+        "category": "海外PPA/制造产能/容量市场/主材行情",
+        "title": "Grenergy签400GWh/年PPA，瑞浦印尼BESS基地开业；SMM碳酸锂179000元/吨未变",
+        "summary": "18:00 MarketTrend更新：ESS News披露Beaver Creek 229MW光伏+183MWh储能签20年Georgia Power PPA，预计约400GWh/年；Energy-Storage.News复核瑞浦兰钧印尼电芯与BESS制造基地开业及日本1,251MW/6h BESS LTDA容量市场结果；SMM电池级碳酸锂公开页仍为174000-184000元/吨、均价179000元/吨、日跌7500元/吨。",
+        "value": "179000",
+        "unit": "元/吨 SMM电池级碳酸锂均价",
+        "delta": "报价不变；新增海外PPA、制造本地化和容量市场证据",
+        "direction": "neutral",
+        "date": "05-20",
+        "as_of": "2026-05-20 18:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "18:00严格刷新：已主动发起国内/海外web_search（均返回HTTP 432）和web_extract NeoLink首页及/markettrend/（被判定为内网地址阻断），随后按硬要求改用requests直连重抓NeoLink首页、MarketTrend、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS仍握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 5f1f6b68a4f53e7f10708d64de6a7ce1bc0279340fa08728bc703a7457c652f9、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 8192750b96024daf59322b7445d062511c3fae2a7c92d0c2357fdc55e21edcc8、CNESA a9e107fb0107ca88644e350d3f8d1220eb177a4ba0f65a8efe7548925bc1fd32；中国储能网/news/入口本轮仍404。海外入口：Energy-Storage.News e69cf6daade5a10b87faa246fbdd4a676838cd48896760959c438708365b2c6e、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News f214db71d735ef52080d2deebe068dcfc036f773ac70cc3b035d99bbb3bdb52f、pv magazine 7a2ad76a130cee897122b22e0d96be717a26010043705cef9cd218a28dac075a、SolarQuarter 91255c53ca6890dbf4e397b60e73f44e32801cd8b95da13445ee8b4e35a34b21。新增采信：ESS News文章sha256 ce8e0b107224a2edd9b58fe680bbb0fe4cc312a58ebe056f8c4540bbe40696de显示Grenergy与Georgia Power签署Beaver Creek项目20年100%购电协议，预计年电量约400GWh，项目含229MW光伏和183MWh电池储能，商业运营预计2028年三季度，PPA自2029年5月生效。海外制造/市场复核：Energy-Storage.News文章sha256 6d4a7ae919ff7bfaccd716158d4218c5e8862d87a55e9fce7503af586a58c080显示瑞浦兰钧/REPT Battero印尼锂电池与BESS制造基地已开业，此前计划为8GWh、投资2.23亿美元；同站日本文章sha256 0c29ddec3a82f73785e775c31ed8dfac5caea98fa550735942d3c461f4c8bb78显示OCCTO第三轮LTDA选出19个电池储能项目合计1,251MW，6小时持续时长要求，获20年固定收入合同。国内政策复核：CNESA华北两个细则征求意见文章sha256 a1e63467778e583335e95d45886ba0b528958a367fd6c9ee3f08c45e38a9f2f7，明确新型储能管理考核、AGC/AVC并网后六个月内完成、违反调度纪律按装机容量×3小时考核电量，并提及一次调频/APC/黑启动等辅助服务补偿。行情复核：SMM电池级碳酸锂页sha256 36b21ebd87dc6d6a4caeb52a09245c5a059f14a291925cf35fa188f2cd6afaf7仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。"
+      },
+      {
+        "id": "market-20260520-1700-nsw-ldes-li2co3-policy",
+        "source": "ESS News / SMM上海有色 / CNESA / 国家能源局",
+        "category": "长时储能招标/主材行情/政策监管",
+        "title": "NSW开放最高12.5GWh长时储能招标；SMM碳酸锂179000元/吨未变，国内质量监管规则细化",
+        "summary": "17:00 MarketTrend更新：ESS News披露NSW第8、9轮招标开放，发电侧2.5GW、储能侧最高12.5GWh且8小时持续时长；SMM电池级碳酸锂公开页仍显示174000-184000元/吨、均价179000元/吨、日跌7500元/吨，CIF中日韩21.55美元/千克。国内侧新增国家能源局/CNESA新型储能质量监督大纲和吉林电力市场规则证据。",
+        "value": "179000",
+        "unit": "元/吨 SMM电池级碳酸锂均价",
+        "delta": "报价不变；新增海外12.5GWh长时储能招标与国内政策监管证据",
+        "direction": "neutral",
+        "date": "05-20",
+        "as_of": "2026-05-20 17:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "17:00严格刷新：web_search国内/海外两次返回HTTP 432，web_extract访问NeoLink因内网判定被阻断；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/北极星储能/中国能源网/国家能源局/工信部/CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine、SolarQuarter等公开来源，未仅刷新时间。NeoLink首页HTTP sha256 030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84，MarketTrend HTTP sha256 295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972；HTTPS握手失败但HTTP 200可访问。国内入口：北极星储能 8a417ed1ce64e4a8df7ab461ffa97af3683af985b3aac575575f82f1a80a9551、SMM电池级碳酸锂 92e981628256e7fd79d1f140539114541d7ba5be3ef4b0f3ee483476bdf2303f、SMM新能源 89d690815489c5e1a311049a521b909911ed3e744f6e00f9a6e14656eb8aa3fe、中国能源网 200fe43a81d385146403f0de77a372b57437f72d38d88d72fc583c56562d552c、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 f4e3d7a8d3c9ad722045264b539889634177ce4e3f952730a9e4fec4c22dd54e、CNESA a247bd73db0418e91b6a7d32704e9483a3262376eeeada24de37377f3bce4624；中国储能网/news/入口本轮404。海外入口：Energy-Storage.News 9a46f8bc1371646628c4ba6d89f1c138f060b6e935567489c8040e76e7198c42、EnergyTrend 2c2f21c641ac732fa497f3a4622b60b34e0b1ce3a617a3fede7e69c356dbccea、ESS News 8084e6d27f25ea7f4fe6eb279387de94cdbb2dde87937a69a8c51886f3bc5a74、pv magazine 1192b8b7e60e7587b8ea0ff7f3d98c2c4f6a50861588bfe96d0a99280b350f58、SolarQuarter ed785c32a844e6c3eddf7ec313ec840e52bd2aacb733748711912261250e01a6。新增采信：ESS News文章sha256 b1fe76dd81c44659f0136ac5ddf6f558346cd598b2d0b7c6c5f0f75cc1ad9d0a显示澳大利亚NSW启动第8、9轮招标，其中Tender 8寻求2.5GW可再生能源发电，Tender 9寻求最高12.5GWh、8小时长时储能，注册截止2026-06-16，投标截止2026-07-14。国内政策采信：CNESA/国家能源局质量监督大纲文章sha256 fe03e24ba1c0f7bc610fd2ad4dd6063bf13442ba963b524dc28aadb9bd905139显示适用于电源侧和电网侧100MW及以上电化学、压缩空气储能电站，不适用于用户侧；吉林电力市场规则文章sha256 0f37a30940708406f785aff9750fc4dccc4dc5a64b6b17bf2d89e82f978243a2显示独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、现货和调频市场，现阶段独立新型储能门槛不低于5MW、10MW调节容量、2小时。监管采信：工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c，专项行动2026年4月至6月底，聚焦违规交售、非法拆解、溯源信息等。行情复核：SMM电池级碳酸锂页sha256 5e70c1c76912363580eccb851e1655e02fa78025bfe910531b49f44fa5ece59b仍显示电池级碳酸锂174000-184000元/吨、均价179000元/吨、日跌7500元/吨；指数179616元/吨、日跌4555元/吨；CIF中日韩21.55美元/千克、跌0.5。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引。"
+      },
+      {
+        "id": "market-20260520-1600-lipf6-export-li2co3",
+        "source": "SMM上海有色 / Energy-Storage.News / 电池网",
+        "category": "材料进出口/主材行情/海外招标/储能项目",
+        "title": "六氟磷酸锂4月出口868吨环比降80.9%；SMM碳酸锂179000元/吨，NSW锁定2,128MWh储能",
+        "summary": "16:00 MarketTrend更新：SMM新能源公开段落显示2026年4月中国六氟磷酸锂累计出口量约868吨、环比下降约80.9%；SMM电池级碳酸锂公开页仍显示174000-184000元/吨、均价179000元/吨、日跌7500元/吨，指数179616元/吨、日跌4555元/吨。海外Energy-Storage.News新增NSW第七轮基础设施招标532MW firming项目、合计2,128MWh储能容量。",
+        "value": "179000",
+        "unit": "元/吨 SMM电池级碳酸锂均价",
+        "delta": "报价不变；新增六氟磷酸锂出口骤降与NSW储能采购证据",
+        "direction": "neutral",
+        "date": "05-20",
+        "as_of": "2026-05-20 16:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "16:00严格刷新：web_search国内/海外两次返回HTTP 432；按用户硬要求继续用requests直连重抓NeoLink首页、/markettrend/、国内SMM/中国储能网/北极星储能/中国能源网、国家能源局、工信部、CNESA及海外Energy-Storage.News、EnergyTrend、ESS News、pv magazine等公开来源。NeoLink首页HTTP sha256 a7f36bcb202a86c8709f5ae70c186a444b823aa8c481a688f8a181df75ff5266，MarketTrend HTTP sha256 1f79b87b8862586b414d1736c5f0bdede7699aaa58486651ec8aa7e2da8dcad4。国内入口：中国储能网 a2607152817a75734d7ae5cd84b330c95e5e12464844f9723adae49a66afeee9、北极星储能 57733fa8965efc1cd1cacfaa4a95ca5ce1956e2b855e6c17c55d851d5a457701、SMM电池级碳酸锂 f038d532ef54491303da86b4db1841350aa97f64d7df950c86f84cf0cb723a10、SMM新能源 b3d65e9a8904e33d51721f766129ec8d63aae808737d123a33ebcc552bcabaa8、中国能源网 64b1817be3b4034dd70486d7439c589e7cab5bf28b331eff65f588dd0601ec28、国家能源局 d11a14822225f69f61aba6b34b55026cfdc4fce815210dbcaff2f030a89e02b1、工信部 54bf0a423d6ff2402bf40063563563fb065e65b6722f571fa0d38b610678b4c7、CNESA f86a24dd17560f117c73396f0edebaa3205bb62649c5c26fa6b77974fa890310。海外入口：Energy-Storage.News f83abef622ac1c4b7e436f0b16f15d33dcfb54325576b5ba9e3f2920a58d09bd、EnergyTrend 5f0c57c4edff6f47b4fd50f688cfd0e70ac1dda84fa3e19b11a4d59b9a721d5e、ESS News 6aaab4691a6176cdb165a30e8d6cdb005db0c58c238f37dd807c3b1e17a23deb、pv magazine 7a171b34aebb57c7f44b6a20864d3db827aec7c89b9bc0177ba813bab4d4baa5；SolarQuarter储能栏目返回404。新增采信：Energy-Storage.News文章sha256 e3f93f8baead15f75a4e31084094c3c4913457d9425f065c30b9469f73fd4118显示新南威尔士州第七轮基础设施招标签下532MW firming项目，包含1个BESS和1个VPP，合计提供2,128MWh储能容量，项目需在2027年11月底前商运以应对2027-28夏季缺口。新增采信：SMM新能源文章sha256 63006510a1564814f29966c883a82ad93951f59c2faab9c07c88c66ad3f3d7d1显示2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%；SMM转载电池网文章sha256 634184bfd1b371f955b703b28ee83a58bd95b8678087fc2d76fec1bd0c312cc4显示中虹普能与河南周口商水县签约400MW/800MWh电网侧储能电站，总投资约12.8亿元，并称其20天内连投两大储能项目总投资约32亿元。行情复核：SMM电池级碳酸锂页sha256 f1caf44d99dce9aedb9d65687f9b88a12f2a37278a387cdb7deb7d41ed6cd488仍显示电池级碳酸锂价格174000-184000元/吨、均价179000元/吨、日跌7500元/吨；SMM电池级碳酸锂指数179616元/吨、日跌4555元/吨。北极星详情页仍返回WAF脚本，本轮只采信首页标题索引（台区储能季度新增14GWh、安徽独立储能现货结算收益约0.23元/kWh），未扩写未核验正文。"
+      },
       {
         "id": "market-20260520-1500-cornex-lipf6-li2co3",
         "source": "EnergyTrend / 中国储能网 / 中国化工信息周刊 / SMM上海有色",
@@ -60854,6 +61575,267 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260520-1900-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-20 19:00 CST",
+        "status": 200,
+        "sha256": "951a4dc1bfb60de95b31b1262a955dd8ec7eabc235011ea64735c3d1ffc90df9",
+        "finding": "首页已按小时重抓；本轮发现并写入可信新信息。"
+      },
+      {
+        "id": "source-20260520-1900-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-20 19:00 CST",
+        "status": 200,
+        "sha256": "708bc8c685237d5065fce85156726e3cb0ff055efb3f115b1ff3f26510a102d7",
+        "finding": "/markettrend/已按小时重抓；本轮补充19:00项目、政策和行情证据链。"
+      },
+      {
+        "id": "source-20260520-1900-ess-buhl",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+        "as_of": "2026-05-20 19:00 CST",
+        "status": 200,
+        "sha256": "1993da30df156aa16dd5636b5d2613b2aa09d6cc752d7b68d01f015ad7c08ffe",
+        "finding": "Copenhagen Energy与Akaysha拟在德国Bühl建设500MW/2GWh、4小时电池储能。"
+      },
+      {
+        "id": "source-20260520-1900-ess-mn8",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/mn8-energy-brings-400-mwh-tolled-standalone-battery-online-in-southern-california/",
+        "as_of": "2026-05-20 19:00 CST",
+        "status": 200,
+        "sha256": "78d208d38ada79565c00b093bcaa5fd3ad7cefbc9aa84bbd3eac09d0e7996b39",
+        "finding": "MN8加州Poway 100MW/400MWh Pome BESS商业运行，并签10年tolling协议。"
+      },
+      {
+        "id": "source-20260520-1900-nea-green-direct",
+        "source": "国家能源局",
+        "url": "https://www.nea.gov.cn/20260520/9e1c4277ce324c8ab82a84da98da7980/c.html",
+        "as_of": "2026-05-20 19:00 CST",
+        "status": 200,
+        "sha256": "a2f89ed8d4c1365f4ddf04edd768dea935a8cc44598fb44f7a0f9ebd908b2420",
+        "finding": "多用户绿电直连通知公开，扩展近区绿电消纳场景。"
+      },
+      {
+        "id": "source-20260520-1900-smm-li2co3",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-20 19:00 CST",
+        "status": 200,
+        "sha256": "f6a3e72c71e475b99d76cf9b1193c16b30382749cbf932431be1890a10508e23",
+        "finding": "电池级碳酸锂174000-184000元/吨，均价179000元/吨，日跌7500元/吨；CIF中日韩21.55美元/千克。"
+      },
+      {
+        "id": "source-20260520-1800-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-20 18:00 CST",
+        "status": 200,
+        "sha256": "030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84",
+        "finding": "首页已按小时重抓；本轮发现并写入可信新信息。"
+      },
+      {
+        "id": "source-20260520-1800-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-20 18:00 CST",
+        "status": 200,
+        "sha256": "295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972",
+        "finding": "/markettrend/已按小时重抓；本轮补充18:00行情、PPA、制造、容量市场和政策证据链。"
+      },
+      {
+        "id": "source-20260520-1800-ess-grenergy",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/grenergy-locks-in-20-year-georgia-power-400-gwh-100-ppa-for-its-beaver-creek-hybrid-project/",
+        "as_of": "2026-05-20 18:00 CST",
+        "status": 200,
+        "sha256": "ce8e0b107224a2edd9b58fe680bbb0fe4cc312a58ebe056f8c4540bbe40696de",
+        "finding": "Beaver Creek项目签20年Georgia Power PPA，约400GWh/年，229MW光伏+183MWh储能。"
+      },
+      {
+        "id": "source-20260520-1800-esn-rept",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "as_of": "2026-05-20 18:00 CST",
+        "status": 200,
+        "sha256": "6d4a7ae919ff7bfaccd716158d4218c5e8862d87a55e9fce7503af586a58c080",
+        "finding": "瑞浦兰钧印尼锂电池与BESS制造基地开业；前期披露8GWh、2.23亿美元。"
+      },
+      {
+        "id": "source-20260520-1800-esn-japan-ltda",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/japans-grid-operators-select-1-25gw-of-bess-in-capacity-market-auction-with-6-hour-duration-requirement/",
+        "as_of": "2026-05-20 18:00 CST",
+        "status": 200,
+        "sha256": "0c29ddec3a82f73785e775c31ed8dfac5caea98fa550735942d3c461f4c8bb78",
+        "finding": "日本OCCTO第三轮LTDA选出19个BESS项目合计1,251MW，6小时要求，20年固定收入。"
+      },
+      {
+        "id": "source-20260520-1800-cnesa-north-china",
+        "source": "CNESA / 华北能源监管局",
+        "url": "https://www.cnesa.org/policy/detail/?column_id=6&id=8045",
+        "as_of": "2026-05-20 18:00 CST",
+        "status": 200,
+        "sha256": "a1e63467778e583335e95d45886ba0b528958a367fd6c9ee3f08c45e38a9f2f7",
+        "finding": "华北两个细则征求意见：储能电站并网运行考核和辅助服务补偿规则细化。"
+      },
+      {
+        "id": "source-20260520-1800-smm-li2co3-page",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-20 18:00 CST",
+        "status": 200,
+        "sha256": "36b21ebd87dc6d6a4caeb52a09245c5a059f14a291925cf35fa188f2cd6afaf7",
+        "finding": "电池级碳酸锂174000-184000元/吨，均价179000元/吨，日跌7500元/吨；CIF中日韩21.55美元/千克。"
+      },
+      {
+        "id": "source-20260520-1700-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-20 17:00 CST",
+        "status": 200,
+        "sha256": "030e35ef1131e7a39dcc5fc9bdf8272dc4617b185868830c664fe624a152ee84",
+        "finding": "首页已按小时重抓；本轮发现并写入可信新信息。"
+      },
+      {
+        "id": "source-20260520-1700-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-20 17:00 CST",
+        "status": 200,
+        "sha256": "295b89c50d85ad809ef746582e4e95a90ee031370e7520e16df6e18c83a20972",
+        "finding": "/markettrend/已按小时重抓；本轮补充17:00行情、长时储能招标、政策监管证据链。"
+      },
+      {
+        "id": "source-20260520-1700-ess-nsw-tenders",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/australia-opens-tenders-8-and-9-for-2-5-gw-of-solar-and-wind-alongside-12-5-gwh-of-storage/",
+        "as_of": "2026-05-20 17:00 CST",
+        "status": 200,
+        "sha256": "b1fe76dd81c44659f0136ac5ddf6f558346cd598b2d0b7c6c5f0f75cc1ad9d0a",
+        "finding": "NSW第8、9轮招标开放：2.5GW发电、最高12.5GWh/8h长时储能。"
+      },
+      {
+        "id": "source-20260520-1700-cnesa-nea-quality",
+        "source": "CNESA / 国家能源局",
+        "url": "https://www.cnesa.org/policy/detail/?column_id=6&id=8047",
+        "as_of": "2026-05-20 17:00 CST",
+        "status": 200,
+        "sha256": "fe03e24ba1c0f7bc610fd2ad4dd6063bf13442ba963b524dc28aadb9bd905139",
+        "finding": "新型储能质量监督大纲适用于电源侧/电网侧100MW及以上电化学和压缩空气储能，不适用于用户侧。"
+      },
+      {
+        "id": "source-20260520-1700-cnesa-jilin-market",
+        "source": "CNESA / 吉林电力交易中心",
+        "url": "https://www.cnesa.org/policy/detail/?column_id=6&id=8046",
+        "as_of": "2026-05-20 17:00 CST",
+        "status": 200,
+        "sha256": "0f37a30940708406f785aff9750fc4dccc4dc5a64b6b17bf2d89e82f978243a2",
+        "finding": "独立储能、虚拟电厂、并网型绿电直连项目可参与中长期、现货和调频；独立储能现阶段不低于5MW/10MW/2h。"
+      },
+      {
+        "id": "source-20260520-1700-miit-recycle",
+        "source": "工信部等五部门",
+        "url": "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_c5091ef89af5444c9cba59a41be29b4b.html",
+        "as_of": "2026-05-20 17:00 CST",
+        "status": 200,
+        "sha256": "0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c",
+        "finding": "开展废旧动力电池回收利用联合执法专项行动，2026年4月至6月底。"
+      },
+      {
+        "id": "source-20260520-1700-smm-li2co3-page",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-20 17:00 CST",
+        "status": 200,
+        "sha256": "5e70c1c76912363580eccb851e1655e02fa78025bfe910531b49f44fa5ece59b",
+        "finding": "电池级碳酸锂174000-184000元/吨，均价179000元/吨，日跌7500元/吨；CIF中日韩21.55美元/千克。"
+      },
+      {
+        "id": "source-20260520-1700-ess-lidl",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/lidl-launches-2-24-kwh-battery-in-germany-for-e299/",
+        "as_of": "2026-05-20 17:00 CST",
+        "status": 200,
+        "sha256": "a536132accf5074bb6ce1d8ce7bf133a6247a03ff786857fb32b82a8807a8f28",
+        "finding": "Lidl德国2.24kWh阳台储能电池售价299欧元，作为户储产品线索记录。"
+      },
+      {
+        "id": "source-20260520-1600-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-20 16:00 CST",
+        "status": 200,
+        "sha256": "a7f36bcb202a86c8709f5ae70c186a444b823aa8c481a688f8a181df75ff5266",
+        "finding": "首页已按小时重抓；本轮发现并写入可信新信息。"
+      },
+      {
+        "id": "source-20260520-1600-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-20 16:00 CST",
+        "status": 200,
+        "sha256": "1f79b87b8862586b414d1736c5f0bdede7699aaa58486651ec8aa7e2da8dcad4",
+        "finding": "/markettrend/已按小时重抓；本轮补充16:00材料进出口、行情和海外招标证据链。"
+      },
+      {
+        "id": "source-20260520-1600-esn-nsw",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/",
+        "as_of": "2026-05-20 16:00 CST",
+        "status": 200,
+        "sha256": "e3f93f8baead15f75a4e31084094c3c4913457d9425f065c30b9469f73fd4118",
+        "finding": "NSW第七轮基础设施招标签下532MW firming项目，合计2,128MWh储能容量。"
+      },
+      {
+        "id": "source-20260520-1600-smm-lipf6-export",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/content/14042/103912482",
+        "as_of": "2026-05-20 16:00 CST",
+        "status": 200,
+        "sha256": "63006510a1564814f29966c883a82ad93951f59c2faab9c07c88c66ad3f3d7d1",
+        "finding": "2026年4月中国六氟磷酸锂累计出口量约868吨，环比下降约80.9%。"
+      },
+      {
+        "id": "source-20260520-1600-smm-zhonghong",
+        "source": "SMM上海有色 / 电池网",
+        "url": "https://newenergy.smm.cn/content/15002/103912285",
+        "as_of": "2026-05-20 16:00 CST",
+        "status": 200,
+        "sha256": "634184bfd1b371f955b703b28ee83a58bd95b8678087fc2d76fec1bd0c312cc4",
+        "finding": "中虹普能签约河南周口商水县400MW/800MWh电网侧储能电站，总投资约12.8亿元；标题称20天内两项目约32亿元。"
+      },
+      {
+        "id": "source-20260520-1600-smm-li2co3-page",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-20 16:00 CST",
+        "status": 200,
+        "sha256": "f1caf44d99dce9aedb9d65687f9b88a12f2a37278a387cdb7deb7d41ed6cd488",
+        "finding": "电池级碳酸锂价格174000-184000元/吨，均价179000元/吨，日跌7500元/吨；指数179616元/吨。"
+      },
+      {
+        "id": "source-20260520-1600-bjx-home",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-20 16:00 CST",
+        "status": 200,
+        "sha256": "57733fa8965efc1cd1cacfaa4a95ca5ce1956e2b855e6c17c55d851d5a457701",
+        "finding": "首页展示台区储能季度新增14GWh、安徽独立储能现货市场结算收益约0.23元/kWh等标题；详情WAF未扩写。"
+      },
+      {
+        "id": "source-20260520-1600-ess-lidl",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/lidl-launches-2-24-kwh-battery-in-germany-for-e299/",
+        "as_of": "2026-05-20 16:00 CST",
+        "status": 200,
+        "sha256": "365db6da1a950a00a6681ab1a9238ae1defb610b6422d9a52e49803a819df1a1",
+        "finding": "Lidl在德国推出2.24kWh阳台光储电池，售价299欧元；作为海外户储产品线索记录，未作为头条主线。"
+      },
+      {
         "id": "source-20260520-1500-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -62365,5 +63347,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-20T15:00:00+08:00"
+  "checked_at": "2026-05-20T19:00:00+08:00"
 };
