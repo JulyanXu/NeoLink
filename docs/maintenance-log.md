@@ -1,5 +1,18 @@
 # NeoLink Maintenance Log
 
+## 2026-05-21T09:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `1c8e2173...`，`/markettrend/` HTTP 200 sha256 `56dbd069...`；web_search国内/海外仍HTTP 432，改用公开页面直连与Google News RSS，未仅刷新时间。
+- 国内新增采信：中国能源网/财联社六氟磷酸锂文章sha256 `02c97b4b...`显示均价113500元/吨、单周涨超12%、行业库存约一周；SMM碳酸锂页sha256 `b943e12c...`复核电池级碳酸锂179000元/吨、指数179616元/吨，SMM新能源页sha256 `bca96718...`复核磷酸铁锂61530元/吨。
+- 海外新增采信：SolarQuarter/JMK-IEEFA文章sha256 `9a10f948...`显示印度储能累计招标容量2018年6.8GW增至2025年90.7GW、2025年独立BESS分配10.4GW；ESN Sunraycer文章sha256 `213e6853...`显示9.01亿美元融资支持479.5MW光伏+236.5MW两小时BESS；SolarQuarter埃及文章sha256 `9087aebc...`显示Obelisk 1.1GW光伏+200MWh BESS通过EETC研究；ESN Canadian Solar文章sha256 `0dab0723...`显示计划翻倍电芯/BESS制造能力，E-Storage Q1外部BESS出货2.1GWh、同比+142%。
+- 动作：已更新`data/feed.js` generated_at/checked_at至09:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表和MarketTrend资产版本至`202605210900`。已通过rsync部署至`neolink:/var/www/neolink/`并修复权限；HTTP线上回读首页、`/markettrend/`和`data/feed.js?v=202605210900`均为200，版本号、feed generated_at与`六氟磷酸锂`、`90.7GW`、`113500`关键词验证通过。Artifacts: `var/hermes/crawl-20260521-0900.py`, `var/hermes/crawl-output-20260521-0900.json`, `var/hermes/article-fetch-20260521-0900.py`, `var/hermes/article-fetch-20260521-0900.json`, `var/hermes/search-notes-20260521-0900.json`。
+
+## 2026-05-21T08:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `1c8e2173...`，`/markettrend/` HTTP 200 sha256 `56dbd069...`；web_search国内/海外仍HTTP 432，改用公开页面直连与Google News RSS，未仅刷新时间。
+- 国内新增采信：中国能源网储能招标文章sha256 `6e85758f...`显示2026年4月储能EPC/PC、储能系统、储能电芯新增招标27.2GW/85.3GWh，同比+132%，创月度新高；中国能源网/科技日报质监大纲文章sha256 `2c3f6d8f...`显示适用电源侧和电网侧100MW及以上电化学储能、压缩空气储能工程。
+- 海外新增采信：ESS News澳洲文章sha256 `ffa3a213...`显示Edify两个昆士兰光储项目合计2.4GWh BESS；ESS News德国文章sha256 `767c09a3...`显示德国Bühl计划500MW/2GWh BESS；ESN瑞浦印尼文章sha256 `0ae6f45c...`显示8GWh电芯与BESS制造设施开业；ESN NSW文章sha256 `b47de452...`显示2,128MWh储能容量被锁定。
+- MarketTrend/SMM：SMM碳酸锂页sha256 `d547adb5...`复核电池级碳酸锂179000元/吨、指数179616元/吨；SMM新能源页sha256 `4209cb03...`复核磷酸铁锂61530元/吨；不把08:00读取时间写成报价发布日期。
+- 动作：已更新`data/feed.js` generated_at/checked_at至08:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表和MarketTrend资产版本至`202605210800`。Artifacts: `var/hermes/crawl-20260521-0800.py`, `var/hermes/crawl-output-20260521-0800.json`, `var/hermes/article-fetch-20260521-0800.py`, `var/hermes/article-fetch-20260521-0800.json`, `var/hermes/search-notes-20260521-0800.json`。
+
 ## 2026-05-21T07:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `97c22c20...`，`/markettrend/` HTTP 200 sha256 `4ec47b44...`；web_search国内/海外仍HTTP 432，改用公开页面直连与Google News RSS，未仅刷新时间。
 - 国内新增采信：EnergyTrend楚能文章sha256 `fc9be8c9...`显示湖北发改委对楚能武汉、宜昌、孝感三地锂离子电池制造项目作出节能审查批复，合计新增规划产能290GWh；SMM国轩文章sha256 `8ab36a87...`显示2GWh全固态电池量产线设计完成；SMM源电文章sha256 `7c42ab07...`显示池州0.2GWh固态及固液混合电池科研总部成立。
