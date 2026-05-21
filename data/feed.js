@@ -1,8 +1,406 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-21T09:00:00+08:00",
-  "note": "09:00严格刷新：已重新读取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search返回HTTP 432，改用公开页面直连与Google News RSS。本轮新增采信六氟磷酸锂均价113500元/吨单周涨超12%、印度储能累计招标90.7GW、Sunraycer德州9.01亿美元光储融资、埃及Obelisk 1.1GW光伏+200MWh BESS审批、Canadian Solar翻倍电芯/BESS制造能力，以及SMM碳酸锂/磷酸铁锂行情。",
+  "generated_at": "2026-05-21T16:00:00+08:00",
+  "note": "16:00严格刷新：已重新读取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search返回HTTP 432，改用公开页面直连、Google News RSS与文章页。本轮新增采信中文RSS关于融科液流电池IEC标准、河南100MW/200MWh储能招标、阳光电源中东7.5GWh订单线索；英文RSS关于英国BESS交易策略、Texas 120MW项目和Colorado项目收购线索；复核SMM电池级碳酸锂182000元/吨、磷酸铁锂62255元/吨。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260521-1600-rongke-tender-global-bess-refresh",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / NeoLink HTTP crawl",
+        "source_type": "RSS聚合/行情平台/海外储能媒体/本站回读",
+        "account_name": "Google News / SMM / Energy-Storage.News",
+        "category": "国内储能标准与招标/海外BESS市场/材料行情",
+        "title": "16:00刷新：融科储能两项钒液流电池IEC标准获批，河南100MW/200MWh独立储能招标；SMM电碳182000元/吨",
+        "summary": "16:00严格刷新新增采信：国内Google News RSS出现融科储能两项钒液流电池IEC标准获批立项、河南省南阳市淅川县中谷智汇100MW/200MWh新型独立储能电站招标、阳光电源中东7.5GWh储能订单等新线索；海外RSS显示Energy-Storage.News提示英国BESS盈利需更复杂交易策略，OCI Energy/CPS Energy在Texas开工120MW电池项目，GridStor收购Colorado Birdseye battery项目。行情复核显示SMM电池级碳酸锂182000元/吨、日涨3000元/吨，磷酸铁锂62255元/吨、日涨725元/吨。",
+        "body": [
+          "国内标准侧，中文RSS显示“融科储能两项钒液流电池IEC标准获批立项”，说明液流电池标准化继续推进。",
+          "国内项目侧，中文RSS显示河南省南阳市淅川县中谷智汇100MW/200MWh新型独立储能电站招标；另有阳光电源中东7.5GWh储能订单线索。",
+          "海外运营侧，英文RSS显示Energy-Storage.News发布英国BESS盈利需要更复杂交易策略的报道，反映储能收益从简单价差套利转向多市场、多策略组合。",
+          "海外项目侧，英文RSS显示OCI Energy/CPS Energy在Texas开工120MW battery project，GridStor收购Colorado Birdseye battery project。",
+          "行情侧，SMM 16:00复核显示电池级碳酸锂182000元/吨、日涨3000元/吨；磷酸铁锂62255元/吨、日涨725元/吨；高端储能人造石墨25100元/吨持平。"
+        ],
+        "key_points": [
+          "融科储能两项钒液流电池IEC标准获批立项（中文RSS 15:53 CST）。",
+          "河南南阳淅川中谷智汇100MW/200MWh新型独立储能电站招标（中文RSS 15:48 CST）。",
+          "阳光电源再揽中东7.5GWh储能大单（中文RSS 11:14 CST）。",
+          "海外RSS显示OCI/CPS Texas 120MW电池项目开工、GridStor收购Colorado项目。",
+          "SMM显示电池级碳酸锂182000元/吨、磷酸铁锂62255元/吨。"
+        ],
+        "value": "100/200",
+        "unit": "MW/MWh tender signal",
+        "delta": "国内新型储能招标和标准化线索增加；SMM锂价维持日涨",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 16:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.energy-storage.news/",
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "clean_html": "<p>16:00新增：中文RSS出现融科液流电池IEC标准、河南100MW/200MWh储能招标和阳光电源中东7.5GWh订单线索；海外RSS出现英国BESS交易策略、Texas 120MW电池项目和Colorado项目收购；SMM电碳182000元/吨、磷酸铁锂62255元/吨。</p>",
+        "caption": "国内储能标准/招标与海外BESS项目线索同步刷新。",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 94b83213e994b3d45c21157eb0419801a38af54cfc714225fbd6341485c690f2，中国能源网 f4dd0a93207b505577445419fc454bfbf01230715734daece54e12e302d8d007，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 739d5fc738ce04e53457167a874ec6579f071cfe08796f23ba51bde8892cf7cd，CNESA d098f4bd0f58cac11be77a4ac6067b3c9bb1ea4008e130b69c2f90868ca010ab，SMM新能源 50833ee027457a3cfeaa34bd8f61f272d7228e4f84830616b42a21923b9fc9d4，SMM碳酸锂 785242324850040347272ce5e768728005b6ed890ce128ab4f65683f492d5ef9，中文Google News RSS 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813 / 5114e3698c6565ac117fd9f0a3d9ed4deadc9817a149b0c05b117bda31ab32ca。 海外入口：Energy-Storage.News d46118d15022449075df826aa7dca5458a76139b2d5e1372c899f418cffca847，ESS News 63f4dad2db2c376328de898ff20f90f57f98e89294a90b7deec8051562379faa，pv magazine 22ae8758660c2eab4e18269d874ed7c60013caf4610a2611009ed485f14c8843，SolarQuarter 49bdacba11fb1cd7e7ddc9a07f2c55aef1d633818145c0bb9d5472c5e79a59be，EnergyTrend 0e2dabd92e3467a495025a38c39827f4f83c60d5c169e0b47e30a647ebc34edb，英文Google News RSS cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf / 679286b972260d52875050b3f4aecc79ca397cc10ade7f5f71d28d11ef99a2e8。 16:00新增/复核采信：Google News中文RSS sha256 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813新增/置顶“融科储能两项钒液流电池IEC标准获批立项”“河南南阳淅川100MW/200MWh新型独立储能电站招标”“阳光电源再揽中东7.5GWh储能大单”等；英文RSS sha256 cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf显示Energy-Storage.News英国BESS盈利需更复杂交易策略、OCI/CPS 120MW Texas battery项目开工、GridStor收购Colorado Birdseye battery项目等。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，SMM电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 d0ba4b01b7b3b5a23137154c9405f24aae6efc7b6204639102a90e734abbc142显示磷酸铁锂62255元/吨、日涨725元/吨，高端储能人造石墨25100元/吨持平。",
+        "history": [
+          {
+            "label": "河南独立储能招标 MW",
+            "value": 100
+          },
+          {
+            "label": "河南独立储能招标 MWh",
+            "value": 200
+          },
+          {
+            "label": "阳光电源中东订单 GWh",
+            "value": 7.5
+          },
+          {
+            "label": "Texas项目 MW",
+            "value": 120
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 182000
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 181732
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62255
+          },
+          {
+            "label": "高端储能人造石墨 元/吨",
+            "value": 25100
+          }
+        ]
+      },
+      {
+        "id": "headline-20260521-1300-seia-rept-smm-refresh",
+        "source": "SEIA / Energy-Storage.News / SMM上海有色 / Google News RSS / NeoLink HTTP crawl",
+        "source_type": "海外行业协会/海外储能媒体/行情平台/RSS/本站回读",
+        "account_name": "SEIA / Energy-Storage.News / SMM",
+        "category": "美国储能展望/海外BESS制造/材料行情",
+        "title": "SEIA：美国Q1新增储能9.7GWh创新高；REPT印尼8GWh电池+BESS工厂开业，SMM磷酸铁锂日内上修至62255元/吨",
+        "summary": "13:00严格刷新新增采信：SEIA《Energy Storage Market Outlook Q2 2026》显示美国2026年一季度新增储能9.7GWh、同比增长32%，为历史最强Q1，其中公用事业规模7.8GWh/1.5GW；SEIA同时预计2030年年新增装机将超过110GWh、累计达到613GWh。海外制造侧，Energy-Storage.News披露瑞浦兰钧/REPT Battero印尼8GWh储能锂电池及BESS制造设施开业，项目总投资2.23亿美元。国内行情侧，SMM新能源页13:00复核显示磷酸铁锂更新至62255元/吨、日涨725元/吨，电池级碳酸锂维持182000元/吨、日涨3000元/吨。",
+        "body": [
+          "美国市场侧，SEIA《Energy Storage Market Outlook Q2 2026》显示2026年Q1美国新增储能9.7GWh、同比增长32%，为历史最强Q1。",
+          "结构侧，SEIA披露公用事业规模储能贡献7.8GWh/1.5GW，六个州新增容量超过500MWh；表后市场为1.91GWh，其中户用515MWh、工商业648MWh。",
+          "中期展望侧，SEIA预计美国到2030年年新增储能装机将超过110GWh，累计装机达到613GWh；若规划全部落地，美国电芯制造能力可能超过120GWh。",
+          "海外制造侧，Energy-Storage.News披露REPT Battero印尼首个海外制造设施开业，将生产直流储能解决方案；该8GWh储能锂电池电芯工厂此前公告总投资2.23亿美元。",
+          "行情侧，SMM 13:00复核显示电池级碳酸锂182000元/吨、日涨3000元/吨；SMM新能源页磷酸铁锂更新至62255元/吨、日涨725元/吨。"
+        ],
+        "key_points": [
+          "SEIA：美国2026年Q1新增储能9.7GWh，同比+32%，创历史最强Q1。",
+          "公用事业规模储能贡献7.8GWh/1.5GW，六个州单季新增超过500MWh。",
+          "SEIA预计2030年美国年新增储能超过110GWh，累计613GWh。",
+          "REPT Battero印尼8GWh储能锂电池及BESS制造设施开业，总投资2.23亿美元。",
+          "SMM新能源页显示磷酸铁锂62255元/吨、日涨725元/吨；电池级碳酸锂182000元/吨。"
+        ],
+        "value": "9.7",
+        "unit": "GWh Q1 US storage additions",
+        "delta": "美国Q1储能装机同比+32%；国内磷酸铁锂价格日内由12:00记录61530上修至62255元/吨",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 13:00 CST",
+        "url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/",
+        "original_url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/",
+        "related_urls": [
+          "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+          "https://www.energy-storage.news/ac-and-dc-augmentation-in-bess-the-differences-between-the-two-approaches/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>13:00新增：SEIA披露美国Q1 2026新增储能9.7GWh、同比+32%；REPT Battero印尼8GWh电池+BESS制造设施开业；SMM磷酸铁锂日内更新至62255元/吨。</p>",
+        "caption": "美国储能需求、东南亚BESS制造和国内材料价格同步刷新。",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 6862b8bebd3e4cbec98b7befe0b308ee21d88084276706f62806d59a3b0846aa，SMM新能源 978cb10430c8c54665b7e6b52c48ff8e7639db709d72b6c3322eceb00d9f016f，SMM碳酸锂 18a6662d2b9460f2f6caaeb1f18518500f6032b8015667a19aa6699003033450，中文Google News RSS 968926f57eadfe17d5d0420ddbd6d1e6f39186a4fc87b785c27e174275c385fb / d273686198b080f894793f921543b19652df9eadab36b22290d1f0f752bed633。 海外入口：Energy-Storage.News f0a511ad3cf04b2f7c11bee172ea90f211b8565e0869b10030b63f8d39adc860，ESS News e9ae3f898de86a0241e61b81d49ffaf96474e4217bbc687cb697c4bad07f412d，pv magazine 5a02b612ff93597f47f304e7497eb440627fdaaea4e8abd18b86aa06b3ffd04b，SolarQuarter 7fd281a9d0473c8b1242e5a050252a509f318ea92879c000991bf177168857db，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS ca0d4dabd20ffcdb79cda940fcba551fc6e5fd82423a055954796a9120f819ad / 63646266d24181617a4609bb9d62b55b48eb4d635a58b74720bda0fb5725e357。 13:00新增采信：SEIA Q2 2026 Outlook sha256 552a05e14bc83bcc9c2ec2cf875f5007fdad5683e64aeb17a1ead2c1dec34bac披露美国Q1 2026新增储能9.7GWh、同比+32%、其中公用事业规模7.8GWh/1.5GW，2030年年新增有望超110GWh、累计613GWh；Energy-Storage.News REPT Battero文章sha256 11ae0e7f4021c8e292809b2f328032c78b1ed17951cec481f5a201bd3ff28b0a披露印尼8GWh储能锂电池及BESS制造设施开业、投资2.23亿美元；Energy-Storage.News AC/DC augmentation文章sha256 3ee1954b689421b543a19de1261e97ae39f08e67891690cd299d22a20d751240补充BESS增容技术线索。 行情复核：SMM碳酸锂页sha256 2b02b3533812db72f6ac305d958fa2c1793b336cc0876609708e1ebdc118aa37显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 b70c9f86c166f3c0f6a58f4799557a26a841a75946f462cdea718616740909b3显示磷酸铁锂62255元/吨、日涨725元/吨，较12:00记录的61530元/吨发生日内更新。",
+        "history": [
+          {
+            "label": "美国Q1储能新增 GWh",
+            "value": 9.7
+          },
+          {
+            "label": "同比增速 %",
+            "value": 32
+          },
+          {
+            "label": "公用事业规模储能 GWh",
+            "value": 7.8
+          },
+          {
+            "label": "公用事业规模储能 GW",
+            "value": 1.5
+          },
+          {
+            "label": "2030年预计年新增 GWh",
+            "value": 110
+          },
+          {
+            "label": "2030年预计累计 GWh",
+            "value": 613
+          },
+          {
+            "label": "REPT印尼工厂 GWh",
+            "value": 8
+          },
+          {
+            "label": "REPT印尼投资 百万美元",
+            "value": 223
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62255
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 182000
+          }
+        ]
+      },
+      {
+        "id": "headline-20260521-1200-edify-smm-recycling-refresh",
+        "source": "Energy-Storage.News / SMM上海有色 / 工业和信息化部 / Google News RSS / NeoLink HTTP crawl",
+        "source_type": "海外储能媒体/行情平台/政府部门/RSS/本站回读",
+        "account_name": "Energy-Storage.News / SMM / 工信部",
+        "category": "海外BESS/材料行情/电池回收监管",
+        "title": "Edify澳洲2.4GWh光储完成财务关闭；SMM电池级碳酸锂维持18.2万元/吨，五部门推进废旧动力电池回收联合执法",
+        "summary": "12:00严格刷新新增采信：Energy-Storage.News 5月21日披露Edify Energy澳洲昆士兰两个光储项目完成财务关闭，合计配置600MW/2,400MWh BESS和720MWp光伏，并由Rio Tinto 20年混合服务协议锁定90%电力和储能容量；同站新增EDP获ARENA 300万澳元支持Braidwood韧性微网、Sunraycer为美国得州三个光储项目完成9.01亿美元融资。国内侧补充工信部等五部门废旧动力电池回收利用联合执法专项行动；行情侧SMM 5月21日电池级碳酸锂继续为182000元/吨、日涨3000元/吨，磷酸铁锂61530元/吨、日跌1820元/吨。",
+        "body": [
+          "海外项目侧，Energy-Storage.News 5月21日报道Edify Energy在澳洲昆士兰Smoky Creek与Guthrie’s Gap两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏。",
+          "商业模式侧，上述项目由Rio Tinto 20年hybrid services agreement覆盖，Rio Tinto将采购90%电力与储能容量以支持Gladstone铝业务低碳用能。",
+          "海外融资侧，Energy-Storage.News同日披露EDP获ARENA 300万澳元支持Braidwood Renewable Microgrid Project；5月20日披露Sunraycer为美国得州三个光储项目完成9.01亿美元项目融资。",
+          "国内监管侧，工信部等五部门发布规范废旧动力电池回收利用联合执法专项行动通知，回收、运输、商务和市场监管链条合规约束趋严。",
+          "行情侧，SMM 12:00复核显示5月21日电池级碳酸锂182000元/吨、较前一日上涨3000元/吨；SMM电池级碳酸锂指数181732元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。"
+        ],
+        "key_points": [
+          "Edify澳洲昆士兰两个光储项目完成财务关闭：600MW/2,400MWh BESS+720MWp光伏。",
+          "Rio Tinto 20年混合服务协议采购90%电力和储能容量。",
+          "EDP获ARENA 300万澳元支持区域韧性微网；Sunraycer得州三个光储项目获9.01亿美元融资。",
+          "工信部等五部门推进废旧动力电池回收利用联合执法。",
+          "SMM 5月21日电池级碳酸锂182000元/吨，日涨3000元/吨；磷酸铁锂61530元/吨，日跌1820元/吨。"
+        ],
+        "value": "2400",
+        "unit": "MWh BESS",
+        "delta": "澳洲新增财务关闭光储项目证据；美国得州光储融资同步补充",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 12:00 CST",
+        "url": "https://www.energy-storage.news/edify-energy-to-proceed-with-2400mwh-solar-plus-storage-sites-in-australia/",
+        "original_url": "https://www.energy-storage.news/edify-energy-to-proceed-with-2400mwh-solar-plus-storage-sites-in-australia/",
+        "related_urls": [
+          "https://www.energy-storage.news/edp-wins-au3-million-arena-funding-for-bushfire-resilient-microgrid-in-regional-australia/",
+          "https://www.energy-storage.news/sunraycer-closes-us901-million-financing-for-three-texas-solar-plus-bess-projects/",
+          "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_c5091ef89af5444c9cba59a41be29b4b.html",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>12:00新增：Edify澳洲昆士兰600MW/2,400MWh BESS光储项目完成财务关闭；SMM电池级碳酸锂维持182000元/吨；五部门推进废旧动力电池回收联合执法。</p>",
+        "caption": "海外光储财务关闭、微网资金、美国项目融资与国内电池回收监管同步刷新。",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA a53ff0c8861667ea97801afcc851faef053aba837bf63160960ff6a571a94b75，SMM新能源 04797c9deae75758642978b04a28d45c4401595a1e32e59ccf2e125eb269555c，SMM碳酸锂 b2ccbac2caa96ce47be9982ac6815e3f062ae5ab6150b5b1b91564adb842681d，中文Google News RSS 49c2ec830e44d774a3b0f32aca16d8286afa9bbdcedaf8e0ace66293a5ea9ab3 / d71596b9329d777208557d9c7d4819d5e4653fdd38a4596fc7eb4b31fd8c72b0。 海外入口：Energy-Storage.News 06d6844f2286c92a5dfdfbbadc0ece1cb87e7ea509bb0d4b90b52402479b7441，ESS News 17880208c813b804bb3e43ffada7fc33f2bb057d7f4056a8f418f78f5afa879d，pv magazine b02f2d875045d9a0af473d1cc32cd3642e5eb04ffedaa435f4dfbffbd5ea385a，SolarQuarter 269d474911b38c8b4de6a43bf064d88053cdadd91edeb2fa651c32c7a5ffbaf3，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS e082b9771a995989d82c37a0ce4b2c1a21acb6b0e64023e514670b0cfc9adb74 / 6bdd4a6178d611ea603c2341e90b2491f311c4a11e400866e31ed147df9776a1。 12:00新增采信：Energy-Storage.News Edify文章sha256 fdee7e1629f241b80f6e2bb6064703afd8c921299bd1067583f630f21783570e披露澳洲昆士兰两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏，并与Rio Tinto签20年混合服务协议；ESN EDP文章sha256 12651b4b04c391cea497b26e65d899e214ff678a68c9e4256df1c987dc9329e0披露EDP获ARENA 300万澳元支持Braidwood韧性微网；ESN Sunraycer文章sha256 9877ac829b83ba5e151640c86f02f2d8cc53ca988d4baa4cbf8304da4d340d78披露美国得州三个光储项目获得9.01亿美元融资；工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c补充国内合规线索。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8与SMM新能源页sha256 cc906ecae495c701dde406bc0355c29bd7409333d950cabe2e3a2f48bf9a407c仍显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。",
+        "history": [
+          {
+            "label": "Edify BESS MWh",
+            "value": 2400
+          },
+          {
+            "label": "Edify BESS MW",
+            "value": 600
+          },
+          {
+            "label": "Edify配套光伏 MWp",
+            "value": 720
+          },
+          {
+            "label": "Rio Tinto采购比例 %",
+            "value": 90
+          },
+          {
+            "label": "EDP ARENA资金 百万澳元",
+            "value": 3
+          },
+          {
+            "label": "Sunraycer融资 百万美元",
+            "value": 901
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 182000
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61530
+          }
+        ]
+      },
+      {
+        "id": "headline-20260521-1100-smm-overseas-bess-refresh",
+        "source": "SMM上海有色 / ESS News / SolarQuarter / Energy-Storage.News / 中国能源网 / Google News RSS / NeoLink HTTP crawl",
+        "source_type": "行情平台/海外储能媒体/海外能源媒体/国内能源媒体/RSS/本站回读",
+        "account_name": "SMM / ESS News / SolarQuarter / Energy-Storage.News",
+        "category": "材料行情/海外BESS/制造投产/监管标准",
+        "title": "SMM电池级碳酸锂反弹至18.2万元/吨；澳洲2.4GWh、德国2GWh、加州/马来西亚400MWh项目刷新海外BESS线索",
+        "summary": "11:00严格刷新新增采信：行情侧SMM公开页已更新至5月21日，电池级碳酸锂升至182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂维持61530元/吨、日跌1820元/吨。海外BESS侧新增多地区项目证据：ESS News披露澳洲项目组合含2.4GWh完成财务关闭、OX2启动200MWh建设；Copenhagen Energy与Akaysha在德国规划2GWh储能系统；MN8 Energy南加州400MWh独立电池投运；SolarQuarter披露马来西亚TNB启动100MW/400MWh Santong BESS；Energy-Storage.News披露瑞浦兰钧印尼电芯和BESS制造设施投产。监管背景继续保留国家能源局新型储能电站质监大纲。",
+        "body": [
+          "行情侧，SMM公开页在11:00复核显示5月21日电池级碳酸锂均价182000元/吨、较前一日上涨3000元/吨；SMM电池级碳酸锂指数181732元/吨、上涨2116元/吨；工业级碳酸锂178000元/吨、上涨3000元/吨。",
+          "正极材料侧，SMM新能源页显示磷酸铁锂61530元/吨、日跌1820元/吨；储能型方形磷酸铁锂电芯成本模型显示+1.54%，需继续观察是否传导至系统报价。",
+          "海外项目侧，ESS News 5月20日报道澳大利亚BESS动态：含2.4GWh项目完成财务关闭、OX2启动200MWh建设等，说明澳洲并网和融资节奏仍活跃。",
+          "欧洲侧，ESS News 5月20日报道Copenhagen Energy与Akaysha Energy计划在德国部署2GWh储能系统，德国大储储备项目继续扩容。",
+          "美国侧，ESS News 5月20日报道MN8 Energy在南加州投运400MWh tolling模式独立电池项目。",
+          "东南亚侧，SolarQuarter 5月19日报道马来西亚Tenaga Nasional Berhad启动100MW/400MWh Santong电池储能项目；Energy-Storage.News同时披露瑞浦兰钧印尼电芯和BESS制造设施投产。",
+          "监管侧，中国能源网/科技日报关于国家能源局新型储能电站建设工程质量监督大纲的报道继续作为国内工程质量与标准背景。"
+        ],
+        "key_points": [
+          "SMM 5月21日电池级碳酸锂182000元/吨，日涨3000元/吨。",
+          "SMM电池级碳酸锂指数181732元/吨，日涨2116元/吨；磷酸铁锂61530元/吨，日跌1820元/吨。",
+          "ESS News披露澳洲BESS动态含2.4GWh完成财务关闭及200MWh开建。",
+          "Copenhagen Energy与Akaysha计划德国2GWh储能系统。",
+          "MN8 Energy南加州400MWh独立电池投运；马来西亚TNB启动100MW/400MWh Santong BESS。",
+          "瑞浦兰钧印尼电芯和BESS制造设施投产，东南亚制造布局继续扩展。"
+        ],
+        "value": "182000",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "SMM公开行情由前一日179000元/吨反弹至182000元/吨",
+        "direction": "mixed",
+        "date": "05-21",
+        "as_of": "2026-05-21 11:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "original_url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "related_urls": [
+          "https://www.ess-news.com/2026/05/20/australias-busy-bess-scene-financial-close-on-2-4-gwh-ox2-starts-200-mwh-build-more/",
+          "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+          "https://www.ess-news.com/2026/05/20/mn8-energy-brings-400-mwh-tolled-standalone-battery-online-in-southern-california/",
+          "https://solarquarter.com/2026/05/19/tenaga-nasional-berhad-launches-100-mw-400-mwh-santong-battery-storage-project-in-malaysia/",
+          "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+          "https://www.cnenergynews.cn/article/4Rdbyl20G4f"
+        ],
+        "clean_html": "<p>11:00新增：SMM电池级碳酸锂更新至182000元/吨；海外BESS新增澳洲2.4GWh、德国2GWh、南加州400MWh、马来西亚100MW/400MWh及瑞浦兰钧印尼制造设施证据。</p>",
+        "caption": "材料行情反弹与海外BESS融资、开工、投运、制造投产线索同步刷新。",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 91bcdeb15bbc712ec65fbc803b5462edd900b2afa34d2391d2e034d7553f5232，中国能源网 714b3e2fa48ed603ccb6265089dc4ed5be1a730fc82d8be14ed71ef51b8a8720，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 82d0e9649905c1edcfe624112dd0208c1c0ea50c2db5b9bec164d3ec57656c9d，SMM新能源 966f501ae3fc60f0ffd82b838fd18f47e61957fffa903957a9a4b8294274066e，SMM碳酸锂 ed32d54e7ff026b4daa2de4b9a5d1a2af36894f75ef85bd03f3de9ddcf785048，中文Google News RSS 4075aa1bfd201c9e1ede9c835858b2e7d057f632eac9554d8bcea4d3b653d74f / e5f2cadd6bc1d9b2401750f806d7b8f64db4a4fd3cbebdb2dadb4d9ba556eefd。 海外入口：Energy-Storage.News cedc3b1fa0e419445d572dc4d87a37da079bfbd6d8e133523d7a49aae6803ca0，ESS News c0456d53dfbefd82412ab15145d504c9da6d8e28d7b9eef80570ca5e7af32791，pv magazine ba6629fc75f242f1dac225a6411f75bb1d7a1ac27de31dacdeb52e197ada1f5c，SolarQuarter 38e9681c7671cead301b4f42d6ee6a980b3624eacab96dd999661b62da283cf1，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 7119ebf1b1f5ad702361ef21ff9fb17cf84c9f4a89255ef16c59c41a46a543c1 / ac3f9923877d83f41558c20512a16d9f0560c9876e44ed4d3a4cb73a3f50127a。 国内新增复核：SMM碳酸锂页sha256 ed1f9e245acecb47b51d319c989fd5b9a20323854d7308b65149325ec9d527ec与SMM新能源页sha256 3a524efe7f3ebaedcbc4f7fd9577bfe2b45273bc9a5892610055319afe8d228a显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。中国能源网质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73仍作为监管背景证据。 海外新增采信：ESS News文章sha256 91a6caf2b7d74e0da0c45542f1ee6268b5218651d740511b2593f97796de4a77披露澳洲BESS动态含2.4GWh项目完成财务关闭及OX2启动200MWh建设；ESS News文章sha256 2ed7e681b43960cf93a49e34999cf032bea4181172c18df951148028ca1d7a4b披露Copenhagen Energy与Akaysha计划德国2GWh储能系统；ESS News文章sha256 ac495b519522f287bf6d91961b63b4aa6f496564b44d9f4dc3fb3a9ff88f5efd披露MN8 Energy南加州400MWh独立电池投运；SolarQuarter文章sha256 067d2890952769495997066b06e29d5b31a44ddc771e723563892af56f330c81披露马来西亚TNB 100MW/400MWh Santong BESS项目；Energy-Storage.News文章sha256 9cf40dd7229f5d21deb5f38f70900a16b0d9ff8fe5ebe0c454f747e37279cb37披露瑞浦兰钧印尼电芯和BESS制造设施投产。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 182000
+          },
+          {
+            "label": "碳酸锂日涨 元/吨",
+            "value": 3000
+          },
+          {
+            "label": "SMM电池级碳酸锂指数 元/吨",
+            "value": 181732
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61530
+          },
+          {
+            "label": "澳洲财务关闭项目 GWh",
+            "value": 2.4
+          },
+          {
+            "label": "德国规划储能 GWh",
+            "value": 2
+          },
+          {
+            "label": "南加州投运 MWh",
+            "value": 400
+          },
+          {
+            "label": "马来西亚Santong MWh",
+            "value": 400
+          },
+          {
+            "label": "马来西亚Santong MW",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "id": "headline-20260521-1000-occto-ford-cornex-storage",
+        "source": "中国能源网 / 科技日报 / EnergyTrend / Energy-Storage.News / SMM上海有色 / Google News RSS / NeoLink HTTP crawl",
+        "source_type": "国内能源媒体/科技媒体转载/海外产业媒体/行情平台/RSS/本站回读",
+        "account_name": "中国能源网 / EnergyTrend / Energy-Storage.News / SMM",
+        "category": "储能监管/电池产能/海外BESS/材料行情",
+        "title": "储能质监大纲覆盖100MW+项目；楚能新增290GWh获批，Ford-EDF潜在20GWh、日本1.25GW BESS同步刷新",
+        "summary": "10:00严格刷新新增采信：监管/标准侧，中国能源网转科技日报披露国家能源局发布新型储能电站建设工程质量监督大纲，覆盖电源侧和电网侧100MW及以上电化学储能、压缩空气储能工程，目标是规范质量监督并固化工程质量管控经验。产能侧，EnergyTrend披露湖北发改委连续批复楚能新能源武汉、宜昌、孝感三项锂离子电池项目节能审查，合计新增规划产能290GWh。海外需求侧，Ford Energy与EDF北美签署五年BESS供应框架，EDF每年可采购最高4GWh、总潜在20GWh；日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW；澳大利亚新南威尔士firming tender锁定2,128MWh储能，澳大利亚户储累计超过40万套、11.2GWh。行情侧SMM公开页价格仍显示电池级碳酸锂179000元/吨、磷酸铁锂61530元/吨。",
+        "body": [
+          "国内监管侧，中国能源网/科技日报5月20日报道，国家能源局印发《新型储能电站建设工程质量监督大纲》，适用于电力行业电源侧和电网侧功率100MW及以上电化学储能、压缩空气储能电站建设工程，用户侧储能不在适用范围内。",
+          "国内产能侧，EnergyTrend 5月20日报道，湖北省发改委连续发布楚能新能源三项锂离子电池制造项目节能审查批复，武汉90GWh、宜昌和孝感项目合计使新增规划产能达到290GWh，覆盖动力和储能电池及PACK/系统集成。",
+          "海外供应链侧，Energy-Storage.News 5月19日报道，Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年最高可采购4GWh，五年总潜在规模20GWh，预计2028年开始交付。",
+          "海外容量市场侧，Energy-Storage.News披露日本OCCTO第三轮长期脱碳电源拍卖选中19个电池储能项目，合计1,251MW，并设置6小时持续时长要求。",
+          "澳大利亚侧，Energy-Storage.News披露新南威尔士第七轮基础设施招标签约532MW firming项目，含BESS和VPP，合计2,128MWh储能容量，目标是在2027年11月底前商运以应对夏季缺口。",
+          "分布式储能侧，澳大利亚Cheaper Home Batteries Program推动户用电池超过40万套，累计储能容量11.2GWh，安装节奏约每天2000套。",
+          "行情侧，本轮复核SMM公开页：电池级碳酸锂179000元/吨、日跌7500元/吨；SMM电池级碳酸锂指数179616元/吨、日跌4555元/吨；磷酸铁锂61530元/吨、日跌1820元/吨，价格日期仍按SMM页面披露为2026-05-20。"
+        ],
+        "key_points": [
+          "国家能源局储能质监大纲适用于电源侧/电网侧100MW及以上电化学储能和压缩空气储能工程。",
+          "楚能新能源三地锂电项目获节能审查批复，合计新增规划产能290GWh。",
+          "Ford Energy与EDF北美五年BESS供应框架总潜在20GWh，预计2028年开始交付。",
+          "日本OCCTO长期脱碳电源拍卖选中19个BESS项目，合计1,251MW，要求6小时持续时长。",
+          "新南威尔士firming tender签约532MW项目，合计2,128MWh储能容量。",
+          "澳大利亚户用电池超过40万套，累计11.2GWh。",
+          "SMM材料行情显示电池级碳酸锂179000元/吨、磷酸铁锂61530元/吨。"
+        ],
+        "value": "290",
+        "unit": "GWh 楚能新增规划锂电产能",
+        "delta": "监管质监、制造扩产和海外BESS需求证据同步增强",
+        "direction": "positive",
+        "date": "05-21",
+        "as_of": "2026-05-21 10:00 CST",
+        "url": "https://www.energytrend.com/news/20260520-51432.html",
+        "original_url": "https://www.energytrend.com/news/20260520-51432.html",
+        "related_urls": [
+          "https://www.cnenergynews.cn/article/4Rdbyl20G4f",
+          "https://www.energy-storage.news/ford-energy-makes-20gwh-five-year-north-america-supply-deal-with-edf/",
+          "https://www.energy-storage.news/japans-grid-operators-select-1-25gw-of-bess-in-capacity-market-auction-with-6-hour-duration-requirement/",
+          "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/",
+          "https://www.energy-storage.news/australia-hits-400000-home-battery-installations-with-11-2gwh-capacity-in-under-a-year",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>10:00新增：储能质监大纲覆盖电源侧/电网侧100MW及以上项目；楚能三项锂电项目合计新增规划产能290GWh；Ford-EDF北美五年BESS框架总潜在20GWh；日本长期脱碳拍卖选中1,251MW BESS；新南威尔士签约2,128MWh储能。</p>",
+        "caption": "监管标准、国内电池产能和海外BESS合同/拍卖/招标同步出现新增证据。",
+        "methodology": "10:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 f9345719938dcee76f123c0cf8cad0661808a58ea85753704bd1a9b05d6c46c5，中国能源网 6c1c0976a0c152a20aa6c417942a8ae34be6d91709972bea2b216cfb3c8663c8，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 032e12985f7e7a826d24a668fcb3bdff80be373d44e60c4e8507a8821a98bbc2，SMM新能源 5151bd8b8e6931f4666302b992659666f9a175c8dbbf5053b72dfe479494ec67，SMM碳酸锂 c741e3cde9b231b26eb0aeba0890851c1acbc537a42f205b1500a3bbce9be09f，中文Google News RSS 9fd152ab5bc4d94c395bc81cef30ad0b9ed9882d5c5d925f073d2b846a1f635e / a40463602b34f22d87e40559379e108bcc3d2a36a17aedffc11caeb74447f1e3。 海外入口：Energy-Storage.News a6d27a4c862b5425caf8999615c880ec7778d4d1a42328f5e624b37adb96bf23，ESS News 1e54f1ecc93b68afb839c05c5ad5d1abebcfc665e4f9e174ca43774d92116e35，pv magazine b757d071ca907b6cd145e80c77d7ea6a2f5a3164c39987d715268fd7600ebad9，SolarQuarter 4933e8e134ce7ccb156a335b12a4ca187f4f513fb16eb5c299869ec2656f4756，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 484bec162346576d8064236b7c0c0f472c3a5c60217b2a117e4e2805a64ba1a8 / a5a976932ebb29d630eda4399078cb64dbe32ed47db49604d3e88b1aaf72cce2。 新增采信：中国能源网/科技日报质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73显示国家能源局发布新型储能电站建设工程质量监督大纲，适用于电源侧和电网侧100MW及以上电化学储能、压缩空气储能电站工程；EnergyTrend文章sha256 fc9be8c99bb483b9510c05ffa739d7a1cbfa68af62e9ea5a4271c8998c0eef0b显示楚能新能源武汉、宜昌、孝感三项锂电项目获节能审查批复，合计新增规划产能290GWh。 海外新增采信：Energy-Storage.News文章sha256 1231e453c2d4206e2d1df1ed1ea13be0bd21407410091f7a358116a7a3ccfebe显示Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年可采购最高4GWh、总潜在20GWh，预计2028年开始交付；ESN日本文章sha256 c84e892c05fa39c19ba633a88947a11d8bcdc8b0f86d5a30c9c56788fc4468ad显示日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW且有6小时要求；ESN新南威尔士文章sha256 33ebc03bad5ea5bbbd92d31329db0d65cfad4d940ccd4b5f68da6ac95018b8db显示532MW firming项目获得LTESA，合计2,128MWh储能容量；ESN澳洲户储文章sha256 ba0a6426e6e311db51816fbb38374ec5d3733065f48f0b2822a8b1ff65a0d856显示澳大利亚户用电池装机超过40万套、累计11.2GWh。 行情侧：SMM碳酸锂页sha256 b2a10f3d8da938178787f22a9f06d873e9d8def584c7e3e1b9fe311154a34148与SMM新能源页sha256 c749ab8e76b1a3bd47c377954b040a31244ebe96a720e2d8d5ef49c2d523f1eb复核：电池级碳酸锂179000元/吨、日跌7500元/吨，电池级碳酸锂指数179616元/吨、日跌4555元/吨，磷酸铁锂61530元/吨、日跌1820元/吨；价格日期沿用SMM页面披露的2026-05-20。",
+        "history": [
+          {
+            "label": "楚能新增规划产能 GWh",
+            "value": 290
+          },
+          {
+            "label": "Ford-EDF潜在BESS供应 GWh",
+            "value": 20
+          },
+          {
+            "label": "EDF年采购上限 GWh",
+            "value": 4
+          },
+          {
+            "label": "日本OCCTO选中BESS MW",
+            "value": 1251
+          },
+          {
+            "label": "日本选中BESS项目数",
+            "value": 19
+          },
+          {
+            "label": "新南威尔士储能容量 MWh",
+            "value": 2128
+          },
+          {
+            "label": "澳大利亚户储累计 GWh",
+            "value": 11.2
+          },
+          {
+            "label": "澳大利亚户储套数 万套",
+            "value": 40
+          },
+          {
+            "label": "质监大纲适用门槛 MW",
+            "value": 100
+          }
+        ]
+      },
       {
         "id": "headline-20260521-0900-lipf6-india-texas-bess",
         "source": "中国能源网 / 财联社 / SolarQuarter / JMK Research-IEEFA / Energy-Storage.News / SMM上海有色 / Google News RSS / NeoLink HTTP crawl",
@@ -10137,6 +10535,198 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260521-1600-rss-smm-bess",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / NeoLink HTTP crawl",
+        "source_type": "RSS聚合/行情平台/海外储能媒体/本站回读",
+        "account_name": "Google News / SMM / Energy-Storage.News",
+        "category": "国内储能标准与招标/海外BESS市场/材料行情",
+        "title": "16:00刷新：融科储能两项钒液流电池IEC标准获批，河南100MW/200MWh独立储能招标；SMM电碳182000元/吨",
+        "summary": "16:00严格刷新新增采信：国内Google News RSS出现融科储能两项钒液流电池IEC标准获批立项、河南省南阳市淅川县中谷智汇100MW/200MWh新型独立储能电站招标、阳光电源中东7.5GWh储能订单等新线索；海外RSS显示Energy-Storage.News提示英国BESS盈利需更复杂交易策略，OCI Energy/CPS Energy在Texas开工120MW电池项目，GridStor收购Colorado Birdseye battery项目。行情复核显示SMM电池级碳酸锂182000元/吨、日涨3000元/吨，磷酸铁锂62255元/吨、日涨725元/吨。",
+        "body": [
+          "国内标准侧，中文RSS显示“融科储能两项钒液流电池IEC标准获批立项”，说明液流电池标准化继续推进。",
+          "国内项目侧，中文RSS显示河南省南阳市淅川县中谷智汇100MW/200MWh新型独立储能电站招标；另有阳光电源中东7.5GWh储能订单线索。",
+          "海外运营侧，英文RSS显示Energy-Storage.News发布英国BESS盈利需要更复杂交易策略的报道，反映储能收益从简单价差套利转向多市场、多策略组合。",
+          "海外项目侧，英文RSS显示OCI Energy/CPS Energy在Texas开工120MW battery project，GridStor收购Colorado Birdseye battery project。",
+          "行情侧，SMM 16:00复核显示电池级碳酸锂182000元/吨、日涨3000元/吨；磷酸铁锂62255元/吨、日涨725元/吨；高端储能人造石墨25100元/吨持平。"
+        ],
+        "key_points": [
+          "融科储能两项钒液流电池IEC标准获批立项（中文RSS 15:53 CST）。",
+          "河南南阳淅川中谷智汇100MW/200MWh新型独立储能电站招标（中文RSS 15:48 CST）。",
+          "阳光电源再揽中东7.5GWh储能大单（中文RSS 11:14 CST）。",
+          "海外RSS显示OCI/CPS Texas 120MW电池项目开工、GridStor收购Colorado项目。",
+          "SMM显示电池级碳酸锂182000元/吨、磷酸铁锂62255元/吨。"
+        ],
+        "date": "05-21",
+        "as_of": "2026-05-21 16:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.energy-storage.news/",
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "clean_html": "<p>16:00新增：中文RSS出现融科液流电池IEC标准、河南100MW/200MWh储能招标和阳光电源中东7.5GWh订单线索；海外RSS出现英国BESS交易策略、Texas 120MW电池项目和Colorado项目收购；SMM电碳182000元/吨、磷酸铁锂62255元/吨。</p>",
+        "caption": "国内储能标准/招标与海外BESS项目线索同步刷新。",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 94b83213e994b3d45c21157eb0419801a38af54cfc714225fbd6341485c690f2，中国能源网 f4dd0a93207b505577445419fc454bfbf01230715734daece54e12e302d8d007，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 739d5fc738ce04e53457167a874ec6579f071cfe08796f23ba51bde8892cf7cd，CNESA d098f4bd0f58cac11be77a4ac6067b3c9bb1ea4008e130b69c2f90868ca010ab，SMM新能源 50833ee027457a3cfeaa34bd8f61f272d7228e4f84830616b42a21923b9fc9d4，SMM碳酸锂 785242324850040347272ce5e768728005b6ed890ce128ab4f65683f492d5ef9，中文Google News RSS 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813 / 5114e3698c6565ac117fd9f0a3d9ed4deadc9817a149b0c05b117bda31ab32ca。 海外入口：Energy-Storage.News d46118d15022449075df826aa7dca5458a76139b2d5e1372c899f418cffca847，ESS News 63f4dad2db2c376328de898ff20f90f57f98e89294a90b7deec8051562379faa，pv magazine 22ae8758660c2eab4e18269d874ed7c60013caf4610a2611009ed485f14c8843，SolarQuarter 49bdacba11fb1cd7e7ddc9a07f2c55aef1d633818145c0bb9d5472c5e79a59be，EnergyTrend 0e2dabd92e3467a495025a38c39827f4f83c60d5c169e0b47e30a647ebc34edb，英文Google News RSS cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf / 679286b972260d52875050b3f4aecc79ca397cc10ade7f5f71d28d11ef99a2e8。 16:00新增/复核采信：Google News中文RSS sha256 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813新增/置顶“融科储能两项钒液流电池IEC标准获批立项”“河南南阳淅川100MW/200MWh新型独立储能电站招标”“阳光电源再揽中东7.5GWh储能大单”等；英文RSS sha256 cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf显示Energy-Storage.News英国BESS盈利需更复杂交易策略、OCI/CPS 120MW Texas battery项目开工、GridStor收购Colorado Birdseye battery项目等。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，SMM电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 d0ba4b01b7b3b5a23137154c9405f24aae6efc7b6204639102a90e734abbc142显示磷酸铁锂62255元/吨、日涨725元/吨，高端储能人造石墨25100元/吨持平。"
+      },
+      {
+        "id": "latest-20260521-1300-seia-rept-smm",
+        "source": "SEIA / Energy-Storage.News / SMM上海有色 / Google News RSS / NeoLink HTTP crawl",
+        "source_type": "海外行业协会/海外储能媒体/行情平台/RSS/本站回读",
+        "account_name": "SEIA / Energy-Storage.News / SMM",
+        "category": "美国储能展望/海外BESS制造/材料行情",
+        "title": "SEIA：美国Q1新增储能9.7GWh创新高；REPT印尼8GWh电池+BESS工厂开业，SMM磷酸铁锂日内上修至62255元/吨",
+        "summary": "13:00严格刷新新增采信：SEIA《Energy Storage Market Outlook Q2 2026》显示美国2026年一季度新增储能9.7GWh、同比增长32%，为历史最强Q1，其中公用事业规模7.8GWh/1.5GW；SEIA同时预计2030年年新增装机将超过110GWh、累计达到613GWh。海外制造侧，Energy-Storage.News披露瑞浦兰钧/REPT Battero印尼8GWh储能锂电池及BESS制造设施开业，项目总投资2.23亿美元。国内行情侧，SMM新能源页13:00复核显示磷酸铁锂更新至62255元/吨、日涨725元/吨，电池级碳酸锂维持182000元/吨、日涨3000元/吨。",
+        "body": [
+          "美国市场侧，SEIA《Energy Storage Market Outlook Q2 2026》显示2026年Q1美国新增储能9.7GWh、同比增长32%，为历史最强Q1。",
+          "结构侧，SEIA披露公用事业规模储能贡献7.8GWh/1.5GW，六个州新增容量超过500MWh；表后市场为1.91GWh，其中户用515MWh、工商业648MWh。",
+          "中期展望侧，SEIA预计美国到2030年年新增储能装机将超过110GWh，累计装机达到613GWh；若规划全部落地，美国电芯制造能力可能超过120GWh。",
+          "海外制造侧，Energy-Storage.News披露REPT Battero印尼首个海外制造设施开业，将生产直流储能解决方案；该8GWh储能锂电池电芯工厂此前公告总投资2.23亿美元。",
+          "行情侧，SMM 13:00复核显示电池级碳酸锂182000元/吨、日涨3000元/吨；SMM新能源页磷酸铁锂更新至62255元/吨、日涨725元/吨。"
+        ],
+        "key_points": [
+          "SEIA：美国2026年Q1新增储能9.7GWh，同比+32%，创历史最强Q1。",
+          "公用事业规模储能贡献7.8GWh/1.5GW，六个州单季新增超过500MWh。",
+          "SEIA预计2030年美国年新增储能超过110GWh，累计613GWh。",
+          "REPT Battero印尼8GWh储能锂电池及BESS制造设施开业，总投资2.23亿美元。",
+          "SMM新能源页显示磷酸铁锂62255元/吨、日涨725元/吨；电池级碳酸锂182000元/吨。"
+        ],
+        "date": "05-21",
+        "as_of": "2026-05-21 13:00 CST",
+        "url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/",
+        "original_url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/",
+        "related_urls": [
+          "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+          "https://www.energy-storage.news/ac-and-dc-augmentation-in-bess-the-differences-between-the-two-approaches/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>13:00新增：SEIA披露美国Q1 2026新增储能9.7GWh、同比+32%；REPT Battero印尼8GWh电池+BESS制造设施开业；SMM磷酸铁锂日内更新至62255元/吨。</p>",
+        "caption": "美国储能需求、东南亚BESS制造和国内材料价格同步刷新。",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 6862b8bebd3e4cbec98b7befe0b308ee21d88084276706f62806d59a3b0846aa，SMM新能源 978cb10430c8c54665b7e6b52c48ff8e7639db709d72b6c3322eceb00d9f016f，SMM碳酸锂 18a6662d2b9460f2f6caaeb1f18518500f6032b8015667a19aa6699003033450，中文Google News RSS 968926f57eadfe17d5d0420ddbd6d1e6f39186a4fc87b785c27e174275c385fb / d273686198b080f894793f921543b19652df9eadab36b22290d1f0f752bed633。 海外入口：Energy-Storage.News f0a511ad3cf04b2f7c11bee172ea90f211b8565e0869b10030b63f8d39adc860，ESS News e9ae3f898de86a0241e61b81d49ffaf96474e4217bbc687cb697c4bad07f412d，pv magazine 5a02b612ff93597f47f304e7497eb440627fdaaea4e8abd18b86aa06b3ffd04b，SolarQuarter 7fd281a9d0473c8b1242e5a050252a509f318ea92879c000991bf177168857db，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS ca0d4dabd20ffcdb79cda940fcba551fc6e5fd82423a055954796a9120f819ad / 63646266d24181617a4609bb9d62b55b48eb4d635a58b74720bda0fb5725e357。 13:00新增采信：SEIA Q2 2026 Outlook sha256 552a05e14bc83bcc9c2ec2cf875f5007fdad5683e64aeb17a1ead2c1dec34bac披露美国Q1 2026新增储能9.7GWh、同比+32%、其中公用事业规模7.8GWh/1.5GW，2030年年新增有望超110GWh、累计613GWh；Energy-Storage.News REPT Battero文章sha256 11ae0e7f4021c8e292809b2f328032c78b1ed17951cec481f5a201bd3ff28b0a披露印尼8GWh储能锂电池及BESS制造设施开业、投资2.23亿美元；Energy-Storage.News AC/DC augmentation文章sha256 3ee1954b689421b543a19de1261e97ae39f08e67891690cd299d22a20d751240补充BESS增容技术线索。 行情复核：SMM碳酸锂页sha256 2b02b3533812db72f6ac305d958fa2c1793b336cc0876609708e1ebdc118aa37显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 b70c9f86c166f3c0f6a58f4799557a26a841a75946f462cdea718616740909b3显示磷酸铁锂62255元/吨、日涨725元/吨，较12:00记录的61530元/吨发生日内更新。"
+      },
+      {
+        "id": "latest-20260521-1200-edify-recycling-smm",
+        "source": "Energy-Storage.News / SMM上海有色 / 工业和信息化部 / Google News RSS / NeoLink HTTP crawl",
+        "source_type": "海外储能媒体/行情平台/政府部门/RSS/本站回读",
+        "account_name": "Energy-Storage.News / SMM / 工信部",
+        "category": "海外BESS/材料行情/电池回收监管",
+        "title": "Edify澳洲2.4GWh光储完成财务关闭；SMM电池级碳酸锂维持18.2万元/吨，五部门推进废旧动力电池回收联合执法",
+        "summary": "12:00严格刷新新增采信：Energy-Storage.News 5月21日披露Edify Energy澳洲昆士兰两个光储项目完成财务关闭，合计配置600MW/2,400MWh BESS和720MWp光伏，并由Rio Tinto 20年混合服务协议锁定90%电力和储能容量；同站新增EDP获ARENA 300万澳元支持Braidwood韧性微网、Sunraycer为美国得州三个光储项目完成9.01亿美元融资。国内侧补充工信部等五部门废旧动力电池回收利用联合执法专项行动；行情侧SMM 5月21日电池级碳酸锂继续为182000元/吨、日涨3000元/吨，磷酸铁锂61530元/吨、日跌1820元/吨。",
+        "body": [
+          "海外项目侧，Energy-Storage.News 5月21日报道Edify Energy在澳洲昆士兰Smoky Creek与Guthrie’s Gap两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏。",
+          "商业模式侧，上述项目由Rio Tinto 20年hybrid services agreement覆盖，Rio Tinto将采购90%电力与储能容量以支持Gladstone铝业务低碳用能。",
+          "海外融资侧，Energy-Storage.News同日披露EDP获ARENA 300万澳元支持Braidwood Renewable Microgrid Project；5月20日披露Sunraycer为美国得州三个光储项目完成9.01亿美元项目融资。",
+          "国内监管侧，工信部等五部门发布规范废旧动力电池回收利用联合执法专项行动通知，回收、运输、商务和市场监管链条合规约束趋严。",
+          "行情侧，SMM 12:00复核显示5月21日电池级碳酸锂182000元/吨、较前一日上涨3000元/吨；SMM电池级碳酸锂指数181732元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。"
+        ],
+        "key_points": [
+          "Edify澳洲昆士兰两个光储项目完成财务关闭：600MW/2,400MWh BESS+720MWp光伏。",
+          "Rio Tinto 20年混合服务协议采购90%电力和储能容量。",
+          "EDP获ARENA 300万澳元支持区域韧性微网；Sunraycer得州三个光储项目获9.01亿美元融资。",
+          "工信部等五部门推进废旧动力电池回收利用联合执法。",
+          "SMM 5月21日电池级碳酸锂182000元/吨，日涨3000元/吨；磷酸铁锂61530元/吨，日跌1820元/吨。"
+        ],
+        "date": "05-21",
+        "as_of": "2026-05-21 12:00 CST",
+        "url": "https://www.energy-storage.news/edify-energy-to-proceed-with-2400mwh-solar-plus-storage-sites-in-australia/",
+        "original_url": "https://www.energy-storage.news/edify-energy-to-proceed-with-2400mwh-solar-plus-storage-sites-in-australia/",
+        "related_urls": [
+          "https://www.energy-storage.news/edp-wins-au3-million-arena-funding-for-bushfire-resilient-microgrid-in-regional-australia/",
+          "https://www.energy-storage.news/sunraycer-closes-us901-million-financing-for-three-texas-solar-plus-bess-projects/",
+          "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_c5091ef89af5444c9cba59a41be29b4b.html",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>12:00新增：Edify澳洲昆士兰600MW/2,400MWh BESS光储项目完成财务关闭；SMM电池级碳酸锂维持182000元/吨；五部门推进废旧动力电池回收联合执法。</p>",
+        "caption": "海外光储财务关闭、微网资金、美国项目融资与国内电池回收监管同步刷新。",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA a53ff0c8861667ea97801afcc851faef053aba837bf63160960ff6a571a94b75，SMM新能源 04797c9deae75758642978b04a28d45c4401595a1e32e59ccf2e125eb269555c，SMM碳酸锂 b2ccbac2caa96ce47be9982ac6815e3f062ae5ab6150b5b1b91564adb842681d，中文Google News RSS 49c2ec830e44d774a3b0f32aca16d8286afa9bbdcedaf8e0ace66293a5ea9ab3 / d71596b9329d777208557d9c7d4819d5e4653fdd38a4596fc7eb4b31fd8c72b0。 海外入口：Energy-Storage.News 06d6844f2286c92a5dfdfbbadc0ece1cb87e7ea509bb0d4b90b52402479b7441，ESS News 17880208c813b804bb3e43ffada7fc33f2bb057d7f4056a8f418f78f5afa879d，pv magazine b02f2d875045d9a0af473d1cc32cd3642e5eb04ffedaa435f4dfbffbd5ea385a，SolarQuarter 269d474911b38c8b4de6a43bf064d88053cdadd91edeb2fa651c32c7a5ffbaf3，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS e082b9771a995989d82c37a0ce4b2c1a21acb6b0e64023e514670b0cfc9adb74 / 6bdd4a6178d611ea603c2341e90b2491f311c4a11e400866e31ed147df9776a1。 12:00新增采信：Energy-Storage.News Edify文章sha256 fdee7e1629f241b80f6e2bb6064703afd8c921299bd1067583f630f21783570e披露澳洲昆士兰两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏，并与Rio Tinto签20年混合服务协议；ESN EDP文章sha256 12651b4b04c391cea497b26e65d899e214ff678a68c9e4256df1c987dc9329e0披露EDP获ARENA 300万澳元支持Braidwood韧性微网；ESN Sunraycer文章sha256 9877ac829b83ba5e151640c86f02f2d8cc53ca988d4baa4cbf8304da4d340d78披露美国得州三个光储项目获得9.01亿美元融资；工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c补充国内合规线索。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8与SMM新能源页sha256 cc906ecae495c701dde406bc0355c29bd7409333d950cabe2e3a2f48bf9a407c仍显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。"
+      },
+      {
+        "id": "latest-20260521-1100-smm-bess-projects",
+        "source": "SMM上海有色 / ESS News / SolarQuarter / Energy-Storage.News / 中国能源网 / Google News RSS / NeoLink HTTP crawl",
+        "source_type": "行情平台/海外储能媒体/海外能源媒体/国内能源媒体/RSS/本站回读",
+        "account_name": "SMM / ESS News / SolarQuarter / Energy-Storage.News",
+        "category": "材料行情/海外BESS/制造投产/监管标准",
+        "title": "SMM电池级碳酸锂反弹至18.2万元/吨；澳洲2.4GWh、德国2GWh、加州/马来西亚400MWh项目刷新海外BESS线索",
+        "summary": "11:00严格刷新新增采信：行情侧SMM公开页已更新至5月21日，电池级碳酸锂升至182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂维持61530元/吨、日跌1820元/吨。海外BESS侧新增多地区项目证据：ESS News披露澳洲项目组合含2.4GWh完成财务关闭、OX2启动200MWh建设；Copenhagen Energy与Akaysha在德国规划2GWh储能系统；MN8 Energy南加州400MWh独立电池投运；SolarQuarter披露马来西亚TNB启动100MW/400MWh Santong BESS；Energy-Storage.News披露瑞浦兰钧印尼电芯和BESS制造设施投产。监管背景继续保留国家能源局新型储能电站质监大纲。",
+        "body": [
+          "行情侧，SMM公开页在11:00复核显示5月21日电池级碳酸锂均价182000元/吨、较前一日上涨3000元/吨；SMM电池级碳酸锂指数181732元/吨、上涨2116元/吨；工业级碳酸锂178000元/吨、上涨3000元/吨。",
+          "正极材料侧，SMM新能源页显示磷酸铁锂61530元/吨、日跌1820元/吨；储能型方形磷酸铁锂电芯成本模型显示+1.54%，需继续观察是否传导至系统报价。",
+          "海外项目侧，ESS News 5月20日报道澳大利亚BESS动态：含2.4GWh项目完成财务关闭、OX2启动200MWh建设等，说明澳洲并网和融资节奏仍活跃。",
+          "欧洲侧，ESS News 5月20日报道Copenhagen Energy与Akaysha Energy计划在德国部署2GWh储能系统，德国大储储备项目继续扩容。",
+          "美国侧，ESS News 5月20日报道MN8 Energy在南加州投运400MWh tolling模式独立电池项目。",
+          "东南亚侧，SolarQuarter 5月19日报道马来西亚Tenaga Nasional Berhad启动100MW/400MWh Santong电池储能项目；Energy-Storage.News同时披露瑞浦兰钧印尼电芯和BESS制造设施投产。",
+          "监管侧，中国能源网/科技日报关于国家能源局新型储能电站建设工程质量监督大纲的报道继续作为国内工程质量与标准背景。"
+        ],
+        "key_points": [
+          "SMM 5月21日电池级碳酸锂182000元/吨，日涨3000元/吨。",
+          "SMM电池级碳酸锂指数181732元/吨，日涨2116元/吨；磷酸铁锂61530元/吨，日跌1820元/吨。",
+          "ESS News披露澳洲BESS动态含2.4GWh完成财务关闭及200MWh开建。",
+          "Copenhagen Energy与Akaysha计划德国2GWh储能系统。",
+          "MN8 Energy南加州400MWh独立电池投运；马来西亚TNB启动100MW/400MWh Santong BESS。",
+          "瑞浦兰钧印尼电芯和BESS制造设施投产，东南亚制造布局继续扩展。"
+        ],
+        "date": "05-21",
+        "as_of": "2026-05-21 11:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "original_url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "related_urls": [
+          "https://www.ess-news.com/2026/05/20/australias-busy-bess-scene-financial-close-on-2-4-gwh-ox2-starts-200-mwh-build-more/",
+          "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+          "https://www.ess-news.com/2026/05/20/mn8-energy-brings-400-mwh-tolled-standalone-battery-online-in-southern-california/",
+          "https://solarquarter.com/2026/05/19/tenaga-nasional-berhad-launches-100-mw-400-mwh-santong-battery-storage-project-in-malaysia/",
+          "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+          "https://www.cnenergynews.cn/article/4Rdbyl20G4f"
+        ],
+        "clean_html": "<p>11:00新增：SMM电池级碳酸锂更新至182000元/吨；海外BESS新增澳洲2.4GWh、德国2GWh、南加州400MWh、马来西亚100MW/400MWh及瑞浦兰钧印尼制造设施证据。</p>",
+        "caption": "材料行情反弹与海外BESS融资、开工、投运、制造投产线索同步刷新。",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 91bcdeb15bbc712ec65fbc803b5462edd900b2afa34d2391d2e034d7553f5232，中国能源网 714b3e2fa48ed603ccb6265089dc4ed5be1a730fc82d8be14ed71ef51b8a8720，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 82d0e9649905c1edcfe624112dd0208c1c0ea50c2db5b9bec164d3ec57656c9d，SMM新能源 966f501ae3fc60f0ffd82b838fd18f47e61957fffa903957a9a4b8294274066e，SMM碳酸锂 ed32d54e7ff026b4daa2de4b9a5d1a2af36894f75ef85bd03f3de9ddcf785048，中文Google News RSS 4075aa1bfd201c9e1ede9c835858b2e7d057f632eac9554d8bcea4d3b653d74f / e5f2cadd6bc1d9b2401750f806d7b8f64db4a4fd3cbebdb2dadb4d9ba556eefd。 海外入口：Energy-Storage.News cedc3b1fa0e419445d572dc4d87a37da079bfbd6d8e133523d7a49aae6803ca0，ESS News c0456d53dfbefd82412ab15145d504c9da6d8e28d7b9eef80570ca5e7af32791，pv magazine ba6629fc75f242f1dac225a6411f75bb1d7a1ac27de31dacdeb52e197ada1f5c，SolarQuarter 38e9681c7671cead301b4f42d6ee6a980b3624eacab96dd999661b62da283cf1，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 7119ebf1b1f5ad702361ef21ff9fb17cf84c9f4a89255ef16c59c41a46a543c1 / ac3f9923877d83f41558c20512a16d9f0560c9876e44ed4d3a4cb73a3f50127a。 国内新增复核：SMM碳酸锂页sha256 ed1f9e245acecb47b51d319c989fd5b9a20323854d7308b65149325ec9d527ec与SMM新能源页sha256 3a524efe7f3ebaedcbc4f7fd9577bfe2b45273bc9a5892610055319afe8d228a显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。中国能源网质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73仍作为监管背景证据。 海外新增采信：ESS News文章sha256 91a6caf2b7d74e0da0c45542f1ee6268b5218651d740511b2593f97796de4a77披露澳洲BESS动态含2.4GWh项目完成财务关闭及OX2启动200MWh建设；ESS News文章sha256 2ed7e681b43960cf93a49e34999cf032bea4181172c18df951148028ca1d7a4b披露Copenhagen Energy与Akaysha计划德国2GWh储能系统；ESS News文章sha256 ac495b519522f287bf6d91961b63b4aa6f496564b44d9f4dc3fb3a9ff88f5efd披露MN8 Energy南加州400MWh独立电池投运；SolarQuarter文章sha256 067d2890952769495997066b06e29d5b31a44ddc771e723563892af56f330c81披露马来西亚TNB 100MW/400MWh Santong BESS项目；Energy-Storage.News文章sha256 9cf40dd7229f5d21deb5f38f70900a16b0d9ff8fe5ebe0c454f747e37279cb37披露瑞浦兰钧印尼电芯和BESS制造设施投产。"
+      },
+      {
+        "id": "latest-20260521-1000-standards-bess-capacity",
+        "source": "中国能源网 / 科技日报 / EnergyTrend / Energy-Storage.News / SMM上海有色 / Google News RSS / NeoLink HTTP crawl",
+        "source_type": "国内能源媒体/科技媒体转载/海外产业媒体/行情平台/RSS/本站回读",
+        "account_name": "中国能源网 / EnergyTrend / Energy-Storage.News / SMM",
+        "category": "储能监管/电池产能/海外BESS/材料行情",
+        "title": "储能质监大纲覆盖100MW+项目；楚能新增290GWh获批，Ford-EDF潜在20GWh、日本1.25GW BESS同步刷新",
+        "summary": "10:00严格刷新新增采信：监管/标准侧，中国能源网转科技日报披露国家能源局发布新型储能电站建设工程质量监督大纲，覆盖电源侧和电网侧100MW及以上电化学储能、压缩空气储能工程，目标是规范质量监督并固化工程质量管控经验。产能侧，EnergyTrend披露湖北发改委连续批复楚能新能源武汉、宜昌、孝感三项锂离子电池项目节能审查，合计新增规划产能290GWh。海外需求侧，Ford Energy与EDF北美签署五年BESS供应框架，EDF每年可采购最高4GWh、总潜在20GWh；日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW；澳大利亚新南威尔士firming tender锁定2,128MWh储能，澳大利亚户储累计超过40万套、11.2GWh。行情侧SMM公开页价格仍显示电池级碳酸锂179000元/吨、磷酸铁锂61530元/吨。",
+        "body": [
+          "国内监管侧，中国能源网/科技日报5月20日报道，国家能源局印发《新型储能电站建设工程质量监督大纲》，适用于电力行业电源侧和电网侧功率100MW及以上电化学储能、压缩空气储能电站建设工程，用户侧储能不在适用范围内。",
+          "国内产能侧，EnergyTrend 5月20日报道，湖北省发改委连续发布楚能新能源三项锂离子电池制造项目节能审查批复，武汉90GWh、宜昌和孝感项目合计使新增规划产能达到290GWh，覆盖动力和储能电池及PACK/系统集成。",
+          "海外供应链侧，Energy-Storage.News 5月19日报道，Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年最高可采购4GWh，五年总潜在规模20GWh，预计2028年开始交付。",
+          "海外容量市场侧，Energy-Storage.News披露日本OCCTO第三轮长期脱碳电源拍卖选中19个电池储能项目，合计1,251MW，并设置6小时持续时长要求。",
+          "澳大利亚侧，Energy-Storage.News披露新南威尔士第七轮基础设施招标签约532MW firming项目，含BESS和VPP，合计2,128MWh储能容量，目标是在2027年11月底前商运以应对夏季缺口。",
+          "分布式储能侧，澳大利亚Cheaper Home Batteries Program推动户用电池超过40万套，累计储能容量11.2GWh，安装节奏约每天2000套。",
+          "行情侧，本轮复核SMM公开页：电池级碳酸锂179000元/吨、日跌7500元/吨；SMM电池级碳酸锂指数179616元/吨、日跌4555元/吨；磷酸铁锂61530元/吨、日跌1820元/吨，价格日期仍按SMM页面披露为2026-05-20。"
+        ],
+        "key_points": [
+          "国家能源局储能质监大纲适用于电源侧/电网侧100MW及以上电化学储能和压缩空气储能工程。",
+          "楚能新能源三地锂电项目获节能审查批复，合计新增规划产能290GWh。",
+          "Ford Energy与EDF北美五年BESS供应框架总潜在20GWh，预计2028年开始交付。",
+          "日本OCCTO长期脱碳电源拍卖选中19个BESS项目，合计1,251MW，要求6小时持续时长。",
+          "新南威尔士firming tender签约532MW项目，合计2,128MWh储能容量。",
+          "澳大利亚户用电池超过40万套，累计11.2GWh。",
+          "SMM材料行情显示电池级碳酸锂179000元/吨、磷酸铁锂61530元/吨。"
+        ],
+        "date": "05-21",
+        "as_of": "2026-05-21 10:00 CST",
+        "url": "https://www.energytrend.com/news/20260520-51432.html",
+        "original_url": "https://www.energytrend.com/news/20260520-51432.html",
+        "related_urls": [
+          "https://www.cnenergynews.cn/article/4Rdbyl20G4f",
+          "https://www.energy-storage.news/ford-energy-makes-20gwh-five-year-north-america-supply-deal-with-edf/",
+          "https://www.energy-storage.news/japans-grid-operators-select-1-25gw-of-bess-in-capacity-market-auction-with-6-hour-duration-requirement/",
+          "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/",
+          "https://www.energy-storage.news/australia-hits-400000-home-battery-installations-with-11-2gwh-capacity-in-under-a-year",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>10:00新增：储能质监大纲覆盖电源侧/电网侧100MW及以上项目；楚能三项锂电项目合计新增规划产能290GWh；Ford-EDF北美五年BESS框架总潜在20GWh；日本长期脱碳拍卖选中1,251MW BESS；新南威尔士签约2,128MWh储能。</p>",
+        "caption": "监管标准、国内电池产能和海外BESS合同/拍卖/招标同步出现新增证据。",
+        "methodology": "10:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 f9345719938dcee76f123c0cf8cad0661808a58ea85753704bd1a9b05d6c46c5，中国能源网 6c1c0976a0c152a20aa6c417942a8ae34be6d91709972bea2b216cfb3c8663c8，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 032e12985f7e7a826d24a668fcb3bdff80be373d44e60c4e8507a8821a98bbc2，SMM新能源 5151bd8b8e6931f4666302b992659666f9a175c8dbbf5053b72dfe479494ec67，SMM碳酸锂 c741e3cde9b231b26eb0aeba0890851c1acbc537a42f205b1500a3bbce9be09f，中文Google News RSS 9fd152ab5bc4d94c395bc81cef30ad0b9ed9882d5c5d925f073d2b846a1f635e / a40463602b34f22d87e40559379e108bcc3d2a36a17aedffc11caeb74447f1e3。 海外入口：Energy-Storage.News a6d27a4c862b5425caf8999615c880ec7778d4d1a42328f5e624b37adb96bf23，ESS News 1e54f1ecc93b68afb839c05c5ad5d1abebcfc665e4f9e174ca43774d92116e35，pv magazine b757d071ca907b6cd145e80c77d7ea6a2f5a3164c39987d715268fd7600ebad9，SolarQuarter 4933e8e134ce7ccb156a335b12a4ca187f4f513fb16eb5c299869ec2656f4756，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 484bec162346576d8064236b7c0c0f472c3a5c60217b2a117e4e2805a64ba1a8 / a5a976932ebb29d630eda4399078cb64dbe32ed47db49604d3e88b1aaf72cce2。 新增采信：中国能源网/科技日报质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73显示国家能源局发布新型储能电站建设工程质量监督大纲，适用于电源侧和电网侧100MW及以上电化学储能、压缩空气储能电站工程；EnergyTrend文章sha256 fc9be8c99bb483b9510c05ffa739d7a1cbfa68af62e9ea5a4271c8998c0eef0b显示楚能新能源武汉、宜昌、孝感三项锂电项目获节能审查批复，合计新增规划产能290GWh。 海外新增采信：Energy-Storage.News文章sha256 1231e453c2d4206e2d1df1ed1ea13be0bd21407410091f7a358116a7a3ccfebe显示Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年可采购最高4GWh、总潜在20GWh，预计2028年开始交付；ESN日本文章sha256 c84e892c05fa39c19ba633a88947a11d8bcdc8b0f86d5a30c9c56788fc4468ad显示日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW且有6小时要求；ESN新南威尔士文章sha256 33ebc03bad5ea5bbbd92d31329db0d65cfad4d940ccd4b5f68da6ac95018b8db显示532MW firming项目获得LTESA，合计2,128MWh储能容量；ESN澳洲户储文章sha256 ba0a6426e6e311db51816fbb38374ec5d3733065f48f0b2822a8b1ff65a0d856显示澳大利亚户用电池装机超过40万套、累计11.2GWh。 行情侧：SMM碳酸锂页sha256 b2a10f3d8da938178787f22a9f06d873e9d8def584c7e3e1b9fe311154a34148与SMM新能源页sha256 c749ab8e76b1a3bd47c377954b040a31244ebe96a720e2d8d5ef49c2d523f1eb复核：电池级碳酸锂179000元/吨、日跌7500元/吨，电池级碳酸锂指数179616元/吨、日跌4555元/吨，磷酸铁锂61530元/吨、日跌1820元/吨；价格日期沿用SMM页面披露的2026-05-20。"
+      },
       {
         "id": "latest-20260521-0900-lipf6-global-bess",
         "source": "中国能源网 / 财联社 / SolarQuarter / JMK Research-IEEFA / Energy-Storage.News / SMM上海有色 / Google News RSS / NeoLink HTTP crawl",
@@ -29473,6 +30063,71 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260521-1600-smm-li2co3-lfp-graphite",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 高端储能人造石墨",
+        "spec": "SMM公开行情页，价格日期为2026-05-21；16:00复核",
+        "value": "182000 / 181732 / 62255 / 25100",
+        "unit": "元/吨",
+        "change": "碳酸锂+3000；指数+2116；磷酸铁锂+725；高端储能人造石墨持平",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-21 16:00 CST",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 94b83213e994b3d45c21157eb0419801a38af54cfc714225fbd6341485c690f2，中国能源网 f4dd0a93207b505577445419fc454bfbf01230715734daece54e12e302d8d007，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 739d5fc738ce04e53457167a874ec6579f071cfe08796f23ba51bde8892cf7cd，CNESA d098f4bd0f58cac11be77a4ac6067b3c9bb1ea4008e130b69c2f90868ca010ab，SMM新能源 50833ee027457a3cfeaa34bd8f61f272d7228e4f84830616b42a21923b9fc9d4，SMM碳酸锂 785242324850040347272ce5e768728005b6ed890ce128ab4f65683f492d5ef9，中文Google News RSS 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813 / 5114e3698c6565ac117fd9f0a3d9ed4deadc9817a149b0c05b117bda31ab32ca。 海外入口：Energy-Storage.News d46118d15022449075df826aa7dca5458a76139b2d5e1372c899f418cffca847，ESS News 63f4dad2db2c376328de898ff20f90f57f98e89294a90b7deec8051562379faa，pv magazine 22ae8758660c2eab4e18269d874ed7c60013caf4610a2611009ed485f14c8843，SolarQuarter 49bdacba11fb1cd7e7ddc9a07f2c55aef1d633818145c0bb9d5472c5e79a59be，EnergyTrend 0e2dabd92e3467a495025a38c39827f4f83c60d5c169e0b47e30a647ebc34edb，英文Google News RSS cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf / 679286b972260d52875050b3f4aecc79ca397cc10ade7f5f71d28d11ef99a2e8。 16:00新增/复核采信：Google News中文RSS sha256 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813新增/置顶“融科储能两项钒液流电池IEC标准获批立项”“河南南阳淅川100MW/200MWh新型独立储能电站招标”“阳光电源再揽中东7.5GWh储能大单”等；英文RSS sha256 cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf显示Energy-Storage.News英国BESS盈利需更复杂交易策略、OCI/CPS 120MW Texas battery项目开工、GridStor收购Colorado Birdseye battery项目等。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，SMM电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 d0ba4b01b7b3b5a23137154c9405f24aae6efc7b6204639102a90e734abbc142显示磷酸铁锂62255元/吨、日涨725元/吨，高端储能人造石墨25100元/吨持平。"
+      },
+      {
+        "id": "material-20260521-1300-smm-li2co3-lfp",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂",
+        "spec": "SMM公开行情页，价格日期为2026-05-21；13:00复核",
+        "value": "182000 / 181732 / 62255",
+        "unit": "元/吨 / 元/吨 / 元/吨",
+        "change": "碳酸锂+3000；指数+2116；磷酸铁锂+725（较12:00记录61530出现日内上修）",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-21 13:00 CST",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 6862b8bebd3e4cbec98b7befe0b308ee21d88084276706f62806d59a3b0846aa，SMM新能源 978cb10430c8c54665b7e6b52c48ff8e7639db709d72b6c3322eceb00d9f016f，SMM碳酸锂 18a6662d2b9460f2f6caaeb1f18518500f6032b8015667a19aa6699003033450，中文Google News RSS 968926f57eadfe17d5d0420ddbd6d1e6f39186a4fc87b785c27e174275c385fb / d273686198b080f894793f921543b19652df9eadab36b22290d1f0f752bed633。 海外入口：Energy-Storage.News f0a511ad3cf04b2f7c11bee172ea90f211b8565e0869b10030b63f8d39adc860，ESS News e9ae3f898de86a0241e61b81d49ffaf96474e4217bbc687cb697c4bad07f412d，pv magazine 5a02b612ff93597f47f304e7497eb440627fdaaea4e8abd18b86aa06b3ffd04b，SolarQuarter 7fd281a9d0473c8b1242e5a050252a509f318ea92879c000991bf177168857db，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS ca0d4dabd20ffcdb79cda940fcba551fc6e5fd82423a055954796a9120f819ad / 63646266d24181617a4609bb9d62b55b48eb4d635a58b74720bda0fb5725e357。 13:00新增采信：SEIA Q2 2026 Outlook sha256 552a05e14bc83bcc9c2ec2cf875f5007fdad5683e64aeb17a1ead2c1dec34bac披露美国Q1 2026新增储能9.7GWh、同比+32%、其中公用事业规模7.8GWh/1.5GW，2030年年新增有望超110GWh、累计613GWh；Energy-Storage.News REPT Battero文章sha256 11ae0e7f4021c8e292809b2f328032c78b1ed17951cec481f5a201bd3ff28b0a披露印尼8GWh储能锂电池及BESS制造设施开业、投资2.23亿美元；Energy-Storage.News AC/DC augmentation文章sha256 3ee1954b689421b543a19de1261e97ae39f08e67891690cd299d22a20d751240补充BESS增容技术线索。 行情复核：SMM碳酸锂页sha256 2b02b3533812db72f6ac305d958fa2c1793b336cc0876609708e1ebdc118aa37显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 b70c9f86c166f3c0f6a58f4799557a26a841a75946f462cdea718616740909b3显示磷酸铁锂62255元/吨、日涨725元/吨，较12:00记录的61530元/吨发生日内更新。"
+      },
+      {
+        "id": "material-20260521-1200-smm-li2co3-lfp",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂",
+        "spec": "SMM公开行情页，价格日期为2026-05-21；12:00复核",
+        "value": "182000 / 181732 / 61530",
+        "unit": "元/吨 / 元/吨 / 元/吨",
+        "change": "碳酸锂+3000；指数+2116；磷酸铁锂-1820",
+        "direction": "mixed",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-21 12:00 CST",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA a53ff0c8861667ea97801afcc851faef053aba837bf63160960ff6a571a94b75，SMM新能源 04797c9deae75758642978b04a28d45c4401595a1e32e59ccf2e125eb269555c，SMM碳酸锂 b2ccbac2caa96ce47be9982ac6815e3f062ae5ab6150b5b1b91564adb842681d，中文Google News RSS 49c2ec830e44d774a3b0f32aca16d8286afa9bbdcedaf8e0ace66293a5ea9ab3 / d71596b9329d777208557d9c7d4819d5e4653fdd38a4596fc7eb4b31fd8c72b0。 海外入口：Energy-Storage.News 06d6844f2286c92a5dfdfbbadc0ece1cb87e7ea509bb0d4b90b52402479b7441，ESS News 17880208c813b804bb3e43ffada7fc33f2bb057d7f4056a8f418f78f5afa879d，pv magazine b02f2d875045d9a0af473d1cc32cd3642e5eb04ffedaa435f4dfbffbd5ea385a，SolarQuarter 269d474911b38c8b4de6a43bf064d88053cdadd91edeb2fa651c32c7a5ffbaf3，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS e082b9771a995989d82c37a0ce4b2c1a21acb6b0e64023e514670b0cfc9adb74 / 6bdd4a6178d611ea603c2341e90b2491f311c4a11e400866e31ed147df9776a1。 12:00新增采信：Energy-Storage.News Edify文章sha256 fdee7e1629f241b80f6e2bb6064703afd8c921299bd1067583f630f21783570e披露澳洲昆士兰两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏，并与Rio Tinto签20年混合服务协议；ESN EDP文章sha256 12651b4b04c391cea497b26e65d899e214ff678a68c9e4256df1c987dc9329e0披露EDP获ARENA 300万澳元支持Braidwood韧性微网；ESN Sunraycer文章sha256 9877ac829b83ba5e151640c86f02f2d8cc53ca988d4baa4cbf8304da4d340d78披露美国得州三个光储项目获得9.01亿美元融资；工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c补充国内合规线索。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8与SMM新能源页sha256 cc906ecae495c701dde406bc0355c29bd7409333d950cabe2e3a2f48bf9a407c仍显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。"
+      },
+      {
+        "id": "material-20260521-1100-smm-li2co3-lfp",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂",
+        "spec": "SMM公开行情页，价格日期为2026-05-21；磷酸铁锂来自SMM新能源公开页",
+        "value": "182000 / 181732 / 61530",
+        "unit": "元/吨 / 元/吨 / 元/吨",
+        "change": "碳酸锂+3000；指数+2116；磷酸铁锂-1820",
+        "direction": "mixed",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-21 11:00 CST",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 91bcdeb15bbc712ec65fbc803b5462edd900b2afa34d2391d2e034d7553f5232，中国能源网 714b3e2fa48ed603ccb6265089dc4ed5be1a730fc82d8be14ed71ef51b8a8720，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 82d0e9649905c1edcfe624112dd0208c1c0ea50c2db5b9bec164d3ec57656c9d，SMM新能源 966f501ae3fc60f0ffd82b838fd18f47e61957fffa903957a9a4b8294274066e，SMM碳酸锂 ed32d54e7ff026b4daa2de4b9a5d1a2af36894f75ef85bd03f3de9ddcf785048，中文Google News RSS 4075aa1bfd201c9e1ede9c835858b2e7d057f632eac9554d8bcea4d3b653d74f / e5f2cadd6bc1d9b2401750f806d7b8f64db4a4fd3cbebdb2dadb4d9ba556eefd。 海外入口：Energy-Storage.News cedc3b1fa0e419445d572dc4d87a37da079bfbd6d8e133523d7a49aae6803ca0，ESS News c0456d53dfbefd82412ab15145d504c9da6d8e28d7b9eef80570ca5e7af32791，pv magazine ba6629fc75f242f1dac225a6411f75bb1d7a1ac27de31dacdeb52e197ada1f5c，SolarQuarter 38e9681c7671cead301b4f42d6ee6a980b3624eacab96dd999661b62da283cf1，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 7119ebf1b1f5ad702361ef21ff9fb17cf84c9f4a89255ef16c59c41a46a543c1 / ac3f9923877d83f41558c20512a16d9f0560c9876e44ed4d3a4cb73a3f50127a。 国内新增复核：SMM碳酸锂页sha256 ed1f9e245acecb47b51d319c989fd5b9a20323854d7308b65149325ec9d527ec与SMM新能源页sha256 3a524efe7f3ebaedcbc4f7fd9577bfe2b45273bc9a5892610055319afe8d228a显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。中国能源网质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73仍作为监管背景证据。 海外新增采信：ESS News文章sha256 91a6caf2b7d74e0da0c45542f1ee6268b5218651d740511b2593f97796de4a77披露澳洲BESS动态含2.4GWh项目完成财务关闭及OX2启动200MWh建设；ESS News文章sha256 2ed7e681b43960cf93a49e34999cf032bea4181172c18df951148028ca1d7a4b披露Copenhagen Energy与Akaysha计划德国2GWh储能系统；ESS News文章sha256 ac495b519522f287bf6d91961b63b4aa6f496564b44d9f4dc3fb3a9ff88f5efd披露MN8 Energy南加州400MWh独立电池投运；SolarQuarter文章sha256 067d2890952769495997066b06e29d5b31a44ddc771e723563892af56f330c81披露马来西亚TNB 100MW/400MWh Santong BESS项目；Energy-Storage.News文章sha256 9cf40dd7229f5d21deb5f38f70900a16b0d9ff8fe5ebe0c454f747e37279cb37披露瑞浦兰钧印尼电芯和BESS制造设施投产。"
+      },
+      {
+        "id": "material-20260521-1000-cornex-smm",
+        "name": "楚能锂电产能 / 电池级碳酸锂 / 磷酸铁锂",
+        "spec": "楚能为EnergyTrend披露的湖北三地锂离子电池制造项目新增规划产能；碳酸锂与磷酸铁锂为SMM公开行情页，价格日期沿用页面披露的2026-05-20",
+        "value": "290 / 179000 / 61530",
+        "unit": "GWh / 元/吨 / 元/吨",
+        "change": "新增规划产能290GWh；碳酸锂-7500；磷酸铁锂-1820",
+        "direction": "mixed",
+        "source": "EnergyTrend / SMM上海有色",
+        "url": "https://www.energytrend.com/news/20260520-51432.html",
+        "as_of": "2026-05-21 10:00 CST",
+        "methodology": "10:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 f9345719938dcee76f123c0cf8cad0661808a58ea85753704bd1a9b05d6c46c5，中国能源网 6c1c0976a0c152a20aa6c417942a8ae34be6d91709972bea2b216cfb3c8663c8，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 032e12985f7e7a826d24a668fcb3bdff80be373d44e60c4e8507a8821a98bbc2，SMM新能源 5151bd8b8e6931f4666302b992659666f9a175c8dbbf5053b72dfe479494ec67，SMM碳酸锂 c741e3cde9b231b26eb0aeba0890851c1acbc537a42f205b1500a3bbce9be09f，中文Google News RSS 9fd152ab5bc4d94c395bc81cef30ad0b9ed9882d5c5d925f073d2b846a1f635e / a40463602b34f22d87e40559379e108bcc3d2a36a17aedffc11caeb74447f1e3。 海外入口：Energy-Storage.News a6d27a4c862b5425caf8999615c880ec7778d4d1a42328f5e624b37adb96bf23，ESS News 1e54f1ecc93b68afb839c05c5ad5d1abebcfc665e4f9e174ca43774d92116e35，pv magazine b757d071ca907b6cd145e80c77d7ea6a2f5a3164c39987d715268fd7600ebad9，SolarQuarter 4933e8e134ce7ccb156a335b12a4ca187f4f513fb16eb5c299869ec2656f4756，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 484bec162346576d8064236b7c0c0f472c3a5c60217b2a117e4e2805a64ba1a8 / a5a976932ebb29d630eda4399078cb64dbe32ed47db49604d3e88b1aaf72cce2。 新增采信：中国能源网/科技日报质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73显示国家能源局发布新型储能电站建设工程质量监督大纲，适用于电源侧和电网侧100MW及以上电化学储能、压缩空气储能电站工程；EnergyTrend文章sha256 fc9be8c99bb483b9510c05ffa739d7a1cbfa68af62e9ea5a4271c8998c0eef0b显示楚能新能源武汉、宜昌、孝感三项锂电项目获节能审查批复，合计新增规划产能290GWh。 海外新增采信：Energy-Storage.News文章sha256 1231e453c2d4206e2d1df1ed1ea13be0bd21407410091f7a358116a7a3ccfebe显示Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年可采购最高4GWh、总潜在20GWh，预计2028年开始交付；ESN日本文章sha256 c84e892c05fa39c19ba633a88947a11d8bcdc8b0f86d5a30c9c56788fc4468ad显示日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW且有6小时要求；ESN新南威尔士文章sha256 33ebc03bad5ea5bbbd92d31329db0d65cfad4d940ccd4b5f68da6ac95018b8db显示532MW firming项目获得LTESA，合计2,128MWh储能容量；ESN澳洲户储文章sha256 ba0a6426e6e311db51816fbb38374ec5d3733065f48f0b2822a8b1ff65a0d856显示澳大利亚户用电池装机超过40万套、累计11.2GWh。 行情侧：SMM碳酸锂页sha256 b2a10f3d8da938178787f22a9f06d873e9d8def584c7e3e1b9fe311154a34148与SMM新能源页sha256 c749ab8e76b1a3bd47c377954b040a31244ebe96a720e2d8d5ef49c2d523f1eb复核：电池级碳酸锂179000元/吨、日跌7500元/吨，电池级碳酸锂指数179616元/吨、日跌4555元/吨，磷酸铁锂61530元/吨、日跌1820元/吨；价格日期沿用SMM页面披露的2026-05-20。"
+      },
+      {
         "id": "material-20260521-0900-lipf6-smm",
         "name": "六氟磷酸锂 / 电池级碳酸锂 / 磷酸铁锂",
         "spec": "六氟磷酸锂为中国能源网/财联社报道均价；碳酸锂与磷酸铁锂为SMM公开行情页，价格日期沿用页面披露的2026-05-20",
@@ -32204,6 +32859,71 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260521-1600-henan-storage-tender",
+        "title": "河南南阳淅川新型独立储能电站招标容量",
+        "value": "100/200",
+        "unit": "MW/MWh",
+        "caption": "Google News中文RSS显示河南省南阳市淅川县中谷智汇100MW/200MWh新型独立储能电站招标。",
+        "delta": "国内独立储能招标线索新增",
+        "direction": "up",
+        "source": "Google News RSS / 碳索储能网",
+        "as_of": "2026-05-21 16:00 CST",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 94b83213e994b3d45c21157eb0419801a38af54cfc714225fbd6341485c690f2，中国能源网 f4dd0a93207b505577445419fc454bfbf01230715734daece54e12e302d8d007，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 739d5fc738ce04e53457167a874ec6579f071cfe08796f23ba51bde8892cf7cd，CNESA d098f4bd0f58cac11be77a4ac6067b3c9bb1ea4008e130b69c2f90868ca010ab，SMM新能源 50833ee027457a3cfeaa34bd8f61f272d7228e4f84830616b42a21923b9fc9d4，SMM碳酸锂 785242324850040347272ce5e768728005b6ed890ce128ab4f65683f492d5ef9，中文Google News RSS 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813 / 5114e3698c6565ac117fd9f0a3d9ed4deadc9817a149b0c05b117bda31ab32ca。 海外入口：Energy-Storage.News d46118d15022449075df826aa7dca5458a76139b2d5e1372c899f418cffca847，ESS News 63f4dad2db2c376328de898ff20f90f57f98e89294a90b7deec8051562379faa，pv magazine 22ae8758660c2eab4e18269d874ed7c60013caf4610a2611009ed485f14c8843，SolarQuarter 49bdacba11fb1cd7e7ddc9a07f2c55aef1d633818145c0bb9d5472c5e79a59be，EnergyTrend 0e2dabd92e3467a495025a38c39827f4f83c60d5c169e0b47e30a647ebc34edb，英文Google News RSS cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf / 679286b972260d52875050b3f4aecc79ca397cc10ade7f5f71d28d11ef99a2e8。 16:00新增/复核采信：Google News中文RSS sha256 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813新增/置顶“融科储能两项钒液流电池IEC标准获批立项”“河南南阳淅川100MW/200MWh新型独立储能电站招标”“阳光电源再揽中东7.5GWh储能大单”等；英文RSS sha256 cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf显示Energy-Storage.News英国BESS盈利需更复杂交易策略、OCI/CPS 120MW Texas battery项目开工、GridStor收购Colorado Birdseye battery项目等。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，SMM电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 d0ba4b01b7b3b5a23137154c9405f24aae6efc7b6204639102a90e734abbc142显示磷酸铁锂62255元/吨、日涨725元/吨，高端储能人造石墨25100元/吨持平。",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      },
+      {
+        "id": "metric-20260521-1300-seia-us-storage-q1",
+        "title": "美国2026年Q1新增储能容量",
+        "value": "9.7",
+        "unit": "GWh",
+        "caption": "SEIA Q2 2026 Outlook：美国Q1储能新增9.7GWh、同比+32%，其中公用事业规模7.8GWh/1.5GW。",
+        "delta": "历史最强Q1；2030年年新增预计超过110GWh",
+        "direction": "up",
+        "source": "SEIA",
+        "as_of": "2026-05-21 13:00 CST",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 6862b8bebd3e4cbec98b7befe0b308ee21d88084276706f62806d59a3b0846aa，SMM新能源 978cb10430c8c54665b7e6b52c48ff8e7639db709d72b6c3322eceb00d9f016f，SMM碳酸锂 18a6662d2b9460f2f6caaeb1f18518500f6032b8015667a19aa6699003033450，中文Google News RSS 968926f57eadfe17d5d0420ddbd6d1e6f39186a4fc87b785c27e174275c385fb / d273686198b080f894793f921543b19652df9eadab36b22290d1f0f752bed633。 海外入口：Energy-Storage.News f0a511ad3cf04b2f7c11bee172ea90f211b8565e0869b10030b63f8d39adc860，ESS News e9ae3f898de86a0241e61b81d49ffaf96474e4217bbc687cb697c4bad07f412d，pv magazine 5a02b612ff93597f47f304e7497eb440627fdaaea4e8abd18b86aa06b3ffd04b，SolarQuarter 7fd281a9d0473c8b1242e5a050252a509f318ea92879c000991bf177168857db，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS ca0d4dabd20ffcdb79cda940fcba551fc6e5fd82423a055954796a9120f819ad / 63646266d24181617a4609bb9d62b55b48eb4d635a58b74720bda0fb5725e357。 13:00新增采信：SEIA Q2 2026 Outlook sha256 552a05e14bc83bcc9c2ec2cf875f5007fdad5683e64aeb17a1ead2c1dec34bac披露美国Q1 2026新增储能9.7GWh、同比+32%、其中公用事业规模7.8GWh/1.5GW，2030年年新增有望超110GWh、累计613GWh；Energy-Storage.News REPT Battero文章sha256 11ae0e7f4021c8e292809b2f328032c78b1ed17951cec481f5a201bd3ff28b0a披露印尼8GWh储能锂电池及BESS制造设施开业、投资2.23亿美元；Energy-Storage.News AC/DC augmentation文章sha256 3ee1954b689421b543a19de1261e97ae39f08e67891690cd299d22a20d751240补充BESS增容技术线索。 行情复核：SMM碳酸锂页sha256 2b02b3533812db72f6ac305d958fa2c1793b336cc0876609708e1ebdc118aa37显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 b70c9f86c166f3c0f6a58f4799557a26a841a75946f462cdea718616740909b3显示磷酸铁锂62255元/吨、日涨725元/吨，较12:00记录的61530元/吨发生日内更新。",
+        "url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/"
+      },
+      {
+        "id": "metric-20260521-1200-edify-bess-financial-close",
+        "title": "Edify澳洲光储项目BESS配置",
+        "value": "2400",
+        "unit": "MWh",
+        "caption": "Energy-Storage.News：Edify Energy昆士兰两个光储项目完成财务关闭，合计600MW/2,400MWh BESS与720MWp光伏。",
+        "delta": "澳洲大储财务关闭证据增加",
+        "direction": "up",
+        "source": "Energy-Storage.News",
+        "as_of": "2026-05-21 12:00 CST",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA a53ff0c8861667ea97801afcc851faef053aba837bf63160960ff6a571a94b75，SMM新能源 04797c9deae75758642978b04a28d45c4401595a1e32e59ccf2e125eb269555c，SMM碳酸锂 b2ccbac2caa96ce47be9982ac6815e3f062ae5ab6150b5b1b91564adb842681d，中文Google News RSS 49c2ec830e44d774a3b0f32aca16d8286afa9bbdcedaf8e0ace66293a5ea9ab3 / d71596b9329d777208557d9c7d4819d5e4653fdd38a4596fc7eb4b31fd8c72b0。 海外入口：Energy-Storage.News 06d6844f2286c92a5dfdfbbadc0ece1cb87e7ea509bb0d4b90b52402479b7441，ESS News 17880208c813b804bb3e43ffada7fc33f2bb057d7f4056a8f418f78f5afa879d，pv magazine b02f2d875045d9a0af473d1cc32cd3642e5eb04ffedaa435f4dfbffbd5ea385a，SolarQuarter 269d474911b38c8b4de6a43bf064d88053cdadd91edeb2fa651c32c7a5ffbaf3，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS e082b9771a995989d82c37a0ce4b2c1a21acb6b0e64023e514670b0cfc9adb74 / 6bdd4a6178d611ea603c2341e90b2491f311c4a11e400866e31ed147df9776a1。 12:00新增采信：Energy-Storage.News Edify文章sha256 fdee7e1629f241b80f6e2bb6064703afd8c921299bd1067583f630f21783570e披露澳洲昆士兰两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏，并与Rio Tinto签20年混合服务协议；ESN EDP文章sha256 12651b4b04c391cea497b26e65d899e214ff678a68c9e4256df1c987dc9329e0披露EDP获ARENA 300万澳元支持Braidwood韧性微网；ESN Sunraycer文章sha256 9877ac829b83ba5e151640c86f02f2d8cc53ca988d4baa4cbf8304da4d340d78披露美国得州三个光储项目获得9.01亿美元融资；工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c补充国内合规线索。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8与SMM新能源页sha256 cc906ecae495c701dde406bc0355c29bd7409333d950cabe2e3a2f48bf9a407c仍显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。",
+        "url": "https://www.energy-storage.news/edify-energy-to-proceed-with-2400mwh-solar-plus-storage-sites-in-australia/"
+      },
+      {
+        "id": "metric-20260521-1100-australia-bess-financial-close",
+        "title": "澳洲BESS完成财务关闭规模",
+        "value": "2.4",
+        "unit": "GWh",
+        "caption": "ESS News：澳大利亚BESS动态含2.4GWh项目完成财务关闭，OX2启动200MWh建设。",
+        "delta": "澳洲大储融资和施工节奏活跃",
+        "direction": "up",
+        "source": "ESS News",
+        "as_of": "2026-05-21 11:00 CST",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 91bcdeb15bbc712ec65fbc803b5462edd900b2afa34d2391d2e034d7553f5232，中国能源网 714b3e2fa48ed603ccb6265089dc4ed5be1a730fc82d8be14ed71ef51b8a8720，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 82d0e9649905c1edcfe624112dd0208c1c0ea50c2db5b9bec164d3ec57656c9d，SMM新能源 966f501ae3fc60f0ffd82b838fd18f47e61957fffa903957a9a4b8294274066e，SMM碳酸锂 ed32d54e7ff026b4daa2de4b9a5d1a2af36894f75ef85bd03f3de9ddcf785048，中文Google News RSS 4075aa1bfd201c9e1ede9c835858b2e7d057f632eac9554d8bcea4d3b653d74f / e5f2cadd6bc1d9b2401750f806d7b8f64db4a4fd3cbebdb2dadb4d9ba556eefd。 海外入口：Energy-Storage.News cedc3b1fa0e419445d572dc4d87a37da079bfbd6d8e133523d7a49aae6803ca0，ESS News c0456d53dfbefd82412ab15145d504c9da6d8e28d7b9eef80570ca5e7af32791，pv magazine ba6629fc75f242f1dac225a6411f75bb1d7a1ac27de31dacdeb52e197ada1f5c，SolarQuarter 38e9681c7671cead301b4f42d6ee6a980b3624eacab96dd999661b62da283cf1，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 7119ebf1b1f5ad702361ef21ff9fb17cf84c9f4a89255ef16c59c41a46a543c1 / ac3f9923877d83f41558c20512a16d9f0560c9876e44ed4d3a4cb73a3f50127a。 国内新增复核：SMM碳酸锂页sha256 ed1f9e245acecb47b51d319c989fd5b9a20323854d7308b65149325ec9d527ec与SMM新能源页sha256 3a524efe7f3ebaedcbc4f7fd9577bfe2b45273bc9a5892610055319afe8d228a显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。中国能源网质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73仍作为监管背景证据。 海外新增采信：ESS News文章sha256 91a6caf2b7d74e0da0c45542f1ee6268b5218651d740511b2593f97796de4a77披露澳洲BESS动态含2.4GWh项目完成财务关闭及OX2启动200MWh建设；ESS News文章sha256 2ed7e681b43960cf93a49e34999cf032bea4181172c18df951148028ca1d7a4b披露Copenhagen Energy与Akaysha计划德国2GWh储能系统；ESS News文章sha256 ac495b519522f287bf6d91961b63b4aa6f496564b44d9f4dc3fb3a9ff88f5efd披露MN8 Energy南加州400MWh独立电池投运；SolarQuarter文章sha256 067d2890952769495997066b06e29d5b31a44ddc771e723563892af56f330c81披露马来西亚TNB 100MW/400MWh Santong BESS项目；Energy-Storage.News文章sha256 9cf40dd7229f5d21deb5f38f70900a16b0d9ff8fe5ebe0c454f747e37279cb37披露瑞浦兰钧印尼电芯和BESS制造设施投产。",
+        "url": "https://www.ess-news.com/2026/05/20/australias-busy-bess-scene-financial-close-on-2-4-gwh-ox2-starts-200-mwh-build-more/"
+      },
+      {
+        "id": "metric-20260521-1000-ford-edf-bess",
+        "title": "Ford-EDF北美BESS供应框架潜在规模",
+        "value": "20",
+        "unit": "GWh",
+        "caption": "Energy-Storage.News：Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年最高4GWh、五年总潜在20GWh，预计2028年交付。",
+        "delta": "北美供应链本土化需求增强",
+        "direction": "up",
+        "source": "Energy-Storage.News",
+        "as_of": "2026-05-21 10:00 CST",
+        "methodology": "10:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 f9345719938dcee76f123c0cf8cad0661808a58ea85753704bd1a9b05d6c46c5，中国能源网 6c1c0976a0c152a20aa6c417942a8ae34be6d91709972bea2b216cfb3c8663c8，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 032e12985f7e7a826d24a668fcb3bdff80be373d44e60c4e8507a8821a98bbc2，SMM新能源 5151bd8b8e6931f4666302b992659666f9a175c8dbbf5053b72dfe479494ec67，SMM碳酸锂 c741e3cde9b231b26eb0aeba0890851c1acbc537a42f205b1500a3bbce9be09f，中文Google News RSS 9fd152ab5bc4d94c395bc81cef30ad0b9ed9882d5c5d925f073d2b846a1f635e / a40463602b34f22d87e40559379e108bcc3d2a36a17aedffc11caeb74447f1e3。 海外入口：Energy-Storage.News a6d27a4c862b5425caf8999615c880ec7778d4d1a42328f5e624b37adb96bf23，ESS News 1e54f1ecc93b68afb839c05c5ad5d1abebcfc665e4f9e174ca43774d92116e35，pv magazine b757d071ca907b6cd145e80c77d7ea6a2f5a3164c39987d715268fd7600ebad9，SolarQuarter 4933e8e134ce7ccb156a335b12a4ca187f4f513fb16eb5c299869ec2656f4756，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 484bec162346576d8064236b7c0c0f472c3a5c60217b2a117e4e2805a64ba1a8 / a5a976932ebb29d630eda4399078cb64dbe32ed47db49604d3e88b1aaf72cce2。 新增采信：中国能源网/科技日报质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73显示国家能源局发布新型储能电站建设工程质量监督大纲，适用于电源侧和电网侧100MW及以上电化学储能、压缩空气储能电站工程；EnergyTrend文章sha256 fc9be8c99bb483b9510c05ffa739d7a1cbfa68af62e9ea5a4271c8998c0eef0b显示楚能新能源武汉、宜昌、孝感三项锂电项目获节能审查批复，合计新增规划产能290GWh。 海外新增采信：Energy-Storage.News文章sha256 1231e453c2d4206e2d1df1ed1ea13be0bd21407410091f7a358116a7a3ccfebe显示Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年可采购最高4GWh、总潜在20GWh，预计2028年开始交付；ESN日本文章sha256 c84e892c05fa39c19ba633a88947a11d8bcdc8b0f86d5a30c9c56788fc4468ad显示日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW且有6小时要求；ESN新南威尔士文章sha256 33ebc03bad5ea5bbbd92d31329db0d65cfad4d940ccd4b5f68da6ac95018b8db显示532MW firming项目获得LTESA，合计2,128MWh储能容量；ESN澳洲户储文章sha256 ba0a6426e6e311db51816fbb38374ec5d3733065f48f0b2822a8b1ff65a0d856显示澳大利亚户用电池装机超过40万套、累计11.2GWh。 行情侧：SMM碳酸锂页sha256 b2a10f3d8da938178787f22a9f06d873e9d8def584c7e3e1b9fe311154a34148与SMM新能源页sha256 c749ab8e76b1a3bd47c377954b040a31244ebe96a720e2d8d5ef49c2d523f1eb复核：电池级碳酸锂179000元/吨、日跌7500元/吨，电池级碳酸锂指数179616元/吨、日跌4555元/吨，磷酸铁锂61530元/吨、日跌1820元/吨；价格日期沿用SMM页面披露的2026-05-20。",
+        "url": "https://www.energy-storage.news/ford-energy-makes-20gwh-five-year-north-america-supply-deal-with-edf/"
+      },
       {
         "id": "metric-20260521-0900-india-storage-tenders",
         "title": "印度累计招标储能容量",
@@ -44964,6 +45684,81 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260521-1600-uk-texas-colorado-bess",
+        "source": "Google News RSS / Energy-Storage.News / BIC Magazine / Power Technology",
+        "category": "海外BESS运营与项目",
+        "title": "海外RSS显示英国BESS盈利策略复杂化，Texas 120MW项目开工、Colorado项目收购",
+        "summary": "英文Google News RSS显示Energy-Storage.News报道英国BESS盈利需要更复杂交易策略；OCI Energy/CPS Energy在Texas开工120MW battery project；GridStor收购Colorado Birdseye battery project。",
+        "value": "120",
+        "unit": "MW Texas battery project",
+        "delta": "海外BESS项目和运营策略线索新增",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 16:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 94b83213e994b3d45c21157eb0419801a38af54cfc714225fbd6341485c690f2，中国能源网 f4dd0a93207b505577445419fc454bfbf01230715734daece54e12e302d8d007，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 739d5fc738ce04e53457167a874ec6579f071cfe08796f23ba51bde8892cf7cd，CNESA d098f4bd0f58cac11be77a4ac6067b3c9bb1ea4008e130b69c2f90868ca010ab，SMM新能源 50833ee027457a3cfeaa34bd8f61f272d7228e4f84830616b42a21923b9fc9d4，SMM碳酸锂 785242324850040347272ce5e768728005b6ed890ce128ab4f65683f492d5ef9，中文Google News RSS 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813 / 5114e3698c6565ac117fd9f0a3d9ed4deadc9817a149b0c05b117bda31ab32ca。 海外入口：Energy-Storage.News d46118d15022449075df826aa7dca5458a76139b2d5e1372c899f418cffca847，ESS News 63f4dad2db2c376328de898ff20f90f57f98e89294a90b7deec8051562379faa，pv magazine 22ae8758660c2eab4e18269d874ed7c60013caf4610a2611009ed485f14c8843，SolarQuarter 49bdacba11fb1cd7e7ddc9a07f2c55aef1d633818145c0bb9d5472c5e79a59be，EnergyTrend 0e2dabd92e3467a495025a38c39827f4f83c60d5c169e0b47e30a647ebc34edb，英文Google News RSS cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf / 679286b972260d52875050b3f4aecc79ca397cc10ade7f5f71d28d11ef99a2e8。 16:00新增/复核采信：Google News中文RSS sha256 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813新增/置顶“融科储能两项钒液流电池IEC标准获批立项”“河南南阳淅川100MW/200MWh新型独立储能电站招标”“阳光电源再揽中东7.5GWh储能大单”等；英文RSS sha256 cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf显示Energy-Storage.News英国BESS盈利需更复杂交易策略、OCI/CPS 120MW Texas battery项目开工、GridStor收购Colorado Birdseye battery项目等。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，SMM电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 d0ba4b01b7b3b5a23137154c9405f24aae6efc7b6204639102a90e734abbc142显示磷酸铁锂62255元/吨、日涨725元/吨，高端储能人造石墨25100元/吨持平。"
+      },
+      {
+        "id": "overseas-20260521-1300-seia-rept",
+        "source": "SEIA / Energy-Storage.News",
+        "category": "美国储能展望/海外BESS制造",
+        "title": "SEIA称美国Q1储能9.7GWh创新高，REPT印尼8GWh电池与BESS工厂开业",
+        "summary": "SEIA Q2 2026 Outlook披露美国2026年Q1储能新增9.7GWh、同比+32%，并预计2030年年新增超110GWh、累计613GWh；Energy-Storage.News披露REPT Battero印尼8GWh储能锂电池及BESS制造设施开业，投资2.23亿美元。",
+        "value": "9.7",
+        "unit": "GWh",
+        "delta": "美国需求展望与东南亚制造落地同步增加",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 13:00 CST",
+        "url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 6862b8bebd3e4cbec98b7befe0b308ee21d88084276706f62806d59a3b0846aa，SMM新能源 978cb10430c8c54665b7e6b52c48ff8e7639db709d72b6c3322eceb00d9f016f，SMM碳酸锂 18a6662d2b9460f2f6caaeb1f18518500f6032b8015667a19aa6699003033450，中文Google News RSS 968926f57eadfe17d5d0420ddbd6d1e6f39186a4fc87b785c27e174275c385fb / d273686198b080f894793f921543b19652df9eadab36b22290d1f0f752bed633。 海外入口：Energy-Storage.News f0a511ad3cf04b2f7c11bee172ea90f211b8565e0869b10030b63f8d39adc860，ESS News e9ae3f898de86a0241e61b81d49ffaf96474e4217bbc687cb697c4bad07f412d，pv magazine 5a02b612ff93597f47f304e7497eb440627fdaaea4e8abd18b86aa06b3ffd04b，SolarQuarter 7fd281a9d0473c8b1242e5a050252a509f318ea92879c000991bf177168857db，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS ca0d4dabd20ffcdb79cda940fcba551fc6e5fd82423a055954796a9120f819ad / 63646266d24181617a4609bb9d62b55b48eb4d635a58b74720bda0fb5725e357。 13:00新增采信：SEIA Q2 2026 Outlook sha256 552a05e14bc83bcc9c2ec2cf875f5007fdad5683e64aeb17a1ead2c1dec34bac披露美国Q1 2026新增储能9.7GWh、同比+32%、其中公用事业规模7.8GWh/1.5GW，2030年年新增有望超110GWh、累计613GWh；Energy-Storage.News REPT Battero文章sha256 11ae0e7f4021c8e292809b2f328032c78b1ed17951cec481f5a201bd3ff28b0a披露印尼8GWh储能锂电池及BESS制造设施开业、投资2.23亿美元；Energy-Storage.News AC/DC augmentation文章sha256 3ee1954b689421b543a19de1261e97ae39f08e67891690cd299d22a20d751240补充BESS增容技术线索。 行情复核：SMM碳酸锂页sha256 2b02b3533812db72f6ac305d958fa2c1793b336cc0876609708e1ebdc118aa37显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 b70c9f86c166f3c0f6a58f4799557a26a841a75946f462cdea718616740909b3显示磷酸铁锂62255元/吨、日涨725元/吨，较12:00记录的61530元/吨发生日内更新。"
+      },
+      {
+        "id": "overseas-20260521-1200-edify-edp-sunraycer",
+        "source": "Energy-Storage.News",
+        "category": "海外BESS/光储融资/微网",
+        "title": "Edify 600MW/2,400MWh澳洲光储财务关闭，EDP微网与Sunraycer得州融资同步刷新",
+        "summary": "Energy-Storage.News 5月21日报道Edify澳洲昆士兰两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏；EDP获ARENA 300万澳元发展Braidwood韧性微网；Sunraycer为得州三个光储项目完成9.01亿美元融资。",
+        "value": "2400",
+        "unit": "MWh BESS",
+        "delta": "海外光储项目融资、韧性微网资金同步增加",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 12:00 CST",
+        "url": "https://www.energy-storage.news/edify-energy-to-proceed-with-2400mwh-solar-plus-storage-sites-in-australia/",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA a53ff0c8861667ea97801afcc851faef053aba837bf63160960ff6a571a94b75，SMM新能源 04797c9deae75758642978b04a28d45c4401595a1e32e59ccf2e125eb269555c，SMM碳酸锂 b2ccbac2caa96ce47be9982ac6815e3f062ae5ab6150b5b1b91564adb842681d，中文Google News RSS 49c2ec830e44d774a3b0f32aca16d8286afa9bbdcedaf8e0ace66293a5ea9ab3 / d71596b9329d777208557d9c7d4819d5e4653fdd38a4596fc7eb4b31fd8c72b0。 海外入口：Energy-Storage.News 06d6844f2286c92a5dfdfbbadc0ece1cb87e7ea509bb0d4b90b52402479b7441，ESS News 17880208c813b804bb3e43ffada7fc33f2bb057d7f4056a8f418f78f5afa879d，pv magazine b02f2d875045d9a0af473d1cc32cd3642e5eb04ffedaa435f4dfbffbd5ea385a，SolarQuarter 269d474911b38c8b4de6a43bf064d88053cdadd91edeb2fa651c32c7a5ffbaf3，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS e082b9771a995989d82c37a0ce4b2c1a21acb6b0e64023e514670b0cfc9adb74 / 6bdd4a6178d611ea603c2341e90b2491f311c4a11e400866e31ed147df9776a1。 12:00新增采信：Energy-Storage.News Edify文章sha256 fdee7e1629f241b80f6e2bb6064703afd8c921299bd1067583f630f21783570e披露澳洲昆士兰两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏，并与Rio Tinto签20年混合服务协议；ESN EDP文章sha256 12651b4b04c391cea497b26e65d899e214ff678a68c9e4256df1c987dc9329e0披露EDP获ARENA 300万澳元支持Braidwood韧性微网；ESN Sunraycer文章sha256 9877ac829b83ba5e151640c86f02f2d8cc53ca988d4baa4cbf8304da4d340d78披露美国得州三个光储项目获得9.01亿美元融资；工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c补充国内合规线索。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8与SMM新能源页sha256 cc906ecae495c701dde406bc0355c29bd7409333d950cabe2e3a2f48bf9a407c仍显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。"
+      },
+      {
+        "id": "overseas-20260521-1100-bess-australia-germany-us-malaysia",
+        "source": "ESS News / SolarQuarter / Energy-Storage.News",
+        "category": "海外BESS/制造投产",
+        "title": "澳洲2.4GWh、德国2GWh、南加州400MWh与马来西亚100MW/400MWh项目同步刷新",
+        "summary": "ESS News披露澳大利亚BESS项目组合含2.4GWh财务关闭和200MWh开建；德国Copenhagen Energy/Akaysha计划2GWh储能；MN8南加州400MWh电池投运；SolarQuarter披露TNB马来西亚100MW/400MWh Santong项目；ESN披露瑞浦兰钧印尼电芯和BESS制造设施投产。",
+        "value": "2.4",
+        "unit": "GWh 澳洲BESS财务关闭项目",
+        "delta": "海外项目融资、开建、投运、制造投产同步增加",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 11:00 CST",
+        "url": "https://www.ess-news.com/2026/05/20/australias-busy-bess-scene-financial-close-on-2-4-gwh-ox2-starts-200-mwh-build-more/",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 91bcdeb15bbc712ec65fbc803b5462edd900b2afa34d2391d2e034d7553f5232，中国能源网 714b3e2fa48ed603ccb6265089dc4ed5be1a730fc82d8be14ed71ef51b8a8720，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 82d0e9649905c1edcfe624112dd0208c1c0ea50c2db5b9bec164d3ec57656c9d，SMM新能源 966f501ae3fc60f0ffd82b838fd18f47e61957fffa903957a9a4b8294274066e，SMM碳酸锂 ed32d54e7ff026b4daa2de4b9a5d1a2af36894f75ef85bd03f3de9ddcf785048，中文Google News RSS 4075aa1bfd201c9e1ede9c835858b2e7d057f632eac9554d8bcea4d3b653d74f / e5f2cadd6bc1d9b2401750f806d7b8f64db4a4fd3cbebdb2dadb4d9ba556eefd。 海外入口：Energy-Storage.News cedc3b1fa0e419445d572dc4d87a37da079bfbd6d8e133523d7a49aae6803ca0，ESS News c0456d53dfbefd82412ab15145d504c9da6d8e28d7b9eef80570ca5e7af32791，pv magazine ba6629fc75f242f1dac225a6411f75bb1d7a1ac27de31dacdeb52e197ada1f5c，SolarQuarter 38e9681c7671cead301b4f42d6ee6a980b3624eacab96dd999661b62da283cf1，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 7119ebf1b1f5ad702361ef21ff9fb17cf84c9f4a89255ef16c59c41a46a543c1 / ac3f9923877d83f41558c20512a16d9f0560c9876e44ed4d3a4cb73a3f50127a。 国内新增复核：SMM碳酸锂页sha256 ed1f9e245acecb47b51d319c989fd5b9a20323854d7308b65149325ec9d527ec与SMM新能源页sha256 3a524efe7f3ebaedcbc4f7fd9577bfe2b45273bc9a5892610055319afe8d228a显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。中国能源网质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73仍作为监管背景证据。 海外新增采信：ESS News文章sha256 91a6caf2b7d74e0da0c45542f1ee6268b5218651d740511b2593f97796de4a77披露澳洲BESS动态含2.4GWh项目完成财务关闭及OX2启动200MWh建设；ESS News文章sha256 2ed7e681b43960cf93a49e34999cf032bea4181172c18df951148028ca1d7a4b披露Copenhagen Energy与Akaysha计划德国2GWh储能系统；ESS News文章sha256 ac495b519522f287bf6d91961b63b4aa6f496564b44d9f4dc3fb3a9ff88f5efd披露MN8 Energy南加州400MWh独立电池投运；SolarQuarter文章sha256 067d2890952769495997066b06e29d5b31a44ddc771e723563892af56f330c81披露马来西亚TNB 100MW/400MWh Santong BESS项目；Energy-Storage.News文章sha256 9cf40dd7229f5d21deb5f38f70900a16b0d9ff8fe5ebe0c454f747e37279cb37披露瑞浦兰钧印尼电芯和BESS制造设施投产。"
+      },
+      {
+        "id": "overseas-20260521-1000-ford-japan-nsw-australia",
+        "source": "Energy-Storage.News / ESS News",
+        "category": "海外BESS/容量市场/户储",
+        "title": "Ford-EDF潜在20GWh、日本1,251MW BESS、新南威尔士2,128MWh与澳大利亚11.2GWh户储同步刷新",
+        "summary": "Ford Energy与EDF北美签署五年BESS供应框架，总潜在20GWh；日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW；新南威尔士firming tender签约532MW、合计2,128MWh储能；澳大利亚户用电池累计超过40万套、11.2GWh。",
+        "value": "20",
+        "unit": "GWh Ford-EDF潜在BESS供应",
+        "delta": "海外BESS合同、拍卖、招标和户储数据同步增强",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 10:00 CST",
+        "url": "https://www.energy-storage.news/ford-energy-makes-20gwh-five-year-north-america-supply-deal-with-edf/",
+        "methodology": "10:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 f9345719938dcee76f123c0cf8cad0661808a58ea85753704bd1a9b05d6c46c5，中国能源网 6c1c0976a0c152a20aa6c417942a8ae34be6d91709972bea2b216cfb3c8663c8，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 032e12985f7e7a826d24a668fcb3bdff80be373d44e60c4e8507a8821a98bbc2，SMM新能源 5151bd8b8e6931f4666302b992659666f9a175c8dbbf5053b72dfe479494ec67，SMM碳酸锂 c741e3cde9b231b26eb0aeba0890851c1acbc537a42f205b1500a3bbce9be09f，中文Google News RSS 9fd152ab5bc4d94c395bc81cef30ad0b9ed9882d5c5d925f073d2b846a1f635e / a40463602b34f22d87e40559379e108bcc3d2a36a17aedffc11caeb74447f1e3。 海外入口：Energy-Storage.News a6d27a4c862b5425caf8999615c880ec7778d4d1a42328f5e624b37adb96bf23，ESS News 1e54f1ecc93b68afb839c05c5ad5d1abebcfc665e4f9e174ca43774d92116e35，pv magazine b757d071ca907b6cd145e80c77d7ea6a2f5a3164c39987d715268fd7600ebad9，SolarQuarter 4933e8e134ce7ccb156a335b12a4ca187f4f513fb16eb5c299869ec2656f4756，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 484bec162346576d8064236b7c0c0f472c3a5c60217b2a117e4e2805a64ba1a8 / a5a976932ebb29d630eda4399078cb64dbe32ed47db49604d3e88b1aaf72cce2。 新增采信：中国能源网/科技日报质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73显示国家能源局发布新型储能电站建设工程质量监督大纲，适用于电源侧和电网侧100MW及以上电化学储能、压缩空气储能电站工程；EnergyTrend文章sha256 fc9be8c99bb483b9510c05ffa739d7a1cbfa68af62e9ea5a4271c8998c0eef0b显示楚能新能源武汉、宜昌、孝感三项锂电项目获节能审查批复，合计新增规划产能290GWh。 海外新增采信：Energy-Storage.News文章sha256 1231e453c2d4206e2d1df1ed1ea13be0bd21407410091f7a358116a7a3ccfebe显示Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年可采购最高4GWh、总潜在20GWh，预计2028年开始交付；ESN日本文章sha256 c84e892c05fa39c19ba633a88947a11d8bcdc8b0f86d5a30c9c56788fc4468ad显示日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW且有6小时要求；ESN新南威尔士文章sha256 33ebc03bad5ea5bbbd92d31329db0d65cfad4d940ccd4b5f68da6ac95018b8db显示532MW firming项目获得LTESA，合计2,128MWh储能容量；ESN澳洲户储文章sha256 ba0a6426e6e311db51816fbb38374ec5d3733065f48f0b2822a8b1ff65a0d856显示澳大利亚户用电池装机超过40万套、累计11.2GWh。 行情侧：SMM碳酸锂页sha256 b2a10f3d8da938178787f22a9f06d873e9d8def584c7e3e1b9fe311154a34148与SMM新能源页sha256 c749ab8e76b1a3bd47c377954b040a31244ebe96a720e2d8d5ef49c2d523f1eb复核：电池级碳酸锂179000元/吨、日跌7500元/吨，电池级碳酸锂指数179616元/吨、日跌4555元/吨，磷酸铁锂61530元/吨、日跌1820元/吨；价格日期沿用SMM页面披露的2026-05-20。"
+      },
+      {
         "id": "overseas-20260521-0900-india-texas-egypt-canadian-solar",
         "source": "SolarQuarter / Energy-Storage.News",
         "category": "海外BESS/项目融资/制造产能",
@@ -50255,6 +51050,81 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260521-1600-rss-smm",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News",
+        "category": "国内储能招标与标准/海外BESS/材料行情",
+        "title": "国内RSS新增液流电池IEC标准和100MW/200MWh储能招标，SMM锂价维持日涨",
+        "summary": "16:00严格刷新新增采信：国内Google News RSS出现融科储能两项钒液流电池IEC标准获批立项、河南省南阳市淅川县中谷智汇100MW/200MWh新型独立储能电站招标、阳光电源中东7.5GWh储能订单等新线索；海外RSS显示Energy-Storage.News提示英国BESS盈利需更复杂交易策略，OCI Energy/CPS Energy在Texas开工120MW电池项目，GridStor收购Colorado Birdseye battery项目。行情复核显示SMM电池级碳酸锂182000元/吨、日涨3000元/吨，磷酸铁锂62255元/吨、日涨725元/吨。",
+        "value": "182000",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "材料价格维持日涨；项目与标准化线索增加",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 16:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 94b83213e994b3d45c21157eb0419801a38af54cfc714225fbd6341485c690f2，中国能源网 f4dd0a93207b505577445419fc454bfbf01230715734daece54e12e302d8d007，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 739d5fc738ce04e53457167a874ec6579f071cfe08796f23ba51bde8892cf7cd，CNESA d098f4bd0f58cac11be77a4ac6067b3c9bb1ea4008e130b69c2f90868ca010ab，SMM新能源 50833ee027457a3cfeaa34bd8f61f272d7228e4f84830616b42a21923b9fc9d4，SMM碳酸锂 785242324850040347272ce5e768728005b6ed890ce128ab4f65683f492d5ef9，中文Google News RSS 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813 / 5114e3698c6565ac117fd9f0a3d9ed4deadc9817a149b0c05b117bda31ab32ca。 海外入口：Energy-Storage.News d46118d15022449075df826aa7dca5458a76139b2d5e1372c899f418cffca847，ESS News 63f4dad2db2c376328de898ff20f90f57f98e89294a90b7deec8051562379faa，pv magazine 22ae8758660c2eab4e18269d874ed7c60013caf4610a2611009ed485f14c8843，SolarQuarter 49bdacba11fb1cd7e7ddc9a07f2c55aef1d633818145c0bb9d5472c5e79a59be，EnergyTrend 0e2dabd92e3467a495025a38c39827f4f83c60d5c169e0b47e30a647ebc34edb，英文Google News RSS cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf / 679286b972260d52875050b3f4aecc79ca397cc10ade7f5f71d28d11ef99a2e8。 16:00新增/复核采信：Google News中文RSS sha256 6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813新增/置顶“融科储能两项钒液流电池IEC标准获批立项”“河南南阳淅川100MW/200MWh新型独立储能电站招标”“阳光电源再揽中东7.5GWh储能大单”等；英文RSS sha256 cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf显示Energy-Storage.News英国BESS盈利需更复杂交易策略、OCI/CPS 120MW Texas battery项目开工、GridStor收购Colorado Birdseye battery项目等。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，SMM电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 d0ba4b01b7b3b5a23137154c9405f24aae6efc7b6204639102a90e734abbc142显示磷酸铁锂62255元/吨、日涨725元/吨，高端储能人造石墨25100元/吨持平。"
+      },
+      {
+        "id": "market-20260521-1300-seia-rept-smm",
+        "source": "SEIA / Energy-Storage.News / SMM上海有色",
+        "category": "美国储能/制造/材料行情",
+        "title": "美国Q1储能9.7GWh、REPT印尼8GWh制造与SMM磷酸铁锂62255元/吨进入MarketTrend",
+        "summary": "13:00 MarketTrend更新：SEIA披露美国2026年Q1新增储能9.7GWh、同比+32%，公用事业规模7.8GWh/1.5GW；REPT Battero印尼8GWh储能锂电池与BESS制造设施开业；SMM新能源显示磷酸铁锂62255元/吨、日涨725元/吨，电池级碳酸锂182000元/吨。",
+        "value": "9.7",
+        "unit": "GWh US Q1 additions",
+        "delta": "美国储能需求证据增强，国内LFP价格日内上修",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 13:00 CST",
+        "url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS、站内候选链接和文章页抓取，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 4d1045064558a51c68ccb6a8964bb37c6bf1de8a42629cfbed288f9879908d9c，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 6862b8bebd3e4cbec98b7befe0b308ee21d88084276706f62806d59a3b0846aa，SMM新能源 978cb10430c8c54665b7e6b52c48ff8e7639db709d72b6c3322eceb00d9f016f，SMM碳酸锂 18a6662d2b9460f2f6caaeb1f18518500f6032b8015667a19aa6699003033450，中文Google News RSS 968926f57eadfe17d5d0420ddbd6d1e6f39186a4fc87b785c27e174275c385fb / d273686198b080f894793f921543b19652df9eadab36b22290d1f0f752bed633。 海外入口：Energy-Storage.News f0a511ad3cf04b2f7c11bee172ea90f211b8565e0869b10030b63f8d39adc860，ESS News e9ae3f898de86a0241e61b81d49ffaf96474e4217bbc687cb697c4bad07f412d，pv magazine 5a02b612ff93597f47f304e7497eb440627fdaaea4e8abd18b86aa06b3ffd04b，SolarQuarter 7fd281a9d0473c8b1242e5a050252a509f318ea92879c000991bf177168857db，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS ca0d4dabd20ffcdb79cda940fcba551fc6e5fd82423a055954796a9120f819ad / 63646266d24181617a4609bb9d62b55b48eb4d635a58b74720bda0fb5725e357。 13:00新增采信：SEIA Q2 2026 Outlook sha256 552a05e14bc83bcc9c2ec2cf875f5007fdad5683e64aeb17a1ead2c1dec34bac披露美国Q1 2026新增储能9.7GWh、同比+32%、其中公用事业规模7.8GWh/1.5GW，2030年年新增有望超110GWh、累计613GWh；Energy-Storage.News REPT Battero文章sha256 11ae0e7f4021c8e292809b2f328032c78b1ed17951cec481f5a201bd3ff28b0a披露印尼8GWh储能锂电池及BESS制造设施开业、投资2.23亿美元；Energy-Storage.News AC/DC augmentation文章sha256 3ee1954b689421b543a19de1261e97ae39f08e67891690cd299d22a20d751240补充BESS增容技术线索。 行情复核：SMM碳酸锂页sha256 2b02b3533812db72f6ac305d958fa2c1793b336cc0876609708e1ebdc118aa37显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；SMM新能源页sha256 b70c9f86c166f3c0f6a58f4799557a26a841a75946f462cdea718616740909b3显示磷酸铁锂62255元/吨、日涨725元/吨，较12:00记录的61530元/吨发生日内更新。"
+      },
+      {
+        "id": "market-20260521-1200-edify-smm-recycling",
+        "source": "Energy-Storage.News / SMM上海有色 / 工信部",
+        "category": "海外BESS/材料行情/监管",
+        "title": "澳洲2.4GWh光储财务关闭、美国光储9.01亿美元融资与SMM行情同步进入MarketTrend",
+        "summary": "12:00 MarketTrend更新：Edify澳洲昆士兰600MW/2,400MWh BESS光储项目完成财务关闭；Sunraycer美国得州三个光储项目获9.01亿美元融资；SMM电池级碳酸锂182000元/吨、磷酸铁锂61530元/吨；工信部等五部门推进废旧动力电池回收利用联合执法。",
+        "value": "2400",
+        "unit": "MWh BESS",
+        "delta": "项目融资证据增强，材料价格维持日内更新水平",
+        "direction": "mixed",
+        "date": "05-21",
+        "as_of": "2026-05-21 12:00 CST",
+        "url": "https://www.energy-storage.news/edify-energy-to-proceed-with-2400mwh-solar-plus-storage-sites-in-australia/",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 a9d2fc64ed6206156dedf52e44dbb1b6dd9b4860de575342b81a7bf6eb0f7d7a，中国能源网 024b9b46f860b4abd973c7bdfd862feca5c23a09a7b4902449429d32025f4d3c，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA a53ff0c8861667ea97801afcc851faef053aba837bf63160960ff6a571a94b75，SMM新能源 04797c9deae75758642978b04a28d45c4401595a1e32e59ccf2e125eb269555c，SMM碳酸锂 b2ccbac2caa96ce47be9982ac6815e3f062ae5ab6150b5b1b91564adb842681d，中文Google News RSS 49c2ec830e44d774a3b0f32aca16d8286afa9bbdcedaf8e0ace66293a5ea9ab3 / d71596b9329d777208557d9c7d4819d5e4653fdd38a4596fc7eb4b31fd8c72b0。 海外入口：Energy-Storage.News 06d6844f2286c92a5dfdfbbadc0ece1cb87e7ea509bb0d4b90b52402479b7441，ESS News 17880208c813b804bb3e43ffada7fc33f2bb057d7f4056a8f418f78f5afa879d，pv magazine b02f2d875045d9a0af473d1cc32cd3642e5eb04ffedaa435f4dfbffbd5ea385a，SolarQuarter 269d474911b38c8b4de6a43bf064d88053cdadd91edeb2fa651c32c7a5ffbaf3，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS e082b9771a995989d82c37a0ce4b2c1a21acb6b0e64023e514670b0cfc9adb74 / 6bdd4a6178d611ea603c2341e90b2491f311c4a11e400866e31ed147df9776a1。 12:00新增采信：Energy-Storage.News Edify文章sha256 fdee7e1629f241b80f6e2bb6064703afd8c921299bd1067583f630f21783570e披露澳洲昆士兰两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏，并与Rio Tinto签20年混合服务协议；ESN EDP文章sha256 12651b4b04c391cea497b26e65d899e214ff678a68c9e4256df1c987dc9329e0披露EDP获ARENA 300万澳元支持Braidwood韧性微网；ESN Sunraycer文章sha256 9877ac829b83ba5e151640c86f02f2d8cc53ca988d4baa4cbf8304da4d340d78披露美国得州三个光储项目获得9.01亿美元融资；工信部五部门废旧动力电池回收联合执法通知sha256 0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c补充国内合规线索。 行情复核：SMM碳酸锂页sha256 262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8与SMM新能源页sha256 cc906ecae495c701dde406bc0355c29bd7409333d950cabe2e3a2f48bf9a407c仍显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。"
+      },
+      {
+        "id": "market-20260521-1100-smm-bess-global",
+        "source": "SMM上海有色 / ESS News / SolarQuarter / Energy-Storage.News",
+        "category": "材料行情/海外BESS",
+        "title": "SMM碳酸锂5月21日反弹，澳洲、德国、美国、马来西亚BESS线索同步刷新MarketTrend",
+        "summary": "11:00 MarketTrend更新：SMM电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨；海外BESS新增澳洲2.4GWh财务关闭、德国2GWh规划、南加州400MWh投运、马来西亚100MW/400MWh项目及印尼制造设施投产。",
+        "value": "182000",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "材料价格反弹，海外BESS项目证据增加",
+        "direction": "mixed",
+        "date": "05-21",
+        "as_of": "2026-05-21 11:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 91bcdeb15bbc712ec65fbc803b5462edd900b2afa34d2391d2e034d7553f5232，中国能源网 714b3e2fa48ed603ccb6265089dc4ed5be1a730fc82d8be14ed71ef51b8a8720，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 82d0e9649905c1edcfe624112dd0208c1c0ea50c2db5b9bec164d3ec57656c9d，SMM新能源 966f501ae3fc60f0ffd82b838fd18f47e61957fffa903957a9a4b8294274066e，SMM碳酸锂 ed32d54e7ff026b4daa2de4b9a5d1a2af36894f75ef85bd03f3de9ddcf785048，中文Google News RSS 4075aa1bfd201c9e1ede9c835858b2e7d057f632eac9554d8bcea4d3b653d74f / e5f2cadd6bc1d9b2401750f806d7b8f64db4a4fd3cbebdb2dadb4d9ba556eefd。 海外入口：Energy-Storage.News cedc3b1fa0e419445d572dc4d87a37da079bfbd6d8e133523d7a49aae6803ca0，ESS News c0456d53dfbefd82412ab15145d504c9da6d8e28d7b9eef80570ca5e7af32791，pv magazine ba6629fc75f242f1dac225a6411f75bb1d7a1ac27de31dacdeb52e197ada1f5c，SolarQuarter 38e9681c7671cead301b4f42d6ee6a980b3624eacab96dd999661b62da283cf1，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 7119ebf1b1f5ad702361ef21ff9fb17cf84c9f4a89255ef16c59c41a46a543c1 / ac3f9923877d83f41558c20512a16d9f0560c9876e44ed4d3a4cb73a3f50127a。 国内新增复核：SMM碳酸锂页sha256 ed1f9e245acecb47b51d319c989fd5b9a20323854d7308b65149325ec9d527ec与SMM新能源页sha256 3a524efe7f3ebaedcbc4f7fd9577bfe2b45273bc9a5892610055319afe8d228a显示5月21日电池级碳酸锂182000元/吨、日涨3000元/吨，电池级碳酸锂指数181732元/吨、日涨2116元/吨；磷酸铁锂61530元/吨、日跌1820元/吨。中国能源网质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73仍作为监管背景证据。 海外新增采信：ESS News文章sha256 91a6caf2b7d74e0da0c45542f1ee6268b5218651d740511b2593f97796de4a77披露澳洲BESS动态含2.4GWh项目完成财务关闭及OX2启动200MWh建设；ESS News文章sha256 2ed7e681b43960cf93a49e34999cf032bea4181172c18df951148028ca1d7a4b披露Copenhagen Energy与Akaysha计划德国2GWh储能系统；ESS News文章sha256 ac495b519522f287bf6d91961b63b4aa6f496564b44d9f4dc3fb3a9ff88f5efd披露MN8 Energy南加州400MWh独立电池投运；SolarQuarter文章sha256 067d2890952769495997066b06e29d5b31a44ddc771e723563892af56f330c81披露马来西亚TNB 100MW/400MWh Santong BESS项目；Energy-Storage.News文章sha256 9cf40dd7229f5d21deb5f38f70900a16b0d9ff8fe5ebe0c454f747e37279cb37披露瑞浦兰钧印尼电芯和BESS制造设施投产。"
+      },
+      {
+        "id": "market-20260521-1000-standards-cornex-bess",
+        "source": "中国能源网 / EnergyTrend / Energy-Storage.News / SMM上海有色",
+        "category": "监管标准/电池产能/海外BESS/材料行情",
+        "title": "储能质监大纲、楚能290GWh获批与Ford-EDF潜在20GWh框架共同刷新MarketTrend",
+        "summary": "10:00 MarketTrend更新：国家能源局储能质监大纲覆盖100MW及以上电源侧/电网侧电化学和压缩空气储能工程；楚能三地锂电项目新增规划产能290GWh；Ford-EDF五年BESS框架潜在20GWh；日本OCCTO选中1,251MW BESS；新南威尔士签约2,128MWh储能；SMM电池级碳酸锂179000元/吨。",
+        "value": "290",
+        "unit": "GWh 新增规划锂电产能",
+        "delta": "标准、产能和海外需求均更新",
+        "direction": "up",
+        "date": "05-21",
+        "as_of": "2026-05-21 10:00 CST",
+        "url": "https://www.energytrend.com/news/20260520-51432.html",
+        "methodology": "10:00严格刷新：已重新抓取NeoLink首页和/markettrend/，主动搜索国内与海外公开来源；web_search国内/海外查询返回HTTP 432，本轮改用requests直连公开站点、Google News RSS和站内候选链接，保存HTML/RSS并按sha256比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6，MarketTrend HTTP 200 sha256 0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2。 国内入口：北极星储能 f9345719938dcee76f123c0cf8cad0661808a58ea85753704bd1a9b05d6c46c5，中国能源网 6c1c0976a0c152a20aa6c417942a8ae34be6d91709972bea2b216cfb3c8663c8，国家能源局 c678cbe889269e2a841ab21300e776ad44ef52f6a47f32e31ce2d3f17481fa71，工信部 e534aa02c8076cf5b71e433d8ef1bdf5c93da574529b878ee7f32e0e2b58c62d，CNESA 032e12985f7e7a826d24a668fcb3bdff80be373d44e60c4e8507a8821a98bbc2，SMM新能源 5151bd8b8e6931f4666302b992659666f9a175c8dbbf5053b72dfe479494ec67，SMM碳酸锂 c741e3cde9b231b26eb0aeba0890851c1acbc537a42f205b1500a3bbce9be09f，中文Google News RSS 9fd152ab5bc4d94c395bc81cef30ad0b9ed9882d5c5d925f073d2b846a1f635e / a40463602b34f22d87e40559379e108bcc3d2a36a17aedffc11caeb74447f1e3。 海外入口：Energy-Storage.News a6d27a4c862b5425caf8999615c880ec7778d4d1a42328f5e624b37adb96bf23，ESS News 1e54f1ecc93b68afb839c05c5ad5d1abebcfc665e4f9e174ca43774d92116e35，pv magazine b757d071ca907b6cd145e80c77d7ea6a2f5a3164c39987d715268fd7600ebad9，SolarQuarter 4933e8e134ce7ccb156a335b12a4ca187f4f513fb16eb5c299869ec2656f4756，EnergyTrend c0b58b80613f8d627dd48620b040b32fa067b20e3796de825bef9fc5b65b4f6e，英文Google News RSS 484bec162346576d8064236b7c0c0f472c3a5c60217b2a117e4e2805a64ba1a8 / a5a976932ebb29d630eda4399078cb64dbe32ed47db49604d3e88b1aaf72cce2。 新增采信：中国能源网/科技日报质监大纲文章sha256 2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73显示国家能源局发布新型储能电站建设工程质量监督大纲，适用于电源侧和电网侧100MW及以上电化学储能、压缩空气储能电站工程；EnergyTrend文章sha256 fc9be8c99bb483b9510c05ffa739d7a1cbfa68af62e9ea5a4271c8998c0eef0b显示楚能新能源武汉、宜昌、孝感三项锂电项目获节能审查批复，合计新增规划产能290GWh。 海外新增采信：Energy-Storage.News文章sha256 1231e453c2d4206e2d1df1ed1ea13be0bd21407410091f7a358116a7a3ccfebe显示Ford Energy与EDF power solutions North America签署五年BESS供应协议，EDF每年可采购最高4GWh、总潜在20GWh，预计2028年开始交付；ESN日本文章sha256 c84e892c05fa39c19ba633a88947a11d8bcdc8b0f86d5a30c9c56788fc4468ad显示日本OCCTO长期脱碳电源拍卖选中19个BESS项目、合计1,251MW且有6小时要求；ESN新南威尔士文章sha256 33ebc03bad5ea5bbbd92d31329db0d65cfad4d940ccd4b5f68da6ac95018b8db显示532MW firming项目获得LTESA，合计2,128MWh储能容量；ESN澳洲户储文章sha256 ba0a6426e6e311db51816fbb38374ec5d3733065f48f0b2822a8b1ff65a0d856显示澳大利亚户用电池装机超过40万套、累计11.2GWh。 行情侧：SMM碳酸锂页sha256 b2a10f3d8da938178787f22a9f06d873e9d8def584c7e3e1b9fe311154a34148与SMM新能源页sha256 c749ab8e76b1a3bd47c377954b040a31244ebe96a720e2d8d5ef49c2d523f1eb复核：电池级碳酸锂179000元/吨、日跌7500元/吨，电池级碳酸锂指数179616元/吨、日跌4555元/吨，磷酸铁锂61530元/吨、日跌1820元/吨；价格日期沿用SMM页面披露的2026-05-20。"
+      },
       {
         "id": "market-20260521-0900-lipf6-smm-bess",
         "source": "中国能源网 / 财联社 / SMM上海有色 / SolarQuarter / Energy-Storage.News",
@@ -63755,6 +64625,375 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260521-1600-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-21 16:00 CST",
+        "status": 200,
+        "sha256": "5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6",
+        "finding": "首页已按小时重读；本轮写入16:00 RSS新增线索和SMM行情复核。"
+      },
+      {
+        "id": "source-20260521-1600-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-21 16:00 CST",
+        "status": 200,
+        "sha256": "0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2",
+        "finding": "/markettrend/已按小时重读；本轮补充国内标准/招标、海外项目和材料价格证据。"
+      },
+      {
+        "id": "source-20260521-1600-google-cn-storage",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-21 16:00 CST",
+        "status": 200,
+        "sha256": "6029b068a1b23f9ac4189770fa32b13744f1101ae56ac458bbe8bf8618202813",
+        "finding": "置顶/新增包括融科储能两项钒液流电池IEC标准、河南100MW/200MWh独立储能招标、阳光电源中东7.5GWh订单、内蒙古90MW/360MWh储能并网等线索。"
+      },
+      {
+        "id": "source-20260521-1600-google-global-bess",
+        "source": "Google News英文RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-21 16:00 CST",
+        "status": 200,
+        "sha256": "cca5907f23fb2c565224501eda1d24f8cebdec7b0a4473e54c284b9e1a0eedcf",
+        "finding": "显示英国BESS盈利策略、SEIA储能展望、OCI/CPS Texas 120MW项目、GridStor Colorado项目等海外线索。"
+      },
+      {
+        "id": "source-20260521-1600-smm-li2co3",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-21 16:00 CST",
+        "status": 200,
+        "sha256": "262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8",
+        "finding": "5月21日电池级碳酸锂182000元/吨、日涨3000元/吨；SMM电池级碳酸锂指数181732元/吨、日涨2116元/吨。"
+      },
+      {
+        "id": "source-20260521-1600-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-21 16:00 CST",
+        "status": 200,
+        "sha256": "d0ba4b01b7b3b5a23137154c9405f24aae6efc7b6204639102a90e734abbc142",
+        "finding": "磷酸铁锂62255元/吨、日涨725元/吨；高端储能人造石墨25100元/吨持平；储能型方形LFP电芯成本模型显示+1.54%。"
+      },
+      {
+        "id": "source-20260521-1600-seia-q2",
+        "source": "SEIA",
+        "url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/",
+        "as_of": "2026-05-21 16:00 CST",
+        "status": 200,
+        "sha256": "eaf95e856f6d11a06c9a7573ef93cd142e75fffa7804da153c05c2e331a137f1",
+        "finding": "延续复核：美国Q1 2026新增储能9.7GWh、同比+32%；2030年年新增超110GWh、累计613GWh。"
+      },
+      {
+        "id": "source-20260521-1300-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-21 13:00 CST",
+        "status": 200,
+        "sha256": "5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6",
+        "finding": "首页已按小时重读；本轮写入SEIA美国储能展望、REPT印尼8GWh制造和SMM行情更新。"
+      },
+      {
+        "id": "source-20260521-1300-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-21 13:00 CST",
+        "status": 200,
+        "sha256": "0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2",
+        "finding": "/markettrend/已按小时重读；本轮补充美国Q1储能、海外制造和材料价格证据。"
+      },
+      {
+        "id": "source-20260521-1300-seia-q2",
+        "source": "SEIA",
+        "url": "https://seia.org/research-resources/energy-storage-market-outlook-q2-2026/",
+        "as_of": "2026-05-21 13:00 CST",
+        "status": 200,
+        "sha256": "552a05e14bc83bcc9c2ec2cf875f5007fdad5683e64aeb17a1ead2c1dec34bac",
+        "finding": "美国Q1 2026新增储能9.7GWh、同比+32%；公用事业规模7.8GWh/1.5GW；2030年年新增超110GWh、累计613GWh。"
+      },
+      {
+        "id": "source-20260521-1300-esn-rept",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "as_of": "2026-05-21 13:00 CST",
+        "status": 200,
+        "sha256": "11ae0e7f4021c8e292809b2f328032c78b1ed17951cec481f5a201bd3ff28b0a",
+        "finding": "REPT Battero印尼首个海外制造设施开业，将生产直流储能解决方案；此前规划8GWh储能锂电池电芯工厂，总投资2.23亿美元。"
+      },
+      {
+        "id": "source-20260521-1300-esn-acdc",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/ac-and-dc-augmentation-in-bess-the-differences-between-the-two-approaches/",
+        "as_of": "2026-05-21 13:00 CST",
+        "status": 200,
+        "sha256": "3ee1954b689421b543a19de1261e97ae39f08e67891690cd299d22a20d751240",
+        "finding": "补充BESS AC/DC augmentation技术解释，作为储能系统增容方法背景证据。"
+      },
+      {
+        "id": "source-20260521-1300-smm-li2co3",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-21 13:00 CST",
+        "status": 200,
+        "sha256": "2b02b3533812db72f6ac305d958fa2c1793b336cc0876609708e1ebdc118aa37",
+        "finding": "5月21日电池级碳酸锂182000元/吨、日涨3000元/吨；SMM电池级碳酸锂指数181732元/吨、日涨2116元/吨。"
+      },
+      {
+        "id": "source-20260521-1300-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-21 13:00 CST",
+        "status": 200,
+        "sha256": "b70c9f86c166f3c0f6a58f4799557a26a841a75946f462cdea718616740909b3",
+        "finding": "磷酸铁锂62255元/吨、日涨725元/吨；储能型方形LFP电芯成本模型显示+1.54%。"
+      },
+      {
+        "id": "source-20260521-1200-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-21 12:00 CST",
+        "status": 200,
+        "sha256": "5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6",
+        "finding": "首页已按小时重读；本轮写入Edify澳洲2.4GWh光储财务关闭、SMM行情和电池回收监管证据。"
+      },
+      {
+        "id": "source-20260521-1200-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-21 12:00 CST",
+        "status": 200,
+        "sha256": "0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2",
+        "finding": "/markettrend/已按小时重读；本轮补充海外光储融资、材料价格和监管证据。"
+      },
+      {
+        "id": "source-20260521-1200-esn-edify",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/edify-energy-to-proceed-with-2400mwh-solar-plus-storage-sites-in-australia/",
+        "as_of": "2026-05-21 12:00 CST",
+        "status": 200,
+        "sha256": "fdee7e1629f241b80f6e2bb6064703afd8c921299bd1067583f630f21783570e",
+        "finding": "Edify Energy澳洲昆士兰两个光储项目完成财务关闭，配置600MW/2,400MWh BESS和720MWp光伏。"
+      },
+      {
+        "id": "source-20260521-1200-esn-edp",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/edp-wins-au3-million-arena-funding-for-bushfire-resilient-microgrid-in-regional-australia/",
+        "as_of": "2026-05-21 12:00 CST",
+        "status": 200,
+        "sha256": "12651b4b04c391cea497b26e65d899e214ff678a68c9e4256df1c987dc9329e0",
+        "finding": "EDP Renewables Australia获ARENA 300万澳元用于Braidwood Renewable Microgrid Project。"
+      },
+      {
+        "id": "source-20260521-1200-esn-sunraycer",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/sunraycer-closes-us901-million-financing-for-three-texas-solar-plus-bess-projects/",
+        "as_of": "2026-05-21 12:00 CST",
+        "status": 200,
+        "sha256": "9877ac829b83ba5e151640c86f02f2d8cc53ca988d4baa4cbf8304da4d340d78",
+        "finding": "Sunraycer为美国得州三个光储项目完成9.01亿美元项目融资。"
+      },
+      {
+        "id": "source-20260521-1200-miit-recycling",
+        "source": "工业和信息化部等五部门",
+        "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_c5091ef89af5444c9cba59a41be29b4b.html",
+        "as_of": "2026-05-21 12:00 CST",
+        "status": 200,
+        "sha256": "0a3e63cb9c2dfe366d3bc3b43b2239b0b11fce75dfbaaca65f71f0fb9cf33f0c",
+        "finding": "五部门开展规范废旧动力电池回收利用联合执法专项行动。"
+      },
+      {
+        "id": "source-20260521-1200-smm-li2co3",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-21 12:00 CST",
+        "status": 200,
+        "sha256": "262fbf8f853081de01826450433f5be7561841ce7a53a93dd6f5ed2af7c77fa8",
+        "finding": "5月21日电池级碳酸锂182000元/吨、日涨3000元/吨；电池级碳酸锂指数181732元/吨、日涨2116元/吨。"
+      },
+      {
+        "id": "source-20260521-1200-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-21 12:00 CST",
+        "status": 200,
+        "sha256": "cc906ecae495c701dde406bc0355c29bd7409333d950cabe2e3a2f48bf9a407c",
+        "finding": "磷酸铁锂61530元/吨、日跌1820元/吨；储能型方形LFP电芯成本模型显示+1.54%。"
+      },
+      {
+        "id": "source-20260521-1100-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6",
+        "finding": "首页已按小时重读；本轮写入SMM 5月21日行情与海外BESS项目/制造证据。"
+      },
+      {
+        "id": "source-20260521-1100-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2",
+        "finding": "/markettrend/已按小时重读；本轮补充材料价格反弹和海外BESS融资、规划、投运、制造投产证据。"
+      },
+      {
+        "id": "source-20260521-1100-smm-li2co3",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "ed1f9e245acecb47b51d319c989fd5b9a20323854d7308b65149325ec9d527ec",
+        "finding": "5月21日电池级碳酸锂182000元/吨、日涨3000元/吨；电池级碳酸锂指数181732元/吨、日涨2116元/吨。"
+      },
+      {
+        "id": "source-20260521-1100-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "3a524efe7f3ebaedcbc4f7fd9577bfe2b45273bc9a5892610055319afe8d228a",
+        "finding": "磷酸铁锂61530元/吨、日跌1820元/吨；储能型方形LFP电芯成本模型显示+1.54%。"
+      },
+      {
+        "id": "source-20260521-1100-ess-australia",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/australias-busy-bess-scene-financial-close-on-2-4-gwh-ox2-starts-200-mwh-build-more/",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "91a6caf2b7d74e0da0c45542f1ee6268b5218651d740511b2593f97796de4a77",
+        "finding": "澳大利亚BESS动态含2.4GWh项目完成财务关闭、OX2启动200MWh建设。"
+      },
+      {
+        "id": "source-20260521-1100-ess-germany",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/copenhagen-energy-and-akaysha-energy-plan-2-gwh-storage-system-in-germany/",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "2ed7e681b43960cf93a49e34999cf032bea4181172c18df951148028ca1d7a4b",
+        "finding": "Copenhagen Energy与Akaysha Energy计划德国2GWh储能系统。"
+      },
+      {
+        "id": "source-20260521-1100-ess-california",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/2026/05/20/mn8-energy-brings-400-mwh-tolled-standalone-battery-online-in-southern-california/",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "ac495b519522f287bf6d91961b63b4aa6f496564b44d9f4dc3fb3a9ff88f5efd",
+        "finding": "MN8 Energy在南加州投运400MWh tolling模式独立电池。"
+      },
+      {
+        "id": "source-20260521-1100-solarquarter-malaysia",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/2026/05/19/tenaga-nasional-berhad-launches-100-mw-400-mwh-santong-battery-storage-project-in-malaysia/",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "067d2890952769495997066b06e29d5b31a44ddc771e723563892af56f330c81",
+        "finding": "Tenaga Nasional Berhad启动马来西亚100MW/400MWh Santong电池储能项目。"
+      },
+      {
+        "id": "source-20260521-1100-esn-rept-indonesia",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/rept-battero-opens-indonesian-cell-and-bess-manufacturing-facility/",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "9cf40dd7229f5d21deb5f38f70900a16b0d9ff8fe5ebe0c454f747e37279cb37",
+        "finding": "瑞浦兰钧在印尼正式启用电芯和BESS制造设施。"
+      },
+      {
+        "id": "source-20260521-1100-cnenergy-quality",
+        "source": "中国能源网 / 科技日报",
+        "url": "https://www.cnenergynews.cn/article/4Rdbyl20G4f",
+        "as_of": "2026-05-21 11:00 CST",
+        "status": 200,
+        "sha256": "2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73",
+        "finding": "国家能源局新型储能电站建设工程质量监督大纲继续作为国内监管背景证据。"
+      },
+      {
+        "id": "source-20260521-1000-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "5c779bac03b306a2b1464b51e60aaf39255fdc1e31e2456671951fa1de4895e6",
+        "finding": "首页已按小时重读；本轮写入储能质监大纲、楚能290GWh、Ford-EDF 20GWh、日本/澳洲BESS和SMM行情。"
+      },
+      {
+        "id": "source-20260521-1000-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "0cc08a82a1e88c6c44f27d063e54877392623a1894dda81cdfa45e09a52f30a2",
+        "finding": "/markettrend/已按小时重读；本轮补充监管、产能、海外BESS合同/招标/拍卖与材料价格证据。"
+      },
+      {
+        "id": "source-20260521-1000-cnenergy-quality",
+        "source": "中国能源网 / 科技日报",
+        "url": "https://www.cnenergynews.cn/article/4Rdbyl20G4f",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "2c3f6d8f20e07ca4a4c1e48089395f49ef3d4792de401e054f97edbc4b4a9a73",
+        "finding": "国家能源局发布新型储能电站建设工程质量监督大纲，适用于电源侧和电网侧100MW及以上电化学储能、压缩空气储能工程。"
+      },
+      {
+        "id": "source-20260521-1000-energytrend-cornex",
+        "source": "EnergyTrend",
+        "url": "https://www.energytrend.com/news/20260520-51432.html",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "fc9be8c99bb483b9510c05ffa739d7a1cbfa68af62e9ea5a4271c8998c0eef0b",
+        "finding": "湖北发改委批复楚能武汉、宜昌、孝感三项锂电制造项目节能审查，合计新增规划产能290GWh。"
+      },
+      {
+        "id": "source-20260521-1000-esn-ford-edf",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/ford-energy-makes-20gwh-five-year-north-america-supply-deal-with-edf/",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "1231e453c2d4206e2d1df1ed1ea13be0bd21407410091f7a358116a7a3ccfebe",
+        "finding": "Ford Energy与EDF北美五年BESS供应协议：每年最高4GWh、总潜在20GWh，预计2028年交付。"
+      },
+      {
+        "id": "source-20260521-1000-esn-japan-occto",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/japans-grid-operators-select-1-25gw-of-bess-in-capacity-market-auction-with-6-hour-duration-requirement/",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "c84e892c05fa39c19ba633a88947a11d8bcdc8b0f86d5a30c9c56788fc4468ad",
+        "finding": "日本OCCTO长期脱碳电源拍卖选中19个BESS项目，合计1,251MW，要求6小时持续时长。"
+      },
+      {
+        "id": "source-20260521-1000-esn-nsw",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/australia-nsw-firming-tender-secures-2128mwh-of-energy-storage-to-address-summer-shortfall/",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "33ebc03bad5ea5bbbd92d31329db0d65cfad4d940ccd4b5f68da6ac95018b8db",
+        "finding": "新南威尔士第七轮基础设施招标签约532MW firming项目，合计2,128MWh储能容量。"
+      },
+      {
+        "id": "source-20260521-1000-esn-australia-home",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/australia-hits-400000-home-battery-installations-with-11-2gwh-capacity-in-under-a-year",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "ba0a6426e6e311db51816fbb38374ec5d3733065f48f0b2822a8b1ff65a0d856",
+        "finding": "澳大利亚户用电池安装超过40万套，累计储能容量11.2GWh。"
+      },
+      {
+        "id": "source-20260521-1000-smm-li2co3",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-21 10:00 CST",
+        "status": 200,
+        "sha256": "b2a10f3d8da938178787f22a9f06d873e9d8def584c7e3e1b9fe311154a34148",
+        "finding": "电池级碳酸锂179000元/吨、指数179616元/吨；价格日期为2026-05-20。"
+      },
+      {
         "id": "source-20260521-0900-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -66499,5 +67738,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-21T09:00:00+08:00"
+  "checked_at": "2026-05-21T16:00:00+08:00"
 };
