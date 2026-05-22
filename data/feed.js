@@ -1,8 +1,70 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-23T03:00:00+08:00",
-  "note": "03:00严格刷新：已重新读取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search三组查询HTTP 432，改用公开页面直连、Google News RSS和原始HTML/RSS留档。本轮有可信新增：锂电30天超200亿元涌入、6家扩产6家冲上市、易事特菲律宾展会光储充反馈、比亚迪二代刀片电池、Spearmint ERCOT 600MWh储能约4.5亿美元融资、Enbridge/Meta Cowboy Project、Gotion 261Wh/kg钠电、ProLogium固态电池、印度最大独立BESS及AI数据中心能源交易；SMM行情复核维持电池级碳酸锂178000元/吨、磷酸铁锂61285元/吨。",
+  "generated_at": "2026-05-23T05:00:00+08:00",
+  "note": "05:00严格刷新：已重新读取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search三组查询HTTP 432，改用公开页面直连、Google News RSS和原始HTML/RSS留档。本轮有可信新增：港股储能概念走强/三年装机复合增速或达50%、比亚迪全固态电池车规验证和2027量产线索、第二代刀片电池续航超1000km安全性解析、新能源汽车私改电池乱象调查、巴西长期储能拍卖排期、Meta/Enbridge怀俄明数据中心太阳能+储能、保加利亚161MWp光伏园区BESS、铁电池关键金属稀缺线索；SMM行情复核维持电池级碳酸锂178000元/吨、磷酸铁锂61285元/吨。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260523-0500-byd-solid-state-hk-storage-brazil-meta-smm",
+        "source": "Google News RSS / SMM上海有色 / 财联社 / 汽车之家 / 新浪财经 / BNamericas / ESG Dive / Renewables Now / Energy Digital / NeoLink HTTP crawl",
+        "source_type": "国内外RSS发现/专业行情/公开新闻/海外行业媒体/本站回读",
+        "account_name": "Google News RSS / SMM / 财联社 / 汽车之家 / BNamericas / ESG Dive",
+        "category": "储能概念/固态电池/海外BESS/数据中心电力/材料行情",
+        "title": "05:00刷新：港股储能概念走强、比亚迪全固态车规验证、巴西储能拍卖与SMM行情复核",
+        "summary": "05:00严格刷新新增采信：国内侧新增港股储能概念走强/机构称三年内装机复合增速或达50%、比亚迪全固态电池通过车规验证并指向2027年量产、第二代刀片电池续航超1000km安全性解析，以及新能源汽车私改电池乱象调查；海外侧新增巴西电池产业推动长期储能拍卖排期、Meta/Enbridge怀俄明数据中心太阳能+储能项目、Eurohold/360 Energy保加利亚161MWp光伏园区BESS、铁电池缓解关键金属稀缺线索，并继续复核Spearmint ERCOT 600MWh约4.5亿美元融资。行情侧SMM复核维持电池级碳酸锂178000元/吨、磷酸铁锂61285元/吨。",
+        "body": [
+          "国内侧，中文储能RSS较03:00新增财联社关于港股储能概念走强、机构称三年内装机复合增速或达50%的线索，并新增比亚迪全固态电池通过车规验证、计划2027年量产的报道。",
+          "电池产品与安全侧，中文BESS/电池RSS新增比亚迪第二代刀片电池续航超1000km安全性解析，并新增新能源汽车私改电池乱象调查，提示售后安全与合规风险也在升温。",
+          "海外BESS侧，全球BESS RSS新增巴西制造商推动长期电池储能拍卖排期，以及Meta/Enbridge为怀俄明数据中心建设太阳能+储能项目；欧洲RSS新增保加利亚161MWp光伏园区启动BESS。",
+          "技术路线与数据中心侧，数据中心电力RSS新增铁电池应对关键金属稀缺的讨论；储能政策RSS继续捕捉Spearmint ERCOT 600MWh约4.5亿美元融资和Enbridge/Meta Cowboy Project。",
+          "行情侧，SMM新能源与碳酸锂页05:00复核维持：电池级碳酸锂178000元/吨、日跌4000；磷酸铁锂61285元/吨、日跌970；SMM电碳指数178343元/吨。"
+        ],
+        "key_points": [
+          "国内新增：港股储能概念走强，机构称三年内装机复合增速或达50%。",
+          "产品新增：比亚迪全固态电池通过车规验证并指向2027年量产；第二代刀片电池续航超1000km安全性解析。",
+          "风险新增：新能源汽车私改电池乱象调查，提示电池安全和售后合规风险。",
+          "海外BESS新增：巴西产业推动长期储能拍卖排期、Meta/Enbridge怀俄明数据中心太阳能+储能、保加利亚光伏园区BESS。",
+          "SMM行情复核：电池级碳酸锂178000元/吨、磷酸铁锂61285元/吨，较上一采集值未变。"
+        ],
+        "value": "178000",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "价格较上一采集值未变；RSS新增港股储能概念、比亚迪全固态/刀片电池、巴西储能拍卖、Meta/Enbridge数据中心储能与铁电池线索",
+        "direction": "flat",
+        "date": "05-23",
+        "as_of": "2026-05-23 05:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>05:00新增：港股储能概念走强、比亚迪全固态车规验证、巴西储能拍卖排期、Meta/Enbridge数据中心太阳能+储能；SMM电池级碳酸锂178000元/吨。</p>",
+        "caption": "国内储能概念与比亚迪固态/刀片电池线索新增，海外BESS拍卖、数据中心太阳能+储能和铁电池议题升温；锂电材料价格较上一小时持平。",
+        "methodology": "05:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动搜索国内+海外公开来源；web_search三组国内/海外查询HTTP 432，改用requests直连行业站点、监管/协会站点、Google News RSS和原始HTML/RSS落盘，按sha256、RSS标题差异、站点链接与SMM页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 ee701985e31048224af42b6cb71a625700ef2426c363ed06c01de3913ee1bdcb；MarketTrend HTTP 200 sha256 330d3d4e1c4bfd30c1501fabb9e76e9768e488ba88aa8be35f36a1ee0584d93f。 国内入口：北极星储能 68bdf09769a66f57e34d8eff1a7482ce381bc26977bc42d549035a1f0a20e10e，SMM新能源 9ebb74ef05432e24f99bfa93c0c77096c5a3a07e111ce039289b7ee702d57752，SMM碳酸锂 b12546924ee0591bff004b6b3be07e143d513d7f933eea337acf58893313d6b0，中国能源网 c7e0424d9c14eddc27b0eb9fcb212b9c11e75ba3424c998b38eed44e1b3cf650，国家能源局 831669d710fc45d0e238a8b8ae8b46a8abe54b1415800d5f812f2c28b3d79409，工信部 9b5c2c3b2c089a430313484b32f32a87d6a2115416410266f70d8df4da4ae800，CNESA bb861cc4152b27b64e051767cb008dcd2954a39ff3b33035c5b332bb76dd3130，Google News中文储能RSS e3abe19d04b87983458ef8dc88712fd14e359472352bd6905f9eaa1e3c6044ed，中文BESS/电池RSS f31efd3b1406f07c67a75511de5d273142bfd964620a9bc99a869ca970252d74，中文SMM/碳酸锂RSS d095f59f687ef40cdb8bc418ef3340b5fd9ea90039916862fda80624bebeeced。 海外入口：Energy-Storage.News 5eb74088caa84e82bf2489918f4a541c17738cabd7e94f4d902e0acea625c421，ESS News 3a8df7be2243eb216ca74e48674f9b39555faccd4e7eba72fa9cf6ea6d40b481，pv magazine f134f3aefcf0f4759fa41480ac6e505eb603bdd4d9df32e84f3ef4651060bbd4，SolarQuarter 4955ee65cae4d76e83aa6101ad7c1ec1f2ec0f1c933d8f01cd72dd34850cf06d，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，全球BESS RSS ca9605d01dc8d6dc9ed7704a44c539fae546c917ee53f4b5e2ad71afe6e8ec8a，全球储能政策RSS 61e1f07def0ed712e3221ce99b06728bc6e36a625eb88f289fc21afa90c909a4，全球钠电/固态RSS dc7594c0e6c23abcd3ea67f1daad66c731ff0b6cfd4222d09c835a10f3b21837，欧洲BESS RSS b3a41b4a3adc388961d28b16178e579162b2f9b48426b8b89e5eed335dd9ebe6，数据中心电力/储能RSS f90e550669580866364a4649332cb70852c6d71f8211deea62334a3bc8351b0b。 05:00新增/变化：中文储能RSS较03:00新增财联社“多重逻辑驱动港股储能概念走强，机构称三年内装机复合增速或达50%”和汽车之家“比亚迪全固态电池通过车规验证，打算在2027年量产”；中文BESS/电池RSS新增新能源汽车私改电池乱象调查、比亚迪第二代刀片电池续航超1000km安全性解析、比亚迪全固态电池车规验证。海外侧，全球BESS RSS新增BNamericas“Brazil manufacturers push for long-term battery auction schedule”和ESG Dive“Meta, Enbridge to build solar, storage for Wyoming data centers”；全球储能政策RSS新增Enbridge/Meta Cowboy Project和Spearmint ERCOT 600MWh约4.5亿美元融资条目；欧洲BESS RSS新增Eurohold/360 Energy在保加利亚161MWp光伏园区启动BESS；数据中心电力RSS新增Energy Digital关于铁电池缓解关键金属稀缺的报道。SMM 05:00复核显示电池级碳酸锂178000元/吨、日跌4000；SMM电碳指数178343元/吨；磷酸铁锂61285元/吨、日跌970；电解液28950元/吨、高端储能人造石墨25100元/吨持平。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 178000
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 178343
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61285
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 28950
+          },
+          {
+            "label": "高端储能人造石墨 元/吨",
+            "value": 25100
+          }
+        ]
+      },
       {
         "id": "headline-20260523-0300-spearmint-meta-gotion-eastech-smm",
         "source": "Google News RSS / SMM上海有色 / 新京报 / 同花顺 / CleanTechnica / BIC Magazine / Institutional Real Estate / Construction World India / NeoLink HTTP crawl",
@@ -12108,6 +12170,42 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260523-0500-byd-solid-state-brazil-meta",
+        "source": "Google News RSS / SMM上海有色 / 财联社 / 汽车之家 / 新浪财经 / BNamericas / ESG Dive / Renewables Now / Energy Digital / NeoLink HTTP crawl",
+        "source_type": "国内外RSS发现/专业行情/公开新闻/海外行业媒体/本站回读",
+        "account_name": "Google News RSS / SMM / 财联社 / 汽车之家 / BNamericas / ESG Dive",
+        "category": "储能概念/固态电池/海外BESS/数据中心电力/材料行情",
+        "title": "05:00刷新：港股储能概念走强、比亚迪全固态车规验证、巴西储能拍卖与SMM行情复核",
+        "summary": "05:00严格刷新新增采信：国内侧新增港股储能概念走强/机构称三年内装机复合增速或达50%、比亚迪全固态电池通过车规验证并指向2027年量产、第二代刀片电池续航超1000km安全性解析，以及新能源汽车私改电池乱象调查；海外侧新增巴西电池产业推动长期储能拍卖排期、Meta/Enbridge怀俄明数据中心太阳能+储能项目、Eurohold/360 Energy保加利亚161MWp光伏园区BESS、铁电池缓解关键金属稀缺线索，并继续复核Spearmint ERCOT 600MWh约4.5亿美元融资。行情侧SMM复核维持电池级碳酸锂178000元/吨、磷酸铁锂61285元/吨。",
+        "body": [
+          "国内侧，中文储能RSS较03:00新增财联社关于港股储能概念走强、机构称三年内装机复合增速或达50%的线索，并新增比亚迪全固态电池通过车规验证、计划2027年量产的报道。",
+          "电池产品与安全侧，中文BESS/电池RSS新增比亚迪第二代刀片电池续航超1000km安全性解析，并新增新能源汽车私改电池乱象调查，提示售后安全与合规风险也在升温。",
+          "海外BESS侧，全球BESS RSS新增巴西制造商推动长期电池储能拍卖排期，以及Meta/Enbridge为怀俄明数据中心建设太阳能+储能项目；欧洲RSS新增保加利亚161MWp光伏园区启动BESS。",
+          "技术路线与数据中心侧，数据中心电力RSS新增铁电池应对关键金属稀缺的讨论；储能政策RSS继续捕捉Spearmint ERCOT 600MWh约4.5亿美元融资和Enbridge/Meta Cowboy Project。",
+          "行情侧，SMM新能源与碳酸锂页05:00复核维持：电池级碳酸锂178000元/吨、日跌4000；磷酸铁锂61285元/吨、日跌970；SMM电碳指数178343元/吨。"
+        ],
+        "key_points": [
+          "国内新增：港股储能概念走强，机构称三年内装机复合增速或达50%。",
+          "产品新增：比亚迪全固态电池通过车规验证并指向2027年量产；第二代刀片电池续航超1000km安全性解析。",
+          "风险新增：新能源汽车私改电池乱象调查，提示电池安全和售后合规风险。",
+          "海外BESS新增：巴西产业推动长期储能拍卖排期、Meta/Enbridge怀俄明数据中心太阳能+储能、保加利亚光伏园区BESS。",
+          "SMM行情复核：电池级碳酸锂178000元/吨、磷酸铁锂61285元/吨，较上一采集值未变。"
+        ],
+        "date": "05-23",
+        "as_of": "2026-05-23 05:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>05:00新增：港股储能概念走强、比亚迪全固态车规验证、巴西储能拍卖排期、Meta/Enbridge数据中心太阳能+储能；SMM电池级碳酸锂178000元/吨。</p>",
+        "caption": "国内储能概念与比亚迪固态/刀片电池线索新增，海外BESS拍卖、数据中心太阳能+储能和铁电池议题升温；锂电材料价格较上一小时持平。",
+        "methodology": "05:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动搜索国内+海外公开来源；web_search三组国内/海外查询HTTP 432，改用requests直连行业站点、监管/协会站点、Google News RSS和原始HTML/RSS落盘，按sha256、RSS标题差异、站点链接与SMM页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 ee701985e31048224af42b6cb71a625700ef2426c363ed06c01de3913ee1bdcb；MarketTrend HTTP 200 sha256 330d3d4e1c4bfd30c1501fabb9e76e9768e488ba88aa8be35f36a1ee0584d93f。 国内入口：北极星储能 68bdf09769a66f57e34d8eff1a7482ce381bc26977bc42d549035a1f0a20e10e，SMM新能源 9ebb74ef05432e24f99bfa93c0c77096c5a3a07e111ce039289b7ee702d57752，SMM碳酸锂 b12546924ee0591bff004b6b3be07e143d513d7f933eea337acf58893313d6b0，中国能源网 c7e0424d9c14eddc27b0eb9fcb212b9c11e75ba3424c998b38eed44e1b3cf650，国家能源局 831669d710fc45d0e238a8b8ae8b46a8abe54b1415800d5f812f2c28b3d79409，工信部 9b5c2c3b2c089a430313484b32f32a87d6a2115416410266f70d8df4da4ae800，CNESA bb861cc4152b27b64e051767cb008dcd2954a39ff3b33035c5b332bb76dd3130，Google News中文储能RSS e3abe19d04b87983458ef8dc88712fd14e359472352bd6905f9eaa1e3c6044ed，中文BESS/电池RSS f31efd3b1406f07c67a75511de5d273142bfd964620a9bc99a869ca970252d74，中文SMM/碳酸锂RSS d095f59f687ef40cdb8bc418ef3340b5fd9ea90039916862fda80624bebeeced。 海外入口：Energy-Storage.News 5eb74088caa84e82bf2489918f4a541c17738cabd7e94f4d902e0acea625c421，ESS News 3a8df7be2243eb216ca74e48674f9b39555faccd4e7eba72fa9cf6ea6d40b481，pv magazine f134f3aefcf0f4759fa41480ac6e505eb603bdd4d9df32e84f3ef4651060bbd4，SolarQuarter 4955ee65cae4d76e83aa6101ad7c1ec1f2ec0f1c933d8f01cd72dd34850cf06d，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，全球BESS RSS ca9605d01dc8d6dc9ed7704a44c539fae546c917ee53f4b5e2ad71afe6e8ec8a，全球储能政策RSS 61e1f07def0ed712e3221ce99b06728bc6e36a625eb88f289fc21afa90c909a4，全球钠电/固态RSS dc7594c0e6c23abcd3ea67f1daad66c731ff0b6cfd4222d09c835a10f3b21837，欧洲BESS RSS b3a41b4a3adc388961d28b16178e579162b2f9b48426b8b89e5eed335dd9ebe6，数据中心电力/储能RSS f90e550669580866364a4649332cb70852c6d71f8211deea62334a3bc8351b0b。 05:00新增/变化：中文储能RSS较03:00新增财联社“多重逻辑驱动港股储能概念走强，机构称三年内装机复合增速或达50%”和汽车之家“比亚迪全固态电池通过车规验证，打算在2027年量产”；中文BESS/电池RSS新增新能源汽车私改电池乱象调查、比亚迪第二代刀片电池续航超1000km安全性解析、比亚迪全固态电池车规验证。海外侧，全球BESS RSS新增BNamericas“Brazil manufacturers push for long-term battery auction schedule”和ESG Dive“Meta, Enbridge to build solar, storage for Wyoming data centers”；全球储能政策RSS新增Enbridge/Meta Cowboy Project和Spearmint ERCOT 600MWh约4.5亿美元融资条目；欧洲BESS RSS新增Eurohold/360 Energy在保加利亚161MWp光伏园区启动BESS；数据中心电力RSS新增Energy Digital关于铁电池缓解关键金属稀缺的报道。SMM 05:00复核显示电池级碳酸锂178000元/吨、日跌4000；SMM电碳指数178343元/吨；磷酸铁锂61285元/吨、日跌970；电解液28950元/吨、高端储能人造石墨25100元/吨持平。"
+      },
       {
         "id": "latest-20260523-0300-spearmint-meta-gotion-eastech",
         "source": "Google News RSS / SMM上海有色 / 新京报 / 同花顺 / CleanTechnica / BIC Magazine / Institutional Real Estate / Construction World India / NeoLink HTTP crawl",
@@ -32509,6 +32607,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260523-0500-smm-li2co3-lfp-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液 / 高端储能人造石墨",
+        "spec": "SMM公开行情页；05:00复核",
+        "value": "178000 / 178343 / 61285 / 28950 / 25100",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "碳酸锂-4000；指数-3389；磷酸铁锂-970；电解液持平；高端储能人造石墨持平；较上一采集值未变",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-23 05:00 CST",
+        "methodology": "05:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动搜索国内+海外公开来源；web_search三组国内/海外查询HTTP 432，改用requests直连行业站点、监管/协会站点、Google News RSS和原始HTML/RSS落盘，按sha256、RSS标题差异、站点链接与SMM页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 ee701985e31048224af42b6cb71a625700ef2426c363ed06c01de3913ee1bdcb；MarketTrend HTTP 200 sha256 330d3d4e1c4bfd30c1501fabb9e76e9768e488ba88aa8be35f36a1ee0584d93f。 国内入口：北极星储能 68bdf09769a66f57e34d8eff1a7482ce381bc26977bc42d549035a1f0a20e10e，SMM新能源 9ebb74ef05432e24f99bfa93c0c77096c5a3a07e111ce039289b7ee702d57752，SMM碳酸锂 b12546924ee0591bff004b6b3be07e143d513d7f933eea337acf58893313d6b0，中国能源网 c7e0424d9c14eddc27b0eb9fcb212b9c11e75ba3424c998b38eed44e1b3cf650，国家能源局 831669d710fc45d0e238a8b8ae8b46a8abe54b1415800d5f812f2c28b3d79409，工信部 9b5c2c3b2c089a430313484b32f32a87d6a2115416410266f70d8df4da4ae800，CNESA bb861cc4152b27b64e051767cb008dcd2954a39ff3b33035c5b332bb76dd3130，Google News中文储能RSS e3abe19d04b87983458ef8dc88712fd14e359472352bd6905f9eaa1e3c6044ed，中文BESS/电池RSS f31efd3b1406f07c67a75511de5d273142bfd964620a9bc99a869ca970252d74，中文SMM/碳酸锂RSS d095f59f687ef40cdb8bc418ef3340b5fd9ea90039916862fda80624bebeeced。 海外入口：Energy-Storage.News 5eb74088caa84e82bf2489918f4a541c17738cabd7e94f4d902e0acea625c421，ESS News 3a8df7be2243eb216ca74e48674f9b39555faccd4e7eba72fa9cf6ea6d40b481，pv magazine f134f3aefcf0f4759fa41480ac6e505eb603bdd4d9df32e84f3ef4651060bbd4，SolarQuarter 4955ee65cae4d76e83aa6101ad7c1ec1f2ec0f1c933d8f01cd72dd34850cf06d，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，全球BESS RSS ca9605d01dc8d6dc9ed7704a44c539fae546c917ee53f4b5e2ad71afe6e8ec8a，全球储能政策RSS 61e1f07def0ed712e3221ce99b06728bc6e36a625eb88f289fc21afa90c909a4，全球钠电/固态RSS dc7594c0e6c23abcd3ea67f1daad66c731ff0b6cfd4222d09c835a10f3b21837，欧洲BESS RSS b3a41b4a3adc388961d28b16178e579162b2f9b48426b8b89e5eed335dd9ebe6，数据中心电力/储能RSS f90e550669580866364a4649332cb70852c6d71f8211deea62334a3bc8351b0b。 05:00新增/变化：中文储能RSS较03:00新增财联社“多重逻辑驱动港股储能概念走强，机构称三年内装机复合增速或达50%”和汽车之家“比亚迪全固态电池通过车规验证，打算在2027年量产”；中文BESS/电池RSS新增新能源汽车私改电池乱象调查、比亚迪第二代刀片电池续航超1000km安全性解析、比亚迪全固态电池车规验证。海外侧，全球BESS RSS新增BNamericas“Brazil manufacturers push for long-term battery auction schedule”和ESG Dive“Meta, Enbridge to build solar, storage for Wyoming data centers”；全球储能政策RSS新增Enbridge/Meta Cowboy Project和Spearmint ERCOT 600MWh约4.5亿美元融资条目；欧洲BESS RSS新增Eurohold/360 Energy在保加利亚161MWp光伏园区启动BESS；数据中心电力RSS新增Energy Digital关于铁电池缓解关键金属稀缺的报道。SMM 05:00复核显示电池级碳酸锂178000元/吨、日跌4000；SMM电碳指数178343元/吨；磷酸铁锂61285元/吨、日跌970；电解液28950元/吨、高端储能人造石墨25100元/吨持平。"
+      },
+      {
         "id": "material-20260523-0300-smm-li2co3-lfp-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液 / 高端储能人造石墨",
         "spec": "SMM公开行情页；03:00复核",
@@ -35617,6 +35728,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260523-0500-smm-li2co3-flat",
+        "title": "SMM电池级碳酸锂报价",
+        "value": "178000",
+        "unit": "元/吨",
+        "caption": "05:00 SMM碳酸锂页显示电池级碳酸锂178000元/吨、日跌4000元/吨；较上一采集值未变。",
+        "delta": "较上一采集值持平，日跌4000元/吨",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "as_of": "2026-05-23 05:00 CST",
+        "methodology": "05:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动搜索国内+海外公开来源；web_search三组国内/海外查询HTTP 432，改用requests直连行业站点、监管/协会站点、Google News RSS和原始HTML/RSS落盘，按sha256、RSS标题差异、站点链接与SMM页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 ee701985e31048224af42b6cb71a625700ef2426c363ed06c01de3913ee1bdcb；MarketTrend HTTP 200 sha256 330d3d4e1c4bfd30c1501fabb9e76e9768e488ba88aa8be35f36a1ee0584d93f。 国内入口：北极星储能 68bdf09769a66f57e34d8eff1a7482ce381bc26977bc42d549035a1f0a20e10e，SMM新能源 9ebb74ef05432e24f99bfa93c0c77096c5a3a07e111ce039289b7ee702d57752，SMM碳酸锂 b12546924ee0591bff004b6b3be07e143d513d7f933eea337acf58893313d6b0，中国能源网 c7e0424d9c14eddc27b0eb9fcb212b9c11e75ba3424c998b38eed44e1b3cf650，国家能源局 831669d710fc45d0e238a8b8ae8b46a8abe54b1415800d5f812f2c28b3d79409，工信部 9b5c2c3b2c089a430313484b32f32a87d6a2115416410266f70d8df4da4ae800，CNESA bb861cc4152b27b64e051767cb008dcd2954a39ff3b33035c5b332bb76dd3130，Google News中文储能RSS e3abe19d04b87983458ef8dc88712fd14e359472352bd6905f9eaa1e3c6044ed，中文BESS/电池RSS f31efd3b1406f07c67a75511de5d273142bfd964620a9bc99a869ca970252d74，中文SMM/碳酸锂RSS d095f59f687ef40cdb8bc418ef3340b5fd9ea90039916862fda80624bebeeced。 海外入口：Energy-Storage.News 5eb74088caa84e82bf2489918f4a541c17738cabd7e94f4d902e0acea625c421，ESS News 3a8df7be2243eb216ca74e48674f9b39555faccd4e7eba72fa9cf6ea6d40b481，pv magazine f134f3aefcf0f4759fa41480ac6e505eb603bdd4d9df32e84f3ef4651060bbd4，SolarQuarter 4955ee65cae4d76e83aa6101ad7c1ec1f2ec0f1c933d8f01cd72dd34850cf06d，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，全球BESS RSS ca9605d01dc8d6dc9ed7704a44c539fae546c917ee53f4b5e2ad71afe6e8ec8a，全球储能政策RSS 61e1f07def0ed712e3221ce99b06728bc6e36a625eb88f289fc21afa90c909a4，全球钠电/固态RSS dc7594c0e6c23abcd3ea67f1daad66c731ff0b6cfd4222d09c835a10f3b21837，欧洲BESS RSS b3a41b4a3adc388961d28b16178e579162b2f9b48426b8b89e5eed335dd9ebe6，数据中心电力/储能RSS f90e550669580866364a4649332cb70852c6d71f8211deea62334a3bc8351b0b。 05:00新增/变化：中文储能RSS较03:00新增财联社“多重逻辑驱动港股储能概念走强，机构称三年内装机复合增速或达50%”和汽车之家“比亚迪全固态电池通过车规验证，打算在2027年量产”；中文BESS/电池RSS新增新能源汽车私改电池乱象调查、比亚迪第二代刀片电池续航超1000km安全性解析、比亚迪全固态电池车规验证。海外侧，全球BESS RSS新增BNamericas“Brazil manufacturers push for long-term battery auction schedule”和ESG Dive“Meta, Enbridge to build solar, storage for Wyoming data centers”；全球储能政策RSS新增Enbridge/Meta Cowboy Project和Spearmint ERCOT 600MWh约4.5亿美元融资条目；欧洲BESS RSS新增Eurohold/360 Energy在保加利亚161MWp光伏园区启动BESS；数据中心电力RSS新增Energy Digital关于铁电池缓解关键金属稀缺的报道。SMM 05:00复核显示电池级碳酸锂178000元/吨、日跌4000；SMM电碳指数178343元/吨；磷酸铁锂61285元/吨、日跌970；电解液28950元/吨、高端储能人造石墨25100元/吨持平。",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price"
+      },
       {
         "id": "metric-20260523-0300-smm-li2co3-flat",
         "title": "SMM电池级碳酸锂报价",
@@ -48754,6 +48878,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260523-0500-brazil-meta-bulgaria-iron-battery",
+        "source": "Google News RSS / BNamericas / ESG Dive / Renewables Now / Energy Digital / Institutional Real Estate",
+        "category": "海外观察/BESS/数据中心电力/铁电池",
+        "title": "海外新增：巴西推动长期储能拍卖排期、Meta/Enbridge怀俄明数据中心太阳能+储能、保加利亚光伏园区BESS",
+        "summary": "05:00复核海外公开RSS后，全球BESS、储能政策、欧洲BESS和数据中心电力RSS较03:00新增巴西制造商推动长期电池储能拍卖排期、Meta/Enbridge为怀俄明数据中心建设太阳能+储能项目、Eurohold/360 Energy在保加利亚161MWp光伏园区启动BESS、铁电池缓解关键金属稀缺讨论；储能政策RSS继续出现Spearmint ERCOT 600MWh约4.5亿美元融资和Enbridge/Meta Cowboy Project。",
+        "value": "161",
+        "unit": "MWp光伏园区BESS线索",
+        "delta": "全球BESS、欧洲BESS、数据中心电力RSS新增多条项目和技术路线线索",
+        "direction": "up",
+        "date": "05-23",
+        "as_of": "2026-05-23 05:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "05:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动搜索国内+海外公开来源；web_search三组国内/海外查询HTTP 432，改用requests直连行业站点、监管/协会站点、Google News RSS和原始HTML/RSS落盘，按sha256、RSS标题差异、站点链接与SMM页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 ee701985e31048224af42b6cb71a625700ef2426c363ed06c01de3913ee1bdcb；MarketTrend HTTP 200 sha256 330d3d4e1c4bfd30c1501fabb9e76e9768e488ba88aa8be35f36a1ee0584d93f。 国内入口：北极星储能 68bdf09769a66f57e34d8eff1a7482ce381bc26977bc42d549035a1f0a20e10e，SMM新能源 9ebb74ef05432e24f99bfa93c0c77096c5a3a07e111ce039289b7ee702d57752，SMM碳酸锂 b12546924ee0591bff004b6b3be07e143d513d7f933eea337acf58893313d6b0，中国能源网 c7e0424d9c14eddc27b0eb9fcb212b9c11e75ba3424c998b38eed44e1b3cf650，国家能源局 831669d710fc45d0e238a8b8ae8b46a8abe54b1415800d5f812f2c28b3d79409，工信部 9b5c2c3b2c089a430313484b32f32a87d6a2115416410266f70d8df4da4ae800，CNESA bb861cc4152b27b64e051767cb008dcd2954a39ff3b33035c5b332bb76dd3130，Google News中文储能RSS e3abe19d04b87983458ef8dc88712fd14e359472352bd6905f9eaa1e3c6044ed，中文BESS/电池RSS f31efd3b1406f07c67a75511de5d273142bfd964620a9bc99a869ca970252d74，中文SMM/碳酸锂RSS d095f59f687ef40cdb8bc418ef3340b5fd9ea90039916862fda80624bebeeced。 海外入口：Energy-Storage.News 5eb74088caa84e82bf2489918f4a541c17738cabd7e94f4d902e0acea625c421，ESS News 3a8df7be2243eb216ca74e48674f9b39555faccd4e7eba72fa9cf6ea6d40b481，pv magazine f134f3aefcf0f4759fa41480ac6e505eb603bdd4d9df32e84f3ef4651060bbd4，SolarQuarter 4955ee65cae4d76e83aa6101ad7c1ec1f2ec0f1c933d8f01cd72dd34850cf06d，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，全球BESS RSS ca9605d01dc8d6dc9ed7704a44c539fae546c917ee53f4b5e2ad71afe6e8ec8a，全球储能政策RSS 61e1f07def0ed712e3221ce99b06728bc6e36a625eb88f289fc21afa90c909a4，全球钠电/固态RSS dc7594c0e6c23abcd3ea67f1daad66c731ff0b6cfd4222d09c835a10f3b21837，欧洲BESS RSS b3a41b4a3adc388961d28b16178e579162b2f9b48426b8b89e5eed335dd9ebe6，数据中心电力/储能RSS f90e550669580866364a4649332cb70852c6d71f8211deea62334a3bc8351b0b。 05:00新增/变化：中文储能RSS较03:00新增财联社“多重逻辑驱动港股储能概念走强，机构称三年内装机复合增速或达50%”和汽车之家“比亚迪全固态电池通过车规验证，打算在2027年量产”；中文BESS/电池RSS新增新能源汽车私改电池乱象调查、比亚迪第二代刀片电池续航超1000km安全性解析、比亚迪全固态电池车规验证。海外侧，全球BESS RSS新增BNamericas“Brazil manufacturers push for long-term battery auction schedule”和ESG Dive“Meta, Enbridge to build solar, storage for Wyoming data centers”；全球储能政策RSS新增Enbridge/Meta Cowboy Project和Spearmint ERCOT 600MWh约4.5亿美元融资条目；欧洲BESS RSS新增Eurohold/360 Energy在保加利亚161MWp光伏园区启动BESS；数据中心电力RSS新增Energy Digital关于铁电池缓解关键金属稀缺的报道。SMM 05:00复核显示电池级碳酸锂178000元/吨、日跌4000；SMM电碳指数178343元/吨；磷酸铁锂61285元/吨、日跌970；电解液28950元/吨、高端储能人造石墨25100元/吨持平。"
+      },
+      {
         "id": "overseas-20260523-0300-spearmint-meta-gotion-datacenter",
         "source": "Google News RSS / CleanTechnica / BIC Magazine / Institutional Real Estate / Construction World India",
         "category": "海外观察/BESS/数据中心电力/钠电与固态电池",
@@ -54480,6 +54619,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260523-0500-byd-solid-state-brazil-meta-smm",
+        "source": "Google News RSS / SMM上海有色 / 财联社 / 汽车之家 / BNamericas / ESG Dive",
+        "category": "储能概念/固态电池/海外BESS/材料行情",
+        "title": "港股储能概念与比亚迪全固态线索新增；SMM电池级碳酸锂178000元/吨",
+        "summary": "05:00严格刷新新增采信：国内侧新增港股储能概念走强/机构称三年内装机复合增速或达50%、比亚迪全固态电池通过车规验证并指向2027年量产、第二代刀片电池续航超1000km安全性解析，以及新能源汽车私改电池乱象调查；海外侧新增巴西电池产业推动长期储能拍卖排期、Meta/Enbridge怀俄明数据中心太阳能+储能项目、Eurohold/360 Energy保加利亚161MWp光伏园区BESS、铁电池缓解关键金属稀缺线索，并继续复核Spearmint ERCOT 600MWh约4.5亿美元融资。行情侧SMM复核维持电池级碳酸锂178000元/吨、磷酸铁锂61285元/吨。",
+        "value": "178000",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "较上一采集值价格持平；新增港股储能概念、比亚迪固态/刀片电池、海外储能拍卖和数据中心储能线索",
+        "direction": "flat",
+        "date": "05-23",
+        "as_of": "2026-05-23 05:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "05:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动搜索国内+海外公开来源；web_search三组国内/海外查询HTTP 432，改用requests直连行业站点、监管/协会站点、Google News RSS和原始HTML/RSS落盘，按sha256、RSS标题差异、站点链接与SMM页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 ee701985e31048224af42b6cb71a625700ef2426c363ed06c01de3913ee1bdcb；MarketTrend HTTP 200 sha256 330d3d4e1c4bfd30c1501fabb9e76e9768e488ba88aa8be35f36a1ee0584d93f。 国内入口：北极星储能 68bdf09769a66f57e34d8eff1a7482ce381bc26977bc42d549035a1f0a20e10e，SMM新能源 9ebb74ef05432e24f99bfa93c0c77096c5a3a07e111ce039289b7ee702d57752，SMM碳酸锂 b12546924ee0591bff004b6b3be07e143d513d7f933eea337acf58893313d6b0，中国能源网 c7e0424d9c14eddc27b0eb9fcb212b9c11e75ba3424c998b38eed44e1b3cf650，国家能源局 831669d710fc45d0e238a8b8ae8b46a8abe54b1415800d5f812f2c28b3d79409，工信部 9b5c2c3b2c089a430313484b32f32a87d6a2115416410266f70d8df4da4ae800，CNESA bb861cc4152b27b64e051767cb008dcd2954a39ff3b33035c5b332bb76dd3130，Google News中文储能RSS e3abe19d04b87983458ef8dc88712fd14e359472352bd6905f9eaa1e3c6044ed，中文BESS/电池RSS f31efd3b1406f07c67a75511de5d273142bfd964620a9bc99a869ca970252d74，中文SMM/碳酸锂RSS d095f59f687ef40cdb8bc418ef3340b5fd9ea90039916862fda80624bebeeced。 海外入口：Energy-Storage.News 5eb74088caa84e82bf2489918f4a541c17738cabd7e94f4d902e0acea625c421，ESS News 3a8df7be2243eb216ca74e48674f9b39555faccd4e7eba72fa9cf6ea6d40b481，pv magazine f134f3aefcf0f4759fa41480ac6e505eb603bdd4d9df32e84f3ef4651060bbd4，SolarQuarter 4955ee65cae4d76e83aa6101ad7c1ec1f2ec0f1c933d8f01cd72dd34850cf06d，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，全球BESS RSS ca9605d01dc8d6dc9ed7704a44c539fae546c917ee53f4b5e2ad71afe6e8ec8a，全球储能政策RSS 61e1f07def0ed712e3221ce99b06728bc6e36a625eb88f289fc21afa90c909a4，全球钠电/固态RSS dc7594c0e6c23abcd3ea67f1daad66c731ff0b6cfd4222d09c835a10f3b21837，欧洲BESS RSS b3a41b4a3adc388961d28b16178e579162b2f9b48426b8b89e5eed335dd9ebe6，数据中心电力/储能RSS f90e550669580866364a4649332cb70852c6d71f8211deea62334a3bc8351b0b。 05:00新增/变化：中文储能RSS较03:00新增财联社“多重逻辑驱动港股储能概念走强，机构称三年内装机复合增速或达50%”和汽车之家“比亚迪全固态电池通过车规验证，打算在2027年量产”；中文BESS/电池RSS新增新能源汽车私改电池乱象调查、比亚迪第二代刀片电池续航超1000km安全性解析、比亚迪全固态电池车规验证。海外侧，全球BESS RSS新增BNamericas“Brazil manufacturers push for long-term battery auction schedule”和ESG Dive“Meta, Enbridge to build solar, storage for Wyoming data centers”；全球储能政策RSS新增Enbridge/Meta Cowboy Project和Spearmint ERCOT 600MWh约4.5亿美元融资条目；欧洲BESS RSS新增Eurohold/360 Energy在保加利亚161MWp光伏园区启动BESS；数据中心电力RSS新增Energy Digital关于铁电池缓解关键金属稀缺的报道。SMM 05:00复核显示电池级碳酸锂178000元/吨、日跌4000；SMM电碳指数178343元/吨；磷酸铁锂61285元/吨、日跌970；电解液28950元/吨、高端储能人造石墨25100元/吨持平。"
+      },
       {
         "id": "market-20260523-0300-spearmint-meta-gotion-smm",
         "source": "Google News RSS / SMM上海有色 / 新京报 / CleanTechnica / BIC Magazine",
@@ -68415,6 +68569,96 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260523-0500-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "ee701985e31048224af42b6cb71a625700ef2426c363ed06c01de3913ee1bdcb",
+        "finding": "首页已按小时重读；本轮写入港股储能概念、比亚迪全固态/刀片电池、海外BESS和SMM行情复核。"
+      },
+      {
+        "id": "source-20260523-0500-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "330d3d4e1c4bfd30c1501fabb9e76e9768e488ba88aa8be35f36a1ee0584d93f",
+        "finding": "/markettrend/已按小时重读；本轮补充国内储能概念与比亚迪电池，海外储能拍卖、数据中心储能、铁电池和SMM价格复核。"
+      },
+      {
+        "id": "source-20260523-0500-google-cn-storage",
+        "source": "Google News RSS 中文储能检索",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "e3abe19d04b87983458ef8dc88712fd14e359472352bd6905f9eaa1e3c6044ed",
+        "finding": "较03:00新增财联社港股储能概念走强/机构称三年内装机复合增速或达50%，以及汽车之家比亚迪全固态电池通过车规验证、计划2027年量产。"
+      },
+      {
+        "id": "source-20260523-0500-google-cn-bess",
+        "source": "Google News RSS 中文BESS/电池检索",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "f31efd3b1406f07c67a75511de5d273142bfd964620a9bc99a869ca970252d74",
+        "finding": "较03:00新增新能源汽车私改电池乱象调查、比亚迪第二代刀片电池续航超1000km安全性解析、比亚迪全固态电池车规验证。"
+      },
+      {
+        "id": "source-20260523-0500-google-global-bess",
+        "source": "Google News RSS 全球BESS检索",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "ca9605d01dc8d6dc9ed7704a44c539fae546c917ee53f4b5e2ad71afe6e8ec8a",
+        "finding": "较03:00新增巴西制造商推动长期电池储能拍卖排期，以及Meta/Enbridge为怀俄明数据中心建设太阳能+储能。"
+      },
+      {
+        "id": "source-20260523-0500-google-storage-policy",
+        "source": "Google News RSS 全球储能政策检索",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "61e1f07def0ed712e3221ce99b06728bc6e36a625eb88f289fc21afa90c909a4",
+        "finding": "较03:00新增/重排Enbridge and Meta expand partnership with Cowboy Project、Spearmint ERCOT 600MWh约4.5亿美元融资。"
+      },
+      {
+        "id": "source-20260523-0500-google-europe-bess",
+        "source": "Google News RSS 欧洲BESS检索",
+        "url": "https://news.google.com/rss/search?q=Europe%20BESS%20battery%20storage%20when:1d&hl=en-GB&gl=GB&ceid=GB:en",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "b3a41b4a3adc388961d28b16178e579162b2f9b48426b8b89e5eed335dd9ebe6",
+        "finding": "较03:00新增Eurohold/360 Energy在保加利亚161MWp光伏园区启动BESS。"
+      },
+      {
+        "id": "source-20260523-0500-google-datacenter-power",
+        "source": "Google News RSS 数据中心电力/储能检索",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "f90e550669580866364a4649332cb70852c6d71f8211deea62334a3bc8351b0b",
+        "finding": "较03:00新增Energy Digital关于铁电池能否缓解关键金属稀缺的报道。"
+      },
+      {
+        "id": "source-20260523-0500-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "9ebb74ef05432e24f99bfa93c0c77096c5a3a07e111ce039289b7ee702d57752",
+        "finding": "05:00复核：磷酸铁锂61285元/吨、日跌970；电池级碳酸锂178000元/吨、日跌4000；电解液28950元/吨持平，高端储能人造石墨25100元/吨持平。"
+      },
+      {
+        "id": "source-20260523-0500-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-23 05:00 CST",
+        "status": 200,
+        "sha256": "b12546924ee0591bff004b6b3be07e143d513d7f933eea337acf58893313d6b0",
+        "finding": "电池级碳酸锂178000元/吨、日跌4000元/吨；SMM电池级碳酸锂指数178343元/吨，较上一采集数值未变。"
+      },
+      {
         "id": "source-20260523-0300-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -73391,5 +73635,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-23T03:00:00+08:00"
+  "checked_at": "2026-05-23T05:00:00+08:00"
 };
