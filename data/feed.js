@@ -1,8 +1,69 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-22T11:00:00+08:00",
-  "note": "11:00严格刷新：已重新读取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search三组查询HTTP 432，改用公开页面直连、Google News RSS和原始HTML留档。本轮新增/强化采信：广西灌阳150MW/600MWh构网型独立储能EPC招标、SMM电池级碳酸锂178000元/吨、国内高比能固态锂电池451.5Wh/kg进展、锂电及储能板块企业Q1净利同比上涨84.31%、IRENA 2035年2.5TW/2050年6.9TW储能目标。",
+  "generated_at": "2026-05-22T12:00:00+08:00",
+  "note": "12:00严格刷新：已重新读取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search三组查询HTTP 432，改用公开页面直连、Google News RSS和原始HTML留档。本轮新增采信：Sungrow/阳光电源与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统，北极星重庆/新疆储能参与电力市场与调频政策线索，福建钠科万吨钠电正极+1GWh系统集成项目环评受理，90台储能集装箱出海，SMM电池级碳酸锂178000元/吨。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260522-1200-sungrow-masdar-7-5gwh-smm-policy",
+        "source": "Google News RSS / PR Newswire / 界面新闻 / 北极星储能网 / SMM上海有色 / 时代储能网 / 搜狐 / NeoLink HTTP crawl",
+        "source_type": "RSS发现/海外新闻稿/国内财经媒体/行业门户/专业行情/本站回读",
+        "account_name": "Google News RSS / PR Newswire / 北极星储能网 / SMM",
+        "category": "海外订单/储能出海/材料行情/政策/钠电项目/标准",
+        "title": "12:00刷新：Sungrow-Masdar阿布扎比7.5GWh储能订单与国内储能政策/钠电项目新增",
+        "summary": "12:00严格刷新新增采信：阳光电源/ Sungrow 与 Masdar 签署阿布扎比全球首个RTC项目7.5GWh储能系统线索同时出现在中文BESS/电池RSS和全球BESS RSS；中文储能RSS新增90台储能集装箱出海厦门港口局护航，以及工信部十五五标准构建覆盖固态电池/L3线索。北极星储能新增政策和项目强化：重庆推动储能参与电力交易、现货和辅助服务，新疆推动独立储能全面参与调频辅助服务，福建钠科能源万吨钠电正极+1GWh系统集成产能环评受理，天津10个储能相关项目入选先进智能工厂名单。SMM行情复核电池级碳酸锂178000元/吨、日跌4000元/吨，磷酸铁锂62255元/吨、日涨725元/吨。",
+        "body": [
+          "海外/出海侧，中文BESS RSS新增界面新闻报道“阳光电源宣布中标阿联酋7.5GWh储能订单”，全球BESS RSS新增PR Newswire标题“Sungrow and Masdar Sign 7.5GWh Energy Storage System for Abu Dhabi’s World First RTC Project”，形成中外交叉验证。",
+          "国内项目与政策侧，北极星储能首页新增/展示重庆推动储能参与电力交易、现货市场和辅助服务市场，新疆推动独立储能设施全面参与调频辅助服务，以及天津10个储能相关项目入选先进智能工厂名单。",
+          "产业链侧，北极星储能显示福建钠科能源万吨钠电正极+1GWh电池系统集成产能项目获环评受理；中文储能RSS新增90台储能集装箱出海厦门港口局护航。",
+          "行情侧，SMM 12:00复核显示电池级碳酸锂178000元/吨、日跌4000元/吨，SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨；磷酸铁锂62255元/吨、日涨725元/吨，电解液28950元/吨持平。"
+        ],
+        "key_points": [
+          "中外RSS交叉新增：Sungrow/阳光电源与Masdar签署阿布扎比RTC项目7.5GWh储能系统。",
+          "北极星新增政策线索：重庆推动储能参与电力交易/现货/辅助服务，新疆推动独立储能全面参与调频辅助服务。",
+          "产业链新增：福建钠科能源万吨钠电正极+1GWh电池系统集成项目获环评受理；厦门港护航90台储能集装箱出海。",
+          "SMM：电池级碳酸锂178000元/吨、日跌4000；磷酸铁锂62255元/吨、日涨725。"
+        ],
+        "value": "7.5",
+        "unit": "GWh 阿布扎比RTC项目储能系统订单线索",
+        "delta": "海外大单、国内政策参与市场、钠电产能和出海物流线索新增",
+        "direction": "up",
+        "date": "05-22",
+        "as_of": "2026-05-22 12:00 CST",
+        "url": "https://www.prnewswire.com/",
+        "original_url": "https://www.prnewswire.com/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+          "https://chuneng.bjx.com.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>12:00新增：Sungrow/阳光电源与Masdar签署阿布扎比RTC项目7.5GWh储能系统；北极星新增重庆/新疆储能参与市场政策、福建钠科1GWh钠电系统集成项目；SMM电池级碳酸锂178000元/吨。</p>",
+        "caption": "海外7.5GWh储能订单、国内储能市场化政策与钠电项目同步刷新。",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search三组国内/海外查询均返回HTTP 432，改用requests直连公开行业站点、Google News RSS和原始HTML落盘，按sha256、站点链接和RSS标题差异比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 dd95b4f02e75559e4201f4f103fe1be9e0bacd269a54b8c417e593a8e88964cc；MarketTrend HTTP 200 sha256 873ba7452abccc633a0678bb80142b6c3d8dfaf185c96ae848fb3a10004fc6a8。 国内入口：北极星储能 dad739f19c70892bb051853b424056742fa2357d3ea94e6391275b84d23b66ef，SMM新能源 9c2595e4259fc271425595760965149044e09e1340c9bf98fd8ab6fddcef5e7b，SMM碳酸锂 19eb5bdd49e7170b57ddbc1bec05de1129e19d394e491ee7f64d0a994bac43b7，中国能源网 ab2fc97293bc7f7c1dc3698a4f080778c04842d97e4294b115173af82ddd7517，国家能源局 ff0b95faddde02e620d57a543a05c0dba9afe15e01a0a0d1a2f1c9fe30abc28e，工信部 2a4abd4fba1355ce6d08225fdc819f6cb81c6b5790ffba0bf5aa9712642b82c1，CNESA 909cf62e2545436e5ad19f85f7c6ea9f52873b871bff4a1388246f6250c72642，Google News中文储能RSS 8cbde6587c716c0a5bc78cfba900056cdf4bb23b4e6038b71ea9c5b31fd23084，Google News中文BESS/电池RSS e2d2f9e4e536f687e85e9594f94ee4522fc71bc6be7d30b07021ba30f081a4f5。 海外入口：Energy-Storage.News 65eff5243786de8a389104fed0043564df4eb693fc47386c4f194151a7c045a3，ESS News 45eed73e9d844c347a82aeac130c44076868112e90ec8c4370f3ed804c335b7e，pv magazine 9c728ad103ca25a59f35f6bc4d0ebd9b581c9c0aa9a12a536a5f42998802fa47，SolarQuarter 85ae3abd59129fa5ef815c7b7deac7cca9a043338a2e5a85c48651c82a85e3d7，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，Google News全球BESS RSS a395c2c0f5ebebad5d0cfadbd596f6dd6f475777237083444aeee475e795afc9，Google News全球储能政策RSS 3ed14e9bce6dee349a67f6c56bc99ca14fe91d1abc94b15971f31cedb59e91da，Google News欧洲BESS RSS e5420558533db9344940b1f5651a76f8204c0983814c414ce15cd8f2c076baf6。 12:00新增/强化线索：中文BESS/电池RSS较11:00新增界面新闻/ETF报道“阳光电源宣布中标阿联酋7.5GWh储能订单，储能出海浪潮汹涌”；全球BESS RSS同步新增PR Newswire关于Sungrow与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统。中文储能RSS新增厦门港口局护航90台储能集装箱出海和工信部加快十五五标准构建、固态电池/L3相关标准线索。北极星储能首页新增/强化重庆推动储能参与电力交易、现货市场和辅助服务市场，新疆推动独立储能全面参与调频辅助服务，天津10个储能相关项目入选首批先进智能工厂名单，福建钠科能源万吨钠电正极+1GWh电池系统集成项目获环评受理。 行情复核：SMM碳酸锂页与SMM新能源页均显示电池级碳酸锂178000元/吨、日跌4000元/吨，SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨；SMM新能源页显示磷酸铁锂62255元/吨、日涨725元/吨，电解液28950元/吨持平，高端储能人造石墨25100元/吨持平。",
+        "history": [
+          {
+            "label": "阿布扎比RTC储能订单 GWh",
+            "value": 7.5
+          },
+          {
+            "label": "储能集装箱出海 台",
+            "value": 90
+          },
+          {
+            "label": "福建钠科系统集成 GWh",
+            "value": 1
+          },
+          {
+            "label": "SMM电池级碳酸锂 元/吨",
+            "value": 178000
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62255
+          }
+        ]
+      },
       {
         "id": "headline-20260522-1100-guanyang-irena-smm-li2co3",
         "source": "北极星储能网 / SMM上海有色 / ESS News / IRENA / Google News RSS / 界面新闻 / 新浪财经 / Energy Digital / NeoLink HTTP crawl",
@@ -11428,6 +11489,41 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260522-1200-sungrow-masdar-storage",
+        "source": "Google News RSS / PR Newswire / 界面新闻 / 北极星储能网 / SMM上海有色 / 时代储能网 / 搜狐 / NeoLink HTTP crawl",
+        "source_type": "RSS发现/海外新闻稿/国内财经媒体/行业门户/专业行情/本站回读",
+        "account_name": "Google News RSS / PR Newswire / 北极星储能网 / SMM",
+        "category": "海外订单/储能出海/材料行情/政策/钠电项目/标准",
+        "title": "12:00刷新：Sungrow-Masdar阿布扎比7.5GWh储能订单与国内储能政策/钠电项目新增",
+        "summary": "12:00严格刷新新增采信：阳光电源/ Sungrow 与 Masdar 签署阿布扎比全球首个RTC项目7.5GWh储能系统线索同时出现在中文BESS/电池RSS和全球BESS RSS；中文储能RSS新增90台储能集装箱出海厦门港口局护航，以及工信部十五五标准构建覆盖固态电池/L3线索。北极星储能新增政策和项目强化：重庆推动储能参与电力交易、现货和辅助服务，新疆推动独立储能全面参与调频辅助服务，福建钠科能源万吨钠电正极+1GWh系统集成产能环评受理，天津10个储能相关项目入选先进智能工厂名单。SMM行情复核电池级碳酸锂178000元/吨、日跌4000元/吨，磷酸铁锂62255元/吨、日涨725元/吨。",
+        "body": [
+          "海外/出海侧，中文BESS RSS新增界面新闻报道“阳光电源宣布中标阿联酋7.5GWh储能订单”，全球BESS RSS新增PR Newswire标题“Sungrow and Masdar Sign 7.5GWh Energy Storage System for Abu Dhabi’s World First RTC Project”，形成中外交叉验证。",
+          "国内项目与政策侧，北极星储能首页新增/展示重庆推动储能参与电力交易、现货市场和辅助服务市场，新疆推动独立储能设施全面参与调频辅助服务，以及天津10个储能相关项目入选先进智能工厂名单。",
+          "产业链侧，北极星储能显示福建钠科能源万吨钠电正极+1GWh电池系统集成产能项目获环评受理；中文储能RSS新增90台储能集装箱出海厦门港口局护航。",
+          "行情侧，SMM 12:00复核显示电池级碳酸锂178000元/吨、日跌4000元/吨，SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨；磷酸铁锂62255元/吨、日涨725元/吨，电解液28950元/吨持平。"
+        ],
+        "key_points": [
+          "中外RSS交叉新增：Sungrow/阳光电源与Masdar签署阿布扎比RTC项目7.5GWh储能系统。",
+          "北极星新增政策线索：重庆推动储能参与电力交易/现货/辅助服务，新疆推动独立储能全面参与调频辅助服务。",
+          "产业链新增：福建钠科能源万吨钠电正极+1GWh电池系统集成项目获环评受理；厦门港护航90台储能集装箱出海。",
+          "SMM：电池级碳酸锂178000元/吨、日跌4000；磷酸铁锂62255元/吨、日涨725。"
+        ],
+        "date": "05-22",
+        "as_of": "2026-05-22 12:00 CST",
+        "url": "https://www.prnewswire.com/",
+        "original_url": "https://www.prnewswire.com/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+          "https://chuneng.bjx.com.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>12:00新增：Sungrow/阳光电源与Masdar签署阿布扎比RTC项目7.5GWh储能系统；北极星新增重庆/新疆储能参与市场政策、福建钠科1GWh钠电系统集成项目；SMM电池级碳酸锂178000元/吨。</p>",
+        "caption": "海外7.5GWh储能订单、国内储能市场化政策与钠电项目同步刷新。",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search三组国内/海外查询均返回HTTP 432，改用requests直连公开行业站点、Google News RSS和原始HTML落盘，按sha256、站点链接和RSS标题差异比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 dd95b4f02e75559e4201f4f103fe1be9e0bacd269a54b8c417e593a8e88964cc；MarketTrend HTTP 200 sha256 873ba7452abccc633a0678bb80142b6c3d8dfaf185c96ae848fb3a10004fc6a8。 国内入口：北极星储能 dad739f19c70892bb051853b424056742fa2357d3ea94e6391275b84d23b66ef，SMM新能源 9c2595e4259fc271425595760965149044e09e1340c9bf98fd8ab6fddcef5e7b，SMM碳酸锂 19eb5bdd49e7170b57ddbc1bec05de1129e19d394e491ee7f64d0a994bac43b7，中国能源网 ab2fc97293bc7f7c1dc3698a4f080778c04842d97e4294b115173af82ddd7517，国家能源局 ff0b95faddde02e620d57a543a05c0dba9afe15e01a0a0d1a2f1c9fe30abc28e，工信部 2a4abd4fba1355ce6d08225fdc819f6cb81c6b5790ffba0bf5aa9712642b82c1，CNESA 909cf62e2545436e5ad19f85f7c6ea9f52873b871bff4a1388246f6250c72642，Google News中文储能RSS 8cbde6587c716c0a5bc78cfba900056cdf4bb23b4e6038b71ea9c5b31fd23084，Google News中文BESS/电池RSS e2d2f9e4e536f687e85e9594f94ee4522fc71bc6be7d30b07021ba30f081a4f5。 海外入口：Energy-Storage.News 65eff5243786de8a389104fed0043564df4eb693fc47386c4f194151a7c045a3，ESS News 45eed73e9d844c347a82aeac130c44076868112e90ec8c4370f3ed804c335b7e，pv magazine 9c728ad103ca25a59f35f6bc4d0ebd9b581c9c0aa9a12a536a5f42998802fa47，SolarQuarter 85ae3abd59129fa5ef815c7b7deac7cca9a043338a2e5a85c48651c82a85e3d7，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，Google News全球BESS RSS a395c2c0f5ebebad5d0cfadbd596f6dd6f475777237083444aeee475e795afc9，Google News全球储能政策RSS 3ed14e9bce6dee349a67f6c56bc99ca14fe91d1abc94b15971f31cedb59e91da，Google News欧洲BESS RSS e5420558533db9344940b1f5651a76f8204c0983814c414ce15cd8f2c076baf6。 12:00新增/强化线索：中文BESS/电池RSS较11:00新增界面新闻/ETF报道“阳光电源宣布中标阿联酋7.5GWh储能订单，储能出海浪潮汹涌”；全球BESS RSS同步新增PR Newswire关于Sungrow与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统。中文储能RSS新增厦门港口局护航90台储能集装箱出海和工信部加快十五五标准构建、固态电池/L3相关标准线索。北极星储能首页新增/强化重庆推动储能参与电力交易、现货市场和辅助服务市场，新疆推动独立储能全面参与调频辅助服务，天津10个储能相关项目入选首批先进智能工厂名单，福建钠科能源万吨钠电正极+1GWh电池系统集成项目获环评受理。 行情复核：SMM碳酸锂页与SMM新能源页均显示电池级碳酸锂178000元/吨、日跌4000元/吨，SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨；SMM新能源页显示磷酸铁锂62255元/吨、日涨725元/吨，电解液28950元/吨持平，高端储能人造石墨25100元/吨持平。"
+      },
       {
         "id": "latest-20260522-1100-guanyang-irena-smm",
         "source": "北极星储能网 / SMM上海有色 / ESS News / IRENA / Google News RSS / 界面新闻 / 新浪财经 / Energy Digital / NeoLink HTTP crawl",
@@ -31435,6 +31531,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260522-1200-smm-li2co3-lfp-graphite",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液 / 高端储能人造石墨",
+        "spec": "SMM公开行情页；12:00复核",
+        "value": "178000 / 178343 / 62255 / 28950 / 25100",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "碳酸锂-4000；指数-3389；磷酸铁锂+725；电解液持平；高端储能人造石墨持平",
+        "direction": "mixed",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-22 12:00 CST",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search三组国内/海外查询均返回HTTP 432，改用requests直连公开行业站点、Google News RSS和原始HTML落盘，按sha256、站点链接和RSS标题差异比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 dd95b4f02e75559e4201f4f103fe1be9e0bacd269a54b8c417e593a8e88964cc；MarketTrend HTTP 200 sha256 873ba7452abccc633a0678bb80142b6c3d8dfaf185c96ae848fb3a10004fc6a8。 国内入口：北极星储能 dad739f19c70892bb051853b424056742fa2357d3ea94e6391275b84d23b66ef，SMM新能源 9c2595e4259fc271425595760965149044e09e1340c9bf98fd8ab6fddcef5e7b，SMM碳酸锂 19eb5bdd49e7170b57ddbc1bec05de1129e19d394e491ee7f64d0a994bac43b7，中国能源网 ab2fc97293bc7f7c1dc3698a4f080778c04842d97e4294b115173af82ddd7517，国家能源局 ff0b95faddde02e620d57a543a05c0dba9afe15e01a0a0d1a2f1c9fe30abc28e，工信部 2a4abd4fba1355ce6d08225fdc819f6cb81c6b5790ffba0bf5aa9712642b82c1，CNESA 909cf62e2545436e5ad19f85f7c6ea9f52873b871bff4a1388246f6250c72642，Google News中文储能RSS 8cbde6587c716c0a5bc78cfba900056cdf4bb23b4e6038b71ea9c5b31fd23084，Google News中文BESS/电池RSS e2d2f9e4e536f687e85e9594f94ee4522fc71bc6be7d30b07021ba30f081a4f5。 海外入口：Energy-Storage.News 65eff5243786de8a389104fed0043564df4eb693fc47386c4f194151a7c045a3，ESS News 45eed73e9d844c347a82aeac130c44076868112e90ec8c4370f3ed804c335b7e，pv magazine 9c728ad103ca25a59f35f6bc4d0ebd9b581c9c0aa9a12a536a5f42998802fa47，SolarQuarter 85ae3abd59129fa5ef815c7b7deac7cca9a043338a2e5a85c48651c82a85e3d7，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，Google News全球BESS RSS a395c2c0f5ebebad5d0cfadbd596f6dd6f475777237083444aeee475e795afc9，Google News全球储能政策RSS 3ed14e9bce6dee349a67f6c56bc99ca14fe91d1abc94b15971f31cedb59e91da，Google News欧洲BESS RSS e5420558533db9344940b1f5651a76f8204c0983814c414ce15cd8f2c076baf6。 12:00新增/强化线索：中文BESS/电池RSS较11:00新增界面新闻/ETF报道“阳光电源宣布中标阿联酋7.5GWh储能订单，储能出海浪潮汹涌”；全球BESS RSS同步新增PR Newswire关于Sungrow与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统。中文储能RSS新增厦门港口局护航90台储能集装箱出海和工信部加快十五五标准构建、固态电池/L3相关标准线索。北极星储能首页新增/强化重庆推动储能参与电力交易、现货市场和辅助服务市场，新疆推动独立储能全面参与调频辅助服务，天津10个储能相关项目入选首批先进智能工厂名单，福建钠科能源万吨钠电正极+1GWh电池系统集成项目获环评受理。 行情复核：SMM碳酸锂页与SMM新能源页均显示电池级碳酸锂178000元/吨、日跌4000元/吨，SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨；SMM新能源页显示磷酸铁锂62255元/吨、日涨725元/吨，电解液28950元/吨持平，高端储能人造石墨25100元/吨持平。"
+      },
+      {
         "id": "material-20260522-1100-smm-li2co3-lfp",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；11:00复核",
@@ -34400,6 +34509,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260522-1200-sungrow-masdar-uae-rtc",
+        "title": "Sungrow-Masdar阿布扎比RTC项目储能系统",
+        "value": "7.5",
+        "unit": "GWh",
+        "caption": "中文与全球BESS RSS均新增阳光电源/Sungrow与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统线索。",
+        "delta": "海外储能出海订单线索新增",
+        "direction": "up",
+        "source": "PR Newswire / Google News RSS / 界面新闻",
+        "as_of": "2026-05-22 12:00 CST",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search三组国内/海外查询均返回HTTP 432，改用requests直连公开行业站点、Google News RSS和原始HTML落盘，按sha256、站点链接和RSS标题差异比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 dd95b4f02e75559e4201f4f103fe1be9e0bacd269a54b8c417e593a8e88964cc；MarketTrend HTTP 200 sha256 873ba7452abccc633a0678bb80142b6c3d8dfaf185c96ae848fb3a10004fc6a8。 国内入口：北极星储能 dad739f19c70892bb051853b424056742fa2357d3ea94e6391275b84d23b66ef，SMM新能源 9c2595e4259fc271425595760965149044e09e1340c9bf98fd8ab6fddcef5e7b，SMM碳酸锂 19eb5bdd49e7170b57ddbc1bec05de1129e19d394e491ee7f64d0a994bac43b7，中国能源网 ab2fc97293bc7f7c1dc3698a4f080778c04842d97e4294b115173af82ddd7517，国家能源局 ff0b95faddde02e620d57a543a05c0dba9afe15e01a0a0d1a2f1c9fe30abc28e，工信部 2a4abd4fba1355ce6d08225fdc819f6cb81c6b5790ffba0bf5aa9712642b82c1，CNESA 909cf62e2545436e5ad19f85f7c6ea9f52873b871bff4a1388246f6250c72642，Google News中文储能RSS 8cbde6587c716c0a5bc78cfba900056cdf4bb23b4e6038b71ea9c5b31fd23084，Google News中文BESS/电池RSS e2d2f9e4e536f687e85e9594f94ee4522fc71bc6be7d30b07021ba30f081a4f5。 海外入口：Energy-Storage.News 65eff5243786de8a389104fed0043564df4eb693fc47386c4f194151a7c045a3，ESS News 45eed73e9d844c347a82aeac130c44076868112e90ec8c4370f3ed804c335b7e，pv magazine 9c728ad103ca25a59f35f6bc4d0ebd9b581c9c0aa9a12a536a5f42998802fa47，SolarQuarter 85ae3abd59129fa5ef815c7b7deac7cca9a043338a2e5a85c48651c82a85e3d7，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，Google News全球BESS RSS a395c2c0f5ebebad5d0cfadbd596f6dd6f475777237083444aeee475e795afc9，Google News全球储能政策RSS 3ed14e9bce6dee349a67f6c56bc99ca14fe91d1abc94b15971f31cedb59e91da，Google News欧洲BESS RSS e5420558533db9344940b1f5651a76f8204c0983814c414ce15cd8f2c076baf6。 12:00新增/强化线索：中文BESS/电池RSS较11:00新增界面新闻/ETF报道“阳光电源宣布中标阿联酋7.5GWh储能订单，储能出海浪潮汹涌”；全球BESS RSS同步新增PR Newswire关于Sungrow与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统。中文储能RSS新增厦门港口局护航90台储能集装箱出海和工信部加快十五五标准构建、固态电池/L3相关标准线索。北极星储能首页新增/强化重庆推动储能参与电力交易、现货市场和辅助服务市场，新疆推动独立储能全面参与调频辅助服务，天津10个储能相关项目入选首批先进智能工厂名单，福建钠科能源万吨钠电正极+1GWh电池系统集成项目获环评受理。 行情复核：SMM碳酸锂页与SMM新能源页均显示电池级碳酸锂178000元/吨、日跌4000元/吨，SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨；SMM新能源页显示磷酸铁锂62255元/吨、日涨725元/吨，电解液28950元/吨持平，高端储能人造石墨25100元/吨持平。",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+      },
       {
         "id": "metric-20260522-1100-guangxi-grid-forming-storage",
         "title": "广西灌阳构网型独立储能EPC招标",
@@ -47394,6 +47516,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260522-1200-sungrow-masdar-uae",
+        "source": "PR Newswire / Google News RSS / 界面新闻",
+        "category": "海外订单/储能出海/中东RTC项目",
+        "title": "海外新增：Sungrow与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统",
+        "summary": "全球BESS RSS新增PR Newswire关于Sungrow and Masdar Sign 7.5GWh Energy Storage System for Abu Dhabi’s World First RTC Project，中文BESS RSS也新增界面新闻关于阳光电源中标阿联酋7.5GWh储能订单，形成中外来源交叉验证。",
+        "value": "7.5",
+        "unit": "GWh",
+        "delta": "中东RTC项目储能系统订单线索新增",
+        "direction": "up",
+        "date": "05-22",
+        "as_of": "2026-05-22 12:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search三组国内/海外查询均返回HTTP 432，改用requests直连公开行业站点、Google News RSS和原始HTML落盘，按sha256、站点链接和RSS标题差异比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 dd95b4f02e75559e4201f4f103fe1be9e0bacd269a54b8c417e593a8e88964cc；MarketTrend HTTP 200 sha256 873ba7452abccc633a0678bb80142b6c3d8dfaf185c96ae848fb3a10004fc6a8。 国内入口：北极星储能 dad739f19c70892bb051853b424056742fa2357d3ea94e6391275b84d23b66ef，SMM新能源 9c2595e4259fc271425595760965149044e09e1340c9bf98fd8ab6fddcef5e7b，SMM碳酸锂 19eb5bdd49e7170b57ddbc1bec05de1129e19d394e491ee7f64d0a994bac43b7，中国能源网 ab2fc97293bc7f7c1dc3698a4f080778c04842d97e4294b115173af82ddd7517，国家能源局 ff0b95faddde02e620d57a543a05c0dba9afe15e01a0a0d1a2f1c9fe30abc28e，工信部 2a4abd4fba1355ce6d08225fdc819f6cb81c6b5790ffba0bf5aa9712642b82c1，CNESA 909cf62e2545436e5ad19f85f7c6ea9f52873b871bff4a1388246f6250c72642，Google News中文储能RSS 8cbde6587c716c0a5bc78cfba900056cdf4bb23b4e6038b71ea9c5b31fd23084，Google News中文BESS/电池RSS e2d2f9e4e536f687e85e9594f94ee4522fc71bc6be7d30b07021ba30f081a4f5。 海外入口：Energy-Storage.News 65eff5243786de8a389104fed0043564df4eb693fc47386c4f194151a7c045a3，ESS News 45eed73e9d844c347a82aeac130c44076868112e90ec8c4370f3ed804c335b7e，pv magazine 9c728ad103ca25a59f35f6bc4d0ebd9b581c9c0aa9a12a536a5f42998802fa47，SolarQuarter 85ae3abd59129fa5ef815c7b7deac7cca9a043338a2e5a85c48651c82a85e3d7，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，Google News全球BESS RSS a395c2c0f5ebebad5d0cfadbd596f6dd6f475777237083444aeee475e795afc9，Google News全球储能政策RSS 3ed14e9bce6dee349a67f6c56bc99ca14fe91d1abc94b15971f31cedb59e91da，Google News欧洲BESS RSS e5420558533db9344940b1f5651a76f8204c0983814c414ce15cd8f2c076baf6。 12:00新增/强化线索：中文BESS/电池RSS较11:00新增界面新闻/ETF报道“阳光电源宣布中标阿联酋7.5GWh储能订单，储能出海浪潮汹涌”；全球BESS RSS同步新增PR Newswire关于Sungrow与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统。中文储能RSS新增厦门港口局护航90台储能集装箱出海和工信部加快十五五标准构建、固态电池/L3相关标准线索。北极星储能首页新增/强化重庆推动储能参与电力交易、现货市场和辅助服务市场，新疆推动独立储能全面参与调频辅助服务，天津10个储能相关项目入选首批先进智能工厂名单，福建钠科能源万吨钠电正极+1GWh电池系统集成项目获环评受理。 行情复核：SMM碳酸锂页与SMM新能源页均显示电池级碳酸锂178000元/吨、日跌4000元/吨，SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨；SMM新能源页显示磷酸铁锂62255元/吨、日涨725元/吨，电解液28950元/吨持平，高端储能人造石墨25100元/吨持平。"
+      },
+      {
         "id": "overseas-20260522-1100-irena-neny",
         "source": "ESS News / IRENA / Google News RSS / Energy Digital",
         "category": "海外储能目标/电池技术资助",
@@ -52955,6 +53092,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260522-1200-smm-sungrow-policy",
+        "source": "SMM上海有色 / Google News RSS / PR Newswire / 北极星储能网",
+        "category": "材料行情/海外订单/政策/钠电",
+        "title": "SMM锂价维持178000元/吨；Sungrow-Masdar 7.5GWh储能订单和储能参与市场政策新增",
+        "summary": "12:00严格刷新新增采信：阳光电源/ Sungrow 与 Masdar 签署阿布扎比全球首个RTC项目7.5GWh储能系统线索同时出现在中文BESS/电池RSS和全球BESS RSS；中文储能RSS新增90台储能集装箱出海厦门港口局护航，以及工信部十五五标准构建覆盖固态电池/L3线索。北极星储能新增政策和项目强化：重庆推动储能参与电力交易、现货和辅助服务，新疆推动独立储能全面参与调频辅助服务，福建钠科能源万吨钠电正极+1GWh系统集成产能环评受理，天津10个储能相关项目入选先进智能工厂名单。SMM行情复核电池级碳酸锂178000元/吨、日跌4000元/吨，磷酸铁锂62255元/吨、日涨725元/吨。",
+        "value": "178000",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "锂价低位复核；海外7.5GWh订单和国内政策/钠电项目新增",
+        "direction": "mixed",
+        "date": "05-22",
+        "as_of": "2026-05-22 12:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search三组国内/海外查询均返回HTTP 432，改用requests直连公开行业站点、Google News RSS和原始HTML落盘，按sha256、站点链接和RSS标题差异比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 dd95b4f02e75559e4201f4f103fe1be9e0bacd269a54b8c417e593a8e88964cc；MarketTrend HTTP 200 sha256 873ba7452abccc633a0678bb80142b6c3d8dfaf185c96ae848fb3a10004fc6a8。 国内入口：北极星储能 dad739f19c70892bb051853b424056742fa2357d3ea94e6391275b84d23b66ef，SMM新能源 9c2595e4259fc271425595760965149044e09e1340c9bf98fd8ab6fddcef5e7b，SMM碳酸锂 19eb5bdd49e7170b57ddbc1bec05de1129e19d394e491ee7f64d0a994bac43b7，中国能源网 ab2fc97293bc7f7c1dc3698a4f080778c04842d97e4294b115173af82ddd7517，国家能源局 ff0b95faddde02e620d57a543a05c0dba9afe15e01a0a0d1a2f1c9fe30abc28e，工信部 2a4abd4fba1355ce6d08225fdc819f6cb81c6b5790ffba0bf5aa9712642b82c1，CNESA 909cf62e2545436e5ad19f85f7c6ea9f52873b871bff4a1388246f6250c72642，Google News中文储能RSS 8cbde6587c716c0a5bc78cfba900056cdf4bb23b4e6038b71ea9c5b31fd23084，Google News中文BESS/电池RSS e2d2f9e4e536f687e85e9594f94ee4522fc71bc6be7d30b07021ba30f081a4f5。 海外入口：Energy-Storage.News 65eff5243786de8a389104fed0043564df4eb693fc47386c4f194151a7c045a3，ESS News 45eed73e9d844c347a82aeac130c44076868112e90ec8c4370f3ed804c335b7e，pv magazine 9c728ad103ca25a59f35f6bc4d0ebd9b581c9c0aa9a12a536a5f42998802fa47，SolarQuarter 85ae3abd59129fa5ef815c7b7deac7cca9a043338a2e5a85c48651c82a85e3d7，EnergyTrend 9dd2b9027eb0d6091de8c2834af9008ea3afaa5bc9c9bd13672a3731e18fc8eb，Google News全球BESS RSS a395c2c0f5ebebad5d0cfadbd596f6dd6f475777237083444aeee475e795afc9，Google News全球储能政策RSS 3ed14e9bce6dee349a67f6c56bc99ca14fe91d1abc94b15971f31cedb59e91da，Google News欧洲BESS RSS e5420558533db9344940b1f5651a76f8204c0983814c414ce15cd8f2c076baf6。 12:00新增/强化线索：中文BESS/电池RSS较11:00新增界面新闻/ETF报道“阳光电源宣布中标阿联酋7.5GWh储能订单，储能出海浪潮汹涌”；全球BESS RSS同步新增PR Newswire关于Sungrow与Masdar签署阿布扎比全球首个RTC项目7.5GWh储能系统。中文储能RSS新增厦门港口局护航90台储能集装箱出海和工信部加快十五五标准构建、固态电池/L3相关标准线索。北极星储能首页新增/强化重庆推动储能参与电力交易、现货市场和辅助服务市场，新疆推动独立储能全面参与调频辅助服务，天津10个储能相关项目入选首批先进智能工厂名单，福建钠科能源万吨钠电正极+1GWh电池系统集成项目获环评受理。 行情复核：SMM碳酸锂页与SMM新能源页均显示电池级碳酸锂178000元/吨、日跌4000元/吨，SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨；SMM新能源页显示磷酸铁锂62255元/吨、日涨725元/吨，电解液28950元/吨持平，高端储能人造石墨25100元/吨持平。"
+      },
       {
         "id": "market-20260522-1100-smm-guanyang-irena",
         "source": "SMM上海有色 / 北极星储能网 / ESS News / Google News RSS",
@@ -66725,6 +66877,78 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260522-1200-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-22 12:00 CST",
+        "status": 200,
+        "sha256": "dd95b4f02e75559e4201f4f103fe1be9e0bacd269a54b8c417e593a8e88964cc",
+        "finding": "首页已按小时重读；本轮写入Sungrow-Masdar 7.5GWh、国内储能参与市场政策、福建钠科1GWh项目和SMM行情复核。"
+      },
+      {
+        "id": "source-20260522-1200-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-22 12:00 CST",
+        "status": 200,
+        "sha256": "873ba7452abccc633a0678bb80142b6c3d8dfaf185c96ae848fb3a10004fc6a8",
+        "finding": "/markettrend/已按小时重读；本轮补充SMM材料行情、海外订单和政策/钠电项目证据。"
+      },
+      {
+        "id": "source-20260522-1200-google-global-bess",
+        "source": "Google News RSS 全球BESS检索",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-22 12:00 CST",
+        "status": 200,
+        "sha256": "a395c2c0f5ebebad5d0cfadbd596f6dd6f475777237083444aeee475e795afc9",
+        "finding": "较11:00新增PR Newswire：Sungrow and Masdar Sign 7.5GWh Energy Storage System for Abu Dhabi’s World First RTC Project；另新增Guilderland BESS moratorium。"
+      },
+      {
+        "id": "source-20260522-1200-google-cn-bess",
+        "source": "Google News RSS 中文BESS/电池检索",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-22 12:00 CST",
+        "status": 200,
+        "sha256": "e2d2f9e4e536f687e85e9594f94ee4522fc71bc6be7d30b07021ba30f081a4f5",
+        "finding": "较11:00新增界面新闻：阳光电源宣布中标阿联酋7.5GWh储能订单；新增比亚迪第二代刀片电池及闪充技术、固态电池标准等线索。"
+      },
+      {
+        "id": "source-20260522-1200-bjx",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-22 12:00 CST",
+        "status": 200,
+        "sha256": "dad739f19c70892bb051853b424056742fa2357d3ea94e6391275b84d23b66ef",
+        "finding": "首页显示重庆推动储能参与电力交易/现货/辅助服务，新疆推动独立储能参与调频，天津10个储能项目入选先进智能工厂，福建钠科万吨钠电正极+1GWh系统集成项目环评受理。"
+      },
+      {
+        "id": "source-20260522-1200-smm-li2co3",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-22 12:00 CST",
+        "status": 200,
+        "sha256": "19eb5bdd49e7170b57ddbc1bec05de1129e19d394e491ee7f64d0a994bac43b7",
+        "finding": "电池级碳酸锂178000元/吨、日跌4000元/吨；SMM电池级碳酸锂指数178343元/吨、日跌3389元/吨。"
+      },
+      {
+        "id": "source-20260522-1200-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-22 12:00 CST",
+        "status": 200,
+        "sha256": "9c2595e4259fc271425595760965149044e09e1340c9bf98fd8ab6fddcef5e7b",
+        "finding": "电池级碳酸锂178000元/吨、磷酸铁锂62255元/吨、电解液28950元/吨、高端储能人造石墨25100元/吨。"
+      },
+      {
+        "id": "source-20260522-1200-google-cn-storage",
+        "source": "Google News RSS 中文储能检索",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-22 12:00 CST",
+        "status": 200,
+        "sha256": "8cbde6587c716c0a5bc78cfba900056cdf4bb23b4e6038b71ea9c5b31fd23084",
+        "finding": "较11:00新增90台储能集装箱出海厦门港口局护航；新增工信部十五五标准构建、固态电池/L3标准线索。"
+      },
+      {
         "id": "source-20260522-1100-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -70819,5 +71043,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-22T11:00:00+08:00"
+  "checked_at": "2026-05-22T12:00:00+08:00"
 };
