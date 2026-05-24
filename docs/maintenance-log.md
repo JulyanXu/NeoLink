@@ -1,3 +1,45 @@
+## 2026-05-25T01:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `544d336e...`，`/markettrend/` HTTP 200 sha256 `664eae2b...`；web_search三组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
+- 国内新增/上移：中文储能RSS sha256 `52296b32...` 较23:00新增/上移科创板影像龙头切入储能；中文BESS/电池RSS sha256 `bce9a08a...` 新增/上移新能源汽车私改电池乱象、下一代电池技术“场景为王”、奇瑞固态电池参数、比亚迪210km大电池插混、极氪009 900V/115度电池等；中文材料RSS sha256 `c0136c89...` 新增/上移钠电池产业化提速、钠电成本追平锂电讨论、欣旺达供特斯拉、比亚迪二代刀片。
+- 海外新增/上移：全球BESS RSS sha256 `b52e266c...` 与储能政策RSS `a2f7b2dc...` 新增/上移Cavotec PowerAccESS港口起重机Battery ESS、高海拔水电储能、AI提升可再生能源效率、菲律宾绿色能源拍卖、泰国与IEA能源安全合作；数据中心电力RSS `093e15ef...` 新增Ford储能、AI需求下电池储能公司面临电网和供应链约束、CATL/DeepSeek数据中心基础设施等。
+- 行情复核：SMM新能源 sha256 `7177d199...` 与SMM碳酸锂页 sha256 `250be88c...` 显示电池级碳酸锂178000元/吨、SMM电池级碳酸锂指数178343元/吨、磷酸铁锂61285元/吨、电解液28950元/吨、高端储能人造石墨25100元/吨，较23:00采集值未变。
+- 动作：已更新`data/feed.js` generated_at/checked_at至01:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605250100`。已通过`node --check`校验feed、图谱、首页脚本、新闻页脚本、详情页脚本、图谱脚本和MarketTrend JS。Artifacts: `var/hermes/crawl-20260525-0100.py`, `var/hermes/crawl-output-20260525-0100.json`, `var/hermes/search-notes-20260525-0100.json`。
+
+## 2026-05-24T23:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `17152d85...`，`/markettrend/` HTTP 200 sha256 `f1f7bbe9...`；web_search三组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
+- 国内新增/上移：中文储能RSS sha256 `1bb63ade...` 较09:00新增珠海外贸储能电源通关、东莞新型储能产业链合作、包头智能组串式储能电站、科创板影像龙头切入储能、港股储能概念走强、CNE Tier1储能品牌梯队、赣锋锂业储能布局、南网储能研发投入；中文BESS/电池RSS sha256 `bf0ab576...` 新增/上移钠电池产业化提速、Model Y 4680、钙钛矿空间光伏、比亚迪元PLUS/海豚二代刀片与闪充、太蓝固态无人机电芯、欣旺达成为特斯拉电池供应商。
+- 海外新增/上移：全球BESS RSS sha256 `0e3de226...` 与全球储能政策RSS `9e157487...` 较09:00新增/上移Ford Energy储能生产及EDF供货、Spearmint Energy 600MWh Texas项目融资、DHL荷兰EV/BESS电池物流枢纽、英国大型BESS、EBRD向斯洛文尼亚BESS开发商贷款7000万欧元、埃及4.75GW风电+4GWh BESS、美国Q1新增储能10GWh等。
+- 行情复核：SMM新能源 sha256 `25d9f59e...` 与SMM碳酸锂页 sha256 `d3b8305e...` 显示电池级碳酸锂178000元/吨、SMM电池级碳酸锂指数178343元/吨、磷酸铁锂61285元/吨、电解液28950元/吨、高端储能人造石墨25100元/吨，较09:00采集值未变。
+- 动作：已更新`data/feed.js` generated_at/checked_at至23:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605242300`。已校验feed JSON、search-notes JSON、首页/新闻/详情/MarketTrend版本与MarketTrend JS关键词；已通过rsync部署至`neolink:/var/www/neolink/`并修复权限，HTTP线上回读首页、`/markettrend/`、`data/feed.js?v=202605242300`和MarketTrend JS均为200，feed generated_at、`东莞`、`Ford/EDF`与`SMM 5/24 23:00复核`关键词验证通过。Artifacts: `var/hermes/crawl-20260524-2300.py`, `var/hermes/crawl-output-20260524-2300.json`, `var/hermes/search-notes-20260524-2300.json`。
+
+## 2026-05-24T09:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `d617863c...`，`/markettrend/` HTTP 200 sha256 `df1e0d50...`；web_search三组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
+- 国内新增/上移：中文储能RSS sha256 `2fc370ec...` 较08:00新增MG4X半固态电池两条汽车之家视频线索，以及新浪财经“钟睒睒首次出手新能源、固态电池材料公司”报道；中文BESS/电池RSS sha256 `82cbb970...` 新增/上移空间站钙钛矿电池太空服役首秀、动力电池新增上车车型整理、小鹏G6电池供应策略、电池包维修争议、蔚来萤火虫升级大电池包。
+- 海外新增/上移：全球BESS RSS sha256 `24b2f22d...` 较08:00新增/上移Teslarati关于Meta采用Tesla大型清洁能源项目；数据中心电力RSS sha256 `9b97a42a...` 新增/上移Power Grid Crunch推动Siemens Energy现金流报道。ESS News sha256 `7aa69ac6...`、Energy-Storage.News `edce5acc...`继续复核Sungrow 7.5GWh、Invinity 1600MWh、Rept印尼BESS、日本1.25GW/6小时BESS等线索。
+- 行情复核：SMM新能源 sha256 `a5961734...` 与SMM碳酸锂页 sha256 `15a8b90b...` 显示电池级碳酸锂178000元/吨、SMM电池级碳酸锂指数178343元/吨、磷酸铁锂61285元/吨、电解液28950元/吨、高端储能人造石墨25100元/吨，较08:00采集值未变。
+- 动作：已更新`data/feed.js` generated_at/checked_at至09:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605240900`。已校验feed JSON、首页/新闻/详情/MarketTrend版本与MarketTrend JS关键词。Artifacts: `var/hermes/crawl-20260524-0900.py`, `var/hermes/crawl-output-20260524-0900.json`, `var/hermes/search-notes-20260524-0900.json`。
+
+## 2026-05-24T08:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `2e33390e...`，`/markettrend/` HTTP 200 sha256 `346e09b2...`；web_search三组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
+- 国内新增/强化：中文储能RSS sha256 `c5261418...` 较07:00新增“谁是中东储能之王？”和2026年动力电池新增上车车型整理；中文BESS/电池RSS sha256 `a3cc2ce6...` 新增/上移特斯拉Model YL+电池增大续航突破800km、比亚迪第二代刀片电池+闪充首搭10款新车、奇瑞1600公里固态电池上车、比亚迪后续固态电池讨论。中国能源网 sha256 `43b7c8ee...` 复核欧盟PCS限制、新型储能质监大纲、内蒙古超级充电宝、阳光电源中东7.5GWh和碳酸锂高位震荡线索。
+- 海外复核：全球BESS RSS sha256 `55d5c1b1...` 与全球储能政策RSS `f4668be4...` 较07:00无新增标题但继续显示Ford/EDF储能合作、Ford储能投资者讨论和Yellowstone 10-acre BESS；欧洲BESS RSS `6560bde7...` 继续显示Actuate Energy欧洲电池储能平台；数据中心电力RSS `9f434463...` 继续显示Data Center Dynamics关于水、电网波动与UPS battery layer负担讨论；ESS News sha256 `ed19b2d5...` 和Energy-Storage.News `edce5acc...` 复核Sungrow 7.5GWh、Invinity 1600MWh、Rept印尼BESS、日本1.25GW/6小时BESS。
+- 行情复核：SMM新能源 sha256 `089c055d...` 与SMM碳酸锂页 sha256 `a683c8d...` 显示电池级碳酸锂178000元/吨、SMM电池级碳酸锂指数178343元/吨、磷酸铁锂61285元/吨、电解液28950元/吨、高端储能人造石墨25100元/吨，较07:00采集值未变。
+- 动作：已更新`data/feed.js` generated_at/checked_at至08:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605240800`。已校验feed JSON、首页/新闻/详情/MarketTrend版本与MarketTrend JS关键词。Artifacts: `var/hermes/crawl-20260524-0800.py`, `var/hermes/crawl-output-20260524-0800.json`, `var/hermes/search-notes-20260524-0800.json`。
+
+## 2026-05-24T07:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `0771c229...`，`/markettrend/` HTTP 200 sha256 `512ccc27...`；web_search三组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
+- 国内新增/强化：中文BESS/电池RSS sha256 `87857b2c...` 较04:00新增全新问界M9增程75度电池、497kW四驱，以及“白天太阳能、晚间用电池”的加州电网重塑讨论；北极星储能 sha256 `c1638c33...` 首页复核Q1储能日均利用小时突破3h、4月储能系统中标规模暴涨、比亚迪登顶2025全球储能装机总量榜首、四川宜宾储能超400MW/800MWh。
+- 海外新增/复核：全球BESS RSS sha256 `54c35b87...` 与全球储能政策RSS `dcfd27cc...` 较04:00新增Simply Wall St对Ford储能业务投资者影响的讨论；ESS News sha256 `565bd90a...` 复核Sungrow阿布扎比24/7 solar-storage项目7.5GWh订单、Invinity瑞士Flexbase 800MW/1600MWh钒液流储能；Energy-Storage.News sha256 `159cf06d...` 继续显示Rept印尼BESS、NSW 2,128MWh、日本1.25GW/6小时BESS容量市场等。
+- 行情复核：SMM新能源 sha256 `c15f075f...` 与SMM碳酸锂页 sha256 `a683c8d...` 显示电池级碳酸锂178000元/吨、SMM电池级碳酸锂指数178343元/吨、磷酸铁锂61285元/吨、电解液28950元/吨、高端储能人造石墨25100元/吨，较04:00采集值未变。
+- 动作：已更新`data/feed.js` generated_at/checked_at至07:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605240700`。已校验feed JSON、首页/新闻/详情/MarketTrend版本与MarketTrend JS关键词。Artifacts: `var/hermes/crawl-20260524-0700.py`, `var/hermes/crawl-output-20260524-0700.json`, `var/hermes/search-notes-20260524-0700.json`。
+
+## 2026-05-24T03:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `24e3b4d1...`，`/markettrend/` HTTP 200 sha256 `322ca123...`；web_search三组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
+- 国内新增/上移：中文储能RSS sha256 `89a327e6...` 较02:00新增/上移太蓝新能源无人机固态电芯批量交付、2026款MG4半固态电池、奇瑞固态电池/ES8验证和全球首款固态电池纯电摩托量产；中文BESS/电池RSS sha256 `40913040...` 新增比亚迪大唐第二代刀片电池+闪充、比亚迪刀片电池破局、东风氢燃料电池耐久技术成果。
+- 海外新增：全球BESS RSS sha256 `5284c7c5...` 新增Ford/EDF电池储能合作和Ford肯塔基Gigafactory转向电网级储能生产；全球储能政策RSS `947e9c87...` 新增Sungrow-Masdar阿布扎比7.5GWh储能系统、美国固定电费削弱屋顶光伏+电池收益、Utah Operation Gigawatt；欧洲BESS RSS `5a163e9d...` 新增Albanese政府可再生能源覆盖400万户；数据中心电力RSS `0792635f...` 新增HSBC东南亚能源转型40亿美元布局。
+- 行情复核：SMM新能源 sha256 `7f9c2e75...` 与SMM碳酸锂页 sha256 `7f278467...` 显示电池级碳酸锂178000元/吨、SMM电碳指数178343元/吨、磷酸铁锂61285元/吨，较02:00采集值未变。
+- 动作：已更新`data/feed.js` generated_at/checked_at至03:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605240300`。已通过`node --check`校验feed/script/news-more/article，并校验本轮JSON记录可解析；已通过rsync部署至`neolink:/var/www/neolink/`并修复权限，HTTP线上回读首页、`/markettrend/`、`data/feed.js?v=202605240300`和MarketTrend JS均为200，feed generated_at、`太蓝`、`Ford`、`Sungrow-Masdar`与`SMM 5/24 03:00复核`关键词验证通过。Artifacts: `var/hermes/crawl-20260524-0300.py`, `var/hermes/crawl-output-20260524-0300.json`, `var/hermes/search-notes-20260524-0300.json`。
+
 # NeoLink Maintenance Log
 
 ## 2026-05-24T02:00:00+08:00 strict global crawl — updated
