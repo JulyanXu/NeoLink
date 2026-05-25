@@ -1,8 +1,72 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T11:00:00+08:00",
-  "note": "11:00严格刷新新增采信：国内侧较10:00新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆电网侧独立储能容量电价165元/kW·年（6小时），栾川工商业储能项目并网，以及海博思创与华为数字能源战略合作；电池链新增小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应高端电池定义。海外侧新增Fortescue 690MW光伏+650MWh电池系统、ASEAN电网2045、Ford energy storage story和Navitas AI power demand线索。SMM行情11:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨、电解液28950元/吨。",
+  "generated_at": "2026-05-25T12:00:00+08:00",
+  "note": "12:00严格刷新新增采信：国内侧较11:00新增睿储科技上库250MW/1000MWh独立储能项目EPC招标、四川乐山100MW/200MWh电化学储能EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能EPC中标候选人（0.95元/Wh），并新增东莞新型储能产业链合作等线索。电池链新增特斯拉Model YL+电池增大/续航突破800km、高容纳米硅碳负极航空电池产业化、小米电池安全测试1230项继续上移。海外侧新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮7.8GW可再生能源、19个混合电池项目获联邦支持、LG Energy Solution AI制造与印度热储能材料。SMM行情12:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨、电解液28950元/吨。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-1200-shangku-leshan-gaoqing-contact-200mwh",
+        "source": "Google News RSS / SMM上海有色 / 国际储能网 / Energy-Storage.News / PV Tech / SolarQuarter",
+        "source_type": "国内外RSS发现/专业行情/国内招中标媒体/海外行业媒体/本站回读",
+        "account_name": "Google News RSS / SMM / 国际储能网 / Energy-Storage.News / PV Tech",
+        "category": "独立储能招标/EPC中标/BESS投运/材料行情",
+        "title": "12:00刷新：上库250MW/1000MWh招标、乐山/高青储能EPC候选人与新西兰200MWh投运；SMM碳酸锂持平",
+        "summary": "12:00严格刷新新增采信：国内侧较11:00新增睿储科技上库250MW/1000MWh独立储能项目EPC招标、四川乐山100MW/200MWh电化学储能EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能EPC中标候选人（0.95元/Wh），并新增东莞新型储能产业链合作等线索。电池链新增特斯拉Model YL+电池增大/续航突破800km、高容纳米硅碳负极航空电池产业化、小米电池安全测试1230项继续上移。海外侧新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮7.8GW可再生能源、19个混合电池项目获联邦支持、LG Energy Solution AI制造与印度热储能材料。SMM行情12:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨、电解液28950元/吨。",
+        "body": [
+          "国内RSS较11:00新增/上移：睿储科技上库250MW/1000MWh独立储能项目EPC总承包招标，容量规模达到1GWh。",
+          "招中标侧新增：四川乐山100MW/200MWh电化学储能项目EPC中标候选人价格区间0.9446~0.9861元/Wh；高青150MW/300MWh独立共享储能项目EPC中标候选人价格约0.95元/Wh。",
+          "产业链/地方协同新增：东莞将新型储能产业链合作会场搬到产业园现场，继续释放区域制造协同信号。",
+          "电池链新增/上移：特斯拉Model YL+电池增大、续航突破800km线索；高容纳米硅碳负极材料成为航空电池产业化核心突破口；小米汽车电池安全测试1230项继续上移。",
+          "海外侧新增/上移：Contact Energy在新西兰投运200MWh battery storage system；Australia Capacity Investment Scheme Tender 7授予7.8GW可再生能源；19个renewables projects gain federal backing且多为battery hybrids。",
+          "行情侧：SMM公开页12:00复核，电池级碳酸锂183250元/吨、SMM电池级碳酸锂指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨、电解液28950元/吨。"
+        ],
+        "key_points": [
+          "国内新增：上库250MW/1000MWh独立储能EPC招标，乐山100MW/200MWh与高青150MW/300MWh项目EPC候选人公示。",
+          "价格信号：乐山EPC候选人为0.9446~0.9861元/Wh，高青候选人为0.95元/Wh。",
+          "海外新增：Contact Energy新西兰200MWh BESS投运；澳大利亚CIS第7轮授予7.8GW可再生能源。",
+          "电池链：特斯拉Model YL+续航突破800km线索、高容纳米硅碳负极航空电池产业化、小米电池测试1230项上移。",
+          "行情复核：SMM电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨。"
+        ],
+        "value": "183250",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "较11:00持平；新增上库1GWh储能EPC招标、乐山/高青EPC候选人和新西兰200MWh BESS投运线索",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 12:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "original_url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/",
+          "https://www.pv-tech.org/",
+          "https://solarquarter.com/"
+        ],
+        "clean_html": "<p>12:00新增/复核：上库250MW/1000MWh独立储能EPC招标，乐山100MW/200MWh与高青150MW/300MWh项目EPC候选人公示，新西兰200MWh BESS投运；SMM电池级碳酸锂183250元/吨、指数183826元/吨，较11:00持平。</p>",
+        "caption": "国内储能招中标与海外投运线索新增；SMM碳酸锂较11:00持平。",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 10ae6ea8539e4e3513fe517e291ed495ae6f45ffcfeffc746d25835f09a85add，SMM碳酸锂 c812b1b1a7fa8ceb24e37064b731cf83a464163996b8d6868a04f3589c3207c8，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 78501c51f31f8e16aa3c01c77a8ab28878f6d2dea6101ac5f03ad9e8ee67e28f，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 2604233a29637e9b4bad2c69f0811855db8f1eff97552c99145bf344b509c2dd/4fdf89d9eea7712318d12ad7455db0e0a8caa34e241061f36ef764bb9f934fcb/a630181525aa2a21d4538ea0f7c0b3e3f1911a2999117d9de45c8181f78b5a92。 海外入口：Energy-Storage.News 34334e08e6046ed2f442cf125e9fe88200ca5a9060019e180fe86df78646a592，ESS News 0d354d3585a0eee94f8e8c7cbc2e10c2d023566ca6ccdf0101564eceb45c5021，pv magazine 9b0a214e3a4b7422a9019c23489188275e3cd734ff2a05dc73d734a93d91be4c，SolarQuarter 4b638e67dbfc86adcab8421e3205364e5ff03cfcdf05dbbc09d0ac4de5bf6810，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4fda0f116971723ca82cfb6c65954184646a584869a3ae7d6fd00b091614af6e/dc9e87b145f73b399e88dfccb7aef99d7ac47966137854e259c10c4c295d132b/a84bb41eaaa56a08077cebe5aad3ca7635e1154b6b2a8397cbf4f67e7804ba19。 12:00新增/变化：较11:00，中文RSS新增睿储科技上库250MW/1000MWh独立储能项目EPC总承包招标、四川乐山100MW/200MWh电化学储能项目EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能项目EPC中标候选人（0.95元/Wh），以及东莞新型储能产业链合作等线索；电池链新增特斯拉Model YL+续航突破800km线索、高容纳米硅碳负极材料航空电池产业化、小米电池安全测试1230项继续上移、我国锂电池核心技术突破等。海外RSS新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮授予7.8GW可再生能源、澳洲19个混合电池项目获联邦支持、LG Energy Solution推进AI驱动制造、印度高效热储能材料、SWELECT扩展BESS组合。SMM 12:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨，电解液28950元/吨。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 183826
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61285
+          },
+          {
+            "label": "中文新增/上移RSS标题 条",
+            "value": 25
+          },
+          {
+            "label": "海外新增/上移RSS标题 条",
+            "value": 12
+          }
+        ]
+      },
       {
         "id": "headline-20260525-1100-shanxi-baotou-xinjiang-smm-up",
         "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
@@ -13546,6 +13610,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-1200-shangku-leshan-gaoqing",
+        "source": "Google News RSS / SMM上海有色 / 国际储能网 / Energy-Storage.News / PV Tech / SolarQuarter",
+        "source_type": "国内外RSS发现/专业行情/国内招中标媒体/海外行业媒体/本站回读",
+        "account_name": "Google News RSS / SMM / 国际储能网 / Energy-Storage.News / PV Tech",
+        "category": "独立储能招标/EPC中标/BESS投运/材料行情",
+        "title": "12:00刷新：上库250MW/1000MWh招标、乐山/高青储能EPC候选人与新西兰200MWh投运；SMM碳酸锂持平",
+        "summary": "12:00严格刷新新增采信：国内侧较11:00新增睿储科技上库250MW/1000MWh独立储能项目EPC招标、四川乐山100MW/200MWh电化学储能EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能EPC中标候选人（0.95元/Wh），并新增东莞新型储能产业链合作等线索。电池链新增特斯拉Model YL+电池增大/续航突破800km、高容纳米硅碳负极航空电池产业化、小米电池安全测试1230项继续上移。海外侧新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮7.8GW可再生能源、19个混合电池项目获联邦支持、LG Energy Solution AI制造与印度热储能材料。SMM行情12:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨、电解液28950元/吨。",
+        "body": [
+          "国内RSS较11:00新增/上移：睿储科技上库250MW/1000MWh独立储能项目EPC总承包招标，容量规模达到1GWh。",
+          "招中标侧新增：四川乐山100MW/200MWh电化学储能项目EPC中标候选人价格区间0.9446~0.9861元/Wh；高青150MW/300MWh独立共享储能项目EPC中标候选人价格约0.95元/Wh。",
+          "产业链/地方协同新增：东莞将新型储能产业链合作会场搬到产业园现场，继续释放区域制造协同信号。",
+          "电池链新增/上移：特斯拉Model YL+电池增大、续航突破800km线索；高容纳米硅碳负极材料成为航空电池产业化核心突破口；小米汽车电池安全测试1230项继续上移。",
+          "海外侧新增/上移：Contact Energy在新西兰投运200MWh battery storage system；Australia Capacity Investment Scheme Tender 7授予7.8GW可再生能源；19个renewables projects gain federal backing且多为battery hybrids。",
+          "行情侧：SMM公开页12:00复核，电池级碳酸锂183250元/吨、SMM电池级碳酸锂指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨、电解液28950元/吨。"
+        ],
+        "key_points": [
+          "国内新增：上库250MW/1000MWh独立储能EPC招标，乐山100MW/200MWh与高青150MW/300MWh项目EPC候选人公示。",
+          "价格信号：乐山EPC候选人为0.9446~0.9861元/Wh，高青候选人为0.95元/Wh。",
+          "海外新增：Contact Energy新西兰200MWh BESS投运；澳大利亚CIS第7轮授予7.8GW可再生能源。",
+          "电池链：特斯拉Model YL+续航突破800km线索、高容纳米硅碳负极航空电池产业化、小米电池测试1230项上移。",
+          "行情复核：SMM电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 12:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "original_url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/",
+          "https://www.pv-tech.org/",
+          "https://solarquarter.com/"
+        ],
+        "clean_html": "<p>12:00新增/复核：上库250MW/1000MWh独立储能EPC招标，乐山100MW/200MWh与高青150MW/300MWh项目EPC候选人公示，新西兰200MWh BESS投运；SMM电池级碳酸锂183250元/吨、指数183826元/吨，较11:00持平。</p>",
+        "caption": "国内储能招中标与海外投运线索新增；SMM碳酸锂较11:00持平。",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 10ae6ea8539e4e3513fe517e291ed495ae6f45ffcfeffc746d25835f09a85add，SMM碳酸锂 c812b1b1a7fa8ceb24e37064b731cf83a464163996b8d6868a04f3589c3207c8，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 78501c51f31f8e16aa3c01c77a8ab28878f6d2dea6101ac5f03ad9e8ee67e28f，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 2604233a29637e9b4bad2c69f0811855db8f1eff97552c99145bf344b509c2dd/4fdf89d9eea7712318d12ad7455db0e0a8caa34e241061f36ef764bb9f934fcb/a630181525aa2a21d4538ea0f7c0b3e3f1911a2999117d9de45c8181f78b5a92。 海外入口：Energy-Storage.News 34334e08e6046ed2f442cf125e9fe88200ca5a9060019e180fe86df78646a592，ESS News 0d354d3585a0eee94f8e8c7cbc2e10c2d023566ca6ccdf0101564eceb45c5021，pv magazine 9b0a214e3a4b7422a9019c23489188275e3cd734ff2a05dc73d734a93d91be4c，SolarQuarter 4b638e67dbfc86adcab8421e3205364e5ff03cfcdf05dbbc09d0ac4de5bf6810，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4fda0f116971723ca82cfb6c65954184646a584869a3ae7d6fd00b091614af6e/dc9e87b145f73b399e88dfccb7aef99d7ac47966137854e259c10c4c295d132b/a84bb41eaaa56a08077cebe5aad3ca7635e1154b6b2a8397cbf4f67e7804ba19。 12:00新增/变化：较11:00，中文RSS新增睿储科技上库250MW/1000MWh独立储能项目EPC总承包招标、四川乐山100MW/200MWh电化学储能项目EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能项目EPC中标候选人（0.95元/Wh），以及东莞新型储能产业链合作等线索；电池链新增特斯拉Model YL+续航突破800km线索、高容纳米硅碳负极材料航空电池产业化、小米电池安全测试1230项继续上移、我国锂电池核心技术突破等。海外RSS新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮授予7.8GW可再生能源、澳洲19个混合电池项目获联邦支持、LG Energy Solution推进AI驱动制造、印度高效热储能材料、SWELECT扩展BESS组合。SMM 12:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨，电解液28950元/吨。"
+      },
       {
         "id": "latest-20260525-1100-shanxi-baotou-xinjiang",
         "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
@@ -34788,6 +34890,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-1200-smm-li2co3-lfp-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；12:00复核，电池级碳酸锂与电碳指数较11:00持平",
+        "value": "183250 / 183826 / 61285 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "电池级碳酸锂0；SMM电碳指数0；磷酸铁锂61285；电解液28950",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 12:00 CST",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 10ae6ea8539e4e3513fe517e291ed495ae6f45ffcfeffc746d25835f09a85add，SMM碳酸锂 c812b1b1a7fa8ceb24e37064b731cf83a464163996b8d6868a04f3589c3207c8，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 78501c51f31f8e16aa3c01c77a8ab28878f6d2dea6101ac5f03ad9e8ee67e28f，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 2604233a29637e9b4bad2c69f0811855db8f1eff97552c99145bf344b509c2dd/4fdf89d9eea7712318d12ad7455db0e0a8caa34e241061f36ef764bb9f934fcb/a630181525aa2a21d4538ea0f7c0b3e3f1911a2999117d9de45c8181f78b5a92。 海外入口：Energy-Storage.News 34334e08e6046ed2f442cf125e9fe88200ca5a9060019e180fe86df78646a592，ESS News 0d354d3585a0eee94f8e8c7cbc2e10c2d023566ca6ccdf0101564eceb45c5021，pv magazine 9b0a214e3a4b7422a9019c23489188275e3cd734ff2a05dc73d734a93d91be4c，SolarQuarter 4b638e67dbfc86adcab8421e3205364e5ff03cfcdf05dbbc09d0ac4de5bf6810，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4fda0f116971723ca82cfb6c65954184646a584869a3ae7d6fd00b091614af6e/dc9e87b145f73b399e88dfccb7aef99d7ac47966137854e259c10c4c295d132b/a84bb41eaaa56a08077cebe5aad3ca7635e1154b6b2a8397cbf4f67e7804ba19。 12:00新增/变化：较11:00，中文RSS新增睿储科技上库250MW/1000MWh独立储能项目EPC总承包招标、四川乐山100MW/200MWh电化学储能项目EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能项目EPC中标候选人（0.95元/Wh），以及东莞新型储能产业链合作等线索；电池链新增特斯拉Model YL+续航突破800km线索、高容纳米硅碳负极材料航空电池产业化、小米电池安全测试1230项继续上移、我国锂电池核心技术突破等。海外RSS新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮授予7.8GW可再生能源、澳洲19个混合电池项目获联邦支持、LG Energy Solution推进AI驱动制造、印度高效热储能材料、SWELECT扩展BESS组合。SMM 12:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨，电解液28950元/吨。"
+      },
+      {
         "id": "material-20260525-1100-smm-li2co3-lfp-up",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；11:00复核，电池级碳酸锂与电碳指数较10:00上调",
@@ -38195,6 +38310,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-1200-smm-li2co3-flat",
+        "title": "SMM电池级碳酸锂报价",
+        "value": "183250",
+        "unit": "元/吨",
+        "caption": "12:00 SMM碳酸锂页显示电池级碳酸锂183250元/吨、较11:00持平；SMM新能源页显示磷酸铁锂61285元/吨、电解液28950元/吨。",
+        "delta": "较11:00持平",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "as_of": "2026-05-25 12:00 CST",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 10ae6ea8539e4e3513fe517e291ed495ae6f45ffcfeffc746d25835f09a85add，SMM碳酸锂 c812b1b1a7fa8ceb24e37064b731cf83a464163996b8d6868a04f3589c3207c8，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 78501c51f31f8e16aa3c01c77a8ab28878f6d2dea6101ac5f03ad9e8ee67e28f，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 2604233a29637e9b4bad2c69f0811855db8f1eff97552c99145bf344b509c2dd/4fdf89d9eea7712318d12ad7455db0e0a8caa34e241061f36ef764bb9f934fcb/a630181525aa2a21d4538ea0f7c0b3e3f1911a2999117d9de45c8181f78b5a92。 海外入口：Energy-Storage.News 34334e08e6046ed2f442cf125e9fe88200ca5a9060019e180fe86df78646a592，ESS News 0d354d3585a0eee94f8e8c7cbc2e10c2d023566ca6ccdf0101564eceb45c5021，pv magazine 9b0a214e3a4b7422a9019c23489188275e3cd734ff2a05dc73d734a93d91be4c，SolarQuarter 4b638e67dbfc86adcab8421e3205364e5ff03cfcdf05dbbc09d0ac4de5bf6810，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4fda0f116971723ca82cfb6c65954184646a584869a3ae7d6fd00b091614af6e/dc9e87b145f73b399e88dfccb7aef99d7ac47966137854e259c10c4c295d132b/a84bb41eaaa56a08077cebe5aad3ca7635e1154b6b2a8397cbf4f67e7804ba19。 12:00新增/变化：较11:00，中文RSS新增睿储科技上库250MW/1000MWh独立储能项目EPC总承包招标、四川乐山100MW/200MWh电化学储能项目EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能项目EPC中标候选人（0.95元/Wh），以及东莞新型储能产业链合作等线索；电池链新增特斯拉Model YL+续航突破800km线索、高容纳米硅碳负极材料航空电池产业化、小米电池安全测试1230项继续上移、我国锂电池核心技术突破等。海外RSS新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮授予7.8GW可再生能源、澳洲19个混合电池项目获联邦支持、LG Energy Solution推进AI驱动制造、印度高效热储能材料、SWELECT扩展BESS组合。SMM 12:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨，电解液28950元/吨。",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price"
+      },
       {
         "id": "metric-20260525-1100-smm-li2co3-up",
         "title": "SMM电池级碳酸锂报价",
@@ -51631,6 +51759,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-1200-contact-cis-battery-hybrids",
+        "source": "Google News RSS / Energy-Storage.News / PV Tech / Energy Magazine / SolarQuarter / The Korea Times",
+        "category": "海外观察/BESS/电网/制造/容量",
+        "title": "海外新增Contact Energy新西兰200MWh BESS投运、澳CIS 7.8GW与电池混合项目",
+        "summary": "12:00复核海外公开来源后，RSS新增/上移Contact Energy switches on 200MWh battery storage system in New Zealand、Australia awards 7.8GW under Capacity Investment Scheme Tender 7、19 renewables projects gain federal backing、LG Energy Solution AI-driven manufacturing、Indian thermal energy storage material与SWELECT BESS portfolio。",
+        "value": "12",
+        "unit": "条海外新增/上移RSS线索",
+        "delta": "新西兰200MWh BESS、澳大利亚CIS 7.8GW、电池混合项目和AI制造线索新增/上移",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 12:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 10ae6ea8539e4e3513fe517e291ed495ae6f45ffcfeffc746d25835f09a85add，SMM碳酸锂 c812b1b1a7fa8ceb24e37064b731cf83a464163996b8d6868a04f3589c3207c8，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 78501c51f31f8e16aa3c01c77a8ab28878f6d2dea6101ac5f03ad9e8ee67e28f，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 2604233a29637e9b4bad2c69f0811855db8f1eff97552c99145bf344b509c2dd/4fdf89d9eea7712318d12ad7455db0e0a8caa34e241061f36ef764bb9f934fcb/a630181525aa2a21d4538ea0f7c0b3e3f1911a2999117d9de45c8181f78b5a92。 海外入口：Energy-Storage.News 34334e08e6046ed2f442cf125e9fe88200ca5a9060019e180fe86df78646a592，ESS News 0d354d3585a0eee94f8e8c7cbc2e10c2d023566ca6ccdf0101564eceb45c5021，pv magazine 9b0a214e3a4b7422a9019c23489188275e3cd734ff2a05dc73d734a93d91be4c，SolarQuarter 4b638e67dbfc86adcab8421e3205364e5ff03cfcdf05dbbc09d0ac4de5bf6810，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4fda0f116971723ca82cfb6c65954184646a584869a3ae7d6fd00b091614af6e/dc9e87b145f73b399e88dfccb7aef99d7ac47966137854e259c10c4c295d132b/a84bb41eaaa56a08077cebe5aad3ca7635e1154b6b2a8397cbf4f67e7804ba19。 12:00新增/变化：较11:00，中文RSS新增睿储科技上库250MW/1000MWh独立储能项目EPC总承包招标、四川乐山100MW/200MWh电化学储能项目EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能项目EPC中标候选人（0.95元/Wh），以及东莞新型储能产业链合作等线索；电池链新增特斯拉Model YL+续航突破800km线索、高容纳米硅碳负极材料航空电池产业化、小米电池安全测试1230项继续上移、我国锂电池核心技术突破等。海外RSS新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮授予7.8GW可再生能源、澳洲19个混合电池项目获联邦支持、LG Energy Solution推进AI驱动制造、印度高效热储能材料、SWELECT扩展BESS组合。SMM 12:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨，电解液28950元/吨。"
+      },
+      {
         "id": "overseas-20260525-1100-fortescue-asean-ford-ai-power",
         "source": "Google News RSS / pv magazine Australia / South China Morning Post / MSN / International Business Times Australia",
         "category": "海外观察/BESS/电网/AI电力/容量",
@@ -57702,6 +57845,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-1200-shangku-leshan-gaoqing",
+        "source": "Google News RSS / SMM上海有色 / 国际储能网 / Energy-Storage.News / PV Tech / SolarQuarter",
+        "category": "独立储能招标/EPC中标/BESS投运/材料行情",
+        "title": "上库250MW/1000MWh独立储能招标，乐山/高青储能EPC候选人公示；SMM碳酸锂183250元/吨",
+        "summary": "12:00严格刷新新增采信：国内侧较11:00新增睿储科技上库250MW/1000MWh独立储能项目EPC招标、四川乐山100MW/200MWh电化学储能EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能EPC中标候选人（0.95元/Wh），并新增东莞新型储能产业链合作等线索。电池链新增特斯拉Model YL+电池增大/续航突破800km、高容纳米硅碳负极航空电池产业化、小米电池安全测试1230项继续上移。海外侧新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮7.8GW可再生能源、19个混合电池项目获联邦支持、LG Energy Solution AI制造与印度热储能材料。SMM行情12:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨、电解液28950元/吨。",
+        "value": "183250",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "较11:00持平；新增1GWh储能招标、国内EPC候选人和海外200MWh投运线索",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 12:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "12:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 10ae6ea8539e4e3513fe517e291ed495ae6f45ffcfeffc746d25835f09a85add，SMM碳酸锂 c812b1b1a7fa8ceb24e37064b731cf83a464163996b8d6868a04f3589c3207c8，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 78501c51f31f8e16aa3c01c77a8ab28878f6d2dea6101ac5f03ad9e8ee67e28f，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 2604233a29637e9b4bad2c69f0811855db8f1eff97552c99145bf344b509c2dd/4fdf89d9eea7712318d12ad7455db0e0a8caa34e241061f36ef764bb9f934fcb/a630181525aa2a21d4538ea0f7c0b3e3f1911a2999117d9de45c8181f78b5a92。 海外入口：Energy-Storage.News 34334e08e6046ed2f442cf125e9fe88200ca5a9060019e180fe86df78646a592，ESS News 0d354d3585a0eee94f8e8c7cbc2e10c2d023566ca6ccdf0101564eceb45c5021，pv magazine 9b0a214e3a4b7422a9019c23489188275e3cd734ff2a05dc73d734a93d91be4c，SolarQuarter 4b638e67dbfc86adcab8421e3205364e5ff03cfcdf05dbbc09d0ac4de5bf6810，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4fda0f116971723ca82cfb6c65954184646a584869a3ae7d6fd00b091614af6e/dc9e87b145f73b399e88dfccb7aef99d7ac47966137854e259c10c4c295d132b/a84bb41eaaa56a08077cebe5aad3ca7635e1154b6b2a8397cbf4f67e7804ba19。 12:00新增/变化：较11:00，中文RSS新增睿储科技上库250MW/1000MWh独立储能项目EPC总承包招标、四川乐山100MW/200MWh电化学储能项目EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能项目EPC中标候选人（0.95元/Wh），以及东莞新型储能产业链合作等线索；电池链新增特斯拉Model YL+续航突破800km线索、高容纳米硅碳负极材料航空电池产业化、小米电池安全测试1230项继续上移、我国锂电池核心技术突破等。海外RSS新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮授予7.8GW可再生能源、澳洲19个混合电池项目获联邦支持、LG Energy Solution推进AI驱动制造、印度高效热储能材料、SWELECT扩展BESS组合。SMM 12:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨，电解液28950元/吨。"
+      },
       {
         "id": "market-20260525-1100-shanxi-baotou-xinjiang",
         "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
@@ -71982,6 +72140,105 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-1200-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae",
+        "finding": "首页已按小时重读；本轮写入上库1GWh储能招标、乐山/高青EPC候选人、新西兰200MWh BESS和SMM行情持平。"
+      },
+      {
+        "id": "source-20260525-1200-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3",
+        "finding": "/markettrend/已按小时重读；本轮补充储能招中标、海外投运和碳酸锂持平关键词。"
+      },
+      {
+        "id": "source-20260525-1200-google-cn-storage",
+        "source": "Google News RSS 中文储能检索",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "2604233a29637e9b4bad2c69f0811855db8f1eff97552c99145bf344b509c2dd",
+        "finding": "较11:00新增/上移睿储科技上库250MW/1000MWh独立储能EPC招标、乐山100MW/200MWh储能EPC候选人、高青150MW/300MWh共享储能EPC候选人。"
+      },
+      {
+        "id": "source-20260525-1200-google-cn-bess",
+        "source": "Google News RSS 中文BESS/电池检索",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "4fdf89d9eea7712318d12ad7455db0e0a8caa34e241061f36ef764bb9f934fcb",
+        "finding": "较11:00新增/上移特斯拉Model YL+续航突破800km、小米电池安全测试1230项、高容纳米硅碳负极航空电池产业化等。"
+      },
+      {
+        "id": "source-20260525-1200-google-cn-lithium",
+        "source": "Google News RSS 中文碳酸锂/磷酸铁锂检索",
+        "url": "https://news.google.com/rss/search?q=%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E7%A3%B7%E9%85%B8%E9%93%81%E9%94%82%20OR%20SMM%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "a630181525aa2a21d4538ea0f7c0b3e3f1911a2999117d9de45c8181f78b5a92",
+        "finding": "新增/上移SMM快讯、乐山储能EPC候选人、印尼矿业合作、比亚迪电池技术下放等材料链线索。"
+      },
+      {
+        "id": "source-20260525-1200-google-global-bess",
+        "source": "Google News RSS 全球BESS检索",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "4fda0f116971723ca82cfb6c65954184646a584869a3ae7d6fd00b091614af6e",
+        "finding": "较11:00新增Contact Energy新西兰200MWh BESS投运、澳洲电池混合项目、LG Energy Solution AI制造、印度热储能材料、SWELECT BESS组合扩展。"
+      },
+      {
+        "id": "source-20260525-1200-google-global-policy",
+        "source": "Google News RSS 全球储能政策/长时储能检索",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "dc9e87b145f73b399e88dfccb7aef99d7ac47966137854e259c10c4c295d132b",
+        "finding": "较11:00新增Australia awards 7.8GW under Capacity Investment Scheme Tender 7以及Contact Energy 200MWh BESS。"
+      },
+      {
+        "id": "source-20260525-1200-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "10ae6ea8539e4e3513fe517e291ed495ae6f45ffcfeffc746d25835f09a85add",
+        "finding": "12:00复核：电池级碳酸锂183250元/吨、磷酸铁锂61285元/吨、电解液28950元/吨。"
+      },
+      {
+        "id": "source-20260525-1200-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "c812b1b1a7fa8ceb24e37064b731cf83a464163996b8d6868a04f3589c3207c8",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较11:00持平。"
+      },
+      {
+        "id": "source-20260525-1200-esn",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "34334e08e6046ed2f442cf125e9fe88200ca5a9060019e180fe86df78646a592",
+        "finding": "海外行业站已复核并留档；首页出现Contact Energy switches on 200MWh battery storage system in New Zealand。"
+      },
+      {
+        "id": "source-20260525-1200-pv",
+        "source": "pv magazine / PV Tech线索入口",
+        "url": "https://www.pv-magazine.com/",
+        "as_of": "2026-05-25 12:00 CST",
+        "status": 200,
+        "sha256": "9b0a214e3a4b7422a9019c23489188275e3cd734ff2a05dc73d734a93d91be4c",
+        "finding": "海外光储行业站已复核并留档，结合RSS采信澳大利亚CIS 7.8GW与相关BESS线索。"
+      },
+      {
         "id": "source-20260525-1100-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -79244,5 +79501,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T11:00:00+08:00"
+  "checked_at": "2026-05-25T12:00:00+08:00"
 };
