@@ -1,8 +1,72 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T03:00:00+08:00",
-  "note": "03:00严格刷新新增采信：国内新增/上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查启动、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂主流化观点。海外新增美国Q1新增BESS装机9.7GWh（SEIA）、巴西电池拍卖指南将发布、Ford与EDF五年储能协议、纽约电池储能法案、Sonnedix 60.9MW南欧光伏组合、GCL SI/Getz Energy泰国1GW组件MOU、Meralco菲律宾可再生能源+储能+基荷策略。SMM四项行情较02:00持平。",
+  "generated_at": "2026-05-26T04:00:00+08:00",
+  "note": "04:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、宜昌国际级大会、太蓝新能源固态电池机器人应用、金盾股份数据中心/储能通风散热、国轩1元/Wh固态电池讨论、比亚迪二代电池+闪充车型与小米汽车1230项电池安全测试。海外新增/上移沙特首个大规模BESS制造设施/ZOE Energy沙特工厂、NTPC加码BESS和抽水蓄能、Hithium澳大利亚8小时长时储能系统、Ford储能叙事获资本关注。SMM四项行情较03:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0400-saudi-bess-hithium-meineng",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / SolarQuarter / Energy-Storage.News / ESS News",
+        "category": "储能制造/长时储能/固态电池/材料行情",
+        "title": "04:00刷新：沙特首个大规模BESS制造设施线索上移，Hithium澳洲8小时长储系统新增",
+        "summary": "04:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、宜昌国际级大会、太蓝新能源固态电池机器人应用、金盾股份数据中心/储能通风散热、国轩1元/Wh固态电池讨论、比亚迪二代电池+闪充车型与小米汽车1230项电池安全测试。海外新增/上移沙特首个大规模BESS制造设施/ZOE Energy沙特工厂、NTPC加码BESS和抽水蓄能、Hithium澳大利亚8小时长时储能系统、Ford储能叙事获资本关注。SMM四项行情较03:00持平。",
+        "body": [
+          "国内储能企业：美能能源募投项目生变，拟通过关联并购切入储能赛道；宜昌国际级大会相关报道上移。",
+          "国内电池应用：太蓝新能源谈固态电池让机器人更懂陪伴；国轩高科1元/Wh固态电池兑现讨论继续升温。",
+          "安全与基础设施：雷军披露小米汽车电池安全测试项目多达1230项；金盾股份称产品可用于数据中心、储能中心通风散热。",
+          "海外制造：Google News海外RSS新增/上移沙特首个大规模电池储能制造设施，以及ZOE Energy建设沙特首个BESS制造工厂线索。",
+          "海外长时储能：Hithium在澳大利亚推出8小时储能系统，NTPC继续加码BESS与抽水蓄能管线。",
+          "行情侧：SMM公开页04:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较03:00持平。"
+        ],
+        "key_points": [
+          "沙特首个大规模BESS制造设施/ZOE Energy沙特工厂线索新增/上移。",
+          "Hithium澳大利亚8小时长时储能系统新增，指向LDES海外推广。",
+          "NTPC加码BESS与抽水蓄能管线，海外储能/调峰需求继续上行。",
+          "美能能源拟关联并购切入储能赛道，国内A股储能转型线索新增。",
+          "雷军称小米汽车电池安全测试项目1230项，电池安全话题继续上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较03:00持平。"
+        ],
+        "value": "8",
+        "unit": "小时Hithium长时储能系统",
+        "delta": "新增沙特BESS制造、Hithium 8小时长储、NTPC管线和国内储能并购线索；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 04:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://solarquarter.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>04:00新增/复核：沙特BESS制造设施、Hithium澳洲8小时长储系统、NTPC BESS/抽蓄管线、美能能源并购切入储能线索新增；SMM四项行情较03:00持平。</p>",
+        "caption": "沙特BESS制造与Hithium 8小时长储新增；国内储能并购和电池安全话题上移；SMM材料价持平。",
+        "methodology": "04:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 64777a95287ed3c578dba98e90ecccb2294ff7ec9ccfe6816f7fd322a27e997e，SMM碳酸锂 9919a0fb00ab4691886671daa67600a84f59117eaa319df269770cf155499bf9，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA cb9a0221d88e3857e87a4c3d95bee8328f63e12ee60ee2bc4d9c57fd431b99da。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 59aed82c92f7afe777a461c442a0726dcb94eeb408d21aac8a74b244b53be978，pv magazine a9cdcc73fdb5a38c778901d081d3d79f0292738a85f4ea7fa73864d76048de15，SolarQuarter 7c67fc8acc5913b4752bf969bdda00286c74f0a2b2f96bef5f1b8808629d74a7，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 04:00新增/变化：国内RSS新增或上移美能能源募投项目生变、拟关联并购切入储能赛道；宜昌国际级大会相关线索；太蓝新能源谈固态电池机器人应用；金盾股份称产品可应用于数据中心/储能中心通风散热；国轩高科1元/Wh固态电池兑现讨论；比亚迪标配二代电池+闪充车型盘点；雷军披露小米汽车电池安全测试项目1230项。海外RSS新增或上移沙特首个大规模电池储能制造设施/ZOE Energy沙特BESS工厂、印度NTPC加码BESS与抽水蓄能管线、Hithium在澳大利亚发布8小时长时储能系统、Ford能源储能叙事继续获资本关注、中国日报创新生态推动电池进步。SMM 04:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较03:00持平。",
+        "history": [
+          {
+            "label": "Hithium长储 小时",
+            "value": 8
+          },
+          {
+            "label": "小米电池安全测试 项",
+            "value": 1230
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 28950
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0300-us-bess-brazil-solidstate",
         "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / pv magazine / SolarQuarter",
@@ -14472,6 +14536,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0400-saudi-hithium-meineng",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / SolarQuarter / Energy-Storage.News / ESS News",
+        "category": "储能制造/长时储能/固态电池/材料行情",
+        "title": "04:00刷新：沙特首个大规模BESS制造设施线索上移，Hithium澳洲8小时长储系统新增",
+        "summary": "04:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、宜昌国际级大会、太蓝新能源固态电池机器人应用、金盾股份数据中心/储能通风散热、国轩1元/Wh固态电池讨论、比亚迪二代电池+闪充车型与小米汽车1230项电池安全测试。海外新增/上移沙特首个大规模BESS制造设施/ZOE Energy沙特工厂、NTPC加码BESS和抽水蓄能、Hithium澳大利亚8小时长时储能系统、Ford储能叙事获资本关注。SMM四项行情较03:00持平。",
+        "body": [
+          "国内储能企业：美能能源募投项目生变，拟通过关联并购切入储能赛道；宜昌国际级大会相关报道上移。",
+          "国内电池应用：太蓝新能源谈固态电池让机器人更懂陪伴；国轩高科1元/Wh固态电池兑现讨论继续升温。",
+          "安全与基础设施：雷军披露小米汽车电池安全测试项目多达1230项；金盾股份称产品可用于数据中心、储能中心通风散热。",
+          "海外制造：Google News海外RSS新增/上移沙特首个大规模电池储能制造设施，以及ZOE Energy建设沙特首个BESS制造工厂线索。",
+          "海外长时储能：Hithium在澳大利亚推出8小时储能系统，NTPC继续加码BESS与抽水蓄能管线。",
+          "行情侧：SMM公开页04:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较03:00持平。"
+        ],
+        "key_points": [
+          "沙特首个大规模BESS制造设施/ZOE Energy沙特工厂线索新增/上移。",
+          "Hithium澳大利亚8小时长时储能系统新增，指向LDES海外推广。",
+          "NTPC加码BESS与抽水蓄能管线，海外储能/调峰需求继续上行。",
+          "美能能源拟关联并购切入储能赛道，国内A股储能转型线索新增。",
+          "雷军称小米汽车电池安全测试项目1230项，电池安全话题继续上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较03:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 04:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://solarquarter.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>04:00新增/复核：沙特BESS制造设施、Hithium澳洲8小时长储系统、NTPC BESS/抽蓄管线、美能能源并购切入储能线索新增；SMM四项行情较03:00持平。</p>",
+        "caption": "沙特BESS制造与Hithium 8小时长储新增；国内储能并购和电池安全话题上移；SMM材料价持平。",
+        "methodology": "04:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 64777a95287ed3c578dba98e90ecccb2294ff7ec9ccfe6816f7fd322a27e997e，SMM碳酸锂 9919a0fb00ab4691886671daa67600a84f59117eaa319df269770cf155499bf9，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA cb9a0221d88e3857e87a4c3d95bee8328f63e12ee60ee2bc4d9c57fd431b99da。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 59aed82c92f7afe777a461c442a0726dcb94eeb408d21aac8a74b244b53be978，pv magazine a9cdcc73fdb5a38c778901d081d3d79f0292738a85f4ea7fa73864d76048de15，SolarQuarter 7c67fc8acc5913b4752bf969bdda00286c74f0a2b2f96bef5f1b8808629d74a7，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 04:00新增/变化：国内RSS新增或上移美能能源募投项目生变、拟关联并购切入储能赛道；宜昌国际级大会相关线索；太蓝新能源谈固态电池机器人应用；金盾股份称产品可应用于数据中心/储能中心通风散热；国轩高科1元/Wh固态电池兑现讨论；比亚迪标配二代电池+闪充车型盘点；雷军披露小米汽车电池安全测试项目1230项。海外RSS新增或上移沙特首个大规模电池储能制造设施/ZOE Energy沙特BESS工厂、印度NTPC加码BESS与抽水蓄能管线、Hithium在澳大利亚发布8小时长时储能系统、Ford能源储能叙事继续获资本关注、中国日报创新生态推动电池进步。SMM 04:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较03:00持平。"
+      },
       {
         "id": "latest-20260526-0300-us-bess-solidstate",
         "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / pv magazine / SolarQuarter",
@@ -36244,6 +36346,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0400-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；04:00复核，四项较03:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较03:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 04:00 CST",
+        "methodology": "04:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 64777a95287ed3c578dba98e90ecccb2294ff7ec9ccfe6816f7fd322a27e997e，SMM碳酸锂 9919a0fb00ab4691886671daa67600a84f59117eaa319df269770cf155499bf9，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA cb9a0221d88e3857e87a4c3d95bee8328f63e12ee60ee2bc4d9c57fd431b99da。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 59aed82c92f7afe777a461c442a0726dcb94eeb408d21aac8a74b244b53be978，pv magazine a9cdcc73fdb5a38c778901d081d3d79f0292738a85f4ea7fa73864d76048de15，SolarQuarter 7c67fc8acc5913b4752bf969bdda00286c74f0a2b2f96bef5f1b8808629d74a7，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 04:00新增/变化：国内RSS新增或上移美能能源募投项目生变、拟关联并购切入储能赛道；宜昌国际级大会相关线索；太蓝新能源谈固态电池机器人应用；金盾股份称产品可应用于数据中心/储能中心通风散热；国轩高科1元/Wh固态电池兑现讨论；比亚迪标配二代电池+闪充车型盘点；雷军披露小米汽车电池安全测试项目1230项。海外RSS新增或上移沙特首个大规模电池储能制造设施/ZOE Energy沙特BESS工厂、印度NTPC加码BESS与抽水蓄能管线、Hithium在澳大利亚发布8小时长时储能系统、Ford能源储能叙事继续获资本关注、中国日报创新生态推动电池进步。SMM 04:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较03:00持平。"
+      },
+      {
         "id": "material-20260526-0300-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；03:00复核，四项较02:00持平",
@@ -39833,6 +39948,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0400-public-new",
+        "title": "04:00新增国内+海外储能/电池线索",
+        "value": "20",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS及海外站点新增或上移美能能源储能并购、太蓝固态电池应用、金盾储能散热、沙特BESS制造、Hithium 8小时长储、NTPC BESS/PSP管线等线索。",
+        "delta": "较03:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SMM / Energy-Storage.News / ESS News / SolarQuarter",
+        "as_of": "2026-05-26 04:00 CST",
+        "methodology": "04:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 64777a95287ed3c578dba98e90ecccb2294ff7ec9ccfe6816f7fd322a27e997e，SMM碳酸锂 9919a0fb00ab4691886671daa67600a84f59117eaa319df269770cf155499bf9，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA cb9a0221d88e3857e87a4c3d95bee8328f63e12ee60ee2bc4d9c57fd431b99da。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 59aed82c92f7afe777a461c442a0726dcb94eeb408d21aac8a74b244b53be978，pv magazine a9cdcc73fdb5a38c778901d081d3d79f0292738a85f4ea7fa73864d76048de15，SolarQuarter 7c67fc8acc5913b4752bf969bdda00286c74f0a2b2f96bef5f1b8808629d74a7，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 04:00新增/变化：国内RSS新增或上移美能能源募投项目生变、拟关联并购切入储能赛道；宜昌国际级大会相关线索；太蓝新能源谈固态电池机器人应用；金盾股份称产品可应用于数据中心/储能中心通风散热；国轩高科1元/Wh固态电池兑现讨论；比亚迪标配二代电池+闪充车型盘点；雷军披露小米汽车电池安全测试项目1230项。海外RSS新增或上移沙特首个大规模电池储能制造设施/ZOE Energy沙特BESS工厂、印度NTPC加码BESS与抽水蓄能管线、Hithium在澳大利亚发布8小时长时储能系统、Ford能源储能叙事继续获资本关注、中国日报创新生态推动电池进步。SMM 04:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较03:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0300-public-new",
         "title": "03:00新增国内+海外储能/电池线索",
@@ -53451,6 +53579,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0400-saudi-hithium-ntpc",
+        "source": "Google News RSS / ESS News / Energy-Storage.News / SolarQuarter",
+        "category": "海外观察/BESS制造/长时储能/调峰资源",
+        "title": "海外新增沙特BESS制造、Hithium 8小时长储和NTPC BESS/抽蓄管线",
+        "summary": "04:00海外公开源新增/上移沙特首个大规模电池储能制造设施/ZOE Energy沙特BESS工厂、Hithium在澳大利亚推出8小时长时储能系统、NTPC加码BESS与抽水蓄能管线、Ford能源储能叙事继续获资本关注、中国日报电池创新生态报道。",
+        "value": "8",
+        "unit": "小时长时储能系统",
+        "delta": "海外BESS制造、LDES和调峰管线新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 04:00 CST",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "04:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 64777a95287ed3c578dba98e90ecccb2294ff7ec9ccfe6816f7fd322a27e997e，SMM碳酸锂 9919a0fb00ab4691886671daa67600a84f59117eaa319df269770cf155499bf9，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA cb9a0221d88e3857e87a4c3d95bee8328f63e12ee60ee2bc4d9c57fd431b99da。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 59aed82c92f7afe777a461c442a0726dcb94eeb408d21aac8a74b244b53be978，pv magazine a9cdcc73fdb5a38c778901d081d3d79f0292738a85f4ea7fa73864d76048de15，SolarQuarter 7c67fc8acc5913b4752bf969bdda00286c74f0a2b2f96bef5f1b8808629d74a7，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 04:00新增/变化：国内RSS新增或上移美能能源募投项目生变、拟关联并购切入储能赛道；宜昌国际级大会相关线索；太蓝新能源谈固态电池机器人应用；金盾股份称产品可应用于数据中心/储能中心通风散热；国轩高科1元/Wh固态电池兑现讨论；比亚迪标配二代电池+闪充车型盘点；雷军披露小米汽车电池安全测试项目1230项。海外RSS新增或上移沙特首个大规模电池储能制造设施/ZOE Energy沙特BESS工厂、印度NTPC加码BESS与抽水蓄能管线、Hithium在澳大利亚发布8小时长时储能系统、Ford能源储能叙事继续获资本关注、中国日报创新生态推动电池进步。SMM 04:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较03:00持平。"
+      },
+      {
         "id": "overseas-20260526-0300-us-bess-brazil-ford",
         "source": "Google News RSS / Energy-Storage.News / pv magazine / SolarQuarter",
         "category": "海外观察/BESS装机/政策/光储项目",
@@ -59732,6 +59875,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0400-hithium-saudi-smm-flat",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
+        "category": "长时储能/BESS制造/材料行情",
+        "title": "Hithium澳洲8小时长时储能、沙特BESS制造线索新增；SMM锂电材料较03:00持平",
+        "summary": "04:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、宜昌国际级大会、太蓝新能源固态电池机器人应用、金盾股份数据中心/储能通风散热、国轩1元/Wh固态电池讨论、比亚迪二代电池+闪充车型与小米汽车1230项电池安全测试。海外新增/上移沙特首个大规模BESS制造设施/ZOE Energy沙特工厂、NTPC加码BESS和抽水蓄能、Hithium澳大利亚8小时长时储能系统、Ford储能叙事获资本关注。SMM四项行情较03:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增沙特BESS制造、Hithium 8小时长储、NTPC管线和美能能源储能并购线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 04:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "04:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 64777a95287ed3c578dba98e90ecccb2294ff7ec9ccfe6816f7fd322a27e997e，SMM碳酸锂 9919a0fb00ab4691886671daa67600a84f59117eaa319df269770cf155499bf9，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA cb9a0221d88e3857e87a4c3d95bee8328f63e12ee60ee2bc4d9c57fd431b99da。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 59aed82c92f7afe777a461c442a0726dcb94eeb408d21aac8a74b244b53be978，pv magazine a9cdcc73fdb5a38c778901d081d3d79f0292738a85f4ea7fa73864d76048de15，SolarQuarter 7c67fc8acc5913b4752bf969bdda00286c74f0a2b2f96bef5f1b8808629d74a7，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 04:00新增/变化：国内RSS新增或上移美能能源募投项目生变、拟关联并购切入储能赛道；宜昌国际级大会相关线索；太蓝新能源谈固态电池机器人应用；金盾股份称产品可应用于数据中心/储能中心通风散热；国轩高科1元/Wh固态电池兑现讨论；比亚迪标配二代电池+闪充车型盘点；雷军披露小米汽车电池安全测试项目1230项。海外RSS新增或上移沙特首个大规模电池储能制造设施/ZOE Energy沙特BESS工厂、印度NTPC加码BESS与抽水蓄能管线、Hithium在澳大利亚发布8小时长时储能系统、Ford能源储能叙事继续获资本关注、中国日报创新生态推动电池进步。SMM 04:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较03:00持平。"
+      },
       {
         "id": "market-20260526-0300-us-bess-smm-flat",
         "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / pv magazine / SolarQuarter",
@@ -74222,6 +74380,60 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0400-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 04:00 CST",
+        "status": 200,
+        "sha256": "6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb",
+        "finding": "首页已按小时重读；本轮写入沙特BESS制造、Hithium 8小时长储、国内储能并购和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0400-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 04:00 CST",
+        "status": 200,
+        "sha256": "43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b",
+        "finding": "/markettrend/已按小时重读；本轮补充沙特BESS制造、Hithium长储、NTPC管线和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0400-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 04:00 CST",
+        "status": 200,
+        "sha256": "64777a95287ed3c578dba98e90ecccb2294ff7ec9ccfe6816f7fd322a27e997e",
+        "finding": "04:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较03:00持平。"
+      },
+      {
+        "id": "source-20260526-0400-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 04:00 CST",
+        "status": 200,
+        "sha256": "9919a0fb00ab4691886671daa67600a84f59117eaa319df269770cf155499bf9",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较03:00持平。"
+      },
+      {
+        "id": "source-20260526-0400-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 04:00 CST",
+        "status": 200,
+        "sha256": "294b387fdef479e12f6257d3dd9982ba8794fa012d4396e1e4a406f39066c36b",
+        "finding": "新增/上移美能能源并购切入储能、宜昌国际大会、太蓝固态电池机器人应用、金盾股份储能/数据中心散热、国轩1元/Wh固态电池、小米电池安全测试等。"
+      },
+      {
+        "id": "source-20260526-0400-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 04:00 CST",
+        "status": 200,
+        "sha256": "582d5aee6d15734f2a470de65b49df594442ae4081a91207016ecca61993c644",
+        "finding": "新增/上移沙特BESS制造设施/ZOE Energy沙特工厂、NTPC BESS/抽蓄管线、Hithium澳洲8小时长储系统、Ford储能叙事等。"
+      },
+      {
         "id": "source-20260526-0300-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -82537,5 +82749,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T03:00:00+08:00"
+  "checked_at": "2026-05-26T04:00:00+08:00"
 };
