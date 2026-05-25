@@ -1,8 +1,72 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T02:00:00+08:00",
-  "note": "02:00严格刷新新增采信：国内RSS上移山西晋中/长治储能项目开工、海南万宁光储渔项目开工、宝丽迪电解液添加剂、江苏射阳海上制氢、小米电池安全测试1230项、蜂巢能源超充观点、比亚迪/宁德时代电池定义争论、锂价上涨与富宝181600元/吨、金晟新能赴港、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工。海外新增SK On Tennessee电池工厂、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾PV+BESS、北卡微电网、BNEF上调BESS预测。SMM四项行情较01:00持平。",
+  "generated_at": "2026-05-26T03:00:00+08:00",
+  "note": "03:00严格刷新新增采信：国内新增/上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查启动、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂主流化观点。海外新增美国Q1新增BESS装机9.7GWh（SEIA）、巴西电池拍卖指南将发布、Ford与EDF五年储能协议、纽约电池储能法案、Sonnedix 60.9MW南欧光伏组合、GCL SI/Getz Energy泰国1GW组件MOU、Meralco菲律宾可再生能源+储能+基荷策略。SMM四项行情较02:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0300-us-bess-brazil-solidstate",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / pv magazine / SolarQuarter",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / Energy-Storage.News / pv magazine / SolarQuarter",
+        "category": "储能装机/电池政策/固态电池/材料行情",
+        "title": "03:00刷新：美国Q1新增BESS 9.7GWh；巴西电池拍卖指南将发布，国内固态电池投资上移",
+        "summary": "03:00严格刷新新增采信：国内新增/上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查启动、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂主流化观点。海外新增美国Q1新增BESS装机9.7GWh（SEIA）、巴西电池拍卖指南将发布、Ford与EDF五年储能协议、纽约电池储能法案、Sonnedix 60.9MW南欧光伏组合、GCL SI/Getz Energy泰国1GW组件MOU、Meralco菲律宾可再生能源+储能+基荷策略。SMM四项行情较02:00持平。",
+        "body": [
+          "国内电池线索：钟睒睒5亿元战略投资固态电池企业智邦锂电；固态电池产业化争议和钙钛矿空间应用话题新增/上移。",
+          "国内安全与材料：新能源汽车安全隐患排查工作开启；富宝电池级碳酸锂181600元/吨和磷酸铁锂主流化观点继续上移。",
+          "海外装机与政策：Energy-Storage.News经Google News上移美国Q1新增BESS装机9.7GWh（SEIA口径）；巴西部长称电池拍卖指南将在未来数日发布。",
+          "海外企业：Ford与EDF签署五年储能协议；纽约电池储能限制法案进入能源委员会视野。",
+          "海外项目：Sonnedix投运60.9MW意大利/葡萄牙太阳能组合并扩展光储策略；GCL SI与Getz Energy签署1GW组件MOU，Meralco PowerGen强调菲律宾可再生能源+储能+基荷一体化。",
+          "行情侧：SMM公开页03:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较02:00持平。"
+        ],
+        "key_points": [
+          "美国Q1新增BESS装机9.7GWh（SEIA口径）线索新增/上移。",
+          "巴西电池拍卖指南将于未来数日发布；纽约电池储能法案进入能源委员会视野。",
+          "Ford与EDF签五年储能协议，数据中心电力与储能需求讨论升温。",
+          "钟睒睒5亿元战略投资固态电池企业智邦锂电，新能源汽车安全隐患排查启动。",
+          "GCL SI/Getz Energy泰国1GW组件MOU、Meralco菲律宾储能一体化策略新增。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较02:00持平。"
+        ],
+        "value": "9.7",
+        "unit": "GWh美国Q1新增BESS线索",
+        "delta": "新增美国BESS装机、巴西电池拍卖、固态电池投资和海外光储项目线索；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 03:00 CST",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.pv-magazine.com/",
+          "https://solarquarter.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>03:00新增/复核：美国Q1 BESS新增9.7GWh、巴西电池拍卖指南、Ford/EDF储能协议、国内固态电池投资线索新增；SMM四项行情较02:00持平。</p>",
+        "caption": "美国BESS装机与巴西政策新增；国内固态电池投资上移；SMM材料价持平。",
+        "methodology": "03:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 1374c649bd3583d7bf76e05a3643fbbc9e1b3aaa8b73a24807cb44aa13e21de1，SMM碳酸锂 e6a41b420272e903b7b63f12418fce7c7af5c1b7dead3322041c5c65d0ddbc2d，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 43934b0ab4f70192d31eccfbfa782503f82bc60453b91790f2af463613410172。 海外入口：Energy-Storage.News 765a463cbb476c7facb4639e264eb3218e6efad63cf87e0827d14062f1e0a0bf，ESS News 20d42d05c94ac83a7f7e0105f82a029527eab4b7f98afb70f135c5af8d9e9c0b，pv magazine 7f8eb54b0f16be523ef84e24b4af3a833ee1a318196607ce50f55cd34c6a1868，SolarQuarter 4f4b3c56334a7b0b18372da1a5a253662a3bd8d7e3ea61de3611b1faea54025b，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 03:00新增/变化：国内RSS新增或上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查工作开启、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂逆袭成主流等。海外RSS新增或上移美国Q1新增BESS装机9.7GWh（SEIA口径）、巴西部长称电池拍卖指南未来数日发布、Ford与EDF签五年储能协议、纽约电池储能限制法案进入能源委员会视野、Sonnedix在意大利和葡萄牙投运60.9MW太阳能组合并扩展光储策略、数据中心电力负荷与余热/自发电讨论升温。海外站点新增pv magazine报道GCL SI与Getz Energy签署1GW组件MOU支持泰国清洁能源，SolarQuarter新增Meralco PowerGen强调菲律宾可再生能源+储能+基荷一体化策略。SMM 03:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较02:00持平。",
+        "history": [
+          {
+            "label": "美国Q1新增BESS GWh",
+            "value": 9.7
+          },
+          {
+            "label": "智邦锂电投资 亿元",
+            "value": 5
+          },
+          {
+            "label": "Sonnedix组合 MW",
+            "value": 60.9
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0200-cn-projects-bnef-sk-on",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / Mercom Capital Group",
@@ -14408,6 +14472,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0300-us-bess-solidstate",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / pv magazine / SolarQuarter",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / Energy-Storage.News / pv magazine / SolarQuarter",
+        "category": "储能装机/电池政策/固态电池/材料行情",
+        "title": "03:00刷新：美国Q1新增BESS 9.7GWh；巴西电池拍卖指南将发布，国内固态电池投资上移",
+        "summary": "03:00严格刷新新增采信：国内新增/上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查启动、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂主流化观点。海外新增美国Q1新增BESS装机9.7GWh（SEIA）、巴西电池拍卖指南将发布、Ford与EDF五年储能协议、纽约电池储能法案、Sonnedix 60.9MW南欧光伏组合、GCL SI/Getz Energy泰国1GW组件MOU、Meralco菲律宾可再生能源+储能+基荷策略。SMM四项行情较02:00持平。",
+        "body": [
+          "国内电池线索：钟睒睒5亿元战略投资固态电池企业智邦锂电；固态电池产业化争议和钙钛矿空间应用话题新增/上移。",
+          "国内安全与材料：新能源汽车安全隐患排查工作开启；富宝电池级碳酸锂181600元/吨和磷酸铁锂主流化观点继续上移。",
+          "海外装机与政策：Energy-Storage.News经Google News上移美国Q1新增BESS装机9.7GWh（SEIA口径）；巴西部长称电池拍卖指南将在未来数日发布。",
+          "海外企业：Ford与EDF签署五年储能协议；纽约电池储能限制法案进入能源委员会视野。",
+          "海外项目：Sonnedix投运60.9MW意大利/葡萄牙太阳能组合并扩展光储策略；GCL SI与Getz Energy签署1GW组件MOU，Meralco PowerGen强调菲律宾可再生能源+储能+基荷一体化。",
+          "行情侧：SMM公开页03:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较02:00持平。"
+        ],
+        "key_points": [
+          "美国Q1新增BESS装机9.7GWh（SEIA口径）线索新增/上移。",
+          "巴西电池拍卖指南将于未来数日发布；纽约电池储能法案进入能源委员会视野。",
+          "Ford与EDF签五年储能协议，数据中心电力与储能需求讨论升温。",
+          "钟睒睒5亿元战略投资固态电池企业智邦锂电，新能源汽车安全隐患排查启动。",
+          "GCL SI/Getz Energy泰国1GW组件MOU、Meralco菲律宾储能一体化策略新增。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较02:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 03:00 CST",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.pv-magazine.com/",
+          "https://solarquarter.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>03:00新增/复核：美国Q1 BESS新增9.7GWh、巴西电池拍卖指南、Ford/EDF储能协议、国内固态电池投资线索新增；SMM四项行情较02:00持平。</p>",
+        "caption": "美国BESS装机与巴西政策新增；国内固态电池投资上移；SMM材料价持平。",
+        "methodology": "03:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 1374c649bd3583d7bf76e05a3643fbbc9e1b3aaa8b73a24807cb44aa13e21de1，SMM碳酸锂 e6a41b420272e903b7b63f12418fce7c7af5c1b7dead3322041c5c65d0ddbc2d，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 43934b0ab4f70192d31eccfbfa782503f82bc60453b91790f2af463613410172。 海外入口：Energy-Storage.News 765a463cbb476c7facb4639e264eb3218e6efad63cf87e0827d14062f1e0a0bf，ESS News 20d42d05c94ac83a7f7e0105f82a029527eab4b7f98afb70f135c5af8d9e9c0b，pv magazine 7f8eb54b0f16be523ef84e24b4af3a833ee1a318196607ce50f55cd34c6a1868，SolarQuarter 4f4b3c56334a7b0b18372da1a5a253662a3bd8d7e3ea61de3611b1faea54025b，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 03:00新增/变化：国内RSS新增或上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查工作开启、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂逆袭成主流等。海外RSS新增或上移美国Q1新增BESS装机9.7GWh（SEIA口径）、巴西部长称电池拍卖指南未来数日发布、Ford与EDF签五年储能协议、纽约电池储能限制法案进入能源委员会视野、Sonnedix在意大利和葡萄牙投运60.9MW太阳能组合并扩展光储策略、数据中心电力负荷与余热/自发电讨论升温。海外站点新增pv magazine报道GCL SI与Getz Energy签署1GW组件MOU支持泰国清洁能源，SolarQuarter新增Meralco PowerGen强调菲律宾可再生能源+储能+基荷一体化策略。SMM 03:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较02:00持平。"
+      },
       {
         "id": "latest-20260526-0200-projects-bnef",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / Mercom Capital Group",
@@ -36142,6 +36244,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0300-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；03:00复核，四项较02:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较02:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 03:00 CST",
+        "methodology": "03:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 1374c649bd3583d7bf76e05a3643fbbc9e1b3aaa8b73a24807cb44aa13e21de1，SMM碳酸锂 e6a41b420272e903b7b63f12418fce7c7af5c1b7dead3322041c5c65d0ddbc2d，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 43934b0ab4f70192d31eccfbfa782503f82bc60453b91790f2af463613410172。 海外入口：Energy-Storage.News 765a463cbb476c7facb4639e264eb3218e6efad63cf87e0827d14062f1e0a0bf，ESS News 20d42d05c94ac83a7f7e0105f82a029527eab4b7f98afb70f135c5af8d9e9c0b，pv magazine 7f8eb54b0f16be523ef84e24b4af3a833ee1a318196607ce50f55cd34c6a1868，SolarQuarter 4f4b3c56334a7b0b18372da1a5a253662a3bd8d7e3ea61de3611b1faea54025b，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 03:00新增/变化：国内RSS新增或上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查工作开启、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂逆袭成主流等。海外RSS新增或上移美国Q1新增BESS装机9.7GWh（SEIA口径）、巴西部长称电池拍卖指南未来数日发布、Ford与EDF签五年储能协议、纽约电池储能限制法案进入能源委员会视野、Sonnedix在意大利和葡萄牙投运60.9MW太阳能组合并扩展光储策略、数据中心电力负荷与余热/自发电讨论升温。海外站点新增pv magazine报道GCL SI与Getz Energy签署1GW组件MOU支持泰国清洁能源，SolarQuarter新增Meralco PowerGen强调菲律宾可再生能源+储能+基荷一体化策略。SMM 03:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较02:00持平。"
+      },
+      {
         "id": "material-20260526-0200-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；02:00复核，四项较01:00持平",
@@ -39718,6 +39833,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0300-public-new",
+        "title": "03:00新增国内+海外储能/电池线索",
+        "value": "23",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS及pv magazine/SolarQuarter新增或上移美国Q1 BESS 9.7GWh、巴西电池拍卖、Ford/EDF、纽约储能法案、固态电池投资、GCL泰国1GW MOU、Meralco菲律宾策略等线索。",
+        "delta": "较02:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SMM / Energy-Storage.News / pv magazine / SolarQuarter",
+        "as_of": "2026-05-26 03:00 CST",
+        "methodology": "03:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 1374c649bd3583d7bf76e05a3643fbbc9e1b3aaa8b73a24807cb44aa13e21de1，SMM碳酸锂 e6a41b420272e903b7b63f12418fce7c7af5c1b7dead3322041c5c65d0ddbc2d，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 43934b0ab4f70192d31eccfbfa782503f82bc60453b91790f2af463613410172。 海外入口：Energy-Storage.News 765a463cbb476c7facb4639e264eb3218e6efad63cf87e0827d14062f1e0a0bf，ESS News 20d42d05c94ac83a7f7e0105f82a029527eab4b7f98afb70f135c5af8d9e9c0b，pv magazine 7f8eb54b0f16be523ef84e24b4af3a833ee1a318196607ce50f55cd34c6a1868，SolarQuarter 4f4b3c56334a7b0b18372da1a5a253662a3bd8d7e3ea61de3611b1faea54025b，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 03:00新增/变化：国内RSS新增或上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查工作开启、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂逆袭成主流等。海外RSS新增或上移美国Q1新增BESS装机9.7GWh（SEIA口径）、巴西部长称电池拍卖指南未来数日发布、Ford与EDF签五年储能协议、纽约电池储能限制法案进入能源委员会视野、Sonnedix在意大利和葡萄牙投运60.9MW太阳能组合并扩展光储策略、数据中心电力负荷与余热/自发电讨论升温。海外站点新增pv magazine报道GCL SI与Getz Energy签署1GW组件MOU支持泰国清洁能源，SolarQuarter新增Meralco PowerGen强调菲律宾可再生能源+储能+基荷一体化策略。SMM 03:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较02:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0200-public-new",
         "title": "02:00新增国内+海外储能/电池线索",
@@ -53323,6 +53451,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0300-us-bess-brazil-ford",
+        "source": "Google News RSS / Energy-Storage.News / pv magazine / SolarQuarter",
+        "category": "海外观察/BESS装机/政策/光储项目",
+        "title": "海外新增美国Q1 BESS 9.7GWh、巴西电池拍卖指南和Ford/EDF储能协议",
+        "summary": "03:00海外公开源新增/上移美国Q1新增BESS装机9.7GWh、巴西电池拍卖指南未来数日发布、Ford与EDF五年储能协议、纽约电池储能法案、Sonnedix 60.9MW南欧太阳能组合、GCL SI/Getz Energy泰国1GW组件MOU、Meralco菲律宾能源安全策略。",
+        "value": "9.7",
+        "unit": "GWh美国Q1新增BESS",
+        "delta": "海外BESS装机、政策和光储项目新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 03:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "03:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 1374c649bd3583d7bf76e05a3643fbbc9e1b3aaa8b73a24807cb44aa13e21de1，SMM碳酸锂 e6a41b420272e903b7b63f12418fce7c7af5c1b7dead3322041c5c65d0ddbc2d，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 43934b0ab4f70192d31eccfbfa782503f82bc60453b91790f2af463613410172。 海外入口：Energy-Storage.News 765a463cbb476c7facb4639e264eb3218e6efad63cf87e0827d14062f1e0a0bf，ESS News 20d42d05c94ac83a7f7e0105f82a029527eab4b7f98afb70f135c5af8d9e9c0b，pv magazine 7f8eb54b0f16be523ef84e24b4af3a833ee1a318196607ce50f55cd34c6a1868，SolarQuarter 4f4b3c56334a7b0b18372da1a5a253662a3bd8d7e3ea61de3611b1faea54025b，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 03:00新增/变化：国内RSS新增或上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查工作开启、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂逆袭成主流等。海外RSS新增或上移美国Q1新增BESS装机9.7GWh（SEIA口径）、巴西部长称电池拍卖指南未来数日发布、Ford与EDF签五年储能协议、纽约电池储能限制法案进入能源委员会视野、Sonnedix在意大利和葡萄牙投运60.9MW太阳能组合并扩展光储策略、数据中心电力负荷与余热/自发电讨论升温。海外站点新增pv magazine报道GCL SI与Getz Energy签署1GW组件MOU支持泰国清洁能源，SolarQuarter新增Meralco PowerGen强调菲律宾可再生能源+储能+基荷一体化策略。SMM 03:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较02:00持平。"
+      },
+      {
         "id": "overseas-20260526-0200-sk-on-bnef-auction",
         "source": "Google News RSS / Energy-Storage.News / Mercom / SolarQuarter",
         "category": "海外观察/BESS预测/电池工厂/可再生能源招标",
@@ -59589,6 +59732,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0300-us-bess-smm-flat",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / pv magazine / SolarQuarter",
+        "category": "BESS装机/储能政策/材料行情",
+        "title": "美国Q1新增BESS 9.7GWh、巴西电池拍卖指南线索新增；SMM锂电材料较02:00持平",
+        "summary": "03:00严格刷新新增采信：国内新增/上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查启动、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂主流化观点。海外新增美国Q1新增BESS装机9.7GWh（SEIA）、巴西电池拍卖指南将发布、Ford与EDF五年储能协议、纽约电池储能法案、Sonnedix 60.9MW南欧光伏组合、GCL SI/Getz Energy泰国1GW组件MOU、Meralco菲律宾可再生能源+储能+基荷策略。SMM四项行情较02:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增美国BESS装机、巴西电池拍卖、Ford/EDF储能协议和国内固态电池投资线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 03:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "03:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 1374c649bd3583d7bf76e05a3643fbbc9e1b3aaa8b73a24807cb44aa13e21de1，SMM碳酸锂 e6a41b420272e903b7b63f12418fce7c7af5c1b7dead3322041c5c65d0ddbc2d，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 43934b0ab4f70192d31eccfbfa782503f82bc60453b91790f2af463613410172。 海外入口：Energy-Storage.News 765a463cbb476c7facb4639e264eb3218e6efad63cf87e0827d14062f1e0a0bf，ESS News 20d42d05c94ac83a7f7e0105f82a029527eab4b7f98afb70f135c5af8d9e9c0b，pv magazine 7f8eb54b0f16be523ef84e24b4af3a833ee1a318196607ce50f55cd34c6a1868，SolarQuarter 4f4b3c56334a7b0b18372da1a5a253662a3bd8d7e3ea61de3611b1faea54025b，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 03:00新增/变化：国内RSS新增或上移钟睒睒5亿元战略投资固态电池企业智邦锂电、新能源汽车安全隐患排查工作开启、固态电池产业化争议、钙钛矿电池空间应用、富宝电池级碳酸锂181600元/吨、磷酸铁锂逆袭成主流等。海外RSS新增或上移美国Q1新增BESS装机9.7GWh（SEIA口径）、巴西部长称电池拍卖指南未来数日发布、Ford与EDF签五年储能协议、纽约电池储能限制法案进入能源委员会视野、Sonnedix在意大利和葡萄牙投运60.9MW太阳能组合并扩展光储策略、数据中心电力负荷与余热/自发电讨论升温。海外站点新增pv magazine报道GCL SI与Getz Energy签署1GW组件MOU支持泰国清洁能源，SolarQuarter新增Meralco PowerGen强调菲律宾可再生能源+储能+基荷一体化策略。SMM 03:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较02:00持平。"
+      },
       {
         "id": "market-20260526-0200-projects-bnef-smm-flat",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / Mercom Capital Group",
@@ -74064,6 +74222,60 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0300-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 03:00 CST",
+        "status": 200,
+        "sha256": "6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb",
+        "finding": "首页已按小时重读；本轮写入美国BESS装机、巴西电池拍卖、国内固态电池投资和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0300-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 03:00 CST",
+        "status": 200,
+        "sha256": "43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b",
+        "finding": "/markettrend/已按小时重读；本轮补充美国Q1 BESS 9.7GWh、巴西电池拍卖、Ford/EDF和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0300-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 03:00 CST",
+        "status": 200,
+        "sha256": "1374c649bd3583d7bf76e05a3643fbbc9e1b3aaa8b73a24807cb44aa13e21de1",
+        "finding": "03:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较02:00持平。"
+      },
+      {
+        "id": "source-20260526-0300-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 03:00 CST",
+        "status": 200,
+        "sha256": "e6a41b420272e903b7b63f12418fce7c7af5c1b7dead3322041c5c65d0ddbc2d",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较02:00持平。"
+      },
+      {
+        "id": "source-20260526-0300-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 03:00 CST",
+        "status": 200,
+        "sha256": "f3c009a39ba88a7ee3bcc7547ea82ee8767e18814a072eb77de9ab4c9afe131b",
+        "finding": "新增/上移钟睒睒5亿元投资智邦锂电、新能源汽车安全隐患排查、固态电池产业化争议、钙钛矿电池空间应用、富宝碳酸锂181600元/吨等。"
+      },
+      {
+        "id": "source-20260526-0300-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 03:00 CST",
+        "status": 200,
+        "sha256": "30761d8045d0fe96409b83d2131db50920883dad59f603411989d40db50ed000",
+        "finding": "新增/上移美国Q1 BESS 9.7GWh、巴西电池拍卖指南、Ford/EDF储能协议、纽约储能法案、Sonnedix 60.9MW、数据中心电力需求讨论等。"
+      },
+      {
         "id": "source-20260526-0200-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -82325,5 +82537,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T02:00:00+08:00"
+  "checked_at": "2026-05-26T03:00:00+08:00"
 };
