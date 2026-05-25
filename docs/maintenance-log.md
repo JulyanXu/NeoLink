@@ -1,4 +1,12 @@
 
+## 2026-05-26T05:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `6f6cbb6c...`，`/markettrend/` HTTP 200 sha256 `43039e6b...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
+- 国内新增/上移：晶澳储能频换帅；储能成锂电池第一增长引擎；内蒙古地方国资75亿储能项目备案“占坑术”；碳酸锂博弈未止和生意社电池级碳酸锂均差扩大；全球储能系统出货Top10；两轮电池高端玩家与豪华电动车召回频发。
+- 海外新增/上移：Madhya Pradesh 1.13GWh Battery Energy Storage Systems招标；JEM Energy FY26-27 BESS目标；Trinasolar菲律宾公用事业级光伏+储能方案；Ford/EDF五年储能交易；Hithium澳大利亚8小时长储继续上移。
+- 行情复核：SMM新能源 sha256 `a7d97129...` 与SMM碳酸锂页 sha256 `cdaa6707...` 显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较04:00持平。
+- 动作：已更新`data/feed.js` generated_at/checked_at至05:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605260500`。Artifacts: `var/hermes/crawl-20260526-0500.py`, `var/hermes/crawl-output-20260526-0500.json`, `var/hermes/search-notes-20260526-0500.json`。
+
+
 ## 2026-05-26T04:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `6f6cbb6c...`，`/markettrend/` HTTP 200 sha256 `43039e6b...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
 - 国内新增/上移：美能能源募投项目生变、拟关联并购切入储能赛道；宜昌国际级大会；太蓝新能源固态电池机器人应用；金盾股份数据中心/储能通风散热；国轩高科1元/Wh固态电池讨论；比亚迪二代电池+闪充车型和小米汽车1230项电池安全测试。

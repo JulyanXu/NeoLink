@@ -1,8 +1,72 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T04:00:00+08:00",
-  "note": "04:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、宜昌国际级大会、太蓝新能源固态电池机器人应用、金盾股份数据中心/储能通风散热、国轩1元/Wh固态电池讨论、比亚迪二代电池+闪充车型与小米汽车1230项电池安全测试。海外新增/上移沙特首个大规模BESS制造设施/ZOE Energy沙特工厂、NTPC加码BESS和抽水蓄能、Hithium澳大利亚8小时长时储能系统、Ford储能叙事获资本关注。SMM四项行情较03:00持平。",
+  "generated_at": "2026-05-26T05:00:00+08:00",
+  "note": "05:00严格刷新新增采信：国内新增/上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发和碳酸锂博弈/均差扩大。海外新增/上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar菲律宾公用事业级光伏+储能方案、Ford/EDF储能交易与Hithium 8小时长储。SMM四项行情较04:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0500-ja-solar-madhya-jem",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / SolarQuarter / Energy-Storage.News / ESS News",
+        "category": "储能招标/系统出货/锂电增长/材料行情",
+        "title": "05:00刷新：国内储能系统出货与增长引擎线索上移，印度1.13GWh BESS招标新增",
+        "summary": "05:00严格刷新新增采信：国内新增/上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发和碳酸锂博弈/均差扩大。海外新增/上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar菲律宾公用事业级光伏+储能方案、Ford/EDF储能交易与Hithium 8小时长储。SMM四项行情较04:00持平。",
+        "body": [
+          "国内企业与产业链：晶澳储能频换帅、全球储能系统出货Top10和“储能成锂电池第一增长引擎”线索新增/上移，继续指向系统集成与锂电需求主线。",
+          "国内项目与材料：内蒙古地方国资75亿储能项目备案“占坑术”、碳酸锂博弈未止、生意社电池级碳酸锂均差扩大等线索上移。",
+          "国内应用与风险：两轮电池高端玩家、豪华电动车召回频发和电动车充电习惯讨论新增/上移，电池安全与终端应用仍是舆情焦点。",
+          "海外招标：Madhya Pradesh发布1.13GWh Battery Energy Storage Systems招标，印度电网侧储能需求继续释放。",
+          "海外公司：JEM Energy提出FY26-27 BESS目标；Trinasolar在菲律宾扩展公用事业级光伏和电池储能方案；Ford/EDF五年储能交易与Hithium 8小时长储继续上移。",
+          "行情侧：SMM公开页05:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较04:00持平。"
+        ],
+        "key_points": [
+          "印度Madhya Pradesh 1.13GWh BESS招标新增，是本轮海外政策/招标最清晰增量。",
+          "JEM Energy FY26-27 BESS目标和Trinasolar菲律宾光伏+储能方案新增/上移，海外项目侧热度延续。",
+          "国内储能系统出货Top10、储能成为锂电池增长引擎和晶澳储能换帅线索上移。",
+          "内蒙古75亿储能项目备案“占坑术”与碳酸锂博弈，提示项目质量和材料价格分歧仍需跟踪。",
+          "终端安全/召回与两轮电池高端化成为电池舆情新增维度。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较04:00持平。"
+        ],
+        "value": "1.13",
+        "unit": "GWh BESS招标",
+        "delta": "新增Madhya Pradesh 1.13GWh BESS、JEM BESS目标、Trinasolar菲律宾储能方案及国内储能增长/出货线索；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 05:00 CST",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://solarquarter.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>05:00新增/复核：Madhya Pradesh 1.13GWh BESS招标、JEM Energy BESS目标、Trinasolar菲律宾光伏+储能方案、国内储能系统出货Top10/锂电增长引擎和碳酸锂博弈上移；SMM四项行情较04:00持平。</p>",
+        "caption": "印度1.13GWh BESS招标与海外储能公司线索新增；国内储能出货/增长和碳酸锂博弈上移；SMM材料价持平。",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 a7d971294eca2f4f6d655a452adbf4fffdace808e2d11ab348eb832fa9facb14，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 30f676057247c3075466b0fccb3d11b21fd68221bbecf77d238ff032cad25b4f。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 91e0d09c0684014f7ede2c8fd1fc00b61cc8be1f7bdf0682b51d53b1ee24e35b，pv magazine a4503ba750330bab7f2cdbddc0297f35b41515fe5154e98a6a5095adb6b922d6，SolarQuarter 44911e9c01a46c2feb36565127476def258aaf115156aa8aed4eb41ccfe37002，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 05:00新增/变化：国内RSS新增或上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、碳酸锂博弈未止、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发，以及生意社电池级碳酸锂均差扩大。海外RSS新增或上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar在菲律宾扩展公用事业级光伏和电池储能、Ford/EDF储能交易，以及Hithium 8小时长储继续上移。SMM 05:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较04:00持平。",
+        "history": [
+          {
+            "label": "Madhya Pradesh BESS GWh",
+            "value": 1.13
+          },
+          {
+            "label": "国内新增/上移RSS 条",
+            "value": 20
+          },
+          {
+            "label": "海外新增/上移RSS 条",
+            "value": 10
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0400-saudi-bess-hithium-meineng",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
@@ -14536,6 +14600,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0500-madhya-jem-ja-solar",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / SolarQuarter / Energy-Storage.News / ESS News",
+        "category": "储能招标/系统出货/锂电增长/材料行情",
+        "title": "05:00刷新：国内储能系统出货与增长引擎线索上移，印度1.13GWh BESS招标新增",
+        "summary": "05:00严格刷新新增采信：国内新增/上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发和碳酸锂博弈/均差扩大。海外新增/上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar菲律宾公用事业级光伏+储能方案、Ford/EDF储能交易与Hithium 8小时长储。SMM四项行情较04:00持平。",
+        "body": [
+          "国内企业与产业链：晶澳储能频换帅、全球储能系统出货Top10和“储能成锂电池第一增长引擎”线索新增/上移，继续指向系统集成与锂电需求主线。",
+          "国内项目与材料：内蒙古地方国资75亿储能项目备案“占坑术”、碳酸锂博弈未止、生意社电池级碳酸锂均差扩大等线索上移。",
+          "国内应用与风险：两轮电池高端玩家、豪华电动车召回频发和电动车充电习惯讨论新增/上移，电池安全与终端应用仍是舆情焦点。",
+          "海外招标：Madhya Pradesh发布1.13GWh Battery Energy Storage Systems招标，印度电网侧储能需求继续释放。",
+          "海外公司：JEM Energy提出FY26-27 BESS目标；Trinasolar在菲律宾扩展公用事业级光伏和电池储能方案；Ford/EDF五年储能交易与Hithium 8小时长储继续上移。",
+          "行情侧：SMM公开页05:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较04:00持平。"
+        ],
+        "key_points": [
+          "印度Madhya Pradesh 1.13GWh BESS招标新增，是本轮海外政策/招标最清晰增量。",
+          "JEM Energy FY26-27 BESS目标和Trinasolar菲律宾光伏+储能方案新增/上移，海外项目侧热度延续。",
+          "国内储能系统出货Top10、储能成为锂电池增长引擎和晶澳储能换帅线索上移。",
+          "内蒙古75亿储能项目备案“占坑术”与碳酸锂博弈，提示项目质量和材料价格分歧仍需跟踪。",
+          "终端安全/召回与两轮电池高端化成为电池舆情新增维度。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较04:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 05:00 CST",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://solarquarter.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>05:00新增/复核：Madhya Pradesh 1.13GWh BESS招标、JEM Energy BESS目标、Trinasolar菲律宾光伏+储能方案、国内储能系统出货Top10/锂电增长引擎和碳酸锂博弈上移；SMM四项行情较04:00持平。</p>",
+        "caption": "印度1.13GWh BESS招标与海外储能公司线索新增；国内储能出货/增长和碳酸锂博弈上移；SMM材料价持平。",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 a7d971294eca2f4f6d655a452adbf4fffdace808e2d11ab348eb832fa9facb14，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 30f676057247c3075466b0fccb3d11b21fd68221bbecf77d238ff032cad25b4f。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 91e0d09c0684014f7ede2c8fd1fc00b61cc8be1f7bdf0682b51d53b1ee24e35b，pv magazine a4503ba750330bab7f2cdbddc0297f35b41515fe5154e98a6a5095adb6b922d6，SolarQuarter 44911e9c01a46c2feb36565127476def258aaf115156aa8aed4eb41ccfe37002，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 05:00新增/变化：国内RSS新增或上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、碳酸锂博弈未止、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发，以及生意社电池级碳酸锂均差扩大。海外RSS新增或上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar在菲律宾扩展公用事业级光伏和电池储能、Ford/EDF储能交易，以及Hithium 8小时长储继续上移。SMM 05:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较04:00持平。"
+      },
       {
         "id": "latest-20260526-0400-saudi-hithium-meineng",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
@@ -36346,6 +36448,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0500-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；05:00复核，四项较04:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较04:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 05:00 CST",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 a7d971294eca2f4f6d655a452adbf4fffdace808e2d11ab348eb832fa9facb14，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 30f676057247c3075466b0fccb3d11b21fd68221bbecf77d238ff032cad25b4f。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 91e0d09c0684014f7ede2c8fd1fc00b61cc8be1f7bdf0682b51d53b1ee24e35b，pv magazine a4503ba750330bab7f2cdbddc0297f35b41515fe5154e98a6a5095adb6b922d6，SolarQuarter 44911e9c01a46c2feb36565127476def258aaf115156aa8aed4eb41ccfe37002，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 05:00新增/变化：国内RSS新增或上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、碳酸锂博弈未止、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发，以及生意社电池级碳酸锂均差扩大。海外RSS新增或上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar在菲律宾扩展公用事业级光伏和电池储能、Ford/EDF储能交易，以及Hithium 8小时长储继续上移。SMM 05:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较04:00持平。"
+      },
+      {
         "id": "material-20260526-0400-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；04:00复核，四项较03:00持平",
@@ -39948,6 +40063,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0500-public-new",
+        "title": "05:00新增国内+海外储能/电池线索",
+        "value": "31",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS及海外站点新增或上移晶澳储能换帅、储能成锂电第一增长引擎、内蒙古75亿项目备案、Madhya Pradesh 1.13GWh BESS、JEM BESS目标、Trinasolar菲律宾储能等线索。",
+        "delta": "较04:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SMM / Energy-Storage.News / ESS News / SolarQuarter",
+        "as_of": "2026-05-26 05:00 CST",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 a7d971294eca2f4f6d655a452adbf4fffdace808e2d11ab348eb832fa9facb14，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 30f676057247c3075466b0fccb3d11b21fd68221bbecf77d238ff032cad25b4f。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 91e0d09c0684014f7ede2c8fd1fc00b61cc8be1f7bdf0682b51d53b1ee24e35b，pv magazine a4503ba750330bab7f2cdbddc0297f35b41515fe5154e98a6a5095adb6b922d6，SolarQuarter 44911e9c01a46c2feb36565127476def258aaf115156aa8aed4eb41ccfe37002，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 05:00新增/变化：国内RSS新增或上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、碳酸锂博弈未止、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发，以及生意社电池级碳酸锂均差扩大。海外RSS新增或上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar在菲律宾扩展公用事业级光伏和电池储能、Ford/EDF储能交易，以及Hithium 8小时长储继续上移。SMM 05:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较04:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0400-public-new",
         "title": "04:00新增国内+海外储能/电池线索",
@@ -53579,6 +53707,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0500-madhya-jem-trina",
+        "source": "Google News RSS / Mercom India / SolarQuarter / PR Newswire",
+        "category": "海外观察/BESS招标/公用事业储能/企业目标",
+        "title": "海外新增Madhya Pradesh 1.13GWh BESS招标、JEM目标和Trinasolar菲律宾储能方案",
+        "summary": "05:00海外公开源新增/上移Madhya Pradesh 1.13GWh Battery Energy Storage Systems招标、JEM Energy FY26-27 BESS目标、Trinasolar在菲律宾扩展公用事业级光伏和电池储能方案、Ford/EDF五年储能交易，以及Hithium澳大利亚8小时长储系统。",
+        "value": "1.13",
+        "unit": "GWh BESS招标",
+        "delta": "海外BESS招标、企业目标和光储方案新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 05:00 CST",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 a7d971294eca2f4f6d655a452adbf4fffdace808e2d11ab348eb832fa9facb14，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 30f676057247c3075466b0fccb3d11b21fd68221bbecf77d238ff032cad25b4f。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 91e0d09c0684014f7ede2c8fd1fc00b61cc8be1f7bdf0682b51d53b1ee24e35b，pv magazine a4503ba750330bab7f2cdbddc0297f35b41515fe5154e98a6a5095adb6b922d6，SolarQuarter 44911e9c01a46c2feb36565127476def258aaf115156aa8aed4eb41ccfe37002，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 05:00新增/变化：国内RSS新增或上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、碳酸锂博弈未止、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发，以及生意社电池级碳酸锂均差扩大。海外RSS新增或上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar在菲律宾扩展公用事业级光伏和电池储能、Ford/EDF储能交易，以及Hithium 8小时长储继续上移。SMM 05:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较04:00持平。"
+      },
+      {
         "id": "overseas-20260526-0400-saudi-hithium-ntpc",
         "source": "Google News RSS / ESS News / Energy-Storage.News / SolarQuarter",
         "category": "海外观察/BESS制造/长时储能/调峰资源",
@@ -59875,6 +60018,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0500-madhya-jem-smm-flat",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
+        "category": "BESS招标/锂电增长/材料行情",
+        "title": "印度1.13GWh BESS招标、JEM储能目标新增；SMM锂电材料较04:00持平",
+        "summary": "05:00严格刷新新增采信：国内新增/上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发和碳酸锂博弈/均差扩大。海外新增/上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar菲律宾公用事业级光伏+储能方案、Ford/EDF储能交易与Hithium 8小时长储。SMM四项行情较04:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增Madhya Pradesh 1.13GWh BESS、JEM BESS目标、Trinasolar菲律宾储能和国内储能增长/出货线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 05:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 a7d971294eca2f4f6d655a452adbf4fffdace808e2d11ab348eb832fa9facb14，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 30f676057247c3075466b0fccb3d11b21fd68221bbecf77d238ff032cad25b4f。 海外入口：Energy-Storage.News 03e2cdad1942a8e432db8bd16c040c262f3d3c955ca972e3cbe76dc626ebc593，ESS News 91e0d09c0684014f7ede2c8fd1fc00b61cc8be1f7bdf0682b51d53b1ee24e35b，pv magazine a4503ba750330bab7f2cdbddc0297f35b41515fe5154e98a6a5095adb6b922d6，SolarQuarter 44911e9c01a46c2feb36565127476def258aaf115156aa8aed4eb41ccfe37002，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 05:00新增/变化：国内RSS新增或上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、碳酸锂博弈未止、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发，以及生意社电池级碳酸锂均差扩大。海外RSS新增或上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar在菲律宾扩展公用事业级光伏和电池储能、Ford/EDF储能交易，以及Hithium 8小时长储继续上移。SMM 05:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较04:00持平。"
+      },
       {
         "id": "market-20260526-0400-hithium-saudi-smm-flat",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
@@ -74380,6 +74538,60 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0500-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 05:00 CST",
+        "status": 200,
+        "sha256": "6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb",
+        "finding": "首页已按小时重读；本轮写入Madhya Pradesh 1.13GWh BESS、JEM储能目标、国内储能出货/增长和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0500-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 05:00 CST",
+        "status": 200,
+        "sha256": "43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b",
+        "finding": "/markettrend/已按小时重读；本轮补充印度BESS招标、JEM目标、Trinasolar菲律宾储能和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0500-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 05:00 CST",
+        "status": 200,
+        "sha256": "a7d971294eca2f4f6d655a452adbf4fffdace808e2d11ab348eb832fa9facb14",
+        "finding": "05:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较04:00持平。"
+      },
+      {
+        "id": "source-20260526-0500-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 05:00 CST",
+        "status": 200,
+        "sha256": "cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较04:00持平。"
+      },
+      {
+        "id": "source-20260526-0500-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 05:00 CST",
+        "status": 200,
+        "sha256": "f681f517ebe1c1ddefd45631483c4cd8301183909f9aba247ee68885f22296a4",
+        "finding": "新增/上移晶澳储能换帅、储能成锂电池第一增长引擎、内蒙古75亿储能备案、碳酸锂博弈、储能系统出货Top10、两轮电池高端玩家和召回安全话题。"
+      },
+      {
+        "id": "source-20260526-0500-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 05:00 CST",
+        "status": 200,
+        "sha256": "b0880b4f93fc9634e395089f7dbde879a5e572e3e8405f0da0b48af13e568207",
+        "finding": "新增/上移Madhya Pradesh 1.13GWh BESS招标、JEM Energy BESS目标、Trinasolar菲律宾光储方案、Ford/EDF储能交易和Hithium 8小时长储。"
+      },
+      {
         "id": "source-20260526-0400-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -82749,5 +82961,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T04:00:00+08:00"
+  "checked_at": "2026-05-26T05:00:00+08:00"
 };
