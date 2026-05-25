@@ -1,8 +1,76 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T15:00:00+08:00",
-  "note": "15:00严格刷新新增采信：海外侧EnergyTrend新增隆基工商业储能新品/部署超13GWh、ZOE沙特18GWh储能制造基地、5个储能和钠电池项目总投资超40亿元加速，以及晶澳BC电池效率28.2%；pv magazine新增Fortescue澳大利亚690MW光伏+650MWh BESS开建。国内侧中国能源网新增CESC2026先进储能技术及应用挑战赛启动；SMM新增多条废锂电采购报价。SMM行情15:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平。",
+  "generated_at": "2026-05-25T16:00:00+08:00",
+  "note": "16:00严格刷新新增采信：国内侧北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿DCW 2026并强调电池成为关键电力资产；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增7条5月25日废锂电采购报价及Mount Holland锂矿扩建获批产能将翻倍。海外侧pv magazine新增Inlyte Energy铁钠电池瞄准美国数据中心，以及太阳能组件氧化液化回收。SMM行情16:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-1600-inlyte-bjx-smm",
+        "source": "北极星储能网 / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
+        "source_type": "国内行业媒体/海外行业媒体/专业行情/本站回读",
+        "account_name": "北极星储能网 / pv magazine / 中国能源网 / SMM",
+        "category": "数据中心储能/光储充/锂电回收行情",
+        "title": "16:00刷新：Inlyte铁钠电池瞄准美国数据中心；北极星新增光储充与关键电力资产线索；SMM锂电材料持平",
+        "summary": "16:00严格刷新新增采信：国内侧北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿DCW 2026并强调电池成为关键电力资产；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增7条5月25日废锂电采购报价及Mount Holland锂矿扩建获批产能将翻倍。海外侧pv magazine新增Inlyte Energy铁钠电池瞄准美国数据中心，以及太阳能组件氧化液化回收。SMM行情16:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平。",
+        "body": [
+          "海外新增：pv magazine报道Inlyte Energy以铁钠电池瞄准美国数据中心用电需求。",
+          "回收技术新增：pv magazine新增太阳能组件基于氧化液化的回收路线。",
+          "国内新增：北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉。",
+          "国内电力资产新增：新能安联合伊顿亮相DCW 2026，标题强调AI算力千兆时代电池正成为关键电力资产。",
+          "材料与回收：SMM新增广东粤宏、广州优美、山东丰融、广州融捷、山西迪诺思、江西金铜、赣州腾远等废锂电采购报价，并出现Mount Holland锂矿扩建获批、产能将翻倍。",
+          "行情侧：SMM公开页16:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平。"
+        ],
+        "key_points": [
+          "Inlyte Energy铁钠电池瞄准美国数据中心。",
+          "北极星新增易事特光储充菲律宾展会反馈、新能安/伊顿电池关键电力资产线索。",
+          "中国能源网新增钙钛矿电池空间站实验首秀。",
+          "SMM新增7条废锂电采购报价和Mount Holland锂矿扩建线索。",
+          "行情复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较15:00持平。"
+        ],
+        "value": "183250",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "较15:00持平；新增数据中心铁钠电池、光储充、废锂电与锂矿扩建线索",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 16:00 CST",
+        "url": "https://www.pv-magazine.com/2026/05/25/inlyte-energy-targets-us-data-centers-with-iron-sodium-batteries/",
+        "original_url": "https://www.pv-magazine.com/2026/05/25/inlyte-energy-targets-us-data-centers-with-iron-sodium-batteries/",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260525/1497080.shtml",
+          "https://news.bjx.com.cn/html/20260525/1497079.shtml",
+          "https://www.cnenergynews.cn/article/4RhvSVEZNTF",
+          "https://newenergy.smm.cn/",
+          "https://news.smm.cn/live/detail/103919936"
+        ],
+        "clean_html": "<p>16:00新增/复核：pv magazine新增Inlyte Energy铁钠电池瞄准美国数据中心；北极星新增易事特光储充菲律宾展会反馈、新能安/伊顿电池关键电力资产线索；SMM新增多条废锂电报价及Mount Holland锂矿扩建。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较15:00持平。</p>",
+        "caption": "数据中心铁钠电池、光储充与废锂电报价新增；SMM材料价较15:00持平。",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432或SSL超时，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 988f567db2f1cb8834af0cf250752a0999637fdc1452ed4217b6db731911230d，SMM新能源 d77d885af2bd501a96b2d5cfc8b3cdc7fea0f86d26c4cbb0ec9cee9075f80a5d，SMM碳酸锂 07d63dfaa8546646a1d9a12a7511714e3c46117d9423ffa32b8bc32f5106c93d，中国能源网 261d7b85dcb945bc2480c8257a4e4aff6630505cbd4bb9663d1f372b4cbf4ff5，国家能源局 4d628b0443dba1fb6d32f5317e1727aa2735ec91ffadc3c94435d76df1504dc5，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 83df36ca9ad72874fa43e880ea1cdcb34957cc0026a0db968056cfaad56433d7，高工锂电SSL失败记录。 海外入口：Energy-Storage.News fe967b04bac39cd7b538f2e127c991a09005bd294de6fffc9bf43af969a2f26d，ESS News 1712c75e3a2a8ccd431b6132d30b824405d4a43db54e30d339ccbd7ecaf4d3e5，pv magazine 9a5dc5e4d371dcc29f964a15faab81c0b91378407c3283076fe0c943561a2e2c，SolarQuarter 803df5bd71da186db0b1b5073db86e088b4b1ab0f26f9f04e13c331ca13f15a5，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 16:00新增/变化：北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿亮相DCW 2026并强调电池成为关键电力资产；pv magazine新增Inlyte Energy以铁钠电池面向美国数据中心、以及基于氧化液化的太阳能组件回收；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增广东粤宏、广州优美、山东丰融、广州融捷、山西迪诺思、江西金铜、赣州腾远等5月25日废锂电采购报价，并出现Mount Holland锂矿扩建获批、产能将翻倍。SMM 16:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 183826
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 28950
+          },
+          {
+            "label": "北极星新增储能/电池线索 条",
+            "value": 5
+          },
+          {
+            "label": "SMM新增废锂电/锂矿线索 条",
+            "value": 8
+          }
+        ]
+      },
       {
         "id": "headline-20260525-1500-energytrend-fortescue-smm",
         "source": "EnergyTrend / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
@@ -13812,6 +13880,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-1600-inlyte-bjx-smm",
+        "source": "北极星储能网 / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
+        "source_type": "国内行业媒体/海外行业媒体/专业行情/本站回读",
+        "account_name": "北极星储能网 / pv magazine / 中国能源网 / SMM",
+        "category": "数据中心储能/光储充/锂电回收行情",
+        "title": "16:00刷新：Inlyte铁钠电池瞄准美国数据中心；北极星新增光储充与关键电力资产线索；SMM锂电材料持平",
+        "summary": "16:00严格刷新新增采信：国内侧北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿DCW 2026并强调电池成为关键电力资产；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增7条5月25日废锂电采购报价及Mount Holland锂矿扩建获批产能将翻倍。海外侧pv magazine新增Inlyte Energy铁钠电池瞄准美国数据中心，以及太阳能组件氧化液化回收。SMM行情16:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平。",
+        "body": [
+          "海外新增：pv magazine报道Inlyte Energy以铁钠电池瞄准美国数据中心用电需求。",
+          "回收技术新增：pv magazine新增太阳能组件基于氧化液化的回收路线。",
+          "国内新增：北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉。",
+          "国内电力资产新增：新能安联合伊顿亮相DCW 2026，标题强调AI算力千兆时代电池正成为关键电力资产。",
+          "材料与回收：SMM新增广东粤宏、广州优美、山东丰融、广州融捷、山西迪诺思、江西金铜、赣州腾远等废锂电采购报价，并出现Mount Holland锂矿扩建获批、产能将翻倍。",
+          "行情侧：SMM公开页16:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平。"
+        ],
+        "key_points": [
+          "Inlyte Energy铁钠电池瞄准美国数据中心。",
+          "北极星新增易事特光储充菲律宾展会反馈、新能安/伊顿电池关键电力资产线索。",
+          "中国能源网新增钙钛矿电池空间站实验首秀。",
+          "SMM新增7条废锂电采购报价和Mount Holland锂矿扩建线索。",
+          "行情复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较15:00持平。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 16:00 CST",
+        "url": "https://www.pv-magazine.com/2026/05/25/inlyte-energy-targets-us-data-centers-with-iron-sodium-batteries/",
+        "original_url": "https://www.pv-magazine.com/2026/05/25/inlyte-energy-targets-us-data-centers-with-iron-sodium-batteries/",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260525/1497080.shtml",
+          "https://news.bjx.com.cn/html/20260525/1497079.shtml",
+          "https://www.cnenergynews.cn/article/4RhvSVEZNTF",
+          "https://newenergy.smm.cn/",
+          "https://news.smm.cn/live/detail/103919936"
+        ],
+        "clean_html": "<p>16:00新增/复核：pv magazine新增Inlyte Energy铁钠电池瞄准美国数据中心；北极星新增易事特光储充菲律宾展会反馈、新能安/伊顿电池关键电力资产线索；SMM新增多条废锂电报价及Mount Holland锂矿扩建。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较15:00持平。</p>",
+        "caption": "数据中心铁钠电池、光储充与废锂电报价新增；SMM材料价较15:00持平。",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432或SSL超时，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 988f567db2f1cb8834af0cf250752a0999637fdc1452ed4217b6db731911230d，SMM新能源 d77d885af2bd501a96b2d5cfc8b3cdc7fea0f86d26c4cbb0ec9cee9075f80a5d，SMM碳酸锂 07d63dfaa8546646a1d9a12a7511714e3c46117d9423ffa32b8bc32f5106c93d，中国能源网 261d7b85dcb945bc2480c8257a4e4aff6630505cbd4bb9663d1f372b4cbf4ff5，国家能源局 4d628b0443dba1fb6d32f5317e1727aa2735ec91ffadc3c94435d76df1504dc5，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 83df36ca9ad72874fa43e880ea1cdcb34957cc0026a0db968056cfaad56433d7，高工锂电SSL失败记录。 海外入口：Energy-Storage.News fe967b04bac39cd7b538f2e127c991a09005bd294de6fffc9bf43af969a2f26d，ESS News 1712c75e3a2a8ccd431b6132d30b824405d4a43db54e30d339ccbd7ecaf4d3e5，pv magazine 9a5dc5e4d371dcc29f964a15faab81c0b91378407c3283076fe0c943561a2e2c，SolarQuarter 803df5bd71da186db0b1b5073db86e088b4b1ab0f26f9f04e13c331ca13f15a5，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 16:00新增/变化：北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿亮相DCW 2026并强调电池成为关键电力资产；pv magazine新增Inlyte Energy以铁钠电池面向美国数据中心、以及基于氧化液化的太阳能组件回收；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增广东粤宏、广州优美、山东丰融、广州融捷、山西迪诺思、江西金铜、赣州腾远等5月25日废锂电采购报价，并出现Mount Holland锂矿扩建获批、产能将翻倍。SMM 16:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。"
+      },
       {
         "id": "latest-20260525-1500-zoe-fortescue-storage",
         "source": "EnergyTrend / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
@@ -35204,6 +35310,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-1600-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；16:00复核，四项较15:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较15:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 16:00 CST",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432或SSL超时，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 988f567db2f1cb8834af0cf250752a0999637fdc1452ed4217b6db731911230d，SMM新能源 d77d885af2bd501a96b2d5cfc8b3cdc7fea0f86d26c4cbb0ec9cee9075f80a5d，SMM碳酸锂 07d63dfaa8546646a1d9a12a7511714e3c46117d9423ffa32b8bc32f5106c93d，中国能源网 261d7b85dcb945bc2480c8257a4e4aff6630505cbd4bb9663d1f372b4cbf4ff5，国家能源局 4d628b0443dba1fb6d32f5317e1727aa2735ec91ffadc3c94435d76df1504dc5，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 83df36ca9ad72874fa43e880ea1cdcb34957cc0026a0db968056cfaad56433d7，高工锂电SSL失败记录。 海外入口：Energy-Storage.News fe967b04bac39cd7b538f2e127c991a09005bd294de6fffc9bf43af969a2f26d，ESS News 1712c75e3a2a8ccd431b6132d30b824405d4a43db54e30d339ccbd7ecaf4d3e5，pv magazine 9a5dc5e4d371dcc29f964a15faab81c0b91378407c3283076fe0c943561a2e2c，SolarQuarter 803df5bd71da186db0b1b5073db86e088b4b1ab0f26f9f04e13c331ca13f15a5，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 16:00新增/变化：北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿亮相DCW 2026并强调电池成为关键电力资产；pv magazine新增Inlyte Energy以铁钠电池面向美国数据中心、以及基于氧化液化的太阳能组件回收；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增广东粤宏、广州优美、山东丰融、广州融捷、山西迪诺思、江西金铜、赣州腾远等5月25日废锂电采购报价，并出现Mount Holland锂矿扩建获批、产能将翻倍。SMM 16:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。"
+      },
+      {
         "id": "material-20260525-1500-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；15:00复核，四项较14:00持平",
@@ -38663,6 +38782,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-1600-public-new",
+        "title": "16:00新增国内+海外储能/电池线索",
+        "value": "15",
+        "unit": "条",
+        "caption": "北极星新增光储充/电池关键电力资产，SMM新增废锂电/锂矿，pv magazine新增铁钠数据中心电池/组件回收，中国能源网新增钙钛矿电池空间站实验。",
+        "delta": "较15:00公开站点链接新增/上移",
+        "direction": "up",
+        "source": "北极星储能网 / SMM / pv magazine / 中国能源网",
+        "as_of": "2026-05-25 16:00 CST",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432或SSL超时，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 988f567db2f1cb8834af0cf250752a0999637fdc1452ed4217b6db731911230d，SMM新能源 d77d885af2bd501a96b2d5cfc8b3cdc7fea0f86d26c4cbb0ec9cee9075f80a5d，SMM碳酸锂 07d63dfaa8546646a1d9a12a7511714e3c46117d9423ffa32b8bc32f5106c93d，中国能源网 261d7b85dcb945bc2480c8257a4e4aff6630505cbd4bb9663d1f372b4cbf4ff5，国家能源局 4d628b0443dba1fb6d32f5317e1727aa2735ec91ffadc3c94435d76df1504dc5，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 83df36ca9ad72874fa43e880ea1cdcb34957cc0026a0db968056cfaad56433d7，高工锂电SSL失败记录。 海外入口：Energy-Storage.News fe967b04bac39cd7b538f2e127c991a09005bd294de6fffc9bf43af969a2f26d，ESS News 1712c75e3a2a8ccd431b6132d30b824405d4a43db54e30d339ccbd7ecaf4d3e5，pv magazine 9a5dc5e4d371dcc29f964a15faab81c0b91378407c3283076fe0c943561a2e2c，SolarQuarter 803df5bd71da186db0b1b5073db86e088b4b1ab0f26f9f04e13c331ca13f15a5，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 16:00新增/变化：北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿亮相DCW 2026并强调电池成为关键电力资产；pv magazine新增Inlyte Energy以铁钠电池面向美国数据中心、以及基于氧化液化的太阳能组件回收；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增广东粤宏、广州优美、山东丰融、广州融捷、山西迪诺思、江西金铜、赣州腾远等5月25日废锂电采购报价，并出现Mount Holland锂矿扩建获批、产能将翻倍。SMM 16:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。",
+        "url": "https://chuneng.bjx.com.cn/"
+      },
       {
         "id": "metric-20260525-1500-energytrend-new",
         "title": "15:00新增海外储能/电池产业线索",
@@ -52151,6 +52283,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-1600-inlyte-data-center",
+        "source": "pv magazine / SolarQuarter",
+        "category": "海外观察/数据中心电力/电池/光伏",
+        "title": "海外新增Inlyte铁钠电池瞄准美国数据中心，并出现太阳能组件回收路线",
+        "summary": "16:00复核海外公开来源后，pv magazine新增Inlyte Energy targets US data centers with iron-sodium batteries，并新增Solar module recycling based on oxidative liquefaction；SolarQuarter新增印度太阳能项目电价争议与MNRE屋顶光伏结构材料审批等线索。",
+        "value": "2",
+        "unit": "条pv magazine新增电池/回收线索",
+        "delta": "Inlyte铁钠电池、组件回收路线新增",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 16:00 CST",
+        "url": "https://www.pv-magazine.com/2026/05/25/inlyte-energy-targets-us-data-centers-with-iron-sodium-batteries/",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432或SSL超时，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 988f567db2f1cb8834af0cf250752a0999637fdc1452ed4217b6db731911230d，SMM新能源 d77d885af2bd501a96b2d5cfc8b3cdc7fea0f86d26c4cbb0ec9cee9075f80a5d，SMM碳酸锂 07d63dfaa8546646a1d9a12a7511714e3c46117d9423ffa32b8bc32f5106c93d，中国能源网 261d7b85dcb945bc2480c8257a4e4aff6630505cbd4bb9663d1f372b4cbf4ff5，国家能源局 4d628b0443dba1fb6d32f5317e1727aa2735ec91ffadc3c94435d76df1504dc5，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 83df36ca9ad72874fa43e880ea1cdcb34957cc0026a0db968056cfaad56433d7，高工锂电SSL失败记录。 海外入口：Energy-Storage.News fe967b04bac39cd7b538f2e127c991a09005bd294de6fffc9bf43af969a2f26d，ESS News 1712c75e3a2a8ccd431b6132d30b824405d4a43db54e30d339ccbd7ecaf4d3e5，pv magazine 9a5dc5e4d371dcc29f964a15faab81c0b91378407c3283076fe0c943561a2e2c，SolarQuarter 803df5bd71da186db0b1b5073db86e088b4b1ab0f26f9f04e13c331ca13f15a5，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 16:00新增/变化：北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿亮相DCW 2026并强调电池成为关键电力资产；pv magazine新增Inlyte Energy以铁钠电池面向美国数据中心、以及基于氧化液化的太阳能组件回收；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增广东粤宏、广州优美、山东丰融、广州融捷、山西迪诺思、江西金铜、赣州腾远等5月25日废锂电采购报价，并出现Mount Holland锂矿扩建获批、产能将翻倍。SMM 16:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。"
+      },
+      {
         "id": "overseas-20260525-1500-zoe-fortescue",
         "source": "EnergyTrend / pv magazine / SolarQuarter",
         "category": "海外观察/BESS/储能制造/光储",
@@ -58282,6 +58429,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-1600-smm-inlyte-bjx",
+        "source": "北极星储能网 / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
+        "category": "数据中心储能/光储充/材料行情",
+        "title": "Inlyte铁钠电池与北极星光储充线索新增；SMM锂电材料较15:00持平",
+        "summary": "16:00严格刷新新增采信：国内侧北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿DCW 2026并强调电池成为关键电力资产；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增7条5月25日废锂电采购报价及Mount Holland锂矿扩建获批产能将翻倍。海外侧pv magazine新增Inlyte Energy铁钠电池瞄准美国数据中心，以及太阳能组件氧化液化回收。SMM行情16:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增海外数据中心铁钠电池、国内光储充/电池资产、废锂电报价与锂矿扩建线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 16:00 CST",
+        "url": "https://www.pv-magazine.com/2026/05/25/inlyte-energy-targets-us-data-centers-with-iron-sodium-batteries/",
+        "methodology": "16:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432或SSL超时，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 988f567db2f1cb8834af0cf250752a0999637fdc1452ed4217b6db731911230d，SMM新能源 d77d885af2bd501a96b2d5cfc8b3cdc7fea0f86d26c4cbb0ec9cee9075f80a5d，SMM碳酸锂 07d63dfaa8546646a1d9a12a7511714e3c46117d9423ffa32b8bc32f5106c93d，中国能源网 261d7b85dcb945bc2480c8257a4e4aff6630505cbd4bb9663d1f372b4cbf4ff5，国家能源局 4d628b0443dba1fb6d32f5317e1727aa2735ec91ffadc3c94435d76df1504dc5，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 83df36ca9ad72874fa43e880ea1cdcb34957cc0026a0db968056cfaad56433d7，高工锂电SSL失败记录。 海外入口：Energy-Storage.News fe967b04bac39cd7b538f2e127c991a09005bd294de6fffc9bf43af969a2f26d，ESS News 1712c75e3a2a8ccd431b6132d30b824405d4a43db54e30d339ccbd7ecaf4d3e5，pv magazine 9a5dc5e4d371dcc29f964a15faab81c0b91378407c3283076fe0c943561a2e2c，SolarQuarter 803df5bd71da186db0b1b5073db86e088b4b1ab0f26f9f04e13c331ca13f15a5，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 16:00新增/变化：北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿亮相DCW 2026并强调电池成为关键电力资产；pv magazine新增Inlyte Energy以铁钠电池面向美国数据中心、以及基于氧化液化的太阳能组件回收；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增广东粤宏、广州优美、山东丰融、广州融捷、山西迪诺思、江西金铜、赣州腾远等5月25日废锂电采购报价，并出现Mount Holland锂矿扩建获批、产能将翻倍。SMM 16:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。"
+      },
       {
         "id": "market-20260525-1500-zoe-fortescue-smm",
         "source": "EnergyTrend / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
@@ -72622,6 +72784,87 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-1600-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe",
+        "finding": "首页已按小时重读；本轮写入Inlyte铁钠数据中心电池、北极星光储充/电池资产和SMM持平行情。"
+      },
+      {
+        "id": "source-20260525-1600-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca",
+        "finding": "/markettrend/已按小时重读；本轮补充数据中心铁钠电池、光储充和SMM材料价格证据。"
+      },
+      {
+        "id": "source-20260525-1600-pv-inlyte",
+        "source": "pv magazine",
+        "url": "https://www.pv-magazine.com/2026/05/25/inlyte-energy-targets-us-data-centers-with-iron-sodium-batteries/",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "9a5dc5e4d371dcc29f964a15faab81c0b91378407c3283076fe0c943561a2e2c",
+        "finding": "新增Inlyte Energy targets US data centers with iron-sodium batteries。"
+      },
+      {
+        "id": "source-20260525-1600-pv-recycling",
+        "source": "pv magazine",
+        "url": "https://www.pv-magazine.com/2026/05/25/solar-module-recycling-based-oxidative-liquefaction/",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "9a5dc5e4d371dcc29f964a15faab81c0b91378407c3283076fe0c943561a2e2c",
+        "finding": "新增Solar module recycling based on oxidative liquefaction。"
+      },
+      {
+        "id": "source-20260525-1600-bjx-east",
+        "source": "北极星储能网",
+        "url": "https://news.bjx.com.cn/html/20260525/1497080.shtml",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "988f567db2f1cb8834af0cf250752a0999637fdc1452ed4217b6db731911230d",
+        "finding": "新增菲律宾太阳能与储能展，易事特光储充获国际客户高度赞誉。"
+      },
+      {
+        "id": "source-20260525-1600-bjx-eta",
+        "source": "北极星储能网",
+        "url": "https://news.bjx.com.cn/html/20260525/1497079.shtml",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "988f567db2f1cb8834af0cf250752a0999637fdc1452ed4217b6db731911230d",
+        "finding": "新增新能安联合伊顿亮相DCW 2026：AI算力迈入千兆时代，电池正成为“关键电力资产”。"
+      },
+      {
+        "id": "source-20260525-1600-cnenergy-perovskite",
+        "source": "中国能源网",
+        "url": "https://www.cnenergynews.cn/article/4RhvSVEZNTF",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "261d7b85dcb945bc2480c8257a4e4aff6630505cbd4bb9663d1f372b4cbf4ff5",
+        "finding": "新增钙钛矿电池空间站实验迎首秀，为何意义重大？"
+      },
+      {
+        "id": "source-20260525-1600-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "d77d885af2bd501a96b2d5cfc8b3cdc7fea0f86d26c4cbb0ec9cee9075f80a5d",
+        "finding": "16:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；新增7条5月25日废锂电采购报价及Mount Holland锂矿扩建。"
+      },
+      {
+        "id": "source-20260525-1600-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 16:00 CST",
+        "status": 200,
+        "sha256": "07d63dfaa8546646a1d9a12a7511714e3c46117d9423ffa32b8bc32f5106c93d",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较15:00持平。"
+      },
+      {
         "id": "source-20260525-1500-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -80262,5 +80505,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T15:00:00+08:00"
+  "checked_at": "2026-05-25T16:00:00+08:00"
 };
