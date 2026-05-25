@@ -1,8 +1,73 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T06:00:00+08:00",
-  "note": "06:00严格刷新新增采信：国内新增/上移长江有色碳酸锂供需改善与期现共振、比亚迪甘肃调研见证签约、奇瑞星途ES8全固态电池/秒充讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头利润改善线索。海外新增/上移Redwood Materials引入前Tesla CFO、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS BESS安全标准、ZOE沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能供需/并网约束。SMM四项行情较05:00持平。",
+  "generated_at": "2026-05-26T07:00:00+08:00",
+  "note": "07:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、奇瑞星途ES8全固态电池+秒充、丰田固态电池+第六代混动转型、比亚迪第二代刀片电池续航超1000km和快充讨论、宁德时代电池单体专利授权、MG 4X半固态电池配置。海外新增/上移Adirondack多镇储能项目moratoriums、agendaNi Rethinking battery storage、Fortescue Pilbara Green Grid、AI数据中心电力需求带动电力/储能负荷讨论。SMM四项行情较06:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0700-meineng-byd-adirondack-ai",
+        "source": "Google News RSS / SMM上海有色 / 北京商报 / 汽车之家 / Times Union / agendaNi / Discovery Alert",
+        "source_type": "RSS/专业行情/国内外公开媒体",
+        "account_name": "Google News / SMM / 北京商报 / 汽车之家 / Times Union / agendaNi",
+        "category": "储能并购/动力电池/储能许可/数据中心电力",
+        "title": "07:00刷新：美能能源拟并购切入储能，比亚迪刀片电池与海外储能许可约束上移",
+        "summary": "07:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、奇瑞星途ES8全固态电池+秒充、丰田固态电池+第六代混动转型、比亚迪第二代刀片电池续航超1000km和快充讨论、宁德时代电池单体专利授权、MG 4X半固态电池配置。海外新增/上移Adirondack多镇储能项目moratoriums、agendaNi Rethinking battery storage、Fortescue Pilbara Green Grid、AI数据中心电力需求带动电力/储能负荷讨论。SMM四项行情较06:00持平。",
+        "body": [
+          "国内储能并购：Google News中文RSS新增北京商报“美能能源募投项目生变，欲关联并购切入储能赛道”，补充A股公司跨入储能业务的资本动作线索。",
+          "国内动力电池：比亚迪第二代刀片电池续航超1000km和快充讨论、奇瑞星途ES8全固态电池+秒充、丰田固态电池+第六代混动、MG 4X半固态电池配置等线索上移。",
+          "国内专利：证券之星线索显示宁德时代获得“电池单体、电池和用电设备”实用新型专利授权。",
+          "海外许可与政策：Times Union报道Adirondack多镇对energy storage projects发布moratoriums，提示海外BESS选址/许可约束继续显性化。",
+          "海外负荷与电网：agendaNi“Rethinking battery storage”、Fortescue Pilbara Green Grid，以及AI数据中心电力需求带动电力股/储能负荷讨论上移。",
+          "行情侧：SMM公开页07:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较06:00持平。"
+        ],
+        "key_points": [
+          "美能能源拟关联并购切入储能赛道，为本轮国内储能资本动作新增线索。",
+          "比亚迪第二代刀片电池、奇瑞/丰田固态电池与MG半固态配置线索上移，动力电池技术传播热度仍高。",
+          "宁德时代电池单体/电池/用电设备实用新型专利授权线索新增。",
+          "Adirondack多镇储能项目moratoriums上移，海外BESS许可和社区接受度风险需关注。",
+          "AI数据中心电力需求、Fortescue Pilbara Green Grid和battery storage rethink线索共同指向电网负荷与储能价值。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较06:00持平。"
+        ],
+        "value": "1000+",
+        "unit": "km第二代刀片电池续航讨论",
+        "delta": "新增美能能源储能并购、Adirondack储能moratoriums、宁德时代专利、AI电力需求线索；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 07:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://www.timesunion.com/",
+          "https://www.agendani.com/",
+          "https://www.discoveryalert.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>07:00新增/复核：美能能源拟并购切入储能、比亚迪第二代刀片电池/奇瑞固态电池/宁德时代专利、Adirondack储能项目moratoriums、AI数据中心电力需求上移；SMM四项行情较06:00持平。</p>",
+        "caption": "国内储能并购与动力电池技术线索新增；海外储能许可约束和AI电力需求上移；SMM材料价持平。",
+        "methodology": "07:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 f3e67a5a9b6b3b79c387db5e4a5b25f2f800f2cda6e54837b6a0d02e26042680，SMM碳酸锂 7324f0edd0add880373c4fe39af2cc4689f63508916de2754fc2039c0ee2e424，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 2c77d01f61da2b1d39de5af567edb7f0e6279a1b351148130b4d2b52960dbc73。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News 77f16d53fdb7297d55a07018bc79c5dd1028eed107a49fe9ccf9b6bcc438155c，pv magazine 06eff47a262ab59743d279c8415b3550b2ff8b8eb20110bb24f9d71dd4db51e9，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 07:00新增/变化：国内RSS新增或上移美能能源募投项目生变并拟关联并购切入储能赛道，奇瑞星途ES8全固态电池+秒充线索继续上移，丰田2026固态电池与第六代混动转型，比亚迪第二代刀片电池续航超1000km/10%至97%充电9分钟讨论，宁德时代获得“电池单体、电池和用电设备”实用新型专利授权，MG 4X半固态电池配置线索。海外RSS新增或上移纽约Adirondack多镇对energy storage项目发布moratoriums，agendaNi刊发Rethinking battery storage，Fortescue Pilbara Green Grid推进2030 Real Zero供电，AI数据中心电力需求带动电力股/储能负荷讨论。SMM 07:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较06:00持平。",
+        "history": [
+          {
+            "label": "第二代刀片电池续航 km",
+            "value": 1000
+          },
+          {
+            "label": "国内新增/上移RSS 条",
+            "value": 14
+          },
+          {
+            "label": "海外新增/上移RSS 条",
+            "value": 5
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0600-lithium-redwood-zoe-ai",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Renewables Now / BNamericas",
@@ -14665,6 +14730,45 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0700-storage-battery-policy",
+        "source": "Google News RSS / SMM上海有色 / 北京商报 / 汽车之家 / Times Union / agendaNi / Discovery Alert",
+        "source_type": "RSS/专业行情/国内外公开媒体",
+        "account_name": "Google News / SMM / 北京商报 / 汽车之家 / Times Union / agendaNi",
+        "category": "储能并购/动力电池/储能许可/数据中心电力",
+        "title": "07:00刷新：美能能源拟并购切入储能，比亚迪刀片电池与海外储能许可约束上移",
+        "summary": "07:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、奇瑞星途ES8全固态电池+秒充、丰田固态电池+第六代混动转型、比亚迪第二代刀片电池续航超1000km和快充讨论、宁德时代电池单体专利授权、MG 4X半固态电池配置。海外新增/上移Adirondack多镇储能项目moratoriums、agendaNi Rethinking battery storage、Fortescue Pilbara Green Grid、AI数据中心电力需求带动电力/储能负荷讨论。SMM四项行情较06:00持平。",
+        "body": [
+          "国内储能并购：Google News中文RSS新增北京商报“美能能源募投项目生变，欲关联并购切入储能赛道”，补充A股公司跨入储能业务的资本动作线索。",
+          "国内动力电池：比亚迪第二代刀片电池续航超1000km和快充讨论、奇瑞星途ES8全固态电池+秒充、丰田固态电池+第六代混动、MG 4X半固态电池配置等线索上移。",
+          "国内专利：证券之星线索显示宁德时代获得“电池单体、电池和用电设备”实用新型专利授权。",
+          "海外许可与政策：Times Union报道Adirondack多镇对energy storage projects发布moratoriums，提示海外BESS选址/许可约束继续显性化。",
+          "海外负荷与电网：agendaNi“Rethinking battery storage”、Fortescue Pilbara Green Grid，以及AI数据中心电力需求带动电力股/储能负荷讨论上移。",
+          "行情侧：SMM公开页07:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较06:00持平。"
+        ],
+        "key_points": [
+          "美能能源拟关联并购切入储能赛道，为本轮国内储能资本动作新增线索。",
+          "比亚迪第二代刀片电池、奇瑞/丰田固态电池与MG半固态配置线索上移，动力电池技术传播热度仍高。",
+          "宁德时代电池单体/电池/用电设备实用新型专利授权线索新增。",
+          "Adirondack多镇储能项目moratoriums上移，海外BESS许可和社区接受度风险需关注。",
+          "AI数据中心电力需求、Fortescue Pilbara Green Grid和battery storage rethink线索共同指向电网负荷与储能价值。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较06:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 07:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://www.timesunion.com/",
+          "https://www.agendani.com/",
+          "https://www.discoveryalert.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>07:00新增/复核：美能能源拟并购切入储能、比亚迪第二代刀片电池/奇瑞固态电池/宁德时代专利、Adirondack储能项目moratoriums、AI数据中心电力需求上移；SMM四项行情较06:00持平。</p>",
+        "caption": "国内储能并购与动力电池技术线索新增；海外储能许可约束和AI电力需求上移；SMM材料价持平。",
+        "methodology": "07:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 f3e67a5a9b6b3b79c387db5e4a5b25f2f800f2cda6e54837b6a0d02e26042680，SMM碳酸锂 7324f0edd0add880373c4fe39af2cc4689f63508916de2754fc2039c0ee2e424，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 2c77d01f61da2b1d39de5af567edb7f0e6279a1b351148130b4d2b52960dbc73。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News 77f16d53fdb7297d55a07018bc79c5dd1028eed107a49fe9ccf9b6bcc438155c，pv magazine 06eff47a262ab59743d279c8415b3550b2ff8b8eb20110bb24f9d71dd4db51e9，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 07:00新增/变化：国内RSS新增或上移美能能源募投项目生变并拟关联并购切入储能赛道，奇瑞星途ES8全固态电池+秒充线索继续上移，丰田2026固态电池与第六代混动转型，比亚迪第二代刀片电池续航超1000km/10%至97%充电9分钟讨论，宁德时代获得“电池单体、电池和用电设备”实用新型专利授权，MG 4X半固态电池配置线索。海外RSS新增或上移纽约Adirondack多镇对energy storage项目发布moratoriums，agendaNi刊发Rethinking battery storage，Fortescue Pilbara Green Grid推进2030 Real Zero供电，AI数据中心电力需求带动电力股/储能负荷讨论。SMM 07:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较06:00持平。"
+      },
       {
         "id": "latest-20260526-0600-lithium-redwood-zoe",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Renewables Now / BNamericas",
@@ -36552,6 +36656,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0700-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；07:00复核，四项较06:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较06:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 07:00 CST",
+        "methodology": "07:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 f3e67a5a9b6b3b79c387db5e4a5b25f2f800f2cda6e54837b6a0d02e26042680，SMM碳酸锂 7324f0edd0add880373c4fe39af2cc4689f63508916de2754fc2039c0ee2e424，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 2c77d01f61da2b1d39de5af567edb7f0e6279a1b351148130b4d2b52960dbc73。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News 77f16d53fdb7297d55a07018bc79c5dd1028eed107a49fe9ccf9b6bcc438155c，pv magazine 06eff47a262ab59743d279c8415b3550b2ff8b8eb20110bb24f9d71dd4db51e9，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 07:00新增/变化：国内RSS新增或上移美能能源募投项目生变并拟关联并购切入储能赛道，奇瑞星途ES8全固态电池+秒充线索继续上移，丰田2026固态电池与第六代混动转型，比亚迪第二代刀片电池续航超1000km/10%至97%充电9分钟讨论，宁德时代获得“电池单体、电池和用电设备”实用新型专利授权，MG 4X半固态电池配置线索。海外RSS新增或上移纽约Adirondack多镇对energy storage项目发布moratoriums，agendaNi刊发Rethinking battery storage，Fortescue Pilbara Green Grid推进2030 Real Zero供电，AI数据中心电力需求带动电力股/储能负荷讨论。SMM 07:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较06:00持平。"
+      },
+      {
         "id": "material-20260526-0600-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；06:00复核，四项较05:00持平",
@@ -40180,6 +40297,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0700-public-new",
+        "title": "07:00新增国内+海外储能/电池线索",
+        "value": "21",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS及海外站点新增或上移美能能源储能并购、比亚迪/奇瑞/丰田动力电池、宁德时代专利、Adirondack储能moratoriums、Fortescue Pilbara Green Grid、AI数据中心电力需求等线索。",
+        "delta": "较06:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SMM / 北京商报 / 汽车之家 / Times Union / agendaNi",
+        "as_of": "2026-05-26 07:00 CST",
+        "methodology": "07:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 f3e67a5a9b6b3b79c387db5e4a5b25f2f800f2cda6e54837b6a0d02e26042680，SMM碳酸锂 7324f0edd0add880373c4fe39af2cc4689f63508916de2754fc2039c0ee2e424，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 2c77d01f61da2b1d39de5af567edb7f0e6279a1b351148130b4d2b52960dbc73。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News 77f16d53fdb7297d55a07018bc79c5dd1028eed107a49fe9ccf9b6bcc438155c，pv magazine 06eff47a262ab59743d279c8415b3550b2ff8b8eb20110bb24f9d71dd4db51e9，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 07:00新增/变化：国内RSS新增或上移美能能源募投项目生变并拟关联并购切入储能赛道，奇瑞星途ES8全固态电池+秒充线索继续上移，丰田2026固态电池与第六代混动转型，比亚迪第二代刀片电池续航超1000km/10%至97%充电9分钟讨论，宁德时代获得“电池单体、电池和用电设备”实用新型专利授权，MG 4X半固态电池配置线索。海外RSS新增或上移纽约Adirondack多镇对energy storage项目发布moratoriums，agendaNi刊发Rethinking battery storage，Fortescue Pilbara Green Grid推进2030 Real Zero供电，AI数据中心电力需求带动电力股/储能负荷讨论。SMM 07:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较06:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0600-public-new",
         "title": "06:00新增国内+海外储能/电池线索",
@@ -53837,6 +53967,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0700-adirondack-ai-grid",
+        "source": "Google News RSS / Times Union / agendaNi / Discovery Alert / Motley Fool",
+        "category": "海外观察/BESS许可/电网负荷/数据中心电力",
+        "title": "海外新增Adirondack储能项目moratoriums、Fortescue绿电网和AI数据中心电力需求",
+        "summary": "07:00海外公开源新增/上移Adirondack towns issue moratoriums on energy storage projects、Rethinking battery storage、Fortescue Pilbara Green Grid: Powering Real Zero by 2030，以及AI数据中心电力需求可能触发电力需求热潮的讨论。",
+        "value": "2030",
+        "unit": "Fortescue Real Zero目标年份",
+        "delta": "海外BESS许可、电网/矿业绿电和AI数据中心电力需求线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 07:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "07:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 f3e67a5a9b6b3b79c387db5e4a5b25f2f800f2cda6e54837b6a0d02e26042680，SMM碳酸锂 7324f0edd0add880373c4fe39af2cc4689f63508916de2754fc2039c0ee2e424，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 2c77d01f61da2b1d39de5af567edb7f0e6279a1b351148130b4d2b52960dbc73。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News 77f16d53fdb7297d55a07018bc79c5dd1028eed107a49fe9ccf9b6bcc438155c，pv magazine 06eff47a262ab59743d279c8415b3550b2ff8b8eb20110bb24f9d71dd4db51e9，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 07:00新增/变化：国内RSS新增或上移美能能源募投项目生变并拟关联并购切入储能赛道，奇瑞星途ES8全固态电池+秒充线索继续上移，丰田2026固态电池与第六代混动转型，比亚迪第二代刀片电池续航超1000km/10%至97%充电9分钟讨论，宁德时代获得“电池单体、电池和用电设备”实用新型专利授权，MG 4X半固态电池配置线索。海外RSS新增或上移纽约Adirondack多镇对energy storage项目发布moratoriums，agendaNi刊发Rethinking battery storage，Fortescue Pilbara Green Grid推进2030 Real Zero供电，AI数据中心电力需求带动电力股/储能负荷讨论。SMM 07:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较06:00持平。"
+      },
+      {
         "id": "overseas-20260526-0600-redwood-zoe-covibess",
         "source": "Google News RSS / Renewables Now / BNamericas / Western Plains App",
         "category": "海外观察/BESS制造/电池回收/储能安全",
@@ -60163,6 +60308,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0700-meineng-adirondack-smm-flat",
+        "source": "Google News RSS / SMM上海有色 / 北京商报 / 汽车之家 / Times Union / agendaNi / Discovery Alert",
+        "category": "储能并购/储能许可/碳酸锂",
+        "title": "美能能源储能并购与Adirondack储能许可约束新增；SMM锂电材料较06:00持平",
+        "summary": "07:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、奇瑞星途ES8全固态电池+秒充、丰田固态电池+第六代混动转型、比亚迪第二代刀片电池续航超1000km和快充讨论、宁德时代电池单体专利授权、MG 4X半固态电池配置。海外新增/上移Adirondack多镇储能项目moratoriums、agendaNi Rethinking battery storage、Fortescue Pilbara Green Grid、AI数据中心电力需求带动电力/储能负荷讨论。SMM四项行情较06:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增储能并购、储能moratoriums、动力电池技术和AI电力需求线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 07:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "07:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 f3e67a5a9b6b3b79c387db5e4a5b25f2f800f2cda6e54837b6a0d02e26042680，SMM碳酸锂 7324f0edd0add880373c4fe39af2cc4689f63508916de2754fc2039c0ee2e424，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 2c77d01f61da2b1d39de5af567edb7f0e6279a1b351148130b4d2b52960dbc73。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News 77f16d53fdb7297d55a07018bc79c5dd1028eed107a49fe9ccf9b6bcc438155c，pv magazine 06eff47a262ab59743d279c8415b3550b2ff8b8eb20110bb24f9d71dd4db51e9，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 07:00新增/变化：国内RSS新增或上移美能能源募投项目生变并拟关联并购切入储能赛道，奇瑞星途ES8全固态电池+秒充线索继续上移，丰田2026固态电池与第六代混动转型，比亚迪第二代刀片电池续航超1000km/10%至97%充电9分钟讨论，宁德时代获得“电池单体、电池和用电设备”实用新型专利授权，MG 4X半固态电池配置线索。海外RSS新增或上移纽约Adirondack多镇对energy storage项目发布moratoriums，agendaNi刊发Rethinking battery storage，Fortescue Pilbara Green Grid推进2030 Real Zero供电，AI数据中心电力需求带动电力股/储能负荷讨论。SMM 07:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较06:00持平。"
+      },
       {
         "id": "market-20260526-0600-zoe-redwood-smm-flat",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Renewables Now / BNamericas",
@@ -74698,6 +74858,60 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0700-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 07:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入美能能源储能并购、动力电池技术、海外储能许可和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0700-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 07:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充美能能源储能并购、Adirondack moratoriums、AI数据中心电力需求和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0700-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 07:00 CST",
+        "status": 200,
+        "sha256": "f3e67a5a9b6b3b79c387db5e4a5b25f2f800f2cda6e54837b6a0d02e26042680",
+        "finding": "07:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较06:00持平。"
+      },
+      {
+        "id": "source-20260526-0700-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 07:00 CST",
+        "status": 200,
+        "sha256": "7324f0edd0add880373c4fe39af2cc4689f63508916de2754fc2039c0ee2e424",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较06:00持平。"
+      },
+      {
+        "id": "source-20260526-0700-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 07:00 CST",
+        "status": 200,
+        "sha256": "3373a37a1fc93c400da05198fe6dd6bd8b3e03e049b7b51158ab57d906e208a6",
+        "finding": "新增/上移美能能源储能并购、比亚迪第二代刀片电池、宁德时代专利、奇瑞/丰田固态电池和MG半固态电池配置线索。"
+      },
+      {
+        "id": "source-20260526-0700-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 07:00 CST",
+        "status": 200,
+        "sha256": "4ca9ead244d3bcdf355eb728a8b66cf077fbaaa5374aa94773f697d0a6b7d29d",
+        "finding": "新增/上移Adirondack储能项目moratoriums、Rethinking battery storage、Fortescue Pilbara Green Grid、AI数据中心电力需求线索。"
+      },
+      {
         "id": "source-20260526-0600-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -83175,5 +83389,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T06:00:00+08:00"
+  "checked_at": "2026-05-26T07:00:00+08:00"
 };
