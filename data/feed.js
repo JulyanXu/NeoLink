@@ -1,8 +1,77 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T19:00:00+08:00",
-  "note": "19:00严格刷新新增采信：北极星新增Fluence手握12GW数据中心储能项目、科力远储能订单储备超15GWh、甘肃庆阳鼓励数据中心自建/共建共享储能；CNESA新增4月新型储能项目8.2GWh。Google News国内新增海辰储能澳洲8小时长时储能系统、卓阳储能沙特18GWh制造基地、湖南建投两项百兆瓦级储能开工等；海外新增Contact Energy新西兰200MWh电池储能投运、NSW 12GWh储能招标、Eurohold保加利亚161MWp hybrid solar+BESS等。SMM行情19:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较16:00持平。",
+  "generated_at": "2026-05-25T20:00:00+08:00",
+  "note": "20:00严格刷新新增采信：国内RSS新增钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、国内单体最大智能组串式储能电站落地内蒙古包头（1944台华为构网PCS）、中核汇能濉溪独立共享储能电站开工、锂价上涨与储能收入高增线索；海外新增Graphite One储能电池材料场址、ZOE沙特18GWh BESS工厂合资、Ford-EDF五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标。SMM行情20:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较19:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-2000-solidstate-zoe-ford-bess",
+        "source": "SMM上海有色 / Google News RSS / SolarQuarter / 北极星储能网 / CNESA",
+        "source_type": "专业行情/国内外RSS/海外行业媒体/国内行业媒体",
+        "account_name": "SMM / Google News / SolarQuarter / 北极星 / CNESA",
+        "category": "固态电池/储能项目/BESS招标/材料行情",
+        "title": "20:00刷新：养生堂5亿元入股固态电池；ZOE沙特18GWh BESS；印度1.13GWh招标",
+        "summary": "20:00严格刷新新增采信：国内RSS新增钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、国内单体最大智能组串式储能电站落地内蒙古包头（1944台华为构网PCS）、中核汇能濉溪独立共享储能电站开工、锂价上涨与储能收入高增线索；海外新增Graphite One储能电池材料场址、ZOE沙特18GWh BESS工厂合资、Ford-EDF五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标。SMM行情20:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较19:00持平。",
+        "body": [
+          "国内新增：Google News中文新增钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电。",
+          "国内项目新增：国内单体最大智能组串式储能电站落地内蒙古包头，标题口径搭载1944台华为智能组串式构网PCS。",
+          "招采/项目新增：中核汇能濉溪县韩村镇独立共享储能电站开工。",
+          "海外新增：ZOE Energy Storage forms JV for 18-GWh BESS factory in Saudi Arabia。",
+          "海外新增：Madhya Pradesh Invites Bids for 1.13 GWh Battery Energy Storage Systems；Ford signs a five-year energy storage deal with EDF。",
+          "海外供应链新增：Graphite One secures Conneaut site and accelerates toward EV and energy storage battery material production。",
+          "行情侧：SMM公开页20:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。"
+        ],
+        "key_points": [
+          "养生堂/钟睒睒：约5亿元战略投资固态电池企业智邦锂电。",
+          "内蒙古包头：国内单体最大智能组串式储能电站，1944台华为构网PCS标题口径。",
+          "ZOE：沙特18GWh BESS工厂合资线索。",
+          "印度Madhya Pradesh：1.13GWh Battery Energy Storage Systems招标。",
+          "Ford/EDF：五年储能协议。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较19:00持平。"
+        ],
+        "value": "18",
+        "unit": "GWh BESS工厂（ZOE沙特合资标题口径）",
+        "delta": "新增固态电池投资、内蒙古构网型储能、沙特18GWh BESS、印度1.13GWh招标等线索",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 20:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://solarquarter.com/2026/05/25/trinasolar-expands-pv-and-battery-storage-offering-for-utility-scale-projects-in-the-philippines/",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "clean_html": "<p>20:00新增/复核：国内RSS新增养生堂约5亿元入股固态电池智邦锂电、内蒙古包头智能组串式储能电站、濉溪独立共享储能开工；海外新增ZOE沙特18GWh BESS、印度Madhya Pradesh 1.13GWh招标、Ford-EDF五年储能协议、Graphite One储能电池材料场址。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。</p>",
+        "caption": "固态电池投资、构网型储能项目与海外BESS招标新增；SMM材料价较19:00持平。",
+        "methodology": "20:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 8506f8b354a9fe32478fce60c526d59d75a51ff7a507b4f0f733f94993c7d8be，SMM碳酸锂 2d2e01c7280302da6e7806c725d8f60844997b32485f674c84469f9b31d31628，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA 4dd2f7ed22cd0c446035ff28e57a55026bfe430c887e99509c41583578033b64。 海外入口：Energy-Storage.News b90fb7433de7935b29f2adb537a4bb8a7f9f0073c1b0c46ccf03016f436b0e0b，ESS News b7e72e3395e9c68258f5b1857bacf5696c11dc57fde5d290c38bf9844293ac3f，pv magazine 46905f17a5205aec3bd66ce5ea3f2158921cd84ef95f8a1b56405de20d4bd383，SolarQuarter 1c90c4dca59733ef4cf9cdadad1f8c21115b15258dc18703df104a7c20bedef9，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 20:00新增/变化：公开站直连方面，SolarQuarter新增/上移Trinasolar在菲律宾扩展公用事业级PV与Battery Storage组合，并出现SM Investments可再生能源用量提升至31%、Cypark转向EPCC推动可再生能源增长等线索。Google News中文新增/上移“站在2026年中：储能行业正集体回答一个本质问题”、钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、储能收入最高飙升274%、国内单体最大智能组串式储能电站落地内蒙古包头（搭载1944台华为智能组串式构网PCS）、中核汇能濉溪县韩村镇独立共享储能电站开工、锂价上涨龙头公司单季利润增近17倍等。海外新增/上移Graphite One锁定Conneaut场址并推进EV/储能电池材料生产、ZOE Energy Storage沙特18GWh BESS工厂合资、Ford与EDF签署五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标、印度可再生能源增长受储能/电网约束、澳洲CIS 7.8GW可再生能源中标等。SMM 20:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。",
+        "history": [
+          {
+            "label": "ZOE沙特BESS工厂 GWh",
+            "value": 18
+          },
+          {
+            "label": "印度MP BESS招标 GWh",
+            "value": 1.13
+          },
+          {
+            "label": "养生堂固态电池投资 亿元",
+            "value": 5
+          },
+          {
+            "label": "华为构网PCS 台",
+            "value": 1944
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260525-1900-fluence-qingyang-cnesa",
         "source": "北极星储能网 / CNESA / SMM上海有色 / Google News RSS / SolarQuarter / Energy-Storage.News",
@@ -13950,6 +14019,45 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-2000-solidstate-zoe-ford-bess",
+        "source": "SMM上海有色 / Google News RSS / SolarQuarter / 北极星储能网 / CNESA",
+        "source_type": "专业行情/国内外RSS/海外行业媒体/国内行业媒体",
+        "account_name": "SMM / Google News / SolarQuarter / 北极星 / CNESA",
+        "category": "固态电池/储能项目/BESS招标/材料行情",
+        "title": "20:00刷新：养生堂5亿元入股固态电池；ZOE沙特18GWh BESS；印度1.13GWh招标",
+        "summary": "20:00严格刷新新增采信：国内RSS新增钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、国内单体最大智能组串式储能电站落地内蒙古包头（1944台华为构网PCS）、中核汇能濉溪独立共享储能电站开工、锂价上涨与储能收入高增线索；海外新增Graphite One储能电池材料场址、ZOE沙特18GWh BESS工厂合资、Ford-EDF五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标。SMM行情20:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较19:00持平。",
+        "body": [
+          "国内新增：Google News中文新增钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电。",
+          "国内项目新增：国内单体最大智能组串式储能电站落地内蒙古包头，标题口径搭载1944台华为智能组串式构网PCS。",
+          "招采/项目新增：中核汇能濉溪县韩村镇独立共享储能电站开工。",
+          "海外新增：ZOE Energy Storage forms JV for 18-GWh BESS factory in Saudi Arabia。",
+          "海外新增：Madhya Pradesh Invites Bids for 1.13 GWh Battery Energy Storage Systems；Ford signs a five-year energy storage deal with EDF。",
+          "海外供应链新增：Graphite One secures Conneaut site and accelerates toward EV and energy storage battery material production。",
+          "行情侧：SMM公开页20:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。"
+        ],
+        "key_points": [
+          "养生堂/钟睒睒：约5亿元战略投资固态电池企业智邦锂电。",
+          "内蒙古包头：国内单体最大智能组串式储能电站，1944台华为构网PCS标题口径。",
+          "ZOE：沙特18GWh BESS工厂合资线索。",
+          "印度Madhya Pradesh：1.13GWh Battery Energy Storage Systems招标。",
+          "Ford/EDF：五年储能协议。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较19:00持平。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 20:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://solarquarter.com/2026/05/25/trinasolar-expands-pv-and-battery-storage-offering-for-utility-scale-projects-in-the-philippines/",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "clean_html": "<p>20:00新增/复核：国内RSS新增养生堂约5亿元入股固态电池智邦锂电、内蒙古包头智能组串式储能电站、濉溪独立共享储能开工；海外新增ZOE沙特18GWh BESS、印度Madhya Pradesh 1.13GWh招标、Ford-EDF五年储能协议、Graphite One储能电池材料场址。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。</p>",
+        "caption": "固态电池投资、构网型储能项目与海外BESS招标新增；SMM材料价较19:00持平。",
+        "methodology": "20:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 8506f8b354a9fe32478fce60c526d59d75a51ff7a507b4f0f733f94993c7d8be，SMM碳酸锂 2d2e01c7280302da6e7806c725d8f60844997b32485f674c84469f9b31d31628，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA 4dd2f7ed22cd0c446035ff28e57a55026bfe430c887e99509c41583578033b64。 海外入口：Energy-Storage.News b90fb7433de7935b29f2adb537a4bb8a7f9f0073c1b0c46ccf03016f436b0e0b，ESS News b7e72e3395e9c68258f5b1857bacf5696c11dc57fde5d290c38bf9844293ac3f，pv magazine 46905f17a5205aec3bd66ce5ea3f2158921cd84ef95f8a1b56405de20d4bd383，SolarQuarter 1c90c4dca59733ef4cf9cdadad1f8c21115b15258dc18703df104a7c20bedef9，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 20:00新增/变化：公开站直连方面，SolarQuarter新增/上移Trinasolar在菲律宾扩展公用事业级PV与Battery Storage组合，并出现SM Investments可再生能源用量提升至31%、Cypark转向EPCC推动可再生能源增长等线索。Google News中文新增/上移“站在2026年中：储能行业正集体回答一个本质问题”、钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、储能收入最高飙升274%、国内单体最大智能组串式储能电站落地内蒙古包头（搭载1944台华为智能组串式构网PCS）、中核汇能濉溪县韩村镇独立共享储能电站开工、锂价上涨龙头公司单季利润增近17倍等。海外新增/上移Graphite One锁定Conneaut场址并推进EV/储能电池材料生产、ZOE Energy Storage沙特18GWh BESS工厂合资、Ford与EDF签署五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标、印度可再生能源增长受储能/电网约束、澳洲CIS 7.8GW可再生能源中标等。SMM 20:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。"
+      },
       {
         "id": "latest-20260525-1900-fluence-qingyang-cnesa",
         "source": "北极星储能网 / CNESA / SMM上海有色 / Google News RSS / SolarQuarter / Energy-Storage.News",
@@ -35420,6 +35528,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-2000-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；20:00复核，四项较19:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较19:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 20:00 CST",
+        "methodology": "20:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 8506f8b354a9fe32478fce60c526d59d75a51ff7a507b4f0f733f94993c7d8be，SMM碳酸锂 2d2e01c7280302da6e7806c725d8f60844997b32485f674c84469f9b31d31628，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA 4dd2f7ed22cd0c446035ff28e57a55026bfe430c887e99509c41583578033b64。 海外入口：Energy-Storage.News b90fb7433de7935b29f2adb537a4bb8a7f9f0073c1b0c46ccf03016f436b0e0b，ESS News b7e72e3395e9c68258f5b1857bacf5696c11dc57fde5d290c38bf9844293ac3f，pv magazine 46905f17a5205aec3bd66ce5ea3f2158921cd84ef95f8a1b56405de20d4bd383，SolarQuarter 1c90c4dca59733ef4cf9cdadad1f8c21115b15258dc18703df104a7c20bedef9，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 20:00新增/变化：公开站直连方面，SolarQuarter新增/上移Trinasolar在菲律宾扩展公用事业级PV与Battery Storage组合，并出现SM Investments可再生能源用量提升至31%、Cypark转向EPCC推动可再生能源增长等线索。Google News中文新增/上移“站在2026年中：储能行业正集体回答一个本质问题”、钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、储能收入最高飙升274%、国内单体最大智能组串式储能电站落地内蒙古包头（搭载1944台华为智能组串式构网PCS）、中核汇能濉溪县韩村镇独立共享储能电站开工、锂价上涨龙头公司单季利润增近17倍等。海外新增/上移Graphite One锁定Conneaut场址并推进EV/储能电池材料生产、ZOE Energy Storage沙特18GWh BESS工厂合资、Ford与EDF签署五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标、印度可再生能源增长受储能/电网约束、澳洲CIS 7.8GW可再生能源中标等。SMM 20:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。"
+      },
+      {
         "id": "material-20260525-1900-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；19:00复核，四项较16:00持平",
@@ -38905,6 +39026,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-2000-public-new",
+        "title": "20:00新增国内+海外储能/电池线索",
+        "value": "44",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS、SolarQuarter、SMM等新增或上移固态电池投资、构网型储能、BESS工厂/招标和材料行情线索。",
+        "delta": "较19:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SolarQuarter / SMM / 北极星储能网",
+        "as_of": "2026-05-25 20:00 CST",
+        "methodology": "20:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 8506f8b354a9fe32478fce60c526d59d75a51ff7a507b4f0f733f94993c7d8be，SMM碳酸锂 2d2e01c7280302da6e7806c725d8f60844997b32485f674c84469f9b31d31628，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA 4dd2f7ed22cd0c446035ff28e57a55026bfe430c887e99509c41583578033b64。 海外入口：Energy-Storage.News b90fb7433de7935b29f2adb537a4bb8a7f9f0073c1b0c46ccf03016f436b0e0b，ESS News b7e72e3395e9c68258f5b1857bacf5696c11dc57fde5d290c38bf9844293ac3f，pv magazine 46905f17a5205aec3bd66ce5ea3f2158921cd84ef95f8a1b56405de20d4bd383，SolarQuarter 1c90c4dca59733ef4cf9cdadad1f8c21115b15258dc18703df104a7c20bedef9，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 20:00新增/变化：公开站直连方面，SolarQuarter新增/上移Trinasolar在菲律宾扩展公用事业级PV与Battery Storage组合，并出现SM Investments可再生能源用量提升至31%、Cypark转向EPCC推动可再生能源增长等线索。Google News中文新增/上移“站在2026年中：储能行业正集体回答一个本质问题”、钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、储能收入最高飙升274%、国内单体最大智能组串式储能电站落地内蒙古包头（搭载1944台华为智能组串式构网PCS）、中核汇能濉溪县韩村镇独立共享储能电站开工、锂价上涨龙头公司单季利润增近17倍等。海外新增/上移Graphite One锁定Conneaut场址并推进EV/储能电池材料生产、ZOE Energy Storage沙特18GWh BESS工厂合资、Ford与EDF签署五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标、印度可再生能源增长受储能/电网约束、澳洲CIS 7.8GW可再生能源中标等。SMM 20:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260525-1900-public-new",
         "title": "19:00新增国内+海外储能/电池线索",
@@ -52419,6 +52553,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-2000-zoe-mp-ford",
+        "source": "Google News RSS / SolarQuarter",
+        "category": "海外观察/BESS/储能供应链",
+        "title": "海外新增ZOE沙特18GWh BESS、印度1.13GWh招标与Ford-EDF五年储能协议",
+        "summary": "20:00海外RSS显示ZOE Energy Storage沙特18GWh BESS工厂合资、Madhya Pradesh 1.13GWh Battery Energy Storage Systems招标、Ford与EDF签署五年储能协议、Graphite One推进EV和储能电池材料生产场址。",
+        "value": "18",
+        "unit": "GWh ZOE沙特BESS工厂",
+        "delta": "ZOE 18GWh、MP 1.13GWh、Ford-EDF五年储能协议新增",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 20:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "20:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 8506f8b354a9fe32478fce60c526d59d75a51ff7a507b4f0f733f94993c7d8be，SMM碳酸锂 2d2e01c7280302da6e7806c725d8f60844997b32485f674c84469f9b31d31628，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA 4dd2f7ed22cd0c446035ff28e57a55026bfe430c887e99509c41583578033b64。 海外入口：Energy-Storage.News b90fb7433de7935b29f2adb537a4bb8a7f9f0073c1b0c46ccf03016f436b0e0b，ESS News b7e72e3395e9c68258f5b1857bacf5696c11dc57fde5d290c38bf9844293ac3f，pv magazine 46905f17a5205aec3bd66ce5ea3f2158921cd84ef95f8a1b56405de20d4bd383，SolarQuarter 1c90c4dca59733ef4cf9cdadad1f8c21115b15258dc18703df104a7c20bedef9，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 20:00新增/变化：公开站直连方面，SolarQuarter新增/上移Trinasolar在菲律宾扩展公用事业级PV与Battery Storage组合，并出现SM Investments可再生能源用量提升至31%、Cypark转向EPCC推动可再生能源增长等线索。Google News中文新增/上移“站在2026年中：储能行业正集体回答一个本质问题”、钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、储能收入最高飙升274%、国内单体最大智能组串式储能电站落地内蒙古包头（搭载1944台华为智能组串式构网PCS）、中核汇能濉溪县韩村镇独立共享储能电站开工、锂价上涨龙头公司单季利润增近17倍等。海外新增/上移Graphite One锁定Conneaut场址并推进EV/储能电池材料生产、ZOE Energy Storage沙特18GWh BESS工厂合资、Ford与EDF签署五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标、印度可再生能源增长受储能/电网约束、澳洲CIS 7.8GW可再生能源中标等。SMM 20:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。"
+      },
+      {
         "id": "overseas-20260525-1900-contact-nsw-bess",
         "source": "Google News RSS / Energy-Storage.News / SolarQuarter",
         "category": "海外观察/BESS/储能招标",
@@ -58580,6 +58729,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-2000-smm-solidstate-bess",
+        "source": "SMM上海有色 / Google News RSS / SolarQuarter / 北极星储能网 / CNESA",
+        "category": "固态电池/海外BESS/材料行情",
+        "title": "固态电池投资与海外BESS线索新增；SMM锂电材料较19:00持平",
+        "summary": "20:00严格刷新新增采信：国内RSS新增钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、国内单体最大智能组串式储能电站落地内蒙古包头（1944台华为构网PCS）、中核汇能濉溪独立共享储能电站开工、锂价上涨与储能收入高增线索；海外新增Graphite One储能电池材料场址、ZOE沙特18GWh BESS工厂合资、Ford-EDF五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标。SMM行情20:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较19:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增固态电池投资、ZOE 18GWh BESS、印度1.13GWh招标；SMM四项持平",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 20:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "20:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 8506f8b354a9fe32478fce60c526d59d75a51ff7a507b4f0f733f94993c7d8be，SMM碳酸锂 2d2e01c7280302da6e7806c725d8f60844997b32485f674c84469f9b31d31628，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA 4dd2f7ed22cd0c446035ff28e57a55026bfe430c887e99509c41583578033b64。 海外入口：Energy-Storage.News b90fb7433de7935b29f2adb537a4bb8a7f9f0073c1b0c46ccf03016f436b0e0b，ESS News b7e72e3395e9c68258f5b1857bacf5696c11dc57fde5d290c38bf9844293ac3f，pv magazine 46905f17a5205aec3bd66ce5ea3f2158921cd84ef95f8a1b56405de20d4bd383，SolarQuarter 1c90c4dca59733ef4cf9cdadad1f8c21115b15258dc18703df104a7c20bedef9，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 20:00新增/变化：公开站直连方面，SolarQuarter新增/上移Trinasolar在菲律宾扩展公用事业级PV与Battery Storage组合，并出现SM Investments可再生能源用量提升至31%、Cypark转向EPCC推动可再生能源增长等线索。Google News中文新增/上移“站在2026年中：储能行业正集体回答一个本质问题”、钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、储能收入最高飙升274%、国内单体最大智能组串式储能电站落地内蒙古包头（搭载1944台华为智能组串式构网PCS）、中核汇能濉溪县韩村镇独立共享储能电站开工、锂价上涨龙头公司单季利润增近17倍等。海外新增/上移Graphite One锁定Conneaut场址并推进EV/储能电池材料生产、ZOE Energy Storage沙特18GWh BESS工厂合资、Ford与EDF签署五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标、印度可再生能源增长受储能/电网约束、澳洲CIS 7.8GW可再生能源中标等。SMM 20:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较19:00持平。"
+      },
       {
         "id": "market-20260525-1900-fluence-smm",
         "source": "北极星储能网 / CNESA / SMM上海有色 / Google News RSS / SolarQuarter / Energy-Storage.News",
@@ -72950,6 +73114,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-2000-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 20:00 CST",
+        "status": 200,
+        "sha256": "bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce",
+        "finding": "首页已按小时重读；本轮写入固态电池投资、构网型储能、海外BESS和SMM持平行情。"
+      },
+      {
+        "id": "source-20260525-2000-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 20:00 CST",
+        "status": 200,
+        "sha256": "1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd",
+        "finding": "/markettrend/已按小时重读；本轮补充固态电池、构网型储能、海外BESS和SMM材料价格证据。"
+      },
+      {
+        "id": "source-20260525-2000-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 20:00 CST",
+        "status": 200,
+        "sha256": "8506f8b354a9fe32478fce60c526d59d75a51ff7a507b4f0f733f94993c7d8be",
+        "finding": "20:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较19:00持平。"
+      },
+      {
+        "id": "source-20260525-2000-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 20:00 CST",
+        "status": 200,
+        "sha256": "2d2e01c7280302da6e7806c725d8f60844997b32485f674c84469f9b31d31628",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较19:00持平。"
+      },
+      {
+        "id": "source-20260525-2000-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 20:00 CST",
+        "status": 200,
+        "sha256": "83db85b9a1ba5ea3277a44558b42adee8a6ca728c715e1158c70013694af54a9",
+        "finding": "新增/上移养生堂约5亿元投资固态电池智邦锂电、内蒙古包头智能组串式储能电站、濉溪独立共享储能电站开工等。"
+      },
+      {
+        "id": "source-20260525-2000-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 20:00 CST",
+        "status": 200,
+        "sha256": "57df41a4f875fb79c024a7169a374f9524b64937bddc0ac2b11cba34e0026023",
+        "finding": "新增/上移ZOE沙特18GWh BESS、Ford-EDF五年储能协议、Madhya Pradesh 1.13GWh BESS招标、Graphite One储能材料场址。"
+      },
+      {
+        "id": "source-20260525-2000-solarquarter-trina",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/2026/05/25/trinasolar-expands-pv-and-battery-storage-offering-for-utility-scale-projects-in-the-philippines/",
+        "as_of": "2026-05-25 20:00 CST",
+        "status": 200,
+        "sha256": "1c90c4dca59733ef4cf9cdadad1f8c21115b15258dc18703df104a7c20bedef9",
+        "finding": "新增/上移Trinasolar在菲律宾扩展公用事业级PV与Battery Storage组合。"
+      },
+      {
         "id": "source-20260525-1900-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -80761,5 +80988,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T19:00:00+08:00"
+  "checked_at": "2026-05-25T20:00:00+08:00"
 };
