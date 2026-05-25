@@ -1,8 +1,75 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T12:00:00+08:00",
-  "note": "12:00严格刷新新增采信：国内侧较11:00新增睿储科技上库250MW/1000MWh独立储能项目EPC招标、四川乐山100MW/200MWh电化学储能EPC中标候选人（0.9446~0.9861元/Wh）、高青150MW/300MWh独立共享储能EPC中标候选人（0.95元/Wh），并新增东莞新型储能产业链合作等线索。电池链新增特斯拉Model YL+电池增大/续航突破800km、高容纳米硅碳负极航空电池产业化、小米电池安全测试1230项继续上移。海外侧新增Contact Energy新西兰200MWh电池储能系统投运、澳大利亚CIS第7轮7.8GW可再生能源、19个混合电池项目获联邦支持、LG Energy Solution AI制造与印度热储能材料。SMM行情12:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较11:00持平；磷酸铁锂61285元/吨、电解液28950元/吨。",
+  "generated_at": "2026-05-25T13:00:00+08:00",
+  "note": "13:00严格刷新新增采信：国内侧较12:00新增储能电池ETF资金连续流入、智光固态变压器展会、人民网山西储能电站“牵线搭桥”和比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外侧新增Ford Energy与EDF Power Solutions在美国签署20GWh BESS供应框架协议、NSW启动2.5GW可再生能源与12GWh储能招标、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌和AI数据中心电网压力。SMM行情13:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂升至62560元/吨，电解液28950元/吨。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-1300-ford-edf-nsw-lfp-smm",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / SolarQuarter / Energetica India / 人民网山西",
+        "source_type": "国内外RSS发现/专业行情/海外行业媒体/国内公开媒体/本站回读",
+        "account_name": "Google News RSS / SMM / Energy-Storage.News / SolarQuarter / Energetica India",
+        "category": "BESS供应框架/储能招标/材料行情/电池技术",
+        "title": "13:00刷新：Ford-EDF 20GWh BESS框架、NSW 12GWh储能招标；SMM磷酸铁锂升至62560元/吨",
+        "summary": "13:00严格刷新新增采信：国内侧较12:00新增储能电池ETF资金连续流入、智光固态变压器展会、人民网山西储能电站“牵线搭桥”和比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外侧新增Ford Energy与EDF Power Solutions在美国签署20GWh BESS供应框架协议、NSW启动2.5GW可再生能源与12GWh储能招标、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌和AI数据中心电网压力。SMM行情13:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂升至62560元/吨，电解液28950元/吨。",
+        "body": [
+          "海外RSS较12:00新增/上移：Ford Energy与EDF Power Solutions在美国签署20GWh BESS supply framework agreement，属于大规模电网级储能供应链线索。",
+          "政策/招标侧新增：NSW launches 2.5GW renewable energy and 12GWh storage tender，澳洲继续用招标机制加速可再生能源与储能并网。",
+          "国内侧新增/上移：储能电池ETF资金连续流入、智光固态变压器展会线索、人民网山西“为储能电站牵线搭桥”，以及比亚迪二代刀片电池正式发布并首搭10款新车。",
+          "行情侧：SMM公开页13:00复核，电池级碳酸锂183250元/吨、SMM电池级碳酸锂指数183826元/吨，较12:00持平；磷酸铁锂62560元/吨，较12:00记录61285元/吨上行；电解液28950元/吨持平。",
+          "数据中心电力侧：海外RSS继续出现AI data centers与grid pressure讨论，配合储能订单/招标线索，显示电网调节资源需求仍是海外叙事主线。"
+        ],
+        "key_points": [
+          "海外新增：Ford Energy与EDF Power Solutions签署20GWh BESS供应框架协议。",
+          "海外招标：NSW启动2.5GW可再生能源与12GWh storage tender。",
+          "国内新增/上移：储能电池ETF资金流入、智光固态变压器、人民网山西储能电站协同、比亚迪二代刀片电池。",
+          "行情复核：SMM电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平。",
+          "材料变化：磷酸铁锂升至62560元/吨，较12:00记录61285元/吨上行；电解液28950元/吨持平。"
+        ],
+        "value": "62560",
+        "unit": "元/吨 磷酸铁锂",
+        "delta": "较12:00记录+1275元/吨；新增Ford-EDF 20GWh BESS框架和NSW 12GWh储能招标线索",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 13:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/",
+          "https://solarquarter.com/"
+        ],
+        "clean_html": "<p>13:00新增/复核：Ford Energy与EDF Power Solutions签署20GWh BESS供应框架协议，NSW启动2.5GW可再生能源与12GWh储能招标；SMM电池级碳酸锂183250元/吨、指数183826元/吨较12:00持平，磷酸铁锂升至62560元/吨。</p>",
+        "caption": "海外BESS供应/招标线索新增；SMM磷酸铁锂较12:00记录上行。",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 d8770b0e5fc64dae2a949f71ab2fcf87438d15e9586409d5b6ec325930eb5117，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 00b9a900d8e2ad202e4df8c44af952207894dc1229ee383af60d5a51ebb4f9cf，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 5c972372d823c0cd2b18db61ce783f0caa36fda88a6fad3952195cf0a42d4399/9c3ac24e5a637ff61c79896d206fddd36376cf7ab311767b6fcb3e043edb9c66/f56dd14010006560ab150916b2d107df06044b7704ce31092f852a23884f1abb。 海外入口：Energy-Storage.News 19d1e7aeb897207c349d8400fc3591df24468d5b1f68f9b8ad4006b09ccb85a5，ESS News 78ecabe7dd63c65d83dbbe25cf8a768f1479ce926a02484929c2cbfba23e1d5a，pv magazine 944d9cad67b5de0a85e9d4361facf03262439a0e4a1cdf11d9a0b50b2592287c，SolarQuarter 6409b58175f4bff1e0c768b48dc6f2dd7aad5768dfd099d15555e11f8b2c859d，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS f98eececf75f5130f6622305ac918b7d5600195b486fe196b3a386ad635622c0/bcd09386fe3a36bb24c6b0455122fe29d66638ff459cd509d361796cd0860f85/e9dfd921710793d5ab505481ab8bd86d4035df7eb90267e984f7888ca8585119。 13:00新增/变化：较12:00，中文RSS新增/上移储能电池ETF资金连续流入、智光固态变压器南京展会预告、人民网山西“为储能电站牵线搭桥”，以及比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外RSS新增/上移Ford Energy与EDF Power Solutions签署20GWh BESS supply framework agreement、NSW启动2.5GW可再生能源与12GWh storage tender、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌、AI数据中心电网压力等。SMM 13:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂由12:00记录的61285元/吨上行至62560元/吨，电解液28950元/吨持平。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 183826
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 28950
+          },
+          {
+            "label": "中文新增/上移RSS标题 条",
+            "value": 15
+          },
+          {
+            "label": "海外新增/上移RSS标题 条",
+            "value": 18
+          }
+        ]
+      },
       {
         "id": "headline-20260525-1200-shangku-leshan-gaoqing-contact-200mwh",
         "source": "Google News RSS / SMM上海有色 / 国际储能网 / Energy-Storage.News / PV Tech / SolarQuarter",
@@ -13610,6 +13677,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-1300-ford-edf-nsw-smm-lfp",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / SolarQuarter / Energetica India / 人民网山西",
+        "source_type": "国内外RSS发现/专业行情/海外行业媒体/国内公开媒体/本站回读",
+        "account_name": "Google News RSS / SMM / Energy-Storage.News / SolarQuarter / Energetica India",
+        "category": "BESS供应框架/储能招标/材料行情/电池技术",
+        "title": "13:00刷新：Ford-EDF 20GWh BESS框架、NSW 12GWh储能招标；SMM磷酸铁锂升至62560元/吨",
+        "summary": "13:00严格刷新新增采信：国内侧较12:00新增储能电池ETF资金连续流入、智光固态变压器展会、人民网山西储能电站“牵线搭桥”和比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外侧新增Ford Energy与EDF Power Solutions在美国签署20GWh BESS供应框架协议、NSW启动2.5GW可再生能源与12GWh储能招标、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌和AI数据中心电网压力。SMM行情13:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂升至62560元/吨，电解液28950元/吨。",
+        "body": [
+          "海外RSS较12:00新增/上移：Ford Energy与EDF Power Solutions在美国签署20GWh BESS supply framework agreement，属于大规模电网级储能供应链线索。",
+          "政策/招标侧新增：NSW launches 2.5GW renewable energy and 12GWh storage tender，澳洲继续用招标机制加速可再生能源与储能并网。",
+          "国内侧新增/上移：储能电池ETF资金连续流入、智光固态变压器展会线索、人民网山西“为储能电站牵线搭桥”，以及比亚迪二代刀片电池正式发布并首搭10款新车。",
+          "行情侧：SMM公开页13:00复核，电池级碳酸锂183250元/吨、SMM电池级碳酸锂指数183826元/吨，较12:00持平；磷酸铁锂62560元/吨，较12:00记录61285元/吨上行；电解液28950元/吨持平。",
+          "数据中心电力侧：海外RSS继续出现AI data centers与grid pressure讨论，配合储能订单/招标线索，显示电网调节资源需求仍是海外叙事主线。"
+        ],
+        "key_points": [
+          "海外新增：Ford Energy与EDF Power Solutions签署20GWh BESS供应框架协议。",
+          "海外招标：NSW启动2.5GW可再生能源与12GWh storage tender。",
+          "国内新增/上移：储能电池ETF资金流入、智光固态变压器、人民网山西储能电站协同、比亚迪二代刀片电池。",
+          "行情复核：SMM电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平。",
+          "材料变化：磷酸铁锂升至62560元/吨，较12:00记录61285元/吨上行；电解液28950元/吨持平。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 13:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/",
+          "https://solarquarter.com/"
+        ],
+        "clean_html": "<p>13:00新增/复核：Ford Energy与EDF Power Solutions签署20GWh BESS供应框架协议，NSW启动2.5GW可再生能源与12GWh储能招标；SMM电池级碳酸锂183250元/吨、指数183826元/吨较12:00持平，磷酸铁锂升至62560元/吨。</p>",
+        "caption": "海外BESS供应/招标线索新增；SMM磷酸铁锂较12:00记录上行。",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 d8770b0e5fc64dae2a949f71ab2fcf87438d15e9586409d5b6ec325930eb5117，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 00b9a900d8e2ad202e4df8c44af952207894dc1229ee383af60d5a51ebb4f9cf，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 5c972372d823c0cd2b18db61ce783f0caa36fda88a6fad3952195cf0a42d4399/9c3ac24e5a637ff61c79896d206fddd36376cf7ab311767b6fcb3e043edb9c66/f56dd14010006560ab150916b2d107df06044b7704ce31092f852a23884f1abb。 海外入口：Energy-Storage.News 19d1e7aeb897207c349d8400fc3591df24468d5b1f68f9b8ad4006b09ccb85a5，ESS News 78ecabe7dd63c65d83dbbe25cf8a768f1479ce926a02484929c2cbfba23e1d5a，pv magazine 944d9cad67b5de0a85e9d4361facf03262439a0e4a1cdf11d9a0b50b2592287c，SolarQuarter 6409b58175f4bff1e0c768b48dc6f2dd7aad5768dfd099d15555e11f8b2c859d，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS f98eececf75f5130f6622305ac918b7d5600195b486fe196b3a386ad635622c0/bcd09386fe3a36bb24c6b0455122fe29d66638ff459cd509d361796cd0860f85/e9dfd921710793d5ab505481ab8bd86d4035df7eb90267e984f7888ca8585119。 13:00新增/变化：较12:00，中文RSS新增/上移储能电池ETF资金连续流入、智光固态变压器南京展会预告、人民网山西“为储能电站牵线搭桥”，以及比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外RSS新增/上移Ford Energy与EDF Power Solutions签署20GWh BESS supply framework agreement、NSW启动2.5GW可再生能源与12GWh storage tender、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌、AI数据中心电网压力等。SMM 13:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂由12:00记录的61285元/吨上行至62560元/吨，电解液28950元/吨持平。"
+      },
       {
         "id": "latest-20260525-1200-shangku-leshan-gaoqing",
         "source": "Google News RSS / SMM上海有色 / 国际储能网 / Energy-Storage.News / PV Tech / SolarQuarter",
@@ -34890,6 +34994,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-1300-smm-li2co3-lfp-up",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；13:00复核，碳酸锂较12:00持平，磷酸铁锂升至62560元/吨",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "电池级碳酸锂0；SMM电碳指数0；磷酸铁锂较12:00记录+1275；电解液0",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 13:00 CST",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 d8770b0e5fc64dae2a949f71ab2fcf87438d15e9586409d5b6ec325930eb5117，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 00b9a900d8e2ad202e4df8c44af952207894dc1229ee383af60d5a51ebb4f9cf，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 5c972372d823c0cd2b18db61ce783f0caa36fda88a6fad3952195cf0a42d4399/9c3ac24e5a637ff61c79896d206fddd36376cf7ab311767b6fcb3e043edb9c66/f56dd14010006560ab150916b2d107df06044b7704ce31092f852a23884f1abb。 海外入口：Energy-Storage.News 19d1e7aeb897207c349d8400fc3591df24468d5b1f68f9b8ad4006b09ccb85a5，ESS News 78ecabe7dd63c65d83dbbe25cf8a768f1479ce926a02484929c2cbfba23e1d5a，pv magazine 944d9cad67b5de0a85e9d4361facf03262439a0e4a1cdf11d9a0b50b2592287c，SolarQuarter 6409b58175f4bff1e0c768b48dc6f2dd7aad5768dfd099d15555e11f8b2c859d，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS f98eececf75f5130f6622305ac918b7d5600195b486fe196b3a386ad635622c0/bcd09386fe3a36bb24c6b0455122fe29d66638ff459cd509d361796cd0860f85/e9dfd921710793d5ab505481ab8bd86d4035df7eb90267e984f7888ca8585119。 13:00新增/变化：较12:00，中文RSS新增/上移储能电池ETF资金连续流入、智光固态变压器南京展会预告、人民网山西“为储能电站牵线搭桥”，以及比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外RSS新增/上移Ford Energy与EDF Power Solutions签署20GWh BESS supply framework agreement、NSW启动2.5GW可再生能源与12GWh storage tender、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌、AI数据中心电网压力等。SMM 13:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂由12:00记录的61285元/吨上行至62560元/吨，电解液28950元/吨持平。"
+      },
+      {
         "id": "material-20260525-1200-smm-li2co3-lfp-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；12:00复核，电池级碳酸锂与电碳指数较11:00持平",
@@ -38310,6 +38427,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-1300-smm-lfp-up",
+        "title": "SMM磷酸铁锂报价",
+        "value": "62560",
+        "unit": "元/吨",
+        "caption": "13:00 SMM新能源页显示磷酸铁锂62560元/吨，较12:00记录61285元/吨上行；电池级碳酸锂183250元/吨、电解液28950元/吨。",
+        "delta": "较12:00记录+1275元/吨",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "as_of": "2026-05-25 13:00 CST",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 d8770b0e5fc64dae2a949f71ab2fcf87438d15e9586409d5b6ec325930eb5117，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 00b9a900d8e2ad202e4df8c44af952207894dc1229ee383af60d5a51ebb4f9cf，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 5c972372d823c0cd2b18db61ce783f0caa36fda88a6fad3952195cf0a42d4399/9c3ac24e5a637ff61c79896d206fddd36376cf7ab311767b6fcb3e043edb9c66/f56dd14010006560ab150916b2d107df06044b7704ce31092f852a23884f1abb。 海外入口：Energy-Storage.News 19d1e7aeb897207c349d8400fc3591df24468d5b1f68f9b8ad4006b09ccb85a5，ESS News 78ecabe7dd63c65d83dbbe25cf8a768f1479ce926a02484929c2cbfba23e1d5a，pv magazine 944d9cad67b5de0a85e9d4361facf03262439a0e4a1cdf11d9a0b50b2592287c，SolarQuarter 6409b58175f4bff1e0c768b48dc6f2dd7aad5768dfd099d15555e11f8b2c859d，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS f98eececf75f5130f6622305ac918b7d5600195b486fe196b3a386ad635622c0/bcd09386fe3a36bb24c6b0455122fe29d66638ff459cd509d361796cd0860f85/e9dfd921710793d5ab505481ab8bd86d4035df7eb90267e984f7888ca8585119。 13:00新增/变化：较12:00，中文RSS新增/上移储能电池ETF资金连续流入、智光固态变压器南京展会预告、人民网山西“为储能电站牵线搭桥”，以及比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外RSS新增/上移Ford Energy与EDF Power Solutions签署20GWh BESS supply framework agreement、NSW启动2.5GW可再生能源与12GWh storage tender、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌、AI数据中心电网压力等。SMM 13:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂由12:00记录的61285元/吨上行至62560元/吨，电解液28950元/吨持平。",
+        "url": "https://newenergy.smm.cn/"
+      },
       {
         "id": "metric-20260525-1200-smm-li2co3-flat",
         "title": "SMM电池级碳酸锂报价",
@@ -51759,6 +51889,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-1300-ford-edf-nsw-12gwh",
+        "source": "Google News RSS / Energetica India / SolarQuarter / Energy-Storage.News",
+        "category": "海外观察/BESS/招标/电网",
+        "title": "海外新增Ford-EDF 20GWh BESS供应框架与NSW 12GWh储能招标",
+        "summary": "13:00复核海外公开来源后，RSS新增/上移Ford Energy, EDF Power Solutions Sign 20 GWh BESS Supply Framework Agreement in US、NSW Launches 2.5 GW Renewable Energy And 12 GWh Storage Tender、G2 Lithium battery rivalry、GoodWe澳洲家储品牌及AI数据中心电网压力线索。",
+        "value": "18",
+        "unit": "条海外新增/上移RSS线索",
+        "delta": "Ford-EDF 20GWh BESS、NSW 12GWh storage tender和AI数据中心电网压力线索新增/上移",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 13:00 CST",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 d8770b0e5fc64dae2a949f71ab2fcf87438d15e9586409d5b6ec325930eb5117，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 00b9a900d8e2ad202e4df8c44af952207894dc1229ee383af60d5a51ebb4f9cf，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 5c972372d823c0cd2b18db61ce783f0caa36fda88a6fad3952195cf0a42d4399/9c3ac24e5a637ff61c79896d206fddd36376cf7ab311767b6fcb3e043edb9c66/f56dd14010006560ab150916b2d107df06044b7704ce31092f852a23884f1abb。 海外入口：Energy-Storage.News 19d1e7aeb897207c349d8400fc3591df24468d5b1f68f9b8ad4006b09ccb85a5，ESS News 78ecabe7dd63c65d83dbbe25cf8a768f1479ce926a02484929c2cbfba23e1d5a，pv magazine 944d9cad67b5de0a85e9d4361facf03262439a0e4a1cdf11d9a0b50b2592287c，SolarQuarter 6409b58175f4bff1e0c768b48dc6f2dd7aad5768dfd099d15555e11f8b2c859d，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS f98eececf75f5130f6622305ac918b7d5600195b486fe196b3a386ad635622c0/bcd09386fe3a36bb24c6b0455122fe29d66638ff459cd509d361796cd0860f85/e9dfd921710793d5ab505481ab8bd86d4035df7eb90267e984f7888ca8585119。 13:00新增/变化：较12:00，中文RSS新增/上移储能电池ETF资金连续流入、智光固态变压器南京展会预告、人民网山西“为储能电站牵线搭桥”，以及比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外RSS新增/上移Ford Energy与EDF Power Solutions签署20GWh BESS supply framework agreement、NSW启动2.5GW可再生能源与12GWh storage tender、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌、AI数据中心电网压力等。SMM 13:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂由12:00记录的61285元/吨上行至62560元/吨，电解液28950元/吨持平。"
+      },
+      {
         "id": "overseas-20260525-1200-contact-cis-battery-hybrids",
         "source": "Google News RSS / Energy-Storage.News / PV Tech / Energy Magazine / SolarQuarter / The Korea Times",
         "category": "海外观察/BESS/电网/制造/容量",
@@ -57845,6 +57990,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-1300-ford-edf-nsw-lfp",
+        "source": "Google News RSS / SMM上海有色 / Energy-Storage.News / SolarQuarter / Energetica India / 人民网山西",
+        "category": "BESS供应框架/储能招标/材料行情",
+        "title": "Ford-EDF 20GWh BESS框架与NSW 12GWh储能招标新增；SMM磷酸铁锂62560元/吨",
+        "summary": "13:00严格刷新新增采信：国内侧较12:00新增储能电池ETF资金连续流入、智光固态变压器展会、人民网山西储能电站“牵线搭桥”和比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外侧新增Ford Energy与EDF Power Solutions在美国签署20GWh BESS供应框架协议、NSW启动2.5GW可再生能源与12GWh储能招标、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌和AI数据中心电网压力。SMM行情13:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂升至62560元/吨，电解液28950元/吨。",
+        "value": "62560",
+        "unit": "元/吨 磷酸铁锂",
+        "delta": "较12:00记录+1275元/吨；新增Ford-EDF 20GWh BESS框架和NSW 12GWh储能招标",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 13:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "13:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 84b775ec84e5799bd406a4dc70eeaf6cb1952df23e51ad9b97976bd103b9d41c，SMM新能源 d8770b0e5fc64dae2a949f71ab2fcf87438d15e9586409d5b6ec325930eb5117，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 2eef92c2e109b2cf632d1cd92ec3a394a4b949be974c8c5126ba587dfe1e329a，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 00b9a900d8e2ad202e4df8c44af952207894dc1229ee383af60d5a51ebb4f9cf，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS 5c972372d823c0cd2b18db61ce783f0caa36fda88a6fad3952195cf0a42d4399/9c3ac24e5a637ff61c79896d206fddd36376cf7ab311767b6fcb3e043edb9c66/f56dd14010006560ab150916b2d107df06044b7704ce31092f852a23884f1abb。 海外入口：Energy-Storage.News 19d1e7aeb897207c349d8400fc3591df24468d5b1f68f9b8ad4006b09ccb85a5，ESS News 78ecabe7dd63c65d83dbbe25cf8a768f1479ce926a02484929c2cbfba23e1d5a，pv magazine 944d9cad67b5de0a85e9d4361facf03262439a0e4a1cdf11d9a0b50b2592287c，SolarQuarter 6409b58175f4bff1e0c768b48dc6f2dd7aad5768dfd099d15555e11f8b2c859d，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS f98eececf75f5130f6622305ac918b7d5600195b486fe196b3a386ad635622c0/bcd09386fe3a36bb24c6b0455122fe29d66638ff459cd509d361796cd0860f85/e9dfd921710793d5ab505481ab8bd86d4035df7eb90267e984f7888ca8585119。 13:00新增/变化：较12:00，中文RSS新增/上移储能电池ETF资金连续流入、智光固态变压器南京展会预告、人民网山西“为储能电站牵线搭桥”，以及比亚迪二代刀片电池正式发布/首搭10款新车等线索。海外RSS新增/上移Ford Energy与EDF Power Solutions签署20GWh BESS supply framework agreement、NSW启动2.5GW可再生能源与12GWh storage tender、G2 Lithium电池专利竞争、GoodWe澳洲家储品牌、AI数据中心电网压力等。SMM 13:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较12:00持平；磷酸铁锂由12:00记录的61285元/吨上行至62560元/吨，电解液28950元/吨持平。"
+      },
       {
         "id": "market-20260525-1200-shangku-leshan-gaoqing",
         "source": "Google News RSS / SMM上海有色 / 国际储能网 / Energy-Storage.News / PV Tech / SolarQuarter",
@@ -72140,6 +72300,105 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-1300-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae",
+        "finding": "首页已按小时重读；本轮写入Ford-EDF 20GWh BESS、NSW 12GWh储能招标和SMM磷酸铁锂上行。"
+      },
+      {
+        "id": "source-20260525-1300-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3",
+        "finding": "/markettrend/已按小时重读；本轮补充海外BESS框架/招标和SMM材料价格关键词。"
+      },
+      {
+        "id": "source-20260525-1300-google-cn-storage",
+        "source": "Google News RSS 中文储能检索",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "5c972372d823c0cd2b18db61ce783f0caa36fda88a6fad3952195cf0a42d4399",
+        "finding": "较12:00新增/上移储能电池ETF资金连续流入、智光固态变压器展会、人民网山西“为储能电站牵线搭桥”。"
+      },
+      {
+        "id": "source-20260525-1300-google-cn-bess",
+        "source": "Google News RSS 中文BESS/电池检索",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "9c3ac24e5a637ff61c79896d206fddd36376cf7ab311767b6fcb3e043edb9c66",
+        "finding": "较12:00新增/上移比亚迪二代刀片电池正式发布、首搭10款新车及储能电池ETF线索。"
+      },
+      {
+        "id": "source-20260525-1300-google-global-bess",
+        "source": "Google News RSS 全球BESS检索",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "f98eececf75f5130f6622305ac918b7d5600195b486fe196b3a386ad635622c0",
+        "finding": "较12:00新增Ford Energy/EDF 20GWh BESS供应框架、G2 Lithium LFP专利竞争。"
+      },
+      {
+        "id": "source-20260525-1300-google-global-policy",
+        "source": "Google News RSS 全球储能政策/长时储能检索",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "bcd09386fe3a36bb24c6b0455122fe29d66638ff459cd509d361796cd0860f85",
+        "finding": "较12:00新增NSW 2.5GW renewable energy and 12GWh storage tender、Ford-EDF BESS框架和电网/AI用电压力线索。"
+      },
+      {
+        "id": "source-20260525-1300-google-datacenter",
+        "source": "Google News RSS 数据中心电力检索",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "e9dfd921710793d5ab505481ab8bd86d4035df7eb90267e984f7888ca8585119",
+        "finding": "新增/上移AI Data Centers Are About to Break the Grid、GoodWe home battery、East Coast grid alert等电力需求线索。"
+      },
+      {
+        "id": "source-20260525-1300-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "d8770b0e5fc64dae2a949f71ab2fcf87438d15e9586409d5b6ec325930eb5117",
+        "finding": "13:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨。"
+      },
+      {
+        "id": "source-20260525-1300-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较12:00持平。"
+      },
+      {
+        "id": "source-20260525-1300-esn",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "19d1e7aeb897207c349d8400fc3591df24468d5b1f68f9b8ad4006b09ccb85a5",
+        "finding": "海外行业站已复核并留档；首页仍含Contact Energy新西兰200MWh BESS投运等储能项目线索。"
+      },
+      {
+        "id": "source-20260525-1300-solarquarter",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/",
+        "as_of": "2026-05-25 13:00 CST",
+        "status": 200,
+        "sha256": "6409b58175f4bff1e0c768b48dc6f2dd7aad5768dfd099d15555e11f8b2c859d",
+        "finding": "海外行业站已复核并留档；结合RSS采信NSW 12GWh储能招标等线索。"
+      },
+      {
         "id": "source-20260525-1200-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -79501,5 +79760,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T12:00:00+08:00"
+  "checked_at": "2026-05-25T13:00:00+08:00"
 };
