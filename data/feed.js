@@ -1,8 +1,76 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T14:00:00+08:00",
-  "note": "14:00严格刷新新增采信：国内侧较13:00新增四川乐山100MW/200MWh电化学储能EPC中标候选人、睿储科技上库250MW/1000MWh独立储能EPC总承包招标、晋能控股侯马热电调频储能EPC中标候选人，以及比亚迪/宁德时代电池舆情。海外侧新增Contact Energy新西兰首个电网级电池储能投运、Trinasolar菲律宾utility-scale PV+Battery Storage方案、澳大利亚19个可再生能源项目/7.8GW并网审批、Solidion石墨烯电池技术进展和Ford储能叙事。SMM行情14:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较13:00持平。",
+  "generated_at": "2026-05-25T15:00:00+08:00",
+  "note": "15:00严格刷新新增采信：海外侧EnergyTrend新增隆基工商业储能新品/部署超13GWh、ZOE沙特18GWh储能制造基地、5个储能和钠电池项目总投资超40亿元加速，以及晶澳BC电池效率28.2%；pv magazine新增Fortescue澳大利亚690MW光伏+650MWh BESS开建。国内侧中国能源网新增CESC2026先进储能技术及应用挑战赛启动；SMM新增多条废锂电采购报价。SMM行情15:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-1500-energytrend-fortescue-smm",
+        "source": "EnergyTrend / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
+        "source_type": "海外行业媒体/国内公开媒体/专业行情/本站回读",
+        "account_name": "EnergyTrend / pv magazine / 中国能源网 / SMM",
+        "category": "储能制造/海外BESS/锂电回收行情",
+        "title": "15:00刷新：ZOE拟建沙特18GWh储能基地，Fortescue开建690MW光伏+650MWh BESS；SMM锂电材料持平",
+        "summary": "15:00严格刷新新增采信：海外侧EnergyTrend新增隆基工商业储能新品/部署超13GWh、ZOE沙特18GWh储能制造基地、5个储能和钠电池项目总投资超40亿元加速，以及晶澳BC电池效率28.2%；pv magazine新增Fortescue澳大利亚690MW光伏+650MWh BESS开建。国内侧中国能源网新增CESC2026先进储能技术及应用挑战赛启动；SMM新增多条废锂电采购报价。SMM行情15:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平。",
+        "body": [
+          "海外新增：EnergyTrend上移隆基工商业储能新品，披露已部署容量超过13GWh。",
+          "储能制造新增：ZOE Energy Storage计划在沙特建设18GWh储能制造基地。",
+          "项目投资新增：EnergyTrend称总投资超过40亿元的5个储能和钠电池项目加速。",
+          "海外项目新增：pv magazine报道Fortescue在澳大利亚开建690MW太阳能电站和650MWh BESS。",
+          "国内新增：中国能源网出现CESC2026第二届全国先进储能技术及应用挑战赛启动；SMM新增多条5月25日废锂电采购报价。",
+          "行情侧：SMM公开页15:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平。"
+        ],
+        "key_points": [
+          "ZOE Energy Storage拟在沙特建设18GWh储能制造基地。",
+          "Fortescue澳大利亚690MW光伏+650MWh BESS开建。",
+          "隆基工商业储能新品新增，上文显示已部署容量超13GWh。",
+          "国内新增CESC2026先进储能技术及应用挑战赛启动；SMM新增废锂电采购报价。",
+          "行情复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较14:00持平。"
+        ],
+        "value": "18",
+        "unit": "GWh ZOE拟建沙特储能制造基地",
+        "delta": "较14:00新增海外储能制造/澳洲BESS项目线索；SMM四项持平",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 15:00 CST",
+        "url": "https://www.energytrend.com/news/20260525-51460.html",
+        "original_url": "https://www.energytrend.com/news/20260525-51460.html",
+        "related_urls": [
+          "https://www.energytrend.com/news/20260525-51462.html",
+          "https://www.energytrend.com/news/20260525-51458.html",
+          "https://www.pv-magazine.com/2026/05/25/fortescue-begins-building-690-mw-solar-farm-650-mwh-bess-in-australia/",
+          "https://www.cnenergynews.cn/article/4RhuGeAXpc7",
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>15:00新增/复核：EnergyTrend新增隆基工商业储能新品、ZOE沙特18GWh储能制造基地、5个储能和钠电池项目超40亿元加速；pv magazine新增Fortescue澳洲690MW光伏+650MWh BESS开建。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较14:00持平。</p>",
+        "caption": "海外储能制造与澳洲BESS项目新增；国内先进储能赛事与废锂电报价新增；SMM材料价较14:00持平。",
+        "methodology": "15:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮出现SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 5bf3a13596240deb54c988f5d2965706545e5dd8ea74bb0c1d1016caab6cec40，SMM新能源 806c0a1cb2e29ca1f08bfc1512e18bfff6ec26bc16dec85d0c1a87726cdea43f，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 7a50a63abc1c5597d6d7b0d7d47d3beb16e0ca0e2bb06884760827f69ddb6815，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 7ce1ebae1de3c5d99c1a56ae36958663857b8227708ebaff6c45d89097454cfc，高工锂电SSL失败记录。 海外入口：Energy-Storage.News 11e58476803841554cc807b2f764a0926f64384d820fc5b99e66f3152657207b，ESS News 4cd8ad7e99b9b0edbd028f866c8b1a673caa0defaea740da5b8959f4b9fb6775，pv magazine 227bfb2449196a9f3e9767ac57975614511df49d554793b7f2b991f44f2308c8，SolarQuarter a469ef971a0d58a4d2579daf38aa3e2e1178401f5dac8ada18f921626685fa13，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 15:00新增/变化：EnergyTrend较14:00新增/上移隆基工商业储能新品且已部署容量超13GWh、ZOE Energy Storage拟在沙特建设18GWh储能制造基地、总投资超40亿元的5个储能和钠电池项目加速、晶澳BC电池效率28.2%纪录；pv magazine新增Fortescue在澳大利亚开建690MW光伏+650MWh BESS；中国能源网新增CESC2026第二届全国先进储能技术及应用挑战赛启动；SMM新增多条5月25日废锂电采购报价。SMM 15:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 183826
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 28950
+          },
+          {
+            "label": "EnergyTrend新增储能/电池线索 条",
+            "value": 4
+          },
+          {
+            "label": "pv magazine新增BESS/光伏线索 条",
+            "value": 2
+          }
+        ]
+      },
       {
         "id": "headline-20260525-1400-sichuan-ruichu-contact-trina-smm",
         "source": "Google News RSS / SMM上海有色 / 碳索储能网 / IndexBox / Thailand Business News / SolarQuarter",
@@ -13744,6 +13812,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-1500-zoe-fortescue-storage",
+        "source": "EnergyTrend / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
+        "source_type": "海外行业媒体/国内公开媒体/专业行情/本站回读",
+        "account_name": "EnergyTrend / pv magazine / 中国能源网 / SMM",
+        "category": "储能制造/海外BESS/锂电回收行情",
+        "title": "15:00刷新：ZOE拟建沙特18GWh储能基地，Fortescue开建690MW光伏+650MWh BESS；SMM锂电材料持平",
+        "summary": "15:00严格刷新新增采信：海外侧EnergyTrend新增隆基工商业储能新品/部署超13GWh、ZOE沙特18GWh储能制造基地、5个储能和钠电池项目总投资超40亿元加速，以及晶澳BC电池效率28.2%；pv magazine新增Fortescue澳大利亚690MW光伏+650MWh BESS开建。国内侧中国能源网新增CESC2026先进储能技术及应用挑战赛启动；SMM新增多条废锂电采购报价。SMM行情15:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平。",
+        "body": [
+          "海外新增：EnergyTrend上移隆基工商业储能新品，披露已部署容量超过13GWh。",
+          "储能制造新增：ZOE Energy Storage计划在沙特建设18GWh储能制造基地。",
+          "项目投资新增：EnergyTrend称总投资超过40亿元的5个储能和钠电池项目加速。",
+          "海外项目新增：pv magazine报道Fortescue在澳大利亚开建690MW太阳能电站和650MWh BESS。",
+          "国内新增：中国能源网出现CESC2026第二届全国先进储能技术及应用挑战赛启动；SMM新增多条5月25日废锂电采购报价。",
+          "行情侧：SMM公开页15:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平。"
+        ],
+        "key_points": [
+          "ZOE Energy Storage拟在沙特建设18GWh储能制造基地。",
+          "Fortescue澳大利亚690MW光伏+650MWh BESS开建。",
+          "隆基工商业储能新品新增，上文显示已部署容量超13GWh。",
+          "国内新增CESC2026先进储能技术及应用挑战赛启动；SMM新增废锂电采购报价。",
+          "行情复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较14:00持平。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 15:00 CST",
+        "url": "https://www.energytrend.com/news/20260525-51460.html",
+        "original_url": "https://www.energytrend.com/news/20260525-51460.html",
+        "related_urls": [
+          "https://www.energytrend.com/news/20260525-51462.html",
+          "https://www.energytrend.com/news/20260525-51458.html",
+          "https://www.pv-magazine.com/2026/05/25/fortescue-begins-building-690-mw-solar-farm-650-mwh-bess-in-australia/",
+          "https://www.cnenergynews.cn/article/4RhuGeAXpc7",
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>15:00新增/复核：EnergyTrend新增隆基工商业储能新品、ZOE沙特18GWh储能制造基地、5个储能和钠电池项目超40亿元加速；pv magazine新增Fortescue澳洲690MW光伏+650MWh BESS开建。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较14:00持平。</p>",
+        "caption": "海外储能制造与澳洲BESS项目新增；国内先进储能赛事与废锂电报价新增；SMM材料价较14:00持平。",
+        "methodology": "15:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮出现SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 5bf3a13596240deb54c988f5d2965706545e5dd8ea74bb0c1d1016caab6cec40，SMM新能源 806c0a1cb2e29ca1f08bfc1512e18bfff6ec26bc16dec85d0c1a87726cdea43f，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 7a50a63abc1c5597d6d7b0d7d47d3beb16e0ca0e2bb06884760827f69ddb6815，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 7ce1ebae1de3c5d99c1a56ae36958663857b8227708ebaff6c45d89097454cfc，高工锂电SSL失败记录。 海外入口：Energy-Storage.News 11e58476803841554cc807b2f764a0926f64384d820fc5b99e66f3152657207b，ESS News 4cd8ad7e99b9b0edbd028f866c8b1a673caa0defaea740da5b8959f4b9fb6775，pv magazine 227bfb2449196a9f3e9767ac57975614511df49d554793b7f2b991f44f2308c8，SolarQuarter a469ef971a0d58a4d2579daf38aa3e2e1178401f5dac8ada18f921626685fa13，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 15:00新增/变化：EnergyTrend较14:00新增/上移隆基工商业储能新品且已部署容量超13GWh、ZOE Energy Storage拟在沙特建设18GWh储能制造基地、总投资超40亿元的5个储能和钠电池项目加速、晶澳BC电池效率28.2%纪录；pv magazine新增Fortescue在澳大利亚开建690MW光伏+650MWh BESS；中国能源网新增CESC2026第二届全国先进储能技术及应用挑战赛启动；SMM新增多条5月25日废锂电采购报价。SMM 15:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。"
+      },
       {
         "id": "latest-20260525-1400-storage-epc-contact-trina",
         "source": "Google News RSS / SMM上海有色 / 碳索储能网 / IndexBox / Thailand Business News / SolarQuarter",
@@ -35098,6 +35204,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-1500-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；15:00复核，四项较14:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较14:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 15:00 CST",
+        "methodology": "15:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮出现SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 5bf3a13596240deb54c988f5d2965706545e5dd8ea74bb0c1d1016caab6cec40，SMM新能源 806c0a1cb2e29ca1f08bfc1512e18bfff6ec26bc16dec85d0c1a87726cdea43f，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 7a50a63abc1c5597d6d7b0d7d47d3beb16e0ca0e2bb06884760827f69ddb6815，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 7ce1ebae1de3c5d99c1a56ae36958663857b8227708ebaff6c45d89097454cfc，高工锂电SSL失败记录。 海外入口：Energy-Storage.News 11e58476803841554cc807b2f764a0926f64384d820fc5b99e66f3152657207b，ESS News 4cd8ad7e99b9b0edbd028f866c8b1a673caa0defaea740da5b8959f4b9fb6775，pv magazine 227bfb2449196a9f3e9767ac57975614511df49d554793b7f2b991f44f2308c8，SolarQuarter a469ef971a0d58a4d2579daf38aa3e2e1178401f5dac8ada18f921626685fa13，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 15:00新增/变化：EnergyTrend较14:00新增/上移隆基工商业储能新品且已部署容量超13GWh、ZOE Energy Storage拟在沙特建设18GWh储能制造基地、总投资超40亿元的5个储能和钠电池项目加速、晶澳BC电池效率28.2%纪录；pv magazine新增Fortescue在澳大利亚开建690MW光伏+650MWh BESS；中国能源网新增CESC2026第二届全国先进储能技术及应用挑战赛启动；SMM新增多条5月25日废锂电采购报价。SMM 15:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。"
+      },
+      {
         "id": "material-20260525-1400-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；14:00复核，四项较13:00持平",
@@ -38544,6 +38663,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-1500-energytrend-new",
+        "title": "15:00新增海外储能/电池产业线索",
+        "value": "6",
+        "unit": "条",
+        "caption": "EnergyTrend新增隆基储能新品、ZOE沙特18GWh、5个储能/钠电项目、晶澳电池效率；pv magazine新增Fortescue 650MWh BESS。",
+        "delta": "较14:00公开站点链接新增/上移",
+        "direction": "up",
+        "source": "EnergyTrend / pv magazine",
+        "as_of": "2026-05-25 15:00 CST",
+        "methodology": "15:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮出现SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 5bf3a13596240deb54c988f5d2965706545e5dd8ea74bb0c1d1016caab6cec40，SMM新能源 806c0a1cb2e29ca1f08bfc1512e18bfff6ec26bc16dec85d0c1a87726cdea43f，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 7a50a63abc1c5597d6d7b0d7d47d3beb16e0ca0e2bb06884760827f69ddb6815，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 7ce1ebae1de3c5d99c1a56ae36958663857b8227708ebaff6c45d89097454cfc，高工锂电SSL失败记录。 海外入口：Energy-Storage.News 11e58476803841554cc807b2f764a0926f64384d820fc5b99e66f3152657207b，ESS News 4cd8ad7e99b9b0edbd028f866c8b1a673caa0defaea740da5b8959f4b9fb6775，pv magazine 227bfb2449196a9f3e9767ac57975614511df49d554793b7f2b991f44f2308c8，SolarQuarter a469ef971a0d58a4d2579daf38aa3e2e1178401f5dac8ada18f921626685fa13，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 15:00新增/变化：EnergyTrend较14:00新增/上移隆基工商业储能新品且已部署容量超13GWh、ZOE Energy Storage拟在沙特建设18GWh储能制造基地、总投资超40亿元的5个储能和钠电池项目加速、晶澳BC电池效率28.2%纪录；pv magazine新增Fortescue在澳大利亚开建690MW光伏+650MWh BESS；中国能源网新增CESC2026第二届全国先进储能技术及应用挑战赛启动；SMM新增多条5月25日废锂电采购报价。SMM 15:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。",
+        "url": "https://www.energytrend.com/"
+      },
       {
         "id": "metric-20260525-1400-domestic-epc-new",
         "title": "14:00新增国内储能EPC招采线索",
@@ -52019,6 +52151,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-1500-zoe-fortescue",
+        "source": "EnergyTrend / pv magazine / SolarQuarter",
+        "category": "海外观察/BESS/储能制造/光储",
+        "title": "海外新增ZOE沙特18GWh储能制造基地与Fortescue澳洲650MWh BESS开建",
+        "summary": "15:00复核海外公开来源后，新增/上移ZOE Energy Storage计划在沙特建设18GWh储能制造基地、Fortescue澳大利亚690MW光伏+650MWh BESS开建、隆基工商业储能新品且已部署容量超13GWh，以及储能/钠电项目投资加速。",
+        "value": "650",
+        "unit": "MWh Fortescue BESS",
+        "delta": "ZOE Saudi 18GWh、Fortescue 650MWh BESS、Longi C&I storage等新增/上移",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 15:00 CST",
+        "url": "https://www.pv-magazine.com/2026/05/25/fortescue-begins-building-690-mw-solar-farm-650-mwh-bess-in-australia/",
+        "methodology": "15:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮出现SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 5bf3a13596240deb54c988f5d2965706545e5dd8ea74bb0c1d1016caab6cec40，SMM新能源 806c0a1cb2e29ca1f08bfc1512e18bfff6ec26bc16dec85d0c1a87726cdea43f，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 7a50a63abc1c5597d6d7b0d7d47d3beb16e0ca0e2bb06884760827f69ddb6815，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 7ce1ebae1de3c5d99c1a56ae36958663857b8227708ebaff6c45d89097454cfc，高工锂电SSL失败记录。 海外入口：Energy-Storage.News 11e58476803841554cc807b2f764a0926f64384d820fc5b99e66f3152657207b，ESS News 4cd8ad7e99b9b0edbd028f866c8b1a673caa0defaea740da5b8959f4b9fb6775，pv magazine 227bfb2449196a9f3e9767ac57975614511df49d554793b7f2b991f44f2308c8，SolarQuarter a469ef971a0d58a4d2579daf38aa3e2e1178401f5dac8ada18f921626685fa13，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 15:00新增/变化：EnergyTrend较14:00新增/上移隆基工商业储能新品且已部署容量超13GWh、ZOE Energy Storage拟在沙特建设18GWh储能制造基地、总投资超40亿元的5个储能和钠电池项目加速、晶澳BC电池效率28.2%纪录；pv magazine新增Fortescue在澳大利亚开建690MW光伏+650MWh BESS；中国能源网新增CESC2026第二届全国先进储能技术及应用挑战赛启动；SMM新增多条5月25日废锂电采购报价。SMM 15:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。"
+      },
+      {
         "id": "overseas-20260525-1400-contact-trina-australia",
         "source": "Google News RSS / IndexBox / Thailand Business News / SolarQuarter",
         "category": "海外观察/BESS/PV+储能/电网",
@@ -58135,6 +58282,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-1500-zoe-fortescue-smm",
+        "source": "EnergyTrend / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
+        "category": "储能制造/海外BESS/材料行情",
+        "title": "ZOE沙特18GWh与Fortescue 650MWh BESS新增；SMM锂电材料较14:00持平",
+        "summary": "15:00严格刷新新增采信：海外侧EnergyTrend新增隆基工商业储能新品/部署超13GWh、ZOE沙特18GWh储能制造基地、5个储能和钠电池项目总投资超40亿元加速，以及晶澳BC电池效率28.2%；pv magazine新增Fortescue澳大利亚690MW光伏+650MWh BESS开建。国内侧中国能源网新增CESC2026先进储能技术及应用挑战赛启动；SMM新增多条废锂电采购报价。SMM行情15:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平。",
+        "value": "18",
+        "unit": "GWh储能制造基地计划",
+        "delta": "新增海外储能制造、澳洲BESS、国内储能赛事与废锂电报价；SMM四项持平",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 15:00 CST",
+        "url": "https://www.energytrend.com/news/20260525-51460.html",
+        "methodology": "15:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站及原始HTML留档；Google News RSS本轮出现SSL EOF失败，未用失败源制造新增。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 5bf3a13596240deb54c988f5d2965706545e5dd8ea74bb0c1d1016caab6cec40，SMM新能源 806c0a1cb2e29ca1f08bfc1512e18bfff6ec26bc16dec85d0c1a87726cdea43f，SMM碳酸锂 4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02，中国能源网 7a50a63abc1c5597d6d7b0d7d47d3beb16e0ca0e2bb06884760827f69ddb6815，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 12a730b213a25fa74c640ede44d42a28b7b46ee6dc86b11c6e09ba04d40fb1a4，CNESA 7ce1ebae1de3c5d99c1a56ae36958663857b8227708ebaff6c45d89097454cfc，高工锂电SSL失败记录。 海外入口：Energy-Storage.News 11e58476803841554cc807b2f764a0926f64384d820fc5b99e66f3152657207b，ESS News 4cd8ad7e99b9b0edbd028f866c8b1a673caa0defaea740da5b8959f4b9fb6775，pv magazine 227bfb2449196a9f3e9767ac57975614511df49d554793b7f2b991f44f2308c8，SolarQuarter a469ef971a0d58a4d2579daf38aa3e2e1178401f5dac8ada18f921626685fa13，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c。 15:00新增/变化：EnergyTrend较14:00新增/上移隆基工商业储能新品且已部署容量超13GWh、ZOE Energy Storage拟在沙特建设18GWh储能制造基地、总投资超40亿元的5个储能和钠电池项目加速、晶澳BC电池效率28.2%纪录；pv magazine新增Fortescue在澳大利亚开建690MW光伏+650MWh BESS；中国能源网新增CESC2026第二届全国先进储能技术及应用挑战赛启动；SMM新增多条5月25日废锂电采购报价。SMM 15:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较14:00持平；页面日内涨跌仍为碳酸锂+5250、指数+5483、磷酸铁锂+1275、电解液0。"
+      },
       {
         "id": "market-20260525-1400-storage-epc-contact-trina",
         "source": "Google News RSS / SMM上海有色 / 碳索储能网 / IndexBox / Thailand Business News / SolarQuarter",
@@ -72460,6 +72622,87 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-1500-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe",
+        "finding": "首页已按小时重读；本轮写入ZOE沙特18GWh、Fortescue 650MWh BESS和SMM持平行情。"
+      },
+      {
+        "id": "source-20260525-1500-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca",
+        "finding": "/markettrend/已按小时重读；本轮补充海外储能制造、澳洲BESS和SMM材料价格证据。"
+      },
+      {
+        "id": "source-20260525-1500-energytrend-zoe",
+        "source": "EnergyTrend",
+        "url": "https://www.energytrend.com/news/20260525-51460.html",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c",
+        "finding": "新增ZOE Energy Storage Plans to Construct 18GWh Energy Storage Manufacturing Base in Saudi Arabia。"
+      },
+      {
+        "id": "source-20260525-1500-energytrend-longi",
+        "source": "EnergyTrend",
+        "url": "https://www.energytrend.com/news/20260525-51462.html",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c",
+        "finding": "新增Longi工商业储能新品，标题显示Deployed Capacity Exceeds 13GWh。"
+      },
+      {
+        "id": "source-20260525-1500-energytrend-projects",
+        "source": "EnergyTrend",
+        "url": "https://www.energytrend.com/news/20260525-51458.html",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c",
+        "finding": "新增Total Investment Exceeds 4 Billion Yuan，5 Major Energy Storage and Sodium Battery Projects Accelerate。"
+      },
+      {
+        "id": "source-20260525-1500-pv-fortescue",
+        "source": "pv magazine",
+        "url": "https://www.pv-magazine.com/2026/05/25/fortescue-begins-building-690-mw-solar-farm-650-mwh-bess-in-australia/",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "227bfb2449196a9f3e9767ac57975614511df49d554793b7f2b991f44f2308c8",
+        "finding": "新增Fortescue begins building 690MW solar farm, 650MWh BESS in Australia。"
+      },
+      {
+        "id": "source-20260525-1500-cnenergy-cesc",
+        "source": "中国能源网",
+        "url": "https://www.cnenergynews.cn/article/4RhuGeAXpc7",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "7a50a63abc1c5597d6d7b0d7d47d3beb16e0ca0e2bb06884760827f69ddb6815",
+        "finding": "新增全新启航！CESC2026第二届全国先进储能技术及应用挑战赛正式启动。"
+      },
+      {
+        "id": "source-20260525-1500-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "806c0a1cb2e29ca1f08bfc1512e18bfff6ec26bc16dec85d0c1a87726cdea43f",
+        "finding": "15:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；新增多条5月25日废锂电采购报价。"
+      },
+      {
+        "id": "source-20260525-1500-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 15:00 CST",
+        "status": 200,
+        "sha256": "4e1b8059cbed8971084c4e86e3ea0d4490b152cf82558f509f70980adc1baa02",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较14:00持平。"
+      },
+      {
         "id": "source-20260525-1400-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -80019,5 +80262,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T14:00:00+08:00"
+  "checked_at": "2026-05-25T15:00:00+08:00"
 };
