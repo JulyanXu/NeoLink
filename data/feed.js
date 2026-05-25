@@ -1,8 +1,71 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T00:00:00+08:00",
-  "note": "00:00严格刷新新增采信：海外RSS新增BloombergNEF上调BESS预测、Graphite One锁定Conneaut基地推进EV/储能电池材料生产、钠电替代锂讨论、Ford/EDF电池合作延伸、Napanee BESS应急计划、xAI数据中心燃气轮机诉讼；SolarQuarter新增Hindustan Power 800MW PSA。国内RSS新增欧阳明高“储能/氢能/智能”三大核心技术、半固态电池落地、包头智能组串式储能电站、比亚迪二代刀片/闪充和蜂巢能源超充风险提醒。SMM四项行情较23:00持平。",
+  "generated_at": "2026-05-26T01:00:00+08:00",
+  "note": "01:00严格刷新新增采信：海外RSS新增Spearmint Energy德州电池储能项目4.5亿美元融资、Enbridge 12亿美元太阳能+储能项目拟供电Meta数据中心、Fortescue澳洲690MW光伏+650MWh BESS、欧洲1.5亿欧元电池园区，以及美国储能创纪录季度/AI需求线索。国内新增MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论。SMM四项行情较00:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0100-spearmint-enbridge-fortescue",
+        "source": "Google News RSS / SMM上海有色 / pv magazine / ESG Today / Mercom Capital Group",
+        "source_type": "RSS/专业行情/海外行业媒体",
+        "account_name": "Google News / SMM / pv magazine / ESG Today / Mercom",
+        "category": "BESS融资/数据中心电力/光储项目/材料行情",
+        "title": "01:00刷新：Spearmint获4.5亿美元储能融资；Enbridge 12亿美元光储项目拟供电Meta",
+        "summary": "01:00严格刷新新增采信：海外RSS新增Spearmint Energy德州电池储能项目4.5亿美元融资、Enbridge 12亿美元太阳能+储能项目拟供电Meta数据中心、Fortescue澳洲690MW光伏+650MWh BESS、欧洲1.5亿欧元电池园区，以及美国储能创纪录季度/AI需求线索。国内新增MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论。SMM四项行情较00:00持平。",
+        "body": [
+          "海外新增：Spearmint Energy为德州电池储能项目获得4.5亿美元融资，显示美国大储融资热度延续。",
+          "数据中心电力新增：Enbridge拟开发12亿美元太阳能+储能项目，为Meta数据中心供电。",
+          "项目新增：Fortescue在澳大利亚开建690MW光伏和650MWh BESS；欧洲/爱沙尼亚1.5亿欧元电池园区线索新增。",
+          "海外舆情：美国储能创纪录季度、AI需求推升储能关注，同时仍伴随电网接入和供应链约束。",
+          "国内新增：MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论等上移。",
+          "行情侧：SMM公开页01:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较00:00持平。"
+        ],
+        "key_points": [
+          "Spearmint Energy：德州电池储能项目4.5亿美元融资新增。",
+          "Enbridge：12亿美元太阳能+储能项目拟供电Meta数据中心。",
+          "Fortescue：澳洲690MW太阳能+650MWh BESS建设线索新增。",
+          "欧洲：1.5亿欧元电池园区线索上移。",
+          "国内：MG 4X半固态、储能系统出货Top10、全国最大储能电站携手华为、小米YU7 LFP安全测试等新增/上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较00:00持平。"
+        ],
+        "value": "450",
+        "unit": "百万美元储能融资",
+        "delta": "新增Spearmint融资、Enbridge数据中心光储、Fortescue 650MWh BESS及国内半固态/储能出货线索",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 01:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://www.mercomindia.com/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.pv-magazine.com/"
+        ],
+        "clean_html": "<p>01:00新增/复核：Spearmint Energy德州储能项目4.5亿美元融资、Enbridge 12亿美元光储项目拟供电Meta、Fortescue 690MW光伏+650MWh BESS；国内半固态电池、储能系统出货Top10等线索上移。SMM四项行情较00:00持平。</p>",
+        "caption": "储能融资、数据中心光储和澳洲BESS项目新增；SMM材料价持平。",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 cf3ed4d2cdba7f6b51b3c6be5206291e71459ff8687eb873d12a9ca161375cf0，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 3dd1a1b2829409ba8907ce5cdadd2f26fdaafa0a8c28f21c1bc39401b20b7a06。 海外入口：Energy-Storage.News 72ef9efd3554a63ef90cdc68790127f19d1ce00a01c57b174873b9708ea62932，ESS News 367704d3e913041d9227e9f26395a195e1ad1c0c0a16087820b4276e9c84bdc9，pv magazine 23359c5225c84b61996666e56c3740b0a1196e5933ac7b095347913d05f5c063，SolarQuarter b1aba009652b3b59dc20ef9d54a6a52436e0a2b536b47cffaf8ae352911a0736，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 01:00新增/变化：海外RSS新增或上移Spearmint Energy为德州电池储能项目获得4.5亿美元融资、Enbridge拟建设12亿美元太阳能+储能项目为Meta数据中心供电、Fortescue在澳大利亚开建690MW光伏和650MWh BESS、欧洲/爱沙尼亚1.5亿欧元电池园区、美国储能创纪录季度和AI需求相关线索。国内RSS新增/上移MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会嘉宾会见、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论等。SMM 01:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较00:00持平。",
+        "history": [
+          {
+            "label": "Spearmint融资 百万美元",
+            "value": 450
+          },
+          {
+            "label": "Enbridge光储项目 百万美元",
+            "value": 1200
+          },
+          {
+            "label": "Fortescue太阳能 MW",
+            "value": 690
+          },
+          {
+            "label": "Fortescue BESS MWh",
+            "value": 650
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0000-bnef-graphite-smm",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News",
@@ -14282,6 +14345,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0100-spearmint-enbridge",
+        "source": "Google News RSS / SMM上海有色 / pv magazine / ESG Today / Mercom Capital Group",
+        "source_type": "RSS/专业行情/海外行业媒体",
+        "account_name": "Google News / SMM / pv magazine / ESG Today / Mercom",
+        "category": "BESS融资/数据中心电力/光储项目/材料行情",
+        "title": "01:00刷新：Spearmint获4.5亿美元储能融资；Enbridge 12亿美元光储项目拟供电Meta",
+        "summary": "01:00严格刷新新增采信：海外RSS新增Spearmint Energy德州电池储能项目4.5亿美元融资、Enbridge 12亿美元太阳能+储能项目拟供电Meta数据中心、Fortescue澳洲690MW光伏+650MWh BESS、欧洲1.5亿欧元电池园区，以及美国储能创纪录季度/AI需求线索。国内新增MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论。SMM四项行情较00:00持平。",
+        "body": [
+          "海外新增：Spearmint Energy为德州电池储能项目获得4.5亿美元融资，显示美国大储融资热度延续。",
+          "数据中心电力新增：Enbridge拟开发12亿美元太阳能+储能项目，为Meta数据中心供电。",
+          "项目新增：Fortescue在澳大利亚开建690MW光伏和650MWh BESS；欧洲/爱沙尼亚1.5亿欧元电池园区线索新增。",
+          "海外舆情：美国储能创纪录季度、AI需求推升储能关注，同时仍伴随电网接入和供应链约束。",
+          "国内新增：MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论等上移。",
+          "行情侧：SMM公开页01:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较00:00持平。"
+        ],
+        "key_points": [
+          "Spearmint Energy：德州电池储能项目4.5亿美元融资新增。",
+          "Enbridge：12亿美元太阳能+储能项目拟供电Meta数据中心。",
+          "Fortescue：澳洲690MW太阳能+650MWh BESS建设线索新增。",
+          "欧洲：1.5亿欧元电池园区线索上移。",
+          "国内：MG 4X半固态、储能系统出货Top10、全国最大储能电站携手华为、小米YU7 LFP安全测试等新增/上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较00:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 01:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://www.mercomindia.com/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.pv-magazine.com/"
+        ],
+        "clean_html": "<p>01:00新增/复核：Spearmint Energy德州储能项目4.5亿美元融资、Enbridge 12亿美元光储项目拟供电Meta、Fortescue 690MW光伏+650MWh BESS；国内半固态电池、储能系统出货Top10等线索上移。SMM四项行情较00:00持平。</p>",
+        "caption": "储能融资、数据中心光储和澳洲BESS项目新增；SMM材料价持平。",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 cf3ed4d2cdba7f6b51b3c6be5206291e71459ff8687eb873d12a9ca161375cf0，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 3dd1a1b2829409ba8907ce5cdadd2f26fdaafa0a8c28f21c1bc39401b20b7a06。 海外入口：Energy-Storage.News 72ef9efd3554a63ef90cdc68790127f19d1ce00a01c57b174873b9708ea62932，ESS News 367704d3e913041d9227e9f26395a195e1ad1c0c0a16087820b4276e9c84bdc9，pv magazine 23359c5225c84b61996666e56c3740b0a1196e5933ac7b095347913d05f5c063，SolarQuarter b1aba009652b3b59dc20ef9d54a6a52436e0a2b536b47cffaf8ae352911a0736，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 01:00新增/变化：海外RSS新增或上移Spearmint Energy为德州电池储能项目获得4.5亿美元融资、Enbridge拟建设12亿美元太阳能+储能项目为Meta数据中心供电、Fortescue在澳大利亚开建690MW光伏和650MWh BESS、欧洲/爱沙尼亚1.5亿欧元电池园区、美国储能创纪录季度和AI需求相关线索。国内RSS新增/上移MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会嘉宾会见、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论等。SMM 01:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较00:00持平。"
+      },
       {
         "id": "latest-20260526-0000-bnef-graphite-smm",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News",
@@ -35942,6 +36042,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0100-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；01:00复核，四项较00:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较00:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 01:00 CST",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 cf3ed4d2cdba7f6b51b3c6be5206291e71459ff8687eb873d12a9ca161375cf0，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 3dd1a1b2829409ba8907ce5cdadd2f26fdaafa0a8c28f21c1bc39401b20b7a06。 海外入口：Energy-Storage.News 72ef9efd3554a63ef90cdc68790127f19d1ce00a01c57b174873b9708ea62932，ESS News 367704d3e913041d9227e9f26395a195e1ad1c0c0a16087820b4276e9c84bdc9，pv magazine 23359c5225c84b61996666e56c3740b0a1196e5933ac7b095347913d05f5c063，SolarQuarter b1aba009652b3b59dc20ef9d54a6a52436e0a2b536b47cffaf8ae352911a0736，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 01:00新增/变化：海外RSS新增或上移Spearmint Energy为德州电池储能项目获得4.5亿美元融资、Enbridge拟建设12亿美元太阳能+储能项目为Meta数据中心供电、Fortescue在澳大利亚开建690MW光伏和650MWh BESS、欧洲/爱沙尼亚1.5亿欧元电池园区、美国储能创纪录季度和AI需求相关线索。国内RSS新增/上移MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会嘉宾会见、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论等。SMM 01:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较00:00持平。"
+      },
+      {
         "id": "material-20260526-0000-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；00:00复核，四项较23:00持平",
@@ -39492,6 +39605,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0100-public-new",
+        "title": "01:00新增国内+海外储能/电池线索",
+        "value": "39",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS新增或上移Spearmint融资、Enbridge数据中心光储、Fortescue BESS、MG半固态、储能系统出货Top10等线索。",
+        "delta": "较00:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SMM / pv magazine",
+        "as_of": "2026-05-26 01:00 CST",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 cf3ed4d2cdba7f6b51b3c6be5206291e71459ff8687eb873d12a9ca161375cf0，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 3dd1a1b2829409ba8907ce5cdadd2f26fdaafa0a8c28f21c1bc39401b20b7a06。 海外入口：Energy-Storage.News 72ef9efd3554a63ef90cdc68790127f19d1ce00a01c57b174873b9708ea62932，ESS News 367704d3e913041d9227e9f26395a195e1ad1c0c0a16087820b4276e9c84bdc9，pv magazine 23359c5225c84b61996666e56c3740b0a1196e5933ac7b095347913d05f5c063，SolarQuarter b1aba009652b3b59dc20ef9d54a6a52436e0a2b536b47cffaf8ae352911a0736，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 01:00新增/变化：海外RSS新增或上移Spearmint Energy为德州电池储能项目获得4.5亿美元融资、Enbridge拟建设12亿美元太阳能+储能项目为Meta数据中心供电、Fortescue在澳大利亚开建690MW光伏和650MWh BESS、欧洲/爱沙尼亚1.5亿欧元电池园区、美国储能创纪录季度和AI需求相关线索。国内RSS新增/上移MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会嘉宾会见、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论等。SMM 01:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较00:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0000-public-new",
         "title": "00:00新增国内+海外储能/电池线索",
@@ -53071,6 +53197,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0100-bess-finance-datacenter",
+        "source": "Google News RSS / Mercom / ESG Today / pv magazine",
+        "category": "海外观察/BESS融资/数据中心电力",
+        "title": "海外新增Spearmint储能融资、Enbridge数据中心光储和Fortescue 650MWh BESS",
+        "summary": "01:00海外公开源新增/上移Spearmint Energy德州电池储能项目4.5亿美元融资、Enbridge 12亿美元太阳能+储能项目拟为Meta数据中心供电、Fortescue澳洲690MW光伏+650MWh BESS、欧洲1.5亿欧元电池园区，以及美国储能创纪录季度与AI需求相关线索。",
+        "value": "650",
+        "unit": "MWh BESS新增线索",
+        "delta": "储能融资、数据中心电力和澳洲BESS新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 01:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 cf3ed4d2cdba7f6b51b3c6be5206291e71459ff8687eb873d12a9ca161375cf0，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 3dd1a1b2829409ba8907ce5cdadd2f26fdaafa0a8c28f21c1bc39401b20b7a06。 海外入口：Energy-Storage.News 72ef9efd3554a63ef90cdc68790127f19d1ce00a01c57b174873b9708ea62932，ESS News 367704d3e913041d9227e9f26395a195e1ad1c0c0a16087820b4276e9c84bdc9，pv magazine 23359c5225c84b61996666e56c3740b0a1196e5933ac7b095347913d05f5c063，SolarQuarter b1aba009652b3b59dc20ef9d54a6a52436e0a2b536b47cffaf8ae352911a0736，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 01:00新增/变化：海外RSS新增或上移Spearmint Energy为德州电池储能项目获得4.5亿美元融资、Enbridge拟建设12亿美元太阳能+储能项目为Meta数据中心供电、Fortescue在澳大利亚开建690MW光伏和650MWh BESS、欧洲/爱沙尼亚1.5亿欧元电池园区、美国储能创纪录季度和AI需求相关线索。国内RSS新增/上移MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会嘉宾会见、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论等。SMM 01:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较00:00持平。"
+      },
+      {
         "id": "overseas-20260526-0000-bnef-graphite-one",
         "source": "Google News RSS / Energy-Storage.News / SolarQuarter",
         "category": "海外观察/BESS/电池材料",
@@ -59307,6 +59448,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0100-spearmint-enbridge-smm-flat",
+        "source": "Google News RSS / SMM上海有色 / pv magazine / ESG Today / Mercom Capital Group",
+        "category": "BESS融资/数据中心电力/材料行情",
+        "title": "储能融资和数据中心光储线索新增；SMM锂电材料较00:00持平",
+        "summary": "01:00严格刷新新增采信：海外RSS新增Spearmint Energy德州电池储能项目4.5亿美元融资、Enbridge 12亿美元太阳能+储能项目拟供电Meta数据中心、Fortescue澳洲690MW光伏+650MWh BESS、欧洲1.5亿欧元电池园区，以及美国储能创纪录季度/AI需求线索。国内新增MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论。SMM四项行情较00:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增Spearmint 4.5亿美元、Enbridge 12亿美元、Fortescue 650MWh BESS；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 01:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 cf3ed4d2cdba7f6b51b3c6be5206291e71459ff8687eb873d12a9ca161375cf0，SMM碳酸锂 cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 3dd1a1b2829409ba8907ce5cdadd2f26fdaafa0a8c28f21c1bc39401b20b7a06。 海外入口：Energy-Storage.News 72ef9efd3554a63ef90cdc68790127f19d1ce00a01c57b174873b9708ea62932，ESS News 367704d3e913041d9227e9f26395a195e1ad1c0c0a16087820b4276e9c84bdc9，pv magazine 23359c5225c84b61996666e56c3740b0a1196e5933ac7b095347913d05f5c063，SolarQuarter b1aba009652b3b59dc20ef9d54a6a52436e0a2b536b47cffaf8ae352911a0736，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 01:00新增/变化：海外RSS新增或上移Spearmint Energy为德州电池储能项目获得4.5亿美元融资、Enbridge拟建设12亿美元太阳能+储能项目为Meta数据中心供电、Fortescue在澳大利亚开建690MW光伏和650MWh BESS、欧洲/爱沙尼亚1.5亿欧元电池园区、美国储能创纪录季度和AI需求相关线索。国内RSS新增/上移MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会嘉宾会见、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论等。SMM 01:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较00:00持平。"
+      },
       {
         "id": "market-20260526-0000-bnef-graphite-smm-flat",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News",
@@ -73752,6 +73908,60 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0100-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 01:00 CST",
+        "status": 200,
+        "sha256": "6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb",
+        "finding": "首页已按小时重读；本轮写入Spearmint融资、Enbridge数据中心光储、Fortescue BESS和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0100-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 01:00 CST",
+        "status": 200,
+        "sha256": "43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b",
+        "finding": "/markettrend/已按小时重读；本轮补充储能融资、数据中心光储和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0100-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 01:00 CST",
+        "status": 200,
+        "sha256": "cf3ed4d2cdba7f6b51b3c6be5206291e71459ff8687eb873d12a9ca161375cf0",
+        "finding": "01:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较00:00持平。"
+      },
+      {
+        "id": "source-20260526-0100-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 01:00 CST",
+        "status": 200,
+        "sha256": "cdaa6707a78fbf13d9799ff588f907ba8ad5f8ff2f2b4b53e4a9fa523f7da605",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较00:00持平。"
+      },
+      {
+        "id": "source-20260526-0100-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 01:00 CST",
+        "status": 200,
+        "sha256": "5bac4be9a2c0e100425a887ba4e6941238ac59b21f76b10fed6b4b95cd2f7f3f",
+        "finding": "新增/上移MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会、小米YU7 LFP安全测试、国轩固态电池1元/Wh讨论等。"
+      },
+      {
+        "id": "source-20260526-0100-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 01:00 CST",
+        "status": 200,
+        "sha256": "4887a623f41a63c6afa4f21d663b910b849336fb006cc12c691a677494e76218",
+        "finding": "新增/上移Spearmint 4.5亿美元储能融资、Enbridge 12亿美元数据中心光储、Fortescue 650MWh BESS、欧洲电池园区和AI需求线索。"
+      },
+      {
         "id": "source-20260526-0000-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -81905,5 +82115,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T00:00:00+08:00"
+  "checked_at": "2026-05-26T01:00:00+08:00"
 };
