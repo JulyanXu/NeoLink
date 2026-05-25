@@ -1,8 +1,72 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T10:00:00+08:00",
-  "note": "10:00严格刷新新增采信：国内侧较09:00新增/上移河北蔚县202.5MW/405MWh储能系统采购中标候选人公示、中核汇能濉溪县韩村镇独立共享储能电站开工、邓州总投资4.8亿元项目开工；企业/技术侧新增德尔股份固态电池电解质材料稳定性说明及固态电池业务尚未形成收入、AI储能相关新能源电池ETF发行。海外侧新增/上移Ford 20GWh battery deal并指向grid-scale storage、EBRD向跨四国BESS开发商贷款7000万欧元、AI data centers on-site power、fluorine-free battery electrolytes market和Wolfspeed 3.3kV SiC power modules。SMM行情10:00复核：电池级碳酸锂178000元/吨、SMM电碳指数178343元/吨、磷酸铁锂61285元/吨，较09:00采集值持平。",
+  "generated_at": "2026-05-25T11:00:00+08:00",
+  "note": "11:00严格刷新新增采信：国内侧较10:00新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆电网侧独立储能容量电价165元/kW·年（6小时），栾川工商业储能项目并网，以及海博思创与华为数字能源战略合作；电池链新增小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应高端电池定义。海外侧新增Fortescue 690MW光伏+650MWh电池系统、ASEAN电网2045、Ford energy storage story和Navitas AI power demand线索。SMM行情11:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨、电解液28950元/吨。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-1100-shanxi-baotou-xinjiang-smm-up",
+        "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
+        "source_type": "国内外RSS发现/专业行情/国内行业站/海外行业媒体/本站回读",
+        "account_name": "Google News RSS / SMM / 北极星储能 / pv magazine Australia / SCMP",
+        "category": "储能开工/智能组串式储能/容量电价/电池安全/材料行情",
+        "title": "11:00刷新：山西两大储能开工、包头智能组串式储能与新疆165元/kW·年容量电价；SMM碳酸锂上调",
+        "summary": "11:00严格刷新新增采信：国内侧较10:00新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆电网侧独立储能容量电价165元/kW·年（6小时），栾川工商业储能项目并网，以及海博思创与华为数字能源战略合作；电池链新增小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应高端电池定义。海外侧新增Fortescue 690MW光伏+650MWh电池系统、ASEAN电网2045、Ford energy storage story和Navitas AI power demand线索。SMM行情11:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨、电解液28950元/吨。",
+        "body": [
+          "国内RSS较10:00新增/上移：山西晋中、长治两大储能项目正式开工，国内单体容量最大智能组串式储能电站落地包头，均指向区域储能项目继续落地。",
+          "政策/收益侧新增：新疆公布电网侧独立储能容量电价，6小时项目165元/kW·年；人民网山西出现“为储能电站牵线搭桥”线索。",
+          "项目/企业侧新增：栾川工商业储能项目并网，远东储能江西煤矿高安全用能屏障，海博思创与华为数字能源签署战略合作协议。",
+          "电池链新增：雷军披露小米汽车电池安全测试项目多达1230项，湖南裕能赴港IPO，比亚迪回应宁德时代关于高端电池定义。",
+          "海外侧新增/上移：Fortescue begins building 690MW solar farm and 650MWh battery system，ASEAN power grid 2045，Ford energy storage story，Navitas AI power demand。",
+          "行情侧：SMM公开页11:00复核，电池级碳酸锂183250元/吨、SMM电池级碳酸锂指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨、电解液28950元/吨。"
+        ],
+        "key_points": [
+          "国内新增：山西晋中、长治两大储能项目开工；包头智能组串式储能电站落地。",
+          "政策/商业模式：新疆电网侧独立储能容量电价165元/kW·年，适用6小时储能线索。",
+          "企业链：海博思创与华为数字能源战略合作；小米汽车电池安全测试项目1230项。",
+          "海外：Fortescue 690MW solar + 650MWh battery、ASEAN power grid 2045、Ford energy storage story新增/上移。",
+          "行情复核：SMM电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨。"
+        ],
+        "value": "183250",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "较10:00采集值上调5250元/吨；新增山西储能开工、包头智能组串式储能、新疆容量电价和Fortescue 650MWh电池系统线索",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 11:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "original_url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://www.pv-magazine.com/"
+        ],
+        "clean_html": "<p>11:00新增/复核：山西晋中、长治储能项目开工，包头智能组串式储能落地，新疆6小时独立储能容量电价165元/kW·年，Fortescue 650MWh电池系统；SMM电池级碳酸锂183250元/吨、指数183826元/吨。</p>",
+        "caption": "项目开工、容量电价和海外大电池线索新增；SMM碳酸锂较10:00采集值上调。",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 a7b5517fea64c18a573bec67fe1bdd3d2d80fca52e3ef31153ae6264bc1b4bae，SMM新能源 3f3dcebb64bd291b2a0aa77e32f0b45947c4e1e55f1e89d8574f86954eb80a33，SMM碳酸锂 61c97556ead4596e926b543ac92fa66afee80abe71f9d971bc185014fc2793b8，中国能源网 1ad1dbb576fed0ec777652d378d143afdff36457a9ea81e94b260d219dbbffd9，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 8b7f6a2f5e48f6de87ddf0d4aed2b4a1b5c2e348a8e30e6679be17f8849c4acc，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS a2882af24129987032036de0dec3e15e23b07717ea1ea3db3cc46e6d268afcff/7d23616021c9106645e58d7847cc57cf012ca2b266b14835d1305802fec5d026/2806de1850cfcc1d318d2ce2f43752859c06342da2f010eea533b6a24bf3781a。 海外入口：Energy-Storage.News 5c3832b0b4388c5ae34b17301198c4ced991be1a4dc0467ee40edb1c730339ed，ESS News b79f92a72620abde8da8037f84b7e9ed3cd22873caa380f540f99c6e1eca4a3c，pv magazine 7e28a8bf2b8473b17090b6721193cdf54b076205956f13332884bd13aa02983b，SolarQuarter 79d90cadb018c532acfc6bfa5f52a011d27b4df67f52aeecc8fa1d52fb31cea1，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4f6b7e0391ec69154d6d0324e36ae90b202bc252f0c1c77b0776bbf929f2572c/ba9deb8d709d9fe1e2c457bb1675b7d26cb999dbacd0addc53bca835bf6e5d3b/160f72cd0d877334b747ae626f168c0f674d7820e788f9dea8332bedacfb4dc5。 11:00新增/变化：较10:00，中文RSS新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆公布电网侧独立储能容量电价165元/kW·年且6小时，为储能电站“牵线搭桥”，栾川工商业储能项目并网，远东储能江西煤矿高安全用能屏障，海博思创与华为数字能源战略合作；电池链新增雷军披露小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应宁德时代高端电池定义。海外RSS新增Fortescue 690MW solar + 650MWh battery、ASEAN power grid 2045、Ford energy storage story、Navitas受AI power demand驱动。SMM 11:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00采集值上调5250/5483；磷酸铁锂61285元/吨，电解液28950元/吨。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 183826
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61285
+          },
+          {
+            "label": "中文新增/上移RSS标题 条",
+            "value": 34
+          },
+          {
+            "label": "海外新增/上移RSS标题 条",
+            "value": 7
+          }
+        ]
+      },
       {
         "id": "headline-20260525-1000-hebei-xixian-ford-bess-smm",
         "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
@@ -13482,6 +13546,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-1100-shanxi-baotou-xinjiang",
+        "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
+        "source_type": "国内外RSS发现/专业行情/国内行业站/海外行业媒体/本站回读",
+        "account_name": "Google News RSS / SMM / 北极星储能 / pv magazine Australia / SCMP",
+        "category": "储能开工/智能组串式储能/容量电价/电池安全/材料行情",
+        "title": "11:00刷新：山西两大储能开工、包头智能组串式储能与新疆165元/kW·年容量电价；SMM碳酸锂上调",
+        "summary": "11:00严格刷新新增采信：国内侧较10:00新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆电网侧独立储能容量电价165元/kW·年（6小时），栾川工商业储能项目并网，以及海博思创与华为数字能源战略合作；电池链新增小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应高端电池定义。海外侧新增Fortescue 690MW光伏+650MWh电池系统、ASEAN电网2045、Ford energy storage story和Navitas AI power demand线索。SMM行情11:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨、电解液28950元/吨。",
+        "body": [
+          "国内RSS较10:00新增/上移：山西晋中、长治两大储能项目正式开工，国内单体容量最大智能组串式储能电站落地包头，均指向区域储能项目继续落地。",
+          "政策/收益侧新增：新疆公布电网侧独立储能容量电价，6小时项目165元/kW·年；人民网山西出现“为储能电站牵线搭桥”线索。",
+          "项目/企业侧新增：栾川工商业储能项目并网，远东储能江西煤矿高安全用能屏障，海博思创与华为数字能源签署战略合作协议。",
+          "电池链新增：雷军披露小米汽车电池安全测试项目多达1230项，湖南裕能赴港IPO，比亚迪回应宁德时代关于高端电池定义。",
+          "海外侧新增/上移：Fortescue begins building 690MW solar farm and 650MWh battery system，ASEAN power grid 2045，Ford energy storage story，Navitas AI power demand。",
+          "行情侧：SMM公开页11:00复核，电池级碳酸锂183250元/吨、SMM电池级碳酸锂指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨、电解液28950元/吨。"
+        ],
+        "key_points": [
+          "国内新增：山西晋中、长治两大储能项目开工；包头智能组串式储能电站落地。",
+          "政策/商业模式：新疆电网侧独立储能容量电价165元/kW·年，适用6小时储能线索。",
+          "企业链：海博思创与华为数字能源战略合作；小米汽车电池安全测试项目1230项。",
+          "海外：Fortescue 690MW solar + 650MWh battery、ASEAN power grid 2045、Ford energy storage story新增/上移。",
+          "行情复核：SMM电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 11:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "original_url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://www.pv-magazine.com/"
+        ],
+        "clean_html": "<p>11:00新增/复核：山西晋中、长治储能项目开工，包头智能组串式储能落地，新疆6小时独立储能容量电价165元/kW·年，Fortescue 650MWh电池系统；SMM电池级碳酸锂183250元/吨、指数183826元/吨。</p>",
+        "caption": "项目开工、容量电价和海外大电池线索新增；SMM碳酸锂较10:00采集值上调。",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 a7b5517fea64c18a573bec67fe1bdd3d2d80fca52e3ef31153ae6264bc1b4bae，SMM新能源 3f3dcebb64bd291b2a0aa77e32f0b45947c4e1e55f1e89d8574f86954eb80a33，SMM碳酸锂 61c97556ead4596e926b543ac92fa66afee80abe71f9d971bc185014fc2793b8，中国能源网 1ad1dbb576fed0ec777652d378d143afdff36457a9ea81e94b260d219dbbffd9，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 8b7f6a2f5e48f6de87ddf0d4aed2b4a1b5c2e348a8e30e6679be17f8849c4acc，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS a2882af24129987032036de0dec3e15e23b07717ea1ea3db3cc46e6d268afcff/7d23616021c9106645e58d7847cc57cf012ca2b266b14835d1305802fec5d026/2806de1850cfcc1d318d2ce2f43752859c06342da2f010eea533b6a24bf3781a。 海外入口：Energy-Storage.News 5c3832b0b4388c5ae34b17301198c4ced991be1a4dc0467ee40edb1c730339ed，ESS News b79f92a72620abde8da8037f84b7e9ed3cd22873caa380f540f99c6e1eca4a3c，pv magazine 7e28a8bf2b8473b17090b6721193cdf54b076205956f13332884bd13aa02983b，SolarQuarter 79d90cadb018c532acfc6bfa5f52a011d27b4df67f52aeecc8fa1d52fb31cea1，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4f6b7e0391ec69154d6d0324e36ae90b202bc252f0c1c77b0776bbf929f2572c/ba9deb8d709d9fe1e2c457bb1675b7d26cb999dbacd0addc53bca835bf6e5d3b/160f72cd0d877334b747ae626f168c0f674d7820e788f9dea8332bedacfb4dc5。 11:00新增/变化：较10:00，中文RSS新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆公布电网侧独立储能容量电价165元/kW·年且6小时，为储能电站“牵线搭桥”，栾川工商业储能项目并网，远东储能江西煤矿高安全用能屏障，海博思创与华为数字能源战略合作；电池链新增雷军披露小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应宁德时代高端电池定义。海外RSS新增Fortescue 690MW solar + 650MWh battery、ASEAN power grid 2045、Ford energy storage story、Navitas受AI power demand驱动。SMM 11:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00采集值上调5250/5483；磷酸铁锂61285元/吨，电解液28950元/吨。"
+      },
       {
         "id": "latest-20260525-1000-hebei-xixian-ford-bess-smm",
         "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
@@ -34686,6 +34788,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-1100-smm-li2co3-lfp-up",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；11:00复核，电池级碳酸锂与电碳指数较10:00上调",
+        "value": "183250 / 183826 / 61285 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "电池级碳酸锂+5250；SMM电碳指数+5483；磷酸铁锂61285；电解液28950",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 11:00 CST",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 a7b5517fea64c18a573bec67fe1bdd3d2d80fca52e3ef31153ae6264bc1b4bae，SMM新能源 3f3dcebb64bd291b2a0aa77e32f0b45947c4e1e55f1e89d8574f86954eb80a33，SMM碳酸锂 61c97556ead4596e926b543ac92fa66afee80abe71f9d971bc185014fc2793b8，中国能源网 1ad1dbb576fed0ec777652d378d143afdff36457a9ea81e94b260d219dbbffd9，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 8b7f6a2f5e48f6de87ddf0d4aed2b4a1b5c2e348a8e30e6679be17f8849c4acc，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS a2882af24129987032036de0dec3e15e23b07717ea1ea3db3cc46e6d268afcff/7d23616021c9106645e58d7847cc57cf012ca2b266b14835d1305802fec5d026/2806de1850cfcc1d318d2ce2f43752859c06342da2f010eea533b6a24bf3781a。 海外入口：Energy-Storage.News 5c3832b0b4388c5ae34b17301198c4ced991be1a4dc0467ee40edb1c730339ed，ESS News b79f92a72620abde8da8037f84b7e9ed3cd22873caa380f540f99c6e1eca4a3c，pv magazine 7e28a8bf2b8473b17090b6721193cdf54b076205956f13332884bd13aa02983b，SolarQuarter 79d90cadb018c532acfc6bfa5f52a011d27b4df67f52aeecc8fa1d52fb31cea1，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4f6b7e0391ec69154d6d0324e36ae90b202bc252f0c1c77b0776bbf929f2572c/ba9deb8d709d9fe1e2c457bb1675b7d26cb999dbacd0addc53bca835bf6e5d3b/160f72cd0d877334b747ae626f168c0f674d7820e788f9dea8332bedacfb4dc5。 11:00新增/变化：较10:00，中文RSS新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆公布电网侧独立储能容量电价165元/kW·年且6小时，为储能电站“牵线搭桥”，栾川工商业储能项目并网，远东储能江西煤矿高安全用能屏障，海博思创与华为数字能源战略合作；电池链新增雷军披露小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应宁德时代高端电池定义。海外RSS新增Fortescue 690MW solar + 650MWh battery、ASEAN power grid 2045、Ford energy storage story、Navitas受AI power demand驱动。SMM 11:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00采集值上调5250/5483；磷酸铁锂61285元/吨，电解液28950元/吨。"
+      },
+      {
         "id": "material-20260525-1000-smm-li2co3-lfp-fluorine-free-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 六氟磷酸锂 / 电解液",
         "spec": "SMM公开行情页；10:00复核，核心数值较09:00持平；RSS新增fluorine-free battery electrolytes market线索",
@@ -38080,6 +38195,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-1100-smm-li2co3-up",
+        "title": "SMM电池级碳酸锂报价",
+        "value": "183250",
+        "unit": "元/吨",
+        "caption": "11:00 SMM碳酸锂页显示电池级碳酸锂183250元/吨、涨5250元/吨；SMM新能源页显示磷酸铁锂61285元/吨。",
+        "delta": "较10:00采集值上调5250元/吨",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "as_of": "2026-05-25 11:00 CST",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 a7b5517fea64c18a573bec67fe1bdd3d2d80fca52e3ef31153ae6264bc1b4bae，SMM新能源 3f3dcebb64bd291b2a0aa77e32f0b45947c4e1e55f1e89d8574f86954eb80a33，SMM碳酸锂 61c97556ead4596e926b543ac92fa66afee80abe71f9d971bc185014fc2793b8，中国能源网 1ad1dbb576fed0ec777652d378d143afdff36457a9ea81e94b260d219dbbffd9，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 8b7f6a2f5e48f6de87ddf0d4aed2b4a1b5c2e348a8e30e6679be17f8849c4acc，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS a2882af24129987032036de0dec3e15e23b07717ea1ea3db3cc46e6d268afcff/7d23616021c9106645e58d7847cc57cf012ca2b266b14835d1305802fec5d026/2806de1850cfcc1d318d2ce2f43752859c06342da2f010eea533b6a24bf3781a。 海外入口：Energy-Storage.News 5c3832b0b4388c5ae34b17301198c4ced991be1a4dc0467ee40edb1c730339ed，ESS News b79f92a72620abde8da8037f84b7e9ed3cd22873caa380f540f99c6e1eca4a3c，pv magazine 7e28a8bf2b8473b17090b6721193cdf54b076205956f13332884bd13aa02983b，SolarQuarter 79d90cadb018c532acfc6bfa5f52a011d27b4df67f52aeecc8fa1d52fb31cea1，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4f6b7e0391ec69154d6d0324e36ae90b202bc252f0c1c77b0776bbf929f2572c/ba9deb8d709d9fe1e2c457bb1675b7d26cb999dbacd0addc53bca835bf6e5d3b/160f72cd0d877334b747ae626f168c0f674d7820e788f9dea8332bedacfb4dc5。 11:00新增/变化：较10:00，中文RSS新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆公布电网侧独立储能容量电价165元/kW·年且6小时，为储能电站“牵线搭桥”，栾川工商业储能项目并网，远东储能江西煤矿高安全用能屏障，海博思创与华为数字能源战略合作；电池链新增雷军披露小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应宁德时代高端电池定义。海外RSS新增Fortescue 690MW solar + 650MWh battery、ASEAN power grid 2045、Ford energy storage story、Navitas受AI power demand驱动。SMM 11:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00采集值上调5250/5483；磷酸铁锂61285元/吨，电解液28950元/吨。",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price"
+      },
       {
         "id": "metric-20260525-1000-smm-li2co3-flat",
         "title": "SMM电池级碳酸锂报价",
@@ -51503,6 +51631,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-1100-fortescue-asean-ford-ai-power",
+        "source": "Google News RSS / pv magazine Australia / South China Morning Post / MSN / International Business Times Australia",
+        "category": "海外观察/BESS/电网/AI电力/容量",
+        "title": "海外新增Fortescue 690MW光伏+650MWh电池系统、ASEAN电网2045与AI电力线索",
+        "summary": "11:00复核海外公开来源后，RSS新增/上移Fortescue begins building 690MW solar farm and 650MWh battery system、Shock absorber: will ASEAN’s power grid be up to the task by 2045、Ford Motor energy storage story、Navitas Semiconductor受AI Power Demand和上调展望推动。",
+        "value": "7",
+        "unit": "条海外新增/上移RSS线索",
+        "delta": "Fortescue 650MWh电池系统、ASEAN电网、Ford储能故事和AI电力半导体线索新增/上移",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 11:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 a7b5517fea64c18a573bec67fe1bdd3d2d80fca52e3ef31153ae6264bc1b4bae，SMM新能源 3f3dcebb64bd291b2a0aa77e32f0b45947c4e1e55f1e89d8574f86954eb80a33，SMM碳酸锂 61c97556ead4596e926b543ac92fa66afee80abe71f9d971bc185014fc2793b8，中国能源网 1ad1dbb576fed0ec777652d378d143afdff36457a9ea81e94b260d219dbbffd9，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 8b7f6a2f5e48f6de87ddf0d4aed2b4a1b5c2e348a8e30e6679be17f8849c4acc，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS a2882af24129987032036de0dec3e15e23b07717ea1ea3db3cc46e6d268afcff/7d23616021c9106645e58d7847cc57cf012ca2b266b14835d1305802fec5d026/2806de1850cfcc1d318d2ce2f43752859c06342da2f010eea533b6a24bf3781a。 海外入口：Energy-Storage.News 5c3832b0b4388c5ae34b17301198c4ced991be1a4dc0467ee40edb1c730339ed，ESS News b79f92a72620abde8da8037f84b7e9ed3cd22873caa380f540f99c6e1eca4a3c，pv magazine 7e28a8bf2b8473b17090b6721193cdf54b076205956f13332884bd13aa02983b，SolarQuarter 79d90cadb018c532acfc6bfa5f52a011d27b4df67f52aeecc8fa1d52fb31cea1，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4f6b7e0391ec69154d6d0324e36ae90b202bc252f0c1c77b0776bbf929f2572c/ba9deb8d709d9fe1e2c457bb1675b7d26cb999dbacd0addc53bca835bf6e5d3b/160f72cd0d877334b747ae626f168c0f674d7820e788f9dea8332bedacfb4dc5。 11:00新增/变化：较10:00，中文RSS新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆公布电网侧独立储能容量电价165元/kW·年且6小时，为储能电站“牵线搭桥”，栾川工商业储能项目并网，远东储能江西煤矿高安全用能屏障，海博思创与华为数字能源战略合作；电池链新增雷军披露小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应宁德时代高端电池定义。海外RSS新增Fortescue 690MW solar + 650MWh battery、ASEAN power grid 2045、Ford energy storage story、Navitas受AI power demand驱动。SMM 11:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00采集值上调5250/5483；磷酸铁锂61285元/吨，电解液28950元/吨。"
+      },
+      {
         "id": "overseas-20260525-1000-ford-ebrd-ai-datacenter-storage",
         "source": "Google News RSS / CleanTechnica / Deccan Herald / Australian Broadcasting Corporation / Energy-Storage.News / ESS News",
         "category": "海外观察/BESS/政策/容量/电网调节/数据中心电力",
@@ -57559,6 +57702,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-1100-shanxi-baotou-xinjiang",
+        "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
+        "category": "储能开工/容量电价/材料行情/海外储能容量",
+        "title": "山西两大储能开工、包头智能组串式储能、新疆165元/kW·年容量电价；SMM碳酸锂183250元/吨",
+        "summary": "11:00严格刷新新增采信：国内侧较10:00新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆电网侧独立储能容量电价165元/kW·年（6小时），栾川工商业储能项目并网，以及海博思创与华为数字能源战略合作；电池链新增小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应高端电池定义。海外侧新增Fortescue 690MW光伏+650MWh电池系统、ASEAN电网2045、Ford energy storage story和Navitas AI power demand线索。SMM行情11:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00上调；磷酸铁锂61285元/吨、电解液28950元/吨。",
+        "value": "183250",
+        "unit": "元/吨 电池级碳酸锂",
+        "delta": "较10:00采集值上调5250元/吨；新增储能开工、容量电价和海外650MWh电池系统线索",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 11:00 CST",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "11:00严格刷新：已重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站、Google News RSS及原始HTML/RSS留档，按sha256、RSS标题差异、页面正文和SMM公开页面文本数值比对，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae；MarketTrend HTTP 200 sha256 38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3。 国内入口：北极星储能 a7b5517fea64c18a573bec67fe1bdd3d2d80fca52e3ef31153ae6264bc1b4bae，SMM新能源 3f3dcebb64bd291b2a0aa77e32f0b45947c4e1e55f1e89d8574f86954eb80a33，SMM碳酸锂 61c97556ead4596e926b543ac92fa66afee80abe71f9d971bc185014fc2793b8，中国能源网 1ad1dbb576fed0ec777652d378d143afdff36457a9ea81e94b260d219dbbffd9，国家能源局 891e8ff2e81e2bb81ae0ba29bc62c81de33f137e6a5f66dea8106b2288cfe776，工信部 992c20ca1eed90930f623b32f19f7315cbd50cc4b2c6d4e149c92a505a90a653，CNESA 8b7f6a2f5e48f6de87ddf0d4aed2b4a1b5c2e348a8e30e6679be17f8849c4acc，高工锂电SSL失败记录，Google News中文储能/BESS/碳酸锂RSS a2882af24129987032036de0dec3e15e23b07717ea1ea3db3cc46e6d268afcff/7d23616021c9106645e58d7847cc57cf012ca2b266b14835d1305802fec5d026/2806de1850cfcc1d318d2ce2f43752859c06342da2f010eea533b6a24bf3781a。 海外入口：Energy-Storage.News 5c3832b0b4388c5ae34b17301198c4ced991be1a4dc0467ee40edb1c730339ed，ESS News b79f92a72620abde8da8037f84b7e9ed3cd22873caa380f540f99c6e1eca4a3c，pv magazine 7e28a8bf2b8473b17090b6721193cdf54b076205956f13332884bd13aa02983b，SolarQuarter 79d90cadb018c532acfc6bfa5f52a011d27b4df67f52aeecc8fa1d52fb31cea1，EnergyTrend 57f10b7169521c9a7ba1366744a2dac9a67c82fe72f250cf2ba09f262d5b5b90，全球BESS/储能政策/数据中心电力RSS 4f6b7e0391ec69154d6d0324e36ae90b202bc252f0c1c77b0776bbf929f2572c/ba9deb8d709d9fe1e2c457bb1675b7d26cb999dbacd0addc53bca835bf6e5d3b/160f72cd0d877334b747ae626f168c0f674d7820e788f9dea8332bedacfb4dc5。 11:00新增/变化：较10:00，中文RSS新增山西晋中、长治两大储能项目开工，国内单体容量最大智能组串式储能电站落地包头，新疆公布电网侧独立储能容量电价165元/kW·年且6小时，为储能电站“牵线搭桥”，栾川工商业储能项目并网，远东储能江西煤矿高安全用能屏障，海博思创与华为数字能源战略合作；电池链新增雷军披露小米电池安全测试1230项、湖南裕能赴港IPO、比亚迪回应宁德时代高端电池定义。海外RSS新增Fortescue 690MW solar + 650MWh battery、ASEAN power grid 2045、Ford energy storage story、Navitas受AI power demand驱动。SMM 11:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨，较10:00采集值上调5250/5483；磷酸铁锂61285元/吨，电解液28950元/吨。"
+      },
       {
         "id": "market-20260525-1000-hebei-xixian-ford-bess",
         "source": "Google News RSS / SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / pv magazine",
@@ -71824,6 +71982,114 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-1100-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "7a14b9037a1b29ffadfa12231ec7021648eb2e601ba7e00c3852060e34a9d9ae",
+        "finding": "首页已按小时重读；本轮写入山西储能开工、包头智能组串式储能、新疆容量电价、Fortescue 650MWh电池系统和SMM行情上调。"
+      },
+      {
+        "id": "source-20260525-1100-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "38c22b76a67444e0535685f6cb02869d21307f2b14d666b443ac981c806379b3",
+        "finding": "/markettrend/已按小时重读；本轮补充储能开工、容量电价、海外大电池和碳酸锂上调关键词。"
+      },
+      {
+        "id": "source-20260525-1100-google-cn-storage",
+        "source": "Google News RSS 中文储能检索",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "a2882af24129987032036de0dec3e15e23b07717ea1ea3db3cc46e6d268afcff",
+        "finding": "较10:00新增/上移山西晋中、长治两大储能项目开工，包头智能组串式储能，新疆容量电价，栾川工商业储能并网，海博思创与华为数字能源合作。"
+      },
+      {
+        "id": "source-20260525-1100-google-cn-bess",
+        "source": "Google News RSS 中文BESS/电池检索",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E5%9E%8B%E5%82%A8%E8%83%BD%20OR%20BESS%20OR%20%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "7d23616021c9106645e58d7847cc57cf012ca2b266b14835d1305802fec5d026",
+        "finding": "较10:00新增小米电池安全测试1230项、燃料电池电堆带载振动试验、电池ETF走低等。"
+      },
+      {
+        "id": "source-20260525-1100-google-cn-lithium",
+        "source": "Google News RSS 中文碳酸锂/磷酸铁锂检索",
+        "url": "https://news.google.com/rss/search?q=%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E7%A3%B7%E9%85%B8%E9%93%81%E9%94%82%20OR%20SMM%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "2806de1850cfcc1d318d2ce2f43752859c06342da2f010eea533b6a24bf3781a",
+        "finding": "新增湖南裕能赴港IPO、比亚迪回应宁德时代高端电池定义、SMM铜箔装备周期等电池链/材料链线索。"
+      },
+      {
+        "id": "source-20260525-1100-google-global-bess",
+        "source": "Google News RSS 全球BESS检索",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "4f6b7e0391ec69154d6d0324e36ae90b202bc252f0c1c77b0776bbf929f2572c",
+        "finding": "较10:00新增Fortescue begins building 690MW solar farm and 650MWh battery system。"
+      },
+      {
+        "id": "source-20260525-1100-google-global-policy",
+        "source": "Google News RSS 全球储能政策/长时储能检索",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "ba9deb8d709d9fe1e2c457bb1675b7d26cb999dbacd0addc53bca835bf6e5d3b",
+        "finding": "较10:00新增SCMP关于ASEAN power grid 2045承载能力线索。"
+      },
+      {
+        "id": "source-20260525-1100-google-datacenter-power",
+        "source": "Google News RSS 数据中心电力检索",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "160f72cd0d877334b747ae626f168c0f674d7820e788f9dea8332bedacfb4dc5",
+        "finding": "较10:00新增/上移Ford energy storage story和Navitas Semiconductor AI Power Demand线索。"
+      },
+      {
+        "id": "source-20260525-1100-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "3f3dcebb64bd291b2a0aa77e32f0b45947c4e1e55f1e89d8574f86954eb80a33",
+        "finding": "11:00复核：电池级碳酸锂183250元/吨、磷酸铁锂61285元/吨、电解液28950元/吨。"
+      },
+      {
+        "id": "source-20260525-1100-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "61c97556ead4596e926b543ac92fa66afee80abe71f9d971bc185014fc2793b8",
+        "finding": "电池级碳酸锂183250元/吨、涨5250；SMM电池级碳酸锂指数183826元/吨、涨5483。"
+      },
+      {
+        "id": "source-20260525-1100-esn",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "5c3832b0b4388c5ae34b17301198c4ced991be1a4dc0467ee40edb1c730339ed",
+        "finding": "海外行业站已复核并留档；继续监控Rept Battero印尼cell/BESS制造、NSW 2128MWh firming storage、Japan 1.25GW BESS等。"
+      },
+      {
+        "id": "source-20260525-1100-ess",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/",
+        "as_of": "2026-05-25 11:00 CST",
+        "status": 200,
+        "sha256": "b79f92a72620abde8da8037f84b7e9ed3cd22873caa380f540f99c6e1eca4a3c",
+        "finding": "海外行业站已复核并留档；继续监控Sungrow 7.5GWh Masdar订单、Flexbase 800MW flow battery、Brazil battery storage potential、Spearmint 600MWh融资等。"
+      },
+      {
         "id": "source-20260525-1000-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -78978,5 +79244,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T10:00:00+08:00"
+  "checked_at": "2026-05-25T11:00:00+08:00"
 };
