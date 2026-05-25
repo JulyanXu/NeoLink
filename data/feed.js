@@ -1,8 +1,71 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T01:00:00+08:00",
-  "note": "01:00严格刷新新增采信：海外RSS新增Spearmint Energy德州电池储能项目4.5亿美元融资、Enbridge 12亿美元太阳能+储能项目拟供电Meta数据中心、Fortescue澳洲690MW光伏+650MWh BESS、欧洲1.5亿欧元电池园区，以及美国储能创纪录季度/AI需求线索。国内新增MG 4X半固态电池、全球储能系统出货Top10、全国最大储能电站携手华为、国际储能电池大会、小米YU7磷酸铁锂安全测试、国轩固态电池1元/Wh讨论。SMM四项行情较00:00持平。",
+  "generated_at": "2026-05-26T02:00:00+08:00",
+  "note": "02:00严格刷新新增采信：国内RSS上移山西晋中/长治储能项目开工、海南万宁光储渔项目开工、宝丽迪电解液添加剂、江苏射阳海上制氢、小米电池安全测试1230项、蜂巢能源超充观点、比亚迪/宁德时代电池定义争论、锂价上涨与富宝181600元/吨、金晟新能赴港、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工。海外新增SK On Tennessee电池工厂、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾PV+BESS、北卡微电网、BNEF上调BESS预测。SMM四项行情较01:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0200-cn-projects-bnef-sk-on",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / Mercom Capital Group",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / SolarQuarter / Energy-Storage.News / Mercom",
+        "category": "储能项目/电池产业链/BESS预测/材料行情",
+        "title": "02:00刷新：山西与海南储能/光储项目开工；BNEF上调BESS预测，SMM锂电材料持平",
+        "summary": "02:00严格刷新新增采信：国内RSS上移山西晋中/长治储能项目开工、海南万宁光储渔项目开工、宝丽迪电解液添加剂、江苏射阳海上制氢、小米电池安全测试1230项、蜂巢能源超充观点、比亚迪/宁德时代电池定义争论、锂价上涨与富宝181600元/吨、金晟新能赴港、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工。海外新增SK On Tennessee电池工厂、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾PV+BESS、北卡微电网、BNEF上调BESS预测。SMM四项行情较01:00持平。",
+        "body": [
+          "国内项目新增：山西晋中、长治两大储能项目正式开工；海南万宁首个光储渔综合能源项目开工；中核汇能濉溪独立共享储能电站开工线索上移。",
+          "国内产业链：宝丽迪聚焦电解液添加剂工艺优化，江苏射阳布局海上制氢，德方纳米87亿元扩产，金晟新能拟赴港上市。",
+          "电池舆情：小米汽车电池安全测试项目多达1230项；蜂巢能源提示冷静看待超充参数竞赛；比亚迪与宁德时代围绕高端电池定义的舆论继续上移。",
+          "海外新增：SK On Tennessee接管田纳西电池工厂；澳大利亚7.8GW可再生能源项目招标；Trinasolar扩展菲律宾公用事业级PV+BESS方案。",
+          "海外需求：北卡电力需求增长带动微电网讨论；BNEF上调BESS预测；AI和电网韧性继续支撑储能叙事。",
+          "行情侧：SMM公开页02:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较01:00持平。"
+        ],
+        "key_points": [
+          "山西晋中、长治两大储能项目开工；海南万宁光储渔项目开工。",
+          "中核汇能濉溪独立共享储能电站开工线索新增/上移。",
+          "德方纳米87亿元扩产、宝丽迪电解液添加剂、金晟新能赴港上市上移。",
+          "SK On Tennessee接管电池工厂，澳大利亚7.8GW可再生能源招标，Trinasolar菲律宾PV+BESS线索新增。",
+          "BNEF上调BESS预测，北卡微电网与AI/电网韧性需求继续发酵。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较01:00持平。"
+        ],
+        "value": "7800",
+        "unit": "MW澳大利亚可再生能源招标线索",
+        "delta": "新增山西/海南/濉溪储能项目开工、海外BESS预测和SK On电池工厂线索；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 02:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.energy-storage.news/",
+          "https://www.mercomindia.com/"
+        ],
+        "clean_html": "<p>02:00新增/复核：国内山西/海南/濉溪储能及光储项目开工线索上移，海外SK On Tennessee、澳大利亚7.8GW招标、BNEF上调BESS预测新增；SMM四项行情较01:00持平。</p>",
+        "caption": "国内项目开工与海外BESS预测新增；SMM材料价持平。",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 07e2d4a47473f1142011d126e066b92f1e91243e2a3a86539e1dced9463d653d，SMM碳酸锂 3281d135a52cae541ccbff37a9152c8b0da9be2d5035827e2701b231ef54db68，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 19fe0c8dbec1373d77be88adc69cde0d7e2d0a36a439c77ebc6c3974d926906e。 海外入口：Energy-Storage.News 4c01b5f20b79586dc923f9b8b1ffabd871a64f759133879167b93e59cbd93bd4，ESS News a3fc6bf44c50a0a4cf76b36ba819f10fe49c53da272977d64b5ebdf6014affd4，pv magazine abf3c806846b58b754e8b621e3d901d72046e9d8470e67bd57d718fd091e4b98，SolarQuarter 9ddbfcf559c280f659a9b9eee8433c0a8d32df3e3bb45da6ae45e073a01ad171，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 02:00新增/变化：国内RSS新增或上移山西晋中/长治两大储能项目开工、海南万宁首个光储渔综合能源项目开工、宝丽迪电解液添加剂工艺、江苏射阳海上制氢布局、雷军称小米汽车电池安全测试1230项、蜂巢能源超充参数竞赛观点、比亚迪回应宁德时代高端电池定义、锂价上涨与富宝碳酸锂181600元/吨、金晟新能赴港上市、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工等。海外RSS新增或上移SK On Tennessee接管田纳西电池工厂、太阳能2032成全球最大电源预测、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾公用事业级PV+BESS、北卡微电网、BNEF上调BESS预测。SMM 02:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较01:00持平。",
+        "history": [
+          {
+            "label": "澳大利亚招标 MW",
+            "value": 7800
+          },
+          {
+            "label": "小米电池安全测试 项",
+            "value": 1230
+          },
+          {
+            "label": "德方纳米扩产 亿元",
+            "value": 87
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0100-spearmint-enbridge-fortescue",
         "source": "Google News RSS / SMM上海有色 / pv magazine / ESG Today / Mercom Capital Group",
@@ -14345,6 +14408,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0200-projects-bnef",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / Mercom Capital Group",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / SolarQuarter / Energy-Storage.News / Mercom",
+        "category": "储能项目/电池产业链/BESS预测/材料行情",
+        "title": "02:00刷新：山西与海南储能/光储项目开工；BNEF上调BESS预测，SMM锂电材料持平",
+        "summary": "02:00严格刷新新增采信：国内RSS上移山西晋中/长治储能项目开工、海南万宁光储渔项目开工、宝丽迪电解液添加剂、江苏射阳海上制氢、小米电池安全测试1230项、蜂巢能源超充观点、比亚迪/宁德时代电池定义争论、锂价上涨与富宝181600元/吨、金晟新能赴港、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工。海外新增SK On Tennessee电池工厂、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾PV+BESS、北卡微电网、BNEF上调BESS预测。SMM四项行情较01:00持平。",
+        "body": [
+          "国内项目新增：山西晋中、长治两大储能项目正式开工；海南万宁首个光储渔综合能源项目开工；中核汇能濉溪独立共享储能电站开工线索上移。",
+          "国内产业链：宝丽迪聚焦电解液添加剂工艺优化，江苏射阳布局海上制氢，德方纳米87亿元扩产，金晟新能拟赴港上市。",
+          "电池舆情：小米汽车电池安全测试项目多达1230项；蜂巢能源提示冷静看待超充参数竞赛；比亚迪与宁德时代围绕高端电池定义的舆论继续上移。",
+          "海外新增：SK On Tennessee接管田纳西电池工厂；澳大利亚7.8GW可再生能源项目招标；Trinasolar扩展菲律宾公用事业级PV+BESS方案。",
+          "海外需求：北卡电力需求增长带动微电网讨论；BNEF上调BESS预测；AI和电网韧性继续支撑储能叙事。",
+          "行情侧：SMM公开页02:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较01:00持平。"
+        ],
+        "key_points": [
+          "山西晋中、长治两大储能项目开工；海南万宁光储渔项目开工。",
+          "中核汇能濉溪独立共享储能电站开工线索新增/上移。",
+          "德方纳米87亿元扩产、宝丽迪电解液添加剂、金晟新能赴港上市上移。",
+          "SK On Tennessee接管电池工厂，澳大利亚7.8GW可再生能源招标，Trinasolar菲律宾PV+BESS线索新增。",
+          "BNEF上调BESS预测，北卡微电网与AI/电网韧性需求继续发酵。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较01:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 02:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.energy-storage.news/",
+          "https://www.mercomindia.com/"
+        ],
+        "clean_html": "<p>02:00新增/复核：国内山西/海南/濉溪储能及光储项目开工线索上移，海外SK On Tennessee、澳大利亚7.8GW招标、BNEF上调BESS预测新增；SMM四项行情较01:00持平。</p>",
+        "caption": "国内项目开工与海外BESS预测新增；SMM材料价持平。",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 07e2d4a47473f1142011d126e066b92f1e91243e2a3a86539e1dced9463d653d，SMM碳酸锂 3281d135a52cae541ccbff37a9152c8b0da9be2d5035827e2701b231ef54db68，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 19fe0c8dbec1373d77be88adc69cde0d7e2d0a36a439c77ebc6c3974d926906e。 海外入口：Energy-Storage.News 4c01b5f20b79586dc923f9b8b1ffabd871a64f759133879167b93e59cbd93bd4，ESS News a3fc6bf44c50a0a4cf76b36ba819f10fe49c53da272977d64b5ebdf6014affd4，pv magazine abf3c806846b58b754e8b621e3d901d72046e9d8470e67bd57d718fd091e4b98，SolarQuarter 9ddbfcf559c280f659a9b9eee8433c0a8d32df3e3bb45da6ae45e073a01ad171，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 02:00新增/变化：国内RSS新增或上移山西晋中/长治两大储能项目开工、海南万宁首个光储渔综合能源项目开工、宝丽迪电解液添加剂工艺、江苏射阳海上制氢布局、雷军称小米汽车电池安全测试1230项、蜂巢能源超充参数竞赛观点、比亚迪回应宁德时代高端电池定义、锂价上涨与富宝碳酸锂181600元/吨、金晟新能赴港上市、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工等。海外RSS新增或上移SK On Tennessee接管田纳西电池工厂、太阳能2032成全球最大电源预测、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾公用事业级PV+BESS、北卡微电网、BNEF上调BESS预测。SMM 02:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较01:00持平。"
+      },
       {
         "id": "latest-20260526-0100-spearmint-enbridge",
         "source": "Google News RSS / SMM上海有色 / pv magazine / ESG Today / Mercom Capital Group",
@@ -36042,6 +36142,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0200-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；02:00复核，四项较01:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较01:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 02:00 CST",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 07e2d4a47473f1142011d126e066b92f1e91243e2a3a86539e1dced9463d653d，SMM碳酸锂 3281d135a52cae541ccbff37a9152c8b0da9be2d5035827e2701b231ef54db68，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 19fe0c8dbec1373d77be88adc69cde0d7e2d0a36a439c77ebc6c3974d926906e。 海外入口：Energy-Storage.News 4c01b5f20b79586dc923f9b8b1ffabd871a64f759133879167b93e59cbd93bd4，ESS News a3fc6bf44c50a0a4cf76b36ba819f10fe49c53da272977d64b5ebdf6014affd4，pv magazine abf3c806846b58b754e8b621e3d901d72046e9d8470e67bd57d718fd091e4b98，SolarQuarter 9ddbfcf559c280f659a9b9eee8433c0a8d32df3e3bb45da6ae45e073a01ad171，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 02:00新增/变化：国内RSS新增或上移山西晋中/长治两大储能项目开工、海南万宁首个光储渔综合能源项目开工、宝丽迪电解液添加剂工艺、江苏射阳海上制氢布局、雷军称小米汽车电池安全测试1230项、蜂巢能源超充参数竞赛观点、比亚迪回应宁德时代高端电池定义、锂价上涨与富宝碳酸锂181600元/吨、金晟新能赴港上市、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工等。海外RSS新增或上移SK On Tennessee接管田纳西电池工厂、太阳能2032成全球最大电源预测、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾公用事业级PV+BESS、北卡微电网、BNEF上调BESS预测。SMM 02:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较01:00持平。"
+      },
+      {
         "id": "material-20260526-0100-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；01:00复核，四项较00:00持平",
@@ -39605,6 +39718,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0200-public-new",
+        "title": "02:00新增国内+海外储能/电池线索",
+        "value": "29",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS新增或上移山西/海南/濉溪储能开工、德方纳米扩产、SK On Tennessee、澳大利亚7.8GW招标、BNEF上调BESS预测等线索。",
+        "delta": "较01:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SMM / SolarQuarter / Energy-Storage.News",
+        "as_of": "2026-05-26 02:00 CST",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 07e2d4a47473f1142011d126e066b92f1e91243e2a3a86539e1dced9463d653d，SMM碳酸锂 3281d135a52cae541ccbff37a9152c8b0da9be2d5035827e2701b231ef54db68，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 19fe0c8dbec1373d77be88adc69cde0d7e2d0a36a439c77ebc6c3974d926906e。 海外入口：Energy-Storage.News 4c01b5f20b79586dc923f9b8b1ffabd871a64f759133879167b93e59cbd93bd4，ESS News a3fc6bf44c50a0a4cf76b36ba819f10fe49c53da272977d64b5ebdf6014affd4，pv magazine abf3c806846b58b754e8b621e3d901d72046e9d8470e67bd57d718fd091e4b98，SolarQuarter 9ddbfcf559c280f659a9b9eee8433c0a8d32df3e3bb45da6ae45e073a01ad171，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 02:00新增/变化：国内RSS新增或上移山西晋中/长治两大储能项目开工、海南万宁首个光储渔综合能源项目开工、宝丽迪电解液添加剂工艺、江苏射阳海上制氢布局、雷军称小米汽车电池安全测试1230项、蜂巢能源超充参数竞赛观点、比亚迪回应宁德时代高端电池定义、锂价上涨与富宝碳酸锂181600元/吨、金晟新能赴港上市、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工等。海外RSS新增或上移SK On Tennessee接管田纳西电池工厂、太阳能2032成全球最大电源预测、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾公用事业级PV+BESS、北卡微电网、BNEF上调BESS预测。SMM 02:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较01:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0100-public-new",
         "title": "01:00新增国内+海外储能/电池线索",
@@ -53197,6 +53323,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0200-sk-on-bnef-auction",
+        "source": "Google News RSS / Energy-Storage.News / Mercom / SolarQuarter",
+        "category": "海外观察/BESS预测/电池工厂/可再生能源招标",
+        "title": "海外新增SK On Tennessee、澳大利亚7.8GW招标和BNEF上调BESS预测",
+        "summary": "02:00海外公开源新增/上移SK On Tennessee接管田纳西电池工厂、澳大利亚7.8GW可再生能源项目招标、Trinasolar菲律宾PV+BESS方案、北卡微电网讨论，以及BNEF上调BESS预测。",
+        "value": "7800",
+        "unit": "MW招标线索",
+        "delta": "海外电池工厂、PV+BESS和BESS预测新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 02:00 CST",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 07e2d4a47473f1142011d126e066b92f1e91243e2a3a86539e1dced9463d653d，SMM碳酸锂 3281d135a52cae541ccbff37a9152c8b0da9be2d5035827e2701b231ef54db68，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 19fe0c8dbec1373d77be88adc69cde0d7e2d0a36a439c77ebc6c3974d926906e。 海外入口：Energy-Storage.News 4c01b5f20b79586dc923f9b8b1ffabd871a64f759133879167b93e59cbd93bd4，ESS News a3fc6bf44c50a0a4cf76b36ba819f10fe49c53da272977d64b5ebdf6014affd4，pv magazine abf3c806846b58b754e8b621e3d901d72046e9d8470e67bd57d718fd091e4b98，SolarQuarter 9ddbfcf559c280f659a9b9eee8433c0a8d32df3e3bb45da6ae45e073a01ad171，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 02:00新增/变化：国内RSS新增或上移山西晋中/长治两大储能项目开工、海南万宁首个光储渔综合能源项目开工、宝丽迪电解液添加剂工艺、江苏射阳海上制氢布局、雷军称小米汽车电池安全测试1230项、蜂巢能源超充参数竞赛观点、比亚迪回应宁德时代高端电池定义、锂价上涨与富宝碳酸锂181600元/吨、金晟新能赴港上市、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工等。海外RSS新增或上移SK On Tennessee接管田纳西电池工厂、太阳能2032成全球最大电源预测、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾公用事业级PV+BESS、北卡微电网、BNEF上调BESS预测。SMM 02:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较01:00持平。"
+      },
+      {
         "id": "overseas-20260526-0100-bess-finance-datacenter",
         "source": "Google News RSS / Mercom / ESG Today / pv magazine",
         "category": "海外观察/BESS融资/数据中心电力",
@@ -59448,6 +59589,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0200-projects-bnef-smm-flat",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / Mercom Capital Group",
+        "category": "储能项目/海外BESS预测/材料行情",
+        "title": "国内储能项目开工和海外BESS预测线索新增；SMM锂电材料较01:00持平",
+        "summary": "02:00严格刷新新增采信：国内RSS上移山西晋中/长治储能项目开工、海南万宁光储渔项目开工、宝丽迪电解液添加剂、江苏射阳海上制氢、小米电池安全测试1230项、蜂巢能源超充观点、比亚迪/宁德时代电池定义争论、锂价上涨与富宝181600元/吨、金晟新能赴港、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工。海外新增SK On Tennessee电池工厂、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾PV+BESS、北卡微电网、BNEF上调BESS预测。SMM四项行情较01:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增山西/海南/濉溪储能项目、澳大利亚7.8GW招标、BNEF上调BESS预测；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 02:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb；MarketTrend HTTP 200 sha256 43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 07e2d4a47473f1142011d126e066b92f1e91243e2a3a86539e1dced9463d653d，SMM碳酸锂 3281d135a52cae541ccbff37a9152c8b0da9be2d5035827e2701b231ef54db68，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 19fe0c8dbec1373d77be88adc69cde0d7e2d0a36a439c77ebc6c3974d926906e。 海外入口：Energy-Storage.News 4c01b5f20b79586dc923f9b8b1ffabd871a64f759133879167b93e59cbd93bd4，ESS News a3fc6bf44c50a0a4cf76b36ba819f10fe49c53da272977d64b5ebdf6014affd4，pv magazine abf3c806846b58b754e8b621e3d901d72046e9d8470e67bd57d718fd091e4b98，SolarQuarter 9ddbfcf559c280f659a9b9eee8433c0a8d32df3e3bb45da6ae45e073a01ad171，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 02:00新增/变化：国内RSS新增或上移山西晋中/长治两大储能项目开工、海南万宁首个光储渔综合能源项目开工、宝丽迪电解液添加剂工艺、江苏射阳海上制氢布局、雷军称小米汽车电池安全测试1230项、蜂巢能源超充参数竞赛观点、比亚迪回应宁德时代高端电池定义、锂价上涨与富宝碳酸锂181600元/吨、金晟新能赴港上市、德方纳米87亿元扩产、中核汇能濉溪独立共享储能电站开工等。海外RSS新增或上移SK On Tennessee接管田纳西电池工厂、太阳能2032成全球最大电源预测、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾公用事业级PV+BESS、北卡微电网、BNEF上调BESS预测。SMM 02:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较01:00持平。"
+      },
       {
         "id": "market-20260526-0100-spearmint-enbridge-smm-flat",
         "source": "Google News RSS / SMM上海有色 / pv magazine / ESG Today / Mercom Capital Group",
@@ -73908,6 +74064,60 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0200-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 02:00 CST",
+        "status": 200,
+        "sha256": "6f6cbb6cca1eb9fb8bd9c246310484ddcbedb665e954dd878b4bc97bf102e5eb",
+        "finding": "首页已按小时重读；本轮写入国内储能项目开工、海外BESS预测和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0200-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 02:00 CST",
+        "status": 200,
+        "sha256": "43039e6be59966ac83c4a7a5921fe69383d59fcb411600b3af52747b9f3f6e8b",
+        "finding": "/markettrend/已按小时重读；本轮补充山西/海南/濉溪储能项目、海外BESS预测和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0200-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 02:00 CST",
+        "status": 200,
+        "sha256": "07e2d4a47473f1142011d126e066b92f1e91243e2a3a86539e1dced9463d653d",
+        "finding": "02:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较01:00持平。"
+      },
+      {
+        "id": "source-20260526-0200-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 02:00 CST",
+        "status": 200,
+        "sha256": "3281d135a52cae541ccbff37a9152c8b0da9be2d5035827e2701b231ef54db68",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较01:00持平。"
+      },
+      {
+        "id": "source-20260526-0200-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 02:00 CST",
+        "status": 200,
+        "sha256": "cd3e199a14fc578115d42c818bd7d2a2fa33f58136c89aca341ddd2aaf4da65f",
+        "finding": "新增/上移山西晋中/长治储能项目、海南万宁光储渔、中核汇能濉溪独立共享储能、德方纳米扩产、小米电池安全测试、蜂巢能源超充观点等。"
+      },
+      {
+        "id": "source-20260526-0200-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 02:00 CST",
+        "status": 200,
+        "sha256": "3d492923a64a378b11c1b0975336f485e92364b037d9b112684364d49f408453",
+        "finding": "新增/上移SK On Tennessee、澳大利亚7.8GW可再生能源招标、Trinasolar菲律宾PV+BESS、北卡微电网、BNEF上调BESS预测等。"
+      },
+      {
         "id": "source-20260526-0100-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -82115,5 +82325,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T01:00:00+08:00"
+  "checked_at": "2026-05-26T02:00:00+08:00"
 };
