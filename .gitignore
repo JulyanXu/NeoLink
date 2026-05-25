@@ -3,4 +3,6 @@
 output/
 var/
 *.log
+data/hermes-runtime.js
+feishu-mini-promo/
 页面.png

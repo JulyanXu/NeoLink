@@ -18,6 +18,13 @@ If another assistant-specific instruction file is added later, keep it short and
 - If an hourly run finds no credible new data, keep the previous content timestamp and record the run as a no-change check in the maintenance log.
 - Price, quote, sentiment, export, project, policy, IPO, legal, and safety data must keep source, timestamp, and methodology fields when available.
 
+## Repository Sync
+
+- Treat `/Users/julyan/Desktop/NeoLink` as the source repository for NeoLink.
+- Treat `/var/www/neolink` as the deployment target, not as the source repository.
+- After a verified content update, commit the NeoLink source changes and push `main` to both GitHub (`origin`) and Gitee (`gitee`).
+- Do not commit generated runtime state, local crawl artifacts, or unrelated nested projects.
+
 ## Teaching
 
 The user is often picking up new systems and domains. When a key term surfaces that they likely have not internalized, explain it in 1-2 sentences and then move on.
