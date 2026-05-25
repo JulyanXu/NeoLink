@@ -1,8 +1,76 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T21:00:00+08:00",
-  "note": "21:00严格刷新新增采信：海外新增Ontario 250MW/1,000MWh BESS商业运行、美国2026Q1新增9.7GWh BESS、GridStor收购Colorado 199MW电池储能、Bulgaria 161MW光储项目投运和Epsilon钠电硬碳负极；国内新增/上移中国储能企业参建沙特世界级电池储能制造基地、国轩高科锰基/固态电池、雷军披露小米电池安全测试1230项等。SMM行情21:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较20:00持平。",
+  "generated_at": "2026-05-25T22:00:00+08:00",
+  "note": "22:00严格刷新新增采信：海辰储能澳洲8小时长时储能系统、BloombergNEF上调/强化BESS展望、NTPC Green Energy 800MW/3200MWh BESS招标；海外RSS新增比利时Ruien储能、日本Hexa 90MW、Spearmint Texas项目4.5亿美元融资、EAMPL钠电硬碳负极、欧洲1.5亿欧元电池园区。国内新增新疆独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh EPC候选人和全球储能系统出货Top10更新。SMM行情22:00复核四项较21:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-2200-bnef-ntpc-hithium-smm",
+        "source": "北极星储能 / Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
+        "source_type": "国内行业媒体/海外行业媒体/RSS/专业行情",
+        "account_name": "北极星储能 / Energy-Storage.News / Google News / SMM / SolarQuarter",
+        "category": "长时储能/BESS招标/海外项目/材料行情",
+        "title": "22:00刷新：海辰澳洲8小时长时储能；BNEF上调BESS展望；NTPC 3.2GWh招标",
+        "summary": "22:00严格刷新新增采信：海辰储能澳洲8小时长时储能系统、BloombergNEF上调/强化BESS展望、NTPC Green Energy 800MW/3200MWh BESS招标；海外RSS新增比利时Ruien储能、日本Hexa 90MW、Spearmint Texas项目4.5亿美元融资、EAMPL钠电硬碳负极、欧洲1.5亿欧元电池园区。国内新增新疆独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh EPC候选人和全球储能系统出货Top10更新。SMM行情22:00复核四项较21:00持平。",
+        "body": [
+          "国内新增：北极星储能新增海辰储能澳洲首发8小时长时储能系统。",
+          "海外新增：Energy-Storage.News新增BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks。",
+          "招标新增：SolarQuarter新增/上移NTPC Green Energy 800MW/3200MWh BESS Project at Khavda Solar Park招标。",
+          "海外RSS新增：比利时Ruien大型电池储能、日本Hexa 90MW储能、Spearmint Texas电池储能项目4.5亿美元融资。",
+          "供应链新增：印度EAMPL发布钠离子电池硬碳负极；国内RSS继续出现固态电池、碳酸锂库存/均差、储能系统出货Top10等线索。",
+          "行情侧：SMM公开页22:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较21:00持平。"
+        ],
+        "key_points": [
+          "海辰储能：澳洲首发8小时长时储能系统。",
+          "BNEF：BESS forecast上调/强化，能源价格冲击背景下储能韧性价值升温。",
+          "NTPC Green Energy：800MW/3200MWh BESS招标线索新增/上移。",
+          "海外项目：Belgium Ruien、Japan Hexa 90MW、Spearmint Texas $450M融资。",
+          "国内政策/项目：新疆独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh EPC候选人。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较21:00持平。"
+        ],
+        "value": "3200",
+        "unit": "MWh NTPC BESS招标线索",
+        "delta": "新增8小时长时储能、BNEF BESS展望、NTPC 3.2GWh招标及多地海外项目",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 22:00 CST",
+        "url": "https://www.energy-storage.news/bloombergnef-ups-bess-forecast-as-renewables-add-resilience-from-fossil-fuel-price-shocks/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260525/1497107.shtml",
+          "https://solarquarter.com/2026/05/21/ntpc-green-energy-limited-invites-bids-for-800-mw-3200-mwh-bess-project-at-khavda-solar-park/",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>22:00新增/复核：北极星新增海辰储能澳洲8小时长时储能系统；Energy-Storage.News新增BNEF上调BESS展望；SolarQuarter新增/上移NTPC 800MW/3200MWh BESS招标；海外RSS新增比利时Ruien、日本Hexa 90MW、Spearmint Texas $450M融资、EAMPL钠电硬碳负极。SMM四项行情较21:00持平。</p>",
+        "caption": "长时储能、海外BESS展望/招标新增；SMM材料价较21:00持平。",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 54e527439855783004a7c7bdcf8c362e8afb563e9a75d2b55387b5c0b090af5f，SMM碳酸锂 4683140dbc0e0d13af58dab9f88cc8b4877957a026617d3bda71a48b75554219，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 96bb7845f7d4e3c0f033461379cd7286f51acd6a47c5a5f2ab3dd24f0a5791cb。 海外入口：Energy-Storage.News b98183fd295d6d888d474164143785ffb355d01fae1b62e990fd082fd12b2177，ESS News 3fc65f7b598f5fcb9958420d54c6ef214a8db0c6668413df972ff1cb3abab97e，pv magazine 6affaabd936086a7e7b951f62cdd595e458aa2c95150ffa58af128b163c6fcd8，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/数据中心RSS均HTTP 200。 22:00新增/变化：北极星新增海辰储能澳洲首发8小时长时储能系统；Energy-Storage.News新增/上移BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks；SolarQuarter新增/上移NTPC Green Energy 800MW/3200MWh BESS项目招标线索。Google News海外RSS新增Belgian co-ops build major battery energy storage system in Ruien、Hexa building 90MW battery storage systems in Japan、Spearmint Energy secures $450 million for Texas battery storage project、印度EAMPL launches hard carbon anode for sodium-ion batteries、欧洲€150 million battery park complex和Huawei Grid Interactive AIDC strategy等。国内RSS新增/上移宜昌国际级大会、全球储能系统出货Top10更新、新疆电网侧独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh电化学储能EPC候选人、内蒙古地方国资储能项目备案讨论等。SMM 22:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较21:00持平。",
+        "history": [
+          {
+            "label": "NTPC BESS MWh",
+            "value": 3200
+          },
+          {
+            "label": "海辰长时储能 小时",
+            "value": 8
+          },
+          {
+            "label": "Hexa Japan MW",
+            "value": 90
+          },
+          {
+            "label": "Spearmint融资 百万美元",
+            "value": 450
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260525-2100-ontario-us-bess-smm",
         "source": "Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
@@ -14087,6 +14155,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-2200-bnef-ntpc-hithium-smm",
+        "source": "北极星储能 / Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
+        "source_type": "国内行业媒体/海外行业媒体/RSS/专业行情",
+        "account_name": "北极星储能 / Energy-Storage.News / Google News / SMM / SolarQuarter",
+        "category": "长时储能/BESS招标/海外项目/材料行情",
+        "title": "22:00刷新：海辰澳洲8小时长时储能；BNEF上调BESS展望；NTPC 3.2GWh招标",
+        "summary": "22:00严格刷新新增采信：海辰储能澳洲8小时长时储能系统、BloombergNEF上调/强化BESS展望、NTPC Green Energy 800MW/3200MWh BESS招标；海外RSS新增比利时Ruien储能、日本Hexa 90MW、Spearmint Texas项目4.5亿美元融资、EAMPL钠电硬碳负极、欧洲1.5亿欧元电池园区。国内新增新疆独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh EPC候选人和全球储能系统出货Top10更新。SMM行情22:00复核四项较21:00持平。",
+        "body": [
+          "国内新增：北极星储能新增海辰储能澳洲首发8小时长时储能系统。",
+          "海外新增：Energy-Storage.News新增BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks。",
+          "招标新增：SolarQuarter新增/上移NTPC Green Energy 800MW/3200MWh BESS Project at Khavda Solar Park招标。",
+          "海外RSS新增：比利时Ruien大型电池储能、日本Hexa 90MW储能、Spearmint Texas电池储能项目4.5亿美元融资。",
+          "供应链新增：印度EAMPL发布钠离子电池硬碳负极；国内RSS继续出现固态电池、碳酸锂库存/均差、储能系统出货Top10等线索。",
+          "行情侧：SMM公开页22:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较21:00持平。"
+        ],
+        "key_points": [
+          "海辰储能：澳洲首发8小时长时储能系统。",
+          "BNEF：BESS forecast上调/强化，能源价格冲击背景下储能韧性价值升温。",
+          "NTPC Green Energy：800MW/3200MWh BESS招标线索新增/上移。",
+          "海外项目：Belgium Ruien、Japan Hexa 90MW、Spearmint Texas $450M融资。",
+          "国内政策/项目：新疆独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh EPC候选人。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较21:00持平。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 22:00 CST",
+        "url": "https://www.energy-storage.news/bloombergnef-ups-bess-forecast-as-renewables-add-resilience-from-fossil-fuel-price-shocks/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260525/1497107.shtml",
+          "https://solarquarter.com/2026/05/21/ntpc-green-energy-limited-invites-bids-for-800-mw-3200-mwh-bess-project-at-khavda-solar-park/",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>22:00新增/复核：北极星新增海辰储能澳洲8小时长时储能系统；Energy-Storage.News新增BNEF上调BESS展望；SolarQuarter新增/上移NTPC 800MW/3200MWh BESS招标；海外RSS新增比利时Ruien、日本Hexa 90MW、Spearmint Texas $450M融资、EAMPL钠电硬碳负极。SMM四项行情较21:00持平。</p>",
+        "caption": "长时储能、海外BESS展望/招标新增；SMM材料价较21:00持平。",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 54e527439855783004a7c7bdcf8c362e8afb563e9a75d2b55387b5c0b090af5f，SMM碳酸锂 4683140dbc0e0d13af58dab9f88cc8b4877957a026617d3bda71a48b75554219，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 96bb7845f7d4e3c0f033461379cd7286f51acd6a47c5a5f2ab3dd24f0a5791cb。 海外入口：Energy-Storage.News b98183fd295d6d888d474164143785ffb355d01fae1b62e990fd082fd12b2177，ESS News 3fc65f7b598f5fcb9958420d54c6ef214a8db0c6668413df972ff1cb3abab97e，pv magazine 6affaabd936086a7e7b951f62cdd595e458aa2c95150ffa58af128b163c6fcd8，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/数据中心RSS均HTTP 200。 22:00新增/变化：北极星新增海辰储能澳洲首发8小时长时储能系统；Energy-Storage.News新增/上移BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks；SolarQuarter新增/上移NTPC Green Energy 800MW/3200MWh BESS项目招标线索。Google News海外RSS新增Belgian co-ops build major battery energy storage system in Ruien、Hexa building 90MW battery storage systems in Japan、Spearmint Energy secures $450 million for Texas battery storage project、印度EAMPL launches hard carbon anode for sodium-ion batteries、欧洲€150 million battery park complex和Huawei Grid Interactive AIDC strategy等。国内RSS新增/上移宜昌国际级大会、全球储能系统出货Top10更新、新疆电网侧独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh电化学储能EPC候选人、内蒙古地方国资储能项目备案讨论等。SMM 22:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较21:00持平。"
+      },
       {
         "id": "latest-20260525-2100-ontario-us-bess-smm",
         "source": "Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
@@ -35634,6 +35740,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-2200-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；22:00复核，四项较21:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较21:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 22:00 CST",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 54e527439855783004a7c7bdcf8c362e8afb563e9a75d2b55387b5c0b090af5f，SMM碳酸锂 4683140dbc0e0d13af58dab9f88cc8b4877957a026617d3bda71a48b75554219，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 96bb7845f7d4e3c0f033461379cd7286f51acd6a47c5a5f2ab3dd24f0a5791cb。 海外入口：Energy-Storage.News b98183fd295d6d888d474164143785ffb355d01fae1b62e990fd082fd12b2177，ESS News 3fc65f7b598f5fcb9958420d54c6ef214a8db0c6668413df972ff1cb3abab97e，pv magazine 6affaabd936086a7e7b951f62cdd595e458aa2c95150ffa58af128b163c6fcd8，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/数据中心RSS均HTTP 200。 22:00新增/变化：北极星新增海辰储能澳洲首发8小时长时储能系统；Energy-Storage.News新增/上移BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks；SolarQuarter新增/上移NTPC Green Energy 800MW/3200MWh BESS项目招标线索。Google News海外RSS新增Belgian co-ops build major battery energy storage system in Ruien、Hexa building 90MW battery storage systems in Japan、Spearmint Energy secures $450 million for Texas battery storage project、印度EAMPL launches hard carbon anode for sodium-ion batteries、欧洲€150 million battery park complex和Huawei Grid Interactive AIDC strategy等。国内RSS新增/上移宜昌国际级大会、全球储能系统出货Top10更新、新疆电网侧独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh电化学储能EPC候选人、内蒙古地方国资储能项目备案讨论等。SMM 22:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较21:00持平。"
+      },
+      {
         "id": "material-20260525-2100-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；21:00复核，四项较20:00持平",
@@ -39145,6 +39264,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-2200-public-new",
+        "title": "22:00新增国内+海外储能/电池线索",
+        "value": "43",
+        "unit": "条",
+        "caption": "北极星、Energy-Storage.News、SolarQuarter、Google News中文/海外RSS等新增或上移长时储能、BESS招标/项目、容量电价和SMM行情线索。",
+        "delta": "较21:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "北极星储能 / Energy-Storage.News / Google News RSS / SolarQuarter / SMM",
+        "as_of": "2026-05-25 22:00 CST",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 54e527439855783004a7c7bdcf8c362e8afb563e9a75d2b55387b5c0b090af5f，SMM碳酸锂 4683140dbc0e0d13af58dab9f88cc8b4877957a026617d3bda71a48b75554219，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 96bb7845f7d4e3c0f033461379cd7286f51acd6a47c5a5f2ab3dd24f0a5791cb。 海外入口：Energy-Storage.News b98183fd295d6d888d474164143785ffb355d01fae1b62e990fd082fd12b2177，ESS News 3fc65f7b598f5fcb9958420d54c6ef214a8db0c6668413df972ff1cb3abab97e，pv magazine 6affaabd936086a7e7b951f62cdd595e458aa2c95150ffa58af128b163c6fcd8，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/数据中心RSS均HTTP 200。 22:00新增/变化：北极星新增海辰储能澳洲首发8小时长时储能系统；Energy-Storage.News新增/上移BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks；SolarQuarter新增/上移NTPC Green Energy 800MW/3200MWh BESS项目招标线索。Google News海外RSS新增Belgian co-ops build major battery energy storage system in Ruien、Hexa building 90MW battery storage systems in Japan、Spearmint Energy secures $450 million for Texas battery storage project、印度EAMPL launches hard carbon anode for sodium-ion batteries、欧洲€150 million battery park complex和Huawei Grid Interactive AIDC strategy等。国内RSS新增/上移宜昌国际级大会、全球储能系统出货Top10更新、新疆电网侧独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh电化学储能EPC候选人、内蒙古地方国资储能项目备案讨论等。SMM 22:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较21:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260525-2100-public-new",
         "title": "21:00新增国内+海外储能/电池线索",
@@ -52685,6 +52817,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-2200-bnef-ntpc-spearmint",
+        "source": "Energy-Storage.News / SolarQuarter / Google News RSS",
+        "category": "海外观察/BESS/储能项目",
+        "title": "海外新增BNEF BESS展望、NTPC 3.2GWh招标和Spearmint Texas融资",
+        "summary": "22:00海外公开源显示BNEF上调/强化BESS展望；NTPC Green Energy 800MW/3200MWh BESS招标线索新增/上移；RSS新增比利时Ruien大型储能、日本Hexa 90MW、Spearmint Texas项目4.5亿美元融资、EAMPL钠离子硬碳负极。",
+        "value": "450",
+        "unit": "百万美元 Spearmint Texas储能融资",
+        "delta": "BNEF BESS展望、NTPC 3.2GWh、Hexa 90MW、Spearmint $450M新增",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 22:00 CST",
+        "url": "https://www.energy-storage.news/bloombergnef-ups-bess-forecast-as-renewables-add-resilience-from-fossil-fuel-price-shocks/",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 54e527439855783004a7c7bdcf8c362e8afb563e9a75d2b55387b5c0b090af5f，SMM碳酸锂 4683140dbc0e0d13af58dab9f88cc8b4877957a026617d3bda71a48b75554219，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 96bb7845f7d4e3c0f033461379cd7286f51acd6a47c5a5f2ab3dd24f0a5791cb。 海外入口：Energy-Storage.News b98183fd295d6d888d474164143785ffb355d01fae1b62e990fd082fd12b2177，ESS News 3fc65f7b598f5fcb9958420d54c6ef214a8db0c6668413df972ff1cb3abab97e，pv magazine 6affaabd936086a7e7b951f62cdd595e458aa2c95150ffa58af128b163c6fcd8，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/数据中心RSS均HTTP 200。 22:00新增/变化：北极星新增海辰储能澳洲首发8小时长时储能系统；Energy-Storage.News新增/上移BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks；SolarQuarter新增/上移NTPC Green Energy 800MW/3200MWh BESS项目招标线索。Google News海外RSS新增Belgian co-ops build major battery energy storage system in Ruien、Hexa building 90MW battery storage systems in Japan、Spearmint Energy secures $450 million for Texas battery storage project、印度EAMPL launches hard carbon anode for sodium-ion batteries、欧洲€150 million battery park complex和Huawei Grid Interactive AIDC strategy等。国内RSS新增/上移宜昌国际级大会、全球储能系统出货Top10更新、新疆电网侧独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh电化学储能EPC候选人、内蒙古地方国资储能项目备案讨论等。SMM 22:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较21:00持平。"
+      },
+      {
         "id": "overseas-20260525-2100-ontario-us-gridstor",
         "source": "Energy-Storage.News / Google News RSS",
         "category": "海外观察/BESS/储能项目",
@@ -58876,6 +59023,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-2200-bess-smm-flat",
+        "source": "北极星储能 / Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
+        "category": "长时储能/BESS/材料行情",
+        "title": "长时储能与BESS招标/融资线索新增；SMM锂电材料较21:00持平",
+        "summary": "22:00严格刷新新增采信：海辰储能澳洲8小时长时储能系统、BloombergNEF上调/强化BESS展望、NTPC Green Energy 800MW/3200MWh BESS招标；海外RSS新增比利时Ruien储能、日本Hexa 90MW、Spearmint Texas项目4.5亿美元融资、EAMPL钠电硬碳负极、欧洲1.5亿欧元电池园区。国内新增新疆独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh EPC候选人和全球储能系统出货Top10更新。SMM行情22:00复核四项较21:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增海辰8小时、NTPC 3.2GWh、Spearmint $450M；SMM四项持平",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 22:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 54e527439855783004a7c7bdcf8c362e8afb563e9a75d2b55387b5c0b090af5f，SMM碳酸锂 4683140dbc0e0d13af58dab9f88cc8b4877957a026617d3bda71a48b75554219，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 96bb7845f7d4e3c0f033461379cd7286f51acd6a47c5a5f2ab3dd24f0a5791cb。 海外入口：Energy-Storage.News b98183fd295d6d888d474164143785ffb355d01fae1b62e990fd082fd12b2177，ESS News 3fc65f7b598f5fcb9958420d54c6ef214a8db0c6668413df972ff1cb3abab97e，pv magazine 6affaabd936086a7e7b951f62cdd595e458aa2c95150ffa58af128b163c6fcd8，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/数据中心RSS均HTTP 200。 22:00新增/变化：北极星新增海辰储能澳洲首发8小时长时储能系统；Energy-Storage.News新增/上移BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks；SolarQuarter新增/上移NTPC Green Energy 800MW/3200MWh BESS项目招标线索。Google News海外RSS新增Belgian co-ops build major battery energy storage system in Ruien、Hexa building 90MW battery storage systems in Japan、Spearmint Energy secures $450 million for Texas battery storage project、印度EAMPL launches hard carbon anode for sodium-ion batteries、欧洲€150 million battery park complex和Huawei Grid Interactive AIDC strategy等。国内RSS新增/上移宜昌国际级大会、全球储能系统出货Top10更新、新疆电网侧独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh电化学储能EPC候选人、内蒙古地方国资储能项目备案讨论等。SMM 22:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较21:00持平。"
+      },
       {
         "id": "market-20260525-2100-bess-smm-flat",
         "source": "Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
@@ -73276,6 +73438,87 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-2200-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce",
+        "finding": "首页已按小时重读；本轮写入海辰8小时长时储能、BNEF/NTPC海外BESS线索和SMM持平行情。"
+      },
+      {
+        "id": "source-20260525-2200-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd",
+        "finding": "/markettrend/已按小时重读；本轮补充长时储能、海外BESS招标/融资和SMM材料价格证据。"
+      },
+      {
+        "id": "source-20260525-2200-bjx",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd",
+        "finding": "新增海辰储能澳洲首发8小时长时储能系统。"
+      },
+      {
+        "id": "source-20260525-2200-energy-storage-news",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "b98183fd295d6d888d474164143785ffb355d01fae1b62e990fd082fd12b2177",
+        "finding": "新增/上移BloombergNEF ups BESS forecast as renewables add resilience from fossil fuel price shocks。"
+      },
+      {
+        "id": "source-20260525-2200-solarquarter",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d",
+        "finding": "新增/上移NTPC Green Energy 800MW/3200MWh BESS项目招标线索。"
+      },
+      {
+        "id": "source-20260525-2200-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "54e527439855783004a7c7bdcf8c362e8afb563e9a75d2b55387b5c0b090af5f",
+        "finding": "22:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较21:00持平。"
+      },
+      {
+        "id": "source-20260525-2200-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "4683140dbc0e0d13af58dab9f88cc8b4877957a026617d3bda71a48b75554219",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较21:00持平。"
+      },
+      {
+        "id": "source-20260525-2200-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "310a226fdf5f6717e505679be48bb00e97c6908cd3da45ce4a6d7cb905b789b2",
+        "finding": "新增/上移新疆独立储能容量电价、四川乐山100MW/200MWh EPC候选人、全球储能系统出货Top10等。"
+      },
+      {
+        "id": "source-20260525-2200-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 22:00 CST",
+        "status": 200,
+        "sha256": "b93cea784fafc8a89de9867d9cd6442d76b2ddab132d436be8476407f75bf7f3",
+        "finding": "新增/上移Belgian Ruien储能、日本Hexa 90MW、Spearmint Texas $450M融资、EAMPL钠电硬碳负极等。"
+      },
+      {
         "id": "source-20260525-2100-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -81213,5 +81456,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T21:00:00+08:00"
+  "checked_at": "2026-05-25T22:00:00+08:00"
 };
