@@ -1,8 +1,72 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T22:00:00+08:00",
-  "note": "22:00严格刷新新增采信：海辰储能澳洲8小时长时储能系统、BloombergNEF上调/强化BESS展望、NTPC Green Energy 800MW/3200MWh BESS招标；海外RSS新增比利时Ruien储能、日本Hexa 90MW、Spearmint Texas项目4.5亿美元融资、EAMPL钠电硬碳负极、欧洲1.5亿欧元电池园区。国内新增新疆独立储能容量电价165元/kW·年/6小时、四川乐山100MW/200MWh EPC候选人和全球储能系统出货Top10更新。SMM行情22:00复核四项较21:00持平。",
+  "generated_at": "2026-05-25T23:00:00+08:00",
+  "note": "23:00严格刷新新增采信：中国能源网新增“十五五”新型电网投资预计超5万亿元、新能源就地消纳再破局；海外RSS新增HyperStrong/SMA全球储能合作、Sungrow-Masdar 7.5GWh储能协议、墨西哥935MW以上储能招标、ZOE沙特BESS制造基地、纽约电池储能议案与Xcel/Google数据中心电力模式。国内RSS新增沙特世界级储能制造基地、比亚迪第二代刀片电池/闪充、国轩锰系路线、金晟新能拟港股上市、六氟磷酸锂单周涨超12%。SMM行情23:00复核四项较22:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-2300-grid-sungrow-hyperstrong-smm",
+        "source": "中国能源网 / Google News RSS / SMM上海有色 / pv magazine",
+        "source_type": "国内能源媒体/RSS/专业行情/海外行业媒体",
+        "account_name": "中国能源网 / Google News / SMM / pv magazine",
+        "category": "电网投资/BESS合作/材料行情/电池技术",
+        "title": "23:00刷新：十五五新型电网投资预计超5万亿元；Sungrow-Masdar 7.5GWh储能协议",
+        "summary": "23:00严格刷新新增采信：中国能源网新增“十五五”新型电网投资预计超5万亿元、新能源就地消纳再破局；海外RSS新增HyperStrong/SMA全球储能合作、Sungrow-Masdar 7.5GWh储能协议、墨西哥935MW以上储能招标、ZOE沙特BESS制造基地、纽约电池储能议案与Xcel/Google数据中心电力模式。国内RSS新增沙特世界级储能制造基地、比亚迪第二代刀片电池/闪充、国轩锰系路线、金晟新能拟港股上市、六氟磷酸锂单周涨超12%。SMM行情23:00复核四项较22:00持平。",
+        "body": [
+          "国内新增：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元，并出现新能源就地消纳再破局线索。",
+          "海外新增：Google News海外RSS新增HyperStrong & SMA全球储能合作、Sungrow与Masdar 7.5GWh储能系统协议。",
+          "招标/制造新增：墨西哥寻求935MW以上储能新战略招标；ZOE Energy将参与沙特首个BESS制造基地。",
+          "政策/负荷新增：纽约电池储能 setback bill 进入委员会视野；Xcel Energy/Google数据中心电力负荷应对模式新增。",
+          "国内供应链新增：六氟磷酸锂价格“淡季逆袭”单周涨超12%；金晟新能拟赴港上市；国轩高科锰系路线线索新增/上移。",
+          "行情侧：SMM公开页23:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较22:00持平。"
+        ],
+        "key_points": [
+          "“十五五”新型电网投资预计超过5万亿元，强化电网侧消纳与储能需求背景。",
+          "Sungrow/Masdar：7.5GWh Energy Storage System Agreement新增。",
+          "HyperStrong/SMA：全球储能合作线索新增。",
+          "Mexico：新战略招标寻求935MW以上储能。",
+          "ZOE Energy：沙特首个BESS制造基地线索新增/上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较22:00持平。"
+        ],
+        "value": "7.5",
+        "unit": "GWh Sungrow-Masdar储能协议",
+        "delta": "新增电网投资、7.5GWh储能协议、935MW墨西哥招标、沙特BESS制造基地等线索",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 23:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://www.cnenergynews.cn/",
+        "related_urls": [
+          "https://www.cnenergynews.cn/article/4Ri9nciaoTd",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.pv-magazine.com/2026/05/25/ja-solar-gold-stone-energy-claim-worlds-highest-efficiency-for-silicon-solar-cells-with-28-2-efficient-back-contact-device/"
+        ],
+        "clean_html": "<p>23:00新增/复核：中国能源网新增十五五新型电网投资预计超5万亿元；海外RSS新增Sungrow-Masdar 7.5GWh储能协议、HyperStrong/SMA合作、墨西哥935MW以上储能招标、ZOE沙特BESS制造基地。SMM四项行情较22:00持平。</p>",
+        "caption": "电网投资与海外BESS合作/招标新增；SMM材料价较22:00持平。",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 9686ad064deab5ee9d7cf0b9a4d478aa0f316c88afdd392ba947886f803e3f68，SMM碳酸锂 7861e2e4e6a6a40bdb21a52ffca9719dc33a58e40e37c5246fc324f0ba546457，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 29c5b056f449f77298139b82124eb319fbc44a7cf698eda3d3067cc4b7231dd2。 海外入口：Energy-Storage.News 60bd7261df84705dea5249f02b7f18b03e547dd20c2c62974aba6713913e549a，ESS News 214c57d595ce85d36d53cb3944789e59d999516ac15f187b8e556007110af368，pv magazine 600c3c79186db0a0015d41eaa399fd84cd3cf5219ab9879e99b2b9ff984f1a10，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 23:00新增/变化：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元及新能源就地消纳再破局；pv magazine新增JA Solar/Gold Stone Energy 28.2%背接触硅太阳能电池效率线索。Google News海外RSS新增/上移HyperStrong & SMA全球储能合作、Sungrow与Masdar 7.5GWh储能系统协议、Mexico seeks over 935MW storage tender、ZOE Energy沙特首个BESS制造基地、Battery Storage Setback Bill puts New York committee on notice、Xcel/Google数据中心电力负荷模式等。国内RSS新增/上移中国储能企业参建沙特世界级电池储能制造基地、比亚迪第二代刀片电池/闪充、国轩高科锰系路线、锂电回收龙头金晟新能拟赴港上市、六氟磷酸锂单周涨超12%等。SMM 23:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较22:00持平。",
+        "history": [
+          {
+            "label": "新型电网投资 万亿元",
+            "value": 5
+          },
+          {
+            "label": "Sungrow-Masdar GWh",
+            "value": 7.5
+          },
+          {
+            "label": "Mexico storage MW",
+            "value": 935
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260525-2200-bnef-ntpc-hithium-smm",
         "source": "北极星储能 / Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
@@ -14155,6 +14219,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-2300-grid-sungrow-hyperstrong-smm",
+        "source": "中国能源网 / Google News RSS / SMM上海有色 / pv magazine",
+        "source_type": "国内能源媒体/RSS/专业行情/海外行业媒体",
+        "account_name": "中国能源网 / Google News / SMM / pv magazine",
+        "category": "电网投资/BESS合作/材料行情/电池技术",
+        "title": "23:00刷新：十五五新型电网投资预计超5万亿元；Sungrow-Masdar 7.5GWh储能协议",
+        "summary": "23:00严格刷新新增采信：中国能源网新增“十五五”新型电网投资预计超5万亿元、新能源就地消纳再破局；海外RSS新增HyperStrong/SMA全球储能合作、Sungrow-Masdar 7.5GWh储能协议、墨西哥935MW以上储能招标、ZOE沙特BESS制造基地、纽约电池储能议案与Xcel/Google数据中心电力模式。国内RSS新增沙特世界级储能制造基地、比亚迪第二代刀片电池/闪充、国轩锰系路线、金晟新能拟港股上市、六氟磷酸锂单周涨超12%。SMM行情23:00复核四项较22:00持平。",
+        "body": [
+          "国内新增：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元，并出现新能源就地消纳再破局线索。",
+          "海外新增：Google News海外RSS新增HyperStrong & SMA全球储能合作、Sungrow与Masdar 7.5GWh储能系统协议。",
+          "招标/制造新增：墨西哥寻求935MW以上储能新战略招标；ZOE Energy将参与沙特首个BESS制造基地。",
+          "政策/负荷新增：纽约电池储能 setback bill 进入委员会视野；Xcel Energy/Google数据中心电力负荷应对模式新增。",
+          "国内供应链新增：六氟磷酸锂价格“淡季逆袭”单周涨超12%；金晟新能拟赴港上市；国轩高科锰系路线线索新增/上移。",
+          "行情侧：SMM公开页23:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较22:00持平。"
+        ],
+        "key_points": [
+          "“十五五”新型电网投资预计超过5万亿元，强化电网侧消纳与储能需求背景。",
+          "Sungrow/Masdar：7.5GWh Energy Storage System Agreement新增。",
+          "HyperStrong/SMA：全球储能合作线索新增。",
+          "Mexico：新战略招标寻求935MW以上储能。",
+          "ZOE Energy：沙特首个BESS制造基地线索新增/上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较22:00持平。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 23:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://www.cnenergynews.cn/",
+        "related_urls": [
+          "https://www.cnenergynews.cn/article/4Ri9nciaoTd",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://www.pv-magazine.com/2026/05/25/ja-solar-gold-stone-energy-claim-worlds-highest-efficiency-for-silicon-solar-cells-with-28-2-efficient-back-contact-device/"
+        ],
+        "clean_html": "<p>23:00新增/复核：中国能源网新增十五五新型电网投资预计超5万亿元；海外RSS新增Sungrow-Masdar 7.5GWh储能协议、HyperStrong/SMA合作、墨西哥935MW以上储能招标、ZOE沙特BESS制造基地。SMM四项行情较22:00持平。</p>",
+        "caption": "电网投资与海外BESS合作/招标新增；SMM材料价较22:00持平。",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 9686ad064deab5ee9d7cf0b9a4d478aa0f316c88afdd392ba947886f803e3f68，SMM碳酸锂 7861e2e4e6a6a40bdb21a52ffca9719dc33a58e40e37c5246fc324f0ba546457，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 29c5b056f449f77298139b82124eb319fbc44a7cf698eda3d3067cc4b7231dd2。 海外入口：Energy-Storage.News 60bd7261df84705dea5249f02b7f18b03e547dd20c2c62974aba6713913e549a，ESS News 214c57d595ce85d36d53cb3944789e59d999516ac15f187b8e556007110af368，pv magazine 600c3c79186db0a0015d41eaa399fd84cd3cf5219ab9879e99b2b9ff984f1a10，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 23:00新增/变化：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元及新能源就地消纳再破局；pv magazine新增JA Solar/Gold Stone Energy 28.2%背接触硅太阳能电池效率线索。Google News海外RSS新增/上移HyperStrong & SMA全球储能合作、Sungrow与Masdar 7.5GWh储能系统协议、Mexico seeks over 935MW storage tender、ZOE Energy沙特首个BESS制造基地、Battery Storage Setback Bill puts New York committee on notice、Xcel/Google数据中心电力负荷模式等。国内RSS新增/上移中国储能企业参建沙特世界级电池储能制造基地、比亚迪第二代刀片电池/闪充、国轩高科锰系路线、锂电回收龙头金晟新能拟赴港上市、六氟磷酸锂单周涨超12%等。SMM 23:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较22:00持平。"
+      },
       {
         "id": "latest-20260525-2200-bnef-ntpc-hithium-smm",
         "source": "北极星储能 / Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
@@ -35740,6 +35842,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-2300-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；23:00复核，四项较22:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较22:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 23:00 CST",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 9686ad064deab5ee9d7cf0b9a4d478aa0f316c88afdd392ba947886f803e3f68，SMM碳酸锂 7861e2e4e6a6a40bdb21a52ffca9719dc33a58e40e37c5246fc324f0ba546457，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 29c5b056f449f77298139b82124eb319fbc44a7cf698eda3d3067cc4b7231dd2。 海外入口：Energy-Storage.News 60bd7261df84705dea5249f02b7f18b03e547dd20c2c62974aba6713913e549a，ESS News 214c57d595ce85d36d53cb3944789e59d999516ac15f187b8e556007110af368，pv magazine 600c3c79186db0a0015d41eaa399fd84cd3cf5219ab9879e99b2b9ff984f1a10，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 23:00新增/变化：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元及新能源就地消纳再破局；pv magazine新增JA Solar/Gold Stone Energy 28.2%背接触硅太阳能电池效率线索。Google News海外RSS新增/上移HyperStrong & SMA全球储能合作、Sungrow与Masdar 7.5GWh储能系统协议、Mexico seeks over 935MW storage tender、ZOE Energy沙特首个BESS制造基地、Battery Storage Setback Bill puts New York committee on notice、Xcel/Google数据中心电力负荷模式等。国内RSS新增/上移中国储能企业参建沙特世界级电池储能制造基地、比亚迪第二代刀片电池/闪充、国轩高科锰系路线、锂电回收龙头金晟新能拟赴港上市、六氟磷酸锂单周涨超12%等。SMM 23:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较22:00持平。"
+      },
+      {
         "id": "material-20260525-2200-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；22:00复核，四项较21:00持平",
@@ -39264,6 +39379,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-2300-public-new",
+        "title": "23:00新增国内+海外储能/电池线索",
+        "value": "53",
+        "unit": "条",
+        "caption": "中国能源网、pv magazine、Google News中文/海外RSS等新增或上移电网投资、海外BESS协议/招标、沙特制造基地和SMM行情线索。",
+        "delta": "较22:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "中国能源网 / pv magazine / Google News RSS / SMM",
+        "as_of": "2026-05-25 23:00 CST",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 9686ad064deab5ee9d7cf0b9a4d478aa0f316c88afdd392ba947886f803e3f68，SMM碳酸锂 7861e2e4e6a6a40bdb21a52ffca9719dc33a58e40e37c5246fc324f0ba546457，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 29c5b056f449f77298139b82124eb319fbc44a7cf698eda3d3067cc4b7231dd2。 海外入口：Energy-Storage.News 60bd7261df84705dea5249f02b7f18b03e547dd20c2c62974aba6713913e549a，ESS News 214c57d595ce85d36d53cb3944789e59d999516ac15f187b8e556007110af368，pv magazine 600c3c79186db0a0015d41eaa399fd84cd3cf5219ab9879e99b2b9ff984f1a10，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 23:00新增/变化：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元及新能源就地消纳再破局；pv magazine新增JA Solar/Gold Stone Energy 28.2%背接触硅太阳能电池效率线索。Google News海外RSS新增/上移HyperStrong & SMA全球储能合作、Sungrow与Masdar 7.5GWh储能系统协议、Mexico seeks over 935MW storage tender、ZOE Energy沙特首个BESS制造基地、Battery Storage Setback Bill puts New York committee on notice、Xcel/Google数据中心电力负荷模式等。国内RSS新增/上移中国储能企业参建沙特世界级电池储能制造基地、比亚迪第二代刀片电池/闪充、国轩高科锰系路线、锂电回收龙头金晟新能拟赴港上市、六氟磷酸锂单周涨超12%等。SMM 23:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较22:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260525-2200-public-new",
         "title": "22:00新增国内+海外储能/电池线索",
@@ -52817,6 +52945,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-2300-sungrow-hyperstrong-mexico",
+        "source": "Google News RSS / pv magazine",
+        "category": "海外观察/BESS/储能项目",
+        "title": "海外新增Sungrow-Masdar 7.5GWh、HyperStrong/SMA合作和墨西哥935MW储能招标",
+        "summary": "23:00海外公开源显示Sungrow与Masdar签署7.5GWh储能系统协议；HyperStrong与SMA出现全球储能合作线索；墨西哥寻求935MW以上储能战略招标；ZOE Energy沙特BESS制造基地、Xcel/Google数据中心电力模式等新增/上移。",
+        "value": "7.5",
+        "unit": "GWh 储能系统协议",
+        "delta": "7.5GWh协议、935MW招标、沙特BESS制造基地新增",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 23:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 9686ad064deab5ee9d7cf0b9a4d478aa0f316c88afdd392ba947886f803e3f68，SMM碳酸锂 7861e2e4e6a6a40bdb21a52ffca9719dc33a58e40e37c5246fc324f0ba546457，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 29c5b056f449f77298139b82124eb319fbc44a7cf698eda3d3067cc4b7231dd2。 海外入口：Energy-Storage.News 60bd7261df84705dea5249f02b7f18b03e547dd20c2c62974aba6713913e549a，ESS News 214c57d595ce85d36d53cb3944789e59d999516ac15f187b8e556007110af368，pv magazine 600c3c79186db0a0015d41eaa399fd84cd3cf5219ab9879e99b2b9ff984f1a10，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 23:00新增/变化：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元及新能源就地消纳再破局；pv magazine新增JA Solar/Gold Stone Energy 28.2%背接触硅太阳能电池效率线索。Google News海外RSS新增/上移HyperStrong & SMA全球储能合作、Sungrow与Masdar 7.5GWh储能系统协议、Mexico seeks over 935MW storage tender、ZOE Energy沙特首个BESS制造基地、Battery Storage Setback Bill puts New York committee on notice、Xcel/Google数据中心电力负荷模式等。国内RSS新增/上移中国储能企业参建沙特世界级电池储能制造基地、比亚迪第二代刀片电池/闪充、国轩高科锰系路线、锂电回收龙头金晟新能拟赴港上市、六氟磷酸锂单周涨超12%等。SMM 23:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较22:00持平。"
+      },
+      {
         "id": "overseas-20260525-2200-bnef-ntpc-spearmint",
         "source": "Energy-Storage.News / SolarQuarter / Google News RSS",
         "category": "海外观察/BESS/储能项目",
@@ -59023,6 +59166,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-2300-grid-bess-smm-flat",
+        "source": "中国能源网 / Google News RSS / SMM上海有色 / pv magazine",
+        "category": "电网投资/BESS/材料行情",
+        "title": "电网投资和海外BESS合作线索新增；SMM锂电材料较22:00持平",
+        "summary": "23:00严格刷新新增采信：中国能源网新增“十五五”新型电网投资预计超5万亿元、新能源就地消纳再破局；海外RSS新增HyperStrong/SMA全球储能合作、Sungrow-Masdar 7.5GWh储能协议、墨西哥935MW以上储能招标、ZOE沙特BESS制造基地、纽约电池储能议案与Xcel/Google数据中心电力模式。国内RSS新增沙特世界级储能制造基地、比亚迪第二代刀片电池/闪充、国轩锰系路线、金晟新能拟港股上市、六氟磷酸锂单周涨超12%。SMM行情23:00复核四项较22:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增5万亿元电网投资、7.5GWh储能协议、935MW墨西哥储能招标；SMM四项持平",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 23:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 9686ad064deab5ee9d7cf0b9a4d478aa0f316c88afdd392ba947886f803e3f68，SMM碳酸锂 7861e2e4e6a6a40bdb21a52ffca9719dc33a58e40e37c5246fc324f0ba546457，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 29c5b056f449f77298139b82124eb319fbc44a7cf698eda3d3067cc4b7231dd2。 海外入口：Energy-Storage.News 60bd7261df84705dea5249f02b7f18b03e547dd20c2c62974aba6713913e549a，ESS News 214c57d595ce85d36d53cb3944789e59d999516ac15f187b8e556007110af368，pv magazine 600c3c79186db0a0015d41eaa399fd84cd3cf5219ab9879e99b2b9ff984f1a10，SolarQuarter 8a78c14f0866e05ec48f3339ef4aa21b1e4f338bfbb83da41ba3c0ff1da1930d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 23:00新增/变化：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元及新能源就地消纳再破局；pv magazine新增JA Solar/Gold Stone Energy 28.2%背接触硅太阳能电池效率线索。Google News海外RSS新增/上移HyperStrong & SMA全球储能合作、Sungrow与Masdar 7.5GWh储能系统协议、Mexico seeks over 935MW storage tender、ZOE Energy沙特首个BESS制造基地、Battery Storage Setback Bill puts New York committee on notice、Xcel/Google数据中心电力负荷模式等。国内RSS新增/上移中国储能企业参建沙特世界级电池储能制造基地、比亚迪第二代刀片电池/闪充、国轩高科锰系路线、锂电回收龙头金晟新能拟赴港上市、六氟磷酸锂单周涨超12%等。SMM 23:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较22:00持平。"
+      },
       {
         "id": "market-20260525-2200-bess-smm-flat",
         "source": "北极星储能 / Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
@@ -73438,6 +73596,78 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-2300-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 23:00 CST",
+        "status": 200,
+        "sha256": "bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce",
+        "finding": "首页已按小时重读；本轮写入电网投资、Sungrow/Masdar、HyperStrong/SMA和SMM持平行情。"
+      },
+      {
+        "id": "source-20260525-2300-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 23:00 CST",
+        "status": 200,
+        "sha256": "1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd",
+        "finding": "/markettrend/已按小时重读；本轮补充电网投资、海外BESS协议/招标和SMM材料价格证据。"
+      },
+      {
+        "id": "source-20260525-2300-cnenergy",
+        "source": "中国能源网",
+        "url": "https://www.cnenergynews.cn/",
+        "as_of": "2026-05-25 23:00 CST",
+        "status": 200,
+        "sha256": "b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a",
+        "finding": "新增“十五五”时期我国新型电网投资预计将超过5万亿元、新能源就地消纳再破局。"
+      },
+      {
+        "id": "source-20260525-2300-pv-magazine",
+        "source": "pv magazine",
+        "url": "https://www.pv-magazine.com/",
+        "as_of": "2026-05-25 23:00 CST",
+        "status": 200,
+        "sha256": "600c3c79186db0a0015d41eaa399fd84cd3cf5219ab9879e99b2b9ff984f1a10",
+        "finding": "新增JA Solar/Gold Stone Energy 28.2%背接触硅太阳能电池效率线索。"
+      },
+      {
+        "id": "source-20260525-2300-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 23:00 CST",
+        "status": 200,
+        "sha256": "9686ad064deab5ee9d7cf0b9a4d478aa0f316c88afdd392ba947886f803e3f68",
+        "finding": "23:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较22:00持平。"
+      },
+      {
+        "id": "source-20260525-2300-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 23:00 CST",
+        "status": 200,
+        "sha256": "7861e2e4e6a6a40bdb21a52ffca9719dc33a58e40e37c5246fc324f0ba546457",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较22:00持平。"
+      },
+      {
+        "id": "source-20260525-2300-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 23:00 CST",
+        "status": 200,
+        "sha256": "aa0129ebc37f5947f7ca3c53c7dfae89b090a940ba33cc8f4c58e3faaccb3f9e",
+        "finding": "新增/上移中国储能企业参建沙特世界级储能制造基地、比亚迪第二代刀片电池、金晟新能拟赴港上市、六氟磷酸锂涨价等。"
+      },
+      {
+        "id": "source-20260525-2300-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 23:00 CST",
+        "status": 200,
+        "sha256": "087753f054652415822c0f629be0f372361b99d1b9fc98c3147dc280c3acf27b",
+        "finding": "新增/上移HyperStrong/SMA、Sungrow-Masdar 7.5GWh、Mexico 935MW storage tender、ZOE Saudi BESS plant、Xcel/Google data center power等。"
+      },
+      {
         "id": "source-20260525-2200-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -81456,5 +81686,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T22:00:00+08:00"
+  "checked_at": "2026-05-25T23:00:00+08:00"
 };
