@@ -1,8 +1,78 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T16:00:00+08:00",
-  "note": "16:00严格刷新新增采信：国内侧北极星新增菲律宾太阳能与储能展上易事特光储充获国际客户赞誉、新能安联合伊顿DCW 2026并强调电池成为关键电力资产；中国能源网新增钙钛矿电池空间站实验首秀；SMM新增7条5月25日废锂电采购报价及Mount Holland锂矿扩建获批产能将翻倍。海外侧pv magazine新增Inlyte Energy铁钠电池瞄准美国数据中心，以及太阳能组件氧化液化回收。SMM行情16:00复核：电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较15:00持平。",
+  "generated_at": "2026-05-25T19:00:00+08:00",
+  "note": "19:00严格刷新新增采信：北极星新增Fluence手握12GW数据中心储能项目、科力远储能订单储备超15GWh、甘肃庆阳鼓励数据中心自建/共建共享储能；CNESA新增4月新型储能项目8.2GWh。Google News国内新增海辰储能澳洲8小时长时储能系统、卓阳储能沙特18GWh制造基地、湖南建投两项百兆瓦级储能开工等；海外新增Contact Energy新西兰200MWh电池储能投运、NSW 12GWh储能招标、Eurohold保加利亚161MWp hybrid solar+BESS等。SMM行情19:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较16:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-1900-fluence-qingyang-cnesa",
+        "source": "北极星储能网 / CNESA / SMM上海有色 / Google News RSS / SolarQuarter / Energy-Storage.News",
+        "source_type": "国内行业媒体/协会/专业行情/海外RSS",
+        "account_name": "北极星储能网 / CNESA / SMM / Google News",
+        "category": "数据中心储能/项目订单/材料行情",
+        "title": "19:00刷新：Fluence手握12GW数据中心储能；科力远订单超15GWh；庆阳鼓励数据中心配储",
+        "summary": "19:00严格刷新新增采信：北极星新增Fluence手握12GW数据中心储能项目、科力远储能订单储备超15GWh、甘肃庆阳鼓励数据中心自建/共建共享储能；CNESA新增4月新型储能项目8.2GWh。Google News国内新增海辰储能澳洲8小时长时储能系统、卓阳储能沙特18GWh制造基地、湖南建投两项百兆瓦级储能开工等；海外新增Contact Energy新西兰200MWh电池储能投运、NSW 12GWh储能招标、Eurohold保加利亚161MWp hybrid solar+BESS等。SMM行情19:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较16:00持平。",
+        "body": [
+          "国内新增：北极星新增Fluence 2026Q2财报，标题显示手握12GW数据中心储能项目、储备订单56亿美元。",
+          "订单侧新增：科力远披露储能业务订单储备总量已超15GWh。",
+          "政策/场景新增：甘肃庆阳鼓励数据中心自建或共建共享储能，并参与电网辅助服务。",
+          "协会侧新增：CNESA发布4月新型储能项目分析，标题显示8.2GWh。",
+          "国内RSS新增：海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投两项百兆瓦级储能项目开工等。",
+          "海外新增：Contact Energy新西兰200MWh电池储能投运，NSW发布2.5GW可再生能源与12GWh储能招标，Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS。",
+          "行情侧：SMM公开页19:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。"
+        ],
+        "key_points": [
+          "Fluence：12GW数据中心储能项目、储备订单56亿美元。",
+          "科力远：储能业务订单储备总量已超15GWh。",
+          "甘肃庆阳：鼓励数据中心自建或共建共享储能并参与辅助服务。",
+          "CNESA：4月新型储能项目分析8.2GWh。",
+          "海外：Contact Energy 200MWh、NSW 12GWh储能招标、Eurohold 161MWp hybrid solar+BESS。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较16:00持平。"
+        ],
+        "value": "12",
+        "unit": "GW 数据中心储能项目（Fluence标题口径）",
+        "delta": "新增Fluence 12GW、科力远15GWh、庆阳数据中心配储、CNESA 8.2GWh等线索",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 19:00 CST",
+        "url": "https://news.bjx.com.cn/html/20260525/1497099.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260525/1497099.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260525/1497093.shtml",
+          "https://news.bjx.com.cn/html/20260525/1497102.shtml",
+          "https://www.cnesa.org/information/detail/?column_id=58&id=8092",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/"
+        ],
+        "clean_html": "<p>19:00新增/复核：北极星新增Fluence 12GW数据中心储能、科力远储能订单超15GWh、庆阳鼓励数据中心配储；CNESA新增4月新型储能项目8.2GWh；海外RSS新增Contact Energy新西兰200MWh、NSW 12GWh储能招标、Eurohold保加利亚161MWp hybrid solar+BESS。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。</p>",
+        "caption": "数据中心储能、订单储备与国内外BESS项目新增；SMM材料价较16:00持平。",
+        "methodology": "19:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 9b71414304f8ddd0e3ffef54330229b05ae56481972964ce03fcdec3c7b7bbab，SMM碳酸锂 b25d2afaecc535a7599964a2116ea4b8dede054f32c187994a6f2eb5b2344e7a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA f14aeae35996105b0805b4fed82c12902bcf18c849973422f7dc98e3c6211512。 海外入口：Energy-Storage.News 4175702e26722b0c9cb08afb82dbade4bb1ee47213e0db94d2154a40f5a9c1b9，ESS News f042f5e477675359f2eb8a812ca0d15b12617080f694870c1ae7e8bdbbd61269，pv magazine a94b9409e5f8bd608619302c04f016a42a6cfd35b73449db357d9d170c36a8c1，SolarQuarter 9320146977827cd91cbebda91efaff3f501d235586ec46d4929dc41f639e0390，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 19:00新增/变化：北极星新增Fluence 2026Q2财报且手握12GW数据中心储能项目、储备订单56亿美元；科力远储能业务订单储备总量已超15GWh；甘肃庆阳鼓励数据中心自建或共建共享储能并参与电网辅助服务；CNESA新增4月新型储能项目分析8.2GWh。Google News中文新增海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投建科院两项百兆瓦级储能项目开工、四川乐山100MW/200MWh储能EPC候选等。海外新增Contact Energy新西兰200MWh电池储能投运、Jupiter Wagons 110MWh BESS MoU、Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS、NSW 2.5GW可再生能源与12GWh储能招标、Hithium澳洲8小时储能首发、Trinasolar菲律宾PV+BESS组合。SMM 19:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。",
+        "history": [
+          {
+            "label": "Fluence数据中心储能 GW",
+            "value": 12
+          },
+          {
+            "label": "科力远储能订单储备 GWh",
+            "value": 15
+          },
+          {
+            "label": "CNESA 4月新型储能项目 GWh",
+            "value": 8.2
+          },
+          {
+            "label": "NSW储能招标 GWh",
+            "value": 12
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260525-1600-inlyte-bjx-smm",
         "source": "北极星储能网 / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
@@ -13880,6 +13950,46 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-1900-fluence-qingyang-cnesa",
+        "source": "北极星储能网 / CNESA / SMM上海有色 / Google News RSS / SolarQuarter / Energy-Storage.News",
+        "source_type": "国内行业媒体/协会/专业行情/海外RSS",
+        "account_name": "北极星储能网 / CNESA / SMM / Google News",
+        "category": "数据中心储能/项目订单/材料行情",
+        "title": "19:00刷新：Fluence手握12GW数据中心储能；科力远订单超15GWh；庆阳鼓励数据中心配储",
+        "summary": "19:00严格刷新新增采信：北极星新增Fluence手握12GW数据中心储能项目、科力远储能订单储备超15GWh、甘肃庆阳鼓励数据中心自建/共建共享储能；CNESA新增4月新型储能项目8.2GWh。Google News国内新增海辰储能澳洲8小时长时储能系统、卓阳储能沙特18GWh制造基地、湖南建投两项百兆瓦级储能开工等；海外新增Contact Energy新西兰200MWh电池储能投运、NSW 12GWh储能招标、Eurohold保加利亚161MWp hybrid solar+BESS等。SMM行情19:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较16:00持平。",
+        "body": [
+          "国内新增：北极星新增Fluence 2026Q2财报，标题显示手握12GW数据中心储能项目、储备订单56亿美元。",
+          "订单侧新增：科力远披露储能业务订单储备总量已超15GWh。",
+          "政策/场景新增：甘肃庆阳鼓励数据中心自建或共建共享储能，并参与电网辅助服务。",
+          "协会侧新增：CNESA发布4月新型储能项目分析，标题显示8.2GWh。",
+          "国内RSS新增：海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投两项百兆瓦级储能项目开工等。",
+          "海外新增：Contact Energy新西兰200MWh电池储能投运，NSW发布2.5GW可再生能源与12GWh储能招标，Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS。",
+          "行情侧：SMM公开页19:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。"
+        ],
+        "key_points": [
+          "Fluence：12GW数据中心储能项目、储备订单56亿美元。",
+          "科力远：储能业务订单储备总量已超15GWh。",
+          "甘肃庆阳：鼓励数据中心自建或共建共享储能并参与辅助服务。",
+          "CNESA：4月新型储能项目分析8.2GWh。",
+          "海外：Contact Energy 200MWh、NSW 12GWh储能招标、Eurohold 161MWp hybrid solar+BESS。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较16:00持平。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 19:00 CST",
+        "url": "https://news.bjx.com.cn/html/20260525/1497099.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260525/1497099.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260525/1497093.shtml",
+          "https://news.bjx.com.cn/html/20260525/1497102.shtml",
+          "https://www.cnesa.org/information/detail/?column_id=58&id=8092",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/"
+        ],
+        "clean_html": "<p>19:00新增/复核：北极星新增Fluence 12GW数据中心储能、科力远储能订单超15GWh、庆阳鼓励数据中心配储；CNESA新增4月新型储能项目8.2GWh；海外RSS新增Contact Energy新西兰200MWh、NSW 12GWh储能招标、Eurohold保加利亚161MWp hybrid solar+BESS。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。</p>",
+        "caption": "数据中心储能、订单储备与国内外BESS项目新增；SMM材料价较16:00持平。",
+        "methodology": "19:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 9b71414304f8ddd0e3ffef54330229b05ae56481972964ce03fcdec3c7b7bbab，SMM碳酸锂 b25d2afaecc535a7599964a2116ea4b8dede054f32c187994a6f2eb5b2344e7a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA f14aeae35996105b0805b4fed82c12902bcf18c849973422f7dc98e3c6211512。 海外入口：Energy-Storage.News 4175702e26722b0c9cb08afb82dbade4bb1ee47213e0db94d2154a40f5a9c1b9，ESS News f042f5e477675359f2eb8a812ca0d15b12617080f694870c1ae7e8bdbbd61269，pv magazine a94b9409e5f8bd608619302c04f016a42a6cfd35b73449db357d9d170c36a8c1，SolarQuarter 9320146977827cd91cbebda91efaff3f501d235586ec46d4929dc41f639e0390，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 19:00新增/变化：北极星新增Fluence 2026Q2财报且手握12GW数据中心储能项目、储备订单56亿美元；科力远储能业务订单储备总量已超15GWh；甘肃庆阳鼓励数据中心自建或共建共享储能并参与电网辅助服务；CNESA新增4月新型储能项目分析8.2GWh。Google News中文新增海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投建科院两项百兆瓦级储能项目开工、四川乐山100MW/200MWh储能EPC候选等。海外新增Contact Energy新西兰200MWh电池储能投运、Jupiter Wagons 110MWh BESS MoU、Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS、NSW 2.5GW可再生能源与12GWh储能招标、Hithium澳洲8小时储能首发、Trinasolar菲律宾PV+BESS组合。SMM 19:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。"
+      },
       {
         "id": "latest-20260525-1600-inlyte-bjx-smm",
         "source": "北极星储能网 / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
@@ -35310,6 +35420,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-1900-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；19:00复核，四项较16:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较16:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 19:00 CST",
+        "methodology": "19:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 9b71414304f8ddd0e3ffef54330229b05ae56481972964ce03fcdec3c7b7bbab，SMM碳酸锂 b25d2afaecc535a7599964a2116ea4b8dede054f32c187994a6f2eb5b2344e7a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA f14aeae35996105b0805b4fed82c12902bcf18c849973422f7dc98e3c6211512。 海外入口：Energy-Storage.News 4175702e26722b0c9cb08afb82dbade4bb1ee47213e0db94d2154a40f5a9c1b9，ESS News f042f5e477675359f2eb8a812ca0d15b12617080f694870c1ae7e8bdbbd61269，pv magazine a94b9409e5f8bd608619302c04f016a42a6cfd35b73449db357d9d170c36a8c1，SolarQuarter 9320146977827cd91cbebda91efaff3f501d235586ec46d4929dc41f639e0390，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 19:00新增/变化：北极星新增Fluence 2026Q2财报且手握12GW数据中心储能项目、储备订单56亿美元；科力远储能业务订单储备总量已超15GWh；甘肃庆阳鼓励数据中心自建或共建共享储能并参与电网辅助服务；CNESA新增4月新型储能项目分析8.2GWh。Google News中文新增海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投建科院两项百兆瓦级储能项目开工、四川乐山100MW/200MWh储能EPC候选等。海外新增Contact Energy新西兰200MWh电池储能投运、Jupiter Wagons 110MWh BESS MoU、Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS、NSW 2.5GW可再生能源与12GWh储能招标、Hithium澳洲8小时储能首发、Trinasolar菲律宾PV+BESS组合。SMM 19:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。"
+      },
+      {
         "id": "material-20260525-1600-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；16:00复核，四项较15:00持平",
@@ -38782,6 +38905,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-1900-public-new",
+        "title": "19:00新增国内+海外储能/电池线索",
+        "value": "274",
+        "unit": "条",
+        "caption": "北极星、CNESA、SMM、Google News中文/海外RSS、SolarQuarter/pv magazine新增或上移数据中心储能、BESS项目、长时储能、材料行情线索。",
+        "delta": "较16:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "北极星储能网 / CNESA / SMM / Google News RSS / SolarQuarter",
+        "as_of": "2026-05-25 19:00 CST",
+        "methodology": "19:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 9b71414304f8ddd0e3ffef54330229b05ae56481972964ce03fcdec3c7b7bbab，SMM碳酸锂 b25d2afaecc535a7599964a2116ea4b8dede054f32c187994a6f2eb5b2344e7a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA f14aeae35996105b0805b4fed82c12902bcf18c849973422f7dc98e3c6211512。 海外入口：Energy-Storage.News 4175702e26722b0c9cb08afb82dbade4bb1ee47213e0db94d2154a40f5a9c1b9，ESS News f042f5e477675359f2eb8a812ca0d15b12617080f694870c1ae7e8bdbbd61269，pv magazine a94b9409e5f8bd608619302c04f016a42a6cfd35b73449db357d9d170c36a8c1，SolarQuarter 9320146977827cd91cbebda91efaff3f501d235586ec46d4929dc41f639e0390，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 19:00新增/变化：北极星新增Fluence 2026Q2财报且手握12GW数据中心储能项目、储备订单56亿美元；科力远储能业务订单储备总量已超15GWh；甘肃庆阳鼓励数据中心自建或共建共享储能并参与电网辅助服务；CNESA新增4月新型储能项目分析8.2GWh。Google News中文新增海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投建科院两项百兆瓦级储能项目开工、四川乐山100MW/200MWh储能EPC候选等。海外新增Contact Energy新西兰200MWh电池储能投运、Jupiter Wagons 110MWh BESS MoU、Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS、NSW 2.5GW可再生能源与12GWh储能招标、Hithium澳洲8小时储能首发、Trinasolar菲律宾PV+BESS组合。SMM 19:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。",
+        "url": "https://chuneng.bjx.com.cn/"
+      },
       {
         "id": "metric-20260525-1600-public-new",
         "title": "16:00新增国内+海外储能/电池线索",
@@ -52283,6 +52419,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-1900-contact-nsw-bess",
+        "source": "Google News RSS / Energy-Storage.News / SolarQuarter",
+        "category": "海外观察/BESS/储能招标",
+        "title": "海外新增Contact Energy新西兰200MWh、NSW 12GWh储能招标与保加利亚hybrid solar+BESS",
+        "summary": "19:00海外RSS显示Contact Energy switches on 200MWh battery storage system in New Zealand；NSW Launches 2.5 GW Renewable Energy And 12 GWh Storage Tender；Eurohold Bulgaria and 360 Energy Commission 161-MWp Hybrid Solar Project with BESS。",
+        "value": "12",
+        "unit": "GWh NSW储能招标",
+        "delta": "Contact 200MWh、NSW 12GWh、Eurohold 161MWp BESS新增",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 19:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "methodology": "19:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 9b71414304f8ddd0e3ffef54330229b05ae56481972964ce03fcdec3c7b7bbab，SMM碳酸锂 b25d2afaecc535a7599964a2116ea4b8dede054f32c187994a6f2eb5b2344e7a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA f14aeae35996105b0805b4fed82c12902bcf18c849973422f7dc98e3c6211512。 海外入口：Energy-Storage.News 4175702e26722b0c9cb08afb82dbade4bb1ee47213e0db94d2154a40f5a9c1b9，ESS News f042f5e477675359f2eb8a812ca0d15b12617080f694870c1ae7e8bdbbd61269，pv magazine a94b9409e5f8bd608619302c04f016a42a6cfd35b73449db357d9d170c36a8c1，SolarQuarter 9320146977827cd91cbebda91efaff3f501d235586ec46d4929dc41f639e0390，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 19:00新增/变化：北极星新增Fluence 2026Q2财报且手握12GW数据中心储能项目、储备订单56亿美元；科力远储能业务订单储备总量已超15GWh；甘肃庆阳鼓励数据中心自建或共建共享储能并参与电网辅助服务；CNESA新增4月新型储能项目分析8.2GWh。Google News中文新增海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投建科院两项百兆瓦级储能项目开工、四川乐山100MW/200MWh储能EPC候选等。海外新增Contact Energy新西兰200MWh电池储能投运、Jupiter Wagons 110MWh BESS MoU、Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS、NSW 2.5GW可再生能源与12GWh储能招标、Hithium澳洲8小时储能首发、Trinasolar菲律宾PV+BESS组合。SMM 19:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。"
+      },
+      {
         "id": "overseas-20260525-1600-inlyte-data-center",
         "source": "pv magazine / SolarQuarter",
         "category": "海外观察/数据中心电力/电池/光伏",
@@ -58429,6 +58580,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-1900-fluence-smm",
+        "source": "北极星储能网 / CNESA / SMM上海有色 / Google News RSS / SolarQuarter / Energy-Storage.News",
+        "category": "数据中心储能/订单/材料行情",
+        "title": "Fluence 12GW与科力远15GWh线索新增；SMM锂电材料较16:00持平",
+        "summary": "19:00严格刷新新增采信：北极星新增Fluence手握12GW数据中心储能项目、科力远储能订单储备超15GWh、甘肃庆阳鼓励数据中心自建/共建共享储能；CNESA新增4月新型储能项目8.2GWh。Google News国内新增海辰储能澳洲8小时长时储能系统、卓阳储能沙特18GWh制造基地、湖南建投两项百兆瓦级储能开工等；海外新增Contact Energy新西兰200MWh电池储能投运、NSW 12GWh储能招标、Eurohold保加利亚161MWp hybrid solar+BESS等。SMM行情19:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较16:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增数据中心储能、订单储备、CNESA 8.2GWh和海外BESS线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 19:00 CST",
+        "url": "https://news.bjx.com.cn/html/20260525/1497099.shtml",
+        "methodology": "19:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe；MarketTrend HTTP 200 sha256 9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 9b71414304f8ddd0e3ffef54330229b05ae56481972964ce03fcdec3c7b7bbab，SMM碳酸锂 b25d2afaecc535a7599964a2116ea4b8dede054f32c187994a6f2eb5b2344e7a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 1bd4c4b0d625d93c63509eb4977877d36c1838bcb1bb6d0369f6e23488aea463，CNESA f14aeae35996105b0805b4fed82c12902bcf18c849973422f7dc98e3c6211512。 海外入口：Energy-Storage.News 4175702e26722b0c9cb08afb82dbade4bb1ee47213e0db94d2154a40f5a9c1b9，ESS News f042f5e477675359f2eb8a812ca0d15b12617080f694870c1ae7e8bdbbd61269，pv magazine a94b9409e5f8bd608619302c04f016a42a6cfd35b73449db357d9d170c36a8c1，SolarQuarter 9320146977827cd91cbebda91efaff3f501d235586ec46d4929dc41f639e0390，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/欧洲/数据中心RSS均HTTP 200。 19:00新增/变化：北极星新增Fluence 2026Q2财报且手握12GW数据中心储能项目、储备订单56亿美元；科力远储能业务订单储备总量已超15GWh；甘肃庆阳鼓励数据中心自建或共建共享储能并参与电网辅助服务；CNESA新增4月新型储能项目分析8.2GWh。Google News中文新增海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投建科院两项百兆瓦级储能项目开工、四川乐山100MW/200MWh储能EPC候选等。海外新增Contact Energy新西兰200MWh电池储能投运、Jupiter Wagons 110MWh BESS MoU、Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS、NSW 2.5GW可再生能源与12GWh储能招标、Hithium澳洲8小时储能首发、Trinasolar菲律宾PV+BESS组合。SMM 19:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较16:00持平。"
+      },
       {
         "id": "market-20260525-1600-smm-inlyte-bjx",
         "source": "北极星储能网 / pv magazine / 中国能源网 / SMM上海有色 / 站点回读",
@@ -72784,6 +72950,96 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-1900-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "7d44f1728e2212a8e8bf40624960015b331f049950974f74e27743d0b0650dbe",
+        "finding": "首页已按小时重读；本轮写入Fluence数据中心储能、科力远订单、庆阳数据中心配储和SMM持平行情。"
+      },
+      {
+        "id": "source-20260525-1900-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "9ddfbf160f5219c6ece8620da4eab914bf55ed11634733d8e1cac032fdae06ca",
+        "finding": "/markettrend/已按小时重读；本轮补充数据中心储能、订单储备、海外BESS和SMM材料价格证据。"
+      },
+      {
+        "id": "source-20260525-1900-bjx-fluence",
+        "source": "北极星储能网",
+        "url": "https://news.bjx.com.cn/html/20260525/1497099.shtml",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515",
+        "finding": "新增Fluence 2026Q2财报，手握12GW数据中心储能项目，储备订单达56亿美元。"
+      },
+      {
+        "id": "source-20260525-1900-bjx-keliyuan",
+        "source": "北极星储能网",
+        "url": "https://news.bjx.com.cn/html/20260525/1497093.shtml",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515",
+        "finding": "新增科力远目前储能业务订单储备总量已超15GWh。"
+      },
+      {
+        "id": "source-20260525-1900-bjx-qingyang",
+        "source": "北极星储能网",
+        "url": "https://news.bjx.com.cn/html/20260525/1497102.shtml",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515",
+        "finding": "新增甘肃庆阳鼓励数据中心自建或共建共享储能，并参与电网辅助服务。"
+      },
+      {
+        "id": "source-20260525-1900-cnesa-82gwh",
+        "source": "CNESA",
+        "url": "https://www.cnesa.org/information/detail/?column_id=58&id=8092",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "f14aeae35996105b0805b4fed82c12902bcf18c849973422f7dc98e3c6211512",
+        "finding": "新增8.2GWh！4月新型储能项目分析。"
+      },
+      {
+        "id": "source-20260525-1900-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "9b71414304f8ddd0e3ffef54330229b05ae56481972964ce03fcdec3c7b7bbab",
+        "finding": "19:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较16:00持平。"
+      },
+      {
+        "id": "source-20260525-1900-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "b25d2afaecc535a7599964a2116ea4b8dede054f32c187994a6f2eb5b2344e7a",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较16:00持平。"
+      },
+      {
+        "id": "source-20260525-1900-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "86856727cb5882e0805c8f1bab3d661cc53b41ab8d1446f1051e789beb0ab402",
+        "finding": "新增/上移海辰储能澳洲8小时长时储能、卓阳沙特18GWh、湖南建投百兆瓦级储能开工等。"
+      },
+      {
+        "id": "source-20260525-1900-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 19:00 CST",
+        "status": 200,
+        "sha256": "36a76fa83b2a3f3d176280d128f23132e5c8d0dad085b05e1f8bfca026df5bf9",
+        "finding": "新增/上移Contact Energy 200MWh、新西兰储能、NSW 12GWh招标、Hithium澳洲8小时系统、Trinasolar菲律宾PV+BESS。"
+      },
+      {
         "id": "source-20260525-1600-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -80505,5 +80761,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T16:00:00+08:00"
+  "checked_at": "2026-05-25T19:00:00+08:00"
 };

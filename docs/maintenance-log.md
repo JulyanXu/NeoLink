@@ -1,3 +1,12 @@
+
+## 2026-05-25T19:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `7d44f172...`，`/markettrend/` HTTP 200 sha256 `9ddfbf16...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
+- 国内新增/上移：北极星新增Fluence 2026Q2财报、手握12GW数据中心储能项目且储备订单56亿美元，科力远储能业务订单储备总量已超15GWh，甘肃庆阳鼓励数据中心自建或共建共享储能并参与电网辅助服务；CNESA新增“8.2GWh！4月新型储能项目分析”。
+- 国内RSS新增/上移：海辰储能澳洲首发8小时长时储能系统、卓阳储能拟建沙特18GWh储能制造基地、湖南建投建科院两项百兆瓦级储能项目开工、四川乐山100MW/200MWh储能EPC候选等。
+- 海外新增/上移：Contact Energy新西兰200MWh battery storage投运，NSW 2.5GW可再生能源与12GWh储能招标，Eurohold/360 Energy保加利亚161MWp hybrid solar+BESS，Jupiter Wagons 110MWh BESS MoU，Hithium澳洲8小时长时储能系统，Trinasolar菲律宾PV+BESS组合。
+- 行情复核：SMM新能源 sha256 `9b714143...` 与SMM碳酸锂页 sha256 `b25d2afa...` 显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较16:00持平。
+- 动作：已更新`data/feed.js` generated_at/checked_at至19:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605251900`。Artifacts: `var/hermes/crawl-20260525-1900.py`, `var/hermes/crawl-output-20260525-1900.json`, `var/hermes/search-notes-20260525-1900.json`。
+
 ## 2026-05-25T11:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `7a14b903...`，`/markettrend/` HTTP 200 sha256 `38c22b76...`；web_search四组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
 - 国内新增/上移：中文储能RSS sha256 `a2882af2...` 较10:00新增山西晋中、长治两大储能项目正式开工，国内单体容量最大智能组串式储能电站落地包头，新疆电网侧独立储能容量电价165元/kW·年（6小时），栾川工商业储能项目并网，海博思创与华为数字能源战略合作。
