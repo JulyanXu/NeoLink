@@ -1,3 +1,11 @@
+## 2026-05-25T11:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `7a14b903...`，`/markettrend/` HTTP 200 sha256 `38c22b76...`；web_search四组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
+- 国内新增/上移：中文储能RSS sha256 `a2882af2...` 较10:00新增山西晋中、长治两大储能项目正式开工，国内单体容量最大智能组串式储能电站落地包头，新疆电网侧独立储能容量电价165元/kW·年（6小时），栾川工商业储能项目并网，海博思创与华为数字能源战略合作。
+- 电池链新增：中文BESS/电池RSS sha256 `7d236160...` 新增/上移小米汽车电池安全测试项目1230项、中国汽研/东方氢能燃料电池电堆带载振动试验、电池ETF走低；中文材料RSS sha256 `2806de18...` 新增湖南裕能赴港IPO、比亚迪回应高端电池定义等。
+- 海外新增/上移：全球BESS RSS sha256 `4f6b7e03...` 新增Fortescue 690MW solar farm and 650MWh battery system；全球储能政策RSS `ba9deb8d...` 新增ASEAN power grid 2045线索；数据中心电力RSS `160f72cd...` 新增Ford energy storage story和Navitas AI power demand。
+- 行情复核：SMM新能源 sha256 `3f3dcebb...` 与SMM碳酸锂页 sha256 `61c97556...` 显示电池级碳酸锂183250元/吨、SMM电池级碳酸锂指数183826元/吨，较10:00采集值上调5250/5483；磷酸铁锂61285元/吨、电解液28950元/吨。
+- 动作：已更新`data/feed.js` generated_at/checked_at至11:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605251100`。已校验feed JSON、search-notes JSON、首页/新闻/详情/MarketTrend版本与MarketTrend JS关键词；已提交并推送GitHub/Gitee。部署目标`/var/www/neolink`在本机不存在且`/var/www`不可由当前用户创建，HTTP线上回读仍为上一版本，已记录为部署受阻需宿主机权限/部署器处理。Artifacts: `var/hermes/crawl-20260525-1100.py`, `var/hermes/crawl-output-20260525-1100.json`, `var/hermes/search-notes-20260525-1100.json`。
+
 ## 2026-05-25T01:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `544d336e...`，`/markettrend/` HTTP 200 sha256 `664eae2b...`；web_search三组国内/海外查询HTTP 432，改用requests直连、Google News RSS和原始HTML/RSS落盘，未仅刷新时间。
 - 国内新增/上移：中文储能RSS sha256 `52296b32...` 较23:00新增/上移科创板影像龙头切入储能；中文BESS/电池RSS sha256 `bce9a08a...` 新增/上移新能源汽车私改电池乱象、下一代电池技术“场景为王”、奇瑞固态电池参数、比亚迪210km大电池插混、极氪009 900V/115度电池等；中文材料RSS sha256 `c0136c89...` 新增/上移钠电池产业化提速、钠电成本追平锂电讨论、欣旺达供特斯拉、比亚迪二代刀片。
