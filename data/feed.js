@@ -1,8 +1,73 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T05:00:00+08:00",
-  "note": "05:00严格刷新新增采信：国内新增/上移晶澳储能频换帅、储能成锂电池第一增长引擎、内蒙古地方国资75亿储能项目备案“占坑术”、全球储能系统出货Top10、两轮电池高端玩家、豪华电动车召回频发和碳酸锂博弈/均差扩大。海外新增/上移JEM Energy FY26-27 BESS目标、Madhya Pradesh 1.13GWh BESS招标、Trinasolar菲律宾公用事业级光伏+储能方案、Ford/EDF储能交易与Hithium 8小时长储。SMM四项行情较04:00持平。",
+  "generated_at": "2026-05-26T06:00:00+08:00",
+  "note": "06:00严格刷新新增采信：国内新增/上移长江有色碳酸锂供需改善与期现共振、比亚迪甘肃调研见证签约、奇瑞星途ES8全固态电池/秒充讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头利润改善线索。海外新增/上移Redwood Materials引入前Tesla CFO、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS BESS安全标准、ZOE沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能供需/并网约束。SMM四项行情较05:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0600-lithium-redwood-zoe-ai",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Renewables Now / BNamericas",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / SolarQuarter / Renewables Now / BNamericas",
+        "category": "碳酸锂/电池回收/BESS制造/数据中心电力",
+        "title": "06:00刷新：碳酸锂供需改善线索上移，Redwood与ZOE沙特18GWh BESS工厂新增",
+        "summary": "06:00严格刷新新增采信：国内新增/上移长江有色碳酸锂供需改善与期现共振、比亚迪甘肃调研见证签约、奇瑞星途ES8全固态电池/秒充讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头利润改善线索。海外新增/上移Redwood Materials引入前Tesla CFO、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS BESS安全标准、ZOE沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能供需/并网约束。SMM四项行情较05:00持平。",
+        "body": [
+          "国内材料：长江有色关于供需改善驱动碳酸锂期现共振上行的线索新增/上移，SMM公开页复核电池级碳酸锂和电碳指数较05:00仍持平。",
+          "国内车企与电池应用：比亚迪甘肃调研见证签约、奇瑞星途ES8全固态电池/秒充和1500km续航讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池等线索新增/上移。",
+          "海外电池回收：Google News海外RSS新增Former Tesla CFO Deepak Ahuja joins EV battery recycler Redwood Materials，电池回收治理与资本化继续升温。",
+          "海外储能项目与制造：Mitchell Highway 5.5m美元太阳能+电池项目获批；Renewables Now报道ZOE Energy Storage forms JV for 18-GWh BESS factory in Saudi Arabia。",
+          "海外安全与负荷：BNamericas COVIBESS提升BESS安全标准；AI数据中心电力需求与电池储能公司面临电网、供应链约束的讨论上移。",
+          "行情侧：SMM公开页06:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较05:00持平。"
+        ],
+        "key_points": [
+          "国内碳酸锂供需改善与期现共振讨论新增/上移，但SMM公开价较05:00未变。",
+          "Redwood Materials引入前Tesla CFO Deepak Ahuja，电池回收行业管理层/资本化线索新增。",
+          "ZOE Energy Storage沙特18GWh BESS工厂JV和Mitchell Highway太阳能+电池项目，补充海外制造与项目证据。",
+          "COVIBESS BESS安全标准和AI数据中心电力需求讨论上移，分别指向储能安全和负荷增长主线。",
+          "国内整车端全固态、秒充、宁德时代电池配套线索上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较05:00持平。"
+        ],
+        "value": "18",
+        "unit": "GWh沙特BESS工厂JV",
+        "delta": "新增ZOE沙特18GWh BESS工厂JV、Redwood高管、BESS安全/数据中心电力线索；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 06:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://www.pv-magazine.com/",
+          "https://solarquarter.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>06:00新增/复核：碳酸锂供需改善讨论、Redwood Materials高管、Mitchell Highway太阳能+电池项目、COVIBESS安全标准、ZOE沙特18GWh BESS工厂JV和AI数据中心电力需求上移；SMM四项行情较05:00持平。</p>",
+        "caption": "ZOE沙特18GWh BESS工厂JV与Redwood高管线索新增；国内碳酸锂供需改善讨论上移；SMM材料价持平。",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 2506fdfb579f8e1cd3a7108b30392887198f1ff760b5243ea7c727fe0d661fe2；MarketTrend HTTP 200 sha256 cced9c881c1cc1014da584bd55655a7ea44b2f39fb7872f8b00370147bbf10ed。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 aa4adf008fed63f9aa91f46bbe3a0f3f079010e0d2ffcbd6e9915c8306966306，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 9b1f6996e6910261ecbcba2a5acc2f358a9f025393d666bb8ff7cd8472a78ba7。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News b28e15cfdaa2585789e784df4385e31dbd2017450143cc06bbd0cbfb6c100dcb，pv magazine 037b56ddb7abe58c0ed4cfe865a79ccc3c48e2154d56c7a22e602e29d2ea690f，SolarQuarter fcfc58b09f95f00ea5116353ccadbd4a211ab380af36bf11c0b3f5c4106c9c0c，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 06:00新增/变化：国内RSS新增或上移长江有色关于供需改善驱动碳酸锂期现共振上行、比亚迪与甘肃省政协调研见证签约、奇瑞星途ES8全固态电池/秒充和1500km续航讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头公司单季利润改善等。海外RSS新增或上移Redwood Materials引入前Tesla CFO Deepak Ahuja、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS提升BESS安全标准、Renewables Now报道ZOE Energy Storage沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能公司供需/并网约束讨论。SolarQuarter新增/上移NGEL在北方邦Jhansi 100MW太阳能EPC招标。SMM 06:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较05:00持平。",
+        "history": [
+          {
+            "label": "ZOE沙特BESS工厂 GWh",
+            "value": 18
+          },
+          {
+            "label": "Mitchell Highway项目 百万美元",
+            "value": 5.5
+          },
+          {
+            "label": "国内新增/上移RSS 条",
+            "value": 11
+          },
+          {
+            "label": "海外新增/上移RSS 条",
+            "value": 12
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0500-ja-solar-madhya-jem",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
@@ -14600,6 +14665,45 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0600-lithium-redwood-zoe",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Renewables Now / BNamericas",
+        "source_type": "RSS/专业行情/国内外行业媒体",
+        "account_name": "Google News / SMM / SolarQuarter / Renewables Now / BNamericas",
+        "category": "碳酸锂/电池回收/BESS制造/数据中心电力",
+        "title": "06:00刷新：碳酸锂供需改善线索上移，Redwood与ZOE沙特18GWh BESS工厂新增",
+        "summary": "06:00严格刷新新增采信：国内新增/上移长江有色碳酸锂供需改善与期现共振、比亚迪甘肃调研见证签约、奇瑞星途ES8全固态电池/秒充讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头利润改善线索。海外新增/上移Redwood Materials引入前Tesla CFO、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS BESS安全标准、ZOE沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能供需/并网约束。SMM四项行情较05:00持平。",
+        "body": [
+          "国内材料：长江有色关于供需改善驱动碳酸锂期现共振上行的线索新增/上移，SMM公开页复核电池级碳酸锂和电碳指数较05:00仍持平。",
+          "国内车企与电池应用：比亚迪甘肃调研见证签约、奇瑞星途ES8全固态电池/秒充和1500km续航讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池等线索新增/上移。",
+          "海外电池回收：Google News海外RSS新增Former Tesla CFO Deepak Ahuja joins EV battery recycler Redwood Materials，电池回收治理与资本化继续升温。",
+          "海外储能项目与制造：Mitchell Highway 5.5m美元太阳能+电池项目获批；Renewables Now报道ZOE Energy Storage forms JV for 18-GWh BESS factory in Saudi Arabia。",
+          "海外安全与负荷：BNamericas COVIBESS提升BESS安全标准；AI数据中心电力需求与电池储能公司面临电网、供应链约束的讨论上移。",
+          "行情侧：SMM公开页06:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较05:00持平。"
+        ],
+        "key_points": [
+          "国内碳酸锂供需改善与期现共振讨论新增/上移，但SMM公开价较05:00未变。",
+          "Redwood Materials引入前Tesla CFO Deepak Ahuja，电池回收行业管理层/资本化线索新增。",
+          "ZOE Energy Storage沙特18GWh BESS工厂JV和Mitchell Highway太阳能+电池项目，补充海外制造与项目证据。",
+          "COVIBESS BESS安全标准和AI数据中心电力需求讨论上移，分别指向储能安全和负荷增长主线。",
+          "国内整车端全固态、秒充、宁德时代电池配套线索上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较05:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 06:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://www.pv-magazine.com/",
+          "https://solarquarter.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>06:00新增/复核：碳酸锂供需改善讨论、Redwood Materials高管、Mitchell Highway太阳能+电池项目、COVIBESS安全标准、ZOE沙特18GWh BESS工厂JV和AI数据中心电力需求上移；SMM四项行情较05:00持平。</p>",
+        "caption": "ZOE沙特18GWh BESS工厂JV与Redwood高管线索新增；国内碳酸锂供需改善讨论上移；SMM材料价持平。",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 2506fdfb579f8e1cd3a7108b30392887198f1ff760b5243ea7c727fe0d661fe2；MarketTrend HTTP 200 sha256 cced9c881c1cc1014da584bd55655a7ea44b2f39fb7872f8b00370147bbf10ed。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 aa4adf008fed63f9aa91f46bbe3a0f3f079010e0d2ffcbd6e9915c8306966306，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 9b1f6996e6910261ecbcba2a5acc2f358a9f025393d666bb8ff7cd8472a78ba7。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News b28e15cfdaa2585789e784df4385e31dbd2017450143cc06bbd0cbfb6c100dcb，pv magazine 037b56ddb7abe58c0ed4cfe865a79ccc3c48e2154d56c7a22e602e29d2ea690f，SolarQuarter fcfc58b09f95f00ea5116353ccadbd4a211ab380af36bf11c0b3f5c4106c9c0c，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 06:00新增/变化：国内RSS新增或上移长江有色关于供需改善驱动碳酸锂期现共振上行、比亚迪与甘肃省政协调研见证签约、奇瑞星途ES8全固态电池/秒充和1500km续航讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头公司单季利润改善等。海外RSS新增或上移Redwood Materials引入前Tesla CFO Deepak Ahuja、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS提升BESS安全标准、Renewables Now报道ZOE Energy Storage沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能公司供需/并网约束讨论。SolarQuarter新增/上移NGEL在北方邦Jhansi 100MW太阳能EPC招标。SMM 06:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较05:00持平。"
+      },
       {
         "id": "latest-20260526-0500-madhya-jem-ja-solar",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
@@ -36448,6 +36552,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0600-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；06:00复核，四项较05:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较05:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 06:00 CST",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 2506fdfb579f8e1cd3a7108b30392887198f1ff760b5243ea7c727fe0d661fe2；MarketTrend HTTP 200 sha256 cced9c881c1cc1014da584bd55655a7ea44b2f39fb7872f8b00370147bbf10ed。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 aa4adf008fed63f9aa91f46bbe3a0f3f079010e0d2ffcbd6e9915c8306966306，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 9b1f6996e6910261ecbcba2a5acc2f358a9f025393d666bb8ff7cd8472a78ba7。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News b28e15cfdaa2585789e784df4385e31dbd2017450143cc06bbd0cbfb6c100dcb，pv magazine 037b56ddb7abe58c0ed4cfe865a79ccc3c48e2154d56c7a22e602e29d2ea690f，SolarQuarter fcfc58b09f95f00ea5116353ccadbd4a211ab380af36bf11c0b3f5c4106c9c0c，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 06:00新增/变化：国内RSS新增或上移长江有色关于供需改善驱动碳酸锂期现共振上行、比亚迪与甘肃省政协调研见证签约、奇瑞星途ES8全固态电池/秒充和1500km续航讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头公司单季利润改善等。海外RSS新增或上移Redwood Materials引入前Tesla CFO Deepak Ahuja、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS提升BESS安全标准、Renewables Now报道ZOE Energy Storage沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能公司供需/并网约束讨论。SolarQuarter新增/上移NGEL在北方邦Jhansi 100MW太阳能EPC招标。SMM 06:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较05:00持平。"
+      },
+      {
         "id": "material-20260526-0500-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；05:00复核，四项较04:00持平",
@@ -40063,6 +40180,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0600-public-new",
+        "title": "06:00新增国内+海外储能/电池线索",
+        "value": "24",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS及海外站点新增或上移碳酸锂供需改善、Redwood Materials、Mitchell Highway太阳能+电池、COVIBESS安全标准、ZOE沙特18GWh BESS工厂JV、AI数据中心电力需求等线索。",
+        "delta": "较05:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SMM / Renewables Now / BNamericas / SolarQuarter",
+        "as_of": "2026-05-26 06:00 CST",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 2506fdfb579f8e1cd3a7108b30392887198f1ff760b5243ea7c727fe0d661fe2；MarketTrend HTTP 200 sha256 cced9c881c1cc1014da584bd55655a7ea44b2f39fb7872f8b00370147bbf10ed。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 aa4adf008fed63f9aa91f46bbe3a0f3f079010e0d2ffcbd6e9915c8306966306，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 9b1f6996e6910261ecbcba2a5acc2f358a9f025393d666bb8ff7cd8472a78ba7。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News b28e15cfdaa2585789e784df4385e31dbd2017450143cc06bbd0cbfb6c100dcb，pv magazine 037b56ddb7abe58c0ed4cfe865a79ccc3c48e2154d56c7a22e602e29d2ea690f，SolarQuarter fcfc58b09f95f00ea5116353ccadbd4a211ab380af36bf11c0b3f5c4106c9c0c，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 06:00新增/变化：国内RSS新增或上移长江有色关于供需改善驱动碳酸锂期现共振上行、比亚迪与甘肃省政协调研见证签约、奇瑞星途ES8全固态电池/秒充和1500km续航讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头公司单季利润改善等。海外RSS新增或上移Redwood Materials引入前Tesla CFO Deepak Ahuja、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS提升BESS安全标准、Renewables Now报道ZOE Energy Storage沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能公司供需/并网约束讨论。SolarQuarter新增/上移NGEL在北方邦Jhansi 100MW太阳能EPC招标。SMM 06:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较05:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0500-public-new",
         "title": "05:00新增国内+海外储能/电池线索",
@@ -53707,6 +53837,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0600-redwood-zoe-covibess",
+        "source": "Google News RSS / Renewables Now / BNamericas / Western Plains App",
+        "category": "海外观察/BESS制造/电池回收/储能安全",
+        "title": "海外新增Redwood高管、ZOE沙特18GWh BESS工厂JV和COVIBESS安全标准",
+        "summary": "06:00海外公开源新增/上移Redwood Materials引入前Tesla CFO Deepak Ahuja、Mitchell Highway 5.5m美元太阳能+电池项目获批、COVIBESS提升BESS安全标准、ZOE Energy Storage沙特18GWh BESS工厂JV，以及AI数据中心电力需求与电池储能公司供需/并网约束讨论。",
+        "value": "18",
+        "unit": "GWh BESS工厂JV",
+        "delta": "海外BESS制造、回收、安全和数据中心电力线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 06:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 2506fdfb579f8e1cd3a7108b30392887198f1ff760b5243ea7c727fe0d661fe2；MarketTrend HTTP 200 sha256 cced9c881c1cc1014da584bd55655a7ea44b2f39fb7872f8b00370147bbf10ed。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 aa4adf008fed63f9aa91f46bbe3a0f3f079010e0d2ffcbd6e9915c8306966306，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 9b1f6996e6910261ecbcba2a5acc2f358a9f025393d666bb8ff7cd8472a78ba7。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News b28e15cfdaa2585789e784df4385e31dbd2017450143cc06bbd0cbfb6c100dcb，pv magazine 037b56ddb7abe58c0ed4cfe865a79ccc3c48e2154d56c7a22e602e29d2ea690f，SolarQuarter fcfc58b09f95f00ea5116353ccadbd4a211ab380af36bf11c0b3f5c4106c9c0c，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 06:00新增/变化：国内RSS新增或上移长江有色关于供需改善驱动碳酸锂期现共振上行、比亚迪与甘肃省政协调研见证签约、奇瑞星途ES8全固态电池/秒充和1500km续航讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头公司单季利润改善等。海外RSS新增或上移Redwood Materials引入前Tesla CFO Deepak Ahuja、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS提升BESS安全标准、Renewables Now报道ZOE Energy Storage沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能公司供需/并网约束讨论。SolarQuarter新增/上移NGEL在北方邦Jhansi 100MW太阳能EPC招标。SMM 06:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较05:00持平。"
+      },
+      {
         "id": "overseas-20260526-0500-madhya-jem-trina",
         "source": "Google News RSS / Mercom India / SolarQuarter / PR Newswire",
         "category": "海外观察/BESS招标/公用事业储能/企业目标",
@@ -60018,6 +60163,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0600-zoe-redwood-smm-flat",
+        "source": "Google News RSS / SMM上海有色 / SolarQuarter / Renewables Now / BNamericas",
+        "category": "BESS制造/碳酸锂/数据中心电力",
+        "title": "ZOE沙特18GWh BESS工厂JV与Redwood高管新增；SMM锂电材料较05:00持平",
+        "summary": "06:00严格刷新新增采信：国内新增/上移长江有色碳酸锂供需改善与期现共振、比亚迪甘肃调研见证签约、奇瑞星途ES8全固态电池/秒充讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头利润改善线索。海外新增/上移Redwood Materials引入前Tesla CFO、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS BESS安全标准、ZOE沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能供需/并网约束。SMM四项行情较05:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增ZOE 18GWh BESS工厂JV、Redwood高管和国内碳酸锂供需改善线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 06:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 2506fdfb579f8e1cd3a7108b30392887198f1ff760b5243ea7c727fe0d661fe2；MarketTrend HTTP 200 sha256 cced9c881c1cc1014da584bd55655a7ea44b2f39fb7872f8b00370147bbf10ed。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 aa4adf008fed63f9aa91f46bbe3a0f3f079010e0d2ffcbd6e9915c8306966306，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 9b1f6996e6910261ecbcba2a5acc2f358a9f025393d666bb8ff7cd8472a78ba7。 海外入口：Energy-Storage.News 4945e939834a77c70e5974028c67d40d1d08c15684c6440de71d91704132bf17，ESS News b28e15cfdaa2585789e784df4385e31dbd2017450143cc06bbd0cbfb6c100dcb，pv magazine 037b56ddb7abe58c0ed4cfe865a79ccc3c48e2154d56c7a22e602e29d2ea690f，SolarQuarter fcfc58b09f95f00ea5116353ccadbd4a211ab380af36bf11c0b3f5c4106c9c0c，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 06:00新增/变化：国内RSS新增或上移长江有色关于供需改善驱动碳酸锂期现共振上行、比亚迪与甘肃省政协调研见证签约、奇瑞星途ES8全固态电池/秒充和1500km续航讨论、广汽传祺向往M8 PHEV L搭载宁德时代电池、锂价上涨和龙头公司单季利润改善等。海外RSS新增或上移Redwood Materials引入前Tesla CFO Deepak Ahuja、澳大利亚Mitchell Highway 5.5m美元太阳能+电池项目获批、智利COVIBESS提升BESS安全标准、Renewables Now报道ZOE Energy Storage沙特18GWh BESS工厂JV、AI数据中心电力需求与电池储能公司供需/并网约束讨论。SolarQuarter新增/上移NGEL在北方邦Jhansi 100MW太阳能EPC招标。SMM 06:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较05:00持平。"
+      },
       {
         "id": "market-20260526-0500-madhya-jem-smm-flat",
         "source": "Google News RSS / SMM上海有色 / SolarQuarter / Energy-Storage.News / ESS News",
@@ -74538,6 +74698,60 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0600-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 06:00 CST",
+        "status": 200,
+        "sha256": "2506fdfb579f8e1cd3a7108b30392887198f1ff760b5243ea7c727fe0d661fe2",
+        "finding": "首页已按小时重读；本轮写入碳酸锂供需改善、Redwood、ZOE 18GWh BESS工厂JV和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0600-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 06:00 CST",
+        "status": 200,
+        "sha256": "cced9c881c1cc1014da584bd55655a7ea44b2f39fb7872f8b00370147bbf10ed",
+        "finding": "/markettrend/已按小时重读；本轮补充ZOE沙特18GWh BESS工厂JV、Redwood高管、COVIBESS安全标准和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0600-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 06:00 CST",
+        "status": 200,
+        "sha256": "aa4adf008fed63f9aa91f46bbe3a0f3f079010e0d2ffcbd6e9915c8306966306",
+        "finding": "06:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较05:00持平。"
+      },
+      {
+        "id": "source-20260526-0600-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 06:00 CST",
+        "status": 200,
+        "sha256": "dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较05:00持平。"
+      },
+      {
+        "id": "source-20260526-0600-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 06:00 CST",
+        "status": 200,
+        "sha256": "1c8a2f2ed0ed4d6a86e113a10b1ac4e187952614138d718014bac5a82bd07c66",
+        "finding": "新增/上移长江有色碳酸锂供需改善、比亚迪甘肃调研见证签约、奇瑞星途ES8固态电池/秒充、广汽传祺宁德时代电池和锂价上涨线索。"
+      },
+      {
+        "id": "source-20260526-0600-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 06:00 CST",
+        "status": 200,
+        "sha256": "19bb1e578a8badb97416d4f80ff9903259e492c8553842f95ac96e7c598d5b1a",
+        "finding": "新增/上移Redwood Materials高管、Mitchell Highway太阳能+电池项目、COVIBESS安全标准、ZOE沙特18GWh BESS工厂JV、AI数据中心电力需求与储能约束。"
+      },
+      {
         "id": "source-20260526-0500-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -82961,5 +83175,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T05:00:00+08:00"
+  "checked_at": "2026-05-26T06:00:00+08:00"
 };
