@@ -1,8 +1,76 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-25T20:00:00+08:00",
-  "note": "20:00严格刷新新增采信：国内RSS新增钟睒睒/养生堂约5亿元战略投资固态电池企业智邦锂电、国内单体最大智能组串式储能电站落地内蒙古包头（1944台华为构网PCS）、中核汇能濉溪独立共享储能电站开工、锂价上涨与储能收入高增线索；海外新增Graphite One储能电池材料场址、ZOE沙特18GWh BESS工厂合资、Ford-EDF五年储能协议、印度Madhya Pradesh 1.13GWh BESS招标。SMM行情20:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较19:00持平。",
+  "generated_at": "2026-05-25T21:00:00+08:00",
+  "note": "21:00严格刷新新增采信：海外新增Ontario 250MW/1,000MWh BESS商业运行、美国2026Q1新增9.7GWh BESS、GridStor收购Colorado 199MW电池储能、Bulgaria 161MW光储项目投运和Epsilon钠电硬碳负极；国内新增/上移中国储能企业参建沙特世界级电池储能制造基地、国轩高科锰基/固态电池、雷军披露小米电池安全测试1230项等。SMM行情21:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较20:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260525-2100-ontario-us-bess-smm",
+        "source": "Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
+        "source_type": "海外行业媒体/国内外RSS/专业行情",
+        "account_name": "Energy-Storage.News / Google News / SMM / SolarQuarter",
+        "category": "海外BESS/储能投运/材料行情",
+        "title": "21:00刷新：Ontario 1GWh BESS投运；美国Q1新增9.7GWh；SMM锂电材料持平",
+        "summary": "21:00严格刷新新增采信：海外新增Ontario 250MW/1,000MWh BESS商业运行、美国2026Q1新增9.7GWh BESS、GridStor收购Colorado 199MW电池储能、Bulgaria 161MW光储项目投运和Epsilon钠电硬碳负极；国内新增/上移中国储能企业参建沙特世界级电池储能制造基地、国轩高科锰基/固态电池、雷军披露小米电池安全测试1230项等。SMM行情21:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较20:00持平。",
+        "body": [
+          "海外新增：Energy-Storage.News新增Ontario 250MW/1,000MWh BESS begins commercial operations，并提示后续扩容可能。",
+          "海外新增：SEIA报告美国2026年Q1新增9.7GWh BESS。",
+          "海外新增：Google News海外RSS新增GridStor收购Colorado 199MW电池储能项目、Bulgaria 161MW Maglizh solar plant with BESS officially opened。",
+          "海外供应链新增：Epsilon Advanced Materials发布钠离子电池硬碳负极线索。",
+          "国内新增/上移：中国储能企业将参建沙特首个世界级电池储能制造基地；国轩高科锰基/固态电池路线、雷军披露小米汽车电池安全测试1230项。",
+          "行情侧：SMM公开页21:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。"
+        ],
+        "key_points": [
+          "Ontario：250MW/1,000MWh BESS商业运行，后续可能扩容。",
+          "美国：SEIA口径2026年Q1新增9.7GWh BESS。",
+          "GridStor：收购Colorado 199MW电池储能项目。",
+          "Bulgaria：161MW Maglizh solar plant with BESS正式投运。",
+          "国内：储能企业参建沙特世界级电池储能制造基地线索新增/上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较20:00持平。"
+        ],
+        "value": "9.7",
+        "unit": "GWh 美国Q1新增BESS（SEIA标题口径）",
+        "delta": "新增Ontario 1GWh投运、美国Q1 9.7GWh、Colorado 199MW收购、Bulgaria光储投运",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 21:00 CST",
+        "url": "https://www.energy-storage.news/us-installed-9-7gwh-of-new-bess-in-q1-2026-seia-reports/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://www.energy-storage.news/250mw-1000mwh-ontario-bess-begins-commercial-operations-potential-expansion-ahead/",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "clean_html": "<p>21:00新增/复核：Energy-Storage.News新增Ontario 250MW/1,000MWh BESS商业运行、美国2026Q1新增9.7GWh BESS；海外RSS新增GridStor Colorado 199MW储能收购、Bulgaria 161MW光储投运、Epsilon钠电硬碳负极。国内RSS新增中国储能企业参建沙特世界级储能制造基地等。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。</p>",
+        "caption": "海外BESS投运/装机数据新增；SMM材料价较20:00持平。",
+        "methodology": "21:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 189f5283b6b3c27d9df90e2acdd280732e29dea92996d67f19948d303a1af160，SMM碳酸锂 56ebf7b80a4e108ce52b506351c137a71c4784540e744e11731751634f38532a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA b1456bdbeef4624d5a8e7d16ca17459b124c65f74b5a6d192300453bc3ddf056。 海外入口：Energy-Storage.News 74728f5ecad065b8c5a46e3097207c66bee3a4d63d334eb227b01261dfaefc90，ESS News 25af4f1319e8c51794bd63b36b6d91d8b9b1872f75465a223468b46ef5b686ea，pv magazine de657f9aa91d6659faf8f0965c9a55089da2089852482808c04ebf9266ea2833，SolarQuarter 3f5761cd4274419cbea68adc4a273863911b06e1e245f9ef4f4990d4e2a4eedd，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/亚洲RSS均HTTP 200。 21:00新增/变化：Energy-Storage.News新增/上移Ontario 250MW/1,000MWh BESS商业运行且存在扩容可能、SEIA报告美国2026年Q1新增9.7GWh BESS；Google News海外同步新增GridStor收购Colorado 199MW电池储能项目、Bulgaria 161MW Maglizh solar plant with BESS opened、Epsilon Advanced Materials发布钠离子电池硬碳负极、美国可充电电池市场2034年或达667.2亿美元等。国内RSS新增/上移中国储能企业将参建沙特首个世界级电池储能制造基地、国轩高科锰基/固态电池路线、雷军披露小米汽车电池安全测试1230项、固态电池充电宝等线索；20:00采信的钟睒睒/养生堂5亿元投资智邦锂电和内蒙古包头1944台华为构网PCS储能电站仍在RSS前列。SMM 21:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。",
+        "history": [
+          {
+            "label": "美国Q1新增BESS GWh",
+            "value": 9.7
+          },
+          {
+            "label": "Ontario BESS MWh",
+            "value": 1000
+          },
+          {
+            "label": "Colorado电池储能 MW",
+            "value": 199
+          },
+          {
+            "label": "Bulgaria光储项目 MW",
+            "value": 161
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260525-2000-solidstate-zoe-ford-bess",
         "source": "SMM上海有色 / Google News RSS / SolarQuarter / 北极星储能网 / CNESA",
@@ -14019,6 +14087,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260525-2100-ontario-us-bess-smm",
+        "source": "Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
+        "source_type": "海外行业媒体/国内外RSS/专业行情",
+        "account_name": "Energy-Storage.News / Google News / SMM / SolarQuarter",
+        "category": "海外BESS/储能投运/材料行情",
+        "title": "21:00刷新：Ontario 1GWh BESS投运；美国Q1新增9.7GWh；SMM锂电材料持平",
+        "summary": "21:00严格刷新新增采信：海外新增Ontario 250MW/1,000MWh BESS商业运行、美国2026Q1新增9.7GWh BESS、GridStor收购Colorado 199MW电池储能、Bulgaria 161MW光储项目投运和Epsilon钠电硬碳负极；国内新增/上移中国储能企业参建沙特世界级电池储能制造基地、国轩高科锰基/固态电池、雷军披露小米电池安全测试1230项等。SMM行情21:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较20:00持平。",
+        "body": [
+          "海外新增：Energy-Storage.News新增Ontario 250MW/1,000MWh BESS begins commercial operations，并提示后续扩容可能。",
+          "海外新增：SEIA报告美国2026年Q1新增9.7GWh BESS。",
+          "海外新增：Google News海外RSS新增GridStor收购Colorado 199MW电池储能项目、Bulgaria 161MW Maglizh solar plant with BESS officially opened。",
+          "海外供应链新增：Epsilon Advanced Materials发布钠离子电池硬碳负极线索。",
+          "国内新增/上移：中国储能企业将参建沙特首个世界级电池储能制造基地；国轩高科锰基/固态电池路线、雷军披露小米汽车电池安全测试1230项。",
+          "行情侧：SMM公开页21:00复核，电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。"
+        ],
+        "key_points": [
+          "Ontario：250MW/1,000MWh BESS商业运行，后续可能扩容。",
+          "美国：SEIA口径2026年Q1新增9.7GWh BESS。",
+          "GridStor：收购Colorado 199MW电池储能项目。",
+          "Bulgaria：161MW Maglizh solar plant with BESS正式投运。",
+          "国内：储能企业参建沙特世界级电池储能制造基地线索新增/上移。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较20:00持平。"
+        ],
+        "date": "05-25",
+        "as_of": "2026-05-25 21:00 CST",
+        "url": "https://www.energy-storage.news/us-installed-9-7gwh-of-new-bess-in-q1-2026-seia-reports/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://www.energy-storage.news/250mw-1000mwh-ontario-bess-begins-commercial-operations-potential-expansion-ahead/",
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "clean_html": "<p>21:00新增/复核：Energy-Storage.News新增Ontario 250MW/1,000MWh BESS商业运行、美国2026Q1新增9.7GWh BESS；海外RSS新增GridStor Colorado 199MW储能收购、Bulgaria 161MW光储投运、Epsilon钠电硬碳负极。国内RSS新增中国储能企业参建沙特世界级储能制造基地等。SMM电池级碳酸锂183250元/吨、指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。</p>",
+        "caption": "海外BESS投运/装机数据新增；SMM材料价较20:00持平。",
+        "methodology": "21:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 189f5283b6b3c27d9df90e2acdd280732e29dea92996d67f19948d303a1af160，SMM碳酸锂 56ebf7b80a4e108ce52b506351c137a71c4784540e744e11731751634f38532a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA b1456bdbeef4624d5a8e7d16ca17459b124c65f74b5a6d192300453bc3ddf056。 海外入口：Energy-Storage.News 74728f5ecad065b8c5a46e3097207c66bee3a4d63d334eb227b01261dfaefc90，ESS News 25af4f1319e8c51794bd63b36b6d91d8b9b1872f75465a223468b46ef5b686ea，pv magazine de657f9aa91d6659faf8f0965c9a55089da2089852482808c04ebf9266ea2833，SolarQuarter 3f5761cd4274419cbea68adc4a273863911b06e1e245f9ef4f4990d4e2a4eedd，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/亚洲RSS均HTTP 200。 21:00新增/变化：Energy-Storage.News新增/上移Ontario 250MW/1,000MWh BESS商业运行且存在扩容可能、SEIA报告美国2026年Q1新增9.7GWh BESS；Google News海外同步新增GridStor收购Colorado 199MW电池储能项目、Bulgaria 161MW Maglizh solar plant with BESS opened、Epsilon Advanced Materials发布钠离子电池硬碳负极、美国可充电电池市场2034年或达667.2亿美元等。国内RSS新增/上移中国储能企业将参建沙特首个世界级电池储能制造基地、国轩高科锰基/固态电池路线、雷军披露小米汽车电池安全测试1230项、固态电池充电宝等线索；20:00采信的钟睒睒/养生堂5亿元投资智邦锂电和内蒙古包头1944台华为构网PCS储能电站仍在RSS前列。SMM 21:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。"
+      },
       {
         "id": "latest-20260525-2000-solidstate-zoe-ford-bess",
         "source": "SMM上海有色 / Google News RSS / SolarQuarter / 北极星储能网 / CNESA",
@@ -35528,6 +35634,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260525-2100-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；21:00复核，四项较20:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较20:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 21:00 CST",
+        "methodology": "21:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 189f5283b6b3c27d9df90e2acdd280732e29dea92996d67f19948d303a1af160，SMM碳酸锂 56ebf7b80a4e108ce52b506351c137a71c4784540e744e11731751634f38532a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA b1456bdbeef4624d5a8e7d16ca17459b124c65f74b5a6d192300453bc3ddf056。 海外入口：Energy-Storage.News 74728f5ecad065b8c5a46e3097207c66bee3a4d63d334eb227b01261dfaefc90，ESS News 25af4f1319e8c51794bd63b36b6d91d8b9b1872f75465a223468b46ef5b686ea，pv magazine de657f9aa91d6659faf8f0965c9a55089da2089852482808c04ebf9266ea2833，SolarQuarter 3f5761cd4274419cbea68adc4a273863911b06e1e245f9ef4f4990d4e2a4eedd，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/亚洲RSS均HTTP 200。 21:00新增/变化：Energy-Storage.News新增/上移Ontario 250MW/1,000MWh BESS商业运行且存在扩容可能、SEIA报告美国2026年Q1新增9.7GWh BESS；Google News海外同步新增GridStor收购Colorado 199MW电池储能项目、Bulgaria 161MW Maglizh solar plant with BESS opened、Epsilon Advanced Materials发布钠离子电池硬碳负极、美国可充电电池市场2034年或达667.2亿美元等。国内RSS新增/上移中国储能企业将参建沙特首个世界级电池储能制造基地、国轩高科锰基/固态电池路线、雷军披露小米汽车电池安全测试1230项、固态电池充电宝等线索；20:00采信的钟睒睒/养生堂5亿元投资智邦锂电和内蒙古包头1944台华为构网PCS储能电站仍在RSS前列。SMM 21:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。"
+      },
+      {
         "id": "material-20260525-2000-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；20:00复核，四项较19:00持平",
@@ -39026,6 +39145,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260525-2100-public-new",
+        "title": "21:00新增国内+海外储能/电池线索",
+        "value": "44",
+        "unit": "条",
+        "caption": "Energy-Storage.News、Google News中文/海外RSS、SolarQuarter等新增或上移BESS投运、装机、制造基地、钠电材料和SMM行情线索。",
+        "delta": "较20:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Energy-Storage.News / Google News RSS / SolarQuarter / SMM",
+        "as_of": "2026-05-25 21:00 CST",
+        "methodology": "21:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 189f5283b6b3c27d9df90e2acdd280732e29dea92996d67f19948d303a1af160，SMM碳酸锂 56ebf7b80a4e108ce52b506351c137a71c4784540e744e11731751634f38532a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA b1456bdbeef4624d5a8e7d16ca17459b124c65f74b5a6d192300453bc3ddf056。 海外入口：Energy-Storage.News 74728f5ecad065b8c5a46e3097207c66bee3a4d63d334eb227b01261dfaefc90，ESS News 25af4f1319e8c51794bd63b36b6d91d8b9b1872f75465a223468b46ef5b686ea，pv magazine de657f9aa91d6659faf8f0965c9a55089da2089852482808c04ebf9266ea2833，SolarQuarter 3f5761cd4274419cbea68adc4a273863911b06e1e245f9ef4f4990d4e2a4eedd，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/亚洲RSS均HTTP 200。 21:00新增/变化：Energy-Storage.News新增/上移Ontario 250MW/1,000MWh BESS商业运行且存在扩容可能、SEIA报告美国2026年Q1新增9.7GWh BESS；Google News海外同步新增GridStor收购Colorado 199MW电池储能项目、Bulgaria 161MW Maglizh solar plant with BESS opened、Epsilon Advanced Materials发布钠离子电池硬碳负极、美国可充电电池市场2034年或达667.2亿美元等。国内RSS新增/上移中国储能企业将参建沙特首个世界级电池储能制造基地、国轩高科锰基/固态电池路线、雷军披露小米汽车电池安全测试1230项、固态电池充电宝等线索；20:00采信的钟睒睒/养生堂5亿元投资智邦锂电和内蒙古包头1944台华为构网PCS储能电站仍在RSS前列。SMM 21:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260525-2000-public-new",
         "title": "20:00新增国内+海外储能/电池线索",
@@ -52553,6 +52685,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260525-2100-ontario-us-gridstor",
+        "source": "Energy-Storage.News / Google News RSS",
+        "category": "海外观察/BESS/储能项目",
+        "title": "海外新增Ontario 250MW/1,000MWh BESS投运、美国Q1新增9.7GWh BESS",
+        "summary": "21:00海外公开源显示Ontario 250MW/1,000MWh BESS商业运行、美国2026年Q1新增9.7GWh BESS；RSS同步新增GridStor Colorado 199MW电池储能收购、Bulgaria 161MW光储项目投运、Epsilon钠离子硬碳负极。",
+        "value": "1000",
+        "unit": "MWh Ontario BESS",
+        "delta": "Ontario 1GWh、美国Q1 9.7GWh、Colorado 199MW、Bulgaria 161MW新增",
+        "direction": "up",
+        "date": "05-25",
+        "as_of": "2026-05-25 21:00 CST",
+        "url": "https://www.energy-storage.news/250mw-1000mwh-ontario-bess-begins-commercial-operations-potential-expansion-ahead/",
+        "methodology": "21:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 189f5283b6b3c27d9df90e2acdd280732e29dea92996d67f19948d303a1af160，SMM碳酸锂 56ebf7b80a4e108ce52b506351c137a71c4784540e744e11731751634f38532a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA b1456bdbeef4624d5a8e7d16ca17459b124c65f74b5a6d192300453bc3ddf056。 海外入口：Energy-Storage.News 74728f5ecad065b8c5a46e3097207c66bee3a4d63d334eb227b01261dfaefc90，ESS News 25af4f1319e8c51794bd63b36b6d91d8b9b1872f75465a223468b46ef5b686ea，pv magazine de657f9aa91d6659faf8f0965c9a55089da2089852482808c04ebf9266ea2833，SolarQuarter 3f5761cd4274419cbea68adc4a273863911b06e1e245f9ef4f4990d4e2a4eedd，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/亚洲RSS均HTTP 200。 21:00新增/变化：Energy-Storage.News新增/上移Ontario 250MW/1,000MWh BESS商业运行且存在扩容可能、SEIA报告美国2026年Q1新增9.7GWh BESS；Google News海外同步新增GridStor收购Colorado 199MW电池储能项目、Bulgaria 161MW Maglizh solar plant with BESS opened、Epsilon Advanced Materials发布钠离子电池硬碳负极、美国可充电电池市场2034年或达667.2亿美元等。国内RSS新增/上移中国储能企业将参建沙特首个世界级电池储能制造基地、国轩高科锰基/固态电池路线、雷军披露小米汽车电池安全测试1230项、固态电池充电宝等线索；20:00采信的钟睒睒/养生堂5亿元投资智邦锂电和内蒙古包头1944台华为构网PCS储能电站仍在RSS前列。SMM 21:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。"
+      },
+      {
         "id": "overseas-20260525-2000-zoe-mp-ford",
         "source": "Google News RSS / SolarQuarter",
         "category": "海外观察/BESS/储能供应链",
@@ -58729,6 +58876,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260525-2100-bess-smm-flat",
+        "source": "Energy-Storage.News / Google News RSS / SMM上海有色 / SolarQuarter",
+        "category": "海外BESS/材料行情",
+        "title": "海外BESS投运与美国Q1装机新增；SMM锂电材料较20:00持平",
+        "summary": "21:00严格刷新新增采信：海外新增Ontario 250MW/1,000MWh BESS商业运行、美国2026Q1新增9.7GWh BESS、GridStor收购Colorado 199MW电池储能、Bulgaria 161MW光储项目投运和Epsilon钠电硬碳负极；国内新增/上移中国储能企业参建沙特世界级电池储能制造基地、国轩高科锰基/固态电池、雷军披露小米电池安全测试1230项等。SMM行情21:00复核：电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较20:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增Ontario 1GWh BESS、美国Q1 9.7GWh、Colorado 199MW；SMM四项持平",
+        "direction": "flat",
+        "date": "05-25",
+        "as_of": "2026-05-25 21:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "21:00严格刷新：重新抓取NeoLink首页和/markettrend/，并主动检索国内+海外公开来源；web_search四组查询仍返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce；MarketTrend HTTP 200 sha256 1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd。 国内入口：北极星储能 aacd810f60b42451bc96f5a67776de046099a3b91b872e4aaf6a6b59ae2a3515，SMM新能源 189f5283b6b3c27d9df90e2acdd280732e29dea92996d67f19948d303a1af160，SMM碳酸锂 56ebf7b80a4e108ce52b506351c137a71c4784540e744e11731751634f38532a，中国能源网 9314e49d9192944d6ccdf529173ce9f74d784d114376b8cf5f9b3a575dea4931，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA b1456bdbeef4624d5a8e7d16ca17459b124c65f74b5a6d192300453bc3ddf056。 海外入口：Energy-Storage.News 74728f5ecad065b8c5a46e3097207c66bee3a4d63d334eb227b01261dfaefc90，ESS News 25af4f1319e8c51794bd63b36b6d91d8b9b1872f75465a223468b46ef5b686ea，pv magazine de657f9aa91d6659faf8f0965c9a55089da2089852482808c04ebf9266ea2833，SolarQuarter 3f5761cd4274419cbea68adc4a273863911b06e1e245f9ef4f4990d4e2a4eedd，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News海外BESS/政策/钠电/欧洲/亚洲RSS均HTTP 200。 21:00新增/变化：Energy-Storage.News新增/上移Ontario 250MW/1,000MWh BESS商业运行且存在扩容可能、SEIA报告美国2026年Q1新增9.7GWh BESS；Google News海外同步新增GridStor收购Colorado 199MW电池储能项目、Bulgaria 161MW Maglizh solar plant with BESS opened、Epsilon Advanced Materials发布钠离子电池硬碳负极、美国可充电电池市场2034年或达667.2亿美元等。国内RSS新增/上移中国储能企业将参建沙特首个世界级电池储能制造基地、国轩高科锰基/固态电池路线、雷军披露小米汽车电池安全测试1230项、固态电池充电宝等线索；20:00采信的钟睒睒/养生堂5亿元投资智邦锂电和内蒙古包头1944台华为构网PCS储能电站仍在RSS前列。SMM 21:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较20:00持平。"
+      },
       {
         "id": "market-20260525-2000-smm-solidstate-bess",
         "source": "SMM上海有色 / Google News RSS / SolarQuarter / 北极星储能网 / CNESA",
@@ -73114,6 +73276,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260525-2100-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-25 21:00 CST",
+        "status": 200,
+        "sha256": "bac6251a5f9f5c2e9dc5ca5b033a9d8b392363d73463033f8e96c69124092cce",
+        "finding": "首页已按小时重读；本轮写入Ontario/美国Q1 BESS、国内沙特制造基地线索和SMM持平行情。"
+      },
+      {
+        "id": "source-20260525-2100-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-25 21:00 CST",
+        "status": 200,
+        "sha256": "1d4422ad1a2a62d47f8249c9c91b11d6a7fb86c8510a7c807ccd749631116cdd",
+        "finding": "/markettrend/已按小时重读；本轮补充海外BESS投运/装机、国内制造基地和SMM材料价格证据。"
+      },
+      {
+        "id": "source-20260525-2100-energy-storage-news",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-25 21:00 CST",
+        "status": 200,
+        "sha256": "74728f5ecad065b8c5a46e3097207c66bee3a4d63d334eb227b01261dfaefc90",
+        "finding": "新增/上移Ontario 250MW/1,000MWh BESS商业运行与美国2026Q1新增9.7GWh BESS。"
+      },
+      {
+        "id": "source-20260525-2100-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-25 21:00 CST",
+        "status": 200,
+        "sha256": "189f5283b6b3c27d9df90e2acdd280732e29dea92996d67f19948d303a1af160",
+        "finding": "21:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较20:00持平。"
+      },
+      {
+        "id": "source-20260525-2100-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-25 21:00 CST",
+        "status": 200,
+        "sha256": "56ebf7b80a4e108ce52b506351c137a71c4784540e744e11731751634f38532a",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较20:00持平。"
+      },
+      {
+        "id": "source-20260525-2100-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-25 21:00 CST",
+        "status": 200,
+        "sha256": "b1d845b615726299468a90600e93c3b1b75144e0c25c6e378975697d476fb792",
+        "finding": "新增/上移中国储能企业将参建沙特世界级电池储能制造基地、国轩高科锰基/固态电池、雷军小米电池安全测试1230项等。"
+      },
+      {
+        "id": "source-20260525-2100-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-25 21:00 CST",
+        "status": 200,
+        "sha256": "314c2bac5a9a398f7bde349aeffe2468cbe2d6db096d35436594263d99ffa1b3",
+        "finding": "新增/上移GridStor Colorado 199MW电池储能收购、Bulgaria 161MW光储项目投运、Epsilon钠离子硬碳负极等。"
+      },
+      {
         "id": "source-20260525-2000-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -80988,5 +81213,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-25T20:00:00+08:00"
+  "checked_at": "2026-05-25T21:00:00+08:00"
 };
