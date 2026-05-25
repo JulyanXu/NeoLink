@@ -1,4 +1,12 @@
 
+## 2026-05-26T00:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `bac6251a...`，`/markettrend/` HTTP 200 sha256 `1d4422ad...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
+- 国内新增/上移：中文RSS新增欧阳明高称储能、氢能、智能成为新能源革命三大核心技术，半固态电池技术落地，宜昌国际级大会，国内单体最大智能组串式储能电站落地内蒙古包头，比亚迪二代刀片/闪充，蜂巢能源提示超充参数竞赛风险等。
+- 海外新增/上移：海外RSS新增BloombergNEF上调BESS预测、Graphite One锁定Conneaut基地并推进EV/储能电池材料生产、钠电替代锂讨论、Ford/EDF电池合作延伸、Napanee BESS应急响应计划、xAI数据中心燃气轮机诉讼；SolarQuarter新增Hindustan Power 800MW PSA。
+- 行情复核：SMM新能源 sha256 `20ad9ae8...` 与SMM碳酸锂页 sha256 `b25d2afa...` 显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较23:00持平。
+- 动作：已更新`data/feed.js` generated_at/checked_at至00:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605260000`；已通过rsync部署至`neolink:/var/www/neolink/`并修复权限。HTTP线上回读首页、`/markettrend/`、`data/feed.js?v=202605260000`和MarketTrend JS均为200，版本号、feed generated_at、`BloombergNEF`、`Graphite One`与`SMM 5/26 00:00复核`关键词验证通过。Artifacts: `var/hermes/crawl-20260526-0000.py`, `var/hermes/crawl-output-20260526-0000.json`, `var/hermes/search-notes-20260526-0000.json`。
+
+
 ## 2026-05-25T23:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `bac6251a...`，`/markettrend/` HTTP 200 sha256 `1d4422ad...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
 - 国内新增/上移：中国能源网新增“十五五”时期我国新型电网投资预计将超过5万亿元、新能源就地消纳再破局；中文RSS新增中国储能企业参建沙特世界级储能制造基地、比亚迪第二代刀片电池/闪充、国轩高科锰系路线、金晟新能拟赴港上市、六氟磷酸锂单周涨超12%等。
