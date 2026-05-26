@@ -51,9 +51,18 @@ DEFAULT_HEADERS = {
     "Referer": SOGOU_BASE + "/",
 }
 
+TZ_CST = timezone(timedelta(hours=8))
+
 
 def now_cst_iso() -> str:
-    return datetime.now(timezone(timedelta(hours=8))).isoformat(timespec="seconds")
+    return datetime.now(TZ_CST).isoformat(timespec="seconds")
+
+
+def epoch_to_cst_iso(epoch: int) -> str:
+    try:
+        return datetime.fromtimestamp(int(epoch), TZ_CST).isoformat(timespec="seconds")
+    except Exception:
+        return ""
 
 
 def load_cookie_export(path: Path) -> dict[str, str]:
@@ -120,17 +129,24 @@ def parse_type2_results(html: str, query: str) -> list[dict[str, Any]]:
         title = re.sub(r"\s+", " ", title).strip()
         idx = match.group("idx")
 
-        # Try to find a nearby publish time. Sogou often shows it near this block.
-        # Heuristic: search a short window after the title anchor for YYYY-MM-DD or MM-DD.
+        # Try to find a nearby publish time. Sogou often shows it via:
+        #   document.write(timeConvert('1652705809'))
+        # Heuristic: search a short window after the title anchor.
         tail = html[match.end() : match.end() + 1200]
         time_text = ""
-        tm = re.search(r"(\d{4}-\d{1,2}-\d{1,2})", tail)
+        published_epoch = None
+        tm = re.search(r"timeConvert\\('(?P<epoch>\\d{10})'\\)", tail)
         if tm:
-            time_text = tm.group(1)
+            published_epoch = int(tm.group("epoch"))
+            time_text = epoch_to_cst_iso(published_epoch)
         else:
-            tm = re.search(r"(\d{1,2}-\d{1,2})", tail)
+            tm = re.search(r"(\d{4}-\d{1,2}-\d{1,2})", tail)
             if tm:
                 time_text = tm.group(1)
+            else:
+                tm = re.search(r"(\d{1,2}-\d{1,2})", tail)
+                if tm:
+                    time_text = tm.group(1)
 
         items.append(
             {
@@ -139,6 +155,7 @@ def parse_type2_results(html: str, query: str) -> list[dict[str, Any]]:
                 "link_path": href,
                 "title": title,
                 "published_at": time_text,
+                "published_epoch": published_epoch,
             }
         )
     return items
@@ -192,6 +209,8 @@ def main() -> int:
 
     parser.add_argument("--max", type=int, default=20, help="Max results for single --query (default: 20)")
     parser.add_argument("--max-per-account", type=int, default=10, help="Max results per account when using --accounts (default: 10)")
+    parser.add_argument("--lookback-days", type=int, default=30, help="Only keep results within N days if publish time is available (default: 30)")
+    parser.add_argument("--max-pages", type=int, default=5, help="Max search pages to scan per query (default: 5)")
     parser.add_argument("--delay", type=float, default=0.4, help="Delay between link resolves in seconds (default: 0.4)")
     parser.add_argument("-o", "--output", default="/tmp/wechat_urls.json", help="Output JSON path")
     args = parser.parse_args()
@@ -222,6 +241,8 @@ def main() -> int:
     discovered: list[Discovered] = []
     errors: list[dict[str, Any]] = []
 
+    cutoff_epoch = int((datetime.now(TZ_CST) - timedelta(days=max(args.lookback_days, 0))).timestamp())
+
     with httpx.Client(
         headers=DEFAULT_HEADERS,
         cookies=cookies,
@@ -229,22 +250,53 @@ def main() -> int:
         follow_redirects=True,  # for search page itself
     ) as client:
         for (account_name, keyword) in queries:
-            search_url = f"{SOGOU_BASE}/weixin?type=2&query={httpx.QueryParams({'q': keyword}).get('q')}"
-            # The line above is intentionally simple; httpx will not encode this. We'll use params:
             search_url = f"{SOGOU_BASE}/weixin"
-            try:
-                resp = client.get(search_url, params={"type": "2", "query": keyword})
-                html = resp.text
-            except Exception as e:
-                errors.append({"query": keyword, "stage": "search", "error": str(e)})
+            scanned = 0
+            candidates: list[dict[str, Any]] = []
+
+            for page in range(1, max(args.max_pages, 1) + 1):
+                try:
+                    resp = client.get(
+                        search_url,
+                        params={
+                            "type": "2",
+                            "query": keyword,
+                            "page": str(page),
+                            "tsn": "1",  # prefer time ordering when supported
+                        },
+                    )
+                    html = resp.text
+                except Exception as e:
+                    errors.append({"query": keyword, "stage": "search", "error": str(e), "page": page})
+                    break
+
+                page_items = parse_type2_results(html, keyword)
+                scanned += len(page_items)
+                if not page_items:
+                    if page == 1:
+                        errors.append({"query": keyword, "stage": "parse", "error": "no_results_parsed", "status": getattr(resp, "status_code", None)})
+                    break
+
+                candidates.extend(page_items)
+                # If we already collected enough candidates, stop fetching more pages.
+                if len(candidates) >= max_per_query * 3:
+                    break
+
+            # Prefer items with epoch and filter by lookback when epoch exists.
+            with_epoch = [it for it in candidates if isinstance(it.get("published_epoch"), int)]
+            without_epoch = [it for it in candidates if not isinstance(it.get("published_epoch"), int)]
+
+            recent = [it for it in with_epoch if int(it["published_epoch"]) >= cutoff_epoch]
+            # Sort newest first.
+            recent.sort(key=lambda it: int(it["published_epoch"]), reverse=True)
+            # Backfill with undated items (rare) if we still need.
+            selected = (recent + without_epoch)[:max_per_query]
+
+            if not selected:
+                errors.append({"query": keyword, "stage": "select", "error": "no_recent_items", "scanned": scanned})
                 continue
 
-            raw_items = parse_type2_results(html, keyword)[:max_per_query]
-            if not raw_items:
-                errors.append({"query": keyword, "stage": "parse", "error": "no_results_parsed", "status": getattr(resp, "status_code", None)})
-                continue
-
-            for item in raw_items:
+            for item in selected:
                 link_path = item["link_path"]
                 mp_url, chain, err = resolve_link(client, link_path)
                 if err:
@@ -266,9 +318,10 @@ def main() -> int:
 
     output = {
         "generated_at": now_cst_iso(),
-        "methodology": "Sogou weixin search (type=2) + /link resolve using logged-in cookies; output mp.weixin.qq.com URLs only.",
+        "methodology": "Sogou weixin search (type=2, tsn=1) + /link resolve using logged-in cookies; extracts publish epoch from timeConvert() and keeps items within lookback window when available; output mp.weixin.qq.com URLs only.",
         "cookies_file": str(cookie_path),
         "total_discovered": len(discovered),
+        "lookback_days": args.lookback_days,
         "articles": [
             {
                 "query": d.query,
@@ -294,4 +347,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
