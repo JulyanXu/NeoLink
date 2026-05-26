@@ -1,8 +1,83 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-27T01:00:00+08:00",
-  "note": "01:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较00:00页面未变；中文RSS新增/上移欣旺达动力获16.8亿元股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、动力电池回收和金晟新能源赴港IPO。海外新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池、ZOE沙特BESS工厂、Metso碳酸锂工艺。",
+  "generated_at": "2026-05-27T02:00:00+08:00",
+  "note": "02:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较01:00页面未变；中文RSS新增/上移湖北荆门新能源及储能基地、新疆新型储能容量电价165元/千瓦·年、中创新航新基金、中国科大智能电池热失控预警、银河证券钠电池2026产业奇点、钟睒睒/养生堂5亿元固态电池、宁德时代第三代神行电池和金晟新能赴港上市。海外新增/上移Cornex 50GWh储能电池协议、南佛州公司4.5亿美元Texas电网融资、AIP收购英国储能组合49%股权、Adani 3.37GWh储能系统、Meta/Enbridge 12亿美元太阳能+储能数据中心项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260527-0200-cornex-xinjiang-adani",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / ESS News",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / ESS News",
+        "category": "储能电池协议/容量电价/BESS融资/材料行情/安全",
+        "title": "02:00刷新：Cornex 50GWh、Adani 3.37GWh与新疆165元容量电价上移",
+        "summary": "02:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较01:00页面未变；中文RSS新增/上移湖北荆门新能源及储能基地、新疆新型储能容量电价165元/千瓦·年、中创新航新基金、中国科大智能电池热失控预警、银河证券钠电池2026产业奇点、钟睒睒/养生堂5亿元固态电池、宁德时代第三代神行电池和金晟新能赴港上市。海外新增/上移Cornex 50GWh储能电池协议、南佛州公司4.5亿美元Texas电网融资、AIP收购英国储能组合49%股权、Adani 3.37GWh储能系统、Meta/Enbridge 12亿美元太阳能+储能数据中心项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂。",
+        "body": [
+          "行情：SMM 02:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动。",
+          "国内政策/基地：中文RSS新增新疆新型储能容量电价165元/千瓦·年，湖北荆门提出打造全国重要新能源及储能基地。",
+          "国内技术/资本：中文RSS新增/上移中创新航参与储能相关基金、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎产业奇点、养生堂/钟睒睒5亿元切入固态电池。",
+          "国内产业链：宁德时代第三代神行电池、金晟新能赴港上市、锂电扩产潮继续上移，说明材料、回收与快充/固态叙事仍活跃。",
+          "海外订单/项目：海外RSS新增Cornex在CIBF 2026签署50GWh储能电池协议、Adani Green在Khavda投运3.37GWh大型电池储能、ZOE沙特6GWh BESS工厂。",
+          "海外融资/风险：南佛州公司获4.5亿美元支持Texas电网、AIP收购英国储能组合49%股权、Conway拟建BESS引发安全关注，Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目和Inlyte铁钠电池试点继续上移。"
+        ],
+        "key_points": [
+          "本小时已重新抓取NeoLink首页、MarketTrend、SMM、国内行业/监管入口、海外行业站和Google News中英文RSS，并保存sha256。",
+          "国内新增最明确的政策价格信号是新疆新型储能容量电价165元/千瓦·年。",
+          "海外新增最大量级订单/项目包括Cornex 50GWh储能电池协议、Adani 3.37GWh储能和ZOE沙特6GWh BESS工厂。",
+          "融资和安全并行：4.5亿美元Texas电网融资、AIP英国储能组合49%股权，以及Conway BESS安全关注。"
+        ],
+        "value": "50",
+        "unit": "GWh储能电池协议",
+        "delta": "新增/上移50GWh储能协议、165元/千瓦·年容量电价、3.37GWh Adani储能、4.5亿美元Texas电网融资、49%英国储能组合股权、6GWh沙特BESS工厂",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 02:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://www.ess-news.com/",
+          "https://www.energy-storage.news/",
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>02:00新增/复核：SMM四项材料价格较01:00未变；新增/上移新疆165元/千瓦·年新型储能容量电价、Cornex 50GWh储能电池协议、Adani 3.37GWh储能系统、南佛州公司4.5亿美元Texas电网融资、AIP英国储能组合49%股权、ZOE沙特6GWh BESS工厂、Conway BESS安全关注。</p>",
+        "caption": "容量电价、GWh级协议和海外电网融资成为本小时新增主线。",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS；google_news_cn_storage首轮超时后已重试成功。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 7781e002c0c86253a03ae8a65cc6e2b3633949d4d7d7ecd62cd1621090091e54，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 3e8b74aa0ee9170767f294a1f9bc5b8306c0dc10decb90bcb4e644a60d46dd47。 海外入口：Energy-Storage.News 90cdc765971a653d8816fac271d8367474ac6b6b66027e842ca148ac9785502a，ESS News 08f28a7248ac57d43a18699c56d3d005e27814288939f4a7f127e88017dd6950，pv magazine c239b7bcc5daddce7d8807b7ba3300899a3566e541f5d5ad683cd4cc50f75292，SolarQuarter 2c4ea9a42c81913e67a72ec4f779dde81326d7ba02fac49880df1ba9a9d08e06，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS多数HTTP 200。 02:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动；中文RSS新增/上移湖北荆门打造全国重要新能源及储能基地、储能“新势力”搭伙干/中创新航参与新基金、新疆新型储能容量电价165元/千瓦·年、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎来产业奇点、钟睒睒/养生堂砸5亿元切入固态电池、宁德时代第三代神行电池、锂电回收龙头金晟新能赴港上市。海外RSS新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、南佛州公司获4.5亿美元支持Texas电网、AIP Management收购英国电池储能组合49%股权、Conway拟建BESS引发安全关注、Adani Green在Khavda投运3.37GWh大型电池储能、Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂、印度电池供应链/储能项目执行压力等。",
+        "history": [
+          {
+            "label": "Cornex储能协议 GWh",
+            "value": 50
+          },
+          {
+            "label": "新疆容量电价 元/kW·年",
+            "value": 165
+          },
+          {
+            "label": "Adani储能 GWh",
+            "value": 3.37
+          },
+          {
+            "label": "Texas电网融资 亿美元",
+            "value": 4.5
+          },
+          {
+            "label": "AIP英国储能组合股权 %",
+            "value": 49
+          },
+          {
+            "label": "ZOE沙特BESS工厂 GWh",
+            "value": 6
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "养生堂固态电池投资 亿元",
+            "value": 5
+          }
+        ]
+      },
       {
         "id": "headline-20260527-0100-sunwoda-frontier-vrfb",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
@@ -15672,6 +15747,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260527-0200-cornex-adani-xinjiang",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / ESS News",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / ESS News",
+        "category": "储能电池协议/容量电价/BESS融资/材料行情/安全",
+        "title": "02:00刷新：Cornex 50GWh、Adani 3.37GWh与新疆165元容量电价上移",
+        "summary": "02:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较01:00页面未变；中文RSS新增/上移湖北荆门新能源及储能基地、新疆新型储能容量电价165元/千瓦·年、中创新航新基金、中国科大智能电池热失控预警、银河证券钠电池2026产业奇点、钟睒睒/养生堂5亿元固态电池、宁德时代第三代神行电池和金晟新能赴港上市。海外新增/上移Cornex 50GWh储能电池协议、南佛州公司4.5亿美元Texas电网融资、AIP收购英国储能组合49%股权、Adani 3.37GWh储能系统、Meta/Enbridge 12亿美元太阳能+储能数据中心项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂。",
+        "body": [
+          "行情：SMM 02:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动。",
+          "国内政策/基地：中文RSS新增新疆新型储能容量电价165元/千瓦·年，湖北荆门提出打造全国重要新能源及储能基地。",
+          "国内技术/资本：中文RSS新增/上移中创新航参与储能相关基金、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎产业奇点、养生堂/钟睒睒5亿元切入固态电池。",
+          "国内产业链：宁德时代第三代神行电池、金晟新能赴港上市、锂电扩产潮继续上移，说明材料、回收与快充/固态叙事仍活跃。",
+          "海外订单/项目：海外RSS新增Cornex在CIBF 2026签署50GWh储能电池协议、Adani Green在Khavda投运3.37GWh大型电池储能、ZOE沙特6GWh BESS工厂。",
+          "海外融资/风险：南佛州公司获4.5亿美元支持Texas电网、AIP收购英国储能组合49%股权、Conway拟建BESS引发安全关注，Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目和Inlyte铁钠电池试点继续上移。"
+        ],
+        "key_points": [
+          "本小时已重新抓取NeoLink首页、MarketTrend、SMM、国内行业/监管入口、海外行业站和Google News中英文RSS，并保存sha256。",
+          "国内新增最明确的政策价格信号是新疆新型储能容量电价165元/千瓦·年。",
+          "海外新增最大量级订单/项目包括Cornex 50GWh储能电池协议、Adani 3.37GWh储能和ZOE沙特6GWh BESS工厂。",
+          "融资和安全并行：4.5亿美元Texas电网融资、AIP英国储能组合49%股权，以及Conway BESS安全关注。"
+        ],
+        "date": "05-27",
+        "as_of": "2026-05-27 02:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://www.ess-news.com/",
+          "https://www.energy-storage.news/",
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>02:00新增/复核：SMM四项材料价格较01:00未变；新增/上移新疆165元/千瓦·年新型储能容量电价、Cornex 50GWh储能电池协议、Adani 3.37GWh储能系统、南佛州公司4.5亿美元Texas电网融资、AIP英国储能组合49%股权、ZOE沙特6GWh BESS工厂、Conway BESS安全关注。</p>",
+        "caption": "容量电价、GWh级协议和海外电网融资成为本小时新增主线。",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS；google_news_cn_storage首轮超时后已重试成功。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 7781e002c0c86253a03ae8a65cc6e2b3633949d4d7d7ecd62cd1621090091e54，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 3e8b74aa0ee9170767f294a1f9bc5b8306c0dc10decb90bcb4e644a60d46dd47。 海外入口：Energy-Storage.News 90cdc765971a653d8816fac271d8367474ac6b6b66027e842ca148ac9785502a，ESS News 08f28a7248ac57d43a18699c56d3d005e27814288939f4a7f127e88017dd6950，pv magazine c239b7bcc5daddce7d8807b7ba3300899a3566e541f5d5ad683cd4cc50f75292，SolarQuarter 2c4ea9a42c81913e67a72ec4f779dde81326d7ba02fac49880df1ba9a9d08e06，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS多数HTTP 200。 02:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动；中文RSS新增/上移湖北荆门打造全国重要新能源及储能基地、储能“新势力”搭伙干/中创新航参与新基金、新疆新型储能容量电价165元/千瓦·年、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎来产业奇点、钟睒睒/养生堂砸5亿元切入固态电池、宁德时代第三代神行电池、锂电回收龙头金晟新能赴港上市。海外RSS新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、南佛州公司获4.5亿美元支持Texas电网、AIP Management收购英国电池储能组合49%股权、Conway拟建BESS引发安全关注、Adani Green在Khavda投运3.37GWh大型电池储能、Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂、印度电池供应链/储能项目执行压力等。"
+      },
       {
         "id": "latest-20260527-0100-sunwoda-bess-ldes",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
@@ -38090,6 +38202,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260527-0200-smm-flat-capacity-price",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；02:00复核较01:00未变；新增容量电价、钠电/固态和GWh级储能证据",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较01:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 02:00 CST",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS；google_news_cn_storage首轮超时后已重试成功。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 7781e002c0c86253a03ae8a65cc6e2b3633949d4d7d7ecd62cd1621090091e54，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 3e8b74aa0ee9170767f294a1f9bc5b8306c0dc10decb90bcb4e644a60d46dd47。 海外入口：Energy-Storage.News 90cdc765971a653d8816fac271d8367474ac6b6b66027e842ca148ac9785502a，ESS News 08f28a7248ac57d43a18699c56d3d005e27814288939f4a7f127e88017dd6950，pv magazine c239b7bcc5daddce7d8807b7ba3300899a3566e541f5d5ad683cd4cc50f75292，SolarQuarter 2c4ea9a42c81913e67a72ec4f779dde81326d7ba02fac49880df1ba9a9d08e06，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS多数HTTP 200。 02:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动；中文RSS新增/上移湖北荆门打造全国重要新能源及储能基地、储能“新势力”搭伙干/中创新航参与新基金、新疆新型储能容量电价165元/千瓦·年、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎来产业奇点、钟睒睒/养生堂砸5亿元切入固态电池、宁德时代第三代神行电池、锂电回收龙头金晟新能赴港上市。海外RSS新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、南佛州公司获4.5亿美元支持Texas电网、AIP Management收购英国电池储能组合49%股权、Conway拟建BESS引发安全关注、Adani Green在Khavda投运3.37GWh大型电池储能、Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂、印度电池供应链/储能项目执行压力等。"
+      },
+      {
         "id": "material-20260527-0100-smm-flat-sunwoda-vrfb",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；01:00复核较00:00未变；新增欣旺达融资、长时储能和海外BESS证据",
@@ -41900,6 +42025,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260527-0200-public-new",
+        "title": "02:00新增国内+海外储能/电池线索",
+        "value": "71",
+        "unit": "条",
+        "caption": "较01:00公开RSS新增或上移新疆165元/千瓦·年容量电价、Cornex 50GWh、Adani 3.37GWh、4.5亿美元Texas电网融资、AIP英国储能组合49%股权、ZOE沙特6GWh工厂等。",
+        "delta": "较01:00 RSS新增或上移",
+        "direction": "up",
+        "source": "Google News中文RSS / Google News海外RSS / SMM上海有色",
+        "as_of": "2026-05-27 02:00 CST",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS；google_news_cn_storage首轮超时后已重试成功。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 7781e002c0c86253a03ae8a65cc6e2b3633949d4d7d7ecd62cd1621090091e54，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 3e8b74aa0ee9170767f294a1f9bc5b8306c0dc10decb90bcb4e644a60d46dd47。 海外入口：Energy-Storage.News 90cdc765971a653d8816fac271d8367474ac6b6b66027e842ca148ac9785502a，ESS News 08f28a7248ac57d43a18699c56d3d005e27814288939f4a7f127e88017dd6950，pv magazine c239b7bcc5daddce7d8807b7ba3300899a3566e541f5d5ad683cd4cc50f75292，SolarQuarter 2c4ea9a42c81913e67a72ec4f779dde81326d7ba02fac49880df1ba9a9d08e06，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS多数HTTP 200。 02:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动；中文RSS新增/上移湖北荆门打造全国重要新能源及储能基地、储能“新势力”搭伙干/中创新航参与新基金、新疆新型储能容量电价165元/千瓦·年、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎来产业奇点、钟睒睒/养生堂砸5亿元切入固态电池、宁德时代第三代神行电池、锂电回收龙头金晟新能赴港上市。海外RSS新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、南佛州公司获4.5亿美元支持Texas电网、AIP Management收购英国电池储能组合49%股权、Conway拟建BESS引发安全关注、Adani Green在Khavda投运3.37GWh大型电池储能、Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂、印度电池供应链/储能项目执行压力等。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260527-0100-public-new",
         "title": "01:00新增国内+海外储能/电池线索",
@@ -55739,6 +55877,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260527-0200-cornex-adani-texas",
+        "source": "Google News海外RSS / ESS News / Business Journals / Energy-Storage.News",
+        "category": "海外观察/BESS协议/电网融资/数据中心电力/安全",
+        "title": "海外新增/上移Cornex 50GWh、Adani 3.37GWh与4.5亿美元Texas电网融资",
+        "summary": "02:00海外公开源新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、南佛州公司获4.5亿美元支持Texas电网、AIP Management收购英国电池储能组合49%股权、Conway拟建BESS引发安全关注、Adani Green投运3.37GWh大型储能、Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂。",
+        "value": "3.37",
+        "unit": "GWh Adani储能",
+        "delta": "海外BESS协议、项目投运、融资和安全议题新增/上移",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 02:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS；google_news_cn_storage首轮超时后已重试成功。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 7781e002c0c86253a03ae8a65cc6e2b3633949d4d7d7ecd62cd1621090091e54，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 3e8b74aa0ee9170767f294a1f9bc5b8306c0dc10decb90bcb4e644a60d46dd47。 海外入口：Energy-Storage.News 90cdc765971a653d8816fac271d8367474ac6b6b66027e842ca148ac9785502a，ESS News 08f28a7248ac57d43a18699c56d3d005e27814288939f4a7f127e88017dd6950，pv magazine c239b7bcc5daddce7d8807b7ba3300899a3566e541f5d5ad683cd4cc50f75292，SolarQuarter 2c4ea9a42c81913e67a72ec4f779dde81326d7ba02fac49880df1ba9a9d08e06，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS多数HTTP 200。 02:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动；中文RSS新增/上移湖北荆门打造全国重要新能源及储能基地、储能“新势力”搭伙干/中创新航参与新基金、新疆新型储能容量电价165元/千瓦·年、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎来产业奇点、钟睒睒/养生堂砸5亿元切入固态电池、宁德时代第三代神行电池、锂电回收龙头金晟新能赴港上市。海外RSS新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、南佛州公司获4.5亿美元支持Texas电网、AIP Management收购英国电池储能组合49%股权、Conway拟建BESS引发安全关注、Adani Green在Khavda投运3.37GWh大型电池储能、Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂、印度电池供应链/储能项目执行压力等。"
+      },
+      {
         "id": "overseas-20260527-0100-frontier-meta-vrfb",
         "source": "Google News海外RSS / Mercom / CarbonCredits / Saur Energy / Renewables Now",
         "category": "海外观察/BESS项目/长时储能/数据中心电力",
@@ -62275,6 +62428,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260527-0200-cornex-adani-xinjiang",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / ESS News",
+        "category": "储能协议/容量电价/材料行情",
+        "title": "Cornex 50GWh储能协议与新疆165元容量电价进入新增线索",
+        "summary": "02:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较01:00页面未变；中文RSS新增/上移湖北荆门新能源及储能基地、新疆新型储能容量电价165元/千瓦·年、中创新航新基金、中国科大智能电池热失控预警、银河证券钠电池2026产业奇点、钟睒睒/养生堂5亿元固态电池、宁德时代第三代神行电池和金晟新能赴港上市。海外新增/上移Cornex 50GWh储能电池协议、南佛州公司4.5亿美元Texas电网融资、AIP收购英国储能组合49%股权、Adani 3.37GWh储能系统、Meta/Enbridge 12亿美元太阳能+储能数据中心项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂。",
+        "value": "50",
+        "unit": "GWh",
+        "delta": "国内容量电价和海外GWh级BESS协议/项目新增；SMM材料报价较01:00未变",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 02:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS；google_news_cn_storage首轮超时后已重试成功。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 7781e002c0c86253a03ae8a65cc6e2b3633949d4d7d7ecd62cd1621090091e54，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 3e8b74aa0ee9170767f294a1f9bc5b8306c0dc10decb90bcb4e644a60d46dd47。 海外入口：Energy-Storage.News 90cdc765971a653d8816fac271d8367474ac6b6b66027e842ca148ac9785502a，ESS News 08f28a7248ac57d43a18699c56d3d005e27814288939f4a7f127e88017dd6950，pv magazine c239b7bcc5daddce7d8807b7ba3300899a3566e541f5d5ad683cd4cc50f75292，SolarQuarter 2c4ea9a42c81913e67a72ec4f779dde81326d7ba02fac49880df1ba9a9d08e06，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS多数HTTP 200。 02:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动；中文RSS新增/上移湖北荆门打造全国重要新能源及储能基地、储能“新势力”搭伙干/中创新航参与新基金、新疆新型储能容量电价165元/千瓦·年、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎来产业奇点、钟睒睒/养生堂砸5亿元切入固态电池、宁德时代第三代神行电池、锂电回收龙头金晟新能赴港上市。海外RSS新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、南佛州公司获4.5亿美元支持Texas电网、AIP Management收购英国电池储能组合49%股权、Conway拟建BESS引发安全关注、Adani Green在Khavda投运3.37GWh大型电池储能、Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂、印度电池供应链/储能项目执行压力等。"
+      },
       {
         "id": "market-20260527-0100-sunwoda-vrfb-bess",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
@@ -77020,6 +77188,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260527-0200-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-27 02:00 CST",
+        "status": 200,
+        "sha256": "c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85",
+        "finding": "首页已按小时重读；本轮写入Cornex 50GWh、新疆容量电价、Adani 3.37GWh、Texas电网融资等。"
+      },
+      {
+        "id": "source-20260527-0200-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-27 02:00 CST",
+        "status": 200,
+        "sha256": "04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1",
+        "finding": "/markettrend/已按小时重读；本轮补充容量电价、GWh级BESS、材料行情和安全舆情。"
+      },
+      {
+        "id": "source-20260527-0200-smm",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 02:00 CST",
+        "status": 200,
+        "sha256": "7781e002c0c86253a03ae8a65cc6e2b3633949d4d7d7ecd62cd1621090091e54",
+        "finding": "02:00复核：电池级碳酸锂180000、SMM电池级碳酸锂指数179532、磷酸铁锂61770、电解液29350元/吨；较01:00页面未变。"
+      },
+      {
+        "id": "source-20260527-0200-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-27 02:00 CST",
+        "status": 200,
+        "sha256": "139f7220ef5c50ed77671e2f57fb0ed3fa4179ce67a632c01a6905f13322f135",
+        "finding": "新增/上移湖北荆门新能源及储能基地、中创新航新基金、新疆165元/千瓦·年容量电价、中国科大智能电池预警、银河证券钠电池产业奇点、钟睒睒5亿元固态电池、宁德时代第三代神行电池。"
+      },
+      {
+        "id": "source-20260527-0200-google-global-bess",
+        "source": "Google News海外BESS RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 02:00 CST",
+        "status": 200,
+        "sha256": "d5fbf75d0b5d496a56c7d6c51eade92c096dca858c8d2a71bfd060c744568f0b",
+        "finding": "新增/上移Cornex 50GWh储能电池协议、南佛州公司4.5亿美元Texas电网融资、AIP英国储能组合49%股权、Conway BESS安全关注。"
+      },
+      {
+        "id": "source-20260527-0200-google-global-policy",
+        "source": "Google News海外政策/电网RSS",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 02:00 CST",
+        "status": 200,
+        "sha256": "e7cfecd111ac5ba58827e4c171c5a5d4a7420a79599cb1c8d40e02024ebd8bb5",
+        "finding": "新增/上移Adani Green 3.37GWh储能系统及Meta/Enbridge 12亿美元太阳能+储能数据中心项目。"
+      },
+      {
+        "id": "source-20260527-0200-google-asia",
+        "source": "Google News亚洲BESS RSS",
+        "url": "https://news.google.com/rss/search?q=Asia%20BESS%20battery%20storage%20China%20India%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 02:00 CST",
+        "status": 200,
+        "sha256": "c590e7dbd4c0a148467075781d05b44ea9024f3c366a94ea5c9d12fbe74fb996",
+        "finding": "新增/上移ZOE沙特6GWh BESS工厂、印度电池供应链安全和储能项目执行压力。"
+      },
+      {
         "id": "source-20260527-0100-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -86478,5 +86709,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-27T01:00:00+08:00"
+  "checked_at": "2026-05-27T02:00:00+08:00"
 };

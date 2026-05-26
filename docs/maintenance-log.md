@@ -1,4 +1,12 @@
 
+## 2026-05-27T02:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `c24663bf...`，`/markettrend/` HTTP 200 sha256 `04b8583e...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，google_news_cn_storage首轮超时后重试成功，原始HTML/RSS已落盘，未仅刷新时间。
+- 行情复核：SMM新能源/碳酸锂页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未变。
+- 国内新增/上移：新疆新型储能容量电价165元/千瓦·年，湖北荆门打造全国重要新能源及储能基地，中创新航参与新基金，中国科大智能电池热失控早期预警，银河证券称钠离子电池2026年有望迎产业奇点，养生堂/钟睒睒5亿元切入固态电池，宁德时代第三代神行电池，金晟新能赴港上市。
+- 海外新增/上移：Cornex在CIBF 2026签署50GWh储能电池协议，南佛州公司获4.5亿美元支持Texas电网，AIP Management收购英国电池储能组合49%股权，Conway拟建BESS引发安全关注，Adani Green在Khavda投运3.37GWh大型电池储能，Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目，Inlyte铁钠电池试点，ZOE沙特6GWh BESS工厂。
+- 动作：已更新`data/feed.js` generated_at/checked_at至02:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605270200`。Artifacts: `var/hermes/crawl-20260527-0200.py`, `var/hermes/crawl-output-20260527-0200.json`, `var/hermes/search-notes-20260527-0200.json`。
+
+
 ## 2026-05-27T01:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `4dd4256d...`，`/markettrend/` HTTP 200 sha256 `52a61185...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
 - 行情复核：SMM新能源/碳酸锂页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未变；中文RSS继续上移碳酸锂期货主力合约跌超4%。
