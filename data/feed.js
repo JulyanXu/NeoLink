@@ -1,8 +1,83 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-27T00:00:00+08:00",
-  "note": "00:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较23:00页面未变；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力和场景化电池竞争、碳酸锂期货主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收数字身份证与金晟新能源拟赴港IPO。海外新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储开工、ACTOM收购电池制造商扩张BESS、ZOE沙特BESS工厂、Adani Green 3.37GWh Khavda BESS、印度储能项目执行压力、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段、AI数据中心电力需求推动150亿美元PJM拍卖。",
+  "generated_at": "2026-05-27T01:00:00+08:00",
+  "note": "01:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较00:00页面未变；中文RSS新增/上移欣旺达动力获16.8亿元股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、动力电池回收和金晟新能源赴港IPO。海外新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池、ZOE沙特BESS工厂、Metso碳酸锂工艺。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260527-0100-sunwoda-frontier-vrfb",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / SolarQuarter",
+        "category": "储能融资/BESS项目/长时储能/碳酸锂/固态电池",
+        "title": "01:00刷新：欣旺达16.8亿元融资与海外BESS/长时储能项目上移",
+        "summary": "01:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较00:00页面未变；中文RSS新增/上移欣旺达动力获16.8亿元股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、动力电池回收和金晟新能源赴港IPO。海外新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池、ZOE沙特BESS工厂、Metso碳酸锂工艺。",
+        "body": [
+          "行情：SMM 01:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS继续上移广期所碳酸锂主力合约跌超4%。",
+          "国内融资/产能：中文RSS新增欣旺达动力获新一轮16.8亿元股权融资，报道口径称资金将用于储能生产基地建设、固态电池等前沿核心技术平台研发。",
+          "国内材料/回收：中文RSS上移天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作、锂电扩产潮讨论，以及动力电池回收企业金晟新能源拟赴港IPO。",
+          "国内场景：中文RSS新增全球户用储能白皮书预告、算力-电力-储能主题ETF发行线索，说明储能叙事仍围绕户用、算力电力协同和电池技术平台。",
+          "海外项目/交易：海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池。",
+          "海外长时储能/数据中心：海外RSS新增GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Meta/Enbridge 12亿美元Solar Megaproject、ZOE沙特BESS工厂和Metso碳酸锂工艺。"
+        ],
+        "key_points": [
+          "本小时已重新抓取NeoLink首页、MarketTrend、SMM、国内行业/监管入口、海外行业站和Google News中英文RSS，并保存sha256。",
+          "国内新增最明确线索是欣旺达动力16.8亿元融资，资金用途覆盖储能生产基地和固态电池等技术平台。",
+          "海外新增交易/项目包括Frontier Power USA项目组合、巴西电池拍卖、意大利211MW BESS融资、安大略250MW电池。",
+          "长时储能与数据中心电力继续升温：20MW/120MWh钒液流电池招标、8小时储能系统和Meta/Enbridge 12亿美元项目上移。"
+        ],
+        "value": "16.8",
+        "unit": "亿元欣旺达动力融资",
+        "delta": "新增/上移16.8亿元融资、20MW/120MWh钒液流、211MW意大利BESS、250MW安大略电池、12亿美元Meta/Enbridge项目",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 01:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://solarquarter.com/",
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/"
+        ],
+        "clean_html": "<p>01:00新增/复核：SMM四项材料价格较00:00未变；新增/上移欣旺达动力16.8亿元融资、储能生产基地与固态电池技术平台、Frontier Power USA美国电池储能项目组合、GUVNL 20MW/120MWh钒液流招标、Hithium 8小时长时储能系统、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池、Meta/Enbridge 12亿美元Solar Megaproject。</p>",
+        "caption": "融资、长时储能招标和海外BESS交易成为本小时新增主线。",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 d0a5e89ddaa75abec9f2e952e6c40e4ac96b08c80415df99c659119d15085607，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA bcf8d3b57335e4bacbedda327aeff4115580a34d2ebf93062a5c7d29d4964902。 海外入口：Energy-Storage.News e82f8abfc5092f885786be40eabfcdddec45f0b4188337301b97e04ccc32bbfa，ESS News 584fa90cc75193bc61ffe7fb82fc9b31581be6a3cb6dc52fc577e09a1da96219，pv magazine cfa21baf6015013d05ed386bba1bc2679789736660fef9b591cd378334befe04，SolarQuarter 593d1958ebc757d0716d553c39ee18c1a2811b9f005db4eef1e3ff15e9f74562，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均HTTP 200。 01:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS新增/上移欣旺达动力获16.8亿元新一轮股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、锂电扩产潮和动力电池回收/金晟新能源赴港IPO线索。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池、ZOE沙特BESS工厂、Metso先进碳酸锂工艺等。",
+        "history": [
+          {
+            "label": "欣旺达动力融资 亿元",
+            "value": 16.8
+          },
+          {
+            "label": "钒液流招标 MW",
+            "value": 20
+          },
+          {
+            "label": "钒液流招标 MWh",
+            "value": 120
+          },
+          {
+            "label": "意大利BESS组合 MW",
+            "value": 211
+          },
+          {
+            "label": "安大略电池 MW",
+            "value": 250
+          },
+          {
+            "label": "Meta/Enbridge项目 亿美元",
+            "value": 12
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "碳酸锂期货跌幅 %",
+            "value": 4
+          }
+        ]
+      },
       {
         "id": "headline-20260527-0000-bess-ai-adani-brazil",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
@@ -15597,6 +15672,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260527-0100-sunwoda-bess-ldes",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / SolarQuarter",
+        "category": "储能融资/BESS项目/长时储能/碳酸锂/固态电池",
+        "title": "01:00刷新：欣旺达16.8亿元融资与海外BESS/长时储能项目上移",
+        "summary": "01:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较00:00页面未变；中文RSS新增/上移欣旺达动力获16.8亿元股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、动力电池回收和金晟新能源赴港IPO。海外新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池、ZOE沙特BESS工厂、Metso碳酸锂工艺。",
+        "body": [
+          "行情：SMM 01:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS继续上移广期所碳酸锂主力合约跌超4%。",
+          "国内融资/产能：中文RSS新增欣旺达动力获新一轮16.8亿元股权融资，报道口径称资金将用于储能生产基地建设、固态电池等前沿核心技术平台研发。",
+          "国内材料/回收：中文RSS上移天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作、锂电扩产潮讨论，以及动力电池回收企业金晟新能源拟赴港IPO。",
+          "国内场景：中文RSS新增全球户用储能白皮书预告、算力-电力-储能主题ETF发行线索，说明储能叙事仍围绕户用、算力电力协同和电池技术平台。",
+          "海外项目/交易：海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池。",
+          "海外长时储能/数据中心：海外RSS新增GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Meta/Enbridge 12亿美元Solar Megaproject、ZOE沙特BESS工厂和Metso碳酸锂工艺。"
+        ],
+        "key_points": [
+          "本小时已重新抓取NeoLink首页、MarketTrend、SMM、国内行业/监管入口、海外行业站和Google News中英文RSS，并保存sha256。",
+          "国内新增最明确线索是欣旺达动力16.8亿元融资，资金用途覆盖储能生产基地和固态电池等技术平台。",
+          "海外新增交易/项目包括Frontier Power USA项目组合、巴西电池拍卖、意大利211MW BESS融资、安大略250MW电池。",
+          "长时储能与数据中心电力继续升温：20MW/120MWh钒液流电池招标、8小时储能系统和Meta/Enbridge 12亿美元项目上移。"
+        ],
+        "date": "05-27",
+        "as_of": "2026-05-27 01:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://solarquarter.com/",
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/"
+        ],
+        "clean_html": "<p>01:00新增/复核：SMM四项材料价格较00:00未变；新增/上移欣旺达动力16.8亿元融资、储能生产基地与固态电池技术平台、Frontier Power USA美国电池储能项目组合、GUVNL 20MW/120MWh钒液流招标、Hithium 8小时长时储能系统、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池、Meta/Enbridge 12亿美元Solar Megaproject。</p>",
+        "caption": "融资、长时储能招标和海外BESS交易成为本小时新增主线。",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 d0a5e89ddaa75abec9f2e952e6c40e4ac96b08c80415df99c659119d15085607，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA bcf8d3b57335e4bacbedda327aeff4115580a34d2ebf93062a5c7d29d4964902。 海外入口：Energy-Storage.News e82f8abfc5092f885786be40eabfcdddec45f0b4188337301b97e04ccc32bbfa，ESS News 584fa90cc75193bc61ffe7fb82fc9b31581be6a3cb6dc52fc577e09a1da96219，pv magazine cfa21baf6015013d05ed386bba1bc2679789736660fef9b591cd378334befe04，SolarQuarter 593d1958ebc757d0716d553c39ee18c1a2811b9f005db4eef1e3ff15e9f74562，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均HTTP 200。 01:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS新增/上移欣旺达动力获16.8亿元新一轮股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、锂电扩产潮和动力电池回收/金晟新能源赴港IPO线索。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池、ZOE沙特BESS工厂、Metso先进碳酸锂工艺等。"
+      },
       {
         "id": "latest-20260527-0000-bess-ai-data-center",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
@@ -37978,6 +38090,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260527-0100-smm-flat-sunwoda-vrfb",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；01:00复核较00:00未变；新增欣旺达融资、长时储能和海外BESS证据",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较00:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS继续上移碳酸锂期货主力合约跌超4%",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 01:00 CST",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 d0a5e89ddaa75abec9f2e952e6c40e4ac96b08c80415df99c659119d15085607，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA bcf8d3b57335e4bacbedda327aeff4115580a34d2ebf93062a5c7d29d4964902。 海外入口：Energy-Storage.News e82f8abfc5092f885786be40eabfcdddec45f0b4188337301b97e04ccc32bbfa，ESS News 584fa90cc75193bc61ffe7fb82fc9b31581be6a3cb6dc52fc577e09a1da96219，pv magazine cfa21baf6015013d05ed386bba1bc2679789736660fef9b591cd378334befe04，SolarQuarter 593d1958ebc757d0716d553c39ee18c1a2811b9f005db4eef1e3ff15e9f74562，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均HTTP 200。 01:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS新增/上移欣旺达动力获16.8亿元新一轮股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、锂电扩产潮和动力电池回收/金晟新能源赴港IPO线索。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池、ZOE沙特BESS工厂、Metso先进碳酸锂工艺等。"
+      },
+      {
         "id": "material-20260527-0000-smm-flat-aidc-bess",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；00:00复核较23:00未变；新增AIDC储能、7GWh储能大单和海外BESS/电池制造证据",
@@ -41775,6 +41900,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260527-0100-public-new",
+        "title": "01:00新增国内+海外储能/电池线索",
+        "value": "37",
+        "unit": "条",
+        "caption": "较00:00公开RSS新增或上移欣旺达16.8亿元融资、Frontier Power USA美国储能项目组合、20MW/120MWh钒液流招标、211MW意大利BESS融资、250MW安大略电池、Meta/Enbridge 12亿美元项目等。",
+        "delta": "较00:00 RSS新增或上移",
+        "direction": "up",
+        "source": "Google News中文RSS / Google News海外RSS / SMM上海有色",
+        "as_of": "2026-05-27 01:00 CST",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 d0a5e89ddaa75abec9f2e952e6c40e4ac96b08c80415df99c659119d15085607，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA bcf8d3b57335e4bacbedda327aeff4115580a34d2ebf93062a5c7d29d4964902。 海外入口：Energy-Storage.News e82f8abfc5092f885786be40eabfcdddec45f0b4188337301b97e04ccc32bbfa，ESS News 584fa90cc75193bc61ffe7fb82fc9b31581be6a3cb6dc52fc577e09a1da96219，pv magazine cfa21baf6015013d05ed386bba1bc2679789736660fef9b591cd378334befe04，SolarQuarter 593d1958ebc757d0716d553c39ee18c1a2811b9f005db4eef1e3ff15e9f74562，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均HTTP 200。 01:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS新增/上移欣旺达动力获16.8亿元新一轮股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、锂电扩产潮和动力电池回收/金晟新能源赴港IPO线索。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池、ZOE沙特BESS工厂、Metso先进碳酸锂工艺等。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260527-0000-public-new",
         "title": "00:00新增国内+海外储能/电池线索",
@@ -55601,6 +55739,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260527-0100-frontier-meta-vrfb",
+        "source": "Google News海外RSS / Mercom / CarbonCredits / Saur Energy / Renewables Now",
+        "category": "海外观察/BESS项目/长时储能/数据中心电力",
+        "title": "海外新增/上移美国储能项目组合、钒液流招标与Meta/Enbridge 12亿美元项目",
+        "summary": "01:00海外公开源新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池、ZOE沙特BESS工厂和Metso先进碳酸锂工艺。",
+        "value": "120",
+        "unit": "MWh钒液流招标",
+        "delta": "海外BESS项目、长时储能招标、数据中心电力项目新增/上移",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 01:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 d0a5e89ddaa75abec9f2e952e6c40e4ac96b08c80415df99c659119d15085607，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA bcf8d3b57335e4bacbedda327aeff4115580a34d2ebf93062a5c7d29d4964902。 海外入口：Energy-Storage.News e82f8abfc5092f885786be40eabfcdddec45f0b4188337301b97e04ccc32bbfa，ESS News 584fa90cc75193bc61ffe7fb82fc9b31581be6a3cb6dc52fc577e09a1da96219，pv magazine cfa21baf6015013d05ed386bba1bc2679789736660fef9b591cd378334befe04，SolarQuarter 593d1958ebc757d0716d553c39ee18c1a2811b9f005db4eef1e3ff15e9f74562，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均HTTP 200。 01:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS新增/上移欣旺达动力获16.8亿元新一轮股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、锂电扩产潮和动力电池回收/金晟新能源赴港IPO线索。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池、ZOE沙特BESS工厂、Metso先进碳酸锂工艺等。"
+      },
+      {
         "id": "overseas-20260527-0000-brazil-desri-calb-ai",
         "source": "Google News海外RSS / SolarBuilder / Energia Estratégica / Solar Power World / electrive / TradingKey",
         "category": "海外观察/BESS项目/电池制造/数据中心电力",
@@ -62122,6 +62275,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260527-0100-sunwoda-vrfb-bess",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
+        "category": "储能融资/长时储能/材料行情",
+        "title": "欣旺达16.8亿元融资与20MW/120MWh钒液流招标进入新增线索",
+        "summary": "01:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较00:00页面未变；中文RSS新增/上移欣旺达动力获16.8亿元股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、动力电池回收和金晟新能源赴港IPO。海外新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池、ZOE沙特BESS工厂、Metso碳酸锂工艺。",
+        "value": "16.8",
+        "unit": "亿元",
+        "delta": "国内融资和海外长时储能/BESS交易线索新增；SMM材料报价较00:00未变",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 01:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 d0a5e89ddaa75abec9f2e952e6c40e4ac96b08c80415df99c659119d15085607，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA bcf8d3b57335e4bacbedda327aeff4115580a34d2ebf93062a5c7d29d4964902。 海外入口：Energy-Storage.News e82f8abfc5092f885786be40eabfcdddec45f0b4188337301b97e04ccc32bbfa，ESS News 584fa90cc75193bc61ffe7fb82fc9b31581be6a3cb6dc52fc577e09a1da96219，pv magazine cfa21baf6015013d05ed386bba1bc2679789736660fef9b591cd378334befe04，SolarQuarter 593d1958ebc757d0716d553c39ee18c1a2811b9f005db4eef1e3ff15e9f74562，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均HTTP 200。 01:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS新增/上移欣旺达动力获16.8亿元新一轮股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、锂电扩产潮和动力电池回收/金晟新能源赴港IPO线索。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池、ZOE沙特BESS工厂、Metso先进碳酸锂工艺等。"
+      },
       {
         "id": "market-20260527-0000-bess-ai-grid",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
@@ -76852,6 +77020,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260527-0100-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-27 01:00 CST",
+        "status": 200,
+        "sha256": "4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea",
+        "finding": "首页已按小时重读；本轮写入欣旺达融资、Frontier Power USA、钒液流招标、Hithium 8小时储能等。"
+      },
+      {
+        "id": "source-20260527-0100-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-27 01:00 CST",
+        "status": 200,
+        "sha256": "52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010",
+        "finding": "/markettrend/已按小时重读；本轮补充融资、BESS项目、长时储能与材料行情舆情。"
+      },
+      {
+        "id": "source-20260527-0100-smm",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 01:00 CST",
+        "status": 200,
+        "sha256": "d0a5e89ddaa75abec9f2e952e6c40e4ac96b08c80415df99c659119d15085607",
+        "finding": "01:00复核：电池级碳酸锂180000、SMM电池级碳酸锂指数179532、磷酸铁锂61770、电解液29350元/吨；较00:00页面未变。"
+      },
+      {
+        "id": "source-20260527-0100-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-27 01:00 CST",
+        "status": 200,
+        "sha256": "a422911419e656491ff06faf6377c534556cd5d19801396ec22f56ec8267d517",
+        "finding": "新增/上移欣旺达动力16.8亿元融资、全球户用储能白皮书、算力-电力-储能ETF、碳酸锂跌超4%、天赐材料16万吨磷酸铁锂和金晟新能源IPO。"
+      },
+      {
+        "id": "source-20260527-0100-google-global-bess",
+        "source": "Google News海外BESS RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 01:00 CST",
+        "status": 200,
+        "sha256": "97474a1ef85f1bc023d67a40abbb9c2dcc8cf5c203b30699900a9388f83f3b9d",
+        "finding": "新增/上移Frontier Power USA美国储能项目组合、巴西首次电池拍卖、ZOE沙特BESS工厂、Qualitas意大利211MW BESS融资、Ameresco安大略250MW电池。"
+      },
+      {
+        "id": "source-20260527-0100-google-global-policy",
+        "source": "Google News海外政策/电网RSS",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 01:00 CST",
+        "status": 200,
+        "sha256": "db4cc4638fe210201bac7c505863a5ffb6dbdabed351c9bf7661db8627bcbd7b",
+        "finding": "新增/上移Meta/Enbridge 12亿美元Solar Megaproject、GUVNL 20MW/120MWh钒液流电池招标、Hithium 8小时长时储能系统。"
+      },
+      {
+        "id": "source-20260527-0100-google-sodium",
+        "source": "Google News电池材料RSS",
+        "url": "https://news.google.com/rss/search?q=sodium-ion%20battery%20OR%20solid-state%20battery%20OR%20lithium%20carbonate%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 01:00 CST",
+        "status": 200,
+        "sha256": "908428872a3f649f454662d5d7250be1c55a7f90df028870b995bb7ca1bba156",
+        "finding": "新增/上移Lithium Miners News月度材料线索和Metso先进碳酸锂工艺。"
+      },
+      {
         "id": "source-20260527-0000-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -86247,5 +86478,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-27T00:00:00+08:00"
+  "checked_at": "2026-05-27T01:00:00+08:00"
 };
