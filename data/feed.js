@@ -1,8 +1,85 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T11:00:00+08:00",
-  "note": "11:00严格刷新新增采信：国内新增万华化学2026年末磷酸铁锂产能82万吨/年、恩捷股份马来西亚20亿元隔膜项目终止、新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大智能电池热失控预警、CNESA储能多元收益分析。海外新增Gujarat 120MWh钒液流电池试点招标、Hitachi/Akaysha澳洲298MWh电池储能20年LTSA、西澳Kalgoorlie钒电池EOI。SMM电池级碳酸锂跌至180000元/吨，电碳指数179532元/吨，磷酸铁锂/电解液持平。",
+  "generated_at": "2026-05-26T12:00:00+08:00",
+  "note": "12:00严格刷新新增采信：SMM磷酸铁锂升至62560元/吨、电解液升至29350元/吨，电池级碳酸锂维持180000元/吨；新增阳光电源7.5GWh储能大单、宁东绿电园区电源侧储能并网、新疆哈密100MW氢储能EPC招标、英山储能设备吊装。海外新增Adani Green Khavda累计3.37GWh单址BESS投运、Fortescue Cloudbreak 650MWh、Hithium 8小时长时储能澳洲首发和ZOE沙特18GWh BESS工厂合资。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-1200-smm-lfp-electrolyte-adani-bess",
+        "source": "SMM上海有色 / Google News RSS / 中国能源网 / Energy-Storage.News",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / Google News / 中国能源网 / Energy-Storage.News",
+        "category": "磷酸铁锂/电解液/储能项目/海外BESS",
+        "title": "12:00刷新：磷酸铁锂、电解液上调；Adani单址3.37GWh BESS与阳光7.5GWh订单新增",
+        "summary": "12:00严格刷新新增采信：SMM磷酸铁锂升至62560元/吨、电解液升至29350元/吨，电池级碳酸锂维持180000元/吨；新增阳光电源7.5GWh储能大单、宁东绿电园区电源侧储能并网、新疆哈密100MW氢储能EPC招标、英山储能设备吊装。海外新增Adani Green Khavda累计3.37GWh单址BESS投运、Fortescue Cloudbreak 650MWh、Hithium 8小时长时储能澳洲首发和ZOE沙特18GWh BESS工厂合资。",
+        "body": [
+          "行情：SMM 12:00公开页显示电池级碳酸锂180000元/吨、电碳指数179532元/吨与11:00持平；磷酸铁锂62560元/吨，较公开页口径上涨1275；电解液29350元/吨，上涨400。",
+          "国内项目/订单：SMM新增“采用684Ah叠片电芯！阳光电源再获7.5GWh储能大单”；中文RSS新增宁东现代煤化工产业绿电园区电源侧储能成功并网、英山储能项目首批设备顺利吊装。",
+          "国内招标：Google News中文RSS新增“氢燃料电池额定出力100MW！新疆哈密氢储能调峰电站EPC总承包招标”。",
+          "国内电力：SMM/中国能源网新增澳大利亚新南威尔士州储能系统捕获11.9%电力消耗、德国一季度新增2GWh储能、青海绿电交易累计突破200亿千瓦时等线索。",
+          "海外BESS：Google News海外RSS新增Adani Green Energy在Khavda投运/累计3.37GWh单址电池储能系统，以及Fortescue Cloudbreak 650MWh battery storage。",
+          "海外长时/制造：海外RSS新增Hithium在澳洲首发8小时长时储能系统、ZOE Energy Storage沙特18GWh BESS工厂合资，继续强化海外储能制造与长时储能线索。"
+        ],
+        "key_points": [
+          "SMM磷酸铁锂62560元/吨、电解液29350元/吨较11:00页面发生上调，是本轮最明确行情变化。",
+          "电池级碳酸锂180000元/吨、电碳指数179532元/吨未再变动，说明本轮不是单纯改时间。",
+          "阳光电源7.5GWh储能大单新增，补充国内储能订单侧景气证据。",
+          "宁东电源侧储能并网、新疆哈密100MW氢储能EPC招标、英山设备吊装补充国内项目进展。",
+          "Adani Khavda 3.37GWh、Fortescue 650MWh、ZOE沙特18GWh工厂均为海外储能扩张信号。",
+          "Hithium 8小时长时储能澳洲首发，补充长时储能技术路线证据。"
+        ],
+        "value": "62560",
+        "unit": "元/吨磷酸铁锂",
+        "delta": "SMM公开页磷酸铁锂+1275、电解液+400；新增阳光7.5GWh订单、Adani 3.37GWh、Fortescue 650MWh",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 12:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.google.com/",
+          "https://www.energy-storage.news/",
+          "https://www.cnenergynews.cn/"
+        ],
+        "clean_html": "<p>12:00新增/复核：SMM磷酸铁锂62560元/吨（+1275）、电解液29350元/吨（+400），电池级碳酸锂180000元/吨和电碳指数179532元/吨持平；新增阳光电源7.5GWh订单、Adani Khavda 3.37GWh单址BESS、Fortescue 650MWh和新疆哈密100MW氢储能EPC招标。</p>",
+        "caption": "正极/电解液价格上调，国内储能项目与海外GWh级BESS继续新增。",
+        "methodology": "12:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 29d3c533ad1bbaaa1ad57e0ebb11f29a6bfa9083055fa585e9c47c37b9845236，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA f9a80abb90d6a98eaeeca200a23fbe30d9b040296be6ca2e27837fcc993135d6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 3f5ae333d192e145b4523245a7e7449bd52c7edbba5d20d6582b1886e9da5062，pv magazine 4ede9ad5e7f8d32de8d3d6036e78d587f8d616f4d79e2d107813ac9c33a1d786，SolarQuarter 45cd0b08bb4bb22bf142aab28e6e8fa69fd92c68d082c3700211fafb6075e656，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 12:00新增/变化：SMM公开行情维持电池级碳酸锂180000元/吨、电碳指数179532元/吨；但磷酸铁锂升至62560元/吨（+1275），电解液升至29350元/吨（+400）。SMM新增阳光电源再获7.5GWh储能大单、宁夏200MW光伏复合项目被清理废止，以及澳大利亚新南威尔士州储能系统捕获11.9%电力消耗、德国一季度新增2GWh储能、美国太阳能和储能投资成为基础设施新选择等快讯。中文RSS新增宁东现代煤化工产业绿电园区电源侧储能并网、新疆哈密100MW氢储能调峰电站EPC招标、英山储能项目首批设备吊装。海外RSS新增Adani Green在Khavda投运累计3.37GWh单址BESS、Fortescue Cloudbreak 650MWh电池储能、Hithium 8小时长时储能澳洲首发、ZOE Energy Storage沙特18GWh BESS工厂合资。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 179532
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 29350
+          },
+          {
+            "label": "阳光储能订单 GWh",
+            "value": 7.5
+          },
+          {
+            "label": "Adani单址BESS GWh",
+            "value": 3.37
+          },
+          {
+            "label": "Fortescue BESS MWh",
+            "value": 650
+          },
+          {
+            "label": "ZOE沙特工厂 GWh",
+            "value": 18
+          }
+        ]
+      },
       {
         "id": "headline-20260526-1100-smm-lithium-gujarat-vanadium",
         "source": "SMM上海有色 / 北极星储能网 / CNESA / Google News RSS / Energy-Storage.News",
@@ -14995,6 +15072,45 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-1200-lfp-electrolyte-global-bess",
+        "source": "SMM上海有色 / Google News RSS / 中国能源网 / Energy-Storage.News",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / Google News / 中国能源网 / Energy-Storage.News",
+        "category": "磷酸铁锂/电解液/储能项目/海外BESS",
+        "title": "12:00刷新：磷酸铁锂、电解液上调；Adani单址3.37GWh BESS与阳光7.5GWh订单新增",
+        "summary": "12:00严格刷新新增采信：SMM磷酸铁锂升至62560元/吨、电解液升至29350元/吨，电池级碳酸锂维持180000元/吨；新增阳光电源7.5GWh储能大单、宁东绿电园区电源侧储能并网、新疆哈密100MW氢储能EPC招标、英山储能设备吊装。海外新增Adani Green Khavda累计3.37GWh单址BESS投运、Fortescue Cloudbreak 650MWh、Hithium 8小时长时储能澳洲首发和ZOE沙特18GWh BESS工厂合资。",
+        "body": [
+          "行情：SMM 12:00公开页显示电池级碳酸锂180000元/吨、电碳指数179532元/吨与11:00持平；磷酸铁锂62560元/吨，较公开页口径上涨1275；电解液29350元/吨，上涨400。",
+          "国内项目/订单：SMM新增“采用684Ah叠片电芯！阳光电源再获7.5GWh储能大单”；中文RSS新增宁东现代煤化工产业绿电园区电源侧储能成功并网、英山储能项目首批设备顺利吊装。",
+          "国内招标：Google News中文RSS新增“氢燃料电池额定出力100MW！新疆哈密氢储能调峰电站EPC总承包招标”。",
+          "国内电力：SMM/中国能源网新增澳大利亚新南威尔士州储能系统捕获11.9%电力消耗、德国一季度新增2GWh储能、青海绿电交易累计突破200亿千瓦时等线索。",
+          "海外BESS：Google News海外RSS新增Adani Green Energy在Khavda投运/累计3.37GWh单址电池储能系统，以及Fortescue Cloudbreak 650MWh battery storage。",
+          "海外长时/制造：海外RSS新增Hithium在澳洲首发8小时长时储能系统、ZOE Energy Storage沙特18GWh BESS工厂合资，继续强化海外储能制造与长时储能线索。"
+        ],
+        "key_points": [
+          "SMM磷酸铁锂62560元/吨、电解液29350元/吨较11:00页面发生上调，是本轮最明确行情变化。",
+          "电池级碳酸锂180000元/吨、电碳指数179532元/吨未再变动，说明本轮不是单纯改时间。",
+          "阳光电源7.5GWh储能大单新增，补充国内储能订单侧景气证据。",
+          "宁东电源侧储能并网、新疆哈密100MW氢储能EPC招标、英山设备吊装补充国内项目进展。",
+          "Adani Khavda 3.37GWh、Fortescue 650MWh、ZOE沙特18GWh工厂均为海外储能扩张信号。",
+          "Hithium 8小时长时储能澳洲首发，补充长时储能技术路线证据。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 12:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.google.com/",
+          "https://www.energy-storage.news/",
+          "https://www.cnenergynews.cn/"
+        ],
+        "clean_html": "<p>12:00新增/复核：SMM磷酸铁锂62560元/吨（+1275）、电解液29350元/吨（+400），电池级碳酸锂180000元/吨和电碳指数179532元/吨持平；新增阳光电源7.5GWh订单、Adani Khavda 3.37GWh单址BESS、Fortescue 650MWh和新疆哈密100MW氢储能EPC招标。</p>",
+        "caption": "正极/电解液价格上调，国内储能项目与海外GWh级BESS继续新增。",
+        "methodology": "12:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 29d3c533ad1bbaaa1ad57e0ebb11f29a6bfa9083055fa585e9c47c37b9845236，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA f9a80abb90d6a98eaeeca200a23fbe30d9b040296be6ca2e27837fcc993135d6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 3f5ae333d192e145b4523245a7e7449bd52c7edbba5d20d6582b1886e9da5062，pv magazine 4ede9ad5e7f8d32de8d3d6036e78d587f8d616f4d79e2d107813ac9c33a1d786，SolarQuarter 45cd0b08bb4bb22bf142aab28e6e8fa69fd92c68d082c3700211fafb6075e656，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 12:00新增/变化：SMM公开行情维持电池级碳酸锂180000元/吨、电碳指数179532元/吨；但磷酸铁锂升至62560元/吨（+1275），电解液升至29350元/吨（+400）。SMM新增阳光电源再获7.5GWh储能大单、宁夏200MW光伏复合项目被清理废止，以及澳大利亚新南威尔士州储能系统捕获11.9%电力消耗、德国一季度新增2GWh储能、美国太阳能和储能投资成为基础设施新选择等快讯。中文RSS新增宁东现代煤化工产业绿电园区电源侧储能并网、新疆哈密100MW氢储能调峰电站EPC招标、英山储能项目首批设备吊装。海外RSS新增Adani Green在Khavda投运累计3.37GWh单址BESS、Fortescue Cloudbreak 650MWh电池储能、Hithium 8小时长时储能澳洲首发、ZOE Energy Storage沙特18GWh BESS工厂合资。"
+      },
       {
         "id": "latest-20260526-1100-lithium-vanadium-bess",
         "source": "SMM上海有色 / 北极星储能网 / CNESA / Google News RSS / Energy-Storage.News",
@@ -37074,6 +37190,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-1200-smm-lfp-electrolyte-up",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；12:00复核，磷酸铁锂与电解液较11:00页面上调",
+        "value": "180000 / 179532 / 62560 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较11:00页面：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂+1275；电解液+400",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 12:00 CST",
+        "methodology": "12:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 29d3c533ad1bbaaa1ad57e0ebb11f29a6bfa9083055fa585e9c47c37b9845236，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA f9a80abb90d6a98eaeeca200a23fbe30d9b040296be6ca2e27837fcc993135d6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 3f5ae333d192e145b4523245a7e7449bd52c7edbba5d20d6582b1886e9da5062，pv magazine 4ede9ad5e7f8d32de8d3d6036e78d587f8d616f4d79e2d107813ac9c33a1d786，SolarQuarter 45cd0b08bb4bb22bf142aab28e6e8fa69fd92c68d082c3700211fafb6075e656，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 12:00新增/变化：SMM公开行情维持电池级碳酸锂180000元/吨、电碳指数179532元/吨；但磷酸铁锂升至62560元/吨（+1275），电解液升至29350元/吨（+400）。SMM新增阳光电源再获7.5GWh储能大单、宁夏200MW光伏复合项目被清理废止，以及澳大利亚新南威尔士州储能系统捕获11.9%电力消耗、德国一季度新增2GWh储能、美国太阳能和储能投资成为基础设施新选择等快讯。中文RSS新增宁东现代煤化工产业绿电园区电源侧储能并网、新疆哈密100MW氢储能调峰电站EPC招标、英山储能项目首批设备吊装。海外RSS新增Adani Green在Khavda投运累计3.37GWh单址BESS、Fortescue Cloudbreak 650MWh电池储能、Hithium 8小时长时储能澳洲首发、ZOE Energy Storage沙特18GWh BESS工厂合资。"
+      },
+      {
         "id": "material-20260526-1100-smm-lithium-down",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；11:00复核，碳酸锂与指数较10:00下跌",
@@ -40767,6 +40896,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-1200-public-new",
+        "title": "12:00新增国内+海外储能/电池线索",
+        "value": "57",
+        "unit": "条",
+        "caption": "SMM、中国能源网、工信部、Google News中文/海外RSS新增或上移阳光7.5GWh、宁东并网、新疆哈密100MW氢储能EPC、Adani 3.37GWh、Fortescue 650MWh等线索。",
+        "delta": "较11:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "SMM / 中国能源网 / Google News RSS",
+        "as_of": "2026-05-26 12:00 CST",
+        "methodology": "12:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 29d3c533ad1bbaaa1ad57e0ebb11f29a6bfa9083055fa585e9c47c37b9845236，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA f9a80abb90d6a98eaeeca200a23fbe30d9b040296be6ca2e27837fcc993135d6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 3f5ae333d192e145b4523245a7e7449bd52c7edbba5d20d6582b1886e9da5062，pv magazine 4ede9ad5e7f8d32de8d3d6036e78d587f8d616f4d79e2d107813ac9c33a1d786，SolarQuarter 45cd0b08bb4bb22bf142aab28e6e8fa69fd92c68d082c3700211fafb6075e656，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 12:00新增/变化：SMM公开行情维持电池级碳酸锂180000元/吨、电碳指数179532元/吨；但磷酸铁锂升至62560元/吨（+1275），电解液升至29350元/吨（+400）。SMM新增阳光电源再获7.5GWh储能大单、宁夏200MW光伏复合项目被清理废止，以及澳大利亚新南威尔士州储能系统捕获11.9%电力消耗、德国一季度新增2GWh储能、美国太阳能和储能投资成为基础设施新选择等快讯。中文RSS新增宁东现代煤化工产业绿电园区电源侧储能并网、新疆哈密100MW氢储能调峰电站EPC招标、英山储能项目首批设备吊装。海外RSS新增Adani Green在Khavda投运累计3.37GWh单址BESS、Fortescue Cloudbreak 650MWh电池储能、Hithium 8小时长时储能澳洲首发、ZOE Energy Storage沙特18GWh BESS工厂合资。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-1100-public-new",
         "title": "11:00新增国内+海外储能/电池线索",
@@ -54489,6 +54631,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-1200-adani-fortescue-zoe-hithium",
+        "source": "Google News RSS / Energy-Storage.News",
+        "category": "海外观察/BESS/长时储能/制造",
+        "title": "海外新增Adani Khavda 3.37GWh单址BESS、Fortescue 650MWh与ZOE沙特18GWh工厂",
+        "summary": "12:00海外公开源新增Adani Green Energy在Khavda投运/累计3.37GWh单址BESS、Fortescue Cloudbreak 650MWh电池储能、Hithium 8小时长时储能系统澳洲首发，以及ZOE Energy Storage在沙特成立18GWh BESS工厂合资。",
+        "value": "3.37",
+        "unit": "GWh单址BESS",
+        "delta": "海外GWh级储能系统、长时储能和制造基地线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 12:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "12:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 29d3c533ad1bbaaa1ad57e0ebb11f29a6bfa9083055fa585e9c47c37b9845236，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA f9a80abb90d6a98eaeeca200a23fbe30d9b040296be6ca2e27837fcc993135d6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 3f5ae333d192e145b4523245a7e7449bd52c7edbba5d20d6582b1886e9da5062，pv magazine 4ede9ad5e7f8d32de8d3d6036e78d587f8d616f4d79e2d107813ac9c33a1d786，SolarQuarter 45cd0b08bb4bb22bf142aab28e6e8fa69fd92c68d082c3700211fafb6075e656，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 12:00新增/变化：SMM公开行情维持电池级碳酸锂180000元/吨、电碳指数179532元/吨；但磷酸铁锂升至62560元/吨（+1275），电解液升至29350元/吨（+400）。SMM新增阳光电源再获7.5GWh储能大单、宁夏200MW光伏复合项目被清理废止，以及澳大利亚新南威尔士州储能系统捕获11.9%电力消耗、德国一季度新增2GWh储能、美国太阳能和储能投资成为基础设施新选择等快讯。中文RSS新增宁东现代煤化工产业绿电园区电源侧储能并网、新疆哈密100MW氢储能调峰电站EPC招标、英山储能项目首批设备吊装。海外RSS新增Adani Green在Khavda投运累计3.37GWh单址BESS、Fortescue Cloudbreak 650MWh电池储能、Hithium 8小时长时储能澳洲首发、ZOE Energy Storage沙特18GWh BESS工厂合资。"
+      },
+      {
         "id": "overseas-20260526-1100-gujarat-akaysha-vanadium",
         "source": "Google News RSS / Energy-Storage.News",
         "category": "海外观察/液流电池/BESS长期服务",
@@ -60890,6 +61047,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-1200-lfp-electrolyte-bess",
+        "source": "SMM上海有色 / Google News RSS / 中国能源网 / Energy-Storage.News",
+        "category": "磷酸铁锂/电解液/储能项目",
+        "title": "磷酸铁锂62560、电解液29350；阳光7.5GWh与Adani 3.37GWh BESS新增",
+        "summary": "12:00严格刷新新增采信：SMM磷酸铁锂升至62560元/吨、电解液升至29350元/吨，电池级碳酸锂维持180000元/吨；新增阳光电源7.5GWh储能大单、宁东绿电园区电源侧储能并网、新疆哈密100MW氢储能EPC招标、英山储能设备吊装。海外新增Adani Green Khavda累计3.37GWh单址BESS投运、Fortescue Cloudbreak 650MWh、Hithium 8小时长时储能澳洲首发和ZOE沙特18GWh BESS工厂合资。",
+        "value": "62560",
+        "unit": "元/吨磷酸铁锂",
+        "delta": "磷酸铁锂+1275、电解液+400；新增国内订单/项目与海外GWh级BESS线索",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 12:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "12:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 29d3c533ad1bbaaa1ad57e0ebb11f29a6bfa9083055fa585e9c47c37b9845236，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA f9a80abb90d6a98eaeeca200a23fbe30d9b040296be6ca2e27837fcc993135d6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 3f5ae333d192e145b4523245a7e7449bd52c7edbba5d20d6582b1886e9da5062，pv magazine 4ede9ad5e7f8d32de8d3d6036e78d587f8d616f4d79e2d107813ac9c33a1d786，SolarQuarter 45cd0b08bb4bb22bf142aab28e6e8fa69fd92c68d082c3700211fafb6075e656，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 12:00新增/变化：SMM公开行情维持电池级碳酸锂180000元/吨、电碳指数179532元/吨；但磷酸铁锂升至62560元/吨（+1275），电解液升至29350元/吨（+400）。SMM新增阳光电源再获7.5GWh储能大单、宁夏200MW光伏复合项目被清理废止，以及澳大利亚新南威尔士州储能系统捕获11.9%电力消耗、德国一季度新增2GWh储能、美国太阳能和储能投资成为基础设施新选择等快讯。中文RSS新增宁东现代煤化工产业绿电园区电源侧储能并网、新疆哈密100MW氢储能调峰电站EPC招标、英山储能项目首批设备吊装。海外RSS新增Adani Green在Khavda投运累计3.37GWh单址BESS、Fortescue Cloudbreak 650MWh电池储能、Hithium 8小时长时储能澳洲首发、ZOE Energy Storage沙特18GWh BESS工厂合资。"
+      },
       {
         "id": "market-20260526-1100-smm-lithium-down",
         "source": "SMM上海有色 / 北极星储能网 / CNESA / Google News RSS / Energy-Storage.News",
@@ -75500,6 +75672,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-1200-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 12:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入磷酸铁锂/电解液上调、阳光7.5GWh、Adani 3.37GWh和新疆哈密氢储能EPC。"
+      },
+      {
+        "id": "source-20260526-1200-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 12:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充正极/电解液行情、国内项目并网/招标和海外GWh级BESS证据。"
+      },
+      {
+        "id": "source-20260526-1200-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 12:00 CST",
+        "status": 200,
+        "sha256": "29d3c533ad1bbaaa1ad57e0ebb11f29a6bfa9083055fa585e9c47c37b9845236",
+        "finding": "12:00复核：电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨；磷酸铁锂62560元/吨（+1275）、电解液29350元/吨（+400）；新增阳光电源7.5GWh储能大单、海外储能快讯。"
+      },
+      {
+        "id": "source-20260526-1200-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 12:00 CST",
+        "status": 200,
+        "sha256": "829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d",
+        "finding": "电池级碳酸锂180000元/吨，SMM电池级碳酸锂指数179532元/吨；较11:00无新增下调。"
+      },
+      {
+        "id": "source-20260526-1200-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 12:00 CST",
+        "status": 200,
+        "sha256": "1d39ff187b8834df811197f16ed9e0eca1bc876db3832a5c1adaf3ef2f0b0c01",
+        "finding": "新增/上移宁东现代煤化工产业绿电园区电源侧储能并网、新疆哈密100MW氢储能调峰电站EPC招标、英山储能项目首批设备吊装。"
+      },
+      {
+        "id": "source-20260526-1200-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 12:00 CST",
+        "status": 200,
+        "sha256": "a38629e85eee7c8365f2f800440fe2e39202cd4ee0efcf2d125b9f10d5d605cc",
+        "finding": "新增/上移Adani Green Khavda累计3.37GWh单址BESS、Fortescue Cloudbreak 650MWh、Hithium 8小时长时储能、ZOE沙特18GWh工厂。"
+      },
+      {
+        "id": "source-20260526-1200-cnenergy",
+        "source": "中国能源网",
+        "url": "https://www.cnenergynews.cn/",
+        "as_of": "2026-05-26 12:00 CST",
+        "status": 200,
+        "sha256": "1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115",
+        "finding": "新增青海绿电交易累计突破200亿千瓦时等电力交易线索。"
+      },
+      {
         "id": "source-20260526-1100-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -84301,5 +84536,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T11:00:00+08:00"
+  "checked_at": "2026-05-26T12:00:00+08:00"
 };
