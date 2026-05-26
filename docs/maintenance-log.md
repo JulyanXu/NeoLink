@@ -750,3 +750,8 @@
 - Live readback/TLS: runner DNS failed (`curl` error 6), so online entry and HTTPS/TLS status cannot be verified in this run.
 - Public-source verification: skipped due to DNS failure (cannot fetch/verify public sources in this environment).
 - Artifacts: wrote `var/hermes/search-notes-20260519-1454.json` and prepended a no-change record to `var/hermes/state/crawl_runs.json`.
+
+## 2026-05-26 12:03 +0800 — no-change check
+- Feed/content: kept `data/feed.js generated_at=2026-05-26T11:00:00+08:00` and cache params remain `feed.js?v=202605261100` (no bump; no fake freshness).
+- Public-source verification (web.run spot-check): SMM报价页仍显示电池级碳酸锂`180000元/吨`、SMM电碳指数`179532元/吨`（页面显示“最后报价时间 10:28”）；Energy-Storage.News/CNESA/BJX未发现需覆盖首页各分类的高可信新增要点（相对11:00版本）。
+- Live readback/TLS: runner DNS cannot resolve `www.neolink.asia` (`curl` error 6), so online readback + HTTPS/TLS status not verified in this run.
