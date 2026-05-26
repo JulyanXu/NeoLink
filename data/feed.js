@@ -1,8 +1,77 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T10:00:00+08:00",
-  "note": "10:00严格刷新新增采信：国内新增宁德时代1.5GWh海外储能订单、比亚迪甘肃5GWh储能采购、沙特18GWh储能智造基地、内蒙古75亿元30GWh电芯产线、宁夏200MW/400MWh储能系统入围、山东/安徽光储政策信号。海外新增Fortescue西澳650MWh Cloudbreak储能开工、Swanbank BESS月收入AU$743,000、澳大利亚CIS Tender 7超过5GW目标、海辰8小时长时储能澳洲首发。SMM四项行情较09:00持平。",
+  "generated_at": "2026-05-26T11:00:00+08:00",
+  "note": "11:00严格刷新新增采信：国内新增万华化学2026年末磷酸铁锂产能82万吨/年、恩捷股份马来西亚20亿元隔膜项目终止、新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大智能电池热失控预警、CNESA储能多元收益分析。海外新增Gujarat 120MWh钒液流电池试点招标、Hitachi/Akaysha澳洲298MWh电池储能20年LTSA、西澳Kalgoorlie钒电池EOI。SMM电池级碳酸锂跌至180000元/吨，电碳指数179532元/吨，磷酸铁锂/电解液持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-1100-smm-lithium-gujarat-vanadium",
+        "source": "SMM上海有色 / 北极星储能网 / CNESA / Google News RSS / Energy-Storage.News",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / 北极星储能 / CNESA / Google News / Energy-Storage.News",
+        "category": "碳酸锂行情/储能收益/钒液流电池/BESS合同",
+        "title": "11:00刷新：碳酸锂跌至18万元，Gujarat 120MWh钒液流与Akaysha 298MWh LTSA新增",
+        "summary": "11:00严格刷新新增采信：国内新增万华化学2026年末磷酸铁锂产能82万吨/年、恩捷股份马来西亚20亿元隔膜项目终止、新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大智能电池热失控预警、CNESA储能多元收益分析。海外新增Gujarat 120MWh钒液流电池试点招标、Hitachi/Akaysha澳洲298MWh电池储能20年LTSA、西澳Kalgoorlie钒电池EOI。SMM电池级碳酸锂跌至180000元/吨，电碳指数179532元/吨，磷酸铁锂/电解液持平。",
+        "body": [
+          "行情：SMM 11:00公开页显示电池级碳酸锂180000元/吨，较10:00下跌3250元/吨；SMM电碳指数179532元/吨，较10:00下跌4294元/吨；磷酸铁锂62560元/吨、电解液28950元/吨持平。",
+          "国内材料链：北极星新增万华化学2026年末新增磷酸铁锂产能达82万吨/年；恩捷股份马来西亚20亿元锂电池隔离膜项目终止，提示隔膜出海扩产节奏变化。",
+          "国内政策/项目：Google News中文RSS新增新疆新型储能容量电价165元/千瓦·年、易事特Meta Pro液冷储能赋能浙江平阳新能源充电站储充项目投运、中国科大本征自感知智能电池热失控早期预警。",
+          "储能收益：CNESA新增“容量市场、现货套利、辅助服务——储能如何从电力市场中实现多元收益？”文章，补充国内收益机制讨论。",
+          "海外BESS：Energy-Storage.News新增Gujarat Industries Power 120MWh vanadium flow battery pilot project招标，以及Hitachi与Akaysha Energy为澳洲298MWh电池储能签20年长期服务协议。",
+          "海外扩展：Google News海外RSS新增Western Australian Government Kalgoorlie Vanadium Battery EOI Stage Two开放、Adani Green Energy单址电池储能系统投运、BloombergNEF上调BESS预测。"
+        ],
+        "key_points": [
+          "SMM电池级碳酸锂由183250降至180000元/吨，电碳指数由183826降至179532元/吨，是本轮最明确行情变化。",
+          "万华化学磷酸铁锂年末产能82万吨/年新增上移，正极材料供给端继续放量。",
+          "新疆容量电价165元/千瓦·年为国内新型储能收益机制新增政策信号。",
+          "Gujarat 120MWh钒液流试点招标和西澳Kalgoorlie钒电池EOI强化长时储能/液流电池海外线索。",
+          "Hitachi/Akaysha 298MWh、20年LTSA补充澳大利亚BESS长期运维服务合同证据。",
+          "CNESA新增容量市场、现货套利、辅助服务收益分析，补充MarketTrend情绪正向证据。"
+        ],
+        "value": "180000",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "较10:00下跌3250元/吨；新增新疆容量电价、万华82万吨LFP、Gujarat 120MWh钒液流、Akaysha 298MWh LTSA",
+        "direction": "down",
+        "date": "05-26",
+        "as_of": "2026-05-26 11:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://chuneng.bjx.com.cn/",
+          "https://www.cnesa.org/",
+          "https://www.energy-storage.news/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>11:00新增/复核：SMM电池级碳酸锂180000元/吨，较10:00跌3250；电碳指数179532，跌4294；新增万华82万吨LFP、新疆储能容量电价165元/千瓦·年、Gujarat 120MWh钒液流试点和Akaysha 298MWh 20年LTSA。</p>",
+        "caption": "锂价下跌与国内储能收益机制、海外液流/澳洲BESS服务合同同步新增。",
+        "methodology": "11:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 ca649c84adb315dbf74997c8a69538f847fbf82c9fe870af406548aa442e1f10，SMM碳酸锂 a0019591d92d1e84017843576cd011b95002ff0ce5251af6ca637bcf591bc008，中国能源网 79d26bd1396deb7df81be9c42b8640e6db886332902595d644cda792aef0fd76，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 760acfaef825f789496bb7558f96a4578c2c811b17e31a2ae0dfb75b6e129e4d，CNESA 214f0b207af6252398e04634504932636d86a66faffb95cbb818c89ff2306b6f。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News ce54e19d028ee9982a6b345340a1025ca7304fa217dae9f3fb8ce08df0f85761，pv magazine 18253a3a239fb50288c719b95fdf4d5789db3962bd6dea71dc4ea993d4a704c8，SolarQuarter 6c5a807687e7d3adc23515d8e82e4b310d0185d90b25ef5b7213b2fe0dc43910，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 11:00新增/变化：北极星新增万华化学2026年末新增磷酸铁锂产能达82万吨/年、恩捷股份马来西亚20亿元锂电池隔离膜项目终止、贵州199个充电基础设施补助项目超8000万元；SMM公开行情显示电池级碳酸锂180000元/吨，较10:00的183250下跌3250元/吨，SMM电碳指数179532元/吨，较10:00下跌4294元/吨，磷酸铁锂62560元/吨、电解液28950元/吨持平，并新增中车时代电气沙戈荒光储并网方案、印度Sahaj Solar拟在阿联酋建750MW组件厂。CNESA新增储能容量市场、现货套利、辅助服务收益分析；中文RSS新增新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大本征自感知智能电池热失控早期预警。海外新增Energy-Storage.News：Gujarat Industries Power招标120MWh钒液流电池试点、Hitachi与Akaysha签署298MWh澳大利亚电池储能20年LTSA；Google News海外新增西澳Kalgoorlie Vanadium Battery EOI Stage Two开放、Adani Green Energy投运单址电池储能系统、BloombergNEF上调BESS预测。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 179532
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 28950
+          },
+          {
+            "label": "Gujarat钒液流 MWh",
+            "value": 120
+          },
+          {
+            "label": "Akaysha BESS MWh",
+            "value": 298
+          }
+        ]
+      },
       {
         "id": "headline-20260526-1000-fortescue-byd-catl-storage",
         "source": "北极星储能网 / SMM上海有色 / Google News RSS / Energy-Storage.News",
@@ -14926,6 +14995,45 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-1100-lithium-vanadium-bess",
+        "source": "SMM上海有色 / 北极星储能网 / CNESA / Google News RSS / Energy-Storage.News",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / 北极星储能 / CNESA / Google News / Energy-Storage.News",
+        "category": "碳酸锂行情/储能收益/钒液流电池/BESS合同",
+        "title": "11:00刷新：碳酸锂跌至18万元，Gujarat 120MWh钒液流与Akaysha 298MWh LTSA新增",
+        "summary": "11:00严格刷新新增采信：国内新增万华化学2026年末磷酸铁锂产能82万吨/年、恩捷股份马来西亚20亿元隔膜项目终止、新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大智能电池热失控预警、CNESA储能多元收益分析。海外新增Gujarat 120MWh钒液流电池试点招标、Hitachi/Akaysha澳洲298MWh电池储能20年LTSA、西澳Kalgoorlie钒电池EOI。SMM电池级碳酸锂跌至180000元/吨，电碳指数179532元/吨，磷酸铁锂/电解液持平。",
+        "body": [
+          "行情：SMM 11:00公开页显示电池级碳酸锂180000元/吨，较10:00下跌3250元/吨；SMM电碳指数179532元/吨，较10:00下跌4294元/吨；磷酸铁锂62560元/吨、电解液28950元/吨持平。",
+          "国内材料链：北极星新增万华化学2026年末新增磷酸铁锂产能达82万吨/年；恩捷股份马来西亚20亿元锂电池隔离膜项目终止，提示隔膜出海扩产节奏变化。",
+          "国内政策/项目：Google News中文RSS新增新疆新型储能容量电价165元/千瓦·年、易事特Meta Pro液冷储能赋能浙江平阳新能源充电站储充项目投运、中国科大本征自感知智能电池热失控早期预警。",
+          "储能收益：CNESA新增“容量市场、现货套利、辅助服务——储能如何从电力市场中实现多元收益？”文章，补充国内收益机制讨论。",
+          "海外BESS：Energy-Storage.News新增Gujarat Industries Power 120MWh vanadium flow battery pilot project招标，以及Hitachi与Akaysha Energy为澳洲298MWh电池储能签20年长期服务协议。",
+          "海外扩展：Google News海外RSS新增Western Australian Government Kalgoorlie Vanadium Battery EOI Stage Two开放、Adani Green Energy单址电池储能系统投运、BloombergNEF上调BESS预测。"
+        ],
+        "key_points": [
+          "SMM电池级碳酸锂由183250降至180000元/吨，电碳指数由183826降至179532元/吨，是本轮最明确行情变化。",
+          "万华化学磷酸铁锂年末产能82万吨/年新增上移，正极材料供给端继续放量。",
+          "新疆容量电价165元/千瓦·年为国内新型储能收益机制新增政策信号。",
+          "Gujarat 120MWh钒液流试点招标和西澳Kalgoorlie钒电池EOI强化长时储能/液流电池海外线索。",
+          "Hitachi/Akaysha 298MWh、20年LTSA补充澳大利亚BESS长期运维服务合同证据。",
+          "CNESA新增容量市场、现货套利、辅助服务收益分析，补充MarketTrend情绪正向证据。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 11:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://chuneng.bjx.com.cn/",
+          "https://www.cnesa.org/",
+          "https://www.energy-storage.news/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>11:00新增/复核：SMM电池级碳酸锂180000元/吨，较10:00跌3250；电碳指数179532，跌4294；新增万华82万吨LFP、新疆储能容量电价165元/千瓦·年、Gujarat 120MWh钒液流试点和Akaysha 298MWh 20年LTSA。</p>",
+        "caption": "锂价下跌与国内储能收益机制、海外液流/澳洲BESS服务合同同步新增。",
+        "methodology": "11:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 ca649c84adb315dbf74997c8a69538f847fbf82c9fe870af406548aa442e1f10，SMM碳酸锂 a0019591d92d1e84017843576cd011b95002ff0ce5251af6ca637bcf591bc008，中国能源网 79d26bd1396deb7df81be9c42b8640e6db886332902595d644cda792aef0fd76，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 760acfaef825f789496bb7558f96a4578c2c811b17e31a2ae0dfb75b6e129e4d，CNESA 214f0b207af6252398e04634504932636d86a66faffb95cbb818c89ff2306b6f。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News ce54e19d028ee9982a6b345340a1025ca7304fa217dae9f3fb8ce08df0f85761，pv magazine 18253a3a239fb50288c719b95fdf4d5789db3962bd6dea71dc4ea993d4a704c8，SolarQuarter 6c5a807687e7d3adc23515d8e82e4b310d0185d90b25ef5b7213b2fe0dc43910，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 11:00新增/变化：北极星新增万华化学2026年末新增磷酸铁锂产能达82万吨/年、恩捷股份马来西亚20亿元锂电池隔离膜项目终止、贵州199个充电基础设施补助项目超8000万元；SMM公开行情显示电池级碳酸锂180000元/吨，较10:00的183250下跌3250元/吨，SMM电碳指数179532元/吨，较10:00下跌4294元/吨，磷酸铁锂62560元/吨、电解液28950元/吨持平，并新增中车时代电气沙戈荒光储并网方案、印度Sahaj Solar拟在阿联酋建750MW组件厂。CNESA新增储能容量市场、现货套利、辅助服务收益分析；中文RSS新增新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大本征自感知智能电池热失控早期预警。海外新增Energy-Storage.News：Gujarat Industries Power招标120MWh钒液流电池试点、Hitachi与Akaysha签署298MWh澳大利亚电池储能20年LTSA；Google News海外新增西澳Kalgoorlie Vanadium Battery EOI Stage Two开放、Adani Green Energy投运单址电池储能系统、BloombergNEF上调BESS预测。"
+      },
       {
         "id": "latest-20260526-1000-orders-australia-bess",
         "source": "北极星储能网 / SMM上海有色 / Google News RSS / Energy-Storage.News",
@@ -36966,6 +37074,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-1100-smm-lithium-down",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；11:00复核，碳酸锂与指数较10:00下跌",
+        "value": "180000 / 179532 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较10:00：电池级碳酸锂-3250；SMM电碳指数-4294；磷酸铁锂0；电解液0",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 11:00 CST",
+        "methodology": "11:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 ca649c84adb315dbf74997c8a69538f847fbf82c9fe870af406548aa442e1f10，SMM碳酸锂 a0019591d92d1e84017843576cd011b95002ff0ce5251af6ca637bcf591bc008，中国能源网 79d26bd1396deb7df81be9c42b8640e6db886332902595d644cda792aef0fd76，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 760acfaef825f789496bb7558f96a4578c2c811b17e31a2ae0dfb75b6e129e4d，CNESA 214f0b207af6252398e04634504932636d86a66faffb95cbb818c89ff2306b6f。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News ce54e19d028ee9982a6b345340a1025ca7304fa217dae9f3fb8ce08df0f85761，pv magazine 18253a3a239fb50288c719b95fdf4d5789db3962bd6dea71dc4ea993d4a704c8，SolarQuarter 6c5a807687e7d3adc23515d8e82e4b310d0185d90b25ef5b7213b2fe0dc43910，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 11:00新增/变化：北极星新增万华化学2026年末新增磷酸铁锂产能达82万吨/年、恩捷股份马来西亚20亿元锂电池隔离膜项目终止、贵州199个充电基础设施补助项目超8000万元；SMM公开行情显示电池级碳酸锂180000元/吨，较10:00的183250下跌3250元/吨，SMM电碳指数179532元/吨，较10:00下跌4294元/吨，磷酸铁锂62560元/吨、电解液28950元/吨持平，并新增中车时代电气沙戈荒光储并网方案、印度Sahaj Solar拟在阿联酋建750MW组件厂。CNESA新增储能容量市场、现货套利、辅助服务收益分析；中文RSS新增新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大本征自感知智能电池热失控早期预警。海外新增Energy-Storage.News：Gujarat Industries Power招标120MWh钒液流电池试点、Hitachi与Akaysha签署298MWh澳大利亚电池储能20年LTSA；Google News海外新增西澳Kalgoorlie Vanadium Battery EOI Stage Two开放、Adani Green Energy投运单址电池储能系统、BloombergNEF上调BESS预测。"
+      },
+      {
         "id": "material-20260526-1000-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；10:00复核，四项较09:00持平",
@@ -40646,6 +40767,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-1100-public-new",
+        "title": "11:00新增国内+海外储能/电池线索",
+        "value": "76",
+        "unit": "条",
+        "caption": "北极星、SMM、CNESA、Google News中文/海外RSS与Energy-Storage.News新增/上移锂价下跌、新疆容量电价、万华LFP、Gujarat钒液流、Akaysha LTSA等线索。",
+        "delta": "较10:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / 北极星储能 / SMM / CNESA / Energy-Storage.News",
+        "as_of": "2026-05-26 11:00 CST",
+        "methodology": "11:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 ca649c84adb315dbf74997c8a69538f847fbf82c9fe870af406548aa442e1f10，SMM碳酸锂 a0019591d92d1e84017843576cd011b95002ff0ce5251af6ca637bcf591bc008，中国能源网 79d26bd1396deb7df81be9c42b8640e6db886332902595d644cda792aef0fd76，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 760acfaef825f789496bb7558f96a4578c2c811b17e31a2ae0dfb75b6e129e4d，CNESA 214f0b207af6252398e04634504932636d86a66faffb95cbb818c89ff2306b6f。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News ce54e19d028ee9982a6b345340a1025ca7304fa217dae9f3fb8ce08df0f85761，pv magazine 18253a3a239fb50288c719b95fdf4d5789db3962bd6dea71dc4ea993d4a704c8，SolarQuarter 6c5a807687e7d3adc23515d8e82e4b310d0185d90b25ef5b7213b2fe0dc43910，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 11:00新增/变化：北极星新增万华化学2026年末新增磷酸铁锂产能达82万吨/年、恩捷股份马来西亚20亿元锂电池隔离膜项目终止、贵州199个充电基础设施补助项目超8000万元；SMM公开行情显示电池级碳酸锂180000元/吨，较10:00的183250下跌3250元/吨，SMM电碳指数179532元/吨，较10:00下跌4294元/吨，磷酸铁锂62560元/吨、电解液28950元/吨持平，并新增中车时代电气沙戈荒光储并网方案、印度Sahaj Solar拟在阿联酋建750MW组件厂。CNESA新增储能容量市场、现货套利、辅助服务收益分析；中文RSS新增新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大本征自感知智能电池热失控早期预警。海外新增Energy-Storage.News：Gujarat Industries Power招标120MWh钒液流电池试点、Hitachi与Akaysha签署298MWh澳大利亚电池储能20年LTSA；Google News海外新增西澳Kalgoorlie Vanadium Battery EOI Stage Two开放、Adani Green Energy投运单址电池储能系统、BloombergNEF上调BESS预测。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-1000-public-new",
         "title": "10:00新增国内+海外储能/电池线索",
@@ -54355,6 +54489,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-1100-gujarat-akaysha-vanadium",
+        "source": "Google News RSS / Energy-Storage.News",
+        "category": "海外观察/液流电池/BESS长期服务",
+        "title": "海外新增Gujarat 120MWh钒液流试点招标、Hitachi/Akaysha 298MWh 20年LTSA",
+        "summary": "11:00海外公开源新增Gujarat Industries Power 120MWh vanadium flow battery pilot project招标、Hitachi与Akaysha Energy为澳大利亚298MWh电池储能系统签署20年LTSA，并上移西澳Kalgoorlie钒电池EOI Stage Two。",
+        "value": "120",
+        "unit": "MWh钒液流试点",
+        "delta": "海外长时储能和澳洲BESS长期服务合同线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 11:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "methodology": "11:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 ca649c84adb315dbf74997c8a69538f847fbf82c9fe870af406548aa442e1f10，SMM碳酸锂 a0019591d92d1e84017843576cd011b95002ff0ce5251af6ca637bcf591bc008，中国能源网 79d26bd1396deb7df81be9c42b8640e6db886332902595d644cda792aef0fd76，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 760acfaef825f789496bb7558f96a4578c2c811b17e31a2ae0dfb75b6e129e4d，CNESA 214f0b207af6252398e04634504932636d86a66faffb95cbb818c89ff2306b6f。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News ce54e19d028ee9982a6b345340a1025ca7304fa217dae9f3fb8ce08df0f85761，pv magazine 18253a3a239fb50288c719b95fdf4d5789db3962bd6dea71dc4ea993d4a704c8，SolarQuarter 6c5a807687e7d3adc23515d8e82e4b310d0185d90b25ef5b7213b2fe0dc43910，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 11:00新增/变化：北极星新增万华化学2026年末新增磷酸铁锂产能达82万吨/年、恩捷股份马来西亚20亿元锂电池隔离膜项目终止、贵州199个充电基础设施补助项目超8000万元；SMM公开行情显示电池级碳酸锂180000元/吨，较10:00的183250下跌3250元/吨，SMM电碳指数179532元/吨，较10:00下跌4294元/吨，磷酸铁锂62560元/吨、电解液28950元/吨持平，并新增中车时代电气沙戈荒光储并网方案、印度Sahaj Solar拟在阿联酋建750MW组件厂。CNESA新增储能容量市场、现货套利、辅助服务收益分析；中文RSS新增新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大本征自感知智能电池热失控早期预警。海外新增Energy-Storage.News：Gujarat Industries Power招标120MWh钒液流电池试点、Hitachi与Akaysha签署298MWh澳大利亚电池储能20年LTSA；Google News海外新增西澳Kalgoorlie Vanadium Battery EOI Stage Two开放、Adani Green Energy投运单址电池储能系统、BloombergNEF上调BESS预测。"
+      },
+      {
         "id": "overseas-20260526-1000-fortescue-swanbank-hithium",
         "source": "Google News RSS / Energy-Storage.News",
         "category": "海外观察/BESS开工/收益/长时储能",
@@ -60741,6 +60890,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-1100-smm-lithium-down",
+        "source": "SMM上海有色 / 北极星储能网 / CNESA / Google News RSS / Energy-Storage.News",
+        "category": "碳酸锂/储能收益/海外BESS",
+        "title": "SMM碳酸锂跌至18万元；新疆容量电价、Gujarat钒液流与Akaysha LTSA新增",
+        "summary": "11:00严格刷新新增采信：国内新增万华化学2026年末磷酸铁锂产能82万吨/年、恩捷股份马来西亚20亿元隔膜项目终止、新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大智能电池热失控预警、CNESA储能多元收益分析。海外新增Gujarat 120MWh钒液流电池试点招标、Hitachi/Akaysha澳洲298MWh电池储能20年LTSA、西澳Kalgoorlie钒电池EOI。SMM电池级碳酸锂跌至180000元/吨，电碳指数179532元/吨，磷酸铁锂/电解液持平。",
+        "value": "180000",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "电池级碳酸锂较10:00下跌3250元/吨；新增国内收益机制与海外液流/BESS服务合同线索",
+        "direction": "down",
+        "date": "05-26",
+        "as_of": "2026-05-26 11:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "11:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 ca649c84adb315dbf74997c8a69538f847fbf82c9fe870af406548aa442e1f10，SMM碳酸锂 a0019591d92d1e84017843576cd011b95002ff0ce5251af6ca637bcf591bc008，中国能源网 79d26bd1396deb7df81be9c42b8640e6db886332902595d644cda792aef0fd76，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 760acfaef825f789496bb7558f96a4578c2c811b17e31a2ae0dfb75b6e129e4d，CNESA 214f0b207af6252398e04634504932636d86a66faffb95cbb818c89ff2306b6f。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News ce54e19d028ee9982a6b345340a1025ca7304fa217dae9f3fb8ce08df0f85761，pv magazine 18253a3a239fb50288c719b95fdf4d5789db3962bd6dea71dc4ea993d4a704c8，SolarQuarter 6c5a807687e7d3adc23515d8e82e4b310d0185d90b25ef5b7213b2fe0dc43910，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 11:00新增/变化：北极星新增万华化学2026年末新增磷酸铁锂产能达82万吨/年、恩捷股份马来西亚20亿元锂电池隔离膜项目终止、贵州199个充电基础设施补助项目超8000万元；SMM公开行情显示电池级碳酸锂180000元/吨，较10:00的183250下跌3250元/吨，SMM电碳指数179532元/吨，较10:00下跌4294元/吨，磷酸铁锂62560元/吨、电解液28950元/吨持平，并新增中车时代电气沙戈荒光储并网方案、印度Sahaj Solar拟在阿联酋建750MW组件厂。CNESA新增储能容量市场、现货套利、辅助服务收益分析；中文RSS新增新疆新型储能容量电价165元/千瓦·年、浙江平阳储充项目投运、中国科大本征自感知智能电池热失控早期预警。海外新增Energy-Storage.News：Gujarat Industries Power招标120MWh钒液流电池试点、Hitachi与Akaysha签署298MWh澳大利亚电池储能20年LTSA；Google News海外新增西澳Kalgoorlie Vanadium Battery EOI Stage Two开放、Adani Green Energy投运单址电池储能系统、BloombergNEF上调BESS预测。"
+      },
       {
         "id": "market-20260526-1000-orders-smm-flat",
         "source": "北极星储能网 / SMM上海有色 / Google News RSS / Energy-Storage.News",
@@ -75336,6 +75500,87 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-1100-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入SMM锂价下跌、新疆容量电价、万华LFP、Gujarat钒液流和Akaysha LTSA。"
+      },
+      {
+        "id": "source-20260526-1100-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充锂价下跌、储能收益机制、液流电池和BESS长期服务证据。"
+      },
+      {
+        "id": "source-20260526-1100-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "ca649c84adb315dbf74997c8a69538f847fbf82c9fe870af406548aa442e1f10",
+        "finding": "11:00复核：电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；新增中车时代电气沙戈荒光储并网方案等快讯。"
+      },
+      {
+        "id": "source-20260526-1100-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "a0019591d92d1e84017843576cd011b95002ff0ce5251af6ca637bcf591bc008",
+        "finding": "电池级碳酸锂180000元/吨，较10:00下跌3250；SMM电池级碳酸锂指数179532元/吨，较10:00下跌4294。"
+      },
+      {
+        "id": "source-20260526-1100-bjx",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc",
+        "finding": "新增万华化学2026年末新增磷酸铁锂产能82万吨/年、恩捷股份马来西亚20亿元锂电池隔离膜项目终止、贵州充电基础设施补助。"
+      },
+      {
+        "id": "source-20260526-1100-cnesa",
+        "source": "CNESA",
+        "url": "https://www.cnesa.org/",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "214f0b207af6252398e04634504932636d86a66faffb95cbb818c89ff2306b6f",
+        "finding": "新增储能容量市场、现货套利、辅助服务多元收益分析。"
+      },
+      {
+        "id": "source-20260526-1100-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "5664a7b87e0b275299b81bff886684d80c2310aec5930ed35e0cb56680561dcb",
+        "finding": "新增/上移新疆新型储能容量电价165元/千瓦·年、易事特浙江平阳储充项目投运、中国科大智能电池热失控早期预警等线索。"
+      },
+      {
+        "id": "source-20260526-1100-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "f4d33f24a8116fc93e2073f6299625edf9b1ece824acecf3c23cc4f1a952a7ff",
+        "finding": "新增/上移西澳Kalgoorlie Vanadium Battery EOI Stage Two、Adani Green Energy单址电池储能系统、BloombergNEF上调BESS预测等线索。"
+      },
+      {
+        "id": "source-20260526-1100-esn",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-26 11:00 CST",
+        "status": 200,
+        "sha256": "52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45",
+        "finding": "新增Gujarat Industries Power 120MWh vanadium flow battery pilot project招标和Hitachi/Akaysha 298MWh澳洲BESS 20年LTSA。"
+      },
+      {
         "id": "source-20260526-1000-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -84056,5 +84301,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T10:00:00+08:00"
+  "checked_at": "2026-05-26T11:00:00+08:00"
 };

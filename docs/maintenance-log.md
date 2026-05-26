@@ -1,4 +1,12 @@
 
+## 2026-05-26T11:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `9936b762...`，`/markettrend/` HTTP 200 sha256 `2c041d7c...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
+- 行情变化：SMM新能源/碳酸锂页显示电池级碳酸锂180000元/吨，较10:00下跌3250；SMM电碳指数179532元/吨，较10:00下跌4294；磷酸铁锂62560元/吨、电解液28950元/吨持平。
+- 国内新增/上移：万华化学2026年末新增磷酸铁锂产能达82万吨/年；恩捷股份马来西亚20亿元锂电池隔离膜项目终止；新疆新型储能容量电价165元/千瓦·年；易事特浙江平阳新能源充电站储充项目投运；中国科大本征自感知智能电池热失控早期预警；CNESA储能容量市场、现货套利、辅助服务多元收益分析。
+- 海外新增/上移：Gujarat Industries Power 120MWh vanadium flow battery pilot project招标；Hitachi与Akaysha Energy为澳洲298MWh battery storage签署20年LTSA；Western Australian Government Kalgoorlie Vanadium Battery EOI Stage Two开放；Adani Green Energy单址电池储能系统投运；BloombergNEF上调BESS预测。
+- 动作：已更新`data/feed.js` generated_at/checked_at至11:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605261100`。Artifacts: `var/hermes/crawl-20260526-1100.py`, `var/hermes/crawl-output-20260526-1100.json`, `var/hermes/search-notes-20260526-1100.json`。
+
+
 ## 2026-05-26T10:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `9936b762...`，`/markettrend/` HTTP 200 sha256 `2c041d7c...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
 - 国内新增/上移：宁德时代1.5GWh海外储能订单；比亚迪甘肃5GWh储能系统设备采购；18GWh中企与沙特方共建储能智造基地；内蒙古国资75亿元30GWh储能电芯产线；奇点/楚能/宁德入围宁夏200MW/400MWh储能系统设备采购；兰州100MW/400MWh独立储能EPC废标；山东115GW光伏目标及安徽分布式光伏合理配储优先支持。
