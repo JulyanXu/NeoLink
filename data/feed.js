@@ -1,8 +1,72 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T07:00:00+08:00",
-  "note": "07:00严格刷新新增采信：国内新增/上移美能能源拟关联并购切入储能赛道、奇瑞星途ES8全固态电池+秒充、丰田固态电池+第六代混动转型、比亚迪第二代刀片电池续航超1000km和快充讨论、宁德时代电池单体专利授权、MG 4X半固态电池配置。海外新增/上移Adirondack多镇储能项目moratoriums、agendaNi Rethinking battery storage、Fortescue Pilbara Green Grid、AI数据中心电力需求带动电力/储能负荷讨论。SMM四项行情较06:00持平。",
+  "generated_at": "2026-05-26T08:00:00+08:00",
+  "note": "08:00严格刷新新增采信：国内新增/上移港股储能概念走强且机构称三年内装机复合增速或达50%，CIBF2026聚焦中国电池创新，动力电池回收新政效果争议，日产45万只锂电池产品，广汽传祺向往M8 PHEV L采用宁德时代电池，小米汽车1230项电池安全测试，碳酸锂“博弈未止”，四川乐山100MW/200MWh储能EPC候选人与中核汇能濉溪独立共享储能电站开工。海外新增Saudi Arabia首个大型BESS制造设施、Redwood Materials引入前Tesla CFO、GCL SI/Getz Energy 1GW泰国PV组件MOU。SMM四项行情较07:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0800-hk-storage-saudi-bess-redwood",
+        "source": "Google News RSS / SMM上海有色 / 财联社 / 新浪财经 / 虎嗅 / 汽车之家 / Construction Review / MSN / inkl",
+        "source_type": "RSS/专业行情/国内外公开媒体",
+        "account_name": "Google News / SMM / 财联社 / 新浪财经 / 虎嗅 / Construction Review",
+        "category": "储能装机/动力电池/储能制造/碳酸锂",
+        "title": "08:00刷新：港股储能概念走强，沙特大型BESS制造与Redwood人事线索新增",
+        "summary": "08:00严格刷新新增采信：国内新增/上移港股储能概念走强且机构称三年内装机复合增速或达50%，CIBF2026聚焦中国电池创新，动力电池回收新政效果争议，日产45万只锂电池产品，广汽传祺向往M8 PHEV L采用宁德时代电池，小米汽车1230项电池安全测试，碳酸锂“博弈未止”，四川乐山100MW/200MWh储能EPC候选人与中核汇能濉溪独立共享储能电站开工。海外新增Saudi Arabia首个大型BESS制造设施、Redwood Materials引入前Tesla CFO、GCL SI/Getz Energy 1GW泰国PV组件MOU。SMM四项行情较07:00持平。",
+        "body": [
+          "国内储能：Google News中文RSS新增财联社“多重逻辑驱动港股储能概念走强，机构称三年内装机复合增速或达50%”，并上移四川乐山100MW/200MWh电化学储能项目EPC候选人、中核汇能濉溪独立共享储能电站开工线索。",
+          "国内电池产业：CIBF2026成功举办并强调中国电池创新；日产45万只锂电池产品、广汽传祺向往M8 PHEV L采用宁德时代电池、小米汽车1230项电池安全测试等产业和车端线索新增/上移。",
+          "监管/回收：虎嗅线索称动力电池回收新政效果引发争议，提示回收政策落地仍需观察。",
+          "碳酸锂：新浪财经“碳酸锂：博弈未止”上移；SMM公开页08:00复核显示价格较07:00未变。",
+          "海外制造：Construction Review线索显示Saudi Arabia to Build Its First Large-Scale Battery Energy Storage System Manufacturing Facility，补充中东BESS制造本地化信号。",
+          "海外产业链：MSN线索显示Former Tesla CFO Deepak Ahuja joins EV battery recycler Redwood Materials；inkl线索显示GCL SI/Getz Energy签署1GW泰国高效PV组件MOU，均与电池回收和清洁能源供应链相关。"
+        ],
+        "key_points": [
+          "港股储能概念走强，机构称三年内装机复合增速或达50%，为本轮最强国内储能舆情新增线索。",
+          "四川乐山100MW/200MWh储能EPC候选人与中核汇能濉溪独立共享储能电站开工线索继续补充项目端证据。",
+          "CIBF2026、日产45万只锂电池产品、宁德时代车端配套和小米电池安全测试构成动力电池产业热度。",
+          "动力电池回收新政被质疑难奏效，回收合规与经济性仍是政策风险点。",
+          "沙特首个大型BESS制造设施和Redwood前Tesla CFO人事强化海外制造/回收产业链关注。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较07:00持平。"
+        ],
+        "value": "50",
+        "unit": "%三年装机复合增速预期",
+        "delta": "新增港股储能装机高增预期、四川/安徽储能项目、沙特BESS制造、Redwood回收人事；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 08:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://www.constructionreviewonline.com/",
+          "https://www.msn.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>08:00新增/复核：港股储能概念走强与三年装机高增预期、四川/安徽储能项目线索、沙特大型BESS制造、Redwood Materials人事和GCL SI泰国MOU新增；SMM四项行情较07:00持平。</p>",
+        "caption": "国内储能装机预期和项目端线索新增；海外BESS制造/电池回收产业链上移；SMM材料价持平。",
+        "methodology": "08:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 6deddd01efad743ab995a2ff9a6c675b0a93e2ae9f76c0dadd80c5b75444a46c，SMM碳酸锂 94d95f5284582ecff07c7cd1e9c43a8ec651ebc5988efcf66e55896de058db67，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 4ca7a86d0d570dc841c31431c35886c600e0a7298476e44edff8fb786d043598。 海外入口：Energy-Storage.News 76c6d40bc4e28eab62efa8ec663d2d980cd2108682949965995f36375b40b1b6，ESS News bde8dd5a3eebfdfe7491c49233881557fa27dfff01a37a1bd88c2e6cc1ffe0ed，pv magazine 6d802ef58342f8368111580a886c3165e3c370ff9b6761628e5ed277f576156f，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 08:00新增/变化：国内RSS新增或上移港股储能概念走强且机构称三年内装机复合增速或达50%、CIBF2026成功举办并强调中国电池创新、动力电池回收新政效果争议、日产45万只锂电池产品、广汽传祺向往M8 PHEV L采用宁德时代电池、华为半导体韬定律/小米汽车1230项电池安全测试、碳酸锂“博弈未止”、四川乐山100MW/200MWh电化学储能项目EPC候选人、中核汇能濉溪县韩村镇独立共享储能电站开工等线索。海外RSS新增Saudi Arabia first large-scale BESS manufacturing facility、Former Tesla CFO Deepak Ahuja joins Redwood Materials、GCL SI and Getz Energy 1GW Thailand PV modules MOU。SMM 08:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较07:00持平。",
+        "history": [
+          {
+            "label": "储能装机3年CAGR预期 %",
+            "value": 50
+          },
+          {
+            "label": "国内新增/上移RSS 条",
+            "value": 31
+          },
+          {
+            "label": "海外新增/上移RSS 条",
+            "value": 3
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0700-meineng-byd-adirondack-ai",
         "source": "Google News RSS / SMM上海有色 / 北京商报 / 汽车之家 / Times Union / agendaNi / Discovery Alert",
@@ -14730,6 +14794,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0800-storage-battery-global",
+        "source": "Google News RSS / SMM上海有色 / 财联社 / 新浪财经 / 虎嗅 / 汽车之家 / Construction Review / MSN / inkl",
+        "source_type": "RSS/专业行情/国内外公开媒体",
+        "account_name": "Google News / SMM / 财联社 / 新浪财经 / 虎嗅 / Construction Review",
+        "category": "储能装机/动力电池/储能制造/碳酸锂",
+        "title": "08:00刷新：港股储能概念走强，沙特大型BESS制造与Redwood人事线索新增",
+        "summary": "08:00严格刷新新增采信：国内新增/上移港股储能概念走强且机构称三年内装机复合增速或达50%，CIBF2026聚焦中国电池创新，动力电池回收新政效果争议，日产45万只锂电池产品，广汽传祺向往M8 PHEV L采用宁德时代电池，小米汽车1230项电池安全测试，碳酸锂“博弈未止”，四川乐山100MW/200MWh储能EPC候选人与中核汇能濉溪独立共享储能电站开工。海外新增Saudi Arabia首个大型BESS制造设施、Redwood Materials引入前Tesla CFO、GCL SI/Getz Energy 1GW泰国PV组件MOU。SMM四项行情较07:00持平。",
+        "body": [
+          "国内储能：Google News中文RSS新增财联社“多重逻辑驱动港股储能概念走强，机构称三年内装机复合增速或达50%”，并上移四川乐山100MW/200MWh电化学储能项目EPC候选人、中核汇能濉溪独立共享储能电站开工线索。",
+          "国内电池产业：CIBF2026成功举办并强调中国电池创新；日产45万只锂电池产品、广汽传祺向往M8 PHEV L采用宁德时代电池、小米汽车1230项电池安全测试等产业和车端线索新增/上移。",
+          "监管/回收：虎嗅线索称动力电池回收新政效果引发争议，提示回收政策落地仍需观察。",
+          "碳酸锂：新浪财经“碳酸锂：博弈未止”上移；SMM公开页08:00复核显示价格较07:00未变。",
+          "海外制造：Construction Review线索显示Saudi Arabia to Build Its First Large-Scale Battery Energy Storage System Manufacturing Facility，补充中东BESS制造本地化信号。",
+          "海外产业链：MSN线索显示Former Tesla CFO Deepak Ahuja joins EV battery recycler Redwood Materials；inkl线索显示GCL SI/Getz Energy签署1GW泰国高效PV组件MOU，均与电池回收和清洁能源供应链相关。"
+        ],
+        "key_points": [
+          "港股储能概念走强，机构称三年内装机复合增速或达50%，为本轮最强国内储能舆情新增线索。",
+          "四川乐山100MW/200MWh储能EPC候选人与中核汇能濉溪独立共享储能电站开工线索继续补充项目端证据。",
+          "CIBF2026、日产45万只锂电池产品、宁德时代车端配套和小米电池安全测试构成动力电池产业热度。",
+          "动力电池回收新政被质疑难奏效，回收合规与经济性仍是政策风险点。",
+          "沙特首个大型BESS制造设施和Redwood前Tesla CFO人事强化海外制造/回收产业链关注。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较07:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 08:00 CST",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://www.constructionreviewonline.com/",
+          "https://www.msn.com/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>08:00新增/复核：港股储能概念走强与三年装机高增预期、四川/安徽储能项目线索、沙特大型BESS制造、Redwood Materials人事和GCL SI泰国MOU新增；SMM四项行情较07:00持平。</p>",
+        "caption": "国内储能装机预期和项目端线索新增；海外BESS制造/电池回收产业链上移；SMM材料价持平。",
+        "methodology": "08:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 6deddd01efad743ab995a2ff9a6c675b0a93e2ae9f76c0dadd80c5b75444a46c，SMM碳酸锂 94d95f5284582ecff07c7cd1e9c43a8ec651ebc5988efcf66e55896de058db67，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 4ca7a86d0d570dc841c31431c35886c600e0a7298476e44edff8fb786d043598。 海外入口：Energy-Storage.News 76c6d40bc4e28eab62efa8ec663d2d980cd2108682949965995f36375b40b1b6，ESS News bde8dd5a3eebfdfe7491c49233881557fa27dfff01a37a1bd88c2e6cc1ffe0ed，pv magazine 6d802ef58342f8368111580a886c3165e3c370ff9b6761628e5ed277f576156f，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 08:00新增/变化：国内RSS新增或上移港股储能概念走强且机构称三年内装机复合增速或达50%、CIBF2026成功举办并强调中国电池创新、动力电池回收新政效果争议、日产45万只锂电池产品、广汽传祺向往M8 PHEV L采用宁德时代电池、华为半导体韬定律/小米汽车1230项电池安全测试、碳酸锂“博弈未止”、四川乐山100MW/200MWh电化学储能项目EPC候选人、中核汇能濉溪县韩村镇独立共享储能电站开工等线索。海外RSS新增Saudi Arabia first large-scale BESS manufacturing facility、Former Tesla CFO Deepak Ahuja joins Redwood Materials、GCL SI and Getz Energy 1GW Thailand PV modules MOU。SMM 08:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较07:00持平。"
+      },
       {
         "id": "latest-20260526-0700-storage-battery-policy",
         "source": "Google News RSS / SMM上海有色 / 北京商报 / 汽车之家 / Times Union / agendaNi / Discovery Alert",
@@ -36656,6 +36758,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0800-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；08:00复核，四项较07:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较07:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 08:00 CST",
+        "methodology": "08:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 6deddd01efad743ab995a2ff9a6c675b0a93e2ae9f76c0dadd80c5b75444a46c，SMM碳酸锂 94d95f5284582ecff07c7cd1e9c43a8ec651ebc5988efcf66e55896de058db67，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 4ca7a86d0d570dc841c31431c35886c600e0a7298476e44edff8fb786d043598。 海外入口：Energy-Storage.News 76c6d40bc4e28eab62efa8ec663d2d980cd2108682949965995f36375b40b1b6，ESS News bde8dd5a3eebfdfe7491c49233881557fa27dfff01a37a1bd88c2e6cc1ffe0ed，pv magazine 6d802ef58342f8368111580a886c3165e3c370ff9b6761628e5ed277f576156f，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 08:00新增/变化：国内RSS新增或上移港股储能概念走强且机构称三年内装机复合增速或达50%、CIBF2026成功举办并强调中国电池创新、动力电池回收新政效果争议、日产45万只锂电池产品、广汽传祺向往M8 PHEV L采用宁德时代电池、华为半导体韬定律/小米汽车1230项电池安全测试、碳酸锂“博弈未止”、四川乐山100MW/200MWh电化学储能项目EPC候选人、中核汇能濉溪县韩村镇独立共享储能电站开工等线索。海外RSS新增Saudi Arabia first large-scale BESS manufacturing facility、Former Tesla CFO Deepak Ahuja joins Redwood Materials、GCL SI and Getz Energy 1GW Thailand PV modules MOU。SMM 08:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较07:00持平。"
+      },
+      {
         "id": "material-20260526-0700-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；07:00复核，四项较06:00持平",
@@ -40297,6 +40412,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0800-public-new",
+        "title": "08:00新增国内+海外储能/电池线索",
+        "value": "34",
+        "unit": "条",
+        "caption": "Google News中文/海外RSS新增或上移港股储能概念走强、储能装机3年CAGR预期50%、CIBF2026、动力电池回收新政争议、四川/安徽储能项目、沙特大型BESS制造、Redwood Materials人事和GCL SI泰国MOU等线索。",
+        "delta": "较07:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / SMM / 财联社 / Construction Review / MSN / inkl",
+        "as_of": "2026-05-26 08:00 CST",
+        "methodology": "08:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 6deddd01efad743ab995a2ff9a6c675b0a93e2ae9f76c0dadd80c5b75444a46c，SMM碳酸锂 94d95f5284582ecff07c7cd1e9c43a8ec651ebc5988efcf66e55896de058db67，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 4ca7a86d0d570dc841c31431c35886c600e0a7298476e44edff8fb786d043598。 海外入口：Energy-Storage.News 76c6d40bc4e28eab62efa8ec663d2d980cd2108682949965995f36375b40b1b6，ESS News bde8dd5a3eebfdfe7491c49233881557fa27dfff01a37a1bd88c2e6cc1ffe0ed，pv magazine 6d802ef58342f8368111580a886c3165e3c370ff9b6761628e5ed277f576156f，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 08:00新增/变化：国内RSS新增或上移港股储能概念走强且机构称三年内装机复合增速或达50%、CIBF2026成功举办并强调中国电池创新、动力电池回收新政效果争议、日产45万只锂电池产品、广汽传祺向往M8 PHEV L采用宁德时代电池、华为半导体韬定律/小米汽车1230项电池安全测试、碳酸锂“博弈未止”、四川乐山100MW/200MWh电化学储能项目EPC候选人、中核汇能濉溪县韩村镇独立共享储能电站开工等线索。海外RSS新增Saudi Arabia first large-scale BESS manufacturing facility、Former Tesla CFO Deepak Ahuja joins Redwood Materials、GCL SI and Getz Energy 1GW Thailand PV modules MOU。SMM 08:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较07:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0700-public-new",
         "title": "07:00新增国内+海外储能/电池线索",
@@ -53967,6 +54095,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0800-saudi-redwood-thailand",
+        "source": "Google News RSS / Construction Review / MSN / inkl",
+        "category": "海外观察/BESS制造/电池回收/清洁能源供应链",
+        "title": "海外新增沙特首个大型BESS制造设施、Redwood引入前Tesla CFO与泰国1GW组件MOU",
+        "summary": "08:00海外公开源新增Saudi Arabia to Build Its First Large-Scale Battery Energy Storage System Manufacturing Facility、Former Tesla CFO Deepak Ahuja joins EV battery recycler Redwood Materials，以及GCL SI and Getz Energy Sign MOU for 1 GW of Advanced PV Modules to Support Thailand Clean Energy Transition。",
+        "value": "1",
+        "unit": "GW Thailand PV modules MOU",
+        "delta": "海外BESS制造本地化、电池回收管理层和泰国清洁能源供应链线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 08:00 CST",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "methodology": "08:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 6deddd01efad743ab995a2ff9a6c675b0a93e2ae9f76c0dadd80c5b75444a46c，SMM碳酸锂 94d95f5284582ecff07c7cd1e9c43a8ec651ebc5988efcf66e55896de058db67，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 4ca7a86d0d570dc841c31431c35886c600e0a7298476e44edff8fb786d043598。 海外入口：Energy-Storage.News 76c6d40bc4e28eab62efa8ec663d2d980cd2108682949965995f36375b40b1b6，ESS News bde8dd5a3eebfdfe7491c49233881557fa27dfff01a37a1bd88c2e6cc1ffe0ed，pv magazine 6d802ef58342f8368111580a886c3165e3c370ff9b6761628e5ed277f576156f，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 08:00新增/变化：国内RSS新增或上移港股储能概念走强且机构称三年内装机复合增速或达50%、CIBF2026成功举办并强调中国电池创新、动力电池回收新政效果争议、日产45万只锂电池产品、广汽传祺向往M8 PHEV L采用宁德时代电池、华为半导体韬定律/小米汽车1230项电池安全测试、碳酸锂“博弈未止”、四川乐山100MW/200MWh电化学储能项目EPC候选人、中核汇能濉溪县韩村镇独立共享储能电站开工等线索。海外RSS新增Saudi Arabia first large-scale BESS manufacturing facility、Former Tesla CFO Deepak Ahuja joins Redwood Materials、GCL SI and Getz Energy 1GW Thailand PV modules MOU。SMM 08:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较07:00持平。"
+      },
+      {
         "id": "overseas-20260526-0700-adirondack-ai-grid",
         "source": "Google News RSS / Times Union / agendaNi / Discovery Alert / Motley Fool",
         "category": "海外观察/BESS许可/电网负荷/数据中心电力",
@@ -60308,6 +60451,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0800-storage-cagr-smm-flat",
+        "source": "Google News RSS / SMM上海有色 / 财联社 / 新浪财经 / 虎嗅 / 汽车之家 / Construction Review / MSN / inkl",
+        "category": "储能装机/储能项目/碳酸锂",
+        "title": "港股储能概念与项目端线索新增；SMM锂电材料较07:00持平",
+        "summary": "08:00严格刷新新增采信：国内新增/上移港股储能概念走强且机构称三年内装机复合增速或达50%，CIBF2026聚焦中国电池创新，动力电池回收新政效果争议，日产45万只锂电池产品，广汽传祺向往M8 PHEV L采用宁德时代电池，小米汽车1230项电池安全测试，碳酸锂“博弈未止”，四川乐山100MW/200MWh储能EPC候选人与中核汇能濉溪独立共享储能电站开工。海外新增Saudi Arabia首个大型BESS制造设施、Redwood Materials引入前Tesla CFO、GCL SI/Getz Energy 1GW泰国PV组件MOU。SMM四项行情较07:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增储能装机CAGR 50%预期、四川/安徽储能项目、沙特BESS制造和Redwood线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 08:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "08:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 4da7804679ad431d8f8bf3615d71036c1284106e9704f18f2d97c66caea853cd，SMM新能源 6deddd01efad743ab995a2ff9a6c675b0a93e2ae9f76c0dadd80c5b75444a46c，SMM碳酸锂 94d95f5284582ecff07c7cd1e9c43a8ec651ebc5988efcf66e55896de058db67，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA 4ca7a86d0d570dc841c31431c35886c600e0a7298476e44edff8fb786d043598。 海外入口：Energy-Storage.News 76c6d40bc4e28eab62efa8ec663d2d980cd2108682949965995f36375b40b1b6，ESS News bde8dd5a3eebfdfe7491c49233881557fa27dfff01a37a1bd88c2e6cc1ffe0ed，pv magazine 6d802ef58342f8368111580a886c3165e3c370ff9b6761628e5ed277f576156f，SolarQuarter 3c73b2995be3fb46a4ce8110594e67b3f24d425ec419c5e97872026d76378a01，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 08:00新增/变化：国内RSS新增或上移港股储能概念走强且机构称三年内装机复合增速或达50%、CIBF2026成功举办并强调中国电池创新、动力电池回收新政效果争议、日产45万只锂电池产品、广汽传祺向往M8 PHEV L采用宁德时代电池、华为半导体韬定律/小米汽车1230项电池安全测试、碳酸锂“博弈未止”、四川乐山100MW/200MWh电化学储能项目EPC候选人、中核汇能濉溪县韩村镇独立共享储能电站开工等线索。海外RSS新增Saudi Arabia first large-scale BESS manufacturing facility、Former Tesla CFO Deepak Ahuja joins Redwood Materials、GCL SI and Getz Energy 1GW Thailand PV modules MOU。SMM 08:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较07:00持平。"
+      },
       {
         "id": "market-20260526-0700-meineng-adirondack-smm-flat",
         "source": "Google News RSS / SMM上海有色 / 北京商报 / 汽车之家 / Times Union / agendaNi / Discovery Alert",
@@ -74858,6 +75016,60 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0800-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 08:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入港股储能概念、国内储能项目、海外BESS制造/回收和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0800-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 08:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充储能装机CAGR预期、沙特BESS制造、Redwood回收和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0800-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 08:00 CST",
+        "status": 200,
+        "sha256": "6deddd01efad743ab995a2ff9a6c675b0a93e2ae9f76c0dadd80c5b75444a46c",
+        "finding": "08:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较07:00持平。"
+      },
+      {
+        "id": "source-20260526-0800-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 08:00 CST",
+        "status": 200,
+        "sha256": "94d95f5284582ecff07c7cd1e9c43a8ec651ebc5988efcf66e55896de058db67",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较07:00持平。"
+      },
+      {
+        "id": "source-20260526-0800-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 08:00 CST",
+        "status": 200,
+        "sha256": "ee0b8edef510047a84f49a862e1f618b78215ef7016c459bbcfa65ad114f2b37",
+        "finding": "新增/上移港股储能概念走强、CIBF2026、动力电池回收新政争议、碳酸锂博弈、四川乐山储能EPC、中核汇能濉溪储能电站开工等线索。"
+      },
+      {
+        "id": "source-20260526-0800-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 08:00 CST",
+        "status": 200,
+        "sha256": "bdcea702f6c82b81334ca3b5d4f755c031074e3257e81a46446bc8106490418a",
+        "finding": "新增/上移沙特首个大型BESS制造设施、Redwood Materials引入前Tesla CFO、GCL SI/Getz Energy泰国1GW组件MOU。"
+      },
+      {
         "id": "source-20260526-0700-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -83389,5 +83601,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T07:00:00+08:00"
+  "checked_at": "2026-05-26T08:00:00+08:00"
 };
