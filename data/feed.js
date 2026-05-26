@@ -1,8 +1,72 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T08:00:00+08:00",
-  "note": "08:00严格刷新新增采信：国内新增/上移港股储能概念走强且机构称三年内装机复合增速或达50%，CIBF2026聚焦中国电池创新，动力电池回收新政效果争议，日产45万只锂电池产品，广汽传祺向往M8 PHEV L采用宁德时代电池，小米汽车1230项电池安全测试，碳酸锂“博弈未止”，四川乐山100MW/200MWh储能EPC候选人与中核汇能濉溪独立共享储能电站开工。海外新增Saudi Arabia首个大型BESS制造设施、Redwood Materials引入前Tesla CFO、GCL SI/Getz Energy 1GW泰国PV组件MOU。SMM四项行情较07:00持平。",
+  "generated_at": "2026-05-26T09:00:00+08:00",
+  "note": "09:00严格刷新新增采信：国内项目端新增山东光伏配储政策、新疆哈密350MW/1.4GWh储能电站PC招标、孝义100MW储能调频飞轮设备启运、邓州200MW/400MWh共享储能奠基、广州白云算电协同项目。海外新增澳大利亚成为全球第三大公用事业级电池储能市场、CIS Tender 7混合项目锁定7.9GWh储能，以及印度电力部Jan Vishwas Act改革。SMM四项行情较08:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-0900-australia-cis-xinjiang-storage",
+        "source": "Google News RSS / 北极星储能网 / SMM上海有色 / Energy-Storage.News / SolarQuarter / 时代储能网",
+        "source_type": "RSS/专业行情/国内外公开媒体",
+        "account_name": "Google News / 北极星储能 / SMM / Energy-Storage.News / SolarQuarter",
+        "category": "储能项目/电网侧储能/政策/碳酸锂",
+        "title": "09:00刷新：澳洲CIS储能7.9GWh与新疆哈密1.4GWh招标新增",
+        "summary": "09:00严格刷新新增采信：国内项目端新增山东光伏配储政策、新疆哈密350MW/1.4GWh储能电站PC招标、孝义100MW储能调频飞轮设备启运、邓州200MW/400MWh共享储能奠基、广州白云算电协同项目。海外新增澳大利亚成为全球第三大公用事业级电池储能市场、CIS Tender 7混合项目锁定7.9GWh储能，以及印度电力部Jan Vishwas Act改革。SMM四项行情较08:00持平。",
+        "body": [
+          "国内政策与项目：北极星储能新增山东鼓励光伏配储，新疆哈密350MW/1.4GWh综合能源示范基地储能电站PC招标，提示国内项目端继续活跃。",
+          "安全与投资：江苏宿迁储能站火灾超前预警灭火抑爆系统应用，以及系统运行费对电网侧储能投资影响分析新增，补充安全和收益机制证据。",
+          "中文RSS：新增2026未来储能大会重庆举行、孝义100MW储能调频电站首批飞轮设备启运、邓州市200MW/400MWh共享储能项目奠基、国家新型储能创新中心与东阳光算电协同项目落地广州白云。",
+          "海外市场：Energy-Storage.News新增澳大利亚成为全球第三大公用事业级电池储能市场，以及CIS Tender 7中电池储能主导、混合项目锁定7.9GWh。",
+          "海外政策：SolarQuarter新增印度电力部Jan Vishwas Act改革将于2026年6月1日起在电力行业实施。",
+          "行情复核：SMM 09:00公开页显示电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较08:00持平。"
+        ],
+        "key_points": [
+          "澳大利亚CIS Tender 7混合项目锁定7.9GWh，海外储能招标侧出现强新增信号。",
+          "澳大利亚被Energy-Storage.News称为全球第三大公用事业级电池储能市场，强化海外需求热度。",
+          "新疆哈密350MW/1.4GWh储能电站PC招标是本轮国内容量最大的新增项目线索。",
+          "山东鼓励光伏配储，红区加装储能全部自发自用、受限区探索台区储能，政策指向分布式消纳。",
+          "孝义100MW飞轮储能调频设备启运和邓州200MW/400MWh共享储能奠基补充项目落地。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较08:00持平。"
+        ],
+        "value": "7.9",
+        "unit": "GWh澳洲CIS储能",
+        "delta": "新增澳洲CIS 7.9GWh、新疆哈密1.4GWh招标、山东光伏配储政策和多个国内项目；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 09:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://solarquarter.com/"
+        ],
+        "clean_html": "<p>09:00新增/复核：澳洲CIS Tender 7储能7.9GWh、新疆哈密350MW/1.4GWh储能PC招标、山东光伏配储政策、孝义飞轮储能调频和邓州共享储能项目新增；SMM四项行情较08:00持平。</p>",
+        "caption": "海外澳洲储能招标与国内项目/政策双线新增；SMM锂电材料价格持平。",
+        "methodology": "09:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 91949e553decc6527535b9dbcad31ce148dc26b6c646620de5a103c5e8b42363，SMM新能源 4edd3fd0ac8b6282efaab5f8a0de7785f56f9d6f1c3280dc24daba90bd5d6cbc，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA e43ba44af1abb9c9f766c917cd2c38c1c5145bc70fbc000064440ee6ee1c24d8。 海外入口：Energy-Storage.News 5d470610e9f00736e42169c4bbd0dc47fe10dac4cf66237aefb7fc78a98f38a8，ESS News 14e18f3a8c6f07d9ded6d97ab12befb663dcb9c6a2b53e919e8ee210e5d9a981，pv magazine c10c63c5fcec073543538a37947adefec9a3351bfd420a748253242cfe10b49c，SolarQuarter d43521501a97c6852df01ca81eb1c6786c0e6085aedb1aafea078552f96fbf28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 09:00新增/变化：北极星储能新增山东鼓励光伏配储（红区加装储能全部自发自用、受限区探索台区储能）、新疆哈密350MW/1.4GWh综合能源示范基地储能电站PC招标、江苏宿迁储能站火灾超前预警灭火抑爆系统应用，以及系统运行费对电网侧储能投资影响分析。中文RSS新增2026未来储能大会在重庆顺利召开、孝义市北京津海智100MW储能调频电站首批飞轮设备启运、邓州市200MW/400MWh共享储能项目奠基、国家新型储能创新中心与东阳光算电协同项目落地广州白云，并上移工信部电池企业通告/电池安全线索。海外新增Energy-Storage.News两条澳大利亚储能：澳大利亚成为全球第三大公用事业级电池储能市场；Capacity Investment Scheme第7轮中电池储能主导，混合项目锁定7.9GWh。SolarQuarter新增印度电力部Jan Vishwas Act电力行业改革6月1日实施。SMM 09:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较08:00持平。",
+        "history": [
+          {
+            "label": "澳洲CIS储能 GWh",
+            "value": 7.9
+          },
+          {
+            "label": "新疆哈密储能 GWh",
+            "value": 1.4
+          },
+          {
+            "label": "邓州共享储能 MWh",
+            "value": 400
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 62560
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0800-hk-storage-saudi-bess-redwood",
         "source": "Google News RSS / SMM上海有色 / 财联社 / 新浪财经 / 虎嗅 / 汽车之家 / Construction Review / MSN / inkl",
@@ -14794,6 +14858,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-0900-storage-projects-global",
+        "source": "Google News RSS / 北极星储能网 / SMM上海有色 / Energy-Storage.News / SolarQuarter / 时代储能网",
+        "source_type": "RSS/专业行情/国内外公开媒体",
+        "account_name": "Google News / 北极星储能 / SMM / Energy-Storage.News / SolarQuarter",
+        "category": "储能项目/电网侧储能/政策/碳酸锂",
+        "title": "09:00刷新：澳洲CIS储能7.9GWh与新疆哈密1.4GWh招标新增",
+        "summary": "09:00严格刷新新增采信：国内项目端新增山东光伏配储政策、新疆哈密350MW/1.4GWh储能电站PC招标、孝义100MW储能调频飞轮设备启运、邓州200MW/400MWh共享储能奠基、广州白云算电协同项目。海外新增澳大利亚成为全球第三大公用事业级电池储能市场、CIS Tender 7混合项目锁定7.9GWh储能，以及印度电力部Jan Vishwas Act改革。SMM四项行情较08:00持平。",
+        "body": [
+          "国内政策与项目：北极星储能新增山东鼓励光伏配储，新疆哈密350MW/1.4GWh综合能源示范基地储能电站PC招标，提示国内项目端继续活跃。",
+          "安全与投资：江苏宿迁储能站火灾超前预警灭火抑爆系统应用，以及系统运行费对电网侧储能投资影响分析新增，补充安全和收益机制证据。",
+          "中文RSS：新增2026未来储能大会重庆举行、孝义100MW储能调频电站首批飞轮设备启运、邓州市200MW/400MWh共享储能项目奠基、国家新型储能创新中心与东阳光算电协同项目落地广州白云。",
+          "海外市场：Energy-Storage.News新增澳大利亚成为全球第三大公用事业级电池储能市场，以及CIS Tender 7中电池储能主导、混合项目锁定7.9GWh。",
+          "海外政策：SolarQuarter新增印度电力部Jan Vishwas Act改革将于2026年6月1日起在电力行业实施。",
+          "行情复核：SMM 09:00公开页显示电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较08:00持平。"
+        ],
+        "key_points": [
+          "澳大利亚CIS Tender 7混合项目锁定7.9GWh，海外储能招标侧出现强新增信号。",
+          "澳大利亚被Energy-Storage.News称为全球第三大公用事业级电池储能市场，强化海外需求热度。",
+          "新疆哈密350MW/1.4GWh储能电站PC招标是本轮国内容量最大的新增项目线索。",
+          "山东鼓励光伏配储，红区加装储能全部自发自用、受限区探索台区储能，政策指向分布式消纳。",
+          "孝义100MW飞轮储能调频设备启运和邓州200MW/400MWh共享储能奠基补充项目落地。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较08:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 09:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://solarquarter.com/"
+        ],
+        "clean_html": "<p>09:00新增/复核：澳洲CIS Tender 7储能7.9GWh、新疆哈密350MW/1.4GWh储能PC招标、山东光伏配储政策、孝义飞轮储能调频和邓州共享储能项目新增；SMM四项行情较08:00持平。</p>",
+        "caption": "海外澳洲储能招标与国内项目/政策双线新增；SMM锂电材料价格持平。",
+        "methodology": "09:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 91949e553decc6527535b9dbcad31ce148dc26b6c646620de5a103c5e8b42363，SMM新能源 4edd3fd0ac8b6282efaab5f8a0de7785f56f9d6f1c3280dc24daba90bd5d6cbc，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA e43ba44af1abb9c9f766c917cd2c38c1c5145bc70fbc000064440ee6ee1c24d8。 海外入口：Energy-Storage.News 5d470610e9f00736e42169c4bbd0dc47fe10dac4cf66237aefb7fc78a98f38a8，ESS News 14e18f3a8c6f07d9ded6d97ab12befb663dcb9c6a2b53e919e8ee210e5d9a981，pv magazine c10c63c5fcec073543538a37947adefec9a3351bfd420a748253242cfe10b49c，SolarQuarter d43521501a97c6852df01ca81eb1c6786c0e6085aedb1aafea078552f96fbf28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 09:00新增/变化：北极星储能新增山东鼓励光伏配储（红区加装储能全部自发自用、受限区探索台区储能）、新疆哈密350MW/1.4GWh综合能源示范基地储能电站PC招标、江苏宿迁储能站火灾超前预警灭火抑爆系统应用，以及系统运行费对电网侧储能投资影响分析。中文RSS新增2026未来储能大会在重庆顺利召开、孝义市北京津海智100MW储能调频电站首批飞轮设备启运、邓州市200MW/400MWh共享储能项目奠基、国家新型储能创新中心与东阳光算电协同项目落地广州白云，并上移工信部电池企业通告/电池安全线索。海外新增Energy-Storage.News两条澳大利亚储能：澳大利亚成为全球第三大公用事业级电池储能市场；Capacity Investment Scheme第7轮中电池储能主导，混合项目锁定7.9GWh。SolarQuarter新增印度电力部Jan Vishwas Act电力行业改革6月1日实施。SMM 09:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较08:00持平。"
+      },
       {
         "id": "latest-20260526-0800-storage-battery-global",
         "source": "Google News RSS / SMM上海有色 / 财联社 / 新浪财经 / 虎嗅 / 汽车之家 / Construction Review / MSN / inkl",
@@ -36758,6 +36860,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-0900-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；09:00复核，四项较08:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较08:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 09:00 CST",
+        "methodology": "09:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 91949e553decc6527535b9dbcad31ce148dc26b6c646620de5a103c5e8b42363，SMM新能源 4edd3fd0ac8b6282efaab5f8a0de7785f56f9d6f1c3280dc24daba90bd5d6cbc，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA e43ba44af1abb9c9f766c917cd2c38c1c5145bc70fbc000064440ee6ee1c24d8。 海外入口：Energy-Storage.News 5d470610e9f00736e42169c4bbd0dc47fe10dac4cf66237aefb7fc78a98f38a8，ESS News 14e18f3a8c6f07d9ded6d97ab12befb663dcb9c6a2b53e919e8ee210e5d9a981，pv magazine c10c63c5fcec073543538a37947adefec9a3351bfd420a748253242cfe10b49c，SolarQuarter d43521501a97c6852df01ca81eb1c6786c0e6085aedb1aafea078552f96fbf28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 09:00新增/变化：北极星储能新增山东鼓励光伏配储（红区加装储能全部自发自用、受限区探索台区储能）、新疆哈密350MW/1.4GWh综合能源示范基地储能电站PC招标、江苏宿迁储能站火灾超前预警灭火抑爆系统应用，以及系统运行费对电网侧储能投资影响分析。中文RSS新增2026未来储能大会在重庆顺利召开、孝义市北京津海智100MW储能调频电站首批飞轮设备启运、邓州市200MW/400MWh共享储能项目奠基、国家新型储能创新中心与东阳光算电协同项目落地广州白云，并上移工信部电池企业通告/电池安全线索。海外新增Energy-Storage.News两条澳大利亚储能：澳大利亚成为全球第三大公用事业级电池储能市场；Capacity Investment Scheme第7轮中电池储能主导，混合项目锁定7.9GWh。SolarQuarter新增印度电力部Jan Vishwas Act电力行业改革6月1日实施。SMM 09:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较08:00持平。"
+      },
+      {
         "id": "material-20260526-0800-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；08:00复核，四项较07:00持平",
@@ -40412,6 +40527,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-0900-public-new",
+        "title": "09:00新增国内+海外储能/电池线索",
+        "value": "57",
+        "unit": "条",
+        "caption": "北极星、Google News中文/海外RSS与Energy-Storage.News新增/上移山东光伏配储、新疆哈密1.4GWh招标、孝义飞轮储能、邓州共享储能、澳洲CIS 7.9GWh、澳洲全球第三大公用事业级储能市场等线索。",
+        "delta": "较08:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / 北极星储能 / Energy-Storage.News / SolarQuarter",
+        "as_of": "2026-05-26 09:00 CST",
+        "methodology": "09:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 91949e553decc6527535b9dbcad31ce148dc26b6c646620de5a103c5e8b42363，SMM新能源 4edd3fd0ac8b6282efaab5f8a0de7785f56f9d6f1c3280dc24daba90bd5d6cbc，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA e43ba44af1abb9c9f766c917cd2c38c1c5145bc70fbc000064440ee6ee1c24d8。 海外入口：Energy-Storage.News 5d470610e9f00736e42169c4bbd0dc47fe10dac4cf66237aefb7fc78a98f38a8，ESS News 14e18f3a8c6f07d9ded6d97ab12befb663dcb9c6a2b53e919e8ee210e5d9a981，pv magazine c10c63c5fcec073543538a37947adefec9a3351bfd420a748253242cfe10b49c，SolarQuarter d43521501a97c6852df01ca81eb1c6786c0e6085aedb1aafea078552f96fbf28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 09:00新增/变化：北极星储能新增山东鼓励光伏配储（红区加装储能全部自发自用、受限区探索台区储能）、新疆哈密350MW/1.4GWh综合能源示范基地储能电站PC招标、江苏宿迁储能站火灾超前预警灭火抑爆系统应用，以及系统运行费对电网侧储能投资影响分析。中文RSS新增2026未来储能大会在重庆顺利召开、孝义市北京津海智100MW储能调频电站首批飞轮设备启运、邓州市200MW/400MWh共享储能项目奠基、国家新型储能创新中心与东阳光算电协同项目落地广州白云，并上移工信部电池企业通告/电池安全线索。海外新增Energy-Storage.News两条澳大利亚储能：澳大利亚成为全球第三大公用事业级电池储能市场；Capacity Investment Scheme第7轮中电池储能主导，混合项目锁定7.9GWh。SolarQuarter新增印度电力部Jan Vishwas Act电力行业改革6月1日实施。SMM 09:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较08:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0800-public-new",
         "title": "08:00新增国内+海外储能/电池线索",
@@ -54095,6 +54223,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-0900-australia-cis-india-power",
+        "source": "Google News RSS / Energy-Storage.News / SolarQuarter",
+        "category": "海外观察/BESS招标/政策",
+        "title": "海外新增澳洲CIS Tender 7储能7.9GWh、澳洲第三大公用事业级储能市场与印度电力改革",
+        "summary": "09:00海外公开源新增Battery storage dominates Australia’s Capacity Investment Scheme Tender 7 as hybrid projects secure 7.9GWh，Australia becomes the world’s third-largest utility-scale battery storage market，以及印度电力部Jan Vishwas Act电力行业改革6月1日实施。",
+        "value": "7.9",
+        "unit": "GWh",
+        "delta": "海外招标、市场规模和电力监管改革线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 09:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "methodology": "09:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 91949e553decc6527535b9dbcad31ce148dc26b6c646620de5a103c5e8b42363，SMM新能源 4edd3fd0ac8b6282efaab5f8a0de7785f56f9d6f1c3280dc24daba90bd5d6cbc，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA e43ba44af1abb9c9f766c917cd2c38c1c5145bc70fbc000064440ee6ee1c24d8。 海外入口：Energy-Storage.News 5d470610e9f00736e42169c4bbd0dc47fe10dac4cf66237aefb7fc78a98f38a8，ESS News 14e18f3a8c6f07d9ded6d97ab12befb663dcb9c6a2b53e919e8ee210e5d9a981，pv magazine c10c63c5fcec073543538a37947adefec9a3351bfd420a748253242cfe10b49c，SolarQuarter d43521501a97c6852df01ca81eb1c6786c0e6085aedb1aafea078552f96fbf28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 09:00新增/变化：北极星储能新增山东鼓励光伏配储（红区加装储能全部自发自用、受限区探索台区储能）、新疆哈密350MW/1.4GWh综合能源示范基地储能电站PC招标、江苏宿迁储能站火灾超前预警灭火抑爆系统应用，以及系统运行费对电网侧储能投资影响分析。中文RSS新增2026未来储能大会在重庆顺利召开、孝义市北京津海智100MW储能调频电站首批飞轮设备启运、邓州市200MW/400MWh共享储能项目奠基、国家新型储能创新中心与东阳光算电协同项目落地广州白云，并上移工信部电池企业通告/电池安全线索。海外新增Energy-Storage.News两条澳大利亚储能：澳大利亚成为全球第三大公用事业级电池储能市场；Capacity Investment Scheme第7轮中电池储能主导，混合项目锁定7.9GWh。SolarQuarter新增印度电力部Jan Vishwas Act电力行业改革6月1日实施。SMM 09:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较08:00持平。"
+      },
+      {
         "id": "overseas-20260526-0800-saudi-redwood-thailand",
         "source": "Google News RSS / Construction Review / MSN / inkl",
         "category": "海外观察/BESS制造/电池回收/清洁能源供应链",
@@ -60451,6 +60594,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-0900-project-cis-smm-flat",
+        "source": "Google News RSS / 北极星储能网 / SMM上海有色 / Energy-Storage.News / SolarQuarter / 时代储能网",
+        "category": "储能项目/招标/碳酸锂",
+        "title": "澳洲CIS储能7.9GWh与新疆哈密1.4GWh招标新增；SMM锂电材料持平",
+        "summary": "09:00严格刷新新增采信：国内项目端新增山东光伏配储政策、新疆哈密350MW/1.4GWh储能电站PC招标、孝义100MW储能调频飞轮设备启运、邓州200MW/400MWh共享储能奠基、广州白云算电协同项目。海外新增澳大利亚成为全球第三大公用事业级电池储能市场、CIS Tender 7混合项目锁定7.9GWh储能，以及印度电力部Jan Vishwas Act改革。SMM四项行情较08:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增澳洲CIS 7.9GWh、新疆哈密1.4GWh、山东光伏配储和国内共享/飞轮储能项目；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 09:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "09:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 91949e553decc6527535b9dbcad31ce148dc26b6c646620de5a103c5e8b42363，SMM新能源 4edd3fd0ac8b6282efaab5f8a0de7785f56f9d6f1c3280dc24daba90bd5d6cbc，SMM碳酸锂 dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a，中国能源网 b073b61d3e3b15fcc28bd5760c99683ea1a54e77de818546d1a7746487760a2a，国家能源局 ec241a1d75019acc5710fefec393340e8507e6167b2498ae50b97efaade33f98，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA e43ba44af1abb9c9f766c917cd2c38c1c5145bc70fbc000064440ee6ee1c24d8。 海外入口：Energy-Storage.News 5d470610e9f00736e42169c4bbd0dc47fe10dac4cf66237aefb7fc78a98f38a8，ESS News 14e18f3a8c6f07d9ded6d97ab12befb663dcb9c6a2b53e919e8ee210e5d9a981，pv magazine c10c63c5fcec073543538a37947adefec9a3351bfd420a748253242cfe10b49c，SolarQuarter d43521501a97c6852df01ca81eb1c6786c0e6085aedb1aafea078552f96fbf28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 09:00新增/变化：北极星储能新增山东鼓励光伏配储（红区加装储能全部自发自用、受限区探索台区储能）、新疆哈密350MW/1.4GWh综合能源示范基地储能电站PC招标、江苏宿迁储能站火灾超前预警灭火抑爆系统应用，以及系统运行费对电网侧储能投资影响分析。中文RSS新增2026未来储能大会在重庆顺利召开、孝义市北京津海智100MW储能调频电站首批飞轮设备启运、邓州市200MW/400MWh共享储能项目奠基、国家新型储能创新中心与东阳光算电协同项目落地广州白云，并上移工信部电池企业通告/电池安全线索。海外新增Energy-Storage.News两条澳大利亚储能：澳大利亚成为全球第三大公用事业级电池储能市场；Capacity Investment Scheme第7轮中电池储能主导，混合项目锁定7.9GWh。SolarQuarter新增印度电力部Jan Vishwas Act电力行业改革6月1日实施。SMM 09:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较08:00持平。"
+      },
       {
         "id": "market-20260526-0800-storage-cagr-smm-flat",
         "source": "Google News RSS / SMM上海有色 / 财联社 / 新浪财经 / 虎嗅 / 汽车之家 / Construction Review / MSN / inkl",
@@ -75016,6 +75174,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-0900-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 09:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入澳洲CIS储能、新疆哈密招标、山东光伏配储和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-0900-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 09:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充澳洲储能招标、国内项目和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-0900-bjx",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-26 09:00 CST",
+        "status": 200,
+        "sha256": "91949e553decc6527535b9dbcad31ce148dc26b6c646620de5a103c5e8b42363",
+        "finding": "新增山东鼓励光伏配储、新疆哈密350MW/1.4GWh储能PC招标、江苏宿迁储能安全系统、系统运行费对电网侧储能投资影响分析。"
+      },
+      {
+        "id": "source-20260526-0900-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 09:00 CST",
+        "status": 200,
+        "sha256": "4edd3fd0ac8b6282efaab5f8a0de7785f56f9d6f1c3280dc24daba90bd5d6cbc",
+        "finding": "09:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；较08:00持平。"
+      },
+      {
+        "id": "source-20260526-0900-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 09:00 CST",
+        "status": 200,
+        "sha256": "dae1097a8b258a95eee51f2506dfbdcb5f249fa2413b184678d75d07563b2b1a",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较08:00持平。"
+      },
+      {
+        "id": "source-20260526-0900-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 09:00 CST",
+        "status": 200,
+        "sha256": "8e83d497b410ea1579f697c16d3636f6b8b165e491541d8e909585a5bc8a6aa1",
+        "finding": "新增/上移未来储能大会、孝义100MW飞轮储能调频设备启运、邓州200MW/400MWh共享储能奠基、算电协同项目等线索。"
+      },
+      {
+        "id": "source-20260526-0900-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 09:00 CST",
+        "status": 200,
+        "sha256": "bd49d40cf8cf44c0fbcb632834746f0692ae6d6221e8213c72e4f5589a8e742d",
+        "finding": "新增/上移澳大利亚全球第三大公用事业级电池储能市场、CIS Tender 7储能7.9GWh、印度电力改革等线索。"
+      },
+      {
         "id": "source-20260526-0800-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -83601,5 +83822,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T08:00:00+08:00"
+  "checked_at": "2026-05-26T09:00:00+08:00"
 };
