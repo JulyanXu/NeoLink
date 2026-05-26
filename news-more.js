@@ -74,11 +74,13 @@ const displayItemTitle = (item) => stripRefreshPrefix(rawItemTitle(item));
 const displaySummary = (value) => stripRefreshPrefix(String(value ?? ""));
 const sections = window.NEOLINK_FEED?.sections || {};
 
-const articleId = (item) => encodeURIComponent([
+const rawArticleKey = (item) => item.id || [
   item.source || "",
   item.date || item.as_of || "",
   rawItemTitle(item),
-].join("|").toLowerCase());
+].join("|");
+
+const articleId = (item) => encodeURIComponent(String(rawArticleKey(item)).toLowerCase());
 
 const articleHref = (item) => `./article.html?id=${articleId(item)}`;
 

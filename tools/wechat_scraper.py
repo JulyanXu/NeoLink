@@ -31,11 +31,42 @@ HEADERS = {
     "Referer": "https://mp.weixin.qq.com/",
 }
 
+COOKIE_JAR = None
+
+
+def load_cookie_export(path: str) -> dict:
+    """
+    Supports:
+    - Cookie-Editor export JSON: list[{name,value,domain,...}]
+    - Simple dict export: { "name": "value", ... }
+    """
+    p = Path(path)
+    raw = json.loads(p.read_text(encoding="utf-8"))
+    if isinstance(raw, dict):
+        return {str(k): str(v) for k, v in raw.items()}
+    if isinstance(raw, list):
+        out = {}
+        for item in raw:
+            if not isinstance(item, dict):
+                continue
+            name = item.get("name")
+            value = item.get("value")
+            if name and value:
+                out[str(name)] = str(value)
+        return out
+    raise ValueError("Unsupported cookies JSON format")
+
 
 def extract_article(url: str, timeout: int = 20) -> dict:
     """抓取单篇文章正文，无需登录。"""
     try:
-        resp = httpx.get(url, headers=HEADERS, timeout=timeout, follow_redirects=True)
+        resp = httpx.get(
+            url,
+            headers=HEADERS,
+            cookies=COOKIE_JAR,
+            timeout=timeout,
+            follow_redirects=True,
+        )
         html = resp.text
     except Exception as e:
         return {"url": url, "error": str(e)}
@@ -106,6 +137,9 @@ def load_urls_from_file(path: str) -> list[str]:
     if p.suffix == ".json":
         with open(p) as f:
             data = json.load(f)
+        # 处理 NeoLink wechat_sogou_discover 输出格式：{"articles":[{"url":...},...]}
+        if isinstance(data, dict) and "articles" in data and isinstance(data["articles"], list):
+            return [item["url"] for item in data["articles"] if isinstance(item, dict) and item.get("url")]
         # 处理 web_search 输出格式：{"data": {"web": [{"url": ...}, ...]}}
         if isinstance(data, dict) and "data" in data:
             data = data["data"]
@@ -235,11 +269,21 @@ def main():
     group.add_argument("--url", help="单个 URL（直接指定）")
 
     parser.add_argument("--account", default="微信公众号", help="公众号名称（用于 feed 条目标识）")
+    parser.add_argument("--cookies-json", help="可选：导入登录态 cookies（Cookie-Editor JSON 或简单 KV JSON）")
     parser.add_argument("--max", type=int, default=999, help="最多抓取篇数")
     parser.add_argument("-o", "--output", default="/tmp/wechat_scraped.json", help="输出 JSON 文件")
     parser.add_argument("--delay", type=float, default=1.0, help="请求间隔秒数 (default: 1.0)")
     parser.add_argument("--dry-run", action="store_true", help="只发现 URL，不抓取正文")
     args = parser.parse_args()
+
+    global COOKIE_JAR
+    if args.cookies_json:
+        try:
+            COOKIE_JAR = load_cookie_export(args.cookies_json)
+            print(f"🍪 已加载 cookies: {args.cookies_json} ({len(COOKIE_JAR)} keys)")
+        except Exception as e:
+            print(f"⚠️  cookies 加载失败，将继续无登录态抓取: {e}")
+            COOKIE_JAR = None
 
     # 加载 URL 列表
     if args.url:

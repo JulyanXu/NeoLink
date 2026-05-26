@@ -58,11 +58,11 @@ const displayItemTitle = (item) => stripRefreshPrefix(rawItemTitle(item));
 
 const displaySummary = (value) => stripRefreshPrefix(String(value ?? ""));
 
-const rawArticleId = (item) => [
+const rawArticleId = (item) => (item.id || [
   item.source || "",
   item.date || item.as_of || "",
   rawItemTitle(item),
-].join("|").toLowerCase();
+].join("|")).toLowerCase();
 
 const articleId = (item) => encodeURIComponent(rawArticleId(item));
 
