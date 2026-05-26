@@ -1,8 +1,83 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T13:00:00+08:00",
-  "note": "13:00严格刷新新增采信：SMM磷酸铁锂从12:00页面62560回落至61770元/吨，电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持。国内新增深圳“十五五”加快建设世界一流新型储能产业中心、青岛峰会新增新能源汽车/新型储能主题活动和大连化物所电解液低温性能研究；海外新增Contact Energy新西兰100MW电池、Adani Green 50GWh储能路线图、GIPCL 20MW/120MWh VRFB招标、Rajasthan太阳能+电池替代煤电节省测算。",
+  "generated_at": "2026-05-26T14:00:00+08:00",
+  "note": "14:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较13:00页面未变；新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增Ameresco Ontario 250MW电池、Hithium 8小时长时储能澳大利亚首发、Trinasolar菲律宾PV+BESS、Adani Green Khavda 3.37GWh BESS，以及SolarQuarter美国Q1可再生发电增长11%/Pace Digitek扩展BESS制造。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-1400-ningxia-xinjiang-bess-adani-ameresco",
+        "source": "SMM上海有色 / 北极星储能 / Google News RSS / SolarQuarter",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / 北极星储能 / Google News / SolarQuarter",
+        "category": "电化学储能/独立储能/海外BESS/锂电材料",
+        "title": "14:00刷新：宁夏1.5GW/6GWh与新疆540MW/4h储能新增；海外Ameresco 250MW、Adani 3.37GWh上移",
+        "summary": "14:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较13:00页面未变；新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增Ameresco Ontario 250MW电池、Hithium 8小时长时储能澳大利亚首发、Trinasolar菲律宾PV+BESS、Adani Green Khavda 3.37GWh BESS，以及SolarQuarter美国Q1可再生发电增长11%/Pace Digitek扩展BESS制造。",
+        "body": [
+          "行情：SMM 14:00公开页显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较13:00页面未变；站点sha已重新记录。",
+          "国内项目：北极星储能新增宁夏银川2026年第二批1.5GW/6GWh电网侧电化学储能项目建设清单。",
+          "国内招选：北极星储能新增新疆克拉玛依独山子2026年不低于540MW/4h独立储能初选投资人。",
+          "海外项目：Google News海外新增/上移Ameresco合资Ontario 250MW battery、Adani Green Khavda累计3.37GWh BESS多源报道。",
+          "海外技术/供应链：Hithium在澳大利亚推出8小时长时储能系统，Trinasolar扩展菲律宾utility-scale PV+BESS方案，Pace Digitek扩展BESS制造与通信基础设施业务。",
+          "海外市场：SolarQuarter新增美国Q1可再生发电增长11%，并称太阳能、风电和储能容量加速；孟加拉储能主流化评论上移。"
+        ],
+        "key_points": [
+          "本轮行情无新增价格跳动，但按要求完成14:00重爬并保留SMM价格/涨跌幅。",
+          "国内新增两个较大储能项目线索：宁夏1.5GW/6GWh建设清单、新疆不低于540MW/4h独立储能招选。",
+          "海外新增Ontario 250MW电池、Adani Khavda 3.37GWh BESS、Hithium 8小时LDES和Trinasolar菲律宾PV+BESS。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "value": "1500",
+        "unit": "MW电网侧电化学储能清单",
+        "delta": "新增宁夏1.5GW/6GWh、新疆≥540MW/4h；SMM材料报价较13:00未变",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 14:00 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://solarquarter.com/",
+          "https://www.pv-magazine.com/"
+        ],
+        "clean_html": "<p>14:00新增/复核：SMM四项材料价格较13:00未变；国内新增宁夏银川1.5GW/6GWh电网侧电化学储能清单和新疆克拉玛依独山子不低于540MW/4h独立储能招选；海外新增Ameresco Ontario 250MW、Adani Khavda 3.37GWh、Hithium 8小时LDES、Trinasolar菲律宾PV+BESS。</p>",
+        "caption": "国内大容量储能清单/招选新增，海外BESS与长时储能项目继续上移。",
+        "methodology": "14:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 6cb1f5210a51d83be6ddb8dce011ae4ec9357db45fddbc2488ee133fc2fed9ac，SMM新能源 70450385752b0e9353061de8637939c0e121bc3982a4a5d804b191d72d3a657f，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 7c45129794b3a7d2cfc7288e6031f8249f18bef0f312a1ea8daabd552882f6ec。 海外入口：Energy-Storage.News 0964e1103a5021f2e1ab0487b1a6fddeb7d5af35a2543e74621801cb9129fa3d，ESS News f5a4c9c5347237747cd53337c3ec0f27a7724efe9e058d8164e51cb1916eee47，pv magazine dee2dd12fd2cb02ea1ebbfb9a802bc2bfe0fac4444271522c83b816984a9511f，SolarQuarter c066f5810ad964be2b48b5a9f70db992b29ecaa21d76af9b9c723e2cd36015e2，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 14:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较13:00页面未变；但14:00国内新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能建设清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增SolarQuarter美国Q1可再生发电增长11%且太阳能/风电/储能容量加速、Pace Digitek扩展BESS制造与通信基础设施业务、JAKEDA分配45.75MW屋顶光伏项目、MNRE维持2026年6月ALMM List-II期限；Google News海外新增Bangladesh储能主流化论点、Ameresco合资Ontario 250MW电池投运、Hithium澳大利亚8小时长时储能系统、Trinasolar菲律宾PV+BESS方案、Adani Green Khavda 3.37GWh BESS多源报道。",
+        "history": [
+          {
+            "label": "宁夏电化学储能 MW",
+            "value": 1500
+          },
+          {
+            "label": "宁夏电化学储能 MWh",
+            "value": 6000
+          },
+          {
+            "label": "新疆独立储能 MW",
+            "value": 540
+          },
+          {
+            "label": "新疆独立储能 小时",
+            "value": 4
+          },
+          {
+            "label": "Ameresco Ontario电池 MW",
+            "value": 250
+          },
+          {
+            "label": "Adani Khavda BESS GWh",
+            "value": 3.37
+          },
+          {
+            "label": "Hithium LDES 小时",
+            "value": 8
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61770
+          }
+        ]
+      },
       {
         "id": "headline-20260526-1300-lfp-pullback-shenzhen-contact-adani",
         "source": "SMM上海有色 / Google News RSS / SolarQuarter",
@@ -15148,6 +15223,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-1400-storage-projects-global-bess",
+        "source": "SMM上海有色 / 北极星储能 / Google News RSS / SolarQuarter",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / 北极星储能 / Google News / SolarQuarter",
+        "category": "电化学储能/独立储能/海外BESS/锂电材料",
+        "title": "14:00刷新：宁夏1.5GW/6GWh与新疆540MW/4h储能新增；海外Ameresco 250MW、Adani 3.37GWh上移",
+        "summary": "14:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较13:00页面未变；新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增Ameresco Ontario 250MW电池、Hithium 8小时长时储能澳大利亚首发、Trinasolar菲律宾PV+BESS、Adani Green Khavda 3.37GWh BESS，以及SolarQuarter美国Q1可再生发电增长11%/Pace Digitek扩展BESS制造。",
+        "body": [
+          "行情：SMM 14:00公开页显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较13:00页面未变；站点sha已重新记录。",
+          "国内项目：北极星储能新增宁夏银川2026年第二批1.5GW/6GWh电网侧电化学储能项目建设清单。",
+          "国内招选：北极星储能新增新疆克拉玛依独山子2026年不低于540MW/4h独立储能初选投资人。",
+          "海外项目：Google News海外新增/上移Ameresco合资Ontario 250MW battery、Adani Green Khavda累计3.37GWh BESS多源报道。",
+          "海外技术/供应链：Hithium在澳大利亚推出8小时长时储能系统，Trinasolar扩展菲律宾utility-scale PV+BESS方案，Pace Digitek扩展BESS制造与通信基础设施业务。",
+          "海外市场：SolarQuarter新增美国Q1可再生发电增长11%，并称太阳能、风电和储能容量加速；孟加拉储能主流化评论上移。"
+        ],
+        "key_points": [
+          "本轮行情无新增价格跳动，但按要求完成14:00重爬并保留SMM价格/涨跌幅。",
+          "国内新增两个较大储能项目线索：宁夏1.5GW/6GWh建设清单、新疆不低于540MW/4h独立储能招选。",
+          "海外新增Ontario 250MW电池、Adani Khavda 3.37GWh BESS、Hithium 8小时LDES和Trinasolar菲律宾PV+BESS。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 14:00 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://solarquarter.com/",
+          "https://www.pv-magazine.com/"
+        ],
+        "clean_html": "<p>14:00新增/复核：SMM四项材料价格较13:00未变；国内新增宁夏银川1.5GW/6GWh电网侧电化学储能清单和新疆克拉玛依独山子不低于540MW/4h独立储能招选；海外新增Ameresco Ontario 250MW、Adani Khavda 3.37GWh、Hithium 8小时LDES、Trinasolar菲律宾PV+BESS。</p>",
+        "caption": "国内大容量储能清单/招选新增，海外BESS与长时储能项目继续上移。",
+        "methodology": "14:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 6cb1f5210a51d83be6ddb8dce011ae4ec9357db45fddbc2488ee133fc2fed9ac，SMM新能源 70450385752b0e9353061de8637939c0e121bc3982a4a5d804b191d72d3a657f，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 7c45129794b3a7d2cfc7288e6031f8249f18bef0f312a1ea8daabd552882f6ec。 海外入口：Energy-Storage.News 0964e1103a5021f2e1ab0487b1a6fddeb7d5af35a2543e74621801cb9129fa3d，ESS News f5a4c9c5347237747cd53337c3ec0f27a7724efe9e058d8164e51cb1916eee47，pv magazine dee2dd12fd2cb02ea1ebbfb9a802bc2bfe0fac4444271522c83b816984a9511f，SolarQuarter c066f5810ad964be2b48b5a9f70db992b29ecaa21d76af9b9c723e2cd36015e2，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 14:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较13:00页面未变；但14:00国内新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能建设清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增SolarQuarter美国Q1可再生发电增长11%且太阳能/风电/储能容量加速、Pace Digitek扩展BESS制造与通信基础设施业务、JAKEDA分配45.75MW屋顶光伏项目、MNRE维持2026年6月ALMM List-II期限；Google News海外新增Bangladesh储能主流化论点、Ameresco合资Ontario 250MW电池投运、Hithium澳大利亚8小时长时储能系统、Trinasolar菲律宾PV+BESS方案、Adani Green Khavda 3.37GWh BESS多源报道。"
+      },
       {
         "id": "latest-20260526-1300-lfp-shenzhen-global-bess",
         "source": "SMM上海有色 / Google News RSS / SolarQuarter",
@@ -37304,6 +37416,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-1400-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；14:00复核较13:00未变",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较13:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 14:00 CST",
+        "methodology": "14:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 6cb1f5210a51d83be6ddb8dce011ae4ec9357db45fddbc2488ee133fc2fed9ac，SMM新能源 70450385752b0e9353061de8637939c0e121bc3982a4a5d804b191d72d3a657f，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 7c45129794b3a7d2cfc7288e6031f8249f18bef0f312a1ea8daabd552882f6ec。 海外入口：Energy-Storage.News 0964e1103a5021f2e1ab0487b1a6fddeb7d5af35a2543e74621801cb9129fa3d，ESS News f5a4c9c5347237747cd53337c3ec0f27a7724efe9e058d8164e51cb1916eee47，pv magazine dee2dd12fd2cb02ea1ebbfb9a802bc2bfe0fac4444271522c83b816984a9511f，SolarQuarter c066f5810ad964be2b48b5a9f70db992b29ecaa21d76af9b9c723e2cd36015e2，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 14:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较13:00页面未变；但14:00国内新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能建设清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增SolarQuarter美国Q1可再生发电增长11%且太阳能/风电/储能容量加速、Pace Digitek扩展BESS制造与通信基础设施业务、JAKEDA分配45.75MW屋顶光伏项目、MNRE维持2026年6月ALMM List-II期限；Google News海外新增Bangladesh储能主流化论点、Ameresco合资Ontario 250MW电池投运、Hithium澳大利亚8小时长时储能系统、Trinasolar菲律宾PV+BESS方案、Adani Green Khavda 3.37GWh BESS多源报道。"
+      },
+      {
         "id": "material-20260526-1300-smm-lfp-pullback",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；13:00复核，磷酸铁锂较12:00页面回落",
@@ -41023,6 +41148,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-1400-public-new",
+        "title": "14:00新增国内+海外储能/电池线索",
+        "value": "48",
+        "unit": "条",
+        "caption": "北极星储能、SolarQuarter、pv magazine、Google News中文/海外RSS新增或上移宁夏1.5GW/6GWh、新疆≥540MW/4h、Ameresco 250MW、Adani 3.37GWh、Hithium 8小时LDES等线索。",
+        "delta": "较13:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "北极星储能 / SolarQuarter / pv magazine / Google News RSS",
+        "as_of": "2026-05-26 14:00 CST",
+        "methodology": "14:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 6cb1f5210a51d83be6ddb8dce011ae4ec9357db45fddbc2488ee133fc2fed9ac，SMM新能源 70450385752b0e9353061de8637939c0e121bc3982a4a5d804b191d72d3a657f，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 7c45129794b3a7d2cfc7288e6031f8249f18bef0f312a1ea8daabd552882f6ec。 海外入口：Energy-Storage.News 0964e1103a5021f2e1ab0487b1a6fddeb7d5af35a2543e74621801cb9129fa3d，ESS News f5a4c9c5347237747cd53337c3ec0f27a7724efe9e058d8164e51cb1916eee47，pv magazine dee2dd12fd2cb02ea1ebbfb9a802bc2bfe0fac4444271522c83b816984a9511f，SolarQuarter c066f5810ad964be2b48b5a9f70db992b29ecaa21d76af9b9c723e2cd36015e2，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 14:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较13:00页面未变；但14:00国内新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能建设清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增SolarQuarter美国Q1可再生发电增长11%且太阳能/风电/储能容量加速、Pace Digitek扩展BESS制造与通信基础设施业务、JAKEDA分配45.75MW屋顶光伏项目、MNRE维持2026年6月ALMM List-II期限；Google News海外新增Bangladesh储能主流化论点、Ameresco合资Ontario 250MW电池投运、Hithium澳大利亚8小时长时储能系统、Trinasolar菲律宾PV+BESS方案、Adani Green Khavda 3.37GWh BESS多源报道。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-1300-public-new",
         "title": "13:00新增国内+海外储能/电池线索",
@@ -54771,6 +54909,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-1400-ameresco-adani-hithium-trina",
+        "source": "Google News RSS / SolarQuarter / pv magazine",
+        "category": "海外观察/BESS/LDES/PV+BESS",
+        "title": "海外新增Ameresco Ontario 250MW、Adani Khavda 3.37GWh、Hithium 8小时LDES与Trinasolar菲律宾PV+BESS",
+        "summary": "14:00海外公开源新增/上移Ameresco合资Ontario 250MW电池投运、Adani Green Khavda累计3.37GWh BESS多源报道、Hithium澳大利亚8小时长时储能系统、Trinasolar菲律宾utility-scale PV+BESS，以及美国Q1可再生发电增长11%且储能容量加速。",
+        "value": "250",
+        "unit": "MW电池储能",
+        "delta": "海外BESS/LDES/PV+BESS线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 14:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "14:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 6cb1f5210a51d83be6ddb8dce011ae4ec9357db45fddbc2488ee133fc2fed9ac，SMM新能源 70450385752b0e9353061de8637939c0e121bc3982a4a5d804b191d72d3a657f，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 7c45129794b3a7d2cfc7288e6031f8249f18bef0f312a1ea8daabd552882f6ec。 海外入口：Energy-Storage.News 0964e1103a5021f2e1ab0487b1a6fddeb7d5af35a2543e74621801cb9129fa3d，ESS News f5a4c9c5347237747cd53337c3ec0f27a7724efe9e058d8164e51cb1916eee47，pv magazine dee2dd12fd2cb02ea1ebbfb9a802bc2bfe0fac4444271522c83b816984a9511f，SolarQuarter c066f5810ad964be2b48b5a9f70db992b29ecaa21d76af9b9c723e2cd36015e2，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 14:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较13:00页面未变；但14:00国内新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能建设清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增SolarQuarter美国Q1可再生发电增长11%且太阳能/风电/储能容量加速、Pace Digitek扩展BESS制造与通信基础设施业务、JAKEDA分配45.75MW屋顶光伏项目、MNRE维持2026年6月ALMM List-II期限；Google News海外新增Bangladesh储能主流化论点、Ameresco合资Ontario 250MW电池投运、Hithium澳大利亚8小时长时储能系统、Trinasolar菲律宾PV+BESS方案、Adani Green Khavda 3.37GWh BESS多源报道。"
+      },
+      {
         "id": "overseas-20260526-1300-contact-adani-gipcl-rajasthan",
         "source": "Google News RSS / SolarQuarter",
         "category": "海外观察/BESS/液流电池/政策",
@@ -61202,6 +61355,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-1400-ningxia-xinjiang-bess",
+        "source": "SMM上海有色 / 北极星储能 / Google News RSS / SolarQuarter",
+        "category": "电化学储能/独立储能/海外BESS",
+        "title": "宁夏1.5GW/6GWh与新疆≥540MW/4h储能新增；SMM材料报价较13:00未变",
+        "summary": "14:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较13:00页面未变；新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增Ameresco Ontario 250MW电池、Hithium 8小时长时储能澳大利亚首发、Trinasolar菲律宾PV+BESS、Adani Green Khavda 3.37GWh BESS，以及SolarQuarter美国Q1可再生发电增长11%/Pace Digitek扩展BESS制造。",
+        "value": "1500",
+        "unit": "MW电网侧储能",
+        "delta": "国内储能清单/招选新增；海外BESS线索新增",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 14:00 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "methodology": "14:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 6cb1f5210a51d83be6ddb8dce011ae4ec9357db45fddbc2488ee133fc2fed9ac，SMM新能源 70450385752b0e9353061de8637939c0e121bc3982a4a5d804b191d72d3a657f，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 7c45129794b3a7d2cfc7288e6031f8249f18bef0f312a1ea8daabd552882f6ec。 海外入口：Energy-Storage.News 0964e1103a5021f2e1ab0487b1a6fddeb7d5af35a2543e74621801cb9129fa3d，ESS News f5a4c9c5347237747cd53337c3ec0f27a7724efe9e058d8164e51cb1916eee47，pv magazine dee2dd12fd2cb02ea1ebbfb9a802bc2bfe0fac4444271522c83b816984a9511f，SolarQuarter c066f5810ad964be2b48b5a9f70db992b29ecaa21d76af9b9c723e2cd36015e2，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 14:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较13:00页面未变；但14:00国内新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能建设清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增SolarQuarter美国Q1可再生发电增长11%且太阳能/风电/储能容量加速、Pace Digitek扩展BESS制造与通信基础设施业务、JAKEDA分配45.75MW屋顶光伏项目、MNRE维持2026年6月ALMM List-II期限；Google News海外新增Bangladesh储能主流化论点、Ameresco合资Ontario 250MW电池投运、Hithium澳大利亚8小时长时储能系统、Trinasolar菲律宾PV+BESS方案、Adani Green Khavda 3.37GWh BESS多源报道。"
+      },
       {
         "id": "market-20260526-1300-lfp-global-bess",
         "source": "SMM上海有色 / Google News RSS / SolarQuarter",
@@ -75842,6 +76010,78 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-1400-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 14:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入宁夏/新疆储能项目、Ameresco 250MW、Adani 3.37GWh、Hithium 8小时LDES。"
+      },
+      {
+        "id": "source-20260526-1400-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 14:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充国内项目和海外BESS/LDES证据。"
+      },
+      {
+        "id": "source-20260526-1400-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 14:00 CST",
+        "status": 200,
+        "sha256": "70450385752b0e9353061de8637939c0e121bc3982a4a5d804b191d72d3a657f",
+        "finding": "14:00复核：电池级碳酸锂180000、SMM电碳指数179532、磷酸铁锂61770、电解液29350元/吨；较13:00页面未变。"
+      },
+      {
+        "id": "source-20260526-1400-bjx",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-26 14:00 CST",
+        "status": 200,
+        "sha256": "6cb1f5210a51d83be6ddb8dce011ae4ec9357db45fddbc2488ee133fc2fed9ac",
+        "finding": "新增宁夏银川2026年第二批1.5GW/6GWh电网侧电化学储能项目建设清单，以及新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。"
+      },
+      {
+        "id": "source-20260526-1400-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 14:00 CST",
+        "status": 200,
+        "sha256": "84d90a546dc65c3839b72f2fc1319e7b636e0e743a3c03202d72ffe519b277a1",
+        "finding": "新增/上移林洋能源评级、深圳“十五五”新型储能、南网储能抽水蓄能项目设计监理承包商座谈会等。"
+      },
+      {
+        "id": "source-20260526-1400-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 14:00 CST",
+        "status": 200,
+        "sha256": "001a5318a54e335c1db47b995a4485d30bd1b967ef01dacaac1b12b6e469116d",
+        "finding": "新增/上移Bangladesh储能主流化、Ameresco Ontario 250MW、Adani Khavda 3.37GWh BESS、Hithium 8小时LDES、Trinasolar菲律宾PV+BESS。"
+      },
+      {
+        "id": "source-20260526-1400-solarquarter",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/",
+        "as_of": "2026-05-26 14:00 CST",
+        "status": 200,
+        "sha256": "c066f5810ad964be2b48b5a9f70db992b29ecaa21d76af9b9c723e2cd36015e2",
+        "finding": "新增美国Q1可再生发电增长11%且储能容量加速、Pace Digitek扩展BESS制造、JAKEDA 45.75MW屋顶光伏、MNRE ALMM期限。"
+      },
+      {
+        "id": "source-20260526-1400-pv",
+        "source": "pv magazine",
+        "url": "https://www.pv-magazine.com/",
+        "as_of": "2026-05-26 14:00 CST",
+        "status": 200,
+        "sha256": "dee2dd12fd2cb02ea1ebbfb9a802bc2bfe0fac4444271522c83b816984a9511f",
+        "finding": "新增澳大利亚5GW可再生发电招标线索。"
+      },
+      {
         "id": "source-20260526-1300-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -84769,5 +85009,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T13:00:00+08:00"
+  "checked_at": "2026-05-26T14:00:00+08:00"
 };
