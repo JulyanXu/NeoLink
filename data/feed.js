@@ -1,8 +1,84 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T12:00:00+08:00",
-  "note": "12:00严格刷新新增采信：SMM磷酸铁锂升至62560元/吨、电解液升至29350元/吨，电池级碳酸锂维持180000元/吨；新增阳光电源7.5GWh储能大单、宁东绿电园区电源侧储能并网、新疆哈密100MW氢储能EPC招标、英山储能设备吊装。海外新增Adani Green Khavda累计3.37GWh单址BESS投运、Fortescue Cloudbreak 650MWh、Hithium 8小时长时储能澳洲首发和ZOE沙特18GWh BESS工厂合资。",
+  "generated_at": "2026-05-26T13:00:00+08:00",
+  "note": "13:00严格刷新新增采信：SMM磷酸铁锂从12:00页面62560回落至61770元/吨，电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持。国内新增深圳“十五五”加快建设世界一流新型储能产业中心、青岛峰会新增新能源汽车/新型储能主题活动和大连化物所电解液低温性能研究；海外新增Contact Energy新西兰100MW电池、Adani Green 50GWh储能路线图、GIPCL 20MW/120MWh VRFB招标、Rajasthan太阳能+电池替代煤电节省测算。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-1300-lfp-pullback-shenzhen-contact-adani",
+        "source": "SMM上海有色 / Google News RSS / SolarQuarter",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / Google News / SolarQuarter",
+        "category": "磷酸铁锂/电解液/储能政策/海外BESS",
+        "title": "13:00刷新：磷酸铁锂回落至61770；深圳新型储能中心与新西兰100MW电池新增",
+        "summary": "13:00严格刷新新增采信：SMM磷酸铁锂从12:00页面62560回落至61770元/吨，电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持。国内新增深圳“十五五”加快建设世界一流新型储能产业中心、青岛峰会新增新能源汽车/新型储能主题活动和大连化物所电解液低温性能研究；海外新增Contact Energy新西兰100MW电池、Adani Green 50GWh储能路线图、GIPCL 20MW/120MWh VRFB招标、Rajasthan太阳能+电池替代煤电节省测算。",
+        "body": [
+          "行情：SMM 13:00公开页显示电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨与12:00持平；磷酸铁锂61770元/吨，较12:00页面62560回落790。",
+          "国内政策/活动：中文RSS新增深圳“十五五”规划纲要加快建设世界一流新型储能产业中心；第七届跨国公司领导人青岛峰会新增新能源汽车、新型储能等主题活动。",
+          "国内技术：中文RSS新增大连化物所“极性对比”电解液设计策略，提高锂金属电池低温性能；锂电池板块拉升、回收龙头赴港上市等资本市场线索上移。",
+          "国内行情扩展：SMM新增5月26日甲醇西北/华南/华北/华东/华中/东北报价及光伏边框报价，补充电池材料上游与光伏配套价格监测。",
+          "海外BESS：海外RSS新增Contact Energy新西兰100MW电池投运，Adani Green 50GWh储能扩张路线图及Khavda单址BESS持续上移。",
+          "海外政策/项目：海外RSS新增GIPCL 20MW/120MWh全钒液流电池项目招标、菲律宾ERC调峰储备政策调整、印度储能风险提示；SolarQuarter新增Rajasthan太阳能+电池替代新煤电节省5700亿卢比测算。"
+        ],
+        "key_points": [
+          "本轮明确行情变化是SMM磷酸铁锂61770元/吨，较12:00页面下调790；电池级碳酸锂、电碳指数、电解液未变。",
+          "深圳“十五五”新型储能中心线索提高国内政策端权重。",
+          "Contact Energy新西兰100MW电池、Adani 50GWh路线图和GIPCL 20MW/120MWh VRFB招标补充海外项目库。",
+          "Rajasthan太阳能+电池替代煤电节省测算体现储能经济性论据。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "value": "61770",
+        "unit": "元/吨磷酸铁锂",
+        "delta": "较12:00页面-790；新增深圳新型储能中心、Contact Energy 100MW、Adani 50GWh路线图、GIPCL 20MW/120MWh VRFB",
+        "direction": "down",
+        "date": "05-26",
+        "as_of": "2026-05-26 13:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.google.com/",
+          "https://solarquarter.com/",
+          "https://www.energy-storage.news/"
+        ],
+        "clean_html": "<p>13:00新增/复核：SMM磷酸铁锂61770元/吨（较12:00页面-790），电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨持平；新增深圳新型储能中心、Contact Energy新西兰100MW电池、Adani 50GWh路线图和GIPCL 20MW/120MWh VRFB招标。</p>",
+        "caption": "磷酸铁锂短线回落，国内政策与海外BESS/液流电池项目继续新增。",
+        "methodology": "13:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 fafb76f07fadfe858535dd4f8f8c541850cc7fe371960e2c561e7b566f1fba19，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 374d86f98d94845d4100a4da0f56dedf8115cfe3b076d03696e1902eb9942de6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 11a89b400b52b4c7603beabea9ceca9a7dd53478097b8646a325409f8596380b，pv magazine 129ed7f1ec6914c6e82a15d33410bbf56d97f7b4a9bff64878d6ab8879c0ff8a，SolarQuarter 77817ad31c16d3ebfef2be8cffe8c361efb939c5de62b84c777a9c82596b072d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 13:00新增/变化：SMM公开行情显示电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持；磷酸铁锂由12:00页面62560回落至61770元/吨（-790）。SMM新增5月26日甲醇区域报价和光伏边框报价。中文RSS新增深圳“十五五”规划纲要提出加快建设世界一流新型储能产业中心、第七届跨国公司领导人青岛峰会新增新能源汽车/新型储能主题活动，以及大连化物所电解液设计提高锂金属电池低温性能等线索。海外RSS新增Contact Energy新西兰100MW电池投运、Adani Green 50GWh储能扩张路线图/Khavda单址BESS、GIPCL 20MW/120MWh全钒液流项目招标、菲律宾ERC调峰储备政策调整、印度储能消纳风险。SolarQuarter新增Rajasthan用太阳能+电池替代新煤电可节省5700亿卢比、马来西亚Suria Home屋顶光伏补贴等。",
+        "history": [
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "SMM电碳指数 元/吨",
+            "value": 179532
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61770
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 29350
+          },
+          {
+            "label": "Contact新西兰电池 MW",
+            "value": 100
+          },
+          {
+            "label": "Adani储能路线图 GWh",
+            "value": 50
+          },
+          {
+            "label": "GIPCL VRFB MWh",
+            "value": 120
+          },
+          {
+            "label": "Rajasthan节省 亿卢比",
+            "value": 5700
+          }
+        ]
+      },
       {
         "id": "headline-20260526-1200-smm-lfp-electrolyte-adani-bess",
         "source": "SMM上海有色 / Google News RSS / 中国能源网 / Energy-Storage.News",
@@ -15072,6 +15148,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-1300-lfp-shenzhen-global-bess",
+        "source": "SMM上海有色 / Google News RSS / SolarQuarter",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / Google News / SolarQuarter",
+        "category": "磷酸铁锂/电解液/储能政策/海外BESS",
+        "title": "13:00刷新：磷酸铁锂回落至61770；深圳新型储能中心与新西兰100MW电池新增",
+        "summary": "13:00严格刷新新增采信：SMM磷酸铁锂从12:00页面62560回落至61770元/吨，电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持。国内新增深圳“十五五”加快建设世界一流新型储能产业中心、青岛峰会新增新能源汽车/新型储能主题活动和大连化物所电解液低温性能研究；海外新增Contact Energy新西兰100MW电池、Adani Green 50GWh储能路线图、GIPCL 20MW/120MWh VRFB招标、Rajasthan太阳能+电池替代煤电节省测算。",
+        "body": [
+          "行情：SMM 13:00公开页显示电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨与12:00持平；磷酸铁锂61770元/吨，较12:00页面62560回落790。",
+          "国内政策/活动：中文RSS新增深圳“十五五”规划纲要加快建设世界一流新型储能产业中心；第七届跨国公司领导人青岛峰会新增新能源汽车、新型储能等主题活动。",
+          "国内技术：中文RSS新增大连化物所“极性对比”电解液设计策略，提高锂金属电池低温性能；锂电池板块拉升、回收龙头赴港上市等资本市场线索上移。",
+          "国内行情扩展：SMM新增5月26日甲醇西北/华南/华北/华东/华中/东北报价及光伏边框报价，补充电池材料上游与光伏配套价格监测。",
+          "海外BESS：海外RSS新增Contact Energy新西兰100MW电池投运，Adani Green 50GWh储能扩张路线图及Khavda单址BESS持续上移。",
+          "海外政策/项目：海外RSS新增GIPCL 20MW/120MWh全钒液流电池项目招标、菲律宾ERC调峰储备政策调整、印度储能风险提示；SolarQuarter新增Rajasthan太阳能+电池替代新煤电节省5700亿卢比测算。"
+        ],
+        "key_points": [
+          "本轮明确行情变化是SMM磷酸铁锂61770元/吨，较12:00页面下调790；电池级碳酸锂、电碳指数、电解液未变。",
+          "深圳“十五五”新型储能中心线索提高国内政策端权重。",
+          "Contact Energy新西兰100MW电池、Adani 50GWh路线图和GIPCL 20MW/120MWh VRFB招标补充海外项目库。",
+          "Rajasthan太阳能+电池替代煤电节省测算体现储能经济性论据。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 13:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price",
+          "https://news.google.com/",
+          "https://solarquarter.com/",
+          "https://www.energy-storage.news/"
+        ],
+        "clean_html": "<p>13:00新增/复核：SMM磷酸铁锂61770元/吨（较12:00页面-790），电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨持平；新增深圳新型储能中心、Contact Energy新西兰100MW电池、Adani 50GWh路线图和GIPCL 20MW/120MWh VRFB招标。</p>",
+        "caption": "磷酸铁锂短线回落，国内政策与海外BESS/液流电池项目继续新增。",
+        "methodology": "13:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 fafb76f07fadfe858535dd4f8f8c541850cc7fe371960e2c561e7b566f1fba19，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 374d86f98d94845d4100a4da0f56dedf8115cfe3b076d03696e1902eb9942de6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 11a89b400b52b4c7603beabea9ceca9a7dd53478097b8646a325409f8596380b，pv magazine 129ed7f1ec6914c6e82a15d33410bbf56d97f7b4a9bff64878d6ab8879c0ff8a，SolarQuarter 77817ad31c16d3ebfef2be8cffe8c361efb939c5de62b84c777a9c82596b072d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 13:00新增/变化：SMM公开行情显示电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持；磷酸铁锂由12:00页面62560回落至61770元/吨（-790）。SMM新增5月26日甲醇区域报价和光伏边框报价。中文RSS新增深圳“十五五”规划纲要提出加快建设世界一流新型储能产业中心、第七届跨国公司领导人青岛峰会新增新能源汽车/新型储能主题活动，以及大连化物所电解液设计提高锂金属电池低温性能等线索。海外RSS新增Contact Energy新西兰100MW电池投运、Adani Green 50GWh储能扩张路线图/Khavda单址BESS、GIPCL 20MW/120MWh全钒液流项目招标、菲律宾ERC调峰储备政策调整、印度储能消纳风险。SolarQuarter新增Rajasthan用太阳能+电池替代新煤电可节省5700亿卢比、马来西亚Suria Home屋顶光伏补贴等。"
+      },
       {
         "id": "latest-20260526-1200-lfp-electrolyte-global-bess",
         "source": "SMM上海有色 / Google News RSS / 中国能源网 / Energy-Storage.News",
@@ -37190,6 +37304,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-1300-smm-lfp-pullback",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；13:00复核，磷酸铁锂较12:00页面回落",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较12:00页面：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂-790；电解液0",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 13:00 CST",
+        "methodology": "13:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 fafb76f07fadfe858535dd4f8f8c541850cc7fe371960e2c561e7b566f1fba19，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 374d86f98d94845d4100a4da0f56dedf8115cfe3b076d03696e1902eb9942de6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 11a89b400b52b4c7603beabea9ceca9a7dd53478097b8646a325409f8596380b，pv magazine 129ed7f1ec6914c6e82a15d33410bbf56d97f7b4a9bff64878d6ab8879c0ff8a，SolarQuarter 77817ad31c16d3ebfef2be8cffe8c361efb939c5de62b84c777a9c82596b072d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 13:00新增/变化：SMM公开行情显示电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持；磷酸铁锂由12:00页面62560回落至61770元/吨（-790）。SMM新增5月26日甲醇区域报价和光伏边框报价。中文RSS新增深圳“十五五”规划纲要提出加快建设世界一流新型储能产业中心、第七届跨国公司领导人青岛峰会新增新能源汽车/新型储能主题活动，以及大连化物所电解液设计提高锂金属电池低温性能等线索。海外RSS新增Contact Energy新西兰100MW电池投运、Adani Green 50GWh储能扩张路线图/Khavda单址BESS、GIPCL 20MW/120MWh全钒液流项目招标、菲律宾ERC调峰储备政策调整、印度储能消纳风险。SolarQuarter新增Rajasthan用太阳能+电池替代新煤电可节省5700亿卢比、马来西亚Suria Home屋顶光伏补贴等。"
+      },
+      {
         "id": "material-20260526-1200-smm-lfp-electrolyte-up",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；12:00复核，磷酸铁锂与电解液较11:00页面上调",
@@ -40896,6 +41023,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-1300-public-new",
+        "title": "13:00新增国内+海外储能/电池线索",
+        "value": "41",
+        "unit": "条",
+        "caption": "SMM、SolarQuarter、Google News中文/海外RSS新增或上移深圳新型储能中心、Contact Energy 100MW电池、Adani 50GWh路线图、GIPCL 20MW/120MWh VRFB等线索。",
+        "delta": "较12:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "SMM / SolarQuarter / Google News RSS",
+        "as_of": "2026-05-26 13:00 CST",
+        "methodology": "13:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 fafb76f07fadfe858535dd4f8f8c541850cc7fe371960e2c561e7b566f1fba19，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 374d86f98d94845d4100a4da0f56dedf8115cfe3b076d03696e1902eb9942de6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 11a89b400b52b4c7603beabea9ceca9a7dd53478097b8646a325409f8596380b，pv magazine 129ed7f1ec6914c6e82a15d33410bbf56d97f7b4a9bff64878d6ab8879c0ff8a，SolarQuarter 77817ad31c16d3ebfef2be8cffe8c361efb939c5de62b84c777a9c82596b072d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 13:00新增/变化：SMM公开行情显示电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持；磷酸铁锂由12:00页面62560回落至61770元/吨（-790）。SMM新增5月26日甲醇区域报价和光伏边框报价。中文RSS新增深圳“十五五”规划纲要提出加快建设世界一流新型储能产业中心、第七届跨国公司领导人青岛峰会新增新能源汽车/新型储能主题活动，以及大连化物所电解液设计提高锂金属电池低温性能等线索。海外RSS新增Contact Energy新西兰100MW电池投运、Adani Green 50GWh储能扩张路线图/Khavda单址BESS、GIPCL 20MW/120MWh全钒液流项目招标、菲律宾ERC调峰储备政策调整、印度储能消纳风险。SolarQuarter新增Rajasthan用太阳能+电池替代新煤电可节省5700亿卢比、马来西亚Suria Home屋顶光伏补贴等。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-1200-public-new",
         "title": "12:00新增国内+海外储能/电池线索",
@@ -54631,6 +54771,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-1300-contact-adani-gipcl-rajasthan",
+        "source": "Google News RSS / SolarQuarter",
+        "category": "海外观察/BESS/液流电池/政策",
+        "title": "海外新增Contact Energy新西兰100MW电池、Adani 50GWh路线图与GIPCL 20MW/120MWh VRFB",
+        "summary": "13:00海外公开源新增Contact Energy新西兰100MW电池投运、Adani Green 50GWh储能扩张路线图/Khavda单址BESS继续上移、GIPCL 20MW/120MWh全钒液流电池项目招标，以及Rajasthan太阳能+电池替代新煤电可节省5700亿卢比测算。",
+        "value": "100",
+        "unit": "MW电池储能",
+        "delta": "海外BESS、液流电池招标与储能经济性线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 13:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "13:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 fafb76f07fadfe858535dd4f8f8c541850cc7fe371960e2c561e7b566f1fba19，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 374d86f98d94845d4100a4da0f56dedf8115cfe3b076d03696e1902eb9942de6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 11a89b400b52b4c7603beabea9ceca9a7dd53478097b8646a325409f8596380b，pv magazine 129ed7f1ec6914c6e82a15d33410bbf56d97f7b4a9bff64878d6ab8879c0ff8a，SolarQuarter 77817ad31c16d3ebfef2be8cffe8c361efb939c5de62b84c777a9c82596b072d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 13:00新增/变化：SMM公开行情显示电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持；磷酸铁锂由12:00页面62560回落至61770元/吨（-790）。SMM新增5月26日甲醇区域报价和光伏边框报价。中文RSS新增深圳“十五五”规划纲要提出加快建设世界一流新型储能产业中心、第七届跨国公司领导人青岛峰会新增新能源汽车/新型储能主题活动，以及大连化物所电解液设计提高锂金属电池低温性能等线索。海外RSS新增Contact Energy新西兰100MW电池投运、Adani Green 50GWh储能扩张路线图/Khavda单址BESS、GIPCL 20MW/120MWh全钒液流项目招标、菲律宾ERC调峰储备政策调整、印度储能消纳风险。SolarQuarter新增Rajasthan用太阳能+电池替代新煤电可节省5700亿卢比、马来西亚Suria Home屋顶光伏补贴等。"
+      },
+      {
         "id": "overseas-20260526-1200-adani-fortescue-zoe-hithium",
         "source": "Google News RSS / Energy-Storage.News",
         "category": "海外观察/BESS/长时储能/制造",
@@ -61047,6 +61202,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-1300-lfp-global-bess",
+        "source": "SMM上海有色 / Google News RSS / SolarQuarter",
+        "category": "磷酸铁锂/储能政策/海外BESS",
+        "title": "磷酸铁锂61770；深圳新型储能中心、Contact 100MW与Adani 50GWh路线图新增",
+        "summary": "13:00严格刷新新增采信：SMM磷酸铁锂从12:00页面62560回落至61770元/吨，电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持。国内新增深圳“十五五”加快建设世界一流新型储能产业中心、青岛峰会新增新能源汽车/新型储能主题活动和大连化物所电解液低温性能研究；海外新增Contact Energy新西兰100MW电池、Adani Green 50GWh储能路线图、GIPCL 20MW/120MWh VRFB招标、Rajasthan太阳能+电池替代煤电节省测算。",
+        "value": "61770",
+        "unit": "元/吨磷酸铁锂",
+        "delta": "磷酸铁锂-790；国内政策与海外BESS/VRFB线索新增",
+        "direction": "down",
+        "date": "05-26",
+        "as_of": "2026-05-26 13:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "13:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 788d128673c2dcc9b3c33b6e55403326a74b03925d92b6ef87f25f49a5e148cc，SMM新能源 fafb76f07fadfe858535dd4f8f8c541850cc7fe371960e2c561e7b566f1fba19，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 1b0f501ce0c276388d981227b39a7ae6e959d68a852a3e5fa90df0d53b056115，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA 374d86f98d94845d4100a4da0f56dedf8115cfe3b076d03696e1902eb9942de6。 海外入口：Energy-Storage.News 52d66317fc86898c3c5ad1f04cf21f229fcfba0c720993e0017aaebb364feb45，ESS News 11a89b400b52b4c7603beabea9ceca9a7dd53478097b8646a325409f8596380b，pv magazine 129ed7f1ec6914c6e82a15d33410bbf56d97f7b4a9bff64878d6ab8879c0ff8a，SolarQuarter 77817ad31c16d3ebfef2be8cffe8c361efb939c5de62b84c777a9c82596b072d，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 13:00新增/变化：SMM公开行情显示电池级碳酸锂180000元/吨、电碳指数179532元/吨、电解液29350元/吨维持；磷酸铁锂由12:00页面62560回落至61770元/吨（-790）。SMM新增5月26日甲醇区域报价和光伏边框报价。中文RSS新增深圳“十五五”规划纲要提出加快建设世界一流新型储能产业中心、第七届跨国公司领导人青岛峰会新增新能源汽车/新型储能主题活动，以及大连化物所电解液设计提高锂金属电池低温性能等线索。海外RSS新增Contact Energy新西兰100MW电池投运、Adani Green 50GWh储能扩张路线图/Khavda单址BESS、GIPCL 20MW/120MWh全钒液流项目招标、菲律宾ERC调峰储备政策调整、印度储能消纳风险。SolarQuarter新增Rajasthan用太阳能+电池替代新煤电可节省5700亿卢比、马来西亚Suria Home屋顶光伏补贴等。"
+      },
       {
         "id": "market-20260526-1200-lfp-electrolyte-bess",
         "source": "SMM上海有色 / Google News RSS / 中国能源网 / Energy-Storage.News",
@@ -75672,6 +75842,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-1300-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 13:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入磷酸铁锂回落、深圳新型储能中心、Contact 100MW和Adani 50GWh路线图。"
+      },
+      {
+        "id": "source-20260526-1300-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 13:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充磷酸铁锂回落、国内政策与海外BESS/VRFB证据。"
+      },
+      {
+        "id": "source-20260526-1300-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 13:00 CST",
+        "status": 200,
+        "sha256": "fafb76f07fadfe858535dd4f8f8c541850cc7fe371960e2c561e7b566f1fba19",
+        "finding": "13:00复核：电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、电解液29350元/吨持平；磷酸铁锂61770元/吨，较12:00页面回落790；新增甲醇区域和光伏边框报价。"
+      },
+      {
+        "id": "source-20260526-1300-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 13:00 CST",
+        "status": 200,
+        "sha256": "814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb",
+        "finding": "电池级碳酸锂180000元/吨，SMM电池级碳酸锂指数179532元/吨；较12:00无新增变动。"
+      },
+      {
+        "id": "source-20260526-1300-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 13:00 CST",
+        "status": 200,
+        "sha256": "260d3c6faf80265179cbbae106bee4a92ed95e5ac1418240d83006ffd279275a",
+        "finding": "新增/上移深圳“十五五”加快建设世界一流新型储能产业中心、青岛峰会新增新能源汽车/新型储能主题活动、大连化物所电解液低温性能研究。"
+      },
+      {
+        "id": "source-20260526-1300-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 13:00 CST",
+        "status": 200,
+        "sha256": "34f2e5accace857a9834d9d911d897f5b56bf25930205cf82d7cce75a7391145",
+        "finding": "新增/上移Contact Energy新西兰100MW电池、Adani Green 50GWh储能路线图、GIPCL 20MW/120MWh VRFB招标、菲律宾ERC调峰储备政策。"
+      },
+      {
+        "id": "source-20260526-1300-solarquarter",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/",
+        "as_of": "2026-05-26 13:00 CST",
+        "status": 200,
+        "sha256": "77817ad31c16d3ebfef2be8cffe8c361efb939c5de62b84c777a9c82596b072d",
+        "finding": "新增Rajasthan用太阳能和电池储能替代新煤电可节省5700亿卢比、马来西亚Suria Home光伏补贴等线索。"
+      },
+      {
         "id": "source-20260526-1200-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -84536,5 +84769,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T12:00:00+08:00"
+  "checked_at": "2026-05-26T13:00:00+08:00"
 };
