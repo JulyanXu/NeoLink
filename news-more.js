@@ -62,13 +62,22 @@ const getCredibility = (item) => {
 };
 
 const withCategory = (items = [], category) => items.map((item) => ({ ...item, category }));
-const itemTitle = (item) => item.title || item.name || item.company || "";
+const rawItemTitle = (item) => item.title || item.name || item.company || "";
+
+const stripRefreshPrefix = (value) => String(value ?? "").replace(
+  /^\s*\d{1,2}:\d{2}\s*(?:严格)?刷新[:：]\s*/u,
+  "",
+).trim();
+
+const displayItemTitle = (item) => stripRefreshPrefix(rawItemTitle(item));
+
+const displaySummary = (value) => stripRefreshPrefix(String(value ?? ""));
 const sections = window.NEOLINK_FEED?.sections || {};
 
 const articleId = (item) => encodeURIComponent([
   item.source || "",
   item.date || item.as_of || "",
-  itemTitle(item),
+  rawItemTitle(item),
 ].join("|").toLowerCase());
 
 const articleHref = (item) => `./article.html?id=${articleId(item)}`;
@@ -149,8 +158,8 @@ const renderList = () => {
   list.innerHTML = items.map((item, index) => `
     <article class="more-card panel ${currentSection === "headlines" && index === 0 ? "lead" : ""}">
       ${renderMeta(item)}
-      <a class="more-card-title" href="${escapeHtml(articleHref(item))}">${escapeHtml(itemTitle(item))}</a>
-      <p>${escapeHtml(item.summary || "")}</p>
+      <a class="more-card-title" href="${escapeHtml(articleHref(item))}">${escapeHtml(displayItemTitle(item))}</a>
+      <p>${escapeHtml(displaySummary(item.summary) || "")}</p>
       <div class="more-card-foot">
         <a href="${escapeHtml(articleHref(item))}">${escapeHtml(currentSection === "headlines" ? "头条详情" : "站内详情")}</a>
         <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">查看原文</a>

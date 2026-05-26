@@ -47,18 +47,27 @@ const dateValue = (item = {}) => {
 
 const sortByDateDesc = (items = []) => [...items].sort((a, b) => dateValue(b) - dateValue(a));
 
-const itemTitle = (item) => item.title || item.name || item.company || "";
+const rawItemTitle = (item) => item.title || item.name || item.company || "";
+
+const stripRefreshPrefix = (value) => String(value ?? "").replace(
+  /^\s*\d{1,2}:\d{2}\s*(?:严格)?刷新[:：]\s*/u,
+  "",
+).trim();
+
+const displayItemTitle = (item) => stripRefreshPrefix(rawItemTitle(item));
+
+const displaySummary = (value) => stripRefreshPrefix(String(value ?? ""));
 
 const rawArticleId = (item) => [
   item.source || "",
   item.date || item.as_of || "",
-  itemTitle(item),
+  rawItemTitle(item),
 ].join("|").toLowerCase();
 
 const articleId = (item) => encodeURIComponent(rawArticleId(item));
 
 const getCredibility = (item) => {
-  const source = `${item.source || ""} ${itemTitle(item)}`;
+  const source = `${item.source || ""} ${rawItemTitle(item)}`;
   if (/国家|中国政府|证监|知识产权|交易所|海关|能源局|发改委|工信部|法定信披/.test(source)) {
     return { grade: "S", label: "官方" };
   }
@@ -88,7 +97,7 @@ const collectItems = () => {
   const all = Object.entries(sectionMap).flatMap(([key, label]) => withCategory(sections[key], label));
   const seen = new Map();
   all.forEach((item) => {
-    if (!itemTitle(item)) return;
+    if (!rawItemTitle(item)) return;
     const id = articleId(item);
     if (!seen.has(id)) {
       seen.set(id, { ...item, id, raw_id: rawArticleId(item) });
@@ -289,15 +298,15 @@ const renderRelated = (currentItem, allItems) => {
   list.innerHTML = related.map((entry) => `
     <a class="related-item" href="./article.html?id=${escapeHtml(entry.id)}">
       <span>${escapeHtml(entry.source || "来源未标注")} · ${escapeHtml(displayDate(entry.date || entry.as_of))}</span>
-      <strong>${escapeHtml(itemTitle(entry))}</strong>
+      <strong>${escapeHtml(displayItemTitle(entry))}</strong>
     </a>
   `).join("");
 };
 
 const renderArticle = (item) => {
   const credibility = getCredibility(item);
-  const title = itemTitle(item);
-  const summary = item.summary || item.methodology || item.spec || "该条信息目前只保留基础索引字段，站内正文会根据来源、分类和核心字段生成。";
+  const title = displayItemTitle(item);
+  const summary = displaySummary(item.summary) || item.methodology || item.spec || "该条信息目前只保留基础索引字段，站内正文会根据来源、分类和核心字段生成。";
 
   document.title = `NeoLink | ${title}`;
   document.querySelector(".article-meta").innerHTML = `

@@ -118,17 +118,26 @@ const dateValue = (item = {}) => {
 
 const sortByDateDesc = (items = []) => [...items].sort((a, b) => dateValue(b) - dateValue(a));
 
-const itemTitle = (item) => item.title || item.name || item.company || "";
+const rawItemTitle = (item) => item.title || item.name || item.company || "";
+
+const stripRefreshPrefix = (value) => String(value ?? "").replace(
+  /^\s*\d{1,2}:\d{2}\s*(?:严格)?刷新[:：]\s*/u,
+  "",
+).trim();
+
+const displayItemTitle = (item) => stripRefreshPrefix(rawItemTitle(item));
+
+const displaySummary = (value) => stripRefreshPrefix(String(value ?? ""));
 
 const articleId = (item) => encodeURIComponent([
   item.source || "",
   item.date || item.as_of || "",
-  itemTitle(item),
+  rawItemTitle(item),
 ].join("|").toLowerCase());
 
 const articleHref = (item) => `./article.html?id=${articleId(item)}`;
 
-const linkMarkup = (item, text = itemTitle(item), className = "") => `<a class="${escapeHtml(className)}" href="${escapeHtml(articleHref(item))}" title="${escapeHtml(item.summary || itemTitle(item))}">${escapeHtml(text)}</a>`;
+const linkMarkup = (item, text = displayItemTitle(item), className = "") => `<a class="${escapeHtml(className)}" href="${escapeHtml(articleHref(item))}" title="${escapeHtml(displaySummary(item.summary) || displayItemTitle(item))}">${escapeHtml(text)}</a>`;
 
 const getCredibility = (item) => {
   const source = `${item.source || ""} ${item.title || ""}`;
@@ -157,7 +166,7 @@ const signalMeta = (item, typeLabel) => {
 const renderSignalList = (items = [], typeLabel = "") => sortByDateDesc(items).slice(0, 3).map((item) => `
   <li class="signal-item">
     ${signalMeta(item, typeLabel)}
-    ${linkMarkup(item, item.title, "signal-title")}
+    ${linkMarkup(item, displayItemTitle(item), "signal-title")}
   </li>
 `).join("");
 
@@ -175,7 +184,7 @@ const renderFocusList = (sections) => {
   focusList.innerHTML = sortByDateDesc(items).slice(0, 4).map((item) => `
     <li class="focus-item">
       ${signalMeta(item, item.lane)}
-      ${linkMarkup(item, item.title, "focus-title")}
+      ${linkMarkup(item, displayItemTitle(item), "focus-title")}
     </li>
   `).join("");
 };
@@ -203,14 +212,14 @@ const renderHeadline = (sections) => {
 
   main.innerHTML = `
     ${signalMeta(lead, lead.category || "头条")}
-    ${linkMarkup(lead, itemTitle(lead), "headline-link")}
-    <p>${escapeHtml(lead.summary || "")}</p>
+    ${linkMarkup(lead, displayItemTitle(lead), "headline-link")}
+    <p>${escapeHtml(displaySummary(lead.summary) || "")}</p>
   `;
 
   list.innerHTML = headlines.slice(1, 4).map((item) => `
     <li>
       ${signalMeta(item, item.category || "要闻")}
-      ${linkMarkup(item, itemTitle(item), "headline-side-link")}
+      ${linkMarkup(item, displayItemTitle(item), "headline-side-link")}
     </li>
   `).join("");
 };
@@ -225,8 +234,8 @@ const renderLatestNews = (sections, category = "全部") => {
     <li>
       <div class="news-row-main">
         ${signalMeta(item, item.category || item.type || item.status || item.location)}
-        ${linkMarkup(item, itemTitle(item), "news-title")}
-        <p>${escapeHtml(item.summary || "")}</p>
+        ${linkMarkup(item, displayItemTitle(item), "news-title")}
+        <p>${escapeHtml(displaySummary(item.summary) || "")}</p>
       </div>
     </li>
   `).join("");
