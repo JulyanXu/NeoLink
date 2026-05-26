@@ -1,4 +1,12 @@
 
+## 2026-05-26T23:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `9936b762...`，`/markettrend/` HTTP 200 sha256 `2c041d7c...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
+- 行情复核：SMM新能源/碳酸锂页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较22:00页面未变。
+- 国内新增/上移：EBRD向斯洛文尼亚储能开发商提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东400MW/800MWh储能集采、天赐材料拟开展16万吨高压实磷酸铁锂项目前期工作。
+- 海外新增/上移：澳大利亚成为全球第三大公用事业级电池储能市场，CIS第7轮混合项目锁定7.9GWh储能；Adani Green在印度Khavda投运3.37GWh BESS；欧盟委员会批准PPC/Metlen电池储能合资；乌克兰授予电池储能站关键基础设施地位。
+- 动作：已更新`data/feed.js` generated_at/checked_at至23:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605262300`。Artifacts: `var/hermes/crawl-20260526-2300.py`, `var/hermes/crawl-output-20260526-2300.json`, `var/hermes/search-notes-20260526-2300.json`。
+
+
 ## 2026-05-26T22:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `9936b762...`，`/markettrend/` HTTP 200 sha256 `2c041d7c...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
 - 行情复核：SMM新能源/碳酸锂页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未变。

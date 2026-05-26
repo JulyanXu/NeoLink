@@ -1,8 +1,80 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T22:00:00+08:00",
-  "note": "22:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较20:00页面未变；国内新增/上移国家能源局“人工智能+能源”现场推进会与51个高价值场景、“十五五”新型电网投资预计超5万亿元、晨丰科技拟13.15亿元建设两个储能电站、国家新型储能创新中心与东阳光项目落地广州白云。海外新增Cornex 50GWh储能电池协议、Enbridge拟12亿美元Wyoming Solar-BESS供电Meta数据中心、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖等线索。",
+  "generated_at": "2026-05-26T23:00:00+08:00",
+  "note": "23:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较22:00页面未变；中文RSS新增/上移欧洲复兴开发银行向斯洛文尼亚储能开发商提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东400MW/800MWh储能集采、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作。海外新增/上移澳大利亚成为全球第三大公用事业级电池储能市场、澳大利亚CIS第7轮混合项目锁定7.9GWh储能、Adani Green在印度Khavda投运3.37GWh BESS、欧盟委员会批准PPC与Metlen电池储能合资、乌克兰授予电池储能站关键基础设施地位。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-2300-australia-adani-cis-cn-storage",
+        "source": "SMM上海有色 / Google News中文RSS / Energy-Storage.News / ESS News / Renewables Now / pv magazine",
+        "source_type": "专业行情/新闻RSS/海外行业媒体",
+        "account_name": "SMM / Google News / Energy-Storage.News / ESS News / Renewables Now / pv magazine",
+        "category": "海外储能市场/项目招标/磷酸铁锂/公用事业级BESS",
+        "title": "23:00刷新：澳大利亚CIS第7轮锁定7.9GWh，Adani Green投运3.37GWh BESS",
+        "summary": "23:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较22:00页面未变；中文RSS新增/上移欧洲复兴开发银行向斯洛文尼亚储能开发商提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东400MW/800MWh储能集采、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作。海外新增/上移澳大利亚成为全球第三大公用事业级电池储能市场、澳大利亚CIS第7轮混合项目锁定7.9GWh储能、Adani Green在印度Khavda投运3.37GWh BESS、欧盟委员会批准PPC与Metlen电池储能合资、乌克兰授予电池储能站关键基础设施地位。",
+        "body": [
+          "行情：SMM 23:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较22:00页面未见价格跳动。",
+          "海外市场：Energy-Storage.News/ESS News在RSS中上移澳大利亚已成为全球第三大公用事业级电池储能市场；澳大利亚容量投资计划第7轮中，混合项目合计锁定7.9GWh储能。",
+          "海外项目：ESS News与多家RSS源上移Adani Green在印度Khavda投运3.37GWh电池储能系统，称其为中国以外最大单地点电池储能部署之一。",
+          "欧洲政策与融资：pv magazine中文源上移欧洲复兴开发银行向斯洛文尼亚储能开发商提供7000万欧元贷款；Renewables Now上移欧盟委员会批准PPC与Metlen电池储能合资。",
+          "国内招投标/材料：中文RSS新增昆明安宁350MW盐穴压缩空气储能示范项目启动工程咨询招标、国电投山东400MW/800MWh储能集采、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作。",
+          "安全/电网：CEEnergynews上移乌克兰授予电池储能站关键基础设施地位，说明储能资产在电力系统安全中的角色继续提升。"
+        ],
+        "key_points": [
+          "澳大利亚CIS第7轮混合项目储能规模为7.9GWh，公用事业级电池市场地位继续上升。",
+          "Adani Green 3.37GWh Khavda BESS为海外大型储能本小时最明确的新增项目线索。",
+          "国内新增盐穴压缩空气储能、400MW/800MWh集采和16万吨高压实磷酸铁锂前期工作线索。",
+          "SMM材料价格本小时复核未变，保留22:00以来同一公开报价口径。"
+        ],
+        "value": "7.9",
+        "unit": "GWh澳大利亚CIS混合项目储能",
+        "delta": "新增/上移7.9GWh CIS、3.37GWh Adani、400MW/800MWh国电投、350MW盐穴压缩空气、16万吨磷酸铁锂、7000万欧元储能贷款",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 23:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://www.pv-magazine.com/",
+          "https://www.renewablesnow.com/",
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>23:00新增/复核：SMM四项材料价格较22:00未变；海外新增/上移澳大利亚CIS第7轮7.9GWh、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰储能站关键基础设施地位；国内新增昆明安宁350MW盐穴压缩空气储能咨询招标、国电投山东400MW/800MWh集采、天赐材料16万吨高压实磷酸铁锂前期工作。</p>",
+        "caption": "公用事业级BESS、容量机制和材料扩产成为本小时新增主线。",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询返回HTTP 432，改用requests直连行业站、监管站、专业媒体及Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 3abbcc517f6bdeb9cc3517b921debd5b68b78cb2801aca1bf5e740753d35959d，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 327868174416982d8cfa8887bbdef2df200c43493356e32ae22c0b6aec90a332。 海外入口：Energy-Storage.News 8c852ad755d17fb81ae9770f4fc9895d2153cd374e5270078abe30d5d847d5e4，ESS News 884d9599c24b29fad9ece8f491c61b070b01f6095675769f81351a54bd271c37，pv magazine 191914bf8bb5de3b4cd0c2ce27a2e2016a3d3b2db09068906c27f3f762a0d686，SolarQuarter 984a4356bf5a8bec127298a299a9a41242c9e61f1da2ed87f37fe2fe33f9a0dc，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 23:00新增/变化：SMM公开行情价格数值较22:00未变；Google News中文RSS新增或上移EBRD向斯洛文尼亚储能开发商NGEN提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东两大储能集采400MW/800MWh、天赐材料年产16万吨高压实磷酸铁锂项目前期工作。海外RSS新增或上移澳大利亚公用事业级电池储能市场排名、CIS第7轮7.9GWh混合项目、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰电池储能关键基础设施地位等。",
+        "history": [
+          {
+            "label": "澳大利亚CIS储能 GWh",
+            "value": 7.9
+          },
+          {
+            "label": "Adani Khavda BESS GWh",
+            "value": 3.37
+          },
+          {
+            "label": "国电投山东集采 MWh",
+            "value": 800
+          },
+          {
+            "label": "昆明安宁盐穴压缩空气 MW",
+            "value": 350
+          },
+          {
+            "label": "天赐高压实LFP 万吨/年",
+            "value": 16
+          },
+          {
+            "label": "EBRD贷款 百万欧元",
+            "value": 70
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          }
+        ]
+      },
       {
         "id": "headline-20260526-2200-cornex-ai-grid-bess",
         "source": "SMM上海有色 / 中国能源网 / 工信部 / ESS News / SolarQuarter / Google News RSS",
@@ -15450,6 +15522,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-2300-australia-adani-cn",
+        "source": "SMM上海有色 / Google News中文RSS / Energy-Storage.News / ESS News / Renewables Now / pv magazine",
+        "source_type": "专业行情/新闻RSS/海外行业媒体",
+        "account_name": "SMM / Google News / Energy-Storage.News / ESS News / Renewables Now / pv magazine",
+        "category": "海外储能市场/项目招标/磷酸铁锂/公用事业级BESS",
+        "title": "23:00刷新：澳大利亚CIS第7轮锁定7.9GWh，Adani Green投运3.37GWh BESS",
+        "summary": "23:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较22:00页面未变；中文RSS新增/上移欧洲复兴开发银行向斯洛文尼亚储能开发商提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东400MW/800MWh储能集采、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作。海外新增/上移澳大利亚成为全球第三大公用事业级电池储能市场、澳大利亚CIS第7轮混合项目锁定7.9GWh储能、Adani Green在印度Khavda投运3.37GWh BESS、欧盟委员会批准PPC与Metlen电池储能合资、乌克兰授予电池储能站关键基础设施地位。",
+        "body": [
+          "行情：SMM 23:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较22:00页面未见价格跳动。",
+          "海外市场：Energy-Storage.News/ESS News在RSS中上移澳大利亚已成为全球第三大公用事业级电池储能市场；澳大利亚容量投资计划第7轮中，混合项目合计锁定7.9GWh储能。",
+          "海外项目：ESS News与多家RSS源上移Adani Green在印度Khavda投运3.37GWh电池储能系统，称其为中国以外最大单地点电池储能部署之一。",
+          "欧洲政策与融资：pv magazine中文源上移欧洲复兴开发银行向斯洛文尼亚储能开发商提供7000万欧元贷款；Renewables Now上移欧盟委员会批准PPC与Metlen电池储能合资。",
+          "国内招投标/材料：中文RSS新增昆明安宁350MW盐穴压缩空气储能示范项目启动工程咨询招标、国电投山东400MW/800MWh储能集采、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作。",
+          "安全/电网：CEEnergynews上移乌克兰授予电池储能站关键基础设施地位，说明储能资产在电力系统安全中的角色继续提升。"
+        ],
+        "key_points": [
+          "澳大利亚CIS第7轮混合项目储能规模为7.9GWh，公用事业级电池市场地位继续上升。",
+          "Adani Green 3.37GWh Khavda BESS为海外大型储能本小时最明确的新增项目线索。",
+          "国内新增盐穴压缩空气储能、400MW/800MWh集采和16万吨高压实磷酸铁锂前期工作线索。",
+          "SMM材料价格本小时复核未变，保留22:00以来同一公开报价口径。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 23:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "original_url": "https://news.google.com/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://www.pv-magazine.com/",
+          "https://www.renewablesnow.com/",
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>23:00新增/复核：SMM四项材料价格较22:00未变；海外新增/上移澳大利亚CIS第7轮7.9GWh、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰储能站关键基础设施地位；国内新增昆明安宁350MW盐穴压缩空气储能咨询招标、国电投山东400MW/800MWh集采、天赐材料16万吨高压实磷酸铁锂前期工作。</p>",
+        "caption": "公用事业级BESS、容量机制和材料扩产成为本小时新增主线。",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询返回HTTP 432，改用requests直连行业站、监管站、专业媒体及Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 3abbcc517f6bdeb9cc3517b921debd5b68b78cb2801aca1bf5e740753d35959d，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 327868174416982d8cfa8887bbdef2df200c43493356e32ae22c0b6aec90a332。 海外入口：Energy-Storage.News 8c852ad755d17fb81ae9770f4fc9895d2153cd374e5270078abe30d5d847d5e4，ESS News 884d9599c24b29fad9ece8f491c61b070b01f6095675769f81351a54bd271c37，pv magazine 191914bf8bb5de3b4cd0c2ce27a2e2016a3d3b2db09068906c27f3f762a0d686，SolarQuarter 984a4356bf5a8bec127298a299a9a41242c9e61f1da2ed87f37fe2fe33f9a0dc，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 23:00新增/变化：SMM公开行情价格数值较22:00未变；Google News中文RSS新增或上移EBRD向斯洛文尼亚储能开发商NGEN提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东两大储能集采400MW/800MWh、天赐材料年产16万吨高压实磷酸铁锂项目前期工作。海外RSS新增或上移澳大利亚公用事业级电池储能市场排名、CIS第7轮7.9GWh混合项目、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰电池储能关键基础设施地位等。"
+      },
       {
         "id": "latest-20260526-2200-cornex-ai-grid",
         "source": "SMM上海有色 / 中国能源网 / 工信部 / ESS News / SolarQuarter / Google News RSS",
@@ -37756,6 +37866,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-2300-smm-flat-lfp-storage",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；23:00复核较22:00未变；新增天赐材料16万吨高压实磷酸铁锂、储能项目招标和海外BESS证据",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较22:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 23:00 CST",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询返回HTTP 432，改用requests直连行业站、监管站、专业媒体及Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 3abbcc517f6bdeb9cc3517b921debd5b68b78cb2801aca1bf5e740753d35959d，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 327868174416982d8cfa8887bbdef2df200c43493356e32ae22c0b6aec90a332。 海外入口：Energy-Storage.News 8c852ad755d17fb81ae9770f4fc9895d2153cd374e5270078abe30d5d847d5e4，ESS News 884d9599c24b29fad9ece8f491c61b070b01f6095675769f81351a54bd271c37，pv magazine 191914bf8bb5de3b4cd0c2ce27a2e2016a3d3b2db09068906c27f3f762a0d686，SolarQuarter 984a4356bf5a8bec127298a299a9a41242c9e61f1da2ed87f37fe2fe33f9a0dc，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 23:00新增/变化：SMM公开行情价格数值较22:00未变；Google News中文RSS新增或上移EBRD向斯洛文尼亚储能开发商NGEN提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东两大储能集采400MW/800MWh、天赐材料年产16万吨高压实磷酸铁锂项目前期工作。海外RSS新增或上移澳大利亚公用事业级电池储能市场排名、CIS第7轮7.9GWh混合项目、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰电池储能关键基础设施地位等。"
+      },
+      {
         "id": "material-20260526-2200-smm-flat-ai-energy",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；22:00复核较20:00未变；新增AI+能源、储能电站和海外储能电池协议证据",
@@ -41527,6 +41650,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-2300-public-new",
+        "title": "23:00新增国内+海外储能/电池线索",
+        "value": "94",
+        "unit": "条",
+        "caption": "Google News中英文RSS新增/上移澳大利亚7.9GWh CIS、Adani 3.37GWh、欧盟PPC/Metlen储能合资、EBRD 7000万欧元贷款、国电投山东400MW/800MWh集采、天赐16万吨LFP等线索。",
+        "delta": "较22:00 RSS新增或上移",
+        "direction": "up",
+        "source": "Google News中文RSS / Google News海外RSS / SMM上海有色",
+        "as_of": "2026-05-26 23:00 CST",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询返回HTTP 432，改用requests直连行业站、监管站、专业媒体及Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 3abbcc517f6bdeb9cc3517b921debd5b68b78cb2801aca1bf5e740753d35959d，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 327868174416982d8cfa8887bbdef2df200c43493356e32ae22c0b6aec90a332。 海外入口：Energy-Storage.News 8c852ad755d17fb81ae9770f4fc9895d2153cd374e5270078abe30d5d847d5e4，ESS News 884d9599c24b29fad9ece8f491c61b070b01f6095675769f81351a54bd271c37，pv magazine 191914bf8bb5de3b4cd0c2ce27a2e2016a3d3b2db09068906c27f3f762a0d686，SolarQuarter 984a4356bf5a8bec127298a299a9a41242c9e61f1da2ed87f37fe2fe33f9a0dc，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 23:00新增/变化：SMM公开行情价格数值较22:00未变；Google News中文RSS新增或上移EBRD向斯洛文尼亚储能开发商NGEN提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东两大储能集采400MW/800MWh、天赐材料年产16万吨高压实磷酸铁锂项目前期工作。海外RSS新增或上移澳大利亚公用事业级电池储能市场排名、CIS第7轮7.9GWh混合项目、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰电池储能关键基础设施地位等。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-2200-public-new",
         "title": "22:00新增国内+海外储能/电池线索",
@@ -55327,6 +55463,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-2300-australia-adani-eu-ukraine",
+        "source": "Energy-Storage.News / ESS News / Renewables Now / CEEnergynews / Google News RSS",
+        "category": "海外观察/BESS市场/容量机制/政策",
+        "title": "澳大利亚、印度、欧盟与乌克兰储能线索集中上移",
+        "summary": "23:00海外公开源新增/上移澳大利亚成为全球第三大公用事业级电池储能市场、澳大利亚CIS第7轮混合项目锁定7.9GWh储能、Adani Green在印度Khavda投运3.37GWh BESS、欧盟委员会批准PPC与Metlen电池储能合资、乌克兰授予电池储能站关键基础设施地位。",
+        "value": "3.37",
+        "unit": "GWh Adani BESS",
+        "delta": "海外BESS市场、容量机制和政策线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 23:00 CST",
+        "url": "https://www.ess-news.com/",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询返回HTTP 432，改用requests直连行业站、监管站、专业媒体及Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 3abbcc517f6bdeb9cc3517b921debd5b68b78cb2801aca1bf5e740753d35959d，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 327868174416982d8cfa8887bbdef2df200c43493356e32ae22c0b6aec90a332。 海外入口：Energy-Storage.News 8c852ad755d17fb81ae9770f4fc9895d2153cd374e5270078abe30d5d847d5e4，ESS News 884d9599c24b29fad9ece8f491c61b070b01f6095675769f81351a54bd271c37，pv magazine 191914bf8bb5de3b4cd0c2ce27a2e2016a3d3b2db09068906c27f3f762a0d686，SolarQuarter 984a4356bf5a8bec127298a299a9a41242c9e61f1da2ed87f37fe2fe33f9a0dc，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 23:00新增/变化：SMM公开行情价格数值较22:00未变；Google News中文RSS新增或上移EBRD向斯洛文尼亚储能开发商NGEN提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东两大储能集采400MW/800MWh、天赐材料年产16万吨高压实磷酸铁锂项目前期工作。海外RSS新增或上移澳大利亚公用事业级电池储能市场排名、CIS第7轮7.9GWh混合项目、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰电池储能关键基础设施地位等。"
+      },
+      {
         "id": "overseas-20260526-2200-cornex-enbridge-zoe-inlyte",
         "source": "ESS News / SolarQuarter / Google News RSS",
         "category": "海外观察/BESS制造/数据中心电力/铁钠电池/拍卖",
@@ -61818,6 +61969,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-2300-australia-adani-cis",
+        "source": "SMM上海有色 / Google News中文RSS / Energy-Storage.News / ESS News / Renewables Now / pv magazine",
+        "category": "公用事业级BESS/容量机制/材料扩产",
+        "title": "澳大利亚7.9GWh CIS、Adani 3.37GWh BESS与国内储能招投标上移",
+        "summary": "23:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较22:00页面未变；中文RSS新增/上移欧洲复兴开发银行向斯洛文尼亚储能开发商提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东400MW/800MWh储能集采、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作。海外新增/上移澳大利亚成为全球第三大公用事业级电池储能市场、澳大利亚CIS第7轮混合项目锁定7.9GWh储能、Adani Green在印度Khavda投运3.37GWh BESS、欧盟委员会批准PPC与Metlen电池储能合资、乌克兰授予电池储能站关键基础设施地位。",
+        "value": "7.9",
+        "unit": "GWh",
+        "delta": "海外大型BESS和国内招投标/材料项目新增；SMM材料报价较22:00未变",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 23:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询返回HTTP 432，改用requests直连行业站、监管站、专业媒体及Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 3abbcc517f6bdeb9cc3517b921debd5b68b78cb2801aca1bf5e740753d35959d，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 327868174416982d8cfa8887bbdef2df200c43493356e32ae22c0b6aec90a332。 海外入口：Energy-Storage.News 8c852ad755d17fb81ae9770f4fc9895d2153cd374e5270078abe30d5d847d5e4，ESS News 884d9599c24b29fad9ece8f491c61b070b01f6095675769f81351a54bd271c37，pv magazine 191914bf8bb5de3b4cd0c2ce27a2e2016a3d3b2db09068906c27f3f762a0d686，SolarQuarter 984a4356bf5a8bec127298a299a9a41242c9e61f1da2ed87f37fe2fe33f9a0dc，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 23:00新增/变化：SMM公开行情价格数值较22:00未变；Google News中文RSS新增或上移EBRD向斯洛文尼亚储能开发商NGEN提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东两大储能集采400MW/800MWh、天赐材料年产16万吨高压实磷酸铁锂项目前期工作。海外RSS新增或上移澳大利亚公用事业级电池储能市场排名、CIS第7轮7.9GWh混合项目、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰电池储能关键基础设施地位等。"
+      },
       {
         "id": "market-20260526-2200-cornex-zoe-datacenter",
         "source": "SMM上海有色 / 中国能源网 / 工信部 / ESS News / SolarQuarter / Google News RSS",
@@ -76518,6 +76684,78 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-2300-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 23:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入澳大利亚7.9GWh、Adani 3.37GWh、国内储能招投标和材料扩产线索。"
+      },
+      {
+        "id": "source-20260526-2300-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 23:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充海外BESS市场、容量机制与国内项目证据。"
+      },
+      {
+        "id": "source-20260526-2300-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 23:00 CST",
+        "status": 200,
+        "sha256": "3abbcc517f6bdeb9cc3517b921debd5b68b78cb2801aca1bf5e740753d35959d",
+        "finding": "23:00复核：电池级碳酸锂180000、SMM电池级碳酸锂指数179532、磷酸铁锂61770、电解液29350元/吨；较22:00页面未变。"
+      },
+      {
+        "id": "source-20260526-2300-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 23:00 CST",
+        "status": 200,
+        "sha256": "7b7e628d05608a424e3c8565e1469e72e0f25dbaed633ebda639a2eedfdf9b93",
+        "finding": "新增/上移EBRD 7000万欧元储能贷款、昆明安宁350MW盐穴压缩空气储能咨询招标、国电投山东400MW/800MWh储能集采、天赐材料16万吨高压实磷酸铁锂前期工作。"
+      },
+      {
+        "id": "source-20260526-2300-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 23:00 CST",
+        "status": 200,
+        "sha256": "5925c7db872589d5e192cbd3363f722054d927f68a19955449d11358b0f575a5",
+        "finding": "新增/上移澳大利亚全球第三大公用事业级电池储能市场、CIS第7轮7.9GWh、Adani Green 3.37GWh BESS、PPC/Metlen储能合资和乌克兰关键基础设施地位。"
+      },
+      {
+        "id": "source-20260526-2300-ess",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/",
+        "as_of": "2026-05-26 23:00 CST",
+        "status": 200,
+        "sha256": "884d9599c24b29fad9ece8f491c61b070b01f6095675769f81351a54bd271c37",
+        "finding": "首页可见Australia now third-largest utility-scale battery market、Adani Green 3.37GWh BESS、Inlyte铁钠电池试点等。"
+      },
+      {
+        "id": "source-20260526-2300-esn",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-26 23:00 CST",
+        "status": 200,
+        "sha256": "8c852ad755d17fb81ae9770f4fc9895d2153cd374e5270078abe30d5d847d5e4",
+        "finding": "首页/RSS上移澳大利亚CIS第7轮混合项目锁定7.9GWh储能。"
+      },
+      {
+        "id": "source-20260526-2300-pv",
+        "source": "pv magazine",
+        "url": "https://www.pv-magazine.com/",
+        "as_of": "2026-05-26 23:00 CST",
+        "status": 200,
+        "sha256": "191914bf8bb5de3b4cd0c2ce27a2e2016a3d3b2db09068906c27f3f762a0d686",
+        "finding": "RSS上移欧洲复兴开发银行向斯洛文尼亚储能开发商提供7000万欧元贷款。"
+      },
+      {
         "id": "source-20260526-2200-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -85760,5 +85998,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T22:00:00+08:00"
+  "checked_at": "2026-05-26T23:00:00+08:00"
 };
