@@ -1,8 +1,83 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T14:00:00+08:00",
-  "note": "14:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较13:00页面未变；新增北极星储能宁夏银川1.5GW/6GWh电网侧电化学储能清单、新疆克拉玛依独山子不低于540MW/4h独立储能初选投资人。海外新增Ameresco Ontario 250MW电池、Hithium 8小时长时储能澳大利亚首发、Trinasolar菲律宾PV+BESS、Adani Green Khavda 3.37GWh BESS，以及SolarQuarter美国Q1可再生发电增长11%/Pace Digitek扩展BESS制造。",
+  "generated_at": "2026-05-26T15:00:00+08:00",
+  "note": "15:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较14:00页面未变；Google News中文上移碳酸锂期货主力日内跌4%/175920与长江有色成本下降预期。国内新增北极星内蒙古200MW/800MWh电网侧友好型独立储能中标候选人、国宁新储7GW储能电芯框采入围。海外新增EnergyTrend五家企业储能电池项目超47GWh、鹏程无限钠离子新品、BYD 5GWh/Fox ESS澳大利亚出货记录，以及印度电池供应链安全、Adani 3.37GWh、Southern Power Texas BESS JDA等线索。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-1500-inner-mongolia-7gw-47gwh-energytrend",
+        "source": "SMM上海有色 / 北极星储能 / EnergyTrend / Google News RSS / Energy-Storage.News",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / 北极星储能 / EnergyTrend / Google News / Energy-Storage.News",
+        "category": "电化学储能/电芯框采/海外BESS/钠离子/锂电材料",
+        "title": "15:00刷新：内蒙古200MW/800MWh与国宁7GW电芯框采新增；海外47GWh储能电池项目上移",
+        "summary": "15:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较14:00页面未变；Google News中文上移碳酸锂期货主力日内跌4%/175920与长江有色成本下降预期。国内新增北极星内蒙古200MW/800MWh电网侧友好型独立储能中标候选人、国宁新储7GW储能电芯框采入围。海外新增EnergyTrend五家企业储能电池项目超47GWh、鹏程无限钠离子新品、BYD 5GWh/Fox ESS澳大利亚出货记录，以及印度电池供应链安全、Adani 3.37GWh、Southern Power Texas BESS JDA等线索。",
+        "body": [
+          "行情：SMM 15:00公开页显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较14:00页面未变；Google News中文同时上移碳酸锂期货主力日内跌4%/175920。",
+          "国内储能：北极星储能新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人公示。",
+          "国内供应链：北极星储能新增国宁新储7GW储能电芯框采入围，涉及宁德时代、楚能新能源、中创新航。",
+          "海外项目/企业：EnergyTrend新增Shuangdeng等5家企业储能电池项目超47GWh进展、BYD 5GWh协议和Fox ESS澳大利亚出货记录。",
+          "海外技术：EnergyTrend新增鹏程无限钠离子电池新品；Google News海外上移热电池材料与住宅储能报道。",
+          "海外政策/供应链：Energy-Storage.News新增印度电池供应链安全评论，Google News上移Southern Power Texas BESS JDA、Adani Green Khavda 3.37GWh。"
+        ],
+        "key_points": [
+          "本轮行情价格未跳动，但新增碳酸锂期货日内跌4%/175920的公开新闻证据。",
+          "国内新增一项200MW/800MWh独立储能候选人公示和一项7GW储能电芯框采入围。",
+          "海外新增47GWh储能电池项目进展、5GWh协议、钠离子新品和印度供应链安全线索。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "value": "800",
+        "unit": "MWh内蒙古电网侧储能",
+        "delta": "新增内蒙古200MW/800MWh、国宁7GW电芯框采；SMM材料报价较14:00未变",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 15:00 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://www.energytrend.com/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://www.energytrend.com/",
+          "https://www.energy-storage.news/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>15:00新增/复核：SMM四项材料价格较14:00未变；国内新增内蒙古200MW/800MWh独立储能候选人和国宁新储7GW储能电芯框采入围；海外新增EnergyTrend超47GWh储能电池项目进展、BYD 5GWh/Fox ESS、鹏程无限钠离子新品、印度供应链安全与Southern Power Texas BESS。</p>",
+        "caption": "国内电网侧储能与电芯框采新增，海外储能电池项目/供应链线索继续上移。",
+        "methodology": "15:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 fa116bc55eb312fa5e1e240aa747b8fb2875d4ce71f3f96a87504e3efe4c95b9，SMM新能源 b5b21c7b3e19fe257745ffff8bf93ffc9cd21c90bbe0e0208a78eefc0142b1ae，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA d5517ce0b4289527d4e3dee050b7b412744cc63c9d1916b74f4dafc4142e481f。 海外入口：Energy-Storage.News 0f3bc7937b6e93129d44e8214760a8179edd8a0b30c8627060b1f5adefa2816b，ESS News 831d80acd67b5508c437de6f75840558899e3497be62732071d76a2b2140c66a，pv magazine 8a7cf554a139306284e283beeb1cce40a067ae2e21009e4b168c8099461cfad7，SolarQuarter 2b81a285d43a680fa17ed67a619bd52db659478797b468e845f5cb4f0c3d4071，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 15:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较14:00页面未变；Google News中文新增/上移碳酸锂期货主力日内跌4%/现报175920、长江有色称丰水期来临成本预期下降，阳光电源2026年全球储能需求将暴增50%。国内北极星新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人，以及国宁新储7GW储能电芯框采入围（宁德时代、楚能新能源、中创新航）。海外EnergyTrend新增5家企业储能电池项目超47GWh进展、鹏程无限钠离子新品、比亚迪5GWh协议/Fox ESS澳大利亚出货记录；Energy-Storage.News新增印度电池供应链安全评论；Google News海外新增/上移Adani Green储能容量3.37GWh、Southern Power Texas BESS JDA、热电池材料与住宅储能报道。",
+        "history": [
+          {
+            "label": "内蒙古储能 MW",
+            "value": 200
+          },
+          {
+            "label": "内蒙古储能 MWh",
+            "value": 800
+          },
+          {
+            "label": "国宁电芯框采 GW",
+            "value": 7
+          },
+          {
+            "label": "EnergyTrend项目进展 GWh",
+            "value": 47
+          },
+          {
+            "label": "BYD协议 GWh",
+            "value": 5
+          },
+          {
+            "label": "碳酸锂期货新闻价 元/吨",
+            "value": 175920
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61770
+          }
+        ]
+      },
       {
         "id": "headline-20260526-1400-ningxia-xinjiang-bess-adani-ameresco",
         "source": "SMM上海有色 / 北极星储能 / Google News RSS / SolarQuarter",
@@ -15223,6 +15298,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-1500-inner-mongolia-7gw-47gwh",
+        "source": "SMM上海有色 / 北极星储能 / EnergyTrend / Google News RSS / Energy-Storage.News",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / 北极星储能 / EnergyTrend / Google News / Energy-Storage.News",
+        "category": "电化学储能/电芯框采/海外BESS/钠离子/锂电材料",
+        "title": "15:00刷新：内蒙古200MW/800MWh与国宁7GW电芯框采新增；海外47GWh储能电池项目上移",
+        "summary": "15:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较14:00页面未变；Google News中文上移碳酸锂期货主力日内跌4%/175920与长江有色成本下降预期。国内新增北极星内蒙古200MW/800MWh电网侧友好型独立储能中标候选人、国宁新储7GW储能电芯框采入围。海外新增EnergyTrend五家企业储能电池项目超47GWh、鹏程无限钠离子新品、BYD 5GWh/Fox ESS澳大利亚出货记录，以及印度电池供应链安全、Adani 3.37GWh、Southern Power Texas BESS JDA等线索。",
+        "body": [
+          "行情：SMM 15:00公开页显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较14:00页面未变；Google News中文同时上移碳酸锂期货主力日内跌4%/175920。",
+          "国内储能：北极星储能新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人公示。",
+          "国内供应链：北极星储能新增国宁新储7GW储能电芯框采入围，涉及宁德时代、楚能新能源、中创新航。",
+          "海外项目/企业：EnergyTrend新增Shuangdeng等5家企业储能电池项目超47GWh进展、BYD 5GWh协议和Fox ESS澳大利亚出货记录。",
+          "海外技术：EnergyTrend新增鹏程无限钠离子电池新品；Google News海外上移热电池材料与住宅储能报道。",
+          "海外政策/供应链：Energy-Storage.News新增印度电池供应链安全评论，Google News上移Southern Power Texas BESS JDA、Adani Green Khavda 3.37GWh。"
+        ],
+        "key_points": [
+          "本轮行情价格未跳动，但新增碳酸锂期货日内跌4%/175920的公开新闻证据。",
+          "国内新增一项200MW/800MWh独立储能候选人公示和一项7GW储能电芯框采入围。",
+          "海外新增47GWh储能电池项目进展、5GWh协议、钠离子新品和印度供应链安全线索。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 15:00 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://www.energytrend.com/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://www.energytrend.com/",
+          "https://www.energy-storage.news/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>15:00新增/复核：SMM四项材料价格较14:00未变；国内新增内蒙古200MW/800MWh独立储能候选人和国宁新储7GW储能电芯框采入围；海外新增EnergyTrend超47GWh储能电池项目进展、BYD 5GWh/Fox ESS、鹏程无限钠离子新品、印度供应链安全与Southern Power Texas BESS。</p>",
+        "caption": "国内电网侧储能与电芯框采新增，海外储能电池项目/供应链线索继续上移。",
+        "methodology": "15:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 fa116bc55eb312fa5e1e240aa747b8fb2875d4ce71f3f96a87504e3efe4c95b9，SMM新能源 b5b21c7b3e19fe257745ffff8bf93ffc9cd21c90bbe0e0208a78eefc0142b1ae，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA d5517ce0b4289527d4e3dee050b7b412744cc63c9d1916b74f4dafc4142e481f。 海外入口：Energy-Storage.News 0f3bc7937b6e93129d44e8214760a8179edd8a0b30c8627060b1f5adefa2816b，ESS News 831d80acd67b5508c437de6f75840558899e3497be62732071d76a2b2140c66a，pv magazine 8a7cf554a139306284e283beeb1cce40a067ae2e21009e4b168c8099461cfad7，SolarQuarter 2b81a285d43a680fa17ed67a619bd52db659478797b468e845f5cb4f0c3d4071，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 15:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较14:00页面未变；Google News中文新增/上移碳酸锂期货主力日内跌4%/现报175920、长江有色称丰水期来临成本预期下降，阳光电源2026年全球储能需求将暴增50%。国内北极星新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人，以及国宁新储7GW储能电芯框采入围（宁德时代、楚能新能源、中创新航）。海外EnergyTrend新增5家企业储能电池项目超47GWh进展、鹏程无限钠离子新品、比亚迪5GWh协议/Fox ESS澳大利亚出货记录；Energy-Storage.News新增印度电池供应链安全评论；Google News海外新增/上移Adani Green储能容量3.37GWh、Southern Power Texas BESS JDA、热电池材料与住宅储能报道。"
+      },
       {
         "id": "latest-20260526-1400-storage-projects-global-bess",
         "source": "SMM上海有色 / 北极星储能 / Google News RSS / SolarQuarter",
@@ -37416,6 +37528,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-1500-smm-flat-futures-down",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；15:00复核较14:00未变；中文RSS新增期货主力跌4%/175920",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较14:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS新增期货主力175920跌4%",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 15:00 CST",
+        "methodology": "15:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 fa116bc55eb312fa5e1e240aa747b8fb2875d4ce71f3f96a87504e3efe4c95b9，SMM新能源 b5b21c7b3e19fe257745ffff8bf93ffc9cd21c90bbe0e0208a78eefc0142b1ae，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA d5517ce0b4289527d4e3dee050b7b412744cc63c9d1916b74f4dafc4142e481f。 海外入口：Energy-Storage.News 0f3bc7937b6e93129d44e8214760a8179edd8a0b30c8627060b1f5adefa2816b，ESS News 831d80acd67b5508c437de6f75840558899e3497be62732071d76a2b2140c66a，pv magazine 8a7cf554a139306284e283beeb1cce40a067ae2e21009e4b168c8099461cfad7，SolarQuarter 2b81a285d43a680fa17ed67a619bd52db659478797b468e845f5cb4f0c3d4071，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 15:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较14:00页面未变；Google News中文新增/上移碳酸锂期货主力日内跌4%/现报175920、长江有色称丰水期来临成本预期下降，阳光电源2026年全球储能需求将暴增50%。国内北极星新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人，以及国宁新储7GW储能电芯框采入围（宁德时代、楚能新能源、中创新航）。海外EnergyTrend新增5家企业储能电池项目超47GWh进展、鹏程无限钠离子新品、比亚迪5GWh协议/Fox ESS澳大利亚出货记录；Energy-Storage.News新增印度电池供应链安全评论；Google News海外新增/上移Adani Green储能容量3.37GWh、Southern Power Texas BESS JDA、热电池材料与住宅储能报道。"
+      },
+      {
         "id": "material-20260526-1400-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；14:00复核较13:00未变",
@@ -41148,6 +41273,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-1500-public-new",
+        "title": "15:00新增国内+海外储能/电池线索",
+        "value": "60",
+        "unit": "条",
+        "caption": "北极星储能、EnergyTrend、Energy-Storage.News、SolarQuarter、Google News中文/海外RSS新增或上移内蒙古200MW/800MWh、国宁7GW框采、47GWh储能电池项目、BYD 5GWh、印度供应链安全、Adani 3.37GWh等线索。",
+        "delta": "较14:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "北极星储能 / EnergyTrend / Energy-Storage.News / Google News RSS",
+        "as_of": "2026-05-26 15:00 CST",
+        "methodology": "15:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 fa116bc55eb312fa5e1e240aa747b8fb2875d4ce71f3f96a87504e3efe4c95b9，SMM新能源 b5b21c7b3e19fe257745ffff8bf93ffc9cd21c90bbe0e0208a78eefc0142b1ae，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA d5517ce0b4289527d4e3dee050b7b412744cc63c9d1916b74f4dafc4142e481f。 海外入口：Energy-Storage.News 0f3bc7937b6e93129d44e8214760a8179edd8a0b30c8627060b1f5adefa2816b，ESS News 831d80acd67b5508c437de6f75840558899e3497be62732071d76a2b2140c66a，pv magazine 8a7cf554a139306284e283beeb1cce40a067ae2e21009e4b168c8099461cfad7，SolarQuarter 2b81a285d43a680fa17ed67a619bd52db659478797b468e845f5cb4f0c3d4071，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 15:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较14:00页面未变；Google News中文新增/上移碳酸锂期货主力日内跌4%/现报175920、长江有色称丰水期来临成本预期下降，阳光电源2026年全球储能需求将暴增50%。国内北极星新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人，以及国宁新储7GW储能电芯框采入围（宁德时代、楚能新能源、中创新航）。海外EnergyTrend新增5家企业储能电池项目超47GWh进展、鹏程无限钠离子新品、比亚迪5GWh协议/Fox ESS澳大利亚出货记录；Energy-Storage.News新增印度电池供应链安全评论；Google News海外新增/上移Adani Green储能容量3.37GWh、Southern Power Texas BESS JDA、热电池材料与住宅储能报道。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-1400-public-new",
         "title": "14:00新增国内+海外储能/电池线索",
@@ -54909,6 +55047,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-1500-energytrend-india-adani-southern",
+        "source": "EnergyTrend / Energy-Storage.News / Google News RSS",
+        "category": "海外观察/BESS/钠离子/供应链",
+        "title": "海外新增47GWh储能电池项目进展、BYD 5GWh、钠离子新品与印度供应链安全线索",
+        "summary": "15:00海外公开源新增/上移EnergyTrend五家企业储能电池项目超47GWh进展、鹏程无限钠离子电池新品、BYD 5GWh协议/Fox ESS澳大利亚出货记录；Energy-Storage.News新增印度电池供应链安全评论，Google News上移Adani Green Khavda 3.37GWh、Southern Power Texas BESS JDA、热电池材料与住宅储能。",
+        "value": "47",
+        "unit": "GWh储能电池项目进展",
+        "delta": "海外BESS/电池供应链/钠离子线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 15:00 CST",
+        "url": "https://www.energytrend.com/",
+        "methodology": "15:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 fa116bc55eb312fa5e1e240aa747b8fb2875d4ce71f3f96a87504e3efe4c95b9，SMM新能源 b5b21c7b3e19fe257745ffff8bf93ffc9cd21c90bbe0e0208a78eefc0142b1ae，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA d5517ce0b4289527d4e3dee050b7b412744cc63c9d1916b74f4dafc4142e481f。 海外入口：Energy-Storage.News 0f3bc7937b6e93129d44e8214760a8179edd8a0b30c8627060b1f5adefa2816b，ESS News 831d80acd67b5508c437de6f75840558899e3497be62732071d76a2b2140c66a，pv magazine 8a7cf554a139306284e283beeb1cce40a067ae2e21009e4b168c8099461cfad7，SolarQuarter 2b81a285d43a680fa17ed67a619bd52db659478797b468e845f5cb4f0c3d4071，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 15:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较14:00页面未变；Google News中文新增/上移碳酸锂期货主力日内跌4%/现报175920、长江有色称丰水期来临成本预期下降，阳光电源2026年全球储能需求将暴增50%。国内北极星新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人，以及国宁新储7GW储能电芯框采入围（宁德时代、楚能新能源、中创新航）。海外EnergyTrend新增5家企业储能电池项目超47GWh进展、鹏程无限钠离子新品、比亚迪5GWh协议/Fox ESS澳大利亚出货记录；Energy-Storage.News新增印度电池供应链安全评论；Google News海外新增/上移Adani Green储能容量3.37GWh、Southern Power Texas BESS JDA、热电池材料与住宅储能报道。"
+      },
+      {
         "id": "overseas-20260526-1400-ameresco-adani-hithium-trina",
         "source": "Google News RSS / SolarQuarter / pv magazine",
         "category": "海外观察/BESS/LDES/PV+BESS",
@@ -61355,6 +61508,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-1500-inner-mongolia-7gw",
+        "source": "SMM上海有色 / 北极星储能 / EnergyTrend / Google News RSS / Energy-Storage.News",
+        "category": "电化学储能/储能电芯/海外BESS",
+        "title": "内蒙古200MW/800MWh与国宁7GW储能电芯框采新增；SMM材料报价较14:00未变",
+        "summary": "15:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较14:00页面未变；Google News中文上移碳酸锂期货主力日内跌4%/175920与长江有色成本下降预期。国内新增北极星内蒙古200MW/800MWh电网侧友好型独立储能中标候选人、国宁新储7GW储能电芯框采入围。海外新增EnergyTrend五家企业储能电池项目超47GWh、鹏程无限钠离子新品、BYD 5GWh/Fox ESS澳大利亚出货记录，以及印度电池供应链安全、Adani 3.37GWh、Southern Power Texas BESS JDA等线索。",
+        "value": "7",
+        "unit": "GW储能电芯框采",
+        "delta": "国内储能候选人/框采新增；海外储能电池项目线索新增",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 15:00 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "methodology": "15:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 fa116bc55eb312fa5e1e240aa747b8fb2875d4ce71f3f96a87504e3efe4c95b9，SMM新能源 b5b21c7b3e19fe257745ffff8bf93ffc9cd21c90bbe0e0208a78eefc0142b1ae，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 844c7322cb31a30295bde8eb9333e5f45d8b1dafc1d09ca90bdd51e43b868aac，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 d4e2b1fcaecff9cfa3aa74b15b6abf97a87e9b29beeb20596d8f61f78de95758，CNESA d5517ce0b4289527d4e3dee050b7b412744cc63c9d1916b74f4dafc4142e481f。 海外入口：Energy-Storage.News 0f3bc7937b6e93129d44e8214760a8179edd8a0b30c8627060b1f5adefa2816b，ESS News 831d80acd67b5508c437de6f75840558899e3497be62732071d76a2b2140c66a，pv magazine 8a7cf554a139306284e283beeb1cce40a067ae2e21009e4b168c8099461cfad7，SolarQuarter 2b81a285d43a680fa17ed67a619bd52db659478797b468e845f5cb4f0c3d4071，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 15:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较14:00页面未变；Google News中文新增/上移碳酸锂期货主力日内跌4%/现报175920、长江有色称丰水期来临成本预期下降，阳光电源2026年全球储能需求将暴增50%。国内北极星新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人，以及国宁新储7GW储能电芯框采入围（宁德时代、楚能新能源、中创新航）。海外EnergyTrend新增5家企业储能电池项目超47GWh进展、鹏程无限钠离子新品、比亚迪5GWh协议/Fox ESS澳大利亚出货记录；Energy-Storage.News新增印度电池供应链安全评论；Google News海外新增/上移Adani Green储能容量3.37GWh、Southern Power Texas BESS JDA、热电池材料与住宅储能报道。"
+      },
       {
         "id": "market-20260526-1400-ningxia-xinjiang-bess",
         "source": "SMM上海有色 / 北极星储能 / Google News RSS / SolarQuarter",
@@ -76010,6 +76178,87 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-1500-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入内蒙古200MW/800MWh、国宁7GW框采、47GWh海外项目、钠离子新品等。"
+      },
+      {
+        "id": "source-20260526-1500-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充国内框采和海外储能电池/供应链证据。"
+      },
+      {
+        "id": "source-20260526-1500-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "b5b21c7b3e19fe257745ffff8bf93ffc9cd21c90bbe0e0208a78eefc0142b1ae",
+        "finding": "15:00复核：电池级碳酸锂180000、SMM电碳指数179532、磷酸铁锂61770、电解液29350元/吨；较14:00页面未变。"
+      },
+      {
+        "id": "source-20260526-1500-bjx",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "fa116bc55eb312fa5e1e240aa747b8fb2875d4ce71f3f96a87504e3efe4c95b9",
+        "finding": "新增内蒙古200MW/800MWh电网侧友好型独立储能电站示范项目中标候选人公示、国宁新储7GW储能电芯框采入围。"
+      },
+      {
+        "id": "source-20260526-1500-energytrend",
+        "source": "EnergyTrend",
+        "url": "https://www.energytrend.com/",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0",
+        "finding": "新增超47GWh储能电池项目进展、鹏程无限钠离子新品、Corun/SolaX/SOFAR进展、BYD 5GWh协议与Fox ESS澳大利亚出货记录。"
+      },
+      {
+        "id": "source-20260526-1500-esn",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "0f3bc7937b6e93129d44e8214760a8179edd8a0b30c8627060b1f5adefa2816b",
+        "finding": "新增Securing India’s battery supply chain is more critical than ever。"
+      },
+      {
+        "id": "source-20260526-1500-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "7129fbce46da53cd13c16da2feeeaefdf3f3468f944c3f65c58374490d4af7b9",
+        "finding": "新增/上移碳酸锂期货主力日内跌4%/175920、长江有色丰水期成本预期下降、阳光电源2026年全球储能需求将暴增50%等。"
+      },
+      {
+        "id": "source-20260526-1500-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "2988a0910fa57e73bcafea707e47cb1c4ce35ea35ca61bf17c6e8989f1ac1101",
+        "finding": "新增/上移Adani Green 3.37GWh、Southern Power Texas BESS JDA、印度电池供应链、热电池材料、住宅储能。"
+      },
+      {
+        "id": "source-20260526-1500-solarquarter",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/",
+        "as_of": "2026-05-26 15:00 CST",
+        "status": 200,
+        "sha256": "2b81a285d43a680fa17ed67a619bd52db659478797b468e845f5cb4f0c3d4071",
+        "finding": "新增/上移印度核电JV-MoU、REC争议裁定、IEX绿色电力交易框架等可再生能源政策/市场线索。"
+      },
+      {
         "id": "source-20260526-1400-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -85009,5 +85258,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T14:00:00+08:00"
+  "checked_at": "2026-05-26T15:00:00+08:00"
 };
