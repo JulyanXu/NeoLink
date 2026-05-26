@@ -1,8 +1,84 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T17:00:00+08:00",
-  "note": "17:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较15:00页面未变；中文RSS新增天赐材料拟开展16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、碳酸锂大跌4%、东莞新型储能产业链合作交流会与荆门动力储能电池基地。国内北极星新增易事特浙江平阳储充项目投运、海博思创储算一体/锂钠融合、天合储能菲律宾光储。海外新增Invinity瑞士2.1GWh液流电池合同、Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池开建、ACME 300MW/1200MWh PPA等线索。",
+  "generated_at": "2026-05-26T22:00:00+08:00",
+  "note": "22:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较20:00页面未变；国内新增/上移国家能源局“人工智能+能源”现场推进会与51个高价值场景、“十五五”新型电网投资预计超5万亿元、晨丰科技拟13.15亿元建设两个储能电站、国家新型储能创新中心与东阳光项目落地广州白云。海外新增Cornex 50GWh储能电池协议、Enbridge拟12亿美元Wyoming Solar-BESS供电Meta数据中心、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖等线索。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-2200-cornex-ai-grid-bess",
+        "source": "SMM上海有色 / 中国能源网 / 工信部 / ESS News / SolarQuarter / Google News RSS",
+        "source_type": "专业行情/国内监管与行业媒体/海外公开媒体/RSS",
+        "account_name": "SMM / 中国能源网 / 工信部 / ESS News / SolarQuarter / Google News",
+        "category": "储能电池/AI+能源/新型电网/数据中心电力/BESS制造",
+        "title": "22:00刷新：Cornex签署50GWh储能电池协议，AI+能源场景与数据中心BESS继续上移",
+        "summary": "22:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较20:00页面未变；国内新增/上移国家能源局“人工智能+能源”现场推进会与51个高价值场景、“十五五”新型电网投资预计超5万亿元、晨丰科技拟13.15亿元建设两个储能电站、国家新型储能创新中心与东阳光项目落地广州白云。海外新增Cornex 50GWh储能电池协议、Enbridge拟12亿美元Wyoming Solar-BESS供电Meta数据中心、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖等线索。",
+        "body": [
+          "行情：SMM 22:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动。",
+          "国内政策/电网：中国能源网新增国家能源局全国“人工智能+”能源现场推进会、51个“人工智能+能源”高价值场景开放试点；同时上移“十五五”时期我国新型电网投资预计将超过5万亿元。",
+          "国内项目/产业链：中文RSS新增晨丰科技拟投资13.15亿元建设两个储能电站项目，国家新型储能创新中心与东阳光合作项目落地广州白云，东风欣旺达超充电芯项目正式投产。",
+          "海外储能电池：ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，报道称其588Ah电芯将支持大规模储能与海外部署。",
+          "海外数据中心电力：SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目，为Meta Platforms数据中心供电；海外RSS同步上移数据中心备用电源需求。",
+          "海外制造/市场：Google News海外RSS新增ZOE Energy沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖、保加利亚电池系统占比等。"
+        ],
+        "key_points": [
+          "SMM四项材料行情较20:00未变，但碳酸锂仍显示日内下跌。",
+          "国内新增AI+能源场景、新型电网投资预期、储能电站投资和算电协同项目。",
+          "海外新增50GWh储能电池协议、12亿美元数据中心Solar-BESS项目、6GWh BESS制造设施和铁钠电池试点。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "value": "50",
+        "unit": "GWh储能电池协议",
+        "delta": "新增Cornex 50GWh、Enbridge 12亿美元、ZOE 6GWh、晨丰科技13.15亿元、新型电网5万亿元预期",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 22:00 CST",
+        "url": "https://www.ess-news.com/2026/05/26/cornex-signs-50-gwh-in-storage-battery-agreements-at-cibf-2026/",
+        "original_url": "https://www.ess-news.com/",
+        "related_urls": [
+          "https://www.ess-news.com/",
+          "https://solarquarter.com/",
+          "https://www.cnenergynews.cn/",
+          "https://www.miit.gov.cn/",
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>22:00新增/复核：SMM四项材料价格较20:00未变；新增Cornex 50GWh储能电池协议、国家能源局AI+能源场景、新型电网投资超5万亿元预期、晨丰科技13.15亿元储能电站、Enbridge 12亿美元Solar-BESS供Meta数据中心、ZOE沙特6GWh BESS制造。</p>",
+        "caption": "大规模储能电池协议、AI+能源和数据中心电力成为本轮新增主线。",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 26d2f0a4a4d7cf526cfd14337600e3c2ef9da2a11ede78e04318efbd7b169acc，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 2b63c8e0bf56edad7c35a782afb271843cb3508a4670496a85b37a70665e8c4e。 海外入口：Energy-Storage.News fadcfc873e4120983a8d8347be2b04fe78e314cd72d13e54222f9b0dc6c24b86，ESS News 5f02679933a7b6c9ace0f25a7ea90b97c908f9f669c718f924bb4e9bbf025b09，pv magazine 782059f52dc27163c75c2b506b64e8bfff243032ad13991f73f361125586f4d7，SolarQuarter edec19643ef512faff998d4d54cf7bc3ff107892c74ef76ba276ca5f6da39de6，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 22:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动；中国能源网新增国家能源局召开全国“人工智能+”能源现场推进会、“十五五”时期我国新型电网投资预计将超过5万亿元、国家能源局发布51个“人工智能+能源”高价值场景；工信部新增科技咨询委员会全体会议。海外ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，称588Ah电芯面向大规模储能和海外部署；SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目为Meta数据中心供电。Google News中文新增/上移晨丰科技拟13.15亿元建设两个储能电站项目、国家新型储能创新中心与东阳光项目落地广州白云、东风欣旺达超充电芯项目投产、先导智能固态电池设备“军备竞赛”等；海外RSS新增Forbes电池储能市场热度、保加利亚电池系统占比、巴西首次电池拍卖、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、数据中心备用电源需求等。",
+        "history": [
+          {
+            "label": "Cornex协议 GWh",
+            "value": 50
+          },
+          {
+            "label": "ZOE沙特BESS制造 GWh",
+            "value": 6
+          },
+          {
+            "label": "Enbridge投资 亿美元",
+            "value": 12
+          },
+          {
+            "label": "晨丰科技储能电站投资 亿元",
+            "value": 13.15
+          },
+          {
+            "label": "新型电网投资预期 万亿元",
+            "value": 5
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61770
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 29350
+          }
+        ]
+      },
       {
         "id": "headline-20260526-1700-invinity-adani-tinci-lfp",
         "source": "SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
@@ -15374,6 +15450,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-2200-cornex-ai-grid",
+        "source": "SMM上海有色 / 中国能源网 / 工信部 / ESS News / SolarQuarter / Google News RSS",
+        "source_type": "专业行情/国内监管与行业媒体/海外公开媒体/RSS",
+        "account_name": "SMM / 中国能源网 / 工信部 / ESS News / SolarQuarter / Google News",
+        "category": "储能电池/AI+能源/新型电网/数据中心电力/BESS制造",
+        "title": "22:00刷新：Cornex签署50GWh储能电池协议，AI+能源场景与数据中心BESS继续上移",
+        "summary": "22:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较20:00页面未变；国内新增/上移国家能源局“人工智能+能源”现场推进会与51个高价值场景、“十五五”新型电网投资预计超5万亿元、晨丰科技拟13.15亿元建设两个储能电站、国家新型储能创新中心与东阳光项目落地广州白云。海外新增Cornex 50GWh储能电池协议、Enbridge拟12亿美元Wyoming Solar-BESS供电Meta数据中心、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖等线索。",
+        "body": [
+          "行情：SMM 22:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动。",
+          "国内政策/电网：中国能源网新增国家能源局全国“人工智能+”能源现场推进会、51个“人工智能+能源”高价值场景开放试点；同时上移“十五五”时期我国新型电网投资预计将超过5万亿元。",
+          "国内项目/产业链：中文RSS新增晨丰科技拟投资13.15亿元建设两个储能电站项目，国家新型储能创新中心与东阳光合作项目落地广州白云，东风欣旺达超充电芯项目正式投产。",
+          "海外储能电池：ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，报道称其588Ah电芯将支持大规模储能与海外部署。",
+          "海外数据中心电力：SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目，为Meta Platforms数据中心供电；海外RSS同步上移数据中心备用电源需求。",
+          "海外制造/市场：Google News海外RSS新增ZOE Energy沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖、保加利亚电池系统占比等。"
+        ],
+        "key_points": [
+          "SMM四项材料行情较20:00未变，但碳酸锂仍显示日内下跌。",
+          "国内新增AI+能源场景、新型电网投资预期、储能电站投资和算电协同项目。",
+          "海外新增50GWh储能电池协议、12亿美元数据中心Solar-BESS项目、6GWh BESS制造设施和铁钠电池试点。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 22:00 CST",
+        "url": "https://www.ess-news.com/2026/05/26/cornex-signs-50-gwh-in-storage-battery-agreements-at-cibf-2026/",
+        "original_url": "https://www.ess-news.com/",
+        "related_urls": [
+          "https://www.ess-news.com/",
+          "https://solarquarter.com/",
+          "https://www.cnenergynews.cn/",
+          "https://www.miit.gov.cn/",
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>22:00新增/复核：SMM四项材料价格较20:00未变；新增Cornex 50GWh储能电池协议、国家能源局AI+能源场景、新型电网投资超5万亿元预期、晨丰科技13.15亿元储能电站、Enbridge 12亿美元Solar-BESS供Meta数据中心、ZOE沙特6GWh BESS制造。</p>",
+        "caption": "大规模储能电池协议、AI+能源和数据中心电力成为本轮新增主线。",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 26d2f0a4a4d7cf526cfd14337600e3c2ef9da2a11ede78e04318efbd7b169acc，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 2b63c8e0bf56edad7c35a782afb271843cb3508a4670496a85b37a70665e8c4e。 海外入口：Energy-Storage.News fadcfc873e4120983a8d8347be2b04fe78e314cd72d13e54222f9b0dc6c24b86，ESS News 5f02679933a7b6c9ace0f25a7ea90b97c908f9f669c718f924bb4e9bbf025b09，pv magazine 782059f52dc27163c75c2b506b64e8bfff243032ad13991f73f361125586f4d7，SolarQuarter edec19643ef512faff998d4d54cf7bc3ff107892c74ef76ba276ca5f6da39de6，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 22:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动；中国能源网新增国家能源局召开全国“人工智能+”能源现场推进会、“十五五”时期我国新型电网投资预计将超过5万亿元、国家能源局发布51个“人工智能+能源”高价值场景；工信部新增科技咨询委员会全体会议。海外ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，称588Ah电芯面向大规模储能和海外部署；SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目为Meta数据中心供电。Google News中文新增/上移晨丰科技拟13.15亿元建设两个储能电站项目、国家新型储能创新中心与东阳光项目落地广州白云、东风欣旺达超充电芯项目投产、先导智能固态电池设备“军备竞赛”等；海外RSS新增Forbes电池储能市场热度、保加利亚电池系统占比、巴西首次电池拍卖、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、数据中心备用电源需求等。"
+      },
       {
         "id": "latest-20260526-1700-invinity-adani-tinci",
         "source": "SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
@@ -37642,6 +37756,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-2200-smm-flat-ai-energy",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；22:00复核较20:00未变；新增AI+能源、储能电站和海外储能电池协议证据",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较20:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 22:00 CST",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 26d2f0a4a4d7cf526cfd14337600e3c2ef9da2a11ede78e04318efbd7b169acc，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 2b63c8e0bf56edad7c35a782afb271843cb3508a4670496a85b37a70665e8c4e。 海外入口：Energy-Storage.News fadcfc873e4120983a8d8347be2b04fe78e314cd72d13e54222f9b0dc6c24b86，ESS News 5f02679933a7b6c9ace0f25a7ea90b97c908f9f669c718f924bb4e9bbf025b09，pv magazine 782059f52dc27163c75c2b506b64e8bfff243032ad13991f73f361125586f4d7，SolarQuarter edec19643ef512faff998d4d54cf7bc3ff107892c74ef76ba276ca5f6da39de6，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 22:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动；中国能源网新增国家能源局召开全国“人工智能+”能源现场推进会、“十五五”时期我国新型电网投资预计将超过5万亿元、国家能源局发布51个“人工智能+能源”高价值场景；工信部新增科技咨询委员会全体会议。海外ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，称588Ah电芯面向大规模储能和海外部署；SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目为Meta数据中心供电。Google News中文新增/上移晨丰科技拟13.15亿元建设两个储能电站项目、国家新型储能创新中心与东阳光项目落地广州白云、东风欣旺达超充电芯项目投产、先导智能固态电池设备“军备竞赛”等；海外RSS新增Forbes电池储能市场热度、保加利亚电池系统占比、巴西首次电池拍卖、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、数据中心备用电源需求等。"
+      },
+      {
         "id": "material-20260526-1700-smm-flat-tinci-lfp",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；17:00复核较15:00未变；中文RSS新增天赐16万吨LFP前期工作与碳酸锂大跌4%",
@@ -41400,6 +41527,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-2200-public-new",
+        "title": "22:00新增国内+海外储能/电池线索",
+        "value": "86",
+        "unit": "条",
+        "caption": "中国能源网、工信部、ESS News、SolarQuarter、Google News中文/海外RSS新增或上移Cornex 50GWh、AI+能源51个高价值场景、晨丰科技13.15亿元、ZOE沙特6GWh、数据中心BESS等线索。",
+        "delta": "较20:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "中国能源网 / 工信部 / ESS News / SolarQuarter / Google News RSS",
+        "as_of": "2026-05-26 22:00 CST",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 26d2f0a4a4d7cf526cfd14337600e3c2ef9da2a11ede78e04318efbd7b169acc，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 2b63c8e0bf56edad7c35a782afb271843cb3508a4670496a85b37a70665e8c4e。 海外入口：Energy-Storage.News fadcfc873e4120983a8d8347be2b04fe78e314cd72d13e54222f9b0dc6c24b86，ESS News 5f02679933a7b6c9ace0f25a7ea90b97c908f9f669c718f924bb4e9bbf025b09，pv magazine 782059f52dc27163c75c2b506b64e8bfff243032ad13991f73f361125586f4d7，SolarQuarter edec19643ef512faff998d4d54cf7bc3ff107892c74ef76ba276ca5f6da39de6，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 22:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动；中国能源网新增国家能源局召开全国“人工智能+”能源现场推进会、“十五五”时期我国新型电网投资预计将超过5万亿元、国家能源局发布51个“人工智能+能源”高价值场景；工信部新增科技咨询委员会全体会议。海外ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，称588Ah电芯面向大规模储能和海外部署；SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目为Meta数据中心供电。Google News中文新增/上移晨丰科技拟13.15亿元建设两个储能电站项目、国家新型储能创新中心与东阳光项目落地广州白云、东风欣旺达超充电芯项目投产、先导智能固态电池设备“军备竞赛”等；海外RSS新增Forbes电池储能市场热度、保加利亚电池系统占比、巴西首次电池拍卖、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、数据中心备用电源需求等。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-1700-public-new",
         "title": "17:00新增国内+海外储能/电池线索",
@@ -55187,6 +55327,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-2200-cornex-enbridge-zoe-inlyte",
+        "source": "ESS News / SolarQuarter / Google News RSS",
+        "category": "海外观察/BESS制造/数据中心电力/铁钠电池/拍卖",
+        "title": "海外新增50GWh储能电池协议、12亿美元数据中心Solar-BESS与沙特6GWh BESS制造",
+        "summary": "22:00海外公开源新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、Enbridge拟12亿美元投资Wyoming Solar-BESS为Meta数据中心供电、ZOE Energy沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖及保加利亚电池系统占比等。",
+        "value": "50",
+        "unit": "GWh储能电池协议",
+        "delta": "海外BESS制造/数据中心电力/电池拍卖线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 22:00 CST",
+        "url": "https://www.ess-news.com/",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 26d2f0a4a4d7cf526cfd14337600e3c2ef9da2a11ede78e04318efbd7b169acc，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 2b63c8e0bf56edad7c35a782afb271843cb3508a4670496a85b37a70665e8c4e。 海外入口：Energy-Storage.News fadcfc873e4120983a8d8347be2b04fe78e314cd72d13e54222f9b0dc6c24b86，ESS News 5f02679933a7b6c9ace0f25a7ea90b97c908f9f669c718f924bb4e9bbf025b09，pv magazine 782059f52dc27163c75c2b506b64e8bfff243032ad13991f73f361125586f4d7，SolarQuarter edec19643ef512faff998d4d54cf7bc3ff107892c74ef76ba276ca5f6da39de6，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 22:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动；中国能源网新增国家能源局召开全国“人工智能+”能源现场推进会、“十五五”时期我国新型电网投资预计将超过5万亿元、国家能源局发布51个“人工智能+能源”高价值场景；工信部新增科技咨询委员会全体会议。海外ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，称588Ah电芯面向大规模储能和海外部署；SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目为Meta数据中心供电。Google News中文新增/上移晨丰科技拟13.15亿元建设两个储能电站项目、国家新型储能创新中心与东阳光项目落地广州白云、东风欣旺达超充电芯项目投产、先导智能固态电池设备“军备竞赛”等；海外RSS新增Forbes电池储能市场热度、保加利亚电池系统占比、巴西首次电池拍卖、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、数据中心备用电源需求等。"
+      },
+      {
         "id": "overseas-20260526-1700-invinity-adani-fortescue-acme",
         "source": "Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
         "category": "海外观察/BESS/长时储能/PPA/监管",
@@ -61663,6 +61818,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-2200-cornex-zoe-datacenter",
+        "source": "SMM上海有色 / 中国能源网 / 工信部 / ESS News / SolarQuarter / Google News RSS",
+        "category": "储能电池/BESS制造/AI+能源/数据中心电力",
+        "title": "Cornex 50GWh储能电池协议、ZOE沙特6GWh制造与AI+能源场景新增",
+        "summary": "22:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较20:00页面未变；国内新增/上移国家能源局“人工智能+能源”现场推进会与51个高价值场景、“十五五”新型电网投资预计超5万亿元、晨丰科技拟13.15亿元建设两个储能电站、国家新型储能创新中心与东阳光项目落地广州白云。海外新增Cornex 50GWh储能电池协议、Enbridge拟12亿美元Wyoming Solar-BESS供电Meta数据中心、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖等线索。",
+        "value": "50",
+        "unit": "GWh储能电池协议",
+        "delta": "海外储能电池制造和数据中心BESS新增；国内AI+能源/储能电站项目新增；SMM材料报价较20:00未变",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 22:00 CST",
+        "url": "https://www.ess-news.com/2026/05/26/cornex-signs-50-gwh-in-storage-battery-agreements-at-cibf-2026/",
+        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 26d2f0a4a4d7cf526cfd14337600e3c2ef9da2a11ede78e04318efbd7b169acc，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 2b63c8e0bf56edad7c35a782afb271843cb3508a4670496a85b37a70665e8c4e。 海外入口：Energy-Storage.News fadcfc873e4120983a8d8347be2b04fe78e314cd72d13e54222f9b0dc6c24b86，ESS News 5f02679933a7b6c9ace0f25a7ea90b97c908f9f669c718f924bb4e9bbf025b09，pv magazine 782059f52dc27163c75c2b506b64e8bfff243032ad13991f73f361125586f4d7，SolarQuarter edec19643ef512faff998d4d54cf7bc3ff107892c74ef76ba276ca5f6da39de6，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 22:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动；中国能源网新增国家能源局召开全国“人工智能+”能源现场推进会、“十五五”时期我国新型电网投资预计将超过5万亿元、国家能源局发布51个“人工智能+能源”高价值场景；工信部新增科技咨询委员会全体会议。海外ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，称588Ah电芯面向大规模储能和海外部署；SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目为Meta数据中心供电。Google News中文新增/上移晨丰科技拟13.15亿元建设两个储能电站项目、国家新型储能创新中心与东阳光项目落地广州白云、东风欣旺达超充电芯项目投产、先导智能固态电池设备“军备竞赛”等；海外RSS新增Forbes电池储能市场热度、保加利亚电池系统占比、巴西首次电池拍卖、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、数据中心备用电源需求等。"
+      },
       {
         "id": "market-20260526-1700-invinity-adani-acme",
         "source": "SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
@@ -76348,6 +76518,87 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-2200-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入Cornex 50GWh、AI+能源、晨丰科技13.15亿元、Enbridge 12亿美元等。"
+      },
+      {
+        "id": "source-20260526-2200-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充海外储能电池协议/BESS制造与国内AI+能源/储能电站证据。"
+      },
+      {
+        "id": "source-20260526-2200-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "26d2f0a4a4d7cf526cfd14337600e3c2ef9da2a11ede78e04318efbd7b169acc",
+        "finding": "22:00复核：电池级碳酸锂180000、SMM电池级碳酸锂指数179532、磷酸铁锂61770、电解液29350元/吨；较20:00页面未变。"
+      },
+      {
+        "id": "source-20260526-2200-cnenergy",
+        "source": "中国能源网",
+        "url": "https://www.cnenergynews.cn/",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747",
+        "finding": "新增国家能源局召开全国“人工智能+”能源现场推进会、“十五五”新型电网投资预计超5万亿元、国家能源局发布51个AI+能源高价值场景。"
+      },
+      {
+        "id": "source-20260526-2200-miit",
+        "source": "工信部",
+        "url": "https://www.miit.gov.cn/",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6",
+        "finding": "新增工业和信息化部科技咨询委员会召开全体会议。"
+      },
+      {
+        "id": "source-20260526-2200-ess",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "5f02679933a7b6c9ace0f25a7ea90b97c908f9f669c718f924bb4e9bbf025b09",
+        "finding": "新增Cornex signs 50 GWh in storage battery agreements at CIBF 2026；报道称588Ah电芯支持大规模储能和海外部署。"
+      },
+      {
+        "id": "source-20260526-2200-solarquarter",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "edec19643ef512faff998d4d54cf7bc3ff107892c74ef76ba276ca5f6da39de6",
+        "finding": "新增/上移Enbridge to Invest USD 1.2B in Wyoming Solar-BESS Project to Power Meta Platforms Data Centres。"
+      },
+      {
+        "id": "source-20260526-2200-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "f4fcc7890b3e1331c16d4fbc1289e0f7a9ce6e567eeff02d1ce6177e5984244e",
+        "finding": "新增/上移晨丰科技拟13.15亿元储能电站、国家新型储能创新中心与东阳光合作项目落地广州白云、东风欣旺达超充电芯投产、先导智能固态电池设备军备竞赛。"
+      },
+      {
+        "id": "source-20260526-2200-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 22:00 CST",
+        "status": 200,
+        "sha256": "08c879403e0e29b6ea9b04bcdad4d21fc4387351b9809d89d0fbed1aa1ab9c5c",
+        "finding": "新增/上移Forbes储能市场热度、ZOE沙特6GWh BESS制造、Inlyte铁钠电池AIDC/ESS试点、巴西首次电池拍卖、数据中心备用电源需求。"
+      },
+      {
         "id": "source-20260526-1700-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -85509,5 +85760,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T17:00:00+08:00"
+  "checked_at": "2026-05-26T22:00:00+08:00"
 };
