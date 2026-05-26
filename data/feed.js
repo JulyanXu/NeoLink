@@ -1,8 +1,75 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-27T05:00:00+08:00",
-  "note": "05:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较04:00页面未变；中文RSS新增/上移宁德时代供货3000多座储能站、固态电池设备军备竞赛、储能五年之痒风险提示、易事特AIDC产业链名录、大唐中宁100MW压缩空气储能检测招标、碳酸锂大跌4%及短期偏强观点。海外新增/上移Frontier Power USA收购美国储能项目组合、Rajasthan储能自发电充电规则、Qualitas意大利211MW BESS融资、Fortescue Pilbara 650MWh储能、Gujarat 120MWh BESS招标。",
+  "generated_at": "2026-05-27T06:00:00+08:00",
+  "note": "06:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较05:00页面未变；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单、晨丰科技拟投13.15亿元储能电站、碳酸锂主力跌超4%。海外新增/上移Enbridge+Meta Wyoming太阳能储能数据中心设施、Eos Energy股价异动、钠电替代锂电讨论、ACTOM收购电池厂扩展BESS、GCL SI泰国1GW组件供货。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260527-0600-byd-adani-meta",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / pv magazine USA / Japan Today / energize.co.za / PV Tech",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / pv magazine USA / Japan Today / energize.co.za / PV Tech",
+        "category": "固态电池/BESS/数据中心电力/材料行情/AIDC储能",
+        "title": "06:00刷新：比亚迪固态电池、Adani 3.37GWh与Meta储能数据中心上移",
+        "summary": "06:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较05:00页面未变；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单、晨丰科技拟投13.15亿元储能电站、碳酸锂主力跌超4%。海外新增/上移Enbridge+Meta Wyoming太阳能储能数据中心设施、Eos Energy股价异动、钠电替代锂电讨论、ACTOM收购电池厂扩展BESS、GCL SI泰国1GW组件供货。",
+        "body": [
+          "行情：SMM 06:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动。",
+          "国内固态电池/储能：中文RSS新增/上移比亚迪全固态电池通过车规验证并指向2027量产；《2026中国新型储能产业发展白皮书》在宜昌发布。",
+          "国内AIDC/项目：易事特入选第一批2026 AIDC产业链优质企业名录；阳光电源AIDC储能订单已经落地；晨丰科技拟投资13.15亿元建设两个储能电站项目。",
+          "国内商品：广期所碳酸锂主力合约跌超4%，与SMM公开现货价格未继续跳动并存，材料端情绪仍偏分化。",
+          "海外数据中心电力：Enbridge和Meta宣布Wyoming大型太阳能及储能设施，用于服务数据中心电力需求。",
+          "海外BESS/技术：ACTOM收购本地电池制造商以扩展BESS；Eos Energy股价继续大涨；Japan Today讨论钠离子电池能否替代锂电；PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。"
+        ],
+        "key_points": [
+          "本小时已重新抓取NeoLink首页、MarketTrend、SMM、国内行业/监管入口、海外行业站和Google News中英文RSS，并保存sha256。",
+          "国内新增最强线索从储能项目延伸到固态电池量产预期和AIDC储能订单：比亚迪固态电池、易事特AIDC、阳光电源AIDC储能订单。",
+          "海外新增主线是数据中心电力与BESS制造/技术：Meta-Enbridge太阳能+储能设施、ACTOM扩BESS、Eos股价、钠电替代锂电讨论。",
+          "材料端SMM公开报价较05:00未变，但RSS新增碳酸锂主力合约跌超4%，需与现货口径分开看。"
+        ],
+        "value": "3.37",
+        "unit": "GWh单体储能电站",
+        "delta": "新增/上移Adani 3.37GWh、晨丰科技13.15亿元储能电站、Meta数据中心太阳能+储能、比亚迪2027固态电池量产线索",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 06:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://www.pv-magazine.com/",
+          "https://www.energy-storage.news/",
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>06:00新增/复核：SMM四项材料价格较05:00未变；新增/上移比亚迪固态电池车规验证、Adani 3.37GWh单体储能电站、Enbridge+Meta数据中心太阳能储能设施、ACTOM扩展BESS、晨丰科技13.15亿元储能电站。</p>",
+        "caption": "固态电池量产预期、AIDC储能订单和数据中心电力成为本小时新增主线。",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 4a6d9514c5bcb3eeaabb7296bd856dd7c078f90b849832ac2e80d5fe29cb5add，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 9c376100a1ae88c399562169424bb62bf529081cac7217c6b45285ef2a8e8eeb。 海外入口：Energy-Storage.News eff82bd2e2602ebb5bf2f3f6e4834b7645d5c873afd9598750e5acdc69a3ac4d，ESS News 5cbf89f2d8beb2a37541a141bef645b7e3b7bf146a68527589fb4792ee9fe27c，pv magazine c885779e7a418a8f78dadd6c042e19bf627da118bb8dfc8e1b3b220f87fa2650，SolarQuarter 88860db516e64b1ce337e3ef9f901bd07c90adbe099d1c9ad6c9eb79d91e07fa，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 06:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》发布、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单落地、晨丰科技拟投资13.15亿元建设两个储能电站、广期所碳酸锂主力合约跌超4%。海外RSS新增/上移Enbridge与Meta宣布Wyoming大型太阳能+储能设施服务数据中心、Eos Energy股价继续大涨、Japan Today讨论钠电替代锂电、ACTOM收购本地电池制造商扩展BESS、PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。",
+        "history": [
+          {
+            "label": "Adani单体储能 GWh",
+            "value": 3.37
+          },
+          {
+            "label": "晨丰科技拟投资 亿元",
+            "value": 13.15
+          },
+          {
+            "label": "GCL SI组件供货 GW",
+            "value": 1
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61770
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 29350
+          }
+        ]
+      },
       {
         "id": "headline-20260527-0500-frontier-catl-qualitas",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / Mercom / capital-riesgo",
@@ -15822,6 +15889,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260527-0600-byd-adani-meta",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / pv magazine USA / Japan Today / energize.co.za / PV Tech",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / pv magazine USA / Japan Today / energize.co.za / PV Tech",
+        "category": "固态电池/BESS/数据中心电力/材料行情/AIDC储能",
+        "title": "06:00刷新：比亚迪固态电池、Adani 3.37GWh与Meta储能数据中心上移",
+        "summary": "06:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较05:00页面未变；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单、晨丰科技拟投13.15亿元储能电站、碳酸锂主力跌超4%。海外新增/上移Enbridge+Meta Wyoming太阳能储能数据中心设施、Eos Energy股价异动、钠电替代锂电讨论、ACTOM收购电池厂扩展BESS、GCL SI泰国1GW组件供货。",
+        "body": [
+          "行情：SMM 06:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动。",
+          "国内固态电池/储能：中文RSS新增/上移比亚迪全固态电池通过车规验证并指向2027量产；《2026中国新型储能产业发展白皮书》在宜昌发布。",
+          "国内AIDC/项目：易事特入选第一批2026 AIDC产业链优质企业名录；阳光电源AIDC储能订单已经落地；晨丰科技拟投资13.15亿元建设两个储能电站项目。",
+          "国内商品：广期所碳酸锂主力合约跌超4%，与SMM公开现货价格未继续跳动并存，材料端情绪仍偏分化。",
+          "海外数据中心电力：Enbridge和Meta宣布Wyoming大型太阳能及储能设施，用于服务数据中心电力需求。",
+          "海外BESS/技术：ACTOM收购本地电池制造商以扩展BESS；Eos Energy股价继续大涨；Japan Today讨论钠离子电池能否替代锂电；PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。"
+        ],
+        "key_points": [
+          "本小时已重新抓取NeoLink首页、MarketTrend、SMM、国内行业/监管入口、海外行业站和Google News中英文RSS，并保存sha256。",
+          "国内新增最强线索从储能项目延伸到固态电池量产预期和AIDC储能订单：比亚迪固态电池、易事特AIDC、阳光电源AIDC储能订单。",
+          "海外新增主线是数据中心电力与BESS制造/技术：Meta-Enbridge太阳能+储能设施、ACTOM扩BESS、Eos股价、钠电替代锂电讨论。",
+          "材料端SMM公开报价较05:00未变，但RSS新增碳酸锂主力合约跌超4%，需与现货口径分开看。"
+        ],
+        "date": "05-27",
+        "as_of": "2026-05-27 06:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://www.pv-magazine.com/",
+          "https://www.energy-storage.news/",
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>06:00新增/复核：SMM四项材料价格较05:00未变；新增/上移比亚迪固态电池车规验证、Adani 3.37GWh单体储能电站、Enbridge+Meta数据中心太阳能储能设施、ACTOM扩展BESS、晨丰科技13.15亿元储能电站。</p>",
+        "caption": "固态电池量产预期、AIDC储能订单和数据中心电力成为本小时新增主线。",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 4a6d9514c5bcb3eeaabb7296bd856dd7c078f90b849832ac2e80d5fe29cb5add，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 9c376100a1ae88c399562169424bb62bf529081cac7217c6b45285ef2a8e8eeb。 海外入口：Energy-Storage.News eff82bd2e2602ebb5bf2f3f6e4834b7645d5c873afd9598750e5acdc69a3ac4d，ESS News 5cbf89f2d8beb2a37541a141bef645b7e3b7bf146a68527589fb4792ee9fe27c，pv magazine c885779e7a418a8f78dadd6c042e19bf627da118bb8dfc8e1b3b220f87fa2650，SolarQuarter 88860db516e64b1ce337e3ef9f901bd07c90adbe099d1c9ad6c9eb79d91e07fa，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 06:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》发布、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单落地、晨丰科技拟投资13.15亿元建设两个储能电站、广期所碳酸锂主力合约跌超4%。海外RSS新增/上移Enbridge与Meta宣布Wyoming大型太阳能+储能设施服务数据中心、Eos Energy股价继续大涨、Japan Today讨论钠电替代锂电、ACTOM收购本地电池制造商扩展BESS、PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。"
+      },
       {
         "id": "latest-20260527-0500-frontier-qualitas-catl",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / Mercom / capital-riesgo",
@@ -38314,6 +38418,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260527-0600-smm-flat-solid-storage",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；06:00复核较05:00未变；新增固态电池、AIDC储能、数据中心电力证据",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较05:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 06:00 CST",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 4a6d9514c5bcb3eeaabb7296bd856dd7c078f90b849832ac2e80d5fe29cb5add，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 9c376100a1ae88c399562169424bb62bf529081cac7217c6b45285ef2a8e8eeb。 海外入口：Energy-Storage.News eff82bd2e2602ebb5bf2f3f6e4834b7645d5c873afd9598750e5acdc69a3ac4d，ESS News 5cbf89f2d8beb2a37541a141bef645b7e3b7bf146a68527589fb4792ee9fe27c，pv magazine c885779e7a418a8f78dadd6c042e19bf627da118bb8dfc8e1b3b220f87fa2650，SolarQuarter 88860db516e64b1ce337e3ef9f901bd07c90adbe099d1c9ad6c9eb79d91e07fa，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 06:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》发布、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单落地、晨丰科技拟投资13.15亿元建设两个储能电站、广期所碳酸锂主力合约跌超4%。海外RSS新增/上移Enbridge与Meta宣布Wyoming大型太阳能+储能设施服务数据中心、Eos Energy股价继续大涨、Japan Today讨论钠电替代锂电、ACTOM收购本地电池制造商扩展BESS、PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。"
+      },
+      {
         "id": "material-20260527-0500-smm-flat-storage-news",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；05:00复核较04:00未变；新增储能供货、压缩空气储能、BESS融资/招标证据",
@@ -42150,6 +42267,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260527-0600-public-new",
+        "title": "06:00新增国内+海外储能/电池线索",
+        "value": "22",
+        "unit": "条",
+        "caption": "较05:00公开RSS新增或上移比亚迪固态电池、Adani 3.37GWh、Enbridge+Meta数据中心储能、ACTOM BESS、晨丰科技13.15亿元储能电站等。",
+        "delta": "较05:00 RSS新增或上移",
+        "direction": "up",
+        "source": "Google News中文RSS / Google News海外RSS / SMM上海有色",
+        "as_of": "2026-05-27 06:00 CST",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 4a6d9514c5bcb3eeaabb7296bd856dd7c078f90b849832ac2e80d5fe29cb5add，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 9c376100a1ae88c399562169424bb62bf529081cac7217c6b45285ef2a8e8eeb。 海外入口：Energy-Storage.News eff82bd2e2602ebb5bf2f3f6e4834b7645d5c873afd9598750e5acdc69a3ac4d，ESS News 5cbf89f2d8beb2a37541a141bef645b7e3b7bf146a68527589fb4792ee9fe27c，pv magazine c885779e7a418a8f78dadd6c042e19bf627da118bb8dfc8e1b3b220f87fa2650，SolarQuarter 88860db516e64b1ce337e3ef9f901bd07c90adbe099d1c9ad6c9eb79d91e07fa，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 06:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》发布、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单落地、晨丰科技拟投资13.15亿元建设两个储能电站、广期所碳酸锂主力合约跌超4%。海外RSS新增/上移Enbridge与Meta宣布Wyoming大型太阳能+储能设施服务数据中心、Eos Energy股价继续大涨、Japan Today讨论钠电替代锂电、ACTOM收购本地电池制造商扩展BESS、PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260527-0500-public-new",
         "title": "05:00新增国内+海外储能/电池线索",
@@ -56015,6 +56145,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260527-0600-meta-actom-eos",
+        "source": "Google News海外RSS / pv magazine USA / Japan Today / energize.co.za / PV Tech",
+        "category": "海外观察/数据中心电力/BESS制造/钠电",
+        "title": "海外新增/上移Meta数据中心太阳能储能、ACTOM扩BESS与钠电替代讨论",
+        "summary": "06:00海外公开源新增/上移Enbridge和Meta宣布Wyoming大型太阳能及储能设施服务数据中心电力需求，Eos Energy股价继续大涨，Japan Today讨论钠离子电池能否替代锂电，ACTOM收购本地电池制造商以扩展BESS，PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。",
+        "value": "1",
+        "unit": "GW组件供货",
+        "delta": "海外数据中心电力、BESS制造扩张和钠电替代讨论新增/上移",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 06:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 4a6d9514c5bcb3eeaabb7296bd856dd7c078f90b849832ac2e80d5fe29cb5add，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 9c376100a1ae88c399562169424bb62bf529081cac7217c6b45285ef2a8e8eeb。 海外入口：Energy-Storage.News eff82bd2e2602ebb5bf2f3f6e4834b7645d5c873afd9598750e5acdc69a3ac4d，ESS News 5cbf89f2d8beb2a37541a141bef645b7e3b7bf146a68527589fb4792ee9fe27c，pv magazine c885779e7a418a8f78dadd6c042e19bf627da118bb8dfc8e1b3b220f87fa2650，SolarQuarter 88860db516e64b1ce337e3ef9f901bd07c90adbe099d1c9ad6c9eb79d91e07fa，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 06:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》发布、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单落地、晨丰科技拟投资13.15亿元建设两个储能电站、广期所碳酸锂主力合约跌超4%。海外RSS新增/上移Enbridge与Meta宣布Wyoming大型太阳能+储能设施服务数据中心、Eos Energy股价继续大涨、Japan Today讨论钠电替代锂电、ACTOM收购本地电池制造商扩展BESS、PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。"
+      },
+      {
         "id": "overseas-20260527-0500-frontier-qualitas-fortescue",
         "source": "Google News海外RSS / Mercom / capital-riesgo / IndexBox",
         "category": "海外观察/BESS收购/融资/招标/投运",
@@ -62581,6 +62726,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260527-0600-solid-aidc-datacenter",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / pv magazine USA / Japan Today / energize.co.za / PV Tech",
+        "category": "固态电池/AIDC储能/数据中心电力/材料行情",
+        "title": "固态电池量产预期、AIDC储能订单和数据中心电力进入新增线索",
+        "summary": "06:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较05:00页面未变；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单、晨丰科技拟投13.15亿元储能电站、碳酸锂主力跌超4%。海外新增/上移Enbridge+Meta Wyoming太阳能储能数据中心设施、Eos Energy股价异动、钠电替代锂电讨论、ACTOM收购电池厂扩展BESS、GCL SI泰国1GW组件供货。",
+        "value": "13.15",
+        "unit": "亿元储能电站拟投资",
+        "delta": "国内固态电池/AIDC储能和海外数据中心电力线索新增；SMM材料报价较05:00未变",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 06:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 4a6d9514c5bcb3eeaabb7296bd856dd7c078f90b849832ac2e80d5fe29cb5add，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 9c376100a1ae88c399562169424bb62bf529081cac7217c6b45285ef2a8e8eeb。 海外入口：Energy-Storage.News eff82bd2e2602ebb5bf2f3f6e4834b7645d5c873afd9598750e5acdc69a3ac4d，ESS News 5cbf89f2d8beb2a37541a141bef645b7e3b7bf146a68527589fb4792ee9fe27c，pv magazine c885779e7a418a8f78dadd6c042e19bf627da118bb8dfc8e1b3b220f87fa2650，SolarQuarter 88860db516e64b1ce337e3ef9f901bd07c90adbe099d1c9ad6c9eb79d91e07fa，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 06:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》发布、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单落地、晨丰科技拟投资13.15亿元建设两个储能电站、广期所碳酸锂主力合约跌超4%。海外RSS新增/上移Enbridge与Meta宣布Wyoming大型太阳能+储能设施服务数据中心、Eos Energy股价继续大涨、Japan Today讨论钠电替代锂电、ACTOM收购本地电池制造商扩展BESS、PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。"
+      },
       {
         "id": "market-20260527-0500-bess-finance-storage-supply",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / Mercom / capital-riesgo",
@@ -77356,6 +77516,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260527-0600-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-27 06:00 CST",
+        "status": 200,
+        "sha256": "c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85",
+        "finding": "首页已按小时重读；本轮写入比亚迪固态电池、Adani 3.37GWh、Meta数据中心储能等。"
+      },
+      {
+        "id": "source-20260527-0600-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-27 06:00 CST",
+        "status": 200,
+        "sha256": "04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1",
+        "finding": "/markettrend/已按小时重读；本轮补充固态电池、AIDC储能、数据中心电力和材料行情证据。"
+      },
+      {
+        "id": "source-20260527-0600-smm",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 06:00 CST",
+        "status": 200,
+        "sha256": "4a6d9514c5bcb3eeaabb7296bd856dd7c078f90b849832ac2e80d5fe29cb5add",
+        "finding": "06:00复核：电池级碳酸锂180000、SMM电池级碳酸锂指数179532、磷酸铁锂61770、电解液29350元/吨；较05:00页面未变。"
+      },
+      {
+        "id": "source-20260527-0600-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-27 06:00 CST",
+        "status": 200,
+        "sha256": "08eb9969f60640f8f93ed5b09a17ada39f4ab59085f47ab8b412a85ab5416c0b",
+        "finding": "新增/上移易事特AIDC名录、比亚迪固态电池2027量产线索、新型储能白皮书、Adani 3.37GWh、阳光电源AIDC订单、晨丰科技13.15亿元储能电站、碳酸锂主力跌超4%。"
+      },
+      {
+        "id": "source-20260527-0600-google-global-bess",
+        "source": "Google News海外BESS RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 06:00 CST",
+        "status": 200,
+        "sha256": "c8f167cc6e8cf4c88a251aabe98b3250d492ed9d212f560a6bb0885c891cb1d1",
+        "finding": "新增/上移Enbridge+Meta Wyoming太阳能储能数据中心设施、Eos Energy股价、Japan Today钠电替代锂电讨论、ACTOM收购电池制造商扩展BESS。"
+      },
+      {
+        "id": "source-20260527-0600-google-datacenter",
+        "source": "Google News数据中心电力RSS",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 06:00 CST",
+        "status": 200,
+        "sha256": "8d076766e8c6d35708a90b93fc2708140c5c5f9d942d936f5b3c1b0755acec9d",
+        "finding": "新增/上移Enbridge和Meta数据中心电力设施，以及电网防护、AI基础设施受益股线索。"
+      },
+      {
+        "id": "source-20260527-0600-google-europe",
+        "source": "Google News欧洲BESS RSS",
+        "url": "https://news.google.com/rss/search?q=Europe%20BESS%20battery%20storage%20when:1d&hl=en-GB&gl=GB&ceid=GB:en",
+        "as_of": "2026-05-27 06:00 CST",
+        "status": 200,
+        "sha256": "65cd6f2d210832938c8a9d01ca744a6b4f53cce5863d5bef4844036ea93b2aeb",
+        "finding": "新增/上移GCL SI与泰国Getz Energy签署1GW组件供货协议。"
+      },
+      {
         "id": "source-20260527-0500-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -86940,5 +87163,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-27T05:00:00+08:00"
+  "checked_at": "2026-05-27T06:00:00+08:00"
 };
