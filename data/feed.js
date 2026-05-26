@@ -1,8 +1,84 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T15:00:00+08:00",
-  "note": "15:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较14:00页面未变；Google News中文上移碳酸锂期货主力日内跌4%/175920与长江有色成本下降预期。国内新增北极星内蒙古200MW/800MWh电网侧友好型独立储能中标候选人、国宁新储7GW储能电芯框采入围。海外新增EnergyTrend五家企业储能电池项目超47GWh、鹏程无限钠离子新品、BYD 5GWh/Fox ESS澳大利亚出货记录，以及印度电池供应链安全、Adani 3.37GWh、Southern Power Texas BESS JDA等线索。",
+  "generated_at": "2026-05-26T17:00:00+08:00",
+  "note": "17:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较15:00页面未变；中文RSS新增天赐材料拟开展16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、碳酸锂大跌4%、东莞新型储能产业链合作交流会与荆门动力储能电池基地。国内北极星新增易事特浙江平阳储充项目投运、海博思创储算一体/锂钠融合、天合储能菲律宾光储。海外新增Invinity瑞士2.1GWh液流电池合同、Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池开建、ACME 300MW/1200MWh PPA等线索。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-1700-invinity-adani-tinci-lfp",
+        "source": "SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / 北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News",
+        "category": "液流电池/BESS/磷酸铁锂/储充项目/海外PPA",
+        "title": "17:00刷新：Invinity瑞士2.1GWh液流电池、Adani印度3.37GWh BESS与天赐16万吨LFP新增",
+        "summary": "17:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较15:00页面未变；中文RSS新增天赐材料拟开展16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、碳酸锂大跌4%、东莞新型储能产业链合作交流会与荆门动力储能电池基地。国内北极星新增易事特浙江平阳储充项目投运、海博思创储算一体/锂钠融合、天合储能菲律宾光储。海外新增Invinity瑞士2.1GWh液流电池合同、Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池开建、ACME 300MW/1200MWh PPA等线索。",
+        "body": [
+          "行情：SMM 17:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；中文RSS继续上移碳酸锂大跌4%的商品日报/收评证据。",
+          "国内材料：Google News中文新增天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作，预计总投资不超过21亿元。",
+          "国内项目/企业：北极星新增易事特Meta Pro液冷储能赋能浙江平阳新能源充电站储充项目正式投运；海博思创新增储算一体、锂钠融合和固态变压器自研线索；天合储能菲律宾光储一体化解决方案上移。",
+          "海外长时储能：Energy-Storage.News新增Invinity获得瑞士2.1GWh液流电池合同，股价大涨；并新增德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对。",
+          "海外BESS投运/开工：ESS News新增Adani Green印度Khavda 3.37GWh BESS投运；Fortescue在西澳开建690MW光伏+650MWh电池项目。",
+          "海外PPA/回收：SolarQuarter新增ACME Solar与SECI签署300MW/1200MWh 25年PPA，NavPrakriti与IIT Kharagpur推进电池回收研发和技能培养。"
+        ],
+        "key_points": [
+          "本轮行情价格未跳动，但中文RSS新增天赐材料16万吨高压实磷酸铁锂项目前期工作与碳酸锂大跌4%的收评证据。",
+          "国内新增储充投运、储算一体/锂钠融合、菲律宾光储一体化和动力电池安全排查线索。",
+          "海外新增2.1GWh液流电池合同、3.37GWh BESS投运、650MWh矿区电池开建和300MW/1200MWh PPA。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "value": "2.1",
+        "unit": "GWh瑞士液流电池合同",
+        "delta": "新增Invinity 2.1GWh、Adani 3.37GWh、Fortescue 650MWh、ACME 1200MWh、天赐16万吨LFP",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 17:00 CST",
+        "url": "https://www.energy-storage.news/invinity-lands-contract-for-2-1gwh-flow-battery-in-switzerland-share-price-soars-60/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://solarquarter.com/",
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>17:00新增/复核：SMM四项材料价格较15:00未变；新增天赐材料16万吨LFP前期工作、易事特浙江平阳储充投运、Invinity瑞士2.1GWh液流电池合同、Adani印度3.37GWh BESS投运、Fortescue西澳690MW+650MWh开建、ACME 300MW/1200MWh PPA。</p>",
+        "caption": "长时储能与海外大规模BESS新增，国内材料和储充项目同步上移。",
+        "methodology": "17:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 eb9ce199eae8d8460f75f3d888cd1d8ad14851c2b91562cba16e78b0905ad096，SMM新能源 ab50d8a4ce8f31c8caeb3604ca6f5f5c77da7e1010932a5ae12d99824b67c556，SMM碳酸锂 bd7cc145ab5e981119c1be0cf68eced6afbab6f071a6ca20b064c3e56668847d，中国能源网 5e7fa6edd6dcfdf6a6224947ffc3dcaeb14cb7675ff56ba77caa9ee6a44846bf，国家能源局 3e719ce297b128946e989e5e58466e663336bf1ad5faf92027a4479e11bf5232，工信部 f0729cbee13a10600d9dbf644c5bd3d7ea0bd97c784370049c46bcf41fb898c6，CNESA d22c221e787afdb888ffac8a8f0a12b3d87db3a5969f19964581efc6bee6676f。 海外入口：Energy-Storage.News 436d6342229a74bb161cc0d313d195a3e68652bb3bd69151fbd50426711578ba，ESS News 89c22a7c6609ec2e9df7c83fc9210631ef8f6523e8a4594cb1379d73b66869bb，pv magazine 5543491c6f6baae8235aecbdd777ca73a11d42a83f374e7b97fd6d92458bb11c，SolarQuarter b072315db23cd3704ee706a2dd59f175b9f5fac229825a1cfb44f31003915b88，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 17:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；Google News中文新增/上移商品日报与收评口径的碳酸锂大跌4%、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、东莞新型储能产业链合作交流会、荆门打造世界级动力储能电池产业基地。国内北极星新增易事特浙江平阳新能源储充项目投运、海博思创储算一体/锂钠融合/固态变压器自研、天合储能菲律宾光储一体化、新能源汽车安全隐患排查动力电池重点。海外新增Energy-Storage.News的Invinity瑞士2.1GWh液流电池合同、德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对；ESS News新增Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池项目开建；SolarQuarter新增ACME Solar 300MW/1200MWh 25年PPA、NavPrakriti-IIT Kharagpur电池回收研发。",
+        "history": [
+          {
+            "label": "Invinity液流电池 GWh",
+            "value": 2.1
+          },
+          {
+            "label": "Adani BESS GWh",
+            "value": 3.37
+          },
+          {
+            "label": "Fortescue电池 MWh",
+            "value": 650
+          },
+          {
+            "label": "ACME PPA MWh",
+            "value": 1200
+          },
+          {
+            "label": "天赐LFP万吨/年",
+            "value": 16
+          },
+          {
+            "label": "天赐预计投资 亿元",
+            "value": 21
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61770
+          }
+        ]
+      },
       {
         "id": "headline-20260526-1500-inner-mongolia-7gw-47gwh-energytrend",
         "source": "SMM上海有色 / 北极星储能 / EnergyTrend / Google News RSS / Energy-Storage.News",
@@ -15298,6 +15374,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-1700-invinity-adani-tinci",
+        "source": "SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
+        "source_type": "专业行情/国内外公开媒体/RSS",
+        "account_name": "SMM / 北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News",
+        "category": "液流电池/BESS/磷酸铁锂/储充项目/海外PPA",
+        "title": "17:00刷新：Invinity瑞士2.1GWh液流电池、Adani印度3.37GWh BESS与天赐16万吨LFP新增",
+        "summary": "17:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较15:00页面未变；中文RSS新增天赐材料拟开展16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、碳酸锂大跌4%、东莞新型储能产业链合作交流会与荆门动力储能电池基地。国内北极星新增易事特浙江平阳储充项目投运、海博思创储算一体/锂钠融合、天合储能菲律宾光储。海外新增Invinity瑞士2.1GWh液流电池合同、Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池开建、ACME 300MW/1200MWh PPA等线索。",
+        "body": [
+          "行情：SMM 17:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；中文RSS继续上移碳酸锂大跌4%的商品日报/收评证据。",
+          "国内材料：Google News中文新增天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作，预计总投资不超过21亿元。",
+          "国内项目/企业：北极星新增易事特Meta Pro液冷储能赋能浙江平阳新能源充电站储充项目正式投运；海博思创新增储算一体、锂钠融合和固态变压器自研线索；天合储能菲律宾光储一体化解决方案上移。",
+          "海外长时储能：Energy-Storage.News新增Invinity获得瑞士2.1GWh液流电池合同，股价大涨；并新增德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对。",
+          "海外BESS投运/开工：ESS News新增Adani Green印度Khavda 3.37GWh BESS投运；Fortescue在西澳开建690MW光伏+650MWh电池项目。",
+          "海外PPA/回收：SolarQuarter新增ACME Solar与SECI签署300MW/1200MWh 25年PPA，NavPrakriti与IIT Kharagpur推进电池回收研发和技能培养。"
+        ],
+        "key_points": [
+          "本轮行情价格未跳动，但中文RSS新增天赐材料16万吨高压实磷酸铁锂项目前期工作与碳酸锂大跌4%的收评证据。",
+          "国内新增储充投运、储算一体/锂钠融合、菲律宾光储一体化和动力电池安全排查线索。",
+          "海外新增2.1GWh液流电池合同、3.37GWh BESS投运、650MWh矿区电池开建和300MW/1200MWh PPA。",
+          "本轮已重读NeoLink与MarketTrend线上页面并保存国内/海外原始HTML/RSS。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 17:00 CST",
+        "url": "https://www.energy-storage.news/invinity-lands-contract-for-2-1gwh-flow-battery-in-switzerland-share-price-soars-60/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://solarquarter.com/",
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/"
+        ],
+        "clean_html": "<p>17:00新增/复核：SMM四项材料价格较15:00未变；新增天赐材料16万吨LFP前期工作、易事特浙江平阳储充投运、Invinity瑞士2.1GWh液流电池合同、Adani印度3.37GWh BESS投运、Fortescue西澳690MW+650MWh开建、ACME 300MW/1200MWh PPA。</p>",
+        "caption": "长时储能与海外大规模BESS新增，国内材料和储充项目同步上移。",
+        "methodology": "17:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 eb9ce199eae8d8460f75f3d888cd1d8ad14851c2b91562cba16e78b0905ad096，SMM新能源 ab50d8a4ce8f31c8caeb3604ca6f5f5c77da7e1010932a5ae12d99824b67c556，SMM碳酸锂 bd7cc145ab5e981119c1be0cf68eced6afbab6f071a6ca20b064c3e56668847d，中国能源网 5e7fa6edd6dcfdf6a6224947ffc3dcaeb14cb7675ff56ba77caa9ee6a44846bf，国家能源局 3e719ce297b128946e989e5e58466e663336bf1ad5faf92027a4479e11bf5232，工信部 f0729cbee13a10600d9dbf644c5bd3d7ea0bd97c784370049c46bcf41fb898c6，CNESA d22c221e787afdb888ffac8a8f0a12b3d87db3a5969f19964581efc6bee6676f。 海外入口：Energy-Storage.News 436d6342229a74bb161cc0d313d195a3e68652bb3bd69151fbd50426711578ba，ESS News 89c22a7c6609ec2e9df7c83fc9210631ef8f6523e8a4594cb1379d73b66869bb，pv magazine 5543491c6f6baae8235aecbdd777ca73a11d42a83f374e7b97fd6d92458bb11c，SolarQuarter b072315db23cd3704ee706a2dd59f175b9f5fac229825a1cfb44f31003915b88，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 17:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；Google News中文新增/上移商品日报与收评口径的碳酸锂大跌4%、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、东莞新型储能产业链合作交流会、荆门打造世界级动力储能电池产业基地。国内北极星新增易事特浙江平阳新能源储充项目投运、海博思创储算一体/锂钠融合/固态变压器自研、天合储能菲律宾光储一体化、新能源汽车安全隐患排查动力电池重点。海外新增Energy-Storage.News的Invinity瑞士2.1GWh液流电池合同、德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对；ESS News新增Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池项目开建；SolarQuarter新增ACME Solar 300MW/1200MWh 25年PPA、NavPrakriti-IIT Kharagpur电池回收研发。"
+      },
       {
         "id": "latest-20260526-1500-inner-mongolia-7gw-47gwh",
         "source": "SMM上海有色 / 北极星储能 / EnergyTrend / Google News RSS / Energy-Storage.News",
@@ -37528,6 +37642,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-1700-smm-flat-tinci-lfp",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；17:00复核较15:00未变；中文RSS新增天赐16万吨LFP前期工作与碳酸锂大跌4%",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较15:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS新增天赐16万吨LFP项目与碳酸锂跌4%收评",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 17:00 CST",
+        "methodology": "17:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 eb9ce199eae8d8460f75f3d888cd1d8ad14851c2b91562cba16e78b0905ad096，SMM新能源 ab50d8a4ce8f31c8caeb3604ca6f5f5c77da7e1010932a5ae12d99824b67c556，SMM碳酸锂 bd7cc145ab5e981119c1be0cf68eced6afbab6f071a6ca20b064c3e56668847d，中国能源网 5e7fa6edd6dcfdf6a6224947ffc3dcaeb14cb7675ff56ba77caa9ee6a44846bf，国家能源局 3e719ce297b128946e989e5e58466e663336bf1ad5faf92027a4479e11bf5232，工信部 f0729cbee13a10600d9dbf644c5bd3d7ea0bd97c784370049c46bcf41fb898c6，CNESA d22c221e787afdb888ffac8a8f0a12b3d87db3a5969f19964581efc6bee6676f。 海外入口：Energy-Storage.News 436d6342229a74bb161cc0d313d195a3e68652bb3bd69151fbd50426711578ba，ESS News 89c22a7c6609ec2e9df7c83fc9210631ef8f6523e8a4594cb1379d73b66869bb，pv magazine 5543491c6f6baae8235aecbdd777ca73a11d42a83f374e7b97fd6d92458bb11c，SolarQuarter b072315db23cd3704ee706a2dd59f175b9f5fac229825a1cfb44f31003915b88，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 17:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；Google News中文新增/上移商品日报与收评口径的碳酸锂大跌4%、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、东莞新型储能产业链合作交流会、荆门打造世界级动力储能电池产业基地。国内北极星新增易事特浙江平阳新能源储充项目投运、海博思创储算一体/锂钠融合/固态变压器自研、天合储能菲律宾光储一体化、新能源汽车安全隐患排查动力电池重点。海外新增Energy-Storage.News的Invinity瑞士2.1GWh液流电池合同、德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对；ESS News新增Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池项目开建；SolarQuarter新增ACME Solar 300MW/1200MWh 25年PPA、NavPrakriti-IIT Kharagpur电池回收研发。"
+      },
+      {
         "id": "material-20260526-1500-smm-flat-futures-down",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；15:00复核较14:00未变；中文RSS新增期货主力跌4%/175920",
@@ -41273,6 +41400,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-1700-public-new",
+        "title": "17:00新增国内+海外储能/电池线索",
+        "value": "99",
+        "unit": "条",
+        "caption": "北极星储能、Energy-Storage.News、ESS News、SolarQuarter、Google News中文/海外RSS新增或上移Invinity 2.1GWh、Adani 3.37GWh、Fortescue 650MWh、ACME 1200MWh、天赐16万吨LFP等线索。",
+        "delta": "较15:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
+        "as_of": "2026-05-26 17:00 CST",
+        "methodology": "17:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 eb9ce199eae8d8460f75f3d888cd1d8ad14851c2b91562cba16e78b0905ad096，SMM新能源 ab50d8a4ce8f31c8caeb3604ca6f5f5c77da7e1010932a5ae12d99824b67c556，SMM碳酸锂 bd7cc145ab5e981119c1be0cf68eced6afbab6f071a6ca20b064c3e56668847d，中国能源网 5e7fa6edd6dcfdf6a6224947ffc3dcaeb14cb7675ff56ba77caa9ee6a44846bf，国家能源局 3e719ce297b128946e989e5e58466e663336bf1ad5faf92027a4479e11bf5232，工信部 f0729cbee13a10600d9dbf644c5bd3d7ea0bd97c784370049c46bcf41fb898c6，CNESA d22c221e787afdb888ffac8a8f0a12b3d87db3a5969f19964581efc6bee6676f。 海外入口：Energy-Storage.News 436d6342229a74bb161cc0d313d195a3e68652bb3bd69151fbd50426711578ba，ESS News 89c22a7c6609ec2e9df7c83fc9210631ef8f6523e8a4594cb1379d73b66869bb，pv magazine 5543491c6f6baae8235aecbdd777ca73a11d42a83f374e7b97fd6d92458bb11c，SolarQuarter b072315db23cd3704ee706a2dd59f175b9f5fac229825a1cfb44f31003915b88，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 17:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；Google News中文新增/上移商品日报与收评口径的碳酸锂大跌4%、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、东莞新型储能产业链合作交流会、荆门打造世界级动力储能电池产业基地。国内北极星新增易事特浙江平阳新能源储充项目投运、海博思创储算一体/锂钠融合/固态变压器自研、天合储能菲律宾光储一体化、新能源汽车安全隐患排查动力电池重点。海外新增Energy-Storage.News的Invinity瑞士2.1GWh液流电池合同、德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对；ESS News新增Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池项目开建；SolarQuarter新增ACME Solar 300MW/1200MWh 25年PPA、NavPrakriti-IIT Kharagpur电池回收研发。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-1500-public-new",
         "title": "15:00新增国内+海外储能/电池线索",
@@ -55047,6 +55187,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-1700-invinity-adani-fortescue-acme",
+        "source": "Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
+        "category": "海外观察/BESS/长时储能/PPA/监管",
+        "title": "海外新增2.1GWh液流电池合同、3.37GWh BESS投运、650MWh矿区电池与300MW/1200MWh PPA",
+        "summary": "17:00海外公开源新增/上移Invinity瑞士2.1GWh液流电池合同，Adani Green印度Khavda 3.37GWh BESS投运，Fortescue西澳690MW光伏+650MWh电池项目开建，ACME Solar 300MW/1200MWh 25年PPA；同时新增德国2029年后项目报价、ASEAN监管框架和BESS社区安全议题。",
+        "value": "2.1",
+        "unit": "GWh液流电池合同",
+        "delta": "海外BESS/液流电池/PPA/监管线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 17:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "methodology": "17:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 eb9ce199eae8d8460f75f3d888cd1d8ad14851c2b91562cba16e78b0905ad096，SMM新能源 ab50d8a4ce8f31c8caeb3604ca6f5f5c77da7e1010932a5ae12d99824b67c556，SMM碳酸锂 bd7cc145ab5e981119c1be0cf68eced6afbab6f071a6ca20b064c3e56668847d，中国能源网 5e7fa6edd6dcfdf6a6224947ffc3dcaeb14cb7675ff56ba77caa9ee6a44846bf，国家能源局 3e719ce297b128946e989e5e58466e663336bf1ad5faf92027a4479e11bf5232，工信部 f0729cbee13a10600d9dbf644c5bd3d7ea0bd97c784370049c46bcf41fb898c6，CNESA d22c221e787afdb888ffac8a8f0a12b3d87db3a5969f19964581efc6bee6676f。 海外入口：Energy-Storage.News 436d6342229a74bb161cc0d313d195a3e68652bb3bd69151fbd50426711578ba，ESS News 89c22a7c6609ec2e9df7c83fc9210631ef8f6523e8a4594cb1379d73b66869bb，pv magazine 5543491c6f6baae8235aecbdd777ca73a11d42a83f374e7b97fd6d92458bb11c，SolarQuarter b072315db23cd3704ee706a2dd59f175b9f5fac229825a1cfb44f31003915b88，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 17:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；Google News中文新增/上移商品日报与收评口径的碳酸锂大跌4%、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、东莞新型储能产业链合作交流会、荆门打造世界级动力储能电池产业基地。国内北极星新增易事特浙江平阳新能源储充项目投运、海博思创储算一体/锂钠融合/固态变压器自研、天合储能菲律宾光储一体化、新能源汽车安全隐患排查动力电池重点。海外新增Energy-Storage.News的Invinity瑞士2.1GWh液流电池合同、德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对；ESS News新增Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池项目开建；SolarQuarter新增ACME Solar 300MW/1200MWh 25年PPA、NavPrakriti-IIT Kharagpur电池回收研发。"
+      },
+      {
         "id": "overseas-20260526-1500-energytrend-india-adani-southern",
         "source": "EnergyTrend / Energy-Storage.News / Google News RSS",
         "category": "海外观察/BESS/钠离子/供应链",
@@ -61508,6 +61663,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-1700-invinity-adani-acme",
+        "source": "SMM上海有色 / 北极星储能 / Energy-Storage.News / ESS News / SolarQuarter / Google News RSS",
+        "category": "液流电池/BESS/磷酸铁锂/海外PPA",
+        "title": "Invinity瑞士2.1GWh液流电池、Adani印度3.37GWh BESS与天赐16万吨LFP新增",
+        "summary": "17:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较15:00页面未变；中文RSS新增天赐材料拟开展16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、碳酸锂大跌4%、东莞新型储能产业链合作交流会与荆门动力储能电池基地。国内北极星新增易事特浙江平阳储充项目投运、海博思创储算一体/锂钠融合、天合储能菲律宾光储。海外新增Invinity瑞士2.1GWh液流电池合同、Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池开建、ACME 300MW/1200MWh PPA等线索。",
+        "value": "3.37",
+        "unit": "GWh印度Khavda BESS投运",
+        "delta": "海外长时储能/BESS/PPA新增；国内材料项目前期工作新增；SMM材料报价较15:00未变",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 17:00 CST",
+        "url": "https://www.ess-news.com/2026/05/26/adani-green-energy-commissions-3-37-gwh-battery-energy-storage-system-in-india/",
+        "methodology": "17:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 eb9ce199eae8d8460f75f3d888cd1d8ad14851c2b91562cba16e78b0905ad096，SMM新能源 ab50d8a4ce8f31c8caeb3604ca6f5f5c77da7e1010932a5ae12d99824b67c556，SMM碳酸锂 bd7cc145ab5e981119c1be0cf68eced6afbab6f071a6ca20b064c3e56668847d，中国能源网 5e7fa6edd6dcfdf6a6224947ffc3dcaeb14cb7675ff56ba77caa9ee6a44846bf，国家能源局 3e719ce297b128946e989e5e58466e663336bf1ad5faf92027a4479e11bf5232，工信部 f0729cbee13a10600d9dbf644c5bd3d7ea0bd97c784370049c46bcf41fb898c6，CNESA d22c221e787afdb888ffac8a8f0a12b3d87db3a5969f19964581efc6bee6676f。 海外入口：Energy-Storage.News 436d6342229a74bb161cc0d313d195a3e68652bb3bd69151fbd50426711578ba，ESS News 89c22a7c6609ec2e9df7c83fc9210631ef8f6523e8a4594cb1379d73b66869bb，pv magazine 5543491c6f6baae8235aecbdd777ca73a11d42a83f374e7b97fd6d92458bb11c，SolarQuarter b072315db23cd3704ee706a2dd59f175b9f5fac229825a1cfb44f31003915b88，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 17:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；Google News中文新增/上移商品日报与收评口径的碳酸锂大跌4%、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、东莞新型储能产业链合作交流会、荆门打造世界级动力储能电池产业基地。国内北极星新增易事特浙江平阳新能源储充项目投运、海博思创储算一体/锂钠融合/固态变压器自研、天合储能菲律宾光储一体化、新能源汽车安全隐患排查动力电池重点。海外新增Energy-Storage.News的Invinity瑞士2.1GWh液流电池合同、德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对；ESS News新增Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池项目开建；SolarQuarter新增ACME Solar 300MW/1200MWh 25年PPA、NavPrakriti-IIT Kharagpur电池回收研发。"
+      },
       {
         "id": "market-20260526-1500-inner-mongolia-7gw",
         "source": "SMM上海有色 / 北极星储能 / EnergyTrend / Google News RSS / Energy-Storage.News",
@@ -76178,6 +76348,87 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-1700-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入Invinity 2.1GWh、Adani 3.37GWh、天赐16万吨LFP、Fortescue 650MWh等。"
+      },
+      {
+        "id": "source-20260526-1700-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充海外液流电池/BESS/PPA与国内材料项目证据。"
+      },
+      {
+        "id": "source-20260526-1700-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "ab50d8a4ce8f31c8caeb3604ca6f5f5c77da7e1010932a5ae12d99824b67c556",
+        "finding": "17:00复核：电池级碳酸锂180000、SMM电池级碳酸锂指数179532、磷酸铁锂61770、电解液29350元/吨；较15:00页面未变。"
+      },
+      {
+        "id": "source-20260526-1700-bjx",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "eb9ce199eae8d8460f75f3d888cd1d8ad14851c2b91562cba16e78b0905ad096",
+        "finding": "新增易事特浙江平阳新能源充电站储充项目正式投运、海博思创储算一体/锂钠融合/固态变压器自研、天合储能菲律宾光储一体化、新能源汽车动力电池安全隐患排查。"
+      },
+      {
+        "id": "source-20260526-1700-esn",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "436d6342229a74bb161cc0d313d195a3e68652bb3bd69151fbd50426711578ba",
+        "finding": "新增Invinity lands contract for 2.1GWh flow battery in Switzerland、德国2029年后项目报价、ASEAN监管框架、BESS安全社区反对等。"
+      },
+      {
+        "id": "source-20260526-1700-ess",
+        "source": "ESS News",
+        "url": "https://www.ess-news.com/",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "89c22a7c6609ec2e9df7c83fc9210631ef8f6523e8a4594cb1379d73b66869bb",
+        "finding": "新增Adani Green Energy commissions 3.37GWh BESS in India、Fortescue begins building solar-plus-storage 650MWh project for mining。"
+      },
+      {
+        "id": "source-20260526-1700-solarquarter",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "b072315db23cd3704ee706a2dd59f175b9f5fac229825a1cfb44f31003915b88",
+        "finding": "新增ACME Solar 300MW/1200MWh 25-year PPA、NavPrakriti-IIT Kharagpur电池回收研发等。"
+      },
+      {
+        "id": "source-20260526-1700-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "b7d275afd2ffe55b7c1647494f3c29f91a352a09d143dfa1c828edf3d2dab99c",
+        "finding": "新增/上移天赐材料16万吨高压实磷酸铁锂、商品日报碳酸锂大跌4%、东莞新型储能产业链合作交流会、荆门动力储能电池基地。"
+      },
+      {
+        "id": "source-20260526-1700-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 17:00 CST",
+        "status": 200,
+        "sha256": "2cd99a520467e22ae0fed387bdd227d724642c9ca631b3d8354dbe6afe4cdbe9",
+        "finding": "新增/上移Adani Green 3.37GWh、Fortescue 650MWh、GRID £141m financing、Gujarat 120MWh招标等。"
+      },
+      {
         "id": "source-20260526-1500-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -85258,5 +85509,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T15:00:00+08:00"
+  "checked_at": "2026-05-26T17:00:00+08:00"
 };
