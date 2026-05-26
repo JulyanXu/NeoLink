@@ -1,4 +1,12 @@
 
+## 2026-05-26T10:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `9936b762...`，`/markettrend/` HTTP 200 sha256 `2c041d7c...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
+- 国内新增/上移：宁德时代1.5GWh海外储能订单；比亚迪甘肃5GWh储能系统设备采购；18GWh中企与沙特方共建储能智造基地；内蒙古国资75亿元30GWh储能电芯产线；奇点/楚能/宁德入围宁夏200MW/400MWh储能系统设备采购；兰州100MW/400MWh独立储能EPC废标；山东115GW光伏目标及安徽分布式光伏合理配储优先支持。
+- 海外新增/上移：Fortescue begins construction on 650MWh Cloudbreak battery storage system in Western Australia；Passive bidding strategy delivers AU$743,000 monthly revenue for Swanbank BESS；Australia's CIS Tender 7 battery storage leads as 19 projects exceed 5GW target；Hithium 8-hour energy storage system Australia debut。
+- 行情复核：SMM新能源 sha256 `5d96a243...` 与SMM碳酸锂页 sha256 `9b593f73...` 显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，均较09:00持平。
+- 动作：已更新`data/feed.js` generated_at/checked_at至10:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605261000`。Artifacts: `var/hermes/crawl-20260526-1000.py`, `var/hermes/crawl-output-20260526-1000.json`, `var/hermes/search-notes-20260526-1000.json`。
+
+
 ## 2026-05-26T09:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `9936b762...`，`/markettrend/` HTTP 200 sha256 `2c041d7c...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
 - 国内新增/上移：山东鼓励光伏配储；新疆哈密350MW/1.4GWh储能电站PC招标；江苏宿迁储能站火灾超前预警灭火抑爆系统应用；孝义100MW储能调频首批飞轮设备启运；邓州200MW/400MWh共享储能项目奠基；国家新型储能创新中心与东阳光算电协同项目落地广州白云。

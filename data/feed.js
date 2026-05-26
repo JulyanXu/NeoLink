@@ -1,8 +1,76 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T09:00:00+08:00",
-  "note": "09:00严格刷新新增采信：国内项目端新增山东光伏配储政策、新疆哈密350MW/1.4GWh储能电站PC招标、孝义100MW储能调频飞轮设备启运、邓州200MW/400MWh共享储能奠基、广州白云算电协同项目。海外新增澳大利亚成为全球第三大公用事业级电池储能市场、CIS Tender 7混合项目锁定7.9GWh储能，以及印度电力部Jan Vishwas Act改革。SMM四项行情较08:00持平。",
+  "generated_at": "2026-05-26T10:00:00+08:00",
+  "note": "10:00严格刷新新增采信：国内新增宁德时代1.5GWh海外储能订单、比亚迪甘肃5GWh储能采购、沙特18GWh储能智造基地、内蒙古75亿元30GWh电芯产线、宁夏200MW/400MWh储能系统入围、山东/安徽光储政策信号。海外新增Fortescue西澳650MWh Cloudbreak储能开工、Swanbank BESS月收入AU$743,000、澳大利亚CIS Tender 7超过5GW目标、海辰8小时长时储能澳洲首发。SMM四项行情较09:00持平。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260526-1000-fortescue-byd-catl-storage",
+        "source": "北极星储能网 / SMM上海有色 / Google News RSS / Energy-Storage.News",
+        "source_type": "RSS/专业行情/国内外公开媒体",
+        "account_name": "北极星储能 / SMM / Google News / Energy-Storage.News",
+        "category": "储能订单/电芯产能/BESS收益/碳酸锂",
+        "title": "10:00刷新：比亚迪5GWh与宁德1.5GWh订单新增，Fortescue西澳650MWh开工",
+        "summary": "10:00严格刷新新增采信：国内新增宁德时代1.5GWh海外储能订单、比亚迪甘肃5GWh储能采购、沙特18GWh储能智造基地、内蒙古75亿元30GWh电芯产线、宁夏200MW/400MWh储能系统入围、山东/安徽光储政策信号。海外新增Fortescue西澳650MWh Cloudbreak储能开工、Swanbank BESS月收入AU$743,000、澳大利亚CIS Tender 7超过5GW目标、海辰8小时长时储能澳洲首发。SMM四项行情较09:00持平。",
+        "body": [
+          "国内订单与产能：北极星新增宁德时代1.5GWh海外储能订单、比亚迪储能签约甘肃5GWh储能系统设备采购、18GWh中企与沙特方共建储能智造基地、内蒙古国资75亿元打造30GWh储能电芯产线。",
+          "国内项目：宁夏200MW/400MWh储能系统设备采购出现奇点、楚能、宁德入围；兰州100MW/400MWh独立储能EPC因中标人逾期未签合同废标。",
+          "政策与应用：SMM新增山东十五五光伏目标115GW并推动光储一体化/绿电直连，安徽芜湖6MW以下地面分布式光伏申报优先支持合理配储或高自用比例项目；中文RSS新增安徽调频辅助服务细则征求意见、海南万宁直流耦合+构网型光储开工。",
+          "海外BESS：Energy-Storage.News新增Fortescue西澳650MWh Cloudbreak battery storage system开工，以及Swanbank BESS被动竞价策略月收入AU$743,000。",
+          "海外长时储能/招标：Google News海外RSS新增澳大利亚CIS Tender 7电池储能领先并19个项目超过5GW目标，Hithium在澳大利亚首发8小时长时储能系统。",
+          "行情复核：SMM 10:00公开页显示电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较09:00持平。"
+        ],
+        "key_points": [
+          "比亚迪甘肃5GWh采购和宁德时代1.5GWh海外订单，是本轮新增的最大确定性订单线索。",
+          "18GWh沙特储能智造基地与内蒙古30GWh电芯产线，继续强化中东/国内制造端扩产。",
+          "Fortescue西澳650MWh Cloudbreak储能开工，补充海外矿业/工商业大储落地证据。",
+          "Swanbank BESS被动竞价月收入AU$743,000，给澳洲电池收益模型提供新样本。",
+          "山东115GW光伏目标、安徽分布式光伏合理配储优先支持，形成光储政策新增信号。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较09:00持平。"
+        ],
+        "value": "5",
+        "unit": "GWh比亚迪储能采购",
+        "delta": "新增比亚迪5GWh、宁德1.5GWh、沙特18GWh基地、内蒙古30GWh产线、Fortescue 650MWh开工；SMM四项持平",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 10:00 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/",
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "clean_html": "<p>10:00新增/复核：比亚迪甘肃5GWh、宁德1.5GWh海外订单、沙特18GWh储能智造基地、内蒙古30GWh电芯产线、Fortescue西澳650MWh Cloudbreak开工；SMM四项行情较09:00持平。</p>",
+        "caption": "国内订单/产能与海外澳洲储能开工、收益案例双线新增；SMM锂电材料价格持平。",
+        "methodology": "10:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 c94eb492ff65bde61a10aaa95f26ec3bd27a03454c7ca8971a5fb28005243e4a，SMM新能源 5d96a243810dff48395cf1ba8d907e45af8f94f0244a4de1ae6740148d8d52d4，SMM碳酸锂 9b593f735b65efa97edae1e12bdb720a8553664548efb6d821509cb7f722b25f，中国能源网 870798d760ffcaf119c92df7cd9f0da15e268c8d387f23f7bfff57fa25cc74f4，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA ad43f7ec28c413a24533154e7071361625ae3496b211546f8d2d956eec5622cd。 海外入口：Energy-Storage.News f36b58a2b3303e2aecc4660343161f5600ba7efdb2efd18ad14043e3c3e166c2，ESS News 4ad9963d456e722e0ce8402fc3a5c69ab11bc1520bd9a654f2e2ef397fb77665，pv magazine fee7b8cca35d09d5676e7cb1234884b709b98297867f9e18d490aaf4fc643b9c，SolarQuarter 70e4152cbc1692e904b2f1264313afb8bab171afc92ea232feebfaa1c965ff28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 10:00新增/变化：北极星储能新增宁德时代1.5GWh海外储能订单、比亚迪储能签约甘肃5GWh储能系统设备采购、18GWh中企与沙特方共建储能智造基地、内蒙古国资75亿元打造30GWh储能电芯产线、奇点/楚能/宁德入围宁夏200MW/400MWh储能系统设备采购，以及兰州100MW/400MWh独立储能EPC废标。SMM新增山东十五五光伏目标115GW并推动光储一体化/绿电直连、安徽芜湖6MW以下地面分布式光伏申报优先支持合理配储、当升科技固态锂电材料开发进展。中文RSS新增输配电集团与国家新型储能创新中心合作、安徽电力调频辅助服务市场细则征求意见、海南万宁直流耦合+构网型光储项目开工。海外新增Fortescue西澳650MWh Cloudbreak电池储能开工、Swanbank BESS被动竞价月收入AU$743,000、澳大利亚CIS Tender 7电池储能领先并19个项目超过5GW目标、Hithium澳大利亚首发8小时长时储能系统。SMM 10:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较09:00持平。",
+        "history": [
+          {
+            "label": "比亚迪甘肃采购 GWh",
+            "value": 5
+          },
+          {
+            "label": "宁德海外订单 GWh",
+            "value": 1.5
+          },
+          {
+            "label": "沙特智造基地 GWh",
+            "value": 18
+          },
+          {
+            "label": "内蒙古电芯产线 GWh",
+            "value": 30
+          },
+          {
+            "label": "Cloudbreak储能 MWh",
+            "value": 650
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 183250
+          }
+        ]
+      },
       {
         "id": "headline-20260526-0900-australia-cis-xinjiang-storage",
         "source": "Google News RSS / 北极星储能网 / SMM上海有色 / Energy-Storage.News / SolarQuarter / 时代储能网",
@@ -14858,6 +14926,44 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260526-1000-orders-australia-bess",
+        "source": "北极星储能网 / SMM上海有色 / Google News RSS / Energy-Storage.News",
+        "source_type": "RSS/专业行情/国内外公开媒体",
+        "account_name": "北极星储能 / SMM / Google News / Energy-Storage.News",
+        "category": "储能订单/电芯产能/BESS收益/碳酸锂",
+        "title": "10:00刷新：比亚迪5GWh与宁德1.5GWh订单新增，Fortescue西澳650MWh开工",
+        "summary": "10:00严格刷新新增采信：国内新增宁德时代1.5GWh海外储能订单、比亚迪甘肃5GWh储能采购、沙特18GWh储能智造基地、内蒙古75亿元30GWh电芯产线、宁夏200MW/400MWh储能系统入围、山东/安徽光储政策信号。海外新增Fortescue西澳650MWh Cloudbreak储能开工、Swanbank BESS月收入AU$743,000、澳大利亚CIS Tender 7超过5GW目标、海辰8小时长时储能澳洲首发。SMM四项行情较09:00持平。",
+        "body": [
+          "国内订单与产能：北极星新增宁德时代1.5GWh海外储能订单、比亚迪储能签约甘肃5GWh储能系统设备采购、18GWh中企与沙特方共建储能智造基地、内蒙古国资75亿元打造30GWh储能电芯产线。",
+          "国内项目：宁夏200MW/400MWh储能系统设备采购出现奇点、楚能、宁德入围；兰州100MW/400MWh独立储能EPC因中标人逾期未签合同废标。",
+          "政策与应用：SMM新增山东十五五光伏目标115GW并推动光储一体化/绿电直连，安徽芜湖6MW以下地面分布式光伏申报优先支持合理配储或高自用比例项目；中文RSS新增安徽调频辅助服务细则征求意见、海南万宁直流耦合+构网型光储开工。",
+          "海外BESS：Energy-Storage.News新增Fortescue西澳650MWh Cloudbreak battery storage system开工，以及Swanbank BESS被动竞价策略月收入AU$743,000。",
+          "海外长时储能/招标：Google News海外RSS新增澳大利亚CIS Tender 7电池储能领先并19个项目超过5GW目标，Hithium在澳大利亚首发8小时长时储能系统。",
+          "行情复核：SMM 10:00公开页显示电池级碳酸锂183250、SMM电碳指数183826、磷酸铁锂62560、电解液28950元/吨，较09:00持平。"
+        ],
+        "key_points": [
+          "比亚迪甘肃5GWh采购和宁德时代1.5GWh海外订单，是本轮新增的最大确定性订单线索。",
+          "18GWh沙特储能智造基地与内蒙古30GWh电芯产线，继续强化中东/国内制造端扩产。",
+          "Fortescue西澳650MWh Cloudbreak储能开工，补充海外矿业/工商业大储落地证据。",
+          "Swanbank BESS被动竞价月收入AU$743,000，给澳洲电池收益模型提供新样本。",
+          "山东115GW光伏目标、安徽分布式光伏合理配储优先支持，形成光储政策新增信号。",
+          "SMM行情：电池级碳酸锂183250、指数183826、磷酸铁锂62560、电解液28950元/吨，较09:00持平。"
+        ],
+        "date": "05-26",
+        "as_of": "2026-05-26 10:00 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://www.energy-storage.news/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/",
+          "https://newenergy.smm.cn/",
+          "https://www.energy-storage.news/",
+          "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "clean_html": "<p>10:00新增/复核：比亚迪甘肃5GWh、宁德1.5GWh海外订单、沙特18GWh储能智造基地、内蒙古30GWh电芯产线、Fortescue西澳650MWh Cloudbreak开工；SMM四项行情较09:00持平。</p>",
+        "caption": "国内订单/产能与海外澳洲储能开工、收益案例双线新增；SMM锂电材料价格持平。",
+        "methodology": "10:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 c94eb492ff65bde61a10aaa95f26ec3bd27a03454c7ca8971a5fb28005243e4a，SMM新能源 5d96a243810dff48395cf1ba8d907e45af8f94f0244a4de1ae6740148d8d52d4，SMM碳酸锂 9b593f735b65efa97edae1e12bdb720a8553664548efb6d821509cb7f722b25f，中国能源网 870798d760ffcaf119c92df7cd9f0da15e268c8d387f23f7bfff57fa25cc74f4，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA ad43f7ec28c413a24533154e7071361625ae3496b211546f8d2d956eec5622cd。 海外入口：Energy-Storage.News f36b58a2b3303e2aecc4660343161f5600ba7efdb2efd18ad14043e3c3e166c2，ESS News 4ad9963d456e722e0ce8402fc3a5c69ab11bc1520bd9a654f2e2ef397fb77665，pv magazine fee7b8cca35d09d5676e7cb1234884b709b98297867f9e18d490aaf4fc643b9c，SolarQuarter 70e4152cbc1692e904b2f1264313afb8bab171afc92ea232feebfaa1c965ff28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 10:00新增/变化：北极星储能新增宁德时代1.5GWh海外储能订单、比亚迪储能签约甘肃5GWh储能系统设备采购、18GWh中企与沙特方共建储能智造基地、内蒙古国资75亿元打造30GWh储能电芯产线、奇点/楚能/宁德入围宁夏200MW/400MWh储能系统设备采购，以及兰州100MW/400MWh独立储能EPC废标。SMM新增山东十五五光伏目标115GW并推动光储一体化/绿电直连、安徽芜湖6MW以下地面分布式光伏申报优先支持合理配储、当升科技固态锂电材料开发进展。中文RSS新增输配电集团与国家新型储能创新中心合作、安徽电力调频辅助服务市场细则征求意见、海南万宁直流耦合+构网型光储项目开工。海外新增Fortescue西澳650MWh Cloudbreak电池储能开工、Swanbank BESS被动竞价月收入AU$743,000、澳大利亚CIS Tender 7电池储能领先并19个项目超过5GW目标、Hithium澳大利亚首发8小时长时储能系统。SMM 10:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较09:00持平。"
+      },
       {
         "id": "latest-20260526-0900-storage-projects-global",
         "source": "Google News RSS / 北极星储能网 / SMM上海有色 / Energy-Storage.News / SolarQuarter / 时代储能网",
@@ -36860,6 +36966,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260526-1000-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；10:00复核，四项较09:00持平",
+        "value": "183250 / 183826 / 62560 / 28950",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较09:00：电池级碳酸锂0；SMM电碳指数0；磷酸铁锂0；电解液0",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 10:00 CST",
+        "methodology": "10:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 c94eb492ff65bde61a10aaa95f26ec3bd27a03454c7ca8971a5fb28005243e4a，SMM新能源 5d96a243810dff48395cf1ba8d907e45af8f94f0244a4de1ae6740148d8d52d4，SMM碳酸锂 9b593f735b65efa97edae1e12bdb720a8553664548efb6d821509cb7f722b25f，中国能源网 870798d760ffcaf119c92df7cd9f0da15e268c8d387f23f7bfff57fa25cc74f4，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA ad43f7ec28c413a24533154e7071361625ae3496b211546f8d2d956eec5622cd。 海外入口：Energy-Storage.News f36b58a2b3303e2aecc4660343161f5600ba7efdb2efd18ad14043e3c3e166c2，ESS News 4ad9963d456e722e0ce8402fc3a5c69ab11bc1520bd9a654f2e2ef397fb77665，pv magazine fee7b8cca35d09d5676e7cb1234884b709b98297867f9e18d490aaf4fc643b9c，SolarQuarter 70e4152cbc1692e904b2f1264313afb8bab171afc92ea232feebfaa1c965ff28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 10:00新增/变化：北极星储能新增宁德时代1.5GWh海外储能订单、比亚迪储能签约甘肃5GWh储能系统设备采购、18GWh中企与沙特方共建储能智造基地、内蒙古国资75亿元打造30GWh储能电芯产线、奇点/楚能/宁德入围宁夏200MW/400MWh储能系统设备采购，以及兰州100MW/400MWh独立储能EPC废标。SMM新增山东十五五光伏目标115GW并推动光储一体化/绿电直连、安徽芜湖6MW以下地面分布式光伏申报优先支持合理配储、当升科技固态锂电材料开发进展。中文RSS新增输配电集团与国家新型储能创新中心合作、安徽电力调频辅助服务市场细则征求意见、海南万宁直流耦合+构网型光储项目开工。海外新增Fortescue西澳650MWh Cloudbreak电池储能开工、Swanbank BESS被动竞价月收入AU$743,000、澳大利亚CIS Tender 7电池储能领先并19个项目超过5GW目标、Hithium澳大利亚首发8小时长时储能系统。SMM 10:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较09:00持平。"
+      },
+      {
         "id": "material-20260526-0900-smm-flat",
         "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；09:00复核，四项较08:00持平",
@@ -40527,6 +40646,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260526-1000-public-new",
+        "title": "10:00新增国内+海外储能/电池线索",
+        "value": "71",
+        "unit": "条",
+        "caption": "北极星、SMM、Google News中文/海外RSS与Energy-Storage.News新增/上移比亚迪5GWh、宁德1.5GWh、沙特18GWh、内蒙古30GWh、Fortescue 650MWh、Swanbank BESS收益等线索。",
+        "delta": "较09:00公开站点链接/RSS新增或上移",
+        "direction": "up",
+        "source": "Google News RSS / 北极星储能 / SMM / Energy-Storage.News",
+        "as_of": "2026-05-26 10:00 CST",
+        "methodology": "10:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 c94eb492ff65bde61a10aaa95f26ec3bd27a03454c7ca8971a5fb28005243e4a，SMM新能源 5d96a243810dff48395cf1ba8d907e45af8f94f0244a4de1ae6740148d8d52d4，SMM碳酸锂 9b593f735b65efa97edae1e12bdb720a8553664548efb6d821509cb7f722b25f，中国能源网 870798d760ffcaf119c92df7cd9f0da15e268c8d387f23f7bfff57fa25cc74f4，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA ad43f7ec28c413a24533154e7071361625ae3496b211546f8d2d956eec5622cd。 海外入口：Energy-Storage.News f36b58a2b3303e2aecc4660343161f5600ba7efdb2efd18ad14043e3c3e166c2，ESS News 4ad9963d456e722e0ce8402fc3a5c69ab11bc1520bd9a654f2e2ef397fb77665，pv magazine fee7b8cca35d09d5676e7cb1234884b709b98297867f9e18d490aaf4fc643b9c，SolarQuarter 70e4152cbc1692e904b2f1264313afb8bab171afc92ea232feebfaa1c965ff28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 10:00新增/变化：北极星储能新增宁德时代1.5GWh海外储能订单、比亚迪储能签约甘肃5GWh储能系统设备采购、18GWh中企与沙特方共建储能智造基地、内蒙古国资75亿元打造30GWh储能电芯产线、奇点/楚能/宁德入围宁夏200MW/400MWh储能系统设备采购，以及兰州100MW/400MWh独立储能EPC废标。SMM新增山东十五五光伏目标115GW并推动光储一体化/绿电直连、安徽芜湖6MW以下地面分布式光伏申报优先支持合理配储、当升科技固态锂电材料开发进展。中文RSS新增输配电集团与国家新型储能创新中心合作、安徽电力调频辅助服务市场细则征求意见、海南万宁直流耦合+构网型光储项目开工。海外新增Fortescue西澳650MWh Cloudbreak电池储能开工、Swanbank BESS被动竞价月收入AU$743,000、澳大利亚CIS Tender 7电池储能领先并19个项目超过5GW目标、Hithium澳大利亚首发8小时长时储能系统。SMM 10:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较09:00持平。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-0900-public-new",
         "title": "09:00新增国内+海外储能/电池线索",
@@ -54223,6 +54355,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260526-1000-fortescue-swanbank-hithium",
+        "source": "Google News RSS / Energy-Storage.News",
+        "category": "海外观察/BESS开工/收益/长时储能",
+        "title": "海外新增Fortescue西澳650MWh开工、Swanbank BESS月收入AU$743,000与海辰8小时长时储能",
+        "summary": "10:00海外公开源新增Fortescue begins construction on 650MWh Cloudbreak battery storage system in Western Australia、Passive bidding strategy delivers AU$743,000 monthly revenue for Swanbank BESS，以及Hithium在澳大利亚首发8小时长时储能系统。",
+        "value": "650",
+        "unit": "MWh",
+        "delta": "海外储能开工、收益和长时储能产品线索新增/上移",
+        "direction": "up",
+        "date": "05-26",
+        "as_of": "2026-05-26 10:00 CST",
+        "url": "https://www.energy-storage.news/",
+        "methodology": "10:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 c94eb492ff65bde61a10aaa95f26ec3bd27a03454c7ca8971a5fb28005243e4a，SMM新能源 5d96a243810dff48395cf1ba8d907e45af8f94f0244a4de1ae6740148d8d52d4，SMM碳酸锂 9b593f735b65efa97edae1e12bdb720a8553664548efb6d821509cb7f722b25f，中国能源网 870798d760ffcaf119c92df7cd9f0da15e268c8d387f23f7bfff57fa25cc74f4，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA ad43f7ec28c413a24533154e7071361625ae3496b211546f8d2d956eec5622cd。 海外入口：Energy-Storage.News f36b58a2b3303e2aecc4660343161f5600ba7efdb2efd18ad14043e3c3e166c2，ESS News 4ad9963d456e722e0ce8402fc3a5c69ab11bc1520bd9a654f2e2ef397fb77665，pv magazine fee7b8cca35d09d5676e7cb1234884b709b98297867f9e18d490aaf4fc643b9c，SolarQuarter 70e4152cbc1692e904b2f1264313afb8bab171afc92ea232feebfaa1c965ff28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 10:00新增/变化：北极星储能新增宁德时代1.5GWh海外储能订单、比亚迪储能签约甘肃5GWh储能系统设备采购、18GWh中企与沙特方共建储能智造基地、内蒙古国资75亿元打造30GWh储能电芯产线、奇点/楚能/宁德入围宁夏200MW/400MWh储能系统设备采购，以及兰州100MW/400MWh独立储能EPC废标。SMM新增山东十五五光伏目标115GW并推动光储一体化/绿电直连、安徽芜湖6MW以下地面分布式光伏申报优先支持合理配储、当升科技固态锂电材料开发进展。中文RSS新增输配电集团与国家新型储能创新中心合作、安徽电力调频辅助服务市场细则征求意见、海南万宁直流耦合+构网型光储项目开工。海外新增Fortescue西澳650MWh Cloudbreak电池储能开工、Swanbank BESS被动竞价月收入AU$743,000、澳大利亚CIS Tender 7电池储能领先并19个项目超过5GW目标、Hithium澳大利亚首发8小时长时储能系统。SMM 10:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较09:00持平。"
+      },
+      {
         "id": "overseas-20260526-0900-australia-cis-india-power",
         "source": "Google News RSS / Energy-Storage.News / SolarQuarter",
         "category": "海外观察/BESS招标/政策",
@@ -60594,6 +60741,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260526-1000-orders-smm-flat",
+        "source": "北极星储能网 / SMM上海有色 / Google News RSS / Energy-Storage.News",
+        "category": "储能订单/产能/碳酸锂",
+        "title": "比亚迪5GWh、宁德1.5GWh与Fortescue 650MWh新增；SMM锂电材料持平",
+        "summary": "10:00严格刷新新增采信：国内新增宁德时代1.5GWh海外储能订单、比亚迪甘肃5GWh储能采购、沙特18GWh储能智造基地、内蒙古75亿元30GWh电芯产线、宁夏200MW/400MWh储能系统入围、山东/安徽光储政策信号。海外新增Fortescue西澳650MWh Cloudbreak储能开工、Swanbank BESS月收入AU$743,000、澳大利亚CIS Tender 7超过5GW目标、海辰8小时长时储能澳洲首发。SMM四项行情较09:00持平。",
+        "value": "183250",
+        "unit": "元/吨电池级碳酸锂",
+        "delta": "新增国内订单/产能与海外澳洲BESS开工收益线索；SMM四项持平",
+        "direction": "flat",
+        "date": "05-26",
+        "as_of": "2026-05-26 10:00 CST",
+        "url": "https://newenergy.smm.cn/",
+        "methodology": "10:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 c94eb492ff65bde61a10aaa95f26ec3bd27a03454c7ca8971a5fb28005243e4a，SMM新能源 5d96a243810dff48395cf1ba8d907e45af8f94f0244a4de1ae6740148d8d52d4，SMM碳酸锂 9b593f735b65efa97edae1e12bdb720a8553664548efb6d821509cb7f722b25f，中国能源网 870798d760ffcaf119c92df7cd9f0da15e268c8d387f23f7bfff57fa25cc74f4，国家能源局 ea867b1fdfcaee08045f2d1b6ef4c1407e32b7df84eb03e522ad32353ef1e9ae，工信部 371c8cab2d844dcdc630981a8197c5c2de9e285a10d28361480f4a3bf455aa24，CNESA ad43f7ec28c413a24533154e7071361625ae3496b211546f8d2d956eec5622cd。 海外入口：Energy-Storage.News f36b58a2b3303e2aecc4660343161f5600ba7efdb2efd18ad14043e3c3e166c2，ESS News 4ad9963d456e722e0ce8402fc3a5c69ab11bc1520bd9a654f2e2ef397fb77665，pv magazine fee7b8cca35d09d5676e7cb1234884b709b98297867f9e18d490aaf4fc643b9c，SolarQuarter 70e4152cbc1692e904b2f1264313afb8bab171afc92ea232feebfaa1c965ff28，EnergyTrend ab19ce6e9a9ce6c607a3bac8bdcf931524a61a1fde28a8be23689ace25ce7c6c，Google News中英文RSS均HTTP 200。 10:00新增/变化：北极星储能新增宁德时代1.5GWh海外储能订单、比亚迪储能签约甘肃5GWh储能系统设备采购、18GWh中企与沙特方共建储能智造基地、内蒙古国资75亿元打造30GWh储能电芯产线、奇点/楚能/宁德入围宁夏200MW/400MWh储能系统设备采购，以及兰州100MW/400MWh独立储能EPC废标。SMM新增山东十五五光伏目标115GW并推动光储一体化/绿电直连、安徽芜湖6MW以下地面分布式光伏申报优先支持合理配储、当升科技固态锂电材料开发进展。中文RSS新增输配电集团与国家新型储能创新中心合作、安徽电力调频辅助服务市场细则征求意见、海南万宁直流耦合+构网型光储项目开工。海外新增Fortescue西澳650MWh Cloudbreak电池储能开工、Swanbank BESS被动竞价月收入AU$743,000、澳大利亚CIS Tender 7电池储能领先并19个项目超过5GW目标、Hithium澳大利亚首发8小时长时储能系统。SMM 10:00复核显示电池级碳酸锂183250元/吨、SMM电碳指数183826元/吨、磷酸铁锂62560元/吨、电解液28950元/吨，较09:00持平。"
+      },
       {
         "id": "market-20260526-0900-project-cis-smm-flat",
         "source": "Google News RSS / 北极星储能网 / SMM上海有色 / Energy-Storage.News / SolarQuarter / 时代储能网",
@@ -75174,6 +75336,78 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260526-1000-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-26 10:00 CST",
+        "status": 200,
+        "sha256": "9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14",
+        "finding": "首页已按小时重读；本轮写入比亚迪/宁德订单、沙特/内蒙古产能、Fortescue 650MWh和SMM持平行情。"
+      },
+      {
+        "id": "source-20260526-1000-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-26 10:00 CST",
+        "status": 200,
+        "sha256": "2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd",
+        "finding": "/markettrend/已按小时重读；本轮补充国内订单/产能、海外BESS开工收益和SMM行情证据。"
+      },
+      {
+        "id": "source-20260526-1000-bjx",
+        "source": "北极星储能网",
+        "url": "https://chuneng.bjx.com.cn/",
+        "as_of": "2026-05-26 10:00 CST",
+        "status": 200,
+        "sha256": "c94eb492ff65bde61a10aaa95f26ec3bd27a03454c7ca8971a5fb28005243e4a",
+        "finding": "新增宁德时代1.5GWh海外储能订单、比亚迪甘肃5GWh采购、18GWh沙特储能智造基地、内蒙古75亿元30GWh电芯产线、宁夏200MW/400MWh采购入围、兰州100MW/400MWh EPC废标。"
+      },
+      {
+        "id": "source-20260526-1000-smm-new-energy",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 10:00 CST",
+        "status": 200,
+        "sha256": "5d96a243810dff48395cf1ba8d907e45af8f94f0244a4de1ae6740148d8d52d4",
+        "finding": "10:00复核：电池级碳酸锂183250元/吨、磷酸铁锂62560元/吨、电解液28950元/吨；新增山东115GW光伏目标、安徽分布式光伏合理配储优先支持、当升科技固态锂电材料开发进展。"
+      },
+      {
+        "id": "source-20260526-1000-smm-li2co3",
+        "source": "SMM上海有色碳酸锂页",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-26 10:00 CST",
+        "status": 200,
+        "sha256": "9b593f735b65efa97edae1e12bdb720a8553664548efb6d821509cb7f722b25f",
+        "finding": "电池级碳酸锂183250元/吨；SMM电池级碳酸锂指数183826元/吨；较09:00持平。"
+      },
+      {
+        "id": "source-20260526-1000-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-26 10:00 CST",
+        "status": 200,
+        "sha256": "b76d0dd0bfb881f7e452b61890cf8573de2aac8870c56ec080b8bab0c2c3600f",
+        "finding": "新增/上移输配电集团与国家新型储能创新中心合作、安徽电力调频辅助服务市场细则、海南万宁直流耦合+构网型光储项目开工、半固态电池论坛等线索。"
+      },
+      {
+        "id": "source-20260526-1000-google-global",
+        "source": "Google News海外RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-26 10:00 CST",
+        "status": 200,
+        "sha256": "6cd571994e95a17e072c3bdd7d707feeea0412e33c032fb6992bd47a070c1bad",
+        "finding": "新增/上移Fortescue西澳650MWh Cloudbreak储能开工、Swanbank BESS月收入AU$743,000、澳洲CIS Tender 7超过5GW目标、海辰8小时长时储能澳洲首发等线索。"
+      },
+      {
+        "id": "source-20260526-1000-esn",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/",
+        "as_of": "2026-05-26 10:00 CST",
+        "status": 200,
+        "sha256": "f36b58a2b3303e2aecc4660343161f5600ba7efdb2efd18ad14043e3c3e166c2",
+        "finding": "新增Fortescue 650MWh Cloudbreak battery storage system in Western Australia开工和Swanbank BESS被动竞价月收入AU$743,000。"
+      },
+      {
         "id": "source-20260526-0900-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -83822,5 +84056,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T09:00:00+08:00"
+  "checked_at": "2026-05-26T10:00:00+08:00"
 };
