@@ -1,4 +1,12 @@
 
+## 2026-05-27T05:00:00+08:00 strict global crawl — updated
+- 重新读取：NeoLink首页HTTP 200 sha256 `c24663bf...`，`/markettrend/` HTTP 200 sha256 `04b8583e...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。
+- 行情复核：SMM新能源/碳酸锂页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未变。
+- 国内新增/上移：宁德时代供货3000多座储能站，固态电池设备价值量激增/行业军备竞赛，欧阳院士预警储能“五年之痒”，易事特入选2026 AIDC产业链名录，大唐中宁100MW压缩空气储能项目地下隧道检测招标，碳酸锂大跌4%和短期偏强观点并存。
+- 海外新增/上移：Frontier Power USA拟收购美国电池储能项目组合，Rajasthan拟允许BESS由自有发电充电，Qualitas Energy完成意大利211MW BESS组合建设融资，Fortescue启动Pilbara Cloudbreak 650MWh储能系统，Gujarat Industries Power Company发布120MWh BESS招标。
+- 动作：已更新`data/feed.js` generated_at/checked_at至05:00，新增headline/latest/materials/metrics/market/overseas/source_index条目；更新首页/新闻/详情feed cache版本、移动端兜底列表、MarketTrend资产版本和MarketTrend内置行情/舆情关键词至`202605270500`。Artifacts: `var/hermes/crawl-20260527-0500.py`, `var/hermes/crawl-output-20260527-0500.json`, `var/hermes/search-notes-20260527-0500.json`。
+
+
 ## 2026-05-27T02:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `c24663bf...`，`/markettrend/` HTTP 200 sha256 `04b8583e...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，google_news_cn_storage首轮超时后重试成功，原始HTML/RSS已落盘，未仅刷新时间。
 - 行情复核：SMM新能源/碳酸锂页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未变。

@@ -1,8 +1,83 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-27T02:00:00+08:00",
-  "note": "02:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较01:00页面未变；中文RSS新增/上移湖北荆门新能源及储能基地、新疆新型储能容量电价165元/千瓦·年、中创新航新基金、中国科大智能电池热失控预警、银河证券钠电池2026产业奇点、钟睒睒/养生堂5亿元固态电池、宁德时代第三代神行电池和金晟新能赴港上市。海外新增/上移Cornex 50GWh储能电池协议、南佛州公司4.5亿美元Texas电网融资、AIP收购英国储能组合49%股权、Adani 3.37GWh储能系统、Meta/Enbridge 12亿美元太阳能+储能数据中心项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂。",
+  "generated_at": "2026-05-27T05:00:00+08:00",
+  "note": "05:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较04:00页面未变；中文RSS新增/上移宁德时代供货3000多座储能站、固态电池设备军备竞赛、储能五年之痒风险提示、易事特AIDC产业链名录、大唐中宁100MW压缩空气储能检测招标、碳酸锂大跌4%及短期偏强观点。海外新增/上移Frontier Power USA收购美国储能项目组合、Rajasthan储能自发电充电规则、Qualitas意大利211MW BESS融资、Fortescue Pilbara 650MWh储能、Gujarat 120MWh BESS招标。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260527-0500-frontier-catl-qualitas",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / Mercom / capital-riesgo",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / Mercom / capital-riesgo",
+        "category": "储能资产收购/BESS融资/材料行情/压缩空气储能/安全",
+        "title": "05:00刷新：Frontier美国储能组合、Qualitas 211MW与宁德时代3000站上移",
+        "summary": "05:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较04:00页面未变；中文RSS新增/上移宁德时代供货3000多座储能站、固态电池设备军备竞赛、储能五年之痒风险提示、易事特AIDC产业链名录、大唐中宁100MW压缩空气储能检测招标、碳酸锂大跌4%及短期偏强观点。海外新增/上移Frontier Power USA收购美国储能项目组合、Rajasthan储能自发电充电规则、Qualitas意大利211MW BESS融资、Fortescue Pilbara 650MWh储能、Gujarat 120MWh BESS招标。",
+        "body": [
+          "行情：SMM 05:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动。",
+          "国内储能资产/供应链：中文RSS新增/上移全国政协委员曾毓群称宁德时代供货3000多座储能站，固态电池设备价值量激增与行业军备竞赛讨论升温。",
+          "国内风险/算力：中文RSS新增/上移欧阳院士预警储能“五年之痒”，易事特入选第一批2026 AIDC产业链优质企业名录。",
+          "国内项目/商品：大唐中宁100MW压缩空气储能项目地下隧道工程岩土检测招标；商品日报称碳酸锂大跌4%，生意社观点为短期回调难改偏强格局。",
+          "海外资产/政策：海外RSS新增Frontier Power USA拟收购美国电池储能项目组合，Rajasthan拟允许电池储能系统由自有发电充电。",
+          "海外融资/招标/投运：Qualitas Energy完成意大利211MW BESS组合建设融资，Fortescue启动Pilbara Cloudbreak 650MWh储能系统，Gujarat Industries Power Company发布120MWh BESS招标。"
+        ],
+        "key_points": [
+          "本小时已重新抓取NeoLink首页、MarketTrend、SMM、国内行业/监管入口、海外行业站和Google News中英文RSS，并保存sha256。",
+          "国内新增最明确的装机/供应信号是宁德时代供货3000多座储能站；项目侧新增大唐中宁100MW压缩空气储能检测招标。",
+          "海外新增主线从GWh级项目延伸到资产收购、建设融资和招标：Frontier美国组合、Qualitas 211MW、Fortescue 650MWh、Gujarat 120MWh。",
+          "材料端SMM公开报价较04:00未变，但新闻流中出现碳酸锂大跌4%与短期偏强并存，情绪分化。"
+        ],
+        "value": "211",
+        "unit": "MW BESS融资",
+        "delta": "新增/上移211MW意大利BESS融资、650MWh Pilbara储能、120MWh Gujarat招标、100MW大唐压缩空气储能检测招标、宁德时代3000+储能站供货",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 05:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>05:00新增/复核：SMM四项材料价格较04:00未变；新增/上移Frontier Power USA收购美国储能组合、Qualitas意大利211MW BESS融资、Fortescue 650MWh、Gujarat 120MWh招标、宁德时代供货3000多座储能站、大唐中宁100MW压缩空气储能检测招标。</p>",
+        "caption": "资产收购、BESS融资与国内储能供货规模成为本小时新增主线。",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 90792d34d7f8ca2f80168279224b208a1787fd04015464a4005935a4117caa1c，SMM碳酸锂 bfbaa5bb337759f9b67f44dde6fdceda38789935645e646b8b76f95e53cbbe78，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA c67fd93e5b9c4e5ab6d06bf39284adec327dc9357837cd7df19028a06085cce1。 海外入口：Energy-Storage.News 841cd90444643c61dfd91ffe8cffe19fc872ef233a1b350d9e0bac8464fceee2，ESS News fa0ecb2350ce737fa2dbc8f40cff1a4e72c4e75c53757702a038d8351d89c8d9，pv magazine e8d688e234b32de7cfea4c33d54d05d6990ca093e2ebfd10d9fcea33a87f5920，SolarQuarter ac2d52041838bb85932d23492bda91cf2ce2a928417a9595828b21fd51d5cf8a，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 05:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动；中文RSS新增/上移固态电池行业军备竞赛、宁德时代供货3000多座储能站、欧阳院士预警储能五年之痒、易事特入选2026AIDC产业链优质企业名录、大唐中宁100MW压缩空气储能项目地下隧道检测招标、碳酸锂大跌4%与短期偏强格局观点。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、Rajasthan拟允许电池储能系统使用自有发电充电、Qualitas Energy完成意大利211MW BESS组合建设融资、Fortescue启动Pilbara Cloudbreak 650MWh储能系统、Gujarat Industries Power Company发布120MWh BESS招标。",
+        "history": [
+          {
+            "label": "Qualitas意大利BESS MW",
+            "value": 211
+          },
+          {
+            "label": "Fortescue储能 MWh",
+            "value": 650
+          },
+          {
+            "label": "Gujarat BESS招标 MWh",
+            "value": 120
+          },
+          {
+            "label": "大唐中宁压缩空气储能 MW",
+            "value": 100
+          },
+          {
+            "label": "宁德时代供货储能站 座",
+            "value": 3000
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "磷酸铁锂 元/吨",
+            "value": 61770
+          },
+          {
+            "label": "电解液 元/吨",
+            "value": 29350
+          }
+        ]
+      },
       {
         "id": "headline-20260527-0200-cornex-xinjiang-adani",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / ESS News",
@@ -15747,6 +15822,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260527-0500-frontier-qualitas-catl",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / Mercom / capital-riesgo",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / Mercom / capital-riesgo",
+        "category": "储能资产收购/BESS融资/材料行情/压缩空气储能/安全",
+        "title": "05:00刷新：Frontier美国储能组合、Qualitas 211MW与宁德时代3000站上移",
+        "summary": "05:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较04:00页面未变；中文RSS新增/上移宁德时代供货3000多座储能站、固态电池设备军备竞赛、储能五年之痒风险提示、易事特AIDC产业链名录、大唐中宁100MW压缩空气储能检测招标、碳酸锂大跌4%及短期偏强观点。海外新增/上移Frontier Power USA收购美国储能项目组合、Rajasthan储能自发电充电规则、Qualitas意大利211MW BESS融资、Fortescue Pilbara 650MWh储能、Gujarat 120MWh BESS招标。",
+        "body": [
+          "行情：SMM 05:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动。",
+          "国内储能资产/供应链：中文RSS新增/上移全国政协委员曾毓群称宁德时代供货3000多座储能站，固态电池设备价值量激增与行业军备竞赛讨论升温。",
+          "国内风险/算力：中文RSS新增/上移欧阳院士预警储能“五年之痒”，易事特入选第一批2026 AIDC产业链优质企业名录。",
+          "国内项目/商品：大唐中宁100MW压缩空气储能项目地下隧道工程岩土检测招标；商品日报称碳酸锂大跌4%，生意社观点为短期回调难改偏强格局。",
+          "海外资产/政策：海外RSS新增Frontier Power USA拟收购美国电池储能项目组合，Rajasthan拟允许电池储能系统由自有发电充电。",
+          "海外融资/招标/投运：Qualitas Energy完成意大利211MW BESS组合建设融资，Fortescue启动Pilbara Cloudbreak 650MWh储能系统，Gujarat Industries Power Company发布120MWh BESS招标。"
+        ],
+        "key_points": [
+          "本小时已重新抓取NeoLink首页、MarketTrend、SMM、国内行业/监管入口、海外行业站和Google News中英文RSS，并保存sha256。",
+          "国内新增最明确的装机/供应信号是宁德时代供货3000多座储能站；项目侧新增大唐中宁100MW压缩空气储能检测招标。",
+          "海外新增主线从GWh级项目延伸到资产收购、建设融资和招标：Frontier美国组合、Qualitas 211MW、Fortescue 650MWh、Gujarat 120MWh。",
+          "材料端SMM公开报价较04:00未变，但新闻流中出现碳酸锂大跌4%与短期偏强并存，情绪分化。"
+        ],
+        "date": "05-27",
+        "as_of": "2026-05-27 05:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/",
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>05:00新增/复核：SMM四项材料价格较04:00未变；新增/上移Frontier Power USA收购美国储能组合、Qualitas意大利211MW BESS融资、Fortescue 650MWh、Gujarat 120MWh招标、宁德时代供货3000多座储能站、大唐中宁100MW压缩空气储能检测招标。</p>",
+        "caption": "资产收购、BESS融资与国内储能供货规模成为本小时新增主线。",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 90792d34d7f8ca2f80168279224b208a1787fd04015464a4005935a4117caa1c，SMM碳酸锂 bfbaa5bb337759f9b67f44dde6fdceda38789935645e646b8b76f95e53cbbe78，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA c67fd93e5b9c4e5ab6d06bf39284adec327dc9357837cd7df19028a06085cce1。 海外入口：Energy-Storage.News 841cd90444643c61dfd91ffe8cffe19fc872ef233a1b350d9e0bac8464fceee2，ESS News fa0ecb2350ce737fa2dbc8f40cff1a4e72c4e75c53757702a038d8351d89c8d9，pv magazine e8d688e234b32de7cfea4c33d54d05d6990ca093e2ebfd10d9fcea33a87f5920，SolarQuarter ac2d52041838bb85932d23492bda91cf2ce2a928417a9595828b21fd51d5cf8a，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 05:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动；中文RSS新增/上移固态电池行业军备竞赛、宁德时代供货3000多座储能站、欧阳院士预警储能五年之痒、易事特入选2026AIDC产业链优质企业名录、大唐中宁100MW压缩空气储能项目地下隧道检测招标、碳酸锂大跌4%与短期偏强格局观点。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、Rajasthan拟允许电池储能系统使用自有发电充电、Qualitas Energy完成意大利211MW BESS组合建设融资、Fortescue启动Pilbara Cloudbreak 650MWh储能系统、Gujarat Industries Power Company发布120MWh BESS招标。"
+      },
       {
         "id": "latest-20260527-0200-cornex-adani-xinjiang",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / ESS News",
@@ -38202,6 +38314,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260527-0500-smm-flat-storage-news",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；05:00复核较04:00未变；新增储能供货、压缩空气储能、BESS融资/招标证据",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较04:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 05:00 CST",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 90792d34d7f8ca2f80168279224b208a1787fd04015464a4005935a4117caa1c，SMM碳酸锂 bfbaa5bb337759f9b67f44dde6fdceda38789935645e646b8b76f95e53cbbe78，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA c67fd93e5b9c4e5ab6d06bf39284adec327dc9357837cd7df19028a06085cce1。 海外入口：Energy-Storage.News 841cd90444643c61dfd91ffe8cffe19fc872ef233a1b350d9e0bac8464fceee2，ESS News fa0ecb2350ce737fa2dbc8f40cff1a4e72c4e75c53757702a038d8351d89c8d9，pv magazine e8d688e234b32de7cfea4c33d54d05d6990ca093e2ebfd10d9fcea33a87f5920，SolarQuarter ac2d52041838bb85932d23492bda91cf2ce2a928417a9595828b21fd51d5cf8a，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 05:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动；中文RSS新增/上移固态电池行业军备竞赛、宁德时代供货3000多座储能站、欧阳院士预警储能五年之痒、易事特入选2026AIDC产业链优质企业名录、大唐中宁100MW压缩空气储能项目地下隧道检测招标、碳酸锂大跌4%与短期偏强格局观点。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、Rajasthan拟允许电池储能系统使用自有发电充电、Qualitas Energy完成意大利211MW BESS组合建设融资、Fortescue启动Pilbara Cloudbreak 650MWh储能系统、Gujarat Industries Power Company发布120MWh BESS招标。"
+      },
+      {
         "id": "material-20260527-0200-smm-flat-capacity-price",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；02:00复核较01:00未变；新增容量电价、钠电/固态和GWh级储能证据",
@@ -42025,6 +42150,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260527-0500-public-new",
+        "title": "05:00新增国内+海外储能/电池线索",
+        "value": "24",
+        "unit": "条",
+        "caption": "较04:00公开RSS新增或上移宁德时代3000多座储能站、Frontier美国储能组合、Qualitas 211MW、Fortescue 650MWh、Gujarat 120MWh、大唐中宁100MW等。",
+        "delta": "较04:00 RSS新增或上移",
+        "direction": "up",
+        "source": "Google News中文RSS / Google News海外RSS / SMM上海有色",
+        "as_of": "2026-05-27 05:00 CST",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 90792d34d7f8ca2f80168279224b208a1787fd04015464a4005935a4117caa1c，SMM碳酸锂 bfbaa5bb337759f9b67f44dde6fdceda38789935645e646b8b76f95e53cbbe78，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA c67fd93e5b9c4e5ab6d06bf39284adec327dc9357837cd7df19028a06085cce1。 海外入口：Energy-Storage.News 841cd90444643c61dfd91ffe8cffe19fc872ef233a1b350d9e0bac8464fceee2，ESS News fa0ecb2350ce737fa2dbc8f40cff1a4e72c4e75c53757702a038d8351d89c8d9，pv magazine e8d688e234b32de7cfea4c33d54d05d6990ca093e2ebfd10d9fcea33a87f5920，SolarQuarter ac2d52041838bb85932d23492bda91cf2ce2a928417a9595828b21fd51d5cf8a，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 05:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动；中文RSS新增/上移固态电池行业军备竞赛、宁德时代供货3000多座储能站、欧阳院士预警储能五年之痒、易事特入选2026AIDC产业链优质企业名录、大唐中宁100MW压缩空气储能项目地下隧道检测招标、碳酸锂大跌4%与短期偏强格局观点。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、Rajasthan拟允许电池储能系统使用自有发电充电、Qualitas Energy完成意大利211MW BESS组合建设融资、Fortescue启动Pilbara Cloudbreak 650MWh储能系统、Gujarat Industries Power Company发布120MWh BESS招标。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260527-0200-public-new",
         "title": "02:00新增国内+海外储能/电池线索",
@@ -55877,6 +56015,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260527-0500-frontier-qualitas-fortescue",
+        "source": "Google News海外RSS / Mercom / capital-riesgo / IndexBox",
+        "category": "海外观察/BESS收购/融资/招标/投运",
+        "title": "海外新增/上移Frontier美国储能组合、Qualitas 211MW与Fortescue 650MWh",
+        "summary": "05:00海外公开源新增/上移Frontier Power USA拟收购美国电池储能项目组合、Rajasthan拟允许电池储能系统由自有发电充电、Qualitas Energy完成意大利211MW BESS组合建设融资、Fortescue启动Pilbara Cloudbreak 650MWh储能系统、Gujarat Industries Power Company发布120MWh BESS招标。",
+        "value": "650",
+        "unit": "MWh Fortescue储能",
+        "delta": "海外BESS资产收购、政策规则、建设融资、投运和招标新增/上移",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 05:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 90792d34d7f8ca2f80168279224b208a1787fd04015464a4005935a4117caa1c，SMM碳酸锂 bfbaa5bb337759f9b67f44dde6fdceda38789935645e646b8b76f95e53cbbe78，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA c67fd93e5b9c4e5ab6d06bf39284adec327dc9357837cd7df19028a06085cce1。 海外入口：Energy-Storage.News 841cd90444643c61dfd91ffe8cffe19fc872ef233a1b350d9e0bac8464fceee2，ESS News fa0ecb2350ce737fa2dbc8f40cff1a4e72c4e75c53757702a038d8351d89c8d9，pv magazine e8d688e234b32de7cfea4c33d54d05d6990ca093e2ebfd10d9fcea33a87f5920，SolarQuarter ac2d52041838bb85932d23492bda91cf2ce2a928417a9595828b21fd51d5cf8a，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 05:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动；中文RSS新增/上移固态电池行业军备竞赛、宁德时代供货3000多座储能站、欧阳院士预警储能五年之痒、易事特入选2026AIDC产业链优质企业名录、大唐中宁100MW压缩空气储能项目地下隧道检测招标、碳酸锂大跌4%与短期偏强格局观点。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、Rajasthan拟允许电池储能系统使用自有发电充电、Qualitas Energy完成意大利211MW BESS组合建设融资、Fortescue启动Pilbara Cloudbreak 650MWh储能系统、Gujarat Industries Power Company发布120MWh BESS招标。"
+      },
+      {
         "id": "overseas-20260527-0200-cornex-adani-texas",
         "source": "Google News海外RSS / ESS News / Business Journals / Energy-Storage.News",
         "category": "海外观察/BESS协议/电网融资/数据中心电力/安全",
@@ -62428,6 +62581,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260527-0500-bess-finance-storage-supply",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / Mercom / capital-riesgo",
+        "category": "BESS融资/招标/储能供货/材料行情",
+        "title": "BESS融资、储能资产收购和宁德时代3000站供货进入新增线索",
+        "summary": "05:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较04:00页面未变；中文RSS新增/上移宁德时代供货3000多座储能站、固态电池设备军备竞赛、储能五年之痒风险提示、易事特AIDC产业链名录、大唐中宁100MW压缩空气储能检测招标、碳酸锂大跌4%及短期偏强观点。海外新增/上移Frontier Power USA收购美国储能项目组合、Rajasthan储能自发电充电规则、Qualitas意大利211MW BESS融资、Fortescue Pilbara 650MWh储能、Gujarat 120MWh BESS招标。",
+        "value": "650",
+        "unit": "MWh",
+        "delta": "海外BESS项目融资/招标/投运和国内储能供货规模新增；SMM材料报价较04:00未变",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 05:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 90792d34d7f8ca2f80168279224b208a1787fd04015464a4005935a4117caa1c，SMM碳酸锂 bfbaa5bb337759f9b67f44dde6fdceda38789935645e646b8b76f95e53cbbe78，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA c67fd93e5b9c4e5ab6d06bf39284adec327dc9357837cd7df19028a06085cce1。 海外入口：Energy-Storage.News 841cd90444643c61dfd91ffe8cffe19fc872ef233a1b350d9e0bac8464fceee2，ESS News fa0ecb2350ce737fa2dbc8f40cff1a4e72c4e75c53757702a038d8351d89c8d9，pv magazine e8d688e234b32de7cfea4c33d54d05d6990ca093e2ebfd10d9fcea33a87f5920，SolarQuarter ac2d52041838bb85932d23492bda91cf2ce2a928417a9595828b21fd51d5cf8a，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 05:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动；中文RSS新增/上移固态电池行业军备竞赛、宁德时代供货3000多座储能站、欧阳院士预警储能五年之痒、易事特入选2026AIDC产业链优质企业名录、大唐中宁100MW压缩空气储能项目地下隧道检测招标、碳酸锂大跌4%与短期偏强格局观点。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、Rajasthan拟允许电池储能系统使用自有发电充电、Qualitas Energy完成意大利211MW BESS组合建设融资、Fortescue启动Pilbara Cloudbreak 650MWh储能系统、Gujarat Industries Power Company发布120MWh BESS招标。"
+      },
       {
         "id": "market-20260527-0200-cornex-adani-xinjiang",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / ESS News",
@@ -77188,6 +77356,69 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260527-0500-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-27 05:00 CST",
+        "status": 200,
+        "sha256": "c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85",
+        "finding": "首页已按小时重读；本轮写入Frontier美国储能组合、Qualitas 211MW、宁德时代3000站供货等。"
+      },
+      {
+        "id": "source-20260527-0500-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-27 05:00 CST",
+        "status": 200,
+        "sha256": "04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1",
+        "finding": "/markettrend/已按小时重读；本轮补充BESS融资/招标、储能供货和材料行情证据。"
+      },
+      {
+        "id": "source-20260527-0500-smm",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 05:00 CST",
+        "status": 200,
+        "sha256": "90792d34d7f8ca2f80168279224b208a1787fd04015464a4005935a4117caa1c",
+        "finding": "05:00复核：电池级碳酸锂180000、SMM电池级碳酸锂指数179532、磷酸铁锂61770、电解液29350元/吨；较04:00页面未变。"
+      },
+      {
+        "id": "source-20260527-0500-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-27 05:00 CST",
+        "status": 200,
+        "sha256": "d2bbbc70ed768d233d7672a67c42419473209604f7eabee3e43e1f6230e5cbef",
+        "finding": "新增/上移固态电池设备军备竞赛、宁德时代供货3000多座储能站、储能五年之痒、易事特AIDC名录、大唐中宁100MW压缩空气储能检测招标、碳酸锂大跌4%与短期偏强观点。"
+      },
+      {
+        "id": "source-20260527-0500-google-global-bess",
+        "source": "Google News海外BESS RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 05:00 CST",
+        "status": 200,
+        "sha256": "8fe0b85d03dc78e5074620d868671d3626f2627dcb49eacdd4a15328f63c3b0f",
+        "finding": "新增/上移Frontier Power USA收购美国电池储能项目组合、Fortescue启动Pilbara Cloudbreak 650MWh储能系统。"
+      },
+      {
+        "id": "source-20260527-0500-google-global-policy",
+        "source": "Google News海外政策/电网RSS",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 05:00 CST",
+        "status": 200,
+        "sha256": "b16b5e29f20eddb5a79900e66d85368293770243d986aed8656287fb97f37ae6",
+        "finding": "新增/上移Rajasthan储能自发电充电规则、Adani 3.37GWh复现、Gujarat 120MWh BESS招标。"
+      },
+      {
+        "id": "source-20260527-0500-google-europe",
+        "source": "Google News欧洲BESS RSS",
+        "url": "https://news.google.com/rss/search?q=Europe%20BESS%20battery%20storage%20when:1d&hl=en-GB&gl=GB&ceid=GB:en",
+        "as_of": "2026-05-27 05:00 CST",
+        "status": 200,
+        "sha256": "a79a6fd0faa0ba35fd1e33025c04def4e9a4bca3c890a2ea7524697b5bc1ae1f",
+        "finding": "新增/上移Qualitas Energy完成意大利211MW BESS组合建设融资。"
+      },
+      {
         "id": "source-20260527-0200-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -86709,5 +86940,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-27T02:00:00+08:00"
+  "checked_at": "2026-05-27T05:00:00+08:00"
 };
