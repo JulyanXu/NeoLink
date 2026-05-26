@@ -1,8 +1,83 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-26T23:00:00+08:00",
-  "note": "23:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较22:00页面未变；中文RSS新增/上移欧洲复兴开发银行向斯洛文尼亚储能开发商提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东400MW/800MWh储能集采、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作。海外新增/上移澳大利亚成为全球第三大公用事业级电池储能市场、澳大利亚CIS第7轮混合项目锁定7.9GWh储能、Adani Green在印度Khavda投运3.37GWh BESS、欧盟委员会批准PPC与Metlen电池储能合资、乌克兰授予电池储能站关键基础设施地位。",
+  "generated_at": "2026-05-27T00:00:00+08:00",
+  "note": "00:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较23:00页面未变；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力和场景化电池竞争、碳酸锂期货主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收数字身份证与金晟新能源拟赴港IPO。海外新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储开工、ACTOM收购电池制造商扩张BESS、ZOE沙特BESS工厂、Adani Green 3.37GWh Khavda BESS、印度储能项目执行压力、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段、AI数据中心电力需求推动150亿美元PJM拍卖。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260527-0000-bess-ai-adani-brazil",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / SolarQuarter",
+        "category": "BESS项目/AI数据中心电力/储能招标/电池物流/碳酸锂",
+        "title": "00:00刷新：美国BESS项目、巴西首次电池拍卖与AI数据中心电力需求上移",
+        "summary": "00:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较23:00页面未变；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力和场景化电池竞争、碳酸锂期货主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收数字身份证与金晟新能源拟赴港IPO。海外新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储开工、ACTOM收购电池制造商扩张BESS、ZOE沙特BESS工厂、Adani Green 3.37GWh Khavda BESS、印度储能项目执行压力、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段、AI数据中心电力需求推动150亿美元PJM拍卖。",
+        "body": [
+          "行情：SMM 00:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS同步上移“碳酸锂下跌4%”。",
+          "国内储能/算力：中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力和场景化电池竞争，说明储能需求叙事继续向AIDC场景延伸。",
+          "国内项目/产业链：中文RSS新增/上移7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。",
+          "海外BESS项目：海外RSS新增/上移美国BESS项目周报、DESRI新墨西哥270MW光储项目组合开工、巴西首次电池拍卖、ACTOM收购本土电池制造商扩张BESS。",
+          "海外制造/物流：海外RSS新增/上移ZOE Energy沙特BESS工厂、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工。",
+          "海外电网/数据中心：海外RSS新增/上移Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖。"
+        ],
+        "key_points": [
+          "本小时未仅更新页面时间：NeoLink首页、MarketTrend和国内外公开源均已重新抓取并保存sha256。",
+          "国内新增AIDC储能、7GWh储能大单、碳酸锂期货下跌和电池回收/IPO线索。",
+          "海外新增/上移巴西首次电池拍卖、DESRI 270MW光储、ACTOM BESS扩张、ZOE沙特工厂、CALB葡萄牙工厂、DHL电池物流枢纽。",
+          "AI数据中心电力需求继续带动电网拍卖和配电市场预期，是本轮海外舆情主线之一。"
+        ],
+        "value": "7",
+        "unit": "GWh储能大单",
+        "delta": "新增/上移7GWh储能大单、270MW DESRI光储、3.37GWh Adani、2.41亿美元CALB葡萄牙施工、150亿美元PJM拍卖、427亿美元AI配电市场预期",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 00:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://solarquarter.com/",
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/"
+        ],
+        "clean_html": "<p>00:00新增/复核：SMM四项材料价格较23:00未变；新增/上移易事特AIDC储能、7GWh储能大单、碳酸锂期货下跌4%、巴西首次电池拍卖、DESRI 270MW光储、ACTOM BESS扩张、ZOE沙特工厂、DHL荷兰电池物流枢纽、CALB葡萄牙2.41亿美元施工阶段、AI数据中心电力需求推动150亿美元PJM拍卖。</p>",
+        "caption": "BESS项目、AI数据中心电力和电池制造/物流成为本小时新增主线。",
+        "methodology": "00:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询因SSL握手超时失败，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 e48e531039a61e517066441ea22f50aa71b4420a7084763f042ee241bd22410b，SMM碳酸锂 de8ee9fbb15bce31fc7818acf2ec4fbe315f3317f8cd4b746d50cecb70ab2411，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 3ee4e5f5552e3c8234d5322c4e3dc826dfd6788f2ebd5bedb9d6c07715f82ae0，CNESA 069c295de52dd51e96f28183d22b23abf9ac353108c6fb3f80f3e707d7e2ea97。 海外入口：Energy-Storage.News ab131da28f5026258c6a40190846da792e8f22b061eb928b687ec7c1f2147bf6，ESS News 6e85658e5ab0a03be78559e1a8798cc1c2a23d31a4a21e2cc75ced0d43b94116，pv magazine 34d04813f82fbf3b58b848f9237f095a8a16684cfae12e01065205c735fa0a5b，SolarQuarter 7ed25d4987f799ead7f349cbaad0aedbdff013fe22c639a8c678a25d5aa58d26，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 00:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力与场景化电池竞争、国内期货碳酸锂主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。海外RSS新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储项目组合开工、ACTOM收购本土电池制造商扩张BESS、ZOE Energy沙特BESS工厂、Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖等。",
+        "history": [
+          {
+            "label": "国内储能大单 GWh",
+            "value": 7
+          },
+          {
+            "label": "Adani Khavda BESS GWh",
+            "value": 3.37
+          },
+          {
+            "label": "DESRI光储 MW",
+            "value": 270
+          },
+          {
+            "label": "CALB葡萄牙施工 亿美元",
+            "value": 2.41
+          },
+          {
+            "label": "PJM拍卖 亿美元",
+            "value": 150
+          },
+          {
+            "label": "AI配电市场2033 亿美元",
+            "value": 427
+          },
+          {
+            "label": "电池级碳酸锂 元/吨",
+            "value": 180000
+          },
+          {
+            "label": "碳酸锂期货跌幅 %",
+            "value": 4
+          }
+        ]
+      },
       {
         "id": "headline-20260526-2300-australia-adani-cis-cn-storage",
         "source": "SMM上海有色 / Google News中文RSS / Energy-Storage.News / ESS News / Renewables Now / pv magazine",
@@ -15522,6 +15597,43 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260527-0000-bess-ai-data-center",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
+        "source_type": "专业行情/国内外新闻RSS/海外公开媒体",
+        "account_name": "SMM / Google News / SolarQuarter",
+        "category": "BESS项目/AI数据中心电力/储能招标/电池物流/碳酸锂",
+        "title": "00:00刷新：美国BESS项目、巴西首次电池拍卖与AI数据中心电力需求上移",
+        "summary": "00:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较23:00页面未变；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力和场景化电池竞争、碳酸锂期货主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收数字身份证与金晟新能源拟赴港IPO。海外新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储开工、ACTOM收购电池制造商扩张BESS、ZOE沙特BESS工厂、Adani Green 3.37GWh Khavda BESS、印度储能项目执行压力、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段、AI数据中心电力需求推动150亿美元PJM拍卖。",
+        "body": [
+          "行情：SMM 00:00公开页显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS同步上移“碳酸锂下跌4%”。",
+          "国内储能/算力：中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力和场景化电池竞争，说明储能需求叙事继续向AIDC场景延伸。",
+          "国内项目/产业链：中文RSS新增/上移7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。",
+          "海外BESS项目：海外RSS新增/上移美国BESS项目周报、DESRI新墨西哥270MW光储项目组合开工、巴西首次电池拍卖、ACTOM收购本土电池制造商扩张BESS。",
+          "海外制造/物流：海外RSS新增/上移ZOE Energy沙特BESS工厂、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工。",
+          "海外电网/数据中心：海外RSS新增/上移Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖。"
+        ],
+        "key_points": [
+          "本小时未仅更新页面时间：NeoLink首页、MarketTrend和国内外公开源均已重新抓取并保存sha256。",
+          "国内新增AIDC储能、7GWh储能大单、碳酸锂期货下跌和电池回收/IPO线索。",
+          "海外新增/上移巴西首次电池拍卖、DESRI 270MW光储、ACTOM BESS扩张、ZOE沙特工厂、CALB葡萄牙工厂、DHL电池物流枢纽。",
+          "AI数据中心电力需求继续带动电网拍卖和配电市场预期，是本轮海外舆情主线之一。"
+        ],
+        "date": "05-27",
+        "as_of": "2026-05-27 00:00 CST",
+        "url": "https://news.google.com/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/",
+          "https://news.google.com/",
+          "https://solarquarter.com/",
+          "https://www.energy-storage.news/",
+          "https://www.ess-news.com/"
+        ],
+        "clean_html": "<p>00:00新增/复核：SMM四项材料价格较23:00未变；新增/上移易事特AIDC储能、7GWh储能大单、碳酸锂期货下跌4%、巴西首次电池拍卖、DESRI 270MW光储、ACTOM BESS扩张、ZOE沙特工厂、DHL荷兰电池物流枢纽、CALB葡萄牙2.41亿美元施工阶段、AI数据中心电力需求推动150亿美元PJM拍卖。</p>",
+        "caption": "BESS项目、AI数据中心电力和电池制造/物流成为本小时新增主线。",
+        "methodology": "00:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询因SSL握手超时失败，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 e48e531039a61e517066441ea22f50aa71b4420a7084763f042ee241bd22410b，SMM碳酸锂 de8ee9fbb15bce31fc7818acf2ec4fbe315f3317f8cd4b746d50cecb70ab2411，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 3ee4e5f5552e3c8234d5322c4e3dc826dfd6788f2ebd5bedb9d6c07715f82ae0，CNESA 069c295de52dd51e96f28183d22b23abf9ac353108c6fb3f80f3e707d7e2ea97。 海外入口：Energy-Storage.News ab131da28f5026258c6a40190846da792e8f22b061eb928b687ec7c1f2147bf6，ESS News 6e85658e5ab0a03be78559e1a8798cc1c2a23d31a4a21e2cc75ced0d43b94116，pv magazine 34d04813f82fbf3b58b848f9237f095a8a16684cfae12e01065205c735fa0a5b，SolarQuarter 7ed25d4987f799ead7f349cbaad0aedbdff013fe22c639a8c678a25d5aa58d26，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 00:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力与场景化电池竞争、国内期货碳酸锂主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。海外RSS新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储项目组合开工、ACTOM收购本土电池制造商扩张BESS、ZOE Energy沙特BESS工厂、Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖等。"
+      },
       {
         "id": "latest-20260526-2300-australia-adani-cn",
         "source": "SMM上海有色 / Google News中文RSS / Energy-Storage.News / ESS News / Renewables Now / pv magazine",
@@ -37866,6 +37978,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260527-0000-smm-flat-aidc-bess",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；00:00复核较23:00未变；新增AIDC储能、7GWh储能大单和海外BESS/电池制造证据",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较23:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS上移碳酸锂期货主力合约下跌4%",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 00:00 CST",
+        "methodology": "00:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询因SSL握手超时失败，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 e48e531039a61e517066441ea22f50aa71b4420a7084763f042ee241bd22410b，SMM碳酸锂 de8ee9fbb15bce31fc7818acf2ec4fbe315f3317f8cd4b746d50cecb70ab2411，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 3ee4e5f5552e3c8234d5322c4e3dc826dfd6788f2ebd5bedb9d6c07715f82ae0，CNESA 069c295de52dd51e96f28183d22b23abf9ac353108c6fb3f80f3e707d7e2ea97。 海外入口：Energy-Storage.News ab131da28f5026258c6a40190846da792e8f22b061eb928b687ec7c1f2147bf6，ESS News 6e85658e5ab0a03be78559e1a8798cc1c2a23d31a4a21e2cc75ced0d43b94116，pv magazine 34d04813f82fbf3b58b848f9237f095a8a16684cfae12e01065205c735fa0a5b，SolarQuarter 7ed25d4987f799ead7f349cbaad0aedbdff013fe22c639a8c678a25d5aa58d26，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 00:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力与场景化电池竞争、国内期货碳酸锂主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。海外RSS新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储项目组合开工、ACTOM收购本土电池制造商扩张BESS、ZOE Energy沙特BESS工厂、Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖等。"
+      },
+      {
         "id": "material-20260526-2300-smm-flat-lfp-storage",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
         "spec": "SMM公开行情页；23:00复核较22:00未变；新增天赐材料16万吨高压实磷酸铁锂、储能项目招标和海外BESS证据",
@@ -41650,6 +41775,19 @@ window.NEOLINK_FEED= {
       }
     ],
     "metrics": [
+      {
+        "id": "metric-20260527-0000-public-new",
+        "title": "00:00新增国内+海外储能/电池线索",
+        "value": "46",
+        "unit": "条",
+        "caption": "较23:00公开站点链接/RSS新增或上移AIDC储能、7GWh储能大单、美国BESS项目、巴西首次电池拍卖、DESRI 270MW光储、ACTOM BESS扩张、ZOE沙特工厂、CALB葡萄牙2.41亿美元施工、AI数据中心电力/PJM拍卖等线索。",
+        "delta": "较23:00 RSS/公开站点新增或上移",
+        "direction": "up",
+        "source": "Google News中文RSS / Google News海外RSS / SolarQuarter / SMM上海有色",
+        "as_of": "2026-05-27 00:00 CST",
+        "methodology": "00:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询因SSL握手超时失败，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 e48e531039a61e517066441ea22f50aa71b4420a7084763f042ee241bd22410b，SMM碳酸锂 de8ee9fbb15bce31fc7818acf2ec4fbe315f3317f8cd4b746d50cecb70ab2411，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 3ee4e5f5552e3c8234d5322c4e3dc826dfd6788f2ebd5bedb9d6c07715f82ae0，CNESA 069c295de52dd51e96f28183d22b23abf9ac353108c6fb3f80f3e707d7e2ea97。 海外入口：Energy-Storage.News ab131da28f5026258c6a40190846da792e8f22b061eb928b687ec7c1f2147bf6，ESS News 6e85658e5ab0a03be78559e1a8798cc1c2a23d31a4a21e2cc75ced0d43b94116，pv magazine 34d04813f82fbf3b58b848f9237f095a8a16684cfae12e01065205c735fa0a5b，SolarQuarter 7ed25d4987f799ead7f349cbaad0aedbdff013fe22c639a8c678a25d5aa58d26，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 00:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力与场景化电池竞争、国内期货碳酸锂主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。海外RSS新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储项目组合开工、ACTOM收购本土电池制造商扩张BESS、ZOE Energy沙特BESS工厂、Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖等。",
+        "url": "https://news.google.com/"
+      },
       {
         "id": "metric-20260526-2300-public-new",
         "title": "23:00新增国内+海外储能/电池线索",
@@ -55463,6 +55601,21 @@ window.NEOLINK_FEED= {
     ],
     "overseas": [
       {
+        "id": "overseas-20260527-0000-brazil-desri-calb-ai",
+        "source": "Google News海外RSS / SolarBuilder / Energia Estratégica / Solar Power World / electrive / TradingKey",
+        "category": "海外观察/BESS项目/电池制造/数据中心电力",
+        "title": "海外新增/上移巴西首次电池拍卖、DESRI 270MW光储与AI数据中心电力需求",
+        "summary": "00:00海外公开源新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储项目组合开工、ACTOM收购本土电池制造商扩张BESS、ZOE Energy沙特BESS工厂、Adani Green 3.37GWh Khavda BESS、印度储能项目执行压力、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段、AI数据中心电力需求推动150亿美元PJM拍卖。",
+        "value": "270",
+        "unit": "MW DESRI光储",
+        "delta": "海外BESS项目、制造、物流和数据中心电力线索新增/上移",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 00:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "00:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询因SSL握手超时失败，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 e48e531039a61e517066441ea22f50aa71b4420a7084763f042ee241bd22410b，SMM碳酸锂 de8ee9fbb15bce31fc7818acf2ec4fbe315f3317f8cd4b746d50cecb70ab2411，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 3ee4e5f5552e3c8234d5322c4e3dc826dfd6788f2ebd5bedb9d6c07715f82ae0，CNESA 069c295de52dd51e96f28183d22b23abf9ac353108c6fb3f80f3e707d7e2ea97。 海外入口：Energy-Storage.News ab131da28f5026258c6a40190846da792e8f22b061eb928b687ec7c1f2147bf6，ESS News 6e85658e5ab0a03be78559e1a8798cc1c2a23d31a4a21e2cc75ced0d43b94116，pv magazine 34d04813f82fbf3b58b848f9237f095a8a16684cfae12e01065205c735fa0a5b，SolarQuarter 7ed25d4987f799ead7f349cbaad0aedbdff013fe22c639a8c678a25d5aa58d26，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 00:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力与场景化电池竞争、国内期货碳酸锂主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。海外RSS新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储项目组合开工、ACTOM收购本土电池制造商扩张BESS、ZOE Energy沙特BESS工厂、Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖等。"
+      },
+      {
         "id": "overseas-20260526-2300-australia-adani-eu-ukraine",
         "source": "Energy-Storage.News / ESS News / Renewables Now / CEEnergynews / Google News RSS",
         "category": "海外观察/BESS市场/容量机制/政策",
@@ -61969,6 +62122,21 @@ window.NEOLINK_FEED= {
       }
     ],
     "market": [
+      {
+        "id": "market-20260527-0000-bess-ai-grid",
+        "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / SolarQuarter",
+        "category": "BESS项目/AI数据中心电力/材料行情",
+        "title": "AIDC储能、7GWh储能大单与海外BESS项目集中上移",
+        "summary": "00:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较23:00页面未变；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力和场景化电池竞争、碳酸锂期货主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收数字身份证与金晟新能源拟赴港IPO。海外新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储开工、ACTOM收购电池制造商扩张BESS、ZOE沙特BESS工厂、Adani Green 3.37GWh Khavda BESS、印度储能项目执行压力、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段、AI数据中心电力需求推动150亿美元PJM拍卖。",
+        "value": "7",
+        "unit": "GWh",
+        "delta": "国内AIDC储能/储能大单和海外BESS/数据中心电力线索新增；SMM材料报价较23:00未变",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 00:00 CST",
+        "url": "https://news.google.com/",
+        "methodology": "00:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询因SSL握手超时失败，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 e48e531039a61e517066441ea22f50aa71b4420a7084763f042ee241bd22410b，SMM碳酸锂 de8ee9fbb15bce31fc7818acf2ec4fbe315f3317f8cd4b746d50cecb70ab2411，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 3ee4e5f5552e3c8234d5322c4e3dc826dfd6788f2ebd5bedb9d6c07715f82ae0，CNESA 069c295de52dd51e96f28183d22b23abf9ac353108c6fb3f80f3e707d7e2ea97。 海外入口：Energy-Storage.News ab131da28f5026258c6a40190846da792e8f22b061eb928b687ec7c1f2147bf6，ESS News 6e85658e5ab0a03be78559e1a8798cc1c2a23d31a4a21e2cc75ced0d43b94116，pv magazine 34d04813f82fbf3b58b848f9237f095a8a16684cfae12e01065205c735fa0a5b，SolarQuarter 7ed25d4987f799ead7f349cbaad0aedbdff013fe22c639a8c678a25d5aa58d26，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 00:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力与场景化电池竞争、国内期货碳酸锂主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。海外RSS新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储项目组合开工、ACTOM收购本土电池制造商扩张BESS、ZOE Energy沙特BESS工厂、Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖等。"
+      },
       {
         "id": "market-20260526-2300-australia-adani-cis",
         "source": "SMM上海有色 / Google News中文RSS / Energy-Storage.News / ESS News / Renewables Now / pv magazine",
@@ -76684,6 +76852,87 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260527-0000-neolink-home",
+        "source": "NeoLink",
+        "url": "http://neolink.asia/",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea",
+        "finding": "首页已按小时重读；本轮写入AIDC储能、7GWh储能大单、巴西电池拍卖、DESRI 270MW光储、AI数据中心电力等。"
+      },
+      {
+        "id": "source-20260527-0000-neolink-market",
+        "source": "NeoLink MarketTrend",
+        "url": "http://neolink.asia/markettrend/",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010",
+        "finding": "/markettrend/已按小时重读；本轮补充BESS项目、材料行情与AI数据中心电力舆情。"
+      },
+      {
+        "id": "source-20260527-0000-smm",
+        "source": "SMM新能源",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "e48e531039a61e517066441ea22f50aa71b4420a7084763f042ee241bd22410b",
+        "finding": "00:00复核：电池级碳酸锂180000、SMM电池级碳酸锂指数179532、磷酸铁锂61770、电解液29350元/吨；较23:00页面未变。"
+      },
+      {
+        "id": "source-20260527-0000-google-cn",
+        "source": "Google News中文RSS",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E7%A2%B3%E9%85%B8%E9%94%82%20OR%20%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%20when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "31e0854fdd5629e27785d8b6419035b2c9be0c293a1b8c3231d940e5e9be2e9c",
+        "finding": "新增/上移易事特AIDC产业链名录、储能+算力、碳酸锂期货下跌4%、7GWh储能大单、动力电池回收数字身份证、金晟新能源赴港IPO。"
+      },
+      {
+        "id": "source-20260527-0000-google-global-bess",
+        "source": "Google News海外BESS RSS",
+        "url": "https://news.google.com/rss/search?q=battery%20energy%20storage%20OR%20BESS%20OR%20lithium%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "17c0c070c576a82eed0ba1789c56c94147ce5e58f153b76415d4ba7797a8cb04",
+        "finding": "新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI 270MW光储、ACTOM收购电池制造商、ZOE沙特BESS工厂。"
+      },
+      {
+        "id": "source-20260527-0000-google-global-policy",
+        "source": "Google News海外政策/电网RSS",
+        "url": "https://news.google.com/rss/search?q=grid%20battery%20storage%20policy%20OR%20long-duration%20energy%20storage%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "bfff8e00a0372ea0169190b309b4e25b5b6c90f657a894c80cead64bb813e4b1",
+        "finding": "上移Adani Green Khavda 3.37GWh BESS及印度储能相关线索。"
+      },
+      {
+        "id": "source-20260527-0000-google-europe",
+        "source": "Google News欧洲BESS RSS",
+        "url": "https://news.google.com/rss/search?q=Europe%20BESS%20battery%20storage%20when:1d&hl=en-GB&gl=GB&ceid=GB:en",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "18a4d59645b48dbefdd5688cf003f590196226acaca78864e057336f57651dd0",
+        "finding": "新增/上移DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段、RWE容量投资计划合同等。"
+      },
+      {
+        "id": "source-20260527-0000-google-datacenter",
+        "source": "Google News数据中心电力RSS",
+        "url": "https://news.google.com/rss/search?q=data%20center%20power%20battery%20storage%20grid%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "2cae6f9e5d3e34f03f56304b9fde8f3a508a26e76db136aac97766144a3b6a02",
+        "finding": "新增/上移AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖、美国BESS项目周报。"
+      },
+      {
+        "id": "source-20260527-0000-solarquarter",
+        "source": "SolarQuarter",
+        "url": "https://solarquarter.com/",
+        "as_of": "2026-05-27 00:00 CST",
+        "status": 200,
+        "sha256": "7ed25d4987f799ead7f349cbaad0aedbdff013fe22c639a8c678a25d5aa58d26",
+        "finding": "新增Fujiyama Power Systems批准3.5亿卢比1.2GW TopCon太阳能电池设施线索。"
+      },
+      {
         "id": "source-20260526-2300-neolink-home",
         "source": "NeoLink",
         "url": "http://neolink.asia/",
@@ -85998,5 +86247,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-26T23:00:00+08:00"
+  "checked_at": "2026-05-27T00:00:00+08:00"
 };
