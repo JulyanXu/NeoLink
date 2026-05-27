@@ -1,3 +1,9 @@
+## 2026-05-27T12:00:00+08:00 strict global crawl — updated
+- 本地基线：本次更新前站点feed版本为`202605270600`（首页显示06:00）。
+- 新增采信：碳索储能网转引广州公共资源交易公共服务平台信息，广州市花都区镜湖站电网侧100MW/200MWh独立储能电站项目发布EPC中标候选人公示，项目包含110kV升压站及110kV送出接入镜湖变电站新建间隔。
+- 运行约束：当前运行环境DNS不可用，curl与requests均出现NameResolutionError，无法完成对SMM/监管站/行业站入口的直连抓取与sha256留存；本次改用web.run进行公开来源检索与核验，并仅在发现可复核新增时更新内容，避免纯时间戳刷新。
+- 动作：已更新`data/feed.js` generated_at至12:00；新增首页头条与`projects`卡片；更新首页/更多/详情页`feed.js?v=`至`202605271200`并将首页可见“更新”时间改为12:00。
+
 
 ## 2026-05-27T06:00:00+08:00 strict global crawl — updated
 - 重新读取：NeoLink首页HTTP 200 sha256 `c24663bf...`，`/markettrend/` HTTP 200 sha256 `04b8583e...`；web_search四组国内/海外查询HTTP 432，改用requests直连国内/海外公开站点和Google News RSS，原始HTML/RSS已落盘，未仅刷新时间。

@@ -1,8 +1,43 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-27T06:00:00+08:00",
-  "note": "06:00严格刷新新增采信：SMM电池级碳酸锂180000元/吨、电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨较05:00页面未变；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单、晨丰科技拟投13.15亿元储能电站、碳酸锂主力跌超4%。海外新增/上移Enbridge+Meta Wyoming太阳能储能数据中心设施、Eos Energy股价异动、钠电替代锂电讨论、ACTOM收购电池厂扩展BESS、GCL SI泰国1GW组件供货。",
+  "generated_at": "2026-05-27T12:00:00+08:00",
+  "note": "12:00严格刷新新增采信：公开招标/交易信息新增广州市花都区镜湖站电网侧100MW/200MWh独立储能电站EPC中标候选人公示（配套110kV升压站、预制舱式户外布置，110kV送出接入镜湖变电站）。本次运行环境DNS不可用，无法用curl/requests直连复核SMM/监管站等入口，改用web.run检索并核验公开页面后更新；材料/政策/安全/法律/IPO等栏目暂保持06:00版口径不做纯时间刷新。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260527-1200-huadu-jinghu-epc",
+        "source": "碳索储能网（转引广州公共资源交易公共服务平台）",
+        "source_type": "国内行业门户/公共资源交易信息",
+        "account_name": "碳索储能网",
+        "category": "项目/EPC/电网侧独立储能",
+        "title": "12:00刷新：广州花都镜湖站100MW/200MWh独立储能EPC中标候选公示",
+        "summary": "12:00新增采信：碳索储能网转引广州公共资源交易公共服务平台信息，广州市花都区镜湖站电网侧100MW/200MWh独立储能电站项目发布EPC中标候选人公示。项目采用磷酸铁锂电池路线，设备以预制舱式户外布置为主，配套新建110kV储能升压站及配电、二次、通信、无功补偿系统，升压后通过一回110kV线路接入镜湖变电站新建间隔并网运行。",
+        "body": [
+          "项目：广州市花都区镜湖站电网侧独立储能电站，规划100MW/200MWh，技术路线为磷酸铁锂电池。",
+          "系统：全站预制舱式户外布置为主，配套110kV储能升压站及配电、二次、通信、无功补偿系统。",
+          "并网：储能电站升压后，经一回110kV送出线路接入镜湖变电站新建间隔。",
+          "招采：EPC中标候选人公示阶段，显示多家联合体入围。",
+          "限制：本次运行环境DNS异常，无法对SMM/监管站等入口进行直连sha256复核；仅对该新增项目条目做可复核更新，不做纯时间戳刷新。"
+        ],
+        "key_points": [
+          "电网侧100MW/200MWh独立储能项目进入EPC候选人公示阶段，具备可核验的公共资源交易信息链条。",
+          "项目配套110kV升压站与送出线路，属于典型电网侧调节资源配置。",
+          "本次仅在发现可信新增时更新首页头条与项目卡片，其余栏目保持既有证据链口径。"
+        ],
+        "value": "100/200",
+        "unit": "MW/MWh",
+        "delta": "新增广州花都镜湖站电网侧独立储能EPC候选公示",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 12:00 CST",
+        "url": "https://cn.solarbe.com/",
+        "original_url": "https://cn.solarbe.com/",
+        "related_urls": [
+          "https://cn.solarbe.com/"
+        ],
+        "clean_html": "<p>12:00新增：广州花都镜湖站100MW/200MWh电网侧独立储能项目EPC中标候选人公示，配套110kV升压站并以110kV线路接入镜湖变电站。</p>",
+        "caption": "电网侧独立储能项目继续以EPC招采进展释放落地信号。",
+        "methodology": "12:00严格刷新：由于本运行环境DNS不可用（curl与requests均出现NameResolutionError），无法按常规对NeoLink/MarketTrend/SMM/监管站等入口做直连抓取与sha256留存；改用web.run检索并核验公开来源页面后更新。本次仅在发现可复核新增项目时更新feed与首页展示时间，避免纯时间戳刷新。"
+      },
       {
         "id": "headline-20260527-0600-byd-adani-meta",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / pv magazine USA / Japan Today / energize.co.za / PV Tech",
@@ -54291,6 +54326,21 @@ window.NEOLINK_FEED= {
     ],
     "projects": [
       {
+        "id": "project-20260527-1200-huadu-jinghu-100mw-200mwh-epc",
+        "source": "碳索储能网（转引广州公共资源交易公共服务平台）",
+        "category": "电网侧独立储能/EPC招采",
+        "title": "广州花都镜湖站100MW/200MWh独立储能项目EPC中标候选人公示",
+        "summary": "碳索储能网转引广州公共资源交易公共服务平台信息：广州市花都区镜湖站电网侧100MW/200MWh独立储能电站项目发布EPC中标候选人公示。项目采用磷酸铁锂电池，配套新建110kV储能升压站及送出线路接入镜湖变电站新建间隔。",
+        "value": "100/200",
+        "unit": "MW/MWh",
+        "delta": "EPC候选人公示释放落地进展信号",
+        "direction": "up",
+        "date": "05-27",
+        "as_of": "2026-05-27 12:00 CST",
+        "url": "https://cn.solarbe.com/",
+        "methodology": "12:00严格刷新：本运行环境DNS不可用导致curl/requests无法直连抓取并留存sha256；改用web.run检索并核验公开页面后新增该项目卡片。其余栏目保持06:00版证据链口径，避免纯时间戳刷新。"
+      },
+      {
         "id": "project-20260520-2100-germany-buhl-2gwh",
         "source": "ESS News",
         "category": "欧洲大储规划",
@@ -77532,6 +77582,13 @@ window.NEOLINK_FEED= {
         "status": 200,
         "sha256": "04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1",
         "finding": "/markettrend/已按小时重读；本轮补充固态电池、AIDC储能、数据中心电力和材料行情证据。"
+      },
+      {
+        "id": "source-20260527-1200-solarbe-huadu-jinghu-epc",
+        "source": "碳索储能网",
+        "url": "https://cn.solarbe.com/",
+        "as_of": "2026-05-27 12:00 CST",
+        "finding": "新增采信：广州花都镜湖站100MW/200MWh电网侧独立储能电站项目EPC中标候选人公示（转引公共资源交易信息）。本次运行环境DNS不可用，未能直连留存sha256。"
       },
       {
         "id": "source-20260527-0600-smm",
