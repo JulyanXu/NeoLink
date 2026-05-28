@@ -1,6 +1,6 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-27T12:00:00+08:00",
-  "note": "12:00严格刷新新增采信：公开招标/交易信息新增广州市花都区镜湖站电网侧100MW/200MWh独立储能电站EPC中标候选人公示（配套110kV升压站、预制舱式户外布置，110kV送出接入镜湖变电站）。本次运行环境DNS不可用，无法用curl/requests直连复核SMM/监管站等入口，改用web.run检索并核验公开页面后更新；材料/政策/安全/法律/IPO等栏目暂保持06:00版口径不做纯时间刷新。",
+  "generated_at": "2026-05-28T01:15:00+08:00",
+  "note": "01:15刷新（立即重运行）：前次cron job失败，本次为即时重运行。运行环境DNS解析仍不稳定，web_search返回HTTP 432，web_extract受限，无法直连SMM/监管站等入口进行内容抓取。MarketTrend子站./markettrend/保持06:00版资产包时间戳。本轮 headlines/材料/行情/舆情等栏目无可信新增，记录为no-change。前台禁止词均未出现。",
   "sections": {
     "headlines": [
       {
