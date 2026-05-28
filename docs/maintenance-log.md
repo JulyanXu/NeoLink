@@ -1,3 +1,10 @@
+## 2026-05-28T10:10:00+08:00 deployment repair — fixed blank homepage
+- 用户反馈：`http://www.neolink.asia/index.html` 页面不显示内容。
+- 根因：线上`index.html`已更新到`202605280900`，但`/data/feed.js?v=202605280900`返回404；前一次同步误用`rsync data/ ...`尾斜杠，把`data`目录内容铺到站点根目录，没有创建`/var/www/neolink/data/`，导致前端加载feed失败。
+- 修复：重新执行目录级同步`rsync -az data markettrend neolink:/var/www/neolink/`，保留目录名并恢复`/data/feed.js`与`/markettrend/`路径；同时确认`script.js`与`styles.css`均为HTTP 200。
+- 回读验证：`http://www.neolink.asia/index.html`为HTTP 200，引用`feed.js?v=202605280900`；`http://www.neolink.asia/data/feed.js?v=202605280900`为HTTP 200，feed语法OK，`generated_at=2026-05-28T09:00:00+08:00`，首条headline为`headline-20260528-0900-xinjiang-capacity-smm`。
+- 渲染验证：Chrome headless dump DOM中已出现“新疆明确独立储能容量电价165元/kW·年，SMM电池级碳酸锂均价177000元/吨”头条链接。
+
 ## 2026-05-28T09:00:00+08:00 strict global crawl — updated
 - 本地基线：更新前feed版本为`202605271200`（2026-05-27 12:00）。
 - 线上回读（HTTP）：`http://www.neolink.asia/` 返回200但仍引用旧版本`feed.js?v=202605270100`（线上落后于本地）；`http://www.neolink.asia/data/feed.js` Last-Modified显示为Tue, 26 May 2026 17:35:20 GMT。
