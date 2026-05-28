@@ -1,3 +1,11 @@
+## 2026-05-28T09:00:00+08:00 strict global crawl — updated
+- 本地基线：更新前feed版本为`202605271200`（2026-05-27 12:00）。
+- 线上回读（HTTP）：`http://www.neolink.asia/` 返回200但仍引用旧版本`feed.js?v=202605270100`（线上落后于本地）；`http://www.neolink.asia/data/feed.js` Last-Modified显示为Tue, 26 May 2026 17:35:20 GMT。
+- 线上回读（HTTPS/TLS）：`https://www.neolink.asia/` 与 `https://www.neolink.asia/data/feed.js` 发生 `TLS connect error: unexpected eof while reading`，无法完成HTTPS回读与TLS健康检查（仅记录异常，不伪造线上状态）。
+- 新增采信（政策）：新疆发改委对外发布（并由NDRC汇编同步披露）独立储能容量电价补偿标准165元/kW·年，按两倍发电侧容量电价执行，且绑定评价考核与执行时限（文件号新发改能价〔2026〕346号）。
+- 行情复核：SMM电池级碳酸锂公开页显示2026-05-27报价174000-180000元/吨、均价177000元/吨，指数176363元/吨；已抓取原始HTML并记录sha256 68fab57b1ecf828f02072a26a1029704dd38e17ed3f5decdb3394544fecbd065。
+- 动作：更新`data/feed.js` generated_at至09:00并新增头条/政策/价格条目；同步首页/更多/详情页`feed.js?v=`至`202605280900`并将首页可见“更新”时间改为2026-05-28 09:00。
+
 ## 2026-05-27T12:00:00+08:00 strict global crawl — updated
 - 本地基线：本次更新前站点feed版本为`202605270600`（首页显示06:00）。
 - 新增采信：碳索储能网转引广州公共资源交易公共服务平台信息，广州市花都区镜湖站电网侧100MW/200MWh独立储能电站项目发布EPC中标候选人公示，项目包含110kV升压站及110kV送出接入镜湖变电站新建间隔。

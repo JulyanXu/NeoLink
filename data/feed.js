@@ -1,8 +1,45 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-28T01:15:00+08:00",
-  "note": "01:15刷新（立即重运行）：前次cron job失败，本次为即时重运行。运行环境DNS解析仍不稳定，web_search返回HTTP 432，web_extract受限，无法直连SMM/监管站等入口进行内容抓取。MarketTrend子站./markettrend/保持06:00版资产包时间戳。本轮 headlines/材料/行情/舆情等栏目无可信新增，记录为no-change。前台禁止词均未出现。",
+  "generated_at": "2026-05-28T09:00:00+08:00",
+  "note": "09:00严格刷新新增采信：新疆发改委《自治区发展改革委关于完善我区发电侧容量电价机制有关事宜的通知》（新发改能价〔2026〕346号）提出电网侧独立储能容量电价补偿标准165元/千瓦·年，按两倍发电侧容量电价执行，并设置评价考核与执行时限。行情侧复核：SMM电池级碳酸锂2026-05-27公开报价174000-180000元/吨、均价177000元/吨，SMM电池级碳酸锂指数176363元/吨。线上回读：HTTP入口仍停留在`feed.js?v=202605270100`，HTTPS握手出现unexpected EOF（详见维护日志）。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260528-0900-xinjiang-capacity-smm",
+        "source": "新疆发改委通知（新发改能价〔2026〕346号）/ 中国能源研究会储能专委会转载 / SMM上海有色",
+        "source_type": "政策文件转载/行业协会转载/行情平台",
+        "account_name": "中国能源研究会储能专委会 / SMM",
+        "category": "政策/电价机制/容量补偿/材料行情",
+        "title": "09:00刷新：新疆明确独立储能容量电价165元/kW·年，SMM电池级碳酸锂均价177000元/吨",
+        "summary": "新增采信：新疆发改委《完善我区发电侧容量电价机制有关事宜的通知》（新发改能价〔2026〕346号）提出电网侧独立储能容量电价补偿标准165元/千瓦·年，按两倍发电侧容量电价执行，并设置执行时限与考核约束。行情侧复核：SMM电池级碳酸锂2026-05-27报价区间174000-180000元/吨、均价177000元/吨，SMM电池级碳酸锂指数176363元/吨。",
+        "body": [
+          "政策：文件提出电网侧独立储能容量电价补偿标准165元/千瓦·年，按两倍发电侧容量电价执行，并明确执行期限与评价考核机制。",
+          "影响：容量补偿与评价挂钩，强化独立储能可预期现金流，但也提升了可用性/调度响应等运营要求。",
+          "行情：SMM公开页显示2026-05-27电池级碳酸锂174000-180000元/吨、均价177000元/吨；指数176363元/吨。",
+          "提示：线上HTTPS握手异常导致无法完成TLS/HTTPS回读，本次以HTTP回读与公开来源核验为准。"
+        ],
+        "key_points": [
+          "新疆独立储能容量电价补偿标准165元/kW·年，按两倍发电侧容量电价执行（文件号新发改能价〔2026〕346号）。",
+          "容量补偿与评价考核绑定，独立储能运营要求与收益预期同步增强。",
+          "SMM 2026-05-27：电池级碳酸锂均价177000元/吨、指数176363元/吨。"
+        ],
+        "value": "165",
+        "unit": "元/kW·年 容量电价",
+        "delta": "新疆明确独立储能容量补偿标准；锂盐报价回落到17-18万元/吨区间",
+        "direction": "up",
+        "date": "05-28",
+        "as_of": "2026-05-28 09:00 CST",
+        "url": "https://eraes.com.cn/newsinfo/9078354.html",
+        "original_url": "https://eraes.com.cn/newsinfo/9078354.html",
+        "related_urls": [
+          "https://eraes.com.cn/newsinfo/9078354.html",
+          "https://xjdrc.xinjiang.gov.cn/xjfgw/c108297/202605/b1ccffe17f7143318230a50ab71ea551.shtml",
+          "https://www.ndrc.gov.cn/xwdt/ztzl/dmjd/dfzc/202605/t20260522_1406522.html",
+          "https://hq.smm.cn/h5/Li2CO3-battery-price"
+        ],
+        "clean_html": "<p>09:00新增：新疆发改委文件明确电网侧独立储能容量电价补偿标准165元/kW·年（按两倍发电侧容量电价执行），并设置考核与执行期限；SMM公开页复核电池级碳酸锂2026-05-27均价177000元/吨。</p>",
+        "caption": "容量补偿规则落地与锂盐价格回落同时影响储能项目IRR与招采节奏。",
+        "methodology": "09:00严格刷新：线上回读以HTTP为准，并通过公开来源核验政策文件摘要与SMM行情页面可见字段；避免复制长段原文，仅保留可复核数字、文件号与关键约束。"
+      },
       {
         "id": "headline-20260527-1200-huadu-jinghu-epc",
         "source": "碳索储能网（转引广州公共资源交易公共服务平台）",
@@ -36843,6 +36880,26 @@ window.NEOLINK_FEED= {
     ],
     "policy": [
       {
+        "id": "policy-20260528-0900-xinjiang-capacity-165",
+        "source": "新疆发改委（新发改能价〔2026〕346号）/ 中国能源研究会储能专委会转载",
+        "category": "容量电价机制/独立储能",
+        "title": "新疆：电网侧独立储能容量电价补偿标准165元/千瓦·年",
+        "summary": "公开转载信息显示，新疆发改委《自治区发展改革委关于完善我区发电侧容量电价机制有关事宜的通知》（新发改能价〔2026〕346号）提出：电网侧独立储能容量电价补偿标准165元/千瓦·年，按两倍发电侧容量电价执行，并设置执行时限与评价考核要求。",
+        "value": "165",
+        "unit": "元/kW·年",
+        "delta": "明确独立储能容量补偿标准与约束条件",
+        "direction": "up",
+        "date": "05-28",
+        "as_of": "2026-05-28 09:00 CST",
+        "url": "https://eraes.com.cn/newsinfo/9078354.html",
+        "related_urls": [
+          "https://eraes.com.cn/newsinfo/9078354.html",
+          "https://xjdrc.xinjiang.gov.cn/xjfgw/c108297/202605/b1ccffe17f7143318230a50ab71ea551.shtml",
+          "https://www.ndrc.gov.cn/xwdt/ztzl/dmjd/dfzc/202605/t20260522_1406522.html"
+        ],
+        "methodology": "09:00严格刷新：对公开转载页面核验文件号、条款与关键数值（165元/kW·年、两倍发电侧容量电价、评价考核与执行期限），仅保留结构化摘要，不复制长段原文。"
+      },
+      {
         "id": "policy-20260521-0300-multi-user-green-direct",
         "source": "国家发改委 / 国家能源局 / 中国能源网",
         "category": "多用户绿电直连/源网荷储协同",
@@ -72525,6 +72582,20 @@ window.NEOLINK_FEED= {
     ],
     "prices": [
       {
+        "id": "price-20260528-0900-smm-li2co3-0527",
+        "name": "SMM电池级碳酸锂",
+        "value": 177000,
+        "unit": "元/吨",
+        "range": "174000-180000",
+        "delta": "-8750（报价日期2026-05-27；09:00复核）",
+        "direction": "negative",
+        "date": "2026-05-27",
+        "as_of": "2026-05-28 09:00 CST",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "methodology": "09:00复核SMM电池级碳酸锂公开页：页面展示2026-05-27电池级碳酸锂174000-180000元/吨、均价177000元/吨、日跌8750元/吨，指数176363元/吨；同时抓取页面原始HTML并记录sha256 68fab57b1ecf828f02072a26a1029704dd38e17ed3f5decdb3394544fecbd065。"
+      },
+      {
         "id": "price-20260520-0600-smm-li2co3-0519",
         "name": "SMM电池级碳酸锂",
         "value": 186500,
@@ -77582,6 +77653,33 @@ window.NEOLINK_FEED= {
         "status": 200,
         "sha256": "04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1",
         "finding": "/markettrend/已按小时重读；本轮补充固态电池、AIDC储能、数据中心电力和材料行情证据。"
+      },
+      {
+        "id": "source-20260528-0900-xjdrc-capacity-165",
+        "source": "新疆发改委",
+        "url": "https://xjdrc.xinjiang.gov.cn/xjfgw/c108297/202605/b1ccffe17f7143318230a50ab71ea551.shtml",
+        "as_of": "2026-05-28 09:00 CST",
+        "status": 200,
+        "sha256": "97c884f23a17d3212c4f59d4d8871297d7c7c2c402853846110885c1b672ceb9",
+        "finding": "政策核验：独立储能容量电价补偿标准165元/kW·年（文件号新发改能价〔2026〕346号），并设置评价考核与执行时限。"
+      },
+      {
+        "id": "source-20260528-0900-ndrc-xinjiang-capacity-165",
+        "source": "国家发改委（地方政策解读汇编）",
+        "url": "https://www.ndrc.gov.cn/xwdt/ztzl/dmjd/dfzc/202605/t20260522_1406522.html",
+        "as_of": "2026-05-28 09:00 CST",
+        "status": 200,
+        "sha256": "91352b06c16c48a05aa6641c372b7144fc5dfddceca9dcb7f25a0b7cb496199e",
+        "finding": "交叉核验：NDRC汇编页面同步提及新疆独立储能容量电价补偿标准165元/kW·年等关键条款。"
+      },
+      {
+        "id": "source-20260528-0900-smm-li2co3-0527",
+        "source": "SMM电池级碳酸锂",
+        "url": "https://hq.smm.cn/h5/Li2CO3-battery-price",
+        "as_of": "2026-05-28 09:00 CST",
+        "status": 200,
+        "sha256": "68fab57b1ecf828f02072a26a1029704dd38e17ed3f5decdb3394544fecbd065",
+        "finding": "行情核验：2026-05-27电池级碳酸锂174000-180000元/吨、均价177000元/吨；指数176363元/吨。"
       },
       {
         "id": "source-20260527-1200-solarbe-huadu-jinghu-epc",
