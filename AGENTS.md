@@ -27,8 +27,39 @@ If another assistant-specific instruction file is added later, keep it short and
 
 ## Teaching
 
-The user is often picking up new systems and domains. When a key term surfaces that they likely have not internalized, explain it in 1-2 sentences and then move on.
+The user is often picking up new systems and domains. When a key term surfaces that they likely have not internalized, explain it in 1-2 sentence and then move on.
 
 Use this format:
 
 > 💡 followed by 1-2 sentence explanation
+
+---
+
+## Deployment / RSYNC
+
+This step runs AFTER the GitHub + Gitee push. Only proceed if content actually changed.
+
+### Step 1: Compare timestamps
+- Read local `/Users/julyan/Desktop/NeoLink/data/feed.js` and extract `generated_at`
+- SSH to `neolink` and read `/var/www/neolink/data/feed.js` `generated_at` (use: `ssh neolink "cat /var/www/neolink/data/feed.js | grep generated_at"`)
+- If local `generated_at` > server `generated_at`, proceed to Step 2
+- If local is not newer, skip rsync and log as "no-change check"
+
+### Step 2: RSYNC core files to neolink
+```bash
+rsync -avz --delete \
+  /Users/julyan/Desktop/NeoLink/index.html \
+  /Users/julyan/Desktop/NeoLink/data/ \
+  /Users/julyan/Desktop/NeoLink/news-more.html \
+  /Users/julyan/Desktop/NeoLink/article.html \
+  /Users/julyan/Desktop/NeoLink/enterprise-map-db.js \
+  neolink:/var/www/neolink/
+```
+
+### Step 3: Verify server timestamps
+After rsync, confirm server file timestamps updated:
+```bash
+ssh neolink "stat /var/www/neolink/data/feed.js | grep Modify"
+ssh neolink "stat /var/www/neolink/index.html | grep Modify"
+```
+Log the verified timestamps in maintenance log.
