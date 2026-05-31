@@ -1,6 +1,6 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-30T21:17:00+08:00",
-  "note": "21:17 no-change check：北极星储能网招标页面最新条目日期05-29，已确认无今日（05-30）新招标；本轮仅刷新generated_at时间戳，不添加新条目。",
+  "generated_at": "2026-05-31T06:12:04+08:00",
+  "note": "06:12 no-change check：北极星储能网招标页面最新条目日期05-29，已确认无今日（05-31）新招标；本轮仅刷新维护日志。",
   "sections": {
     "headlines": [
       {
