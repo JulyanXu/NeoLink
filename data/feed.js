@@ -1,8 +1,77 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-01T12:02:00+08:00",
-  "note": "06-01 12:02 刷新：新增1条今日储能招标（西藏日喀则100MW/500MWh构网型储能系统采购），来源北极星储能网。",
+  "generated_at": "2026-06-01T21:17:56+08:00",
+  "note": "06-01 21:17 刷新：新增2条今日储能招标信息（宁夏万吉永乐EPC流标、山西300MW/600MWh项目变更终止），来源北极星储能网招标频道。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260601-2117-ningxia-wanji-yongle-liubiao",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/共享储能/EPC流标",
+        "title": "有效投标人不足三家！宁夏万吉永乐共享储能电站EPC招标流标",
+        "summary": "北极星储能网发布宁夏万吉永乐共享储能电站EPC招标流标公告，因有效投标人不足3家而流标，项目位于石嘴山市平罗县红崖子乡，规划规模200MW/400MWh。",
+        "body": [
+          "项目：宁夏万吉永乐共享储能电站EPC总承包。",
+          "规模：200MW/400MWh。",
+          "地点：石嘴山市平罗县红崖子乡。",
+          "状态：EPC招标流标，有效投标人不足3家。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-01。"
+        ],
+        "key_points": [
+          "宁夏万吉永乐共享储能电站EPC招标流标，有效投标人不足3家。",
+          "项目规划规模200MW/400MWh，位于石嘴山市平罗县红崖子乡。",
+          "北极星储能网2026-06-01发布。"
+        ],
+        "value": "400",
+        "unit": "MWh",
+        "delta": "新增：宁夏万吉永乐共享储能电站EPC招标流标，有效投标人不足3家",
+        "direction": "up",
+        "date": "2026-06-01",
+        "as_of": "2026-06-01",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：宁夏万吉永乐共享储能电站EPC招标流标，有效投标人不足3家，项目规模200MW/400MWh，来源北极星储能网。</p>",
+        "caption": "宁夏万吉永乐共享储能电站EPC招标流标，投标人不足三家。",
+        "methodology": "北极星储能网公开招标公告信息提取。"
+      },
+      {
+        "id": "headline-20260601-2117-shanxi-300mw-600mwh-epc-terminated",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/项目变更/EPC终止",
+        "title": "项目变更！山西300MW/600MWh储能项目EPC招标终止",
+        "summary": "北极星储能网发布山西300MW/600MWh储能项目EPC招标终止公告，因项目变更原因终止招标。",
+        "body": [
+          "项目：山西300MW/600MWh储能电站EPC。",
+          "规模：300MW/600MWh。",
+          "状态：EPC招标终止，项目变更。",
+          "背景：项目变更导致原招标终止。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-01。"
+        ],
+        "key_points": [
+          "山西300MW/600MWh储能项目EPC招标因项目变更终止。",
+          "北极星储能网2026-06-01发布。"
+        ],
+        "value": "600",
+        "unit": "MWh",
+        "delta": "新增：山西300MW/600MWh储能EPC招标终止，项目变更",
+        "direction": "neutral",
+        "date": "2026-06-01",
+        "as_of": "2026-06-01",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：山西300MW/600MWh储能项目EPC招标终止，因项目变更，来源北极星储能网。</p>",
+        "caption": "山西300MW/600MWh储能EPC招标终止，项目变更。",
+        "methodology": "北极星储能网公开招标公告信息提取。"
+      },
       {
         "id": "headline-20260601-1202-tibet-rikaze-100mw-500mwh",
         "source": "北极星储能网",
