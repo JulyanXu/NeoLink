@@ -1,8 +1,43 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-01T08:00:00+08:00",
-  "note": "08:00刷新：新增采信加州CEC“Opt-In”快速许可400MW/3.2GWh储能项目；补充UK 50MW/300MWh液态空气储能（LAES）交付进展（pv magazine）。",
+  "generated_at": "2026-06-01T08:42:22+08:00",
+  "note": "06-01 08:42 刷新：新增山西300MW/600MWh储能EPC招标（1.12元/Wh），来源北极星储能网。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260601-0900-shanxi-300mw-600mwh-epc",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/EPC",
+        "title": "1.12元/Wh！山西300MW/600MWh储能电站EPC招标",
+        "summary": "北极星储能网发布山西300MW/600MWh储能电站EPC招标公告，单价1.12元/Wh。",
+        "body": [
+          "项目：山西300MW/600MWh储能电站EPC招标。",
+          "规模：300MW/600MWh。",
+          "单价：1.12元/Wh。",
+          "状态：招标公告已发布。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-01。"
+        ],
+        "key_points": [
+          "山西300MW/600MWh储能电站EPC招标启动。",
+          "投标单价1.12元/Wh。",
+          "北极星储能网2026-06-01发布。"
+        ],
+        "value": "600",
+        "unit": "MWh",
+        "delta": "新增：山西300MW/600MWh储能EPC招标，1.12元/Wh",
+        "direction": "up",
+        "date": "2026-06-01",
+        "as_of": "2026-06-01",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：山西300MW/600MWh储能电站EPC招标，单价1.12元/Wh，来源北极星储能网。</p>",
+        "caption": "山西300MW/600MWh储能电站EPC招标启动，1.12元/Wh。",
+        "methodology": "北极星储能网公开招标公告信息提取。"
+      },
       {
         "id": "headline-20260601-0800-cec-opt-in-400mw-3200mwh-bess",
         "source": "California Energy Commission / Energy-Storage.News",
@@ -87688,4 +87723,4 @@ window.NEOLINK_FEED= {
     ]
   },
   "checked_at": "2026-05-27T06:00:00+08:00"
-};
+}
