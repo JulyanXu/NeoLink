@@ -1,8 +1,178 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-01T08:42:22+08:00",
-  "note": "06-01 08:42 刷新：新增山西300MW/600MWh储能EPC招标（1.12元/Wh），来源北极星储能网。",
+  "generated_at": "2026-06-01T10:03:00+08:00",
+  "note": "06-01 10:03 刷新：新增5条今日储能招标/中标信息（华能4GWh框架结果、山西长治200MW/400MWh、甘肃1.2GWh EPC中电建、宁夏720MW/1.44GWh、中节能343MW/1.36GWh设备），来源北极星储能网。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260601-1000-huaneng-4gwh-framework-result",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/框架采购/储能电芯",
+        "title": "南瑞继保/亿纬动力/海辰储能/阳光电源/海博思创等企业入围，华能4GWh储能框架采购中标结果公示",
+        "summary": "北极星储能网发布华能集团4GWh储能框架采购中标结果公示，南瑞继保、亿纬动力、海辰储能、阳光电源、海博思创等企业入围。",
+        "body": [
+          "采购方：华能集团。",
+          "采购规模：4GWh储能电芯框架采购。",
+          "入围企业：南瑞继保、亿纬动力、海辰储能、阳光电源、海博思创等企业。",
+          "状态：中标结果公示。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-01。"
+        ],
+        "key_points": [
+          "华能集团4GWh储能框架采购中标结果公示，南瑞继保、亿纬动力、海辰储能、阳光电源、海博思创等企业入围。",
+          "4GWh框架采购规模为2026年国内储能电芯集采重要项目。"
+        ],
+        "value": "4",
+        "unit": "GWh",
+        "delta": "新增：华能4GWh储能框架采购中标结果公示，南瑞继保/亿纬/海辰/阳光/海博思创等入围",
+        "direction": "up",
+        "date": "2026-06-01",
+        "as_of": "2026-06-01",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：华能集团4GWh储能框架采购中标结果公示，南瑞继保、亿纬动力、海辰储能、阳光电源、海博思创等企业入围，来源北极星储能网。</p>",
+        "caption": "华能4GWh储能框架采购中标结果公示，龙头企业悉数入围。",
+        "methodology": "北极星储能网公开中标结果公示信息提取。"
+      },
+      {
+        "id": "headline-20260601-1001-shanxi-changzhi-huaneng-200mw-400mwh",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/独立储能",
+        "title": "200MW/400MWh！山西省长治市华信振阳高新区独立储能项目发布招标公告。",
+        "summary": "北极星储能网发布山西省长治市华信振阳高新区200MW/400MWh独立储能项目招标公告，项目属于山西省新型储能示范项目。",
+        "body": [
+          "项目：山西省长治市华信振阳高新区独立储能项目。",
+          "规模：200MW/400MWh。",
+          "状态：招标公告已发布。",
+          "背景：项目属于山西省新型储能示范项目。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-01。"
+        ],
+        "key_points": [
+          "山西省长治市华信振阳高新区200MW/400MWh独立储能项目招标公告已发布。",
+          "项目属于山西省新型储能示范项目。"
+        ],
+        "value": "400",
+        "unit": "MWh",
+        "delta": "新增：山西长治华信振阳高新区200MW/400MWh独立储能项目招标公告",
+        "direction": "up",
+        "date": "2026-06-01",
+        "as_of": "2026-06-01",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：山西省长治市华信振阳高新区200MW/400MWh独立储能项目招标公告，项目属于山西省新型储能示范项目，来源北极星储能网。</p>",
+        "caption": "山西长治200MW/400MWh独立储能项目进入招标阶段。",
+        "methodology": "北极星储能网公开招标公告信息提取。"
+      },
+      {
+        "id": "headline-20260601-1002-gansu-1.2gwh-epc-zhongdian",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/中榜公告/EPC",
+        "title": "1.17元/Wh！中电建河北工程中标甘肃1.2GWh储能项目一期EPC",
+        "summary": "北极星储能网发布甘肃1.2GWh储能项目一期EPC中标结果，中电建河北工程以1.17元/Wh单价中标。",
+        "body": [
+          "项目：甘肃1.2GWh储能项目一期EPC。",
+          "中标单位：中电建河北工程。",
+          "单价：1.17元/Wh。",
+          "状态：中标结果公示。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-01。"
+        ],
+        "key_points": [
+          "中电建河北工程中标甘肃1.2GWh储能项目一期EPC。",
+          "中标单价1.17元/Wh。"
+        ],
+        "value": "1200",
+        "unit": "MWh",
+        "delta": "新增：甘肃1.2GWh储能项目一期EPC中标结果，中电建河北工程1.17元/Wh",
+        "direction": "up",
+        "date": "2026-06-01",
+        "as_of": "2026-06-01",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：中电建河北工程中标甘肃1.2GWh储能项目一期EPC，单价1.17元/Wh，来源北极星储能网。</p>",
+        "caption": "甘肃1.2GWh储能EPC开标，中电建河北工程1.17元/Wh中标。",
+        "methodology": "北极星储能网公开中标结果信息提取。"
+      },
+      {
+        "id": "headline-20260601-1003-ningxia-720mw-1440mwh-storage",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/储能系统",
+        "title": "宁夏720MW/1440MWh储能系统，定向邀请一家供应商！",
+        "summary": "北极星储能网发布宁夏720MW/1440MWh储能系统招标公告，项目定向邀请一家供应商，储能规模达1.44GWh。",
+        "body": [
+          "项目：宁夏720MW/1440MWh储能系统采购。",
+          "规模：720MW/1440MWh（1.44GWh）。",
+          "采购方式：定向邀请一家供应商。",
+          "状态：招标公告已发布。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-01。"
+        ],
+        "key_points": [
+          "宁夏720MW/1440MWh储能系统招标，储能规模1.44GWh。",
+          "项目采用定向邀请一家供应商的采购方式。"
+        ],
+        "value": "1440",
+        "unit": "MWh",
+        "delta": "新增：宁夏720MW/1440MWh储能系统招标，定向邀请一家供应商",
+        "direction": "up",
+        "date": "2026-06-01",
+        "as_of": "2026-06-01",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：宁夏720MW/1440MWh储能系统招标，储能规模1.44GWh，定向邀请一家供应商，来源北极星储能网。</p>",
+        "caption": "宁夏1.44GWh储能系统启动招标，采用定向邀请模式。",
+        "methodology": "北极星储能网公开招标公告信息提取。"
+      },
+      {
+        "id": "headline-20260601-1004-cei-343mw-1.36gwh-equipment",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/储能设备",
+        "title": "0.53元/Wh！中节能343MW/1.36GWh储能设备中标候选人公示",
+        "summary": "北极星储能网发布中节能343MW/1.36GWh储能设备中标候选人公示，单价0.53元/Wh，为当前储能设备市场低位报价。",
+        "body": [
+          "项目：中节能343MW/1.36GWh储能设备采购。",
+          "规模：343MW/1.36GWh。",
+          "单价：0.53元/Wh。",
+          "状态：中标候选人公示。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-01。"
+        ],
+        "key_points": [
+          "中节能343MW/1.36GWh储能设备中标候选人公示，单价0.53元/Wh。",
+          "0.53元/Wh为当前储能设备市场较低报价。"
+        ],
+        "value": "1360",
+        "unit": "MWh",
+        "delta": "新增：中节能343MW/1.36GWh储能设备中标候选人公示，0.53元/Wh",
+        "direction": "up",
+        "date": "2026-06-01",
+        "as_of": "2026-06-01",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：中节能343MW/1.36GWh储能设备中标候选人公示，单价0.53元/Wh，为当前储能设备市场低位报价，来源北极星储能网。</p>",
+        "caption": "中节能1.36GWh储能设备招标开标，0.53元/Wh报价引关注。",
+        "methodology": "北极星储能网公开中标候选人公示信息提取。"
+      },
       {
         "id": "headline-20260601-0900-shanxi-300mw-600mwh-epc",
         "source": "北极星储能网",
