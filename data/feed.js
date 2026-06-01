@@ -1,8 +1,42 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-05-31T06:12:04+08:00",
-  "note": "06:12 no-change check：北极星储能网招标页面最新条目日期05-29，已确认无今日（05-31）新招标；本轮仅刷新维护日志。",
+  "generated_at": "2026-06-01T08:00:00+08:00",
+  "note": "08:00刷新：新增采信加州CEC“Opt-In”快速许可400MW/3.2GWh储能项目；补充UK 50MW/300MWh液态空气储能（LAES）交付进展（pv magazine）。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260601-0800-cec-opt-in-400mw-3200mwh-bess",
+        "source": "California Energy Commission / Energy-Storage.News",
+        "source_type": "政府公告/海外行业媒体",
+        "account_name": "CEC / Energy-Storage.News",
+        "category": "海外/政策/项目/许可",
+        "title": "加州CEC通过“Opt-In”流程批准400MW/3,200MWh电池储能项目",
+        "summary": "公开来源显示：加州能源委员会（CEC）通过“Opt-In Certification”加速许可流程，批准一个约400MW/3.2GWh（8小时）电网侧电池储能项目；该机制强调在维持环境审查、公众透明与部落/社区参与的前提下压缩许可周期。",
+        "body": [
+          "事项：加州能源委员会（CEC）发布新闻稿，披露其在“Opt-In Certification”机制下审批通过新的大型清洁能源基础设施项目，包含400MW/3,200MWh电池储能（BESS）。",
+          "项目：新闻稿提及Levy Alameda拟建设运营400MW BESS；行业媒体进一步概述该项目通过加速许可流程获得批准。",
+          "口径：页面公开描述强调“加速许可”并不等同于放松审查，仍包含环境审查、公开透明、部落咨询与社区参与等流程要求。"
+        ],
+        "key_points": [
+          "CEC公开新闻稿确认：400MW/3,200MWh BESS项目纳入Opt-In快速许可机制。",
+          "作为“许可/审批”类信号，适用于跟踪美国大型BESS落地节奏与监管流程演进。",
+          "项目规模口径为400MW功率与3.2GWh储能容量（约8小时）。"
+        ],
+        "value": "3200",
+        "unit": "MWh",
+        "delta": "新增海外许可信号：CEC Opt-In批准400MW/3.2GWh BESS",
+        "direction": "up",
+        "date": "2026-05-26",
+        "as_of": "2026-05-26",
+        "url": "https://www.energy.ca.gov/news/2026-05/cec-approves-third-major-clean-energy-project-under-opt-certification-program",
+        "original_url": "https://www.energy-storage.news/california-energy-commission-approves-3-2gwh-bess-project-through-newsoms-accelerated-permitting-scheme/",
+        "related_urls": [
+          "https://www.energy.ca.gov/news/2026-05/cec-approves-third-major-clean-energy-project-under-opt-certification-program",
+          "https://www.energy-storage.news/california-energy-commission-approves-3-2gwh-bess-project-through-newsoms-accelerated-permitting-scheme/"
+        ],
+        "clean_html": "<p>新增采信：加州CEC通过“Opt-In”流程批准约400MW/3.2GWh电网侧BESS项目；作为许可/监管信号用于跟踪美国大型储能落地节奏与审批机制演进。</p>",
+        "caption": "海外：加州CEC Opt-In加速许可推进400MW/3.2GWh BESS落地。",
+        "methodology": "基于公开可访问来源（CEC官网新闻稿 + Energy-Storage.News报道）进行交叉核验；仅保留规模、机制与流程要点，不复制原文长段落。"
+      },
       {
         "id": "headline-20260529-1000-huaneng-longji-yongning-400mw-pv",
         "source": "北极星储能网",
@@ -16240,6 +16274,35 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260601-0800-uk-laes-50mw-300mwh-lointek-highview",
+        "source": "pv magazine Global",
+        "source_type": "海外行业媒体",
+        "account_name": "pv magazine",
+        "category": "海外/长时储能/LAES",
+        "title": "UK：50MW/300MWh液态空气储能（LAES）系统交付进展（Lointek/Highview）",
+        "summary": "pv magazine报道：西班牙工程公司Lointek为英国Highview Power的长时储能项目交付/完成其50MW/300MWh液态空气储能（LAES）系统的阶段性里程碑，标志该类长时储能技术在英国商业化项目推进。",
+        "body": [
+          "技术：LAES（液态空气储能）作为长时储能（LDES）路线之一，利用空气液化与再气化过程实现多小时级储能调节。",
+          "规模：报道提及项目规模为50MW/300MWh（约6小时）。",
+          "进展：报道描述为交付/阶段性完成里程碑，用于跟踪英国长时储能落地节奏。"
+        ],
+        "key_points": [
+          "新增海外长时储能（LAES）项目进展信号：50MW/300MWh。",
+          "属于“技术路线+工程落地”类信息，适合与电化学储能并列跟踪。",
+          "以pv magazine为公开来源，不扩写超出报道可核验范围的细节。"
+        ],
+        "date": "2026-05-30",
+        "as_of": "2026-05-30",
+        "url": "https://www.pv-magazine.com/2026/05/30/lointek-suministra-un-sistema-de-almacenamiento-de-aire-liquido-de-50-mw-300-mwh-en-uk/",
+        "original_url": "https://www.pv-magazine.com/2026/05/30/lointek-suministra-un-sistema-de-almacenamiento-de-aire-liquido-de-50-mw-300-mwh-en-uk/",
+        "related_urls": [
+          "https://www.pv-magazine.com/2026/05/30/lointek-suministra-un-sistema-de-almacenamiento-de-aire-liquido-de-50-mw-300-mwh-en-uk/"
+        ],
+        "clean_html": "<p>补充：pv magazine报道Lointek/Highview在英国50MW/300MWh LAES长时储能项目的交付/里程碑进展，用于跟踪LDES工程落地节奏。</p>",
+        "caption": "海外长时储能：50MW/300MWh LAES项目推进。",
+        "methodology": "基于pv magazine公开报道提取可复核字段（规模/技术路线/阶段性进展）；避免复制版权内容与非公开细节。"
+      },
       {
         "id": "latest-20260527-0600-byd-adani-meta",
         "source": "SMM上海有色 / Google News中文RSS / Google News海外RSS / pv magazine USA / Japan Today / energize.co.za / PV Tech",
@@ -77915,6 +77978,33 @@ window.NEOLINK_FEED= {
       }
     ],
     "source_index": [
+      {
+        "id": "source-20260601-0800-cec-opt-in-press-release",
+        "source": "California Energy Commission",
+        "url": "https://www.energy.ca.gov/news/2026-05/cec-approves-third-major-clean-energy-project-under-opt-certification-program",
+        "as_of": "2026-06-01 08:00 CST",
+        "status": 200,
+        "sha256": "",
+        "finding": "新增采信：CEC新闻稿披露Opt-In机制下400MW/3,200MWh BESS等项目审批通过（用于许可/政策信号）。"
+      },
+      {
+        "id": "source-20260601-0800-energy-storage-news-cec-opt-in",
+        "source": "Energy-Storage.News",
+        "url": "https://www.energy-storage.news/california-energy-commission-approves-3-2gwh-bess-project-through-newsoms-accelerated-permitting-scheme/",
+        "as_of": "2026-06-01 08:00 CST",
+        "status": 200,
+        "sha256": "",
+        "finding": "补充核验：行业媒体对CEC Opt-In批准400MW/3.2GWh BESS的项目与流程要点梳理。"
+      },
+      {
+        "id": "source-20260601-0800-pv-magazine-lointek-laes-50mw-300mwh",
+        "source": "pv magazine Global",
+        "url": "https://www.pv-magazine.com/2026/05/30/lointek-suministra-un-sistema-de-almacenamiento-de-aire-liquido-de-50-mw-300-mwh-en-uk/",
+        "as_of": "2026-06-01 08:00 CST",
+        "status": 200,
+        "sha256": "",
+        "finding": "补充采信：UK 50MW/300MWh LAES（Lointek/Highview）交付/里程碑进展（LDES路线）。"
+      },
       {
         "id": "source-20260527-0600-neolink-home",
         "source": "NeoLink",

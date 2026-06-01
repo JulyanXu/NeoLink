@@ -1,3 +1,10 @@
+## 2026-06-01T08:27:00+08:00 two-hour refresh — updated (verified sources)
+- 本地基线：更新前`data/feed.js generated_at=2026-05-31T06:12:04+08:00`；但`index.html/news-more.html/article.html`仍引用旧缓存参数`feed.js?v=202605280900`（与feed内容不一致，可能导致浏览器命中旧缓存）。
+- 新增采信（海外/许可/项目）：加州能源委员会（CEC）官网新闻稿披露，通过“Opt-In Certification”机制批准含400MW/3,200MWh BESS在内的重大清洁能源项目；并以Energy-Storage.News报道做交叉核验，仅保留可复核字段与机制要点。
+- 新增采信（海外/长时储能/技术路线）：pv magazine报道UK 50MW/300MWh LAES（液态空气储能）项目交付/阶段性里程碑（Lointek/Highview），作为LDES工程落地信号补充到“最新新闻”。
+- 版本：更新`data/feed.js generated_at`至`2026-06-01T08:00:00+08:00`；同步更新页面缓存参数`feed.js?v=202606010800`并对齐首页静态“更新”显示（避免缓存参数与feed内容不一致）。
+- 线上回读/HTTPS-TLS：当前运行环境DNS解析失败且SSH出站被禁止（`curl` error 6；`ssh` Operation not permitted），无法核验`http://www.neolink.asia/`线上版本与HTTPS/TLS健康状态；仅记录约束，不伪造线上状态。
+
 ## 2026-05-28T10:10:00+08:00 deployment repair — fixed blank homepage
 - 用户反馈：`http://www.neolink.asia/index.html` 页面不显示内容。
 - 根因：线上`index.html`已更新到`202605280900`，但`/data/feed.js?v=202605280900`返回404；前一次同步误用`rsync data/ ...`尾斜杠，把`data`目录内容铺到站点根目录，没有创建`/var/www/neolink/data/`，导致前端加载feed失败。
