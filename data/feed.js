@@ -1,8 +1,16 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-02T10:05:00+08:00",
-  "note": "2026-06-02 定时刷新：抓取北极星储能网招标栏目，新增3条今日储能招标（中节能1GWh入围0.497-0.532元/Wh、石河子2GWh二期EPC总投21亿、深能锡盟68亿压缩空气储能全过程审计）。",
+  "generated_at": "2026-06-02T12:02:00+08:00",
+  "note": "2026-06-02 12:02 定时刷新：抓取北极星储能网招标栏目，新增1条今日储能招标（山西50MW储能电站EPC多次终止重招，扩容一倍降价58%）。",
   "sections": {
     "headlines": [
+      {
+        "title": "扩容一倍、降价58%！山西50MW储能电站EPC多次终止重招！",
+        "url": "https://chuneng.bjx.com.cn/",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "bidding",
+        "summary": "山西50MW储能电站EPC多次终止后重新招标，规模扩容一倍，降价幅度达58%。"
+      },
       {
         "title": "浙江分时电价定了！尖峰深谷比2.05∶0.2",
         "url": "https://chuneng.bjx.com.cn/news/detail/202506020000",
