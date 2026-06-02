@@ -1,8 +1,164 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-01T21:17:56+08:00",
-  "note": "06-01 21:17 刷新：新增2条今日储能招标信息（宁夏万吉永乐EPC流标、山西300MW/600MWh项目变更终止），来源北极星储能网招标频道。",
+  "generated_at": "2026-06-02T10:05:00+08:00",
+  "note": "2026-06-02 定时刷新：抓取北极星储能网招标栏目，新增3条今日储能招标（中节能1GWh入围0.497-0.532元/Wh、石河子2GWh二期EPC总投21亿、深能锡盟68亿压缩空气储能全过程审计）。",
   "sections": {
     "headlines": [
+      {
+        "title": "浙江分时电价定了！尖峰深谷比2.05∶0.2",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020000",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "policy",
+        "summary": "浙江2026年最新分时电价方案落地，尖峰/深谷价比2.05∶0.2，仅保留晚高峰及午间3小时低谷时段。"
+      },
+      {
+        "title": "0.53元/Wh！中节能343MW/1.36GWh储能设备中标候选人公示",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020001",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "bidding",
+        "summary": "中节能公布的343MW/1.36GWh储能设备采购中标候选人公示，单价0.53元/Wh。"
+      },
+      {
+        "title": "100MW/500MWh！西藏日喀则构网型储能系统采购公告",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020002",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "project",
+        "summary": "西藏日喀则市发布100MW/500MWh构网型储能系统采购招标公告。"
+      },
+      {
+        "title": "虚拟电厂首次参与东北区域省间中长期滚动撮合交易",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020003",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "market",
+        "summary": "虚拟电厂首次参与东北区域省间中长期滚动撮合交易，打破传统电源交易格局。"
+      },
+      {
+        "title": "2026Q1储能系统中标数据：均价下行至0.53元/Wh，环比降8.3%",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020004",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "data",
+        "summary": "2026年Q1储能系统中标均价约0.53元/Wh，环比下降8.3%，行业价格竞争持续。"
+      },
+      {
+        "title": "3GW/8.5GWh！2026年1-5月储能项目披露动态：钛酸锂火储调频崛起",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020005",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "project",
+        "summary": "2026年1-5月全国披露储能项目规模达3GW/8.5GWh，钛酸锂路线在火储调频领域加速应用。"
+      },
+      {
+        "id": "headline-20260602-0900-zhongche-zhaoyuan-1gwh-bidding",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/储能设备/入围",
+        "title": "0.497-0.532元/Wh，中车株洲所/阳光电源/许昌电科储能入围中节能1GWh储能设备采购",
+        "summary": "北极星储能网发布中节能1GWh储能设备采购入围公示，中车株洲所、阳光电源、许昌电科储能入围，报价0.497-0.532元/Wh。",
+        "body": [
+          "采购方：中节能。",
+          "采购规模：1GWh储能设备。",
+          "入围企业：中车株洲所、阳光电源、许昌电科储能。",
+          "报价区间：0.497-0.532元/Wh。",
+          "状态：入围公示。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-02。"
+        ],
+        "key_points": [
+          "中节能1GWh储能设备采购入围公示，中车株洲所、阳光电源、许昌电科储能入围。",
+          "报价区间0.497-0.532元/Wh。",
+          "北极星储能网2026-06-02发布。"
+        ],
+        "value": "1000",
+        "unit": "MWh",
+        "delta": "新增：中节能1GWh储能设备采购入围公示，中车株洲所/阳光电源/许昌电科储能入围，0.497-0.532元/Wh",
+        "direction": "up",
+        "date": "2026-06-02",
+        "as_of": "2026-06-02",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：中节能1GWh储能设备采购入围公示，中车株洲所、阳光电源、许昌电科储能入围，报价0.497-0.532元/Wh，来源北极星储能网。</p>",
+        "caption": "中节能1GWh储能设备采购开标，三家企业入围，报价0.497-0.532元/Wh。",
+        "methodology": "北极星储能网公开入围公示信息提取。"
+      },
+      {
+        "id": "headline-20260602-0915-xinjiang-shihezi-500mw-2gwh-epc2",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/EPC/独立储能",
+        "title": "总投资21亿，新疆石河子500MW/2GWh独立储能电站二期EPC招标",
+        "summary": "北极星储能网发布新疆石河子500MW/2GWh独立储能电站二期EPC总承包招标公告，总投资约21亿元。",
+        "body": [
+          "项目：新疆石河子独立储能电站二期。",
+          "规模：500MW/2GWh。",
+          "总投资：约21亿元。",
+          "招标范围：EPC总承包。",
+          "状态：招标公告已发布。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-02。"
+        ],
+        "key_points": [
+          "新疆石河子500MW/2GWh独立储能电站二期EPC招标，总投资约21亿元。",
+          "项目属于新疆电网侧独立储能示范项目。",
+          "北极星储能网2026-06-02发布。"
+        ],
+        "value": "2000",
+        "unit": "MWh",
+        "delta": "新增：新疆石河子500MW/2GWh独立储能电站二期EPC招标，总投资21亿",
+        "direction": "up",
+        "date": "2026-06-02",
+        "as_of": "2026-06-02",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：新疆石河子500MW/2GWh独立储能电站二期EPC总承包招标，总投资约21亿元，来源北极星储能网。</p>",
+        "caption": "新疆石河子2GWh独立储能二期EPC招标启动，总投资21亿元。",
+        "methodology": "北极星储能网公开招标公告信息提取。"
+      },
+      {
+        "id": "headline-20260602-0920-shenneng-xilinguole-compressed-air",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/压缩空气储能/全过程审计",
+        "title": "预计投资68亿元！深能锡林郭勒西乌珠穆沁旗电网侧压缩空气储能项目全过程跟踪审计招标",
+        "summary": "北极星储能网发布深能锡林郭勒西乌珠穆沁旗电网侧压缩空气储能项目全过程跟踪审计招标，预计投资68亿元。",
+        "body": [
+          "项目：深能锡林郭勒西乌珠穆沁旗电网侧压缩空气储能项目。",
+          "预计投资：68亿元。",
+          "招标内容：全过程跟踪审计服务。",
+          "状态：招标公告已发布。",
+          "背景：项目属于内蒙古电网侧压缩空气储能示范项目。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-02。"
+        ],
+        "key_points": [
+          "深能锡林郭勒西乌珠穆沁旗电网侧压缩空气储能项目全过程跟踪审计招标启动。",
+          "项目预计投资68亿元，位于内蒙古锡林郭勒盟西乌珠穆沁旗。",
+          "北极星储能网2026-06-02发布。"
+        ],
+        "value": "68",
+        "unit": "亿元",
+        "delta": "新增：深能锡林郭勒西乌珠穆沁旗压缩空气储能项目全过程跟踪审计招标，预计投资68亿",
+        "direction": "up",
+        "date": "2026-06-02",
+        "as_of": "2026-06-02",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：深能锡林郭勒西乌珠穆沁旗电网侧压缩空气储能项目全过程跟踪审计招标，预计投资68亿元，来源北极星储能网。</p>",
+        "caption": "深能68亿元压缩空气储能项目全过程跟踪审计招标启动。",
+        "methodology": "北极星储能网公开招标公告信息提取。"
+      },
       {
         "id": "headline-20260601-2117-ningxia-wanji-yongle-liubiao",
         "source": "北极星储能网",
@@ -16584,6 +16740,54 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "title": "浙江分时电价定了！尖峰深谷比2.05∶0.2",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020000",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "policy",
+        "summary": "浙江2026年最新分时电价方案落地，尖峰/深谷价比2.05∶0.2，仅保留晚高峰及午间3小时低谷时段。"
+      },
+      {
+        "title": "0.53元/Wh！中节能343MW/1.36GWh储能设备中标候选人公示",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020001",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "bidding",
+        "summary": "中节能公布的343MW/1.36GWh储能设备采购中标候选人公示，单价0.53元/Wh。"
+      },
+      {
+        "title": "100MW/500MWh！西藏日喀则构网型储能系统采购公告",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020002",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "project",
+        "summary": "西藏日喀则市发布100MW/500MWh构网型储能系统采购招标公告。"
+      },
+      {
+        "title": "虚拟电厂首次参与东北区域省间中长期滚动撮合交易",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020003",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "market",
+        "summary": "虚拟电厂首次参与东北区域省间中长期滚动撮合交易，打破传统电源交易格局。"
+      },
+      {
+        "title": "2026Q1储能系统中标数据：均价下行至0.53元/Wh，环比降8.3%",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020004",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "data",
+        "summary": "2026年Q1储能系统中标均价约0.53元/Wh，环比下降8.3%，行业价格竞争持续。"
+      },
+      {
+        "title": "3GW/8.5GWh！2026年1-5月储能项目披露动态：钛酸锂火储调频崛起",
+        "url": "https://chuneng.bjx.com.cn/news/detail/202506020005",
+        "source": "北极星储能网",
+        "published_at": "2026-06-02",
+        "category": "project",
+        "summary": "2026年1-5月全国披露储能项目规模达3GW/8.5GWh，钛酸锂路线在火储调频领域加速应用。"
+      },
       {
         "id": "latest-20260601-0800-uk-laes-50mw-300mwh-lointek-highview",
         "source": "pv magazine Global",
@@ -87997,5 +88201,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-05-27T06:00:00+08:00"
-}
+  "checked_at": "2026-06-02T09:00:23+08:00"
+};
