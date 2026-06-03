@@ -1,8 +1,78 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-03T16:01:00+08:00",
-  "note": "2026-06-03 16:01 定时刷新：检查北极星储能网招标频道，今日（06-03）及昨日（06-02）共6条招标公告均已在库中，无新增条目。更新 index.html 时间戳。",
+  "generated_at": "2026-06-03T22:05:00+08:00",
+  "note": "2026-06-03 22:05 定时刷新：北极星储能网招标频道新增2条今日",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260603-2205-shanxi-300mw-1200mwh-hybrid-storage-epc",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/混合储能/EPC",
+        "title": "300MW/1.2GWh！陕西混合储能示范项目一期储能设备招标",
+        "summary": "北极星储能网6月3日发布，陕西混合储能示范项目一期储能设备招标，采购规模300MW/1.2GWh。",
+        "body": [
+          "项目：陕西混合储能示范项目一期。",
+          "规模：300MW/1.2GWh。",
+          "招标内容：储能设备采购。",
+          "状态：招标公告已发布。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "陕西混合储能示范项目一期储能设备招标，采购规模300MW/1.2GWh。",
+          "项目属于陕西省级混合储能示范工程。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "1200",
+        "unit": "MWh",
+        "delta": "新增：陕西混合储能示范项目一期储能设备招标，300MW/1.2GWh",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-03 22:05 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498432.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498432.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498432.shtml"
+        ],
+        "clean_html": "<p>新增：陕西混合储能示范项目一期储能设备招标，规模300MW/1.2GWh，来源北极星储能网。</p>",
+        "caption": "陕西混合储能示范项目一期启动储能设备招标，规模300MW/1.2GWh。",
+        "methodology": "北极星储能网公开招标公告信息提取。"
+      },
+      {
+        "id": "headline-20260603-2205-neimenggu-2gwh-epc-open",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/EPC/储能电站",
+        "title": "35家企业参与，内蒙古2GW/8GWh储能EPC开标！",
+        "summary": "北极星储能网6月3日发布，内蒙古2GW/8GWh储能EPC项目开标，共35家企业参与投标。",
+        "body": [
+          "项目：内蒙古2GW/8GWh储能EPC。",
+          "规模：2GW/8GWh。",
+          "状态：开标，35家企业参与。",
+          "背景：项目属于内蒙古大型电网侧储能示范项目。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "内蒙古2GW/8GWh储能EPC项目开标。",
+          "共35家企业参与投标，显示储能EPC市场活跃度较高。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "8000",
+        "unit": "MWh",
+        "delta": "新增：内蒙古2GW/8GWh储能EPC开标，35家企业参与",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-03 22:05 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498431.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498431.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498431.shtml"
+        ],
+        "clean_html": "<p>新增：内蒙古2GW/8GWh储能EPC开标，35家企业参与，来源北极星储能网。</p>",
+        "caption": "内蒙古8GWh储能EPC开标，35家企业竞投。",
+        "methodology": "北极星储能网公开开标公告信息提取。"
+      },
       {
         "id": "headline-20260603-0858-gansu-midlong-trading",
         "source": "北极星储能网",
