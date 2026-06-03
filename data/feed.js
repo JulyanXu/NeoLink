@@ -1,8 +1,110 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-03T06:14:00+08:00",
-  "note": "2026-06-03 06:14 定时刷新：抓取北极星储能网招标栏目，今日(06-03)暂无新招标条目，末条日期仍为06-02，no-change check。",
+  "generated_at": "2026-06-03T08:58:00+08:00",
+  "note": "2026-06-03 08:58 定时刷新：新增甘肃电网侧储能参与省内中长期交易、宁夏新型储能装机规模超1000万千瓦、天赐材料与楚能新能源电解液供货合作规模重大调整。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260603-0858-gansu-midlong-trading",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/电力市场",
+        "account_name": "北极星储能网",
+        "category": "政策/电力市场/电网侧储能",
+        "title": "甘肃电网侧储能正式参与省内中长期交易",
+        "summary": "北极星储能网6月3日发布，甘肃电网侧储能已正式参与省内中长期交易，储能从辅助服务进一步延伸到中长期市场。",
+        "body": [
+          "事件：甘肃电网侧储能正式参与省内中长期交易。",
+          "意义：储能参与市场的品类从辅助服务进一步延伸到中长期交易。",
+          "影响：有助于提升电网侧储能收益机制的多元化和市场化程度。",
+          "来源：北极星储能网（news.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "甘肃电网侧储能已正式参与省内中长期交易。",
+          "储能市场化收益机制继续扩展至中长期市场。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "1",
+        "unit": "省级中长期交易机制突破",
+        "delta": "新增：甘肃电网侧储能正式参与省内中长期交易",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498239.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498239.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498239.shtml"
+        ],
+        "clean_html": "<p>新增：甘肃电网侧储能正式参与省内中长期交易，显示储能收益机制继续向中长期市场延伸。</p>",
+        "caption": "甘肃电网侧储能进入省内中长期交易，市场化收益机制继续扩围。",
+        "methodology": "直接抓取北极星储能网首页当日公开标题并核验文章URL，保留可复核标题与结构化摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260603-0858-ningxia-storage-10gw",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/区域装机",
+        "account_name": "北极星储能网",
+        "category": "项目/区域装机/新型储能",
+        "title": "宁夏新型储能装机规模超1000万千瓦",
+        "summary": "北极星储能网6月3日发布，宁夏新型储能装机规模已超过1000万千瓦，西北区域储能装机继续扩容。",
+        "body": [
+          "地区：宁夏。",
+          "进展：新型储能装机规模已超1000万千瓦。",
+          "意义：显示宁夏在新能源消纳和电力系统调节中的储能配置继续上量。",
+          "来源：北极星储能网（news.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "宁夏新型储能装机规模已超过1000万千瓦。",
+          "西北区域储能装机继续扩容。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "1000+",
+        "unit": "万千瓦",
+        "delta": "新增：宁夏新型储能装机规模超1000万千瓦",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498240.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498240.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498240.shtml"
+        ],
+        "clean_html": "<p>新增：宁夏新型储能装机规模超过1000万千瓦，显示西北新能源消纳配套储能继续放量。</p>",
+        "caption": "宁夏新型储能装机破千万千瓦，西北储能建设继续加速。",
+        "methodology": "直接抓取北极星储能网首页当日公开标题并核验文章URL，保留可复核标题与结构化摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260603-0858-tinci-chuna-supply-adjustment",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/企业合作",
+        "account_name": "北极星储能网",
+        "category": "企业/材料/供货合作",
+        "title": "天赐材料与楚能新能源电解液供货合作规模重大调整",
+        "summary": "北极星储能网6月2日发布，天赐材料与楚能新能源的电解液供货合作规模出现重大调整，反映储能与动力电池材料供需关系变化。",
+        "body": [
+          "主体：天赐材料、楚能新能源。",
+          "事项：电解液供货合作规模重大调整。",
+          "意义：反映电池材料供货节奏和客户需求结构变化。",
+          "来源：北极星储能网（news.bjx.com.cn），发布日期2026-06-02。"
+        ],
+        "key_points": [
+          "天赐材料与楚能新能源电解液供货合作规模出现重大调整。",
+          "材料环节与下游客户节奏变化值得继续跟踪。",
+          "北极星储能网2026-06-02发布。"
+        ],
+        "value": "1",
+        "unit": "供货合作调整事件",
+        "delta": "新增：天赐材料与楚能新能源电解液供货合作规模重大调整",
+        "direction": "mixed",
+        "date": "2026-06-02",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260602/1498136.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260602/1498136.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260602/1498136.shtml"
+        ],
+        "clean_html": "<p>新增：天赐材料与楚能新能源电解液供货合作规模重大调整，显示材料供给与下游客户节奏继续变化。</p>",
+        "caption": "天赐材料与楚能新能源电解液合作规模调整，材料供需节奏再现变化。",
+        "methodology": "直接抓取北极星储能网首页公开标题并核验文章URL，保留事实摘要，不复制原文长段落。"
+      },
       {
         "id": "headline-20260602-0920-shenneng-xilinguole-compressed-air-new",
         "source": "北极星储能网",
@@ -16785,6 +16887,57 @@ window.NEOLINK_FEED= {
     ],
     "latest": [
       {
+        "id": "latest-20260603-0858-gansu-midlong-trading",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/电力市场",
+        "account_name": "北极星储能网",
+        "category": "policy",
+        "title": "甘肃电网侧储能正式参与省内中长期交易",
+        "summary": "甘肃电网侧储能正式参与省内中长期交易，储能市场化收益机制继续扩围。",
+        "date": "2026-06-03",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498239.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498239.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498239.shtml"
+        ],
+        "methodology": "北极星储能网公开标题与文章URL核验。"
+      },
+      {
+        "id": "latest-20260603-0858-ningxia-storage-10gw",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/区域装机",
+        "account_name": "北极星储能网",
+        "category": "project",
+        "title": "宁夏新型储能装机规模超1000万千瓦",
+        "summary": "宁夏新型储能装机规模已超过1000万千瓦，西北区域储能装机继续扩容。",
+        "date": "2026-06-03",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498240.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498240.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498240.shtml"
+        ],
+        "methodology": "北极星储能网公开标题与文章URL核验。"
+      },
+      {
+        "id": "latest-20260603-0858-tinci-chuna-supply-adjustment",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/企业合作",
+        "account_name": "北极星储能网",
+        "category": "enterprise",
+        "title": "天赐材料与楚能新能源电解液供货合作规模重大调整",
+        "summary": "天赐材料与楚能新能源电解液供货合作规模重大调整，反映材料供需节奏变化。",
+        "date": "2026-06-02",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260602/1498136.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260602/1498136.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260602/1498136.shtml"
+        ],
+        "methodology": "北极星储能网公开标题与文章URL核验。"
+      },
+      {
         "title": "浙江分时电价定了！尖峰深谷比2.05∶0.2",
         "url": "https://chuneng.bjx.com.cn/news/detail/202506020000",
         "source": "北极星储能网",
@@ -33477,6 +33630,40 @@ window.NEOLINK_FEED= {
     ],
     "enterprise": [
       {
+        "id": "enterprise-20260603-0858-tinci-chuna-supply-adjustment",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/企业合作/电池材料",
+        "account_name": "北极星储能网",
+        "category": "企业/材料/供货合作",
+        "title": "天赐材料与楚能新能源电解液供货合作规模重大调整",
+        "summary": "北极星储能网6月2日报道，天赐材料与楚能新能源的电解液供货合作规模出现重大调整，反映电池材料环节与下游客户节奏变化。",
+        "body": [
+          "合作主体：天赐材料、楚能新能源。",
+          "变动事项：电解液供货合作规模重大调整。",
+          "影响：材料供给节奏、客户需求结构与订单兑现情况值得继续跟踪。",
+          "来源：北极星储能网（news.bjx.com.cn），发布日期2026-06-02。"
+        ],
+        "key_points": [
+          "天赐材料与楚能新能源电解液供货合作规模出现重大调整。",
+          "材料供给与下游客户节奏变化值得继续跟踪。",
+          "北极星储能网2026-06-02发布。"
+        ],
+        "value": "1",
+        "unit": "合作调整事件",
+        "delta": "新增材料供货合作规模调整信号",
+        "direction": "mixed",
+        "date": "2026-06-02",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260602/1498136.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260602/1498136.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260602/1498136.shtml"
+        ],
+        "clean_html": "<p>新增：天赐材料与楚能新能源电解液供货合作规模重大调整，反映材料供给与客户需求节奏变化。</p>",
+        "caption": "电解液供货合作规模调整，显示材料链条需求节奏再平衡。",
+        "methodology": "直接抓取北极星储能网首页公开标题并核验文章URL，保留结构化摘要，不复制原文长段落。"
+      },
+      {
         "source": "EnergyTrend / Energy-Storage.News / 北极星储能 / SMM上海有色 / NeoLink HTTP crawl",
         "source_type": "海外行业媒体 / 国内行业门户 / 行情平台 / 本站回读",
         "account_name": "EnergyTrend / Energy-Storage.News / 北极星储能 / SMM",
@@ -35255,6 +35442,40 @@ window.NEOLINK_FEED= {
       }
     ],
     "project": [
+      {
+        "id": "project-20260603-0858-ningxia-storage-10gw",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/区域装机",
+        "account_name": "北极星储能网",
+        "category": "区域装机/新型储能",
+        "title": "宁夏新型储能装机规模超1000万千瓦",
+        "summary": "北极星储能网6月3日报道，宁夏新型储能装机规模已超过1000万千瓦，西北区域储能建设和新能源消纳配套能力继续增强。",
+        "body": [
+          "地区：宁夏。",
+          "进展：新型储能装机规模已超1000万千瓦。",
+          "意义：显示西北地区储能配置继续上量，支撑新能源消纳与电网调节。",
+          "来源：北极星储能网（news.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "宁夏新型储能装机规模突破1000万千瓦。",
+          "西北区域储能建设与新能源消纳配套能力继续增强。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "1000+",
+        "unit": "万千瓦",
+        "delta": "新增宁夏区域储能装机破千万千瓦",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498240.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498240.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498240.shtml"
+        ],
+        "clean_html": "<p>新增：宁夏新型储能装机规模超过1000万千瓦，显示西北储能建设继续扩容。</p>",
+        "caption": "宁夏新型储能装机破千万千瓦，西北储能装机规模再上台阶。",
+        "methodology": "直接抓取北极星储能网首页公开标题并核验文章URL，保留结构化摘要，不复制原文长段落。"
+      },
       {
         "source": "中国储能网 / Energy-Storage.News / ESS News / pv magazine / 北极星储能 / SMM上海有色",
         "source_type": "国内行业门户 / 海外储能媒体 / 海外光储媒体 / 行情平台",
@@ -37779,6 +38000,27 @@ window.NEOLINK_FEED= {
       }
     ],
     "policy": [
+      {
+        "id": "policy-20260603-0858-gansu-midlong-trading",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/电力市场",
+        "account_name": "北极星储能网",
+        "category": "电网侧储能/中长期交易",
+        "title": "甘肃电网侧储能正式参与省内中长期交易",
+        "summary": "北极星储能网6月3日报道，甘肃电网侧储能正式参与省内中长期交易，储能收益机制从辅助服务进一步向中长期市场延伸。",
+        "value": "1",
+        "unit": "省级中长期交易机制突破",
+        "delta": "新增甘肃电网侧储能参与中长期交易",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-03 08:58 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498239.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498239.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498239.shtml"
+        ],
+        "methodology": "直接抓取北极星储能网首页公开标题并核验文章URL，保留可复核标题与结构化摘要。"
+      },
       {
         "id": "policy-20260528-0900-xinjiang-capacity-165",
         "source": "新疆发改委（新发改能价〔2026〕346号）/ 中国能源研究会储能专委会转载",
@@ -78537,6 +78779,33 @@ window.NEOLINK_FEED= {
     ],
     "source_index": [
       {
+        "id": "source-20260603-0858-bjx-gansu-midlong-trading",
+        "source": "北极星储能网",
+        "url": "https://news.bjx.com.cn/html/20260603/1498239.shtml",
+        "as_of": "2026-06-03 08:58 CST",
+        "status": 200,
+        "sha256": "",
+        "finding": "新增采信：甘肃电网侧储能正式参与省内中长期交易，显示储能市场化收益机制继续扩围。"
+      },
+      {
+        "id": "source-20260603-0858-bjx-ningxia-storage-10gw",
+        "source": "北极星储能网",
+        "url": "https://news.bjx.com.cn/html/20260603/1498240.shtml",
+        "as_of": "2026-06-03 08:58 CST",
+        "status": 200,
+        "sha256": "",
+        "finding": "新增采信：宁夏新型储能装机规模超1000万千瓦，西北区域储能装机继续扩容。"
+      },
+      {
+        "id": "source-20260603-0858-bjx-tinci-chuna-supply-adjustment",
+        "source": "北极星储能网",
+        "url": "https://news.bjx.com.cn/html/20260602/1498136.shtml",
+        "as_of": "2026-06-03 08:58 CST",
+        "status": 200,
+        "sha256": "",
+        "finding": "新增采信：天赐材料与楚能新能源电解液供货合作规模重大调整，反映材料链条供需节奏变化。"
+      },
+      {
         "id": "source-20260601-0800-cec-opt-in-press-release",
         "source": "California Energy Commission",
         "url": "https://www.energy.ca.gov/news/2026-05/cec-approves-third-major-clean-energy-project-under-opt-certification-program",
@@ -88245,5 +88514,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-06-02T09:00:23+08:00"
+  "checked_at": "2026-06-03T08:58:28+08:00"
 };
