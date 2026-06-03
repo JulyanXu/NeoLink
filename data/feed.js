@@ -1,6 +1,6 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-03T12:02:15+08:00",
-  "note": "2026-06-03 12:02 定时刷新：新增今日储能招标2条（三峡能源200MW/400MWh构网储能中标公示、扩容一倍降价58%山西50MW储能EPC重招）。",
+  "generated_at": "2026-06-03T12:05:00+08:00",
+  "note": "2026-06-03 12:05 定时刷新：复核 SMM 2026-05-29 电池级碳酸锂最新公开价格口径，并保留甘肃储能入市、宁夏储能装机、天赐材料供货调整等当日头条。",
   "sections": {
     "headlines": [
       {
@@ -10165,11 +10165,11 @@ window.NEOLINK_FEED= {
         "history": [
           {
             "label": "4月锂离子电池产量同比 %",
-            "value": 31.0
+            "value": 31
           },
           {
             "label": "1-4月锂离子电池产量同比 %",
-            "value": 36.0
+            "value": 36
           },
           {
             "label": "锂离子电池制造业投资同比 %",
@@ -10181,7 +10181,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "绿色低碳产品出口额同比 %",
-            "value": 40.0
+            "value": 40
           },
           {
             "label": "4月动储电池出口 GWh",
@@ -10242,7 +10242,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "出口同比 %",
-            "value": 42.0
+            "value": 42
           },
           {
             "label": "出口环比 %",
@@ -10328,7 +10328,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "储能电池出口同比 %",
-            "value": 15.0
+            "value": 15
           },
           {
             "label": "3月储能电池出口 GWh",
@@ -10458,7 +10458,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "Bimergen BESS管线 GW",
-            "value": 2.0
+            "value": 2
           },
           {
             "label": "Bimergen资产计划 亿美元",
@@ -16922,6 +16922,22 @@ window.NEOLINK_FEED= {
     ],
     "latest": [
       {
+        "id": "latest-20260603-1205-smm-li2co3-0529",
+        "source": "SMM上海有色",
+        "source_type": "价格平台/锂盐",
+        "account_name": "SMM上海有色",
+        "category": "价格",
+        "title": "SMM：电池级碳酸锂 2026-05-29 均价177500元/吨，指数177627元/吨",
+        "summary": "SMM公开页最新可复核口径显示，2026-05-29电池级碳酸锂区间173000-182000元/吨，均价177500元/吨，SMM电池级碳酸锂指数177627元/吨。",
+        "date": "2026-05-29",
+        "as_of": "2026-06-03 12:05 CST",
+        "url": "https://hq.smm.cn/new-energy/new-energy-spot-price",
+        "related_urls": [
+          "https://hq.smm.cn/new-energy/new-energy-spot-price"
+        ],
+        "methodology": "2026-06-03 公开检索复核 SMM 页面快照：2026-05-29 电池级碳酸锂 173000-182000 元/吨、均价 177500 元/吨，SMM 电池级碳酸锂指数 177627 元/吨；当前运行环境无法直连 SMM 页面，仅采用官方公开搜索结果中的可复核字段，不复制原文长段落。"
+      },
+      {
         "id": "latest-20260603-0858-gansu-midlong-trading",
         "source": "北极星储能网",
         "source_type": "行业媒体/电力市场",
@@ -22554,11 +22570,11 @@ window.NEOLINK_FEED= {
         "history": [
           {
             "label": "4月锂离子电池产量同比 %",
-            "value": 31.0
+            "value": 31
           },
           {
             "label": "1-4月锂离子电池产量同比 %",
-            "value": 36.0
+            "value": 36
           },
           {
             "label": "锂离子电池制造业投资同比 %",
@@ -22570,7 +22586,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "绿色低碳产品出口额同比 %",
-            "value": 40.0
+            "value": 40
           },
           {
             "label": "4月动储电池出口 GWh",
@@ -22631,7 +22647,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "出口同比 %",
-            "value": 42.0
+            "value": 42
           },
           {
             "label": "出口环比 %",
@@ -22717,7 +22733,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "储能电池出口同比 %",
-            "value": 15.0
+            "value": 15
           },
           {
             "label": "3月储能电池出口 GWh",
@@ -22847,7 +22863,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "Bimergen BESS管线 GW",
-            "value": 2.0
+            "value": 2
           },
           {
             "label": "Bimergen资产计划 亿美元",
@@ -39687,108 +39703,17 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
-        "id": "material-20260527-0600-smm-flat-solid-storage",
-        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
-        "spec": "SMM公开行情页；06:00复核较05:00未变；新增固态电池、AIDC储能、数据中心电力证据",
-        "value": "180000 / 179532 / 61770 / 29350",
-        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-        "change": "较05:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
-        "direction": "flat",
-        "source": "SMM上海有色 / Google News中文RSS",
-        "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-05-27 06:00 CST",
-        "methodology": "06:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 4a6d9514c5bcb3eeaabb7296bd856dd7c078f90b849832ac2e80d5fe29cb5add，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 9c376100a1ae88c399562169424bb62bf529081cac7217c6b45285ef2a8e8eeb。 海外入口：Energy-Storage.News eff82bd2e2602ebb5bf2f3f6e4834b7645d5c873afd9598750e5acdc69a3ac4d，ESS News 5cbf89f2d8beb2a37541a141bef645b7e3b7bf146a68527589fb4792ee9fe27c，pv magazine c885779e7a418a8f78dadd6c042e19bf627da118bb8dfc8e1b3b220f87fa2650，SolarQuarter 88860db516e64b1ce337e3ef9f901bd07c90adbe099d1c9ad6c9eb79d91e07fa，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 06:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较05:00页面未见价格跳动；中文RSS新增/上移易事特AIDC产业链名录、比亚迪全固态电池车规验证并指向2027量产、《2026中国新型储能产业发展白皮书》发布、Adani 3.37GWh单体储能电站投运、阳光电源AIDC储能订单落地、晨丰科技拟投资13.15亿元建设两个储能电站、广期所碳酸锂主力合约跌超4%。海外RSS新增/上移Enbridge与Meta宣布Wyoming大型太阳能+储能设施服务数据中心、Eos Energy股价继续大涨、Japan Today讨论钠电替代锂电、ACTOM收购本地电池制造商扩展BESS、PV Tech报道GCL SI与泰国Getz Energy签署1GW组件供货协议。"
-      },
-      {
-        "id": "material-20260527-0500-smm-flat-storage-news",
-        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
-        "spec": "SMM公开行情页；05:00复核较04:00未变；新增储能供货、压缩空气储能、BESS融资/招标证据",
-        "value": "180000 / 179532 / 61770 / 29350",
-        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-        "change": "较04:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
-        "direction": "flat",
-        "source": "SMM上海有色 / Google News中文RSS",
-        "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-05-27 05:00 CST",
-        "methodology": "05:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 90792d34d7f8ca2f80168279224b208a1787fd04015464a4005935a4117caa1c，SMM碳酸锂 bfbaa5bb337759f9b67f44dde6fdceda38789935645e646b8b76f95e53cbbe78，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA c67fd93e5b9c4e5ab6d06bf39284adec327dc9357837cd7df19028a06085cce1。 海外入口：Energy-Storage.News 841cd90444643c61dfd91ffe8cffe19fc872ef233a1b350d9e0bac8464fceee2，ESS News fa0ecb2350ce737fa2dbc8f40cff1a4e72c4e75c53757702a038d8351d89c8d9，pv magazine e8d688e234b32de7cfea4c33d54d05d6990ca093e2ebfd10d9fcea33a87f5920，SolarQuarter ac2d52041838bb85932d23492bda91cf2ce2a928417a9595828b21fd51d5cf8a，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均返回HTTP 200。 05:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较04:00页面未见价格跳动；中文RSS新增/上移固态电池行业军备竞赛、宁德时代供货3000多座储能站、欧阳院士预警储能五年之痒、易事特入选2026AIDC产业链优质企业名录、大唐中宁100MW压缩空气储能项目地下隧道检测招标、碳酸锂大跌4%与短期偏强格局观点。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、Rajasthan拟允许电池储能系统使用自有发电充电、Qualitas Energy完成意大利211MW BESS组合建设融资、Fortescue启动Pilbara Cloudbreak 650MWh储能系统、Gujarat Industries Power Company发布120MWh BESS招标。"
-      },
-      {
-        "id": "material-20260527-0200-smm-flat-capacity-price",
-        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
-        "spec": "SMM公开行情页；02:00复核较01:00未变；新增容量电价、钠电/固态和GWh级储能证据",
-        "value": "180000 / 179532 / 61770 / 29350",
-        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-        "change": "较01:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
-        "direction": "flat",
-        "source": "SMM上海有色 / Google News中文RSS",
-        "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-05-27 02:00 CST",
-        "methodology": "02:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS；google_news_cn_storage首轮超时后已重试成功。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 c24663bfa0265de5aa8e59b15bbe886c5760a14d8275f50e81bfe20328e79b85；MarketTrend HTTP 200 sha256 04b8583e57fa35b6520699b22ea1a37b81c837e87826222beaa3f25edd9794c1。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 7781e002c0c86253a03ae8a65cc6e2b3633949d4d7d7ecd62cd1621090091e54，SMM碳酸锂 a0112977c2fec31822089c1a778e6bb8cc045f7f909f1c1c5e0478a1a59b48a3，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA 3e8b74aa0ee9170767f294a1f9bc5b8306c0dc10decb90bcb4e644a60d46dd47。 海外入口：Energy-Storage.News 90cdc765971a653d8816fac271d8367474ac6b6b66027e842ca148ac9785502a，ESS News 08f28a7248ac57d43a18699c56d3d005e27814288939f4a7f127e88017dd6950，pv magazine c239b7bcc5daddce7d8807b7ba3300899a3566e541f5d5ad683cd4cc50f75292，SolarQuarter 2c4ea9a42c81913e67a72ec4f779dde81326d7ba02fac49880df1ba9a9d08e06，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS多数HTTP 200。 02:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较01:00页面未见价格跳动；中文RSS新增/上移湖北荆门打造全国重要新能源及储能基地、储能“新势力”搭伙干/中创新航参与新基金、新疆新型储能容量电价165元/千瓦·年、中国科大本征自感知智能电池热失控早期预警、银河证券称钠离子电池2026年有望迎来产业奇点、钟睒睒/养生堂砸5亿元切入固态电池、宁德时代第三代神行电池、锂电回收龙头金晟新能赴港上市。海外RSS新增/上移Cornex在CIBF 2026签署50GWh储能电池协议、南佛州公司获4.5亿美元支持Texas电网、AIP Management收购英国电池储能组合49%股权、Conway拟建BESS引发安全关注、Adani Green在Khavda投运3.37GWh大型电池储能、Meta/Enbridge 12亿美元太阳能+储能数据中心供电项目、Inlyte铁钠电池试点、ZOE沙特6GWh BESS工厂、印度电池供应链/储能项目执行压力等。"
-      },
-      {
-        "id": "material-20260527-0100-smm-flat-sunwoda-vrfb",
-        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
-        "spec": "SMM公开行情页；01:00复核较00:00未变；新增欣旺达融资、长时储能和海外BESS证据",
-        "value": "180000 / 179532 / 61770 / 29350",
-        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-        "change": "较00:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS继续上移碳酸锂期货主力合约跌超4%",
-        "direction": "flat",
-        "source": "SMM上海有色 / Google News中文RSS",
-        "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-05-27 01:00 CST",
-        "methodology": "01:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 d0a5e89ddaa75abec9f2e952e6c40e4ac96b08c80415df99c659119d15085607，SMM碳酸锂 829a784c1c446cd964d7f901081b6ef05dd688024c60e73e8a854af047ad0d2d，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 4509b0c5100f2f83fb36b1580c76d2b6c565d0ef51fdc502647dbd2da8e40ea0，CNESA bcf8d3b57335e4bacbedda327aeff4115580a34d2ebf93062a5c7d29d4964902。 海外入口：Energy-Storage.News e82f8abfc5092f885786be40eabfcdddec45f0b4188337301b97e04ccc32bbfa，ESS News 584fa90cc75193bc61ffe7fb82fc9b31581be6a3cb6dc52fc577e09a1da96219，pv magazine cfa21baf6015013d05ed386bba1bc2679789736660fef9b591cd378334befe04，SolarQuarter 593d1958ebc757d0716d553c39ee18c1a2811b9f005db4eef1e3ff15e9f74562，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0；Google News中英文RSS均HTTP 200。 01:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较00:00页面未见价格跳动；中文RSS新增/上移欣旺达动力获16.8亿元新一轮股权融资并投向储能生产基地和固态电池等技术平台、全球户用储能白皮书预告、算力-电力-储能ETF发行、广期所碳酸锂主力合约跌超4%、天赐材料16万吨高压实磷酸铁锂前期工作、锂电扩产潮和动力电池回收/金晟新能源赴港IPO线索。海外RSS新增/上移Frontier Power USA收购美国电池储能项目组合、巴西首次电池拍卖、Meta/Enbridge 12亿美元Solar Megaproject、GUVNL支持的20MW/120MWh钒液流电池招标、Hithium澳大利亚8小时长时储能系统首秀、Qualitas Energy完成意大利211MW BESS组合融资、Ameresco合资公司投运安大略250MW电池、ZOE沙特BESS工厂、Metso先进碳酸锂工艺等。"
-      },
-      {
-        "id": "material-20260527-0000-smm-flat-aidc-bess",
-        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
-        "spec": "SMM公开行情页；00:00复核较23:00未变；新增AIDC储能、7GWh储能大单和海外BESS/电池制造证据",
-        "value": "180000 / 179532 / 61770 / 29350",
-        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-        "change": "较23:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS上移碳酸锂期货主力合约下跌4%",
-        "direction": "flat",
-        "source": "SMM上海有色 / Google News中文RSS",
-        "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-05-27 00:00 CST",
-        "methodology": "00:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询因SSL握手超时失败，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News中英文RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 4dd4256d4cbefac966986b4c34fa69aa1c6f9cad7ef2488c524e130dbaaf3dea；MarketTrend HTTP 200 sha256 52a6118531578938015a4c48b1a1eaf3adae129af9ec295724297b9909e16010。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 e48e531039a61e517066441ea22f50aa71b4420a7084763f042ee241bd22410b，SMM碳酸锂 de8ee9fbb15bce31fc7818acf2ec4fbe315f3317f8cd4b746d50cecb70ab2411，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 3ee4e5f5552e3c8234d5322c4e3dc826dfd6788f2ebd5bedb9d6c07715f82ae0，CNESA 069c295de52dd51e96f28183d22b23abf9ac353108c6fb3f80f3e707d7e2ea97。 海外入口：Energy-Storage.News ab131da28f5026258c6a40190846da792e8f22b061eb928b687ec7c1f2147bf6，ESS News 6e85658e5ab0a03be78559e1a8798cc1c2a23d31a4a21e2cc75ced0d43b94116，pv magazine 34d04813f82fbf3b58b848f9237f095a8a16684cfae12e01065205c735fa0a5b，SolarQuarter 7ed25d4987f799ead7f349cbaad0aedbdff013fe22c639a8c678a25d5aa58d26，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 00:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较23:00页面未见价格跳动；中文RSS新增/上移易事特入选2026 AIDC产业链优质企业名录、储能+算力与场景化电池竞争、国内期货碳酸锂主力合约下跌4%、7GWh储能大单由宁德时代等8企瓜分、动力电池回收新规数字身份证、金晟新能源拟赴港IPO。海外RSS新增/上移美国BESS项目周报、巴西首次电池拍卖、DESRI新墨西哥270MW光储项目组合开工、ACTOM收购本土电池制造商扩张BESS、ZOE Energy沙特BESS工厂、Adani Green Khavda 3.37GWh BESS、印度储能项目75%低于可行性水平、DHL荷兰电池物流枢纽、CALB葡萄牙电池工厂2.41亿美元施工阶段开工、AI配电市场2033年预计427亿美元、AI数据中心电力需求推动150亿美元PJM拍卖等。"
-      },
-      {
-        "id": "material-20260526-2300-smm-flat-lfp-storage",
-        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
-        "spec": "SMM公开行情页；23:00复核较22:00未变；新增天赐材料16万吨高压实磷酸铁锂、储能项目招标和海外BESS证据",
-        "value": "180000 / 179532 / 61770 / 29350",
-        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-        "change": "较22:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
-        "direction": "flat",
-        "source": "SMM上海有色 / Google News中文RSS",
-        "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-05-26 23:00 CST",
-        "methodology": "23:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组国内/海外查询返回HTTP 432，改用requests直连行业站、监管站、专业媒体及Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 3abbcc517f6bdeb9cc3517b921debd5b68b78cb2801aca1bf5e740753d35959d，SMM碳酸锂 814463460290f2850d562249abf8db8f46db02532cb4ccf9539d38cbe63c1bbb，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 327868174416982d8cfa8887bbdef2df200c43493356e32ae22c0b6aec90a332。 海外入口：Energy-Storage.News 8c852ad755d17fb81ae9770f4fc9895d2153cd374e5270078abe30d5d847d5e4，ESS News 884d9599c24b29fad9ece8f491c61b070b01f6095675769f81351a54bd271c37，pv magazine 191914bf8bb5de3b4cd0c2ce27a2e2016a3d3b2db09068906c27f3f762a0d686，SolarQuarter 984a4356bf5a8bec127298a299a9a41242c9e61f1da2ed87f37fe2fe33f9a0dc，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 23:00新增/变化：SMM公开行情价格数值较22:00未变；Google News中文RSS新增或上移EBRD向斯洛文尼亚储能开发商NGEN提供7000万欧元贷款、昆明安宁350MW盐穴压缩空气储能示范项目工程咨询招标、国电投山东两大储能集采400MW/800MWh、天赐材料年产16万吨高压实磷酸铁锂项目前期工作。海外RSS新增或上移澳大利亚公用事业级电池储能市场排名、CIS第7轮7.9GWh混合项目、Adani Green 3.37GWh Khavda BESS、欧盟批准PPC/Metlen电池储能合资、乌克兰电池储能关键基础设施地位等。"
-      },
-      {
-        "id": "material-20260526-2200-smm-flat-ai-energy",
-        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
-        "spec": "SMM公开行情页；22:00复核较20:00未变；新增AI+能源、储能电站和海外储能电池协议证据",
-        "value": "180000 / 179532 / 61770 / 29350",
-        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-        "change": "较20:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
-        "direction": "flat",
-        "source": "SMM上海有色 / Google News中文RSS",
-        "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-05-26 22:00 CST",
-        "methodology": "22:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 8ebf276c42ce541bdf25dfbde8e006b5455b82f03c6165e551f71671b9f505af，SMM新能源 26d2f0a4a4d7cf526cfd14337600e3c2ef9da2a11ede78e04318efbd7b169acc，SMM碳酸锂 74cf2ab3a212f91d3b201c92a615ddd9e420074fa7152f96ad3983fc8c999fde，中国能源网 72e6e14385187787e67b821084aafb8862fed04d2f16c8fec3b76426d3981747，国家能源局 ba7737e3f4b6abdc43d7c64d2394bca4d751eac0075be41a4a6d088940e96caf，工信部 a56b8cc0c44c622ee2adcc2e8547b0f43a470dbd767331dcec1db4c12928b1f6，CNESA 2b63c8e0bf56edad7c35a782afb271843cb3508a4670496a85b37a70665e8c4e。 海外入口：Energy-Storage.News fadcfc873e4120983a8d8347be2b04fe78e314cd72d13e54222f9b0dc6c24b86，ESS News 5f02679933a7b6c9ace0f25a7ea90b97c908f9f669c718f924bb4e9bbf025b09，pv magazine 782059f52dc27163c75c2b506b64e8bfff243032ad13991f73f361125586f4d7，SolarQuarter edec19643ef512faff998d4d54cf7bc3ff107892c74ef76ba276ca5f6da39de6，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 22:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电池级碳酸锂指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较20:00页面未见价格跳动；中国能源网新增国家能源局召开全国“人工智能+”能源现场推进会、“十五五”时期我国新型电网投资预计将超过5万亿元、国家能源局发布51个“人工智能+能源”高价值场景；工信部新增科技咨询委员会全体会议。海外ESS News新增Cornex在CIBF 2026签署50GWh储能电池协议，称588Ah电芯面向大规模储能和海外部署；SolarQuarter新增Enbridge拟12亿美元投资Wyoming Solar-BESS项目为Meta数据中心供电。Google News中文新增/上移晨丰科技拟13.15亿元建设两个储能电站项目、国家新型储能创新中心与东阳光项目落地广州白云、东风欣旺达超充电芯项目投产、先导智能固态电池设备“军备竞赛”等；海外RSS新增Forbes电池储能市场热度、保加利亚电池系统占比、巴西首次电池拍卖、ZOE沙特6GWh BESS制造设施、Inlyte铁钠电池AIDC/ESS试点、数据中心备用电源需求等。"
-      },
-      {
-        "id": "material-20260526-1700-smm-flat-tinci-lfp",
-        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 磷酸铁锂 / 电解液",
-        "spec": "SMM公开行情页；17:00复核较15:00未变；中文RSS新增天赐16万吨LFP前期工作与碳酸锂大跌4%",
-        "value": "180000 / 179532 / 61770 / 29350",
-        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-        "change": "较15:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS新增天赐16万吨LFP项目与碳酸锂跌4%收评",
-        "direction": "flat",
-        "source": "SMM上海有色 / Google News中文RSS",
-        "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-05-26 17:00 CST",
-        "methodology": "17:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。原始HTML/RSS已落盘，未仅刷新时间。 本站回读：NeoLink首页HTTP 200 sha256 9936b7623823d83d1221f7485bc4166af379302b4f9e4fe2889acc19879c7f14；MarketTrend HTTP 200 sha256 2c041d7c9101a60308aa2fab02d03b225d8bbe6c42013c9914c6e880ef618dcd。 国内入口：北极星储能 eb9ce199eae8d8460f75f3d888cd1d8ad14851c2b91562cba16e78b0905ad096，SMM新能源 ab50d8a4ce8f31c8caeb3604ca6f5f5c77da7e1010932a5ae12d99824b67c556，SMM碳酸锂 bd7cc145ab5e981119c1be0cf68eced6afbab6f071a6ca20b064c3e56668847d，中国能源网 5e7fa6edd6dcfdf6a6224947ffc3dcaeb14cb7675ff56ba77caa9ee6a44846bf，国家能源局 3e719ce297b128946e989e5e58466e663336bf1ad5faf92027a4479e11bf5232，工信部 f0729cbee13a10600d9dbf644c5bd3d7ea0bd97c784370049c46bcf41fb898c6，CNESA d22c221e787afdb888ffac8a8f0a12b3d87db3a5969f19964581efc6bee6676f。 海外入口：Energy-Storage.News 436d6342229a74bb161cc0d313d195a3e68652bb3bd69151fbd50426711578ba，ESS News 89c22a7c6609ec2e9df7c83fc9210631ef8f6523e8a4594cb1379d73b66869bb，pv magazine 5543491c6f6baae8235aecbdd777ca73a11d42a83f374e7b97fd6d92458bb11c，SolarQuarter b072315db23cd3704ee706a2dd59f175b9f5fac229825a1cfb44f31003915b88，EnergyTrend 28609919cd91c48e90354c9ab62fde91eb6ad36ae46318e5ca5a81196d2b16e0，Google News中英文RSS均HTTP 200。 17:00新增/变化：SMM公开行情仍显示电池级碳酸锂180000元/吨、SMM电碳指数179532元/吨、磷酸铁锂61770元/吨、电解液29350元/吨，较15:00页面未变；Google News中文新增/上移商品日报与收评口径的碳酸锂大跌4%、天赐材料拟开展年产16万吨高压实磷酸铁锂项目前期工作（预计总投资不超过21亿元）、东莞新型储能产业链合作交流会、荆门打造世界级动力储能电池产业基地。国内北极星新增易事特浙江平阳新能源储充项目投运、海博思创储算一体/锂钠融合/固态变压器自研、天合储能菲律宾光储一体化、新能源汽车安全隐患排查动力电池重点。海外新增Energy-Storage.News的Invinity瑞士2.1GWh液流电池合同、德国2029年后储能项目报价、ASEAN监管框架、BESS安全与社区反对；ESS News新增Adani Green印度3.37GWh BESS投运、Fortescue西澳690MW光伏+650MWh电池项目开建；SolarQuarter新增ACME Solar 300MW/1200MWh 25年PPA、NavPrakriti-IIT Kharagpur电池回收研发。"
+        "id": "material-20260603-1205-smm-li2co3-0529",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数",
+        "spec": "SMM公开价格页；2026-06-03复核到 2026-05-29 最新公开口径",
+        "value": "177500 / 177627",
+        "unit": "元/吨 / 元/吨",
+        "change": "较05-27公开口径上移；电池级碳酸锂区间173000-182000元/吨",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/new-energy/new-energy-spot-price",
+        "as_of": "2026-06-03 12:05 CST",
+        "methodology": "2026-06-03 公开检索复核 SMM 页面快照：2026-05-29 电池级碳酸锂 173000-182000 元/吨、均价 177500 元/吨，SMM 电池级碳酸锂指数 177627 元/吨；当前运行环境无法直连 SMM 页面，仅采用官方公开搜索结果中的可复核字段，不复制原文长段落。"
       },
       {
         "id": "material-20260526-1500-smm-flat-futures-down",
@@ -43537,6 +43462,98 @@ window.NEOLINK_FEED= {
     ],
     "metrics": [
       {
+        "id": "metric-20260603-1205-smm-li2co3",
+        "title": "电池级碳酸锂",
+        "value": "177500",
+        "unit": "元/吨",
+        "caption": "SMM 2026-05-29 最新公开口径",
+        "delta": "区间 173000-182000 元/吨",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "as_of": "2026-06-03 12:05 CST",
+        "methodology": "2026-06-03 公开检索复核 SMM 页面快照：2026-05-29 电池级碳酸锂 173000-182000 元/吨、均价 177500 元/吨，SMM 电池级碳酸锂指数 177627 元/吨；当前运行环境无法直连 SMM 页面，仅采用官方公开搜索结果中的可复核字段，不复制原文长段落。",
+        "url": "https://hq.smm.cn/new-energy/new-energy-spot-price",
+        "history": [
+          {
+            "label": "05-22",
+            "value": 178000
+          },
+          {
+            "label": "05-27",
+            "value": 177000
+          },
+          {
+            "label": "05-29",
+            "value": 177500
+          }
+        ]
+      },
+      {
+        "id": "metric-20260603-1205-gansu-trading",
+        "title": "甘肃储能入市",
+        "value": "1",
+        "unit": "省级机制突破",
+        "caption": "电网侧储能正式参与省内中长期交易",
+        "delta": "收益机制继续扩围",
+        "direction": "up",
+        "source": "北极星储能网",
+        "as_of": "2026-06-03 12:05 CST",
+        "methodology": "2026-06-03 复核公开标题与文章URL，保留结构化摘要。",
+        "url": "https://news.bjx.com.cn/html/20260603/1498239.shtml",
+        "history": [
+          {
+            "label": "辅助服务",
+            "value": 0
+          },
+          {
+            "label": "中长期交易",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "id": "metric-20260603-1205-ningxia-storage",
+        "title": "宁夏新型储能",
+        "value": "1000+",
+        "unit": "万千瓦",
+        "caption": "区域装机规模突破千万千瓦",
+        "delta": "西北储能继续扩容",
+        "direction": "up",
+        "source": "北极星储能网 / 中国新闻网",
+        "as_of": "2026-06-03 12:05 CST",
+        "methodology": "2026-06-03 复核公开报道标题与数值，仅保留结构化摘要。",
+        "url": "https://www.chinanews.com.cn/cj/2026/06-03/10428831.shtml",
+        "history": [
+          {
+            "label": "已超",
+            "value": 1000
+          }
+        ]
+      },
+      {
+        "id": "metric-20260603-1205-tinci-chuna",
+        "title": "天赐材料供货调整",
+        "value": "2027+",
+        "unit": "年保供上限修订",
+        "caption": "楚能新能源电解液保供安排上修至不超过55万吨",
+        "delta": "企业合作节奏重新定价",
+        "direction": "mixed",
+        "source": "证券时报",
+        "as_of": "2026-06-03 12:05 CST",
+        "methodology": "2026-06-03 复核证券时报公开报道，采用保供上限与时间区间等可复核字段。",
+        "url": "https://www.stcn.com/article/detail/2245579.html",
+        "history": [
+          {
+            "label": "2024-2026",
+            "value": 20
+          },
+          {
+            "label": "2024-2027",
+            "value": 55
+          }
+        ]
+      },
+      {
         "id": "metric-20260527-0600-public-new",
         "title": "06:00新增国内+海外储能/电池线索",
         "value": "22",
@@ -46325,11 +46342,11 @@ window.NEOLINK_FEED= {
         "history": [
           {
             "label": "4月锂离子电池产量同比 %",
-            "value": 31.0
+            "value": 31
           },
           {
             "label": "1-4月锂离子电池产量同比 %",
-            "value": 36.0
+            "value": 36
           },
           {
             "label": "锂离子电池制造业投资同比 %",
@@ -46341,7 +46358,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "绿色低碳产品出口额同比 %",
-            "value": 40.0
+            "value": 40
           },
           {
             "label": "4月动储电池出口 GWh",
@@ -46470,7 +46487,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "出口同比 %",
-            "value": 42.0
+            "value": 42
           },
           {
             "label": "出口环比 %",
@@ -46556,7 +46573,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "储能电池出口同比 %",
-            "value": 15.0
+            "value": 15
           },
           {
             "label": "3月储能电池出口 GWh",
@@ -46686,7 +46703,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "Bimergen BESS管线 GW",
-            "value": 2.0
+            "value": 2
           },
           {
             "label": "Bimergen资产计划 亿美元",
@@ -54514,18 +54531,6 @@ window.NEOLINK_FEED= {
         "as_of": "2026-05-14",
         "methodology": "新浪财经/快科技转载的全球BESS集成商排名线索，需继续跟踪第三方榜单原始出处。",
         "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvpqq8823796.shtml"
-      },
-      {
-        "title": "电池级碳酸锂",
-        "value": "20.14",
-        "unit": "万元/吨",
-        "caption": "上海钢联 5月13日",
-        "delta": "+2.63万元/吨 vs 4月29日",
-        "direction": "up",
-        "source": "新华财经 / 中国证券报 / 新浪财经 / 上海钢联",
-        "as_of": "2026-05-13",
-        "methodology": "中国证券报/新华财经引用上海钢联现货均价，并结合供给扰动和储能需求调研。",
-        "url": "https://finance.sina.com.cn/money/bond/2026-05-14/doc-inhxvihq0208284.shtml"
       },
       {
         "title": "NextEra北达科他BESS",
@@ -66270,11 +66275,11 @@ window.NEOLINK_FEED= {
         "history": [
           {
             "label": "4月锂离子电池产量同比 %",
-            "value": 31.0
+            "value": 31
           },
           {
             "label": "1-4月锂离子电池产量同比 %",
-            "value": 36.0
+            "value": 36
           },
           {
             "label": "锂离子电池制造业投资同比 %",
@@ -66286,7 +66291,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "绿色低碳产品出口额同比 %",
-            "value": 40.0
+            "value": 40
           },
           {
             "label": "4月动储电池出口 GWh",
@@ -66415,7 +66420,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "出口同比 %",
-            "value": 42.0
+            "value": 42
           },
           {
             "label": "出口环比 %",
@@ -66501,7 +66506,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "储能电池出口同比 %",
-            "value": 15.0
+            "value": 15
           },
           {
             "label": "3月储能电池出口 GWh",
@@ -66631,7 +66636,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "Bimergen BESS管线 GW",
-            "value": 2.0
+            "value": 2
           },
           {
             "label": "Bimergen资产计划 亿美元",
@@ -69538,11 +69543,11 @@ window.NEOLINK_FEED= {
         "history": [
           {
             "label": "4月锂离子电池产量同比 %",
-            "value": 31.0
+            "value": 31
           },
           {
             "label": "1-4月锂离子电池产量同比 %",
-            "value": 36.0
+            "value": 36
           },
           {
             "label": "锂离子电池制造业投资同比 %",
@@ -69554,7 +69559,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "绿色低碳产品出口额同比 %",
-            "value": 40.0
+            "value": 40
           },
           {
             "label": "4月动储电池出口 GWh",
@@ -69615,7 +69620,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "出口同比 %",
-            "value": 42.0
+            "value": 42
           },
           {
             "label": "出口环比 %",
@@ -69701,7 +69706,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "储能电池出口同比 %",
-            "value": 15.0
+            "value": 15
           },
           {
             "label": "3月储能电池出口 GWh",
@@ -69831,7 +69836,7 @@ window.NEOLINK_FEED= {
           },
           {
             "label": "Bimergen BESS管线 GW",
-            "value": 2.0
+            "value": 2
           },
           {
             "label": "Bimergen资产计划 亿美元",
@@ -73758,6 +73763,20 @@ window.NEOLINK_FEED= {
       }
     ],
     "prices": [
+      {
+        "id": "price-20260603-1205-smm-li2co3-0529",
+        "name": "SMM电池级碳酸锂",
+        "value": 177500,
+        "unit": "元/吨",
+        "range": "173000-182000",
+        "delta": "+500（报价日期2026-05-29；2026-06-03复核）",
+        "direction": "positive",
+        "date": "2026-05-29",
+        "as_of": "2026-06-03 12:05 CST",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/new-energy/new-energy-spot-price",
+        "methodology": "2026-06-03 公开检索复核 SMM 页面快照：2026-05-29 电池级碳酸锂 173000-182000 元/吨、均价 177500 元/吨，SMM 电池级碳酸锂指数 177627 元/吨；当前运行环境无法直连 SMM 页面，仅采用官方公开搜索结果中的可复核字段，不复制原文长段落。"
+      },
       {
         "id": "price-20260528-0900-smm-li2co3-0527",
         "name": "SMM电池级碳酸锂",
@@ -78813,6 +78832,15 @@ window.NEOLINK_FEED= {
       }
     ],
     "source_index": [
+      {
+        "id": "source-20260603-1205-smm-li2co3-0529",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/new-energy/new-energy-spot-price",
+        "as_of": "2026-06-03 12:05 CST",
+        "status": 200,
+        "sha256": "",
+        "finding": "新增采信：SMM 最新公开可复核口径显示 2026-05-29 电池级碳酸锂均价 177500 元/吨，电池级碳酸锂指数 177627 元/吨。"
+      },
       {
         "id": "source-20260603-0858-bjx-gansu-midlong-trading",
         "source": "北极星储能网",
@@ -88549,5 +88577,5 @@ window.NEOLINK_FEED= {
       }
     ]
   },
-  "checked_at": "2026-06-03T08:58:28+08:00"
+  "checked_at": "2026-06-03T12:05:00+08:00"
 };

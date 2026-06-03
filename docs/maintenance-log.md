@@ -1,3 +1,11 @@
+## 2026-06-03T12:05:00+08:00 two-hour refresh — updated (verified sources)
+- 本地基线：刷新前`data/feed.js generated_at=2026-06-03T08:58:00+08:00`，页面缓存参数为`feed.js?v=202606030858`。
+- 新增采信（价格）：公开检索可复核的 SMM 官方价格页快照显示，`2026-05-29` 电池级碳酸锂区间`173000-182000元/吨`、均价`177500元/吨`，SMM 电池级碳酸锂指数`177627元/吨`；因此补更新首页价格/指标与来源索引。
+- 头条复核：继续保留`甘肃电网侧储能正式参与省内中长期交易`、`宁夏新型储能装机规模超1000万千瓦`与`天赐材料/楚能新能源电解液保供安排调整`等 6 月 3 日公开线索，未发现更高优先级且可复核的新主线索。
+- 动作：更新`data/feed.js generated_at/checked_at`至`2026-06-03T12:05:00+08:00`；同步`index.html/news-more.html/article.html` 的`feed.js?v=`至`202606031205`，并对齐首页静态兜底时间、指标卡片与移动端兜底列表。
+- 校验：已通过`node --check data/feed.js`、`script.js`、`news-more.js`、`article.js`。
+- 线上回读/部署约束：`curl` 对 `http://www.neolink.asia/` 与 `https://www.neolink.asia/` 均返回 `Could not resolve host`；`ssh neolink` 返回 `Operation not permitted`，因此本轮无法比较服务器`generated_at`、无法执行 rsync 和 HTTPS/TLS 回读，仅记录真实失败原因，不伪造线上状态。
+
 ## 2026-06-01T08:27:00+08:00 two-hour refresh — updated (verified sources)
 - 本地基线：更新前`data/feed.js generated_at=2026-05-31T06:12:04+08:00`；但`index.html/news-more.html/article.html`仍引用旧缓存参数`feed.js?v=202605280900`（与feed内容不一致，可能导致浏览器命中旧缓存）。
 - 新增采信（海外/许可/项目）：加州能源委员会（CEC）官网新闻稿披露，通过“Opt-In Certification”机制批准含400MW/3,200MWh BESS在内的重大清洁能源项目；并以Energy-Storage.News报道做交叉核验，仅保留可复核字段与机制要点。
