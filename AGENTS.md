@@ -46,16 +46,14 @@ This step runs AFTER the GitHub + Gitee push. Only proceed if content actually c
 - If local is not newer, skip rsync and log as "no-change check"
 
 ### Step 2: RSYNC core files to neolink
-Note: `enterprise-map-db.js` lives at `data/enterprise-map-db.js` (not at the project root), and the directory-style rsync below picks it up automatically. `data/sources/` is excluded because it is one-time crawl output, not deployable content.
+Note: `data` is passed **without a trailing slash** so rsync copies the directory as a unit (lands at `neolink:/var/www/neolink/data/`), not its contents expanded into the destination root. A trailing slash would land files like `data/feed.js` at `/var/www/neolink/feed.js` and `--delete` would wipe the server's `data/` subdirectory. `data/sources/` is excluded because it is one-time crawl output, not deployable content.
 ```bash
 rsync -avz --delete \
-  --exclude='data/sources/' \
-  --exclude='data/feed.js.local*' \
+  --exclude='sources/' \
   /Users/julyan/Desktop/NeoLink/index.html \
   /Users/julyan/Desktop/NeoLink/news-more.html \
   /Users/julyan/Desktop/NeoLink/article.html \
-  /Users/julyan/Desktop/NeoLink/data/ \
-  /Users/julyan/Desktop/NeoLink/markettrend/ \
+  /Users/julyan/Desktop/NeoLink/data \
   neolink:/var/www/neolink/
 ```
 

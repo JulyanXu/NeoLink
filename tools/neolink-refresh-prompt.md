@@ -117,17 +117,15 @@ git push gitee main
 
 ```bash
 rsync -avz --delete \
-  --exclude='data/sources/' \
-  --exclude='data/feed.js.local*' \
+  --exclude='sources/' \
   /Users/julyan/Desktop/NeoLink/index.html \
   /Users/julyan/Desktop/NeoLink/news-more.html \
   /Users/julyan/Desktop/NeoLink/article.html \
-  /Users/julyan/Desktop/NeoLink/data/ \
-  /Users/julyan/Desktop/NeoLink/markettrend/ \
+  /Users/julyan/Desktop/NeoLink/data \
   neolink:/var/www/neolink/
 ```
 
-> 注意：`enterprise-map-db.js` 在 `data/` 下，目录式 rsync 会自动带上。AGENTS.md 老版本里写的项目根路径是错的，按这个来。
+> ⚠️ **关键路径注意**：`data` **不要**带 trailing slash。否则 `data/feed.js` 会被放到 `/var/www/neolink/feed.js`（根），`--delete` 会把服务器上 `data/` 子目录整个清掉。带 trailing slash 是把目录**内容**展开到目标；不带是复制目录本身。
 
 rsync 完后回读验证：
 ```bash

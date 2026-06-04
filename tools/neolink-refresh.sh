@@ -16,6 +16,19 @@ LOG_DIR="$ROOT/var/hermes/runs"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/refresh-${TS}.log"
 
+# Use the real npm-installed claude binary by absolute path. The cmux-bundled
+# `claude` in /Applications/cmux.app/.../bin shadows the real one in
+# interactive shells and is unsafe to invoke from launchd (it depends on
+# cmux session env vars we don't have).
+CLAUDE_BIN="/opt/homebrew/bin/claude"
+if [ ! -x "$CLAUDE_BIN" ]; then
+  CLAUDE_BIN="/opt/homebrew/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe"
+fi
+if [ ! -x "$CLAUDE_BIN" ]; then
+  echo "FATAL: claude binary not found at expected locations" >> "$LOG_FILE"
+  exit 0
+fi
+
 cd "$ROOT" || {
   echo "FATAL: cannot cd $ROOT" >> "$LOG_FILE"
   exit 0
@@ -39,10 +52,11 @@ ALLOWED='Bash(git:*),Bash(rsync:*),Bash(ssh:*),Bash(node:*),Bash(curl:*),Bash(sh
 {
   echo "=== neolink refresh started at $(date -Iseconds) ==="
   echo "host=$(hostname) user=$(whoami) pwd=$(pwd)"
+  echo "claude_bin=$CLAUDE_BIN ($("$CLAUDE_BIN" --version 2>&1 | head -1))"
   echo "--- claude -p output below ---"
 
   # shellcheck disable=SC2086
-  claude -p "$PROMPT_TEXT" \
+  "$CLAUDE_BIN" -p "$PROMPT_TEXT" \
     --add-dir "$ROOT" \
     --allowedTools "$ALLOWED" \
     --append-system-prompt "$SYSTEM_PROMPT" \
