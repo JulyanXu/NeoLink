@@ -1,3 +1,13 @@
+## 2026-06-04T11:00:00+08:00 materials cleanup — updated (structure-only)
+- 本地基线：刷新前 `data/feed.js generated_at=2026-06-04T10:41:00+08:00`，`sections.materials` 含 163 条同质 SMM 价格复核条目（占整个 feed.js 体积 53%，约 5.3 MB）。
+- 触发：用户要求整理"材料与价格"模块，太多太杂。
+- 动作：保留最近 5 条带 `id: "material-..."` 的条目（按 `as_of` 倒序：10:41、09:57、06-03 12:05、05-26 15:00、05-26 14:00），归档被删 158 条到 `var/hermes/materials-history-2026-06-04T03-00-29.json`（gitignored）。压缩每条 entry：去掉 `history`/`caption`/`clean_html` 调试字段，`methodology` 截到首句。
+- 校验：`node --check` 通过（`data/feed.js`、`script.js`、`news-more.js`、`article.js`）。
+- 部署：push origin OK (`9880fbe`)，push gitee OK (`9880fbe`)，rsync 到 `neolink:/var/www/neolink/`。线上 `feed.js?v=202606041100`、`data/feed.js generated_at=2026-06-04T11:00:00+08:00`、首页 hero "更新 11:00 (GMT+8)" 全部对齐。
+- 工具：`tools/cleanup-materials.js` 入 git，可重跑（`node tools/cleanup-materials.js --keep N --dry-run`）。
+- 后续：hourly refresh 还会继续 append 新条目到 materials。若要持续保持 5 条上限，需在 `tools/neolink-refresh-prompt.md` 加 "cap materials at 5" 规则（本次不动自动化逻辑）。
+- 无内容数据变更，仅结构整理。
+
 ## 2026-06-04T10:41:00+08:00 hourly refresh — updated (verified sources)
 - 本地基线：刷新前`data/feed.js generated_at=2026-06-03T22:05:00+08:00`，HTML 缓存参数 `feed.js?v=202606032205`。
 - 新增采信（价格）：SMM 官方价格页快照显示，电池级碳酸锂二次下移至 168250 元/吨 (-1.32%)，SMM 指数 168227。
