@@ -1,8 +1,111 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-04T11:00:00+08:00",
-  "note": "2026-06-04 11:00 一次性整理：materials section 从 163 条压到 5 条（保留最近 5 次 SMM 价格复核，去除 9 天滚动历史与 methodology 调试残留），归档 var/hermes/materials-history-2026-06-04T03-00-29.json。无内容数据变更。",
+  "generated_at": "2026-06-04T14:15:00+08:00",
+  "note": "2026-06-04 14:15 招标频道增量：新增河南压缩空气储能项目招标（697万元）、内蒙古2GW/8GWh储能EPC开标（35家企业）、三峡能源200MW/400MWh构网储能中标公示（0.615-0.638元/Wh）。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260604-1415-henan-compressed-air-697w",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/压缩空气储能",
+        "title": "697万元！河南一压缩空气储能项目招标",
+        "summary": "北极星储能网6月4日发布，河南某压缩空气储能项目启动招标，招标控制价697万元。",
+        "body": [
+          "项目：河南某压缩空气储能项目。",
+          "招标控制价：697万元。",
+          "阶段：招标公告已发布。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-04。"
+        ],
+        "key_points": [
+          "河南压缩空气储能项目招标，招标控制价697万元。",
+          "北极星储能网2026-06-04发布。"
+        ],
+        "value": "697",
+        "unit": "万元",
+        "delta": "新增：河南压缩空气储能项目招标，招标控制价697万元",
+        "direction": "up",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 14:15 CST",
+        "url": "https://news.bjx.com.cn/html/20260604/1498547.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260604/1498547.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260604/1498547.shtml"
+        ],
+        "clean_html": "<p>新增：河南压缩空气储能项目招标，招标控制价697万元，来源北极星储能网。</p>",
+        "caption": "河南压缩空气储能项目招标，招标控制价697万元。",
+        "methodology": "北极星储能网招标频道6月4日公开标题与日期核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260604-1415-neimenggu-2gwh-epc-open-35companies",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/EPC/储能电站",
+        "title": "35家企业参与，内蒙古2GW/8GWh储能EPC开标！",
+        "summary": "北极星储能网6月3日发布，内蒙古2GW/8GWh储能EPC项目开标，共35家企业参与投标。",
+        "body": [
+          "项目：内蒙古2GW/8GWh储能EPC。",
+          "规模：2GW/8GWh。",
+          "状态：开标，35家企业参与。",
+          "背景：项目属于内蒙古大型电网侧储能示范项目。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "内蒙古2GW/8GWh储能EPC项目开标。",
+          "共35家企业参与投标，显示储能EPC市场活跃度较高。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "8000",
+        "unit": "MWh",
+        "delta": "新增：内蒙古2GW/8GWh储能EPC开标，35家企业参与",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-04 14:15 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498431.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498431.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498431.shtml"
+        ],
+        "clean_html": "<p>新增：内蒙古2GW/8GWh储能EPC开标，35家企业参与，来源北极星储能网。</p>",
+        "caption": "内蒙古8GWh储能EPC开标，35家企业竞投。",
+        "methodology": "北极星储能网公开开标公告信息提取。"
+      },
+      {
+        "id": "headline-20260604-1415-sanyou-200mw-400mwh-bidding-result",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/构网储能/中标公示",
+        "title": "0.615-0.638元/Wh！三峡能源200MW/400MWh构网储能中标公示",
+        "summary": "北极星储能网6月3日发布，三峡能源200MW/400MWh构网储能项目中标结果公示，报价0.615-0.638元/Wh。",
+        "body": [
+          "采购方：三峡能源。",
+          "项目规模：200MW/400MWh构网储能。",
+          "报价区间：0.615-0.638元/Wh。",
+          "状态：中标结果公示。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "三峡能源200MW/400MWh构网储能中标结果公示。",
+          "报价区间0.615-0.638元/Wh。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "400",
+        "unit": "MWh",
+        "delta": "新增：三峡能源200MW/400MWh构网储能中标公示，0.615-0.638元/Wh",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-04 14:15 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498430.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498430.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498430.shtml"
+        ],
+        "clean_html": "<p>新增：三峡能源200MW/400MWh构网储能中标结果公示，报价0.615-0.638元/Wh，来源北极星储能网。</p>",
+        "caption": "三峡能源400MWh构网储能中标公示，报价0.615-0.638元/Wh。",
+        "methodology": "北极星储能网公开中标公示信息提取。"
+      },
       {
         "id": "headline-20260604-1041-smm-li2co3-second-tick",
         "source": "SMM上海有色",
