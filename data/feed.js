@@ -1,8 +1,112 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-03T22:05:00+08:00",
-  "note": "2026-06-03 22:05 定时刷新：北极星储能网招标频道新增2条今日",
+  "generated_at": "2026-06-04T09:57:00+08:00",
+  "note": "2026-06-04 09:57 定时刷新：SMM磷酸铁锂下移至59960元/吨(-1.92%)；北极星储能网新增山西《新型储能高质量发展实施方案》2027年装机800万千瓦、辽宁独立储能容量补偿370元/kW·年公开征求意见。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260604-0957-shanxi-2027-storage-8gw-plan",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/政策信息",
+        "account_name": "北极星储能网",
+        "category": "政策/省级新型储能规划",
+        "title": "2027年新型储能装机达800万千瓦以上，山西省发布《新型储能高质量发展实施方案》",
+        "summary": "北极星储能网6月3日报道，山西省发布《新型储能高质量发展实施方案》，明确2027年新型储能装机规模达800万千瓦以上。",
+        "body": [
+          "主体：山西省（省级实施方案）。",
+          "目标：2027年新型储能装机达800万千瓦以上。",
+          "省级新型储能规划目标进一步上调。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "山西发布《新型储能高质量发展实施方案》。",
+          "2027年新型储能装机目标800万千瓦以上。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "800",
+        "unit": "万千瓦（2027年目标）",
+        "delta": "新增：山西2027年新型储能装机目标800万千瓦",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-04 09:57 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498322.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498322.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498322.shtml"
+        ],
+        "clean_html": "<p>新增：山西省发布《新型储能高质量发展实施方案》，2027年新型储能装机目标800万千瓦以上，来源北极星储能网。</p>",
+        "caption": "山西2027年新型储能装机目标800万千瓦以上。",
+        "methodology": "北极星储能网公开政策报道信息提取，保留结构化摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260604-0957-liaoning-370-yuan-kw-policy",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/政策信息",
+        "account_name": "北极星储能网",
+        "category": "政策/容量补偿/独立储能",
+        "title": "公开征求意见！辽宁容量补偿370元/kW·年，独立储能充电量参与分摊",
+        "summary": "北极星储能网6月3日报道，辽宁独立储能容量补偿370元/kW·年方案公开征求意见，独立储能充电量参与分摊。",
+        "body": [
+          "主体：辽宁省。",
+          "方案：独立储能容量补偿370元/kW·年。",
+          "状态：公开征求意见。",
+          "要点：独立储能充电量参与分摊。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-03。"
+        ],
+        "key_points": [
+          "辽宁独立储能容量补偿370元/kW·年方案公开征求意见。",
+          "独立储能充电量参与分摊。",
+          "北极星储能网2026-06-03发布。"
+        ],
+        "value": "370",
+        "unit": "元/kW·年",
+        "delta": "新增：辽宁独立储能容量补偿370元/kW·年公开征求意见",
+        "direction": "up",
+        "date": "2026-06-03",
+        "as_of": "2026-06-04 09:57 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498330.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498330.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498330.shtml"
+        ],
+        "clean_html": "<p>新增：辽宁独立储能容量补偿370元/kW·年方案公开征求意见，来源北极星储能网。</p>",
+        "caption": "辽宁独立储能容量补偿370元/kW·年公开征求意见。",
+        "methodology": "北极星储能网公开政策报道信息提取，保留结构化摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260604-0952-qidian-ningxia-shared-storage-bid",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/共享储能/中标",
+        "title": "0.54元/Wh！奇点能源中标宁夏一共享储能采购项目",
+        "summary": "北极星储能网6月4日发布，奇点能源中标宁夏一共享储能采购项目，单价0.54元/Wh。",
+        "body": [
+          "主体：奇点能源。",
+          "项目：宁夏一共享储能采购项目。",
+          "中标单价：0.54元/Wh。",
+          "意义：宁夏共享储能采购价格继续位于0.5元/Wh区间中段。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-04。"
+        ],
+        "key_points": [
+          "奇点能源中标宁夏一共享储能采购项目。",
+          "中标单价0.54元/Wh。",
+          "北极星储能网2026-06-04发布。"
+        ],
+        "value": "0.54",
+        "unit": "元/Wh",
+        "delta": "新增：奇点能源中标宁夏共享储能0.54元/Wh",
+        "direction": "flat",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 09:52 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "clean_html": "<p>新增：奇点能源中标宁夏一共享储能采购项目，单价0.54元/Wh，来源北极星储能网。</p>",
+        "caption": "奇点能源中标宁夏共享储能采购，单价0.54元/Wh。",
+        "methodology": "北极星储能网首页6月4日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
       {
         "id": "headline-20260603-2205-shanxi-300mw-1200mwh-hybrid-storage-epc",
         "source": "北极星储能网",
@@ -16991,6 +17095,140 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260604-0957-smm-lfp-0604",
+        "source": "SMM上海有色",
+        "source_type": "价格平台/锂盐与正极",
+        "account_name": "SMM上海有色",
+        "category": "价格",
+        "title": "SMM：磷酸铁锂 2026-06-04 报59960元/吨(-1.92%)",
+        "summary": "SMM新能源频道 (newenergy.smm.cn) 2026-06-04 公开口径：磷酸铁锂 59960 元/吨 (涨跌额 -1175、涨跌幅 -1.92%)；同页可核验电池级碳酸锂 170500 元/吨、指数 170229、工业级碳酸锂 166750、SMM 电池级氢氧化锂指数 158179、6 系三元材料（单晶/动力型）197450、电解液 29350（持平）。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 09:57 CST",
+        "url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/"
+        ],
+        "methodology": "2026-06-04 09:57 公开检索复核 SMM 新能源频道页面快照：磷酸铁锂 59960 元/吨；仅采用官方公开口径，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-0957-shanxi-2027-storage-8gw-plan",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/政策信息",
+        "account_name": "北极星储能网",
+        "category": "policy",
+        "title": "山西发布《新型储能高质量发展实施方案》：2027年装机800万千瓦以上",
+        "summary": "北极星储能网6月3日报道，山西省发布《新型储能高质量发展实施方案》，2027年新型储能装机规模800万千瓦以上。",
+        "date": "2026-06-03",
+        "as_of": "2026-06-04 09:57 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498322.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498322.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498322.shtml"
+        ],
+        "methodology": "北极星储能网公开政策报道信息提取，保留结构化摘要，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-0957-liaoning-370-yuan-kw-policy",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/政策信息",
+        "account_name": "北极星储能网",
+        "category": "policy",
+        "title": "公开征求意见！辽宁容量补偿370元/kW·年，独立储能充电量参与分摊",
+        "summary": "北极星储能网6月3日报道，辽宁独立储能容量补偿370元/kW·年方案公开征求意见，独立储能充电量参与分摊。",
+        "date": "2026-06-03",
+        "as_of": "2026-06-04 09:57 CST",
+        "url": "https://news.bjx.com.cn/html/20260603/1498330.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260603/1498330.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260603/1498330.shtml"
+        ],
+        "methodology": "北极星储能网公开政策报道信息提取，保留结构化摘要，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-0952-smm-li2co3-0604",
+        "source": "SMM上海有色",
+        "source_type": "价格平台/锂盐",
+        "account_name": "SMM上海有色",
+        "category": "价格",
+        "title": "SMM：电池级碳酸锂 2026-06-04 报170500元/吨(-2.99%)，指数170229",
+        "summary": "SMM新能源频道 (newenergy.smm.cn) 2026-06-04 公开口径：电池级碳酸锂 170500 元/吨 (涨跌额 -5250、涨跌幅 -2.99%)，SMM 电池级碳酸锂指数 170229 元/吨 (-2.94%)。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 09:52 CST",
+        "url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/"
+        ],
+        "methodology": "2026-06-04 09:52 公开检索复核 SMM 新能源频道页面快照：电池级碳酸锂 170500 元/吨、指数 170229；hq.smm.cn/new-energy/new-energy-spot-price 直链 404，仅采用 newenergy.smm.cn 公开口径，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-0952-qidian-ningxia-shared-storage-bid",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "bidding",
+        "title": "0.54元/Wh！奇点能源中标宁夏一共享储能采购项目",
+        "summary": "北极星储能网6月4日发布，奇点能源中标宁夏一共享储能采购项目，单价0.54元/Wh。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 09:52 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "methodology": "北极星储能网首页6月4日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-0952-guangxi-300mw-600mwh-grid-connection",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/并网项目",
+        "account_name": "北极星储能网",
+        "category": "project",
+        "title": "300MW/600MWh丨广西一储能电站顺利并网",
+        "summary": "北极星储能网6月4日发布，广西一储能电站顺利并网，规模300MW/600MWh。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 09:52 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "methodology": "北极星储能网首页6月4日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-0952-hk-ev-battery-recycling-jun",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/动力电池回收",
+        "account_name": "北极星储能网",
+        "category": "enterprise",
+        "title": "香港首间大型退役动力电池回收设施将于6月正式投产",
+        "summary": "北极星储能网6月4日发布，香港首间大型退役动力电池回收设施将于6月正式投产。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 09:52 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "methodology": "北极星储能网首页6月4日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-0952-ganfeng-snec-2026",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/展会企业",
+        "account_name": "北极星储能网",
+        "category": "enterprise",
+        "title": "赣锋锂电亮相SNEC 2026",
+        "summary": "北极星储能网6月4日发布，赣锋锂电亮相 SNEC 2026，主推超长循环全场景电芯方案。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 09:52 CST",
+        "url": "https://chuneng.bjx.com.cn/",
+        "original_url": "https://chuneng.bjx.com.cn/",
+        "related_urls": [
+          "https://chuneng.bjx.com.cn/"
+        ],
+        "methodology": "北极星储能网首页6月4日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
       {
         "id": "latest-20260603-1205-smm-li2co3-0529",
         "source": "SMM上海有色",
@@ -39773,6 +40011,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260604-0957-smm-lfp-0604",
+        "name": "磷酸铁锂（动力型）",
+        "spec": "SMM公开价格页；2026-06-04 09:57 复核最新公开口径",
+        "value": "59960",
+        "unit": "元/吨",
+        "change": "较05-26 12:00公开口径62560下移2600元/吨；当日涨跌-1175 / -1.92%",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-06-04 09:57 CST",
+        "methodology": "2026-06-04 09:57 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：磷酸铁锂 59960 元/吨 (涨跌额 -1175、涨跌幅 -1.92%)；同页可核验电池级碳酸锂 170500 元/吨、指数 170229、工业级碳酸锂 166750、SMM 电池级氢氧化锂指数 158179、6 系三元材料（单晶/动力型）197450、电解液 29350。电解液持平，天然石墨与高端储能人造石墨亦持平。仅采用官方公开口径，不复制原文长段落。"
+      },
+      {
         "id": "material-20260603-1205-smm-li2co3-0529",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数",
         "spec": "SMM公开价格页；2026-06-03复核到 2026-05-29 最新公开口径",
@@ -43532,17 +43783,44 @@ window.NEOLINK_FEED= {
     ],
     "metrics": [
       {
-        "id": "metric-20260603-1205-smm-li2co3",
-        "title": "电池级碳酸锂",
-        "value": "177500",
+        "id": "metric-20260604-0957-smm-lfp",
+        "title": "磷酸铁锂（动力型）",
+        "value": "59960",
         "unit": "元/吨",
-        "caption": "SMM 2026-05-29 最新公开口径",
-        "delta": "区间 173000-182000 元/吨",
-        "direction": "up",
+        "caption": "SMM 2026-06-04 最新公开口径",
+        "delta": "-1.92% (较 05-26 12:00 公开口径 62560 下移 2600 元/吨)",
+        "direction": "down",
         "source": "SMM上海有色",
-        "as_of": "2026-06-03 12:05 CST",
-        "methodology": "2026-06-03 公开检索复核 SMM 页面快照：2026-05-29 电池级碳酸锂 173000-182000 元/吨、均价 177500 元/吨，SMM 电池级碳酸锂指数 177627 元/吨；当前运行环境无法直连 SMM 页面，仅采用官方公开搜索结果中的可复核字段，不复制原文长段落。",
-        "url": "https://hq.smm.cn/new-energy/new-energy-spot-price",
+        "as_of": "2026-06-04 09:57 CST",
+        "methodology": "2026-06-04 09:57 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：磷酸铁锂 59960 元/吨 (涨跌额 -1175、涨跌幅 -1.92%)，采用官方公开口径，不复制原文长段落。",
+        "url": "https://newenergy.smm.cn/",
+        "history": [
+          {
+            "label": "05-22",
+            "value": 62560
+          },
+          {
+            "label": "05-26",
+            "value": 62560
+          },
+          {
+            "label": "06-04",
+            "value": 59960
+          }
+        ]
+      },
+      {
+        "id": "metric-20260604-0952-smm-li2co3",
+        "title": "电池级碳酸锂",
+        "value": "170500",
+        "unit": "元/吨",
+        "caption": "SMM 2026-06-04 最新公开口径",
+        "delta": "-2.99% (较 05-29 公开口径 177500 下移 7000 元/吨)",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "as_of": "2026-06-04 09:52 CST",
+        "methodology": "2026-06-04 09:52 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 170500 元/吨 (涨跌额 -5250、涨跌幅 -2.99%)，SMM 电池级碳酸锂指数 170229 元/吨 (涨跌额 -5149、涨跌幅 -2.94%)；hq.smm.cn/new-energy/new-energy-spot-price 直链 404，仅采用 newenergy.smm.cn 公开口径，不复制原文长段落。",
+        "url": "https://newenergy.smm.cn/",
         "history": [
           {
             "label": "05-22",
@@ -43555,6 +43833,10 @@ window.NEOLINK_FEED= {
           {
             "label": "05-29",
             "value": 177500
+          },
+          {
+            "label": "06-04",
+            "value": 170500
           }
         ]
       },
