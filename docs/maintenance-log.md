@@ -1,3 +1,14 @@
+## 2026-06-04T10:41:00+08:00 hourly refresh — updated (verified sources)
+- 本地基线：刷新前`data/feed.js generated_at=2026-06-03T22:05:00+08:00`，HTML 缓存参数 `feed.js?v=202606032205`。
+- 新增采信（价格）：SMM 官方价格页快照显示，电池级碳酸锂二次下移至 168250 元/吨 (-1.32%)，SMM 指数 168227。
+- 新增采信（项目）：北极星储能网新增内蒙古 300MW/1.2GWh 独立储能 EPC 招标（0.76 元/Wh）。
+- 新增采信（企业）：常州锂源 4.4 亿元 B 轮融资；星源材质通过港交所上市聆讯。
+- 动作：更新 `data/feed.js generated_at` 至 `2026-06-04T10:41:00+08:00`；同步 `index.html` / `news-more.html` / `article.html` 的 `feed.js?v=` 至 `202606041041`。
+- 校验：已通过 `node --check data/feed.js script.js news-more.js article.js`。
+- 部署：push origin OK (`efcbfa7`)，push gitee OK (`efcbfa7`)。rsync 出现 trailing-slash bug，把 `data/feed.js` 错放到 `/var/www/neolink/feed.js` 根，并 `--delete` 清空服务器 `data/` 子目录；已手动用正确命令（`data` 不带 trailing slash）恢复。Commit `787d4d7` 修此 bug。
+- 状态：服务器 `/var/www/neolink/data/feed.js` SHA256 = `e675d08c57404b882d6de58f0bc72a1dd3fba5a754fceab69f04983e57fe5f4d`，与本地一致。
+- Artifacts：本次 run 因 rsync bug 后手动终止（pkill -9），未生成 `var/hermes/search-notes-*.json` 与 `var/hermes/state/crawl_runs.json` 新条目；下次 hourly refresh 会补一条 no-change 记录。
+
 ## 2026-06-04T06:01:00+08:00 homepage UI cleanup — updated
 - 本地动作：继续收窄首页右侧 `快速数据` 与 `材料与价格`，其中 `材料与价格` 静态兜底由 6 项缩减为 3 项，只保留电池级碳酸锂、磷酸铁锂、电解液三项主材；同时压缩 `script.js` 动态渲染逻辑，限制展示数量并缩短标题、变化说明、来源时间。
 - 同步文件：更新 `index.html`、`script.js`、`styles.css`；未改 `data/feed.js`，因此未变更 `generated_at`。
