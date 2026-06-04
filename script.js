@@ -260,14 +260,35 @@ const renderQuickMetrics = (sections) => {
   const list = document.querySelector(".quick-metrics");
   if (!list || !sections.metrics) return;
 
-  list.innerHTML = sortByDateDesc(sections.metrics).slice(0, 4).map((item) => `
+  const compactText = (value, limit = 34) => {
+    const text = String(value || "").replace(/\s+/g, " ").trim();
+    if (!text) return "";
+    return text.length > limit ? `${text.slice(0, limit - 1)}…` : text;
+  };
+
+  const compactSource = (value) => {
+    const source = String(value || "").split("/")[0].trim();
+    return compactText(source.replace(/\s+/g, ""), 12);
+  };
+
+  const compactAsOf = (value) => {
+    const text = String(value || "");
+    const match = text.match(/(\d{2}:\d{2}|\d{2}-\d{2})/);
+    return match ? match[1] : compactText(text, 10);
+  };
+
+  list.innerHTML = sortByDateDesc(sections.metrics).slice(0, 3).map((item) => {
+    const note = compactText(item.caption || item.delta || item.summary, 38);
+    const source = [compactSource(item.source), compactAsOf(item.as_of)].filter(Boolean).join(" · ");
+    return `
     <li>
-      <span>${linkMarkup(item, item.title)}</span>
+      <span class="quick-metric-title">${linkMarkup(item, compactText(item.title, 16))}</span>
       <strong>${escapeHtml(item.value)} <small>${escapeHtml(item.unit)}</small></strong>
-      <em class="${item.direction === "up" ? "up" : "down"}">${escapeHtml(item.delta)}</em>
-      <small>${escapeHtml(item.source || "")}${item.as_of ? ` · ${escapeHtml(item.as_of)}` : ""}</small>
+      ${note ? `<em class="quick-metric-note ${item.direction === "up" ? "up" : item.direction === "down" ? "down" : ""}">${escapeHtml(note)}</em>` : ""}
+      ${source ? `<small class="quick-metric-meta">${escapeHtml(source)}</small>` : ""}
     </li>
-  `).join("");
+  `;
+  }).join("");
 };
 
 const chartPath = (history = [], width = 260, height = 58) => {
@@ -379,12 +400,23 @@ const renderSectionContent = () => {
 
   const materialsGrid = document.querySelector(".materials-grid");
   if (materialsGrid && sections.materials) {
-    materialsGrid.innerHTML = sortByDateDesc(sections.materials).map((item) => `
+    const compactText = (value, limit = 28) => {
+      const text = String(value || "").replace(/\s+/g, " ").trim();
+      if (!text) return "";
+      return text.length > limit ? `${text.slice(0, limit - 1)}…` : text;
+    };
+    const compactMaterialName = (item) => compactText(String(item.name || "").split("/")[0], 14);
+    const compactMaterialValue = (item) => compactText(String(item.value || "").split("/")[0], 12);
+    const compactMaterialUnit = (item) => compactText(String(item.unit || "").split("/")[0], 10);
+    const compactMaterialChange = (item) => compactText(item.change || item.delta || item.spec, 30);
+    const compactMaterialMeta = (item) => compactText([item.source, item.as_of?.match(/(\d{2}:\d{2}|\d{2}-\d{2})/)?.[1]].filter(Boolean).join(" · "), 22);
+
+    materialsGrid.innerHTML = sortByDateDesc(sections.materials).slice(0, 3).map((item) => `
       <div>
-        <h3>${linkMarkup(item, item.name)}</h3>
-        <p>${escapeHtml(item.value)} <span>${escapeHtml(item.unit)}</span></p>
-        <small class="${item.direction === "up" ? "up" : "down"}">${escapeHtml(item.change)}</small>
-        <em>${escapeHtml(item.spec)} · ${escapeHtml(item.source)}</em>
+        <h3>${linkMarkup(item, compactMaterialName(item))}</h3>
+        <p>${escapeHtml(compactMaterialValue(item))} <span>${escapeHtml(compactMaterialUnit(item))}</span></p>
+        <small class="${item.direction === "up" ? "up" : item.direction === "down" ? "down" : ""}">${escapeHtml(compactMaterialChange(item))}</small>
+        <em>${escapeHtml(compactMaterialMeta(item))}</em>
         <svg viewBox="0 0 120 40"><path d="${item.direction === "up" ? "M2 29 14 24 26 27 38 18 50 20 62 13 74 16 86 9 98 14 118 8" : "M2 12 14 16 26 13 38 22 50 18 62 24 74 20 86 27 98 23 118 30"}"/></svg>
       </div>
     `).join("");

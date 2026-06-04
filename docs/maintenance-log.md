@@ -1,3 +1,10 @@
+## 2026-06-04T06:01:00+08:00 homepage UI cleanup — updated
+- 本地动作：继续收窄首页右侧 `快速数据` 与 `材料与价格`，其中 `材料与价格` 静态兜底由 6 项缩减为 3 项，只保留电池级碳酸锂、磷酸铁锂、电解液三项主材；同时压缩 `script.js` 动态渲染逻辑，限制展示数量并缩短标题、变化说明、来源时间。
+- 同步文件：更新 `index.html`、`script.js`、`styles.css`；未改 `data/feed.js`，因此未变更 `generated_at`。
+- 部署：已执行 `rsync` 同步 `index.html`、`script.js`、`styles.css` 到 `neolink:/var/www/neolink/`。
+- HTTP 回读：`curl http://www.neolink.asia/` 已确认 `材料与价格` 区块线上仅保留 3 项，分别为 `电池级碳酸锂`、`磷酸铁锂`、`电解液`。
+- HTTPS/TLS：`curl -I https://www.neolink.asia/` 仍返回 `TLS connect error: unexpected eof while reading`，记录异常但不影响本次 HTTP 页面验证。
+
 ## 2026-06-03T12:05:00+08:00 two-hour refresh — updated (verified sources)
 - 本地基线：刷新前`data/feed.js generated_at=2026-06-03T08:58:00+08:00`，页面缓存参数为`feed.js?v=202606030858`。
 - 新增采信（价格）：公开检索可复核的 SMM 官方价格页快照显示，`2026-05-29` 电池级碳酸锂区间`173000-182000元/吨`、均价`177500元/吨`，SMM 电池级碳酸锂指数`177627元/吨`；因此补更新首页价格/指标与来源索引。

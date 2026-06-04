@@ -966,14 +966,14 @@ time {
   padding: 11px 12px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 4px 10px;
-  align-items: baseline;
+  gap: 6px 10px;
+  align-items: start;
 }
 
 .quick-metrics span,
 .quick-metrics a {
   min-width: 0;
-  color: var(--muted);
+  color: var(--ink);
   font-size: 12px;
   font-weight: 800;
   text-decoration: none;
@@ -982,9 +982,13 @@ time {
   white-space: nowrap;
 }
 
+.quick-metric-title {
+  display: block;
+}
+
 .quick-metrics strong {
   color: var(--ink);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900;
   white-space: nowrap;
 }
@@ -997,19 +1001,31 @@ time {
 .quick-metrics em {
   grid-column: 1 / -1;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 11px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .quick-metrics li > small {
   grid-column: 1 / -1;
   min-width: 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.quick-metric-note.up {
+  color: #157f3d;
+}
+
+.quick-metric-note.down {
+  color: #c43232;
+}
+
+.quick-metric-meta {
+  letter-spacing: 0.01em;
 }
 
 .channel-tags {
@@ -1335,7 +1351,7 @@ time {
 
 .materials-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 8px;
 }
 
@@ -1351,11 +1367,12 @@ time {
   margin: 0 0 9px;
   font-size: 12px;
   color: var(--ink);
+  line-height: 1.35;
 }
 
 .materials-grid p {
   margin: 0 0 5px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 850;
 }
 
@@ -1368,6 +1385,8 @@ time {
   display: block;
   margin-bottom: 5px;
   font-weight: 750;
+  font-size: 11px;
+  line-height: 1.4;
 }
 
 .materials-grid em {
