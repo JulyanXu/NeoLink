@@ -1,8 +1,146 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-04T09:57:00+08:00",
-  "note": "2026-06-04 09:57 定时刷新：SMM磷酸铁锂下移至59960元/吨(-1.92%)；北极星储能网新增山西《新型储能高质量发展实施方案》2027年装机800万千瓦、辽宁独立储能容量补偿370元/kW·年公开征求意见。",
+  "generated_at": "2026-06-04T10:41:00+08:00",
+  "note": "2026-06-04 10:41 定时刷新：SMM电池级碳酸锂二次下移至168250元/吨(-1.32%)、指数168227；北极星储能网新增内蒙古300MW/1.2GWh独立储能EPC招标(0.76元/Wh)、常州锂源4.4亿元B轮融资、星源材质通过港交所上市聆讯等。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260604-1041-smm-li2co3-second-tick",
+        "source": "SMM上海有色",
+        "source_type": "价格平台/锂盐",
+        "account_name": "SMM上海有色",
+        "category": "价格",
+        "title": "SMM：电池级碳酸锂二次下移至168250元/吨(-1.32%)，指数168227",
+        "summary": "SMM新能源频道 (newenergy.smm.cn) 2026-06-04 10:41 公开口径：电池级碳酸锂 168250 元/吨（涨跌额 -2250、涨跌幅 -1.32%），SMM 电池级碳酸锂指数 168227 元/吨（涨跌额 -2002、涨跌幅 -1.18%）；工业级碳酸锂 164500 元/吨（-2250、-1.35%）。磷酸铁锂 59960 元/吨、电解液 29350 元/吨维持不变。",
+        "body": [
+          "主体：SMM 上海有色网公开价格页（newenergy.smm.cn）。",
+          "变化：电池级碳酸锂较 09:52 公开口径 170500 元/吨再次下移 2250 元/吨至 168250 元/吨。",
+          "指数：SMM 电池级碳酸锂指数同步下移至 168227 元/吨（-2002、-1.18%）。",
+          "工业级碳酸锂：164500 元/吨（-2250、-1.35%）。",
+          "同页维持：磷酸铁锂 59960 元/吨、电解液 29350 元/吨较 09:52 口径未变。"
+        ],
+        "key_points": [
+          "电池级碳酸锂 168250 元/吨（-1.32%）。",
+          "SMM 电池级碳酸锂指数 168227 元/吨（-1.18%）。",
+          "工业级碳酸锂 164500 元/吨（-1.35%）。",
+          "磷酸铁锂、电解液与上一复核口径一致。"
+        ],
+        "value": "168250",
+        "unit": "元/吨",
+        "delta": "二次下移：电池级碳酸锂较09:52公开口径170500下移2250元/吨",
+        "direction": "down",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 10:41 CST",
+        "url": "https://newenergy.smm.cn/",
+        "original_url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/"
+        ],
+        "clean_html": "<p>新增：SMM 公开口径电池级碳酸锂二次下移至 168250 元/吨（-1.32%）、指数 168227；工业级碳酸锂 164500 元/吨。</p>",
+        "caption": "电池级碳酸锂二次下移 168250 元/吨，指数 168227。",
+        "methodology": "2026-06-04 10:41 公开检索复核 SMM 新能源频道页面快照：电池级碳酸锂 168250 元/吨（-1.32%）、指数 168227；仅采用官方公开口径，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260604-1041-neimenggu-300mw-1200mwh-epc-bid",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "招投标/EPC/独立储能",
+        "title": "0.76元/Wh！内蒙古300MW/1.2GWh独立储能EPC将招标",
+        "summary": "北极星储能网 6 月 4 日发布，内蒙古 300MW/1.2GWh 独立储能 EPC 即将启动招标，参考单价 0.76 元/Wh。",
+        "body": [
+          "项目：内蒙古 300MW/1.2GWh 独立储能。",
+          "阶段：EPC 招标。",
+          "参考单价：0.76 元/Wh。",
+          "口径：以北极星储能网公开项目摘要为准。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期 2026-06-04。"
+        ],
+        "key_points": [
+          "内蒙古 300MW/1.2GWh 独立储能 EPC 即将招标。",
+          "参考单价 0.76 元/Wh。",
+          "北极星储能网 2026-06-04 发布。"
+        ],
+        "value": "0.76",
+        "unit": "元/Wh",
+        "delta": "新增：内蒙古300MW/1.2GWh独立储能EPC招标 0.76元/Wh",
+        "direction": "flat",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 10:41 CST",
+        "url": "https://news.bjx.com.cn/html/20260604/1498500.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260604/1498500.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260604/1498500.shtml"
+        ],
+        "clean_html": "<p>新增：内蒙古 300MW/1.2GWh 独立储能 EPC 即将招标，参考单价 0.76 元/Wh，来源北极星储能网。</p>",
+        "caption": "内蒙古 300MW/1.2GWh 独立储能 EPC 即将招标 0.76 元/Wh。",
+        "methodology": "北极星储能网首页 6 月 4 日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260604-1041-singapore-zenith-hkex-listen",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/IPO信息",
+        "account_name": "北极星储能网",
+        "category": "IPO/港交所/隔膜",
+        "title": "连续六年锂电隔膜出货全球第二，星源材质通过港交所上市聆讯",
+        "summary": "北极星储能网 6 月 4 日报道，锂电隔膜厂商星源材质通过港交所上市聆讯，连续六年锂电隔膜出货排名全球第二。",
+        "body": [
+          "主体：星源材质（锂电隔膜厂商）。",
+          "进度：通过港交所上市聆讯。",
+          "市场地位：连续六年锂电隔膜出货量全球第二。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期 2026-06-04。"
+        ],
+        "key_points": [
+          "星源材质通过港交所上市聆讯。",
+          "连续六年锂电隔膜出货全球第二。",
+          "北极星储能网 2026-06-04 发布。"
+        ],
+        "value": "1",
+        "unit": "港交所上市聆讯通过",
+        "delta": "新增：星源材质通过港交所上市聆讯",
+        "direction": "up",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 10:41 CST",
+        "url": "https://news.bjx.com.cn/html/20260604/1498516.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260604/1498516.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260604/1498516.shtml"
+        ],
+        "clean_html": "<p>新增：星源材质通过港交所上市聆讯，连续六年锂电隔膜出货全球第二，来源北极星储能网。</p>",
+        "caption": "星源材质通过港交所上市聆讯。",
+        "methodology": "北极星储能网首页 6 月 4 日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260604-1041-changzhou-liyuan-series-b",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/企业融资",
+        "account_name": "北极星储能网",
+        "category": "企业/融资/正极材料",
+        "title": "4.4亿元！常州锂源完成B轮融资",
+        "summary": "北极星储能网 6 月 4 日发布，常州锂源完成 B 轮融资，融资规模 4.4 亿元。",
+        "body": [
+          "主体：常州锂源。",
+          "融资：B 轮。",
+          "金额：4.4 亿元。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期 2026-06-04。"
+        ],
+        "key_points": [
+          "常州锂源完成 B 轮融资 4.4 亿元。",
+          "北极星储能网 2026-06-04 发布。"
+        ],
+        "value": "4.4",
+        "unit": "亿元（B轮）",
+        "delta": "新增：常州锂源完成B轮融资4.4亿元",
+        "direction": "up",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 10:41 CST",
+        "url": "https://news.bjx.com.cn/html/20260604/1498510.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260604/1498510.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260604/1498510.shtml"
+        ],
+        "clean_html": "<p>新增：常州锂源完成 B 轮融资 4.4 亿元，来源北极星储能网。</p>",
+        "caption": "常州锂源完成 B 轮融资 4.4 亿元。",
+        "methodology": "北极星储能网首页 6 月 4 日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
       {
         "id": "headline-20260604-0957-shanxi-2027-storage-8gw-plan",
         "source": "北极星储能网",
@@ -17095,6 +17233,73 @@ window.NEOLINK_FEED= {
       }
     ],
     "latest": [
+      {
+        "id": "latest-20260604-1041-smm-li2co3-second-tick",
+        "source": "SMM上海有色",
+        "source_type": "价格平台/锂盐",
+        "account_name": "SMM上海有色",
+        "category": "价格",
+        "title": "SMM：电池级碳酸锂二次下移至168250元/吨(-1.32%)，指数168227",
+        "summary": "SMM新能源频道 (newenergy.smm.cn) 2026-06-04 10:41 公开口径：电池级碳酸锂 168250 元/吨（涨跌额 -2250、涨跌幅 -1.32%），SMM 电池级碳酸锂指数 168227 元/吨（-1.18%）；工业级碳酸锂 164500 元/吨（-1.35%）。磷酸铁锂 59960 元/吨、电解液 29350 元/吨与 09:52 口径一致。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 10:41 CST",
+        "url": "https://newenergy.smm.cn/",
+        "related_urls": [
+          "https://newenergy.smm.cn/"
+        ],
+        "methodology": "2026-06-04 10:41 公开检索复核 SMM 新能源频道页面快照：电池级碳酸锂 168250 元/吨、指数 168227、工业级碳酸锂 164500 元/吨；仅采用官方公开口径，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-1041-neimenggu-300mw-1200mwh-epc-bid",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "bidding",
+        "title": "0.76元/Wh！内蒙古300MW/1.2GWh独立储能EPC将招标",
+        "summary": "北极星储能网6月4日发布，内蒙古 300MW/1.2GWh 独立储能 EPC 即将启动招标，参考单价 0.76 元/Wh。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 10:41 CST",
+        "url": "https://news.bjx.com.cn/html/20260604/1498500.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260604/1498500.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260604/1498500.shtml"
+        ],
+        "methodology": "北极星储能网首页 6 月 4 日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-1041-singapore-zenith-hkex-listen",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/IPO信息",
+        "account_name": "北极星储能网",
+        "category": "ipo",
+        "title": "星源材质通过港交所上市聆讯，连续六年锂电隔膜出货全球第二",
+        "summary": "北极星储能网6月4日报道，锂电隔膜厂商星源材质通过港交所上市聆讯，连续六年锂电隔膜出货量全球第二。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 10:41 CST",
+        "url": "https://news.bjx.com.cn/html/20260604/1498516.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260604/1498516.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260604/1498516.shtml"
+        ],
+        "methodology": "北极星储能网首页 6 月 4 日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "latest-20260604-1041-changzhou-liyuan-series-b",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/企业融资",
+        "account_name": "北极星储能网",
+        "category": "企业",
+        "title": "4.4亿元！常州锂源完成B轮融资",
+        "summary": "北极星储能网6月4日发布，常州锂源完成B轮融资，融资规模4.4亿元。",
+        "date": "2026-06-04",
+        "as_of": "2026-06-04 10:41 CST",
+        "url": "https://news.bjx.com.cn/html/20260604/1498510.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260604/1498510.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260604/1498510.shtml"
+        ],
+        "methodology": "北极星储能网首页 6 月 4 日公开标题与摘要核验，保留事实摘要，不复制原文长段落。"
+      },
       {
         "id": "latest-20260604-0957-smm-lfp-0604",
         "source": "SMM上海有色",
@@ -40011,6 +40216,19 @@ window.NEOLINK_FEED= {
     ],
     "materials": [
       {
+        "id": "material-20260604-1041-smm-li2co3-second-tick",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 工业级碳酸锂",
+        "spec": "SMM公开价格页；2026-06-04 10:41 复核二次下移",
+        "value": "168250 / 168227 / 164500",
+        "unit": "元/吨 / 元/吨 / 元/吨",
+        "change": "较09:52公开口径：电池级碳酸锂-2250、指数-2002、工业级碳酸锂-2250；当日涨跌幅-1.32% / -1.18% / -1.35%",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-06-04 10:41 CST",
+        "methodology": "2026-06-04 10:41 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 168250 元/吨（涨跌额 -2250、涨跌幅 -1.32%），SMM 电池级碳酸锂指数 168227 元/吨（涨跌额 -2002、涨跌幅 -1.18%），工业级碳酸锂 164500 元/吨（涨跌额 -2250、涨跌幅 -1.35%）；同页磷酸铁锂 59960 元/吨、电解液 29350 元/吨较 09:52 口径维持。仅采用官方公开口径，不复制原文长段落。"
+      },
+      {
         "id": "material-20260604-0957-smm-lfp-0604",
         "name": "磷酸铁锂（动力型）",
         "spec": "SMM公开价格页；2026-06-04 09:57 复核最新公开口径",
@@ -43810,16 +44028,16 @@ window.NEOLINK_FEED= {
         ]
       },
       {
-        "id": "metric-20260604-0952-smm-li2co3",
+        "id": "metric-20260604-1041-smm-li2co3",
         "title": "电池级碳酸锂",
-        "value": "170500",
+        "value": "168250",
         "unit": "元/吨",
-        "caption": "SMM 2026-06-04 最新公开口径",
-        "delta": "-2.99% (较 05-29 公开口径 177500 下移 7000 元/吨)",
+        "caption": "SMM 2026-06-04 10:41 最新公开口径",
+        "delta": "-5.21% (较 05-29 公开口径 177500 下移 9250 元/吨；较 09:52 公开口径 170500 再次下移 2250 元/吨)",
         "direction": "down",
         "source": "SMM上海有色",
-        "as_of": "2026-06-04 09:52 CST",
-        "methodology": "2026-06-04 09:52 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 170500 元/吨 (涨跌额 -5250、涨跌幅 -2.99%)，SMM 电池级碳酸锂指数 170229 元/吨 (涨跌额 -5149、涨跌幅 -2.94%)；hq.smm.cn/new-energy/new-energy-spot-price 直链 404，仅采用 newenergy.smm.cn 公开口径，不复制原文长段落。",
+        "as_of": "2026-06-04 10:41 CST",
+        "methodology": "2026-06-04 10:41 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 168250 元/吨 (涨跌额 -2250、涨跌幅 -1.32%)，SMM 电池级碳酸锂指数 168227 元/吨 (涨跌额 -2002、涨跌幅 -1.18%)；工业级碳酸锂 164500 元/吨 (涨跌额 -2250、涨跌幅 -1.35%)；hq.smm.cn/new-energy/new-energy-spot-price 直链 404，仅采用 newenergy.smm.cn 公开口径，不复制原文长段落。",
         "url": "https://newenergy.smm.cn/",
         "history": [
           {
@@ -43835,8 +44053,12 @@ window.NEOLINK_FEED= {
             "value": 177500
           },
           {
-            "label": "06-04",
+            "label": "06-04 09:52",
             "value": 170500
+          },
+          {
+            "label": "06-04 10:41",
+            "value": 168250
           }
         ]
       },
