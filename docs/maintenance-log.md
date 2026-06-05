@@ -1,3 +1,11 @@
+## 2026-06-05T09:37:00+08:00 homepage UI — updated (visual only)
+- 触发：用户反馈首页"快速数据 / 核心指标"卡片 5 个偏多，4 个就够。
+- 动作：删 `index.html` 第 5 个 `<article class="metric-card">`（天赐材料供货调整那个）。JS 用 `forEach((card, index) => sections.metrics?.[index])` 绑 data，HTML 少一个块就少渲染一个。
+- 保留 4 个：电池级碳酸锂、磷酸铁锂（动力型）、甘肃储能入市、宁夏新型储能。
+- 校验：`node --check script.js` 通过；服务器 `/var/www/neolink/index.html` 中 `metric-card` 计数 = 4。
+- 部署：push origin OK (`1792daf`)，push gitee OK (`1792daf`)，rsync OK。
+- 无数据变更；`feed.js?v=` 不变。
+
 ## 2026-06-04T11:00:00+08:00 materials cleanup — updated (structure-only)
 - 本地基线：刷新前 `data/feed.js generated_at=2026-06-04T10:41:00+08:00`，`sections.materials` 含 163 条同质 SMM 价格复核条目（占整个 feed.js 体积 53%，约 5.3 MB）。
 - 触发：用户要求整理"材料与价格"模块，太多太杂。
