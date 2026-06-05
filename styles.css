@@ -25,7 +25,7 @@
   --violet: #7657ff;
   --shadow: 0 16px 42px rgba(30, 55, 96, 0.12);
   --glass-blur: 16px;
-  --hero-bg: url("./bg-light.png");
+  --hero-bg: url("./bg-light.png?v=20260605");
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -46,7 +46,7 @@
   --control-border: rgba(181, 213, 255, 0.18);
   --input-text: #f6fbff;
   --shadow: 0 18px 48px rgba(0, 0, 0, 0.36);
-  --hero-bg: url("./bg-dark.png");
+  --hero-bg: url("./bg-dark.png?v=20260605");
 }
 
 :root[data-theme="dark"] .hero-title h1 {
@@ -207,7 +207,7 @@ button {
   color: #ecf7ff;
   background:
     linear-gradient(180deg, rgba(8, 27, 58, 0.14), rgba(5, 13, 27, 0.5) 50%, rgba(5, 13, 27, 0.82)),
-    url("./sidebar.png") center / cover no-repeat;
+    url("./sidebar.png?v=20260605") center / cover no-repeat;
   box-shadow: inset 0 0 48px rgba(42, 126, 255, 0.18);
 }
 
@@ -1418,7 +1418,7 @@ time {
   color: #fff;
   background:
     linear-gradient(135deg, rgba(3, 18, 48, 0.82), rgba(3, 28, 75, 0.46)),
-    url("./side.png") center / cover no-repeat;
+    url("./side.png?v=20260605") center / cover no-repeat;
   box-shadow: var(--shadow);
 }
 

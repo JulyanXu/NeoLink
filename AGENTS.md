@@ -47,12 +47,26 @@ This step runs AFTER the GitHub + Gitee push. Only proceed if content actually c
 
 ### Step 2: RSYNC core files to neolink
 Note: `data` is passed **without a trailing slash** so rsync copies the directory as a unit (lands at `neolink:/var/www/neolink/data/`), not its contents expanded into the destination root. A trailing slash would land files like `data/feed.js` at `/var/www/neolink/feed.js` and `--delete` would wipe the server's `data/` subdirectory. `data/sources/` is excluded because it is one-time crawl output, not deployable content.
+
+Background images (`bg-light.png`, `bg-dark.png`, `sidebar.png`, `side.png`) and all root-level static assets are referenced by `styles.css` and must be deployed. Omitting any of them leaves the page with a 404'd background and broken layout.
 ```bash
 rsync -avz --delete \
   --exclude='sources/' \
   /Users/julyan/Desktop/NeoLink/index.html \
   /Users/julyan/Desktop/NeoLink/news-more.html \
   /Users/julyan/Desktop/NeoLink/article.html \
+  /Users/julyan/Desktop/NeoLink/enterprise-map.html \
+  /Users/julyan/Desktop/NeoLink/styles.css \
+  /Users/julyan/Desktop/NeoLink/script.js \
+  /Users/julyan/Desktop/NeoLink/news-more.js \
+  /Users/julyan/Desktop/NeoLink/article.js \
+  /Users/julyan/Desktop/NeoLink/enterprise-map.js \
+  /Users/julyan/Desktop/NeoLink/bg-light.png \
+  /Users/julyan/Desktop/NeoLink/bg-dark.png \
+  /Users/julyan/Desktop/NeoLink/sidebar.png \
+  /Users/julyan/Desktop/NeoLink/side.png \
+  /Users/julyan/Desktop/NeoLink/Logo.png \
+  /Users/julyan/Desktop/NeoLink/favicon.png \
   /Users/julyan/Desktop/NeoLink/data \
   neolink:/var/www/neolink/
 ```

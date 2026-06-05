@@ -121,11 +121,25 @@ rsync -avz --delete \
   /Users/julyan/Desktop/NeoLink/index.html \
   /Users/julyan/Desktop/NeoLink/news-more.html \
   /Users/julyan/Desktop/NeoLink/article.html \
+  /Users/julyan/Desktop/NeoLink/enterprise-map.html \
+  /Users/julyan/Desktop/NeoLink/styles.css \
+  /Users/julyan/Desktop/NeoLink/script.js \
+  /Users/julyan/Desktop/NeoLink/news-more.js \
+  /Users/julyan/Desktop/NeoLink/article.js \
+  /Users/julyan/Desktop/NeoLink/enterprise-map.js \
+  /Users/julyan/Desktop/NeoLink/bg-light.png \
+  /Users/julyan/Desktop/NeoLink/bg-dark.png \
+  /Users/julyan/Desktop/NeoLink/sidebar.png \
+  /Users/julyan/Desktop/NeoLink/side.png \
+  /Users/julyan/Desktop/NeoLink/Logo.png \
+  /Users/julyan/Desktop/NeoLink/favicon.png \
   /Users/julyan/Desktop/NeoLink/data \
   neolink:/var/www/neolink/
 ```
 
 > ⚠️ **关键路径注意**：`data` **不要**带 trailing slash。否则 `data/feed.js` 会被放到 `/var/www/neolink/feed.js`（根），`--delete` 会把服务器上 `data/` 子目录整个清掉。带 trailing slash 是把目录**内容**展开到目标；不带是复制目录本身。
+>
+> ⚠️ **静态资源必须 deploy**：`styles.css` 引用的 `bg-light.png` / `bg-dark.png` / `sidebar.png` / `side.png` 必须每次都在 rsync 列表里，缺一个背景图就 404。
 
 rsync 完后回读验证：
 ```bash
