@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# NeoLink homepage hourly refresh runner.
+# NeoLink homepage two-hour refresh runner.
 # Invoked by launchd (com.neolink.homepage-refresh) every hour at :07.
 # Also safe to run manually: `bash tools/neolink-refresh.sh`
 #
@@ -43,7 +43,7 @@ fi
 PROMPT_TEXT="$(cat "$PROMPT")"
 
 # System-level reinforcement of the hard rules.
-SYSTEM_PROMPT="You are the NeoLink homepage hourly refresh automation. Project root: $ROOT. Strictly follow docs/automation-handover.md §3 (freshness rules) and docs/hermes-content-ops.md (content schema and rsync conventions). On no-change: do NOT bump generated_at, feed.js?v=, or any visible timestamps. On update: commit to local main, push to BOTH origin (github.com/JulyanXu/NeoLink) and gitee (gitee.com/JulyanXu/NeoLink), then rsync to neolink:/var/www/neolink/. If any push or rsync fails, report the exact failure cause in the maintenance log — do NOT claim success. Always append (prepend) an entry to BOTH docs/maintenance-log.md AND var/hermes/maintenance-log.md, and prepend a record to var/hermes/state/crawl_runs.json. Stay within /Users/julyan/Desktop/NeoLink. Do not edit nginx, /var/www/neolink, or anything outside the project. Exit cleanly."
+SYSTEM_PROMPT="You are the NeoLink homepage two-hour refresh automation. Project root: $ROOT. Strictly follow docs/automation-handover.md §3 (freshness rules) and docs/hermes-content-ops.md (content schema and rsync conventions). On no-change: do NOT bump generated_at, feed.js?v=, or any visible timestamps. On update: commit to local main, push to BOTH origin (github.com/JulyanXu/NeoLink) and gitee (gitee.com/JulyanXu/NeoLink), then rsync to neolink:/var/www/neolink/. If any push or rsync fails, report the exact failure cause in the maintenance log — do NOT claim success. Always append (prepend) an entry to BOTH docs/maintenance-log.md AND var/hermes/maintenance-log.md, and prepend a record to var/hermes/state/crawl_runs.json. Stay within /Users/julyan/Desktop/NeoLink. Do not edit nginx, /var/www/neolink, or anything outside the project. Exit cleanly."
 
 # Strict tool allowlist: only the project-maintenance surface.
 # This way, even if the prompt drifts, the agent can't escape the project.

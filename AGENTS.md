@@ -15,7 +15,7 @@ If another assistant-specific instruction file is added later, keep it short and
 - The MarketTrend market/sentiment data and the NeoLink information site should be checked and refreshed once per hour.
 - Hourly jobs must attempt to update market quotes, sentiment evidence, latest news, headline candidates, metrics, and source indexes.
 - Do not fake freshness: only change visible content timestamps when the underlying content or data actually changes.
-- If an hourly run finds no credible new data, keep the previous content timestamp and record the run as a no-change check in the maintenance log.
+- If a two-hourly run finds no credible new data, keep the previous content timestamp and record the run as a no-change check in the maintenance log.
 - Price, quote, sentiment, export, project, policy, IPO, legal, and safety data must keep source, timestamp, and methodology fields when available.
 
 ## Repository Sync

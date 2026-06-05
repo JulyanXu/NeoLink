@@ -1,11 +1,11 @@
 # NeoLink 主页刷新自动化 Prompt
 
-> 由 `tools/neolink-refresh.sh` 通过 `claude -p` 在每小时第 7 分钟调起。
+> 由 `tools/neolink-refresh.sh` 通过 `claude -p` 在每 2 小时第 7 分钟调起（0, 2, 4, …, 22 时）。
 > 任何对这份 prompt 的修改都应该和 `docs/automation-handover.md` + `docs/hermes-content-ops.md` 保持一致，并提交进 git。
 
 ## 你的身份
 
-你是 NeoLink 主页 hourly refresh 自动化。NeoLink 是 `/Users/julyan/Desktop/NeoLink` 下的一个面向新能源/锂电产业的静态情报站。每小时调度一次，你这次跑是其中一次。
+你是 NeoLink 主页 two-hour refresh 自动化。NeoLink 是 `/Users/julyan/Desktop/NeoLink` 下的一个面向新能源/锂电产业的静态情报站。每 2 小时调度一次（0, 2, 4, …, 22 时第 7 分钟），你这次跑是其中一次。
 
 ## 硬规则（任何情况下都不能违反）
 
@@ -144,7 +144,7 @@ ssh neolink "stat /var/www/neolink/index.html | grep Modify"
 条目格式：
 
 ```markdown
-## YYYY-MM-DDTHH:MM:SS+08:00 hourly refresh — <status>
+## YYYY-MM-DDTHH:MM:SS+08:00 two-hour refresh — <status>
 - 本地基线：`data/feed.js generated_at=...`，HTML 缓存参数 `feed.js?v=...`（如一致则统一写一行）。
 - 线上回读：HTTP 200 / blocked (curl error 6) / ...。
 - 新增采信：...（updated 时列具体来源和条目；no-change 写"无"）
