@@ -1,8 +1,74 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-04T14:15:00+08:00",
-  "note": "2026-06-04 14:15 招标频道增量：新增河南压缩空气储能项目招标（697万元）、内蒙古2GW/8GWh储能EPC开标（35家企业）、三峡能源200MW/400MWh构网储能中标公示（0.615-0.638元/Wh）。",
+  "generated_at": "2026-06-05T10:05:40+08:00",
+  "note": "2026-06-05 10:05 招标频道刷新：新增山西永济森域200MW/400MWh独立储能EPC招标变更公告、山西400MW/800MWh独立混合储能电站拟招标。",
   "sections": {
     "headlines": [
+      {
+        "id": "headline-20260605-1005-shanxi-yongji-senyu-epc-change",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/EPC/独立储能",
+        "title": "200MW/400MWh丨山西省永济森域独立储能EPC总承包项目招标变更公告",
+        "summary": "北极星储能网6月5日发布，山西省永济森域200MW/400MWh独立储能EPC总承包项目发布招标变更公告。",
+        "body": [
+          "项目：山西省永济森域独立储能EPC总承包项目。",
+          "规模：200MW/400MWh。",
+          "状态：招标变更公告。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-05。"
+        ],
+        "key_points": [
+          "山西省永济森域200MW/400MWh独立储能EPC总承包项目发布招标变更公告。",
+          "北极星储能网2026-06-05发布。"
+        ],
+        "value": "400",
+        "unit": "MWh",
+        "delta": "新增：山西永济森域200MW/400MWh独立储能EPC招标变更公告",
+        "direction": "up",
+        "date": "2026-06-05",
+        "as_of": "2026-06-05 10:05 CST",
+        "url": "https://news.bjx.com.cn/html/20260605/1498683.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260605/1498683.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260605/1498683.shtml"
+        ],
+        "clean_html": "<p>新增：山西永济森域200MW/400MWh独立储能EPC招标变更公告，来源北极星储能网。</p>",
+        "caption": "山西永济森域200MW/400MWh独立储能EPC招标变更公告。",
+        "methodology": "北极星储能网招标频道6月5日公开标题与日期核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260605-1005-shanxi-400mw-800mwh-hybrid-storage-intent",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/独立混合储能",
+        "title": "山西400MW/800MWh独立混合储能电站拟招标",
+        "summary": "北极星储能网6月5日发布，山西400MW/800MWh独立混合储能电站拟启动招标。",
+        "body": [
+          "项目：山西400MW/800MWh独立混合储能电站。",
+          "规模：400MW/800MWh。",
+          "状态：拟招标。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-05。"
+        ],
+        "key_points": [
+          "山西400MW/800MWh独立混合储能电站拟招标。",
+          "北极星储能网2026-06-05发布。"
+        ],
+        "value": "800",
+        "unit": "MWh",
+        "delta": "新增：山西400MW/800MWh独立混合储能电站拟招标",
+        "direction": "up",
+        "date": "2026-06-05",
+        "as_of": "2026-06-05 10:05 CST",
+        "url": "https://news.bjx.com.cn/html/20260605/1498678.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260605/1498678.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260605/1498678.shtml"
+        ],
+        "clean_html": "<p>新增：山西400MW/800MWh独立混合储能电站拟招标，来源北极星储能网。</p>",
+        "caption": "山西400MW/800MWh独立混合储能电站拟招标。",
+        "methodology": "北极星储能网招标频道6月5日公开标题与日期核验，保留事实摘要，不复制原文长段落。"
+      },
       {
         "id": "headline-20260604-1415-henan-compressed-air-697w",
         "source": "北极星储能网",
