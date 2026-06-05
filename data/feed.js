@@ -1,6 +1,6 @@
 window.NEOLINK_FEED= {
-  "generated_at": "2026-06-05T10:05:40+08:00",
-  "note": "2026-06-05 10:05 招标频道刷新：新增山西永济森域200MW/400MWh独立储能EPC招标变更公告、山西400MW/800MWh独立混合储能电站拟招标。",
+  "generated_at": "2026-06-05T12:20:43+08:00",
+  "note": "2026-06-05 12:20 招标频道刷新：新增山西晋中200MW/340MWh混合独立储能EPC招标(1.59元/Wh)、河南许昌200MW/400MWh独立储能EPC+监理招标(1.02元/Wh)、山东200MW/400MWh储能EPC二度废标、自贡智慧零碳虚拟电厂招标计划公告。",
   "sections": {
     "headlines": [
       {
@@ -67,6 +67,144 @@ window.NEOLINK_FEED= {
         ],
         "clean_html": "<p>新增：山西400MW/800MWh独立混合储能电站拟招标，来源北极星储能网。</p>",
         "caption": "山西400MW/800MWh独立混合储能电站拟招标。",
+        "methodology": "北极星储能网招标频道6月5日公开标题与日期核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260605-1218-sichuan-zigong-vpp-tender-plan",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/虚拟电厂",
+        "title": "四川自贡市智慧零碳虚拟电厂项目（安信工业园光伏） 招标计划公告",
+        "summary": "北极星储能网6月5日发布，四川自贡市智慧零碳虚拟电厂项目（安信工业园光伏）发布招标计划公告。",
+        "body": [
+          "项目：四川自贡市智慧零碳虚拟电厂项目（安信工业园光伏）。",
+          "类型：虚拟电厂/光伏。",
+          "状态：招标计划公告。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-05。"
+        ],
+        "key_points": [
+          "四川自贡市智慧零碳虚拟电厂项目（安信工业园光伏）发布招标计划公告。",
+          "北极星储能网2026-06-05发布。"
+        ],
+        "value": "1",
+        "unit": "招标计划公告",
+        "delta": "新增：四川自贡市智慧零碳虚拟电厂项目（安信工业园光伏）招标计划公告",
+        "direction": "up",
+        "date": "2026-06-05",
+        "as_of": "2026-06-05 12:20 CST",
+        "url": "https://news.bjx.com.cn/html/20260605/1498710.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260605/1498710.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260605/1498710.shtml"
+        ],
+        "clean_html": "<p>新增：四川自贡市智慧零碳虚拟电厂项目（安信工业园光伏）招标计划公告，来源北极星储能网。</p>",
+        "caption": "四川自贡市智慧零碳虚拟电厂项目（安信工业园光伏）招标计划公告。",
+        "methodology": "北极星储能网招标频道6月5日公开标题与日期核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260605-1218-shandong-200mw-400mwh-epc-second-cancel",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/EPC/储能电站",
+        "title": "中标人未签署合同，山东200MW/400MWh储能EPC二度废标",
+        "summary": "北极星储能网6月5日发布，山东200MW/400MWh储能EPC因中标人未签署合同，第二次废标。",
+        "body": [
+          "项目：山东200MW/400MWh储能EPC。",
+          "规模：200MW/400MWh。",
+          "废标原因：中标人未签署合同。",
+          "状态：二度废标。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-05。"
+        ],
+        "key_points": [
+          "山东200MW/400MWh储能EPC二次废标。",
+          "废标原因：中标人未签署合同。",
+          "北极星储能网2026-06-05发布。"
+        ],
+        "value": "400",
+        "unit": "MWh",
+        "delta": "新增：山东200MW/400MWh储能EPC二度废标（中标人未签合同）",
+        "direction": "flat",
+        "date": "2026-06-05",
+        "as_of": "2026-06-05 12:20 CST",
+        "url": "https://news.bjx.com.cn/html/20260605/1498720.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260605/1498720.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260605/1498720.shtml"
+        ],
+        "clean_html": "<p>新增：山东200MW/400MWh储能EPC二度废标（中标人未签署合同），来源北极星储能网。</p>",
+        "caption": "山东200MW/400MWh储能EPC二度废标。",
+        "methodology": "北极星储能网招标频道6月5日公开标题与日期核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260605-1218-henan-xuchang-200mw-400mwh-epc-supervision",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/EPC/独立储能",
+        "title": "1.02元/Wh！河南许昌200MW/400MWh独立储能EPC+监理招标",
+        "summary": "北极星储能网6月5日发布，河南许昌200MW/400MWh独立储能EPC+监理招标，单价1.02元/Wh。",
+        "body": [
+          "项目：河南许昌200MW/400MWh独立储能EPC+监理。",
+          "规模：200MW/400MWh。",
+          "招标单价：1.02元/Wh。",
+          "状态：招标公告已发布。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-05。"
+        ],
+        "key_points": [
+          "河南许昌200MW/400MWh独立储能EPC+监理招标启动。",
+          "招标单价1.02元/Wh。",
+          "北极星储能网2026-06-05发布。"
+        ],
+        "value": "400",
+        "unit": "MWh",
+        "delta": "新增：河南许昌200MW/400MWh独立储能EPC+监理招标 1.02元/Wh",
+        "direction": "up",
+        "date": "2026-06-05",
+        "as_of": "2026-06-05 12:20 CST",
+        "url": "https://news.bjx.com.cn/html/20260605/1498735.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260605/1498735.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260605/1498735.shtml"
+        ],
+        "clean_html": "<p>新增：河南许昌200MW/400MWh独立储能EPC+监理招标，单价1.02元/Wh，来源北极星储能网。</p>",
+        "caption": "河南许昌200MW/400MWh独立储能EPC+监理招标，单价1.02元/Wh。",
+        "methodology": "北极星储能网招标频道6月5日公开标题与日期核验，保留事实摘要，不复制原文长段落。"
+      },
+      {
+        "id": "headline-20260605-1218-shanxi-jinzhong-200mw-340mwh-epc",
+        "source": "北极星储能网",
+        "source_type": "行业媒体/招投标信息",
+        "account_name": "北极星储能网",
+        "category": "项目/招投标/EPC/混合独立储能",
+        "title": "1.59元/Wh！山西晋中200MW/340MWh混合独立储能EPC招标",
+        "summary": "北极星储能网6月5日发布，山西晋中200MW/340MWh混合独立储能EPC启动招标，单价1.59元/Wh。",
+        "body": [
+          "项目：山西晋中200MW/340MWh混合独立储能EPC。",
+          "规模：200MW/340MWh。",
+          "招标单价：1.59元/Wh。",
+          "状态：招标公告已发布。",
+          "来源：北极星储能网（chuneng.bjx.com.cn），发布日期2026-06-05。"
+        ],
+        "key_points": [
+          "山西晋中200MW/340MWh混合独立储能EPC启动招标。",
+          "招标单价1.59元/Wh。",
+          "北极星储能网2026-06-05发布。"
+        ],
+        "value": "340",
+        "unit": "MWh",
+        "delta": "新增：山西晋中200MW/340MWh混合独立储能EPC招标 1.59元/Wh",
+        "direction": "up",
+        "date": "2026-06-05",
+        "as_of": "2026-06-05 12:20 CST",
+        "url": "https://news.bjx.com.cn/html/20260605/1498740.shtml",
+        "original_url": "https://news.bjx.com.cn/html/20260605/1498740.shtml",
+        "related_urls": [
+          "https://news.bjx.com.cn/html/20260605/1498740.shtml"
+        ],
+        "clean_html": "<p>新增：山西晋中200MW/340MWh混合独立储能EPC招标，单价1.59元/Wh，来源北极星储能网。</p>",
+        "caption": "山西晋中200MW/340MWh混合独立储能EPC招标，单价1.59元/Wh。",
         "methodology": "北极星储能网招标频道6月5日公开标题与日期核验，保留事实摘要，不复制原文长段落。"
       },
       {
@@ -40384,71 +40522,71 @@ window.NEOLINK_FEED= {
       }
     ],
     "materials": [
-          {
-            "id": "material-20260604-1041-smm-li2co3-second-tick",
-            "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 工业级碳酸锂",
-            "spec": "SMM公开价格页；2026-06-04 10:41 复核二次下移",
-            "value": "168250 / 168227 / 164500",
-            "unit": "元/吨 / 元/吨 / 元/吨",
-            "change": "较09:52公开口径：电池级碳酸锂-2250、指数-2002、工业级碳酸锂-2250；当日涨跌幅-1.32% / -1.18% / -1.35%",
-            "direction": "down",
-            "source": "SMM上海有色",
-            "url": "https://newenergy.smm.cn/",
-            "as_of": "2026-06-04 10:41 CST",
-            "methodology": "2026-06-04 10:41 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 168250 元/吨（涨跌额 -2250、涨跌幅 -1.32%），SMM 电池级碳酸锂指数 168227 元/吨（涨跌额 -2002、涨跌幅 -1.18%），工业级碳酸锂 164500 元/吨（涨跌额 -2250、涨跌幅 -1.35%）；同页磷酸铁锂 59960 元/吨…"
-          },
-          {
-            "id": "material-20260604-0957-smm-lfp-0604",
-            "name": "磷酸铁锂（动力型）",
-            "spec": "SMM公开价格页；2026-06-04 09:57 复核最新公开口径",
-            "value": "59960",
-            "unit": "元/吨",
-            "change": "较05-26 12:00公开口径62560下移2600元/吨；当日涨跌-1175 / -1.92%",
-            "direction": "down",
-            "source": "SMM上海有色",
-            "url": "https://newenergy.smm.cn/",
-            "as_of": "2026-06-04 09:57 CST",
-            "methodology": "2026-06-04 09:57 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：磷酸铁锂 59960 元/吨 (涨跌额 -1175、涨跌幅 -1.92%)；同页可核验电池级碳酸锂 170500 元/吨、指数 170229、工业级碳酸锂 166750、SMM 电池级氢氧化锂指数 158179、6 系三元材料（单晶/动力型）197450、电解液 29350。"
-          },
-          {
-            "id": "material-20260603-1205-smm-li2co3-0529",
-            "name": "电池级碳酸锂 / SMM电池级碳酸锂指数",
-            "spec": "SMM公开价格页；2026-06-03复核到 2026-05-29 最新公开口径",
-            "value": "177500 / 177627",
-            "unit": "元/吨 / 元/吨",
-            "change": "较05-27公开口径上移；电池级碳酸锂区间173000-182000元/吨",
-            "direction": "up",
-            "source": "SMM上海有色",
-            "url": "https://hq.smm.cn/new-energy/new-energy-spot-price",
-            "as_of": "2026-06-03 12:05 CST",
-            "methodology": "2026-06-03 公开检索复核 SMM 页面快照：2026-05-29 电池级碳酸锂 173000-182000 元/吨、均价 177500 元/吨，SMM 电池级碳酸锂指数 177627 元/吨；当前运行环境无法直连 SMM 页面，仅采用官方公开搜索结果中的可复核字段，不复制原文长段落。"
-          },
-          {
-            "id": "material-20260526-1500-smm-flat-futures-down",
-            "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
-            "spec": "SMM公开行情页；15:00复核较14:00未变；中文RSS新增期货主力跌4%/175920",
-            "value": "180000 / 179532 / 61770 / 29350",
-            "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-            "change": "较14:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS新增期货主力175920跌4%",
-            "direction": "flat",
-            "source": "SMM上海有色 / Google News中文RSS",
-            "url": "https://newenergy.smm.cn/",
-            "as_of": "2026-05-26 15:00 CST",
-            "methodology": "15:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。"
-          },
-          {
-            "id": "material-20260526-1400-smm-flat",
-            "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
-            "spec": "SMM公开行情页；14:00复核较13:00未变",
-            "value": "180000 / 179532 / 61770 / 29350",
-            "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
-            "change": "较13:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
-            "direction": "flat",
-            "source": "SMM上海有色",
-            "url": "https://newenergy.smm.cn/",
-            "as_of": "2026-05-26 14:00 CST",
-            "methodology": "14:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。"
-          }
+      {
+        "id": "material-20260604-1041-smm-li2co3-second-tick",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数 / 工业级碳酸锂",
+        "spec": "SMM公开价格页；2026-06-04 10:41 复核二次下移",
+        "value": "168250 / 168227 / 164500",
+        "unit": "元/吨 / 元/吨 / 元/吨",
+        "change": "较09:52公开口径：电池级碳酸锂-2250、指数-2002、工业级碳酸锂-2250；当日涨跌幅-1.32% / -1.18% / -1.35%",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-06-04 10:41 CST",
+        "methodology": "2026-06-04 10:41 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 168250 元/吨（涨跌额 -2250、涨跌幅 -1.32%），SMM 电池级碳酸锂指数 168227 元/吨（涨跌额 -2002、涨跌幅 -1.18%），工业级碳酸锂 164500 元/吨（涨跌额 -2250、涨跌幅 -1.35%）；同页磷酸铁锂 59960 元/吨…"
+      },
+      {
+        "id": "material-20260604-0957-smm-lfp-0604",
+        "name": "磷酸铁锂（动力型）",
+        "spec": "SMM公开价格页；2026-06-04 09:57 复核最新公开口径",
+        "value": "59960",
+        "unit": "元/吨",
+        "change": "较05-26 12:00公开口径62560下移2600元/吨；当日涨跌-1175 / -1.92%",
+        "direction": "down",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-06-04 09:57 CST",
+        "methodology": "2026-06-04 09:57 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：磷酸铁锂 59960 元/吨 (涨跌额 -1175、涨跌幅 -1.92%)；同页可核验电池级碳酸锂 170500 元/吨、指数 170229、工业级碳酸锂 166750、SMM 电池级氢氧化锂指数 158179、6 系三元材料（单晶/动力型）197450、电解液 29350。"
+      },
+      {
+        "id": "material-20260603-1205-smm-li2co3-0529",
+        "name": "电池级碳酸锂 / SMM电池级碳酸锂指数",
+        "spec": "SMM公开价格页；2026-06-03复核到 2026-05-29 最新公开口径",
+        "value": "177500 / 177627",
+        "unit": "元/吨 / 元/吨",
+        "change": "较05-27公开口径上移；电池级碳酸锂区间173000-182000元/吨",
+        "direction": "up",
+        "source": "SMM上海有色",
+        "url": "https://hq.smm.cn/new-energy/new-energy-spot-price",
+        "as_of": "2026-06-03 12:05 CST",
+        "methodology": "2026-06-03 公开检索复核 SMM 页面快照：2026-05-29 电池级碳酸锂 173000-182000 元/吨、均价 177500 元/吨，SMM 电池级碳酸锂指数 177627 元/吨；当前运行环境无法直连 SMM 页面，仅采用官方公开搜索结果中的可复核字段，不复制原文长段落。"
+      },
+      {
+        "id": "material-20260526-1500-smm-flat-futures-down",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；15:00复核较14:00未变；中文RSS新增期货主力跌4%/175920",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较14:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400；RSS新增期货主力175920跌4%",
+        "direction": "flat",
+        "source": "SMM上海有色 / Google News中文RSS",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 15:00 CST",
+        "methodology": "15:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。"
+      },
+      {
+        "id": "material-20260526-1400-smm-flat",
+        "name": "电池级碳酸锂 / SMM电碳指数 / 磷酸铁锂 / 电解液",
+        "spec": "SMM公开行情页；14:00复核较13:00未变",
+        "value": "180000 / 179532 / 61770 / 29350",
+        "unit": "元/吨 / 元/吨 / 元/吨 / 元/吨",
+        "change": "较13:00页面：0 / 0 / 0 / 0；当日显示变动分别为-3250 / -4294 / -790 / +400",
+        "direction": "flat",
+        "source": "SMM上海有色",
+        "url": "https://newenergy.smm.cn/",
+        "as_of": "2026-05-26 14:00 CST",
+        "methodology": "14:00严格刷新：重新抓取NeoLink首页和/markettrend/，主动检索国内+海外公开来源；web_search四组查询返回HTTP 432，改用requests直连国内行业站/监管站/协会站、海外行业站，并抓取Google News RSS。"
+      }
     ],
     "metrics": [
       {
@@ -85603,4 +85741,4 @@ window.NEOLINK_FEED= {
     ]
   },
   "checked_at": "2026-06-03T12:05:00+08:00"
-};
+}
