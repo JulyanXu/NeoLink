@@ -1,3 +1,14 @@
+## 2026-06-05T11:26:00+08:00 deploy repair — restored background images
+- 症状：用户报"背景图没了"。`curl http://neolink.asia/bg-light.png` 返回 404。
+- 根因：之前修 rsync trailing-slash 时命令只列了 4 个文件（3 HTML + data/），没列 PNG/CSS/JS 资源。`styles.css` 引用 4 个 PNG（bg-light / bg-dark / sidebar / side）+ favicon.png + Logo.png，服务器上一个都缺。
+- 修：
+  1. AGENTS.md + prompt 的 rsync 命令扩展为完整静态资源列表（HTML 4 + JS 4 + styles.css + PNG 6）
+  2. `styles.css` 里 PNG url() 加 `?v=20260605` cache-bust（nginx `expires 30d; Cache-Control: public, immutable` 会把 404 缓存 30 天，加 query string 强制重抓）
+  3. 主 HTML 的 `styles.css?v=20` 升到 `?v=21`
+- 校验：rsync 后 `curl http://neolink.asia/{bg-light,bg-dark,sidebar,side}.png` 全部 HTTP 200。
+- 部署：commit `9e48f22` 推 origin + gitee。rsync 立即跑一次。
+- 用户侧：硬刷新（Cmd+Shift+R）一次可见背景图。
+
 ## 2026-06-05T09:37:00+08:00 homepage UI — updated (visual only)
 - 触发：用户反馈首页"快速数据 / 核心指标"卡片 5 个偏多，4 个就够。
 - 动作：删 `index.html` 第 5 个 `<article class="metric-card">`（天赐材料供货调整那个）。JS 用 `forEach((card, index) => sections.metrics?.[index])` 绑 data，HTML 少一个块就少渲染一个。
