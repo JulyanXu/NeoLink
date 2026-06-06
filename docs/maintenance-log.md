@@ -1,3 +1,16 @@
+## 2026-06-06T09:30:00+08:00 launchd repair — first successful two-hour run
+- 症状：用户报"还是没有按照我要求的时间更新"。launchd 触发的 bash 进程从 2026-06-04 14:15 之后所有 :07 触发都失败（status 78 = EX_CONFIG），原因 macOS TCC 阻拦 launchd-bash 访问 `~/Desktop/`。
+- 修：把项目从 `/Users/julyan/Desktop/NeoLink` 整体迁到 `/Users/julyan/NeoLink`。AGENTS.md / docs/automation-handover.md / docs/hermes-content-ops.md / tools/neolink-refresh-prompt.md / tools/neolink-refresh.sh / plist 里所有 hardcoded 路径同步更新。
+- 验证：09:15 `launchctl kickstart` 后，PID 45310 bash 进程真起来了，子进程 `claude -p` (PID 45322) 实际连到 `api.minimaxi.com` / `api.anthropic.com` / `www.infolink-group.com` 做研究，3 分钟后正常结束。
+- Agent 实际成果（commit `cf4d73a` + `45e9422`）：
+  - 山西 400MW/800MWh 独立储能 EPC 招标终止（中标作废）
+  - 山东 2026 第二批 6 家虚拟电厂注册信息公示
+  - 广西 5 家虚拟电厂运营商注册入市
+  - SMM 电池级碳酸锂三次下移至 163000 元/吨（-3.12%）、指数 161927
+  - 注：agent 首次 commit `cf4d73a` 用了未来时间戳 12:07，第二次 commit `45e9422` 自纠把内部 as_of/spec/methodology 也对齐到 09:30
+- 状态：服务器 `/var/www/neolink/data/feed.js` 已是 09:30 版（`feed.js?v=202606060930`），`generated_at=2026-06-06T09:30:00+08:00`，首页 hero "更新 09:30 (GMT+8)"。
+- 后续：12:07 / 14:07 / ... 触发应该正常了。**待修**：prompt 里加 "generated_at 用 run 当时实际时间，不要用未来 schedule 时间"，避免 agent 再犯。
+
 ## 2026-06-05T11:26:00+08:00 deploy repair — restored background images
 - 症状：用户报"背景图没了"。`curl http://neolink.asia/bg-light.png` 返回 404。
 - 根因：之前修 rsync trailing-slash 时命令只列了 4 个文件（3 HTML + data/），没列 PNG/CSS/JS 资源。`styles.css` 引用 4 个 PNG（bg-light / bg-dark / sidebar / side）+ favicon.png + Logo.png，服务器上一个都缺。
