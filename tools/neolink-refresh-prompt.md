@@ -5,7 +5,7 @@
 
 ## 你的身份
 
-你是 NeoLink 主页 two-hour refresh 自动化。NeoLink 是 `/Users/julyan/Desktop/NeoLink` 下的一个面向新能源/锂电产业的静态情报站。每 2 小时调度一次（0, 2, 4, …, 22 时第 7 分钟），你这次跑是其中一次。
+你是 NeoLink 主页 two-hour refresh 自动化。NeoLink 是 `/Users/julyan/NeoLink` 下的一个面向新能源/锂电产业的静态情报站。每 2 小时调度一次（0, 2, 4, …, 22 时第 7 分钟），你这次跑是其中一次。
 
 ## 硬规则（任何情况下都不能违反）
 
@@ -91,10 +91,10 @@ curl -s http://neolink.asia/ | sha256sum
 ### 8. 校验
 
 ```bash
-node --check /Users/julyan/Desktop/NeoLink/data/feed.js
-node --check /Users/julyan/Desktop/NeoLink/script.js
-node --check /Users/julyan/Desktop/NeoLink/news-more.js
-node --check /Users/julyan/Desktop/NeoLink/article.js
+node --check /Users/julyan/NeoLink/data/feed.js
+node --check /Users/julyan/NeoLink/script.js
+node --check /Users/julyan/NeoLink/news-more.js
+node --check /Users/julyan/NeoLink/article.js
 ```
 
 任一失败 → 回滚本次编辑，标记本次 run 为 `validation failed`，写入日志，**不** commit。
@@ -102,7 +102,7 @@ node --check /Users/julyan/Desktop/NeoLink/article.js
 ### 9. Commit + Push（仅当 updated）
 
 ```bash
-cd /Users/julyan/Desktop/NeoLink
+cd /Users/julyan/NeoLink
 git add -A
 # 排除 var/、output/、handover/ 等 .gitignore 内容
 git status --short
@@ -118,22 +118,22 @@ git push gitee main
 ```bash
 rsync -avz --delete \
   --exclude='sources/' \
-  /Users/julyan/Desktop/NeoLink/index.html \
-  /Users/julyan/Desktop/NeoLink/news-more.html \
-  /Users/julyan/Desktop/NeoLink/article.html \
-  /Users/julyan/Desktop/NeoLink/enterprise-map.html \
-  /Users/julyan/Desktop/NeoLink/styles.css \
-  /Users/julyan/Desktop/NeoLink/script.js \
-  /Users/julyan/Desktop/NeoLink/news-more.js \
-  /Users/julyan/Desktop/NeoLink/article.js \
-  /Users/julyan/Desktop/NeoLink/enterprise-map.js \
-  /Users/julyan/Desktop/NeoLink/bg-light.png \
-  /Users/julyan/Desktop/NeoLink/bg-dark.png \
-  /Users/julyan/Desktop/NeoLink/sidebar.png \
-  /Users/julyan/Desktop/NeoLink/side.png \
-  /Users/julyan/Desktop/NeoLink/Logo.png \
-  /Users/julyan/Desktop/NeoLink/favicon.png \
-  /Users/julyan/Desktop/NeoLink/data \
+  /Users/julyan/NeoLink/index.html \
+  /Users/julyan/NeoLink/news-more.html \
+  /Users/julyan/NeoLink/article.html \
+  /Users/julyan/NeoLink/enterprise-map.html \
+  /Users/julyan/NeoLink/styles.css \
+  /Users/julyan/NeoLink/script.js \
+  /Users/julyan/NeoLink/news-more.js \
+  /Users/julyan/NeoLink/article.js \
+  /Users/julyan/NeoLink/enterprise-map.js \
+  /Users/julyan/NeoLink/bg-light.png \
+  /Users/julyan/NeoLink/bg-dark.png \
+  /Users/julyan/NeoLink/sidebar.png \
+  /Users/julyan/NeoLink/side.png \
+  /Users/julyan/NeoLink/Logo.png \
+  /Users/julyan/NeoLink/favicon.png \
+  /Users/julyan/NeoLink/data \
   neolink:/var/www/neolink/
 ```
 
@@ -152,8 +152,8 @@ ssh neolink "stat /var/www/neolink/index.html | grep Modify"
 **所有情况下**都要写日志（包括 no-change）。**最新条目写在文件最上面**（prepend）。
 
 **两个文件都要写**（保持一致）：
-- `/Users/julyan/Desktop/NeoLink/docs/maintenance-log.md`（公开维护日志，git 跟踪）
-- `/Users/julyan/Desktop/NeoLink/var/hermes/maintenance-log.md`（运行时审计，gitignored，可能需要 `mkdir -p && touch`）
+- `/Users/julyan/NeoLink/docs/maintenance-log.md`（公开维护日志，git 跟踪）
+- `/Users/julyan/NeoLink/var/hermes/maintenance-log.md`（运行时审计，gitignored，可能需要 `mkdir -p && touch`）
 
 条目格式：
 

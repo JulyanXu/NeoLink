@@ -20,7 +20,7 @@ If another assistant-specific instruction file is added later, keep it short and
 
 ## Repository Sync
 
-- Treat `/Users/julyan/Desktop/NeoLink` as the source repository for NeoLink.
+- Treat `/Users/julyan/NeoLink` as the source repository for NeoLink.
 - Treat `/var/www/neolink` as the deployment target, not as the source repository.
 - After a verified content update, commit the NeoLink source changes and push `main` to both GitHub (`origin`) and Gitee (`gitee`).
 - Do not commit generated runtime state, local crawl artifacts, or unrelated nested projects.
@@ -40,7 +40,7 @@ Use this format:
 This step runs AFTER the GitHub + Gitee push. Only proceed if content actually changed.
 
 ### Step 1: Compare timestamps
-- Read local `/Users/julyan/Desktop/NeoLink/data/feed.js` and extract `generated_at`
+- Read local `/Users/julyan/NeoLink/data/feed.js` and extract `generated_at`
 - SSH to `neolink` and read `/var/www/neolink/data/feed.js` `generated_at` (use: `ssh neolink "cat /var/www/neolink/data/feed.js | grep generated_at"`)
 - If local `generated_at` > server `generated_at`, proceed to Step 2
 - If local is not newer, skip rsync and log as "no-change check"
@@ -52,22 +52,22 @@ Background images (`bg-light.png`, `bg-dark.png`, `sidebar.png`, `side.png`) and
 ```bash
 rsync -avz --delete \
   --exclude='sources/' \
-  /Users/julyan/Desktop/NeoLink/index.html \
-  /Users/julyan/Desktop/NeoLink/news-more.html \
-  /Users/julyan/Desktop/NeoLink/article.html \
-  /Users/julyan/Desktop/NeoLink/enterprise-map.html \
-  /Users/julyan/Desktop/NeoLink/styles.css \
-  /Users/julyan/Desktop/NeoLink/script.js \
-  /Users/julyan/Desktop/NeoLink/news-more.js \
-  /Users/julyan/Desktop/NeoLink/article.js \
-  /Users/julyan/Desktop/NeoLink/enterprise-map.js \
-  /Users/julyan/Desktop/NeoLink/bg-light.png \
-  /Users/julyan/Desktop/NeoLink/bg-dark.png \
-  /Users/julyan/Desktop/NeoLink/sidebar.png \
-  /Users/julyan/Desktop/NeoLink/side.png \
-  /Users/julyan/Desktop/NeoLink/Logo.png \
-  /Users/julyan/Desktop/NeoLink/favicon.png \
-  /Users/julyan/Desktop/NeoLink/data \
+  /Users/julyan/NeoLink/index.html \
+  /Users/julyan/NeoLink/news-more.html \
+  /Users/julyan/NeoLink/article.html \
+  /Users/julyan/NeoLink/enterprise-map.html \
+  /Users/julyan/NeoLink/styles.css \
+  /Users/julyan/NeoLink/script.js \
+  /Users/julyan/NeoLink/news-more.js \
+  /Users/julyan/NeoLink/article.js \
+  /Users/julyan/NeoLink/enterprise-map.js \
+  /Users/julyan/NeoLink/bg-light.png \
+  /Users/julyan/NeoLink/bg-dark.png \
+  /Users/julyan/NeoLink/sidebar.png \
+  /Users/julyan/NeoLink/side.png \
+  /Users/julyan/NeoLink/Logo.png \
+  /Users/julyan/NeoLink/favicon.png \
+  /Users/julyan/NeoLink/data \
   neolink:/var/www/neolink/
 ```
 

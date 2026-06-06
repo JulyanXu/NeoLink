@@ -16,16 +16,16 @@
 每次运行都应先读/核对以下文件的当前状态，再决定是否更新：
 
 - 主页与详情模板：
-  - `/Users/julyan/Desktop/NeoLink/index.html`
-  - `/Users/julyan/Desktop/NeoLink/news-more.html`
-  - `/Users/julyan/Desktop/NeoLink/article.html`
+  - `/Users/julyan/NeoLink/index.html`
+  - `/Users/julyan/NeoLink/news-more.html`
+  - `/Users/julyan/NeoLink/article.html`
 - 数据源（主页渲染的唯一事实来源）：
-  - `/Users/julyan/Desktop/NeoLink/data/feed.js`
+  - `/Users/julyan/NeoLink/data/feed.js`
 - 运行记录与证据（用于 freshness 审计）：
-  - `/Users/julyan/Desktop/NeoLink/var/hermes/maintenance-log.md`
-  - `/Users/julyan/Desktop/NeoLink/docs/maintenance-log.md`
-  - `/Users/julyan/Desktop/NeoLink/var/hermes/state/crawl_runs.json`
-  - `/Users/julyan/Desktop/NeoLink/var/hermes/search-notes-*.json`（每次运行生成/更新）
+  - `/Users/julyan/NeoLink/var/hermes/maintenance-log.md`
+  - `/Users/julyan/NeoLink/docs/maintenance-log.md`
+  - `/Users/julyan/NeoLink/var/hermes/state/crawl_runs.json`
+  - `/Users/julyan/NeoLink/var/hermes/search-notes-*.json`（每次运行生成/更新）
 
 > 💡 `feed.js?v=YYYYMMDDHHMM` 是缓存破坏参数（cache-busting）；只有底层 `data/feed.js` 的内容真实变化时才更新它，否则会制造“看似更新”的假象。
 
@@ -35,7 +35,7 @@
 
 只有在 **底层新闻/指标/来源数据真实变化** 且能被公开来源核验时，才允许：
 
-- 更新 `/Users/julyan/Desktop/NeoLink/data/feed.js` 的 `generated_at` / `checked_at`（如存在）
+- 更新 `/Users/julyan/NeoLink/data/feed.js` 的 `generated_at` / `checked_at`（如存在）
 - 更新主页可见“更新”时间（通常位于 `index.html` hero 区）
 - 更新 HTML 中的 `./data/feed.js?v=...` 版本参数
 - 在维护日志里记录为 `updated`
@@ -108,10 +108,10 @@
 ## 6. 校验清单（每次运行必须做）
 
 - 语法校验（至少）：
-  - `node --check /Users/julyan/Desktop/NeoLink/data/feed.js`
-  - `node --check /Users/julyan/Desktop/NeoLink/script.js`
-  - `node --check /Users/julyan/Desktop/NeoLink/news-more.js`
-  - `node --check /Users/julyan/Desktop/NeoLink/article.js`
+  - `node --check /Users/julyan/NeoLink/data/feed.js`
+  - `node --check /Users/julyan/NeoLink/script.js`
+  - `node --check /Users/julyan/NeoLink/news-more.js`
+  - `node --check /Users/julyan/NeoLink/article.js`
 - JSON 记录可解析：
   - `var/hermes/state/crawl_runs.json`
   - 本次新增的 `var/hermes/search-notes-*.json`

@@ -5,7 +5,7 @@
 当前项目路径：
 
 ```text
-/Users/julyan/Desktop/NeoLink
+/Users/julyan/NeoLink
 ```
 
 线上站点：
