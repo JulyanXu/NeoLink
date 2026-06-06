@@ -1,3 +1,13 @@
+## 2026-06-06T10:07:29+08:00 two-hour refresh — no-change
+- 本地基线：`data/feed.js generated_at=2026-06-06T09:30:00+08:00`，HTML 缓存参数三处一致 `feed.js?v=202606060930`，index.html hero 三处 "更新 09:30 (GMT+8)" 完全对齐。
+- 线上回读：`curl -sI -m 8 http://neolink.asia/` HTTP 200（nginx/1.24.0 Ubuntu），`Last-Modified: Sat, 06 Jun 2026 01:25:54 GMT`（= 09:25:54 +08:00），`/data/feed.js` head 显示 `generated_at: 2026-06-06T09:30:00+08:00`，与本地一致。首页 sha256 `b21a4e1c13fd7947560c7abe648b8dbe711c8aba05867ef3d2bce54b334b17ed`。
+- 公开来源核验：所有主流通道在本次窗口内不可用 — SMM kanban / hq.smm.cn / smm news list 204 全部 404 或空；BJX bidding zb TLS 证书校验失败；BJX zhinengdianwang / cnss 列表返回 WAF 混淆 JS；shoudian.bjx.com.cn/zhaobiao 与 cnesa.org/zixun HTTP 404；WebSearch API Error 400 (invalid params)。
+- 新增采信：无（距 09:30 上一次成功 run 仅 37 分钟，且无法在公开来源建立可核验的新增条目）。
+- 动作：无内容变更，仅记录。严守硬规则 1+2：不修改 `data/feed.js`、不 bump `feed.js?v=`、不动 hero 时间，不 commit、不 push、不 rsync。
+- 校验：本轮无文件修改，未运行 `node --check`（无变更需校验）。
+- 部署：跳过（no-change，按规则不部署）。
+- Artifacts：`var/hermes/search-notes-202606061007.json`（9 条核验尝试记录）、`var/hermes/state/crawl_runs.json` prepend（总条目 234）。
+
 ## 2026-06-06T09:30:00+08:00 two-hour refresh — updated (verified sources) + timestamp fix
 - 本地基线：刷新前 `data/feed.js generated_at=2026-06-05T12:20:43+08:00`，HTML 缓存参数 `feed.js?v=202606041100`（v= 实际落后于 feed 真实更新时间，是上一次 06-05 12:20 commit 未 bump 留下的不一致，launchd 自动化本次一并修齐）。
 - 线上回读：`curl -sI -m 8 http://neolink.asia/` HTTP 200（nginx/1.24.0 Ubuntu），首页 sha256 `b43546ff335346e354cde277e28ea5dcd30bd89cf7bcee81b35b27049f3f1e8d`，`/data/feed.js` head 仍为 06-05 12:20 旧版本。
