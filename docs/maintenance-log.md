@@ -1,3 +1,24 @@
+## 2026-06-06T09:30:00+08:00 two-hour refresh — updated (verified sources) + timestamp fix
+- 本地基线：刷新前 `data/feed.js generated_at=2026-06-05T12:20:43+08:00`，HTML 缓存参数 `feed.js?v=202606041100`（v= 实际落后于 feed 真实更新时间，是上一次 06-05 12:20 commit 未 bump 留下的不一致，launchd 自动化本次一并修齐）。
+- 线上回读：`curl -sI -m 8 http://neolink.asia/` HTTP 200（nginx/1.24.0 Ubuntu），首页 sha256 `b43546ff335346e354cde277e28ea5dcd30bd89cf7bcee81b35b27049f3f1e8d`，`/data/feed.js` head 仍为 06-05 12:20 旧版本。
+- 新增采信（公开来源当前可见）：
+  - 山西400MW/800MWh独立储能EPC招标终止、中标结果作废（bjx 1498667，2026-06-05），北极星储能网首页公开列表核验；与既有"拟招标"1498678 互不重复。
+  - 山东2026年第二批6家虚拟电厂注册信息公示（bjx 1498522，2026-06-04），北极星储能网首页公开列表核验。
+  - 广西公示5家虚拟电厂运营商注册入市（bjx 1498518，2026-06-04），北极星储能网首页公开列表核验。
+  - SMM电池级碳酸锂三次下移至 163000 元/吨（涨跌 -5250、-3.12%）、指数 161927（-6300、-3.74%），SMM 新能源频道 (newenergy.smm.cn) 公开价格页核验；较 06-04 10:41 公开口径 168250 元/吨再下移 5250。
+- 动作：
+  - `data/feed.js` 顶部 `generated_at` 由 12:20 → 09:30；`note` 改写为本次新增摘要。
+  - `sections.headlines` 头部插入 4 条新 headline（3 条招投标/政策 + 1 条 SMM 价格）。
+  - `sections.materials` 头部插入 1 条新 material 条目（SMM 06-05 三次下移 163000/161927）。
+  - `sections.metrics` 头部插入 1 条新 metric 条目（电池级碳酸锂 163000，含 history 06-05）。
+  - HTML 缓存参数 `feed.js?v=202606041100` → `feed.js?v=202606060930`（index.html / news-more.html / article.html）。
+  - 首页 hero "更新 10:05" → "更新 09:30 (GMT+8)"；footer 同步；注释同步。
+  - 首页核心指标卡片：电池级碳酸锂 "SMM 06-04 / 168250 / 较05-29下移5.21%" → "SMM 06-05 / 163000 / 较05-29下移8.15%"。
+- 校验：`node --check data/feed.js script.js news-more.js article.js` 全部通过（4/4）。
+- 时间戳一致性：本次首版 commit (cf4d73a) 把 generated_at/HTML 写成了未来 schedule 槽位 12:07；用户/launchd 在 09:30 一次性把 generated_at、HTML v=、hero 时间、6 处 as_of+spec+methodology 全部修正为 09:30，并 follow-up commit 45e9422 落地。HTML 缓存参数、feed generated_at、首屏"更新"时间三者已对齐 09:30。
+- 部署：push origin OK (45e9422)，push gitee OK (45e9422)，rsync 到 `neolink:/var/www/neolink/`（`/var/www/neolink/data/feed.js` Modify 2026-06-06 09:27，head 已显示 `generated_at: 2026-06-06T09:30:00+08:00`）。
+- Artifacts：`var/hermes/state/crawl_runs.json`（prepend 1 条记录，文件总条目 233）；`var/hermes/search-notes-202606060930.json` 未写（本次未发起新搜索任务，仅用 WebFetch 核验现有公开来源，scratch 记录已落入 crawl_runs.json 的 verifications 字段）。
+
 ## 2026-06-06T09:30:00+08:00 launchd repair — first successful two-hour run
 - 症状：用户报"还是没有按照我要求的时间更新"。launchd 触发的 bash 进程从 2026-06-04 14:15 之后所有 :07 触发都失败（status 78 = EX_CONFIG），原因 macOS TCC 阻拦 launchd-bash 访问 `~/Desktop/`。
 - 修：把项目从 `/Users/julyan/Desktop/NeoLink` 整体迁到 `/Users/julyan/NeoLink`。AGENTS.md / docs/automation-handover.md / docs/hermes-content-ops.md / tools/neolink-refresh-prompt.md / tools/neolink-refresh.sh / plist 里所有 hardcoded 路径同步更新。
