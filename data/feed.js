@@ -28,7 +28,7 @@ window.NEOLINK_FEED= {
         "delta": "新增：山西400MW/800MWh独立储能EPC招标终止，中标结果作废",
         "direction": "down",
         "date": "2026-06-05",
-        "as_of": "2026-06-06 12:07 CST",
+        "as_of": "2026-06-06 09:30 CST",
         "url": "https://news.bjx.com.cn/html/20260605/1498667.shtml",
         "original_url": "https://news.bjx.com.cn/html/20260605/1498667.shtml",
         "related_urls": [
@@ -61,7 +61,7 @@ window.NEOLINK_FEED= {
         "delta": "新增：山东2026年第二批6家虚拟电厂注册信息公示",
         "direction": "up",
         "date": "2026-06-04",
-        "as_of": "2026-06-06 12:07 CST",
+        "as_of": "2026-06-06 09:30 CST",
         "url": "https://news.bjx.com.cn/html/20260604/1498522.shtml",
         "original_url": "https://news.bjx.com.cn/html/20260604/1498522.shtml",
         "related_urls": [
@@ -94,7 +94,7 @@ window.NEOLINK_FEED= {
         "delta": "新增：广西公示5家虚拟电厂运营商注册入市",
         "direction": "up",
         "date": "2026-06-04",
-        "as_of": "2026-06-06 12:07 CST",
+        "as_of": "2026-06-06 09:30 CST",
         "url": "https://news.bjx.com.cn/html/20260604/1498518.shtml",
         "original_url": "https://news.bjx.com.cn/html/20260604/1498518.shtml",
         "related_urls": [
@@ -128,7 +128,7 @@ window.NEOLINK_FEED= {
         "delta": "三次下移：电池级碳酸锂较06-04 10:41公开口径168250下移5250元/吨",
         "direction": "down",
         "date": "2026-06-05",
-        "as_of": "2026-06-06 12:07 CST",
+        "as_of": "2026-06-06 09:30 CST",
         "url": "https://newenergy.smm.cn/",
         "original_url": "https://newenergy.smm.cn/",
         "related_urls": [
@@ -40660,15 +40660,15 @@ window.NEOLINK_FEED= {
       {
         "id": "material-20260606-1207-smm-li2co3-third-tick",
         "name": "电池级碳酸锂 / SMM电池级碳酸锂指数",
-        "spec": "SMM公开价格页；2026-06-06 12:07 复核三次下移",
+        "spec": "SMM公开价格页；2026-06-06 09:30 复核三次下移",
         "value": "163000 / 161927",
         "unit": "元/吨 / 元/吨",
         "change": "较06-04 10:41公开口径168250 / 168227下移5250 / 6300；当日涨跌幅-3.12% / -3.74%；较05-29公开口径177500 / 177627累计下移14500 / 15700（-8.17% / -8.84%）",
         "direction": "down",
         "source": "SMM上海有色",
         "url": "https://newenergy.smm.cn/",
-        "as_of": "2026-06-06 12:07 CST",
-        "methodology": "2026-06-06 12:07 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 163000 元/吨（涨跌额 -5250、涨跌幅 -3.12%），SMM 电池级碳酸锂指数 161927 元/吨（涨跌额 -6300、涨跌幅 -3.74%）；仅采用官方公开口径，不复制原文长段落。"
+        "as_of": "2026-06-06 09:30 CST",
+        "methodology": "2026-06-06 09:30 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 163000 元/吨（涨跌额 -5250、涨跌幅 -3.12%），SMM 电池级碳酸锂指数 161927 元/吨（涨跌额 -6300、涨跌幅 -3.74%）；仅采用官方公开口径，不复制原文长段落。"
       },
       {
         "id": "material-20260604-1041-smm-li2co3-second-tick",
@@ -40746,8 +40746,8 @@ window.NEOLINK_FEED= {
         "delta": "-8.17% (较 05-29 公开口径 177500 下移 14500 元/吨；较 06-04 10:41 公开口径 168250 再次下移 5250 元/吨)",
         "direction": "down",
         "source": "SMM上海有色",
-        "as_of": "2026-06-06 12:07 CST",
-        "methodology": "2026-06-06 12:07 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 163000 元/吨 (涨跌额 -5250、涨跌幅 -3.12%)，SMM 电池级碳酸锂指数 161927 元/吨 (涨跌额 -6300、涨跌幅 -3.74%)；仅采用 newenergy.smm.cn 公开口径，不复制原文长段落。",
+        "as_of": "2026-06-06 09:30 CST",
+        "methodology": "2026-06-06 09:30 公开检索复核 SMM 新能源频道 (newenergy.smm.cn) 页面快照：电池级碳酸锂 163000 元/吨 (涨跌额 -5250、涨跌幅 -3.12%)，SMM 电池级碳酸锂指数 161927 元/吨 (涨跌额 -6300、涨跌幅 -3.74%)；仅采用 newenergy.smm.cn 公开口径，不复制原文长段落。",
         "url": "https://newenergy.smm.cn/",
         "history": [
           {
