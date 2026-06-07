@@ -1,3 +1,13 @@
+## 2026-06-07T11:13:46+08:00 two-hour refresh — no-change
+- 本地基线：`data/feed.js generated_at=2026-06-06T10:09:38+08:00`（e09cd41）；HTML 缓存参数 `feed.js?v=202606060930`（news-more/article）/`feed.js?v=202605151100`（index，e09cd41 bump 错误导致 stale 23 天）；index.html hero 三处 "更新 10:09 (GMT+8)"。
+- 线上回读：`curl -sI -m 8 http://neolink.asia/` HTTP 200（nginx/1.24.0 Ubuntu）；`/data/feed.js` head 显示 `generated_at: 2026-06-06T21:24:00+08:00`、`note: 新增2026-06-06招标2条：中国能建30GWh集采、贵州300MW/1.2GWh储能EPC`、schema 为扁平 `headlines[]`（9 条），**与本地 e09cd41（10:09, `sections.headlines[38]/latest[154]/metrics[75]/materials[36]`）严重 schema/内容不同步**。服务器 HTML hero "2026年6月7日　更新 06:06 (GMT+8)" 与 feed.js 21:24 也不一致（hero 晚 9 小时）。首页 sha256 `e6614afe56dc0ce16c5bc6f9e4625fe7e00221cfa399ee0cd0020f806f5ae8f0`。
+- 公开来源核验：BJX 文章 1498841/1498837/BJX 招标频道列表 均返回 WAF obfuscation 单变量 JS payload，无可读文本；SMM newenergy 行情页 复核仍为 2026-06-05 数据（电池级碳酸锂 163000元/吨，指数 161927，本地 10:09 已含），无 2026-06-06/06-07 新报价；CNESA 首页 最新文章 2026-05-26，无 2026-06-06/06-07 储能/招标/投运 新增；WebSearch 两次均返回 API Error 400 (invalid params)。
+- 新增采信：无。服务器上多出的 2 条 2026-06-06 招标（中国能建30GWh集采、贵州300MW/1.2GWh EPC）来源 URL 公开页面 BJX WAF 拦截，**无法核验**，按硬规则 #1+#2 不纳入本地。
+- 动作：无内容变更，仅记录。严守硬规则 1+2：不修改 `data/feed.js`、不 bump `feed.js?v=`、不动 hero 时间，不 commit、不 push、不 rsync。本地/服务器 schema divergence（本地 sections vs 服务器扁平）超出本 run 处置范围。
+- 校验：本轮无文件修改，未运行 `node --check`（无变更需校验）。
+- 部署：跳过（no-change，按规则不部署）。**注意**：服务器与本地长期 schema 不同步（至少 14 小时，e09cd41 后任何 rsync 失败都会放大此 divergence），建议下次 updated run 优先排查服务器 feed.js 写入路径。
+- Artifacts：`var/hermes/search-notes-202606071113.json`（7 条核验尝试记录）、`var/hermes/state/crawl_runs.json` prepend（总条目 234 → 235）。
+
 ## 2026-06-06T10:07:29+08:00 two-hour refresh — no-change
 - 本地基线：`data/feed.js generated_at=2026-06-06T09:30:00+08:00`，HTML 缓存参数三处一致 `feed.js?v=202606060930`，index.html hero 三处 "更新 09:30 (GMT+8)" 完全对齐。
 - 线上回读：`curl -sI -m 8 http://neolink.asia/` HTTP 200（nginx/1.24.0 Ubuntu），`Last-Modified: Sat, 06 Jun 2026 01:25:54 GMT`（= 09:25:54 +08:00），`/data/feed.js` head 显示 `generated_at: 2026-06-06T09:30:00+08:00`，与本地一致。首页 sha256 `b21a4e1c13fd7947560c7abe648b8dbe711c8aba05867ef3d2bce54b334b17ed`。

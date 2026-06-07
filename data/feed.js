@@ -1,6 +1,6 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-06-06T10:09:38+08:00",
-  "note": "10:09严格小时刷新：抓取北极星储能网招标频道，新增7条今日/昨日储能招标信息。",
+  "generated_at": "2026-06-06T11:25:00+08:00",
+  "note": "10:09严格小时刷新：抓取北极星储能网招标频道，新增7条今日/昨日储能招标信息；11:25 一次性修复 local/server schema divergence（服务器 21:24 版扁平 headlines 不可核验，deploy 当前 10:09 local 版）。",
   "sections": {
     "headlines": [
       {
