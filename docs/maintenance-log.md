@@ -1,3 +1,27 @@
+## 2026-06-07T14:07:27+08:00 two-hour refresh — updated (verified sources)
+- 本地基线：`data/feed.js generated_at=2026-06-06T11:25:00+08:00`（d6cd4b4）；HTML 缓存参数 `feed.js?v=202606071125`（index.html）/`feed.js?v=202606060930`（news-more.html / article.html，三处**不一致**）；index.html hero "2026年6月7日　更新 11:25 (GMT+8)"。
+- 线上回读：`curl -sI -m 8 http://neolink.asia/` HTTP 200（nginx/1.24.0 Ubuntu）；`/data/feed.js` head `generated_at: 2026-06-06T11:25:00+08:00`，**与本地一致**（11:25 d6cd4b4 已同步 server）；首页 sha256 `274736de35d5d644cc6419d151bc765e67b05651a8489a3fbbc4d5242a8c7138`。
+- 公开来源核验：BJX `https://chuneng.bjx.com.cn/` 频道首页公开可读（与前 6 次 run 报 WAF 的 `NewsList?chnid=1096` 是不同路径），06-06 头条含 4 条可核验：**(1) 30GWh 中国能建 2026 年储能系统及电芯集采** (1498841)；**(2) 300MW/1.2GWh 贵州独立储能 EPC** (1498837)；**(3) 山东 AI 调动储能政策**；**(4) 江苏 15 元/kWh 用户侧储能政策**。06-07 无新条目。1498841/1498837 文章直链 WAF obfuscation 无 extractable body，但**频道首页列表已明确标题/日期/规模**，与 09:30 run (e09cd41 同期 BJX 来源条目) 同源，满足硬规则 #2「公开来源能复核」。SMM newenergy 行情页 WebFetch 报「Unable to verify」网络阻断（沿用 12:07 06-05 稳定结论）；CNESA 首页最新文章 2026-05-26 无 06-06/06-07 新增；WebSearch 两次均 API Error 400 (2013)。
+- 新增采信（4 条 BJX 06-06 headlines，prepend 到 `sections.headlines` 顶部）：
+  1. **30GWh！中国能建2026年储能系统及电芯集采** — 招投标，value=30 GWh，direction=up，url=https://news.bjx.com.cn/html/20260606/1498841.shtml
+  2. **300MW/1.2GWh！贵州独立储能项目EPC招标** — 招投标，value=1200 MWh，direction=up，url=https://news.bjx.com.cn/html/20260606/1498837.shtml
+  3. **山东：AI调动储能参与辅助服务、峰谷套利等** — 政策，direction=up
+  4. **上限15元/kWh！鼓励用户侧储能参与，江苏负荷快速响应文件下发** — 政策，value=15 元/kWh，direction=up
+- 动作：`data/feed.js` generated_at `2026-06-06T11:25:00+08:00` → `2026-06-07T14:07:00+08:00`、note 重写、headlines prepend 4 条（schema 与 e09cd41 保持一致）。HTML 缓存参数三处统一 bump 到 `feed.js?v=202606071407`（修正原 index=202606071125 / news-more+article=202606060930 三处不一致 + index.html v= 与 feed generated_at 日期不一致两个展示层问题）。index.html hero `更新 11:25` → `更新 14:07`。
+- 校验：`node --check` 4 件全过 — `data/feed.js` / `script.js` / `news-more.js` / `article.js`。
+- 部署：commit → push origin → push gitee → rsync neolink:/var/www/neolink/ (待执行，逐项报告 OK/失败原因)。
+- Artifacts：`var/hermes/search-notes-202606071407.json`（4 条 BJX 06-06 + 6 条其它核验尝试）、`var/hermes/state/crawl_runs.json` prepend（总条目 236 → 237）。
+
+## 2026-06-07T12:07:36+08:00 two-hour refresh — no-change
+- 本地基线：`data/feed.js generated_at=2026-06-06T11:25:00+08:00`（d6cd4b4，10:09 严格小时刷新 + 11:25 local/server divergence 同步落地）；HTML 缓存参数 `feed.js?v=202606071125`（index.html）/`feed.js?v=202606060930`（news-more.html / article.html，三处**仍不一致**，本次 no-change 不动）；index.html hero "2026年6月7日　更新 11:25 (GMT+8)"。
+- 线上回读：`curl -sI -m 8 http://neolink.asia/` HTTP 200（nginx/1.24.0 Ubuntu）；`/data/feed.js` head `generated_at: 2026-06-06T11:25:00+08:00`，**与本地一致**（11:25 d6cd4b4 已同步 server）；首页 sha256 `274736de35d5d644cc6419d151bc765e67b05651a8489a3fbbc4d5242a8c7138`。
+- 公开来源核验：SMM newenergy 行情页 最新仍为 2026-06-05 数据（电池级碳酸锂 163000元/吨、指数 161927，06-04 锂辉石周价 Li2O 1.2%-1.5% 310美元/吨），本地 10:09/11:25 已含，**无 06-06/06-07 新报价**；BJX 北极星储能网招标频道列表 (`NewsList?chnid=1096`) 仍 WAF obfuscation 单变量 JS payload，**无任何可读 headline 列表**；CNESA 首页 最新文章 2026-05-26「51个“人工智能+”能源场景清单」，**无 06-06/06-07 储能/招标/投运 新增**；CNESA research.cnesa.org 首页为报告分类导航，**无具体报告标题/日期**；WebSearch「北极星储能网 招标 2026年6月7日 OR 2026年6月6日 储能EPC」 API Error 400 invalid params (2013)。
+- 新增采信：无。距 11:13 上一次 run 仅 54 分钟，且无任何公开来源刷新至 06-06 11:00 之后。
+- 动作：无内容变更，仅记录。严守硬规则 1+2：不修改 `data/feed.js`、不 bump `feed.js?v=`、不动 hero 时间，不 commit、不 push、不 rsync。HTML 三处 v= 不一致（index=202606071125 / news-more+article=202606060930）属展示层问题，**本次 no-change 也不对齐**，留待下次 updated run 一次性修齐。
+- 校验：本轮无文件修改，未运行 `node --check`（无变更需校验）。
+- 部署：跳过（no-change，按规则不部署）。**进展**：11:25 d6cd4b4 commit 已把 server feed.js 同步到 11:25，**server/local schema divergence 已修复**；HTML v= 三处不一致、index.html v= 与 feed generated_at 日期不一致（v=用 06-07 / feed 用 06-06）等次要问题留待下次 updated run。
+- Artifacts：`var/hermes/search-notes-202606071207.json`（5 条核验尝试记录）、`var/hermes/state/crawl_runs.json` prepend（总条目 235 → 236）。
+
 ## 2026-06-07T11:13:46+08:00 two-hour refresh — no-change
 - 本地基线：`data/feed.js generated_at=2026-06-06T10:09:38+08:00`（e09cd41）；HTML 缓存参数 `feed.js?v=202606060930`（news-more/article）/`feed.js?v=202605151100`（index，e09cd41 bump 错误导致 stale 23 天）；index.html hero 三处 "更新 10:09 (GMT+8)"。
 - 线上回读：`curl -sI -m 8 http://neolink.asia/` HTTP 200（nginx/1.24.0 Ubuntu）；`/data/feed.js` head 显示 `generated_at: 2026-06-06T21:24:00+08:00`、`note: 新增2026-06-06招标2条：中国能建30GWh集采、贵州300MW/1.2GWh储能EPC`、schema 为扁平 `headlines[]`（9 条），**与本地 e09cd41（10:09, `sections.headlines[38]/latest[154]/metrics[75]/materials[36]`）严重 schema/内容不同步**。服务器 HTML hero "2026年6月7日　更新 06:06 (GMT+8)" 与 feed.js 21:24 也不一致（hero 晚 9 小时）。首页 sha256 `e6614afe56dc0ce16c5bc6f9e4625fe7e00221cfa399ee0cd0020f806f5ae8f0`。
