@@ -9,6 +9,13 @@
 
 ## 硬规则（任何情况下都不能违反）
 
+> **§0 — 自我记录**（最高优先级，比 freshness 还优先）
+>
+> 0. **`generated_at` 必须用 run 当时的实际时间**（shell `date -Iseconds` 或 `new Date().toISOString()`）。**禁止**用未来 schedule 时间、禁止用过去时间。违反这条立刻写一行 `BUG: timestamp` 到维护日志。
+> 1. **log footer 必须写**：每次 run 结束必须在 `var/hermes/runs/refresh-*.log` 写一行 `=== neolink refresh finished at ... ===`。如果脚本框架已 trap 写好 footer，**不要去重写或删除**；如果发现 footer 缺失（说明脚本被 SIGKILL 而非 SIGTERM），立刻在维护日志写一行 `WARN: previous run was SIGKILLed, no footer`。
+> 2. **rsync 失败必须显式记**：如果 rsync 退出码非 0，**不要**在维护日志写"已同步"或类似成功措辞。写 `rsync FAILED: <exit code>` + 错误输出片段。
+> 3. **server drift 必须显式记**：每次 run 都 `ssh neolink "head -3 /var/www/neolink/data/feed.js"` 拿 server 当前 generated_at 和 schema。如果 server 用扁平 `headlines[]` 无 `sections` 包裹（外部 Codex 写入），写 `P0 server drift re-detected: server schema=<plain|wrapped>, local schema=wrapped`，然后 rsync 覆盖。
+
 1. **不伪造 freshness**。如果这次没找到**可核验的**新增（公开来源能复核），就**保持** `data/feed.js` 的 `generated_at`、HTML 里的 `feed.js?v=...`、首页 hero 时间戳、指标卡片、移动端兜底**全部不变**。把这次跑记为 `no-change`。
 2. **可核验**意味着公开来源页面（比如 SMM 行情页、官方公告、招标平台）当前还能访问且显示对应数据。**不能**只凭印象或模型记忆就改 feed。
 3. **任何文件编辑之前**，先读 `docs/automation-handover.md` 和 `docs/hermes-content-ops.md`，按它们的规则走。

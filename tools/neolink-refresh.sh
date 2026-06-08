@@ -1,20 +1,46 @@
 #!/usr/bin/env bash
 # NeoLink homepage two-hour refresh runner.
-# Invoked by launchd (com.neolink.homepage-refresh) every hour at :07.
+# Invoked by launchd (com.neolink.homepage-refresh) every 2 hours at :07.
 # Also safe to run manually: `bash tools/neolink-refresh.sh`
 #
 # Exit code is always 0 — launchd should not enter a death loop on a single
 # failed run. The actual run outcome is recorded in var/hermes/runs/*.log
 # and in the maintenance logs.
+#
+# Trap guarantees the log footer is written on EXIT/INT/TERM (and the
+# .current sentinel is removed) so a SIGKILLed run still leaves a trace
+# that the watchdog can detect.
 
 set -uo pipefail
 
-ROOT="/Users/julyan/NeoLink"
+ROOT="/Users/julyan/Desktop/NeoLink"
+[ -d "/Users/julyan/NeoLink" ] && ROOT="/Users/julyan/NeoLink"
+
 PROMPT="$ROOT/tools/neolink-refresh-prompt.md"
 TS="$(date +%Y%m%d%H%M)"
 LOG_DIR="$ROOT/var/hermes/runs"
+SENTINEL="$LOG_DIR/.current"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/refresh-${TS}.log"
+
+# Write sentinel: marks an in-progress run. Watchdog reads this to detect
+# abandoned runs (sentinel older than 30 min).
+echo "$(date -Iseconds) start claude_bin=/opt/homebrew/bin/claude root=$ROOT" > "$SENTINEL"
+
+# Trap to ALWAYS write log footer + remove sentinel on exit.
+# Note: SIGKILL (-9) cannot be trapped; for that case, the .current
+# sentinel stays on disk and the watchdog detects a stale run.
+cleanup() {
+  local rc=$?
+  {
+    echo "--- claude -p exited with $rc ---"
+    echo "=== neolink refresh finished at $(date -Iseconds) (exit=$rc) ==="
+  } >> "$LOG_FILE" 2>&1
+  rm -f "$SENTINEL"
+}
+trap cleanup EXIT
+trap 'cleanup; exit 130' INT
+trap 'cleanup; exit 143' TERM
 
 # Use the real npm-installed claude binary by absolute path. The cmux-bundled
 # `claude` in /Applications/cmux.app/.../bin shadows the real one in
@@ -43,7 +69,13 @@ fi
 PROMPT_TEXT="$(cat "$PROMPT")"
 
 # System-level reinforcement of the hard rules.
-SYSTEM_PROMPT="You are the NeoLink homepage two-hour refresh automation. Project root: $ROOT. Strictly follow docs/automation-handover.md §3 (freshness rules) and docs/hermes-content-ops.md (content schema and rsync conventions). On no-change: do NOT bump generated_at, feed.js?v=, or any visible timestamps. On update: commit to local main, push to BOTH origin (github.com/JulyanXu/NeoLink) and gitee (gitee.com/JulyanXu/NeoLink), then rsync to neolink:/var/www/neolink/. If any push or rsync fails, report the exact failure cause in the maintenance log — do NOT claim success. Always append (prepend) an entry to BOTH docs/maintenance-log.md AND var/hermes/maintenance-log.md, and prepend a record to var/hermes/state/crawl_runs.json. Stay within /Users/julyan/NeoLink. Do not edit nginx, /var/www/neolink, or anything outside the project. Exit cleanly."
+SYSTEM_PROMPT="You are the NeoLink homepage two-hour refresh automation. Project root: $ROOT. Strictly follow docs/automation-handover.md §3 (freshness rules) and docs/hermes-content-ops.md (content schema and rsync conventions). On no-change: do NOT bump generated_at, feed.js?v=, or any visible timestamps. On update: commit to local main, push to BOTH origin (github.com/JulyanXu/NeoLink) and gitee (gitee.com/JulyanXu/NeoLink), then rsync to neolink:/var/www/neolink/. If any push or rsync fails, report the exact failure cause in the maintenance log — do NOT claim success. Always append (prepend) an entry to BOTH docs/maintenance-log.md AND var/hermes/maintenance-log.md, and prepend a record to var/hermes/state/crawl_runs.json. Stay within /Users/julyan/NeoLink. Do not edit nginx, /var/www/neolink, or anything outside the project. Exit cleanly.
+
+HARD RULES — NON-NEGOTIABLE:
+- generated_at MUST be set to the current run's actual time (use shell 'date -Iseconds' or the new Date().toISOString()), NEVER a future scheduled time and NEVER an old value.
+- The log file MUST end with a '=== neolink refresh finished at ... ===' footer. If you cannot write the footer for any reason, explicitly log 'ABORT: cannot write footer' to the log.
+- If any external rsync or push fails, log the exact error verbatim — do NOT claim '已同步' or success.
+- If you find server has different content than local, log 'P0 server drift re-detected' and proceed with rsync to overwrite."
 
 # Strict tool allowlist: only the project-maintenance surface.
 # This way, even if the prompt drifts, the agent can't escape the project.
@@ -64,7 +96,7 @@ ALLOWED='Bash(git:*),Bash(rsync:*),Bash(ssh:*),Bash(node:*),Bash(curl:*),Bash(sh
   RC=$?
 
   echo "--- claude -p exited with $RC ---"
-  echo "=== neolink refresh finished at $(date -Iseconds) ==="
+  echo "=== neolink refresh finished at $(date -Iseconds) (exit=$RC) ==="
 } >> "$LOG_FILE" 2>&1
 
 # Always exit 0 so launchd doesn't disable us after a single bad run.
