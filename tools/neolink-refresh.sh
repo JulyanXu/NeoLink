@@ -95,8 +95,36 @@ ALLOWED='Bash(git:*),Bash(rsync:*),Bash(ssh:*),Bash(node:*),Bash(curl:*),Bash(sh
     2>&1
   RC=$?
 
-  echo "--- claude -p exited with $RC ---"
-  echo "=== neolink refresh finished at $(date -Iseconds) (exit=$RC) ==="
+  echo "--- claude -p exited with $RC ==="
+
+  # ALWAYS rsync after claude -p, regardless of what the LLM did or didn't do.
+  # This ensures the deploy step survives even if claude -p is SIGKILLed before
+  # it can complete step 10 of the prompt. Idempotent: if the LLM already
+  # rsynced, this is a no-op. If the LLM didn't rsync, this catches up.
+  echo "--- post-claude mandatory rsync starting ---"
+  rsync -avz --delete \
+    --exclude='sources/' \
+    "$ROOT"/index.html \
+    "$ROOT"/news-more.html \
+    "$ROOT"/article.html \
+    "$ROOT"/enterprise-map.html \
+    "$ROOT"/styles.css \
+    "$ROOT"/script.js \
+    "$ROOT"/news-more.js \
+    "$ROOT"/article.js \
+    "$ROOT"/enterprise-map.js \
+    "$ROOT"/bg-light.png \
+    "$ROOT"/bg-dark.png \
+    "$ROOT"/sidebar.png \
+    "$ROOT"/side.png \
+    "$ROOT"/Logo.png \
+    "$ROOT"/favicon.png \
+    "$ROOT"/data \
+    neolink:/var/www/neolink/ 2>&1
+  RS=$?
+  echo "--- post-claude rsync exit: $RS ---"
+
+  echo "=== neolink refresh finished at $(date -Iseconds) (claude=$RC rsync=$RS) ==="
 } >> "$LOG_FILE" 2>&1
 
 # Always exit 0 so launchd doesn't disable us after a single bad run.
