@@ -77,10 +77,13 @@ else
 fi
 
 # Check 5: server has a stale external "扁平 headlines" schema (server drift type B).
+# Note: 'headlines' lives on line 4+ of feed.js, not in the first 3 lines. Use
+# head -20 to span the schema headers, and check both keywords anywhere in
+# the response.
 if [ -n "$local_v" ] && [ -n "$server_v" ] && [ "$local_v" = "$server_v" ]; then
-  # Same v= but server might still have wrong schema. Check feed.js head structure.
-  server_feed_head=$(ssh -o ConnectTimeout=5 neolink "head -3 /var/www/neolink/data/feed.js 2>/dev/null" 2>/dev/null || echo "")
-  if echo "$server_feed_head" | grep -q "headlines" && ! echo "$server_feed_head" | grep -q "sections"; then
+  # Same v= but server might still have wrong schema. Check feed.js first ~20 lines.
+  server_feed_head=$(ssh -o ConnectTimeout=5 neolink "head -20 /var/www/neolink/data/feed.js 2>/dev/null" 2>/dev/null || echo "")
+  if echo "$server_feed_head" | grep -q '"headlines"' && ! echo "$server_feed_head" | grep -q '"sections"'; then
     issues+=("server_schema_drift_flat_headlines")
     [ -z "$heal_action" ] && heal_action="rsync_only"
   fi

@@ -332,9 +332,40 @@ const ensureMetricMeta = (card) => {
   return meta;
 };
 
+// Flat-schema fallback: Codex (running on the server) sometimes overwrites
+// /var/www/neolink/data/feed.js with the OLD flat-headlines shape (no
+// sections wrapper). When that happens, synthesize a sections object from
+// the top-level flat arrays so the page degrades to "show the flat
+// headlines" instead of "show nothing".
+const synthesizeSectionsFromFlat = (feed) => {
+  const flat = (key) => Array.isArray(feed?.[key]) ? feed[key] : [];
+  return {
+    headlines: flat("headlines"),
+    latest: flat("latest").length ? flat("latest") : flat("headlines"),
+    enterprise: flat("enterprise"),
+    policy: flat("policy"),
+    project: flat("project"),
+    materials: flat("materials"),
+    safety: flat("safety"),
+    legal: flat("legal"),
+    ipo: flat("ipo"),
+    metrics: flat("metrics"),
+    overseas: flat("overseas"),
+    source_index: flat("source_index"),
+  };
+};
+
 const renderSectionContent = () => {
-  const sections = window.NEOLINK_FEED?.sections;
-  if (!sections) return;
+  const feed = window.NEOLINK_FEED;
+  if (!feed) return;
+  let sections = feed.sections;
+  if (!sections) {
+    console.warn(
+      "[neolink] feed.sections missing — server returned flat-headlines schema. " +
+      "Degrading to flat render. Watchdog will rsync the wrapped schema within 30 min."
+    );
+    sections = synthesizeSectionsFromFlat(feed);
+  }
 
   renderPageTimestamps();
   renderFocusList(sections);
