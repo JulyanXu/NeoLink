@@ -102,28 +102,38 @@ log "heal_action: $heal_action"
 rm -f "$SENTINEL"
 
 if [ "$heal_action" = "rsync_only" ]; then
-  log "action: manual rsync to align server"
-  rsync -avz --delete \
-    --exclude='sources/' \
-    "$ROOT"/index.html \
-    "$ROOT"/news-more.html \
-    "$ROOT"/article.html \
-    "$ROOT"/enterprise-map.html \
-    "$ROOT"/styles.css \
-    "$ROOT"/script.js \
-    "$ROOT"/news-more.js \
-    "$ROOT"/article.js \
-    "$ROOT"/enterprise-map.js \
-    "$ROOT"/bg-light.png \
-    "$ROOT"/bg-dark.png \
-    "$ROOT"/sidebar.png \
-    "$ROOT"/side.png \
-    "$ROOT"/Logo.png \
-    "$ROOT"/favicon.png \
-    "$ROOT"/data \
-    neolink:/var/www/neolink/ >> "$WD_LOG" 2>&1
-  rc=$?
-  log "rsync exit: $rc"
+  log "action: manual rsync to align server (with retry loop, max 3 attempts)"
+  for attempt in 1 2 3; do
+    rsync -avz --delete \
+      --exclude='sources/' \
+      "$ROOT"/index.html \
+      "$ROOT"/news-more.html \
+      "$ROOT"/article.html \
+      "$ROOT"/enterprise-map.html \
+      "$ROOT"/styles.css \
+      "$ROOT"/script.js \
+      "$ROOT"/news-more.js \
+      "$ROOT"/article.js \
+      "$ROOT"/enterprise-map.js \
+      "$ROOT"/bg-light.png \
+      "$ROOT"/bg-dark.png \
+      "$ROOT"/sidebar.png \
+      "$ROOT"/side.png \
+      "$ROOT"/Logo.png \
+      "$ROOT"/favicon.png \
+      "$ROOT"/data \
+      neolink:/var/www/neolink/ >> "$WD_LOG" 2>&1
+    rc=$?
+    log "rsync attempt $attempt exit: $rc"
+    # Re-check: if server is now wrapped (sections keyword present), we're done.
+    server_feed=$(ssh -o ConnectTimeout=5 neolink "head -20 /var/www/neolink/data/feed.js 2>/dev/null" 2>/dev/null || echo "")
+    if echo "$server_feed" | grep -q '"sections"'; then
+      log "server now wrapped after attempt $attempt"
+      break
+    fi
+    log "server still flat after attempt $attempt, retrying"
+    sleep 2
+  done
   exit 0
 fi
 
