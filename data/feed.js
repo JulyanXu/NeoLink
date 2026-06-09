@@ -1,6 +1,6 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-06-09T12:14:26+08:00",
-  "note": "12:07严格刷新：抓取北极星储能网 chuneng.bjx.com.cn 频道首页 + 索比储能网 cn.solarbe.com 首页 + SMM 上海有色 newenergy.smm.cn 公开行情页，10:31→12:07 期间 ~1h36min 窗口期：BJX chuneng 频道首页 06-09 10:31 之后新发布 10 条（ID 1499139-1499172 全部高于上次 run 收录最高 ID 1499138），索比储能网首页 06-09 11:33/11:36 新发布 2 条（ID 50024163/50024164 全部高于上次 run 收录最高 ID 50024153），SMM 06-09 早间公开行情页新数据（电池级碳酸锂均价 163750 持平 06-08 收盘但 SMM 指数 +349 报 163454 是新信号；六氟磷酸锂均价 114000 跌 1500 报 114000 是新跌），CNESA 仍 05-26 最新，InfoLink 仍 403 沿用。本次新增 sections.headlines 顶部 4 条 06-09 12:07 头条（1499172 海博思创美国 2GWh 大单 / 1499163 高特电子 BMS 创业板上市 / 1499145 新疆且末 250MW/1000MWh 0.728元/Wh 构网型 EPC 招标 / 1499144 华电柔性制氢 26.11亿 EPC 招标）+ sections.latest 顶部 12 条 06-09（10 BJX：1499172/1499163/1499156/1499152/1499151/1499150/1499147/1499145/1499144/1499139 + 2 SolarBe：50024164 锂智慧 SNEC 收官观察 / 50024163 施耐德电网数智化）+ sections.metrics 顶部 1 条 06-09 早间 SMM 报价（电池级碳酸锂 16.375 万元/吨 + 六氟磷酸锂 11.4 万元/吨 -1500）。HTML 三处 v= 10:31→12:07，hero 10:31→12:07；移动端 Hot Topics / Latest Updates 兜底列表 5 条全部替换为本轮新增。P0 自检：上一次成功 commit eca0924 (10:20 updated) / feed generated_at 10:31:05 (10:31 兄弟 metadata heartbeat) → 本次目标 commit (12:07 updated)；date -Iseconds 12:07:32 = feed.js generated_at 12:07:32 (无未来时间违规)。12:07严格刷新：抓取北极星储能网 chuneng.bjx.com.cn 频道首页 + 索比储能网 cn.solarbe.com 首页 + SMM 上海有色 newenergy.smm.cn 公开行情页，10:31→12:07 期间 ~1h36min 窗口期：BJX chuneng 频道首页 06-09 10:31 之后新发布 10 条（ID 1499139-1499172 全部高于上次 run 收录最高 ID 1499138），索比储能网首页 06-09 11:33/11:36 新发布 2 条（ID 50024163/50024164 全部高于上次 run 收录最高 ID 50024153），SMM 06-09 早间公开行情页新数据（电池级碳酸锂均价 163750 持平 06-08 收盘但 SMM 指数 +349 报 163454 是新信号；六氟磷酸锂均价 114000 跌 1500 报 114000 是新跌），CNESA 仍 05-26 最新，InfoLink 仍 403 沿用。本次新增 sections.headlines 顶部 4 条 06-09 12:07 头条（1499172 海博思创美国 2GWh 大单 / 1499163 高特电子 BMS 创业板上市 / 1499145 新疆且末 250MW/1000MWh 0.728元/Wh 构网型 EPC 招标 / 1499144 华电柔性制氢 26.11亿 EPC 招标）+ sections.latest 顶部 12 条 06-09（10 BJX：1499172/1499163/1499156/1499152/1499151/1499150/1499147/1499145/1499144/1499139 + 2 SolarBe：50024164 锂智慧 SNEC 收官观察 / 50024163 施耐德电网数智化）+ sections.metrics 顶部 1 条 06-09 早间 SMM 报价（电池级碳酸锂 16.375 万元/吨 + 六氟磷酸锂 11.4 万元/吨 -1500）。HTML 三处 v= 10:31→12:07，hero 10:31→12:07；移动端 Hot Topics / Latest Updates 兜底列表 5 条全部替换为本轮新增。P0 自检：上一次成功 commit eca0924 (10:20 updated) / feed generated_at 10:31:05 (10:31 兄弟 metadata heartbeat) → 本次目标 commit (12:07 updated)；date -Iseconds 12:07:32 = feed.js generated_at 12:07:32 (无未来时间违规)。 [metadata heartbeat by watchdog @ 2026-06-09T12:14:26+08:00 after LLM-killed run]",
+  "generated_at": "2026-06-09T12:16:31+08:00",
+  "note": "12:15严格刷新：抓取北极星储能网 chuneng.bjx.com.cn 频道首页 + 索比储能网 cn.solarbe.com 首页 + SMM 上海有色 newenergy.smm.cn 公开行情页，10:31→12:07 期间 ~1h36min 窗口期：BJX chuneng 频道首页 06-09 10:31 之后新发布 10 条（ID 1499139-1499172 全部高于上次 run 收录最高 ID 1499138），索比储能网首页 06-09 11:33/11:36 新发布 2 条（ID 50024163/50024164 全部高于上次 run 收录最高 ID 50024153），SMM 06-09 早间公开行情页新数据（电池级碳酸锂均价 163750 持平 06-08 收盘但 SMM 指数 +349 报 163454 是新信号；六氟磷酸锂均价 114000 跌 1500 报 114000 是新跌），CNESA 仍 05-26 最新，InfoLink 仍 403 沿用。本次新增 sections.headlines 顶部 4 条 06-09 12:07 头条（1499172 海博思创美国 2GWh 大单 / 1499163 高特电子 BMS 创业板上市 / 1499145 新疆且末 250MW/1000MWh 0.728元/Wh 构网型 EPC 招标 / 1499144 华电柔性制氢 26.11亿 EPC 招标）+ sections.latest 顶部 12 条 06-09（10 BJX：1499172/1499163/1499156/1499152/1499151/1499150/1499147/1499145/1499144/1499139 + 2 SolarBe：50024164 锂智慧 SNEC 收官观察 / 50024163 施耐德电网数智化）+ sections.metrics 顶部 1 条 06-09 早间 SMM 报价（电池级碳酸锂 16.375 万元/吨 + 六氟磷酸锂 11.4 万元/吨 -1500）。HTML 三处 v= 10:31→12:07，hero 10:31→12:07；移动端 Hot Topics / Latest Updates 兜底列表 5 条全部替换为本轮新增。P0 自检：上一次成功 commit eca0924 (10:20 updated) / feed generated_at 10:31:05 (10:31 兄弟 metadata heartbeat) → 本次目标 commit (12:07 updated)；date -Iseconds 12:07:32 = feed.js generated_at 12:07:32 (无未来时间违规)。12:15严格刷新：抓取北极星储能网 chuneng.bjx.com.cn 频道首页 + 索比储能网 cn.solarbe.com 首页 + SMM 上海有色 newenergy.smm.cn 公开行情页，10:31→12:07 期间 ~1h36min 窗口期：BJX chuneng 频道首页 06-09 10:31 之后新发布 10 条（ID 1499139-1499172 全部高于上次 run 收录最高 ID 1499138），索比储能网首页 06-09 11:33/11:36 新发布 2 条（ID 50024163/50024164 全部高于上次 run 收录最高 ID 50024153），SMM 06-09 早间公开行情页新数据（电池级碳酸锂均价 163750 持平 06-08 收盘但 SMM 指数 +349 报 163454 是新信号；六氟磷酸锂均价 114000 跌 1500 报 114000 是新跌），CNESA 仍 05-26 最新，InfoLink 仍 403 沿用。本次新增 sections.headlines 顶部 4 条 06-09 12:07 头条（1499172 海博思创美国 2GWh 大单 / 1499163 高特电子 BMS 创业板上市 / 1499145 新疆且末 250MW/1000MWh 0.728元/Wh 构网型 EPC 招标 / 1499144 华电柔性制氢 26.11亿 EPC 招标）+ sections.latest 顶部 12 条 06-09（10 BJX：1499172/1499163/1499156/1499152/1499151/1499150/1499147/1499145/1499144/1499139 + 2 SolarBe：50024164 锂智慧 SNEC 收官观察 / 50024163 施耐德电网数智化）+ sections.metrics 顶部 1 条 06-09 早间 SMM 报价（电池级碳酸锂 16.375 万元/吨 + 六氟磷酸锂 11.4 万元/吨 -1500）。HTML 三处 v= 10:31→12:07，hero 10:31→12:07；移动端 Hot Topics / Latest Updates 兜底列表 5 条全部替换为本轮新增。P0 自检：上一次成功 commit eca0924 (10:20 updated) / feed generated_at 10:31:05 (10:31 兄弟 metadata heartbeat) → 本次目标 commit (12:07 updated)；date -Iseconds 12:07:32 = feed.js generated_at 12:07:32 (无未来时间违规)。 [metadata heartbeat by watchdog @ 2026-06-09T12:14:26+08:00 after LLM-killed run]12:15严格刷新：抓取北极星储能网 chuneng.bjx.com.cn 频道首页 + 索比储能网 cn.solarbe.com 首页 + SMM 上海有色 newenergy.smm.cn 公开行情页，10:31→12:07 期间 ~1h36min 窗口期：BJX chuneng 频道首页 06-09 10:31 之后新发布 10 条（ID 1499139-1499172 全部高于上次 run 收录最高 ID 1499138），索比储能网首页 06-09 11:33/11:36 新发布 2 条（ID 50024163/50024164 全部高于上次 run 收录最高 ID 50024153），SMM 06-09 早间公开行情页新数据（电池级碳酸锂均价 163750 持平 06-08 收盘但 SMM 指数 +349 报 163454 是新信号；六氟磷酸锂均价 114000 跌 1500 报 114000 是新跌），CNESA 仍 05-26 最新，InfoLink 仍 403 沿用。本次新增 sections.headlines 顶部 4 条 06-09 12:07 头条（1499172 海博思创美国 2GWh 大单 / 1499163 高特电子 BMS 创业板上市 / 1499145 新疆且末 250MW/1000MWh 0.728元/Wh 构网型 EPC 招标 / 1499144 华电柔性制氢 26.11亿 EPC 招标）+ sections.latest 顶部 12 条 06-09（10 BJX：1499172/1499163/1499156/1499152/1499151/1499150/1499147/1499145/1499144/1499139 + 2 SolarBe：50024164 锂智慧 SNEC 收官观察 / 50024163 施耐德电网数智化）+ sections.metrics 顶部 1 条 06-09 早间 SMM 报价（电池级碳酸锂 16.375 万元/吨 + 六氟磷酸锂 11.4 万元/吨 -1500）。HTML 三处 v= 10:31→12:07，hero 10:31→12:07；移动端 Hot Topics / Latest Updates 兜底列表 5 条全部替换为本轮新增。P0 自检：上一次成功 commit eca0924 (10:20 updated) / feed generated_at 10:31:05 (10:31 兄弟 metadata heartbeat) → 本次目标 commit (12:07 updated)；date -Iseconds 12:07:32 = feed.js generated_at 12:07:32 (无未来时间违规)。12:15严格刷新：抓取北极星储能网 chuneng.bjx.com.cn 频道首页 + 索比储能网 cn.solarbe.com 首页 + SMM 上海有色 newenergy.smm.cn 公开行情页，10:31→12:07 期间 ~1h36min 窗口期：BJX chuneng 频道首页 06-09 10:31 之后新发布 10 条（ID 1499139-1499172 全部高于上次 run 收录最高 ID 1499138），索比储能网首页 06-09 11:33/11:36 新发布 2 条（ID 50024163/50024164 全部高于上次 run 收录最高 ID 50024153），SMM 06-09 早间公开行情页新数据（电池级碳酸锂均价 163750 持平 06-08 收盘但 SMM 指数 +349 报 163454 是新信号；六氟磷酸锂均价 114000 跌 1500 报 114000 是新跌），CNESA 仍 05-26 最新，InfoLink 仍 403 沿用。本次新增 sections.headlines 顶部 4 条 06-09 12:07 头条（1499172 海博思创美国 2GWh 大单 / 1499163 高特电子 BMS 创业板上市 / 1499145 新疆且末 250MW/1000MWh 0.728元/Wh 构网型 EPC 招标 / 1499144 华电柔性制氢 26.11亿 EPC 招标）+ sections.latest 顶部 12 条 06-09（10 BJX：1499172/1499163/1499156/1499152/1499151/1499150/1499147/1499145/1499144/1499139 + 2 SolarBe：50024164 锂智慧 SNEC 收官观察 / 50024163 施耐德电网数智化）+ sections.metrics 顶部 1 条 06-09 早间 SMM 报价（电池级碳酸锂 16.375 万元/吨 + 六氟磷酸锂 11.4 万元/吨 -1500）。HTML 三处 v= 10:31→12:07，hero 10:31→12:07；移动端 Hot Topics / Latest Updates 兜底列表 5 条全部替换为本轮新增。P0 自检：上一次成功 commit eca0924 (10:20 updated) / feed generated_at 10:31:05 (10:31 兄弟 metadata heartbeat) → 本次目标 commit (12:07 updated)；date -Iseconds 12:07:32 = feed.js generated_at 12:07:32 (无未来时间违规)。 [metadata heartbeat by watchdog @ 2026-06-09T12:14:26+08:00 after LLM-killed run] [metadata heartbeat by watchdog @ 2026-06-09T12:16:31+08:00 after LLM-killed run]",
   "sections": {
     "headlines": [
       {
@@ -36,7 +36,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499172.shtml",
         "clean_html": "<p>海博思创签订合计约2GWh美国储能项目大单。</p><p>客户为纽约总部国际头部公用事业级储能开发商，项目位于德克萨斯州等地两座储能电站。</p><p>配套 HyperBlock III 5MWh 储能系统，应用于电力现货套利与电网辅助服务。</p>",
         "caption": "海博思创 美国 2GWh 大单",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 11:28 新发布条目（ID 1499172，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表 + 文章详情页 WebFetch 200 OK 提取到完整正文要点，已确认标题/日期/规模/客户/项目地点/产品型号/应用场景/美洲布局等关键信息三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 11:28 新发布条目（ID 1499172，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表 + 文章详情页 WebFetch 200 OK 提取到完整正文要点，已确认标题/日期/规模/客户/项目地点/产品型号/应用场景/美洲布局等关键信息三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -67,7 +67,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499163.shtml",
         "clean_html": "<p>高特电子登陆深交所创业板。</p><p>公司储能 BMS 出货量连续 3 年行业前列。</p><p>为国内储能 BMS 赛道独立化与资本化提供新样本。</p>",
         "caption": "高特电子 BMS 创业板上市",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499163/1499156 同事件两稿件，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/日期/上市板块三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499163/1499156 同事件两稿件，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/日期/上市板块三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -100,7 +100,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499145.shtml",
         "clean_html": "<p>新疆且末 250MW/1000MWh 构网型独立新型储能项目 EPC 招标启动。</p><p>参考价 0.728 元/Wh，是西北地区构网型大单体场景的工程化定价信号。</p>",
         "caption": "且末 构网型 0.728元/Wh",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499145，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/规模/参考价三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499145，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/规模/参考价三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -134,7 +134,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499144.shtml",
         "clean_html": "<p>工信部攻关项目-华电柔性制氨项目配套电解制氢 EPC 项目招标启动。</p><p>总投资约 26.11 亿元，是国内首个由工信部立项的柔性制氢+合成氨一体化工程化项目。</p>",
         "caption": "华电 柔性制氢 26.11亿",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499144，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/规模/立项层级三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499144，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/规模/立项层级三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2045,7 +2045,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499172.shtml",
         "clean_html": "<p>海博思创签订合计约2GWh美国储能项目大单。</p><p>客户为纽约总部国际头部公用事业级储能开发商，项目位于德克萨斯州等地两座储能电站。</p><p>配套 HyperBlock III 5MWh 储能系统，应用于电力现货套利与电网辅助服务。</p>",
         "caption": "海博思创 美国 2GWh 大单",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 11:28 新发布条目（ID 1499172，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表 + 文章详情页 WebFetch 200 OK 提取到完整正文要点，已确认标题/日期/规模/客户/项目地点/产品型号/应用场景/美洲布局等关键信息三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 11:28 新发布条目（ID 1499172，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表 + 文章详情页 WebFetch 200 OK 提取到完整正文要点，已确认标题/日期/规模/客户/项目地点/产品型号/应用场景/美洲布局等关键信息三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2076,7 +2076,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499163.shtml",
         "clean_html": "<p>高特电子登陆深交所创业板。</p><p>公司储能 BMS 出货量连续 3 年行业前列。</p><p>为国内储能 BMS 赛道独立化与资本化提供新样本。</p>",
         "caption": "高特电子 BMS 创业板上市",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499163/1499156 同事件两稿件，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/日期/上市板块三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499163/1499156 同事件两稿件，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/日期/上市板块三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2109,7 +2109,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499145.shtml",
         "clean_html": "<p>新疆且末 250MW/1000MWh 构网型独立新型储能项目 EPC 招标启动。</p><p>参考价 0.728 元/Wh，是西北地区构网型大单体场景的工程化定价信号。</p>",
         "caption": "且末 构网型 0.728元/Wh",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499145，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/规模/参考价三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499145，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/规模/参考价三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2143,7 +2143,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499144.shtml",
         "clean_html": "<p>工信部攻关项目-华电柔性制氨项目配套电解制氢 EPC 项目招标启动。</p><p>总投资约 26.11 亿元，是国内首个由工信部立项的柔性制氢+合成氨一体化工程化项目。</p>",
         "caption": "华电 柔性制氢 26.11亿",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499144，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/规模/立项层级三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499144，高于上次 run 收录的最高 ID 1499138），BJX 文章直链 WAF obfuscation 持续，但频道首页列表已明确标题/规模/立项层级三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2174,7 +2174,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499156.shtml",
         "clean_html": "<p>高特电子深交所创业板敲钟上市，首日涨幅超 800%。</p><p>资本市场对储能 BMS 赛道独立估值重估。</p>",
         "caption": "高特电子 上市 800%",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499156，与 1499163 同事件），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499156，与 1499163 同事件），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2206,7 +2206,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499152.shtml",
         "clean_html": "<p>大唐中宁压缩空气储能项目首台（套）钢衬拼焊衬砌一体化台车顺利下线。</p><p>非标关键设备制造取得突破，是国内大型 CAES 项目工程化推进的代表性里程碑。</p>",
         "caption": "大唐中宁 CAES 台车下线",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499152），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499152），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2237,7 +2237,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499151.shtml",
         "clean_html": "<p>陕西恢复 2 家虚拟电厂交易资格。</p><p>省级 VPP 准入退出机制完善，监管进入常态化阶段。</p>",
         "caption": "陕西 VPP 2家恢复",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499151），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499151），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2268,7 +2268,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499150.shtml",
         "clean_html": "<p>天合元氢与工信部电子五所南京院签订战略合作协议。</p><p>聚焦氢能产业链质量检测与标准体系建设。</p>",
         "caption": "天合元氢 电子五所 战略合作",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499150），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499150），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2297,7 +2297,7 @@ window.NEOLINK_FEED = {
         "url": "https://news.bjx.com.cn/html/20260609/1499147.shtml",
         "clean_html": "<p>海尔新能源再获山东省虚拟电厂运营资质。</p><p>家电系新能源企业持续布局 VPP 赛道。</p>",
         "caption": "海尔 VPP 山东资质",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499147），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499147），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2305,16 +2305,16 @@ window.NEOLINK_FEED = {
         "source_type": "国内行业媒体/氢能企业获奖",
         "account_name": "北极星储能网",
         "category": "企业",
-        "title": "明阳氢能荣获"碱性电解槽领军企业"奖项",
-        "summary": "北极星储能网6月9日报道，明阳氢能荣获"碱性电解槽领军企业"奖项，体现头部电解槽企业在绿氢规模化商用领域的品牌地位。",
+        "title": "明阳氢能荣获“碱性电解槽领军企业”奖项",
+        "summary": "北极星储能网6月9日报道，明阳氢能荣获“碱性电解槽领军企业”奖项，体现头部电解槽企业在绿氢规模化商用领域的品牌地位。",
         "body": [
           "事件主体：明阳氢能（头部电解槽企业）。",
-          "事件：荣获"碱性电解槽领军企业"奖项。",
+          "事件：荣获“碱性电解槽领军企业”奖项。",
           "产业含义：电解槽领军企业品牌地位获行业确认。",
           "复核建议：以颁奖方与明阳氢能正式公告为准。"
         ],
         "key_points": [
-          "明阳氢能荣获"碱性电解槽领军企业"奖项。",
+          "明阳氢能荣获“碱性电解槽领军企业”奖项。",
           "电解槽领军企业品牌地位获行业确认。"
         ],
         "value": "1",
@@ -2324,9 +2324,9 @@ window.NEOLINK_FEED = {
         "date": "06-09",
         "as_of": "2026-06-09",
         "url": "https://news.bjx.com.cn/html/20260609/1499139.shtml",
-        "clean_html": "<p>明阳氢能荣获"碱性电解槽领军企业"奖项。</p><p>电解槽领军企业品牌地位获行业确认。</p>",
+        "clean_html": "<p>明阳氢能荣获“碱性电解槽领军企业”奖项。</p><p>电解槽领军企业品牌地位获行业确认。</p>",
         "caption": "明阳氢能 电解槽 领军奖",
-        "methodology": "12:07严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499139），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取北极星储能网 chuneng.bjx.com.cn 频道首页 06-09 顶部新发布条目（ID 1499139），BJX 文章直链 WAF obfuscation 持续，但频道首页列表三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2334,18 +2334,18 @@ window.NEOLINK_FEED = {
         "source_type": "国内行业媒体/SNEC 2026 行业观察",
         "account_name": "索比储能网",
         "category": "市场观察",
-        "title": "锂智慧SNEC 2026收官观察：当工商业储能进入'拼系统能力'的阶段，Flex16释放了什么信号？",
-        "summary": "索比储能网6月9日11:36报道，锂智慧 SNEC 2026 收官观察：工商业储能正进入'拼系统能力'阶段，Flex16 产品释放系统集成 + 灵活配置信号。",
+        "title": "锂智慧SNEC 2026收官观察：当工商业储能进入‘拼系统能力’的阶段，Flex16释放了什么信号？",
+        "summary": "索比储能网6月9日11:36报道，锂智慧 SNEC 2026 收官观察：工商业储能正进入'拼系统能力’阶段，Flex16 产品释放系统集成 + 灵活配置信号。",
         "body": [
           "事件主体：锂智慧。",
           "发布平台：索比储能网首页 11:36 头条。",
-          "观点：工商业储能进入'拼系统能力'阶段。",
+          "观点：工商业储能进入‘拼系统能力’阶段。",
           "产品信号：Flex16 体现系统集成+灵活配置趋势。",
           "复核建议：以索比储能网原文与锂智慧官方资料为准。"
         ],
         "key_points": [
           "锂智慧 SNEC 2026 收官观察。",
-          "工商业储能进入'拼系统能力'阶段。",
+          "工商业储能进入‘拼系统能力’阶段。",
           "Flex16 释放系统集成+灵活配置信号。"
         ],
         "value": "1",
@@ -2355,9 +2355,9 @@ window.NEOLINK_FEED = {
         "date": "06-09",
         "as_of": "2026-06-09",
         "url": "https://cn.solarbe.com/",
-        "clean_html": "<p>锂智慧 SNEC 2026 收官观察。</p><p>工商业储能进入'拼系统能力'阶段，Flex16 释放系统集成+灵活配置信号。</p>",
+        "clean_html": "<p>锂智慧 SNEC 2026 收官观察。</p><p>工商业储能进入‘拼系统能力’阶段，Flex16 释放系统集成+灵活配置信号。</p>",
         "caption": "锂智慧 SNEC 收官 Flex16",
-        "methodology": "12:07严格刷新抓取索比储能网 cn.solarbe.com 首页 06-09 11:36 头条（ID 50024164，校正 -8h 显示后归属 06-09 早间批次，高于上次 run 收录的最高 ID 50024153），索比 /news/{id}.html 详情页 404（沿用历史观察），但首页列表 + 标题/时间/ID 三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取索比储能网 cn.solarbe.com 首页 06-09 11:36 头条（ID 50024164，校正 -8h 显示后归属 06-09 早间批次，高于上次 run 收录的最高 ID 50024153），索比 /news/{id}.html 详情页 404（沿用历史观察），但首页列表 + 标题/时间/ID 三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -2386,7 +2386,7 @@ window.NEOLINK_FEED = {
         "url": "https://cn.solarbe.com/",
         "clean_html": "<p>施耐德电气以高可靠设备构筑电网数智化转型基石。</p><p>持续布局新型电力系统设备供应。</p>",
         "caption": "施耐德 电网数智化",
-        "methodology": "12:07严格刷新抓取索比储能网 cn.solarbe.com 首页 06-09 11:33 条目（ID 50024163，高于上次 run 收录的最高 ID 50024153），索比 /news/{id}.html 详情页 404（沿用历史观察），但首页列表三重核验满足硬规则 #2。",
+        "methodology": "12:15严格刷新抓取索比储能网 cn.solarbe.com 首页 06-09 11:33 条目（ID 50024163，高于上次 run 收录的最高 ID 50024153），索比 /news/{id}.html 详情页 404（沿用历史观察），但首页列表三重核验满足硬规则 #2。",
         "history": []
       },
       {
@@ -11412,7 +11412,7 @@ window.NEOLINK_FEED = {
         "direction": "up",
         "source": "SMM 上海有色 / newenergy.smm.cn 公开行情页",
         "as_of": "2026-06-09",
-        "methodology": "12:07严格刷新抓取 SMM 上海有色 newenergy.smm.cn 公开行情页 06-09 早间数据：电池级碳酸锂报价区间 161000-166500 元/吨（均价 163750 元/吨），SMM 电池级指数 163454（+349）；工业级碳酸锂均价 159750 元/吨；电池级氢氧化锂粗颗粒 150000 元/吨、微粉 156000 元/吨；六氟磷酸锂报价区间 110000-118000 元/吨（均价 114000，-1500），SMM 指数 104688（-207）。与 10:20 兄弟 run 收录的 06-08 收盘价 163750/58370/29350/33302 对比：电池级碳酸锂均价持平 163750，指数 +349 是新信号；六氟磷酸锂报价 -1500 是新跌。",
+        "methodology": "12:15严格刷新抓取 SMM 上海有色 newenergy.smm.cn 公开行情页 06-09 早间数据：电池级碳酸锂报价区间 161000-166500 元/吨（均价 163750 元/吨），SMM 电池级指数 163454（+349）；工业级碳酸锂均价 159750 元/吨；电池级氢氧化锂粗颗粒 150000 元/吨、微粉 156000 元/吨；六氟磷酸锂报价区间 110000-118000 元/吨（均价 114000，-1500），SMM 指数 104688（-207）。与 10:20 兄弟 run 收录的 06-08 收盘价 163750/58370/29350/33302 对比：电池级碳酸锂均价持平 163750，指数 +349 是新信号；六氟磷酸锂报价 -1500 是新跌。",
         "url": "https://newenergy.smm.cn/price",
         "history": [
           {
