@@ -16,8 +16,8 @@
 > 2. **rsync 失败必须显式记**：如果 rsync 退出码非 0，**不要**在维护日志写"已同步"或类似成功措辞。写 `rsync FAILED: <exit code>` + 错误输出片段。
 > 3. **server drift 必须显式记**：每次 run 都 `ssh neolink "head -3 /var/www/neolink/data/feed.js"` 拿 server 当前 generated_at 和 schema。如果 server 用扁平 `headlines[]` 无 `sections` 包裹（外部 Codex 写入），写 `P0 server drift re-detected: server schema=<plain|wrapped>, local schema=wrapped`，然后 rsync 覆盖。
 
-1. **不伪造 freshness**。如果这次没找到**可核验的**新增（公开来源能复核），就**保持** `data/feed.js` 的 `generated_at`、HTML 里的 `feed.js?v=...`、首页 hero 时间戳、指标卡片、移动端兜底**全部不变**。把这次跑记为 `no-change`。
-2. **可核验**意味着公开来源页面（比如 SMM 行情页、官方公告、招标平台）当前还能访问且显示对应数据。**不能**只凭印象或模型记忆就改 feed。
+1. **不伪造 freshness — content 层**。如果这次没找到**可核验的**新增（公开来源能复核），`data/feed.js` 的 `sections.headlines / sections.latest / sections.metrics / sections.materials` **内容数组本身**保持不变。把这次跑记为 `no-change`。
+2. **可核验**意味着公开来源页面（比如 SMM 行情页、官方公告、招标平台）当前还能访问且显示对应数据。**不能**只凭印象或模型记忆就改 feed 内容。
 3. **任何文件编辑之前**，先读 `docs/automation-handover.md` 和 `docs/hermes-content-ops.md`，按它们的规则走。
 4. **commit 之前**必须 `node --check` 通过：`data/feed.js`、`script.js`、`news-more.js`、`article.js`。
 5. **所有变更**（新增条目、修正 schema、改时间戳）必须**同时**：
@@ -26,7 +26,24 @@
    - push 到 `gitee`（Gitee：`gitee.com/JulyanXu/NeoLink.git`）
    - rsync 到 `neolink:/var/www/neolink/`
 6. **如果 push 或 rsync 失败**，必须**明确**把失败原因写到维护日志里，**不要**说"已同步"。
-7. **no-change 情况下**：不 commit、不 push、不 rsync，但**必须**写维护日志条目（`no-change` 状态），并 prepend `var/hermes/state/crawl_runs.json` 一条记录，**也必须**在 `var/hermes/maintenance-log.md`（这个文件可能不存在，touch 一下）和 `docs/maintenance-log.md` 各写一份。
+7. **no-change 情况下**（§0.4 替代旧的"不动"规则）：**仍然要 bump 时间戳**和**写维护日志**。详见 §0.4。
+
+> **§0.4 — 每次 run 都让页面"动"起来**（替代旧的 §1 "不伪造 freshness 全维度不动"）
+>
+> **核心原则**：content 数组（headlines / latest / metrics / materials / 等）不伪造，但**元数据**（generated_at / feed.js?v= / hero 时间戳）每次跑都 bump。让用户看到"页面在维护"而不是"页面死了"。
+>
+> **updated run**（找到可核验新增）：
+> - 改 content + bump 所有时间戳 + 写 `(updated with N new entries)` 进 note
+>
+> **no-change run**（没找到可核验新增）：
+> - **content 数组保持不变**（不伪造条目）
+> - **必须 bump**：`data/feed.js` 的 `generated_at` 改为 run 当时实际时间 + `note` 改为 `<HH:MM> 严格刷新：no-change check（公开来源无 06-XX 新增，content 数组保持不变，仅刷新元数据）`
+> - **必须 bump**：HTML 三处 `feed.js?v=YYYYMMDDHHMM` 全部改为新时间戳
+> - **必须 bump**：`index.html` 顶部 hero "更新 HH:MM (GMT+8)" 改为 run 当时实际时间
+> - **必须 write**：`docs/maintenance-log.md` prepend `no-change` 条目
+> - **必须 commit + push + rsync**（虽然 content 没变，但页面元数据变了，浏览器要看到新时间戳）
+>
+> 这样做：用户每 2 小时刷新页面都看到新时间戳 → 体感"页面在维护"；content 严格 fresh → 不会编造条目。
 
 ## 工作流（按顺序）
 

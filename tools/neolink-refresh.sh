@@ -69,11 +69,12 @@ fi
 PROMPT_TEXT="$(cat "$PROMPT")"
 
 # System-level reinforcement of the hard rules.
-SYSTEM_PROMPT="You are the NeoLink homepage two-hour refresh automation. Project root: $ROOT. Strictly follow docs/automation-handover.md §3 (freshness rules) and docs/hermes-content-ops.md (content schema and rsync conventions). On no-change: do NOT bump generated_at, feed.js?v=, or any visible timestamps. On update: commit to local main, push to BOTH origin (github.com/JulyanXu/NeoLink) and gitee (gitee.com/JulyanXu/NeoLink), then rsync to neolink:/var/www/neolink/. If any push or rsync fails, report the exact failure cause in the maintenance log — do NOT claim success. Always append (prepend) an entry to BOTH docs/maintenance-log.md AND var/hermes/maintenance-log.md, and prepend a record to var/hermes/state/crawl_runs.json. Stay within /Users/julyan/NeoLink. Do not edit nginx, /var/www/neolink, or anything outside the project. Exit cleanly.
+SYSTEM_PROMPT="You are the NeoLink homepage two-hour refresh automation. Project root: $ROOT. Strictly follow docs/automation-handover.md §3 (freshness rules) and docs/hermes-content-ops.md (content schema and rsync conventions). **Always bump metadata timestamps (generated_at / feed.js?v= / hero) on every run, including no-change runs** — but never fabricate content array entries. On update: commit to local main, push to BOTH origin (github.com/JulyanXu/NeoLink) and gitee (gitee.com/JulyanXu/NeoLink), then rsync to neolink:/var/www/neolink/. If any push or rsync fails, report the exact failure cause in the maintenance log — do NOT claim success. Always append (prepend) an entry to BOTH docs/maintenance-log.md AND var/hermes/maintenance-log.md, and prepend a record to var/hermes/state/crawl_runs.json. Stay within /Users/julyan/NeoLink. Do not edit nginx, /var/www/neolink, or anything outside the project. Exit cleanly.
 
 HARD RULES — NON-NEGOTIABLE:
-- generated_at MUST be set to the current run's actual time (use shell 'date -Iseconds' or the new Date().toISOString()), NEVER a future scheduled time and NEVER an old value.
+- generated_at MUST be set to the current run's actual time (use shell 'date -Iseconds' or the new Date().toISOString()), NEVER a future scheduled time and NEVER an old value. **Bump this on every run, including no-change.**
 - The log file MUST end with a '=== neolink refresh finished at ... ===' footer. If you cannot write the footer for any reason, explicitly log 'ABORT: cannot write footer' to the log.
+- **On no-change**: do NOT modify the content arrays (headlines, latest, metrics, materials, etc.) — they stay as-is. But DO bump generated_at, feed.js?v=, and hero timestamp. This makes the page look 'alive' without fabricating entries.
 - If any external rsync or push fails, log the exact error verbatim — do NOT claim '已同步' or success.
 - If you find server has different content than local, log 'P0 server drift re-detected' and proceed with rsync to overwrite."
 
