@@ -98,6 +98,49 @@ ALLOWED='Bash(git:*),Bash(rsync:*),Bash(ssh:*),Bash(node:*),Bash(curl:*),Bash(sh
 
   echo "--- claude -p exited with $RC ==="
 
+  # ALWAYS bump metadata timestamps after claude -p, regardless of what the
+  # LLM did or didn't do. This is the "page in motion" guarantee from §0.4:
+  # even if the LLM was killed (RC != 0) or chose no-change, the user sees
+  # fresh timestamps on the page. Content arrays are NOT touched (the LLM
+  # would have updated those if it found new data).
+  echo "--- post-claude mandatory metadata bump starting ---"
+  NOW_ISO="$(date -Iseconds)"
+  NOW_V="$(date +%Y%m%d%H%M)"
+  NOW_HHMM="$(date +%H:%M)"
+
+  if [ -f "$ROOT/data/feed.js" ]; then
+    # Bump generated_at and append a "(no-change check by bash)" marker to note.
+    python3 - "$ROOT/data/feed.js" "$NOW_ISO" "$RC" <<'PYEOF' >> "$LOG_FILE" 2>&1
+import re, sys
+fp, now_iso, claude_rc = sys.argv[1], sys.argv[2], sys.argv[3]
+s = open(fp).read()
+s_new = re.sub(r'"generated_at":\s*"[^"]+"', f'"generated_at": "{now_iso}"', s, count=1)
+marker = f' [no-change check by bash @ {now_iso} claude={claude_rc}]'
+m = re.search(r'("note":\s*")([^"]+)(")', s_new)
+if m:
+    new_note = m.group(2) + marker
+    s_new = s_new[:m.start()] + m.group(1) + new_note + m.group(3) + s_new[m.end():]
+open(fp, 'w').write(s_new)
+print(f"feed.js metadata bumped: generated_at={now_iso}, note appended")
+PYEOF
+  fi
+
+  # Bump HTML cache-bust on all 3 pages (if they exist).
+  for f in index.html news-more.html article.html; do
+    if [ -f "$ROOT/$f" ]; then
+      sed -i '' "s|feed.js?v=[0-9]*|feed.js?v=${NOW_V}|g" "$ROOT/$f"
+    fi
+  done
+
+  # Bump index.html hero timestamp.
+  if [ -f "$ROOT/index.html" ]; then
+    sed -i '' "s|更新 [0-9][0-9]:[0-9][0-9] (GMT+8)|更新 ${NOW_HHMM} (GMT+8)|g" "$ROOT/index.html"
+  fi
+  echo "--- post-claude metadata bump: generated_at=${NOW_ISO} v=${NOW_V} hero=${NOW_HHMM} ---"
+
+  # Validate (no-change run: content unchanged, so node --check should pass).
+  node --check "$ROOT/data/feed.js" 2>&1 && echo "feed.js syntax OK"
+
   # ALWAYS rsync after claude -p, regardless of what the LLM did or didn't do.
   # This ensures the deploy step survives even if claude -p is SIGKILLed before
   # it can complete step 10 of the prompt. Idempotent: if the LLM already
