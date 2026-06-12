@@ -1,7 +1,28 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-06-12T08:05:00+08:00",
-  "note": "刷新2026-06-12 08:05：去除重复条目(id 1499523)，今日无新增招标。",
+  "generated_at": "2026-06-12T10:07:00+08:00",
+  "note": "刷新2026-06-12 10:07：新增3条今日招标(鹤壁/宜宾/孝感)，去除重复条目(id 1499580)。",
   "headlines": [
+    {
+      "id": "1499755",
+      "title": "1.31元/Wh！湖南孝感200MW/800MWh构网型独立储能EPC招标",
+      "url": "https://news.bjx.com.cn/html/20260612/1499755.shtml",
+      "date": "2026-06-12",
+      "source": "北极星储能网"
+    },
+    {
+      "id": "1499756",
+      "title": "0.85元/Wh！四川宜宾100MW/200MWh电化学储能电站拟招标",
+      "url": "https://news.bjx.com.cn/html/20260612/1499756.shtml",
+      "date": "2026-06-12",
+      "source": "北极星储能网"
+    },
+    {
+      "id": "1499758",
+      "title": "河南鹤壁100MW/200MWh调峰共享储能中标公示",
+      "url": "https://news.bjx.com.cn/html/20260612/1499758.shtml",
+      "date": "2026-06-12",
+      "source": "北极星储能网"
+    },
     {
       "id": "1499523",
       "title": "314Ah！中国电气装备1GWh储能电池框采！",
@@ -13,13 +34,6 @@ window.NEOLINK_FEED = {
       "id": "1499617",
       "title": "1.13-1.154元/Wh！广西柳州300MW/600MWh储能项目EPC中标候选人公示",
       "url": "https://news.bjx.com.cn/html/20260611/1499617.shtml",
-      "date": "2026-06-11",
-      "source": "北极星储能网"
-    },
-    {
-      "id": "1499580",
-      "title": "1.13-1.154元/Wh！广西柳州300MW/600MWh储能项目EPC中标候选人公示",
-      "url": "https://news.bjx.com.cn/html/20260611/1499580.shtml",
       "date": "2026-06-11",
       "source": "北极星储能网"
     },
