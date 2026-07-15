@@ -1,483 +1,982 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-07-09T08:55:00+08:00",
-  "note": "刷新2026-07-09 08:55：采入北极星储能网7月8-9日公开列表新增条目，覆盖项目并网、EPC招标、海外订单、企业技术、安全白皮书和价格材料；保留6个压缩频道与结构化摘要。",
+  "generated_at": "2026-07-15T09:14:00+08:00",
+  "note": "刷新2026-07-15 09:14：采入北极星储能网7月15日公开列表新增条目，覆盖独立储能EPC开标/优选、台区储能框采、构网型储能黑启动、企业订单、锂盐业绩与安全事件；修复此前每日06:00仅更新时间不更新内容的问题。",
   "headlines": [
     {
-      "id": "1503459",
+      "id": "1504266",
       "category": "项目招标",
-      "title": "200MW/1200MWh！内蒙古电网侧独立储能示范项目并网",
-      "summary": "6小时长时储能项目并网，作为今日项目进展主线，重点跟踪长时储能规模化落地。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503459.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "0.66元/Wh、7家设计院！内蒙古2.4GWh独立储能EPC开标",
+      "summary": "内蒙古2.4GWh独立储能EPC开标给出0.66元/Wh报价锚点，作为今日项目与价格主线。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验标题、日期、URL、功率与容量字段；摘要为结构化改写。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503462",
+      "id": "1504284",
       "category": "项目招标",
-      "title": "1.33元/Wh！福建300MW/600MWh电网侧独立储能EPC招标",
-      "summary": "福建电网侧独立储能EPC招标释放新报价锚点，纳入项目与价格交叉观察。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503462.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "600MW/2.4GWh！内蒙古乌拉特中旗2026年独立储能项目实施主体优选结果公示",
+      "summary": "乌拉特中旗600MW/2.4GWh独立储能项目主体优选公示，补充区域大储项目进展。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504284.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验标题报价、项目规模和发布日期。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503470",
-      "category": "海外",
-      "title": "5GWh！楚能新能源与丹麦KK Group达成储能战略合作",
-      "summary": "中国储能企业欧洲合作订单继续扩容，海外频道跟踪5GWh合作规模。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503470.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "id": "1504269",
+      "category": "项目招标",
+      "title": "4020万、包含台区储能！南网分布式储能EPC框采",
+      "summary": "南网分布式储能EPC框采纳入台区储能方向，适合政策市场与项目入口共同跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504269.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验合作主体、区域和规模字段。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503471",
+      "id": "1504257",
       "category": "企业技术",
-      "title": "AI自动优化、联动光伏储能充电桩！特斯拉推出全新EMS",
-      "summary": "企业技术频道新增EMS产品信号，关注光储充联动和AI调度能力。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503471.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "给电网装上“超级火种” 华东首次构网型储能黑启动试验顺利完成",
+      "summary": "华东构网型储能黑启动试验完成，进入企业技术与风险韧性观察。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504257.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验标题与产品方向，未复制正文。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     }
   ],
   "latest": [
     {
-      "id": "1503481",
-      "category": "政策市场",
-      "title": "重上“牌桌”的台区储能，让谁坐不住了？",
-      "summary": "台区储能进入市场讨论，作为配网侧商业模式观察。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503481.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验。"
-    },
-    {
-      "id": "1503472",
-      "category": "企业技术",
-      "title": "压缩空气储能技术！陈海生团队成果荣获2025年度国家科学技术奖",
-      "summary": "压缩空气储能技术成果获奖，纳入长时储能技术跟踪。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503472.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验。"
-    },
-    {
-      "id": "1503471",
-      "category": "企业技术",
-      "title": "AI自动优化、联动光伏储能充电桩！特斯拉推出全新EMS",
-      "summary": "光储充EMS产品动态。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503471.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验。"
-    },
-    {
-      "id": "1503470",
-      "category": "海外",
-      "title": "5GWh！楚能新能源与丹麦KK Group达成储能战略合作",
-      "summary": "欧洲储能合作订单扩容。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503470.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验。"
-    },
-    {
-      "id": "1503468",
-      "category": "企业技术",
-      "title": "储能电池企业，重启A股上市计划",
-      "summary": "资本市场信号归入企业技术频道，不单独恢复IPO分散入口。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503468.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验。"
-    },
-    {
-      "id": "1503462",
-      "category": "项目招标",
-      "title": "1.33元/Wh！福建300MW/600MWh电网侧独立储能EPC招标",
-      "summary": "福建电网侧EPC招标报价更新。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503462.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验。"
-    },
-    {
-      "id": "1503461",
-      "category": "海外",
-      "title": "从西班牙大停电到储能狂飙：欧洲电网转型的阵痛与突围",
-      "summary": "欧洲电网韧性与储能需求成为海外市场观察。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503461.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验。"
-    },
-    {
-      "id": "1503459",
-      "category": "项目招标",
-      "title": "200MW/1200MWh！内蒙古电网侧独立储能示范项目并网",
-      "summary": "6小时长时储能项目并网。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503459.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验。"
-    },
-    {
-      "id": "1503366",
+      "id": "1504294",
       "category": "风险合规",
-      "title": "《2026全球动力电池安全白皮书》发布",
-      "summary": "安全白皮书更新，进入风险合规频道。",
-      "url": "https://news.bjx.com.cn/html/20260708/1503366.shtml",
-      "date": "2026-07-08",
-      "as_of": "2026-07-08",
+      "title": "损失数百万美元！特斯拉储能电池频繁被盗",
+      "summary": "特斯拉储能电池被盗事件进入安全和资产风控跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504294.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503288",
+      "id": "1504293",
       "category": "价格材料",
-      "title": "0.53~0.62元/Wh、23家企业参与！甘肃1.8GWh储能系统开标",
-      "summary": "储能系统开标价格进入材料价格栏，替代低信号材料SKU堆叠。",
-      "url": "https://news.bjx.com.cn/html/20260708/1503288.shtml",
-      "date": "2026-07-08",
-      "as_of": "2026-07-08",
+      "title": "锂盐需求增长！赣锋锂业2026年半年度净利润同增超787%",
+      "summary": "锂盐需求和企业利润修复进入材料价格观察。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504293.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验标题价格、参与企业数和容量字段。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503362",
+      "id": "1504284",
+      "category": "项目招标",
+      "title": "600MW/2.4GWh！内蒙古乌拉特中旗2026年独立储能项目实施主体优选结果公示",
+      "summary": "内蒙古2.4GWh独立储能项目主体优选更新。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504284.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+    },
+    {
+      "id": "1504281",
+      "category": "项目招标",
+      "title": "紧抓调节资源紧缺窗口期，建投能源超1GWh储能项目实施中",
+      "summary": "建投能源超1GWh储能项目实施中，反映调节资源需求。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504281.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+    },
+    {
+      "id": "1504280",
+      "category": "项目招标",
+      "title": "运营期20年！安徽光伏储能项目比选",
+      "summary": "安徽光伏储能项目比选进入项目招标池。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504280.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+    },
+    {
+      "id": "1504276",
+      "category": "海外",
+      "title": "深耕全钒液流长时储能赛道！贵州志喜科技与中国电建达成战略合作",
+      "summary": "全钒液流长时储能合作进入技术与项目跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504276.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+    },
+    {
+      "id": "1504269",
+      "category": "项目招标",
+      "title": "4020万、包含台区储能！南网分布式储能EPC框采",
+      "summary": "台区储能和分布式储能EPC框采更新。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504269.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+    },
+    {
+      "id": "1504266",
+      "category": "价格材料",
+      "title": "0.66元/Wh、7家设计院！内蒙古2.4GWh独立储能EPC开标",
+      "summary": "EPC开标价格进入材料价格栏。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+    },
+    {
+      "id": "1504264",
       "category": "风险合规",
-      "title": "匈牙利政策变天：中资电池产业链迎来合规大考",
-      "summary": "海外合规风险进入风险合规频道。",
-      "url": "https://news.bjx.com.cn/html/20260708/1503362.shtml",
-      "date": "2026-07-08",
-      "as_of": "2026-07-08",
+      "title": "上交所公开谴责！储能公司董事长占用超10亿资金、偿还个人债务",
+      "summary": "上市储能公司治理风险进入风险合规频道。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504264.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+    },
+    {
+      "id": "1504257",
+      "category": "企业技术",
+      "title": "给电网装上“超级火种” 华东首次构网型储能黑启动试验顺利完成",
+      "summary": "构网型储能黑启动试验完成。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504257.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+    },
+    {
+      "id": "1504252",
+      "category": "海外",
+      "title": "星星充电斩获近3.5GWh海外储能合作，加速全球市场布局",
+      "summary": "海外储能合作订单约3.5GWh，补充中国企业出海线索。",
+      "url": "https://news.bjx.com.cn/html/20260714/1504252.shtml",
+      "date": "2026-07-14",
+      "as_of": "2026-07-14",
       "source": "北极星储能网",
       "methodology": "公开列表核验。"
     },
     {
-      "id": "1503052",
-      "category": "价格材料",
-      "title": "限价13.45万元/吨！美国防部发布1.6万吨电池级碳酸锂招标",
-      "summary": "碳酸锂招标限价作为材料价格锚点保留。",
-      "url": "https://news.bjx.com.cn/html/20260706/1503052.shtml",
-      "date": "2026-07-06",
-      "as_of": "2026-07-06",
+      "id": "1504134",
+      "category": "风险合规",
+      "title": "国家能源局批准《储能电站设备可靠性评价规程》等468项能源行业标准",
+      "summary": "储能电站设备可靠性评价规程进入标准跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260714/1504134.shtml",
+      "date": "2026-07-14",
+      "as_of": "2026-07-14",
       "source": "北极星储能网",
       "methodology": "公开列表核验。"
     }
   ],
   "policy": [
     {
-      "id": "1503481",
+      "id": "1504269",
       "category": "政策市场",
-      "title": "重上“牌桌”的台区储能，让谁坐不住了？",
-      "summary": "台区储能市场讨论升温。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503481.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "4020万、包含台区储能！南网分布式储能EPC框采",
+      "summary": "台区储能进入电网侧分布式储能框采场景。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504269.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503188",
+      "id": "1504134",
       "category": "政策市场",
-      "title": "自2026年8月1日起执行！陕西发布电网侧独立储能容量电价",
-      "summary": "容量电价政策进入区域机制观察。",
-      "url": "https://news.bjx.com.cn/html/20260707/1503188.shtml",
-      "date": "2026-07-07",
-      "as_of": "2026-07-07",
+      "title": "国家能源局批准《储能电站设备可靠性评价规程》等468项能源行业标准",
+      "summary": "能源行业标准更新，涉及储能电站设备可靠性评价。",
+      "url": "https://news.bjx.com.cn/html/20260714/1504134.shtml",
+      "date": "2026-07-14",
+      "as_of": "2026-07-14",
       "source": "北极星储能网",
       "methodology": "公开列表核验。"
     }
   ],
   "project": [
     {
-      "id": "1503459",
+      "id": "1504284",
       "category": "项目招标",
-      "title": "200MW/1200MWh！内蒙古电网侧独立储能示范项目并网",
-      "summary": "6小时长时储能项目并网。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503459.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "600MW/2.4GWh！内蒙古乌拉特中旗2026年独立储能项目实施主体优选结果公示",
+      "summary": "内蒙古大储项目主体优选结果更新。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504284.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503462",
+      "id": "1504266",
       "category": "项目招标",
-      "title": "1.33元/Wh！福建300MW/600MWh电网侧独立储能EPC招标",
-      "summary": "电网侧独立储能EPC招标报价更新。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503462.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "0.66元/Wh、7家设计院！内蒙古2.4GWh独立储能EPC开标",
+      "summary": "内蒙古独立储能EPC开标。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503288",
+      "id": "1504281",
       "category": "项目招标",
-      "title": "0.53~0.62元/Wh、23家企业参与！甘肃1.8GWh储能系统开标",
-      "summary": "甘肃储能系统开标显示系统报价区间。",
-      "url": "https://news.bjx.com.cn/html/20260708/1503288.shtml",
-      "date": "2026-07-08",
-      "as_of": "2026-07-08",
+      "title": "紧抓调节资源紧缺窗口期，建投能源超1GWh储能项目实施中",
+      "summary": "建投能源超1GWh储能项目实施中。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504281.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     }
   ],
   "enterprise": [
     {
-      "id": "1503471",
+      "id": "1504257",
       "category": "企业技术",
-      "title": "AI自动优化、联动光伏储能充电桩！特斯拉推出全新EMS",
-      "summary": "EMS和光储充联动产品信号。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503471.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "给电网装上“超级火种” 华东首次构网型储能黑启动试验顺利完成",
+      "summary": "构网型储能黑启动试验进入技术跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504257.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503472",
+      "id": "1504276",
       "category": "企业技术",
-      "title": "压缩空气储能技术！陈海生团队成果荣获2025年度国家科学技术奖",
-      "summary": "长时储能技术成果进入技术跟踪。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503472.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "深耕全钒液流长时储能赛道！贵州志喜科技与中国电建达成战略合作",
+      "summary": "全钒液流长时储能合作更新。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504276.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     }
   ],
   "materials": [
     {
-      "id": "material-system-20260708",
+      "id": "material-epc-20260715",
       "category": "价格材料",
-      "name": "储能系统",
-      "title": "0.53~0.62元/Wh、23家企业参与！甘肃1.8GWh储能系统开标",
-      "value": "0.53~0.62",
+      "name": "独立储能EPC",
+      "title": "0.66元/Wh、7家设计院！内蒙古2.4GWh独立储能EPC开标",
+      "value": "0.66",
       "unit": "元/Wh",
-      "change": "甘肃1.8GWh系统开标",
+      "change": "内蒙古2.4GWh开标",
       "direction": "down",
-      "spec": "23家企业参与",
-      "summary": "系统开标价作为本期价格栏主锚点。",
-      "url": "https://news.bjx.com.cn/html/20260708/1503288.shtml",
-      "date": "2026-07-08",
-      "as_of": "2026-07-08",
+      "spec": "7家设计院",
+      "summary": "以开标报价作为今日系统工程价格锚点。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
       "methodology": "公开列表标题价格核验。"
     },
     {
-      "id": "material-epc-20260709",
+      "id": "material-lithium-20260715",
       "category": "价格材料",
-      "name": "储能EPC",
-      "title": "1.33元/Wh！福建300MW/600MWh电网侧独立储能EPC招标",
-      "value": "1.33",
-      "unit": "元/Wh",
-      "change": "福建300MW/600MWh",
+      "name": "锂盐利润",
+      "title": "锂盐需求增长！赣锋锂业2026年半年度净利润同增超787%",
+      "value": "+787%",
+      "unit": "净利同比",
+      "change": "锂盐需求增长",
       "direction": "up",
-      "spec": "电网侧独立储能EPC",
-      "summary": "EPC招标价作为系统工程价格锚点。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503462.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "spec": "半年度业绩",
+      "summary": "用企业业绩信号观察锂盐需求修复。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504293.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表标题报价核验。"
+      "methodology": "公开列表标题指标核验。"
     },
     {
-      "id": "material-lithium-20260706",
+      "id": "material-system-20260714",
       "category": "价格材料",
-      "name": "电池级碳酸锂",
-      "title": "限价13.45万元/吨！美国防部发布1.6万吨电池级碳酸锂招标",
-      "value": "13.45",
-      "unit": "万元/吨",
-      "change": "1.6万吨招标限价",
+      "name": "系统中标",
+      "title": "2026上半年储能系统中标TOP10",
+      "value": "TOP10",
+      "unit": "系统中标",
+      "change": "上半年榜单",
       "direction": "flat",
-      "spec": "电池级碳酸锂",
-      "summary": "用可核验招标限价替代不可核验实时行情。",
-      "url": "https://news.bjx.com.cn/html/20260706/1503052.shtml",
-      "date": "2026-07-06",
-      "as_of": "2026-07-06",
+      "spec": "系统集成格局",
+      "summary": "系统中标榜单作为供应格局观察，不替代实时行情。",
+      "url": "https://news.bjx.com.cn/html/20260714/1504072.shtml",
+      "date": "2026-07-14",
+      "as_of": "2026-07-14",
       "source": "北极星储能网",
-      "methodology": "公开列表核验标题限价和招标量。"
+      "methodology": "公开列表核验。"
     }
   ],
   "safety": [
     {
-      "id": "1503366",
+      "id": "1504294",
       "category": "风险合规",
-      "title": "《2026全球动力电池安全白皮书》发布",
-      "summary": "安全白皮书进入风险合规跟踪。",
-      "url": "https://news.bjx.com.cn/html/20260708/1503366.shtml",
-      "date": "2026-07-08",
-      "as_of": "2026-07-08",
+      "title": "损失数百万美元！特斯拉储能电池频繁被盗",
+      "summary": "储能电池资产安全事件进入风险合规。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504294.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     },
     {
-      "id": "1503362",
+      "id": "1504264",
       "category": "风险合规",
-      "title": "匈牙利政策变天：中资电池产业链迎来合规大考",
-      "summary": "海外政策变化带来电池产业链合规风险。",
-      "url": "https://news.bjx.com.cn/html/20260708/1503362.shtml",
-      "date": "2026-07-08",
-      "as_of": "2026-07-08",
+      "title": "上交所公开谴责！储能公司董事长占用超10亿资金、偿还个人债务",
+      "summary": "储能公司治理风险进入风险合规。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504264.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     }
   ],
   "legal": [],
   "ipo": [],
   "overseas": [
     {
-      "id": "1503470",
+      "id": "1504252",
       "category": "海外",
-      "title": "5GWh！楚能新能源与丹麦KK Group达成储能战略合作",
-      "summary": "欧洲合作订单进入海外主线。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503470.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "星星充电斩获近3.5GWh海外储能合作，加速全球市场布局",
+      "summary": "海外储能合作约3.5GWh。",
+      "url": "https://news.bjx.com.cn/html/20260714/1504252.shtml",
+      "date": "2026-07-14",
+      "as_of": "2026-07-14",
       "source": "北极星储能网",
       "methodology": "公开列表核验。"
     },
     {
-      "id": "1503461",
+      "id": "1504276",
       "category": "海外",
-      "title": "从西班牙大停电到储能狂飙：欧洲电网转型的阵痛与突围",
-      "summary": "欧洲电网转型带动储能需求讨论。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503461.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
+      "title": "深耕全钒液流长时储能赛道！贵州志喜科技与中国电建达成战略合作",
+      "summary": "全钒液流长时储能合作更新。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504276.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
-      "methodology": "公开列表核验。"
+      "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
     }
   ],
   "metrics": [
     {
-      "id": "metric-inner-mongolia-20260709",
-      "category": "项目招标",
-      "title": "内蒙古并网项目",
-      "value": "1200",
-      "unit": "MWh",
-      "caption": "200MW/1200MWh",
-      "delta": "6小时长时储能",
-      "direction": "up",
-      "summary": "内蒙古电网侧独立储能示范项目并网。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503459.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验规模字段。",
-      "history": [
-        { "date": "2026-07-06", "value": 800 },
-        { "date": "2026-07-07", "value": 800 },
-        { "date": "2026-07-08", "value": 800 },
-        { "date": "2026-07-09", "value": 1200 }
-      ]
-    },
-    {
-      "id": "metric-chuneng-denmark-20260709",
-      "category": "海外",
-      "title": "欧洲合作订单",
-      "value": "5",
-      "unit": "GWh",
-      "caption": "楚能/丹麦KK Group",
-      "delta": "海外储能合作",
-      "direction": "up",
-      "summary": "楚能新能源与丹麦KK Group达成储能战略合作。",
-      "url": "https://news.bjx.com.cn/html/20260709/1503470.shtml",
-      "date": "2026-07-09",
-      "as_of": "2026-07-09",
-      "source": "北极星储能网",
-      "methodology": "公开列表核验规模字段。",
-      "history": [
-        { "date": "2026-07-06", "value": 1 },
-        { "date": "2026-07-07", "value": 2 },
-        { "date": "2026-07-08", "value": 2 },
-        { "date": "2026-07-09", "value": 5 }
-      ]
-    },
-    {
-      "id": "metric-gansu-system-20260708",
+      "id": "metric-im-epc-20260715",
       "category": "价格材料",
-      "title": "甘肃系统开标",
-      "value": "0.53~0.62",
+      "title": "内蒙古EPC开标",
+      "value": "0.66",
       "unit": "元/Wh",
-      "caption": "1.8GWh系统",
-      "delta": "23家企业参与",
+      "caption": "2.4GWh独立储能",
+      "delta": "7家设计院",
       "direction": "down",
-      "summary": "甘肃1.8GWh储能系统开标报价区间。",
-      "url": "https://news.bjx.com.cn/html/20260708/1503288.shtml",
-      "date": "2026-07-08",
-      "as_of": "2026-07-08",
+      "summary": "内蒙古2.4GWh独立储能EPC开标报价。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
       "source": "北极星储能网",
       "methodology": "公开列表标题价格核验。",
       "history": [
-        { "date": "2026-07-06", "value": 0.9 },
-        { "date": "2026-07-07", "value": 0.8 },
-        { "date": "2026-07-08", "value": 0.62 },
-        { "date": "2026-07-09", "value": 0.62 }
+        {
+          "date": "2026-07-09",
+          "value": 1.33
+        },
+        {
+          "date": "2026-07-13",
+          "value": 0.85
+        },
+        {
+          "date": "2026-07-14",
+          "value": 0.85
+        },
+        {
+          "date": "2026-07-15",
+          "value": 0.66
+        }
+      ]
+    },
+    {
+      "id": "metric-im-project-20260715",
+      "category": "项目招标",
+      "title": "乌拉特中旗优选",
+      "value": "2.4",
+      "unit": "GWh",
+      "caption": "600MW独立储能",
+      "delta": "实施主体优选",
+      "direction": "up",
+      "summary": "内蒙古乌拉特中旗独立储能项目实施主体优选结果。",
+      "url": "https://news.bjx.com.cn/html/20260715/1504284.shtml",
+      "date": "2026-07-15",
+      "as_of": "2026-07-15",
+      "source": "北极星储能网",
+      "methodology": "公开列表规模字段核验。",
+      "history": [
+        {
+          "date": "2026-07-09",
+          "value": 1.2
+        },
+        {
+          "date": "2026-07-13",
+          "value": 1.2
+        },
+        {
+          "date": "2026-07-14",
+          "value": 1.2
+        },
+        {
+          "date": "2026-07-15",
+          "value": 2.4
+        }
+      ]
+    },
+    {
+      "id": "metric-overseas-20260714",
+      "category": "海外",
+      "title": "海外储能合作",
+      "value": "3.5",
+      "unit": "GWh",
+      "caption": "星星充电海外订单",
+      "delta": "全球市场布局",
+      "direction": "up",
+      "summary": "星星充电海外储能合作规模约3.5GWh。",
+      "url": "https://news.bjx.com.cn/html/20260714/1504252.shtml",
+      "date": "2026-07-14",
+      "as_of": "2026-07-14",
+      "source": "北极星储能网",
+      "methodology": "公开列表规模字段核验。",
+      "history": [
+        {
+          "date": "2026-07-09",
+          "value": 0
+        },
+        {
+          "date": "2026-07-13",
+          "value": 0
+        },
+        {
+          "date": "2026-07-14",
+          "value": 3.5
+        },
+        {
+          "date": "2026-07-15",
+          "value": 3.5
+        }
       ]
     }
   ],
   "source_index": [
     {
-      "id": "src-bjx-home-20260709",
+      "id": "src-bjx-home-20260715",
       "title": "北极星储能网首页公开列表",
       "url": "https://chuneng.bjx.com.cn/",
       "source": "北极星储能网",
-      "as_of": "2026-07-09 08:55 +08:00",
-      "methodology": "curl与公开列表抽取7月8-9日储能新闻标题、日期、URL、规模与价格字段；不复制正文。"
+      "as_of": "2026-07-15 09:14 +08:00",
+      "methodology": "curl公开列表，抽取7月15日储能新闻标题、日期、URL、规模与价格字段；不复制正文。"
     },
     {
-      "id": "src-neolink-live-feed-20260709",
+      "id": "src-neolink-live-feed-20260715",
       "title": "NeoLink线上feed回读",
       "url": "https://neolink.asia/data/feed.js",
       "source": "NeoLink",
-      "as_of": "2026-07-09 08:55 +08:00",
-      "methodology": "回读线上feed发现generated_at为2026-07-09 06:07但内容仍为7月3日，判定需要以真实新增新闻覆盖。"
+      "as_of": "2026-07-15 09:14 +08:00",
+      "methodology": "回读发现线上仍为2026-07-09真实内容；本次以2026-07-15新增公开新闻覆盖。"
     }
   ],
   "sections": {
-    "headlines": [],
-    "latest": [],
-    "policy": [],
-    "project": [],
-    "enterprise": [],
-    "materials": [],
-    "safety": [],
+    "headlines": [
+      {
+        "id": "1504266",
+        "category": "项目招标",
+        "title": "0.66元/Wh、7家设计院！内蒙古2.4GWh独立储能EPC开标",
+        "summary": "内蒙古2.4GWh独立储能EPC开标给出0.66元/Wh报价锚点，作为今日项目与价格主线。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504284",
+        "category": "项目招标",
+        "title": "600MW/2.4GWh！内蒙古乌拉特中旗2026年独立储能项目实施主体优选结果公示",
+        "summary": "乌拉特中旗600MW/2.4GWh独立储能项目主体优选公示，补充区域大储项目进展。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504284.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504269",
+        "category": "项目招标",
+        "title": "4020万、包含台区储能！南网分布式储能EPC框采",
+        "summary": "南网分布式储能EPC框采纳入台区储能方向，适合政策市场与项目入口共同跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504269.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504257",
+        "category": "企业技术",
+        "title": "给电网装上“超级火种” 华东首次构网型储能黑启动试验顺利完成",
+        "summary": "华东构网型储能黑启动试验完成，进入企业技术与风险韧性观察。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504257.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      }
+    ],
+    "latest": [
+      {
+        "id": "1504294",
+        "category": "风险合规",
+        "title": "损失数百万美元！特斯拉储能电池频繁被盗",
+        "summary": "特斯拉储能电池被盗事件进入安全和资产风控跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504294.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504293",
+        "category": "价格材料",
+        "title": "锂盐需求增长！赣锋锂业2026年半年度净利润同增超787%",
+        "summary": "锂盐需求和企业利润修复进入材料价格观察。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504293.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504284",
+        "category": "项目招标",
+        "title": "600MW/2.4GWh！内蒙古乌拉特中旗2026年独立储能项目实施主体优选结果公示",
+        "summary": "内蒙古2.4GWh独立储能项目主体优选更新。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504284.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504281",
+        "category": "项目招标",
+        "title": "紧抓调节资源紧缺窗口期，建投能源超1GWh储能项目实施中",
+        "summary": "建投能源超1GWh储能项目实施中，反映调节资源需求。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504281.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504280",
+        "category": "项目招标",
+        "title": "运营期20年！安徽光伏储能项目比选",
+        "summary": "安徽光伏储能项目比选进入项目招标池。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504280.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504276",
+        "category": "海外",
+        "title": "深耕全钒液流长时储能赛道！贵州志喜科技与中国电建达成战略合作",
+        "summary": "全钒液流长时储能合作进入技术与项目跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504276.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504269",
+        "category": "项目招标",
+        "title": "4020万、包含台区储能！南网分布式储能EPC框采",
+        "summary": "台区储能和分布式储能EPC框采更新。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504269.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504266",
+        "category": "价格材料",
+        "title": "0.66元/Wh、7家设计院！内蒙古2.4GWh独立储能EPC开标",
+        "summary": "EPC开标价格进入材料价格栏。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504264",
+        "category": "风险合规",
+        "title": "上交所公开谴责！储能公司董事长占用超10亿资金、偿还个人债务",
+        "summary": "上市储能公司治理风险进入风险合规频道。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504264.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504257",
+        "category": "企业技术",
+        "title": "给电网装上“超级火种” 华东首次构网型储能黑启动试验顺利完成",
+        "summary": "构网型储能黑启动试验完成。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504257.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504252",
+        "category": "海外",
+        "title": "星星充电斩获近3.5GWh海外储能合作，加速全球市场布局",
+        "summary": "海外储能合作订单约3.5GWh，补充中国企业出海线索。",
+        "url": "https://news.bjx.com.cn/html/20260714/1504252.shtml",
+        "date": "2026-07-14",
+        "as_of": "2026-07-14",
+        "source": "北极星储能网",
+        "methodology": "公开列表核验。"
+      },
+      {
+        "id": "1504134",
+        "category": "风险合规",
+        "title": "国家能源局批准《储能电站设备可靠性评价规程》等468项能源行业标准",
+        "summary": "储能电站设备可靠性评价规程进入标准跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260714/1504134.shtml",
+        "date": "2026-07-14",
+        "as_of": "2026-07-14",
+        "source": "北极星储能网",
+        "methodology": "公开列表核验。"
+      }
+    ],
+    "policy": [
+      {
+        "id": "1504269",
+        "category": "政策市场",
+        "title": "4020万、包含台区储能！南网分布式储能EPC框采",
+        "summary": "台区储能进入电网侧分布式储能框采场景。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504269.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504134",
+        "category": "政策市场",
+        "title": "国家能源局批准《储能电站设备可靠性评价规程》等468项能源行业标准",
+        "summary": "能源行业标准更新，涉及储能电站设备可靠性评价。",
+        "url": "https://news.bjx.com.cn/html/20260714/1504134.shtml",
+        "date": "2026-07-14",
+        "as_of": "2026-07-14",
+        "source": "北极星储能网",
+        "methodology": "公开列表核验。"
+      }
+    ],
+    "project": [
+      {
+        "id": "1504284",
+        "category": "项目招标",
+        "title": "600MW/2.4GWh！内蒙古乌拉特中旗2026年独立储能项目实施主体优选结果公示",
+        "summary": "内蒙古大储项目主体优选结果更新。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504284.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504266",
+        "category": "项目招标",
+        "title": "0.66元/Wh、7家设计院！内蒙古2.4GWh独立储能EPC开标",
+        "summary": "内蒙古独立储能EPC开标。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504281",
+        "category": "项目招标",
+        "title": "紧抓调节资源紧缺窗口期，建投能源超1GWh储能项目实施中",
+        "summary": "建投能源超1GWh储能项目实施中。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504281.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      }
+    ],
+    "enterprise": [
+      {
+        "id": "1504257",
+        "category": "企业技术",
+        "title": "给电网装上“超级火种” 华东首次构网型储能黑启动试验顺利完成",
+        "summary": "构网型储能黑启动试验进入技术跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504257.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504276",
+        "category": "企业技术",
+        "title": "深耕全钒液流长时储能赛道！贵州志喜科技与中国电建达成战略合作",
+        "summary": "全钒液流长时储能合作更新。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504276.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      }
+    ],
+    "materials": [
+      {
+        "id": "material-epc-20260715",
+        "category": "价格材料",
+        "name": "独立储能EPC",
+        "title": "0.66元/Wh、7家设计院！内蒙古2.4GWh独立储能EPC开标",
+        "value": "0.66",
+        "unit": "元/Wh",
+        "change": "内蒙古2.4GWh开标",
+        "direction": "down",
+        "spec": "7家设计院",
+        "summary": "以开标报价作为今日系统工程价格锚点。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "公开列表标题价格核验。"
+      },
+      {
+        "id": "material-lithium-20260715",
+        "category": "价格材料",
+        "name": "锂盐利润",
+        "title": "锂盐需求增长！赣锋锂业2026年半年度净利润同增超787%",
+        "value": "+787%",
+        "unit": "净利同比",
+        "change": "锂盐需求增长",
+        "direction": "up",
+        "spec": "半年度业绩",
+        "summary": "用企业业绩信号观察锂盐需求修复。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504293.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "公开列表标题指标核验。"
+      },
+      {
+        "id": "material-system-20260714",
+        "category": "价格材料",
+        "name": "系统中标",
+        "title": "2026上半年储能系统中标TOP10",
+        "value": "TOP10",
+        "unit": "系统中标",
+        "change": "上半年榜单",
+        "direction": "flat",
+        "spec": "系统集成格局",
+        "summary": "系统中标榜单作为供应格局观察，不替代实时行情。",
+        "url": "https://news.bjx.com.cn/html/20260714/1504072.shtml",
+        "date": "2026-07-14",
+        "as_of": "2026-07-14",
+        "source": "北极星储能网",
+        "methodology": "公开列表核验。"
+      }
+    ],
+    "safety": [
+      {
+        "id": "1504294",
+        "category": "风险合规",
+        "title": "损失数百万美元！特斯拉储能电池频繁被盗",
+        "summary": "储能电池资产安全事件进入风险合规。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504294.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      },
+      {
+        "id": "1504264",
+        "category": "风险合规",
+        "title": "上交所公开谴责！储能公司董事长占用超10亿资金、偿还个人债务",
+        "summary": "储能公司治理风险进入风险合规。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504264.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      }
+    ],
     "legal": [],
     "ipo": [],
-    "overseas": [],
-    "metrics": [],
-    "source_index": []
+    "overseas": [
+      {
+        "id": "1504252",
+        "category": "海外",
+        "title": "星星充电斩获近3.5GWh海外储能合作，加速全球市场布局",
+        "summary": "海外储能合作约3.5GWh。",
+        "url": "https://news.bjx.com.cn/html/20260714/1504252.shtml",
+        "date": "2026-07-14",
+        "as_of": "2026-07-14",
+        "source": "北极星储能网",
+        "methodology": "公开列表核验。"
+      },
+      {
+        "id": "1504276",
+        "category": "海外",
+        "title": "深耕全钒液流长时储能赛道！贵州志喜科技与中国电建达成战略合作",
+        "summary": "全钒液流长时储能合作更新。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504276.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网公开列表核验标题、日期、URL与规模/价格字段；摘要为结构化改写。"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric-im-epc-20260715",
+        "category": "价格材料",
+        "title": "内蒙古EPC开标",
+        "value": "0.66",
+        "unit": "元/Wh",
+        "caption": "2.4GWh独立储能",
+        "delta": "7家设计院",
+        "direction": "down",
+        "summary": "内蒙古2.4GWh独立储能EPC开标报价。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504266.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "公开列表标题价格核验。",
+        "history": [
+          {
+            "date": "2026-07-09",
+            "value": 1.33
+          },
+          {
+            "date": "2026-07-13",
+            "value": 0.85
+          },
+          {
+            "date": "2026-07-14",
+            "value": 0.85
+          },
+          {
+            "date": "2026-07-15",
+            "value": 0.66
+          }
+        ]
+      },
+      {
+        "id": "metric-im-project-20260715",
+        "category": "项目招标",
+        "title": "乌拉特中旗优选",
+        "value": "2.4",
+        "unit": "GWh",
+        "caption": "600MW独立储能",
+        "delta": "实施主体优选",
+        "direction": "up",
+        "summary": "内蒙古乌拉特中旗独立储能项目实施主体优选结果。",
+        "url": "https://news.bjx.com.cn/html/20260715/1504284.shtml",
+        "date": "2026-07-15",
+        "as_of": "2026-07-15",
+        "source": "北极星储能网",
+        "methodology": "公开列表规模字段核验。",
+        "history": [
+          {
+            "date": "2026-07-09",
+            "value": 1.2
+          },
+          {
+            "date": "2026-07-13",
+            "value": 1.2
+          },
+          {
+            "date": "2026-07-14",
+            "value": 1.2
+          },
+          {
+            "date": "2026-07-15",
+            "value": 2.4
+          }
+        ]
+      },
+      {
+        "id": "metric-overseas-20260714",
+        "category": "海外",
+        "title": "海外储能合作",
+        "value": "3.5",
+        "unit": "GWh",
+        "caption": "星星充电海外订单",
+        "delta": "全球市场布局",
+        "direction": "up",
+        "summary": "星星充电海外储能合作规模约3.5GWh。",
+        "url": "https://news.bjx.com.cn/html/20260714/1504252.shtml",
+        "date": "2026-07-14",
+        "as_of": "2026-07-14",
+        "source": "北极星储能网",
+        "methodology": "公开列表规模字段核验。",
+        "history": [
+          {
+            "date": "2026-07-09",
+            "value": 0
+          },
+          {
+            "date": "2026-07-13",
+            "value": 0
+          },
+          {
+            "date": "2026-07-14",
+            "value": 3.5
+          },
+          {
+            "date": "2026-07-15",
+            "value": 3.5
+          }
+        ]
+      }
+    ],
+    "source_index": [
+      {
+        "id": "src-bjx-home-20260715",
+        "title": "北极星储能网首页公开列表",
+        "url": "https://chuneng.bjx.com.cn/",
+        "source": "北极星储能网",
+        "as_of": "2026-07-15 09:14 +08:00",
+        "methodology": "curl公开列表，抽取7月15日储能新闻标题、日期、URL、规模与价格字段；不复制正文。"
+      },
+      {
+        "id": "src-neolink-live-feed-20260715",
+        "title": "NeoLink线上feed回读",
+        "url": "https://neolink.asia/data/feed.js",
+        "source": "NeoLink",
+        "as_of": "2026-07-15 09:14 +08:00",
+        "methodology": "回读发现线上仍为2026-07-09真实内容；本次以2026-07-15新增公开新闻覆盖。"
+      }
+    ]
   }
 };
-
-window.NEOLINK_FEED.sections.headlines = window.NEOLINK_FEED.headlines;
-window.NEOLINK_FEED.sections.latest = window.NEOLINK_FEED.latest;
-window.NEOLINK_FEED.sections.policy = window.NEOLINK_FEED.policy;
-window.NEOLINK_FEED.sections.project = window.NEOLINK_FEED.project;
-window.NEOLINK_FEED.sections.enterprise = window.NEOLINK_FEED.enterprise;
-window.NEOLINK_FEED.sections.materials = window.NEOLINK_FEED.materials;
-window.NEOLINK_FEED.sections.safety = window.NEOLINK_FEED.safety;
-window.NEOLINK_FEED.sections.legal = window.NEOLINK_FEED.legal;
-window.NEOLINK_FEED.sections.ipo = window.NEOLINK_FEED.ipo;
-window.NEOLINK_FEED.sections.overseas = window.NEOLINK_FEED.overseas;
-window.NEOLINK_FEED.sections.metrics = window.NEOLINK_FEED.metrics;
-window.NEOLINK_FEED.sections.source_index = window.NEOLINK_FEED.source_index;
