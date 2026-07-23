@@ -1,50 +1,17 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-07-21T06:19:00+08:00",
-  "note": "刷新2026-07-21 06:19：采入北极星储能网招标频道7月20日新增条目（中国能建1.2GWh储能电芯集采、锡林郭勒盟独立储能第五批实施企业公示、包头新增独立储能优选、通辽储能调频项目主体优选）；无7月21日新招标，今日/昨日招标已覆盖。",
+  "generated_at": "2026-07-23T08:39:00+08:00",
+  "note": "刷新2026-07-23 08:39：采入北极星储能网7月23日公开列表新增条目，覆盖截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%。",
   "headlines": [
     {
-      "id": "1504944",
+      "id": "1505408",
       "category": "项目招标",
-      "title": "314Ah、100~110Ah！中国能建1.2GWh储能电芯集采！",
-      "summary": "中国能建启动1.2GWh储能电芯集采，规格覆盖314Ah及100~110Ah，反映大储电芯采购需求。",
-      "url": "https://news.bjx.com.cn/html/20260720/1504944.shtml",
-      "date": "2026-07-20",
-      "as_of": "2026-07-21",
+      "title": "截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%",
+      "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+      "date": "2026-07-23",
+      "as_of": "2026-07-23",
       "source": "北极星储能网",
-      "methodology": "北极星储能网招标列表核验标题、日期、URL与规模/指标字段；摘要为结构化改写，不复制正文。"
-    },
-    {
-      "id": "1504871",
-      "category": "项目招标",
-      "title": "内蒙古锡林郭勒盟2026-2027年独立储能电站项目实施企业（第五批）公示",
-      "summary": "锡林郭勒盟公布2026-2027年独立储能电站项目实施企业第五批名单，延续内蒙古大储主体优选。",
-      "url": "https://news.bjx.com.cn/html/20260720/1504871.shtml",
-      "date": "2026-07-20",
-      "as_of": "2026-07-21",
-      "source": "北极星储能网",
-      "methodology": "北极星储能网招标列表核验标题、日期、URL与规模/指标字段；摘要为结构化改写，不复制正文。"
-    },
-    {
-      "id": "1504861",
-      "category": "项目招标",
-      "title": "阳光新能源入选！内蒙古包头新增2026年独立储能项目优选结果公示",
-      "summary": "包头新增2026年独立储能项目优选结果公示，阳光新能源入选。",
-      "url": "https://news.bjx.com.cn/html/20260720/1504861.shtml",
-      "date": "2026-07-20",
-      "as_of": "2026-07-21",
-      "source": "北极星储能网",
-      "methodology": "北极星储能网招标列表核验标题、日期、URL与规模/指标字段；摘要为结构化改写，不复制正文。"
-    },
-    {
-      "id": "1504854",
-      "category": "项目招标",
-      "title": "不小于100MW/100MWh！内蒙古通辽储能调频项目开发主体优选",
-      "summary": "通辽储能调频项目开发主体优选，规模不小于100MW/100MWh，纳入电网侧调频跟踪。",
-      "url": "https://news.bjx.com.cn/html/20260720/1504854.shtml",
-      "date": "2026-07-20",
-      "as_of": "2026-07-21",
-      "source": "北极星储能网",
-      "methodology": "北极星储能网招标列表核验标题、日期、URL与规模/指标字段；摘要为结构化改写，不复制正文。"
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
     },
     {
       "id": "1504825",
@@ -136,6 +103,17 @@ window.NEOLINK_FEED = {
     }
   ],
   "latest": [
+    {
+      "id": "1505408",
+      "category": "项目招标",
+      "title": "截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%",
+      "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+      "date": "2026-07-23",
+      "as_of": "2026-07-23",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+    },
     {
       "id": "1504825",
       "category": "项目招标",
@@ -294,6 +272,17 @@ window.NEOLINK_FEED = {
     }
   ],
   "project": [
+    {
+      "id": "1505408",
+      "category": "项目招标",
+      "title": "截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%",
+      "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+      "date": "2026-07-23",
+      "as_of": "2026-07-23",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+    },
     {
       "id": "1504825",
       "category": "项目招标",
@@ -513,109 +502,45 @@ window.NEOLINK_FEED = {
   ],
   "metrics": [
     {
-      "id": "metric-guangxi-epc-20260720",
-      "category": "价格材料",
-      "title": "广西EPC招标",
-      "value": "1",
-      "unit": "元/Wh",
-      "caption": "200MW/800MWh独储",
-      "delta": "今日价格锚点",
-      "direction": "flat",
-      "summary": "广西独立储能EPC招标给出1元/Wh价格锚点，规模为200MW/800MWh。",
-      "url": "https://news.bjx.com.cn/html/20260720/1504825.shtml",
-      "date": "2026-07-20",
-      "as_of": "2026-07-20",
-      "source": "北极星储能网",
-      "methodology": "公开列表标题价格与规模字段核验。",
-      "history": [
-        {
-          "date": "2026-07-16",
-          "value": 0.66
-        },
-        {
-          "date": "2026-07-17",
-          "value": 0.95
-        },
-        {
-          "date": "2026-07-18",
-          "value": 0.95
-        },
-        {
-          "date": "2026-07-20",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "id": "metric-user-side-cell-20260720",
-      "category": "价格材料",
-      "title": "用户侧电池出货",
-      "value": "+240%",
-      "unit": "同比",
-      "caption": "2026H1锂电池",
-      "delta": "需求侧高增",
-      "direction": "up",
-      "summary": "用户侧储能锂电池上半年出货同比高增，作为需求侧景气度指标。",
-      "url": "https://news.bjx.com.cn/html/20260720/1504817.shtml",
-      "date": "2026-07-20",
-      "as_of": "2026-07-20",
-      "source": "北极星储能网",
-      "methodology": "公开列表标题指标核验。",
-      "history": [
-        {
-          "date": "2026-07-16",
-          "value": 0
-        },
-        {
-          "date": "2026-07-17",
-          "value": 0
-        },
-        {
-          "date": "2026-07-18",
-          "value": 0
-        },
-        {
-          "date": "2026-07-20",
-          "value": 240
-        }
-      ]
-    },
-    {
-      "id": "metric-petrochina-procurement-20260720",
+      "id": "metric-1505408",
       "category": "项目招标",
-      "title": "中国石油集采",
-      "value": "106.27",
-      "unit": "MWh",
-      "caption": "储能系统入围",
-      "delta": "多企业入围",
+      "title": "区域储能装机",
+      "value": "1026",
+      "unit": "万千瓦",
+      "caption": "截至6月底，甘肃新型储能并网装机容量",
+      "delta": "公开装机数据",
       "direction": "up",
-      "summary": "中国石油储能系统集采入围结果更新，入围企业包括济柴动力、海博思创、智光、中车和宁德时代等。",
-      "url": "https://news.bjx.com.cn/html/20260720/1504815.shtml",
-      "date": "2026-07-20",
-      "as_of": "2026-07-20",
+      "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+      "date": "2026-07-23",
+      "as_of": "2026-07-23",
       "source": "北极星储能网",
-      "methodology": "公开列表标题规模字段核验。",
+      "methodology": "公开列表标题中的规模、价格或指标字段核验。",
       "history": [
         {
-          "date": "2026-07-16",
-          "value": 0
-        },
-        {
-          "date": "2026-07-17",
-          "value": 0
-        },
-        {
-          "date": "2026-07-18",
-          "value": 0
-        },
-        {
-          "date": "2026-07-20",
-          "value": 106.27
+          "date": "2026-07-23",
+          "value": 1026
         }
       ]
     }
   ],
   "source_index": [
+    {
+      "id": "src-bjx-home-20260723",
+      "title": "北极星储能网首页公开列表",
+      "url": "https://chuneng.bjx.com.cn/",
+      "source": "北极星储能网",
+      "as_of": "2026-07-23 08:39 +08:00",
+      "methodology": "curl公开列表抽取当日储能产业标题、日期和URL；不复制正文。"
+    },
+    {
+      "id": "src-bjx-1505408",
+      "title": "截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%",
+      "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+      "source": "北极星储能网",
+      "as_of": "2026-07-23",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+    },
     {
       "id": "src-bjx-home-20260720",
       "title": "北极星储能网首页公开列表",
@@ -651,6 +576,17 @@ window.NEOLINK_FEED = {
   ],
   "sections": {
     "headlines": [
+      {
+        "id": "1505408",
+        "category": "项目招标",
+        "title": "截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%",
+        "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+        "date": "2026-07-23",
+        "as_of": "2026-07-23",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+      },
       {
         "id": "1504825",
         "category": "项目招标",
@@ -741,6 +677,17 @@ window.NEOLINK_FEED = {
       }
     ],
     "latest": [
+      {
+        "id": "1505408",
+        "category": "项目招标",
+        "title": "截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%",
+        "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+        "date": "2026-07-23",
+        "as_of": "2026-07-23",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+      },
       {
         "id": "1504825",
         "category": "项目招标",
@@ -899,6 +846,17 @@ window.NEOLINK_FEED = {
       }
     ],
     "project": [
+      {
+        "id": "1505408",
+        "category": "项目招标",
+        "title": "截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%",
+        "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+        "date": "2026-07-23",
+        "as_of": "2026-07-23",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+      },
       {
         "id": "1504825",
         "category": "项目招标",
@@ -1118,109 +1076,45 @@ window.NEOLINK_FEED = {
     ],
     "metrics": [
       {
-        "id": "metric-guangxi-epc-20260720",
-        "category": "价格材料",
-        "title": "广西EPC招标",
-        "value": "1",
-        "unit": "元/Wh",
-        "caption": "200MW/800MWh独储",
-        "delta": "今日价格锚点",
-        "direction": "flat",
-        "summary": "广西独立储能EPC招标给出1元/Wh价格锚点，规模为200MW/800MWh。",
-        "url": "https://news.bjx.com.cn/html/20260720/1504825.shtml",
-        "date": "2026-07-20",
-        "as_of": "2026-07-20",
-        "source": "北极星储能网",
-        "methodology": "公开列表标题价格与规模字段核验。",
-        "history": [
-          {
-            "date": "2026-07-16",
-            "value": 0.66
-          },
-          {
-            "date": "2026-07-17",
-            "value": 0.95
-          },
-          {
-            "date": "2026-07-18",
-            "value": 0.95
-          },
-          {
-            "date": "2026-07-20",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "id": "metric-user-side-cell-20260720",
-        "category": "价格材料",
-        "title": "用户侧电池出货",
-        "value": "+240%",
-        "unit": "同比",
-        "caption": "2026H1锂电池",
-        "delta": "需求侧高增",
-        "direction": "up",
-        "summary": "用户侧储能锂电池上半年出货同比高增，作为需求侧景气度指标。",
-        "url": "https://news.bjx.com.cn/html/20260720/1504817.shtml",
-        "date": "2026-07-20",
-        "as_of": "2026-07-20",
-        "source": "北极星储能网",
-        "methodology": "公开列表标题指标核验。",
-        "history": [
-          {
-            "date": "2026-07-16",
-            "value": 0
-          },
-          {
-            "date": "2026-07-17",
-            "value": 0
-          },
-          {
-            "date": "2026-07-18",
-            "value": 0
-          },
-          {
-            "date": "2026-07-20",
-            "value": 240
-          }
-        ]
-      },
-      {
-        "id": "metric-petrochina-procurement-20260720",
+        "id": "metric-1505408",
         "category": "项目招标",
-        "title": "中国石油集采",
-        "value": "106.27",
-        "unit": "MWh",
-        "caption": "储能系统入围",
-        "delta": "多企业入围",
+        "title": "区域储能装机",
+        "value": "1026",
+        "unit": "万千瓦",
+        "caption": "截至6月底，甘肃新型储能并网装机容量",
+        "delta": "公开装机数据",
         "direction": "up",
-        "summary": "中国石油储能系统集采入围结果更新，入围企业包括济柴动力、海博思创、智光、中车和宁德时代等。",
-        "url": "https://news.bjx.com.cn/html/20260720/1504815.shtml",
-        "date": "2026-07-20",
-        "as_of": "2026-07-20",
+        "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+        "date": "2026-07-23",
+        "as_of": "2026-07-23",
         "source": "北极星储能网",
-        "methodology": "公开列表标题规模字段核验。",
+        "methodology": "公开列表标题中的规模、价格或指标字段核验。",
         "history": [
           {
-            "date": "2026-07-16",
-            "value": 0
-          },
-          {
-            "date": "2026-07-17",
-            "value": 0
-          },
-          {
-            "date": "2026-07-18",
-            "value": 0
-          },
-          {
-            "date": "2026-07-20",
-            "value": 106.27
+            "date": "2026-07-23",
+            "value": 1026
           }
         ]
       }
     ],
     "source_index": [
+      {
+        "id": "src-bjx-home-20260723",
+        "title": "北极星储能网首页公开列表",
+        "url": "https://chuneng.bjx.com.cn/",
+        "source": "北极星储能网",
+        "as_of": "2026-07-23 08:39 +08:00",
+        "methodology": "curl公开列表抽取当日储能产业标题、日期和URL；不复制正文。"
+      },
+      {
+        "id": "src-bjx-1505408",
+        "title": "截至6月底，甘肃新型储能并网装机容量已达1026万千瓦 同比增长69%",
+        "url": "https://news.bjx.com.cn/html/20260723/1505408.shtml",
+        "source": "北极星储能网",
+        "as_of": "2026-07-23",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+      },
       {
         "id": "src-bjx-home-20260720",
         "title": "北极星储能网首页公开列表",
