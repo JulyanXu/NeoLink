@@ -2,9 +2,9 @@
 
 ## Daily Update Window
 
-- Target time: around 06:00 Asia/Shanghai.
+- Target time: 08:00 Asia/Shanghai (verified existing LaunchAgent on 2026-09-08).
 - Update visible timestamps only when at least one underlying public news item, metric, source URL, or source data point has changed.
-- If sources are reachable but no trusted new data is found, keep the previous visible timestamp and record the check in `data/feed.js` `note` as a no-change check.
+- If sources are reachable but no trusted new data is found, keep `data/feed.js`, its visible timestamp and all four cache parameters byte-identical; record the check only in the daily run log.
 
 ## Homepage Categories
 
@@ -41,6 +41,10 @@ Run these before deployment:
 
 ```sh
 node --check data/feed.js
+node --check app.js
+node --check data-model.js
+node --check company-view.js
+node --test tests/*.test.cjs
 python3 -m html.parser index.html >/dev/null
 git diff --check
 ```
@@ -48,6 +52,16 @@ git diff --check
 After deployment, read back:
 
 ```sh
-curl -L -s https://www.neolink.asia/ | rg "更新|feed.js"
-curl -L -s https://www.neolink.asia/data/feed.js | rg "generated_at|1502668|1502664|1502663"
+curl -L -s https://www.neolink.asia/ | rg "v3.css|app.js|feed.js"
+curl -L -s https://www.neolink.asia/data/feed.js | rg "generated_at"
 ```
+
+## V3 runtime and updates
+
+- Canonical project: `/Users/julyan/Desktop/NeoLink`. The existing 08:00 LaunchAgent wrapper stays at `/Users/julyan/NeoLink/tools/neolink-refresh.sh` and targets this project.
+- Render all four HTML entrypoints using `v3.css`, `app.js`, `data-model.js`, and `company-view.js`. Do not restore the legacy hero or metrics markup.
+- News display is derived from deduplicated article arrays; `metrics` are legacy compatibility data, never statistical KPIs.
+- Content timestamp and article dates are separate. Enterprise data retains its historical snapshot date.
+- Change only the four feed cache query parameters when trusted feed data changes. Keep the page structure and V3 asset versions intact.
+- Deploy an explicit file allowlist; never upload the entire project or use `rsync --delete`. Back up live pages first.
+- Read `docs/V3-UPGRADE.md` for scope, validation and runtime boundaries.
