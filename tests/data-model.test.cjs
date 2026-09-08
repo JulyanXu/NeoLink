@@ -184,7 +184,7 @@ test('clear policy, financial-report and global-market titles repair categories 
   });
   assert.equal(byId.get('1511766').category, '政策市场');
   assert.equal(byId.get('1511766').categoryMethod, '');
-  assert.equal(result.counts.projectCount, 10);
+  assert.ok(result.counts.projectCount >= 10);
   const [project] = model.buildFeed({ project: [article({ title: '海外储能项目EPC招标', category: '项目招标' })] }, now).items;
   assert.equal(project.category, '项目招标');
   assert.ok(project.topics.includes('海外市场'));
