@@ -553,6 +553,17 @@ window.NEOLINK_FEED = {
       "as_of": "2026-09-03",
       "source": "北极星储能网",
       "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+    },
+    {
+      "id": "1510840",
+      "category": "项目招标",
+      "title": "山西省新型储能装机容量突破5GW",
+      "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260901/1510840.shtml",
+      "date": "2026-09-01",
+      "as_of": "2026-09-01",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
     }
   ],
   "policy": [
@@ -679,6 +690,17 @@ window.NEOLINK_FEED = {
     }
   ],
   "project": [
+    {
+      "id": "1510840",
+      "category": "项目招标",
+      "title": "山西省新型储能装机容量突破5GW",
+      "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+      "url": "https://news.bjx.com.cn/html/20260901/1510840.shtml",
+      "date": "2026-09-01",
+      "as_of": "2026-09-01",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+    },
     {
       "id": "1511959",
       "category": "项目招标",
@@ -1915,6 +1937,17 @@ window.NEOLINK_FEED = {
         "as_of": "2026-09-03",
         "source": "北极星储能网",
         "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+      },
+      {
+        "id": "1510840",
+        "category": "项目招标",
+        "title": "山西省新型储能装机容量突破5GW",
+        "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260901/1510840.shtml",
+        "date": "2026-09-01",
+        "as_of": "2026-09-01",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
       }
     ],
     "policy": [
@@ -2041,6 +2074,17 @@ window.NEOLINK_FEED = {
       }
     ],
     "project": [
+      {
+        "id": "1510840",
+        "category": "项目招标",
+        "title": "山西省新型储能装机容量突破5GW",
+        "summary": "区域新型储能装机或并网数据更新，纳入市场景气度跟踪。",
+        "url": "https://news.bjx.com.cn/html/20260901/1510840.shtml",
+        "date": "2026-09-01",
+        "as_of": "2026-09-01",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
+      },
       {
         "id": "1511959",
         "category": "项目招标",
