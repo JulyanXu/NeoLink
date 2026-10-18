@@ -1,7 +1,18 @@
 window.NEOLINK_FEED = {
-  "generated_at": "2026-10-17T08:41:00+08:00",
-  "note": "刷新2026-10-17 08:41：核验北极星储能网10月16日公开列表新增条目，覆盖上海绿电直连方案、雄安独立储能评审标准、200MWh电芯框采及锂资源市场讨论。详情页访问受限，摘要仅依标题结构化改写。",
+  "generated_at": "2026-10-18T08:47:00+08:00",
+  "note": "刷新2026-10-18 08:47：新增内蒙古2GWh储能电芯采购意向公告，价格与结果待后续核验。",
   "headlines": [
+    {
+      "id": "1516633",
+      "category": "项目招标",
+      "title": "内蒙古2GWh储能电芯采购意向公告！≥314Ah！",
+      "summary": "内蒙古发布2GWh储能电芯采购意向并提出≥314Ah规格要求；当前为意向公告，采购结果与价格口径待后续核验。",
+      "url": "https://news.bjx.com.cn/html/20261017/1516633.shtml",
+      "date": "2026-10-17",
+      "as_of": "2026-10-17",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；详情页受阿里云WAF拦截，未据此推断采购结果、金额或正文细节。"
+    },
     {
       "id": "1516581",
       "category": "政策市场",
@@ -100,20 +111,20 @@ window.NEOLINK_FEED = {
       "as_of": "2026-10-14",
       "source": "北极星储能网",
       "methodology": "北极星储能网首页公开列表核验标题、发布日期与详情URL；详情页返回WAF挑战，摘要仅按标题作结构化改写。"
-    },
-    {
-      "id": "1515886",
-      "category": "项目招标",
-      "title": "500MW/2GWh！宁夏网侧共享储能电站EPC招标！",
-      "summary": "宁夏500MW/2GWh网侧共享储能EPC招标，补充大型独立储能项目采购进度观察。",
-      "url": "https://news.bjx.com.cn/html/20261012/1515886.shtml",
-      "date": "2026-10-12",
-      "as_of": "2026-10-12",
-      "source": "北极星储能网",
-      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
     }
   ],
   "latest": [
+    {
+      "id": "1516633",
+      "category": "项目招标",
+      "title": "内蒙古2GWh储能电芯采购意向公告！≥314Ah！",
+      "summary": "内蒙古发布2GWh储能电芯采购意向并提出≥314Ah规格要求；当前为意向公告，采购结果与价格口径待后续核验。",
+      "url": "https://news.bjx.com.cn/html/20261017/1516633.shtml",
+      "date": "2026-10-17",
+      "as_of": "2026-10-17",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；详情页受阿里云WAF拦截，未据此推断采购结果、金额或正文细节。"
+    },
     {
       "id": "1516581",
       "category": "政策市场",
@@ -1202,17 +1213,6 @@ window.NEOLINK_FEED = {
       "as_of": "2026-09-17",
       "source": "北极星储能网",
       "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
-    },
-    {
-      "id": "1513078",
-      "category": "价格材料",
-      "title": "1元/Wh！山西400MW/800MWh储能项目EPC招标",
-      "summary": "储能项目招标/中标动态更新，作为工程价格与项目节奏观察。",
-      "url": "https://news.bjx.com.cn/html/20260916/1513078.shtml",
-      "date": "2026-09-16",
-      "as_of": "2026-09-16",
-      "source": "北极星储能网",
-      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
     }
   ],
   "policy": [
@@ -1504,6 +1504,17 @@ window.NEOLINK_FEED = {
     }
   ],
   "project": [
+    {
+      "id": "1516633",
+      "category": "项目招标",
+      "title": "内蒙古2GWh储能电芯采购意向公告！≥314Ah！",
+      "summary": "内蒙古发布2GWh储能电芯采购意向并提出≥314Ah规格要求；当前为意向公告，采购结果与价格口径待后续核验。",
+      "url": "https://news.bjx.com.cn/html/20261017/1516633.shtml",
+      "date": "2026-10-17",
+      "as_of": "2026-10-17",
+      "source": "北极星储能网",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；详情页受阿里云WAF拦截，未据此推断采购结果、金额或正文细节。"
+    },
     {
       "id": "1516572",
       "category": "项目招标",
@@ -2152,17 +2163,6 @@ window.NEOLINK_FEED = {
       "as_of": "2026-09-09",
       "source": "北极星储能网",
       "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
-    },
-    {
-      "id": "1512100",
-      "category": "项目招标",
-      "title": "0.5725-0.585元/Wh！智光储能、中车株洲所入围甘肃50MW/100MWh储能设备采购",
-      "summary": "材料、系统价格或供需事件更新，纳入价格材料观察。",
-      "url": "https://news.bjx.com.cn/html/20260909/1512100.shtml",
-      "date": "2026-09-09",
-      "as_of": "2026-09-09",
-      "source": "北极星储能网",
-      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
     }
   ],
   "enterprise": [
@@ -2750,6 +2750,14 @@ window.NEOLINK_FEED = {
   "metrics": [],
   "source_index": [
     {
+      "id": "src-bjx-1516633",
+      "title": "内蒙古2GWh储能电芯采购意向公告！≥314Ah！",
+      "url": "https://news.bjx.com.cn/html/20261017/1516633.shtml",
+      "source": "北极星储能网",
+      "as_of": "2026-10-17",
+      "methodology": "北极星储能网首页公开列表核验标题、日期和URL；详情页受阿里云WAF拦截，未据此推断采购结果、金额或正文细节。"
+    },
+    {
       "id": "src-bjx-home-20261017",
       "title": "北极星储能网首页公开列表",
       "url": "https://chuneng.bjx.com.cn/",
@@ -2980,18 +2988,21 @@ window.NEOLINK_FEED = {
       "source": "北极星储能网",
       "as_of": "2026-09-30",
       "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
-    },
-    {
-      "id": "src-bjx-home-20261001",
-      "title": "北极星储能网首页公开列表",
-      "url": "https://chuneng.bjx.com.cn/",
-      "source": "北极星储能网",
-      "as_of": "2026-10-01 09:31 +08:00",
-      "methodology": "curl公开列表抽取当日储能产业标题、日期和URL；不复制正文。"
     }
   ],
   "sections": {
     "headlines": [
+      {
+        "id": "1516633",
+        "category": "项目招标",
+        "title": "内蒙古2GWh储能电芯采购意向公告！≥314Ah！",
+        "summary": "内蒙古发布2GWh储能电芯采购意向并提出≥314Ah规格要求；当前为意向公告，采购结果与价格口径待后续核验。",
+        "url": "https://news.bjx.com.cn/html/20261017/1516633.shtml",
+        "date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；详情页受阿里云WAF拦截，未据此推断采购结果、金额或正文细节。"
+      },
       {
         "id": "1516581",
         "category": "政策市场",
@@ -3090,20 +3101,20 @@ window.NEOLINK_FEED = {
         "as_of": "2026-10-14",
         "source": "北极星储能网",
         "methodology": "北极星储能网首页公开列表核验标题、发布日期与详情URL；详情页返回WAF挑战，摘要仅按标题作结构化改写。"
-      },
-      {
-        "id": "1515886",
-        "category": "项目招标",
-        "title": "500MW/2GWh！宁夏网侧共享储能电站EPC招标！",
-        "summary": "宁夏500MW/2GWh网侧共享储能EPC招标，补充大型独立储能项目采购进度观察。",
-        "url": "https://news.bjx.com.cn/html/20261012/1515886.shtml",
-        "date": "2026-10-12",
-        "as_of": "2026-10-12",
-        "source": "北极星储能网",
-        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
       }
     ],
     "latest": [
+      {
+        "id": "1516633",
+        "category": "项目招标",
+        "title": "内蒙古2GWh储能电芯采购意向公告！≥314Ah！",
+        "summary": "内蒙古发布2GWh储能电芯采购意向并提出≥314Ah规格要求；当前为意向公告，采购结果与价格口径待后续核验。",
+        "url": "https://news.bjx.com.cn/html/20261017/1516633.shtml",
+        "date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；详情页受阿里云WAF拦截，未据此推断采购结果、金额或正文细节。"
+      },
       {
         "id": "1516581",
         "category": "政策市场",
@@ -4192,17 +4203,6 @@ window.NEOLINK_FEED = {
         "as_of": "2026-09-17",
         "source": "北极星储能网",
         "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
-      },
-      {
-        "id": "1513078",
-        "category": "价格材料",
-        "title": "1元/Wh！山西400MW/800MWh储能项目EPC招标",
-        "summary": "储能项目招标/中标动态更新，作为工程价格与项目节奏观察。",
-        "url": "https://news.bjx.com.cn/html/20260916/1513078.shtml",
-        "date": "2026-09-16",
-        "as_of": "2026-09-16",
-        "source": "北极星储能网",
-        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
       }
     ],
     "policy": [
@@ -4494,6 +4494,17 @@ window.NEOLINK_FEED = {
       }
     ],
     "project": [
+      {
+        "id": "1516633",
+        "category": "项目招标",
+        "title": "内蒙古2GWh储能电芯采购意向公告！≥314Ah！",
+        "summary": "内蒙古发布2GWh储能电芯采购意向并提出≥314Ah规格要求；当前为意向公告，采购结果与价格口径待后续核验。",
+        "url": "https://news.bjx.com.cn/html/20261017/1516633.shtml",
+        "date": "2026-10-17",
+        "as_of": "2026-10-17",
+        "source": "北极星储能网",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；详情页受阿里云WAF拦截，未据此推断采购结果、金额或正文细节。"
+      },
       {
         "id": "1516572",
         "category": "项目招标",
@@ -5142,17 +5153,6 @@ window.NEOLINK_FEED = {
         "as_of": "2026-09-09",
         "source": "北极星储能网",
         "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
-      },
-      {
-        "id": "1512100",
-        "category": "项目招标",
-        "title": "0.5725-0.585元/Wh！智光储能、中车株洲所入围甘肃50MW/100MWh储能设备采购",
-        "summary": "材料、系统价格或供需事件更新，纳入价格材料观察。",
-        "url": "https://news.bjx.com.cn/html/20260909/1512100.shtml",
-        "date": "2026-09-09",
-        "as_of": "2026-09-09",
-        "source": "北极星储能网",
-        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
       }
     ],
     "enterprise": [
@@ -5740,6 +5740,14 @@ window.NEOLINK_FEED = {
     "metrics": [],
     "source_index": [
       {
+        "id": "src-bjx-1516633",
+        "title": "内蒙古2GWh储能电芯采购意向公告！≥314Ah！",
+        "url": "https://news.bjx.com.cn/html/20261017/1516633.shtml",
+        "source": "北极星储能网",
+        "as_of": "2026-10-17",
+        "methodology": "北极星储能网首页公开列表核验标题、日期和URL；详情页受阿里云WAF拦截，未据此推断采购结果、金额或正文细节。"
+      },
+      {
         "id": "src-bjx-home-20261017",
         "title": "北极星储能网首页公开列表",
         "url": "https://chuneng.bjx.com.cn/",
@@ -5970,14 +5978,6 @@ window.NEOLINK_FEED = {
         "source": "北极星储能网",
         "as_of": "2026-09-30",
         "methodology": "北极星储能网首页公开列表核验标题、日期和URL；摘要为结构化改写，不复制正文。"
-      },
-      {
-        "id": "src-bjx-home-20261001",
-        "title": "北极星储能网首页公开列表",
-        "url": "https://chuneng.bjx.com.cn/",
-        "source": "北极星储能网",
-        "as_of": "2026-10-01 09:31 +08:00",
-        "methodology": "curl公开列表抽取当日储能产业标题、日期和URL；不复制正文。"
       }
     ]
   }
