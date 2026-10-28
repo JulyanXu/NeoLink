@@ -1,136 +1,49 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NeoLink 信息详情</title>
-    <link rel="icon" type="image/png" sizes="256x256" href="./favicon.png?v=33" />
-    <script>
-      (() => {
-        const saved = localStorage.getItem("neolink-theme");
-        const system = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-        document.documentElement.dataset.theme = saved || system;
-      })();
-    </script>
-    <link rel="stylesheet" href="./styles.css?v=21" />
-  </head>
-  <body class="article-page">
-    <div class="app-shell">
-      <aside class="sidebar" aria-label="主导航">
-        <a class="brand" href="./index.html" aria-label="NeoLink 首页">
-          <span class="brand-mark" aria-hidden="true"></span>
-          <strong>NeoLink</strong>
-        </a>
-
-        <nav class="side-nav">
-          <a class="nav-item" href="./index.html" data-section="dashboard">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg>
-            总览
-          </a>
-          <a class="nav-item active" href="./news-more.html?section=latest" data-section="news">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>
-            内容索引
-          </a>
-          <a class="nav-item" href="./enterprise-map.html" data-section="trend">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V7l8-4 8 4v14M8 21v-4h8v4M8 10h1m3 0h1m3 0h1"/></svg>
-            企业图谱
-          </a>
-          <a class="nav-item" href="./markettrend/" data-section="markettrend">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h16M6 16l4-5 3 3 5-7M6 7h3m7 10h2"/></svg>
-            主材行情索引
-          </a>
-        </nav>
-
-        <section class="promo-card" aria-label="NeoLink 品牌卡片">
-          <img src="./Logo.png" alt="" />
-          <div>
-            <strong>Connect the Battery World</strong>
-            <span>Link the Future</span>
-          </div>
-        </section>
-      </aside>
-
-      <main class="workspace article-workspace">
-        <header class="more-header panel">
-          <div>
-            <a class="back-link" href="./news-more.html?section=latest">返回内容索引</a>
-            <h1 class="more-title">信息详情</h1>
-            <p class="more-subtitle">站内保留摘要、结构化要点和来源记录；原文链接作为出处与复核入口。</p>
-          </div>
-          <button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false">
-            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V2m0 20v-2m8-8h2M2 12h2m14.1-6.1 1.4-1.4M4.5 19.5l1.4-1.4m0-12.2L4.5 4.5m15 15-1.4-1.4M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/></svg>
-            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.4A8 8 0 0 1 8.6 4 8.6 8.6 0 1 0 20 15.4z"/></svg>
-            <span>浅色</span>
-          </button>
-        </header>
-
-        <article class="article-card panel">
-          <div class="article-meta signal-meta"></div>
-          <h2 class="article-title"></h2>
-          <p class="article-summary"></p>
-          <div class="article-actions"></div>
-        </article>
-
-        <section class="article-detail-layout">
-          <div class="article-main-column">
-            <section class="panel article-body-card">
-              <div class="article-block-head">
-                <span>正文</span>
-                <h2>站内正文</h2>
-              </div>
-              <div class="article-body"></div>
-            </section>
-
-            <section class="panel related-section">
-              <div class="article-block-head">
-                <span>延伸</span>
-                <h2>相关信息</h2>
-              </div>
-              <div class="related-list"></div>
-            </section>
-          </div>
-
-          <aside class="article-side-column" aria-label="文章辅助信息">
-            <article class="panel article-section article-keypoint-panel">
-              <div class="article-block-head">
-                <span>要点</span>
-                <h2>关键要点</h2>
-              </div>
-              <div class="article-keypoints" aria-label="关键要点"></div>
-            </article>
-
-            <article class="panel article-section">
-              <div class="article-block-head">
-                <span>字段</span>
-                <h2>信息索引</h2>
-              </div>
-              <ul class="article-facts"></ul>
-            </article>
-
-            <article class="panel article-section">
-              <div class="article-block-head">
-                <span>出处</span>
-                <h2>来源记录</h2>
-              </div>
-              <dl class="article-source"></dl>
-            </article>
-          </aside>
-        </section>
-
-        <footer>
-          <span>© 2026 NeoLink. All rights reserved.</span>
-          <nav aria-label="页脚链接">
-            <a href="https://julyan.space/" target="_blank" rel="noopener noreferrer">About Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Contact Us</a>
-            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备2026052106号-1</a>
-          </nav>
-        </footer>
-      </main>
-    </div>
-
-    <script src="./data/feed.js?v=202606092239"></script>
-    <script src="./article.js?v=20"></script>
-  </body>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="NeoLink 新能源产业情报工作台：连接政策、项目、企业与技术，按主题阅读公开报道，追溯每一项数字的来源。">
+<meta name="theme-color" content="#f5f6f2"><title>报道详情 · NeoLink</title>
+<link rel="icon" href="./favicon.png">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('neolink-theme')||'light'}catch{}</script>
+<link rel="stylesheet" href="./v3.css?v=20260908-3">
+<script defer src="./data/feed.js?v=202610280830"></script>
+<script defer src="./data/enterprise-map-db.js?v=20260515"></script>
+<script defer src="./data-model.js?v=20260908-3"></script>
+<script defer src="./company-view.js?v=20260908-3"></script>
+<script defer src="./app.js?v=20260908-3"></script>
+</head>
+<body>
+<a class="skip-link" href="#content">跳到主要内容</a>
+<aside class="sidebar" aria-label="主导航">
+<a class="brand" href="./index.html"><span class="brand-symbol" aria-hidden="true"></span><span>NeoLink<small>连接新能源产业</small></span></a>
+<div class="nav-caption">WORKSPACE <span>03</span></div>
+<nav class="main-nav">
+<a href="./index.html" data-nav="overview"><span class="nav-number">01</span>情报总览<span class="nav-arrow">↗</span></a>
+<a href="./news-more.html" data-nav="news"><span class="nav-number">02</span>全部动态<span class="nav-count" id="nav-total"></span></a>
+<a href="./index.html?view=projects" data-nav="projects"><span class="nav-number">03</span>项目进程</a>
+<a href="./enterprise-map.html" data-nav="companies"><span class="nav-number">04</span>产业链企业</a>
+<a href="./index.html?view=numbers" data-nav="numbers"><span class="nav-number">05</span>数字观察</a>
+</nav>
+<div class="nav-caption second-caption">MY RESEARCH</div>
+<nav class="main-nav">
+<a href="./index.html?view=saved" data-nav="saved"><span class="nav-number">＋</span>我的收藏<span class="nav-count" id="saved-total">0</span></a>
+<a href="./index.html?view=sources" data-nav="sources"><span class="nav-number">◎</span>来源与口径</a>
+</nav>
+<div class="sidebar-bottom"><span class="status-dot"></span>公开信息 · 可追溯来源<p>Connect the battery world.<br>Link the future.</p><span class="edition">NEOLINK / V3.0</span></div>
+</aside>
+<div class="workspace">
+<header class="topbar">
+<button class="menu-button" type="button" aria-label="展开导航" aria-expanded="false">导航</button>
+<div class="breadcrumb">工作台<span>/</span><strong id="breadcrumb-title">情报总览</strong></div>
+<form class="global-search" role="search"><label for="global-search" class="sr-only">搜索报道、企业与项目</label><span aria-hidden="true">⌕</span><input id="global-search" name="q" type="search" placeholder="搜索报道、企业、项目…" autocomplete="off"><kbd>⌘ K</kbd></form>
+<button class="theme-toggle quiet-button" type="button" aria-label="切换深色模式" aria-pressed="false">深色</button>
+</header>
+<main id="content" tabindex="-1"><div class="loading-state">正在整理产业情报…</div></main>
+<footer class="site-footer"><span>© 2026 NeoLink · 公开信息，连接产业视角</span><div><a href="./index.html?view=sources">数据口径</a><a href="https://julyan.space/" target="_blank" rel="noopener noreferrer">关于</a><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备2026052106号-1</a></div></footer>
+</div>
+<dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-bar"><span class="kicker">NEOLINK / RESEARCH NOTE</span><button class="quiet-button" data-close-dialog type="button" aria-label="关闭详情">关闭 ×</button></div><div id="dialog-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p class="noscript">请启用 JavaScript 查看情报。也可直接访问<a href="https://chuneng.bjx.com.cn/">北极星储能网原始来源</a>。</p></noscript>
+</body>
 </html>
